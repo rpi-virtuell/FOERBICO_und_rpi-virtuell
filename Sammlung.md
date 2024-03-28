@@ -21,6 +21,8 @@
 <li>Moodle: https://moodle.net/</li> 
 <li>Mundo: https://mundo.schule/</li> 
 <li>OERhörnchen (im Ruhestand): https://oerhoernchen.de/</li>
+<li>reliGlobal: https://religlobal.org/</li>
+<li>relithek: https://relithek.de/</li>
 
 
 ### Mit Registrierung / Anmeldung
@@ -59,10 +61,21 @@
 <li>https://www.fachportal-paedagogik.de/</li>
 <li>https://www.edutags.de/</li>
 <li>https://www.pedocs.de/</li>
+<li>https://rke.cidoli.de/webopac/index.asp?DB=w_cibuch</li>
 
 ## Videos
 
 <li>https://imoox.at/mooc/</li>
+<li>https://www.youtube.com/@dokumentarfilm-schulfilme-1568/featured</li>
+<li>https://www.youtube.com/@lieblingsfachreligion</li>
+<li>https://www.youtube.com/@explainity</li>
+<li>https://www.youtube.com/@katholischde/featured</li>
+<li>https://www.youtube.com/@UnigoettingenDeVideos/videos</li>
+<li>https://www.youtube.com/@mbsbibelseminar2477</li>
+<li>https://www.youtube.com/@MrWissen2go/featured</li>
+<li>https://www.youtube.com/@BibleProjectDeutsch</li>
+<li>https://www.youtube.com/@45minuten</li>
+<li>https://www.youtube.com/@MrReliPower</li>
 
 ## Tools
 
@@ -77,3 +90,4 @@
 <li>Bündnis freie Bildung: https://buendnis-freie-bildung.de/</li>
 <li>Corporate Learning Community: https://colearn.de/</li>
 <li>Cogneon Akademie: https://cogneon.de/ mit Wiki: https://wiki.cogneon.de/Hauptseite und Sammlung in Zotero: https://www.zotero.org/groups/599183/cogneon_bibliothek/library</li>
+<li>ALPIKA: https://alpika.de/</li>
