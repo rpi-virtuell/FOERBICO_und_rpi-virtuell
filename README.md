@@ -19,7 +19,7 @@ Wir freuen uns über jede Unterstützung! Du kannst dich auf folgende Arten einb
 - Verbessern und Aktualisieren vorhandener Ressourcen
 - Teilen und Verbreiten der OER in deinem Netzwerk
 
-Um loszulegen, schau dir unsere [Mitwirkungsrichtlinien](CONTRIBUTING.md) an und eröffne ein neues Issue oder sende uns einen Pull Request.
+Um loszulegen, schau dir unsere [Mitwirkungsrichtlinien](contributing.md) an und eröffne ein neues Issue oder sende uns einen Pull Request.
 
 ## Kontakt
 Wenn du Fragen oder Anregungen hast, kontaktiere uns gerne z.B. über unser [Issue-Tracker](https://codeberg.org/Comenius-Institut/fOERbico/issues).
