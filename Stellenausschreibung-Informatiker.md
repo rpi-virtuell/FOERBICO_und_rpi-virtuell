@@ -25,7 +25,13 @@ tags:
 
 # Open
 
-Das Projekt FOERBICO hat das Ziel, verschiedene Communities aus dem Bildungbereich zusammenzubringen und gemeinschaftlich an der Weiterentwicklung religionsbezogener Materialien (OER) zu arbeiten. Dabei verfolgen wir einen Openness-Ansatz, um eine transparente Zusammenarbeit auf Augenhöhe zu ermöglichen. Bist du dabei?  
+Das Projekt FOERBICO hat das Ziel, verschiedene Communities aus dem Bildungbereich zusammenzubringen und gemeinschaftlich an der Weiterentwicklung religionsbezogener Materialien (OER) zu arbeiten. Dabei verfolgen wir einen Openness-Ansatz, um eine transparente Zusammenarbeit auf Augenhöhe zu ermöglichen. 
+
+***Wolltest du schon immer mal...***
+- einen Arbeitsalltag erleben, in dem deine Ideen und Workflows nicht in festgefahrenen Routinen verschwinden, sondern in einem dynamischen, community-orientierten Umfeld aufblühen?
+- nicht nur Code entwickeln, sondern Teil einer Bewegung sein, die sich für Transparenz, Zusammenarbeit und freien Wissensaustausch einsetzt?
+- Pionierarbeit leisten, indem du dezentrale Protokolle und Technologien einsetzt, die die Art und Weise, wie wir online interagieren und lernen, revolutionieren?
+- Teil eines Projektes sein, bei dem du nicht nur deine technischen Fähigkeiten einsetzt, sondern auch aktiv an der Gestaltung einer Community mitwirkst, die Bildung neu denkt?
 
 ---
 
