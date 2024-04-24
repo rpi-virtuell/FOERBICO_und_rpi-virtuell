@@ -37,15 +37,15 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 
 ## Aufgaben:   
 
-1. **Entwicklung von Plattformen:** Entwicklung und Pflege von digitalen Plattformen, die es den Communities ermöglichen, ihre Inhalte, wie Open Educational Resources (OER), zu veröffentlichen und zu teilen. Diese Plattformen müssen benutzerfreundlich, zugänglich und skalierbar sein.
+1. **Entwicklung von Plattformen:** Entwicklung und Pflege von digitalen Plattformen, die es den Communities ermöglichen, ihre Inhalte, wie Open Educational Resources (OER), Personen, Kompetenzen und Bildungsangebote offen zu teilen. Diese Plattformen müssen benutzerfreundlich und skalierbar sein.
 
-2. **Vernetzungsfunktionen:** Implementierung von Tools, die die Vernetzung zwischen verschiedenen Communities fördern. Das kann Chat-Funktionen, Foren, Kommentarsektionen oder gemeinsame Arbeitsbereiche umfassen.
+2. **Vernetzungsfunktionen:** Implementierung von Tools, die die Vernetzung zwischen verschiedenen Communities fördern. Das kann Chat-Funktionen, Kurznachrichtendienste, Kommentarsektionen oder Contentpools für gemeinsame Arbeitsbereiche auf der Basis dezntraler Protokolle umfassen.
 
-3. **Datenmanagement und -analyse:** Erstellung und Management von Datenbanken, die die Inhalte und Interaktionen speichern. Zudem die Analyse dieser Daten, um Einblicke in das Nutzungsverhalten zu gewinnen und die Plattform entsprechend anzupassen.
+3. **Datenmanagement und -analyse:** Erstellung und Management von Datenbanken, die Metadaten, Inhalte, Alktivitäten und Interaktionen speichern und dezentral verfügbar machen. Zudem die Analyse dieser Daten, um Einblicke in das Nutzungsverhalten zu gewinnen und die Plattform entsprechend anzupassen.
 
-4. **Sicherheit und Datenschutz:** Gewährleistung der Sicherheit der Plattform durch Implementierung aktueller Sicherheitsmaßnahmen. Sicherstellung, dass die Plattform die Datenschutzstandards einhält, besonders im Hinblick auf die Speicherung und Verarbeitung von Benutzerdaten.
+4. **Zugänglichkeit und Datenschutz:** Sicherstellen, dass die Web-Zugänglichkeitsstandards (wie WCAG) eingehalten werden und Gewährleistung der Sicherheit der Plattform durch Implementierung aktueller Sicherheitsmaßnahmen.
 
-5. **Interoperabilität:** Sicherstellung, dass die entwickelten Systeme und Tools gut mit anderen gängigen Technologien und Plattformen zusammenarbeiten können, um eine breite Nutzbarkeit und Vernetzung zu fördern.
+5. **Interoperabilität:** Sicherstellung, dass die entwickelten Systeme und Tools gut mit anderen gängigen Technologien und OER-Plattformen zusammenarbeiten können, um eine breite Nutzbarkeit und Vernetzung zu fördern.
 
 6. **Innovationsförderung:** Einsatz neuester Technologien und Forschungsergebnisse, um innovative Lösungen für die Herausforderungen und Bedürfnisse der Communities zu entwickeln.
 
