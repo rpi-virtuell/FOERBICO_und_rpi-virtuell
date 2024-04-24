@@ -37,22 +37,17 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 
 ## Aufgaben:   
 
-> Die Aufgabenbeschreibung hört sich nach "Mädchen für alles" an. 
-> Ich schlage vor hier zu beschreiben, welche Rolle die Person im Team und im Netwzerk spielen wird und was sie dort bewegen kann.
+1. **Entwicklung von Plattformen:** Entwicklung und Pflege von digitalen Plattformen, die es den Communities ermöglichen, ihre Inhalte, wie Open Educational Resources (OER), zu veröffentlichen und zu teilen. Diese Plattformen müssen benutzerfreundlich, zugänglich und skalierbar sein.
 
-* Aufbau, Betreuung und Weiterentwicklung von Microservices
-* Gewährleistung der Verfügbarkeit und Performance der angebotenen Dienste 
-* Netzwerk- und Serveradministration (Hard- und Software)
-* Aufbau, Bereitstellung und Betreuung einer Logging- und Monitoring-Lösung der gesamten Infrastruktur
-* Aufbau, Weiterentwicklung und Pflege der CI/CD-Umgebung
-* Technische Standardisierung und Automatisierung wichtiger Abläufe
-* Benutzendenadministration
-* Analyse und Lösung von technischen Problemen einzelner Dienste
-* Einbringung eigener Ideen oder Entwicklung eigener Dienste/Tools und Implementierung 
-* Zusammenarbeit und fachlicher Austausch mit internen und externen IT-Abteilungen und Dienstleistenden
-* Erstellen und Ausbauen der IT-Dokumentation
-* Webentwicklung (Designentwicklung)
-* Schnittstellenmanagement
+2. **Vernetzungsfunktionen:** Implementierung von Tools, die die Vernetzung zwischen verschiedenen Communities fördern. Das kann Chat-Funktionen, Foren, Kommentarsektionen oder gemeinsame Arbeitsbereiche umfassen.
+
+3. **Datenmanagement und -analyse:** Erstellung und Management von Datenbanken, die die Inhalte und Interaktionen speichern. Zudem die Analyse dieser Daten, um Einblicke in das Nutzungsverhalten zu gewinnen und die Plattform entsprechend anzupassen.
+
+4. **Sicherheit und Datenschutz:** Gewährleistung der Sicherheit der Plattform durch Implementierung aktueller Sicherheitsmaßnahmen. Sicherstellung, dass die Plattform die Datenschutzstandards einhält, besonders im Hinblick auf die Speicherung und Verarbeitung von Benutzerdaten.
+
+5. **Interoperabilität:** Sicherstellung, dass die entwickelten Systeme und Tools gut mit anderen gängigen Technologien und Plattformen zusammenarbeiten können, um eine breite Nutzbarkeit und Vernetzung zu fördern.
+
+6. **Innovationsförderung:** Einsatz neuester Technologien und Forschungsergebnisse, um innovative Lösungen für die Herausforderungen und Bedürfnisse der Communities zu entwickeln.
 
 ## Voraussetzungen:
 
@@ -61,6 +56,7 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 * Kenntnisse mit dezentralen Protokollen: Matrix, Activitypub, Nostr..
 * Kenntnisse im Umgang mit WordPress sowie der Plugin- & Block-Entwicklung
 * Kenntnisse des Versionskontrollsystems Git und Github
+* Vertraut mit Schnittstellenmanagement und API-Entwicklung
 
 
 ## Wir bieten
@@ -91,6 +87,7 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 * eigenverantwortliche und lösungsorientierte Arbeitsweise und ein hohes Maß an Selbstorganisation
 * Fähigkeit und Bereitschaft zum selbständigen, gründlichen und konzeptionellen Arbeiten
 * Sicheres Deutsch und grundsätzliches Interesse an Vernetzung 
+* ein gutes Verständnis für soziale Dynamiken und Bedürfnisse innerhalb von Community-Netzwerken
 
 ## Fragen
 
