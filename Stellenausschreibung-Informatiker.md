@@ -35,7 +35,10 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 
 > Die hier ausgeschriebene Stelle hat insbesondere die Entwicklung und Instandhaltung einer Community-Infrastruktur mit Schnittstellenverknüpfungen im Rahmen des Projektes FOERBICO als Schwerpunkt.
 
-## Aufgaben:
+## Aufgaben:   
+
+> Die Aufgabenbeschreibung hört sich nach "Mädchen für alles" an. 
+> Ich schlage vor hier zu beschreiben, welche Rolle die Person im Team und im Netwzerk spielen wird und was er dort bewegen kann.
 
 * Aufbau, Betreuung und Weiterentwicklung von Microservices
 * Gewährleistung der Verfügbarkeit und Performance der angebotenen Dienste 
