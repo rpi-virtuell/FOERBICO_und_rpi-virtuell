@@ -38,7 +38,7 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 ## Aufgaben:   
 
 > Die Aufgabenbeschreibung hört sich nach "Mädchen für alles" an. 
-> Ich schlage vor hier zu beschreiben, welche Rolle die Person im Team und im Netwzerk spielen wird und was er dort bewegen kann.
+> Ich schlage vor hier zu beschreiben, welche Rolle die Person im Team und im Netwzerk spielen wird und was sie dort bewegen kann.
 
 * Aufbau, Betreuung und Weiterentwicklung von Microservices
 * Gewährleistung der Verfügbarkeit und Performance der angebotenen Dienste 
