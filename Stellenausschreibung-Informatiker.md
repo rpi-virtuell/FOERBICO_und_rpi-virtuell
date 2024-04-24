@@ -75,7 +75,6 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 * freie Wahl der Arbeitsgeräte und Betriebssysteme
 * einmalige Jahressonderzahlung (Weihnachtsgeld)
 * eine Vergütung im Rahmen des Tarifvertrages der Dienstverordnung der EKD (DVO. EKD i. V. m. TVÖD Bund) entsprechend der individuellen Qualifikation bis Entgeltgruppe E 13
-> ***Gildt diese Einstufung nur für Master/Diplom (dann bitte hinzufügen) oder auch für Fachinformatiker (Gründe für die Gehaltsdifferenzierung müssen  innerhalb des CI-Teams sachlich gerechtfertigt und transparentsein!)?***  
 
 ## Fachliches Profil
 
