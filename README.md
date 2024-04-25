@@ -9,7 +9,7 @@ Dieses Projekt fördert und unterstützt Communities, die offene Bildungsressour
 OER sind kostengünstig, fördern Transparenz und ermöglichen es Lernenden, aktiv am Lernprozess teilzunehmen. Sie unterstützen das Konzept des lebenslangen Lernens und tragen zur Verbreitung von Wissen bei.
 
 ## Lizenzierung
-Dieses Projekt steht unter der [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.de). Diese Lizenz erlaubt es dir, das Material zu teilen und weiterzuentwickeln, solange du den Urheber nennst und deine Beiträge unter der gleichen Lizenz veröffentlichst.
+Dieses Projekt steht unter der [Creative Commons - Namensnennung 4.0 International Lizenz (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de). Diese Lizenz erlaubt es dir, das Material zu teilen und weiterzuentwickeln, solange du den Urheber nennst.
 
 ## Wie kann ich mitmachen?
 Wir freuen uns über jede Unterstützung! Du kannst dich auf folgende Arten einbringen:
