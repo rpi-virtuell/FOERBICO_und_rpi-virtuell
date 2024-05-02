@@ -57,11 +57,9 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 
 ## Voraussetzungen:
 
-* Kenntnisse der Sprachen Python, JavaScript, Node.js (und Alternativen), PHP, Python, SQL, NO-SQL
-* Grundkenntnisse in der programmatischen Verwendung von Large Language Models (LLMs)
-* Kenntnisse mit dezentralen Protokollen: Matrix, Activitypub, Nostr..
+* Kenntnisse in einer der folgenden Sprachen und Bereitschaft weitere zu lernen:  Python, Node.js, PHP, Python
+* Grundkenntnisse in der Verwendung von Large Language Models (LLMs)
 * Kenntnisse im Umgang mit WordPress sowie der Plugin- & Block-Entwicklung
-* Kenntnisse des Versionskontrollsystems Git und Github
 * Vertraut mit Schnittstellenmanagement und API-Entwicklung
 
 
