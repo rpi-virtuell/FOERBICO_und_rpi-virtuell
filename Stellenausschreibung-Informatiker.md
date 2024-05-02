@@ -57,7 +57,8 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 
 ## Voraussetzungen:
 
-* Kenntnisse in einer der folgenden Sprachen und Bereitschaft weitere zu lernen:  Python, Node.js, PHP, Python
+* Kenntnisse in einer der folgenden Sprachen:  Python, Node.js, PHP, Python
+* Bereitschaft sich in neue Sprachen und Techniken einzuarbeiten
 * Grundkenntnisse in der Verwendung von Large Language Models (LLMs)
 * Kenntnisse im Umgang mit WordPress sowie der Plugin- & Block-Entwicklung
 * Vertraut mit Schnittstellenmanagement und API-Entwicklung
@@ -66,17 +67,15 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 ## Wir bieten
 
 * die Möglichkeit, etwas Eigenes zu erschaffen (Code, Services, Tools, Angebote usw.) anstatt Routinen zu folgen und nur Fremdsoftware zu verwalten
-* individuelle Voraussetzungen für die Vereinbarkeit von Familie und Beruf
+* individuelle Möglichkeiten für die Vereinbarkeit von Familie und Beruf
 * selbstständiges und kreatives Arbeiten, ergebnisorientierte Arbeitsweise
 * auf Wunsch komplette Remote-Arbeit möglich, sonst Dienstort Münster
-* sehr flexible Arbeitszeiten und Homeoffice-Planung
-* freie Wahl der Arbeitsgeräte und Betriebssysteme
-* einmalige Jahressonderzahlung (Weihnachtsgeld)
+* flexible Arbeitszeiten und Homeoffice-Planung
 * eine Vergütung im Rahmen des Tarifvertrages der Dienstverordnung der EKD (DVO. EKD i. V. m. TVÖD Bund) entsprechend der individuellen Qualifikation bis Entgeltgruppe E 13
 
 ## Fachliches Profil
 
-* Hochschulstudium Ausrichtung Informatik, Softwareentwicklung, Information-, Kommunikationstechnik oder Medientechnik (Abschluss: Master, Diplom Universität) oder vergleichbare Qualifikation (z.B. Ausbildung im Bereich Fachinformatik)
+* Hochschulstudium mit Bezug zur Informatik oder abgeschlossene Ausbildung im Bereich Informatik
 * Praktische Erfahrungen im Bereich der Administration von Linux-Systemen
 * Erfahrungen im Aufbau und Betrieb von selbstgehosteten Web-Diensten
 * Interesse, Anforderungen nur mit Open-Source-Technologien zu lösen
@@ -94,13 +93,13 @@ Das Comenius-Institut Evangelische Arbeitsstätte für Erziehungswissenschaft e.
 
 ## Fragen
 
-Weitere Informationen erteilt Direktor Dr. Jens Dechow, 0251-98101-25. Bei inhaltlichen Fragen zum Projekt, wenden Sie sich an Projektleiter Jörg Lohrer [lohrer@comenius.de](mailto: lohrer@comenius.de). Fragen zu den inhaltlichen Anforderungen können an Joachim Happel [happel@comenius.de](mailto: happel@comenius.de) gestellt werden.  
+Weitere Informationen erteilen Jörg Lohrer [lohrer@comenius.de](mailto: lohrer@comenius.de) (Community) und [Joachim Happel](mailto: happel@comenius.de)  (Technik). 
 
 
 ## Bewerbungsmodalitäten
 
 Wir freuen uns auf Ihre aussagekräftige Bewerbung.
-Ihre Bewerbung richten Sie bitte bis zum **xx.yy.2024** per Email an [reuter@comenius.de](mailto:reuter@comenius.de). Nachfragen zu den Bewerbungsmodalitäten richten Sie bitte an Verwaltungsleiterin Frau Birgit Reuter, Tel.: 0251-98101-12.
+Ihre Bewerbung richten Sie zeitnah per Email an [reuter@comenius.de](mailto:reuter@comenius.de). Nachfragen zu den Bewerbungsmodalitäten richten Sie bitte an Verwaltungsleiterin Frau Birgit Reuter, Tel.: 0251-98101-12.
 
 ---
 
