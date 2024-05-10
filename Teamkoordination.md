@@ -1,5 +1,7 @@
 ### rpi-virtuell & fOERbico Kommunikation und Organisation 
-[Infografik](https://excalidraw.com/#room=6b3f6728937b23d6e88e,jypdZhAQJ9LRNzejWiLiuw)
+[Infografik](https://excalidraw.com/#room=6b3f6728937b23d6e88e,jypdZhAQJ9LRNzejWiLiuw):
+
+![](https://codeberg.org/Comenius-Institut/fOERbico/raw/branch/main/assets/rpico-team.jpg)
 
 # Synchrone Teamkommunikation
 
@@ -83,6 +85,8 @@ Blick auf die Boards:
 * [HedgeDoc - Ideas grow better together](https://pad.gwdg.de/) Kollaborativer Markdown Editor
 
 * [online text editor - collabedit](https://collabedit.com/) Kollaborativer Code Editor
+
+* [Excalidraw | Hand-drawn look & feel • Collaborative • Secure](https://excalidraw.com/) Realtime Witeboard
  
 
 #rpi #foerbico 
