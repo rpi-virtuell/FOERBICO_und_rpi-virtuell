@@ -34,7 +34,7 @@
 
 ## Verlage & Institute
 
-<li>Vandenhoeck & Ruprecht: https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/schule-und-unterricht/religion/?p=1&o=9&n=12&f=118%7C132</</li>
+<li>Vandenhoeck & Ruprecht: https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/schule-und-unterricht/religion/?p=1&o=9&n=12&f=118%7C132</li>
 <li>Waxmann: https://www.waxmann.com/waxmann-buecher/openaccess/</li>
 <li>Nomos: https://www.nomos-elibrary.de/</li>
 <li>Biblioscout: https://biblioscout.net/textbooks/textbooks</li>
