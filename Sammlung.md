@@ -26,6 +26,7 @@
 <li>Produktdatenbank Alphabetisierung und Grundbildung: https://alpha-material.de/</li>
 
 
+
 ### Mit Registrierung / Anmeldung
 
 <li>Eduki: https://eduki.com/de/stiftung/unterrichtsmaterial/1722/religion</li>
@@ -50,6 +51,7 @@
 <li>Virtuelle Hochschule Bayern: https://oer.vhb.org</li>
 <li>TU Darmstadt: https://openlearnware.tu-darmstadt.de/</li>
 <li>Uni Bremen: https://oncourse.uni-bremen.de/, https://path2in.uni-bremen.de/ & https://blogs.uni-bremen.de/didaktikpflege/</li>
+<li>Hochschulen Baden-Württemberg: https://www.oerbw.de/edu-sharing/components/search?viewType=1</li>
 
 
 ## Suchmaschinen
