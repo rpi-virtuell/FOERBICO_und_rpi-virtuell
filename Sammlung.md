@@ -52,6 +52,7 @@
 <li>TU Darmstadt: https://openlearnware.tu-darmstadt.de/</li>
 <li>Uni Bremen: https://oncourse.uni-bremen.de/, https://path2in.uni-bremen.de/ & https://blogs.uni-bremen.de/didaktikpflege/</li>
 <li>Hochschulen Baden-Württemberg: https://www.oerbw.de/edu-sharing/components/search?viewType=1</li>
+<li> Universität Konstanz: https://www.kim.uni-konstanz.de/openscience/freie-bildungsmaterialien-oer/</li>
 
 
 ## Suchmaschinen
