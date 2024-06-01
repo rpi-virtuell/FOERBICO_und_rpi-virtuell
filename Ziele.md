@@ -34,7 +34,7 @@ Das Projekt zielt darauf ab, bestehende religionsbezogene OER-Communities zu st�
    - Förderung der Qualitätsentwicklung von Fortbildungsformaten durch Design-Based-Research-basierte Begleitforschung.
 
 
-# Technische Aspekte der Projektstruktur für fOERbico
+# Technische Aufgaben im Projekt fOERbico
 
 ## Technische Konzeption
 - **Entwicklung eines Community-Hubs:** Der Community-Hub dient als zentrale Plattform für die Verknüpfung und Zusammenarbeit der OER-Communities. Er ermöglicht die Erfassung und Visualisierung von Aktivitäten, Kooperationen und Ressourcen. Der Hub wird öffentlich zugänglich gemacht und soll nachhaltige Verbindungen zwischen den Communities schaffen.
