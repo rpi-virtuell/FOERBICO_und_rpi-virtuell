@@ -6,4 +6,4 @@ TLB-Browse ist open-source und kann heir direkt verwendet werden: https://www.tl
 
 Github: https://github.com/SawyerHood/tlbrowse 
 
-<video src="/attachments/e5e0b70e-d5ff-42c0-9184-d462a048e679" title="mockup-oer-community.mp4" controls></video>
+<video src="https://codeberg.org/Comenius-Institut/fOERbico/raw/branch/main/assets/mockup-oer-community.mp4" title="mockup-oer-community.mp4" controls></video>
