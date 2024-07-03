@@ -1,5 +1,7 @@
 # fOERbico Über Uns 
 (á la KNOER siehe: https://kn-oer.de/ueber-uns/#section-ueber-knoer)
+Pad: https://pad.gwdg.de/n-lVPN7uTq6pLLBPl2zTaw?both
+git: https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/ueberuns.md
 
 ## Was ist fOERbico?
 
