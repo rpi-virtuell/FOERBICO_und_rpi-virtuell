@@ -22,6 +22,6 @@ Wir freuen uns über jede Unterstützung! Du kannst dich auf folgende Arten einb
 Um loszulegen, schau dir unsere [Mitwirkungsrichtlinien](contributing.md) an und eröffne ein neues Issue oder sende uns einen Pull Request.
 
 ## Kontakt
-Wenn du Fragen oder Anregungen hast, kontaktiere uns gerne z.B. über unser [Issue-Tracker](/issues).
+Wenn du Fragen oder Anregungen hast, kontaktiere uns gerne z.B. über unser [Issue-Tracker](https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/issues).
 
 Vielen Dank für dein Interesse an unserem OER-Projekt!
