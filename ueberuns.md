@@ -1,4 +1,5 @@
 ---
+
 name: 'Über Uns'
 slug: 'ueberuns'
 description: 'Was ist fOERbico?
@@ -6,6 +7,7 @@ category: ['Posts/info', 'Grundlagen']
 tags: ['foerbico', 'OER']
 status: 'draft'
 post_type: 'post'
+
 ---
 
 # fOERbico Über Uns 
