@@ -1,3 +1,13 @@
+---
+name: 'Über Uns'
+slug: 'ueberuns'
+description: 'Was ist fOERbico?
+category: ['Posts/info', 'Grundlagen']
+tags: ['foerbico', 'OER']
+status: 'draft'
+post_type: 'post'
+---
+
 # fOERbico Über Uns 
 (á la KNOER siehe: https://kn-oer.de/ueber-uns/#section-ueber-knoer)
 Pad: https://pad.gwdg.de/n-lVPN7uTq6pLLBPl2zTaw?both
