@@ -1,3 +1,14 @@
+---
+name: 'Lernmodul: Künstliche Intelligenz im Religionsunterricht'
+slug: 'KI-im-RU'
+description: 'In dieser #OER entwickeln wir die Anwendung von Künstlicher Intelligenz im Religionsunterricht, fokussiert auf drei Hauptaspekte: Potenziale, Herausforderungen und ethische Überlegungen'
+category: ['Posts/info', 'Grundlagen']
+tags: ['foerbico', 'OER', 'Religionsunterricht']
+status: 'published'
+post_type: 'post'
+---
+
+
 # Lernmodul: Künstliche Intelligenz im Religionsunterricht
 
 In dieser #OER entwickeln wir die Anwendung von Künstlicher Intelligenz im Religionsunterricht, fokussiert auf drei Hauptaspekte: Potenziale, Herausforderungen und ethische Überlegungen.
