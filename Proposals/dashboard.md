@@ -1,20 +1,19 @@
-#Proposal: Zentrales Dashboard und Portal
+# Proposal: Offenes Dasboard zur Visualisierung des Netzwerkes
 
-**Ziel:** Bereitstellung eines zentralen Dashboards zur Visualisierung und Verwaltung der Aktivitäten aller Communities.
+**Ziel:** Bereitstellung eines Dashboards zur Visualisierung und Erweiterung der Aktivitäten aller Communities.
 
 - **Beschreibung:** Entwicklung eines zentralen Dashboards, das Daten aus allen vernetzten Systemen aggregiert und visualisiert.
 - **Vorteile:**
   - Transparente Übersicht über Aktivitäten und Ressourcen.
   - Bessere Vernetzung und Zusammenarbeit.
   - Einfache Zugänglichkeit und Navigation.
+  - Anschlussmöglichekeiten für weitere Commnunities
 - **Maßnahmen:**
   - Entwicklung eines zentralen Dashboards in WordPress oder einem anderen CMS.
   - Integration von Datenquellen über APIs.
   - Implementierung von Visualisierungen und interaktiven Elementen.
 
-  ### Proposal: Kombinierte Nutzung von WordPress Multi-Site und einem verteilten System
-
-**Ziel:** Schaffung einer flexiblen und skalierbaren Plattform, die sowohl die Vorteile einer zentralen WordPress Multi-Site-Installation als auch eines verteilten Systems nutzt, um den vielfältigen Anforderungen und bestehenden Infrastrukturen der Communities gerecht zu werden.
+**Multisite:** Schaffung einer flexiblen und skalierbaren Plattform, die sowohl die Vorteile einer zentralen WordPress Multi-Site-Installation als auch eines verteilten Systems nutzt, um den vielfältigen Anforderungen und bestehenden Infrastrukturen der Communities gerecht zu werden.
 
 ### Beschreibung:
 Die kombinierte Nutzung von WordPress Multi-Site und einem verteilten System ermöglicht es, sowohl neue als auch bestehende Communities zu integrieren. Neue Communities können über die Multi-Site-Installation verwaltet werden, während bestehende Systeme und andere CMS über APIs und Middleware vernetzt werden.
