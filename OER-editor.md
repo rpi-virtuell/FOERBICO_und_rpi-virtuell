@@ -8,7 +8,7 @@ Hier entsteht eine kleine Sammlung von OER-Editoren zur Inspiration und Weiteren
 - https://oercommons.org/authoring-overview
 - https://en.serlo.org/editor mit [Anleitung](https://de.serlo.org/community/159135/editor-anleitung)
 - https://www.tutory.de/ inkl. [Anleitung](https://faq.tutory.de/de/Editor/Menues)
-- https://liascript.github.io/LiveEditor/ [Anleitung](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
+- https://liascript.github.io/LiveEditor/ mit [Anleitung](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
 
 Auch interessant:
 
