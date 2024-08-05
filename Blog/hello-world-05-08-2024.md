@@ -74,9 +74,9 @@ Ludgar ist Informatiker unterstützt die technische Umsetzung des Projektes.
 
 ![](http://oer.community/wp-content/uploads/2024/05/Profilbild_Laura.jpg)
 
-### Laura Mößle
+### Dr. Laura Mößle
 
-Wissenschaftliche Mitarbeiterin bei Prof. Dr. Viera Pirker (Professur für Religionspädagogik und Mediendidaktik) im Fachbereich Katholische Theologie an der Goethe-Universität und unterstützt FOERBICO im Kontext Vernetzung & Community-Aufbau in der Wissenschaft.
+Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeiterin bei Prof. Dr. Viera Pirker an der Professur für Religionspädagogik und Mediendidaktik am Fachbereich Katholische Theologie an der Goethe-Universität tätig. Sie unterstützt FOERBICO im Kontext Vernetzung & Community-Aufbau in der Wissenschaft.
 
 
 ![](http://oer.community/wp-content/uploads/2024/06/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo_07.2022.svg.png)
