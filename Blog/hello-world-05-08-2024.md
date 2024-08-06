@@ -68,11 +68,11 @@ Gina unterstützt das Projekt im Community-Management und ist für die Öffentli
 
 ### Ludger Sicking
 
-Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softwareentwickler im Automobilbereich. Im fOERbico Projekt
+Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softwareentwickler im Automobilbereich. Im FOERBICO Projekt
  unterstützt er bei der technischen Umsetzung.
 
-![](http://oer.community/wp-content/uploads/2024/06/Goethe-Logo.svg.png)
 
+![](http://oer.community/wp-content/uploads/2024/06/Goethe-Logo.svg.png)
 
 ![](http://oer.community/wp-content/uploads/2024/05/Profilbild_Laura.jpg)
 
@@ -82,7 +82,6 @@ Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeit
 
 
 ![](http://oer.community/wp-content/uploads/2024/06/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo_07.2022.svg.png)
-
 
 ![](http://oer.community/wp-content/uploads/2024/05/Phillip-Angelina-240x320-1.jpeg)
 
@@ -98,6 +97,8 @@ Philipp ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrs
 - Experimentier- und Vernetzungsräume zum Erfahrungsaustausch und zur gemeinsamen Entwicklung von Qualitätsstandards & Metadaten
 
 - Entwicklung fachportalübergreifender Daten- & Rdeaktionssysteme, um isolierte Aktivitäten zu verhindern und Anschlussfähigkeit sowie Verbreitung von OER zu fördern
+
+- OER-Entwicklung  an Hochschulen vorantreiben durch Förderung einer OER-Community in der wissenschaftlichen Religionspädagogik & Theologie
 
 - Empirische OER-Creator- & User-Befragungen zur Erhebung von Bedarfen und zur Qualitätsentwicklung von Fortbildungsformaten
 
