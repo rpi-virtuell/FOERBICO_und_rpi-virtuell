@@ -64,9 +64,9 @@ Jörg ist Projektkoordinator und unterstützt das Community-Management.
 
 Gina unterstützt das Projekt im Community-Management und ist für die Öffentlichkeitsarbeit verantwortlich.
 
-### Ludgar Sicking
+### Ludger Sicking
 
-Ludgar ist Informatiker unterstützt die technische Umsetzung des Projektes.
+Ludger ist Informatiker unterstützt die technische Umsetzung des Projektes.
 
 
 ![](http://oer.community/wp-content/uploads/2024/06/Goethe-Logo.svg.png)
