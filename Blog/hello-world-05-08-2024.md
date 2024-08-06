@@ -64,6 +64,8 @@ Jörg ist Projektkoordinator und unterstützt das Community-Management.
 
 Gina unterstützt das Projekt im Community-Management und ist für die Öffentlichkeitsarbeit verantwortlich.
 
+![](http://oer.community/wp-content/uploads/2024/08/ludgOER.jpg)
+
 ### Ludger Sicking
 
 Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softwareentwickler im Automobilbereich. Im fOERbico Projekt
