@@ -37,7 +37,7 @@ datePublished: '2024-08-05'
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋
 
-FOERBICO ist ein Verbundprojekt des [Comenius-Instituts in Münster](https://comenius.de), der [Goethe-Universität in Frankfurt am Main](https://www.uni-frankfurt.de/de) und der [Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)](https://www.fau.de/). Das Projekt wird im Rahmen der [OER-Strategie](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/foerbico-projektsteckbrief/) des Bundes finanzierte Förderrichtlinie OE_COM seit Mai 2024 bis Ende April 2027 vom [Bundesministerium für Bildung und Forschung (BMBF)](https://www.bmbf.de/bmbf/de/home/home_node.html) gefördert.
+FOERBICO ist ein Verbundprojekt des [Comenius-Instituts in Münster](https://comenius.de), der [Goethe-Universität in Frankfurt am Main](https://www.uni-frankfurt.de/de) und der [Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)](https://www.fau.de/). Das Projekt wird von Mai 2024 bis Ende April 2027 vom [Bundesministerium für Bildung und Forschung (BMBF)](https://www.bmbf.de/bmbf/de/home/home_node.html) im Rahmen der [OER-Strategie](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/foerbico-projektsteckbrief/) des Bundes gefördert.
 
 ## Das sind wir:
 
