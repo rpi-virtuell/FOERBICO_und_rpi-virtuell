@@ -78,7 +78,7 @@ Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softw
 
 ### Dr. Laura Mößle
 
-Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeiterin bei Prof. Dr. Viera Pirker an der Professur für Religionspädagogik und Mediendidaktik am Fachbereich Katholische Theologie an der Goethe-Universität tätig. Sie unterstützt FOERBICO im Kontext Vernetzung & Community-Aufbau in der Wissenschaft.
+Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeiterin bei Prof. Dr. Viera Pirker an der Professur für Religionspädagogik und Mediendidaktik am Fachbereich Katholische Theologie an der Goethe-Universität tätig. Sie unterstützt FOERBICO bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
 
 
 ![](http://oer.community/wp-content/uploads/2024/06/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo_07.2022.svg.png)
@@ -88,7 +88,7 @@ Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeit
 
 ### Phillip Angelina
 
-Wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für Religionspädagogik und Didaktik des ev. Religionsunterrichts / Forschungsstelle für Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische Begleitforschung.
+Philipp ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische Begleitforschung.
 
 
 ## Gemeinsam möchten wir offene Bildungspraktiken in religionsbezogenen Communities fördern - und zwar so:
