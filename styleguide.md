@@ -9,6 +9,11 @@ https://pad.gwdg.de/HPEME6K7RFqY88CnljChOg#
 
 Farbe: #203a8f
 
+## fOERbico-Schriftart (FONT)
+[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed/about)
+
+
+
 ## git-Logo
 Vorlage forgejo:
 [https://codeberg.org/forgejo/governance/src/branch/main/branding#logo](https://codeberg.org/forgejo/governance/src/branch/main/branding#logo)
