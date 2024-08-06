@@ -66,8 +66,8 @@ Gina unterstützt das Projekt im Community-Management und ist für die Öffentli
 
 ### Ludger Sicking
 
-Ludger ist Informatiker unterstützt die technische Umsetzung des Projektes.
-
+Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softwareentwickler im Automobilbereich. Im fOERbico Projekt
+ unterstützt er bei der technischen Umsetzung.
 
 ![](http://oer.community/wp-content/uploads/2024/06/Goethe-Logo.svg.png)
 
