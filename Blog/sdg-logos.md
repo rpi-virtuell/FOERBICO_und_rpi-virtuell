@@ -20,7 +20,7 @@ Als Denkmodell für die expermimentelle Umsetzung hat mich Dr. Juliane Ta Van mi
 
 ## Das Trilemma der Inklusion für #OER
 
-http://oer.community/wp-content/uploads/2024/08/SDG-Video1.mp4
+http://oer.community/wp-content/uploads/2024/08/SDG-inklusion-OER-Video.mp4
 
 Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/index.php/inklusion-online/article/view/413/317) kann also experimentell hier auf das Thema Copyright/Urheberrecht und die Verwendung der SDG-Symbole (Sustainable Development Goals) im Kontext von Openness und Open Educational Resources (OER) angewendet werden. Dabei lassen sich die drei Aspekte des Trilemmas – Empowerment, Normalisierung und Dekonstruktion – entsprechend übertragen:
 
