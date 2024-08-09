@@ -8,24 +8,26 @@ Da wir ebenfalls unser FOERBICO-Logo in den Kontext von SDG 17 "[Partnerschaften
 Die **grundlegende Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht**, die in der Verwaltungsanweisung [ST/AI/189/Add.9/Rev.1 vom 26. März 1985](https://en.wikisource.org/wiki/Administrative_Instruction_ST/AI/189/Add.9/Rev.1) dargelegt wurde, besteht darin, **kein Urheberrecht anzustreben**, um auf diese Weise **die möglichst weite Verbreitung der Ideen** in den Veröffentlichungen der Vereinten Nationen zu erleichtern.
 ![](https://pad.gwdg.de/uploads/e03c822a-f84a-480d-89ad-31c44388f535.png)
 
-## SDGs unter Copyright
-In den [SDG-Guidelines](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf) der UN sieht für die SDGs nun  keine Möglichkeiten zur Verbreitung durch Gemeinfreiheit oder Creative-Commons-Lizenzen vor, sondern beschreibt zahlreiche Auflagen und Einschränkungen zur Verwendung der Nachhaltigkeitsziele in Bildungsressourcen unter Copyright:
+## SDGs unter Copyright?
+In den [SDG-Guidelines](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf) der UN sah diese zunächst für die SDGs keine Möglichkeiten zur Verbreitung durch Gemeinfreiheit oder Creative-Commons-Lizenzen vor, sondern beschrieb zahlreiche Auflagen und Einschränkungen zur Verwendung der Nachhaltigkeitsziele in Bildungsressourcen unter Copyright:
 - WENN DAS SDG-LOGO UND/ODER ICONS INS INTERNET GESTELLT WERDEN,MÜSSEN [DIESE LEITLINIEN](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf) AUF DER GLEICHEN SEITE HOCHGELADEN WERDEN.
 - Das SDG-Farbrad muss mit dem Text versehen sein: [Name Ihrer Einrichtung/Wir] unterstützt/unterstützen die Ziele für nachhaltige Entwicklung
 - Keine Veränderungen hinsichtlich Farbe, Elementen, Typographie, oder Teilabbildungen erlaubt
 - Jedes Symbol muss in seiner Gesamtheit verwendet werden, einschließlich der Nummer, des Titels und der grafischen Elemente
-- Die Integration oder Kombination eines Elements des SDG-Logos und/oder eines der 17 SDG-Symbole in ein separates Logodesign ist verboten.
+
+Dies erscheint mir nun für die Verwendung in Bildungsmedien unpraktikabel in der Anwendung. Deshalb habe ich nach Lösungen gesucht, wie sich für das Empowerment der Lernenden Umsetzungsmöglichkeiten ergeben könnten, die auch Open Educational Resources entstehen lassen.
+Als Denkmodell für die expermimentelle Umsetzung hat mich Dr. Juliane Ta Van mit folgendem bekannt gemacht:
 
 ## Das Trilemma der Inklusion für #OER
 
-***HIER VIDEO-EINBETTUNG***
+http://oer.community/wp-content/uploads/2024/08/SDG-Video1.mp4
 
-Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/index.php/inklusion-online/article/view/413/317) kann auf das Thema Copyright/Urheberrecht und die Verwendung der SDG-Symbole (Sustainable Development Goals) im Kontext von Openness und Open Educational Resources (OER) angewendet werden. Dabei lassen sich die drei Aspekte des Trilemmas – Empowerment, Normalisierung und Dekonstruktion – entsprechend übertragen:
+Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/index.php/inklusion-online/article/view/413/317) kann also experimentell hier auf das Thema Copyright/Urheberrecht und die Verwendung der SDG-Symbole (Sustainable Development Goals) im Kontext von Openness und Open Educational Resources (OER) angewendet werden. Dabei lassen sich die drei Aspekte des Trilemmas – Empowerment, Normalisierung und Dekonstruktion – entsprechend übertragen:
 
 1. **Empowerment (E): Nutzung der SDG-Symbole zur Stärkung der Bildungsziele**
     - **Beschreibung**: In diesem Ansatz wird das Urheberrecht genutzt, um die SDG-Symbole als Mittel zur Unterstützung und Stärkung von Bildungsressourcen einzusetzen. Die Symbole werden verwendet, um das Bewusstsein für die SDGs zu erhöhen und Lernende zu befähigen, sich aktiv mit den globalen Zielen auseinanderzusetzen.
     - **Beispiele**: Materialien, die die SDG-Symbole nutzen, um spezifische Lernziele zu vermitteln und Schüler zu ermutigen, Projekte zu entwickeln, die zu den SDGs beitragen.
-    - **Kritik**: Dieser Ansatz könnte die Machtverhältnisse aufrechterhalten, indem er die Kontrolle über die Nutzung der Symbole durch strenge Copyright-Regelungen wahrt. Die Nutzung der Symbole bleibt möglicherweise auf privilegierte Gruppen beschränkt, die Zugang zu den entsprechenden Lizenzen haben.
+    - **Kritik**: Dieser Ansatz könnte die Machtverhältnisse aufrechterhalten, indem er die Kontrolle über die Nutzung der Symbole durch strenge Copyright-Regelungen wahrt. Die Nutzung der Symbole bleibt möglicherweise auf privilegierte Gruppen beschränkt, die Zugang zu den entsprechenden Nutzungsrechten haben.
 
 2. **Normalisierung (N): Weite Verbreitung und Nutzung der SDG-Symbole**
     - **Beschreibung**: Hier geht es darum, die Nutzung der SDG-Symbole zu normalisieren, indem sie frei und offen zugänglich gemacht werden. Dies würde bedeuten, dass die Symbole als Gemeingut betrachtet werden, um ihre Verbreitung und Nutzung in verschiedenen Bildungsressourcen zu fördern.
@@ -38,7 +40,13 @@ Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/
     - **Kritik**: Dieser Ansatz könnte auf Widerstand stoßen, da er die bestehenden rechtlichen und wirtschaftlichen Strukturen infrage stellt. Es könnte schwierig sein, einen Konsens darüber zu finden, wie die Symbole genutzt und geschützt werden sollten.
 
 ### Konsequenzen
-Für reliGlobal wünschen wir uns rechtliche Klarheit seitens der UN, damit Empowerment und Normalisierung miteinander Hand in Hand gehen können. Zumindest eine Weiternutzung unter Creative-Commons-Lizenz sollte in den Richtlinien beschrieben und ermöglicht werden, damit Bildungsmaterialien zur Erreichung der Ziele als Open Educational Resources überhaupt erst zur Anwendung kommen und Verbreitung und Weiterentwicklng erfahren können.
-Im Blick auf unser fOERbico-Projekt sehen wir unsere Rolle in der Hinterfragung und Dekonstruktion der bisherigen Praxis und wählen ein Logo, das herausfordert die Erreichung der Nachhaltigkeitsziele im Blick auf die  Partnerschaften und Communities zu stärken ohne dabei mit dem Urheberrecht in Konflikt zu kommen:
-**hier SDG 17 und 7 Kreise rein**
+Für reliGlobal wünschen wir uns rechtliche Klarheit seitens der UN, damit Empowerment und Normalisierung miteinander Hand in Hand gehen können. Zumindest eine Weiternutzung unter Creative-Commons-Lizenz sollte in den Richtlinien und Guidelines beschrieben und ermöglicht werden, damit Bildungsmaterialien zur Erreichung der Ziele als Open Educational Resources zur Anwendung kommen und Verbreitung und Weiterentwicklng erfahren können.
+Und wir sind glücklicherweise bei der [Deutschen UNESCO-Kommission](https://www.unesco.de/bildung/agenda-bildung-2030/bildung-und-die-sdgs) fündig geworden, denn hier sind alle 17 Logos einzeln jeweils explizit mit der [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) Lizenz zur Verwahrung, Verwendung, Verarbeitung, Vermischung und Verbreitung ([Die 5-V Freiheiten von Offenheit](https://open-educational-resources.de/5rs-auf-deutsch/) freigegeben:
+![](https://pad.gwdg.de/uploads/71a733b2-3ba5-4265-91db-f7a4a9b43c2d.png)
+
+Im Blick auf unser fOERbico-Projekt sehe ich unsere Rolle sowohl in der Unterstützung und Stärkung von #OER-Communities als auch in der Neukonstruktion künftiger Praxis. Daher verwenden wir das SDG-Symbol 17, wie von der UN intendiert zu Informationszwecken für nicht-kommerzielle Zwecke und setzen auch einen Link zur [Website der Vereinten Nationen für nachhaltige Entwicklung ](https://www.un.org/sustainabledevelopment)(https://www.un.org/sustainabledevelopment) und den Hinweis:
+"The content of this publication has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States".
+Hiermit sollen Partnerschaften und OER-Communities zur Erreichung der Nachhaltigkeitsziele gestärkt und ermutigt werden. 
+
+
 
