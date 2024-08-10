@@ -105,7 +105,7 @@ Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/
     - **Beispiele**: Initiativen, die das bestehende Copyright auf die SDG-Symbole herausfordern und alternative Lizenzmodelle vorschlagen, die eine freie Nutzung ermöglichen. Projekte, die die SDG-Symbole in neue Kontexte stellen und deren Bedeutung weiterentwickeln.
     - **Kritik**: Dieser Ansatz könnte auf Widerstand stoßen, da er die bestehenden rechtlichen und wirtschaftlichen Strukturen infrage stellt. Es könnte schwierig sein, einen Konsens darüber zu finden, wie die Symbole genutzt und geschützt werden sollten.
 
-### Konsequenzen
+### Konsequenzen - ein konkreter Nutzungsvorschlag
 Für reliGlobal wünschen wir uns rechtliche Klarheit seitens der UN, damit Empowerment und Normalisierung miteinander Hand in Hand gehen können. Zumindest eine Weiternutzung unter Creative-Commons-Lizenz sollte in den Richtlinien und Guidelines beschrieben und ermöglicht werden, damit Bildungsmaterialien zur Erreichung der Ziele als Open Educational Resources zur Anwendung kommen und Verbreitung und Weiterentwicklng erfahren können.
 Und wir sind glücklicherweise bei der [Deutschen UNESCO-Kommission](https://www.unesco.de/bildung/agenda-bildung-2030/bildung-und-die-sdgs) fündig geworden, denn hier sind alle 17 Logos einzeln jeweils explizit mit der [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) Lizenz zur Verwahrung, Verwendung, Verarbeitung, Vermischung und Verbreitung ([Die 5-V Freiheiten von Offenheit](https://open-educational-resources.de/5rs-auf-deutsch/)) freigegeben:
 ![](https://pad.gwdg.de/uploads/71a733b2-3ba5-4265-91db-f7a4a9b43c2d.png)
