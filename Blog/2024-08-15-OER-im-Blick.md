@@ -1,3 +1,39 @@
+---
+'@context': https://schema.org/
+creativeWorkStatus: Published
+name: 'Rückblick: Auftaktkonferenz „OER im Blick“'
+description: >-
+  Die Konferenzreihe "OER im Blick" präsentiert alle Aktivitäten rund um die
+  Umsetzung der OER-Strategie des Bundes. Dazu kommen einmal im Jahr Beteiligte
+  aus den verschiedenen Projekten, dem Kreis der Gutachtenden, den Gremien zur
+  Fortentwicklung der Strategie und zusätzliche Impulsgeber zum gemeinsamen
+  Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt
+  a.M. mit dabei!
+license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/Blog/2024-08-15-OER-im-Blick.md
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - Austausch
+  - Konferenz
+  - BMBF
+  - OER-Strategie
+  - Networking
+  - Vernetzung
+inLanguage:
+  - de
+about:
+image: https://oer.community/wp-content/uploads/2024/08/OER-im-Blick.jpg
+datePublished: '2024-08-15'
+---
+
 ![](http://oer.community/wp-content/uploads/2024/08/OER-im-Blick.jpg)
 
 # Rückblick: Auftaktkonferenz „OER im Blick“
