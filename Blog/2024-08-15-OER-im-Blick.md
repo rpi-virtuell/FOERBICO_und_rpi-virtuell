@@ -45,6 +45,6 @@ Die Auftaktkonferenz fand am 15. und 16. Mai 2024 in Frankfurt am Main statt und
 ![](http://oer.community/wp-content/uploads/2024/08/OER-im-Blick-1.jpeg)
 ![](http://oer.community/wp-content/uploads/2024/08/OER-im-Blick-2.jpeg)
 
-Einen Rückblick zur Konferenz findet ihr [hier](https://www.oer-strategie.de/konferenz/) oder im [Blogbeitrag](https://ebildungslabor.de/blog/oer-im-blick-ein-buntes-kaleidoskop/) von Nele Hirsch (eBildungslabor).
+Einen Rückblick zur Konferenz findet ihr [hier](https://www.oer-strategie.de/konferenz/) oder im [Blogbeitrag](https://ebildungslabor.de/blog/oer-im-blick-ein-buntes-kaleidoskop/) von Nele Hirsch (eBildungslabor). Auch Dr. Manfred Pirner teilte seine Eindrücke bei [Instagram](https://www.instagram.com/p/C7EADFWNrfu/) und [TikTok](https://www.tiktok.com/@mapi_l16/video/7369661151216520480). 
 
 Wir freuen uns schon auf die Konferenz im nächsten Jahr!
