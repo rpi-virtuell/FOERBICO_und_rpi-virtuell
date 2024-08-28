@@ -1,33 +1,38 @@
 ---
 
 '@context': https://schema.org/
-creativeWorkStatus: 
-name: 'Rückblick:  „it's jointly 2024“'
+creativeWorkStatus: Draft
+type: LearningResource
+name: It's Jointly 2024 Rückblick
 description: >-
-  Das IT-/OER-Sommercamp "it's jointly 2024" findet zum neunten Mal in Folge in Weimar statt. Hier treffen sich ExpertInnen aus Bildung und der IT um gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die Konferenz in ein Hackaton sowie ein Netzwerktreffen aufgeteilt. Zwei Mitglieder des FOERBICO teams nahmen an den jeweiligen Campteilen vom 19.08.-21.08.2024 teil.
+  Das IT-/OER-Sommercamp "it's jointly 2024" findet zum neunten Mal in Folge in
+  Weimar statt. Hier treffen sich ExpertInnen aus Bildung und der IT um
+  gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die
+  Konferenz in ein Hackaton sowie ein Netzwerktreffen aufgeteilt. Zwei
+  Mitglieder des FOERBICO teams nahmen an den jeweiligen Campteilen vom
+  19.08.-21.08.2024 teil.
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
-id: >-
-  https:
 creator:
-  - givenName: Gina
-    familyName: Buchwald-Chassée
+  - givenName: Phillip
+    familyName: Angelina
     type: Person
-    affiliation:
-      name: Comenius-Institut
-      id: https://ror.org/025e8aw85
-      type: Organization
 keywords:
   - Austausch
   - Konferenz
   - BMBF
   - OER-Strategie
+  - OER
   - Networking
   - Vernetzung
+  - Sommercamp
+  - ''
 inLanguage:
   - de
-about:
-image: https://oer.community/wp-content/uploads/2024/08/OER-im-Blick.jpg
-datePublished: '2024-08-15'
+learningResourceType:
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
 
 ---
 
