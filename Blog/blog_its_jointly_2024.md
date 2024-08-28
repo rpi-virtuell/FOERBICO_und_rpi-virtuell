@@ -1,4 +1,5 @@
 ---
+
 '@context': https://schema.org/
 creativeWorkStatus: 
 name: 'Rückblick:  „it's jointly 2024“'
@@ -27,6 +28,7 @@ inLanguage:
 about:
 image: https://oer.community/wp-content/uploads/2024/08/OER-im-Blick.jpg
 datePublished: '2024-08-15'
+
 ---
 
 # It's jointly
