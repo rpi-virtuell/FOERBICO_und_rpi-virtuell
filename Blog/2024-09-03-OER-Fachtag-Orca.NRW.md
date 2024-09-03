@@ -47,6 +47,7 @@ datePublished: '2024-09-03'
 
 ---
 
+![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)
 
 # OER-Fachtag 2024 von ORCA.nrw
 
