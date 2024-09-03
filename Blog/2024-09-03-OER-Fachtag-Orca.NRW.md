@@ -1,3 +1,53 @@
+---
+
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: OER-Fachtag 2024 von ORCA.nrw
+description: >-
+  Der OER-Fachtag 2024 am 29. August 2024 von ORCA.nrw diente als Treffpunkt für
+  OER-Interessierte aus dem Hochschulbereich, um sich über Open Educational
+  Resources (OER) auszutauschen. Etwa 100 Personen nahmen teil, darunter auch
+  das FOERBICO-Team. Präsentationen und eine detaillierte Dokumentation werden
+  bald veröffentlicht. Einen Rückblick zum Fachtag gibt es im Blog von
+  oer.community.
+license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/Blog/2024-09-03-OER-Fachtag-Orca.NRW.md
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - Austausch
+  - Fachtag
+  - Event
+  - OER
+  - Hochschulen
+  - Gamification
+  - Inklusion
+  - KI
+  - Networking
+  - Storytelling
+  - Vernetzung
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2024-09-03'
+
+---
+
+
 # OER-Fachtag 2024 von ORCA.nrw
 
 *Ein Treffpunkt für Fachcommunities, um sich über Open Educational Resources auszutauschen und voneinander zu lernen. Spannende Einblicke von engagierten OER-Akteuren aus NRW in ihre aktuellen Projekte aus der Praxis.* 
