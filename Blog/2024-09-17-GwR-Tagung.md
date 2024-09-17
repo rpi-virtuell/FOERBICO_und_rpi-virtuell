@@ -1,11 +1,11 @@
-Sichtbarkeit und Netzwerk durch OER stärken: FOERBICO auf der GwR-Tagung in Würzburg zum Thema Öffentlichkeitsarbeit 
+# Sichtbarkeit und Netzwerk durch OER stärken: FOERBICO auf der GwR-Tagung in Würzburg zum Thema Öffentlichkeitsarbeit 
 von Laura Mößle
 
 Unter dem spannenden Motto „...hier sollte eigentlich ein Titel stehen“ fand die diesjährige GwR-Tagung (https://gwr.education) vom 13. bis 15. September 2023 in Würzburg statt und widmete sich dem Thema „Wissenschaftskommunikation in der Religionspädagogik“. Die Tagung bot eine Vielzahl bereichernder Vorträge, die aktuelle Trends in der Wissenschaftskommunikation, Erfahrungsberichte von universitären Akteur*innen, Aspekte der öffentlichen Theologie sowie wirksame Formen der Wissenschaftskommunikation beleuchteten. Auch Themen wie Internationalisierungsbestrebungen in der wissenschaftlichen Religionspädagogik fanden ihren Platz im Programm.
 
 Auch wir, Viera und Laura vom FOERBICO-Team Frankfurt trugen mit einem eigenen Workshop zur Veranstaltung bei. Unser Ziel war es, ein ansprechendes und interaktives 60-minütiges Workshop-Programm zu entwickeln, das sowohl der Zielgruppe der wissenschaftlichen evangelischen Religionspädagogik als auch dem Tagungsmotto der Wissenschaftskommunikation gerecht wird. Im Mittelpunkt stand die Vorstellung unseres Projekts zur Förderung offener Bildungspraktiken in religionsbezogenen Communities. Gleichzeitig legten wir Wert darauf, aktivierende Elemente einzubauen, um einen Austausch zwischen den Teilnehmenden zu ermöglichen. 
 
-Kennenlernen und Vernetzen: Erste Einblicke in OER und OEP
+## Kennenlernen und Vernetzen: Erste Einblicke in OER und OEP
 
 Eines unserer Anliegen war es, das Thema Open Educational Resources (OER) und Open Educational Practices (OEP) so zu gestalten, dass sowohl Einsteiger*innen als auch erfahrene Expert*innen in einen Dialog treten konnten. Unser übergeordnetes Ziel war es, den Teilnehmenden die Bedeutung und das Potenzial von OER und OEP in der wissenschaftlichen Religionspädagogik zu verdeutlichen und aufzuzeigen, wie sie sich aktiv an FOERBICO beteiligen können. Dieser Aufgabe waren wir uns bewusst. Also legten wir mit einem kleinen Kennenlern-Impuls los, bei dem die Teilnehmenden einen Lückentext-Satz so vervollständigen sollen, damit er zu ihren bisherigen Erfahrungen im Umgang mit OER passt. 
 
@@ -23,7 +23,7 @@ Dieser Aspekt war insbesondere im Hinblick auf das Tagungsmotto Öffentlichkeits
 
 Darüber hinaus war es uns ein Anliegen, den größeren bildungspolitischen Kontext von OER zu beleuchten, insbesondere im Hinblick auf die OER-Strategie der Bundesregierung. Mit der im Juli 2022 veröffentlichten OER-Strategie hat sich das Bundesministerium für Bildung und Forschung (BMBF) zum Ziel gesetzt, die digitale Bildung in Deutschland durch den Einsatz freier Bildungsmaterialien maßgeblich voranzubringen. Ein zentrales Anliegen der Strategie ist der Aufbau eines nachhaltigen OER-Ökosystems, das sowohl technologische Infrastrukturen als auch Dienstleistungen und Vernetzungsangebote umfasst. Dieses Ökosystem soll das deutsche Bildungssystem langfristig stärken und modernisieren.
 
-FOERBICO im Fokus 
+## FOERBICO im Fokus 
 Im Rahmen dieser OER-Förderstrategie konnte das Projekt FOERBICO in der ersten Förderlinie (OE-COM) verankert werden, die einen besonderen Fokus auf die Förderung von Communities legt. Hervorzuheben ist das Alleinstellungsmerkmal von FOERBICO als einziges religionsbezogenes Projekt innerhalb dieser Förderlinie. Dies unterstreicht die Relevanz des Projekts im weiteren Kontext der Förderung offener Bildungspraktiken. Weitere geförderte Projekte können hier eingesehen werden: https://www.oer-strategie.de/foerdern/gefoerderte-projekte/.
 
 Aber was genau ist FOERBICO? Und wie lässt sich dieses Projekt der wissenschaftlichen Community der Religionspädagog*innen auf ansprechende und verständliche Weise vermitteln? Ein Vorteil unseres Workshops war, dass die Teilnehmenden bereits mit den zentralen OER-Akteuren in der religiösen Bildung vertraut waren. Plattformen wie rpi-virtuell, reliGlobal, relilab, narrt und schule-evangelisch-digital sind vielen bekannt. Auf dieser Basis konnten wir die Ziele von FOERBICO verdeutlichen: Es geht um die Vernetzung dieser Akteure, sowohl innerhalb der wissenschaftlichen Religionspädagogik und Theologie als auch darüber hinaus mit anderen OER-Communities wie OERinfo oder der World Library of OER (WLO).
