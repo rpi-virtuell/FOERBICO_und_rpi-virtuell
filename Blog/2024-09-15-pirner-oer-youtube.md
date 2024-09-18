@@ -2,10 +2,9 @@
 
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Sind YouTube-Videos OER-fähig?
 description: ' YouTube trägt durch die Upload-Möglichkeit für alle und somit massenhaft frei zugänglich angebotenem Wissen zu einer „Kultur des Teilens“ bei, wie sie OER- und OEP-Strategien anstreben. Doch sind YouTube-Videos OER-fähig? Auf diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag konkretisiert und differenziert.'
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+license: https://creativecommons.org/licenses/by-sa/4.0/deed.de
 creator:
   - givenName: Manfred
     familyName: Pirner
