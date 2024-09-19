@@ -72,6 +72,8 @@ Dieser Aspekt war insbesondere im Hinblick auf das Tagungsmotto Öffentlichkeits
 
 Darüber hinaus war es uns ein Anliegen, den größeren bildungspolitischen Kontext von OER zu beleuchten, insbesondere im Hinblick auf die OER-Strategie der Bundesregierung. Mit der im Juli 2022 veröffentlichten [OER-Strategie](https://www.oer-strategie.de/) hat sich das Bundesministerium für Bildung und Forschung (BMBF) zum Ziel gesetzt, die digitale Bildung in Deutschland durch den Einsatz freier Bildungsmaterialien maßgeblich voranzubringen. Ein zentrales Anliegen der Strategie ist der Aufbau eines nachhaltigen OER-Ökosystems, das sowohl technologische Infrastrukturen als auch Dienstleistungen und Vernetzungsangebote umfasst. Dieses Ökosystem soll das deutsche Bildungssystem langfristig stärken und modernisieren.
 
+![](http://oer.community/wp-content/uploads/2024/09/FOERBICO-Workshop-GwR-Tagung-2024.jpg)
+
 ## FOERBICO im Fokus 
 
 Im Rahmen dieser OER-Förderstrategie konnte das Projekt FOERBICO in der ersten Förderlinie (OE-COM) verankert werden, die einen besonderen Fokus auf die Förderung von Communities legt. Hervorzuheben ist das Alleinstellungsmerkmal von FOERBICO als einziges religionsbezogenes Projekt innerhalb dieser Förderlinie. Dies unterstreicht die Relevanz des Projekts im weiteren Kontext der Förderung offener Bildungspraktiken. Weitere geförderte Projekte können [hier](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/) eingesehen werden.
