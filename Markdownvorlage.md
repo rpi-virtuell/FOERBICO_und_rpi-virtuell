@@ -35,7 +35,7 @@ Ich habe Angefangen ein Vorlagendokument zu erstellen um nicht immer nach gewiss
 
 Live-Editor: https://mermaid.live/edit
 
-**Beispiel: Flowchart**
+### Flowchart
 ```mermaid
 flowchart TD
     A[Inhalt] -->|Inhalt| B(Inhalt)
@@ -43,4 +43,32 @@ flowchart TD
     C -->|Inhalt| D[Inhalt]
     C -->|Inhalt| E[Inhalt]
     C -->|Inhalt| F[fa:fa-Inhalt Inhalt]
+```
+### Beispiel: Sequenz Diagramm
+```mermaid
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+```
+### Beispiel: Mindmap
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectivness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
 ```
