@@ -55,7 +55,7 @@ sequenceDiagram
 ### Beispiel: Mindmap
 ```mermaid
 mindmap
-  root((titel))
+  root((Titel))
     Blase eins
       Wichtig 11
       Wichtig 12
