@@ -35,12 +35,12 @@ Ich habe Angefangen ein Vorlagendokument zu erstellen um nicht immer nach gewiss
 
 Live-Editor: https://mermaid.live/edit
 
-Beispiel
+**Beispiel: Flowchart**
 ```mermaid
 flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+    A[Inhalt] -->|Inhalt| B(Inhalt)
+    B --> C{Inhalt}
+    C -->|Inhalt| D[Inhalt]
+    C -->|Inhalt| E[Inhalt]
+    C -->|Inhalt| F[fa:fa-Inhalt Inhalt]
 ```
