@@ -30,3 +30,17 @@ Ich habe Angefangen ein Vorlagendokument zu erstellen um nicht immer nach gewiss
 | Inhalt  | Inhalt     | Inhalt    |
 | Inhalt   | Inhalt      | Inhalt      |
 
+
+## Mermaid-Chart
+
+Live-Editor: https://mermaid.live/edit
+
+Beispiel
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
