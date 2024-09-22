@@ -71,3 +71,7 @@ mindmap
       Wichtig 32
       Wichtig 32
 ```
+
+### Beispiel Hinweisbox
+| :zap:        Hinweisbox  |
+|-|
