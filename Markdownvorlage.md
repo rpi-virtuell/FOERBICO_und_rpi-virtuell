@@ -2,7 +2,7 @@
 Ich habe Angefangen ein Vorlagendokument zu erstellen um nicht immer nach gewissen Coodierungen googlen zu müssen. Bitte gerne ergänzen.
 
 ## Links im Dokument
-Siehe [Fußnoten](#Fußnoten) für mehr Details
+Siehe [Fußnoten](#fußnoten) für mehr Details
 
 ## Bild einbetten
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/design/logos/fOERbico.svg)
