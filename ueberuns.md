@@ -30,13 +30,11 @@ Die Beteiligten von FOERBICO verstehen sich dabei als OER-Botschafter, die auf d
 
 ## Prokektziele von FOERBICO
 
-**Vernetzung und Stärkung bestehender OER-Communities:** Dies beinhaltet die Durchführung einer Ausgangserhebung, die Entwicklung von Multiplikator:innen-Modellen und die Erstellung von Strategien für die Öffentlichkeitsarbeit.
-**Aufbau eines plattformunabhängigen Redaktionssystems:** Zentrale Punkte sind die Konzeption des Systems, die Weiterentwicklung von Metadatenstandards, die (Mit)-Entwicklung eines Metadaten-Generators und die Implementierung von OER-Katalogen.
-**Förderung des OER- und OEP-Potenzials von Communities:** Dies umfasst den Abgleich der Bedürfnisse der Communities und die Bereitstellung von bedarfsgerechter Unterstützung.
-**Entwicklung einer gemeinsamen OER-Strategie und -praxis von Aus-, Fort- und Weiterbildungsakteuren:** Geplant sind die Entwicklung, Erprobung und Weiterentwicklung von Fortbildungsformaten.
-**Verständigung über und Implementierung von Standards der Qualitätsentwicklung und -sicherung:** Wichtige Schritte sind die Erhebung und Analyse bestehender Standards, deren Erprobung und Evaluation sowie die Reflexion zu den Bewertungskriterien.
+**Potenzial von OER-Communities:** Bestehende OER-Communities im religionsbildenden Bereich werden mit einander Vernetzt um Ressourcen zu bündeln und Expertenwissen zu teilen. Dies umfasst den Abgleich der Bedürfnisse der Communities und die Bereitstellung von bedarfsgerechter Unterstützung.
+**Koordinierte Zusammenarbeit:** Durch die Vernetzung bestehender OER-Communities wird auf die bestehenden Infrastrukturen aufgebaut und diese weiterentwickelt. Zentrale Punkte sind die Konzeption des Systems, die Weiterentwicklung von Metadatenstandards, die (Mit)-Entwicklung eines Metadaten-Generators und die Implementierung von OER-Katalogen.
+**Qualitätsentwicklung:** Entwicklung von Qualitätsstandards von OER Material sowie die Implementierung von Metadatenstandards an denen sich die Communities orientieren können. Des Weiteren sind die Entwicklung, Erprobung und Weiterentwicklung von Fortbildungsformaten geplant.
 **OER-Entwicklkung an Hochschulen:** Zentrale Maßnahmen sind die Netzwerkbildung für eine OER-Community in der wissenschaftlichen Religionspädagogik & Theologie, die Begleitung bei der Übernahme von OER-Standards und die Sensibilisierung für Open-Access-Formate.
-**Community-vernetzende und -stärkende Weiterentwicklung der technischen Infrastruktur:** Geplant sind die Erhebung technischer Bedürfnisse, die Überarbeitung der Kerndienste von rpi-virtuell und die Bereitstellung einer gemeinsamen Kollaborationsumgebung.
+**Empirische Begleitforschung:** Dies beinhaltet eine Bedarfserhebung welche die momentanen Bedürfnisse, Herausforderungen und Arbeitsprozesse von OER-Communities erfragt. Zudem werden bestehender Standards erhoben, analysiert und weiterentwickelt. 
 
 
 ## Aufgaben von FOERBICO
