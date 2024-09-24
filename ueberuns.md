@@ -14,28 +14,28 @@ post_type: 'post'
 Pad: https://pad.gwdg.de/n-lVPN7uTq6pLLBPl2zTaw?both
 git: https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/ueberuns.md
 
-## Was ist fOERbico?
+## Was ist FOERBICO?
 
-Im Sinne einer Community of Communities zielt FOERBICO auf die Vernetzung und den Austausch von verschiedenen religionsbezogenen Communities, um gemeinsame Qualitätskriterien und Metadatenstandards zu entwickeln. So können die wertvoll erarbeiteten OER in erschienene Materialpools eingepflegt und anschlussfähig gemacht werden, um weiter verbreitet, weiterentwickelt und von mehr Leuten verwendet zu werden.
+Open Educational Resources (OER) sind frei zugängliche Lern- und Lehrmaterialien, die zur Weiterverwendung und Anpassung für den eigenen Bildungskontext zur Verfügung stehen. FOERBICO zielt darauf ab, gemeinsame Kriterien und Standards zu entwickeln, um die Anschlussfähigkeit des Materials zu erhöhen und damit die Qualtiät und Sichtbarkeit zu verbessern. Um dieses Ziel zu erreichen, setzt FOERBICO im Sinne einer Community of Communities auf die Vernetzung und den Austausch von verschiedenen religionsbezogenen Communities. So können die wertvoll erarbeiteten OER in erschienene Materialpools eingepflegt und anschlussfähig gemacht werden, um weiter verbreitet, weiterentwickelt und von mehr Leuten verwendet zu werden.
 
-Mit dem entstehenden Netzwerkknoten/Hub schaffen die beteiligten Communities eine verbindliche und nachhaltige Struktur der länderübergreifenden Zusammenarbeit bei der Digitalisierung in der religionsbezogenen Bildung. Die Kooperation ist dabei ausgerichtet auf die länderübergreifende Vernetzung und Bündelung OER-förderlicher, digitaler Lehr-/Lern-Infrastrukturen und -Dienste. Das Netzwerk ermöglicht es seinen Mitgliedern, als gleichberechtigte Partner Erfahrungen auszutauschen, gemeinsame Interessen zu identifizieren und diese auf Bundesebene zu vertreten. Hierdurch bringen sie gemeinschaftlich wichtige Fragestellungen und Lösungen rund um religionsbezogene Bildung.
+Unser Ziel ist es, einen Netzwerkknoten(Hub) zu schaffen, um eine nachhaltige Struktur länderübergreifender Zusammenarbeit im Bereich der Digitalisierung religiöser Bildung zu ermöglichen. Die Kooperation ist dabei ausgerichtet auf Vernetzung und Bündelung OER-förderlicher, digitaler Lehr-/Lern-Infrastrukturen und -Dienste. Das Netzwerk ermöglicht seinen Mitgliedern, als gleichberechtigte Partner Erfahrungen auszutauschen, gemeinsame Interessen zu identifizieren und diese auf Bundesebene zu vertreten. Damit tragen wir gemeinsam zu wichtigen Fragen und Lösungen rund um religionsbezogene Bildung bei.
 
 ## Unsere Vision
 
-Für FOERBICO ist Openness der zentrale Baustein von Bildung – jetzt und in der Zukunft. Wir setzen uns darum für eine kontinuierlich wachsende Verbreitung von Open Educational Resources (OER) und Open Educational Practices (OEP) in religionsbezogenen Bildung
+Für FOERBICO ist Openness der zentrale Baustein von Bildung – jetzt und in der Zukunft. Wir setzen uns darum für eine kontinuierlich wachsende Verbreitung von Open Educational Resources (OER) und Open Educational Practices (OEP) in der religionsbezogenen Bildung ein. 
 
-Die Vision von oer.community ist es, eine Kultur der Openness und des Teilens in den Communities zu schaffen, bei der die gemeinsame Erstellung und Nutzung offener Bildungsinhalte – auch über Kirchen- und Bistumsgrenzen hinweg – ein selbstverständlicher Bestandteil der Bildungsarbeit ist.
+Die Vision von oer.community ist es, eine Kultur des Teilens in den Communities zu schaffen, bei der die gemeinsame Erstellung und Nutzung offener Bildungsmaterialien – auch über (Hoch-)Schul-; Kirchen- und Bistumsgrenzen hinweg – ein selbstverständlicher Bestandteil der Bildungsarbeit ist.
 
-Die Beteiligten von FOERBICO verstehen sich dabei als OER-Botschafter, die auf die Verwirklichung dieser Vision hinarbeiten und als Ideen- und Strukturgeber sowie Vorreiter das Thema Openness Kontext religionsbezogener Bildung voranbringen.
+Die Beteiligten von FOERBICO verstehen sich dabei als OER-Botschafter, die auf die Verwirklichung dieser Vision hinarbeiten und als Ideen- und Strukturgeber sowie Vorreiter das Thema Openness im Kontext religionsbezogener Bildung voranbringen.
 
-## Ziele von FOERBICO
+## Prokektziele von FOERBICO
 
 **Vernetzung und Stärkung bestehender OER-Communities:** Dies beinhaltet die Durchführung einer Ausgangserhebung, die Entwicklung von Multiplikator:innen-Modellen und die Erstellung von Strategien für die Öffentlichkeitsarbeit.
 **Aufbau eines plattformunabhängigen Redaktionssystems:** Zentrale Punkte sind die Konzeption des Systems, die Weiterentwicklung von Metadatenstandards, die (Mit)-Entwicklung eines Metadaten-Generators und die Implementierung von OER-Katalogen.
 **Förderung des OER- und OEP-Potenzials von Communities:** Dies umfasst den Abgleich der Bedürfnisse der Communities und die Bereitstellung von bedarfsgerechter Unterstützung.
 **Entwicklung einer gemeinsamen OER-Strategie und -praxis von Aus-, Fort- und Weiterbildungsakteuren:** Geplant sind die Entwicklung, Erprobung und Weiterentwicklung von Fortbildungsformaten.
 **Verständigung über und Implementierung von Standards der Qualitätsentwicklung und -sicherung:** Wichtige Schritte sind die Erhebung und Analyse bestehender Standards, deren Erprobung und Evaluation sowie die Reflexion zu den Bewertungskriterien.
-**Erweiterung der OER-Community Wissenschaftliche Religionspädagogik (BROKER):** Zentrale Maßnahmen sind die Netzwerkbildung, die Begleitung der Übernahme von OER-Standards und die Vernetzung mit Open-Access-Formaten.
+**OER-Entwicklkung an Hochschulen:** Zentrale Maßnahmen sind die Netzwerkbildung für eine OER-Community in der wissenschaftlichen Religionspädagogik & Theologie, die Begleitung bei der Übernahme von OER-Standards und die Sensibilisierung für Open-Access-Formate.
 **Community-vernetzende und -stärkende Weiterentwicklung der technischen Infrastruktur:** Geplant sind die Erhebung technischer Bedürfnisse, die Überarbeitung der Kerndienste von rpi-virtuell und die Bereitstellung einer gemeinsamen Kollaborationsumgebung.
 
 
