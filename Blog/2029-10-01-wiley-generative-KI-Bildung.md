@@ -1,3 +1,42 @@
+---
+
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: '"Warum Open Education zu generativer KI-Bildung wird" - David Wiley'
+description: >-
+  Der Blogbeitrag beschäftigt sich mit dem Vortrag von Dr. David Wiley mit dem
+  Titel „Warum Open Education zu generativer KI-Bildung wird“, gehalten an der
+  University of Regina im September 2024. Wileys Hauptargument ist, dass
+  generative KI die optimale Strategie zur Demokratisierung von
+  Bildungsressourcen darstellt und dass Open Education sich auf generative
+  KI-Modelle konzentrieren sollte. Doch die eigentlichen Fragen zur Qualität und
+  den Anforderungen an die Community bleiben in der Tiefe unerwähnt.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2029-10-01-wiley-generative-KI-Bildung.md
+creator:
+  - givenName: Jörg
+    familyName: Lohrer
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - KI
+  - OER
+  - Open Education
+  - Qualitätssicherung
+inLanguage:
+  - de
+image: http://oer.community/wp-content/uploads/2024/10/Open-Education.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+datePublished: '2024-10-01'
+
+---
+
 # "Warum Open Education zu generativer KI-Bildung wird" - David Wiley
 
 Zusammenfassung zum [Vortrag von Dr. David Wiley mit dem Titel „Warum Open Education zu generativer KI-Bildung wird“](https://www.youtube.com/watch?v=WpcE7ihlUDo), gehalten an der University of Regina im September 2024. Wileys Hauptargument ist, dass generative KI die optimale Strategie zur Demokratisierung von Bildungsressourcen darstellt und dass Open Education sich auf generative KI-Modelle konzentrieren sollte. **Doch die eigentlichen Fragen zur Qualität und den Anforderungen an die Community bleiben in der Tiefe unerwähnt.**
