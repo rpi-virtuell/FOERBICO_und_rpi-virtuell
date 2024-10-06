@@ -1,0 +1,19 @@
+# Austausch mit dem DisKursLab
+
+Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina Buchwald-Chassée vom [Comenius-Institut](https://comenius.de/) mit Kristina Herbst und Dr. Christian Staffa von der [Ev. Akademie zu Berlin](https://www.eaberlin.de/) zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag! 
+
+Das [DisKursLab](https://diskurslab.eaberlin.de/) ist ein Modellprojekt der [Evangelischen Akademie zu Berlin](https://www.eaberlin.de/) in Zusammenarbeit mit der [Evangelischen Kirche Berlin-Brandenburg-schlesische Oberlausitz (EKBO)](https://www.ekbo.de/). Es versteht den digitalen Wandel nicht nur als technische, sondern vor allem als soziale Herausforderung. Gleichzeitig sieht es diesen Wandel als Chance für Demokratisierungsprozesse. Mit innovativen Bildungsformaten, insbesondere im Bereich Theologie und Religionspädagogik, verknüpft das Projekt Themen wie Diskriminierungssensibilität, Digitalität und Demokratisierung. Seit 2020 werden dabei auch frei verfügbare Lehr- und Lernmaterialien entwickelt, wie der "[Christliche Meme Generator](https://diskurslab.eaberlin.de/hopespeech-workshop/mememe-editor/)" oder der digitale "[VerLernKurs](https://diskurslab.eaberlin.de/verlernkurs/)". 
+
+## OER und Bildungsmaterialien zum Thema Antisemitismus
+
+Im Oktober 2024 sollen neue Materialien zum Thema Antisemtismus, die gemeinsam mit einer evangelischen Schulen erarbeitet wurden, veröffentlicht werden. Anders als beim VerLernKurs sollen die neuen Materialien zum Thema Antisemitismus sind nicht mehr als H5P-Formate erstellt, sondern direkt in Webseiten eingebaut und als PDF-Dateien zum Download angeboten werden. Die Module sind umfassender und stärker auf den schulischen Kontext zugeschnitten, inklusive methodischer Hinweise, Ablaufplänen und Zielvorgaben. Die Module sind teilweise aufeinander aufgebaut. Dabei wird darauf geachtet, dass die Module auch ohne Schulbuchmaterial nutzbar sind, um rechtliche Fallstricke zu vermeiden. Da Weblinks oft veralten oder nicht mehr funktionieren, wird bewusst auf deren Nutzung verzichtet, um ständige Anpassungen zu umgehen. Gerade die Unsicherheit bei Rechtsfragen stelle sie vor große Herausforderungen. Die Materialien sollen nicht nur auf der Webseite des Netzwerkes [*narrt*](https://narrt.de/) veröffentlicht, sondern auch durch andere Communities weiterverbreitet und genutzt werden, wie beispielsweise über das [*relilab*](https://relilab.org/) oder [*schule-evangelisch-digital*](https://schule-evangelisch-digital.de/). Diese Plattformen bieten potenzielle Einstiegspunkte, um die Inhalte über ihre Netzwerke hinaus bekannt zu machen.
+
+## Herausforderung: Austauschformate für Feedback
+
+Obwohl der Austausch von Feedback und die Weiterentwicklung der Materialien gewünscht sind, hat dieser Prozess bisher oft nicht wie erhofft funktioniert. Eine Verbesserung dieses Austauschs, auch plattformübergreifend, wurde diskutiert. Die Idee: Es braucht eine Antisemtismus-Community, in der die verschiedenen Netzwerke und alle Interessierten zusammenkommen, um sich über aktuelle Vorgänge zu informieren, Inhalte zu diskutieren und sich Feedback zu eben solchen Materialien einzuholen. 
+
+Diese Idee würden wir gerne gemeinschaftlich weiterdenken und laden alle, die bereits Materialien zu Antisemitismus entwickeln oder die im Kontext Antisemitismus tätig sind als Praktiker:innen zu einem gemeinsamen Austausch ein!
+
+Wir treffen uns am **28. November 2024 von 11 - 12:30 Uhr** in unserem [virtuellen Büro](https://comenius.de/zoom) 💻
+
+Schaut gerne vorbei und gebt diese Einladung an Interessierte weiter, wir freuen uns auf euch 🤗🤝
