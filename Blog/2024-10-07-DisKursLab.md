@@ -1,3 +1,39 @@
+---
+
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: Austausch mit dem DiskursLab
+description: >-
+  Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina
+  Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian
+  Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational
+  Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des
+  DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die
+  Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer
+  Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - Antisemitismus
+  - Austausch
+  - Community
+  - OER
+  - Networking
+inLanguage:
+  - de
+image: http://oer.community/wp-content/uploads/2024/10/Image20240930122337.jpg
+datePublished: '2024-10-08'
+
+---
+
 # Austausch mit dem DisKursLab
 
 Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina Buchwald-Chassée vom [Comenius-Institut](https://comenius.de/) mit Kristina Herbst und Dr. Christian Staffa von der [Ev. Akademie zu Berlin](https://www.eaberlin.de/) zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag! 
