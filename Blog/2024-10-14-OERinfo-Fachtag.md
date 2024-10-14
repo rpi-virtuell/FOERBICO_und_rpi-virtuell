@@ -68,6 +68,8 @@ Niels Winkelmann (WirLernenOnline)
 
 -> Jörg
 
+Präsentation WLO: [Google-Slides](https://docs.google.com/presentation/d/1LQm3TXCwy3xT1idMCUAxWYuWqv9YeJt5SCvn5QU_vhg/edit?usp=sharing)
+
 ## Fazit:
 
 Es war eine tolle Möglichkeit die Menschen hinter den Projekten kennenzulernen! Teilweise treiben uns ähnliche Fragen um, z.B. zu Qualitätskriterien, rechtlichen Fragen, zeitlichen Ressourcen sowie Partizipations- und Aktivierungsmöglichkeiten. Gleichzeitig waren die spezifischen Themen und verschiedenen Herangehensweisen der Projekte spannend. Was uns alle vereint: Das Ziel der Weiterentwicklung von offenen BLehr- und Lernmaterialien und vor allem offenen Bildungspraktiken - wir freuen uns weiterhin, auf die gemeinsame Reise!
