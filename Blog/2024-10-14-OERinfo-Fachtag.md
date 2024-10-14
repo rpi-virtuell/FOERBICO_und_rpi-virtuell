@@ -48,7 +48,13 @@ Im Anschluss fanden weitere Gespräche an Thementischen zu den Projekten statt. 
 
 Dr. Johannes Appel (DIPF)
 
--> Laura
+Wie erkennt man seine Zielgruppe und erweitert eine OER-Community? Dieser Frage widmete sich der Workshop *Zielgruppe erkennen – Community erweitern* im Rahmen des OERinfo-Fachtags. Um eine OER-Community erfolgreich zu erweitern, müssen verschiedene Elemente berücksichtigt werden, die eine funktionierende Gemeinschaft ausmachen. Dazu gehören geteilte Ziele, ein starkes Identitäts- und Gemeinschaftsgefühl, Kommunikation und Beziehungen, Engagement sowie aktive Beteiligung und Zusammenarbeit. Viele dieser Aspekte erfordern intrinsische Motivation und Überzeugung. Um diese Motivation zu fördern, ist es entscheidend, die Menschen dort abzuholen, wo sie stehen, und ihre Bedürfnisse und Bedarfe gezielt anzusprechen.
+
+Doch wie versteht man die eigene Zielgruppe? Im OER-Bereich überschneiden sich Ziel- und Interessensgruppen oft, weshalb eine klare Definition der Zielgruppe zentral ist. Besonders in der Bildung lassen sich Gemeinsamkeiten in Grundproblemen erkennen, wie etwa strukturelle Bedingungen oder der Zugang zu Ressourcen. Allerdings variieren die Details je nach Kontext: Lehrende haben unterschiedliche Freiheitsgrade, technische Ausstattungen und institutionelle Regelungen, die ihre Motivation zur Nutzung von OER beeinflussen. Auch die Rolle der Lernenden und ihre Verpflichtungen spielen eine Rolle. Um gezielt an diese Menschen heranzukommen, muss ihre Situation genau analysiert werden.
+
+Eine systematische Stakeholder-Analyse [vgl. Wang 2018] (http://universitypublications.net/jte/0802/pdf/H8V237.pdf), ein ursprünglich aus dem strategischen Management stammendes Werkzeug, kann dabei helfen, die Zielgruppe zu identifizieren und zu verstehen. Im Workshop haben wir dieses Instrument ganz praktisch angewandt, um die für uns relevante Zielgruppen besser zu erfassen. Diese Analyse ermöglicht es, mit Blick auf die jeweilige Zielgruppe Widerstände und Hürden bzgl. OER zu identifizieren,  Vorteile durch OER und das jeweilige Interesse an OER zu elaborieren. Die Analysie zielt darauf ab, Zielgruppen gezielt anzusprechen und maßgeschneiderte Strategien zu entwickeln, um sie effektiv zu erreichen.
+
+Zusätzlich gab es konkrete Tipps, um OER in der Bildungslandschaft besser zu verankern: Lehrkräfte sollten etwa die Integration von OER in ihre Ausbildung als persönlichen Vorteil begreifen. Außerdem helfen Gespräche mit der Zielgruppe, um ihre Wünsche und Bedürfnisse besser zu verstehen. Letztlich schafft diese Nähe zu den Zielgruppen die Grundlage für eine aktive, wachsende und engagierte OER-Community. Weitere Informationen und Anregungen bietet der [Blogbeitrag] (https://open-educational-resources.de/ein-systematisches-mapping-von-communities-in-der-bildung/) von OERinfo, der systematische Methoden zur Analyse von Communities durch Systematisches Mapping erläutert. 
 
 ### Wirksame Wege des Dialogs und Transfers
 
