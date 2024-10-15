@@ -60,7 +60,9 @@ Zusätzlich gab es konkrete Tipps, um OER in der Bildungslandschaft besser zu ve
 
 Ana Schenk (DIPF)
 
--> Gina
+Der Workshop von Ana Schenk befasste sich mit der Frage, wie evidenzbasierte Methoden des Wissenstransfers und des Dialogs auf den Bereich des Community Buildings übertragen werden können. Dazu stellte sie das Projekt "[ReTransfer](https://retransfer.digital/)" vor, um digitale Fachkonzepte für anwendungsfähige digitale Lehrkräftefortbildungen im Bereich der Gesellschaftswissenschaften länderübergreifend zu entwickeln und zu beforschen.
+
+Neben einer umfassenden Literaturrecherche stützen sie sich methodisch auf die evidenzbasierte Medizin, die wissenschaftlich geprüfte Informationen zu den verschiedenen medizinischen Untersuchungs- und Behandlungsmöglichkeiten bereitstellt , um die ärztlichen Entscheidungsgrundlagen zu verbessern und die Qualität bei Diagnose und Therapie zu erhöhen. Generell ist das Ziel evidenzbasierter Forschung vorherige Forschungsergebnisse systematisch und transparent für neue Studien zu nutzen, sodass wichtige Fragen auf gültige, effiziente und zugängliche Weise beantwortet werden. Im Workshop wurde diskutiert, inwieweit sich das Konzept evidenzbasierter Forschung auf den Bildungsbereich und die heterogenen Communities übertragen lässt.
 
 ### Sammeln, Kuratieren und Verbreiten von hochwertigen Bildungsmaterialien
 
