@@ -68,9 +68,10 @@ Neben einer umfassenden Literaturrecherche stützen sie sich methodisch auf die 
 
 Niels Winkelmann (WirLernenOnline)
 
--> Jörg
+Der Workshop von Niels Winkelman ([@aen_weh](https://bildung.social/@aen_weh)) gab einen Überblick zur Community-Beteiligung bei WLO (https://www.wirlernenonline.de/). Die vorgestellte Redaktionsumgebung dient dabei zum Sammeln, Kuratieren, Ergänzen durch Metadaten, Freischalten und Einsortieren von #OER-Materialien und wird zunehmend durch KI-basierte Werkzeuge unterstützt. Eine Vielzahl von Plugin-Angeboten macht dabei die offene Technik anschlussfähig in unterschiedliche Systeme, wie Moodle oder WordPress. Ein definierter Qualitätsprozess am Inhalte-Buffet ermöglicht dabei eine Verschränkung maschineller Checks mit menschlicher Redaktion bis zur Freischaltung durch die Mitarbeitenden. 
+🚢🌊🎣 Illustriert wurden die Tätigkeiten der Plattform-Community durch das Bild einer Fangflotte, die im Meer der Angebote die Inhalte abfischt. Aktuelle Weiterentwicklungen sollen das Community-basierte Training von KI, sowie adaptive Themenseiten sein. 
 
-Präsentation WLO: [Google-Slides](https://docs.google.com/presentation/d/1LQm3TXCwy3xT1idMCUAxWYuWqv9YeJt5SCvn5QU_vhg/edit?usp=sharing)
+Die Präsentation von Niels zu WLO gibt's [hier als Google-Slides](https://docs.google.com/presentation/d/1LQm3TXCwy3xT1idMCUAxWYuWqv9YeJt5SCvn5QU_vhg/edit?usp=sharing)
 
 ## Fazit:
 
