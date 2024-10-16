@@ -53,7 +53,7 @@ So lautete das Motto des [OERinfo-Fachtages 2024](https://open-educational-resou
 
 ![](http://oer.community/wp-content/uploads/2024/10/IMG_9015-scaled.jpg)
 
-Nach einer Begrüßung von Prof. Dr. Marc Rittberger (Direktor des DIPF) sowie von Annette Friderichs (DLR-Projektträger) und Dr. Steffi Widera (Geschäftsführerin der Virtuellen Hochschule Bayern) als Vertreterinnen von Bund und Länder erfolgte eine Kurzvorstellung der geförderten [Projekte](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/):
+Nach einer Begrüßung von Prof. Dr. Marc Rittberger (Direktor des Informationszentrums Bildung am DIPF) sowie von Annette Friderichs (DLR-Projektträger) und Dr. Steffi Widera (Geschäftsführerin der Virtuellen Hochschule Bayern) als Vertreterinnen von Bund und Länder erfolgte eine Kurzvorstellung der geförderten [Projekte](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/):
 
 - **CO-WOERK:** Das zentrale Ziel des Projekts CO-WOERK ist die Etablierung einer bundesländerübergreifenden OER-Community für die Bereiche Hochschullehre und berufliche Bildung.
 
