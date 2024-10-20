@@ -1,14 +1,15 @@
 ---
-
 '@context': https://schema.org/
-creativeWorkStatus: Published
+creativeWorkStatus: Draft
 type: LearningResource
 name: 'Arbeiten mit Git: FOERBICO meets EKHN Medienhaus'
 description: >-
-Das Treffen am 16.10.2024 des Teams vom Comenius-Institut mit dem Team vom EKHN Medienhaus bot spannende Einblicke in die digitale Infrastruktur und die Arbeitsweisen. Hier erfahrt ihr die wichtigsten Punkte rund um den Einsatz von GitLab, Datenschutzanforderungen, agile Workflows und die zukünftige Zusammenarbeit.
+  Das Treffen am 16.10.2024 des Teams vom Comenius-Institut mit dem Team vom
+  EKHN Medienhaus bot spannende Einblicke in die digitale Infrastruktur und die
+  Arbeitsweisen. Hier erfahrt ihr die wichtigsten Punkte rund um den Einsatz von
+  GitLab, Datenschutzanforderungen, agile Workflows und die zukünftige
+  Zusammenarbeit.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: >-
-
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -24,10 +25,8 @@ keywords:
   - Vernetzung
 inLanguage:
   - de
-image: http://oer.community/wp-content/uploads/2024/10/Git-Treffen.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-datePublished: '2024-10-21'
 
 ---
 
