@@ -1,7 +1,7 @@
 ---
 name: 'Über Uns'
 slug: 'ueberuns'
-description: 'Was ist fOERbico?'
+description: 'Was ist FOERBICO?'
 category: ['Posts/info', 'Grundlagen']
 tags: ['foerbico', 'OER']
 status: 'draft'
@@ -16,37 +16,51 @@ git: https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/uebe
 
 ## Was ist FOERBICO?
 
-Open Educational Resources (OER) sind frei zugängliche Lern- und Lehrmaterialien, die zur Weiterverwendung und Anpassung für den eigenen Bildungskontext zur Verfügung stehen. FOERBICO zielt darauf ab, gemeinsame Kriterien und Standards zu entwickeln, um die Anschlussfähigkeit des Materials zu erhöhen und damit die Qualtiät und Sichtbarkeit zu verbessern. Um dieses Ziel zu erreichen, setzt FOERBICO im Sinne einer Community of Communities auf die Vernetzung und den Austausch von verschiedenen religionsbezogenen Communities. So können die wertvoll erarbeiteten OER in erschienene Materialpools eingepflegt und anschlussfähig gemacht werden, um weiter verbreitet, weiterentwickelt und von mehr Leuten verwendet zu werden.
+<div class="pull-left">
 
-Unser Ziel ist es, einen Netzwerkknoten(Hub) zu schaffen, um eine nachhaltige Struktur länderübergreifender Zusammenarbeit im Bereich der Digitalisierung religiöser Bildung zu ermöglichen. Die Kooperation ist dabei ausgerichtet auf Vernetzung und Bündelung OER-förderlicher, digitaler Lehr-/Lern-Infrastrukturen und -Dienste. Das Netzwerk ermöglicht seinen Mitgliedern, als gleichberechtigte Partner Erfahrungen auszutauschen, gemeinsame Interessen zu identifizieren und diese auf Bundesebene zu vertreten. Damit tragen wir gemeinsam zu wichtigen Fragen und Lösungen rund um religionsbezogene Bildung bei.
+<p style="text-align: left">Communities und deren Angebote, Fortbildungseinrichtungen und universitäre Standorte generieren bereits wertvolle OER-Materialien, doch bleiben ihre Aktivitäten vielfach isoliert. Auch werden wenig Bezüge zu anschlussfähigen Bildungsbereichen wie Erwachsenen-, Familien- oder Jugendbildung eröffnet. Um der geringen Vernetzung und wenig standardisierten Zusammenarbeit zwischen verschiedenen Akteuren sowie der Ausschöpfung und Erweiterung des Potentials für OER-Entwicklung im religionsbezogenen Bildungsbereich zu begegnen, verknüpft das Projekt OER-erfahrene Communities mit weiteren institutionellen, universitären und kirchlichen Akteuren und zielt auf eine verbesserte Anschlussfähigkeit durch Kooperationen mit OER-Plattformen wie *[wirlernenonline.de](https://wirlernenonline.de)*.</p>
+
+</div>
+<div class="pull-right">
+
+![](http://oer.community/wp-content/uploads/2024/07/ezgif-7-786d3c2933.gif)
+
+</div>
+
+<div class="pull-right">
+
+<p style="text-align: right">FOERBICO ist ein Verbundprojekt des [Comenius-Instituts Münster](https://comenius.de), der [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.fau.de/) und der [Goethe-Universität Frankfurt](https://www.uni-frankfurt.de/).
+
+Das Projekt wird von Mai 2024 bis Ende April 2027 vom [Bundesministerium für Bildung und Forschung (BMBF)](https://www.bmbf.de/bmbf/de/home/home_node.html) im Rahmen der [OER-Strategie](https://www.oer-strategie.de/) des Bundes gefördert.</p>
+
+</div>
+<div class="pull-left">
+
+![](http://oer.community/wp-content/uploads/2024/06/image.jpeg)
+
+Förderkennzeichen: 01PO23012C
+
+</div>
+
+Button "Werde Teil der Community" -> Link zu Community-Hub-Seite?
 
 ## Unsere Vision
 
-Für FOERBICO ist Openness der zentrale Baustein von Bildung – jetzt und in der Zukunft. Wir setzen uns darum für eine kontinuierlich wachsende Verbreitung von Open Educational Resources (OER) und Open Educational Practices (OEP) in der religionsbezogenen Bildung ein. 
+Für FOERBICO ist Openness der zentrale Baustein von Bildung – jetzt und in der Zukunft. Wir setzen uns darum für eine kontinuierlich wachsende Verbreitung von Open Educational Resources (OER) und Open Educational Practices (OEP) in der religionsbezogenen Bildung ein. Open Educational Resources (OER) sind frei zugängliche Lern- und Lehrmaterialien, die zur Weiterverwendung und Anpassung für den eigenen Bildungskontext zur Verfügung stehen. FOERBICO zielt darauf ab, gemeinsame Kriterien und Standards zu entwickeln, um die Anschlussfähigkeit des Materials zu erhöhen und damit die Qualtiät und Sichtbarkeit zu verbessern. Unsere Vision ist es, eine Kultur des Teilens in den Communities zu schaffen, bei der die gemeinsame Erstellung und Nutzung offener Bildungsmaterialien – auch über (Hoch-)Schul-; Kirchen- und Bistumsgrenzen hinweg – ein selbstverständlicher Bestandteil der Bildungsarbeit ist.
 
-Die Vision von oer.community ist es, eine Kultur des Teilens in den Communities zu schaffen, bei der die gemeinsame Erstellung und Nutzung offener Bildungsmaterialien – auch über (Hoch-)Schul-; Kirchen- und Bistumsgrenzen hinweg – ein selbstverständlicher Bestandteil der Bildungsarbeit ist.
+<figure style="border: 2px solid #FFA500; border-radius: 50%;">
+    <img src="http://oer.community/wp-content/uploads/2024/10/Openness-in-der-religioesen-Bildung1.png" alt="Openness in der religiösen Bildung">
+</figure>
 
-Die Beteiligten von FOERBICO verstehen sich dabei als OER-Botschafter, die auf die Verwirklichung dieser Vision hinarbeiten und als Ideen- und Strukturgeber sowie Vorreiter das Thema Openness im Kontext religionsbezogener Bildung voranbringen.
+Unser Ziel ist es, einen Netzwerkknoten als Community-Hub zu schaffen, um eine nachhaltige Struktur länderübergreifender Zusammenarbeit im Bereich der Digitalisierung religiöser Bildung zu ermöglichen. Die Kooperation ist dabei ausgerichtet auf Vernetzung und Bündelung OER-förderlicher, digitaler Lehr-/Lern-Infrastrukturen und -Dienste. Das Netzwerk ermöglicht seinen Mitgliedern, als gleichberechtigte Partner Erfahrungen auszutauschen, gemeinsame Interessen zu identifizieren und diese auf Bundesebene zu vertreten. Die Beteiligten von FOERBICO verstehen sich dabei als OER-Botschafter, die auf die Verwirklichung dieser Vision hinarbeiten und als Ideen- und Strukturgeber sowie Vorreiter das Thema Openness im Kontext religionsbezogener Bildung voranbringen.
 
-## Prokektziele von FOERBICO
-
-**Potenzial von OER-Communities:** Bestehende OER-Communities im religionsbildenden Bereich werden mit einander Vernetzt um Ressourcen zu bündeln und Expertenwissen zu teilen. Dies umfasst den Abgleich der Bedürfnisse der Communities und die Bereitstellung von bedarfsgerechter Unterstützung.
-
-**Koordinierte Zusammenarbeit:** Durch die Vernetzung bestehender OER-Communities wird auf die bestehenden Infrastrukturen aufgebaut und diese weiterentwickelt. Zentrale Punkte sind die Konzeption des Systems, die Weiterentwicklung von Metadatenstandards, die (Mit)-Entwicklung eines Metadaten-Generators und die Implementierung von OER-Katalogen.
-
-**Qualitätsentwicklung:** Entwicklung von Qualitätsstandards von OER Material sowie die Implementierung von Metadatenstandards an denen sich die Communities orientieren können. Des Weiteren sind die Entwicklung, Erprobung und Weiterentwicklung von Fortbildungsformaten geplant.
-
-**OER-Entwicklkung an Hochschulen:** Zentrale Maßnahmen sind die Netzwerkbildung für eine OER-Community in der wissenschaftlichen Religionspädagogik & Theologie, die Begleitung bei der Übernahme von OER-Standards und die Sensibilisierung für Open-Access-Formate.
-
-**Empirische Begleitforschung:** Dies beinhaltet eine Bedarfserhebung welche die momentanen Bedürfnisse, Herausforderungen und Arbeitsprozesse von OER-Communities erfragt. Zudem werden bestehender Standards erhoben, analysiert und weiterentwickelt. 
+<figure style="border: 2px solid #FFA500; border-radius: 50%;">
+    <img src="https://oer.community/wp-content/uploads/2024/10/Communities.png" alt="Communities stärken">
+</figure>
 
 
-## Aufgaben von FOERBICO
+![](http://oer.community/wp-content/uploads/2024/10/Flyer-FOERBICO-1024x724.png)
 
-**Etablierung gemeinsamer Qualitätsstandards:** FOERBICO wird vorhandene Prozesse der Qualitätsentwicklung und -sicherung in den Communities erheben, analysieren und auf Basis aktueller Forschungsergebnisse zu fachspezifisch übergreifenden Standards weiterentwickeln.
-**Design-Based-Research (DBR) zur Optimierung:** Die Qualitätsentwicklung der Standards soll in einem iterativen Prozess gemeinsam mit den Communities und Projekten durch DBR erfolgen.
-**Entwicklung und Erprobung von Fortbildungsformaten:** FOERBICO wird Fortbildungsformate für Aus- und Fortbildner:innen entwickeln, erproben und evaluieren, um die Qualifizierung im Bereich OER zu verbessern. Die Begleitforschung wird die Wirksamkeit der Formate untersuchen und so zur Qualitätssicherung beitragen.
-**Verbesserung der technischen Infrastruktur:** Durch die Weiterentwicklung und Vernetzung der technischen Infrastruktur, z. B. durch ein plattformunabhängiges Redaktionssystem, soll die Qualitätssicherung von OER vereinfacht und vereinheitlicht werden.
-**Schaffung von Transparenz und Vergleichbarkeit:** Durch die Dokumentation von Qualitätsstandards, Arbeitsformen und Handlungsanleitungen auf dem Community-Hub wird Transparenz geschaffen und die Vergleichbarkeit von OER-Materialien erhöht.
-**Einbindung von Nutzerfeedback:** FOERBICO wird Mechanismen entwickeln, um Feedback von Nutzer:innen zu OER-Materialien systematisch zu sammeln und in die Qualitätsentwicklung einfließen zu lassen.
-**Vernetzung mit anderen OER-Communities:** Der Austausch mit anderen Communities, sowohl innerhalb als auch außerhalb des religionsbezogenen Bereichs, soll dazu beitragen, von Best Practices zu lernen und die Qualitätssicherung von OER insgesamt zu verbessern.
+Du möchtest mehr über uns und das Projekt erfahren?
+
+[Kontaktiere uns](https://oer.community/unser-team/)
