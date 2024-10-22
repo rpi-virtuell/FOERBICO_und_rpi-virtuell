@@ -55,7 +55,7 @@ Das Treffen am 16.10.2024 des Teams vom [Comenius-Institut](https://comenius.de/
 
 ## GitLab: Ein Blick hinter die Kulissen
 
-Eine der größten Herausforderungen bei der Wahl der richtigen Plattform ist der Datenschutz. Das EKHN Medienhaus setzt auf eine selbstgehostete Version von GitLab bei Hetzner in Nürnberg. Aufgrund strenger Datenschutzvorgaben wurde auf die Cloud-basierte Lösung verzichtet. Interessant war die Vorstellung der Community Edition von GitLab, die kostenfrei verfügbar ist und sich als gut skalierbar darstellet, llerdings einige Funktionseinschränkungen hat (z.B. keine Burndown-Charts).
+Eine der größten Herausforderungen bei der Wahl der richtigen Plattform ist der Datenschutz. Das EKHN Medienhaus setzt auf eine selbstgehostete Version von GitLab bei Hetzner in Nürnberg. Aufgrund strenger Datenschutzvorgaben wurde auf die Cloud-basierte Lösung verzichtet. Interessant war die Vorstellung der Community Edition von GitLab, die kostenfrei verfügbar ist und sich als gut skalierbar darstellet, allerdings einige Funktionseinschränkungen hat (z.B. keine Burndown-Charts).
 
 Das Team verwendet GitLab vor allem zur Code-Verwaltung. Für die Projektzeiten und Sprints wurde jedoch auf Jira und Confluence umgestellt, da diese Tools erweiterte Funktionen mitbringen sind, um agile Methoden abzubilden. Eine kostenpflichtige Version von GitLab wäre zudem wohl deutlich teurer als Jira für die derzeit 179 User des Medienhauses.
 
