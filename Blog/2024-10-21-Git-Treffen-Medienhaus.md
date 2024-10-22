@@ -74,7 +74,6 @@ Neben GitLab setzt das Team des ekhn-Medienhauses auch auf [Mattermost](https://
 Das Treffen mit dem EKHN Medienhaus hat verdeutlicht, wie moderne Tools wie GitLab und Jira die Arbeit in Teams erleichtern können, wenn sie richtig eingesetzt werden. Gleichzeitig zeigt es die Bedeutung von klaren Workflows und Zuständigkeiten, um in selbstorganisierten Teams erfolgreich zu arbeiten. Der Austausch bleibt spannend und wir freuen uns weiter im Gespräch zu bleiben und voneinander zu lernen. 
 Als besondere Herausforderung im Blick auf die künftige Zusammenarbeit mit #OER-Communities sehen wir es, unsere Arbeitsweisen nicht nur offen und zum Mitmachen zu gestalten, sondern auch die technische Infrastruktur als grundlegende Partizipationsoption ebenfalls zu öffnen und dies auch für Einsteigende leicht zugänglich zu machen.
 
-
 ## Fazit:
 
 Es war eine tolle Möglichkeit die Menschen hinter den Projekten kennenzulernen! Teilweise treiben uns ähnliche Fragen um, z.B. zu Qualitätskriterien, rechtlichen Fragen, zeitlichen Ressourcen sowie Partizipations- und Aktivierungsmöglichkeiten. Gleichzeitig waren die spezifischen Themen und verschiedenen Herangehensweisen der Projekte spannend. Was uns alle vereint: Das Ziel der Weiterentwicklung von offenen Lehr- und Lernmaterialien und vor allem offenen Bildungspraktiken - wir freuen uns weiterhin, auf und über die gemeinsame Reise!
