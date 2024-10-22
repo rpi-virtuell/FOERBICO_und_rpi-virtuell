@@ -37,7 +37,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n01
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n121
-image: https://oer.community/wp-content/uploads/2024/10/Git-Treffen.png
+image: https://oer.community/wp-content/uploads/2024/10/GitLab-Ein-Blick-hinter-die-Kulissen.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -47,7 +47,7 @@ datePublished: '2024-10-22'
 
 ---
 
-![](http://oer.community/wp-content/uploads/2024/10/Git-Treffen.png)
+![](https://oer.community/wp-content/uploads/2024/10/GitLab-Ein-Blick-hinter-die-Kulissen.png)
 
 # Arbeiten mit Git: FOERBICO meets EKHN Medienhaus
 
