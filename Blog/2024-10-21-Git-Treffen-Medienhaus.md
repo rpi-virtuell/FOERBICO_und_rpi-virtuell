@@ -1,6 +1,6 @@
 ---
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
 name: 'Arbeiten mit Git: FOERBICO meets EKHN Medienhaus'
 description: >-
@@ -18,6 +18,14 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 keywords:
   - Austausch
   - Git
@@ -25,8 +33,17 @@ keywords:
   - Vernetzung
 inLanguage:
   - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n01
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n121
+image: https://oer.community/wp-content/uploads/2024/10/Git-Treffen.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_C
+datePublished: '2024-10-22'
 
 ---
 
