@@ -36,8 +36,6 @@ learningResourceType:
 
 Das Treffen am 16.10.2024 des Teams vom [Comenius-Institut](https://comenius.de/) mit dem Team vom [EKHN Medienhaus](https://medienhaus.ekhn.de/index.html) bot spannende Einblicke in die digitale Infrastruktur und die Arbeitsweisen. Hier erfahrt ihr die wichtigsten Punkte rund um den Einsatz von [GitLab](https://about.gitlab.com/de-de/free-trial/devsecops/), Datenschutzanforderungen, agile Workflows und die zukünftige Zusammenarbeit.
 
-![](http://oer.community/wp-content/uploads/2024/10/IMG_9013-scaled.jpg)
-
 ## GitLab: Ein Blick hinter die Kulissen
 
 Eine der größten Herausforderungen bei der Wahl der richtigen Plattform ist der Datenschutz. Das EKHN Medienhaus setzt auf eine selbstgehostete Version von GitLab bei Hetzner in Nürnberg. Aufgrund strenger Datenschutzvorgaben wurde auf die Cloud-basierte Lösung verzichtet. Interessant war die Vorstellung der Community Edition von GitLab, die kostenfrei verfügbar ist, allerdings einige Funktionseinschränkungen hat (z.B. keine Burndown-Charts).
@@ -58,8 +56,7 @@ Neben GitLab setzt das Team auch auf [Mattermost](https://mattermost.com/) für 
 
 Das Treffen mit dem EKHN Medienhaus hat verdeutlicht, wie moderne Tools wie GitLab und Jira die Arbeit in Teams erleichtern können, wenn sie richtig eingesetzt werden. Gleichzeitig zeigt es die Bedeutung von klaren Workflows und Zuständigkeiten, um in selbstorganisierten Teams erfolgreich zu arbeiten. Der Austausch bleibt spannend und wir freuen uns weiter im Gespräch zu bleiben und voneinander zu lernen.
 
-Die Präsentation von Niels zu WLO gibt's [hier als Google-Slides](https://docs.google.com/presentation/d/1LQm3TXCwy3xT1idMCUAxWYuWqv9YeJt5SCvn5QU_vhg/edit?usp=sharing)
 
 ## Fazit:
 
-Es war eine tolle Möglichkeit die Menschen hinter den Projekten kennenzulernen! Teilweise treiben uns ähnliche Fragen um, z.B. zu Qualitätskriterien, rechtlichen Fragen, zeitlichen Ressourcen sowie Partizipations- und Aktivierungsmöglichkeiten. Gleichzeitig waren die spezifischen Themen und verschiedenen Herangehensweisen der Projekte spannend. Was uns alle vereint: Das Ziel der Weiterentwicklung von offenen BLehr- und Lernmaterialien und vor allem offenen Bildungspraktiken - wir freuen uns weiterhin, auf die gemeinsame Reise!
+Es war eine tolle Möglichkeit die Menschen hinter den Projekten kennenzulernen! Teilweise treiben uns ähnliche Fragen um, z.B. zu Qualitätskriterien, rechtlichen Fragen, zeitlichen Ressourcen sowie Partizipations- und Aktivierungsmöglichkeiten. Gleichzeitig waren die spezifischen Themen und verschiedenen Herangehensweisen der Projekte spannend. Was uns alle vereint: Das Ziel der Weiterentwicklung von offenen Lehr- und Lernmaterialien und vor allem offenen Bildungspraktiken - wir freuen uns weiterhin, auf die gemeinsame Reise!
