@@ -2,6 +2,10 @@
 
 ## Allgemein
 
+- [Umfassendes Modell der Qualität von OER der Universität Hamburg](https://www.oer-quality.de/qualitaetsmodell/)
+- [Lernmodell „Kriterien zur Bewertung von digitalen Lernmaterialien“ der Universität Köln](https://www.llz.uni-koeln.de/qualitaetskriterien/)
+- [OER Qualitätssicherungsmodell der Hamburg Open Online University](https://www.hoou.de/de/qualitaetssicherung)
+- [„Onlineplattform unter der Lupe“ der Universität Augsburg](https://www.uni-augsburg.de/de/fakultaet/philhist/germanistik/professuren/didaktik-deutsch/forschung/onlineplattform/)
 - OER-Mapping: [Qualitätssicherung](https://mapping-oer.de/mapping-oer.de/themen/qualitaetssicherung/index.html)
 - wb-web: [Qualität von offenen Bildungsmaterialien einschätzen](https://wb-web.de/material/medien/qualitat-von-offenen-bildungsmaterialien-einschatzen.html)
 - bpb: [Drei Checklisten zur Qualitätsbestimmung und -entwicklung von OER](https://www.bpb.de/lernen/digitale-bildung/werkstatt/262714/drei-checklisten-zur-qualitaetsbestimmung-und-entwicklung-von-oer/) => darin [Pad vom oerCamp 2017](https://pad.o-e-r.de/p/oercamp17-ost-a1-weisser-pfeffer)
