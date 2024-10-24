@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: OER zum Thema Antisemitismus: Gemeinsam Bildungsmaterialien gestalten
+name: "OER zum Thema Antisemitismus: Gemeinsam Bildungsmaterialien gestalten"
 description: >-
   Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina
   Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian
@@ -31,6 +31,7 @@ inLanguage:
   - de
 image: http://oer.community/wp-content/uploads/2024/10/Image20240930122337.jpg
 datePublished: '2024-10-08'
+
 
 ---
 
