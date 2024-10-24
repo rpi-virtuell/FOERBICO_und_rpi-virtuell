@@ -37,7 +37,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n01
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n121
-image: https://oer.community/wp-content/uploads/2024/10/Git-Treffen.png
+image: https://oer.community/wp-content/uploads/2024/10/GitLab-Ein-Blick-hinter-die-Kulissen.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -47,7 +47,7 @@ datePublished: '2024-10-22'
 
 ---
 
-![](http://oer.community/wp-content/uploads/2024/10/Git-Treffen.png)
+![](https://oer.community/wp-content/uploads/2024/10/GitLab-Ein-Blick-hinter-die-Kulissen.png)
 
 # Arbeiten mit Git: FOERBICO meets EKHN Medienhaus
 
@@ -55,7 +55,7 @@ Das Treffen am 16.10.2024 des Teams vom [Comenius-Institut](https://comenius.de/
 
 ## GitLab: Ein Blick hinter die Kulissen
 
-Eine der größten Herausforderungen bei der Wahl der richtigen Plattform ist der Datenschutz. Das EKHN Medienhaus setzt auf eine selbstgehostete Version von GitLab bei Hetzner in Nürnberg. Aufgrund strenger Datenschutzvorgaben wurde auf die Cloud-basierte Lösung verzichtet. Interessant war die Vorstellung der Community Edition von GitLab, die kostenfrei verfügbar ist und sich als gut skalierbar darstellet, llerdings einige Funktionseinschränkungen hat (z.B. keine Burndown-Charts).
+Eine der größten Herausforderungen bei der Wahl der richtigen Plattform ist der Datenschutz. Das EKHN Medienhaus setzt auf eine selbstgehostete Version von GitLab bei Hetzner in Nürnberg. Aufgrund strenger Datenschutzvorgaben wurde auf die Cloud-basierte Lösung verzichtet. Interessant war die Vorstellung der Community Edition von GitLab, die kostenfrei verfügbar ist und sich als gut skalierbar darstellet, allerdings einige Funktionseinschränkungen hat (z.B. keine Burndown-Charts).
 
 Das Team verwendet GitLab vor allem zur Code-Verwaltung. Für die Projektzeiten und Sprints wurde jedoch auf Jira und Confluence umgestellt, da diese Tools erweiterte Funktionen mitbringen sind, um agile Methoden abzubilden. Eine kostenpflichtige Version von GitLab wäre zudem wohl deutlich teurer als Jira für die derzeit 179 User des Medienhauses.
 
@@ -73,7 +73,6 @@ Neben GitLab setzt das Team des ekhn-Medienhauses auch auf [Mattermost](https://
 
 Das Treffen mit dem EKHN Medienhaus hat verdeutlicht, wie moderne Tools wie GitLab und Jira die Arbeit in Teams erleichtern können, wenn sie richtig eingesetzt werden. Gleichzeitig zeigt es die Bedeutung von klaren Workflows und Zuständigkeiten, um in selbstorganisierten Teams erfolgreich zu arbeiten. Der Austausch bleibt spannend und wir freuen uns weiter im Gespräch zu bleiben und voneinander zu lernen. 
 Als besondere Herausforderung im Blick auf die künftige Zusammenarbeit mit #OER-Communities sehen wir es, unsere Arbeitsweisen nicht nur offen und zum Mitmachen zu gestalten, sondern auch die technische Infrastruktur als grundlegende Partizipationsoption ebenfalls zu öffnen und dies auch für Einsteigende leicht zugänglich zu machen.
-
 
 ## Fazit:
 
