@@ -44,6 +44,7 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_C
 datePublished: '2024-10-22'
+oerCommunityPermalink: https://oer.community/arbeiten-mit-git-foerbico-meets-ekhn-medienhaus/
 
 ---
 

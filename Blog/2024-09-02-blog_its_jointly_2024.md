@@ -33,10 +33,11 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-02'
+oerCommunityPermalink: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/
 
 ---
 
-# It's jointly
+# Einblicke zum OER-/IT-Sommercamp "it’s jointly 2024"
 
 ![Philip und Ludger](../assets/images/blog/IMG_1029.JPG)
 Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom 19.08.-21.08.2024 teil.

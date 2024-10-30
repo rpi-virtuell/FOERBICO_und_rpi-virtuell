@@ -1,0 +1,14 @@
+#baseURL: //oer.community/
+baseURL: http://oer-comm-by-hugo.infinityfreeapp.com/
+languageCode: de-de
+title: oer.community
+theme: PaperMod
+
+Pagination:
+  disableAliases: false
+  pagerSize: 100
+  #path: seite
+
+Params:
+  ShowReadingTime: true
+#  ShowBreadCrumbs: true

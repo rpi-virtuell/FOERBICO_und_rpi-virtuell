@@ -1,7 +1,7 @@
 ---
 
 '@context': https://schema.org/
-creativeWorkStatus: Published
+creativeWorkStatus: Draft
 type: LearningResource
 name: '"Warum Open Education zu generativer KI-Bildung wird" - David Wiley'
 description: >-
@@ -34,6 +34,7 @@ image: http://oer.community/wp-content/uploads/2024/10/Open-Education.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-10-01'
+oerCommunityPermalink:
 
 ---
 

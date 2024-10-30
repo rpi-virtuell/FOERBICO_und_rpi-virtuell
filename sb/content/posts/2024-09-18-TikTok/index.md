@@ -1,0 +1,171 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
+description: >-
+  Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für
+  Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität.
+  Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung,
+  sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu
+  kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in
+  diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
+  Theologie und religionsbezogene Bildung über TikTok erschließen.
+license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+creator:
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Konstanze
+    familyName: Kemnitzer
+    id: https://orcid.org/0000-0002-1919-8411
+    type: Person
+    affiliation:
+      name: Kirchliche Hochschule Wuppertal
+      id: https://ror.org/05n1ym881
+      type: Organization
+keywords:
+  - TikTok
+  - Wissenschaftskommunikation
+  - Social Media
+  - Theologie
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n287
+image: kemnitzer-tiktok.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2024-09-18'
+#staticSiteGenerator:
+title: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
+cover:
+  image: kemnitzer-tiktok.png
+  hiddenInSingle: true
+summary: |
+  Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für
+  Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität.
+  Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung,
+  sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu
+  kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in
+  diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
+  Theologie und religionsbezogene Bildung über TikTok erschließen.
+url: theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
+weight: -20240918
+---
+
+![](kemnitzer-tiktok.png)
+Untertitel: "Mehr als nur 'cringe'? – Theologie-Professorin Konstanze Kemnitzer über TikTok als  "Imaginationsraum" und "Produkt""
+
+## Warum TikTok?
+Konstanze Kemnitzer sieht in TikTok nicht nur ein Forschungsfeld, sondern auch ein Experimentierfeld für neue Formen der Wissenschaftskommunikation. Anders als Instagram ermögliche TikTok den Ausbruch aus der Kirchenblase und erlaube es ihr,  mit einem jungen, heterogenen Publikum in Kontakt zu treten. Sie beobachtet dort u.a. religiöse Strömungen, die sie als "fundamentalistisch" und "fanatisch" bezeichnet und denen sie ein differenziertes Bild von Theologie entgegensetzen möchte.
+
+Die Plattformlogik von TikTok mit seiner Fokussierung auf kurze, virale Videos zwingt Konstanze Kemnitzer dazu, komplexe theologische Inhalte auf den Punkt zu bringen. Die Logik "Religion als Produkt" wird dabei konstruktiv genutzt aber zugleich auch hinterfragt. Theologie bietet ihr die Möglichkeit auf Anregungen, Fragen und auch Kritik sachgerecht und rational zu reagieren. Sie hinterfragt dabei die klassische Suche nach der richtigen theologischen Kommunikationsstrategie und sucht nach Möglichkeiten, jungen Menschen den Wert und die Relevanz von Glaubensfragen zu vermitteln.
+
+Konstanze Kemnitzer argumentiert, dass Theologie lernen müsse, ihre Inhalte als "Produkt" zu begreifen, um auf TikTok erfolgreich zu sein. Die Plattform zwinge dazu, die Bedürfnisse der Nutzer:innen in den Mittelpunkt zu stellen und Lösungen für ihre Probleme anzubieten.
+> "Am Schluss zählt das Produkt. Und diese Wende zu kapieren, geht für mich bis hinein in die Kirchentheorie"
+
+Dieses "Produkt" besteht aus Antworten auf Sinnfragen, der Auseinandersetzung mit existenziellen Themen und der Vermittlung eines menschenfreundlichen Christentums.
+
+## "Imagination" statt "Kommunikation":
+Konstanze Kemnitzer kritisiert das klassische Paradigma der "Kommunikation des Evangeliums", das  ihrer Ansicht nach der Lebensrealität junger Menschen im digitalen Zeitalter nicht mehr gerecht wird. Sie plädiert stattdessen für "immersive Ereignisse", die Nutzer:innen emotional und spirituell ansprechen.
+
+TikTok versteht sie dabei als ein "Imaginationsmedium", das durch visuelle Reize und  interaktive Formate die Nutzer:innen in seinen Bann zieht. In diesem Zusammenhang betont sie auch die Bedeutung von Authentizität und Nahbarkeit. Theolog:innen sollten auf TikTok als "echte Menschen" sichtbar werden, die sich mit ihren eigenen Fragen und Zweifeln auseinandersetzen.
+
+Es gehe nicht mehr primär um die Vermittlung von Informationen, sondern darum, immersive Erlebnisse zu schaffen, die Nutzer:innen emotional ansprechen und zum "Eintauchen" einladen.
+> "Also ich lege mich da tatsächlich mit dem ach so bekannten Ernst Lange an und sage, solange wir uns in der praktischen Theologie nicht von diesem Paradigma der Kommunikation des Evangeliums mal weiter lösen, müssen wir sozusagen erleben, dass wir immer noch alte Bilder mit uns rumschleppen."
+ 
+Livestreams werden als besonders geeignet für immersive Formate gesehen, da sie Interaktion und authentische Begegnungen ermöglichen. Allerdings fehlen ihr hier neben der Lehre und Forschung die zeitlichen Ressourcen. 
+
+
+## Konkrete Beispiele und Herausforderungen:
+Zu den erfolgreichsten Formaten auf Konstanze Kemnitzers Kanal gehören kurze Erklärvideos zu theologischen Fragen, z.B. zum Thema "Theodizee".
+
+Sie berichtet aber auch von den Schattenseiten der Plattform, wie z.B. Kommentaren, aufgrund derer sie die Funktion für Direktnachrichten deaktivieren musste. 
+> "Also ich habe ganz klare Mauern und da kommt auch TikTok nicht durch." 
+
+Eine Herausforderung sieht sie in der enormen Schnelllebigkeit von TikTok und dem hohen Aufwand, regelmäßig neuen Content zu produzieren. Die Abhängigkeit vom Algorithmus und die Schwierigkeit, aus der eigenen "Bubble" auszubrechen, sind weitere Punkte, die es zu beachten gilt. Zudem hat TikTok Bottom-Up Struktur und keine Top-Down. Das bedeutet der Content setzt sich durch, der von den Userinnen und User bevorzugt wird. Dies ist für Institutionen schwer vorher zusehen.
+
+Eine weitere Herausforderung besteht darin, dass es nicht das TikTok rezept gibt. Trends sind von kurzer Dauer und dies führt zu einem Experimentierfeld in dem man den Nerv der Zeit treffen, oder auch weit verfehlen kann. Das heißt, was erfolgreich auf dieser Plattform ist, ist nicht vorherzubestimmen. Auf Tiktok sind es Individuen die die User ansprechen und nicht zwingend die Institutionen.
+
+Trotz aller Herausforderungen überwiegt im Gespräch die Zuversicht. TikTok biete die Chance, junge Menschen zu erreichen, die sonst keinen Zugang zu kirchlichen Angeboten finden.
+Die niedrigschwellige Nutzung der Plattform ermögliche auch Lai:innen und Ehrenamtlichen, theologische Inhalte zu verbreiten und sich zu vernetzen.
+> "Es wäre einfach, die suchen einen anderen Menschen. Und wie berührend ist das eigentlich? Was für eine coole Zeit, in der wir da sind."
+
+## Zukunft der Theologie im digitalen Raum:
+Konstanze Kemnitzer sieht im Live-Streaming eine große Chance für die Vermittlung von Theologie. Regelmäßige  Live-Formate könnten "immersive Ereignisse" schaffen und den Austausch mit jungen Menschen fördern.
+Um auf TikTok erfolgreich zu sein, braucht es ihrer Ansicht nach  neben guten Ideen vor allem  "Serialität und Treue". Nur wer regelmäßig neuen Content liefert und mit seiner Community im Gespräch bleibt, kann langfristig auf der Plattform bestehen.
+Sie plädiert für mehr Mut und Experimentierfreude seitens der Kirche und ihrer Vertreter:innen. 
+Statt sich vor neuen Technologien und  Formaten zu verschließen, sollten Theologie und religionsbezogene Bildung die Chancen der Digitalisierung aktiv nutzen.
+
+Unser Gespräch zeigt, dass Theologie und TikTok kein Widerspruch sein müssen. Mit Mut, Kreativität und einer guten Portion Selbst-Ironie können Theolog:innen und Religionslehrkräfte auf der Plattform  junge Menschen erreichen und für Glaubensfragen begeistern. Dafür braucht es allerdings auch die Bereitschaft, sich auf die spezifische Logik und Ästhetik von TikTok einzulassen.
+
+![](https://cdn.midjourney.com/bed3c60e-5778-425c-91b7-587003384389/0_0.png)
+
+#### Quellen / Tipps / Links:
+- "Making Science Education More Accessible: A Case Study of TikTok’s Utility as a Science Communication Tool" https://www.sciencedirect.com/science/article/abs/pii/S0306452223003731
+- Interessante TikTok-Accounts:
+    - https://www.tiktok.com/@pt_prof_kiho_wuppertal
+    - https://www.tiktok.com/@was.zurhoelle
+    - https://www.tiktok.com/@kirchemalanders
+- Bibliografie Prof. Konstanze Kemnitzer https://kiho-wuppertal.de/person/?flag=983
+    - Immersion – praktisch-theologische Überlegungen, in: Abdel-Hafiez Massud / Christian Hild (Hg.), Religiöse Bildung bis 2030: Hürden und Chancen (RKBG, Bd. 1), Landau 2021, 161–177 (gemeinsam mit Matthias Roser)
+    - Die Imagination des Evangeliums in der Virtualisierung der Lebenswelten. Antrittsvorlesung als Inhaberin des Lehrstuhls für Praktische Theologie an der Kirchlichen Hochschule Wuppertal/Bethel vom 7. Februar 2019. [Das Manuskript der Vorlesung steht als pdf-Dokument zum Download bereit: Konstanze Kemnitzer, Die Imagination des Evangeliums in der Virtualisierung der Lebenswelten](https://kiho-wuppertal.de/wp-content/uploads/2023/02/Konstanze-Kemnitzer-Imagination-des-Evangeliums.pdf)
+- Weiterführendes:
+    - [Funktionsweise – Wie funktioniert TikTok? (Bundeszentrale für politische Bildung)](https://www.bpb.de/lernen/bewegtbild-und-politische-bildung/themen-und-hintergruende/lernen-mit-und-ueber-tiktok/523787/funktionsweise-wie-funktioniert-tiktok/)
+    - [Die TikTok-Intifada – Der 7. Oktober & die Folgen im Netz (Bildungsstätte Anne Frank)](https://www.bs-anne-frank.de/mediathek/publikationen/die-tiktok-intifada-der-7-oktober-die-folgen-im-netz)
+
+#### Im Gespräch waren am 17.09.2024:
+- Philipp Angelina (wiss. MA ([FOERBICO](https://oer.community/)) Uni Nürnberg)
+- Gina Buchwald-Chassée (([FOERBICO](https://oer.community/)), Comenius-Institut Münster),
+- Corinna Ullmann ([rpi-virtuell](https://rpi-virtuell.de/), relilab, Comenius-Institut), 
+- Prof. Konstanze Kemnitzer ([Kirchliche Hochschule Wuppertal]((https://kiho-wuppertal.de/))) [TikTok-@pt_prof_kiho_wuppertal : ](https://www.tiktok.com/@pt_prof_kiho_wuppertal)
+- Jörg Lohrer ([FOERBICO](https://oer.community/))
+
+evtl. TLDR bzw Infobox:
+
+#### FAQ: Theologie und Social Media am Beispiel TikTok
+
+1. Warum ist TikTok für die Theologie relevant?
+
+TikTok ist relevant, weil sich dort eine große Anzahl junger Menschen aufhält, die sonst möglicherweise wenig Kontakt mit Theologie und Religion haben. Es bietet die Chance, religionsbezogene Fragen und Antworten auf neue und innovative Weise zu präsentieren und mit jungen Menschen über existenzielle Fragen ins Gespräch zu kommen.
+
+2. Wie kann man auf TikTok theologische Inhalte authentisch vermitteln?
+
+Authentizität auf TikTok bedeutet, sich auf die Plattform einzulassen und ihre Funktionsweisen zu verstehen. Kurze, prägnante Videos, Humor und Interaktion mit der Community sind wichtige Elemente. Wichtig ist auch, die eigene Persönlichkeit und Begeisterung für Theologie durchscheinen zu lassen.
+
+3. Was sind die Herausforderungen der Theologie auf TikTok?
+
+Die Herausforderung besteht darin, komplexe theologische Themen in einem Format aufzubereiten, das auf TikTok funktioniert. Es gilt, die Aufmerksamkeit der Nutzer*innen zu gewinnen und zu halten, ohne dabei die Inhalte zu simplifizieren oder zu verfälschen.
+
+4. Wie kann man mit der Schnelllebigkeit und den Algorithmen von TikTok umgehen?
+
+Die Schnelllebigkeit von TikTok erfordert eine hohe Frequenz an Content und die Bereitschaft, neue Formate und Trends auszuprobieren. Die Algorithmen der Plattform lassen sich durch Interaktion mit der Community, Hashtags und aktuelle Trends positiv beeinflussen.
+
+5. Wie kann man die Community-Funktion von TikTok für theologische Zwecke nutzen?
+
+Live-Streams bieten die Möglichkeit, direkt mit den Nutzer*innen zu interagieren und auf ihre Fragen und Anliegen einzugehen. Durch die Bildung von Gruppen und die Nutzung von Hashtags kann man Gleichgesinnte finden und sich mit ihnen austauschen.
+
+6. Welche Rolle spielt das Thema "Produkt" bei der Theologie auf TikTok?
+
+TikTok ist eine kommerziell geprägte Plattform, auf der Nutzer*innen nach Inhalten suchen, die ihnen einen Mehrwert bieten. Daher ist es wichtig, die Relevanz theologischer Themen für die Lebenswelt der Nutzer*innen herauszuarbeiten und sie als "Produkt" mit konkreten Problemlösungen zu präsentieren.
+
+7. Wie kann man sich als Theologin oder Theologe vor Anfeindungen auf TikTok schützen?
+
+Es ist wichtig, klare Grenzen zwischen privatem und öffentlichem Profil zu ziehen und keine sensiblen Informationen preiszugeben. Bei Anfeindungen sollte man sachlich reagieren, gegebenenfalls Kommentare löschen oder Nutzer*innen blockieren.
+
+8. Welche Chancen bietet TikTok für die Zukunft der Theologie?
+
+TikTok bietet die Chance, die Theologie aus dem akademischen Elfenbeinturm herauszuholen und einem breiten Publikum zugänglich zu machen. Durch kreative Formate und den Dialog mit der Community kann TikTok zu einem Ort der Begegnung und des Austauschs über existenzielle Fragen werden.
+

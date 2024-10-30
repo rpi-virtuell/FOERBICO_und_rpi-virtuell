@@ -31,6 +31,7 @@ inLanguage:
   - de
 image: http://oer.community/wp-content/uploads/2024/09/Screenshot-Bubble-Video.jpg
 datePublished: '2024-09-16'
+oerCommunityPermalink: https://oer.community/raus-aus-den-bubbles/
 
 ---
 

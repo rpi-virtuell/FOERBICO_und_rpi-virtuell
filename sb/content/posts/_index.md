@@ -1,0 +1,5 @@
+---
+#staticSiteGenerator:
+title: 'Blog'
+url: /
+---

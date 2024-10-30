@@ -36,12 +36,13 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: http://oer.community/wp-content/uploads/2024/09/IMG_3850-scaled.jpeg
+image: http://oer.community/wp-content/uploads/2024/09/IMG_3850-scaled.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-17'
+oerCommunityPermalink: https://oer.community/sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit/
 
 ---
 
@@ -78,7 +79,7 @@ Im Rahmen dieser OER-Förderstrategie konnte das Projekt FOERBICO in der ersten 
 
 Aber was genau ist eigentlich FOERBICO? Und wie lässt sich dieses Projekt der wissenschaftlichen Community der evangelischen Religionspädagog:innen auf ansprechende und verständliche Weise vermitteln? Ein Vorteil unseres Workshops war, dass die Teilnehmenden bereits mit den zentralen OER-Akteuren in der religiösen Bildung vertraut waren. Plattformen wie rpi-virtuell, reliGlobal, relilab, narrt und schule-evangelisch-digital sind vielen bekannt. Auf dieser Basis konnten wir die Ziele von FOERBICO verdeutlichen: Es geht um die Vernetzung dieser Akteure, sowohl innerhalb der wissenschaftlichen Religionspädagogik und Theologie als auch darüber hinaus mit anderen OER-Communities wie OERinfo oder WLO.
 
-![](http://oer.community/wp-content/uploads/2024/09/IMG_3848-scaled.jpeg)
+![](http://oer.community/wp-content/uploads/2024/09/IMG_3848-scaled.jpg)
 
 ## Themen-Speed-Dating: Impulse für OER-Standards, Bedarfe und Wissenschaftskommunikation
 

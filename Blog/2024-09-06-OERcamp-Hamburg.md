@@ -40,6 +40,7 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-06'
+oerCommunityPermalink: https://oer.community/recap-oercamp-im-maerz-2024-in-hamburg/
 
 ---
 
