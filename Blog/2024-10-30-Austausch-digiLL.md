@@ -1,13 +1,13 @@
 ---
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
 name: Austausch mit digiLL_COM zum Thema "Community Building"
 description: >-
   Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana,
   Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das
-  Thema "Community Building" im Kontext von OER (Open Educational Resources) zu
-  diskutieren und Erfahrungen auszutauschen. 
+  Thema "Community Building" im Kontext von OER (Open Educational Resources) zu 
+  diskutieren und Erfahrungen auszutauschen.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: >-
   https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2024-10-30-Austausch-digiLL.md
@@ -22,13 +22,17 @@ creator:
 keywords:
   - OER
   - Austausch
+  - Vernetzung
   - Community-Building
   - OE_COM
 inLanguage:
   - de
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-  datePublished: '2024-10-31'
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2024-10-31'
+
 ---
 
 ![Screenshot 2024-10-29 172443.jpg](/attachments/7fd2ed34-e646-414d-8985-d11af51ce240)
