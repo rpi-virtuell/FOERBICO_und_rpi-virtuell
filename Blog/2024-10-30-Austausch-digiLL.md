@@ -9,6 +9,8 @@ description: >-
   Thema "Community Building" im Kontext von OER (Open Educational Resources) zu
   diskutieren und Erfahrungen auszutauschen. 
 license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2024-10-30-Austausch-digiLL.md
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -26,6 +28,7 @@ inLanguage:
   - de
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
+  datePublished: '2024-10-31'
 ---
 
 ![Screenshot 2024-10-29 172443.jpg](/attachments/7fd2ed34-e646-414d-8985-d11af51ce240)
