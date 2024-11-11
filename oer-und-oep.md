@@ -6,7 +6,7 @@ Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern un
 **Open Educational Practices (OEP)** beschreiben die dazugehörigen offenen Bildungspraktiken. OEP umfassen alle kollaborativen Methoden und Ansätze zur Erstellung, Nutzung und Weiterentwicklung von OER. Sie ermöglichen es den Nutzenden durch offene Lizenzen aktiv an den so genannten 5V-Freiheiten teilzuhaben, d.h. Lehr- und Lernmaterialien frei zu verwahren, verwenden, verarbeiten, vermischen und verbreiten. OEP greifen auf Technologien und soziale Netzwerke zurück, um Lernprozesse zu gestalten, in denen Lernende aktiv zusammenarbeiten, Wissen austauschen und voneinander lernen. Der Schwerpunkt liegt auf der Befähigung der Lernenden, selbst Wissen zu produzieren und ihren Bildungsweg aktiv zu gestalten. Darüber hinaus beziehen sich OEP auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen.
 Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
 
-Diese beiden Konzepte tragen dazu bei, Bildung inklusiver, zugänglicher und kollaborativer zu gestalten.
+**Diese beiden Konzepte tragen dazu bei, Bildung inklusiver, zugänglicher und kollaborativer zu gestalten.**
 
 ## Was macht Material ‚open‘?
 
