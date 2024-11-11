@@ -1,76 +1,68 @@
-# OER & OEP
+# Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)?
 
-**Open Educational Resources (OER)** sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. OER umfassen alles von Texten, Videos, und Bildern bis hin zu vollständigen Kursmaterialien und Lehrbüchern.
+**Open Educational Resources (OER)** sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. Offene Lizenzen schaffen die Möglichkeit, dass die Lehr- und Lernmaterialien rechtssicher und kostenlos benutzt, bearbeitet und durch Dritte weiterverarbeitet werden können, ohne oder mit geringfügigen Einschränkungen. Die OER-Formate können von Texten, Videos, Präsentationen, Bildern, Podcasts und Planspielen bis hin zu kompletten Kursmaterialien und Lehrbüchern reichen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen. 
+Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern und den Bildungsprozess durch mehr Zusammenarbeit und Innovation zu bereichern.
 
-**Open Educational Practices (OEP)** gehen über OER hinaus und beziehen sich auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen.
+**Open Educational Practices (OEP)** beschreiben die dazugehörigen offenen Bildungspraktiken. OEP umfassen alle kollaborativen Methoden und Ansätze zur Erstellung, Nutzung und Weiterentwicklung von OER. Sie ermöglichen es den Nutzenden durch offene Lizenzen aktiv an den so genannten 5V-Freiheiten teilzuhaben, d.h. Lehr- und Lernmaterialien frei zu verwahren, verwenden, verarbeiten, vermischen und verbreiten. OEP greifen auf Technologien und soziale Netzwerke zurück, um Lernprozesse zu gestalten, in denen Lernende aktiv zusammenarbeiten, Wissen austauschen und voneinander lernen. Der Schwerpunkt liegt auf der Befähigung der Lernenden, selbst Wissen zu produzieren und ihren Bildungsweg aktiv zu gestalten. Darüber hinaus beziehen sich OEP auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen.
+Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
 
 Diese beiden Konzepte tragen dazu bei, Bildung inklusiver, zugänglicher und kollaborativer zu gestalten.
 
-## Was sind Open Educational Resources?
-
-**Open Educational Resources (OER)** sind frei zugängliche Lehr- und Lernmaterialien, die unter einer offenen Lizenz stehen. Diese Materialien können von jeder Person genutzt, verändert und weiterverbreitet werden, ohne dass dabei rechtliche Bedenken bestehen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen.
-
-Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern und den Bildungsprozess durch mehr Zusammenarbeit und Innovation zu bereichern.
-Was sind Open Educational Practices?
-
-**Open Educational Practices (OEP)** beziehen sich auf innovative Ansätze im Bildungsbereich, die die Nutzung, Erstellung und Verbreitung von Open Educational Resources (OER) mit offenen Lehr- und Lernmethoden verbinden. OEP fördern eine partizipative und kollaborative Lernkultur, bei der Lehrkräfte, Lernende und andere Akteure aktiv zusammenarbeiten, um Wissen zu schaffen und zu teilen.
-
-Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
-
 ## Was macht Material ‚open‘?
 
-Bildungsmaterialien gelten als offen, wenn sie den **5R-Prinzipien** von Offenheit und Zugänglichkeit folgen: *Retain* (Behalten), *Reuse* (Wiederverwenden), *Revise* (Bearbeiten), *Remix* (Kombinieren) und *Redistribute* (Weiterverbreiten).
+Lehr- und Lernmaterialien gelten als offen, wenn sie den 5V-Freiheiten folgen: *verwahren*, *verwenden*, *verarbeiten*, *vermischen* und *verbreiten*. 
 
-**Offene Lizenzen & freie Zugänglichkeit:** Materialien sind durch eine offene Lizenz gekennzeichnet. Das erlaubt die rechtliche Nutzung, Bearbeitung, Weiterverbreitung und Vervielfältigung. OER sind kostenlos zugänglich. Jede:r Lernende oder Lehrende kann darauf zugreifen.
+**Offene Lizenzen & freie Zugänglichkeit:** OER-Materialien sind mit Urheberrechtslizenzen, den sog. Creative-Commons-Lizenzen (kurz: CC-Lizenzen) ausgestattet. Das erlaubt die rechtliche Nutzung, Bearbeitung, Weiterverbreitung und Vervielfältigung. OER sind kostenlos zugänglich. Jede:r Lernende oder Lehrende kann darauf zugreifen.
 
-**Wiederverwendbarkeit und Verteilbarkeit:** Offene Materialien können nicht nur genutzt, sondern auch bearbeitet und an spezifische Bedürfnisse sowie unterschiedliche Lernumgebungen angepasst werden. OER ermöglichen es, dass Inhalte problemlos geteilt und verbreitet werden können. Sie werden in Formaten bereitgestellt, die leicht zugänglich und bearbeitbar sind.
+**Wiederverwendbarkeit und Verteilbarkeit:** OER können nicht nur genutzt, sondern auch bearbeitet und an spezifische Bedürfnisse sowie unterschiedliche Lernumgebungen angepasst werden. OER ermöglichen es, dass Inhalte problemlos geteilt und verbreitet werden können. Sie werden in Formaten bereitgestellt, die leicht zugänglich und bearbeitbar sind.
 
-**Kollaboration und Partizipation:** Offenheit fördert die Zusammenarbeit. Lehrkräfte, Lernende und Institutionen können sich aktiv an der Verbesserung und Aktualisierung der Materialien beteiligen.
-Lizenzen im Überblick:
+**Kollaboration und Partizipation:** Die Offenheit von OER fördert die Zusammenarbeit und Aktualität der Lehr- und Lernmedien. Lehrkräfte, Lernende und Institutionen können sich aktiv an der Verbesserung und Aktualisierung der Materialien beteiligen.
 
-Es gibt verschiedene Lizenzen für Open Educational Resources (OER), die bestimmen, wie Lehr- und Lernmaterialien genutzt, verändert und weiterverbreitet werden dürfen. Die bekanntesten und am häufigsten verwendeten Lizenzen stammen von [Creative Commons (CC)](https://creativecommons.org/). Hier ein Überblick über die wichtigsten Lizenzen und ihre Anwendungsbereiche:
+
+**Lizenzen im Überblick**:
+Es gibt verschiedene Lizenzen für OER, die bestimmen, wie die Materialien genutzt, verändert und weiterverbreitet werden dürfen. Die bekanntesten und am häufigsten verwendeten Lizenzen stammen von [Creative Commons (CC)](https://creativecommons.org/). Hier ein Überblick über die wichtigsten Lizenzen und ihre Anwendungsbereiche:
 
 1. **CC0**
 
-    **Was ist es?** CC0 entspricht einer „Public Domain Dedication“, bei der die/der Urheber:in alle Rechte an seinem Werk aufgibt. Jede:r kann das Werk ohne Einschränkungen nutzen, bearbeiten, vervielfältigen und verbreiten, auch für kommerzielle Zwecke. **Es ist keine Namensnennung erforderlich!**
+    **Was ist es?** CC0 entspricht einer „Public Domain Dedication“, bei der die/der Urheber:in alle Rechte an dem Werk aufgibt. Jede:r kann das Werk ohne Einschränkungen nutzen, bearbeiten, vervielfältigen und verbreiten, auch für kommerzielle Zwecke. **Es ist keine Namensnennung erforderlich!**
 
-    **Wofür nutze ich es?** Ideal, wenn du maximale Offenheit willst und wenn du möchtest, dass dein Werk möglichst offen verbreitet und von jedem frei genutzt werden kann.
+    **Wann ist diese Lizenz geeignet?** Diese Lizenz ist ideal, wenn die/der Autor:in möchte, dass das Material möglichst offen verbreitet und von jedem frei genutzt werden kann.
 
 2. **CC BY (Namensnennung)**
 
     **Was ist es?** Diese Lizenz erlaubt es, das Material in jeder Form zu teilen und zu bearbeiten, solange die/der Urheber:in genannt wird.
     
-    **Wofür nutze ich es?** Ideal, wenn du andere dazu ermutigen möchtest, dein Material weiterzuentwickeln und anzupassen.
+    **Wann ist diese Lizenz geeignet?** Diese Lizenz ist ideal, wenn die/der Autor andere ermutigen möchte, das Material weiterzuentwickeln und anzupassen.
 
 3. **CC BY-SA (Namensnennung – Weitergabe unter gleichen Bedingungen)**
 
-    **Was ist es?** Nutzer dürfen das Material teilen und bearbeiten, müssen es aber unter derselben Lizenz weitergeben und den Urheber nennen.
+    **Was ist es?** Nutzer:innen dürfen das Material teilen und bearbeiten, müssen es aber unter derselben Lizenz weitergeben und die/den Urheber:in nennen.
     
-    **Wofür nutze ich es?** Für Materialien, die offen bleiben sollen, auch wenn sie angepasst werden. Es eignet sich gut für kollaborative Projekte, bei denen sichergestellt werden soll, dass alle Versionen unter denselben Bedingungen verfügbar bleiben.
+    **Wann ist diese Lizenz geeignet?** Wenn Materialien auch nach Anpassungen offen bleiben sollen. Sie eignet sich besonders für kollaborative Projekte, bei denen gewährleistet werden soll, dass alle Versionen unter denselben Bedingungen verfügbar bleiben.
 
 4. **CC BY-NC (Namensnennung – Nicht kommerziell)**
 
-    **Was ist es?** Erlaubt die Nutzung und Bearbeitung des Materials, jedoch nicht für kommerzielle Zwecke. Der Urheber muss genannt werden.
+    **Was ist es?** Erlaubt die Nutzung und Bearbeitung des Materials, jedoch nicht für kommerzielle Zwecke. Die/ der Urheber:in muss genannt werden.
     
-    **Wofür nutze ich es?** Wenn du möchtest, dass dein Material frei genutzt werden kann, aber nicht für kommerzielle Zwecke.
+    **Wann ist diese Lizenz geeignet?** Wenn das Material frei genutzt werden kann, aber nicht für kommerzielle Zwecke.
 
 5. **CC BY-NC-SA (Namensnennung – Nicht kommerziell – Weitergabe unter gleichen Bedingungen)**
 
-    **Was ist es?** Das Material darf nicht kommerziell genutzt werden, muss unter denselben Lizenzbedingungen weitergegeben und der Urheber genannt werden.
+    **Was ist es?** Das Material darf nicht kommerziell genutzt werden, muss unter derselben Lizenz weitergegeben werden und mit der Nennung der/des Autor:in versehen werden.
     
-    **Wofür nutze ich es?** Für nicht-kommerzielle Projekte, bei denen du sicherstellen möchtest, dass die bearbeiteten Versionen ebenfalls unter einer offenen Lizenz weitergegeben werden.
+    **Wann ist diese Lizenz geeignet?** Für nicht-kommerzielle Projekte, bei denen sichergestellt werden soll, dass die bearbeiteten Versionen ebenfalls unter einer offenen Lizenz weitergegeben werden.
 
 6. **CC BY-ND (Namensnennung – Keine Bearbeitung)**
 
-    **Was ist es?** Das Material darf verbreitet werden, aber es darf nicht bearbeitet oder verändert werden. Der Urheber muss genannt werden.
+    **Was ist es?** Das Material darf verbreitet werden, aber es darf nicht bearbeitet oder verändert werden. Die/der Urheber:in muss genannt werden.
     
-    **Wofür nutze ich es?** Wenn du möchtest, dass dein Material in der ursprünglichen Form bleibt und keine Veränderungen vorgenommen werden, aber es trotzdem weiterverbreitet werden darf.
+    **Wann ist es geeignet?** Wenn das Material in der ursprünglichen Form bleiben soll und keine Veränderungen vorgenommen werden dürfen, aber es trotzdem weiterverbreitet werden darf.
 
 7. **CC BY-NC-ND (Namensnennung – Nicht kommerziell – Keine Bearbeitung)**
 
-    **Was ist es?** Das Material darf nur unverändert und nicht kommerziell genutzt werden, und der Urheber muss genannt werden.
+    **Was ist es?** Das Material darf nur unverändert und nicht kommerziell genutzt werden, und die:der Urheber:in muss genannt werden.
     
-    **Wofür nutze ich es?** Für Materialien, die du frei zugänglich machen möchtest, jedoch ohne Änderungen und nicht für kommerzielle Zwecke.
+    **Wann ist diese Lizenz geeignet?** Für Materialien, die frei zugänglich gemacht werden, jedoch ohne Änderungen und nicht für kommerzielle Zwecke.
 
 ### Welche Lizenz sollte ich für OER wählen?
 
@@ -88,7 +80,7 @@ Wir haben [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/bran
 
 ## Wie erstelle ich OER?
 
-Das Erstellen von Open Educational Resources (OER) umfasst mehrere Schritte, die sowohl technische als auch rechtliche Aspekte beinhalten. Hier ist eine allgemeine Anleitung, wie du OER erstellen kannst:
+Das Erstellen OER umfasst mehrere Schritte, die sowohl technische als auch rechtliche Aspekte beinhalten. Hier ist eine allgemeine Anleitung, wie OER erstellt werden kann:
 
 1. **Planung des Inhalts**
 
@@ -136,12 +128,12 @@ OER zu erstellen, kann viel Zeit erfordern, aber der Beitrag zur offenen Bildung
 
 ## Was sind Metadaten und welche Standards gibt es?
 
-Metadaten sind strukturierte Daten, die Informationen über andere Daten liefern. In der Regel beschreiben sie den Inhalt, den Kontext, die Struktur, und die Verwaltung von digitalen Ressourcen oder physischer Objekte. Bei Open Educational Resources (OER) oder anderen digitalen Ressourcen erleichtern Metadaten das Auffinden, die Verwaltung und die Archivierung der Materialien.
+Metadaten sind strukturierte Daten, die Informationen die OER beinhalten. Sie erleichtern das Auffinden, die Verwaltung und die Archivierung der Materialien.
 Arten von Metadaten:
 
-**Deskriptive Metadaten:** Beschreiben den Inhalt der Ressource (z. B. Titel, Autor, Thema, Keywords).
+**Deskriptive Metadaten:** Beschreiben den Inhalt der Ressource (z. B. Titel, Autor:in, Thema, Keywords).
 **Administrative Metadaten:** Betreffen die Verwaltung der Ressource, wie Erstellungsdatum, Urheberrecht und Zugriffsrechte.
 **Strukturelle Metadaten:** Beschreiben die interne Struktur einer Ressource, zum Beispiel Kapitel eines Buches oder die Beziehung zwischen verschiedenen Teilen einer Ressource.
 **Technische Metadaten:** Beschreiben technische Informationen über das Format oder die Softwareanforderungen der Ressource.
 
-Metadaten sind entscheidend für die Verwaltung und Auffindbarkeit von Lehrmaterialien und digitalen Ressourcen. Es gibt verschiedene Standards, wie [Dublin Core](https://de.wikipedia.org/wiki/Dublin_Core), [LOM](https://de.wikipedia.org/wiki/Learning_Objects_Metadata) und [SCORM](https://docs.moodle.org/19/de/Lernpaket_(SCORM)), die speziell auf unterschiedliche Anwendungsfälle zugeschnitten sind. Die Wahl des richtigen Standards hängt von den spezifischen Bedürfnissen und Anforderungen der Ressource ab.
+Metadaten sind entscheidend für die Verwaltung und Auffindbarkeit von OER. Es gibt verschiedene Standards, wie [Dublin Core](https://de.wikipedia.org/wiki/Dublin_Core), [LOM](https://de.wikipedia.org/wiki/Learning_Objects_Metadata) und [SCORM](https://docs.moodle.org/19/de/Lernpaket_(SCORM)), die speziell auf unterschiedliche Anwendungsfälle zugeschnitten sind. Die Wahl des richtigen Standards hängt von den spezifischen Voraussetzngen und Anforderungen der Ressource ab.
