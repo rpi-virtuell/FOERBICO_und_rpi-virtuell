@@ -37,7 +37,7 @@ summary: |
   diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag 
   konkretisiert und differenziert.
 url: sind-youtube-videos-oer-faehig
-weight: -20240915
+weight: -2024091500
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!

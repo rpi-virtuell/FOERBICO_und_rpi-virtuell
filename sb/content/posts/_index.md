@@ -1,5 +1,5 @@
 ---
 #staticSiteGenerator:
 title: 'Blog'
-url: /
+url: blog
 ---

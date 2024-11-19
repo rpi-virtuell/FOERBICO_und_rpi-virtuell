@@ -57,7 +57,7 @@ summary: |
   GitLab, Datenschutzanforderungen, agile Workflows und die zukünftige
   Zusammenarbeit.
 url: arbeiten-mit-git-foerbico-meets-ekhn-medienhaus
-weight: -20241021
+weight: -2024102100
 ---
 
 ## GitLab: Ein Blick hinter die Kulissen

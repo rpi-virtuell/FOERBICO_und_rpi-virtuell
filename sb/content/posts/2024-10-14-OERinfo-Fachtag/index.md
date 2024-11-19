@@ -49,7 +49,7 @@ summary: |
   Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am
   Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
-weight: -20241016
+weight: -2024101600
 ---
 
 ![](DIPF-Gebaeude.jpg)

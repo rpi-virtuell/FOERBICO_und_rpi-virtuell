@@ -1,14 +1,26 @@
-#baseURL: //oer.community/
-baseURL: http://oer-comm-by-hugo.infinityfreeapp.com/
+baseURL: https://oer.community/
 languageCode: de-de
 title: oer.community
 theme: PaperMod
 
+menus:
+  main:
+  - name: Startseite
+    url: /
+    weight: 10
+  - name: Team
+    url: /unser-team/
+    weight: 20
+  - name: Blog
+    url: /blog/
+    weight: 30
+  - name: Impressum
+    url: /impressum/
+    weight: 100
+
 Pagination:
   disableAliases: false
-  pagerSize: 100
-  #path: seite
+  pagerSize: 5
 
 Params:
   ShowReadingTime: true
-#  ShowBreadCrumbs: true

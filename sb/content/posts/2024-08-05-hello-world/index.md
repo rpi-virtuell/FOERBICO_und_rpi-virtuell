@@ -43,7 +43,7 @@ summary: |
   unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
   durchzustarten!
 url: hello-world
-weight: -20240805
+weight: -2024080500
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋

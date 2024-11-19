@@ -59,7 +59,7 @@ summary: |
   Internationalisierungsbestrebungen in der wissenschaftlichen
   Religionspädagogik fanden ihren Platz im Programm.
 url: sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit
-weight: -20240917
+weight: -2024091700
 ---
 
 _von Laura Mößle_

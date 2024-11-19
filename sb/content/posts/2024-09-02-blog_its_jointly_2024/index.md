@@ -46,7 +46,7 @@ summary: >-
   Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom
   19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
-weight: -20240902
+weight: -2024090200
 ---
 
 ![Viele gute Ideen wurden gesammelt](brainstorming.png)
