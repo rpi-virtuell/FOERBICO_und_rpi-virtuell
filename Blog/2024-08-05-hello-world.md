@@ -88,7 +88,7 @@ Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeit
 
 ### Phillip Angelina
 
-Philipp ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische Begleitforschung.
+Phillip ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische Begleitforschung.
 
 
 ## Gemeinsam möchten wir offene Bildungspraktiken in religionsbezogenen Communities fördern - und zwar so:
