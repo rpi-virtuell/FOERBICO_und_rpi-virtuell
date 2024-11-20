@@ -1,5 +1,6 @@
 baseURL: https://oer.community/
-languageCode: de-de
+defaultContentLanguage: de
+languageCode: de
 title: oer.community
 theme: PaperMod
 
@@ -21,6 +22,7 @@ menus:
 Pagination:
   disableAliases: false
   pagerSize: 5
+  path: seite
 
 Params:
   ShowReadingTime: true
