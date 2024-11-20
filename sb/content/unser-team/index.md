@@ -108,7 +108,7 @@ innovativen didaktischen Ansätzen für den Religionsunterricht.
 
 **Phillip Angelina**
 
-Philipp ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für
+Phillip ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für
 Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für
 Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische
 Begleitforschung.
