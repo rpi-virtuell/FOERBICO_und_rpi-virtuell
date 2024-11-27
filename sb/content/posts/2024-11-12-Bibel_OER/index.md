@@ -3,7 +3,7 @@
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.
 Dabei stoßen sie früher oder später auf eine wichtige Frage: Ist die Bibel eigentlich *open*? Können biblische Texte für OER, also für Bildungsmaterial, das unter einer offenen CC-Lizenz steht und mit anderen frei geteilt werden kann, bedenkenlos verwendet werden? 
 
-![Eine Offene Bibel](an-open-bible_Lynn Greyling_Small.png)
+![Eine Offene Bibel](an-open-bible_Lynn/Greyling_Small.png)
 
 ---
 ## Schmerzhafte Antwort: *Nein*
