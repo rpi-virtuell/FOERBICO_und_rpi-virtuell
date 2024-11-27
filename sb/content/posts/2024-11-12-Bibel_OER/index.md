@@ -55,7 +55,7 @@ Dabei stoßen sie früher oder später auf eine wichtige Frage: Ist die Bibel ei
 
 ![Eine Offene Bibel](an-open-bible_Lynn_Greyling_Small.png) 
 
-["An Open Bible by Lynn Greyling"](https://www.publicdomainpictures.net/de/view-image.php?image=439364&picture=eine-offene-bibel)
+["An Open Bible" by Lynn Greyling](https://www.publicdomainpictures.net/de/view-image.php?image=439364&picture=eine-offene-bibel)
 
 ---
 ## Schmerzhafte Antwort: *Nein*
