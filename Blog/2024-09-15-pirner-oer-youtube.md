@@ -23,6 +23,7 @@ image: https://cdn.midjourney.com/fce9ef90-3da1-4788-9226-1da8deab3aa2/0_3.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-09-15'
+oerCommunityPermalink: https://oer.community/sind-youtube-videos-oer-faehig/
 
 ---
 

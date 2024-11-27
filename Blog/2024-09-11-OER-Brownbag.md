@@ -1,3 +1,9 @@
+---
+
+oerCommunityPermalink: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com/
+
+---
+
 ![](http://oer.community/wp-content/uploads/2024/09/OER-Brownbag.png)
 
 # OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)

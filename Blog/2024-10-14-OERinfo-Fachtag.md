@@ -36,6 +36,7 @@ image: http://oer.community/wp-content/uploads/2024/10/OERinfo-Fachtag.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-10-16'
+oerCommunityPermalink: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/
 
 ---
 

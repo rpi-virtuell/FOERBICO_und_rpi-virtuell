@@ -30,6 +30,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-08-05'
+oerCommunityPermalink: https://oer.community/hello-world/
 
 ---
 
@@ -83,11 +84,11 @@ Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeit
 
 ![](http://oer.community/wp-content/uploads/2024/06/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo_07.2022.svg.png)
 
-![](http://oer.community/wp-content/uploads/2024/05/Phillip-Angelina-240x320-1.jpeg)
+![](http://oer.community/wp-content/uploads/2024/05/Phillip-Angelina-240x320-1.jpg)
 
 ### Phillip Angelina
 
-Philipp ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische Begleitforschung.
+Phillip ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische Begleitforschung.
 
 
 ## Gemeinsam möchten wir offene Bildungspraktiken in religionsbezogenen Communities fördern - und zwar so:

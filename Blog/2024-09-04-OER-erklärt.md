@@ -34,6 +34,7 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-04'
+oerCommunityPermalink: https://oer.community/oer-erklaert-an-der-rhabarberbar/
 
 ---
 

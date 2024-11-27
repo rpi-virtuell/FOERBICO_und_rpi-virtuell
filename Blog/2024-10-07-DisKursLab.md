@@ -31,7 +31,7 @@ inLanguage:
   - de
 image: http://oer.community/wp-content/uploads/2024/10/Image20240930122337.jpg
 datePublished: '2024-10-08'
-
+oerCommunityPermalink: https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten/
 
 ---
 
