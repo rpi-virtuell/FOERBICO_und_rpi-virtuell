@@ -32,8 +32,7 @@ keywords:
 inLanguage:
   - de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n03
+
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
