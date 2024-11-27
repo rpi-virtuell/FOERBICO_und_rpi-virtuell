@@ -1,3 +1,45 @@
+---
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: Ist die Bibel eigentlich Open
+description: >-
+  Die Autor:innen gehen der Frage nach ob das meist verkaufte Buch der Welt, die
+  Bibel, eigentlich für Open Educational Resourses anwendbar ist. 
+license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Phillip
+    familyName: Angelina
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+keywords:
+  - OER
+  - Bibel
+  - Katholisches Bibelwerk
+  - Deutsche Bibelgesellschaft
+  - Open
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+learningResourceType:
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+---
+
 # Ist die Bibel eigentlich *open*?
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.
