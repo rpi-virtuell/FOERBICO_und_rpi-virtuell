@@ -7,7 +7,7 @@ description: >-
   Laura und Phillip vom FOERBICO Team gehen der Frage nach,
   ob das meist verkaufte Buch der Welt, die Bibel,
   eigentlich für Open Educational Resourses anwendbar ist.
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+license:  https://creativecommons.org/licenses/by/4.0/deed.de
 creator:
   - givenName: Laura
     familyName: Mößle
