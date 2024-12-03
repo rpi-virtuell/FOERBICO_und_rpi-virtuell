@@ -48,6 +48,10 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-11-12'
 #staticSiteGenerator:
+date: '2024-11-12'
+author:
+  - Laura Mößle
+  - Phillip Angelina
 title: Ist die Bibel eigentlich Open?
 cover:
   image: an-open-bible_Lynn_Greyling_Small.png
