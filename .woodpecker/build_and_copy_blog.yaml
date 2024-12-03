@@ -1,8 +1,8 @@
 when:
-  - branch: feature/*
+  - branch: main
     event: push
     path:
-      include: ['archiv/**']
+      include: ['sb/**']
       on_empty: false
 
 steps:
