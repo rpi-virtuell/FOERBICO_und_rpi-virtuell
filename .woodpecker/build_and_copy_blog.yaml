@@ -1,7 +1,7 @@
 when:
   - branch: feature/*
-  - event: push
-  - path:
+    event: push
+    path:
       include: ['archiv/**']
       on_empty: false
 
