@@ -9,7 +9,8 @@ steps:
   - name: log_start_time
     image: alpine
     commands:
-      - date +'%Y-%m-%d_%T_%N'
+      - date -I'seconds'
+      - adjtimex
 
   - name: build_by_hugo
     image: hugomods/hugo
