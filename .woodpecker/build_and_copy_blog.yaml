@@ -1,5 +1,5 @@
 when:
-+   branch: feature/*
+  - branch: feature/*
   - event: push
   - path:
       include: ['archiv/**']
