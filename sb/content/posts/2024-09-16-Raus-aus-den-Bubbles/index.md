@@ -33,6 +33,9 @@ inLanguage:
 image: raus-aus-den-bubbles_vorschau.jpg
 datePublished: '2024-09-16'
 #staticSiteGenerator:
+date: '2024-09-16'
+author:
+  - Gina Buchwald-Chassée
 title: Raus aus den Bubbles
 cover:
   image: raus-aus-den-bubbles_vorschau.jpg

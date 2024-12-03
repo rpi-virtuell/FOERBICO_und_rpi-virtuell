@@ -34,6 +34,9 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-10-31'
 #staticSiteGenerator:
+date: '2024-10-31'
+author:
+  - Gina Buchwald-Chassée
 title: Austausch mit digiLL_COM zum Thema "Community Building"
 cover:
   image: digill_com-videokonferenz.jpg

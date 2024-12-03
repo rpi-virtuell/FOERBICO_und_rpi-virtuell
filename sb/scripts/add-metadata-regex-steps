@@ -1,0 +1,15 @@
+## first regex steps
+^(\s+- )givenName: (.+)\n(\s+)familyName: (.+)
+$1givenName: $2\n$3familyName: $4\n###_tmpAuthor_: $2 $4
+
+^(datePublished: )(.+)
+$1$2\n###_tmpDate_: $2
+
+## apply bash script "add-metadata-author-and-date.sh" with modifications by awk
+
+## second regex steps
+^(date: )###_tmpDate_: (.+)
+$1$2
+
+^###_tmpAuthor_: (.+)
+  - $1

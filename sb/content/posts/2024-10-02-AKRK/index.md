@@ -49,6 +49,9 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-10-02'
 #staticSiteGenerator:
+date: '2024-10-02'
+author:
+  - Laura Mößle
 title: Welche Impulse setzt OER für die Religionsdidaktik? Ein Einblick in die AKRK-Tagung in Leitershofen von 19.-21.9.2024
 cover:
   image: AKRK-Tagung_OER-standards.jpg

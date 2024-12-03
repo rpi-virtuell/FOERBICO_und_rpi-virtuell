@@ -31,6 +31,9 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-08-05'
 #staticSiteGenerator:
+date: '2024-08-05'
+author:
+  - Gina Buchwald-Chassée
 title: Hello World!
 cover:
   image: FOERBICO-Team.png

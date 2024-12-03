@@ -2,6 +2,8 @@
 #commonMetadata:
 datePublished: '2024-09-11'
 #staticSiteGenerator:
+date: '2024-09-11'
+author:
 title: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
 cover:
   image: OER-Brownbag.png

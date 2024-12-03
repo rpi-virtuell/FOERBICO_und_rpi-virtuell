@@ -34,6 +34,9 @@ about:
 image: OER-im-Blick.jpg
 datePublished: '2024-08-15'
 #staticSiteGenerator:
+date: '2024-08-15'
+author:
+  - Gina Buchwald-Chassée
 title: 'Rückblick: Auftaktkonferenz „OER im Blick“'
 cover:
   image: OER-im-Blick.jpg

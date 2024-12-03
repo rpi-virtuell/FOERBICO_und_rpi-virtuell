@@ -32,6 +32,9 @@ inLanguage:
 image: videokonferenz_diskurslab-rpi-foerbico.jpg
 datePublished: '2024-10-08'
 #staticSiteGenerator:
+date: '2024-10-08'
+author:
+  - Gina Buchwald-Chassée
 title: 'OER zum Thema Antisemitismus: Gemeinsam Bildungsmaterialien gestalten'
 cover:
   image: videokonferenz_diskurslab-rpi-foerbico.jpg
