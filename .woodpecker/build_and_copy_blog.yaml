@@ -6,6 +6,11 @@ when:
       on_empty: false
 
 steps:
+  - name: log_start_time
+    image: alpine
+    commands:
+      - date +"%Y-%m-%d_%T_%N"
+
   - name: build_by_hugo
     image: hugomods/hugo
     commands:
@@ -33,5 +38,6 @@ steps:
       - chmod 600 ~/.ssh/deployKey
       - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
       - chmod 600 ~/.ssh/known_hosts
+      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST 'touch $HOME/time_begin_copy_$(date +"%Y-%m-%d_%T_%N")'
       - scp -r -i ~/.ssh/deployKey -P $SSH_PORT sb/public/* $SSH_USER@$SSH_HOST:$TARGET_PATH/
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST 'touch $HOME/time_$(date +"%Y-%m-%d_%T_%N")'
+      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST 'touch $HOME/time_end_copy_$(date +"%Y-%m-%d_%T_%N")'
