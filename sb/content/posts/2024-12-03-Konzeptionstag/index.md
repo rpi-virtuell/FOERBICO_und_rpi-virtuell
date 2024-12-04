@@ -83,9 +83,9 @@ Nun wurde es konkreter: Anhand der SMART-Methode (= **S**pezifisch, **M**essbar,
 
 Hier sind vor allem zwei Ideen entstanden:
 
-- Eine Art „**OER-Canva**“ als eine userfreundliche Möglichkeit OER-Material OER schnell und einfach zu erstellen mit Bildern und Grafiken die ich verwenden kann. Um Rechtssicherheit zu gewähren, müssten die Inhalte unter CC-Lizenz verfügbar sein, sodass man sich darauf verlassen, dass sie verwendet werden dürfen.
+- Eine Art „**OER-Canva**“ als eine userfreundliche Möglichkeit OER-Material schnell und einfach zu erstellen mit Bildern und Grafiken die man verwenden kann. Um Rechtssicherheit zu gewähren, müssten die Inhalte unter CC-Lizenz verfügbar sein. Dadurch können User:innen die Inhalte im Sinne der [5 V-Freiheiten](https://open-educational-resources.de/5rs-auf-deutsch/) anwenden. **V**erwahren, **v**erwenden, **v**erarbeiten, **v**ermischen und **v**erbreiten (vgl. [Otto 2021](https://doi.org/10.1007/s11618-021-01043-2); [Wiley & Hilton 2018: 134f.](http://dx.doi.org/10.19173/irrodl.v18i4.3022), könnte so ohne große Hürden ermöglicht werden.
 
-- **Qualitätschecker:** Ein automatisierter Check, der neben technischen Dimensionen wie CC-Lizenzangabe, Barrierefreiheit o.Ä. und Usability (z.B. Interaktivität, Gestaltung etc.) auch Merkmale wie Binnendifferenzierung, Kompetenzen, Aktualität etc. sowie Spezifika der Religionsdidaktik (z.B. Biblisches, ästhetisches, dialogisches, konstruktives, performatives, biographisches, Diversitäts-/Gendersensibles, erinnerungsgeleitetes und interkulturelles/interreligiöses Lernen) berücksichtigt. 
+- **Qualitätschecker:** Ein automatisierter Check, der neben technischen Dimensionen wie CC-Lizenzangabe, Barrierefreiheit o.Ä. und Usability (z.B. Interaktivität, Gestaltung etc.) auch Merkmale wie Binnendifferenzierung, Kompetenzen, Aktualität etc. sowie Spezifika der Religionsdidaktik (z.B. Biblisches, ästhetisches, dialogisches, konstruktives, performatives, biographisches, Diversitäts-/Gendersensibles, erinnerungsgeleitetes und interkulturelles/interreligiöses Lernen) berücksichtigt. Zudem kann OER-Ersteller:innen bei der Auswahl von Metadaten, um die Auffindbarkeit des Materials zu verbessern, unter die Arme greifen. 
 
 2. Positionierung im Wettbewerb (Abgrenzung Materialpool rpi-virtuell, Vernetzungsmöglichkeiten mit weiteren Plattformen, Verbesserung der Usability / Attraktivität aufzeigen)
 
@@ -94,8 +94,8 @@ Ein wesentliches Qualitätskriterium für künftige Inhalte ist es, den Erstelle
 
 3. KI-Integration & Digitalisierung (Wie kann KI sinnvoll genutzt z.B. zur Qualitätssicherung oder personalisierte Unterrichtshilfen werden?)
 
-- KI als Unterstützungsinstrument in der Materialerstellung, z.B. durch Chatfunktionen, Prüfung, Feedback, Inhaltsgestaltung etc.
-- KI und personelle Strukturen, hier kann KI unterstützen, indem Beta-Informationen aus Materialien aufbereitet, Schlüsselwörter automatisiert und Taxonomien in der Suche angewendet werden und das nicht mehr manuell durch eine Person gemacht werden muss.
+KI ist als zukünftiger (Mit)-Arbeiter keine Vorstellung mehr sondern wird allmählich zur Realität. Wir wollen möglchkeiten erschließen und bereitstellen in der KI nicht nur als Unterstützungsinstrument in der Materialerstellung dient sondern z.B. durch Chatfunktionen, Prüfung, Feedback, Inhaltsgestaltung etc zu einem hilfreichen Gegenüber werden kann.
+KI und personelle Strukturen **ICH VERSTEHE NICHT GANZ WAS DU MIT DEN BEIDEN SCHLAGWÖRTERN MEINST**, hier kann KI unterstützen, indem Beta-Informationen aus Materialien aufbereitet, Schlüsselwörter automatisiert und Taxonomien in der Suche angewendet werden und das nicht mehr manuell durch eine Person gemacht werden muss.
 
 4. Netzwerkbildung und Community-Integration (Vernetzung externer Bildungsakteure und bestehender Netzwerke, um mit-, von- und untereinander zu profitieren)
 
