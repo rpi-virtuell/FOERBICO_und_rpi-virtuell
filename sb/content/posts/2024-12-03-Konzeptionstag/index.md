@@ -146,6 +146,22 @@ Allerdings bestehen deutliche Hürden:
 
 Ein zentraler Bedarf ist daher die Bereitstellung von Tools und Unterstützungsangeboten zur Erstellung von OER. Weitere Ideen:
 
+```mermaid
+mindmap
+  root((Bedarfe))
+    Communities <br/> verbinden
+      Vernetzung ermöglichen
+      Gemeinsame Bestpractice
+    Datenbanken
+      Bilddatenbanken
+      Vorlagen
+    KI
+      Lizenzchecker
+    Institutionelle <br/> Unterstützung
+      Rechtliche<br/> Unterstützung
+      Förderung von OER <br/>Projekten
+```
+
 ![Vernetzungsangebote](Ergebnisse-1.jpg "Vernetzungsangebote")
 ![Konsequenzen](Ergebnisse-2.jpg "Konsequenzen")
 ![Rechtssicherheit & Modularisierung](Ergebnisse-3.jpg "Rechtssicherheit & Modularisierung")
