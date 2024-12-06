@@ -1,1 +1,0 @@
-Das Gespräch fokussiert sich auf die Erfahrungen von Alexander mit der Mastodon-Instanz libori.social, die er mit dem Ziel aufgebaut hat, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
