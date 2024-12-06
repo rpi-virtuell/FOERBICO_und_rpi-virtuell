@@ -66,17 +66,17 @@ Gina und Jörg im Gespräch mit Alexander, der die Mastodon-Instanz libori.socia
 
 Die Idee einer Einstiegsseite für Mastodon entstand aus dem Bedürfnis heraus, den Zugang zur Plattform für katholische und pastorale Akteure zu vereinfachen. Alexander, der Gründer von [libori.social](https://libori.social), erkannte die Hürden, die Neueinsteiger oft von Mastodon abschrecken. Eine leere Timeline, die Schwierigkeit, interessante Accounts zu finden und die ungewohnte Benutzeroberfläche können dazu führen, dass sich Nutzer schnell wieder von der Plattform abwenden. Um dieser Problematik zu begegnen, entwickelte Alexander die Idee einer Einstiegsseite im Blick auf das Erzbistum Paderborn, die den Nutzern den Start in die "katholische Theo-Bubble" auf Mastodon erleichtern soll.
 
->  "Ich bin mir natürlich auch bewusst, dass Mastodon einfach eine Plattform ist, die erst mal noch sehr in der Nische ist. Aber in meinen Augen bietet sie den Vorteil, dass, sie erst mal eine offene Bubble darstellt. Man kann einfach verlinken und es erst mal niederschwellig zur Verfügung stellen. Soweit man Lust hat, sich da mal reinzuklicken, geht's dann weiter.
+>  "Ich bin mir natürlich auch bewusst, dass Mastodon einfach eine Plattform ist, die erst mal noch sehr in der Nische ist. Aber in meinen Augen bietet sie den Vorteil, dass, sie erst mal eine offene Bubble darstellt. Man kann einfach verlinken und es erst mal niederschwellig zur Verfügung stellen. Soweit man Lust hat, sich da mal reinzuklicken, geht's dann weiter."
 
 [![](liboriSocial_postcard.png)](https://start.libori.social)
 
 ### Die libori.social-[Einstiegsseite](https://start.libori.social/):
 [Dieses "Starterkit](https://start.libori.social/)", inspiriert von [ähnlichen Ansätzen auf BlueSky](https://steadyhq.com/de/eulemagazin/posts/8936e046-d69e-4cd5-8122-72332e1ae27e), soll den Nutzenden ein erstes Gefühl für die "katholische Theo-Bubble" auf Mastodon vermitteln und ihnen den Einstieg in die Plattform erleichtern.
 Es
-* bietet eine kurze Begrüßung und erklärt, wofür die Instanz steht
+* bietet eine kurze Begrüßung und erklärt, wofür die Instanz steht.
 * enthält Weiterleitungslinks zu relevanten Ressourcen.
 * erläutert die ersten Schritte und die App-Installation
-* und stellt vor allem eine Sammlung von aktiven Accounts aus dem katholischen und ökumenischen Bereich bereit, denen Nutzer direkt folgen können.
+* und stellt vor allem eine Sammlung von aktiven Accounts aus dem katholischen und ökumenischen Bereich bereit, denen Nutzer:innen direkt folgen können.
 
 >“Wenn etwas auf Interesse stößt, hat man auch wieder ganz viel Kraft.”
 
@@ -91,7 +91,7 @@ Alexander denkt bereits weiter: Er möchte die Idee der Einstiegsseite nutzen, u
 
 > "Spannend wäre ja, wie sähe das aus, wenn man ein losgelöstes Portal dazu hätte? Also indem man sagt, man greift diese Grundidee jetzt auf, erweitert sie aber und sagt wirklich: 'Es geht ja nicht nur um diese katholische Bubble, sondern um die kirchliche Bubble'. Und in dem Moment würde vielleicht wieder ein größerer Netzwerkeffekt angestoßen werden können, der jetzt aktuell noch zu nischig ist. Also dass man sagt, es gibt mehrere befreundete Instanzen, die auch gemeinsam unterwegs sind mit einem ähnlichen Ziel, mit einer möglichen Filterfunktion der Accounts, die dort ist und Kategorisierungen. Das sind eher Institutionen, die sich vielleicht auch mit Bildung auseinandersetzen oder einfach Menschen, die im pastoralen Kontext arbeiten oder einfach nur als Gläubige unterwegs sind. Und an der Stelle würde man ja, kann ich mir vorstellen, die Anknüpfungspunkte einfach noch mal vergrößern, die Andock-Punkte, und dieses Netzwerk einfach auch noch mal größer ziehen können."
 
-Diese Vision eines "Hubs" für kirchliche Mastodon-Instanzen auch im Kontext religionsbezogener Bildung teilen auch Jörg und Gina vom Comenius-Institut und wir tüfteln bereits an den nächsten wichtigen Schritte der Zusammenarbeit in Richtung der Realisierung. 
+Diese Vision eines "Hubs" für kirchliche Mastodon-Instanzen auch im Kontext religionsbezogener Bildung teilen auch Jörg und Gina vom Comenius-Institut und wir tüfteln bereits an den nächsten wichtigen Schritten der Zusammenarbeit in Richtung der Realisierung. 
 
 Ein Netzwerk im Sinne eines "Hubs" könnte:
 * mehrere befreundete Instanzen umfassen, die gemeinsame Ziele und Werte teilen.
@@ -105,8 +105,8 @@ Ein Netzwerk im Sinne eines "Hubs" könnte:
 Um diese Idee zu verwirklichen, schlägt Alexander folgende konkrete Schritte vor:
 
 * Die Integration von "Instanzempfehlungen" auf der Einstiegsseite, um die Vielfalt des religionsbezogenen Fediverse sichtbar zu machen.
-* Die Zusammenarbeit mit anderen Instanzen, wie z.B. kirche.social, katholisch.social und reliverse.social, um einen gemeinsamen Mastodon-Hub zu entwickeln, der als zentraler Anlaufpunkt für Interessierte dient und die Vernetzung zwischen den Instanzen fördert.
-* Die Nutzung von Plattformen wie Synod.im, um die Idee eines kirchlichen Mastodon-Netzwerks zu diskutieren und weitere Akteure einzubinden.
+* Die Zusammenarbeit mit anderen Instanzen, wie z.B. [kirche.social](https://kirche.social/), [katholisch.social](https://katholisch.social/) und [reliverse.social](https://reliverse.social/), um einen gemeinsamen Mastodon-Hub zu entwickeln, der als zentraler Anlaufpunkt für Interessierte dient und die Vernetzung zwischen den Instanzen fördert.
+* Die Nutzung von Plattformen wie [Synod.im](https://web.synod.im), um die Idee eines kirchlichen Mastodon-Netzwerks zu diskutieren und weitere Akteure einzubinden.
 
 ## Motivationen, Haltungen und Ethische Intentionen
 Ausgelöst durch den Twitter-Crash entstand bei Alexander die Intention seine Plattform für die pastorale Arbeit zu entwickeln. Sein Ziel ist es trotz der digitalen Distanz eine Nähe auf regionaler Ebene spürbar zu machen und ein "digitales Zuhause" zu ermöglichen: 
