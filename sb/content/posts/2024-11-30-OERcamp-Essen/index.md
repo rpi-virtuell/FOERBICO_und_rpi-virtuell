@@ -53,7 +53,7 @@ Nach einer Begrüßung von Dr. Markus Deimann (ORCA.nrw) und Grußworten von Dr.
 
 Das Team der Ruhr-Universität Bochum (RUB) entwickelt für Moodle.nrw einen OER-KI-Assistenten, um OER schnell und einfach zu finden (momentan stellt OERSI die API für die OER-Suche bereit) sowie auf Basis von OER-Materialien eigene Kurse und Inhalte zu erstellen. Dabei werden auch die Lizenzbedingungen (CC-Lizenzen) berücksichtigt und die Nutzer:innen erhalten Anweisungen, wie diese einzuhalten sind. So können Lehrende sich ihre Kurse Schritt-für-Schritt selbst zusammenbasteln. Die erstellten Kurse und Inhalte werden dann wiederum über Moodle bereitgestellt und so mit anderen geteilt. Dazu wurde auch am nächsten Tag im Barcamp eine Session angeboten! Wir finden, der Assistent klingt spannend und hat großes Potential, um Lehrende zu entlasten und animiert gleichzeitig mühelos selbst OER zu produzieren!
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/new-blogpost-OERcamp-Essen/Blog/assets/OERcamp-Essen-2024/OER-Assistent-1.jpg)
+![](OER-Assistent-1.jpg)
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/new-blogpost-OERcamp-Essen/Blog/assets/OERcamp-Essen-2024/OER-Assistent-2.jpg)
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/new-blogpost-OERcamp-Essen/Blog/assets/OERcamp-Essen-2024/OER-Assistent-3.jpg)
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/new-blogpost-OERcamp-Essen/Blog/assets/OERcamp-Essen-2024/OER-Assistent-4.jpg)
