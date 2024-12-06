@@ -68,6 +68,8 @@ Die Idee einer Einstiegsseite für Mastodon entstand aus dem Bedürfnis heraus, 
 
 >  "Ich bin mir natürlich auch bewusst, dass Mastodon einfach eine Plattform ist, die erst mal noch sehr in der Nische ist. Aber in meinen Augen bietet sie den Vorteil, dass, sie erst mal eine offene Bubble darstellt. Man kann einfach verlinken und es erst mal niederschwellig zur Verfügung stellen. Soweit man Lust hat, sich da mal reinzuklicken, geht's dann weiter.
 
+[![](liboriSocial_postcard.png)](https://start.libori.social)
+
 ### Die libori.social-[Einstiegsseite](https://start.libori.social/):
 [Dieses "Starterkit](https://start.libori.social/)", inspiriert von [ähnlichen Ansätzen auf BlueSky](https://steadyhq.com/de/eulemagazin/posts/8936e046-d69e-4cd5-8122-72332e1ae27e), soll den Nutzenden ein erstes Gefühl für die "katholische Theo-Bubble" auf Mastodon vermitteln und ihnen den Einstieg in die Plattform erleichtern.
 Es
