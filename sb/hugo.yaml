@@ -25,4 +25,4 @@ Pagination:
   path: seite
 
 Params:
-  ShowReadingTime: true
+  ShowReadingTime: false

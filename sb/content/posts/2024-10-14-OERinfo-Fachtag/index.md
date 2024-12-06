@@ -37,6 +37,9 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-10-16'
 #staticSiteGenerator:
+date: '2024-10-16'
+author:
+  - Gina Buchwald-Chassée
 title: 'OERinfo-Fachtag am 7.10.2024 in Frankfurt: "How to build a Community?!"'
 cover:
   image: OERinfo-Fachtag-FOERBICO-Team.jpg

@@ -34,6 +34,9 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-02'
 #staticSiteGenerator:
+date: '2024-09-02'
+author:
+  - Phillip Angelina
 title: Einblicke zum OER-/IT-Sommercamp "it’s jointly 2024"
 cover:
   image: phillip-und-ludger.jpg

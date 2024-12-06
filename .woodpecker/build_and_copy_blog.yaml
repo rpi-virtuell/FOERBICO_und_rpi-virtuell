@@ -1,23 +1,21 @@
-steps:
+when:
+  - branch: main
+    event: push
+    path:
+      include: ['sb/**']
+      on_empty: false
 
-  - name: set_path_for_branch
+steps:
+  - name: log_start_time
     image: alpine
     commands:
-      - echo 'Schritt.01.  set_path_for_branch'
-      - echo "PATH_FOR_BRANCH=$CI_COMMIT_BRANCH" >> environment_variables
-      - cat environment_variables
-      - sed "s+'//oer.community/'+'//oer.community/sb/${CI_COMMIT_BRANCH}/'+" sb/hugo.yaml > hugo-changed.yaml
-      - cat sb/hugo.yaml
-      - cat hugo-changed.yaml
-      - mv hugo-changed.yaml sb/hugo.yaml
-      - find . -name "*hugo*ml"
+      - date -I'seconds'
 
   - name: build_by_hugo
     image: hugomods/hugo
     commands:
       - hugo version
-      - git -C sb/themes/ submodule update --remote --recursive
-      - hugo --cleanDestinationDir -s sb --logLevel info
+      - hugo -s sb --logLevel info
 
   - name: copy_to_server
     image: alpine
@@ -30,30 +28,18 @@ steps:
         from_secret: ssh_key
       SSH_PORT:
         from_secret: ssh_port
+      DOMAIN_FOLDER:
+        from_secret: domain_folder
       TARGET_PATH:
         from_secret: target_path
 
     commands:
-      - BLOG_FOLDER=$TARGET_PATH/sb/${CI_COMMIT_BRANCH}
-      - echo $BLOG_FOLDER
-
       - apk add --no-cache openssh
       - mkdir -p ~/.ssh
       - echo "$SSH_KEY" | tr -d '\r' > ~/.ssh/deployKey
       - chmod 600 ~/.ssh/deployKey
       - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
       - chmod 600 ~/.ssh/known_hosts
-
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "mkdir -p $BLOG_FOLDER"
-
-      - SSH_COMMAND="touch $BLOG_FOLDER/touchdown-txt_dot-log"
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST $SSH_COMMAND
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST 'ls -la'
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "ls -la $BLOG_FOLDER"
-
-      - SSH_COMMAND="mkdir -p "$BLOG_FOLDER/_unter_ordner; touch $BLOG_FOLDER/_unter_ordner/_eine_datei"
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST $SSH_COMMAND
-
-      - SSH_COMMAND="rmdir -p "$BLOG_FOLDER/_unter_ordner"
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST $SSH_COMMAND
-
+      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
+      - scp -r -i ~/.ssh/deployKey -P $SSH_PORT sb/public/* $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH/
+      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/log/time_end_copy_$(date +'%Y-%m-%d_%T')"

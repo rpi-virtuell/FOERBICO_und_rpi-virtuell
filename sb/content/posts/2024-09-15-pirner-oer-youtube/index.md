@@ -24,6 +24,9 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-09-15'
 #staticSiteGenerator:
+date: '2024-09-15'
+author:
+  - Manfred Pirner
 title: Sind YouTube-Videos OER-fähig?
 cover:
   image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png

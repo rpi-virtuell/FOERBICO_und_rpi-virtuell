@@ -4,10 +4,11 @@ creativeWorkStatus: Published
 type: LearningResource
 name: Ist die Bibel eigentlich Open?
 description: >-
-  Laura und Phillip vom FOERBICO Team gehen der Frage nach,
-  ob das meist verkaufte Buch der Welt, die Bibel,
-  eigentlich für Open Educational Resourses anwendbar ist.
-license:  https://creativecommons.org/licenses/by/4.0/deed.de
+  Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist
+  verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses
+  anwendbar ist.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/ist-die-bibel-eigentlich-open/
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -32,11 +33,25 @@ keywords:
   - Open
 inLanguage:
   - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
+  - https://w3id.org/kim/hochschulfaechersystematik/n136
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+  - https://w3id.org/kim/hochschulfaechersystematik/n545
+image: https://oer.community/ist-die-bibel-eigentlich-open/an-open-bible_Lynn_Greyling_Small.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2024-11-12'
 #staticSiteGenerator:
+date: '2024-11-12'
+author:
+  - Laura Mößle
+  - Phillip Angelina
 title: Ist die Bibel eigentlich Open?
 cover:
   image: an-open-bible_Lynn_Greyling_Small.png
@@ -48,7 +63,6 @@ summary: |
 url: ist-die-bibel-eigentlich-open
 weight: -2024111200
 ---
-# Ist die Bibel eigentlich *open*?
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.
 Dabei stoßen sie früher oder später auf eine wichtige Frage: Ist die Bibel eigentlich *open*? Können biblische Texte für OER, also für Bildungsmaterial, das unter einer offenen CC-Lizenz steht und mit anderen frei geteilt werden kann, bedenkenlos verwendet werden? 

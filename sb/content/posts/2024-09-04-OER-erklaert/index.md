@@ -35,6 +35,9 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-04'
 #staticSiteGenerator:
+date: '2024-09-04'
+author:
+  - Gina Buchwald-Chassée
 title: OER erklärt an der Rhabarberbar
 cover:
   image: Rhabarberbar.png

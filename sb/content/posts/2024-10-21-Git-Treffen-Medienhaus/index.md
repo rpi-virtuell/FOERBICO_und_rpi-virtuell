@@ -46,6 +46,10 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_C
 datePublished: '2024-10-22'
 #staticSiteGenerator:
+date: '2024-10-22'
+author:
+  - Gina Buchwald-Chassée
+  - Jörg Lohrer
 title: 'Arbeiten mit Git: FOERBICO meets EKHN-Medienhaus'
 cover:
   image: GitLab-Ein-Blick-hinter-die-Kulissen.png

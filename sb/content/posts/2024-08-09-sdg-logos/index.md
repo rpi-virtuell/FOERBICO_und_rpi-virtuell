@@ -61,6 +61,12 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-08-09'
 #staticSiteGenerator:
+date: '2024-08-09'
+author:
+  - Jörg Lohrer
+  - Gina Buchwald-Chassée
+  - Laura Mößle
+  - Phillip Angelina
 title: 'SDG-Logos und #OER: Wie darf ich sie verwenden?'
 cover:
   image: cc-by-sa-linzenz-der-sdg-logos.png

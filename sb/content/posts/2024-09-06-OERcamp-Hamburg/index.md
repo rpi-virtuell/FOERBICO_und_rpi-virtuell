@@ -40,6 +40,9 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-06'
 #staticSiteGenerator:
+date: '2024-09-06'
+author:
+  - Gina Buchwald-Chassée
 title: 'Recap: OERcamp im März 2024 in Hamburg'
 cover:
   image: https://reliverse.social/system/media_attachments/files/112/059/720/799/740/387/original/accb7c731fbf765f.jpg
