@@ -62,6 +62,12 @@ url: libori-social
 
 Gina und Jörg im Gespräch mit Alexander, der die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 
+## Motivationen, Haltungen und Ethische Intentionen
+Ausgelöst durch den Twitter-Crash entstand bei Alexander die Intention seine Plattform für die pastorale Arbeit zu entwickeln. Sein Ziel ist es trotz der digitalen Distanz eine Nähe auf regionaler Ebene spürbar zu machen und ein "digitales Zuhause" zu ermöglichen: 
+> Da ist erst mal ganz viel technisches Interesse, Hobby, Freude am Ausprobieren ausschlaggebend gewesen, zu sagen, es ist eine eigene Instanz. Und dieses Ideal, damit einen Gewinn für den Kontext, in dem ich auch tätig bin, zu bringen.
+
+Ein weiteres wichtiges Anliegen ist die digitale Nachhaltigkeit, die durch die Verwendung der Open-Source-Software Mastodon und der Zusammenarbeit in der gemeinsamen Entwicklung auf Codeberg gefördert wird.
+
 ## Von der Einstiegsseite zur Vision: Wie libori.social das kirchliche Mastodon-Netzwerk stärken will
 
 Die Idee einer Einstiegsseite für Mastodon entstand aus dem Bedürfnis heraus, den Zugang zur Plattform für katholische und pastorale Akteure zu vereinfachen. Alexander, der Gründer von [libori.social](https://libori.social), erkannte die Hürden, die Neueinsteiger oft von Mastodon abschrecken. Eine leere Timeline, die Schwierigkeit, interessante Accounts zu finden und die ungewohnte Benutzeroberfläche können dazu führen, dass sich Nutzer schnell wieder von der Plattform abwenden. Um dieser Problematik zu begegnen, entwickelte Alexander die Idee einer Einstiegsseite im Blick auf das Erzbistum Paderborn, die den Nutzern den Start in die "katholische Theo-Bubble" auf Mastodon erleichtern soll.
@@ -108,12 +114,7 @@ Um diese Idee zu verwirklichen, schlägt Alexander folgende konkrete Schritte vo
 * Die Zusammenarbeit mit anderen Instanzen, wie z.B. [kirche.social](https://kirche.social/), [katholisch.social](https://katholisch.social/) und [reliverse.social](https://reliverse.social/), um einen gemeinsamen Mastodon-Hub zu entwickeln, der als zentraler Anlaufpunkt für Interessierte dient und die Vernetzung zwischen den Instanzen fördert.
 * Die Nutzung von Plattformen wie [Synod.im](https://web.synod.im), um die Idee eines kirchlichen Mastodon-Netzwerks zu diskutieren und weitere Akteure einzubinden.
 
-## Motivationen, Haltungen und Ethische Intentionen
-Ausgelöst durch den Twitter-Crash entstand bei Alexander die Intention seine Plattform für die pastorale Arbeit zu entwickeln. Sein Ziel ist es trotz der digitalen Distanz eine Nähe auf regionaler Ebene spürbar zu machen und ein "digitales Zuhause" zu ermöglichen: 
-> Da ist erst mal ganz viel technisches Interesse, Hobby, Freude am Ausprobieren ausschlaggebend gewesen, zu sagen, es ist eine eigene Instanz. Und dieses Ideal, damit einen Gewinn für den Kontext, in dem ich auch tätig bin, zu bringen.
-
-Ein weiteres wichtiges Anliegen ist die digitale Nachhaltigkeit, die durch die Verwendung der Open-Source-Software Mastodon und der Zusammenarbeit in der gemeinsamen Entwicklung auf Codeberg gefördert wird.
-
+## Ausblick
 
 Die Initiative von libori.social zeigt, wie aus einer einfachen Idee ein bedeutendes Projekt entstehen kann. Die Vision eines größeren kirchlichen Mastodon-Netzwerks ist ambitioniert, aber realistisch. Durch Zusammenarbeit, Offenheit und Engagement kann dieses Netzwerk zu einem lebendigen und wertvollen Ort für kirchliche Gemeinschaft, religionsbezogene Bildung und den überkonfessionellen Austausch werden.
 
