@@ -134,7 +134,7 @@ Die Auswertung erfolgte anhand eines deduktiv entwickelten Codebaums, ergänzt d
 
 ### Ergebnisse der Befragung
 
-Die Befragten zeigten eine hohe Vertrautheit mit OER und deren Grundprinzipien. OER wird als Möglichkeit gesehen, Bildungsressourcen kollaborativ zu erstellen und anzupassen. Es gibt jedoch deutliche Unterschiede in der Gewichtung von OER zwischen den Communities: Während einige Plattformen ausschließlich OER-konforme Materialien anbieten, spielt dies bei anderen eine untergeordnete Rolle.
+Die Befragten zeigten eine hohe Vertrautheit mit OER, deren Grundprinzipien und etablieren eine **Kultur des Teilens**. OER wird als Möglichkeit gesehen, Bildungsressourcen kollaborativ zu erstellen und anzupassen. Jedoch gibt es deutliche Unterschiede in der Gewichtung von OER zwischen den Communities: Während einige Plattformen ausschließlich OER-konforme Materialien erarbeiten und anbieten, spielt dies bei anderen eine untergeordnete Rolle.
 
 Einige Akteure kannten den Begriff Open Educational Practices (OEP) nicht oder nur oberflächlich. Dennoch zeigte sich, dass kollaborative Ansätze in den Communities bereits gelebt werden und ein Konsens darüber besteht, dass Materialien gemeinschaftlich weiterentwickelt werden können. Die Befragung zeigte, dass Communities nicht nur Orte sind, in denen OER entstehen, sondern auch Inspiration und Begegnung ermöglichen. 
 
@@ -151,7 +151,7 @@ Ein zentraler Bedarf ist daher die Bereitstellung von Tools und Unterstützungsa
 ![Rechtssicherheit & Modularisierung](Ergebnisse-3.jpg "Rechtssicherheit & Modularisierung")
 ![Religionspädagogische Aspekte](Ergebnisse-3.jpg "Religionspädagogische Aspekte")
 
-Alternativ Mermaid Chart -> Phillip?
+Alternativ Mermaid Chart -> Phillip? 
 
 Die Befragungsergebnisse konnten wir während der Mittagspause sacken lassen! Danach ging es in Kleingruppen zu Community & Netzwerk sowie Technik & Werkzeuge weiter:
 
