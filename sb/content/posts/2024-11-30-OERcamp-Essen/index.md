@@ -54,9 +54,9 @@ Nach einer Begrüßung von Dr. Markus Deimann (ORCA.nrw) und Grußworten von Dr.
 Das Team der Ruhr-Universität Bochum (RUB) entwickelt für Moodle.nrw einen OER-KI-Assistenten, um OER schnell und einfach zu finden (momentan stellt OERSI die API für die OER-Suche bereit) sowie auf Basis von OER-Materialien eigene Kurse und Inhalte zu erstellen. Dabei werden auch die Lizenzbedingungen (CC-Lizenzen) berücksichtigt und die Nutzer:innen erhalten Anweisungen, wie diese einzuhalten sind. So können Lehrende sich ihre Kurse Schritt-für-Schritt selbst zusammenbasteln. Die erstellten Kurse und Inhalte werden dann wiederum über Moodle bereitgestellt und so mit anderen geteilt. Dazu wurde auch am nächsten Tag im Barcamp eine Session angeboten! Wir finden, der Assistent klingt spannend und hat großes Potential, um Lehrende zu entlasten und animiert gleichzeitig mühelos selbst OER zu produzieren!
 
 ![](OER-Assistent-1.jpg)
-![](OERcamp-Essen-2024/OER-Assistent-2.jpg)
-![](OERcamp-Essen-2024/OER-Assistent-3.jpg)
-![](OERcamp-Essen-2024/OER-Assistent-4.jpg)
+![](OER-Assistent-2.jpg)
+![](OER-Assistent-3.jpg)
+![](OER-Assistent-4.jpg)
 
 Ausblick: 
 •	Erstellen von mehr Kursinhalten ermöglichen
@@ -70,8 +70,8 @@ Für uns wäre interessant, inwieweit auch Metadaten automatisiert generiert wer
 
 Das Thema KI ist wenig überraschend hoch im Kurs! Auch bei ABBA, einer App zur automatisierten Erstellung von Lehrbüchern und weiteren Bildungsmedien. Auch hierbei ist das Ziel, Lehrende zu entlasten, indem neben der Inhaltserstellung auch Antworten von Lernenden ausgewertet werden können und sie direktes Feedback erhalten. Das Niveau kann angepasst werden, um eine Binnendifferenzierung innerhalb von Lerngruppen zu ermöglichen. Momentan ist die Anwendung noch geschlossen und soll im nächsten Semester erprobt werden. Von den Veranstaltungsteilnehmenden wurde unter dem Stichwort „Türschwellendidaktik“ mehr Begleitforschung zur Motivation und Akzeptanz von Lernenden bei KI-generierten Inhalten gefordert.
 
-![](OERcamp-Essen-2024/ABBA-1.jpg)
-![](OERcamp-Essen-2024/ABBA-2.jpg)
+![](ABBA-1.jpg)
+![](ABBA-2.jpg)
 
 3. [A Young Lady’s Illustrated Primer – OER als Utopie](https://www.orca.nrw/wp-content/uploads/2024/11/A-Young-Lady%C2%B4s-Illustrated-Primer.pdf) – Gunnar Sandkühler (Ruhr-Universität Bochum)
 
@@ -81,17 +81,17 @@ Ein deutlicher Bruch zu den vorherigen technischen Beiträgen bot das 1995 in De
 
 Mitte 2021 startete das Projekt zu Forschungsdatenmanagement (FDM) in Studium und Lehre mit dem Ziel, die bisherige Zielgruppe von Schulungs- und Unterstützungsmaßnahmen zum FDM bestehend aus Promivierenden, PostDocs und arrivierten Wissenschaftler:innen um Studierende zu erweitern. Dazu wurden didaktisch aufbereitete Bildungsressourcen zur Vermittlung von Grundlagen im Forschungsdatenmanagement für ein Selbststudium und zur Nachnutzung durch Lehrende entwickelt. 
 
-![](OERcamp-Essen-2024/FDM-1.jpg)
-![](OERcamp-Essen-2024/FDM-2.jpg)
+![](FDM-1.jpg)
+![](FDM-2.jpg)
 
 5. STACK.nrw: Git-basierter Aufgabenpool für STACK-Aufgaben – Dr. Benjamin H. Schulz-Rosenberger und Dr. Michael Kallweit (Ruhr-Universität Bochum)
 
 Git-basiertes Arbeiten - da schlägt unser FOERBICO-Herz doch gleich höher, denn auch wir versuchen unsere Arbeit über Git als Open Source Versionsverwaltungssystem anschlüssfähig, nachhaltig und transparent zu gestalten (schaut gerne in unser [Repo](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/) rein 😉). Das Projekt [STACK.nrw](https://www.ruhr-uni-bochum.de/stack-nrw/) hat anders als wir allerdings keinen Religionsbezug, sondern legt den Fokus auf den mathematischen Bereich. Sie möchten eine zentrale und dezentrale Infrastruktur schaffen, um einen qualitätsgesicherten OER-Matheaufgabenpool, die mit [STACK](https://stack-assessment.org/) erstellt wurden, aufzubauen. Darüber hinaus zielen sie auch auf Vernetzung und Wissensaustausch von Lehrenden bzw. Hochschulen in NRW. 
 
-![](OERcamp-Essen-2024/Stack.nrw%20-%201.jpg)
-![](OERcamp-Essen-2024/Stack.nrw%20-%202.jpg)
-![](OERcamp-Essen-2024/Stack.nrw%20-%203.jpg)
-![](OERcamp-Essen-2024/Stack.nrw%20-%204.jpg)
+![](Stack.nrw%20-%201.jpg)
+![](Stack.nrw%20-%202.jpg)
+![](Stack.nrw%20-%203.jpg)
+![](Stack.nrw%20-%204.jpg)
 
 6. [Vorstellung und Evaluation des Projekts „DigStat – Digitale Lerneinheiten in der Statistik“](https://www.orca.nrw/wp-content/uploads/2024/11/OER_Tagung_Razeghpour_Mueller.pdf) – Farhad Razeghpour (Ruhr-Universität Bochum) und Christian Müller (Universität Düssseldorf)
 
@@ -103,7 +103,7 @@ Welche OER-Angebote gibt es im Bereich der Lehrkräftebildung? Wie setze ich OER
 
 **Für Kurzentschlossene: Am 10. und 11. Dezember findet eine [OER-Werkstatt](https://digill.de/oer-werkstatt/) für alle Interessierten statt.**
 
-![](OERcamp-Essen-2024/digiLL.jpg)
+![](digiLL.jpg)
 
 Mit dem Abendprogramm „10 Jahre [Bündnis Freie Bildung](https://buendnis-freie-bildung.de/): Feiern & Zukunft gestalten!“ endete der erste Tag voll spannender Impluse und netten Gesprächen!
 
@@ -123,7 +123,7 @@ Mehr dazu 👉 https://go.oercamp.de/24essen/talk/FRBH3E/
 
 Design Futuring ist ein kreativer Ansatz, um Zukünfte zu entwerfen und zu verhandeln sowie um heutige Entscheidungen zu beeinflussen und aktiv zu werden. Nele Hirsch (ebildungslabor) hat in der Session drei Methoden vorgestellt, die wir gemeinsam erkunden und in Kleingruppen anhand konkreter Ideenentwicklungen ausprobieren konnten. 
 
-![](OERcamp-Essen-2024/DesignFuturing.jpg)
+![](DesignFuturing.jpg)
 
 Die Slides dazu findet ihr hier:
 https://ebildungslabor.de/slides/designfuturing.pdf
@@ -141,7 +141,7 @@ Mehr dazu 👉 https://go.oercamp.de/24essen/talk/E7FYZ8/
 
 Wie ermächtigen wir Akteure ihre entwickelten Bildungsmaterialien eigenständig bereitzustellen? Dazu hat Steffen Rörtgen (FWU Institut für Film und Bild gGmbH) [edufeed](https://www.edufeed.org/) als Konzept einer sozialen Bildungsinfrastruktur vorgestellt, die es einerseits ermöglicht, Daten zu Bildungsmaterialien zu teilen und andererseits wie bei Mastodon in soziale Interaktion zu treten. Wir finden das klingt nach einem interessanten Konzept und unterstützen Steffen bei der Entwicklung!
 
-![](OERcamp-Essen-2024/edufeed.jpeg)
+![](edufeed.jpeg)
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/PQHR8U/
 
@@ -155,8 +155,8 @@ Ein Highlight noch zum Schluss „Dubai Calling“: Bei der [3rd OER World Congr
 
 ## Beratschlagung zum Thema „OER im Kontext generativer Künstlicher Intelligenz (KI)“ (Schwerpunkt beim 3rd World Congress in Dubai)
 
-![](OERcamp-Essen-2024/Unperfekthaus-1.jpg)
-![](OERcamp-Essen-2024/Unperfekthaus-2.jpg)
+![](Unperfekthaus-1.jpg)
+![](Unperfekthaus-2.jpg)
 
 Der letzte Tag startete im Unperfekthaus in Essen mit drei XXL-Sessions im Barcamp-Format. Gina entschied sich für die Session moderiert von Frank Homp und Nele Hirsch zu Community-Beratschlagung zum Thema „OER im Kontext generativer Künstlicher Intelligenz (KI)“. Dabei wurde in Kleingruppen anhand folgender Leitfragen gebrainstormt:
 
@@ -166,8 +166,8 @@ Der letzte Tag startete im Unperfekthaus in Essen mit drei XXL-Sessions im Barca
 
 Die Ergebnisse findet ihr unter https://www.oercamp.de/24/offene-ki/ 
 
-![](OERcamp-Essen-2024/KI-1.jpg)
-![](OERcamp-Essen-2024/KI-2.jpg)
+![](KI-1.jpg)
+![](KI-2.jpg)
 
 Zum Abschluss des OERcamps fanden noch drei Workshops des Bündnisses Freie Bildung zu Organisationsentwicklung, Offenheitskompetenzen und zukunftsweisende Bildungspolitik statt. Gina nahm am Workshop „Organisationsentwicklung“ von Celestine Kleinesper (Bündnis freie Bildung) & Matthias Kostrzewa (digiLL) teil. 
 
