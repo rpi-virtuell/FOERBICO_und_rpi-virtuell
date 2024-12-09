@@ -155,8 +155,10 @@ mindmap
     Datenbanken
       Bilddatenbanken
       Vorlagen
-    KI
-      Lizenzchecker
+    Technische<br/>Infrastruktur
+      KI-Lizenzchecker
+      OER-Toolbox
+      Ermöglichung<br/>Modularisierung
     Institutionelle <br/> Unterstützung
       Rechtliche<br/> Unterstützung
       Förderung von OER <br/>Projekten
