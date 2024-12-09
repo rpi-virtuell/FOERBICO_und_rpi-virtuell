@@ -90,7 +90,7 @@ Nach ganz viel wichtigem Input wurde es nun etwas spielerischer: Wie stellen wir
 
 Nun wurde es konkreter: Anhand der SMART-Methode (= **S**pezifisch, **M**essbar, **A**ttraktiv, **R**ealistisch und **T**erminiert) haben wir begonnen folgende Themenfelder zu beleuchten und konkrete Arbeitsaufträge festzulegen: 
 
-1. Qualität von Bildungsmaterialien (Merkmale, didaktischer Kontext, Unterstützung bei Erstellung/Anpassung)
+**1. Qualität von Bildungsmaterialien (Merkmale, didaktischer Kontext, Unterstützung bei Erstellung/Anpassung)**
 
 Hier sind vor allem zwei Ideen entstanden:
 
@@ -98,21 +98,21 @@ Hier sind vor allem zwei Ideen entstanden:
 
 - **Qualitätschecker:** Ein automatisierter Check, der neben technischen Dimensionen wie CC-Lizenzangabe, Barrierefreiheit o.Ä. und Usability (z.B. Interaktivität, Gestaltung etc.) auch Merkmale wie Binnendifferenzierung, Kompetenzen, Aktualität etc. sowie Spezifika der Religionsdidaktik (z.B. Biblisches, ästhetisches, dialogisches, konstruktives, performatives, biographisches, Diversitäts-/Gendersensibles, erinnerungsgeleitetes und interkulturelles/interreligiöses Lernen) berücksichtigt. Zudem kann OER-Ersteller:innen bei der Auswahl von Metadaten, um die Auffindbarkeit des Materials zu verbessern, unter die Arme greifen. 
 
-2. Positionierung im Wettbewerb (Abgrenzung Materialpool rpi-virtuell, Vernetzungsmöglichkeiten mit weiteren Plattformen, Verbesserung der Usability / Attraktivität aufzeigen)
+**2. Positionierung im Wettbewerb (Abgrenzung Materialpool rpi-virtuell, Vernetzungsmöglichkeiten mit weiteren Plattformen, Verbesserung der Usability / Attraktivität aufzeigen)**
 
 Ziel ist es, langfristig tragfähige Nachhaltigkeitsstrukturen für Inhalte zu schaffen, die von Usern, rpi-virtuell, FOERBICO und den zugehörigen Communitys erstellt werden. Dabei steht der Anspruch im Vordergrund, Hyperlinks, Archive und bestehende Inhalte dauerhaft und sicher zugänglich zu halten. Dies gewährleistet nicht nur die Nutzbarkeit vergangener Materialien, sondern stärkt auch das Vertrauen der Nutzenden in die Verlässlichkeit unserer Plattformen.
+
 Ein wesentliches Qualitätskriterium für künftige Inhalte ist es, den Erstellenden die Möglichkeit zu geben, eigenständig Verantwortung für die Pflege und Aktualität ihrer Beiträge zu übernehmen. Unsere technischen Infrastrukturen sollen dies effektiv unterstützen, sodass der Gedanke von Selbstständigkeit und Nachhaltigkeit in der Community-Arbeit gestärkt wird. Indem wir diesen Ansatz fördern, bauen wir nicht nur eine stabile Basis für bestehende Inhalte, sondern schaffen auch ein zukunftssicheres Fundament für weiteres Wachstum und Innovation.
 
-3. KI-Integration & Digitalisierung (Wie kann KI sinnvoll genutzt z.B. zur Qualitätssicherung oder personalisierte Unterrichtshilfen werden?)
+**3. KI-Integration & Digitalisierung (Wie kann KI sinnvoll genutzt z.B. zur Qualitätssicherung oder personalisierte Unterrichtshilfen werden?)**
 
-KI ist als zukünftiger (Mit)-Arbeiter keine Vorstellung mehr sondern wird allmählich zur Realität. Wir wollen möglchkeiten erschließen und bereitstellen in der KI nicht nur als Unterstützungsinstrument in der Materialerstellung dient sondern z.B. durch Chatfunktionen, Prüfung, Feedback, Inhaltsgestaltung etc zu einem hilfreichen Gegenüber werden kann.
-KI und personelle Strukturen **ICH VERSTEHE NICHT GANZ WAS DU MIT DEN BEIDEN SCHLAGWÖRTERN MEINST**, hier kann KI unterstützen, indem Beta-Informationen aus Materialien aufbereitet, Schlüsselwörter automatisiert und Taxonomien in der Suche angewendet werden und das nicht mehr manuell durch eine Person gemacht werden muss.
+KI ist als zukünftiger (Mit)-Arbeiter keine Vorstellung mehr, sondern wird allmählich zur Realität. Wir wollen Möglchkeiten erschließen und bereitstellen, in denen KI nicht nur als Unterstützungsinstrument in der Materialerstellung dient, sondern z.B. durch Chatfunktionen, Prüfung, Feedback, Inhaltsgestaltung etc. zu einem hilfreichen Gegenüber werden kann.
 
-4. Netzwerkbildung und Community-Integration (Vernetzung externer Bildungsakteure und bestehender Netzwerke, um mit-, von- und untereinander zu profitieren)
+**4. Netzwerkbildung und Community-Integration (Vernetzung externer Bildungsakteure und bestehender Netzwerke, um mit-, von- und untereinander zu profitieren)**
 
 Zentraler Aspekt war hier die Kommunikation mit der Community. Erste Ideen sind ein gemeinsamer Content-Pool, in dem Informationen aus den verschiedenen Communities automatisiert eingespeist werden, die dann wiederum von den jeweiligen Akteuren wieder in ihre Netzwerke gestreut werden können. Die Idee ist quasi ein gemeinsames News(-letter)-System: Ich sehe die Beiträge aller Communities und kann mir die rausziehen, die für meine jeweilige Community interessant sein könnten und die News somit breiter streuen. Neben der technischen Komponente braucht es aber Schlüsselpersonen, die in mehreren Communitys unterwegs sind und als Multiplikator:innen Vernetzung voranbringen könnten. Bis Ende Januar 2025 wollen wir ein Prozessflussdiagramm zur Kommunikation mit den Communities entwickeln.
 
-5. Technologische Infrastruktur (Dezentraler Austausch & userfreundliche Gestaltung)
+**5. Technologische Infrastruktur (Dezentraler Austausch & userfreundliche Gestaltung)**
 
 Der Materialpool von rpi-virtuell soll religionspädagogische Ressourcen besser zugänglich und nutzbar machen, indem Materialien aus Communitys und Plattformen automatisiert erschlossen und strukturiert angeboten werden. Geplant sind klare Suchkriterien (Alter, Thema, Methode), aktuelle Inhalte und hohe Qualitätsstandards. Offene Zugänge und Vernetzung, etwa über WLO-Schnittstellen, ermöglichen Kooperationen und fördern eine gemeinwohlorientierte Nutzung. Gleichzeitig stellen urheberrechtliche Fragen, die Abgrenzung zu kommerziellen Plattformen und die Benutzerfreundlichkeit zentrale Herausforderungen dar, die es zu lösen gilt. Ziel ist ein innovativer und effizienter Materialpool, der Lehrkräfte nachhaltig unterstützt. Dennoch bleiben Fragen nach dem Urheberrecht und Kooperationsverträgen offen, die es noch zu klären gilt.
 
