@@ -164,12 +164,6 @@ mindmap
       Förderung von OER <br/>Projekten
 ```
 
-![Vernetzungsangebote](Ergebnisse-1.jpg "Vernetzungsangebote")
-![Konsequenzen](Ergebnisse-2.jpg "Konsequenzen")
-![Rechtssicherheit & Modularisierung](Ergebnisse-3.jpg "Rechtssicherheit & Modularisierung")
-![Religionspädagogische Aspekte](Ergebnisse-3.jpg "Religionspädagogische Aspekte")
-
-Alternativ Mermaid Chart -> Phillip? 
 
 Die Befragungsergebnisse konnten wir während der Mittagspause sacken lassen! Danach ging es in Kleingruppen zu Community & Netzwerk sowie Technik & Werkzeuge weiter:
 
