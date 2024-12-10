@@ -101,8 +101,6 @@ Der erste Teil brachte bereits viel neuen Input! Nach der Mittagspause wurden vi
 
 Welche OER-Angebote gibt es im Bereich der Lehrkräftebildung? Wie setze ich OER sinnvoll in die eigene Lehre ein und wie kann ich eigene Inhalte als OER bereitstellen? Mit diesen Fragen beschäftigt sich das Projekt digiLL und möchte bereits in der Ausbildung von Lehrkräften ansetzen, um offene Bildungspraktiken zu vermitteln. Dabei werden verschiedene Hochschulstandorte miteinander vernetzt und im Bereich der Hochschullehre ein Wahlpflichtkurs entwickelt sowie [Lernmodule](https://digill.de/lernmodule/) zur Verfügung gestellt. Ihr Ansatz: Lernende bzw. Lehramtsstudierende als Produzierende einbeziehen! 
 
-**Für Kurzentschlossene: Am 10. und 11. Dezember findet eine [OER-Werkstatt](https://digill.de/oer-werkstatt/) für alle Interessierten statt.**
-
 ![](digiLL.jpg)
 
 Mit dem Abendprogramm „10 Jahre [Bündnis Freie Bildung](https://buendnis-freie-bildung.de/): Feiern & Zukunft gestalten!“ endete der erste Tag voll spannender Impluse und netten Gesprächen!
