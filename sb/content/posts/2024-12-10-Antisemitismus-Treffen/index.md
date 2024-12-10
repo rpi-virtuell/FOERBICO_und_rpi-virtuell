@@ -7,15 +7,25 @@ Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? D
 Die Teilnehmenden kamen aus vielfältigen Kontexten – darunter akademische Einrichtungen, Verlage, Religionspädagogische Institute und der Zentralrat der Juden. Eine Auswahl der Beteiligten:
 
 •	Comenius-Institut (FOERBICO, [relilab](https://relilab.org/))
+
 •	Ev. Akademie zu Berlin (DiskursLab, [narrt](https://narrt.de/))
+
 •	[Ernst Klett Verlag](https://www.klett.de/)
+
 •	[Ev. Luth. Kirche Bayern](https://www.bayern-evangelisch.de/)
+
 •	[Schulstiftung im Bistum Osnabrück](https://www.schulstiftung-os.de/)
+
 •	[Institut für Evangelische Theologie und Religionspädagogik der Universität Oldenburg](https://uol.de/theologie)
+
 •	[Lehrstuhl für Ev. Theologie der Universität Bamberg](https://www.uni-bamberg.de/ev-relpaed/)
+
 •	[Lehrstuhl für Religionspädagogik an der Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.evrel.phil.fau.de/)
+
 •	[Zentralrat der Juden](https://www.zentralratderjuden.de/), Abteilung Politik und Religion/Bildung
+
 •	[Referat politische Bildung BDKJ Bistum Mainz](https://bistummainz.de/jugend/wir/referate/politische-bildung/) 
+
 •	[Institut für Migration und Diversität (MIDI) der TH Köln](https://www.th-koeln.de/angewandte-sozialwissenschaften/institut-fuer-migration-und-diversitaet_97234.php) / Humanwissenschaftliche Fakultät der Universität Köln
 
 Durch ihre unterschiedlichen Perspektiven wurde das Treffen zu einem inspirierenden Ideenaustausch.
@@ -91,8 +101,20 @@ Die Gruppe diskutierte auch, wie antisemitismuskritische Inhalte in Schulbücher
 
 Erste gesammelte Beispiele neben den bereits genannten:
 
+- [Zertifikat für Lehramtsstudierende in Niedersachsen](https://www.verbund-lehrkraeftebildung-niedersachsen.de/index.php?s=Antisemitismuspraevention)
+- [RIAS Materialien, für Jugendliche und Erwachsene](https://report-antisemitism.de/education) 
+- [UNESCO-Broschüre "Verschwörungstheorien: Was Lehrkräfte wissen müssen"](https://unesdoc.unesco.org/ark:/48223/pf0000381958_ger)
+- zukünftig: KMK/ZR "Kommentierte Materialsammlung"
+- HS Jüdische Studien Heidelberg "Jüdische Emanzipation in Baden"
+- Ehemalige Synagoge Niederzissen: [Lernkoffer mit Materialien zum Judentum](https://www.ehem-synagoge-niederzissen.de/video-lernkoffer/) (vier Module: „Tora“, „Jüdische Lebensfeste und Alltag“, „Jüdische Feier- und Gedenktage“, „Rituelle Reinheit“) 
+- MultiSkript (multiskript.digital): Filme und Audioreihe mit Hintergrundfakten etc. zu dramatischen Werken wie Faust oder Nathan der Weise (die also jüdische Charaktere enthalten), auch Formate zu z.B. Jenny und Karl Marx
+- [Deutsch-jüdische Geschichte im Unterricht Eine Orientierungshilfe für Schule und Erwachsenenbildung](https://www.juedischegeschichte.de/Orientierungshilfe2011.pdf)
+- [Verschwörungstheorien als Lerngegenstand - politische Bildung gegen Verschwörungsdenken als OER](https://www.th-koeln.de/angewandte-sozialwissenschaften/bildungsmaterialien-dipolbas---digitale-politische-bildung-als-konsequenz-aus-der-corona-krise_114042.php) 
+- [Forschungsnetzwerk Antisemitismus im 21. Jahrhundert](https://www.fona21.org/)
+- [narrt-Leitfaden](https://narrt.de/die-repraesentation-des-judentums-in-schulbuechern-und-anderen-unterrichtsmaterialien-ein-antisemitismuskritischer-fragenkatalog-zur-verbesserung-der-darstellung-2/)
+- [Reli-Ethik-Blog](https://reli-ethik-blog.de/)
 
-Ihr kennt noch weitere Beispiele? 
+Ihr kennt noch weitere Beispiele? Dann schreibt sie gerne in die Kommentare!
 
 ### Bildungsmaterialien entwickeln: Kreative Ansätze und Herausforderungen
 
@@ -110,5 +132,6 @@ Ein solches Netzwerk muss langfristig Ressourcen sichern – sowohl finanziell a
 ## Wie geht es weiter?
 
 Dieses Treffen war ein erster Schritt. Die Botschaft war klar: Antisemitismuskritische Bildung erfordert Zusammenarbeit, Offenheit und den Willen, voneinander zu lernen. Dass bereits über 20 Teilnehmende beim Auftakttreffen dabei waren, zeigt die hohe Relevanz der Thematik und der Notwendigkeit der Vernetzung! Wir möchten gemeinsam daran weiterarbeiten und laden alle Interessierten herzlich ein, sich einzubringen!
-Wer über den Termin des nächsten Online-Treffens informiert werden möchte, kann sich gerne an xyz wenden und den Blogbeitrag teilen 😊 
+
+Wer über den Termin des nächsten Online-Treffens informiert werden möchte, kann sich gerne an xyz wenden und ihr könnt gerne den Blogbeitrag teilen 😊 
 
