@@ -50,6 +50,9 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_C
 datePublished: '2024-12-10'
 #staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
+  - Jörg Lohrer
 title: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.social
 cover:
   image: liboriSocial_postcard.png
