@@ -40,7 +40,6 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-06'
 #staticSiteGenerator:
-date: '2024-09-06'
 author:
   - Gina Buchwald-Chassée
 title: 'Recap: OERcamp im März 2024 in Hamburg'
@@ -55,7 +54,6 @@ summary: |
   Das letzte OERcamp fand vom 6. bis 8. März 2024 in Hamburg statt. Jörg Lohrer aus dem FOERBICO-Team
   war mit dabei und schildert im Blogbeitrag seine Eindrücke.
 url: recap-oercamp-im-maerz-2024-in-hamburg
-weight: -2024090600
 ---
 
 Jörg Lohrer hat für das Frühjahrs-OERcamp die Session ["BottomUp -> MarkDown - 5V-Power für deine OER!"](https://joerg-lohrer.de/2024/03/05/bottomup-markdown.html/) eingereicht. Damit hat er bereits vor dem offiziellen Projektbeginn erste Spuren für unser FOERBICO-Projekt gelegt. Mehr dazu: https://www.oercamp.de/24/

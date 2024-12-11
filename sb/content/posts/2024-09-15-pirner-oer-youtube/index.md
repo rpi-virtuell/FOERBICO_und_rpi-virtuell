@@ -24,7 +24,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-09-15'
 #staticSiteGenerator:
-date: '2024-09-15'
 author:
   - Manfred Pirner
 title: Sind YouTube-Videos OER-fähig?
@@ -40,7 +39,6 @@ summary: |
   diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag 
   konkretisiert und differenziert.
 url: sind-youtube-videos-oer-faehig
-weight: -2024091500
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!

@@ -45,7 +45,6 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-03'
 #staticSiteGenerator:
-date: '2024-09-03'
 author:
   - Gina Buchwald-Chassée
 title: OER-Fachtag 2024 von ORCA.nrw
@@ -60,7 +59,6 @@ summary: |
   bald veröffentlicht. Einen Rückblick zum Fachtag gibt es im Blog von
   oer.community.
 url: oer-fachtag-2024-von-orca-nrw
-weight: -2024090300
 ---
 
 ![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)

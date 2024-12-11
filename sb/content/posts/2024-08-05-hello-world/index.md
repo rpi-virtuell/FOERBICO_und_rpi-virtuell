@@ -31,7 +31,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-08-05'
 #staticSiteGenerator:
-date: '2024-08-05'
 author:
   - Gina Buchwald-Chassée
 title: Hello World!
@@ -46,7 +45,6 @@ summary: |
   unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
   durchzustarten!
 url: hello-world
-weight: -2024080500
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋

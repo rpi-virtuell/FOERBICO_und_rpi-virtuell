@@ -48,7 +48,6 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-11-12'
 #staticSiteGenerator:
-date: '2024-11-12'
 author:
   - Laura Mößle
   - Phillip Angelina
@@ -61,7 +60,6 @@ summary: |
   ob das meist verkaufte Buch der Welt, die Bibel,
   eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
-weight: -2024111200
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.

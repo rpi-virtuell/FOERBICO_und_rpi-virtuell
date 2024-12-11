@@ -49,7 +49,6 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-18'
 #staticSiteGenerator:
-date: '2024-09-18'
 author:
   - Jörg Lohrer
   - Konstanze Kemnitzer
@@ -66,7 +65,6 @@ summary: |
   diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
   Theologie und religionsbezogene Bildung über TikTok erschließen.
 url: theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
-weight: -2024091800
 ---
 
 ![](kemnitzer-tiktok.png)

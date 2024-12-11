@@ -37,7 +37,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2024-10-16'
 #staticSiteGenerator:
-date: '2024-10-16'
 author:
   - Gina Buchwald-Chassée
 title: 'OERinfo-Fachtag am 7.10.2024 in Frankfurt: "How to build a Community?!"'
@@ -52,7 +51,6 @@ summary: |
   Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am
   Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
-weight: -2024101600
 ---
 
 ![](DIPF-Gebaeude.jpg)

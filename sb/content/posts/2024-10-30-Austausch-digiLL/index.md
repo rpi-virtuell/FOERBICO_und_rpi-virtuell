@@ -34,7 +34,6 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-10-31'
 #staticSiteGenerator:
-date: '2024-10-31'
 author:
   - Gina Buchwald-Chassée
 title: Austausch mit digiLL_COM zum Thema "Community Building"
@@ -47,7 +46,6 @@ summary: |
   Thema "Community Building" im Kontext von OER (Open Educational Resources) zu 
   diskutieren und Erfahrungen auszutauschen.
 url: austausch-mit-digill_com-zum-thema-community-building
-weight: -2024103100
 ---
 
 Beide Projekte sind in der aktuellen Förderstrategie des Bundes OE_COM,

@@ -26,3 +26,9 @@ Pagination:
 
 Params:
   ShowReadingTime: false
+
+frontmatter:
+  date:
+    - datePublished
+    - date
+    - publishDate
