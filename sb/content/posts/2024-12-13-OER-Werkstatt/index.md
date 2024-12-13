@@ -1,0 +1,25 @@
+# OEP ist nunmal eine Praxis
+Vom 10.12.2024 bis zum 11.12.2024 fand eine OER-Werkstatt von einen unserer Partnerprojekte diggil.com statt. Phillip vom FOERBICO nahm daran Teil und berichtet in diesem Beitrag über seine Erfahrungen und geht der Frage nach, um was es sich bei OEP handelt.
+
+## Werkstatt-Prinzip
+Viele kleine Tischgruppen die an verschiedenen kleineren und größeren OER-Projekten arbeiten konnten. Es ermöglicht Menschen schnell in die Praxis zu kommen und mit einander kollaborativ zu arbeiten. Es gab zu verschiedensten Themen Experten die auch kurze *lightning-Talks* angeboten haben und sonst als Unterstzütung für die Arbeitsgruppen dienten. digiLL ermöglichte einen Raum in Menschen ins Tun kommen konnten. Teilnehmende waren Studierende, Lehrkräfte, Wissenschaftler:innen und Menschen die in anderen Formen in der Bildungsarbeit tätig sind. 
+
+## Was ist eigentlich OEP?
+OEP sind für Cronin, »...collaborative practices that include the creation, use, and reuse of OER, as well as pedagogical practices employing participatory technologies and social networks for interaction, peer-learning, knowledge creation, and empowerment of learners« [(Cronin 2017: 4)](https://www.irrodl.org/index.php/irrodl/article/view/3096). Man könnte nach dieser Definition zu dem Schluss kommen, dass es sich bei OEP nicht um eine spezielle pädagogische Praktik handelt, sondern um eine Grundhaltung des Lehren und Lernens. Dies macht OEP auch sehr schwierig greifbar und wir von FOERBICO sowie andere Projekte die zu OERs und OEPs forschen fragen sich, wie kommen wir von OER zu OEP? In ihrer Studie hält auch Cronin fest, dass OEP als Begriff und Konzept unbekannt ist [(Cronin 2017: 8)](https://www.irrodl.org/index.php/irrodl/article/view/3096). Dies deckt sich auch mit unseren Ergebnissen, in denen nicht allen Teilnehmer:innen das Konzept bekannt war. Eine Erklärung kann darin liegen, dass OEP noch relativ neu ist und Menschen die mit OER arbeiten, gerne von Offenen Lernformen reden. Eine andere Möglichkeit kann aber auch darin liegen, das OEP ein doch sehr theoretisches und nicht immer fassbares Konzept ist.  Eine OER Werkstatt wie die von digill zeigt wie sich OEP in der Praxis gestalten lassen kann, zugleich können auch Formen von Cafés oder Fortbildungen Möglichkeiten sein um OEP zu leben. Dieser Punkt kann nicht stark genug betont werden, aber OEP fordert zu einer neu gelebten Praxis heraus.
+
+### OEP-Landkarte
+[Learngraph](learngraph.org)  
+Wie können wir individuelles Lernen mit OER fördern und zugleich OEP fördern.  Ein Startup das versucht OEP zu ermöglichen ist [Learngraph](learngraph.org). Mit ihrer Lernkarte wollen sie Abhilfe schaffen. Man muss es sich ale ein Googlemaps fürs Lernen vorstellen. Lernende können ihren Startweg und ihr Ziel eingeben, also ihren aktuellen Kenntnisstand und ihr Lernziel, und Learngraph möchte Menschen verschiedene Lernwege die genommen werden können zeigen. Zudem soll eine Vernetzung mit anderen Mitlernenden oder Expert:innen ermöglicht werden, damit eine *temporäre* Community of Practice entstehen kann. 
+Innehralb unserer Gruppe haben wie viele Ideen gesammelt um zu überlegen wie man die technischen Grundlagen didaktisch ausgestalten kann. Es kam auch zur Sprache, dass OEP als Konzept nicht so bekannt ist, aber auch die Hürden die strukturell so einem innovativen Projekt im Wege stehen.
+
+## Weitere Themen die diksutiert wurden
+OER und der Goldstandard
+Weitere Diskussionen die sich im Laufe der Tage drehten sich um die Chancen und Hürden von OER. Hier gab es viele Punkte die jeweils ihre eigenen Beiträge verdienen würden. Besprochene Themen waren: 
+- Schule als ein System welches Kräfte so bündelt, dass Lehrende leider nicht die Kapazitäten haben um sich in neue Arbeitsformen oder Systemen auseinander setzen.
+- Der Goldstandard welcher vor allem individuelle Erstellende überfordern kann, vor allem im Bezug auf rechtliche Expertise-Mangel und Zeitresourssen, dazu führt das Menschen Material gar nicht oder zumindest nicht unter OER veröffentlichen.
+- Das OER neue Lernmöglichkeiten und Prüfungsmöglichkeiten im Universitären Kontext bieten kann, was gerade in Zeiten von KI relevant wird zum erlernen der 21. Century Skills.
+- Zudem wurde eine Frage aufgebracht die mich wirklich zum Nachdenken über OER gebracht hat: *Wird in Zukunft nicht eigentlich das remixen, also das vermischen immer wichtiger*? Dabei geht es um den wichtigen Aspekt ob nicht gerade dieser Punkt für OER-User:innen erleichtert werden muss.
+- In einem weiteren Austausch zu OEP kam die Frage auf, ob es den Begriff OEP wirklich brauche, da viele dies in der Praxis anscheinend nicht fehlen würde und digitales Lernen häufig auf dieser Grundlage stattfände. Ein nennenswerter Punkt gegen diesen Einwand war, das auf struktureller Ebene eine bessere theoretische Fundierung von OEP helfen könne von einer *Prozessorientierung zur Ergebnisorientierung* zu kommen. 
+
+### Kreativ-Tisch
+Es gab auch eine Möglichkeit seinen eigenen kreativen Flow freien lauf zu lassen. Man konnte am Kreativ-Tisch Buttons basteln und Postkarten mit verschiedenen Motiven schreiben, und auch selber gestalten.
