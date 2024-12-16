@@ -68,6 +68,7 @@ author:
   - Phillip Angelina
 title: 'SDG-Logos und #OER: Wie darf ich sie verwenden?'
 cover:
+  relative: true
   image: cc-by-sa-linzenz-der-sdg-logos.png
   hiddenInSingle: true
 summary: |

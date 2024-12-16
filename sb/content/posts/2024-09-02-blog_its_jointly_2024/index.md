@@ -38,6 +38,7 @@ author:
   - Phillip Angelina
 title: Einblicke zum OER-/IT-Sommercamp "it’s jointly 2024"
 cover:
+  relative: true
   image: phillip-und-ludger.jpg
   hiddenInSingle: true
 summary: >-

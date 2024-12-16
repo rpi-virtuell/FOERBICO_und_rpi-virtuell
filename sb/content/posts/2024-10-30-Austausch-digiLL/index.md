@@ -38,6 +38,7 @@ author:
   - Gina Buchwald-Chassée
 title: Austausch mit digiLL_COM zum Thema "Community Building"
 cover:
+  relative: true
   image: digill_com-videokonferenz.jpg
   hiddenInSingle: false
 summary: |

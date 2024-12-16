@@ -51,6 +51,7 @@ author:
   - Jörg Lohrer
 title: 'Arbeiten mit Git: FOERBICO meets EKHN-Medienhaus'
 cover:
+  relative: true
   image: GitLab-Ein-Blick-hinter-die-Kulissen.png
   hiddenInSingle: false
 summary: |

@@ -35,6 +35,7 @@ author:
   - Gina Buchwald-Chassée
 title: Hello World!
 cover:
+  relative: true
   image: FOERBICO-Team.png
   alt: Das FOERBICO Team
   caption: 'Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina'

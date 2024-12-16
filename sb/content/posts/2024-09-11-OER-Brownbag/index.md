@@ -5,6 +5,7 @@ datePublished: '2024-09-11'
 author:
 title: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
 cover:
+  relative: true
   image: OER-Brownbag.png
   hiddenInSingle: false
 summary: |

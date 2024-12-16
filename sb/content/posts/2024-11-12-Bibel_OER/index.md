@@ -53,6 +53,7 @@ author:
   - Phillip Angelina
 title: Ist die Bibel eigentlich Open?
 cover:
+  relative: true
   image: an-open-bible_Lynn_Greyling_Small.png
   hiddenInSingle: true
 summary: |

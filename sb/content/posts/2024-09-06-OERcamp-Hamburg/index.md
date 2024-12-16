@@ -44,6 +44,7 @@ author:
   - Gina Buchwald-Chassée
 title: 'Recap: OERcamp im März 2024 in Hamburg'
 cover:
+  relative: true
   image: https://reliverse.social/system/media_attachments/files/112/059/720/799/740/387/original/accb7c731fbf765f.jpg
   hiddenInSingle: true
 summary: |

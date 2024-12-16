@@ -55,6 +55,7 @@ author:
   - Jörg Lohrer
 title: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.social
 cover:
+  relative: true
   image: liboriSocial_postcard.png
   hiddenInSingle: false
 summary: |

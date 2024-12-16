@@ -36,6 +36,7 @@ author:
   - Gina Buchwald-Chassée
 title: OERcamp & OER-Festival 2024 in Essen
 cover:
+  relative: true
   image: OERcamp-OER-Festival-2024-Essen.png
   alt: '#OERcamp 2024 in Essen vom 18. bis 20. November'
   hiddenInSingle: false

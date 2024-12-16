@@ -48,6 +48,7 @@ author:
   - Laura Mößle
 title: 'Sichtbarkeit und Netzwerk durch OER stärken: FOERBICO auf der GwR-Tagung in Würzburg zum Thema Öffentlichkeitsarbeit'
 cover:
+  relative: true
   image: foerbico-flyer.png
   hiddenInSingle: false
 summary: |

@@ -37,6 +37,7 @@ author:
   - Gina Buchwald-Chassée
 title: Raus aus den Bubbles
 cover:
+  relative: true
   image: raus-aus-den-bubbles_vorschau.jpg
   hiddenInSingle: true
 summary: |

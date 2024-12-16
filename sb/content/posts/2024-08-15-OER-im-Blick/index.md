@@ -38,6 +38,7 @@ author:
   - Gina Buchwald-Chassée
 title: 'Rückblick: Auftaktkonferenz „OER im Blick“'
 cover:
+  relative: true
   image: OER-im-Blick.jpg
   hiddenInSingle: true
 summary: |

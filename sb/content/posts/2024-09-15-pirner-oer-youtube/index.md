@@ -28,6 +28,7 @@ author:
   - Manfred Pirner
 title: Sind YouTube-Videos OER-fähig?
 cover:
+  relative: true
   image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
   alt: 'Creative Commons as Youtube logo'
   caption: 'Creative Commons over Youtube | von: KI-generiert | Lizenz/Rechte: CC0'

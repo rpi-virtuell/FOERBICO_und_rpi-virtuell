@@ -39,6 +39,7 @@ author:
   - Gina Buchwald-Chassée
 title: OER erklärt an der Rhabarberbar
 cover:
+  relative: true
   image: Rhabarberbar.png
   hiddenInSingle: true
 summary: |

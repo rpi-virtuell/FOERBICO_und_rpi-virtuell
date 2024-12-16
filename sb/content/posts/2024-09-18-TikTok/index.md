@@ -54,6 +54,7 @@ author:
   - Konstanze Kemnitzer
 title: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
 cover:
+  relative: true
   image: kemnitzer-tiktok.png
   hiddenInSingle: true
 summary: |
