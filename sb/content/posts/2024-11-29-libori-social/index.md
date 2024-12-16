@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.social
 description: >-
-  Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat,
+  Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut,
   katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 id: https://oer.community/libori-social
