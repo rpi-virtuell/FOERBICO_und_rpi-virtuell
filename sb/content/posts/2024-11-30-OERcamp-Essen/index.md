@@ -177,7 +177,7 @@ Zum Abschluss des OERcamps fanden noch drei Workshops des Bündnisses Freie Bild
 
 Worum es ging, erfahrt ihr hier 🎥
 
-[![Video auf YouTube](https://img.youtube.com/vi/gnNOrjSEwdk/default.jpg)](https://www.youtube.com/watch?v=gnNOrjSEwdk)
+[![Video auf YouTube](workshop-organisationsentwicklung.jpg)](https://www.youtube.com/watch?v=gnNOrjSEwdk)
 
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/DYGB3F/ 
