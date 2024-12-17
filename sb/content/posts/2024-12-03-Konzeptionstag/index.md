@@ -146,24 +146,7 @@ Allerdings bestehen deutliche Hürden:
 
 Ein zentraler Bedarf ist daher die Bereitstellung von Tools und Unterstützungsangeboten zur Erstellung von OER. Weitere Ideen:
 
-```mermaid
-mindmap
-  root((Bedarfe))
-    Communities <br/> verbinden
-      Vernetzung ermöglichen
-      Gemeinsame Bestpractice
-    Datenbanken
-      Bilddatenbanken
-      Vorlagen
-    Technische<br/>Infrastruktur
-      KI-Lizenzchecker
-      OER-Toolbox
-      Ermöglichung<br/>Modularisierung
-    Institutionelle <br/> Unterstützung
-      Rechtliche<br/> Unterstützung
-      Förderung von OER <br/>Projekten
-```
-
+![Minmap "Bedarfe"](mind "Minmap: Bedarfe religionsbezogener Communities")
 
 Die Befragungsergebnisse konnten wir während der Mittagspause sacken lassen! Danach ging es in Kleingruppen zu Community & Netzwerk sowie Technik & Werkzeuge weiter:
 
