@@ -8,6 +8,8 @@ Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugänglic
 
 **Diese beiden Konzepte tragen dazu bei, Bildung inklusiver, zugänglicher und kollaborativer zu gestalten.**
 
+Eine kurze und anschauliche Übersicht zu OER findest du [hier](https://ebildungslabor.de/wp-content/uploads/2024/11/kum29-oer.pdf$0).
+
 ## Was macht Material ‚open‘?
 
 Lehr- und Lernmaterialien gelten als offen, wenn sie den 5V-Freiheiten folgen: *verwahren*, *verwenden*, *verarbeiten*, *vermischen* und *verbreiten*. 
@@ -75,6 +77,8 @@ Es gibt verschiedene Lizenzen für OER, die bestimmen, wie die Materialien genut
 ## Wo finde ich OER?
 
 Es gibt viele verschiedene Plattformen, die OER für unterschiedliche Fächer oder Bildungsbereiche bereitstellen. All diese Plattformen bieten offene Materialien, die du nutzen, teilen und in vielen Fällen auch bearbeiten kannst. Die Auswahl der richtigen Plattform hängt davon ab, welche Art von OER du suchst – sei es für Schule, Hochschule oder außerschulische Bildung.
+
+[Hier](https://www.youtube.com/watch?v=qoO9LR7gats) findest du ein Video, das die verschiedenen OER-Suchmöglichkeiten genauer erklärt. 
 
 Wir haben [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/OER-Recherche/Sammlung-OER-Player.md) einige Plattformen gesammelt, die insbesondere für die religiöse Bildung geeignet sind. Diese Übersicht darf gerne erweitert werden! Dir fehlt eine wichtige Quelle auf der Liste? Dann kontaktiere uns – unsere Kontaktdaten findest du auf unserer [Teamseite](https://oer.community/unser-team/).
 
