@@ -60,6 +60,18 @@ Canva ist zwar ein tolles Gestaltungstool, aber die Inhalte, die ihr dort findet
 
 Ihr erstellt mit Canva ein Handout und nutzt ein schönes Stockfoto aus der Bibliothek. Das Foto ist aber nur für eure private oder berufliche Nutzung unter der Canva-Lizenz freigegeben. Sobald ihr das Handout als OER hochladet und zur freien Nutzung anbietet, verstößt ihr gegen die Nutzungsbedingungen – das Foto ist nämlich immer noch durch das Urheberrecht geschützt!
 
+**Tipp:**
+
+Bei Lizenznachweisen haltet euch am besten an die [TULLUBA-Regel](https://www.orca.nrw/oer/oer-nutzen/tulluba-regel/):
+
+- **T**itel des Werks (wenn vorhanden)
+- **U**rheber*innen des Werks
+- **L**izenz des Werks (inkl. Version der Lizenz)
+- **L**ink zum Lizenztext
+- **U**rsprungsort des Werks (Link zum Original)
+- **B**earbeitungen des Werks
+- **A**usnahmen
+
 ## Einfach und rechtssicher: So klappt’s mit OER
 
 Damit ihr rechtlichen Fallstricke umgeht, hier ein paar Tipps, um "save" zu sein:
@@ -94,7 +106,7 @@ Einfache Figuren wie Kreise oder Rechtecke und Linien genießen keinen urheberre
 
 ### So sieht euer rechtssicheres OER-Material aus
 
-Am Ende sollte euer OER-Material so gestaltet sein, dass ihr keinerlei urheberrechtlich geschützte Inhalte verwendet, die unter einer geschlossenen Lizenz stehen. Stellt euch einfach die Frage: „Kann das, was ich hier gestalte, bedenkenlos von jeder Person weiterverwendet werden?“
+Am Ende sollte euer OER-Material so gestaltet sein, dass ihr keinerlei urheberrechtlich geschützte Inhalte verwendet, die unter einer geschlossenen Lizenz stehen. Materialien für die OER-Erstellung erhaltet ihr z.B. bei [ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/materialien-oer-erstellung/). bei Stellt euch einfach die Frage: „Kann das, was ich hier gestalte, bedenkenlos von jeder Person weiterverwendet werden?“
 Wenn ja: Perfekt, euer Werk ist OER-ready!
 
 Ihr möchtet freie Bildungsmaterialien erstellen, seid aber nach wie vor unsicher bezüglich der Nutzungsrechte? Dann laden wir euch herzlich in unseren offenen Element-Raum "[OER-Rechtsfragen](https://matrix.to/#/#oer-rechtsfragen:rpi-virtuell.de)" ein!
