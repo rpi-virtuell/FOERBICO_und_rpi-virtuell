@@ -1,4 +1,11 @@
-# Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)?
+---
+#commonMetadata:
+#staticSiteGenerator:
+title: OER und OEP
+url: oer-und-oep
+---
+
+## Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)?
 
 **Open Educational Resources (OER)** sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. Offene Lizenzen schaffen die Möglichkeit, dass die Lehr- und Lernmaterialien rechtssicher und kostenlos benutzt, bearbeitet und durch Dritte weiterverarbeitet werden können, ohne oder mit geringfügigen Einschränkungen. Die OER-Formate können von Texten, Videos, Präsentationen, Bildern, Podcasts und Planspielen bis hin zu kompletten Kursmaterialien und Lehrbüchern reichen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen. 
 Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern und den Bildungsprozess durch mehr Zusammenarbeit und Innovation zu bereichern. Material wird als OER bezeichnet wenn die 5V-Freiheiten *verwahren*, *verwenden*, *verarbeiten*, *vermischen* und *verbreiten* ermöglichen. 
@@ -8,7 +15,7 @@ Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugänglic
 
 **Diese beiden Konzepte tragen dazu bei, Bildung inklusiver, zugänglicher und kollaborativer zu gestalten.**
 
-Eine kurze und anschauliche Übersicht zu OER findest du [hier](https://ebildungslabor.de/wp-content/uploads/2024/11/kum29-oer.pdf$0).
+Eine kurze und anschauliche Übersicht zu OER findest du [hier](https://ebildungslabor.de/wp-content/uploads/2024/11/kum29-oer.pdf).
 
 ## Was macht Material ‚open‘?
 
@@ -133,11 +140,12 @@ OER zu erstellen, kann viel Zeit erfordern, aber der Beitrag zur offenen Bildung
 ## Was sind Metadaten und welche Standards gibt es?
 
 Metadaten sind strukturierte Daten, die Informationen die OER beinhalten. Sie erleichtern das Auffinden, die Verwaltung und die Archivierung der Materialien.
-Arten von Metadaten:
 
-**Deskriptive Metadaten:** Beschreiben den Inhalt der Ressource (z. B. Titel, Autor:in, Thema, Keywords).
-**Administrative Metadaten:** Betreffen die Verwaltung der Ressource, wie Erstellungsdatum, Urheberrecht und Zugriffsrechte.
-**Strukturelle Metadaten:** Beschreiben die interne Struktur einer Ressource, zum Beispiel Kapitel eines Buches oder die Beziehung zwischen verschiedenen Teilen einer Ressource.
-**Technische Metadaten:** Beschreiben technische Informationen über das Format oder die Softwareanforderungen der Ressource.
+### Arten von Metadaten:
 
-Metadaten sind entscheidend für die Verwaltung und Auffindbarkeit von OER. Es gibt verschiedene Standards, wie [Dublin Core](https://de.wikipedia.org/wiki/Dublin_Core), [LOM](https://de.wikipedia.org/wiki/Learning_Objects_Metadata) und [SCORM](https://docs.moodle.org/19/de/Lernpaket_(SCORM)), die speziell auf unterschiedliche Anwendungsfälle zugeschnitten sind. Die Wahl des richtigen Standards hängt von den spezifischen Voraussetzngen und Anforderungen der Ressource ab.
+- **Deskriptive Metadaten:** Beschreiben den Inhalt der Ressource (z. B. Titel, Autor:in, Thema, Keywords).
+- **Administrative Metadaten:** Betreffen die Verwaltung der Ressource, wie Erstellungsdatum, Urheberrecht und Zugriffsrechte.
+- **Strukturelle Metadaten:** Beschreiben die interne Struktur einer Ressource, zum Beispiel Kapitel eines Buches oder die Beziehung zwischen verschiedenen Teilen einer Ressource.
+- **Technische Metadaten:** Beschreiben technische Informationen über das Format oder die Softwareanforderungen der Ressource.
+
+Metadaten sind entscheidend für die Verwaltung und Auffindbarkeit von OER. Es gibt verschiedene Standards, wie [Dublin Core](https://de.wikipedia.org/wiki/Dublin_Core), [LOM](https://de.wikipedia.org/wiki/Learning_Objects_Metadata) und [SCORM](https://docs.moodle.org/19/de/Lernpaket_(SCORM)), die speziell auf unterschiedliche Anwendungsfälle zugeschnitten sind. Die Wahl des richtigen Standards hängt von den spezifischen Voraussetzungen und Anforderungen der Ressource ab.
