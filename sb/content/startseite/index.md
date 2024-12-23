@@ -1,6 +1,5 @@
 ---
 #commonMetadata:
-datePublished: '2024-05-01'
 #staticSiteGenerator:
 title: Willkommen!
 url: /

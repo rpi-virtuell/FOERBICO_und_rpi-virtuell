@@ -46,12 +46,12 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_C
 datePublished: '2024-10-22'
 #staticSiteGenerator:
-date: '2024-10-22'
 author:
   - Gina Buchwald-Chassée
   - Jörg Lohrer
 title: 'Arbeiten mit Git: FOERBICO meets EKHN-Medienhaus'
 cover:
+  relative: true
   image: GitLab-Ein-Blick-hinter-die-Kulissen.png
   hiddenInSingle: false
 summary: |
@@ -61,7 +61,6 @@ summary: |
   GitLab, Datenschutzanforderungen, agile Workflows und die zukünftige
   Zusammenarbeit.
 url: arbeiten-mit-git-foerbico-meets-ekhn-medienhaus
-weight: -2024102100
 ---
 
 ## GitLab: Ein Blick hinter die Kulissen
