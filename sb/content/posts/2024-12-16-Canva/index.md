@@ -1,5 +1,5 @@
 ---
-
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
@@ -39,26 +39,44 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-12-19'
-summary: >-
-  Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Tool [Canva](https://www.canva.com/) zurück, ein beliebtes Design-Tool mit dem Workshop-Handouts, Präsentationen und Social-Media-Posts im Handumdrehen erstellt sind. Doch sind die Designs, Vorlagen, Bilder einfach für OER nutzbar? Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf die Problematik aufmerksam, doch die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis. Also haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
-
+#staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
+  - Corinna Ullmann
+title: 'Canva für OER? Eine Entscheidungshilfe für Bildungsakteure'
+cover:
+  relative: true
+  image: Canva-OER-KI-generiert.jpg
+  hiddenInSingle: false
+summary: |
+  Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen,
+  zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure
+  greifen auf das Tool [Canva](https://www.canva.com/) zurück, ein beliebtes
+  Design-Tool mit dem Workshop-Handouts, Präsentationen und Social-Media-Posts
+  im Handumdrehen erstellt sind. Doch sind die Designs, Vorlagen, Bilder einfach für OER nutzbar?
+  Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf die Problematik aufmerksam,
+  doch die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis.
+  Also haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und
+  hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
+url: canva
 ---
 
-# Canva für OER? Eine Entscheidungshilfe für Bildungsakteure
+## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?
 
-Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Tool [Canva](https://www.canva.com/) zurück, ein beliebtes Design-Tool mit dem Workshop-Handouts, Präsentationen und Social-Media-Posts im Handumdrehen erstellt sind. Doch sind die Designs, Vorlagen, Bilder einfach für OER nutzbar? Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf die Problematik aufmerksam, doch die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis. Also haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
+ Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf diese Problematik aufmerksam. Die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis. Deswegen haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und
+  hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
 
 ## Stolperstein: Ihr habt nur ein Nutzungsrecht
 
 Canva ist zwar ein tolles Gestaltungstool, aber die Inhalte, die ihr dort findet – sei es eine hübsche Vorlage, ein Stockfoto oder ein Icon – sind urheberrechtlich geschützt unter der Canva-Lizenz. Und das bedeutet: Kostenlos ≠ frei verfügbar! Ihr habt nur ein Nutzungsrecht, keine freie Lizenz. Für OER braucht ihr allerdings Inhalte, die unter einer [Creative Commons-Lizenz (CC-Lizenz)](https://creativecommons.org/share-your-work/cclicenses/) oder einer anderen freien Lizenz stehen.
 
-**Ein Beispiel:**
+### Ein Beispiel:
 
 Ihr erstellt mit Canva ein Handout und nutzt ein schönes Stockfoto aus der Bibliothek. Das Foto ist aber nur für eure private oder berufliche Nutzung unter der Canva-Lizenz freigegeben. Sobald ihr das Handout als OER hochladet und zur freien Nutzung anbietet, verstößt ihr gegen die Nutzungsbedingungen – das Foto ist nämlich immer noch durch das Urheberrecht geschützt!
 
 ![](Beispiel-Bildlizenz.jpg) 
 
-**Tipp:**
+### Tipp:
 
 Bei Lizenznachweisen haltet euch am besten an die [TULLUBA-Regel](https://www.orca.nrw/oer/oer-nutzen/tulluba-regel/):
 

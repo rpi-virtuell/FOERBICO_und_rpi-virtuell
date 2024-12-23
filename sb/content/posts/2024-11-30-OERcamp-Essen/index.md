@@ -1,4 +1,5 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: OERcamp & OER-Festival 2024 in Essen

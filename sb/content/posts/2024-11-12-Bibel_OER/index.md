@@ -1,4 +1,5 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
