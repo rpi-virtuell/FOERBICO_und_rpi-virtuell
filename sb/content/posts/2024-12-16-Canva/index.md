@@ -110,7 +110,7 @@ Plattformen wie [Wikimedia Commons](https://commons.wikimedia.org/wiki/Hauptseit
 
 **MidJourney**: Die Lizenzierung für OER hängt von der jeweiligen Mitgliedschaft und den entsprechenden Nutzungsrechten und Lizenzbedingungen ab.
 
-**Canva KI-Generator**: KI-generierte Inhalte unterliegen den Canva-Lizenzbedingungen. Eine Weitergabe unter CC-Lizenzen ist meistens nicht gestattet!
+**Canva KI-Generator**: KI-generierte Inhalte unterliegen den Canva-Lizenzbedingungen. Eine Weitergabe unter CC-Lizenzen ist meistens nicht gestattet! Schaut euch dazu am besten die [Lizenzbestimmungen](https://www.canva.com/de_de/richtlinien/free-media/) und die [Nutzungsbedingungen](https://www.canva.com/de_de/richtlinien/ai-product-terms/) von Canva an.
 
 ### Wählt Schriftarten sorgfältig aus ✍️ 
 
