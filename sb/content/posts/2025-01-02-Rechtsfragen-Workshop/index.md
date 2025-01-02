@@ -72,7 +72,7 @@ Interessante FAQ zu KI-Rechtsfragen gibt es unter: https://www.impulse.de/organi
 
 ### Save-the-Date 📅:
 
-Der nächste [Rechtsfragen-Workshop]() findet am **22.01.2025 von 10:00 – 12:00 Uhr** online statt! Wenn ihr dabei sein wollt, meldet euch einfach per Mail an [info@twillo.de](mailto: info@twillo.de) an - der Veranstaltungslink wird euch nach der Anmeldung zugeschickt.
+Der nächste [Rechtsfragen-Workshop]() findet am **22.01.2025 von 10:00 – 12:00 Uhr** online statt! Wenn ihr dabei sein wollt, meldet euch einfach per Mail an info@twillo.de an - der Veranstaltungslink wird euch nach der Anmeldung zugeschickt.
 
 Sollten zukünftig Fragen rund um OER auftreten, bietet twillo auch eine kostenlose Online-Sprechstunde an: https://www.twillo.de/oer/web/twillo-thursday/
 
