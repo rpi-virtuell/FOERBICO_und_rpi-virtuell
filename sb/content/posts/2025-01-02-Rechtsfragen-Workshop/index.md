@@ -55,7 +55,7 @@ OER-Materialien ermöglichen es, Bildungsressourcen mit anderen zu teilen, weite
 •	**Datenschutz und Persönlichkeitsrechte:** Neben Urheberrechtsfragen spielen auch der Schutz personenbezogener Daten und das Recht am eigenen Bild eine Rolle – insbesondere in Hinblick auf den Einsatz von Bildern und Videos in OER.
 •	**Praktische Anwendung und Fallbeispiele:** Der Workshop beinhaltet auch zahlreiche praxisorientierte Beispiele und konkrete Fallstudien. So können die Teilnehmenden das Gelernte auf ihre eigene Arbeit anwenden und bekamen wertvolle Tipps zur Integration von OER in den Bildungsalltag.
 
-Wir waren im Juli 2024 beim Rechtsfragen-Workshop dabei, die Präsentation findet ihr hier. Die Inhalte sind unter CC BY 4.0 lizenziert – eine Nachnutzung ist ausdrücklich erwünscht!
+Wir waren im Juli 2024 beim Rechtsfragen-Workshop dabei, die Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/commit/3c55732559d7b97922ff66593fd464904af21443/sb/content/posts/2025-01-02-Rechtsfragen-Workshop/OER%20Rechtsfragen-Workshop.pdf). Die Inhalte sind unter CC BY 4.0 lizenziert – eine Nachnutzung ist ausdrücklich erwünscht!
 
 ## Tipps & Tools 🛠️:
 
