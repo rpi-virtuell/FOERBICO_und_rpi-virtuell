@@ -102,7 +102,7 @@ Selbst erstellte Fotos, Zeichnungen oder Icons sind die beste Wahl. Noch besser:
 
 ### Nutzt freie Bilddatenbanken 🖼️
 
-Plattformen wie [Wikimedia Commons](https://commons.wikimedia.org/wiki/Hauptseite), [Openverse](https://openverse.org/de) oder teilweise [Pexels](https://www.pexels.com/de-de/) und [Europeana](https://www.europeana.eu) bieten beispielsweise viele Inhalte unter CC-Lizenz. Achtet dabei immer auf die genaue Lizenzangabe! Aber wie steht es um KI-generierte Bilder? Auch hier gilt es die Nutzungslizenzen der verschiedenen Anbieter zu beachten, hier ein paar Beispiele:
+Plattformen wie [Wikimedia Commons](https://commons.wikimedia.org/wiki/Hauptseite), [Openverse](https://openverse.org/de), [CocoMaterial](https://cocomaterial.com/) oder teilweise [Pexels](https://www.pexels.com/de-de/) und [Europeana](https://www.europeana.eu) bieten beispielsweise viele Inhalte unter CC-Lizenz. Achtet dabei immer auf die genaue Lizenzangabe! Aber wie steht es um KI-generierte Bilder? Auch hier gilt es die Nutzungslizenzen der verschiedenen Anbieter zu beachten, hier ein paar Beispiele:
 
 **DALL·E (OpenAI):** Kann für OER genutzt werden, sofern die generierten Bilder vom Nutzenden unter eine CC-Lizenz gestellt werden.
 
