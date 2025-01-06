@@ -27,7 +27,6 @@ Lehr- und Lernmaterialien gelten als offen, wenn sie den 5V-Freiheiten folgen: *
 
 **Kollaboration und Partizipation:** Die Offenheit von OER fördert die Zusammenarbeit und Aktualität der Lehr- und Lernmedien. Lehrkräfte, Lernende und Institutionen können sich aktiv an der Verbesserung und Aktualisierung der Materialien beteiligen.
 
-
 **Lizenzen im Überblick**:
 Es gibt verschiedene Lizenzen für OER, die bestimmen, wie die Materialien genutzt, verändert und weiterverbreitet werden dürfen. Die bekanntesten und am häufigsten verwendeten Lizenzen stammen von [Creative Commons (CC)](https://creativecommons.org/). Hier ein Überblick über die wichtigsten Lizenzen und ihre Anwendungsbereiche:
 
@@ -80,6 +79,8 @@ Es gibt verschiedene Lizenzen für OER, die bestimmen, wie die Materialien genut
 **Nicht-kommerzielle Nutzung:** Wähle **CC BY-NC** oder **CC BY-NC-SA**, wenn du sicherstellen möchtest, dass dein Material nicht kommerziell genutzt wird.
     
 **Schutz vor Änderungen:** **CC BY-ND** oder **CC BY-NC-ND** sind sinnvoll, wenn du verhindern möchtest, dass dein Material verändert wird.
+
+Das [Handout CC-Lizenzen.pdf](/attachments/9200e02d-f530-4491-bafb-330f78845f44) dient dir als Entscheidungshilfe!
 
 ## Wo finde ich OER?
 
