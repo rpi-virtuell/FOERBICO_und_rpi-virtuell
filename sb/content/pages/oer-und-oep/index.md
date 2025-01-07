@@ -80,7 +80,7 @@ Es gibt verschiedene Lizenzen für OER, die bestimmen, wie die Materialien genut
     
 **Schutz vor Änderungen:** **CC BY-ND** oder **CC BY-NC-ND** sind sinnvoll, wenn du verhindern möchtest, dass dein Material verändert wird.
 
-Das [Handout CC-Lizenzen.pdf](/attachments/9200e02d-f530-4491-bafb-330f78845f44) dient dir als Entscheidungshilfe!
+Das [Handout zu CC-Lizenzen.pdf](/attachments/3f3d20f5-6b1c-4722-900f-0ab56c43fe6e) dient dir als Entscheidungshilfe!
 
 ## Wo finde ich OER?
 
