@@ -25,7 +25,7 @@ Ihr könnt euch den [Remix von OER-Materialien](https://certificates.creativecom
  
 Created by Kennisland published under a CC0 license, vgl. https://wiki.creativecommons.org/wiki/Wiki/cc_license_compatibility
 
-**Hier sind Beispiele, wie Du CC-Lizenzen beim Remix berücksichtigen kannst:**
+**Hier sind Beispiele, wie du CC-Lizenzen beim Remix berücksichtigen kannst:**
 
 *Beispiel 1: Material mit CC BY + CC BY-SA*
 
