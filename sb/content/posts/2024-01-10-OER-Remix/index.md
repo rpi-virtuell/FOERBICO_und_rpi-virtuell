@@ -25,6 +25,35 @@ Ihr könnt euch den [Remix von OER-Materialien](https://certificates.creativecom
  
 Created by Kennisland published under a CC0 license, vgl. https://wiki.creativecommons.org/wiki/Wiki/cc_license_compatibility
 
+**Hier sind Beispiele, wie Du CC-Lizenzen beim Remix berücksichtigen kannst:**
+
+*Beispiel 1: Material mit CC BY + CC BY-SA*
+
+Erlaubt: Du kannst diese Materialien remixen, musst aber das Ergebnis unter CC BY-SA veröffentlichen (wegen der SA-Bedingung).
+
+Anforderungen: Nennung aller Urheber und Angabe der ursprünglichen Lizenzen.
+
+*Beispiel 2: Material mit CC BY-NC + CC BY-NC-SA*
+
+Erlaubt: Der Remix ist nur unter CC BY-NC-SA möglich (wegen der SA-Bedingung und NC-Einschränkung).
+
+Anforderungen: Keine kommerzielle Nutzung, Weitergabe unter denselben Bedingungen.
+
+*Beispiel 3: Material mit CC BY-NC + CC BY*
+
+Nicht erlaubt: Da CC BY die kommerzielle Nutzung erlaubt, ist eine Kombination mit CC BY-NC (nicht-kommerziell) unzulässig.
+
+**Wichtig: Dokumentiere die Quellen**
+
+Liste dazu alle verwendeten Materialien auf und ib die ursprünglichen Lizenzen, die Urheber:innen und Links zu den Originalmaterialien an.
+Erkläre, unter welcher Lizenz dein Remix veröffentlicht wird. Beachte dabei, dass die Lizenz deines Werks den Lizenzanforderungen der verwendeten Materialien entsprechen:
+
+**BY:** Du kannst jede kompatible Lizenz wählen.
+
+**SA:** Deine Lizenz muss dieselbe SA-Bedingung enthalten.
+
+**NC:** Dein Werk muss ebenfalls die NC-Bedingung enthalten.
+
 Weitere Infos, was es beim Remixen zu beachten gilt, erfährst du [hier](https://irights.info/artikel/kombinieren-bearbeiten-remixen-oer-richtig-verwenden/28560).
 
 ## Hands on: OER-Werkstatt im relilab 🛠️
