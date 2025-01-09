@@ -62,4 +62,4 @@ Trotz der Komplexität der CC-Lizenzen möchten wir euch zur OER-Erstellung ermu
 
 **Nächster Termin: 23. Januar 2025 von 9 - 9:30 Uhr 📅**
 
-Weitere Infos und Link zur Anmeldung findet ihr hier (Link zur Veranstaltung).
+Weitere Infos und Link zur Anmeldung findet ihr [hier](https://relilab.org/oerwerkstatt/).
