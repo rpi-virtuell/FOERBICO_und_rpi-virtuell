@@ -53,11 +53,11 @@ OER-Materialien ermöglichen es, Bildungsressourcen mit anderen zu teilen, weite
 
 •	**Urheberrecht und Lizenzen:** Die Teilnehmenden lernen, wie man Inhalte korrekt lizenziert, um Urheberrechtsverletzungen zu vermeiden, und wie verschiedene Lizenztypen (wie z.B. Creative Commons) funktionieren.
 
-•	**Datenschutz und Persönlichkeitsrechte:** Neben Urheberrechtsfragen spielen auch der Schutz personenbezogener Daten und das Recht am eigenen Bild eine Rolle – insbesondere in Hinblick auf den Einsatz von Bildern und Videos in OER.
+•	**Datenschutz und Persönlichkeitsrechte:** Neben Urheberrechtsfragen spielen auch der Schutz personenbezogener Daten und das Recht am eigenen Bild eine Rolle - insbesondere in Hinblick auf den Einsatz von Bildern und Videos in OER.
 
 •	**Praktische Anwendung und Fallbeispiele:** Der Workshop beinhaltet auch zahlreiche praxisorientierte Beispiele und konkrete Fallstudien. So können die Teilnehmenden das Gelernte auf ihre eigene Arbeit anwenden und bekamen wertvolle Tipps zur Integration von OER in den Bildungsalltag.
 
-Wir waren im Juli 2024 beim Rechtsfragen-Workshop dabei, die Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/commit/3c55732559d7b97922ff66593fd464904af21443/sb/content/posts/2025-01-02-Rechtsfragen-Workshop/OER%20Rechtsfragen-Workshop.pdf). Die Inhalte sind unter CC BY 4.0 lizenziert – eine Nachnutzung ist ausdrücklich erwünscht!
+Wir waren im Juli 2024 beim Rechtsfragen-Workshop dabei, die Präsentation findet ihr [hier](https://uol.de/fileadmin/user_upload/lehre/Hochschuldidaktik/e-Didaktik/Mittagstreffen/2022/2022_02_02_Mittagstreffen_Spezial_2_FAQ_Rechtsfragen_rund_um_OER.pdf?v=1658133603). Die Inhalte sind unter CC BY 4.0 lizenziert - eine Nachnutzung ist ausdrücklich erwünscht!
 
 ## Tipps & Tools 🛠️:
 
@@ -77,7 +77,7 @@ Interessante FAQ zu KI-Rechtsfragen gibt es unter: https://www.impulse.de/organi
 
 ## Save-the-Date 📅:
 
-Der nächste [Rechtsfragen-Workshop]() findet am **22.01.2025 von 10:00 – 12:00 Uhr** online statt! Wenn ihr dabei sein wollt, meldet euch einfach per Mail an info@twillo.de an - der Veranstaltungslink wird euch nach der Anmeldung zugeschickt.
+Der nächste [Rechtsfragen-Workshop](https://www.twillo.de/oer/web/rechtsfragen-workshop-22-01-2025/) findet am **22.01.2025 von 10:00 – 12:00 Uhr** online statt! Wenn ihr dabei sein wollt, meldet euch einfach per Mail an info@twillo.de an - der Veranstaltungslink wird euch nach der Anmeldung zugeschickt.
 
 Sollten zukünftig Fragen rund um OER auftreten, bietet twillo auch eine kostenlose Online-Sprechstunde an: https://www.twillo.de/oer/web/twillo-thursday/
 
