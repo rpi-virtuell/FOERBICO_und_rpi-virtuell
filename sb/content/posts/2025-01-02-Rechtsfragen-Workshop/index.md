@@ -63,7 +63,7 @@ Wir waren im Juli 2024 beim Rechtsfragen-Workshop dabei, die Präsentation finde
 
 · **OER Planungshilfe von twillo:** https://tibhannover.gitlab.io/oer/oer-wizard/html/wizard-modal.html#step-1
 
-· **Rechtslotze von HOOU:** https://learn.hoou.de/course/view.php?id=57
+· **Rechtslotse von HOOU:** https://learn.hoou.de/course/view.php?id=57
 
 Tools, die Nutzer:innen dabei helfen zu erfahren, ob KI-Anwendungen mit ihren Werken trainiert wurden sowie Tools, die Werke (Bilder, Fotos) vom Auslesen durch KI-Anwendungen schützen:
 
