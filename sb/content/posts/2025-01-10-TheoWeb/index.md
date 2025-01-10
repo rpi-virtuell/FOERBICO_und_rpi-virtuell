@@ -1,5 +1,54 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?
+description: >-
+  Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
+license: https://creativecommons.org/licenses/by-nc/4.0/
+id: https://oer.community/theo-web
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+keywords:
+  - Open Educational Resources (OER) 
+  - Open Educational Practices (OEP)
+  - Digitalisierung
+  - Religionspädagogik
+  - Wissenschaftskommunikation
+inLanguage:
+  - de
+about:
+  - Religionspädagogik
+  - Open Educational Resources
+image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+datePublished: '2025-01-10'
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+title: 'Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?'
+cover:
+  relative: true
+  image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
+  hiddenInSingle: false
+summary: 
+  Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
+url: theo-web
+---
+
 ![](https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg)
+
 # Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?
+
 **Theo-Web. Zeitschrift für Religionspädagogik 23 (2024) H. 2, 159-170.** 
 https://www.theo-web.de/fileadmin/user_upload/theo-web/pdfs/23-jahrgang-2024-heft-2/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open.pdf. 
 
