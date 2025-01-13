@@ -7,7 +7,7 @@ name: Canva für OER? Eine Entscheidungshilfe für Bildungsakteure
 description: >-
   Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Gestaltungstool Canva zurück. Der Blogbeitrag soll Bildungsakteuren als Entscheidungshilfe dienen und bietet Infos und Tipps zur Orientierung!
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/canva-oer
+id: https://oer.community/canva
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
