@@ -9,6 +9,9 @@ menus:
   - name: Startseite
     url: /
     weight: 10
+  - name: Was ist OER?
+    url: /oer-und-oep/
+    weight: 15
   - name: Team
     url: /unser-team/
     weight: 20

@@ -17,7 +17,7 @@ Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugänglic
 
 Eine kurze und anschauliche Übersicht zu OER findest du [hier](https://ebildungslabor.de/wp-content/uploads/2024/11/kum29-oer.pdf).
 
-## Was macht Material ‚open‘?
+## Lizenzen: Was macht Material ‚open‘?
 
 Lehr- und Lernmaterialien gelten als offen, wenn sie den 5V-Freiheiten folgen: *verwahren*, *verwenden*, *verarbeiten*, *vermischen* und *verbreiten*. 
 
@@ -80,7 +80,7 @@ Es gibt verschiedene Lizenzen für OER, die bestimmen, wie die Materialien genut
     
 **Schutz vor Änderungen:** **CC BY-ND** oder **CC BY-NC-ND** sind sinnvoll, wenn du verhindern möchtest, dass dein Material verändert wird.
 
-Das [Handout zu CC-Lizenzen.pdf](/attachments/3f3d20f5-6b1c-4722-900f-0ab56c43fe6e) dient dir als Entscheidungshilfe!
+Das [Handout zu CC-Lizenzen.pdf](handout-cc-lizenzen.pdf) dient dir als Entscheidungshilfe!
 
 ## Wo finde ich OER?
 
