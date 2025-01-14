@@ -32,7 +32,7 @@ author:
   - Gina Buchwald-Chassée
 title: 'OER-Materialien: Welche Lizenz nehme ich?'
 cover:
-  relative: true
+  relative: false
   image: https://upload.wikimedia.org/wikipedia/commons/b/b5/Open_Educational_Resources.png
   hiddenInSingle: false
 summary: |

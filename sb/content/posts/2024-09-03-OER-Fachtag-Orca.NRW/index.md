@@ -49,7 +49,7 @@ author:
   - Gina Buchwald-Chassée
 title: OER-Fachtag 2024 von ORCA.nrw
 cover:
-  relative: true
+  relative: false
   image: https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png
   hiddenInSingle: true
 summary: |
