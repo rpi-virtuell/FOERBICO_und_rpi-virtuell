@@ -1,6 +1,6 @@
 # FOERBICO Arbeitspakete sortiert nach Jahren
 
-| Arbeitspaket (AP) | Beschreibung                                                                                   | Enddatum |
+| Arbeitspaket (AP) | Beschreibung                                                                                   | abgeschlossen bis |
 |--------------------|-----------------------------------------------------------------------------------------------|----------|
 | **2024**                                                                                                           |          |
 | AP 1-1            | Projektkooperation und -koordination (Phase 1)                                                | 06.24    |
