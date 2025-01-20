@@ -3,6 +3,7 @@ defaultContentLanguage: de
 languageCode: de
 title: oer.community
 theme: PaperMod
+copyright: "[CC BY](https://creativecommons.org/licenses/by/4.0/) 2025 [Comenius-Institut](https://comenius.de) Förderkennzeichen BMBF: [01PO23012A](https://www.oer-strategie.de/projects/foerbico-projektsteckbrief/)"
 
 menus:
   main:
