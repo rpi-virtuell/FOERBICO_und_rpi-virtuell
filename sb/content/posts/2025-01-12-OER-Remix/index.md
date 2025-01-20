@@ -9,6 +9,13 @@ description: >-
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 id: https://oer.community/oer-remix
 creator:
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
   - givenName: Gina
     familyName: Buchwald-Chassée
     type: Person
@@ -16,6 +23,9 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+  - givenName: Niels 
+    familyName: Winkelmann
+    type: Person
 keywords:
   - OER
   - CC-Lizenzen
@@ -29,7 +39,9 @@ learningResourceType:
 datePublished: '2025-01-12'
 #staticSiteGenerator:
 author:
+  - Corinna Ullmann
   - Gina Buchwald-Chassée
+  - Niels Winkelmann
 title: 'OER-Materialien: Welche Lizenz nehme ich?'
 cover:
   relative: false
@@ -42,10 +54,13 @@ url: oer-remix
 
 # OER-Materialien: Welche Lizenz nehme ich? 🤷
 
-Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. Die Konsequenz: Andere können das Material nicht rechtssicher weiterverwenden oder verbreiten! Wenn ihr also eure Materialien mit anderen teilen wollt, geht noch den letzten Schritt und veröffentlicht das Material mit einer offenen Lizenz, damit andere wissen, wie sie das Material nutzen können (z.B. nur unter Namensnennung, für nicht-kommerzielle Zwecke usw.). 
-**Vorschlag: Offene Bildungsmaterialien bieten zahlreiche Möglichkeiten, um Unerricht und Projekte, felxibel und kreativ zu gestalten. Doch eine der größten Herausforderungen beim Erstellen von OER ist die Wahl der richtigen Lizenz. Keine Sorge, wir wollen euch Schritt für Schritt die Grundlagen der Creative Coomons (CC)-Lizenzen näher bringen und haben einige Tipps erarbeitet, die euch bei eurem Remix helfen können.
-**Warum ist die Lizenzierung so wichtig?
-Wenn Materialien keine klare Lizenz haben, ist unklar, wie sie verwendet oder geteilt werden dürfen. Gerade die Creative Commons stellt Bildungsakteure immer wieder vor Herausforderungen. Täglich werden von Lehrkräften eine vielzahl an Lehr- und Lernmaterialien erstellt. Was wäre, wenn jeder euer Werk nutzen, bearbeiten und teilen könnte - natürlich unter euren festgelegten Bedingungen. 
+Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. Die Konsequenz: Andere können das Material nicht rechtssicher weiterverwenden oder verbreiten! Wenn ihr also eure Materialien mit anderen teilen wollt, geht noch den letzten Schritt und veröffentlicht das Material mit einer offenen Lizenz, damit andere wissen, wie sie das Material nutzen können (z.B. nur unter Namensnennung, für nicht-kommerzielle Zwecke usw.).
+
+**Vorschlag:** Offene Bildungsmaterialien bieten zahlreiche Möglichkeiten, um Unterricht und Projekte, flexibel und kreativ zu gestalten. Doch eine der größten Herausforderungen beim Erstellen von OER ist die Wahl der richtigen Lizenz. Keine Sorge, wir wollen euch Schritt für Schritt die Grundlagen der Creative Commons (CC)-Lizenzen näher bringen und haben einige Tipps erarbeitet, die euch bei eurem Remix helfen können.
+
+**Warum ist die Lizenzierung so wichtig?**
+
+Wenn Materialien keine klare Lizenz haben, ist unklar, wie sie verwendet oder geteilt werden dürfen. Gerade die Creative Commons stellt Bildungsakteure immer wieder vor Herausforderungen. Täglich werden von Lehrkräften eine viel zahl an Lehr- und Lernmaterialien erstellt. Was wäre, wenn jeder euer Werk nutzen, bearbeiten und teilen könnte - natürlich unter euren festgelegten Bedingungen. 
 Ein großer Pluspunkt von OER: Materialien können weiterverwendet werden.
 Deine Kollegen und Kolleginnen Inhalte legal und unkompliziert teilen, anpassen und weiterverwenden. Profitiert von gegenseitiger Inspiration und nutzt die Vorzüge:
 - Zeit sparen durch Zusammenarbeit
