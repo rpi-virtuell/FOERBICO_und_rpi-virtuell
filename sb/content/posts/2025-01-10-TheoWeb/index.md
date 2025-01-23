@@ -3,11 +3,15 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: 'Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?'
+name: >-
+  Open Educational Practices als Wissenstransfer: Welche Potenziale hat die
+  Religionspädagogik auf dem Weg ins „open“?
 description: >-
-  Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
-license: https://creativecommons.org/licenses/by-nc/4.0/
-id: https://oer.community/theo-web
+  Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web -
+  Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum
+  Nachlesen!
+license: https://creativecommons.org/licenses/by-nc/4.0/deed.de
+id: https://oer.community/oep-als-wissenstransfer/
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -17,8 +21,16 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
 keywords:
-  - Open Educational Resources (OER) 
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Digitalisierung
   - Religionspädagogik
@@ -26,12 +38,18 @@ keywords:
 inLanguage:
   - de
 about:
-  - Religionspädagogik
-  - Open Educational Resources
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
+  - https://w3id.org/kim/hochschulfaechersystematik/n302
 image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-01-10'
 #staticSiteGenerator:
 author:
