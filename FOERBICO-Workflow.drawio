@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1640" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1859" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vKba3tlgPSYisf17pEgd-33" value="oer.community/blog" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://oer.community/wp-content/uploads/2024/05/cropped-fOERbico.png;imageBorder=none;perimeterSpacing=0;labelBorderColor=none;textShadow=0;fontColor=default;fontFamily=Roboto Condensed;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BCondensed;horizontal=1;labelPosition=center;align=center;flipH=0;direction=east;flipV=0;imageBackground=#8ed1fc;fillStyle=solid;fontSize=11;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="560" y="632.5" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKba3tlgPSYisf17pEgd-35" target="q5zUbUnrUjezg0L--bs4-10">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vKba3tlgPSYisf17pEgd-35" target="q5zUbUnrUjezg0L--bs4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-16" value="&lt;div&gt;Push&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5zUbUnrUjezg0L--bs4-15">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-16" value="&lt;div&gt;Push&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q5zUbUnrUjezg0L--bs4-15" vertex="1" connectable="0">
           <mxGeometry x="0.1637" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -69,10 +69,10 @@
         <mxCell id="vKba3tlgPSYisf17pEgd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Roboto Condensed;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BCondensed;fontSize=12;fontColor=#232F3E;fontStyle=0;labelBackgroundColor=#ffffff;" parent="1" source="vKba3tlgPSYisf17pEgd-68" target="vKba3tlgPSYisf17pEgd-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vKba3tlgPSYisf17pEgd-68" target="qUk6HZ97VZmxMNl468dv-4">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="vKba3tlgPSYisf17pEgd-68" target="qUk6HZ97VZmxMNl468dv-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-19" value="Bereitstellung als OERSI-Datensatz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5zUbUnrUjezg0L--bs4-6">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-19" value="Bereitstellung als OERSI-Datensatz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q5zUbUnrUjezg0L--bs4-6" vertex="1" connectable="0">
           <mxGeometry x="0.0053" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -87,10 +87,10 @@
             <mxGeometry x="850" y="230" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;width=8;endSize=8.33;" edge="1" parent="1" source="qUk6HZ97VZmxMNl468dv-3" target="qUk6HZ97VZmxMNl468dv-1">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;width=8;endSize=8.33;" parent="1" source="qUk6HZ97VZmxMNl468dv-3" target="qUk6HZ97VZmxMNl468dv-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-18" value="&lt;div&gt;indexiert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5zUbUnrUjezg0L--bs4-17">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-18" value="&lt;div&gt;indexiert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q5zUbUnrUjezg0L--bs4-17" vertex="1" connectable="0">
           <mxGeometry x="-0.1169" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -104,23 +104,33 @@
           <mxGeometry x="580" y="220" width="200" height="112.5" as="geometry" />
         </mxCell>
         <UserObject label="https://codeberg.org" link="https://codeberg.org" id="q5zUbUnrUjezg0L--bs4-10">
-          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/svg/codeberg-logo_icon_blue.svg;" vertex="1" parent="1">
+          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://codeberg.org/Codeberg/Design/raw/branch/main/logo/icon/svg/codeberg-logo_icon_blue.svg;" parent="1" vertex="1">
             <mxGeometry x="310" y="264" width="46" height="46" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q5zUbUnrUjezg0L--bs4-11" target="qUk6HZ97VZmxMNl468dv-3">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="q5zUbUnrUjezg0L--bs4-11" target="qUk6HZ97VZmxMNl468dv-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="900" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q5zUbUnrUjezg0L--bs4-13" value="claim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5zUbUnrUjezg0L--bs4-12">
+        <mxCell id="q5zUbUnrUjezg0L--bs4-13" value="claim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q5zUbUnrUjezg0L--bs4-12" vertex="1" connectable="0">
           <mxGeometry x="0.0889" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <UserObject label="https://orcid.org" link="https://orcid.org" tooltip="ORCID, which stands for Open Researcher and Contributor ID, is a global, not-for-profit organization" id="q5zUbUnrUjezg0L--bs4-11">
-          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://orcid.org/assets/vectors/orcid.logo.svg;" vertex="1" parent="1">
+          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://orcid.org/assets/vectors/orcid.logo.svg;" parent="1" vertex="1">
             <mxGeometry x="966" y="450" width="221" height="67" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://osf.io/" link="https://osf.io/" id="Ic_iRqfIND7cIVlIltMY-2">
+          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://osf.io/ember_osf_web/assets/images/global/cos-white2-81217c82c094af6555e80a4015f23163.png;" vertex="1" parent="1">
+            <mxGeometry x="1052.5" y="584.5" width="48" height="48" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://zenodo.org/" link="https://zenodo.org/" id="Ic_iRqfIND7cIVlIltMY-3">
+          <mxCell style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://zenodo.org/static/images/invenio-rdm.svg;imageBackground=#0377CD;" vertex="1" parent="1">
+            <mxGeometry x="1000" y="674.5" width="146" height="48" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
