@@ -13,7 +13,7 @@
 | [AP 3-2](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/83)           | Konzept für offenen Community-Hub                | 10.24    |
 | [AP 2-2](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/84)           | Netzwerkbezogene Multiplikator:innen-Modelle                             | 12.24    |
 | [AP 2-3](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/85)           | Netzwerk-Strategien der Öffentlichkeitsarbeit                          | 12.24    |
-| [AP 7-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/17)           | Standards - Erhebung, Analyse + Zsmführung     | 12.24    |
+| [AP 7-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/86)           | Standards - Erhebung, Analyse + Zsmführung     | 12.24    |
 | **2025**                                                                                                           |          |
 | [AP 9-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/87)           | Techn. Bedarfe der Communities prüfen                            | 04.25    |
 | [AP 4-2](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/88)           | Metadatenstandards weiterentwickeln   | 05.25    |
