@@ -18,9 +18,6 @@ menus:
   - name: Blog
     url: /blog/
     weight: 300
-  - name: Impressum
-    url: /impressum/
-    weight: 500
 
 Pagination:
   disableAliases: false
