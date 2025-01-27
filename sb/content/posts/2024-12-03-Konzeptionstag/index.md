@@ -39,7 +39,7 @@ inLanguage:
   - de
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
-datePublished: '2024-12-04'
+datePublished: '2024-12-09'
 # staticSiteGenerator:
 author:
   - Gina Buchwald-Chassée
@@ -84,7 +84,7 @@ Unter dem Motto **rpi hoch 4** wird ein Angebot gestaltet, das **i**nformativ, *
 
 **Fazit:** rpi-virtuell unterstützt bereits viele Communities, aber weitere sollen dazukommen und besser vernetzt werden. Und genau da setzt das Projekt FOERBICO an!
 
-Im Sinne einer Community of Communities zielt FOERBICO auf die Vernetzung und den Austausch von verschiedenen religionsbezogenen Communities, um offene Bildungspraktiken (Open Educational Practices = OEP) zu fördern und „raus aus den Bubbles“ zu kommen. 
+Im Sinne einer Community of Communities zielt FOERBICO auf die Vernetzung und den Austausch von verschiedenen religionsbezogenen Communities, um offene Bildungspraktiken ([Open Educational Practices = OEP](/oer-und-oep/)) zu fördern und „raus aus den Bubbles“ zu kommen. 
 Unsere gemeinsame Vision: Eine möglichst offene Lehr- und Lernkultur in der religiösen Bildung schaffen! Dazu soll ein Community-Hub als Schnittstelle zwischen rpi-virtuell und FOERBICO entstehen. 
 
 ## Kreative Lego-Pause: Eindruck braucht Ausdruck
@@ -147,13 +147,13 @@ Einige Akteure kannten den Begriff Open Educational Practices (OEP) nicht oder n
 
 Allerdings bestehen deutliche Hürden:
 
-•	Rechtliche Unsicherheiten hemmen die Materialerstellung.
-•	Die Produktion von OER erfordert hohe individuelle Ressourcen.
-•	Institutionen erkennen den Mehrwert von OER oft nicht und bleiben bei geschlossenen Ansätzen.
+- Rechtliche Unsicherheiten hemmen die Materialerstellung.
+- Die Produktion von OER erfordert hohe individuelle Ressourcen.
+- Institutionen erkennen den Mehrwert von OER oft nicht und bleiben bei geschlossenen Ansätzen.
 
 Ein zentraler Bedarf ist daher die Bereitstellung von Tools und Unterstützungsangeboten zur Erstellung von OER. Weitere Ideen:
 
-![Minmap "Bedarfe"](mind "Minmap: Bedarfe religionsbezogener Communities")
+![Minmap "Bedarfe"](mindmap-bedarfe.jpg "Minmap: Bedarfe religionsbezogener Communities")
 
 Die Befragungsergebnisse konnten wir während der Mittagspause sacken lassen! Danach ging es in Kleingruppen zu Community & Netzwerk sowie Technik & Werkzeuge weiter:
 
