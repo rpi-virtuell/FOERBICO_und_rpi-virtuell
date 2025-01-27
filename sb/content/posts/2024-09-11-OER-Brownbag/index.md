@@ -2,10 +2,10 @@
 #commonMetadata:
 datePublished: '2024-09-11'
 #staticSiteGenerator:
-date: '2024-09-11'
 author:
 title: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
 cover:
+  relative: true
   image: OER-Brownbag.png
   hiddenInSingle: false
 summary: |
@@ -16,7 +16,6 @@ summary: |
   dienen, jedoch auch der Kommunikation zwischen OERinfo und den Projekten, z.B. was die
   Kommunikation über die Entwicklung ihrer Projekte auf dem Blog und Podcast zugehOERt anbelangt. 
 url: oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
-weight: -2024091100
 ---
 
 Heute kamen die verschiedenen vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projekte der [OER-Strategie](https://www.oer-strategie.de/) zu einem gemeinsamen Austausch zusammen. Susanne Grimm und Johannes Appel von [OERinfo](https://open-educational-resources.de/) haben das Format "OER-Brownbag" initiiert und moderiert. Die Calls sollen zentral dem regelmäßigen Austausch der [geförderten Projekte](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/) dienen, jedoch auch der Kommunikation zwischen OERinfo und den Projekten, z.B. was die Kommunikation über die Entwicklung ihrer Projekte auf dem Blog und Podcast zugehOERt anbelangt. 

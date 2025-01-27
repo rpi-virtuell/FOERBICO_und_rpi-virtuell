@@ -9,15 +9,18 @@ menus:
   - name: Startseite
     url: /
     weight: 10
+  - name: Was ist OER?
+    url: /oer-und-oep/
+    weight: 30
   - name: Team
     url: /unser-team/
-    weight: 20
+    weight: 100
   - name: Blog
     url: /blog/
-    weight: 30
+    weight: 300
   - name: Impressum
     url: /impressum/
-    weight: 100
+    weight: 500
 
 Pagination:
   disableAliases: false
@@ -26,3 +29,9 @@ Pagination:
 
 Params:
   ShowReadingTime: false
+
+frontmatter:
+  date:
+    - datePublished
+    - date
+    - publishDate

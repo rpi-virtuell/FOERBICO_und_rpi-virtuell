@@ -35,11 +35,11 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-04'
 #staticSiteGenerator:
-date: '2024-09-04'
 author:
   - Gina Buchwald-Chassée
 title: OER erklärt an der Rhabarberbar
 cover:
+  relative: true
   image: Rhabarberbar.png
   hiddenInSingle: true
 summary: |
@@ -49,7 +49,6 @@ summary: |
   Spaß machen können und laden euch ein, die Vorteile von freien Lehr- und
   Lernmaterialien zu entdecken und anzuwenden. 
 url: oer-erklaert-an-der-rhabarberbar
-weight: -2024090400
 ---
 
 Was heißt eigentlich OER? Im Bildungsbereich wird das Akronym oft selbstverständlich im Sprachgebrauch verwendet, aber nicht jede:r weiß auf Anhieb, wofür das Kürzel eigentlich steht. 

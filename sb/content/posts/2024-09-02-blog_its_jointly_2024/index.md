@@ -34,11 +34,11 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-02'
 #staticSiteGenerator:
-date: '2024-09-02'
 author:
   - Phillip Angelina
 title: Einblicke zum OER-/IT-Sommercamp "it’s jointly 2024"
 cover:
+  relative: true
   image: phillip-und-ludger.jpg
   hiddenInSingle: true
 summary: >-
@@ -49,7 +49,6 @@ summary: >-
   Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom
   19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
-weight: -2024090200
 ---
 
 ![Viele gute Ideen wurden gesammelt](brainstorming.png)
