@@ -3,8 +3,8 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: >-
-  Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen
-  Bildungsbereich gestalten!
+  'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen
+  Bildungsbereich gestalten!'
 description: >-
   Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich
   zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen,
