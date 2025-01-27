@@ -125,6 +125,6 @@ Weitere Infos, was es beim Remixen zu beachten gilt, erfährst du [hier](https:/
 
 Trotz der Komplexität der CC-Lizenzen möchten wir euch zur OER-Erstellung ermutigen und laden euch herzlich ein gemeinsam ins Tun zu kommen, in der OER-Werkstatt mit Corinna Ullmann (Comenius-Institut/relilab) und Niels Winkelmann (WirlernenOnline). Arbeitet mit uns an Praxismaterialien und erkundet gemeinsam mit uns Fallstricke und macht euch mit uns auf Lösungssuche. Denn OER-Entwicklung schafft Freiräume, kollaborative Zusammenarbeit und macht die Bildungslandschaft vielfältiger. Beim [Auftakttreffen am 9. Januar 2025](https://relilab.org/oer-werkstatt-backe-dein-eigenes-lernmaterial-zum-thema-glueck/) ging es beispielsweise um die Materialentwicklung zum Thema Glück, aber auch wenn ihr nicht dabei wart, könnt ihr jederzeit dazukommen und mitgestalten!
 
-**Nächster Termin: 23. Januar 2025 von 9 - 9:30 Uhr 📅**
+**Nächster Termin: 06. Februar 2025 von 10 bis 10.45 Uhr zum Thema Schöpfung 📅**
 
-Weitere Infos und Themen findet ihr [hier](https://relilab.org/oerwerkstatt/).
+Weitere Infos und Themen findet ihr [hier](https://relilab.org/oerwerkstatt/) sowie im [Blogbeitrag](https://digilog.blog/2025/01/20/remix-im-dschungel-der-lizenzen/) von Niels Winkelmann.
