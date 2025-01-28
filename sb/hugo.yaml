@@ -26,6 +26,7 @@ Pagination:
 
 Params:
   ShowReadingTime: false
+  comments: true
 
 frontmatter:
   date:
