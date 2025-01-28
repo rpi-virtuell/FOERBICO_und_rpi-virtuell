@@ -40,6 +40,10 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-12-19'
 #staticSiteGenerator:
+comments:
+  host: reliverse.social
+  username: comenius
+  id: 113741325419295711
 author:
   - Gina Buchwald-Chassée
   - Corinna Ullmann
