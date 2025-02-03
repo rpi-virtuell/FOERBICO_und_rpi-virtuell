@@ -1,6 +1,5 @@
 ---
 #commonMetadata:
-datePublished: '2024-05-01'
 #staticSiteGenerator:
 title: Unser Team
 url: unser-team

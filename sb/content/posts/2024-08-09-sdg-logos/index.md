@@ -61,7 +61,6 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-08-09'
 #staticSiteGenerator:
-date: '2024-08-09'
 author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
@@ -69,6 +68,7 @@ author:
   - Phillip Angelina
 title: 'SDG-Logos und #OER: Wie darf ich sie verwenden?'
 cover:
+  relative: true
   image: cc-by-sa-linzenz-der-sdg-logos.png
   hiddenInSingle: true
 summary: |
@@ -76,7 +76,6 @@ summary: |
   kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren
   Nutzung der Symbole zur Förderung globaler Bildung.
 url: sdg-logos-und-oer-wie-darf-ich-sie-verwenden
-weight: -2024080900
 ---
 
 Im Kontext des Projektes [reliGlobal](https://religlobal.org/) kam bei der Erstellung eines OER-Materials zu den 17 [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) als Ziele für nachhaltige Entwicklung die Frage auf, ob die Logos der einzelnen Ziele im Material verwendet werden dürfen oder welche Rechteangabe gemacht werden muss?

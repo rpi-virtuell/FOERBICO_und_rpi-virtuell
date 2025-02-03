@@ -34,11 +34,11 @@ about:
 image: OER-im-Blick.jpg
 datePublished: '2024-08-15'
 #staticSiteGenerator:
-date: '2024-08-15'
 author:
   - Gina Buchwald-Chassée
 title: 'Rückblick: Auftaktkonferenz „OER im Blick“'
 cover:
+  relative: true
   image: OER-im-Blick.jpg
   hiddenInSingle: true
 summary: |
@@ -49,7 +49,6 @@ summary: |
   Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt
   a. M. mit dabei!
 url: rueckblick-auftaktkonferenz-oer-im-blick
-weight: -2024081500
 ---
 
 ![](OER-im-Blick-2.jpeg)
