@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: Gemeinsam gegen Antisemitismus – Wie eine Community antisemitismuskritische Bildung stärken kann
+name: Gemeinsam gegen Antisemitismus - Wie eine Community antisemitismuskritische Bildung stärken kann
 description: >-
   Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind.
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
@@ -40,11 +40,11 @@ url: gemeinsam-gegen-antisemitismus
 
 # Gemeinsam gegen Antisemitismus – Wie eine Community antisemitismuskritische Bildung stärken kann
 
-Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind. Bereits im Vorfeld im Gespräch des [Comenius-Institutes](https://comenius.de/) mit dem [DiskursLab](https://diskurslab.eaberlin.de/) der [Ev. Akademie zu Berlin](https://www.eaberlin.de/) am 30.09.24 zeigte sich ein klarer Bedarf: Viele Organisationen und Einzelpersonen arbeiten an antisemitismuskritischen Materialien, doch fehlt es oft an Austausch, Feedback und Koordination. So entstand die Vision einer Antisemitismus-Community, die Expertisen bündelt, Projekte und Netzwerke vernetzt sowie Ressourcen teilt. Mehr dazu in unserem [Blogbeitrag](https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten/)!
+Die Stärkung der Demokratie und das Zusammenhalten gegen Antisemitismus liegen gesellschaftspolitisch oben auf und ist auch im Bildungsbereich von hoher Bedeutung, um Auklärungsarbeit zu leisten und Vorurteilen entgegenzuwirken, bestenfalls bevor sie überhaupt entstehen! Aber wie können wir Bildungsakteure vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind. Bereits im Vorfeld im Gespräch des [Comenius-Institutes](https://comenius.de/) mit dem [DiskursLab](https://diskurslab.eaberlin.de/) der [Ev. Akademie zu Berlin](https://www.eaberlin.de/) am 30.09.24 zeigte sich ein klarer Bedarf: Viele Organisationen und Einzelpersonen arbeiten an antisemitismuskritischen Materialien, doch fehlt es oft an Austausch, Feedback und Koordination. So entstand die Vision einer Antisemitismus-Community, die Expertisen bündelt, Projekte und Netzwerke vernetzt sowie Ressourcen teilt. Mehr dazu erfahrt ihr in unserem Blogbeitrag!
 
 ## Wer war dabei?
 
-Die Teilnehmenden kamen aus vielfältigen Kontexten – darunter akademische Einrichtungen, Verlage, Religionspädagogische Institute und der Zentralrat der Juden. Eine Auswahl der Beteiligten:
+Die Teilnehmenden beim Online-Treffen Ende November 2024 kamen aus vielfältigen Kontexten – darunter akademische Einrichtungen, Verlage, Religionspädagogische Institute und der Zentralrat der Juden. Hier eine kleine Übersicht der beteiligten Institutionen:
 
 •	Comenius-Institut (FOERBICO, [relilab](https://relilab.org/))
 
@@ -153,8 +153,9 @@ Erste gesammelte Beispiele neben den bereits genannten:
 - [Forschungsnetzwerk Antisemitismus im 21. Jahrhundert](https://www.fona21.org/)
 - [narrt-Leitfaden](https://narrt.de/die-repraesentation-des-judentums-in-schulbuechern-und-anderen-unterrichtsmaterialien-ein-antisemitismuskritischer-fragenkatalog-zur-verbesserung-der-darstellung-2/)
 - [Reli-Ethik-Blog](https://reli-ethik-blog.de/)
+- [Antisemitismuskritische Module](https://narrt.de/antisemitismuskritische-module/)
 
-Ihr kennt noch weitere Beispiele? Dann schreibt sie gerne in die Kommentare!
+Ihr kennt noch weitere Beispiele und Materialien? Dann schickt mir gerne per Mail an buchwald-chassee@comenius.de.
 
 ### Bildungsmaterialien entwickeln: Kreative Ansätze und Herausforderungen
 
@@ -171,7 +172,7 @@ Ein solches Netzwerk muss langfristig Ressourcen sichern – sowohl finanziell a
 
 ## Wie geht es weiter?
 
-Dieses Treffen war ein erster Schritt. Die Botschaft war klar: Antisemitismuskritische Bildung erfordert Zusammenarbeit, Offenheit und den Willen, voneinander zu lernen. Dass bereits über 20 Teilnehmende beim Auftakttreffen dabei waren, zeigt die hohe Relevanz der Thematik und der Notwendigkeit der Vernetzung! Wir möchten gemeinsam daran weiterarbeiten und laden alle Interessierten herzlich ein, sich einzubringen!
+Dieses Treffen war ein erster Schritt. Die Botschaft war klar: Antisemitismuskritische Bildung erfordert Zusammenarbeit, Offenheit und den Willen, voneinander zu lernen. Dass bereits über 20 Teilnehmende beim Auftakttreffen dabei waren, zeigt die hohe Relevanz der Thematik und der Notwendigkeit der Vernetzung! Wir möchten gemeinsam daran weiterarbeiten und laden alle Interessierten herzlich ein, sich in unserem offenen [Element-Gruppenraum](https://matrix.to/#/#Antisemitismus:rpi-virtuell.de) einzubringen 🤗 
 
-Wer über den Termin des nächsten Online-Treffens informiert werden möchte, kann sich gerne an xyz wenden und ihr könnt gerne den Blogbeitrag teilen 😊 
+Wer über den Termin des nächsten Online-Treffens informiert werden möchte, kann sich gerne an mich (Gina Buchwald-Chassée, buchwald-chassee@comenius.de) wenden und wir freuen uns, wenn ihr den Blogbeitrag in euren Netzwerken teilt 😊 
 
