@@ -5,10 +5,12 @@
 - [Theologische Fakultät der Friedrich-Schiller Universität-Jena](https://www.theologie.uni-jena.de/32/fachgebiete)
   - Kontakt: [dekanat.theologie@uni-jena.de](mailto:dekanat.theologie@uni-jena.de), [Mitarbeitende](https://www.theologie.uni-jena.de/94/mitarbeitende)
   - Dekane: [Prof. Dr. Michael Wermke](mailto:michael.wermke@uni-jena.de) & Prodekan: [Prof. Dr. Hannes Bezzel](mailto:hannes.bezzel@uni-jena.de)
+  - Social Media Accounts der Uni Jena: [Instagram](https://www.instagram.com/unijena/), [TikTok](https://www.tiktok.com/@unijena), [YouTube](https://www.youtube.com/user/UniJena), [LinkedIn](https://www.linkedin.com/school/friedrich-schiller-universit%C3%A4t-jena/), [Facebook](https://www.facebook.com/UniJena/), [Mastodon](https://mastodon.social/@unijena) & [Bluesky](https://bsky.app/profile/uni-jena.de)
 - [Katholisch-Theologische Fakultät der Universität Erfurt](https://www.uni-erfurt.de/katholisch-theologische-fakultaet/professuren-lektorate/)
-  - Social Media: [Facebook](https://www.facebook.com/katholisch.theologische.fakultaet.erfurt/), [X](https://twitter.com/KThF_Erfurt) & [Instagram](https://www.instagram.com/theologie_in_erfurt/
-    )
+  - Social Media: [Facebook](https://www.facebook.com/katholisch.theologische.fakultaet.erfurt/), [X](https://twitter.com/KThF_Erfurt) & [Instagram](https://www.instagram.com/theologie_in_erfurt/)
+  - [Newsletter](https://www.uni-erfurt.de/theol/wissenstransfer/newsletter/), [Blog](https://theologie-aktuell.uni-erfurt.de/), [Podcast](https://bistum-erfurt.podigee.io/)
   - [Öffentlichkeitsarbeit](https://www.uni-erfurt.de/katholisch-theologische-fakultaet/fakultaet/presse-und-oeffentlichkeitsarbeit)
+  - [Presse](https://www.uni-erfurt.de/katholisch-theologische-fakultaet/fakultaet/presse-und-oeffentlichkeitsarbeit/pressemeldungen)
 
     
 ## Schleswig-Holstein 
