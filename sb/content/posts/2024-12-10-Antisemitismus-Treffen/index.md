@@ -29,6 +29,8 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-12-10'
 #staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
 title: Gemeinsam gegen Antisemitismus – Wie eine Community antisemitismuskritische Bildung stärken kann
 cover:
   relative: true
