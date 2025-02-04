@@ -26,6 +26,7 @@ Pagination:
 
 Params:
   ShowReadingTime: false
+  DateFormat: "2. January 2006"
 
 frontmatter:
   date:
