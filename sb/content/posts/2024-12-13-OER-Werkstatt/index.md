@@ -29,5 +29,5 @@ Weitere Diskussionen, die sich im Laufe der Tage ereigneten, drehten sich um die
 - Zudem wurde eine Frage aufgebracht, die mich wirklich zum Nachdenken über OER gebracht hat: *Wird in Zukunft nicht eigentlich das Remixen, also das Vermischen immer wichtiger*? Dabei geht es um den wichtigen Aspekt, ob nicht gerade dieser Punkt für OER-User:innen erleichtert werden muss.
 - In einem weiteren Austausch zu OEP kam die Frage auf, ob es den Begriff OEP wirklich brauche, da viele dies in der Praxis anscheinend nicht fehlen würde und digitales Lernen häufig auf dieser Grundlage stattfände. Ein nennenswerter Punkt gegen diesen Einwand war, dass auf struktureller Ebene eine bessere theoretische Fundierung von OEP helfen könne von einer *Prozessorientierung zur Ergebnisorientierung* zu kommen. 
 
-### Kreativ-Tisch
-Es gab auch eine Möglichkeit seinen eigenen kreativen Flow freien Lauf zu lassen. Man konnte am Kreativ-Tisch Buttons basteln und Postkarten mit verschiedenen Motiven schreiben, und auch selber gestalten.
+## Resumè
+Alles in allem bot die OER-Werkstatt von digill_com viele Möglichkeiten OER zu erstellen, weiterzuentwickeln und förderte den Austausch innerhalb der Community. Viele Impulse aber auch offene Fragen konnte man mitnehmen. Die Werkstatt kann als gelebte OEP zusammengefasst werden, so schwer dieser Begriff wissenschaftlich festzuhalten ist, eröffnete die Werkstatt das Erleben von OEP in dem man es tat. 
