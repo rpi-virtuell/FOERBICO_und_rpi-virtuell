@@ -51,6 +51,8 @@ Die Teilnehmenden beim Online-Treffen Ende November 2024 kamen aus vielfältigen
 
 •	Ev. Akademie zu Berlin (DiskursLab, [narrt](https://narrt.de/))
 
+•	[Evangelische Kirche in Deutschland (EKD)](https://www.ekd.de)
+
 •	[Ernst Klett Verlag](https://www.klett.de/)
 
 •	[Ev. Luth. Kirche Bayern](https://www.bayern-evangelisch.de/)
