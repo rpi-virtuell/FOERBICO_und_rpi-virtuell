@@ -4,7 +4,7 @@
 ## Beschreibungstext
 Sie möchten Ihre Hochschullehre bereichern und Materialien nachhaltig, kollaborativ und offen gestalten? Dann ist unsere digitale Mini-Weiterbildung genau das Richtige! Entdecken Sie, wie Open Educational Resources (OER) Ihre Lehre inspirieren und gleichzeitig neue Wege für eine partizipative Lehr- und Lernkultur eröffnen. In drei kompakten, praxisorientierten Veranstaltungen erhalten Sie Einblicke, entwickeln eigene OER-Bausteine und sind bestens vorbereitet für das Sommersemester.
 
-## Veranstaltung 1: Einblick in die Welt von OER/ Abholen der Neueinsteiger*innen (7. März, 10:00 Uhr)
+## Veranstaltung 1: Einblick in die Welt von OER/ Abholen der Neueinsteiger*innen 
 ### Inhalte:
 o	Grundlagen von OER: Definition, Geschichte, rechtliche Rahmenbedingungen (Lizenzen, Urheberrecht, Creative Commons).
 o	Relevanz von OER in der Religionspädagogik.
@@ -15,7 +15,7 @@ o	Interaktive Umfrage (Mentimeter) zur Erhebung von Vorerfahrungen
 o	Kleingruppenarbeit: Wo könnte OER in meiner Lehre sinnvoll sein?
 o	Mini-Input zu Open Pedagogy/ Shift in der Lehr-Lernkultur
 
-## Veranstaltung 2: OER finden und bewerten (
+## Veranstaltung 2: OER finden und bewerten 
 ### Inhalte:
 o	Recherchestrategien für OER (Plattformen, Datenbanken).
 o	Kriterien zur Qualitätsbewertung von OER.
