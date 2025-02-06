@@ -24,6 +24,10 @@
 -> Ist mein OER-Material so aufbereitet, dass andere durch gute Sichtbarkeit der Lizenzierung damit (zeitsparend) weiterarbeiten können?
 -> Habe ich meine Arbeitsblätter auch als OER mit sichtbarer Lizenzierung zur Verfügung gestellt oder den Ablauf veröffentlicht?
 -> Stelle ich eine einzelne Unterrichtssequenz dar oder eine Lerneinheit und habe ich alles einzeln mit einer CC-Lizenz gekennzeichnet?
+-> Sind didaktische Hinweise vorhanden/eingearbeitet?
+-> Sind die verwendeten Quellen nachvollziehbar/gut sichtbar?
+-> Ist das Material einer Bildungsstufe und Lernplan zugeordnet, damit der Erstellende sich schneller orientieren kann?
+-> Sind die Aufgabenstellungen und Arbeitsanweisungen klar formuliert und ausgearbeitet?
 
 ## Ausblick
 
