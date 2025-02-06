@@ -13,21 +13,34 @@
 ## Learnings
 
 -> Bilddatenbanken prüfen
+
 -> Unterrichtssequenzen anschlussfähig gestalten & Verlaufsplanung berücksichtigen
+
 -> Religionspädagogik mitdenken, daher viel Aufwand, Materialien anzupassen => wünschenswert, wenn aus dem religionspädagogischen Bereich mehr OER zur Verfügung stehen würden 
+
 -> keine Tabellenfunktion im Pad => braucht einen eigenen OER-Editor mit Brückenfunktion für unterschiedliche Formate
+
 -> breiter denken: konfessionell ökomenisch denken / Ethik berücksichtigen
 
 ## Reflexionsfragen
 
 -> Habe ich in den einzelnen Methoden die CC-Lizenz überprüft?
+
 -> Ist mein OER-Material so aufbereitet, dass andere durch gute Sichtbarkeit der Lizenzierung damit (zeitsparend) weiterarbeiten können?
+
 -> Habe ich meine Arbeitsblätter auch als OER mit sichtbarer Lizenzierung zur Verfügung gestellt oder den Ablauf veröffentlicht?
+
 -> Stelle ich eine einzelne Unterrichtssequenz dar oder eine Lerneinheit und habe ich alles einzeln mit einer CC-Lizenz gekennzeichnet?
+
 -> Sind didaktische Hinweise vorhanden/eingearbeitet?
+
 -> Sind die verwendeten Quellen nachvollziehbar/gut sichtbar?
+
 -> Ist das Material einer Bildungsstufe und Lernplan zugeordnet, damit der Erstellende sich schneller orientieren kann?
+
 -> Sind die Aufgabenstellungen und Arbeitsanweisungen klar formuliert und ausgearbeitet?
+
+-> Gibt es eine Verschlagwortung/Katgeorisierung (Metadaten)?
 
 ## Ausblick
 
