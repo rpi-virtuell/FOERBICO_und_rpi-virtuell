@@ -3,7 +3,7 @@ https://pad.gwdg.de/HPEME6K7RFqY88CnljChOg#
 # oer.community Styleguide
 
 ## fOERbico-Logo
-[https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/fOERbico.svg](https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/fOERbico.svg)
+![https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/fOERbico.svg](https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/fOERbico.svg)
 
 <img src="https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/raw/branch/main/fOERbico.svg" alt="fOERbico Logo" width="200" height="200">
 
@@ -23,6 +23,7 @@ Vorlage forgejo:
 [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en) - [Caesar Schinas](https://caesarschinas.com/)
 
 ## Farben fOERbico
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/design/foerbico-farben.png)
 Farbe 1 (primäre Markenfarbe): #203A8F  
 Farbe 2 (alternative Farbe): #FFA500  
 Farbe 3 (allgemeiner Textabsatz): #333333  
