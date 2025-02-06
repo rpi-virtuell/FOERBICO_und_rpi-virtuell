@@ -12,8 +12,8 @@ Sie möchten Ihre Hochschullehre bereichern und Materialien nachhaltig, kollabor
 ### Methoden:
     Impulsvortrag (20 Minuten)
     Interaktive Umfrage (Mentimeter) zur Erhebung von Vorerfahrungen
-    Kleingruppenarbeit: Wo könnte OER in meiner Lehre sinnvoll sein?
-    Mini-Input zu Open Pedagogy/ Shift in der Lehr-Lernkultur
+    Kleingruppenarbeit: Wo könnte OER in meiner Lehre sinnvoll sein? --> wie lange soll die kleingruppenarbeit dauern?
+    Mini-Input zu Open Pedagogy/ Shift in der Lehr-Lernkultur --> Frage diesen punkt verstehe ich nicht? Warum gibt es nach der Arbeitsphase noch einen Input, anstelle einer Reflektionsrunde? 
 
 ## Veranstaltung 2: OER finden und bewerten 
 ### Inhalte:
@@ -21,7 +21,7 @@ Sie möchten Ihre Hochschullehre bereichern und Materialien nachhaltig, kollabor
     Kriterien zur Qualitätsbewertung von OER.
 ### Methoden:
     Kurze Demonstration von OER-Plattformen (z.B. rpi-virtuell, Orca NRW, oersi, Zentrale OER-Repositorien im deutschsprachigen Raum).
-    Praktische Übung: OER für ein eigenes Seminar recherchieren und bewerten.
+    Praktische Übung: OER für ein eigenes Seminar recherchieren und bewerten.  --> Sollen die Bewertungskriterien für geeignetes OER gemeinsam erarbeitet werden? oder wie sollen sie es Bewerten?
     Diskussion: Was machten gute OER aus?
 
 ## Veranstaltung 3: OER selbst erstellen und teilen
