@@ -25,8 +25,6 @@
 -> Habe ich meine Arbeitsblätter auch als OER mit sichtbarer Lizenzierung zur Verfügung gestellt oder den Ablauf veröffentlicht?
 -> Stelle ich eine einzelne Unterrichtssequenz dar oder eine Lerneinheit und habe ich alles einzeln mit einer CC-Lizenz gekennzeichnet?
 
+## Ausblick
 
-
-
-
-
+Offene Bildungsmaterialien spielen zunehmend eine Rolle! Wir möchten Bildungsakteure ermutigen, frei verfügbare Materialien (OER) zu entwickeln und möchten die Leute an die Hand nehmen/unterstützen (z.B. ALPIKA) => Einladung zu Café-Format!
