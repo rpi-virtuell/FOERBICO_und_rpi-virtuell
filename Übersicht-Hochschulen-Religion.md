@@ -16,18 +16,29 @@
 ## Schleswig-Holstein 
 
 - [Institut für Gesellschaftswissenschaften und Theologie der Europa Universität Flensburg](https://www.uni-flensburg.de/institut-fuer-gesellschaftswissenschaften-und-theologie/abteilungen)
-- [Theologische Fakultät ist eine der vier Gründungsfakultäten der Christian-Albrechts-Universität zu Kiel](https://www.uni-kiel.de/de/theol)
+  - [Katholische Theologie](https://www.uni-flensburg.de/theologie/katholische-theologie/wer-wir-sind)
+  - [Ev. Theologie - Biblische Theologie & Religionspädagogik](https://www.uni-flensburg.de/theologie/ev-theologie-biblische-theologie-und-religionspaedagogik/unser-team)
+  - [Ev. Theologie - Systemische & Historische Theologie](https://www.uni-flensburg.de/theologie/ev-theologie-systematische-und-historische-theologie/team)
+- [Theologische Fakultät ist eine der vier Gründungsfakultäten der Christian-Albrechts-Universität zu Kiel](https://www.uni-kiel.de/de/theol/kontakt)
 
 
 ## Sachsen-Anhalt
 
 - [Theologische Hochschule Friedensau](https://www.thh-friedensau.de/)
+  - Kontakt: hochschule@thh-friedensau.de, [Mitarbeitende](https://www.thh-friedensau.de/hochschule/mitarbeiter/)
+  - Social Media Accounts: [Instagram](https://www.instagram.com/thhfriedensau/), [Facebook](https://www.facebook.com/thh.friedensau/), [TikTok](https://www.tiktok.com/@thhfriedensau) & [YouTube](https://www.youtube.com/user/thhfriedensau/)
+  - [Newsletter](https://www.thh-friedensau.de/aktuell/news/)
 - [Theologische Fakultät der Martin-Luther-Universität Halle-Wittenberg](https://www.theologie.uni-halle.de/)
+  - Kontakt: dekan@theologie.uni-halle.de, [Mitarbeitende](https://www.theologie.uni-halle.de/personen/)
 
 ## Sachsen
 
 - [Evangelische Hochschule Dresden](https://www.ehs-dresden.de/)
+  - Kontakt: rektorat@ehs-dresden.de & moritzburg@ehs-dresden.de, [Mitarbeitende](https://ehs-dresden.de/hochschule/menschen/hochschulleitung)
+  - Social Media: [Facebook](https://www.facebook.com/ehsdresden), [Instagram](https://www.instagram.com/ehs_dresden), [YouTube](https://www.youtube.com/channel/UC_UPAjanWP7-uoiZ3tn_ibw), [Spotify](https://open.spotify.com/show/5yH2nbxWrXcUpNSDt2ZhdX), [LinkedIn](https://de.linkedin.com/company/ehs-dresden)
+  - [Newsletter](https://ehs-dresden.de/hochschule/ueber-uns/presse/newsletter)
 - [Theologische Fakultät der Universität Leupzig](https://www.theol.uni-leipzig.de/)
+  - Kontakt: dekanat@theologie.uni-leipzig.de, [Mitarbeitende](https://www.theol.uni-leipzig.de/fakultaet/mitarbeiterinnen-und-mitarbeiter)
 
 ## Saarland
 
