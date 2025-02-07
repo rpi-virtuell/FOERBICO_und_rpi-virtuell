@@ -39,6 +39,7 @@
   - [Newsletter](https://ehs-dresden.de/hochschule/ueber-uns/presse/newsletter)
 - [Theologische Fakultät der Universität Leupzig](https://www.theol.uni-leipzig.de/)
   - Kontakt: dekanat@theologie.uni-leipzig.de, [Mitarbeitende](https://www.theol.uni-leipzig.de/fakultaet/mitarbeiterinnen-und-mitarbeiter)
+  - Social Media: [Instagram](https://www.instagram.com/theologischefakultaetleipzig/), [Facebook](https://www.facebook.com/TheologischeFakultatLeipzig/) & [YouTube](https://www.youtube.com/c/TheologischeFakult%C3%A4tLeipzig)
 
 ## Saarland
 
