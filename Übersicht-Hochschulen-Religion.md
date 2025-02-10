@@ -44,6 +44,8 @@
 ## Saarland
 
 - [Philosophische Fakultät der Universität des Saarlandes](https://www.uni-saarland.de/fakultaet/p/fachrichtungen.html)
+  - Ev. Theologie: ev.theol@mx.uni-saarland.de, [Mitarbeitende](https://www.uni-saarland.de/fachrichtung/ev-theologie/personen.html)
+  - Kath. Theologie: udo.lehmann@uni-saarland.de, [Mitarbeitende](https://www.uni-saarland.de/fachrichtung/katholische-theologie/personen.html)
 
 ## Rheinland-Pfalz
 
