@@ -3,9 +3,9 @@ https://pad.gwdg.de/HPEME6K7RFqY88CnljChOg#
 # oer.community Styleguide
 
 ## fOERbico-Logo
-![https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/fOERbico.svg](https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/fOERbico.svg)
+![Link zum SVG-fOERbico-Logo](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/design/logos/fOERbico.svg)
 
-<img src="https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/raw/branch/main/fOERbico.svg" alt="fOERbico Logo" width="200" height="200">
+<img src="https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/raw/branch/main/design/logos/fOERbico.svg" alt="fOERbico Logo" width="200" height="200">
 
 Farbe: #203a8f
 
