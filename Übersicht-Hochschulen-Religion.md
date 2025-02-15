@@ -50,7 +50,12 @@
 ## Rheinland-Pfalz
 
 - [Theologische Fakultät der Universität Trier](https://theologie-trier.de/)
+  - Kontakt: theofak@uni-trier.de, [Mitarbeitende](https://theologie-trier.de/personen)
+  - Social Media: [Facebook](https://www.facebook.com/theologTrier), [Instagram](https://www.instagram.com/theologtrier/?hl=de)
 - [Vinzenz Pallotti University](https://vp-uni.de/)
+  - Kontakt: info@vp-uni.de, https://vp-uni.de/university/institute-forschung/
+  - Social Media: [LinkedIn](https://de.linkedin.com/company/vinzenzpallottiuniversity), [Facebook](https://www.facebook.com/Philosophisch-Theologische-Hochschule-Vallendar-PTHV-179435032109154), [Instagram](https://www.instagram.com/vinzenz_pallotti_university/), [YouTube](https://www.youtube.com/channel/UCAkEZB-kOLdtD_R__v2zWDA), [Xing](https://www.xing.com/pages/vinzenz-pallotti-university-ggmbh)
+  - [Newsletter](https://vp-uni.de/aktuelles/newsletter/)
 - [Fachbereich Kultur- und Sozialwissenschaften der RPTU Kaiserslautern-Landau](https://ksw.rptu.de/organisation/institute)
 - [Philologie / Kulturwissenschaften der Universität Koblenz](https://www.uni-koblenz.de/de/philologie-kulturwissenschaften/organisation/institute)
 - [Katholische Hochschule Mainz](https://www.kh-mz.de/)
