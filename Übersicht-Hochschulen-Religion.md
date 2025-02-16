@@ -58,8 +58,14 @@
   - [Newsletter](https://vp-uni.de/aktuelles/newsletter/)
 - [Fachbereich Kultur- und Sozialwissenschaften der RPTU Kaiserslautern-Landau](https://ksw.rptu.de/organisation/institute)
 - [Philologie / Kulturwissenschaften der Universität Koblenz](https://www.uni-koblenz.de/de/philologie-kulturwissenschaften/organisation/institute)
+  - [Evangelische Theologie](https://www.uni-koblenz.de/de/philologie-kulturwissenschaften/evangelische-theologie): Kontakt: thschnei@uni-koblenz.de, [Mitarbeitende](https://www.uni-koblenz.de/de/philologie-kulturwissenschaften/evangelische-theologie/personen)
+  - [Kath. Theologie](https://www.uni-koblenz.de/de/philologie-kulturwissenschaften/katholische-theologie): Kontakt: schwindt@uni-koblenz.de
 - [Katholische Hochschule Mainz](https://www.kh-mz.de/)
+  - Kontakt: info@kh-mz.de, [Mitarbeitende](https://www.kh-mz.de/hochschule/organisation/personenverzeichnis)
+  - Soziale Medien: [Facebook](https://www.facebook.com/katholische.hochschule.mainz/), [Instagram](https://www.instagram.com/katholischehochschule.mainz), [YouTube](https://www.youtube.com/channel/UCHWG9bIcuxqaXTH3nHO-8Pw), [LinkedIn](https://www.linkedin.com/school/katholische-hochschule-mainz/)
+  - Newsletter: https://www.kh-mz.de/newsletter und [kathi-net](https://kathinet.kh-mz.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=EXTERNALPAGES&ARGUMENTS=-N000000000000001,-N000277,-Awelcome%2Ehtm)
 - [Theologische Fakultäten der Johannes Gutenberg-Universität Mainz (JGU)](https://theologie.uni-mainz.de/)
+  - Kontakt: https://theologie.uni-mainz.de/kontakt/ bzw. https://theologie.uni-mainz.de/der-fachbereich-01/#Kontakt
 
 ## NRW
 
@@ -98,7 +104,9 @@
 ## Mecklenburg-Vorpommern
 
 - [Theologische Fakultät der Universität Rostock](https://www.theologie.uni-rostock.de/)
+  - Kontakt: dekan.thf@uni-rostock.de, [Mitarbeitende](https://www.theologie.uni-rostock.de/fakultaet/mitarbeiterinnen/uebersicht-personal/) 
 - [Theologische Fakultät der Universität Greifswald](https://theologie.uni-greifswald.de/)
+  - Kontakt: dektheol@uni-greifswald.de, [Mitarbeitende](https://theologie.uni-greifswald.de/lehrstuehle/ergaenzendes-lehrpersonal/prof-apl-privatdoz/)
 
 ## Hessen
 
@@ -115,15 +123,24 @@
 ## Hamburg
 
 - [Evangelische Hochschule Hamburg](https://ev-hochschule-hh.de/)
+  - Kontakt: info.eh@rauheshaus.de, [Mitarbeitende](https://ev-hochschule-hh.de/hochschule/mitarbeiter-innen/)
+  - Social Media: [Instagram](https://www.instagram.com/dasrauhehaus/), [Facebook](https://www.facebook.com/p/Das-Rauhe-Haus-100069445985119/?locale=de_DE)
 - [Fakultät für Geisteswissenschaften der Universität Hamburg](https://www.gw.uni-hamburg.de/)
+  - Kontakt: dekanatsbuero.gw@uni-hamburg.de, [Mitarbeitende](https://www.gw.uni-hamburg.de/ueber-die-fakultaet/hochschullehrer-innen.html)
+  - Newsletter: https://www.gw.uni-hamburg.de/service/anmeldung-newsletter.html
 
 ## Bremen
 
 - [Institut für Religionswissenschaft und Religionspädagogik der Universität Bremen](https://www.uni-bremen.de/religionswissenschaft)
+  - Kontakt: radde@uni-bremen.de, [Mitarbeitende](https://www.uni-bremen.de/religionswissenschaft/personen)
+  - Social Media: [YouTube](https://www.youtube.com/channel/UC79EUcW_8_xe-uzEG11MqjA), [Instagram](https://www.instagram.com/bremen_religionswissenschaft/)
 
 ## Brandenburg
 
 - [Theologische Hochschule Elstal](https://www.th-elstal.de)
+  - Kontakt: sekretariat@th-elstal.de, [Mitarbeitende](https://www.th-elstal.de/personen)
+  - Social Media: [Facebook](https://www.facebook.com/theologische.hochschule.elstal), [YouTube](https://www.youtube.com/channel/UC1wcq7MWibfTvKmO0peRXsw), [Instagram](https://www.instagram.com/th_elstal/?hl=de)
+  - Newsletter: https://www.th-elstal.de/fuer-gemeinden/informationen/newsletter
 
 ## Berlin
 
