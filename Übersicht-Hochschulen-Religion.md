@@ -37,7 +37,7 @@
   - Kontakt: rektorat@ehs-dresden.de & moritzburg@ehs-dresden.de, [Mitarbeitende](https://ehs-dresden.de/hochschule/menschen/hochschulleitung)
   - Social Media: [Facebook](https://www.facebook.com/ehsdresden), [Instagram](https://www.instagram.com/ehs_dresden), [YouTube](https://www.youtube.com/channel/UC_UPAjanWP7-uoiZ3tn_ibw), [Spotify](https://open.spotify.com/show/5yH2nbxWrXcUpNSDt2ZhdX), [LinkedIn](https://de.linkedin.com/company/ehs-dresden)
   - [Newsletter](https://ehs-dresden.de/hochschule/ueber-uns/presse/newsletter)
-- [Theologische Fakultät der Universität Leupzig](https://www.theol.uni-leipzig.de/)
+- [Theologische Fakultät der Universität Leipzig](https://www.theol.uni-leipzig.de/)
   - Kontakt: dekanat@theologie.uni-leipzig.de, [Mitarbeitende](https://www.theol.uni-leipzig.de/fakultaet/mitarbeiterinnen-und-mitarbeiter)
   - Social Media: [Instagram](https://www.instagram.com/theologischefakultaetleipzig/), [Facebook](https://www.facebook.com/TheologischeFakultatLeipzig/) & [YouTube](https://www.youtube.com/c/TheologischeFakult%C3%A4tLeipzig)
 
@@ -98,7 +98,8 @@
 - [Fachhochschule für Interkulturelle Theologie Hermannsburg](https://www.fh-hermannsburg.de/)
 - [Theologische Fakultät der Georg-August-Universität Göttingen](https://www.uni-goettingen.de/de/theologische+fakult%c3%a4t/19855.html)
 - [Institut für Evangelische Theologie und Religionspädagogik der TU Braunschweig](https://www.tu-braunschweig.de/theologie)
-- [Erziehungs- & Sozialwissenschafte[Philosophisch-theologische Hochschule Münster](https://pth-muenster.de/)n der Universität Hildesheim](https://www.uni-hildesheim.de/fb1/)
+- [Erziehungs- & Sozialwissenschafte[Philosophisch-theologische Hochschule Münster](https://pth-muenster.de/)
+- [Universität Hildesheim](https://www.uni-hildesheim.de/fb1/)
 - [Fachbereich Erziehungs- und Kulturwissenschaften der Universität Osnabrück](https://www.uni-osnabrueck.de/universitaet/fachbereiche/fachbereich-erziehungs-und-kulturwissenschaften/)
 
 ## Mecklenburg-Vorpommern
