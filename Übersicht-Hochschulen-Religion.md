@@ -90,6 +90,7 @@
   - auch spannend: https://www.open.rub.de/
 - [Theologische Fakultät Paderborn](https://www.thf-paderborn.de)
 - [Bergische Universität Wuppertal - Fakultät für Geistes- und Kulturwissenschaften](https://fk1.uni-wuppertal.de/de/)
+- [Philosophisch-theologische Hochschule Münster](https://pth-muenster.de/)
 
 ## Niedersachsen
 
@@ -98,8 +99,7 @@
 - [Fachhochschule für Interkulturelle Theologie Hermannsburg](https://www.fh-hermannsburg.de/)
 - [Theologische Fakultät der Georg-August-Universität Göttingen](https://www.uni-goettingen.de/de/theologische+fakult%c3%a4t/19855.html)
 - [Institut für Evangelische Theologie und Religionspädagogik der TU Braunschweig](https://www.tu-braunschweig.de/theologie)
-- [Erziehungs- & Sozialwissenschafte[Philosophisch-theologische Hochschule Münster](https://pth-muenster.de/)
-- [Universität Hildesheim](https://www.uni-hildesheim.de/fb1/)
+- [Erziehungs- & Sozialwissenschaften der Universität Hildesheim](https://www.uni-hildesheim.de/fb1/)
 - [Fachbereich Erziehungs- und Kulturwissenschaften der Universität Osnabrück](https://www.uni-osnabrueck.de/universitaet/fachbereiche/fachbereich-erziehungs-und-kulturwissenschaften/)
 
 ## Mecklenburg-Vorpommern
