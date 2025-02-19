@@ -1,1 +1,47 @@
+##
+## https://gist.githubusercontent.com/muhannad0/e78f14d7bfa2a1a48320ec7194e5c516/raw/b66529364f0442e9ff8c046c023dfa58134b19f6/hugo.gitignore
+##
+
+# Mac File System File...utterly useless to anyone but me.
 .DS_Store
+# https://dev.to/vonhyou/remove-dsstore-file-from-git-repo-2g57
+# ggf. noch aus git Cache entfernen: "git rm --cached .DS_Store"
+
+### Hugo ###
+# Generated files by hugo
+public/
+resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Temporary
+*~
+
+# Auto-generated tag files
+tags
+
+##
+## https://raw.githubusercontent.com/eSolia/eSolia_2018/refs/heads/main/.gitignore
+##
+
+# Backup Files
+*.markdown~
+*.md~
+
+# Logs
+logs
+*.log
+
+# Build directories
+public
+dist
