@@ -4,7 +4,7 @@
 ## Zielgruppe: Dozierende der Theologie & Religionspädagogik, Einsteiger*innen in OER
 ## Beschreibungstext: 
 
-Diese digitale Weiterbildung führt in die Gestaltung offener, kollaborativer und nachhaltiger Lehrmaterialien für die theologische Hochschullehre ein. Im Mittelpunkt stehen Open Educational Resources (OER) und ihr Potenzial für eine partizipative Lehr- und Lernkultur. In drei kompakten, praxisorientierten Veranstaltungen erhalten Sie Einblicke in die Welt der OER, lernen, wie Sie geeignete Materialien finden und bewerten, und erwerben grundlegende Kenntnisse zur eigenen Erstellung.
+Die kostenlose Online-Fortbildungsreihe führt in die Gestaltung offener, kollaborativer und nachhaltiger Lehrmaterialien für die theologische Hochschullehre ein. Im Mittelpunkt stehen Open Educational Resources (OER) und ihr Potenzial für eine partizipative Lehr- und Lernkultur. Die Fortbildungsreihe zielt darauf ab, OER in der Lehrer:innenbildung an Hochschulen zu stärken und offene Lehrpraktiken zu fördern. In drei kompakten, anwendungsorientierten Veranstaltungen lernen die Teilnehmenden, OER zu finden, zu bewerten und selbst für Ihre Lehre zu gestalten.
 
 	
 ## Veranstaltung 1: Einblick in die Welt von OER/ Abholen der Neueinsteiger*innen (Laura & Phillip)
