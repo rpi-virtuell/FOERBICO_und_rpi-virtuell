@@ -1,3 +1,40 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: OEP ist nunmal eine Praxis
+description: >-
+  Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu besuch, bei der
+  OER-Werkstatt von digiLL in Bochum
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+creator:
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+keywords:
+  - OER
+  - OEP
+  - Openness
+  - Open Educational Recourses
+  - Open Educational Practices
+  - ''
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+  - https://w3id.org/kim/hochschulfaechersystematik/n545
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_C
+---
+
+
 # OEP ist nunmal eine Praxis
 Vom 10. bis zum 11.12.2024 fand eine OER-Werkstatt von einen unserer Partnerprojekte [digiLL_COM](https://www.oer-strategie.de/projects/digill_com-projektsteckbrief/) in Bochum statt. Phillip vom FOERBICO-Team nahm daran Teil und berichtet in diesem Beitrag über seine Erfahrungen und geht der Frage nach, um was es sich bei Open Educational Practices (OEP) handelt.
 
