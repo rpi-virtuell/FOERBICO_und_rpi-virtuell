@@ -70,27 +70,51 @@
 ## NRW
 
 - [Fakultät Humanwissenschaften und Theologie der TU Dortmund](https://www.tu-dortmund.de/universitaet/fakultaeten/humanwissenschaften-und-theologie/)
+  - Kontakt: fakultaetsmanagement.ht@tu-dortmund.de
+  - Social Media: [Instagram](https://www.instagram.com/human_theo/)
+  - [Institut für Ev.Theologie](https://eth.ht.tu-dortmund.de/), [Mitarbeitende](https://eth.ht.tu-dortmund.de/institut/personen/)
+  - [Institut für Kath. Theologie](https://kth.ht.tu-dortmund.de/), [Mitarbeitende](https://kth.ht.tu-dortmund.de/institut/personen/)
+  - [Institut für Philosophie und Politikwissenschaft](https://ipp.ht.tu-dortmund.de/), [Mitarbeitende](https://ipp.ht.tu-dortmund.de/institut/personen/)
 - [Fakultät Geisteswissenschaften der Universität Duisburg-Essen](https://www.uni-due.de/geisteswissenschaften/)
+  - Kontakt: https://www.uni-due.de/geisteswissenschaften/webredaktion.php, https://www.uni-due.de/geisteswissenschaften/dekanat.php
+  - [Institut für Kath. Theologie](https://www.uni-due.de/katheol/), sekretariat-katheol@uni-due.de, [Mitarbeitende](https://www.uni-due.de/katheol/personen.php), [Instagram](https://www.instagram.com/theologieimrevier/)
+  - [Institut für Ev. Theologie](https://www.uni-due.de/EvangelischeTheologie/), [Mitarbeitende](https://www.uni-due.de/EvangelischeTheologie/personen.php), [Instagram](https://www.instagram.com/evatheoude/), [Newsletter](https://lists.uni-due.de/mailman/listinfo/ev.theol)
 - [Katholische Hochschule NRW - Fachbereich Theologie (Paderborn)](https://katho-nrw.de/studium/fachbereiche/theologie-paderborn)
+  - Kontakt: info.paderborn@katho-nrw.de, [Mitarbeitende](https://katho-nrw.de/studium/fachbereiche/theologie/lehrende)
+  - Social Media: [LinkedIn](https://de.linkedin.com/school/katholische-hochschule-nordrhein-westfalen/), [Facebook](https://www.facebook.com/katho.nrw/), [YouTube](https://www.youtube.com/user/KatHONRW), [Instagram](https://www.instagram.com/katho_paderborn/)
 - [Kirchliche Hochschule Wuppertal](https://kiho-wuppertal.de/)
+  - Kontakt: rektorat@kiho-wuppertal.de, [Mitarbeitende](https://kiho-wuppertal.de/personal/?group=collegium)
+  - Social Media: [YouTube](https://www.youtube.com/channel/UCQJhEc8W9EziitKQz77uaFA), [Instagram](https://www.instagram.com/kiho_wuppertal), [Facebook](https://www.facebook.com/kihowuppertal), [TikTok](https://www.tiktok.com/@pt_prof_kiho_wuppertal)
 - [Kölner Hochschule für Katholische Theologie](https://www.khkt.de/)
+  - Kontakt: mail@khkt.de, [Mitarbeitende](https://www.khkt.de/hochschule/verwaltung/)
+  - Social Media: [Facebook](https://www.facebook.com/KHKTKOELN), [Instagram](https://www.instagram.com/khkt_koeln_/), [YouTube](https://www.youtube.com/channel/UC_xjkXETlp4QobuWdfc4k-Q)
 - [Philosophisch-theologische Hochschule Münster](https://pth-muenster.de/)
+  - Kontakt: pth@pth-muenster.de + info@pth-muenster.de, [Mitarbeitende](https://pth-muenster.de/lehrende/), [Leitung](https://pth-muenster.de/leitung-und-team/)
+  - Social Media: [Facebook](https://www.facebook.com/pthmuenster/), [Instagram](https://www.instagram.com/pthmuenster/), [YouTube](https://www.youtube.com/c/PTHM%C3%BCnster)
+  - [Newsletter](https://eb999d59.sibforms.com/serve/MUIFAPlv4GUVNNekR8-kDYhF8JhGkbFM-uKaCPPRHQaFhMWl94baOwFGCVJJNSZE1XObA3l9oOAA6AfbDok8b_PhwGemF3LNw3W0o6vYFCS3HhfmAqa8WhpsXyBpIKpO0c0q90ij-On1jiqaPZ47XTLllgYLzYsGWrtVs9xwH5iOXvs0tX7MUxCmD1gMCMm0S3OR9NaGEt8LJ295)
 - [Evangelische Hochschule Bochum](https://www.evh-bochum.de/startseite.html)
+  - Kontakt: evh@evh-bochum.de, [Mitarbeitende](https://www.evh-bochum.de/personen.html)
+  - Social Media: [Facebook](https://www.facebook.com/EvHRWL), [Instagram](https://www.instagram.com/evh_bochum/), [YouTube](https://www.youtube.com/channel/UCf9kEBA-oVEPtA3jGGH9HEg), [LinkedIn](https://www.linkedin.com/school/evh-bochum/)
 - [Theologie und Religionswissenschaften der Universität zu Köln](https://fg7.phil-fak.uni-koeln.de/)
+  - Kontakt: heike.lindner@uni-koeln.de (Geschäftsführende Direktorin)
+  - [Kath. Theologie](https://kaththeol.uni-koeln.de/), [Mitarbeitende](https://kaththeol.uni-koeln.de/personen-kontakt)
+  - [Ev. Theologie](https://evtheol.phil-fak.uni-koeln.de/), evangelische-theologie@uni-koeln.de, [Mitarbeitende](https://evtheol.phil-fak.uni-koeln.de/abteilungen-und-team/liste-a-bis-z)
 - Universität Bonn
-  - [Evangelisch-Theologische Fakultät](https://www.etf.uni-bonn.de/de)
-  - [Katholisch-Theologische Fakultät](https://www.ktf.uni-bonn.de/)
+  - [Evangelisch-Theologische Fakultät](https://www.etf.uni-bonn.de/de): dekanat@ev-theol.uni-bonn.de, [Mitarbeitende](https://www.etf.uni-bonn.de/de/personen)
+  - [Katholisch-Theologische Fakultät](https://www.ktf.uni-bonn.de/): dekanat.ktf@uni-bonn.de, [Mitarbeitende](https://www.ktf.uni-bonn.de/fakultaet/dekanat), [Instagram](https://www.instagram.com/theologiestudieren.bonn/)
 - Universität Münster
-  - [Evangelisch-Theologische Fakultät](https://www.uni-muenster.de/die-universitaet/fak_fb/fb1.html)
-  - [Katholisch-Theologische Fakultät](https://www.uni-muenster.de/die-universitaet/fak_fb/fb2.html)
-  - [Exzellenzcluster Religion und Politik](https://www.uni-muenster.de/Religion-und-Politik/)
+  - [Evangelisch-Theologische Fakultät](https://www.uni-muenster.de/die-universitaet/fak_fb/fb1.html): dekanatfb1.weber@uni-muenster.de, [Mitarbeitende](https://www.uni-muenster.de/EvTheol/personen/index.html)
+  - [Katholisch-Theologische Fakultät](https://www.uni-muenster.de/die-universitaet/fak_fb/fb2.html): fb2dekan@uni-muenster.de, [Mitarbeitende](https://www.uni-muenster.de/FB2/personen/index.html)
+  - [Exzellenzcluster Religion und Politik](https://www.uni-muenster.de/Religion-und-Politik/): religionundpolitik@uni-muenster.de, [Mitarbeitende](https://www.uni-muenster.de/Religion-und-Politik/personen/index.shtml), [Instagram](https://www.instagram.com/religionundpolitik/), [Podcast & Video](https://www.uni-muenster.de/Religion-und-Politik/podcastundvideo/index.shtml)
 - Ruhr-Uni-Bochum
-  - [Evangelisch-Theologische Fakultät](https://www.ev.ruhr-uni-bochum.de/)
-  - [Katholisch-Theologische Fakultät](https://www.kath.ruhr-uni-bochum.de/)
+  - [Evangelisch-Theologische Fakultät](https://www.ev.ruhr-uni-bochum.de/): dekanat-ev-theol@rub.de, [Mitarbeitende](https://www.ev.ruhr-uni-bochum.de/personen/apl-professoren-und-privatdozierende.html.de)
+  - [Katholisch-Theologische Fakultät](https://www.kath.ruhr-uni-bochum.de/): kath-theol-fak@ruhr-uni-bochum.de, [Mitarbeitende](https://www.kath.ruhr-uni-bochum.de/profil/menschen.html.de), [Instagram](https://www.instagram.com/kath.theologie.rub/)
   - auch spannend: https://www.open.rub.de/
 - [Theologische Fakultät Paderborn](https://www.thf-paderborn.de)
+  - Kontakt: sekretariat@thf-paderborn.de, [Profs](https://www.thf-paderborn.de/lehrstuehle/lehrende-neu/professoren-lehrstuhlvertreter-honorarprofessoren/), [Wiss. MA](https://www.thf-paderborn.de/lehrstuehle/lehrende-neu/wissenschaftliche-mitarbeitende/)
+  - Social Media: [Facebook](https://www.facebook.com/thfpaderborn/), [Instagram](https://www.instagram.com/theologische.fakultaet.pb/), [YouTube](https://www.youtube.com/channel/UCKfstD64LIc1U2wtzhpBodg)
 - [Bergische Universität Wuppertal - Fakultät für Geistes- und Kulturwissenschaften](https://fk1.uni-wuppertal.de/de/)
-- [Philosophisch-theologische Hochschule Münster](https://pth-muenster.de/)
+  - Kontakt: dekanatfk1@uni-wuppertal.de, [Mitarbeitende](https://fk1.uni-wuppertal.de/de/dekanat/team/)
 
 ## Niedersachsen
 
