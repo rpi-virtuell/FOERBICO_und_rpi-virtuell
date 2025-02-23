@@ -119,12 +119,24 @@
 ## Niedersachsen
 
 - [Human- und Gesellschaftswissenschaften der Carl von Ossietzky Universität Oldenburg](https://uol.de/fk4/institute-und-einrichtungen)
+  - Kontakt: fk4@uol.de, [Dekanat](https://uol.de/fk4/dekanat)
+  - [Institut für Evangelische Theologie und Religionspädagogik](https://uol.de/theologie): theologie@uol.de, [Mitarbeitende](https://uol.de/theologie/ansprechpartner), Medienstelle: https://www.arp-ol.de/
 - [Institut für Religionswissenschaft der Leibniz Universität Hannover](https://www.irw.uni-hannover.de/de/)
+  - Kontakt: seminar@irw.uni-hannover.de, [Mitarbeitende](https://www.irw.uni-hannover.de/de/institut/personenverzeichnis)
+  - Social Media: [Facebook](https://www.facebook.com/Religionswissenschaft.Hannover/), [YouTube](https://www.youtube.com/channel/UCtlqohoXM-XH-NW0T0dCg7Q/featured)
 - [Fachhochschule für Interkulturelle Theologie Hermannsburg](https://www.fh-hermannsburg.de/)
+  - Kontakt: office@fh-hermannsburg.de, [Mitarbeitende](https://www.fh-hermannsburg.de/die_fit/mitarbeitende)
 - [Theologische Fakultät der Georg-August-Universität Göttingen](https://www.uni-goettingen.de/de/theologische+fakult%c3%a4t/19855.html)
+  - Kontakt: dekanat@theologie.uni-goettingen.de, [Mitarbeitende](https://www.uni-goettingen.de/de/55421.html)
 - [Institut für Evangelische Theologie und Religionspädagogik der TU Braunschweig](https://www.tu-braunschweig.de/theologie)
+  - Kontakt: sekretariat-setr@tu-braunschweig.de, [Mitarbeitende](https://www.tu-braunschweig.de/theologie/personal)
 - [Erziehungs- & Sozialwissenschaften der Universität Hildesheim](https://www.uni-hildesheim.de/fb1/)
+  - [Institut für Evangelische Theologie](https://www.uni-hildesheim.de/fb1/institute/institut-fuer-ev-theologie-1/): [Mitarbeitende](https://www.uni-hildesheim.de/fb1/institute/institut-fuer-ev-theologie/mitglieder/)
+  - [Institut für Kath. Theologie](https://www.uni-hildesheim.de/kath-theologie/): [Mitarbeitende](https://www.uni-hildesheim.de/kath-theologie/institut/)
 - [Fachbereich Erziehungs- und Kulturwissenschaften der Universität Osnabrück](https://www.uni-osnabrueck.de/universitaet/fachbereiche/fachbereich-erziehungs-und-kulturwissenschaften/)
+  - [Institut für Kath. Theologie](https://www.kath-theologie.uni-osnabrueck.de/startseite.html): kaththeol@uni-osnabrueck.de, [Mitarbeitende](https://www.kath-theologie.uni-osnabrueck.de/personen/personen_a_z.html)
+  - [Institut für Islamische Theologie](https://www.islamische-theologie.uni-osnabrueck.de): info-iit@uni-osnabrueck.de, [Mitarbeitende](https://www.islamische-theologie.uni-osnabrueck.de/personal/uebersicht.html?no_cache=1), Social Media: [Facebook](http://www.facebook.com/iit.uos), [YouTube](http://www.youtube.com/user/IITOsnabrueck), [SoundCloud](https://soundcloud.com/islamischetheologie)
+  - [Institut für Ev. Theologie](https://www.ev-theologie.uni-osnabrueck.de/startseite.html): evantheo@uos.de, [Mitarbeitende](https://www.ev-theologie.uni-osnabrueck.de/personen/personen_a_z.html)
 
 ## Mecklenburg-Vorpommern
 
