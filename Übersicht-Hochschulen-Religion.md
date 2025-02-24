@@ -148,14 +148,29 @@
 ## Hessen
 
 - [Lutherische Theologische Hochschule Oberursel](https://lthh.de/)
+  - Kontakt: verwaltung@lthh-oberursel.de, [Mitarbeitende](https://lthh.de/personen/)
+  - Social Media: [Facebook](https://www.facebook.com/LThH.Oberursel), [Instagram](https://www.instagram.com/lthh_ou), [WhatsApp](https://whatsapp.com/channel/0029VaEUoIC9Bb5sETT7wk3T), [Telegram](https://t.me/lthh_ou)
 - [Theologische Hochschule Ewersbach](https://th-ewersbach.de/)
+  - Kontakt: info@th-ewersbach.de, [Mitarbeitende](https://th-ewersbach.de/hochschule/kollegium/)
+  - Social Media: [Feed](https://th-ewersbach.de/feed/atom/), [Instagram](https://www.instagram.com/thewersbach/), [YouTube](https://www.youtube.com/channel/UCAior6eG1BSFXXEQsKtbsaQ), [Facebook](https://www.facebook.com/theologische.hochschule.ewersbach)
 - [Phil.-Theol. Hochschule Sankt Georgen](https://www.sankt-georgen.de/)
+  - Kontakt: rektorat@sankt-georgen.de, [Professorium](https://www.sankt-georgen.de/hochschule/organisation/professorium/)
+  - Social Media: [Facebook](https://www.facebook.com/SanktGeorgenFrankfurt/)
 - [Goethe-Universität Frankfurt](https://www.uni-frankfurt.de/Fachbereiche)
+  - [Institut für Ev. Theologie](https://www.uni-frankfurt.de/39890622/fb06?): dekanat.evtheol@em.uni-frankfurt.de, [Dekanat](https://www.uni-frankfurt.de/41057656/Dekanat_und_Dekanatsverwaltung), [Facebook](https://www.facebook.com/evtheol.ffm), [Instagram](https://www.instagram.com/evtheol.ffm/)
+  - [Institut für Kath. Theologie](https://www.uni-frankfurt.de/75715457/Fachbereich_07___Katholische_Theologie): [Instagram](https://www.instagram.com/katholischetheologie/), [Facebook](https://www.facebook.com/KathTheolUniFrankfurt/), [YouTube](https://www.youtube.com/channel/UCKn821M_SaGntzq5ECqeNGA)
 - [Evangelische Hochschule Darmstadt](https://www.eh-darmstadt.de/)
+  - Kontakt: info@eh-darmstadt.de, [Mitarbeitende](https://www.eh-darmstadt.de/hochschule/personenverzeichnis/)
+  - Social Media: [Instagram](https://www.instagram.com/eh_darmstadt/), [YouTube](https://www.youtube.com/@evangelischehochschuledarm4778)
 - [Fachbereich Evangelische Theologie der Universität Marburg](https://www.uni-marburg.de/de/fb05)
+  - Kontakt: dekan05@staff.uni-marburg.de, [Mitarbeitende](https://www.uni-marburg.de/de/fb05/fachbereich/personen)
 - [Theologische Fakultät Fulda](https://www.thf-fulda.de/de/index.html)
+  - Kontakt: rektorat@thf-fulda.de, [Mitarbeitende](https://www.thf-fulda.de/fakultaet-fulda/personen.html)
+  - Newsletter: https://www.thf-fulda.de/newsletter.html
 - [Institut für Theologie und Sozialethik der TU Darmstadt](https://www.theologie.tu-darmstadt.de/institut_theologie/index.de.jsp)
+  - Kontakt: komorek@theol.tu-darmstadt.de, [Mitarbeitende](https://www.theologie.tu-darmstadt.de/institut_theologie/personen_theologie/lehrende_theologie/lehrende_alle.de.jsp)
 - [Fachbereich Geistes- und Kulturwissenschaften der Universität Kassel](https://www.uni-kassel.de/fb02/)
+  - Kontakt: dekanat02@uni-kassel.de, [Mitarbeitende](https://www.uni-kassel.de/fb02/personen)
 
 ## Hamburg
 
