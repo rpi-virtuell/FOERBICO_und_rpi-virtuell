@@ -6,7 +6,7 @@ type: LearningResource
 name: OEP ist nunmal eine Praxis
 description: >-
   Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der
-  OER-Werkstatt von digiLL in Bochum
+  OER-Werkstatt von digiLL in Bochum.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 creator:
   - givenName: Phillip
@@ -31,15 +31,23 @@ about:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_C
+#staticSiteGenerator:
+author:
+  - Phillip Angelina
+title: OEP ist nunmal eine Praxis
+cover:
+  relative: true
+  image: kreativtisch-ausschnitt.jpg
+  hiddenInSingle: true
+summary: |
+  Vom 10. bis zum 11. Dezember 2024 fand eine OER-Werkstatt eines unserer Partnerprojekte [digiLL_COM](https://www.oer-strategie.de/projects/digill_com-projektsteckbrief/) in Bochum statt. Phillip vom FOERBICO-Team nahm daran teil und berichtet in diesem Beitrag über seine Erfahrungen. Zudem geht er der Frage nach, um was es sich bei Open Educational Practices (OEP) handelt.
+url: oer-werkstatt-digill-com-projekt
 ---
-
-# OEP ist nunmal eine Praxis
-Vom 10. bis zum 11.12.2024 fand eine OER-Werkstatt von einen unserer Partnerprojekte [digiLL_COM](https://www.oer-strategie.de/projects/digill_com-projektsteckbrief/) in Bochum statt. Phillip vom FOERBICO-Team nahm daran Teil und berichtet in diesem Beitrag über seine Erfahrungen und geht der Frage nach, um was es sich bei Open Educational Practices (OEP) handelt.
-
-![Unsere OER-Werkstatt](OER_Werkstatt.JPG)
 
 ## Werkstatt-Prinzip
 Es gab viele kleine Tischgruppen, die an verschiedenen kleineren und größeren OER-Projekten arbeiten konnten. Es ermöglicht Menschen schnell in die Praxis zu kommen und miteinander kollaborativ zu arbeiten. Es gab zu verschiedensten Themen Expert:innen, die auch kurze *lightning-Talks* angeboten haben und sonst als Unterstützung für die Arbeitsgruppen dienten. [digiLL](https://digill.de/) ermöglichte einen Raum, in dem Menschen ins Tun kommen konnten. Teilnehmende waren Studierende, Lehrkräfte, Wissenschaftler:innen und Menschen die in anderen Formen in der Bildungsarbeit tätig sind. 
+
+![Unsere OER-Werkstatt](OER_Werkstatt.JPG)
 
 ## Was ist eigentlich OEP?
 
