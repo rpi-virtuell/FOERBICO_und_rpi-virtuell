@@ -84,6 +84,6 @@ Weitere Diskussionen, die sich im Laufe der Tage ereigneten, drehten sich um die
 
 ![Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen](kreativtisch.jpg)
 
-## Resumè
+## Resümee
 
 Alles in allem bot die OER-Werkstatt von digill_com viele Möglichkeiten OER zu erstellen, weiterzuentwickeln und förderte den Austausch innerhalb der Community. Viele Impulse aber auch offene Fragen konnte man mitnehmen. Die Werkstatt kann als gelebte OEP zusammengefasst werden, so schwer dieser Begriff wissenschaftlich festzuhalten ist, eröffnete die Werkstatt das Erleben von OEP, indem man es tat.
