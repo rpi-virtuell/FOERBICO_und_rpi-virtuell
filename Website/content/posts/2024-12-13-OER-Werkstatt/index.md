@@ -49,7 +49,7 @@ url: oer-werkstatt-digill-com-projekt
 
 Es gab viele kleine Tischgruppen, die an verschiedenen kleineren und größeren OER-Projekten arbeiten konnten. Es ermöglicht Menschen schnell in die Praxis zu kommen und miteinander kollaborativ zu arbeiten. Es gab zu verschiedensten Themen Expert:innen, die auch kurze *lightning-Talks* angeboten haben und sonst als Unterstützung für die Arbeitsgruppen dienten. [digiLL](https://digill.de/) ermöglichte einen Raum, in dem Menschen ins Tun kommen konnten. Teilnehmende waren Studierende, Lehrkräfte, Wissenschaftler:innen und Menschen die in anderen Formen in der Bildungsarbeit tätig sind. 
 
-![Unsere OER-Werkstatt](OER_Werkstatt.JPG)
+![Unsere OER-Werkstatt](oer-werkstatt.jpg)
 
 ## Was ist eigentlich OEP?
 
@@ -82,7 +82,7 @@ Weitere Diskussionen, die sich im Laufe der Tage ereigneten, drehten sich um die
 - Zudem wurde eine Frage aufgebracht, die mich wirklich zum Nachdenken über OER gebracht hat: *Wird in Zukunft nicht eigentlich das Remixen, also das Vermischen immer wichtiger*? Dabei geht es um den wichtigen Aspekt, ob nicht gerade dieser Punkt für OER-User:innen erleichtert werden muss.
 - In einem weiteren Austausch zu OEP kam die Frage auf, ob es den Begriff OEP wirklich brauche, da viele dies in der Praxis anscheinend nicht fehlen würde und digitales Lernen häufig auf dieser Grundlage stattfände. Ein nennenswerter Punkt gegen diesen Einwand war, dass auf struktureller Ebene eine bessere theoretische Fundierung von OEP helfen könne von einer *Prozessorientierung zur Ergebnisorientierung* zu kommen. 
 
-![Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen](Kreativtisch.JPG)
+![Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen](kreativtisch.jpg)
 
 ## Resumè
 
