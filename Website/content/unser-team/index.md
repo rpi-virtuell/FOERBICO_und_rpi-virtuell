@@ -24,7 +24,7 @@ Dienstleistungszentrum im Blick auf grundlegende Fragen evangelischen Bildungsha
 Jens ist Direktor des Comenius-Institutes und verantwortet FOERBICO.
 Zudem ist er für die Kommunikation mit dem Projektträger zuständig.
 
-![Portrait Jörg Lohrer](/hello-world/joerg-lohrer.jpg)
+![Portrait Jörg Lohrer](JoergLohrer.jpg)
 
 **Jörg Lohrer**
 
@@ -32,7 +32,7 @@ Jörg ist Projektkoordinator und unterstützt das Community-Management.
 Er verfügt durch seine Tätigkeit im Leitungsteam von rpi-virtuell und beim
 relilab bereits über langjährige Erfahrung in der Netzwerkarbeit.
 
-![Portrait Gina Buchwald-Chassée](/hello-world/gina-buchwald-chassee.jpg)
+![Portrait Gina Buchwald-Chassée](GinaBuchwaldChassee.jpg)
 
 **Gina Buchwald-Chassée**
 
@@ -40,7 +40,7 @@ Gina ist studierte Kommunikationswissenschaftlerin und unterstützt das Projekt
 im Community-Management und ist für die Öffentlichkeitsarbeit verantwortlich.
 Sie hat zuvor das Netzwerk schule-evangelisch-digital koordiniert.
 
-![Portrait Ludger Sicking](/hello-world/ludger-sicking.jpg)
+![Portrait Ludger Sicking](LudgerSicking.jpg)
 
 **Ludger Sicking**
 
@@ -60,7 +60,7 @@ Inhalte in einer digitalisierten Welt zu verbessern. Schwerpunkte liegen auf der
 Entwicklung neuer didaktischer Konzepte und der Förderung einer reflektierten Mediennutzung
 im Kontext der religiösen Bildung.
 
-![Portrait Jörg Lohrer](VieraPirker.jpg)
+![Portrait Viera Pirker](VieraPirker.jpg)
 
 **Prof. Dr. Viera Pirker**
 
@@ -71,7 +71,7 @@ Religion in einer zunehmend digitalisierten und medial geprägten Welt vermittel
 werden kann. Prof. Dr. Pirker ist zudem in zahlreichen Forschungsprojekten und Publikationen
 aktiv.
 
-![Portrait Jörg Lohrer](/hello-world/laura-moessle.jpg)
+![Portrait Laura Mößle](LauraMoessle.jpg)
 
 **Dr. Laura Mößle**
 
@@ -92,7 +92,7 @@ didaktischer Modelle und Methoden sowie der Forschung zu religiösen Lernprozess
 Studierende auf eine reflektierte und praxisnahe Tätigkeit im Religionsunterricht vorzubereiten
 und zur Weiterentwicklung dieses Bildungsbereichs beizutragen.
 
-![Portrait Jörg Lohrer](ManfredPirner.jpg)
+![Portrait Manfred Pirner](ManfredPirner.jpg)
 
 **Prof. Dr. Manfred Pirner**
 
@@ -103,7 +103,7 @@ beschäftigt er sich intensiv mit Fragen der Religionspädagogik in pluralistisc
 und der Rolle von Religion im öffentlichen Raum. Er engagiert sich auch in der Entwicklung von
 innovativen didaktischen Ansätzen für den Religionsunterricht.
 
-![Portrait Jörg Lohrer](/hello-world/phillip-angelina.jpg)
+![Portrait Phillip Angelina](PhillipAngelina.jpg)
 
 **Phillip Angelina**
 
