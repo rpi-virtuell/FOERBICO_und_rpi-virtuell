@@ -26,29 +26,39 @@
     --font-family: "Roboto Condensed", sans-serif;
 }
 
+a:hover {
+    color: var(--border);
+}
+
 .pagination a {
-	border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--border);
+}
+.top-link {
+    border: 1px solid var(--border);
 }
 
 .header {
     background-color: var(--heading-bg-light);
-}
-.dark .header {
-    background-color: var(--heading-bg-dark);
+    border-bottom: 1px solid var(--border);
 }
 .entry-cover {
     background-color: #FFA500;
 }
-.dark .entry-cover {
-    background-color: #333333;
-}
 .footer {
     background-color: var(--entry);
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
 }
-.dark .footer {
-    background-color: var(--entry);
+.post-content img {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
 }
-
+.post-entry img {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
 
 .dark {
     --primary: #F0F8FF; /* Headline color in dark mode */
@@ -56,9 +66,17 @@
     --theme: #222222; /* Background for dark mode */
     --border: #F0F8FF;
 }
-
 .dark img {
     background-color: #cccccc;
+}
+.dark .header {
+    background-color: var(--heading-bg-dark);
+}
+.dark .entry-cover {
+    background-color: #333333;
+}
+.dark .footer {
+    background-color: var(--entry);
 }
 
 body {
