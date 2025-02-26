@@ -197,10 +197,19 @@
 ## Berlin
 
 - [Evangelische Hochschule Berlin](https://www.eh-berlin.de/)
+  - Kontakt: info@eh-berlin.de, [Mitarbeitende](https://www.eh-berlin.de/hochschule/organisation/mitarbeiterinnen-in-lehre-und-verwaltung)
+  - Social Media: [LinkedIn](https://www.linkedin.com/company/9873436), [Facebook](https://www.facebook.com/evangelische.hochschule.berlin), [Instagram](https://www.instagram.com/eh_berlin/), [YouTube](https://www.youtube.com/channel/UCiwl2tZqqF_KWbTxa_v1FAQ/featured)
+  - Newsletter: https://www.eh-berlin.de/presse/ehbspiegel
 - [Theologische Fakultät der HU Berlin](https://www.theologie.hu-berlin.de/de)
+  - Kontakt: [Dekan](https://www.theologie.hu-berlin.de/de/ueberdiefakultaet/dekanat), [Mitarbeitende](https://www.theologie.hu-berlin.de/de/mitarbeiter/mitarbeiter)
 - [Katholische Hochschule für Sozialwesen Berlin](https://www.khsb-berlin.de/)
+  - Kontakt: presse@khsb-berlin.de, [Mitarbeitende](https://www.khsb-berlin.de/de/personenverzeichnis)
+  - Social Media: [Facebook](https://de-de.facebook.com/pages/category/College---University/Katholische-Hochschule-f%C3%BCr-Sozialwesen-Berlin-KHSB-154149357978418/), [Instagram](https://www.instagram.com/khsb_berlin/?hl=de), [YouTube](https://www.youtube.com/watch?v=gtLUZgPfXxw), [LinkedIn](https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGkQBBwmOsvBwAAAYI5p7dIex1gc0NHSMpXMw9pK3d4W-B0SKVF3AF8HINM__DNKWbjCorwbH2Ox61CpxIrpXjhskJDw8yWxNleGZdE6a_7dNLq4dY0bLQux9WpmqMS54SMcz0=&original_referer=https://www.khsb-berlin.de/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fkatholische-hochschule-f%25C3%25BCr-sozialwesen-berlin%2F)
 - [Fachbereich Philosophie und Geisteswissenschaften der FU Berlin](https://www.geisteswissenschaften.fu-berlin.de/)
+  - Kontakt: [Mitarbeitende](https://www.geisteswissenschaften.fu-berlin.de/mitarbeiterlisten/index.html)
+  - Social Media: [Facebook](https://www.facebook.com/fuphilgeist/), [Instagram](http://www.instagram.com/fb_philgeist/)
 - [Fakultät Geistes- und Bildungswissenschaften der TU Berlin](https://www.tu.berlin/humanities)
+  - Kontakt: FH4-1@fsc1.tu-berlin.de, [Dekanat](https://www.tu.berlin/humanities/ueber-uns/dekanat-leitung)
 
 ## Bayern
 
