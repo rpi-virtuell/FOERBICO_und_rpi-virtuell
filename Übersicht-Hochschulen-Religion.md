@@ -214,16 +214,29 @@
 ## Bayern
 
 - [Katholisch-Theologische Fakultät der Universität Augsburg](https://www.uni-augsburg.de/de/fakultaet/kthf/)
+  - Kontakt: dekanat@kthf.uni-augsburg.de, [Dekanat](https://www.uni-augsburg.de/de/fakultaet/kthf/dekanat/), [Lehrstühle](https://www.uni-augsburg.de/de/fakultaet/kthf/lehrstuhle-professuren/)
 - [Fakultät für Katholische Theologie der Universität Regensburg](https://www.uni-regensburg.de/theologie/fakultaet/startseite/index.html)
+  - Kontakt: kath.dekanat@theologie.uni-regensburg.de, [Mitarbeitende](https://www.uni-regensburg.de/theologie/fakultaet/personen/index.html)
 - [Katholisch-Theologische Fakultät der Universität Würzburg](https://www.theologie.uni-wuerzburg.de/)
+  - Kontakt: dekanat@theologie.uni-wuerzburg.de, [Dekanat](https://www.theologie.uni-wuerzburg.de/fakultaet/dekanat/), [Institute](https://www.theologie.uni-wuerzburg.de/institute-lehrstuehle/)
 - LMU München
-  - [Evangelisch-Theologische Fakultät](https://www.evtheol.lmu.de/de/)
-  - [Katholisch-Theologische Fakultät](https://www.kaththeol.lmu.de/de/)
+  - [Evangelisch-Theologische Fakultät](https://www.evtheol.lmu.de/de/): dekanat02@lmu.de, [Mitarbeitende](https://www.evtheol.lmu.de/de/die-fakultaet/personen/)
+  - [Katholisch-Theologische Fakultät](https://www.kaththeol.lmu.de/de/): dekanat@kaththeol.lmu.de, [Dekanat](https://www.kaththeol.lmu.de/de/ueber-uns/dekanat-und-department/), [Lehrstühle](https://www.kaththeol.lmu.de/de/ueber-uns/lehrstuehle-und-professuren/)
 - [Augustana-Hochschule](https://augustana.de/start.html)
+  - Kontakt: hochschule@augustana.de, [Mitarbeitende](https://augustana.de/forschung-lehre/kontaktdaten-des-lehrkoerpers.html)
+  - Social Media: [Instagram](https://www.instagram.com/augustana.hochschule/?hl=de)
+  - Newsletter: https://augustana.de/newsletter/aktuelle-ausgabe.html
 - [Katholische Universität Eichstätt-Ingolstadt](https://www.ku.de/)
+  - Kontakt: info@ku.de, [Leitung](https://www.ku.de/die-ku/organisation/hochschulleitung), [Mitarbeitende](https://www.ku.de/international/mitarbeitende-der-ku)
+  - Social Media: [Facebook](https://www.facebook.com/uni.eichstaett), [Instagram](https://www.instagram.com/uni.eichstaett), [YouTube](https://www.youtube.com/unieichstaett), [LinkedIn](https://www.linkedin.com/school/unieichstaett/)
 - [Katholischen Stiftungshochschule München](https://www.ksh-muenchen.de/)
+  - Kontakt: info.muc@ksh-m.de bzw. info.bb@ksh-m.de, [Mitarbeitende](https://www.ksh-muenchen.de/hochschule/professorinnen-lehrbeauftragte/)
+  - Social Media: [Facebook](https://www.facebook.com/Katholische-Stiftungshochschule-Muenchen-183593345008189/), [Instagram](https://www.instagram.com/kshmuenchen/), [LinkedIn](https://www.linkedin.com/company/kshmuenchen/), [Xing](https://www.xing.com/pages/katholischestiftungshochschulemunchen), [YouTube](https://www.youtube.com/channel/UChYwxZKIK7S10B1TbqOFVpw)
 - [Geistes- und Kulturwissenschaftliche Fakultät](https://www.geku.uni-passau.de/)
+  - Kontakt: dekanat@geku.uni-passau.de, [Lehrstühle](https://www.geku.uni-passau.de/lehrstuehle-und-professuren)
 - [Religionswissenschaft Universität Bayreuth](https://www.religion.uni-bayreuth.de/de/index.html)
+  - Kontakt: religion@uni-bayreuth.de, [Mitarbeitende](https://www.religion.uni-bayreuth.de/de/team/index.html)
+  - Social Media: [Facebook](https://www.facebook.com/Religionswissenschaft)
 
 ## Baden-Württemberg
 
