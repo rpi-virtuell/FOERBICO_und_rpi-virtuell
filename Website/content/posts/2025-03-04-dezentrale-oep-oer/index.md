@@ -101,7 +101,7 @@ Doch dafür braucht es mehr als nur frei lizenzierte Materialien. Es braucht (fr
 
 ### Wie Nostr die Bildungsinfrastruktur revolutionieren könnte
 
-Die technische Grundlage für vernetzte Bildung sollte also nicht analog zu Systemen entwickelt werden, deren Grundlage ist, Nutzer und Inhalte (oft öknomoisch gewollt) an sich zu binden.
+Die technische Grundlage für vernetzte Bildung sollte also nicht analog zu Systemen entwickelt werden, deren Grundlage ist, Nutzer und Inhalte (oft ökonomisch gewollt) an sich zu binden.
 Stattdessen sollte sie strukturell so angelegt sein, die digitale Vernetzung, die wir uns für die Bildung wünschen, bereits grundlegend zu enthalten.
 Wir suchen somit nicht nach lokalen Softwarelösungen für die Organisation von OER- und OEP-Communities, sondern nach grundlegenden Technologieansätzen, die diese Anforderungen erfüllen können.
 Dadurch rücken neben den Schnittstellenlösungen, die Plattformen entwickeln müssen, um künftig anschlussfähig zu sein, zunehmend die zugrunde liegenden Protokolle für Zusammenarbeit und vernetzte Bildung in den Fokus einer Entwicklung, wenn diese auf Wirkung und Nachhaltigkeit angelegt sein soll. 
