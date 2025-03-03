@@ -64,6 +64,7 @@ Unsere Erkenntnisse aus den Projekten FOERBICO und TiRU sind, dass digitale Bild
 Des Weiteren wurde im weiteren Verlauf der Tagung insbesondere mit Blick auf die Hochschullehre diskutiert, ob Kosten-Nutzen von OER-Erstellung in Relation stehen und die Erwartungen mit Blick auf Bildungsverständnis und -gerechtigkeit an OER erfüllt werden können. Immer wieder kehrten wir zu der Kernfrage zurück: *Welchen didaktischen Mehrwert haben OER für die theologische Hochschullehre?*
 ![Gruppenarbeit|300](Gruppenarbeit_Tablet_Stifte_Handy.jpg) ![Gruppenarbeit 02|300](Gruppenarbeit_Tagung.jpg)
 | ------------------- | ---------------------------- | 
+
 ## Impulse zur Weiterarbeit
 Folgende Impulse aus der Tagung haben uns für unsere Weiterarbeit inspiriert:
 - OER brauchen weitere didaktische Ausgestaltung. OER allein revolutionieren die Lehrkultur nicht.
