@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed Italic';
+    src: url('RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+:root {
+    --theme: #ffffff; /* Default general background */
+    --entry: #F0F8FF; /* Light background */
+    --primary: #002366; /* Titles & Headlines */
+    --content: #333333; /* Common text */
+    --code-bg: #ffffff;
+    --border: #FFA500;
+    --heading-bg-light: #e6f2ff;
+    --heading-bg-dark: rgb(46, 46, 51);
+    --tertiary: var(--heading-bg-light);
+    --secondary: #203a8f;
+    --radius: 5px;
+    --font-family: "Roboto Condensed", sans-serif;
+}
+
+a:hover {
+    color: var(--border);
+}
+
+.pagination a {
+    border-radius: 10px;
+    border: 2px solid var(--border);
+}
+.top-link {
+    border: 1px solid var(--border);
+}
+
+.header {
+    background-color: var(--heading-bg-light);
+    border-bottom: 1px solid var(--border);
+}
+.entry-cover {
+    background-color: #FFA500;
+}
+.footer {
+    background-color: var(--entry);
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+}
+.post-content img {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+.post-entry img {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.dark {
+    --primary: #F0F8FF; /* Headline color in dark mode */
+    --content: #cccccc; /* Text color in dark mode */
+    --theme: #222222; /* Background for dark mode */
+    --border: #F0F8FF;
+}
+.dark img {
+    background-color: #cccccc;
+}
+.dark .header {
+    background-color: var(--heading-bg-dark);
+}
+.dark .entry-cover {
+    background-color: #333333;
+}
+.dark .footer {
+    background-color: var(--entry);
+}
+
+body {
+    font-family: var(--font-family);
+}

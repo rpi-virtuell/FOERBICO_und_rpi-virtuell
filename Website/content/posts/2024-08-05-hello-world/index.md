@@ -64,19 +64,19 @@ Erstes Treffen mit dem gesamten FOERBICO-Team am 5. August 2024
 
 ![](comenius-institut-logo.png)
 
-![](joerg-lohrer.jpg)
+![](/unser-team/JoergLohrer.jpg)
 
 ### Jörg Lohrer
 
 Jörg ist Projektkoordinator und unterstützt das Community-Management.
 
-![](gina-buchwald-chassee.jpg)
+![](/unser-team/GinaBuchwaldChassee.jpg)
 
 ### Gina Buchwald-Chassée
 
 Gina unterstützt das Projekt im Community-Management und ist für die Öffentlichkeitsarbeit verantwortlich.
 
-![](ludger-sicking.jpg)
+![](/unser-team/LudgerSicking.jpg)
 
 ### Ludger Sicking
 
@@ -85,7 +85,7 @@ Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softw
 
 ![](Goethe-Universitaet_Frankfurt_Logo.png)
 
-![](laura-moessle.jpg)
+![](/unser-team/LauraMoessle.jpg)
 
 ### Dr. Laura Mößle
 
@@ -93,7 +93,7 @@ Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeit
 
 ![](Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png)
 
-![](phillip-angelina.jpg)
+![](/unser-team/PhillipAngelina.jpg)
 
 ### Phillip Angelina
 

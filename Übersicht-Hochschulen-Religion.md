@@ -197,40 +197,88 @@
 ## Berlin
 
 - [Evangelische Hochschule Berlin](https://www.eh-berlin.de/)
+  - Kontakt: info@eh-berlin.de, [Mitarbeitende](https://www.eh-berlin.de/hochschule/organisation/mitarbeiterinnen-in-lehre-und-verwaltung)
+  - Social Media: [LinkedIn](https://www.linkedin.com/company/9873436), [Facebook](https://www.facebook.com/evangelische.hochschule.berlin), [Instagram](https://www.instagram.com/eh_berlin/), [YouTube](https://www.youtube.com/channel/UCiwl2tZqqF_KWbTxa_v1FAQ/featured)
+  - Newsletter: https://www.eh-berlin.de/presse/ehbspiegel
 - [Theologische Fakultät der HU Berlin](https://www.theologie.hu-berlin.de/de)
+  - Kontakt: [Dekan](https://www.theologie.hu-berlin.de/de/ueberdiefakultaet/dekanat), [Mitarbeitende](https://www.theologie.hu-berlin.de/de/mitarbeiter/mitarbeiter)
 - [Katholische Hochschule für Sozialwesen Berlin](https://www.khsb-berlin.de/)
+  - Kontakt: presse@khsb-berlin.de, [Mitarbeitende](https://www.khsb-berlin.de/de/personenverzeichnis)
+  - Social Media: [Facebook](https://de-de.facebook.com/pages/category/College---University/Katholische-Hochschule-f%C3%BCr-Sozialwesen-Berlin-KHSB-154149357978418/), [Instagram](https://www.instagram.com/khsb_berlin/?hl=de), [YouTube](https://www.youtube.com/watch?v=gtLUZgPfXxw), [LinkedIn](https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGkQBBwmOsvBwAAAYI5p7dIex1gc0NHSMpXMw9pK3d4W-B0SKVF3AF8HINM__DNKWbjCorwbH2Ox61CpxIrpXjhskJDw8yWxNleGZdE6a_7dNLq4dY0bLQux9WpmqMS54SMcz0=&original_referer=https://www.khsb-berlin.de/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fkatholische-hochschule-f%25C3%25BCr-sozialwesen-berlin%2F)
 - [Fachbereich Philosophie und Geisteswissenschaften der FU Berlin](https://www.geisteswissenschaften.fu-berlin.de/)
+  - Kontakt: [Mitarbeitende](https://www.geisteswissenschaften.fu-berlin.de/mitarbeiterlisten/index.html)
+  - Social Media: [Facebook](https://www.facebook.com/fuphilgeist/), [Instagram](http://www.instagram.com/fb_philgeist/)
 - [Fakultät Geistes- und Bildungswissenschaften der TU Berlin](https://www.tu.berlin/humanities)
+  - Kontakt: FH4-1@fsc1.tu-berlin.de, [Dekanat](https://www.tu.berlin/humanities/ueber-uns/dekanat-leitung)
 
 ## Bayern
 
 - [Katholisch-Theologische Fakultät der Universität Augsburg](https://www.uni-augsburg.de/de/fakultaet/kthf/)
+  - Kontakt: dekanat@kthf.uni-augsburg.de, [Dekanat](https://www.uni-augsburg.de/de/fakultaet/kthf/dekanat/), [Lehrstühle](https://www.uni-augsburg.de/de/fakultaet/kthf/lehrstuhle-professuren/)
 - [Fakultät für Katholische Theologie der Universität Regensburg](https://www.uni-regensburg.de/theologie/fakultaet/startseite/index.html)
+  - Kontakt: kath.dekanat@theologie.uni-regensburg.de, [Mitarbeitende](https://www.uni-regensburg.de/theologie/fakultaet/personen/index.html)
 - [Katholisch-Theologische Fakultät der Universität Würzburg](https://www.theologie.uni-wuerzburg.de/)
+  - Kontakt: dekanat@theologie.uni-wuerzburg.de, [Dekanat](https://www.theologie.uni-wuerzburg.de/fakultaet/dekanat/), [Institute](https://www.theologie.uni-wuerzburg.de/institute-lehrstuehle/)
 - LMU München
-  - [Evangelisch-Theologische Fakultät](https://www.evtheol.lmu.de/de/)
-  - [Katholisch-Theologische Fakultät](https://www.kaththeol.lmu.de/de/)
+  - [Evangelisch-Theologische Fakultät](https://www.evtheol.lmu.de/de/): dekanat02@lmu.de, [Mitarbeitende](https://www.evtheol.lmu.de/de/die-fakultaet/personen/)
+  - [Katholisch-Theologische Fakultät](https://www.kaththeol.lmu.de/de/): dekanat@kaththeol.lmu.de, [Dekanat](https://www.kaththeol.lmu.de/de/ueber-uns/dekanat-und-department/), [Lehrstühle](https://www.kaththeol.lmu.de/de/ueber-uns/lehrstuehle-und-professuren/)
 - [Augustana-Hochschule](https://augustana.de/start.html)
+  - Kontakt: hochschule@augustana.de, [Mitarbeitende](https://augustana.de/forschung-lehre/kontaktdaten-des-lehrkoerpers.html)
+  - Social Media: [Instagram](https://www.instagram.com/augustana.hochschule/?hl=de)
+  - Newsletter: https://augustana.de/newsletter/aktuelle-ausgabe.html
 - [Katholische Universität Eichstätt-Ingolstadt](https://www.ku.de/)
+  - Kontakt: info@ku.de, [Leitung](https://www.ku.de/die-ku/organisation/hochschulleitung), [Mitarbeitende](https://www.ku.de/international/mitarbeitende-der-ku)
+  - Social Media: [Facebook](https://www.facebook.com/uni.eichstaett), [Instagram](https://www.instagram.com/uni.eichstaett), [YouTube](https://www.youtube.com/unieichstaett), [LinkedIn](https://www.linkedin.com/school/unieichstaett/)
 - [Katholischen Stiftungshochschule München](https://www.ksh-muenchen.de/)
+  - Kontakt: info.muc@ksh-m.de bzw. info.bb@ksh-m.de, [Mitarbeitende](https://www.ksh-muenchen.de/hochschule/professorinnen-lehrbeauftragte/)
+  - Social Media: [Facebook](https://www.facebook.com/Katholische-Stiftungshochschule-Muenchen-183593345008189/), [Instagram](https://www.instagram.com/kshmuenchen/), [LinkedIn](https://www.linkedin.com/company/kshmuenchen/), [Xing](https://www.xing.com/pages/katholischestiftungshochschulemunchen), [YouTube](https://www.youtube.com/channel/UChYwxZKIK7S10B1TbqOFVpw)
 - [Geistes- und Kulturwissenschaftliche Fakultät](https://www.geku.uni-passau.de/)
+  - Kontakt: dekanat@geku.uni-passau.de, [Lehrstühle](https://www.geku.uni-passau.de/lehrstuehle-und-professuren)
 - [Religionswissenschaft Universität Bayreuth](https://www.religion.uni-bayreuth.de/de/index.html)
+  - Kontakt: religion@uni-bayreuth.de, [Mitarbeitende](https://www.religion.uni-bayreuth.de/de/team/index.html)
+  - Social Media: [Facebook](https://www.facebook.com/Religionswissenschaft)
 
 ## Baden-Württemberg
 
 - [Evangelische Hochschule Ludwigsburg](https://www.eh-ludwigsburg.de/)
+  - Kontakt: rektorat@eh-ludwigsburg.de, [Mitarbeitende](https://www.eh-ludwigsburg.de/hochschule/personenverzeichnis/personenverzeichnis)
+  - Social Media: [Mastodon](https://xn--baw-joa.social/@EH_Ludwigsburg), [YouTube](https://www.youtube.com/channel/UCaT-cSwlYSp55sJ2BIyfqOA), [Facebook](https://de-de.facebook.com/EHLudwigsburg/), [Instagram](https://www.instagram.com/eh_ludwigsburg)
+  - Newsletter: https://www.eh-ludwigsburg.de/newsletter/anmeldung
 - [Evangelische Hochschule Freiburg](https://www.eh-freiburg.de/)
+  - Kontakt: [Mitarbeitende](https://www.eh-freiburg.de/personenverzeichnis/)
+  - Social Media: [Instagram](http://www.instagram.com/EHFreiburg), [LinkedIn](https://de.linkedin.com/school/evangelische-hochschule-freiburg/), [YouTube](https://www.youtube.com/EvangelischeHochschuleFreiburg)
+  - Newsletter: https://www.eh-freiburg.de/newsletter/
 - [Evangelische Hochschule Nürnberg](https://www.evhn.de/)
+  - Kontakt: zentrale@evhn.de, [Mitarbeitende](https://www.evhn.de/hochschule/organisation/personenverzeichnis)
+  - Social Media: [Facebook](https://www.facebook.com/evhn.de), [YouTube](https://www.youtube.com/user/evhnvideo), [X](https://twitter.com/evhNuernberg), [Instagram](https://www.instagram.com/evhn_nuernberg/)
+  - Campus-Informationen: https://www.evhn.de/hochschule/aktuelles-veranstaltungen/campus-informationen
 - [Theologische Fakultät der Universität Heidelberg](https://www.theologie.uni-heidelberg.de/de)
+  - Kontakt: dekanat@theologie.uni-heidelberg.de, [Mitarbeitende](https://www.theologie.uni-heidelberg.de/de/personen)
+  - Social Media: [Facebook](https://www.facebook.com/TheoBibHD), [Instagram](https://instagram.com/theoinhd), [YouTube](https://www.youtube.com/user/TheologieHeidelberg)
 - [Hochschule für Jüdische Studien Heidelberg](https://www.hfjs.eu/)
+  - Kontakt: info@hfjs.eu, [Mitarbeitende](https://www.hfjs.eu/hochschule/zentrale-einrichtungen/personenverzeichnis.html)
+  - Social Media: [Facebook](https://www.facebook.com/HfJS.Heidelberg/), [Instagram](https://www.instagram.com/hfjs.heidelberg/), [YouTube](https://www.youtube.com/@hochschulefurjudischestudi4962)
 - [Theologische Hochschule Reutlingen](https://www.th-reutlingen.de/de/)
+  - Kontakt: https://www.th-reutlingen.de/de/hochschule/verwaltung/
+  - Social Media: [Facebook](https://www.facebook.com/th.reutlingen), [Instagram](https://www.instagram.com/theologischehochschule/?hl=de), [YouTube](https://www.youtube.com/c/TheologischeHochschuleReutlingen)
+  - Newsletter: https://www.th-reutlingen.de/de/hochschule/newsletter/
 - [Katholische Hochschule Freiburg](https://www.kh-freiburg.de/de)
+  - Kontakt: infothek@kh-freiburg.de, [Mitarbeitende](https://www.kh-freiburg.de/de/hochschule/profil/personen)
+  - Social Media: [Instagram](https://www.instagram.com/khfreiburg/), [LinkedIn](https://de.linkedin.com/company/katholische-hochschule-freiburg)
+  - Newsletter: https://www.kh-freiburg.de/de/presse
 - [Theologische Fakultät der Albert-Ludwigs-Universität Freiburg](https://www.theol.uni-freiburg.de/)
+  - Kontakt: dekanat@theol.uni-freiburg.de, [Dekanat](https://www.theol.uni-freiburg.de/fakultaet/dekanat)  
+  - Podcast: https://www.videoportal.uni-freiburg.de/category/religion-and-theology/12
 - Eberhard Karls Universität Tübingen
-  - [Evangelisch-Theologische Fakultät](https://uni-tuebingen.de/fakultaeten/evangelisch-theologische-fakultaet/fakultaet/aktuelles/)
-  - [Katholisch-Theologische Fakultät](https://uni-tuebingen.de/fakultaeten/katholisch-theologische-fakultaet/fakultaet/)
+  - [Evangelisch-Theologische Fakultät](https://uni-tuebingen.de/fakultaeten/evangelisch-theologische-fakultaet/fakultaet/aktuelles/): ev.theologie@uni-tuebingen.de, [Mitarbeitende](https://uni-tuebingen.de/fakultaeten/evangelisch-theologische-fakultaet/personen/personenverzeichnis-register-of-persons/)
+  - [Katholisch-Theologische Fakultät](https://uni-tuebingen.de/fakultaeten/katholisch-theologische-fakultaet/fakultaet/): u02-info@uni-tuebingen.de, [Mitarbeitende](https://uni-tuebingen.de/fakultaeten/katholisch-theologische-fakultaet/fakultaet/personen/)
 - [Philosophische Fakultät und Fachbereich Theologie](https://www.phil.fau.de/)
+  - Kontakt: phil-dekanat@fau.de, [Dekanat](https://www.phil.fau.de/fakultaet/organisation-organe/organe/#collapse_0)
+  - Social Media: [Instagram](https://www.instagram.com/fau.phil/), [Bluesky](https://bsky.app/profile/fauphil.bsky.social)
 - [Fakultät für Geistes- und Humanwissenschaften der PH Karlsruhe](https://www.ph-karlsruhe.de/hochschule/fakultaet-fuer-geistes-und-humanwissenschaften)
+  - Kontakt: poststelle@ph-karlsruhe.de, [Mitarbeitende](https://www.ph-karlsruhe.de/personen/)
 - [Institut für Theologie der PH Ludwigsburg](https://www.ph-ludwigsburg.de/fakultaet-1/institut-fuer-theologie)
+  - Kontakt: rektorat@ph-ludwigsburg.de, [Profs](https://www.ph-ludwigsburg.de/fakultaet-1/institut-fuer-theologie/professorinnen-und-professoren), [Lehrbeauftragte](https://www.ph-ludwigsburg.de/fakultaet-1/institut-fuer-theologie/lehrbeauftragte), [Akad. MA](https://www.ph-ludwigsburg.de/fakultaet-1/institut-fuer-theologie/akad-mitarbeiterinnen-und-mitarbeiter)
 - [Pädagogische Hochschule Weingarten - Fakultät I](https://www.ph-weingarten.de/hochschule/fakultaet-i/)
-- [Ökumenisches Institut für Theologie und Religionspädagogik](https://www.ph-gmuend.de/einrichtungen/fakultaet-i/oekumenisches-institut-fuer-theologie-religionspaedagogik)
+  - Kontakt: DekanF1@ph-weingarten.de, [Mitarbeitende](https://www.ph-weingarten.de/hochschule/personenverzeichnis/a/)
+- [Ökumenisches Institut für Theologie und Religionspädagogik](https://www.ph-gmuend.de/hochschule/fakultaeten/fakultaet-i/oekumenisches-institut-fuer-theologie-religionspaedagogik)
