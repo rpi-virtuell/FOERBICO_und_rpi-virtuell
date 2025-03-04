@@ -61,6 +61,8 @@ title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegb
 cover:
   relative: false
   image: https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.png
+  caption: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
+  alt: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
   hiddenInSingle: false
 summary: |
   Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
