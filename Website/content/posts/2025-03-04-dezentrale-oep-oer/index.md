@@ -51,7 +51,6 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-03-04'
-
 #staticSiteGenerator:
 author:
   - Jörg Lohrer
@@ -59,23 +58,17 @@ author:
   - Bastian Granas
 title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
 cover:
-  relative: false
-  image: https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.png
+  relative: true
+  image: dezentrale-oep-oer.png
   caption: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
   alt: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
   hiddenInSingle: false
 summary: |
   Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
 url: dezentrale-oep-oer
-
 ---
 
-# Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter
-*Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft*
-
----
-
-### **Warum wir eine neue Perspektive brauchen**
+## **Warum wir eine neue Perspektive brauchen**
 
 Die aktuelle digitale Bildungslandschaft gleicht einem Flickenteppich isolierter Plattformen, die zwar öffentlich zugänglich, aber jeweils unterschiedlich verortet und mit verschiedenen Laufzeiten finanziert als große Einzelprojekte im digitalen Raum stehen.
 Diese „Datensilos“ verhindern nicht nur die Auffindbarkeit von Ressourcen und ihre gemeinschaftliche Weiternutzung, sondern gefährden auch die Nachhaltigkeit offener Bildung: Wenn Fördergelder auslaufen, verschwinden mit den Plattformen nicht nur Materialien sondern auch wertvolle Nutzerinteraktionen wie Kommentare, Sammlungen und auch die kollaborativen Weiterentwicklungen der Bildungsmaterialien aus den Communities.
@@ -85,9 +78,7 @@ Doch Bildung sollte resilient sein – unabhängig von politischen oder finanzie
 Hier setzt die Vision eines **dezentralen Datenraums** an: Statt zentraler Kontrolle verteilt er Daten auf viele Akteure, fördert Interoperabilität sowie Datensouveränität der Nutzer:innen und ermöglicht neue Geschäftsmodelle.
 Inspiriert vom Messaging Protokoll "[Nostr](https://nostr.how/de/what-is-nostr)" – ursprünglich für zensurresistente soziale Netzwerke entwickelt – könnte so eine Infrastruktur entstehen, die Offenheit, Teilhabe und Vernetzung ins Zentrum stellt.
 
----
-
-### Von OER zu OEP: Offenheit als Haltung
+## Von OER zu OEP: Offenheit als Haltung
 
 **Open Educational Resources (OER)** als frei verfügbare Bildungsmaterialien sind nur der erste Schritt.
 Echte **Open Educational Practices (OEP)** umfassen eine Kultur des Teilens, kollaboratives Lernen und demokratische Bildungsprozesse.
@@ -99,9 +90,7 @@ Doch dafür braucht es mehr als nur frei lizenzierte Materialien. Es braucht (fr
 2. **Resilienz schaffen**: Dezentrale Speicherung verhindert den „Stecker-Ziehen-Effekt“.
 3. **Vernetzung fördern**: Plattformübergreifende Zusammenarbeit wird zur Norm, nicht zur Ausnahme.
 
----
-
-### Wie Nostr die Bildungsinfrastruktur revolutionieren könnte
+## Wie Nostr die Bildungsinfrastruktur revolutionieren könnte
 
 Die technische Grundlage für vernetzte Bildung sollte also nicht analog zu Systemen entwickelt werden, deren Grundlage ist, Nutzer und Inhalte (oft ökonomisch gewollt) an sich zu binden.
 Stattdessen sollte sie strukturell so angelegt sein, die digitale Vernetzung, die wir uns für die Bildung wünschen, bereits grundlegend zu enthalten.
@@ -114,13 +103,9 @@ Das [Nostr-Protokoll](https://nostr.how/de/what-is-nostr) erfüllt diese grundle
 - **Events & Schlüsselpaare**: Lernmaterialien, Kommentare oder Sammlungen werden als „Events“ gespeichert, signiert mit kryptografischen Schlüsseln. So bleibt die Urheberschaft nachvollziehbar, ohne zentrale Autorität.
 - **Interoperabilität & Erweiterbarkeit**: Das Protokoll ist modular aufgebaut, sodass verschiedene Eventtypen integriert werden können. So könnten Metadatenstandards wie das [Allgemeine Metadatenprofil (AMB)](https://dini-ag-kim.github.io/amb/latest/) abgebildet werden, um die Publikation und den Konsum von Bildungsmetadaten plattformübergreifend zu erleichtern.
 
-
-
 **Beispiel**: Eine Lehrkraft erstellt auf [MUNDO](https://mundo.schule/) eine Merkliste zu „Nachhaltigkeit“. Dieses Event wird via Nostr-Relays an [WirLernenOnline](https://wirlernenonline.de/) übertragen – die Liste ist somit auf Relays im Nostr-Netzwerk verfügbar. Selbst wenn MUNDO und WirLernenOnline offline gehen würden, wäre die Merkliste weiterhin verfügbar, da sie nicht auf der Plattform, sondern auf einem (oder mehreren) Relay(s) liegt.
 
----
-
-### Chancen für Gemeinschaft und Nachhaltigkeit
+## Chancen für Gemeinschaft und Nachhaltigkeit
 
 Ein dezentraler Datenraum fördert nicht nur technische Resilienz, sondern auch neue Formen der Zusammenarbeit:
 
@@ -128,9 +113,7 @@ Ein dezentraler Datenraum fördert nicht nur technische Resilienz, sondern auch 
 - **Monetarisierung ohne Abhängigkeit**: Services wie Metadaten-Anreicherung oder Premium-Relays (für personalisierte Feeds, zusätzliche Materialien) können monetarisierbar auf dem Protokoll abgebildet werden und könnten zusätzliche Einnahmequellen bieten, während die Infrastruktur gemeinfrei bleibt .
 - **Empowerment kleiner Akteure**: Lokale und kleinere Initiativen, die bis heute (2025!) nicht in der Lage sind, sich und ihre Materialien selbst in die öffentliche Bildungsinfrastruktur einzubringen, erhalten erweiterte Möglichkeiten.
 
----
-
-### Aufruf zum Mitgestalten
+## Aufruf zum Mitgestalten
 
 Die Umsetzung dieser Vision lebt von der Gemeinschaft. Inspiriert von Projekten wie [ReliLab](https://relilab.org/relilab/) oder [SynLLOER](https://synlloer.blogs.uni-hamburg.de/), laden wir ein:
 
@@ -140,6 +123,4 @@ Die Umsetzung dieser Vision lebt von der Gemeinschaft. Inspiriert von Projekten 
 
 Wie [Niels Winkelmann im Digilog.Blog ](https://digilog.blog/2024/01/08/oep-groesser-denken/)schreibt: „OEP systemisch zu denken ist der Wind in den Segeln für eine Vision offener Bildung“ . 
 Lasst uns gemeinsam die Segel setzen – dezentral, partizipativ und zukunftssicher!
-:sailboat: "[for a race we must win](https://www.team-malizia.com/news/the-message-behind-our-slogan-a-race-we-must-win)"
-
-
+&#x26F5; "[for a race we must win](https://www.team-malizia.com/news/the-message-behind-our-slogan-a-race-we-must-win)"
