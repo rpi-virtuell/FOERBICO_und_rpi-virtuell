@@ -68,7 +68,7 @@ summary: |
 url: dezentrale-oep-oer
 ---
 
-## **Warum wir eine neue Perspektive brauchen**
+## Warum wir eine neue Perspektive brauchen
 
 Die aktuelle digitale Bildungslandschaft gleicht einem Flickenteppich isolierter Plattformen, die zwar öffentlich zugänglich, aber jeweils unterschiedlich verortet und mit verschiedenen Laufzeiten finanziert als große Einzelprojekte im digitalen Raum stehen.
 Diese „Datensilos“ verhindern nicht nur die Auffindbarkeit von Ressourcen und ihre gemeinschaftliche Weiternutzung, sondern gefährden auch die Nachhaltigkeit offener Bildung: Wenn Fördergelder auslaufen, verschwinden mit den Plattformen nicht nur Materialien sondern auch wertvolle Nutzerinteraktionen wie Kommentare, Sammlungen und auch die kollaborativen Weiterentwicklungen der Bildungsmaterialien aus den Communities.
@@ -95,7 +95,7 @@ Doch dafür braucht es mehr als nur frei lizenzierte Materialien. Es braucht (fr
 Die technische Grundlage für vernetzte Bildung sollte also nicht analog zu Systemen entwickelt werden, deren Grundlage ist, Nutzer und Inhalte (oft ökonomisch gewollt) an sich zu binden.
 Stattdessen sollte sie strukturell so angelegt sein, die digitale Vernetzung, die wir uns für die Bildung wünschen, bereits grundlegend zu enthalten.
 Wir suchen somit nicht nach lokalen Softwarelösungen für die Organisation von OER- und OEP-Communities, sondern nach grundlegenden Technologieansätzen, die diese Anforderungen erfüllen können.
-Dadurch rücken neben den Schnittstellenlösungen, die Plattformen entwickeln müssen, um künftig anschlussfähig zu sein, zunehmend die zugrunde liegenden Protokolle für Zusammenarbeit und vernetzte Bildung in den Fokus einer Entwicklung, wenn diese auf Wirkung und Nachhaltigkeit angelegt sein soll. 
+Dadurch rücken neben den Schnittstellenlösungen, die Plattformen entwickeln müssen, um künftig anschlussfähig zu sein, zunehmend die zugrunde liegenden Protokolle für Zusammenarbeit und vernetzte Bildung in den Fokus einer Entwicklung, wenn diese auf Wirkung und Nachhaltigkeit angelegt sein soll.
 
 Das [Nostr-Protokoll](https://nostr.how/de/what-is-nostr) erfüllt diese grundlegenden Anforderungen:
 
@@ -121,6 +121,6 @@ Die Umsetzung dieser Vision lebt von der Gemeinschaft. Inspiriert von Projekten 
 2. **Denkt infrastrukturübergreifend**: Entwickelt OER nicht im Silo, sondern integriert sie in dezentrale Netzwerke.
 3. **Engagiert euch politisch**: Fordert Fördergelder für offene Protokolle statt proprietärer Plattformen.
 
-Wie [Niels Winkelmann im Digilog.Blog ](https://digilog.blog/2024/01/08/oep-groesser-denken/)schreibt: „OEP systemisch zu denken ist der Wind in den Segeln für eine Vision offener Bildung“ . 
+Wie [Niels Winkelmann im Digilog.Blog](https://digilog.blog/2024/01/08/oep-groesser-denken/) schreibt: „OEP systemisch zu denken ist der Wind in den Segeln für eine Vision offener Bildung“.
 Lasst uns gemeinsam die Segel setzen – dezentral, partizipativ und zukunftssicher!
 &#x26F5; "[for a race we must win](https://www.team-malizia.com/news/the-message-behind-our-slogan-a-race-we-must-win)"
