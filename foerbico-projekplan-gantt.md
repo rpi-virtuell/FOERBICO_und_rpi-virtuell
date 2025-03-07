@@ -1,4 +1,3 @@
-```mermaid
 gantt
     title       Projektplan FOERBICO Gantt-Diagramm
     dateFormat  YYYY-MM
@@ -97,4 +96,3 @@ click AP11-1 href "https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milest
 click AP11-2 href "https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/104"
 click AP11-3 href "https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/106"
 click AP11-4 href "https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/120"
-```
