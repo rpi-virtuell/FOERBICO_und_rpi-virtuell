@@ -6,7 +6,7 @@
 | [AP 1-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/5)            | Projektkooperation und -koordination Phase1                                            | 06.24    |
 | [AP 3-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/9)            | Anforderungserhebung zu Netzwerkaktiven                          | 06.24    |
 | [AP 9-3](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/4)            | Kollaborationsumgebung für das Projekt (CI)                     | 07.24    |
-| [AP 1-3](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/79)           | [Auftakt-]Kommunikationsstrategie                          | 08.24    |
+| [AP 1-2](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/79)           | [Auftakt-]Kommunikationsstrategie                          | 08.24    |
 | [AP 4-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/80)           | Konzept Redaktionssystem für Communities                           | 08.24    |
 | [AP 11-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/10)          | Basiserhebung (FAU)                                                                               | 08.24    |
 | [AP 2-1](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/milestone/82)           | Voraussetzungen: Erhebung & Anbahnung                                        | 10.24    |
