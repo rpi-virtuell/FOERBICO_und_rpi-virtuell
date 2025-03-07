@@ -48,6 +48,21 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+  - Paula Paschke
+  - Phillip Angelina
+title: 'OER meets Fachdidaktik'
+cover:
+  relative: false
+  image: Gruppenarbeit_Tagung.jpg
+  hiddenInSingle: false
+summary: |
+  Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation
+  in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
+  Hochschuldidaktik im Februar 2025
+url: oer-meets-fachdidaktik
 ---
 # OER meets Fachdidaktik – Konferenz  Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre 
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025
