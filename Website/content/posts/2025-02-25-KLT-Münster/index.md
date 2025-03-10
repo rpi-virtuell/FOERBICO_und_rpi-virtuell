@@ -68,7 +68,7 @@ url: oer-meets-fachdidaktik
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025
 
 ![Gruppenfoto](https://www.uni-muenster.de/imperia/md/images/fb2/zentraleseiten/aktuelles/fittosize_1492_1561_bee344104bec0ffcc0c0b3a62af859fd_20250228_oer-tagung_quer_haupttext.jpg)
-© KTF | Dekanat
+© [KTF | Dekanat](https://www.uni-muenster.de/FB2/dekanat/)
 
 In der Fahrradstadt, in der die Glocken läuten und es fast immer regnet (Münster), kamen Laura Mößle aus dem Projekt FOERBICO (GU-Frankfurt), Paula Paschke aus dem Projekt [TiRU](https://www.uni-frankfurt.de/133803251/Forschungsprojekte_Religionsp%C3%A4dagogik#a_0d817d3d-60a14121) (GU-Frankfurt) und Phillip Angelina aus dem Projekt FOERBICO (FAU Erlangen-Nürnberg) zusammen, um gemeinsam an der Jahrestagung des Netzwerks *Theologie und Hochschuldidaktik* vom 24. bis 25. Februar 2025 teilzunehmen. Grundidee der Veranstaltung war es, mit Fachdidaktiker:innen verschiedener theologischer Disziplinen über die Themen OER und OEP aus hochschuldidaktischer Perspektive zu diskutieren.
 Das Spektrum an Vorkenntnissen zu OER der Tagungsteilnehmer:innen war breit: Von OER-Ersteller:innen bis hin zu OER-Neulingen waren Fachdidaktiker:innen verschiedener theologischer Disziplinen aus ganz Deutschland und Österreich angereist.
