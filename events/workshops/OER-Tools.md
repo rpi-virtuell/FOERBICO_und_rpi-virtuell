@@ -28,22 +28,9 @@
 | ![OpenToonz Logo](https://opentoonz.github.io/e/img/cover_logo.png) | **[OpenToonz](https://opentoonz.github.io/e/)** | **Open Source** | **Tool für digitales Zeichnen und Animation, Einarbeitung nötig.** |
 | ![Pencil2D Logo](https://www.pencil2d.org/images/pencil2d-logo.png) | **[Pencil2D](https://www.pencil2d.org/)** | **Open Source** | **Einfaches Animations-Tool, nicht von der Oberfläche abschrecken lassen.** |
 
-**H5P**
+### **H5P**
 
 | Logo | Name   | Lizenzmodell | Beschreibung                                                              |
 | :--- | :----- | :----------- | :------------------------------------------------------------------------ |
 | ![H5P Logo](https://pad.gwdg.de/uploads/79da53fb-a7e1-4f78-b009-b2e730e707eb.png) | [**H5P**](https://h5p.org/) | **Open Source** | **Tool zum Erstellen von interaktiven Inhalten, sehr benutzer\*innenfreundlich.** |
-
-
-
-
-
----
-
-### **H5P**
-
-| Logo | Name | Lizenzmodell | Beschreibung |
-| :--- | :--- | :----------- | :----------- |
-| ![H5P Logo](https://h5p.org/sites/default/files/h5p_logo.svg) | [H5P?](https://h5p.org/) | Open Source | Tool zum Erstellen von interaktiven Inhalten, sehr benutzer\*innenfreundlich. |
-
 ---
