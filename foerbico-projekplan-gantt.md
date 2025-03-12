@@ -21,8 +21,10 @@ gantt
     AP 3-3 Community-Hub für Management & ÖA nutzen: active, AP3-3, 2024-12, 2026-06
     AP 11-2 Fortbildungsformate weiterentwickeln: crit, AP11-2, 2024-12, 2026-10
     AP 8-3 Wissenschaftliches Netzwerk erweitern: active, AP8-3, 2024-12, 2027-01
-    AP 100-5 Woodpecker möchte auch zu seinem Recht kommen!: done, crit, AP8-3, 2024-12, 2027-01
-    AP 101-00 Woodpecker zwei: crit, AP1-0, 2024-05, 2027-04
+    AP 101-5 Woodpecker möchte auch zu seinem Recht kommen!: done, crit, AP8-3, 2024-05, 2027-04
+    AP 102-00 Woodpecker zwei: crit, AP1-1, 2024-05, 2027-04
+    AP 103-Drei Woodpecker 3: crit, AP1-1, 2024-05, 2027-04
+    AP 104-1 Woody-mein Freund - ohne Link: crit, AP1-0, 2024-05, 2027-04
     section 2025
     AP 4-3 Metadaten-Generator für OEP/OER entwickeln: AP4-3, 2025-06, 2025-09
     AP 6-1 Fortbildungsformate für OER entwickeln: active, crit, AP6-1, 2025-03, 2025-09

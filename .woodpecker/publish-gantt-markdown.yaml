@@ -1,11 +1,15 @@
 when:
-   - event: push
-     branch: feature/*
+  - event: push
+    branch: feature/*
+    path:
+      include: ['foerbico-projekplan-gantt.md'] # richtig? oder geht "nur" '/**/*gantt.md'?
+      on_empty: false
+
 #     #branch: main
     # path:
-    #   include: ['/**/*gantt.md'] # richtig? oder geht "nur" '/**/*gantt.md'?
+    #   include: ['/**/*gantt.md'] # richtig? oder geht "nur" '/**/*gantt.md'? //*.md
     #   #~/foerbico-projekplan-gantt.md
-    #   on_empty: false
+    #foerbico-projekplan-gantt.md
 
 steps:
   - name: log_start_time
