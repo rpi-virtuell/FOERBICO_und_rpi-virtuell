@@ -3,7 +3,7 @@ when:
     #branch: main
     branch: feature/*
     path:
-      include: ['/**/*gantt*md'] # richtig? oder geht "nur" '/**/*gantt.md'?
+      include: ['/**/*gantt.md'] # richtig? oder geht "nur" '/**/*gantt.md'?
       #~/foerbico-projekplan-gantt.md
       on_empty: false
 
