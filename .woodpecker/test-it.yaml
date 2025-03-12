@@ -1,0 +1,48 @@
+steps:
+
+  - name: test_quoting_ash_or_bash
+    image: alpine
+    environment:
+      SSH_HOST:
+        from_secret: ssh_host
+      SSH_USER:
+        from_secret: ssh_user
+      SSH_KEY:
+        from_secret: ssh_key
+      SSH_PORT:
+        from_secret: ssh_port
+      TARGET_PATH:
+        from_secret: target_path
+
+    commands:
+      - echo "Alpine Linux is using BusyBox that means `ash`!"
+      - echo ''
+
+      - apk add --no-cache openssh
+      - mkdir -p ~/.ssh
+      - echo "$SSH_KEY" | tr -d '\r' > ~/.ssh/deployKey
+      - chmod 600 ~/.ssh/deployKey
+      - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
+      - chmod 600 ~/.ssh/known_hosts
+
+      # - apk add --no-cache bash
+      # - which bash
+      # - rm /bin/sh
+      # - ln -s /bin/bash /bin/sh
+
+      - echo '#############################################################'
+      - BLOG_FOLDER_BASENAME=oer-community-blog
+      - BLOG_FOLDER=$TARGET_PATH/$BLOG_FOLDER_BASENAME
+      - SCRIPT_FOLDER=$BLOG_FOLDER/scripts
+      - TEST_FOLDER=$BLOG_FOLDER/test-folder
+
+      - echo $TARGET_PATH; echo $BLOG_FOLDER; echo $SCRIPT_FOLDER; echo $TEST_FOLDER
+      - pwd
+      - which sh
+      - ls -l $(which sh)
+      - sh --version
+      - /bin/busybox --list | grep who
+      - echo "wenn ich das wüsste..."
+      - echo "#~~########"
+      #- ssh -i ~/.ssh/deployKey -p "$SSH_PORT" "$SSH_USER"@"$SSH_HOST" "mkdir -p $SCRIPT_FOLDER; mkdir -p $TEST_FOLDER"
+
