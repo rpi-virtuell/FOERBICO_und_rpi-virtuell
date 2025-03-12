@@ -1,5 +1,5 @@
-# when:
-#   - event: push
+when:
+   - event: push
 #     #branch: main
 #     branch: feature/*
     # path:

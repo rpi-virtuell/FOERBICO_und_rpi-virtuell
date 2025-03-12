@@ -22,9 +22,7 @@ gantt
     AP 11-2 Fortbildungsformate weiterentwickeln: crit, AP11-2, 2024-12, 2026-10
     AP 8-3 Wissenschaftliches Netzwerk erweitern: active, AP8-3, 2024-12, 2027-01
     AP 100-5 Woodpecker möchte auch zu seinem Recht kommen!: insolvent, AP8-3, 2024-12, 2027-01
-        AP 100-5 Woodpecker möchte auch zu seinem Recht kommen!: insolvent, AP8-3, 2024-12, 2027-01
-            AP 100-5 Woodpecker möchte auch zu seinem Recht kommen!: insolvent, AP8-3, 2024-12, 2027-01
-                AP 100-5 Woodpecker möchte auch zu seinem Recht kommen!: insolvent, AP8-3, 2024-12, 2027-01
+    AP 101-00 Woodpecker zwei: crit, Bp99-5, 2024-05, 2027-04
     section 2025
     AP 4-3 Metadaten-Generator für OEP/OER entwickeln: AP4-3, 2025-06, 2025-09
     AP 6-1 Fortbildungsformate für OER entwickeln: active, crit, AP6-1, 2025-03, 2025-09
