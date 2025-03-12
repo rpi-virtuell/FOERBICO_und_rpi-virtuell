@@ -4,7 +4,7 @@
 Am 11.03.25 fand von 10:00 - 11: 00 Uhr unsere erste Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik statt. Die erste der drei kompakten Veranstaltungen richtete den Fokus auf die Grundlagen und stand unter dem Titel "Einblick in die Welt von OER. Grundlagen, Relevanz und Vortiele in der Religionspädagogik und Theologie."
 Insgesamt waren sechs Teilnehmende aus der wissenschaftlichen Religionspädagogik dabei, allesamt im Hochschulkontext, sei es als Professor:in oder im Mittelbau tätig. 
 
-## Wir starten mit den Grundlagen
+## Erst mal die Basics
 Wir starteten mit den Grundlagen zu OER. Die [UNESCO (2016)]((https://www.unesco.de/bildung/open-educational-resources)) definiert OER wie folgt: 
 „Open Educational Resources (OER) sind Bildungsmaterialien jeglicher Art und in jedem Medium, die unter einer offenen Lizenz stehen. Eine solche Lizenz ermöglicht den kostenlosen Zugang sowie die kostenlose Nutzung, Bearbeitung und Weiterverbreitung durch Dritte ohne oder mit geringfügigen Einschränkungen.“ 
 Wichtig ist hierbei, dass OER sehr vielfältig sein können, neben Lehrbüchern, Bildern, können auch Podcasts oder Planspiele, Präsentationen oder Self-Assessments als OER frei zugänglich gemacht werden. 
