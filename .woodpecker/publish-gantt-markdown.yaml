@@ -2,23 +2,11 @@ when:
   - event: push
     branch: feature/*
     path:
-      include: ['**/projekt*gan*.md'] # richtig? oder geht "nur" '/**/*gantt.md'?
+      include: ['**/projekt*gan*.md']
       on_empty: false
 
-#include: ['foerbico-projekplan-gantt.md'] # richtig? oder geht "nur" '/**/*gantt.md'?
-#     #branch: main
-    # path:
-    #   include: ['/**/*gantt.md'] # richtig? oder geht "nur" '/**/*gantt.md'? //*.md
-    #   #~/foerbico-projekplan-gantt.md
-    #foerbico-projekplan-gantt.md
-
 steps:
-  - name: log_start_time
-    image: alpine
-    commands:
-      - date -I'seconds'
-
-  - name: copy_to_server
+  - name: copy_gantt_markdown
     image: alpine
     environment:
       SSH_HOST:
@@ -42,9 +30,5 @@ steps:
       - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
       - chmod 600 ~/.ssh/known_hosts
       - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
-
       - scp -r -i ~/.ssh/deployKey -P $SSH_PORT Organisation/projektplan-gantt.md $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH_GANTT/gantt.md
-
       - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_end_copy_$(date +'%Y-%m-%d_%T')"
-
-      #- scp -r -i ~/.ssh/deployKey -P $SSH_PORT foerbico-projekplan-gantt.md $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH_GANTT/gantt.md
