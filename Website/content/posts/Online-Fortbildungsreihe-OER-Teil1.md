@@ -1,7 +1,62 @@
-# Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: 'OER meets Fachdidaktik – Konferenz Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre'
+description: >-
+  Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation
+  in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
+  Hochschuldidaktik im Februar 2025
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+keywords:
+  - OER
+  - OEP
+  - Hochschuldidaktik
+  - Theologie
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-03-05'
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+  - Phillip Angelina
+title: 'Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie"
+cover:
+  relative: true
+  image: 
+  hiddenInSingle: true
+summary: |
+  Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
+url: oer-meets-fachdidaktik
+---
+
 
 ## Wir legen endlich los!
-Am 11.03.25 fand von 10:00 - 11: 00 Uhr unsere erste Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik statt. Die erste der drei kompakten Veranstaltungen richtete den Fokus auf die Grundlagen und stand unter dem Titel "Einblick in die Welt von OER. Grundlagen, Relevanz und Vortiele in der Religionspädagogik und Theologie."
+Am 11.03.25 fand von 10:00 - 11:00 Uhr unsere erste Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik statt. Die erste der drei kompakten Veranstaltungen richtete den Fokus auf die Grundlagen und stand unter dem Titel "Einblick in die Welt von OER. Grundlagen, Relevanz und Vortiele in der Religionspädagogik und Theologie."
 Insgesamt waren sechs Teilnehmende aus der wissenschaftlichen Religionspädagogik dabei, allesamt im Hochschulkontext, sei es als Professor:in oder im Mittelbau tätig. 
 
 ## Erst mal die Basics
