@@ -43,14 +43,14 @@ datePublished: '2025-03-13'
 author: |
   - Laura Mößle
   - Phillip Angelina
-title: 'Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie"
+title: 'Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie'
 cover:
   relative: true
   image: 
   hiddenInSingle: true
 summary: |
   Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
-url: oer-meets-fachdidaktik
+url: OER-Werkstatt
 ---
 
 ## Wir legen endlich los!
