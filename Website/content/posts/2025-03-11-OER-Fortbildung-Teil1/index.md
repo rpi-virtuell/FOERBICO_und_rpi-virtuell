@@ -1,12 +1,17 @@
 ---
 #commonMetadata:
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
-name: 'Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie'
+name: >-
+  Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik &
+  Theologie
 description: >-
-  Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
+  Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem
+  Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die
+  besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
 license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/oer-fortbildungsreihe-1
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -16,7 +21,7 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-    - givenName: Phillip
+  - givenName: Phillip
     familyName: Angelina
     id: https://orcid.org/0000-0002-6905-5523
     type: Person
@@ -34,23 +39,25 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
+image: https://oer.community/oer-fortbildungsreihe-1/OER-Fortbildungsreihe-1.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-03-13'
+
 #staticSiteGenerator:
-author: |
+author:
   - Laura Mößle
   - Phillip Angelina
 title: 'Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie'
 cover:
   relative: true
-  image: 
-  hiddenInSingle: true
+  image: OER-Fortbildungsreihe-1.png
 summary: |
   Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
-url: OER-Werkstatt
+url: oer-fortbildungsreihe-1
 ---
 ## Wir legen endlich los!
 Am 11.03.25 fand von 10:00 - 11:00 Uhr unsere erste Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik statt. Die erste von drei Kompaktveranstaltungen widmete sich den Grundlagen und stand unter dem Titel "Einblick in die Welt der OER. Grundlagen, Relevanz und Nutzen für Religionspädagogik und Theologie".
