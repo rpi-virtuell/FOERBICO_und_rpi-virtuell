@@ -1,10 +1,55 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  Markdown als Open Source Tool für die OER-Erstellung 
+description: >-
+Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/markdown-einfuehrung-klimaoer
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - OER
+  - Open Source
+  - Markdown
+  - Tools
+inLanguage:
+  - de
+image: >-
+  https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+datePublished: '2025-03-20'
+#staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
+title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
+cover:
+  relative: true
+  image: dezentrale-oep-oer.png
+summary: |
+Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
+url: markdown-einfuehrung-klimaoer
+---
+
+
 # Markdown als Open Source Tool für die OER-Erstellung 
 
 ## Einblicke aus dem KlimaOER-Workshop am 17.03.2025
 
 Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von [KlimaOER](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/klimaoer/klimaoer). Neben einem Einstieg in verschiedene Tools gab es auch einen Hands-On-Teil, in dem die Teilnehmenden ein ausgewähltes Tool selbst ausprobieren konnten. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben.
 
-Die vollständige Präsentation findet ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/medien-inhalte/opensourcetools_workshop.pdf/@@download).
+Weitere Projektergebnisse von KlimaOER könnt ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/klimaoer/projektergebnisse) einsehen. Die vollständige Präsentation findet ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/medien-inhalte/opensourcetools_workshop.pdf/@@download).
 
 ## Einstieg in Markdown: Was ist das eigentlich?
 
