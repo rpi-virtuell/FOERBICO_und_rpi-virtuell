@@ -25,7 +25,7 @@ keywords:
 inLanguage:
   - de
 image: >-
-  https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.png
+  https://oer.community/dezentrale-oep-oer/Wetterfrosch-CC0.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -36,7 +36,7 @@ author:
 title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
 cover:
   relative: true
-  image: dezentrale-oep-oer.png
+  image: Wetterfrosch-CC0.jpg
 summary: |
 Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
 url: markdown-einfuehrung-klimaoer
