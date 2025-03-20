@@ -4,9 +4,9 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: >-
-  Markdown als Open Source Tool für die OER-Erstellung 
+  Markdown als Open Source Tool für die OER-Erstellung
 description: >-
-Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
+  Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/markdown-einfuehrung-klimaoer
 creator:
@@ -33,12 +33,12 @@ datePublished: '2025-03-20'
 #staticSiteGenerator:
 author:
   - Gina Buchwald-Chassée
-title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
+title: 'Markdown als Open Source Tool für die OER-Erstellung'
 cover:
   relative: true
   image: Wetterfrosch-CC0.jpg
 summary: |
-Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
+  Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
 url: markdown-einfuehrung-klimaoer
 ---
 
