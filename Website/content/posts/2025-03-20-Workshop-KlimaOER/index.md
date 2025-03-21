@@ -49,7 +49,7 @@ url: markdown-einfuehrung-klimaoer
 
 Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von [KlimaOER](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/klimaoer/klimaoer). Neben einem Einstieg in verschiedene Tools gab es auch einen Hands-On-Teil, in dem die Teilnehmenden ein ausgewähltes Tool selbst ausprobieren konnten. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben.
 
-Weitere Projektergebnisse von KlimaOER könnt ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/klimaoer/projektergebnisse) einsehen. Die vollständige Präsentation findet ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/medien-inhalte/opensourcetools_workshop.pdf/@@download).
+Weitere Projektergebnisse von KlimaOER könnt ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/klimaoer/projektergebnisse) sowie im [Blogbeitrag von KlimaOER](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/klimaoer/berichte/open-source-tools-bericht) einsehen. Die vollständige Präsentation findet ihr [hier](https://www.ifgeo.uni-bonn.de/de/abteilungen/meteorologie/ag-klimamonitoring/medien-inhalte/opensourcetools_workshop.pdf/@@download).
 
 ## Einstieg in Markdown: Was ist das eigentlich?
 
