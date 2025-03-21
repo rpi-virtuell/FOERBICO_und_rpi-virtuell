@@ -1,27 +1,27 @@
-# Lösungsansätze zur Integration religionspädagogischer Fachzeitschriften in OER-Plattformen
+# Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?
 
-Auf Einladung von FOERBICO fand eine Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System OERSI statt. Die Diskussion bewegte sich im Spannungsfeld zwischen wissenschaftlicher Reputation und der Kategorisierung als Lernmaterial, wobei verschiedene technische und konzeptionelle Fragen aufgeworfen werden.
+Auf Einladung von FOERBICO fand eine digitale Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System [OERSI](https://oersi.org/resources/pages/de/) statt. Teilgenommen haben Vertreter:innen des [WiReLex](https://wirelex.de), der [RpB](https://rpb-journal.de/index.php/rpb), des [ÖRF](https://oerf-journal.eu/index.php/oerf) und des [Theo-Webs](https://www.theo-web.de) sowie Verantwortliche der Bibliotheken, der Deutschen Bibelgesellschaft und von OERSI. Die Diskussion bewegte sich im Spannungsfeld zwischen wissenschaftlicher Reputation und der Kategorisierung als Lernmaterial, wobei verschiedene technische und konzeptionelle Fragen aufgeworfen werden.
 
 ## Technische Möglichkeiten und Metadaten-Integration
 
-Die technischen Voraussetzungen für eine Integration religionspädagogischer Fachzeitschriften in OER-Plattformen scheinen grundsätzlich gegeben zu sein. Die Verantwortlichen von OERSI zeigen sich flexibel bezüglich der Schnittstellen und akzeptieren verschiedene Formate wie OAI-PMH, JSON-API oder sogar HTML-Strukturen. Wichtig ist, dass strukturierte Metadaten vorhanden sind, wobei die Anforderungen an deren Qualität nicht übermäßig hoch sind. Beispielsweise verfügt die Zeitschrift "Religionspädagogische Beiträge" [https://rpb-journal.de/index.php/rpb/index]  bereits über eine OAI-Schnittstelle, die problemlos angebunden werden könnte.
+Die technischen Voraussetzungen für eine Integration religionspädagogischer Fachzeitschriften in OER-Plattformen scheinen grundsätzlich gegeben zu sein. Die Verantwortlichen von OERSI zeigten sich flexibel bezüglich der Schnittstellen und akzeptieren verschiedene Formate wie OAI-PMH, JSON-API oder sogar HTML-Strukturen. Wichtig ist, dass strukturierte Metadaten vorhanden sind, wobei die Anforderungen an deren Qualität nicht übermäßig hoch sind. Beispielsweise verfügt die [RpB](https://rpb-journal.de/index.php/rpb/index) bereits über eine OAI-Schnittstelle, die problemlos angebunden werden könnte.
 
 ## Das Spannungsfeld zwischen OER und Wissenschaft
 
-Zwei Fragen eröffnen sich hier: Ein zentrales Thema der Diskussion ist die Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. Das Bedenken wurde geäußert, dass dies den Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.
+Zentrale Fragen eröffneten sich hier: Ein zentrales Thema der Diskussion war die Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. So wurden Bedenken geäußert, dass dies den Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.
 
 Ein weiterer Diskussionspunkt betrifft das Sammlungsprofil von OERSI, das möglicherweise nicht optimal zu den Inhalten wissenschaftlich-religionspädagogischer Zeitschriften passt, da diese nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind.
 
-Wie eng beieinander stehen wissenschaftliche Open-Access-Regeln und hochschulbezogene Bildungsmaterialien?
+Darüber hinaus muss weiter evaluiert werden, wie sich das Verhältnis wissenschaftlicher Open-Access-Regeln und hochschulbezogene Bildungsmaterialien gestaltet.
 
 
 ## Chancen und Differenzierungsmöglichkeiten
 
-Trotz der genannten Bedenken werden auch Chancen einer Integration gesehen. Die Sichtbarkeit fachwissenschaftlicher Artikel auf OER-Plattformen könnte erhöht werden, insbesondere wenn sie unter CC-Lizenzen stehen, was die rechtssichere Verwendung in verschiedenen Lehr- und Lernkontexten erleichtern würde.
+Trotz der genannten Bedenken wurden auch Chancen einer Integration gesehen. Die Sichtbarkeit fachwissenschaftlicher Artikel auf OER-Plattformen könnte erhöht werden, insbesondere wenn sie unter CC-Lizenzen stehen, was die rechtssichere Verwendung in verschiedenen Lehr- und Lernkontexten erleichtern würde.
 
-Es wird die Möglichkeit diskutiert, Differenzierungen vorzunehmen, etwa bezüglich des Niveaus (Hochschullehre, Oberstufe des Gymnasiums) oder des Kontextes der Verwendung. Dadurch könnte die Nutzung der publizierten Texte gefördert werden, ohne deren wissenschaftlichen Charakter in Frage zu stellen.
+Ferner wurde die Möglichkeit diskutiert, Differenzierungen durch die Autor:innen vor der Publikation vorzunehmen, etwa bezüglich des Niveaus des Textes (z.B. vorrangig geeignet für Hochschullehre oder die gymnasiale Oberstufe) oder des Verwendungskontexts. Dadurch könnte die Nutzung der publizierten Texte gefördert werden, ohne deren wissenschaftlichen Charakter in Frage zu stellen. 
 
-## Lösungsansätze und Empfehlungen
+## Impulse und Empfehlungen
 
 Aus der Diskussion lassen sich folgende konkrete Lösungsansätze ableiten:
 
@@ -35,8 +35,8 @@ Aus der Diskussion lassen sich folgende konkrete Lösungsansätze ableiten:
 
 ## Fazit und nächste Schritte
 
-Die Integration religionspädagogischer Fachzeitschriften in OER-Plattformen birgt Chancen für eine erhöhte Sichtbarkeit und Nutzbarkeit in Bildungskontexten. Gleichzeitig sollte sorgfältig abgewogen werden, welche Auswirkungen dies auf die wissenschaftliche Reputation haben könnte.
+Die Integration religionspädagogischer Open-Access-Fachzeitschriften in OER-Plattformen birgt Chancen für eine erhöhte Sichtbarkeit und Nutzbarkeit in Bildungskontexten. Gleichzeitig sollte sorgfältig abgewogen werden, welche Auswirkungen dies auf die wissenschaftliche Reputation haben könnte.
 
-Ein pragmatischer Ansatz wäre, zunächst die tatsächlichen Auswirkungen einer OER-Kategorisierung auf die wissenschaftliche Indexierung zu klären und parallel die technischen Möglichkeiten einer differenzierten Integration zu explorieren. Die vorgeschlagene Arbeitsgruppe könnte diese Aufgaben übernehmen und in einem nächsten Treffen konkrete Handlungsempfehlungen vorstellen.
+Ein pragmatischer Ansatz wäre, zunächst die tatsächlichen Auswirkungen einer OER-Kategorisierung auf die wissenschaftliche Indexierung zu klären und parallel die technischen Möglichkeiten einer differenzierten Integration zu explorieren. Eine Arbeitsgruppe könnte diese Aufgaben übernehmen und in einem nächsten Treffen konkrete Handlungsempfehlungen vorstellen.
 
-Letztendlich sollte die Entscheidung von den spezifischen Zielen und Prioritäten der jeweiligen Zeitschriften abhängen – wie sich die Förderung der Nutzung in Bildungskontexten mit der Stärkung der wissenschaftlichen Reputation einhergehen kann.
+Letztendlich sollte die Entscheidung von den spezifischen Zielen und Prioritäten der jeweiligen Zeitschriften abhängen. Hier gilt es weiterhin zu prüfen, ob und wie die Förderung der Nutzung wissenschaftlicher Artikel in Bildungskontexten mit der Stärkung der wissenschaftlichen Reputation einhergehen kann.
