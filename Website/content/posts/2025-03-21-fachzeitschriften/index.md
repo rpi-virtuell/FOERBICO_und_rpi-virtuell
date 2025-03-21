@@ -1,16 +1,18 @@
 # Lösungsansätze zur Integration religionspädagogischer Fachzeitschriften in OER-Plattformen
 
-Auf Einladung von Prof. Manfred Pirner fand eine Fachdiskussion über die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System OERSI statt. Die Diskussion bewegte sich im Spannungsfeld zwischen wissenschaftlicher Reputation und der Kategorisierung als Lernmaterial, wobei verschiedene technische und konzeptionelle Fragen aufgeworfen werden.
+Auf Einladung von FOERBICO fand eine Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System OERSI statt. Die Diskussion bewegte sich im Spannungsfeld zwischen wissenschaftlicher Reputation und der Kategorisierung als Lernmaterial, wobei verschiedene technische und konzeptionelle Fragen aufgeworfen werden.
 
 ## Technische Möglichkeiten und Metadaten-Integration
 
-Die technischen Voraussetzungen für eine Integration religionspädagogischer Fachzeitschriften in OER-Plattformen scheinen grundsätzlich gegeben zu sein. Die Verantwortlichen von OERSI zeigen sich flexibel bezüglich der Schnittstellen und akzeptieren verschiedene Formate wie OAI-PMH, JSON-API oder sogar HTML-Strukturen. Die religionspädagogischen Beiträge verfügen bereits über eine OAI-Schnittstelle, die problemlos angebunden werden könnte. Wichtig ist lediglich, dass strukturierte Metadaten vorhanden sind, wobei die Anforderungen an deren Qualität nicht übermäßig hoch sind.
+Die technischen Voraussetzungen für eine Integration religionspädagogischer Fachzeitschriften in OER-Plattformen scheinen grundsätzlich gegeben zu sein. Die Verantwortlichen von OERSI zeigen sich flexibel bezüglich der Schnittstellen und akzeptieren verschiedene Formate wie OAI-PMH, JSON-API oder sogar HTML-Strukturen. Wichtig ist, dass strukturierte Metadaten vorhanden sind, wobei die Anforderungen an deren Qualität nicht übermäßig hoch sind. Beispielsweise verfügt die Zeitschrift "Religionspädagogische Beiträge" [https://rpb-journal.de/index.php/rpb/index]  bereits über eine OAI-Schnittstelle, die problemlos angebunden werden könnte.
 
-## Das Spannungsfeld zwischen wissenschaftlicher Reputation und OER
+## Das Spannungsfeld zwischen OER und Wissenschaft
 
-Ein zentrales Thema der Diskussion ist die Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. Tino Lindner äußert Bedenken, dass dies den Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.
+Zwei Fragen eröffnen sich hier: Ein zentrales Thema der Diskussion ist die Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. Das Bedenken wurde geäußert, dass dies den Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.
 
-Ein weiterer Diskussionspunkt betrifft das Sammlungsprofil von OERSI, das möglicherweise nicht optimal zu den Inhalten religionspädagogischer Zeitschriften passt, da diese nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind.
+Ein weiterer Diskussionspunkt betrifft das Sammlungsprofil von OERSI, das möglicherweise nicht optimal zu den Inhalten wissenschaftlich-religionspädagogischer Zeitschriften passt, da diese nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind.
+
+Wie eng beieinander stehen wissenschaftliche Open-Access-Regeln und hochschulbezogene Bildungsmaterialien?
 
 
 ## Chancen und Differenzierungsmöglichkeiten
@@ -27,7 +29,7 @@ Aus der Diskussion lassen sich folgende konkrete Lösungsansätze ableiten:
 
 2. **Metadaten-Differenzierung**: Durch spezifische Metadaten könnte kenntlich gemacht werden, für welche Bildungskontexte und Niveaustufen Artikel geeignet sind, ohne deren primäre Zuordnung zur wissenschaftlichen Fachliteratur aufzugeben.
 
-3. **Grundausrichtung beibehalten**: Außer Frage steht, dass die grundsätzliche Ausrichtung der Zeitschriften nicht verändert werden soll, nur um in Sammlungsschemata zu passen. Wissenschaftliche Integrität und öffentliche Erschließbarkeit stehen jedoch nicht im Widerspruch sondern sind komplementär weiterzuentwickeln.
+3. **Grundausrichtung beibehalten**: Außer Frage steht, dass die grundsätzliche Ausrichtung der Zeitschriften nicht verändert werden soll, nur um in Sammlungsschemata zu passen. Wissenschaftliche Integrität und öffentliche Erschließbarkeit stehen jedoch nicht im Widerspruch, sondern sind komplementär weiterzuentwickeln.
 
 4. **Arbeitsgruppe?**: Die Einrichtung einer Arbeitsgruppe mit interessierten Personen könnte helfen, konkretere Vorschläge zu erarbeiten und die verschiedenen Optionen detaillierter zu analysieren. Eine erweiterte Terminkoordination und ein erneutes Treffen sollen hier zeitnah diese Option koordinieren.
 
