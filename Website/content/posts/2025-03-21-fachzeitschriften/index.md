@@ -8,18 +8,18 @@ Die technischen Voraussetzungen für eine Integration religionspädagogischer Fa
 
 ## Das Spannungsfeld zwischen OER und Wissenschaft
 
-Zentrale Fragen eröffneten sich hier: Ein zentrales Thema der Diskussion war die Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. So wurden Bedenken geäußert, dass dies den Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.
+Ein zentrales Thema der Diskussion äußert sich in einer Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. So wurden Bedenken geäußert, dass sich der Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.
 
-Ein weiterer Diskussionspunkt betrifft das Sammlungsprofil von OERSI, das möglicherweise nicht optimal zu den Inhalten wissenschaftlich-religionspädagogischer Zeitschriften passt, da diese nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind.
+Ein weiterer Diskussionspunkt betrifft das Sammlungsprofil von OERSI, das möglicherweise nicht optimal zu den Inhalten wissenschaftlich-religionspädagogischer Zeitschriften passt, da diese als Forschungsliteratur nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind. Die Zugänglichkeit dieser Literatur für Hochschullehre ist durch die Orientierung an Open-Access-Standards offen und zugleich niederschwellig möglich.
 
-Darüber hinaus muss weiter evaluiert werden, wie sich das Verhältnis wissenschaftlicher Open-Access-Regeln und hochschulbezogene Bildungsmaterialien gestaltet.
+In diesem Spannungsfeld gilt es weiter zu evaluieren, wie sich das Verhältnis wissenschaftlicher Open-Access-Regeln und hochschulbezogener Bildungsmaterialien ausgestaltet.
 
 
 ## Chancen und Differenzierungsmöglichkeiten
 
 Trotz der genannten Bedenken wurden auch Chancen einer Integration gesehen. Die Sichtbarkeit fachwissenschaftlicher Artikel auf OER-Plattformen könnte erhöht werden, insbesondere wenn sie unter CC-Lizenzen stehen, was die rechtssichere Verwendung in verschiedenen Lehr- und Lernkontexten erleichtern würde.
 
-Ferner wurde die Möglichkeit diskutiert, Differenzierungen durch die Autor:innen vor der Publikation vorzunehmen, etwa bezüglich des Niveaus des Textes (z.B. vorrangig geeignet für Hochschullehre oder die gymnasiale Oberstufe) oder des Verwendungskontexts. Dadurch könnte die Nutzung der publizierten Texte gefördert werden, ohne deren wissenschaftlichen Charakter in Frage zu stellen. 
+Ferner wurde die Möglichkeit diskutiert, Differenzierungen durch die Autor:innen vor der Publikation vorzunehmen, etwa bezüglich des Niveaus eines Textes (z.B. vorrangig geeignet für Hochschullehre oder Verwendbarkeit für die gymnasiale Oberstufe) oder des Verwendungskontexts. Dadurch könnte die Nutzung der publizierten Texte gefördert werden, ohne deren wissenschaftlichen Charakter in Frage zu stellen. 
 
 ## Impulse und Empfehlungen
 
