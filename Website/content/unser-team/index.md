@@ -17,12 +17,16 @@ fördert Bildung und Erziehung aus evangelischer Verantwortung. Es versteht sich
 Wissenschafts-, Kompetenz- und Forschungseinrichtung sowie als Impuls- und
 Dienstleistungszentrum im Blick auf grundlegende Fragen evangelischen Bildungshandelns.
 
+Weitere Infos: [Comenius-Institut](https://comenius.de/)
+
 ![Portrait Jens Dechow](JensDechow.jpg)
 
 **Dr. Jens Dechow**
 
 Jens ist Direktor des Comenius-Institutes und verantwortet FOERBICO.
 Zudem ist er für die Kommunikation mit dem Projektträger zuständig.
+
+Kontakt: [dechow@comenius.de](mailto:dechow@comenius.de)
 
 ![Portrait Jörg Lohrer](JoergLohrer.jpg)
 
@@ -32,6 +36,8 @@ Jörg ist Projektkoordinator und unterstützt das Community-Management.
 Er verfügt durch seine Tätigkeit im Leitungsteam von rpi-virtuell und beim
 relilab bereits über langjährige Erfahrung in der Netzwerkarbeit.
 
+Kontakt: [lohrer@comenius.de](mailto:lohrer@comenius.de)
+
 ![Portrait Gina Buchwald-Chassée](GinaBuchwaldChassee.jpg)
 
 **Gina Buchwald-Chassée**
@@ -40,6 +46,8 @@ Gina ist studierte Kommunikationswissenschaftlerin und unterstützt das Projekt
 im Community-Management und ist für die Öffentlichkeitsarbeit verantwortlich.
 Sie hat zuvor das Netzwerk schule-evangelisch-digital koordiniert.
 
+Kontakt: [buchwald-chassee@comenius.de](mailto:buchwald-chassee@comenius.de)
+
 ![Portrait Ludger Sicking](LudgerSicking.jpg)
 
 **Ludger Sicking**
@@ -47,6 +55,8 @@ Sie hat zuvor das Netzwerk schule-evangelisch-digital koordiniert.
 Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als
 Softwareentwickler im Automobilbereich. Im FOERBICO Projekt  unterstützt er
 bei der technischen Umsetzung.
+
+Kontakt: [sicking@comenius.de](mailto:sicking@comenius.de)
 
 ## Goethe-Universität Frankfurt
 
@@ -59,6 +69,8 @@ der Religionspädagogik mit modernen Mediendidaktiken, um die Vermittlung religi
 Inhalte in einer digitalisierten Welt zu verbessern. Schwerpunkte liegen auf der
 Entwicklung neuer didaktischer Konzepte und der Förderung einer reflektierten Mediennutzung
 im Kontext der religiösen Bildung.
+
+Weitere Infos: [Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) an der Goethe-Universität
 
 ![Portrait Viera Pirker](VieraPirker.jpg)
 
@@ -80,6 +92,8 @@ Prof. Dr. Viera Pirker an der Professur für Religionspädagogik und Mediendidak
 Fachbereich Katholische Theologie an der Goethe-Universität tätig. Sie unterstützt FOERBICO
 bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
 
+Kontakt: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
+
 ## Friedrich-Alexander-Universität Erlangen-Nürnberg
 
 ![Logo der Friedrich-Alexander-Universität Erlangen-Nürnberg](/hello-world/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png)
@@ -92,6 +106,8 @@ didaktischer Modelle und Methoden sowie der Forschung zu religiösen Lernprozess
 Studierende auf eine reflektierte und praxisnahe Tätigkeit im Religionsunterricht vorzubereiten
 und zur Weiterentwicklung dieses Bildungsbereichs beizutragen.
 
+Weitere Infos: [Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts](https://www.evrel.phil.fau.de/) an der Friedrich-Alexander-Universität Erlangen-Nürnberg
+
 ![Portrait Manfred Pirner](ManfredPirner.jpg)
 
 **Prof. Dr. Manfred Pirner**
@@ -103,6 +119,8 @@ beschäftigt er sich intensiv mit Fragen der Religionspädagogik in pluralistisc
 und der Rolle von Religion im öffentlichen Raum. Er engagiert sich auch in der Entwicklung von
 innovativen didaktischen Ansätzen für den Religionsunterricht.
 
+Kontakt: [manfred.pirner@fau.de](mailto:manfred.pirner@fau.de)
+
 ![Portrait Phillip Angelina](PhillipAngelina.jpg)
 
 **Phillip Angelina**
@@ -111,3 +129,5 @@ Phillip ist wissenschaftlicher Mitarbeiter bei Prof. Dr. Manfred Pirner am Lehrs
 Religionspädagogik und Didaktik des evangelischen Religionsunterrichts / Forschungsstelle für
 Öffentliche Religionspädagogik. Sein Schwerpunkt im FOERBICO-Projekt ist die Empirische
 Begleitforschung.
+
+Kontakt: [phillip.angelina@fau.de](mailto:phillip.angelina@fau.de)
