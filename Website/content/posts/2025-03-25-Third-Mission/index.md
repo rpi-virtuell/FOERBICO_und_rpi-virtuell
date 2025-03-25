@@ -31,36 +31,34 @@ keywords:
   - OEP
   - Third Mission
   - Theologie
-  
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://unsplash.com/photos/ppJjSjpaw58/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzQyODg1MDE5fA&force=true$0
+image: https://oer.community/third-mission/clemens-van-lay-ppJjSjpaw58-unsplash.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-03-13'
-
 #staticSiteGenerator:
 author:
   - Laura Mößle
   - Phillip Angelina
-title: Fürchtet euch nicht: OER und die Third Mission 
+title: 'Fürchtet euch nicht: OER und die Third Mission'
 cover:
   relative: true
-  image: https://unsplash.com/photos/ppJjSjpaw58/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzQyODg1MDE5fA&force=true$0
+  image: clemens-van-lay-ppJjSjpaw58-unsplash.jpg
 summary: |
   Bericht: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“ 
-url: 
+url: third-mission
 ---
 
 # Fürchtet euch nicht: OER und die Third Mission
-![](https://unsplash.com/photos/ppJjSjpaw58/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzQyODg1MDE5fA&force=true$0)
-© [unsplash](https://unsplash.com/photos/ppJjSjpaw58/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzQyODg1MDE5fA&force=true$0)
+![](https://oer.community/third-mission/clemens-van-lay-ppJjSjpaw58-unsplash.jpg)
+© [unsplash](hhttps://unsplash.com/de/fotos/eine-rote-offene-flagge-an-einem-strand-am-meer-ppJjSjpaw58)
 
 ## Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben auf [y-nachten](https://y-nachten.de/2025/03/oer-und-die-third-mission/) Einblick in die vielfältige Welt des „open“
 
