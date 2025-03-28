@@ -1,67 +1,65 @@
 ---
-#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Ist die Bibel eigentlich Open?
-description: >-
-  Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist
-  verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses
-  anwendbar ist.
+description: Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses anwendbar ist.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/ist-die-bibel-eigentlich-open/
 creator:
-  - givenName: Laura
-    familyName: Mößle
-    id: https://orcid.org/0000-0001-5255-8063
-    type: Person
-    affiliation:
-      name: Johann Wolfgang Goethe-Universität Frankfurt
-      id: https://ror.org/04cvxnb49
-      type: Organization
-  - givenName: Phillip
-    familyName: Angelina
-    type: Person
-    affiliation:
-      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
-      id: https://ror.org/00f7hpc57
-      type: Organization
+- givenName: Laura
+  familyName: Mößle
+  id: https://orcid.org/0000-0001-5255-8063
+  type: Person
+  affiliation:
+    name: Johann Wolfgang Goethe-Universität Frankfurt
+    id: https://ror.org/04cvxnb49
+    type: Organization
+- givenName: Phillip
+  familyName: Angelina
+  type: Person
+  affiliation:
+    name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    id: https://ror.org/00f7hpc57
+    type: Organization
 keywords:
-  - OER
-  - Bibel
-  - Katholisches Bibelwerk
-  - Deutsche Bibelgesellschaft
-  - Open
+- OER
+- Bibel
+- Katholisches Bibelwerk
+- Deutsche Bibelgesellschaft
+- Open
 inLanguage:
-  - de
+- de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n03
-  - https://w3id.org/kim/hochschulfaechersystematik/n053
-  - https://w3id.org/kim/hochschulfaechersystematik/n086
-  - https://w3id.org/kim/hochschulfaechersystematik/n136
-  - https://w3id.org/kim/hochschulfaechersystematik/n544
-  - https://w3id.org/kim/hochschulfaechersystematik/n545
+- https://w3id.org/kim/hochschulfaechersystematik/n02
+- https://w3id.org/kim/hochschulfaechersystematik/n03
+- https://w3id.org/kim/hochschulfaechersystematik/n053
+- https://w3id.org/kim/hochschulfaechersystematik/n086
+- https://w3id.org/kim/hochschulfaechersystematik/n136
+- https://w3id.org/kim/hochschulfaechersystematik/n544
+- https://w3id.org/kim/hochschulfaechersystematik/n545
 image: https://oer.community/ist-die-bibel-eigentlich-open/an-open-bible_Lynn_Greyling_Small.png
 learningResourceType:
-  - https://w3id.org/kim/hcrt/web_page
+- https://w3id.org/kim/hcrt/web_page
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+- https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-11-12'
-#staticSiteGenerator:
 author:
-  - Laura Mößle
-  - Phillip Angelina
+- Laura Mößle
+- Phillip Angelina
 title: Ist die Bibel eigentlich Open?
 cover:
   relative: true
   image: an-open-bible_Lynn_Greyling_Small.png
   hiddenInSingle: true
-summary: |
-  Laura und Phillip vom FOERBICO Team gehen der Frage nach,
-  ob das meist verkaufte Buch der Welt, die Bibel,
-  eigentlich für Open Educational Resourses anwendbar ist.
+summary: Laura und Phillip vom FOERBICO Team gehen der Frage nach, ob das meist verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
+tags:
+- OER
+- Bibel
+- Katholisches Bibelwerk
+- Deutsche Bibelgesellschaft
+- Open
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.

@@ -1,71 +1,60 @@
 ---
-#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
-description: >-
-  Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für
-  Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität.
-  Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung,
-  sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu
-  kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in
-  diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
-  Theologie und religionsbezogene Bildung über TikTok erschließen.
+description: Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität. Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung, sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die Theologie und religionsbezogene Bildung über TikTok erschließen.
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 creator:
-  - givenName: Jörg
-    familyName: Lohrer
-    id: https://orcid.org/0000-0002-9282-0406
-    type: Person
-    affiliation:
-      name: Comenius-Institut
-      id: https://ror.org/025e8aw85
-      type: Organization
-  - givenName: Konstanze
-    familyName: Kemnitzer
-    id: https://orcid.org/0000-0002-1919-8411
-    type: Person
-    affiliation:
-      name: Kirchliche Hochschule Wuppertal
-      id: https://ror.org/05n1ym881
-      type: Organization
+- givenName: Jörg
+  familyName: Lohrer
+  id: https://orcid.org/0000-0002-9282-0406
+  type: Person
+  affiliation:
+    name: Comenius-Institut
+    id: https://ror.org/025e8aw85
+    type: Organization
+- givenName: Konstanze
+  familyName: Kemnitzer
+  id: https://orcid.org/0000-0002-1919-8411
+  type: Person
+  affiliation:
+    name: Kirchliche Hochschule Wuppertal
+    id: https://ror.org/05n1ym881
+    type: Organization
 keywords:
-  - TikTok
-  - Wissenschaftskommunikation
-  - Social Media
-  - Theologie
+- TikTok
+- Wissenschaftskommunikation
+- Social Media
+- Theologie
 inLanguage:
-  - de
+- de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n052
-  - https://w3id.org/kim/hochschulfaechersystematik/n053
-  - https://w3id.org/kim/hochschulfaechersystematik/n287
+- https://w3id.org/kim/hochschulfaechersystematik/n02
+- https://w3id.org/kim/hochschulfaechersystematik/n052
+- https://w3id.org/kim/hochschulfaechersystematik/n053
+- https://w3id.org/kim/hochschulfaechersystematik/n287
 image: kemnitzer-tiktok.png
 learningResourceType:
-  - https://w3id.org/kim/hcrt/text
+- https://w3id.org/kim/hcrt/text
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+- https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-18'
-#staticSiteGenerator:
 author:
-  - Jörg Lohrer
-  - Konstanze Kemnitzer
+- Jörg Lohrer
+- Konstanze Kemnitzer
 title: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
 cover:
   relative: true
   image: kemnitzer-tiktok.png
   hiddenInSingle: true
-summary: |
-  Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für
-  Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität.
-  Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung,
-  sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu
-  kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in
-  diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
-  Theologie und religionsbezogene Bildung über TikTok erschließen.
+summary: Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität. Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung, sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die Theologie und religionsbezogene Bildung über TikTok erschließen.
 url: theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
+tags:
+- TikTok
+- Wissenschaftskommunikation
+- Social Media
+- Theologie
 ---
 
 ![](kemnitzer-tiktok.png)

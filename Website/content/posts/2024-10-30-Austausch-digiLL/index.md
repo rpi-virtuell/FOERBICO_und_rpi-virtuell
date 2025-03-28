@@ -1,52 +1,47 @@
 ---
-#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Austausch mit digiLL_COM zum Thema "Community Building"
-description: >-
-  Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana,
-  Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das
-  Thema "Community Building" im Kontext von OER (Open Educational Resources) zu 
-  diskutieren und Erfahrungen auszutauschen.
+description: Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana, Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das Thema "Community Building" im Kontext von OER (Open Educational Resources) zu  diskutieren und Erfahrungen auszutauschen.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2024-10-30-Austausch-digiLL.md
+id: https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2024-10-30-Austausch-digiLL.md
 creator:
-  - givenName: Gina
-    familyName: Buchwald-Chassée
-    type: Person
-    affiliation:
-      name: Comenius-Institut
-      id: https://ror.org/025e8aw85
-      type: Organization
+- givenName: Gina
+  familyName: Buchwald-Chassée
+  type: Person
+  affiliation:
+    name: Comenius-Institut
+    id: https://ror.org/025e8aw85
+    type: Organization
 keywords:
-  - OER
-  - Austausch
-  - Vernetzung
-  - Community-Building
-  - OE_COM
+- OER
+- Austausch
+- Vernetzung
+- Community-Building
+- OE_COM
 inLanguage:
-  - de
+- de
 learningResourceType:
-  - https://w3id.org/kim/hcrt/text
+- https://w3id.org/kim/hcrt/text
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+- https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-10-31'
-#staticSiteGenerator:
 author:
-  - Gina Buchwald-Chassée
+- Gina Buchwald-Chassée
 title: Austausch mit digiLL_COM zum Thema "Community Building"
 cover:
   relative: true
   image: digill_com-videokonferenz.jpg
   hiddenInSingle: false
-summary: |
-  Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana,
-  Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das
-  Thema "Community Building" im Kontext von OER (Open Educational Resources) zu 
-  diskutieren und Erfahrungen auszutauschen.
+summary: Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana, Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das Thema "Community Building" im Kontext von OER (Open Educational Resources) zu diskutieren und Erfahrungen auszutauschen.
 url: austausch-mit-digill_com-zum-thema-community-building
+tags:
+- OER
+- Austausch
+- Vernetzung
+- Community-Building
+- OE_COM
 ---
 
 Beide Projekte sind in der aktuellen Förderstrategie des Bundes OE_COM,

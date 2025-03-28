@@ -1,68 +1,65 @@
 ---
-#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Draft
 type: LearningResource
 name: 'OER meets Fachdidaktik – Konferenz Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre'
-description: >-
-  Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation
-  in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
-  Hochschuldidaktik im Februar 2025
+description: 'Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre. Jahrestagung des Netzwerks Theologie und Hochschuldidaktik im Februar 2025'
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 creator:
-  - givenName: Laura
-    familyName: Mößle
-    id: https://orcid.org/0000-0001-5255-8063
-    type: Person
-    affiliation:
-      name: Johann Wolfgang Goethe-Universität Frankfurt
-      id: https://ror.org/04cvxnb49
-      type: Organization
-  - givenName: Paula
-    familyName: Paschke
-    type: Person
-    affiliation:
-      name: Johann Wolfgang Goethe-Universität Frankfurt
-      id: https://ror.org/04cvxnb49
-      type: Organization
-  - givenName: Phillip
-    familyName: Angelina
-    id: https://orcid.org/0000-0002-6905-5523
-    type: Person
-    affiliation:
-      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
-      id: https://ror.org/00f7hpc57
-      type: Organization
+- givenName: Laura
+  familyName: Mößle
+  id: https://orcid.org/0000-0001-5255-8063
+  type: Person
+  affiliation:
+    name: Johann Wolfgang Goethe-Universität Frankfurt
+    id: https://ror.org/04cvxnb49
+    type: Organization
+- givenName: Paula
+  familyName: Paschke
+  type: Person
+  affiliation:
+    name: Johann Wolfgang Goethe-Universität Frankfurt
+    id: https://ror.org/04cvxnb49
+    type: Organization
+- givenName: Phillip
+  familyName: Angelina
+  id: https://orcid.org/0000-0002-6905-5523
+  type: Person
+  affiliation:
+    name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    id: https://ror.org/00f7hpc57
+    type: Organization
 keywords:
-  - OER
-  - OEP
-  - Hochschuldidaktik
-  - Theologie
+- OER
+- OEP
+- Hochschuldidaktik
+- Theologie
 inLanguage:
-  - de
+- de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n03
+- https://w3id.org/kim/hochschulfaechersystematik/n02
+- https://w3id.org/kim/hochschulfaechersystematik/n03
 learningResourceType:
-  - https://w3id.org/kim/hcrt/text
+- https://w3id.org/kim/hcrt/text
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+- https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-03-05'
-#staticSiteGenerator:
 author:
-  - Laura Mößle
-  - Paula Paschke
-  - Phillip Angelina
-title: 'OER meets Fachdidaktik – Tagung des Netzwerks "Theologie und Hochschuldidaktik'
+- Laura Mößle
+- Paula Paschke
+- Phillip Angelina
+title: OER meets Fachdidaktik – Tagung des Netzwerks "Theologie und Hochschuldidaktik
 cover:
   relative: true
   image: Gruppenarbeit_Tagung.jpg
   hiddenInSingle: true
-summary: |
-  Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation
-  in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
-  Hochschuldidaktik im Februar 2025
+summary: 'Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre. Jahrestagung des Netzwerks Theologie und Hochschuldidaktik im Februar 2025'
 url: oer-meets-fachdidaktik
+tags:
+- OER
+- OEP
+- Hochschuldidaktik
+- Theologie
 ---
 
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025

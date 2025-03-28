@@ -1,60 +1,60 @@
 ---
-#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Fürchtet euch nicht - OER und Third Mission 
-description: >-
-  Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
+name: 'Fürchtet euch nicht - OER und Third Mission '
+description: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/third-mission
 creator:
-  - givenName: Laura
-    familyName: Mößle
-    id: https://orcid.org/0000-0001-5255-8063
-    type: Person
-    affiliation:
-      name: Johann Wolfgang Goethe-Universität Frankfurt
-      id: https://ror.org/04cvxnb49
-      type: Organization
-  - givenName: Phillip
-    familyName: Angelina
-    id: https://orcid.org/0000-0002-6905-5523
-    type: Person
-    affiliation:
-      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
-      id: https://ror.org/00f7hpc57
-      type: Organization
+- givenName: Laura
+  familyName: Mößle
+  id: https://orcid.org/0000-0001-5255-8063
+  type: Person
+  affiliation:
+    name: Johann Wolfgang Goethe-Universität Frankfurt
+    id: https://ror.org/04cvxnb49
+    type: Organization
+- givenName: Phillip
+  familyName: Angelina
+  id: https://orcid.org/0000-0002-6905-5523
+  type: Person
+  affiliation:
+    name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    id: https://ror.org/00f7hpc57
+    type: Organization
 keywords:
-  - OER
-  - OEP
-  - Third Mission
-  - Theologie
+- OER
+- OEP
+- Third Mission
+- Theologie
 inLanguage:
-  - de
+- de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n03
+- https://w3id.org/kim/hochschulfaechersystematik/n02
+- https://w3id.org/kim/hochschulfaechersystematik/n03
 image: https://oer.community/third-mission/clemens-van-lay-ppJjSjpaw58-unsplash.jpg
 learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
+- https://w3id.org/kim/hcrt/text
+- https://w3id.org/kim/hcrt/web_page
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+- https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-03-25'
-#staticSiteGenerator:
 author:
-  - Laura Mößle
-  - Phillip Angelina
+- Laura Mößle
+- Phillip Angelina
 title: 'Fürchtet euch nicht: OER und die Third Mission'
 cover:
   relative: true
   image: clemens-van-lay-ppJjSjpaw58-unsplash.jpg
   hiddenInSingle: true
-summary: |
-  Bericht: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
+summary: 'Bericht: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“'
 url: third-mission
+tags:
+- OER
+- OEP
+- Third Mission
+- Theologie
 ---
 
 ![Eine rote Flagge am Strand mit dem Aufdruck "Open"](clemens-van-lay-ppJjSjpaw58-unsplash.jpg)
