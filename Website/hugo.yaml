@@ -18,6 +18,9 @@ menus:
   - name: Blog
     url: /blog/
     weight: 300
+  - name: Tags
+    url: /tags/
+    weight: 400
 
 Pagination:
   disableAliases: false
