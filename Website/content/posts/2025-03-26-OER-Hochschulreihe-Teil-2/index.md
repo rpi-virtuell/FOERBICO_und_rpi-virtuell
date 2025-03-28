@@ -1,10 +1,11 @@
 # Rückblick zur OER-Fortbildungsreihe Teil 2: OER finden & bewerten
 
-Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Lehre und das Lernen. In Teil 1 der OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch wo findet man überhaupt geeignete offene Materialien für die Hochschullehre und wie bewertet man ihre Qualität? Diese Fragen standen im Mittelpunkt des zweiten Teils der OER-Fortbildungsreihe. Dazu wurden unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut)  Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert.
+Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. In Teil 1 der OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch wo findet man überhaupt geeignete offene Materialien für die Hochschullehre, wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut)  Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert.
 
 ## Creative Commons Lizenzen - welche gibt es und warum sind sie wichtig?
 
-Bevor wir uns auf die Suche von OER begeben haben, gab es nochmal eine kurze Einführung zu den verschiedenen [Creative Commons (CC)-Lizenzen](https://creativecommons.org/). Diese standardisierten Lizenzverträge ermöglichen es Urhebern, ihre Werke unter bestimmten Bedingungen zur Verfügung zu stellen und geben an, wie sie rechtssicher weiterverwendet werden dürfen. Die vier grundlegenden Lizenzmodule sind:​
+Bevor wir uns auf die Suche nach OER begeben konnten, klärten wir zunächst die verschiedenen [Creative Commons (CC)-Lizenzen](https://creativecommons.org/). Sie sind entscheidend, wenn es darum geht zu erkennen, ob gefundenes Material überhaupt "open" ist. 
+Creative Commons ist eine Non-Profit-Organisation, die in Form vorgefertigter Lizenzverträge eine Hilfestellung für Urheber:innen zur [Freigabe rechtlich geschützter Inhalte](https://www.youtube.com/watch?v=q0VzUigrb_g) anbietet. Diese standardisierten Lizenzverträge ermöglichen es Urheber:innen, ihre Werke unter bestimmten Bedingungen zur Verfügung zu stellen und geben an, wie sie rechtssicher weiterverwendet werden dürfen. Die vier grundlegenden Lizenzmodule sind:​
 
 - **BY (Namensnennung):** Der Name des Urhebers muss genannt werden.​
 
@@ -18,7 +19,7 @@ Durch Kombination dieser Module entstehen sechs Standardlizenzen, die unterschie
 
 ## OER gezielt finden
 
-Eine Vielzahl von Plattformen und Suchmaschinen erleichtert die Recherche nach freien Bildungsressourcen:
+Im Anschluss ging es an die OER-Suche. Wo lassen sich OER-Materialien für die hochschule bzw. schulische und außerschulische Bildung finden? Im Workshop machten wir auf eine Vielzahl von Plattformen und Suchmaschinen aufmerksam, die die Recherche nach freien Bildungsressourcen erleichtern:
 
 - **Google & YouTube:** Mithilfe der erweiterten Suche und den Filteroptionen bei Nutzungsrechten („Zur Wiederverwendung und Veränderung“) lassen sich OER gezielt aufspüren.
 
@@ -39,7 +40,7 @@ Eine Vielzahl von Plattformen und Suchmaschinen erleichtert die Recherche nach f
 
 ## Hands-on: OER-Fundstücke
 
-Im Rahmen der Veranstaltung wurden einige interessante OER-Materialien vorgestellt, hier ein paar Beispiele:
+Anschließend gab es Zeit, selbst auf diesen Plattformen zu recherchieren, ob es für das eigene Fach bzw. die eigene Lehre geeignete Materialien gibt. Folgende OER-Funde möchten wir an dieser Stelle beispielhaft erwähnen:
 
 - **[Podcast „Reli auf Lehramt“](https://oersi.org/resources/aHR0cHM6Ly93d3cuZWR1bGFicy51bmkta29lbG4uZGUvaWxpYXMucGhwP2Jhc2VDbGFzcz1pbHJlcG9zaXRvcnlndWkmcmVmX2lkPTE1MDk4) (CC BY-SA):** Wissenschaftliche Perspektiven auf Religionspädagogik, rBNE und Schulseelsorge. 
 
@@ -47,11 +48,11 @@ Im Rahmen der Veranstaltung wurden einige interessante OER-Materialien vorgestel
 
 - **[Tutorial „Wissenschaftliches Visualisieren“](https://methodenkompetenz.blogs.uni-hamburg.de/tutorial-wissenschaftliche-visualisierung/):** Ein hilfreiches Angebot zur Erstellung von Schaubildern.
 
-- **[Begriffsarbeit Klassismus](https://oer-portal.uni-graz.at/edu-sharing/components/render/34d1e868-e612-474b-8277-08453a702dc8) (CC-BY Lizenz):** Eine Ressource zur kritischen Auseinandersetzung mit sozialer Ungleichheit.
+- **[Begriffsarbeit Klassismus](https://oer-portal.uni-graz.at/edu-sharing/components/render/34d1e868-e612-474b-8277-08453a702dc8) (CC-BY Lizenz):** Eine Seminareinheit mit Texten und Begriffsarbeit zur kritischen Auseinandersetzung mit sozialer Ungleichheit.
 
 ## Qualitätsmerkmale von OER
 
-Bei der Bewertung von OER sollten sowohl rechtliche und technische als auch didaktische und formale Aspekte berücksichtigt werden:​
+Nach einer kurzen Besprechen der Fundstücke kamen wir auf deren Qualität zu sprechen. Bei der Bewertung von OER sollten sowohl rechtliche und technische als auch didaktische und formale Aspekte berücksichtigt werden:​
 
 ### Rechtliche & technische Aspekte:
 
@@ -86,16 +87,16 @@ Bei der Bewertung von OER sollten sowohl rechtliche und technische als auch dida
 
 - (Selbst-) Reflexion & Interaktivität​
 
-Zusätzlich wurden religionsdidaktische Prinzipien wie Symboldidaktik, biblisches Lernen und Subjektorientierung hervorgehoben, die bei der Erstellung und Auswahl von OER im Bereich Theologie und Religionspädagogik eine Rolle spielen. Diese Aspekte gelten als Anhaltspunkte und müssen nicht alle erfüllt sein!
+Darüber hinaus diskutierten wir darüber, welche dezidiert religionspädagogischen Qualitätskriterien zu beachten Sind. Hierfür kamen wir auf die religionsdidaktische Prinzipien Subjektorientierung, Korrelation und Elementarisierung zu sprechen. Besonders mit Blick auf die Lernwege wie Symboldidaktik, biblisches Lernen oder ästhetisches Lernen, stellen sich mit Blick auf die Erstellung und Auswahl von OER verschiedene Fragen. Beispielsweise muss bei OER-Materialien zu biblischem Lernen auf eine [offene Bibelübersetzung](https://oer.community/ist-die-bibel-eigentlich-open/) geachtet werden.
 
 
 ## Ausblick: Teil 3 der OER-Fortbildungsreihe
 
-Am 08.04.2025 von 10:00 bis 11:00 Uhr geht es in die letzte Runde! Unter dem Titel „OER selbst erstellen und teilen“ erhalten Teilnehmende praktische Einblicke in die Erstellung eigener OER-Materialien.
+Am 08.04.2025 von 10:00 bis 11:00 Uhr geht es in die letzte Runde! Unter dem Titel „OER selbst erstellen und teilen“ erhalten Teilnehmende praktische Einblicke in die Erstellung und Verbreitung eigener OER-Materialien.
 
 Zum Termin 🗓️👉 https://relilab.org/oer-werkstatt-fuer-hochschulen-oer-selbst-erstellen-und-teilen/
 
 Zur Übersicht der Fortbildungsreihe 🎓👉 https://relilab.org/oer-werkstatt-online-fortbildungsreihe-zu-open-educational-resources-in-der-theologischen-hochschullehre/
 
-Haben Sie weitere spannende OER-Fundstücke entdeckt? Teilen Sie Ihre Funde und Erfahrungen mit uns in den Kommentaren!
+
 
