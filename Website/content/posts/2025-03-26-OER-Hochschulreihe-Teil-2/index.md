@@ -5,22 +5,17 @@ creativeWorkStatus: Published
 type: LearningResource
 name: >-
   Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre
-  für Religionspädagogik & Theologie
+  für Religionspädagogik & Theologie: : OER finden & bewerten
 description: >-
-  Offene Bildungsressourcen (Open Educational Resources, OER) sind eine
-  wertvolle Bereicherung für die Hochschullehre. In Teil 1 der
-  OER-Fortbildungsreihe für theologische und religionspädagogische
-  Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von
-  OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu
-  in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch
-  wo findet man überhaupt geeignete offene Materialien für die Hochschullehre,
-  wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die
-  Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der
-  OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter
-  der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina
-  Buchwald-Chassée (Comenius-Institut) Strategien zur Recherche und Bewertung
-  von OER vorgestellt und diskutiert.
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+  In Teil 2 der Online-Fortbildungsreihe "OER in der Hochschullehre
+  für Religionspädagogik & Theologie" wurden Strategien zur Recherche
+  und Bewertung von OER vorgestellt und diskutiert. Unter der Leitung
+  von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée
+  (Comenius-Institut) standen u. a. folgende Fragen im Mittelpunkt:
+  Wie sieht es mit (CC-)Lizenzen aus?
+  Wo findet man für die Hochschullehre geeignete offene Materialien?
+  Wie bewertet man die Qualität von OER?
+license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/oer-fortbildungsreihe-2
 creator:
   - givenName: Laura
@@ -36,16 +31,24 @@ creator:
     type: Person
     affiliation:
       name: Comenius-Institut
+      id: https://ror.org/025e8aw85
       type: Organization
 keywords:
   - OER
   - OEP
   - Hochschuldidaktik
   - Theologie
+  - CC-Lizenzen
+  - Rechtsfragen
+  - Lizenzen
+  - Religionspädagogik
+  - Theologie
+  - Qualitätskriterien
 inLanguage:
   - de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n136
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -56,30 +59,23 @@ datePublished: '2025-03-31'
 author:
   - Laura Mößle
   - Gina Buchwald-Chassée
-title: 'Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie'
+title: 'Rückblick zur OER-Fortbildungsreihe Teil 2: OER finden & bewerten'
 cover:
   relative: true
-  image: OER-Fortbildungsreihe-2.png
+  image: OER-Fortbildungsreihe-2.jpg
+  hiddenInSingle: false
 summary: |
   Offene Bildungsressourcen (Open Educational Resources, OER) sind eine
-  wertvolle Bereicherung für die Hochschullehre. In Teil 1 der
-  OER-Fortbildungsreihe für theologische und religionspädagogische
-  Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von
-  OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu
-  in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch
+  wertvolle Bereicherung für die Hochschullehre. Doch
   wo findet man überhaupt geeignete offene Materialien für die Hochschullehre,
   wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die
   Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der
-  OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter
-  der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina
-  Buchwald-Chassée (Comenius-Institut) Strategien zur Recherche und Bewertung
-  von OER vorgestellt und diskutiert.
+  OER-Fortbildungsreihe.
 url: oer-fortbildungsreihe-2
 ---
 
-# Rückblick zur OER-Fortbildungsreihe Teil 2: OER finden & bewerten
-
-Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. In Teil 1 der OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch wo findet man überhaupt geeignete offene Materialien für die Hochschullehre, wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut)  Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert.
+Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. Im [ersten Teil](https://oer.community/oer-fortbildungsreihe-1/) unserer OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind.
+Strategien zur Recherche und Bewertung von OER waren Inhalt des zweiten Teils.
 
 ## Creative Commons Lizenzen - welche gibt es und warum sind sie wichtig?
 
@@ -116,7 +112,6 @@ Im Anschluss ging es an die OER-Suche. Wo lassen sich OER-Materialien für die h
 
 - **[rpi-virtuell](https://rpi-virtuell.de):** Eine Datenbank für freie Bildungsmedien im Bereich Religionspädagogik.
 
-
 ## Hands-on: OER-Fundstücke
 
 Anschließend gab es Zeit, selbst auf diesen Plattformen zu recherchieren, ob es für das eigene Fach bzw. die eigene Lehre geeignete Materialien gibt. Folgende OER-Funde möchten wir an dieser Stelle beispielhaft erwähnen:
@@ -133,7 +128,7 @@ Anschließend gab es Zeit, selbst auf diesen Plattformen zu recherchieren, ob es
 
 Nach einer kurzen Besprechen der Fundstücke kamen wir auf deren Qualität zu sprechen. Bei der Bewertung von OER sollten sowohl rechtliche und technische als auch didaktische und formale Aspekte berücksichtigt werden:​
 
-### Rechtliche & technische Aspekte:
+### Rechtliche & technische Aspekte
 
 - Einhaltung der Persönlichkeits- und Urheberrechte​
 
@@ -149,8 +144,7 @@ Nach einer kurzen Besprechen der Fundstücke kamen wir auf deren Qualität zu sp
 
 - Langfristige Nutzbarkeit​ (keine Broken-Links, Veröffentlichung in Langzeitrepositorien)
 
-
-### Didaktische & formale Aspekte:
+### Didaktische & formale Aspekte
 
 - Sachrichtigkeit / Fachliche Korrektheit​
 
@@ -168,7 +162,6 @@ Nach einer kurzen Besprechen der Fundstücke kamen wir auf deren Qualität zu sp
 
 Darüber hinaus diskutierten wir darüber, welche dezidiert religionspädagogischen Qualitätskriterien zu beachten Sind. Hierfür kamen wir auf die religionsdidaktische Prinzipien Subjektorientierung, Korrelation und Elementarisierung zu sprechen. Besonders mit Blick auf die Lernwege wie Symboldidaktik, biblisches Lernen oder ästhetisches Lernen, stellen sich mit Blick auf die Erstellung und Auswahl von OER verschiedene Fragen. Beispielsweise muss bei OER-Materialien zu biblischem Lernen auf eine [offene Bibelübersetzung](https://oer.community/ist-die-bibel-eigentlich-open/) geachtet werden.
 
-
 ## Ausblick: Teil 3 der OER-Fortbildungsreihe
 
 Am 08.04.2025 von 10:00 bis 11:00 Uhr geht es in die letzte Runde! Unter dem Titel „OER selbst erstellen und teilen“ erhalten Teilnehmende praktische Einblicke in die Erstellung und Verbreitung eigener OER-Materialien.
@@ -177,5 +170,4 @@ Zum Termin 🗓️👉 https://relilab.org/oer-werkstatt-fuer-hochschulen-oer-se
 
 Zur Übersicht der Fortbildungsreihe 🎓👉 https://relilab.org/oer-werkstatt-online-fortbildungsreihe-zu-open-educational-resources-in-der-theologischen-hochschullehre/
 
-
-
+Zu Teil 1 der Reihe: https://oer.community/oer-fortbildungsreihe-1/
