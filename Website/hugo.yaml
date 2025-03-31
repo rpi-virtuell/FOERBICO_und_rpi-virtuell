@@ -30,6 +30,10 @@ Pagination:
 Params:
   ShowReadingTime: false
   DateFormat: "2. January 2006"
+  ShowTags: true           # ← Tags unter Beiträgen anzeigen
+
+taxonomies:
+  tag: tags                # ← Taxonomie aktivieren
 
 frontmatter:
   date:
