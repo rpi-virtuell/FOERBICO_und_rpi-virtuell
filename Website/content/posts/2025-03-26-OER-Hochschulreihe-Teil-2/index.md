@@ -1,3 +1,82 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre
+  für Religionspädagogik & Theologie
+description: >-
+  Offene Bildungsressourcen (Open Educational Resources, OER) sind eine
+  wertvolle Bereicherung für die Hochschullehre. In Teil 1 der
+  OER-Fortbildungsreihe für theologische und religionspädagogische
+  Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von
+  OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu
+  in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch
+  wo findet man überhaupt geeignete offene Materialien für die Hochschullehre,
+  wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die
+  Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der
+  OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter
+  der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina
+  Buchwald-Chassée (Comenius-Institut) Strategien zur Recherche und Bewertung
+  von OER vorgestellt und diskutiert.
+license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+id: https://oer.community/oer-fortbildungsreihe-2
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      type: Organization
+keywords:
+  - OER
+  - OEP
+  - Hochschuldidaktik
+  - Theologie
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n136
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-03-31'
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+  - Gina Buchwald-Chassée
+title: 'Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie'
+cover:
+  relative: true
+  image: OER-Fortbildungsreihe-2.png
+summary: |
+  Offene Bildungsressourcen (Open Educational Resources, OER) sind eine
+  wertvolle Bereicherung für die Hochschullehre. In Teil 1 der
+  OER-Fortbildungsreihe für theologische und religionspädagogische
+  Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von
+  OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu
+  in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch
+  wo findet man überhaupt geeignete offene Materialien für die Hochschullehre,
+  wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die
+  Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der
+  OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter
+  der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina
+  Buchwald-Chassée (Comenius-Institut) Strategien zur Recherche und Bewertung
+  von OER vorgestellt und diskutiert.
+url: oer-fortbildungsreihe-2
+---
+
 # Rückblick zur OER-Fortbildungsreihe Teil 2: OER finden & bewerten
 
 Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. In Teil 1 der OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind. Mehr dazu in unserem [Blogbeitrag](https://oer.community/oer-fortbildungsreihe-1/). Doch wo findet man überhaupt geeignete offene Materialien für die Hochschullehre, wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der OER-Fortbildungsreihe, die am 25.03.2025 online stattfand. Dazu wurden unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut)  Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert.
