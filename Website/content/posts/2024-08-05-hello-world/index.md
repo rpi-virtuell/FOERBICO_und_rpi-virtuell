@@ -1,32 +1,38 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: Hello World!
-description: Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam durchzustarten!
+description: >-
+  Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener
+  Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist
+  unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
+  durchzustarten!
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 creator:
-- givenName: Gina
-  familyName: Buchwald-Chassée
-  type: Person
-  affiliation:
-    name: Comenius-Institut
-    type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      type: Organization
 keywords:
-- Communityaufbau
-- OER
-- Netzwerkbildung
-- Open Education
-- Professionalisierung
-- Qualitätssicherung
-- Religionspädagogik
+  - Communityaufbau
+  - OER
+  - Netzwerkbildung
+  - Open Education
+  - Professionalisierung
+  - Qualitätssicherung
+  - Religionspädagogik
 inLanguage:
-- de
+  - de
 learningResourceType:
-- https://w3id.org/kim/hcrt/text
-- https://w3id.org/kim/hcrt/web_page
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 datePublished: '2024-08-05'
+#staticSiteGenerator:
 author:
-- Gina Buchwald-Chassée
+  - Gina Buchwald-Chassée
 title: Hello World!
 cover:
   relative: true
@@ -34,16 +40,12 @@ cover:
   alt: Das FOERBICO Team
   caption: 'Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina'
   hiddenInSingle: true
-summary: Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam durchzustarten!
+summary: |
+  Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener
+  Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist
+  unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
+  durchzustarten!
 url: hello-world
-tags:
-- Communityaufbau
-- OER
-- Netzwerkbildung
-- Open Education
-- Professionalisierung
-- Qualitätssicherung
-- Religionspädagogik
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋

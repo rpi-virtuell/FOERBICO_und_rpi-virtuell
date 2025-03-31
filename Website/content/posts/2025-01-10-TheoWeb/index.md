@@ -1,65 +1,68 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: 'Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?'
-description: Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
+name: >-
+  Open Educational Practices als Wissenstransfer: Welche Potenziale hat die
+  Religionspädagogik auf dem Weg ins „open“?
+description: >-
+  Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web -
+  Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum
+  Nachlesen!
 license: https://creativecommons.org/licenses/by-nc/4.0/deed.de
 id: https://oer.community/oep-als-wissenstransfer/
 creator:
-- givenName: Laura
-  familyName: Mößle
-  id: https://orcid.org/0000-0001-5255-8063
-  type: Person
-  affiliation:
-    name: Johann Wolfgang Goethe-Universität Frankfurt
-    id: https://ror.org/04cvxnb49
-    type: Organization
-- givenName: Viera
-  familyName: Pirker
-  id: https://orcid.org/0000-0002-6971-8905
-  type: Person
-  affiliation:
-    name: Johann Wolfgang Goethe-Universität Frankfurt
-    id: https://ror.org/04cvxnb49
-    type: Organization
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
 keywords:
-- Open Educational Resources (OER)
-- Open Educational Practices (OEP)
-- Digitalisierung
-- Religionspädagogik
-- Wissenschaftskommunikation
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Digitalisierung
+  - Religionspädagogik
+  - Wissenschaftskommunikation
 inLanguage:
-- de
+  - de
 about:
-- https://w3id.org/kim/hochschulfaechersystematik/n02
-- https://w3id.org/kim/hochschulfaechersystematik/n03
-- https://w3id.org/kim/hochschulfaechersystematik/n052
-- https://w3id.org/kim/hochschulfaechersystematik/n053
-- https://w3id.org/kim/hochschulfaechersystematik/n086
-- https://w3id.org/kim/hochschulfaechersystematik/n302
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
+  - https://w3id.org/kim/hochschulfaechersystematik/n302
 image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
 learningResourceType:
-- https://w3id.org/kim/hcrt/text
-- https://w3id.org/kim/hcrt/web_page
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
-- https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-01-10'
+#staticSiteGenerator:
 author:
-- Laura Mößle
+  - Laura Mößle
 title: 'Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?'
 cover:
   relative: false
   image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
   hiddenInSingle: false
-summary: Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
+summary:
+  Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik.
+  Hier der vollständige Beitrag zum Nachlesen!
 url: oep-als-wissenstransfer
-tags:
-- Open Educational Resources (OER)
-- Open Educational Practices (OEP)
-- Digitalisierung
-- Religionspädagogik
-- Wissenschaftskommunikation
 ---
 
 **von Laura Mößle und Viera Pirker**, Lizenz: [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)  

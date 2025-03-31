@@ -1,66 +1,71 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
-description: Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
+name: >-
+  Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als
+  Wegbereiter
+description: >-
+  Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der
+  Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational
+  Resources (OER) und Open Educational Practices (OEP) notwendig ist, um
+  nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei
+  wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/dezentrale-oep-oer
 creator:
-- givenName: Jörg
-  familyName: Lohrer
-  id: https://orcid.org/0000-0002-9282-0406
-  type: Person
-  affiliation:
-    name: Comenius-Institut
-    id: https://ror.org/025e8aw85
-    type: Organization
-- givenName: Steffen
-  familyName: Rörtgen
-  id: https://orcid.org/0000-0001-6378-2618
-  type: Person
-- givenName: Bastian
-  familyName: Granas
-  type: Person
-  affiliation: ''
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Steffen
+    familyName: Rörtgen
+    id: https://orcid.org/0000-0001-6378-2618
+    type: Person
+  - givenName: Bastian
+    familyName: Granas
+    type: Person
+    affiliation: ''
 keywords:
-- OER
-- OEP
-- Dezentrale Bildung
-- Interoperabilität
-- Nostr
+  - OER
+  - OEP
+  - Dezentrale Bildung
+  - Interoperabilität
+  - Nostr
 inLanguage:
-- de
+  - de
 about:
-- https://w3id.org/kim/hochschulfaechersystematik/n052
-- https://w3id.org/kim/hochschulfaechersystematik/n079
-- https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.png
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+image: >-
+  https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.png
 learningResourceType:
-- https://w3id.org/kim/hcrt/text
-- https://w3id.org/kim/hcrt/web_page
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
-- https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-03-04'
+#staticSiteGenerator:
 author:
-- Jörg Lohrer
-- Steffen Rörtgen
-- Bastian Granas
+  - Jörg Lohrer
+  - Steffen Rörtgen
+  - Bastian Granas
 title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
 cover:
   relative: true
   image: dezentrale-oep-oer.png
-  caption: 'Ein in den Sand gezeichneter Strauß mit den Buchstaben ''OER'' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu ''Nostr'' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: ''Nostr'' klingt wie ein Teil von ''Ostrich'' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig.'
-  alt: 'Ein in den Sand gezeichneter Strauß mit den Buchstaben ''OER'' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu ''Nostr'' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: ''Nostr'' klingt wie ein Teil von ''Ostrich'' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig.'
+  caption: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
+  alt: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
   hiddenInSingle: false
-summary: Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
+summary: |
+  Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
 url: dezentrale-oep-oer
-tags:
-- OER
-- OEP
-- Dezentrale Bildung
-- Interoperabilität
-- Nostr
 ---
 
 ## Warum wir eine neue Perspektive brauchen

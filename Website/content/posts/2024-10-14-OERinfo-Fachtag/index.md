@@ -1,50 +1,57 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: 'OERinfo-Fachtag am 7.10.2024 in Frankfurt: "How to build a Community?!"'
-description: Mit dem jährlich stattfindenden OERinfo-Fachtag als Format zum Austausch und zur Vernetzung der wachsenden OER-Community sollen Wissenschaft und Praxis, etablierte und neue OER-Initiativen sowie OER-Befürworter*innen und Interessierte zusammenkommen. Der OERinfo-Fachtag fand am 07.10.2024 am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
+description: >-
+  Mit dem jährlich stattfindenden OERinfo-Fachtag als Format zum Austausch und
+  zur Vernetzung der wachsenden OER-Community sollen Wissenschaft und Praxis,
+  etablierte und neue OER-Initiativen sowie OER-Befürworter*innen und
+  Interessierte zusammenkommen. Der OERinfo-Fachtag fand am 07.10.2024 am DIPF |
+  Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am
+  Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2024-10-14-OERinfo-Fachtag.md
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/main/Blog/2024-10-14-OERinfo-Fachtag.md
 creator:
-- givenName: Gina
-  familyName: Buchwald-Chassée
-  type: Person
-  affiliation:
-    name: Comenius-Institut
-    id: https://ror.org/025e8aw85
-    type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 keywords:
-- Austausch
-- BMBF
-- Community
-- Networking
-- OER
-- OER-Strategie
-- Vernetzung
+  - Austausch
+  - BMBF
+  - Community
+  - Networking
+  - OER
+  - OER-Strategie
+  - Vernetzung
 inLanguage:
-- de
+  - de
 image: OERinfo-Fachtag-FOERBICO-Team.jpg
 learningResourceType:
-- https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/text
 datePublished: '2024-10-16'
+#staticSiteGenerator:
 author:
-- Gina Buchwald-Chassée
+  - Gina Buchwald-Chassée
 title: 'OERinfo-Fachtag am 7.10.2024 in Frankfurt: "How to build a Community?!"'
 cover:
   relative: true
   image: OERinfo-Fachtag-FOERBICO-Team.jpg
   hiddenInSingle: true
-summary: Mit dem jährlich stattfindenden OERinfo-Fachtag als Format zum Austausch und zur Vernetzung der wachsenden OER-Community sollen Wissenschaft und Praxis, etablierte und neue OER-Initiativen sowie OER-Befürworter*innen und Interessierte zusammenkommen. Der OERinfo-Fachtag fand am 07.10.2024 am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
+summary: |
+  Mit dem jährlich stattfindenden OERinfo-Fachtag als Format zum Austausch und
+  zur Vernetzung der wachsenden OER-Community sollen Wissenschaft und Praxis,
+  etablierte und neue OER-Initiativen sowie OER-Befürworter*innen und
+  Interessierte zusammenkommen. Der OERinfo-Fachtag fand am 07.10.2024 am DIPF |
+  Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am
+  Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
-tags:
-- Austausch
-- BMBF
-- Community
-- Networking
-- OER
-- OER-Strategie
-- Vernetzung
 ---
 
 ![](DIPF-Gebaeude.jpg)

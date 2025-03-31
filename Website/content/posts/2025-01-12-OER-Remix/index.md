@@ -1,55 +1,55 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: 'OER-Materialien: Welche Lizenz nehme ich?'
-description: Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
+description: >-
+  Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 id: https://oer.community/oer-remix
 creator:
-- givenName: Corinna
-  familyName: Ullmann
-  type: Person
-  affiliation:
-    name: Comenius-Institut
-    id: https://ror.org/025e8aw85
-    type: Organization
-- givenName: Gina
-  familyName: Buchwald-Chassée
-  type: Person
-  affiliation:
-    name: Comenius-Institut
-    id: https://ror.org/025e8aw85
-    type: Organization
-- givenName: Niels
-  familyName: Winkelmann
-  type: Person
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Niels 
+    familyName: Winkelmann
+    type: Person
 keywords:
-- OER
-- CC-Lizenzen
-- Rechtsfragen
+  - OER
+  - CC-Lizenzen
+  - Rechtsfragen
 inLanguage:
-- de
+  - de
 image: https://upload.wikimedia.org/wikipedia/commons/b/b5/Open_Educational_Resources.png
 learningResourceType:
-- https://w3id.org/kim/hcrt/text
-- https://w3id.org/kim/hcrt/web_page
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 datePublished: '2025-01-12'
+#staticSiteGenerator:
 author:
-- Corinna Ullmann
-- Gina Buchwald-Chassée
-- Niels Winkelmann
+  - Corinna Ullmann
+  - Gina Buchwald-Chassée
+  - Niels Winkelmann
 title: 'OER-Materialien: Welche Lizenz nehme ich?'
 cover:
   relative: false
   image: https://upload.wikimedia.org/wikipedia/commons/b/b5/Open_Educational_Resources.png
   hiddenInSingle: false
-summary: Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
+summary: |
+  Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
 url: oer-remix
-tags:
-- OER
-- CC-Lizenzen
-- Rechtsfragen
 ---
 
 # OER-Materialien: Welche Lizenz nehme ich? 🤷
