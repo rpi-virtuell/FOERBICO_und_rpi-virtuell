@@ -48,6 +48,13 @@ summary: |
   und Vernetzung für die Bildungscommunity statt 🤝💡Gina vom FOERBICO-Team war
   mit dabei und gibt euch hier einige Einblicke!
 url: oercamp-und-oer-festival-2024-in-essen
+tags:
+- OER
+- Open Education
+- OEP
+- OERcamp
+- Vernetzung
+- FOERBICO
 ---
 
 Hinweis: Eine ausführliche Dokumentation des OERcamps ist unter https://go.oercamp.de/24essen/ verfügbar, Registrierung bzw. Anmeldung erforderlich!

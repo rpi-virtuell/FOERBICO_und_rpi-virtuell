@@ -67,6 +67,11 @@ summary: |
   Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem
   Blogbeitrag lesen!
 url: welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024
+tags:
+- Didaktik
+- KI
+- OER
+- Religionspädagogik
 ---
 
 ## Religionsdidaktik im Verhältnis

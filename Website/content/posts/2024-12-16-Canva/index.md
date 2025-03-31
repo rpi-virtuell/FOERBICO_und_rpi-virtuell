@@ -59,6 +59,12 @@ summary: |
   Also haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und
   hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
 url: canva
+tags:
+- Rechtsfragen
+- OER
+- Bildlizenzen
+- Bildrechte
+- Canva
 ---
 
 ## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?

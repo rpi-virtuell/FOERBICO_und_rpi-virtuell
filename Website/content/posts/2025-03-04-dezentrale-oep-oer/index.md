@@ -66,6 +66,12 @@ cover:
 summary: |
   Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
 url: dezentrale-oep-oer
+tags:
+- OER
+- OEP
+- Dezentrale Bildung
+- Interoperabilität
+- Nostr
 ---
 
 ## Warum wir eine neue Perspektive brauchen

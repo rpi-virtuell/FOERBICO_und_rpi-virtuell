@@ -63,6 +63,12 @@ summary:
   Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik.
   Hier der vollständige Beitrag zum Nachlesen!
 url: oep-als-wissenstransfer
+tags:
+- Open Educational Resources (OER)
+- Open Educational Practices (OEP)
+- Digitalisierung
+- Religionspädagogik
+- Wissenschaftskommunikation
 ---
 
 **von Laura Mößle und Viera Pirker**, Lizenz: [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)  

@@ -50,6 +50,10 @@ cover:
 summary: |
   Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
 url: oer-remix
+tags:
+- OER
+- CC-Lizenzen
+- Rechtsfragen
 ---
 
 # OER-Materialien: Welche Lizenz nehme ich? 🤷

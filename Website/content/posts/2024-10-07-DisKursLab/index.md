@@ -48,6 +48,12 @@ summary: |
   Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer
   Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
 url: oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten
+tags:
+- Antisemitismus
+- Austausch
+- Community
+- OER
+- Networking
 ---
 
 Die Gesellschaft verändert sich. Die Bildungslandschaft muss auf die Veränderungen reagieren und immer mehr Schulen, Lehrkräfte und Pädagog:innen entdecken die Potenziale der Zusammenarbeit bei herausfordernden Themen mit Expert*innen. Das [DisKursLab](https://diskurslab.eaberlin.de/) hat sich als Modellprojekt der [Evangelischen Akademie zu Berlin](https://www.eaberlin.de/) in Zusammenarbeit mit der [Evangelischen Kirche Berlin-Brandenburg-schlesische Oberlausitz (EKBO)](https://www.ekbo.de/) intensiv mit dem Thema Antisemitismus auseinandergesetzt und Materialien entwickelt, die dieses komplexe gesellschaftliche Thema aufgreifen. Es versteht den digitalen Wandel nicht nur als technische, sondern vor allem als soziale Herausforderung und stellt nicht nur OER-Ressourcen zur Verfügung stellt, sondern nutzt die digitale Welt als Chance für Bildungsformate. Mit innovativen Bildungsformaten, insbesondere im Bereich Theologie und Religionspädagogik, verknüpft das Projekt Themen wie Diskriminierungssensibilität, Digitalität und Demokratisierung. Seit 2020 werden dabei auch frei verfügbare Lehr- und Lernmaterialien entwickelt, wie der  "[Christliche Meme Generator](https://diskurslab.eaberlin.de/hopespeech-workshop/mememe-editor/)" oder der digitale "[VerLernKurs](https://diskurslab.eaberlin.de/verlernkurs/)". 

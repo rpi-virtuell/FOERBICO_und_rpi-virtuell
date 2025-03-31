@@ -66,6 +66,11 @@ summary: |
   diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
   Theologie und religionsbezogene Bildung über TikTok erschließen.
 url: theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
+tags:
+- TikTok
+- Wissenschaftskommunikation
+- Social Media
+- Theologie
 ---
 
 ![](kemnitzer-tiktok.png)

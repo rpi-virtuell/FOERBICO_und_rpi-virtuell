@@ -40,6 +40,11 @@ summary: |
   diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag 
   konkretisiert und differenziert.
 url: sind-youtube-videos-oer-faehig
+tags:
+- YouTube
+- Rechtsfragen
+- OER
+- Videos
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!

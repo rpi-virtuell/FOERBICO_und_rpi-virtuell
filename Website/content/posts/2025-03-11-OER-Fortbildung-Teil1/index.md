@@ -58,6 +58,11 @@ cover:
 summary: |
   Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
 url: oer-fortbildungsreihe-1
+tags:
+- OER
+- OEP
+- Hochschuldidaktik
+- Theologie
 ---
 ## Wir legen endlich los!
 Am 11.03.25 fand von 10:00 - 11:00 Uhr unsere erste Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik statt. Die erste von drei Kompaktveranstaltungen widmete sich den Grundlagen und stand unter dem Titel "Einblick in die Welt der OER. Grundlagen, Relevanz und Nutzen für Religionspädagogik und Theologie".
