@@ -53,7 +53,7 @@ author:
   - Laura Mößle
   - Paula Paschke
   - Phillip Angelina
-title: 'OER meets Fachdidaktik – Tagung des Netzwerks "Theologie und Hochschuldidaktik'
+title: 'OER meets Fachdidaktik – Tagung des Netzwerks "Theologie und Hochschuldidaktik"'
 cover:
   relative: true
   image: Gruppenarbeit_Tagung.jpg
