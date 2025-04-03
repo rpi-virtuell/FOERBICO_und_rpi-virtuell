@@ -4,9 +4,17 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: >-
-  Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?
+  Wie steht es um die Integration religionspädagogischer
+  Open-Access-Zeitschriften in OER-Plattformen?
 description: >-
-  Wie lassen sich religionspädagogische Open-Access-Zeitschriften in OER-Plattformen wie OERSI integrieren? In einer digitalen Fachdiskussion auf Einladung von FOERBICO diskutierten Vertreter:innen aus Redaktionen, Bibliotheken, Fachgesellschaften und Plattform-Entwicklung über technische Möglichkeiten, metadatenbasierte Differenzierungen und das Spannungsfeld zwischen wissenschaftlicher Reputation und OER-Kategorisierung. Die Ergebnisse bieten Impulse für eine differenzierte Zugänglichmachung religionspädagogischer Fachliteratur im digitalen Bildungsraum.
+  Wie lassen sich religionspädagogische Open-Access-Zeitschriften in
+  OER-Plattformen wie OERSI integrieren? In einer digitalen Fachdiskussion auf
+  Einladung von FOERBICO diskutierten Vertreter:innen aus Redaktionen,
+  Bibliotheken, Fachgesellschaften und Plattform-Entwicklung über technische
+  Möglichkeiten, metadatenbasierte Differenzierungen und das Spannungsfeld
+  zwischen wissenschaftlicher Reputation und OER-Kategorisierung. Die Ergebnisse
+  bieten Impulse für eine differenzierte Zugänglichmachung
+  religionspädagogischer Fachliteratur im digitalen Bildungsraum.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/oer-zeitschriften-religionspaedagogik
 creator:
@@ -41,6 +49,37 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
+  - givenName: Manfred
+    familyName: Pirner
+    id: https://orcid.org/0000-0002-6641-4690
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Ludger
+    familyName: Sicking
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jens
+    familyName: Dechow
+    id: https://orcid.org/0009-0003-1657-4631
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 keywords:
   - OER
   - Open Access
@@ -51,9 +90,14 @@ keywords:
 inLanguage:
   - de
 about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
   - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n544
+  - https://w3id.org/kim/hochschulfaechersystematik/n545
 image: >-
   https://oer.community/oer-zeitschriften-religionspaedagogik/fachzeitschriften.png
 learningResourceType:
@@ -63,9 +107,10 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_B
 datePublished: '2025-04-03'
+
 #staticSiteGenerator:
 author:
-  - Manfred Pirner, Viera Pirker, Laura Mößle, Jörg Lohrer, 
+  - Viera Pirker, Manfred Pirner, Laura Mößle, Jörg Lohrer, Gina Buchwald-Chassée, Phillip Angelina, Jens Dechow, Ludger Sicking
 title: 'Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?'
 cover:
   relative: true
