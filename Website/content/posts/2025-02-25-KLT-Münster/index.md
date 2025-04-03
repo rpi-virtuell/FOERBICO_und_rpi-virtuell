@@ -63,6 +63,11 @@ summary: |
   in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
   Hochschuldidaktik im Februar 2025
 url: oer-meets-fachdidaktik
+tags:
+- OER
+- OEP
+- Hochschuldidaktik
+- Theologie
 ---
 
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025

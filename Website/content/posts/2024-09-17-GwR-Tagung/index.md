@@ -62,6 +62,15 @@ summary: |
   Internationalisierungsbestrebungen in der wissenschaftlichen
   Religionspädagogik fanden ihren Platz im Programm.
 url: sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit
+tags:
+- FOERBICO
+- Wissenschaftskommunikation
+- GwR
+- Religionspädagogik
+- Theologie
+- Wissenschaft
+- Öffnetlichkeitsarbeit
+- Netzwerk
 ---
 
 Auch wir, Viera und Laura vom FOERBICO-Team Frankfurt trugen mit einem eigenen Workshop zur Veranstaltung bei. Unser Ziel war es, ein ansprechendes und interaktives 60-minütiges Workshop-Programm zu entwickeln, das sowohl der Zielgruppe der wissenschaftlichen evangelischen Religionspädagogik als auch dem Tagungsmotto der Wissenschaftskommunikation gerecht wird. Im Mittelpunkt stand die Vorstellung unseres Projekts zur Förderung offener Bildungspraktiken in religionsbezogenen Communities. Gleichzeitig legten wir Wert darauf, aktivierende Elemente einzubauen, um einen Austausch zwischen den Teilnehmenden zu ermöglichen. 

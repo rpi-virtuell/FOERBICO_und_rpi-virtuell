@@ -47,6 +47,12 @@ summary: |
   Thema "Community Building" im Kontext von OER (Open Educational Resources) zu 
   diskutieren und Erfahrungen auszutauschen.
 url: austausch-mit-digill_com-zum-thema-community-building
+tags:
+- OER
+- Austausch
+- Vernetzung
+- Community-Building
+- OE_COM
 ---
 
 Beide Projekte sind in der aktuellen Förderstrategie des Bundes OE_COM,

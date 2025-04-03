@@ -49,6 +49,13 @@ summary: |
   Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt
   a. M. mit dabei!
 url: rueckblick-auftaktkonferenz-oer-im-blick
+tags:
+- Austausch
+- Konferenz
+- BMBF
+- OER-Strategie
+- Networking
+- Vernetzung
 ---
 
 ![](OER-im-Blick-2.jpeg)

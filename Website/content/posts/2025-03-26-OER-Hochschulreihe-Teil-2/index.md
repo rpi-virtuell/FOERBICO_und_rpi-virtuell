@@ -72,6 +72,17 @@ summary: |
   Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der
   OER-Fortbildungsreihe.
 url: oer-fortbildungsreihe-2
+tags:
+  - OER
+  - OEP
+  - Hochschuldidaktik
+  - Theologie
+  - CC-Lizenzen
+  - Rechtsfragen
+  - Lizenzen
+  - Religionspädagogik
+  - Theologie
+  - Qualitätskriterien
 ---
 
 Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. Im [ersten Teil](https://oer.community/oer-fortbildungsreihe-1/) unserer OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind.

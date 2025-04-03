@@ -18,6 +18,9 @@ menus:
   - name: Blog
     url: /blog/
     weight: 300
+  - name: Tags
+    url: /tags/
+    weight: 400
 
 Pagination:
   disableAliases: false
@@ -27,6 +30,10 @@ Pagination:
 Params:
   ShowReadingTime: false
   DateFormat: "2. January 2006"
+  ShowTags: true           # ← Tags unter Beiträgen anzeigen
+
+taxonomies:
+  tag: tags                # ← Taxonomie aktivieren
 
 frontmatter:
   date:

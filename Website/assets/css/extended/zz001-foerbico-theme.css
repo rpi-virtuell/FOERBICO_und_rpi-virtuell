@@ -34,6 +34,11 @@ a:hover {
     border-radius: 10px;
     border: 2px solid var(--border);
 }
+.post-tags a:hover,
+.paginav a:hover {
+    background: var(--border);
+    color: var(--secondary);
+}
 .top-link {
     border: 1px solid var(--border);
 }

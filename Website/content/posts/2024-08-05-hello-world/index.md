@@ -46,6 +46,14 @@ summary: |
   unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
   durchzustarten!
 url: hello-world
+tags:
+- Communityaufbau
+- OER
+- Netzwerkbildung
+- Open Education
+- Professionalisierung
+- Qualitätssicherung
+- Religionspädagogik
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋
