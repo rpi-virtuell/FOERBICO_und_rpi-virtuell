@@ -1,4 +1,84 @@
-# Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?
+description: >-
+  Wie lassen sich religionspädagogische Open-Access-Zeitschriften in OER-Plattformen wie OERSI integrieren? In einer digitalen Fachdiskussion auf Einladung von FOERBICO diskutierten Vertreter:innen aus Redaktionen, Bibliotheken, Fachgesellschaften und Plattform-Entwicklung über technische Möglichkeiten, metadatenbasierte Differenzierungen und das Spannungsfeld zwischen wissenschaftlicher Reputation und OER-Kategorisierung. Die Ergebnisse bieten Impulse für eine differenzierte Zugänglichmachung religionspädagogischer Fachliteratur im digitalen Bildungsraum.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/oer-zeitschriften-religionspaedagogik
+creator:
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+keywords:
+  - OER
+  - Open Access
+  - Religionspädagogik
+  - Wissenschaftskommunikation
+  - Metadaten
+  - OERSI
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+image: >-
+  https://oer.community/oer-zeitschriften-religionspaedagogik/fachzeitschriften.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_B
+datePublished: '2025-04-03'
+#staticSiteGenerator:
+author:
+  - Manfred Pirner, Viera Pirker, Laura Mößle, Jörg Lohrer, 
+title: 'Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?'
+cover:
+  relative: true
+  image: fachzeitschriften.png
+url: oer-zeitschriften-religionspaedagogik
+tags:
+  - OER
+  - Open Access
+  - Religionspädagogik
+  - Wissenschaftskommunikation
+  - Metadaten
+  - OERSI
+---
 
 Auf Einladung von FOERBICO fand eine digitale Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System [OERSI](https://oersi.org/resources/pages/de/) statt. Teilgenommen haben Vertreter:innen des [WiReLex](https://wirelex.de), der [RpB](https://rpb-journal.de/index.php/rpb), des [ÖRF](https://oerf-journal.eu/index.php/oerf) und des [Theo-Webs](https://www.theo-web.de) sowie Verantwortliche der Bibliotheken, der Deutschen Bibelgesellschaft und von OERSI. Als ein zentraler Punkt der Diskussion stellte sich die Frage heraus, wie der Begriff OER im Rahmen der Hochschullehre gefasst wird - inwieweit sind wissenschaftliche Lexikon- oder Zeitschriftenartikel, die unter CC-Lizenz veröffentlicht sind, OER? Ein weiterer Aspekt bezog sich auf die Spannung zwischen der wissenschaftlichen Reputation einer Zeitschrift und der Kategorisierung ihrer Artikel als Lernmaterial. Darüber hinaus wurden verschiedene technische und konzeptionelle Fragen aufgeworfen.
 
