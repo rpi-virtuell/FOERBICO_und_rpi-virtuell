@@ -48,6 +48,12 @@ summary: |
   Resources an, um wichtige rechtliche Grundlagen und aktuelle Entwicklungen
   im Umgang mit OER zu diskutieren
 url: oer-rechtsfragen
+tags:
+- Rechtsfragen
+- OER
+- Lizenzen
+- Bildrechte
+- twillo
 ---
 
 # Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️

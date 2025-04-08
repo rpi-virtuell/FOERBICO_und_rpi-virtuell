@@ -60,6 +60,18 @@ summary: |
   bald veröffentlicht. Einen Rückblick zum Fachtag gibt es im Blog von
   oer.community.
 url: oer-fachtag-2024-von-orca-nrw
+tags:
+- Austausch
+- Fachtag
+- Event
+- OER
+- Hochschulen
+- Gamification
+- Inklusion
+- KI
+- Networking
+- Storytelling
+- Vernetzung
 ---
 
 ![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)

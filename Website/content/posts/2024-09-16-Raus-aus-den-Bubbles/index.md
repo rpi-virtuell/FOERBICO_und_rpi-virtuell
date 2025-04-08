@@ -47,6 +47,15 @@ summary: |
   FAU Erlangen-Nürnberg religionsbezogene Communities vernetzen und zusammen
   offene Bildungspraktiken fördern wollen. 
 url: raus-aus-den-bubbles
+tags:
+- OER
+- OEP
+- Offenheit
+- Kollaboartion
+- Community
+- Netzwerke
+- Vernetzung
+- Austausch
 ---
 
 Bildungs- und Unterrichtsmaterialien bleiben oft isoliert, werden nicht miteinander geteilt und alle basteln vor sich hin - das kostet Zeit, Energie und macht keinen Spaß. Du hast Angst vor Trouble, wenn du dein Material veröffentlichst oder bist unsicher, wie das mit Rechten, Lizenzen und der Qualität aussieht? Damit bist du nicht alleine! Wir nehmen dich mit und begleiten dich raus aus deiner Bubble 🫧 Transparenz, Anschlussfähigkeit und Nachvollziehbarkeit sind unser Ziel 🏁 Vorbei mit dem ganzen Bubbletrouble – wir als OER-Communities wollen unser Wisssen, Erfahrungen und Materialien offen miteinander teilen 🤝 Dazu haben wir zusammen mit unserem FOERBICO-Team und einzelnen Personen aus verschiedenen Communities wie [relilab](https://relilab.org/) oder [reliGlobal](https://religlobal.org/) eine kleine Fun-Aktion gestartet und einen Bubblesong entwickelt 👇

@@ -76,6 +76,11 @@ summary: |
   kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren
   Nutzung der Symbole zur Förderung globaler Bildung.
 url: sdg-logos-und-oer-wie-darf-ich-sie-verwenden
+tags:
+- SDG
+- Sustainable Developtment Goals
+- OER
+- Creative Commons
 ---
 
 Im Kontext des Projektes [reliGlobal](https://religlobal.org/) kam bei der Erstellung eines OER-Materials zu den 17 [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) als Ziele für nachhaltige Entwicklung die Frage auf, ob die Logos der einzelnen Ziele im Material verwendet werden dürfen oder welche Rechteangabe gemacht werden muss?
