@@ -107,10 +107,16 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_B
 datePublished: '2025-04-03'
-
 #staticSiteGenerator:
 author:
-  - Viera Pirker, Manfred Pirner, Laura Mößle, Jörg Lohrer, Gina Buchwald-Chassée, Phillip Angelina, Jens Dechow, Ludger Sicking
+  - Viera Pirker
+  - Manfred Pirner
+  - Laura Mößle
+  - Jörg Lohrer
+  - Gina Buchwald-Chassée
+  - Phillip Angelina
+  - Jens Dechow
+  - Ludger Sicking
 title: 'Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?'
 cover:
   relative: true
@@ -128,6 +134,7 @@ tags:
 Auf Einladung von FOERBICO fand eine digitale Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System [OERSI](https://oersi.org/resources/pages/de/) statt. Teilgenommen haben Vertreter:innen des [WiReLex](https://wirelex.de), der [RpB](https://rpb-journal.de/index.php/rpb), des [ÖRF](https://oerf-journal.eu/index.php/oerf) und des [Theo-Webs](https://www.theo-web.de) sowie Verantwortliche der Bibliotheken, der Deutschen Bibelgesellschaft und von OERSI. Als ein zentraler Punkt der Diskussion stellte sich die Frage heraus, wie der Begriff OER im Rahmen der Hochschullehre gefasst wird - inwieweit sind wissenschaftliche Lexikon- oder Zeitschriftenartikel, die unter CC-Lizenz veröffentlicht sind, OER? Ein weiterer Aspekt bezog sich auf die Spannung zwischen der wissenschaftlichen Reputation einer Zeitschrift und der Kategorisierung ihrer Artikel als Lernmaterial. Darüber hinaus wurden verschiedene technische und konzeptionelle Fragen aufgeworfen.
 
 ## Was sind OER im Hochschulbereich?
+
 Obwohl Dozierende in der Hochschullehre und Studierende in Seminaren häufig mit Zeitschriften- oder Lexikon-Artikeln arbeiten, gelten diese nicht per se als "Bildungsmaterialien" im herkömmlichen Sinn - und tauchen deshalb nicht in einer entsprechenden OER-Suchmaschine wie OERSI auf. Möglicherweise passt das Sammlungsprofil von OERSI nicht optimal zu den Inhalten wissenschaftlich-religionspädagogischer Zeitschriften, da diese als Forschungsliteratur nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind. Andererseits ist die Zugänglichkeit dieser Literatur für die Hochschullehre durch die Orientierung an Open-Access-Standards offen und zugleich niederschwellig möglich.
 
 ## Technische Möglichkeiten und Metadaten-Integration
@@ -163,4 +170,3 @@ Aus der Diskussion lassen sich folgende konkrete Lösungsansätze ableiten:
 Die Integration religionspädagogischer Open-Access-Fachzeitschriften in OER-Plattformen birgt Chancen für eine erhöhte Sichtbarkeit und Nutzbarkeit in Bildungskontexten. Gleichzeitig muss geklärt werden, wie sich der primäre wissenschaftliche Charakter der Fachzeitschriften zur Charakterisierung seiner Artikel als OER-Materialien verhält. Dazu legt sich eine genauere Exploration des internationalen Diskussionsstands ebenso nahe wie die Analyse deutschlandspezifischer Regelungen. In praktischer Hinsicht wären die tatsächlichen Auswirkungen einer OER-Kategorisierung auf die wissenschaftliche Indexierung zu klären und parallel die technischen Möglichkeiten einer differenzierten Integration zu explorieren. 
 
 Da die diskutierten Fragen sorgfältig bedacht werden müssen, wurde vereinbart, dass sich die Verantwortungsträger:innen der Zeitschriften und Lexika sowie der OER-Plattformen zunächst intern weiter über ihre spezifischen Ziele und Prioritäten verständigen, um dann in einem Follow-up-Treffen im Herbst das weitere Vorgehen zu besprechen - eventuell unter Einbeziehung weiterer interessierter Gesprächspartner:innen. Bei einer grundsätzlichen Einigung über die verstärkte Vernetzung der Open-Access-Zeitschriften und der OER-Plattformen könnte dann eine Arbeitsgruppe die noch offenen Fragen klären und konkrete Handlungsempfehlungen entwickeln.
-
