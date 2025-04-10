@@ -15,7 +15,7 @@ Es gibt verschiedene Möglichkeiten, wie du dich einbringen kannst:
 
 Bitte beachte bei deinen Beiträgen die folgenden Richtlinien:
 
-1. **Lizenzierung**: Alle von dir erstellten oder bearbeiteten Inhalte müssen unter der Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.de) stehen.
+1. **Lizenzierung**: Alle von dir erstellten oder bearbeiteten Inhalte müssen unter der Creative Commons Namensnennung - 4.0 International Lizenz [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) stehen.
 2. **Qualität**: Stelle sicher, dass deine Beiträge qualitativ hochwertig sind und den Lernzielen des Projekts entsprechen.
 3. **Relevanz**: Achte darauf, dass deine Beiträge relevant und nützlich für die Zielgruppe des Projekts sind.
 4. **Struktur und Format**: Folge den bestehenden Strukturen und Formatierungen, um eine einheitliche Darstellung zu gewährleisten.
