@@ -77,12 +77,12 @@ tags:
 
 ## Grundlagen zur Erstellung von OER
 
-Bei der Erstellung und Nutzung von OER spielt die korrekte Angabe von Quellen eine zentrale Rolle. Ein bewährtes Hilfsmittel hierfür ist die **TULLU-V-Regel** (auch als [**TULLUBA-Regel**](https://open-educational-resources.de/oer-tullu-regel/) bekannt), die sich insbesondere für Materialien mit Creative-Commons-Lizenzen etabliert hat.
+Bei der Erstellung und Nutzung von OER spielt die korrekte Angabe von Quellen eine zentrale Rolle. Ein bewährtes Hilfsmittel hierfür ist die **TULLU-V-Regel** (auch als **[TULLUBA-Regel](https://open-educational-resources.de/oer-tullu-regel/)** bekannt), die sich insbesondere für Materialien mit Creative-Commons-Lizenzen etabliert hat.
 
 Die Regel steht für folgende Bestandteile:
 
 - **T – Titel**  
-  Die Angabe des Werktitels ist nur bei älteren Lizenzversionen (vor CC 4.0) verpflichtend, und auch dann nur, wenn tatsächlich ein Titel genannt wird. 
+  Die Angabe des Werktitels ist nur bei älteren Lizenzversionen (vor CC 4.0) verpflichtend, und auch dann nur, wenn tatsächlich ein Titel genannt wird.
 
 - **U – Urheber:in**  
   Der Name der/des Urheber:in bzw. der Profilname auf einer Plattform (z. B. Flickr, Wikimedia Commons) sollte angegeben werden. Ein Link zum Profil ist eine freundliche Ergänzung, aber rechtlich nicht zwingend erforderlich.
