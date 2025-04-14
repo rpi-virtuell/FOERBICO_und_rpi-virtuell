@@ -143,7 +143,7 @@ Die Plattform [„Wir lernen online“](https://suche.wirlernenonline.de/search/
 
 ### Relilab – OER für die Religionspädagogik
 
-[Relilab](https://relilab.org/category/formate-asynchron/lernmodul/) ist eine digitale Plattform zur Förderung religionspädagogischer Zusammenarbeit. Hier können Lehrkräfte eigene OER bereitstellen, sich an kollaborativen Projekten beteiligen oder Fortbildungsangebote nutzen. Alle Inhalte stehen unter der offenen Lizenz **CC BY** und eignen sich besonders zur Weiterentwicklung sowie zur gezielten fachlichen Verbreitung religions
+[Relilab](https://relilab.org/category/formate-asynchron/lernmodul/) ist eine digitale Plattform zur Förderung religionspädagogischer Zusammenarbeit. Hier können Lehrkräfte eigene OER bereitstellen, sich an kollaborativen Projekten beteiligen oder Fortbildungsangebote nutzen. Alle Inhalte stehen unter der offenen Lizenz **CC BY** und eignen sich besonders zur Weiterentwicklung sowie zur gezielten fachlichen Verbreitung religionspädagogischer Inhalte. 
 
 ## OER-Verbreitung mit git
 Mit dem [**OER GitHub Tutorial**](https://oersi.org/resources/aHR0cHM6Ly9saWFzY3JpcHQuZ2l0aHViLmlvL2NvdXJzZS8_aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JwaS12aXJ0dWVsbC9vZXItZ2l0aHViLXR1dG9yaWFsLWxpYXNjcmlwdC9tYWluL3R1dG9yaWFsLm1kIzE=) und dem [**OER Metadatenformular**](https://oersi.gitlab.io/metadata-form/metadata-generator.html) stehen zwei besonders praxisorientierte Werkzeuge zur Verfügung. Das GitHub-Tutorial erleichtert Einsteiger:innen den Zugang zur Veröffentlichung, das Metadatenformular ist ein Unterstützungsinstrument um konform zu den Metadatenstandards zu publizieren.
