@@ -12,7 +12,7 @@ description: >-
   Erstellung und Verwendung von OER, technische Tools und
   Veröffentlichungsmöglichkeiten vorgestellt und diskutiert.
   Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt),
-  Corinna Ullmann und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt um:
+  Corinna Ullmann und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum:
   Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und
   veröffentlicht werden sollen?
 license: https://creativecommons.org/licenses/by/4.0/deed.de
@@ -25,6 +25,14 @@ creator:
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
       type: Organization
 keywords:
   - OER
