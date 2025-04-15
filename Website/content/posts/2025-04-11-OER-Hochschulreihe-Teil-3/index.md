@@ -14,7 +14,7 @@ description: >-
   Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt),
   Corinna Ullmann und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum:
   Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und
-  veröffentlicht werden sollen?
+  veröffentlicht werden?
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/oer-fortbildungsreihe-3
 creator:
@@ -85,7 +85,7 @@ tags:
 
 ## Grundlagen zur Erstellung von OER
 
-Bei der Erstellung und Nutzung von OER spielt die korrekte Angabe von Quellen eine zentrale Rolle. Ein bewährtes Hilfsmittel hierfür ist die **TULLU-V-Regel** (auch als **[TULLUBA-Regel](https://open-educational-resources.de/oer-tullu-regel/)** bekannt), die sich insbesondere für Materialien mit Creative-Commons-Lizenzen etabliert hat.
+Im dritten Workshop der mehrteiligen Workshop-Reihe starteten wir zunächst mit den Grundlagen zur Erstellung von OER. Hierbei spielt die korrekte Angabe von Quellen eine zentrale Rolle. Ein bewährtes Hilfsmittel hierfür ist die **TULLU-V-Regel** (auch als **[TULLUBA-Regel](https://open-educational-resources.de/oer-tullu-regel/)** bekannt), die sich insbesondere für Materialien mit Creative-Commons-Lizenzen etabliert hat.
 
 Die Regel steht für folgende Bestandteile:
 
@@ -107,21 +107,21 @@ Die Regel steht für folgende Bestandteile:
 - **V – Veränderungen**  
   Seit der Version 4.0 der CC-Lizenzen ist es verpflichtend, alle vorgenommenen **inhaltlichen Veränderungen** am Material anzugeben. Dazu zählen z. B. Umschreibungen, Neuanordnungen, Übersetzungen, Kürzungen, gestalterische Bearbeitungen oder auch das Zuschneiden von Bildern.
 
-Diese Regel unterstützt dabei, die rechtlichen Anforderungen bei der Nutzung fremder CC-lizenzierter Inhalte transparent und korrekt umzusetzen.
+Diese Regel unterstützt dabei, CC-lizenzierte Inhalte  korrekt auszuweisen und transparent im eigenen Material darzustellen.
 
 ## Rechtliche Aspekte bei der Erstellung von OER
 
-Die Erstellung von OER erfordert nicht nur didaktisches Gespür, sondern auch ein sorgfältiges Auge für rechtliche Rahmenbedingungen. Im Idealfall bestehen OER vollständig aus selbst erstellten oder rechtlich unbedenklichen, offen lizenzierten Inhalten, wodurch eine Verletzung fremder Urheberrechte vermieden wird. Sollte dies nicht möglich sein, müssen fremde, geschützte Inhalte entweder durch offene Alternativen ersetzt oder in Übereinstimmung mit ihrer jeweiligen Lizenz korrekt gekennzeichnet werden.
+Die Erstellung von OER erfordert nicht nur didaktisches Gespür, sondern auch ein sorgfältiges Auge für rechtliche Rahmenbedingungen. Im Idealfall bestehen OER vollständig aus selbst erstellten oder rechtlich unbedenklichen, offen lizenzierten Inhalten, wodurch es nicht zu einer Verletzung fremder Urheberrechte kommt. Sollte dies nicht möglich sein, müssen geschützte Inhalte entweder durch offene Alternativen ersetzt oder in Übereinstimmung mit ihrer jeweiligen Lizenz korrekt gekennzeichnet werden.
 
-Hierbei ist die Einhaltung der **TULLU-V-Regel** zentral, die die korrekte Namensnennung bei Creative-Commons-lizenziertem Material vorgibt. Ebenso sollte frühzeitig geklärt werden, in wessen Namen – etwa Team, Projektgruppe oder Institution – eine eventuelle Namensnennung erfolgen soll.
+Hierbei ist die Einhaltung der **TULLU-V-Regel** zentral, die die korrekte Namensnennung bei Creative-Commons-lizenziertem Material vorgibt. Ebenso sollte frühzeitig geklärt werden, in wessen Namen – etwa als Team, Projektgruppe oder Institution – eine eventuelle Namensnennung erfolgen soll.
 
-Für das gesamte Material ist außerdem eine passende [Creative-Commons-Lizenz](https://oer.community/oer-fortbildungsreihe-2/) auszuwählen, die den gewünschten Nutzungsumfang abbildet. Besonders zu beachten ist hierbei die „ND“-Lizenz (No Derivatives), die keine Bearbeitung oder Vermischung mit anderen Materialien erlaubt und somit für neu zu kombinierende Inhalte nicht geeignet ist. Jegliche urheberrechtlich geschützte Elemente wie Videos, Grafiken, Audiodateien, Schriften oder Logos müssen, sofern sie nicht offen lizenziert sind, entweder ausgetauscht oder eindeutig von der Lizenzierung des restlichen Materials ausgenommen werden.
+Für das gesamte Material ist außerdem eine passende [Creative-Commons-Lizenz](https://oer.community/oer-fortbildungsreihe-2/) auszuwählen, die den gewünschten Nutzungsumfang abbildet. Besonders zu beachten ist hierbei die „ND“-Lizenz (No Derivatives), die keine Bearbeitung oder Vermischung mit anderen Materialien erlaubt und somit für neu kombinierte Inhalte nicht geeignet ist. Jegliche urheberrechtlich geschützte Elemente wie Videos, Grafiken, Audiodateien, Schriften oder Logos müssen, sofern sie nicht offen lizenziert sind, entweder ausgetauscht oder eindeutig von der Lizenzierung des restlichen Materials ausgenommen werden.
 
-Über die rechtlichen Anforderungen hinaus empfiehlt es sich, OER nicht als abgeschlossene Produkte zu verstehen, sondern als Teil eines iterativen Entwicklungsprozesses. Eine Evaluation durch Kolleg:innen oder Fachleute vor der Veröffentlichung kann nicht nur rechtliche, sondern auch inhaltliche und didaktische Schwächen frühzeitig sichtbar machen.
+Über die rechtlichen Anforderungen hinaus empfiehlt es sich, OER nicht als abgeschlossene Produkte zu verstehen, sondern als Teil eines iterativen Entwicklungsprozesses. Rückmeldung durch Kolleg:innen oder Fachleute vor der Veröffentlichung kann nicht nur rechtliche Schwachstellen sichtbar machen, sondern auch die inhaltliche und didaktische Qualität des Materials verbessern. 
 
 ## OER-Gestaltung mit H5P
 
-Im Anschluss an die theoretische Auseinandersetzung mit OER haben wir gemeinsam mit den Teilnehmenden praxisnah mit H5P gearbeitet. H5P (HTML5 Package) ist ein Open-Source-Tool zur Erstellung interaktiver und multimedial ansprechender Lerninhalte. Es ermöglicht eine breite Palette an Inhaltstypen, z. B. interaktive Videos, Multiple-Choice-Aufgaben, Drag-and-Drop-Übungen oder Zeitleisten, die ohne Programmierkenntnisse direkt im Browser erstellt werden können.
+Im Anschluss an die theoretische Auseinandersetzung mit OER konnten wir einen praxisnahen Einblick in die Gestaltung mit H5P geben. H5P (HTML5 Package) ist ein Open-Source-Tool zur Erstellung interaktiver und multimedial ansprechender Lerninhalte. Es ermöglicht eine breite Palette an Inhaltstypen, z. B. interaktive Videos, Multiple-Choice-Aufgaben, Drag-and-Drop-Übungen oder Zeitleisten, die ohne Programmierkenntnisse direkt im Browser erstellt werden können.
 
 Besonderes Augenmerk legten wir auf die **Course Presentation**, ein H5P-Inhaltstyp, der die Erstellung von Folienpräsentationen mit eingebetteten interaktiven Elementen erlaubt. Damit lassen sich klassische Lehrmaterialien dynamisch aufbereiten und um formative Übungseinheiten ergänzen.
 
@@ -135,7 +135,7 @@ Die Inhalte können direkt auf einer Lernplattform oder Website eingebettet werd
 
 ## Verbreitung von OER: Wo und wie veröffentlichen?
 
-Ein zentraler Aspekt der Arbeit mit OER ist nicht nur deren Erstellung, sondern auch deren gezielte Verbreitung. Die Sichtbarkeit qualitativ hochwertiger, offener Bildungsmaterialien erhöht ihren pädagogischen Nutzen und ermöglicht die Weiterentwicklung durch andere. In der Fortbildung wurden einige zentrale Plattformen vorgestellt, die sich für die Veröffentlichung von OER eignen, insbesondere mit Blick auf den schulischen und hochschulischen Bereich sowie die Religionspädagogik.
+Ein zentraler Aspekt der Arbeit mit OER ist nicht nur deren Erstellung, sondern auch deren gezielte Verbreitung. Die Sichtbarkeit qualitativ hochwertiger, offener Bildungsmaterialien erhöht ihren pädagogischen Nutzen und ermöglicht die Weiterentwicklung durch andere. In Workshoo wurden daher einige zentrale Plattformen vorgestellt, die sich für die Veröffentlichung von OER eignen, insbesondere mit Blick auf den schulischen und hochschulischen Bereich sowie die Religionspädagogik.
 
 ### OERSI – Open Educational Resources Search Index
 
@@ -143,7 +143,7 @@ Ein zentraler Aspekt der Arbeit mit OER ist nicht nur deren Erstellung, sondern 
 
 ### Wir lernen online (WLO)
 
-Die Plattform [„Wir lernen online“](https://suche.wirlernenonline.de/search/de/search?filters=%7B%22discipline%22:%5B%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2Fdiscipline%2F520%22%5D%7D) sammelt freie Bildungsressourcen für eine Vielzahl von Fächern – darunter auch Religion. Materialien können über ein [Online-Formular](https://wirlernenonline.de/fachportalinhalte-vorschlagen/?type=material&headline=Fachportal&pageDiscipline=Religion) eingereicht werden. Nach einer redaktionellen Prüfung werden die Inhalte über das **Fachportal Religion** öffentlich zugänglich gemacht. Diese Plattform eignet sich besonders für Lehrkräfte, die ihre OER strukturiert und mit fachlicher Begleitung veröffentlichen möchten.
+Die Plattform [„Wir lernen online“](https://suche.wirlernenonline.de/search/de/search?filters=%7B%22discipline%22:%5B%22http:%2F%2Fw3id.org%2Fopeneduhub%2Fvocabs%2Fdiscipline%2F520%22%5D%7D) sammelt freie Bildungsressourcen für eine Vielzahl von Fächern – darunter auch Religion. Materialien können über ein [Online-Formular](https://wirlernenonline.de/fachportalinhalte-vorschlagen/?type=material&headline=Fachportal&pageDiscipline=Religion) eingereicht werden. Nach einer redaktionellen Prüfung werden die Inhalte über das **Fachportal Religion** öffentlich zugänglich gemacht. Diese Plattform eignet sich besonders für Lehrkräfte, die ihre OER veröffentlichen möchten.
 
 ### Twillo – OER-Infrastruktur in Niedersachsen
 
@@ -155,7 +155,7 @@ Die Plattform [„Wir lernen online“](https://suche.wirlernenonline.de/search/
 
 ## OER-Verbreitung mit git
 Mit dem [**OER GitHub Tutorial**](https://oersi.org/resources/aHR0cHM6Ly9saWFzY3JpcHQuZ2l0aHViLmlvL2NvdXJzZS8_aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JwaS12aXJ0dWVsbC9vZXItZ2l0aHViLXR1dG9yaWFsLWxpYXNjcmlwdC9tYWluL3R1dG9yaWFsLm1kIzE=) und dem [**OER Metadatenformular**](https://oersi.gitlab.io/metadata-form/metadata-generator.html) stehen zwei besonders praxisorientierte Werkzeuge zur Verfügung. Das GitHub-Tutorial erleichtert Einsteiger:innen den Zugang zur Veröffentlichung, das Metadatenformular ist ein Unterstützungsinstrument um konform zu den Metadatenstandards zu publizieren.
-Im Workshop haben wir die Erfassung und Veröffentlichung an einem Beispiel durchgespielt. Zur besseren Nachvollziehbarkeit und gleichzeitig als Anleitung dokumentieren wir hier, wie dies in 2 Schritten sofort selbst umsetzbar ist. Die Erfassung und Veröffentlichung erfolgt in 2 Schritten:
+Im Workshop haben wir die Erfassung und Veröffentlichung an einem Beispiel durchgespielt. Zur besseren Nachvollziehbarkeit und gleichzeitig als Anleitung dokumentieren wir hier, wie dies in zwei Schritten sofort selbst umsetzbar ist. 
 1. Für die beispielhafte CC-BY-Publikation ["Konfi-Arbeit in und nach der Corona-Pandemie"](https://www.degruyterbrill.com/document/doi/10.14315/9783641331566/html), die bislang weder auf OERSI noch Twillo indexiert und somit auch hier noch nicht auffindbar war, erfassen wir die Metadaten mit dem [Metadatenformular](https://oersi.gitlab.io/metadata-form/metadata-generator.html) von OERSI und stellen diese dann [hier via gitlab als yml bereit](https://gitlab.com/comenius-institut/foerbico/oersi-datensatz/-/blob/main/resource_metadata/2025-04-08-konfi-arbeit-corona.yml).     
 2. OERSI indexiert automatisch und zeigt nun [bei einer Suche nach "Konfi-Arbeit" diesen neuen Eintrag](https://oersi.org/resources/aHR0cHM6Ly9kb2kub3JnLzEwLjE0MzE1Lzk3ODM2NDEzMzE1NjY=) an und [auch bei Twillo wird man nun hier fündig](https://www.twillo.de/oer/web/suche/?search=%22Konfi-Arbeit+in+und+nach+der+Corona-Pandemie%22).
 
