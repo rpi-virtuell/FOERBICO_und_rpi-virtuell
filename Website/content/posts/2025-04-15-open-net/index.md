@@ -71,7 +71,7 @@ tags:
 
 ## Vom Gemeindebrief zur Protokollarchitektur: Wie sich Bildungsräume vernetzen lassen
 
-Was zunächst als Dialog über Personalfragen begann, entwickelte sich zu einer dichten Exploration gemeinsamer Möglichkeitsräume: Greg Elson und Jörg Lohrer sprachen über die Zukunft evangelischer Bildungs- und Medienarbeit – nicht im Modus der Institutionenpflege, sondern in der Logik von Plattformen und Netzwerken. 
+Was zunächst als Dialog über IT-Architekturen begann, entwickelte sich zu einer dichten Exploration gemeinsamer Möglichkeitsräume: Greg Elson und Jörg Lohrer sprachen über die Zukunft evangelischer Bildungs- und Medienarbeit – nicht im Modus der Institutionenpflege, sondern in der Logik von Plattformen und Netzwerken. 
 
 ## Perspektivenwechsel: Vom System zur Schnittstelle
 
