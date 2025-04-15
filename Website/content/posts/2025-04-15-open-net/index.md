@@ -75,7 +75,7 @@ Was zunächst als Dialog über IT-Architekturen begann, entwickelte sich zu eine
 
 ## Perspektivenwechsel: Vom System zur Schnittstelle
 
-Zentral war dabei die Einsicht: Zukünftige Bildungsräume werden nicht mehr von Systemarchitekturen getragen, sondern von anschlussfähigen Schnittstellen. Statt Inhalte zu kontrollieren, gelte es, partizipative Infrastrukturen zu entwerfen. Die Rede war von JSON-Dateien als Ausgangspunkt, vom "Publishing-Cockpit" als neuer Benutzeroberfläche, und von einer konsequenten Trennung zwischen Inhalts- und Metadatenebene, die sich jeweils an überführbaren Standards orientieren sollen.
+Zentral war dabei die Einsicht: Zukünftige Bildungsräume und Mediennetzwerke werden nicht mehr von Systemarchitekturen getragen, sondern von anschlussfähigen Schnittstellen. Statt Inhalte zu kontrollieren, gelte es, partizipative Infrastrukturen zu entwerfen. Die Rede war von JSON-Dateien als Ausgangspunkt, vom "Publishing-Cockpit" als neuer Benutzeroberfläche, und von einer konsequenten Trennung zwischen Inhalts- und Metadatenebene, die sich jeweils an überführbaren Standards orientieren sollen.
 
 ## Open Net und/oder das evangelische Labor: Ort, Idee, Netzwerk
 
@@ -83,7 +83,7 @@ Eine Idee nahm dabei im Gespräch zunehmend Gestalt an: das **Evangelische Labor
 
 ## OpenNet als Bewegung: Visualisierung von Interaktionsräumen
 
-Der Projektname „OpenNet“ wurde mehrfach erwähnt – als Denkrahmen, als Arbeitstitel, als mögliches Vehikel für gemeinsames Sichtbarwerden. Was wäre, wenn wir nicht nur „Landkarten“ evangelischer Websites erstellen, sondern auch deren Verbindungslinien? Nicht die Geodaten interessieren, sondern die funktionalen Beziehungen. „The map is not the territory“ – dieser Satz des Philosophen Alfred Korzybski scheint uns gleichsam Leitmotiv einer Entwicklungsperspektive, die nicht nur die Repräsentation religionsbezogener Bildung und Mediendistribution im Blick hat sondern vielmehr den Fokus auf die gemeinschaftlichen Erarbeitungsprozesse und kooperativen Kompetenzaufbau in einer Kultur der Digitalität verlagert.
+Der Projektname „Open Net“ fiel uns dabei ebenfalls ein – als Denkrahmen, als Arbeitstitel, als mögliches Vehikel für gemeinsames Sichtbarwerden. Was wäre, wenn wir nicht nur „Landkarten“ evangelischer Websites erstellen, sondern auch deren Verbindungslinien? Nicht die Geodaten interessieren im digitalen Raum, sondern die funktionalen Beziehungen. „The map is not the territory“ – dieser Satz des Philosophen Alfred Korzybski scheint uns gleichsam Leitmotiv einer Entwicklungsperspektive, die nicht nur die Repräsentation religionsbezogener Bildung und Mediendistribution im Blick hat sondern vielmehr den Fokus auf die gemeinschaftlichen Erarbeitungsprozesse und kooperativen Kompetenzaufbau in einer Kultur der Digitalität verlagert.
 
 ## Die Befreiung der Daten
 
@@ -91,7 +91,7 @@ Greg brachte es auf den Punkt: „Bevor wir mit KI anfangen können, müssen wir
 
 ## Rollen, Broker und Beteiligungspotenziale
 
-Beide Gesprächspartner reflektierten ihre Rollen – nicht als Projektleiter klassischer Prägung, sondern als **Broker** in emergenten Netzwerken. Es geht um Antizipation, Resonanz, Enablement. Greg betonte den Bedarf an UX-Design, das niedrigschwellig Zugänge schafft. Jörg verwies auf das Potenzial von Ehrenamtlichen, Pensionierten oder Menschen in Care-Situationen: „Die Netzwerklogik könnte Beteiligung auch für jene ermöglichen, die sonst von aktiver Teilgabe behindert werden.“
+Beide Gesprächspartner reflektierten ihre Rollen – nicht als Projektkoordinatoren klassischer Prägung, sondern als **Broker** in emergenten Netzwerken. Es geht um Antizipation, Resonanz, Enablement. Greg betonte den Bedarf an UX-Design, das niedrigschwellig Zugänge schafft. Jörg verwies auf das Potenzial von Ehrenamtlichen, Pensionierten oder Menschen in Care-Situationen: „Die digitalen Netzwerklogiken könnte asynchrone Beteiligung auch für jene ermöglichen, deren aktive Teilgabe in hierarchisch organisierten Prozessen und synchroner Präsenz bislang behindert wurde.“
 
 ## Rechtsform, Vertrauensräume und föderales Commitment
 
@@ -99,9 +99,9 @@ Damit aus Ideen tragfähige Strukturen entstehen, braucht es auch institutionell
 
 ## Ausblick: Das zukünftig Mögliche
 
-„Das eigentlich Wirkliche ist das zukünftig Mögliche“. Unsere Ideen stehen noch am Anfang – als Idee, als Narrativ, als Bewegung. Aber es wächst, mit jeder Resonanz, jeder Gesprächseinladung, jeder Community, die sich anschließt. Der nächste Schritt? Vielleicht ein erstes Dummy-Netzwerk. Vielleicht ein Manifest. Vielleicht nur ein Icon. Hauptsache: offen.
+„Das eigentlich Wirkliche ist das zukünftig Mögliche“. Unsere Ideen stehen noch am Anfang – als Idee, als Narrativ, als Bewegung. Aber es wächst, mit jeder Resonanz, jeder Gesprächseinladung, jeder Community, die sich anschließt. Der nächste Schritt? Vielleicht erste Erprobungen von Netzwerkprotokollen. Vielleicht ein Mitmach-Manifest. Vielleicht nur ein Icon oder Symbol. Hauptsache: offen.
 
 ---
 
-> „Wir wollen nicht durch Geschlossenheit ins Breite, sondern durch Breite zur Profilentwicklung.“ – Jörg  
+> „Wir wollen nicht durch Geschlossenheit ins Breite, sondern durch Breite zu skalierbarer Beteiligung.“ – Jörg  
 > „Ein Netzwerk ist nur so stark wie die Beziehungen, die es trägt.“ – Greg 
