@@ -160,4 +160,4 @@ Im Workshop haben wir die Erfassung und Veröffentlichung an einem Beispiel durc
 2. OERSI indexiert automatisch und zeigt nun [bei einer Suche nach "Konfi-Arbeit" diesen neuen Eintrag](https://oersi.org/resources/aHR0cHM6Ly9kb2kub3JnLzEwLjE0MzE1Lzk3ODM2NDEzMzE1NjY=) an und [auch bei Twillo wird man nun hier fündig](https://www.twillo.de/oer/web/suche/?search=%22Konfi-Arbeit+in+und+nach+der+Corona-Pandemie%22).
 
 So konnten wir in unserem Workshop dieses "Proof-of-Concept" direkt exemplarisch live umsetzen und als Ergebnis den Workflow nun hier nachnutzbar dokumentieren.
-Zögert nicht, uns zu kontaktieren, wenn ihr Fragen habt oder Unterstützung braucht, um die religionsbezogene Hochschullehre, die bisher nur ansatzweise unter freien Lizenzen in OER-Suchtportalen zu finden ist, gemeinsam zu erweitern!
+Zögert nicht, uns zu kontaktieren, wenn ihr Fragen habt oder Unterstützung braucht, um die religionsbezogene Hochschullehre, die bisher nur ansatzweise unter freien Lizenzen in OER-Suchportalen zu finden ist, gemeinsam zu erweitern!
