@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 type: ScholarlyArticle
 id: https://oer.community/evangelisches-labor
-name: Open Net - Der Weg zu einem offenen Netzwerk evangelischer Bildungsräume
+name: Religionsbezogene Bildung und evangelische Publizistik - Auf dem Weg zu einem offenen Netzwerk als neue Ermöglichungsstruktur
 description: >-
   Ein Gespräch zwischen Greg Elson (GEP) und Jörg Lohrer (Comenius-Institut)
   eröffnet Perspektiven auf dezentrale Bildungs- und Medienarchitekturen im
@@ -49,7 +49,7 @@ datePublished: '2025-04-15'
 author:
   - Jörg Lohrer
   - Greg Elson
-title: Open Net - Der Weg zu einem offenen Netzwerk evangelischer Bildungsräume
+title: Religionsbezogene Bildung und evangelische Publizistik - Auf dem Weg zu einem offenen Netzwerk als neue Ermöglichungsstruktur
 cover:
   relative: true
   image: greg-und-joerg-we-are-open.png
