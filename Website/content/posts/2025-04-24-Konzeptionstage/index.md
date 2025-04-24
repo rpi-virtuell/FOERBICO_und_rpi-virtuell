@@ -22,7 +22,7 @@ keywords:
   - Teamevent
   - Metadaten
   - Technik
-image: 
+image: https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-konzeptionstage/Website/content/posts/2025-04-24-Konzeptionstage/Weg%20zum%20Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-04-24'
@@ -32,7 +32,7 @@ author:
 title: Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO
 cover:
   relative: true
-  image: 
+  image: Weg zum Community-Hub.jpg
 summary: >-
 Wie gelingt digitale Vernetzung in der religiösen Bildungsarbeit? rpi-virtuell und FOERBICO arbeiten gemeinsam an einem Community-Hub, der Austausch, offene Bildungspraktiken und technische Innovation verbindet. Ein Rückblick auf die Konzeptionstage im März und April 2025 zeigt erste Ansätze, Herausforderungen und Ideen – von KI-gestützter Unterrichtsplanung über Qualitätskriterien bis hin zu Metadatenstandards und Community-Arbeit.
 url: recap-konzeptionstage
