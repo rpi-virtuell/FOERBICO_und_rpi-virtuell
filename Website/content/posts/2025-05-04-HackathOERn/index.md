@@ -1,8 +1,12 @@
+Titelbild: https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/attatchment.0oHLo7.jpg
+
 # Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
 
 Wie können wir digitale Infrastrukturen stärken, um Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland voranzubringen? Mit dieser zentralen Frage im Gepäck kamen vom 28. bis 30. April 2025 Expert:innen, Entwickler:innen und OER-Interessierte beim ersten [HackathOERn von edu-sharing](https://edu-sharing-network.org/projekt-hackathoern/) in den inspirierenden Räumen der [Gesellschaft für wissenschaftliche Datenverarbeitung mbH (GWDG)](https://gwdg.de/) in Göttingen zusammen.
 
 Im Fokus standen: Vernetzung, Wissenstransfer und das gemeinsame Tüfteln an digitalen Lösungen und ersten Prototypen. Bereits im Vorfeld wurden Projektideen eingereicht, die beim HackathOERn kollaborativ weiterentwickelt wurden.
+
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/IMG_9679.jpg)
 
 ## Die Projektideen im Überblick:
 
@@ -53,6 +57,11 @@ Diesen und alle weiteren Lightning-Talks findet ihr [hier](https://drive.google.
 Bereits letztes Jahr beim [IT-Sommercamp in Weimar](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/) präsentierte Steffen Rörtgen (FWU Institut für Film und Bild gGmbH) die Idee eines dezentralen und interoperablen Datenraums basierend auf dem Social Media Protokoll [Nostr]( https://nostr.com/). Das Protokoll basiert auf sehr einfachen und flexiblen Event-Objekten (die als einfaches JSON weitergegeben werden) und verwendet einen offenen Standard für Schlüssel und Signierung. Im Rahmen des Camps haben wir überlegt, wie man dieses Protokoll auf den Bildungsbereich anwenden könnte, um plattformunabhängiger zu werden und haben https://www.edufeed.org/ als ersten Prototypen entwickelt. 
 
 Beim HackathOERn wollten wir zum einen Use-Cases in den Blick nehmen (z.B. OpenCards als „Task-Card-Klon“ oder die Erweiterung um soziale Komponenten wie Likes und Kommentare) und zum anderen die nicht ganz unterkomplexe und sehr technische Idee im Sinne eines „Letter to Grandma“ auch Personen vermitteln, die nicht aus dem IT-Bereich kommen. Kein leichtes Unterfangen! Doch da unsere Gruppe sehr interdisziplinär zusammengesetzt war und vielfältige Perspektiven einbringen konnte, wurde in zwei Tagen ordentlich getüftelt und einiges auf die Beine gestellt!
+
+![Die Hackerboys](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/ima14078618187494364063.jpg)
+
+![Hacking in Nature](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/attatchment.XonQt9.jpg)
+
 
 ## Pitch Perfect: Hackathon-Ergebnisse auf der Bühne
 
