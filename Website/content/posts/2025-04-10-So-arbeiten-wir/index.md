@@ -1,3 +1,69 @@
+---
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  So arbeiten wir in der oer.community: Offen, transparent, kollaborativ
+description: >-
+  Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit, transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP) gelebt werden.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/so-arbeiten-wir
+creator:
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - OER
+  - Open Educational Practices
+  - Git
+  - Kollaboration
+  - FOERBICO
+  - Community
+  - Versionsverwaltung
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+image: >-
+  https://oer.community/so-arbeiten-wir/foerbildfunktion.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-05-06'
+author:
+  - Jörg Lohrer
+  - Gina Buchwald-Chassée
+title: 'So arbeiten wir in der oer.community: Offen, transparent, kollaborativ'
+cover:
+  relative: true
+  image: foerbildfunktion.jpg
+url: so-arbeiten-wir
+tags:
+  - OER
+  - OEP
+  - Kollaboration
+  - Git
+  - Workflow
+  - Community
+---
+
+
 # So arbeiten wir in der oer.community
 
 ## Vorweg: Offene Projektkultur im Kontext von FOERBICO
