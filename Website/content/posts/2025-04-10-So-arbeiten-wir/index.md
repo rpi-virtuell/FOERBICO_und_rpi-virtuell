@@ -129,7 +129,7 @@ Zusammenfassend garantiert der Git-Workflow mit Feature-Branches, Reviews und CI
 
 Die Erstellung von Texten und Bildungsinhalten im Projekt folgt ebenfalls einem strukturierten, offenen Prozess, der sich eng an Software-Entwicklungsworkflows anlehnt. **Redaktionelle Beiträge (z.B. Blogartikel, Handreichungen, Lehrmodule)** entstehen in Kollaboration über Git:
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-so-arbeiten-wir/Website/content/posts/2025-04-10-So-arbeiten-wir/Redaktionsprozess.png)
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/add-blogpost-so-arbeiten-wir/Website/content/posts/2025-04-10-So-arbeiten-wir/Redaktionsprozess.png)
 
 - **Ideenfindung und Planung:** Neue Inhalte starten häufig als *Issue*. Hat jemand z.B. die Idee für einen Blogbeitrag über ein Projektthema, wird ein Issue mit einem sprechenden Titel erstellt (z.B. der Issue [*"Blogbeitrag Workflow/Selbstmanagement darstellen"*](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/issues/329), der zu diesem Artikel geführt hat. In der Beschreibung können bereits Stichpunkte oder ein grober Umriss festgehalten werden. Das Issue wird typischerweise dem Board *Blogposts Redaktion* zugeordnet und mit Label *Blog* markiert. So ist von Anfang an klar, dass es sich um eine redaktionelle Aufgabe handelt. Oft werden in der frühen Phase im Issue schon **Rollen verteilt** – etwa wer den ersten Entwurf schreibt und wer später gegenliest – und **Material gesammelt** (Quellen, Links, Abbildungen).
 
@@ -149,7 +149,7 @@ Ergänzend zu Git nutzen wir für die redaktionelle Zusammenarbeit auch Kommunik
 
 Unsere Arbeitsweise verkörpert **Open Educational Practices** auf mehreren Ebenen. OEP bedeutet, dass nicht nur die Endprodukte offen sind, sondern der gesamte Prozess auf Offenheit, Partizipation und kontinuierliches Lernen ausgelegt ist. Im Projekt FOERBICO setzen wir dies folgendermaßen um:
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-so-arbeiten-wir/Website/content/posts/2025-04-10-So-arbeiten-wir/Grafik-1.jpg)
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/add-blogpost-so-arbeiten-wir/Website/content/posts/2025-04-10-So-arbeiten-wir/Grafik-1.jpg)
 
 - **Transparenz der Prozesse:** Alle Projektaktivitäten werden offen sichtbar gemacht. Das Issue-Tracking ist – abgesehen von eventuell sensiblen Einträgen – öffentlich einsehbar. Externe können nachvollziehen, woran das Team arbeitet, welche Probleme diskutiert werden und wie Lösungen gefunden werden. Diese *Working-out-loud*-Philosophie fördert Vertrauen und lässt Stakeholder am Fortschritt teilhaben, ohne dass wir für Berichte extra geschlossene Kreisläufe brauchen. Selbst unsere Zeitplanung (Meilensteine) und Dokumentation sind als Dateien öffentlich versioniert, nicht in internen Ordnern versteckt. Das erhöht auch die *Verbindlichkeit*: Was einmal im Issue festgehalten ist, wird nicht übersehen.
 
