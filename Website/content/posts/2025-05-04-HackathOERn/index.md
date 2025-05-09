@@ -1,6 +1,72 @@
-Titelbild: https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/attachment0oHLo7.jpg
-
-![](attachment0oHLo7.jpg)
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/HackathOERn
+name: Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
+description: >-
+Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Ludger
+    familyName: Sicking
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - Hackathon
+  - Vernetzung
+  - OER
+  - Infrastruktur
+  - Edufeed
+  - Interoperabilität
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://oer.community/HacktahOERn/attachment0oHLo7.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-05-09'
+#staticSiteGenerator:
+author:
+  - Jörg Lohrer
+  - Gina Buchwald-Chassée
+  - Ludger Sicking
+title: Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
+cover:
+  relative: true
+  image: attachment0oHLo7.jpg
+  caption: "Ludger, Jörg und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen"
+summary: >-
+Vom 28. bis 30. April 2025 kamen beim ersten HackathOERn von edu-sharing in Göttingen Akteur:innen aus dem OER-Bereich zusammen, um gemeinsam an digitalen Lösungen zur Stärkung von Open Educational Resources (OER) und Open Educational Practices (OEP) zu arbeiten. Im Mittelpunkt standen Vernetzung, Wissenstransfer und die kollaborative Weiterentwicklung eingereichter Projektideen bis hin zu ersten Prototypen.
+url: HackathOERn
+tags:
+  - Digitalisierung
+  - Vernetzung
+  - Plattformen
+  - OER
+  - Edufeed
+  - UX Design
+---
 
 # Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
 
@@ -86,4 +152,6 @@ Und dann ist da noch der Zeitfaktor: Mary investiert ca. 5 Stunden in ihr Erklä
 
 Wir vom [Edufeed](https://www.edufeed.org/)-Team haben entschieden an der Idee weiterzuarbeiten. Dazu haben wir einen eigenen Matrix-Raum eingerichtet. In dem Raum geht es u. a. um die Nutzung des Nostr-Protokolls, die Weiterentwicklung einer dezentralen offenen Alternative zu TaskCard / Padlet, der Sammlung von Ideen in einer dezentralen Datenbankstruktur... Wer mitdenken und mitentwickeln möchte ist herzlich eingeladen: https://matrix.to/#/#OERSTR:rpi-virtuell.de
 
-Ansonsten wird der **2. HackathOERn vom 25.-27.08.2025 in Weimar** stattfinden, also save-the-Date 📅
+Ansonsten wird der **2. HackathOERn vom 25.-27.08.2025 in Weimar** stattfinden, also save-the-Date 📅 Wir hatten auf jeden Fall eine gute Zeit und jede Menge Spaß #HappyHacking!
+
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/_DSC7632%20nicht%20ver%C3%B6ff.JPG)
