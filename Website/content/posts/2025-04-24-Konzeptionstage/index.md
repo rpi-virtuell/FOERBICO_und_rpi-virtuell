@@ -3,9 +3,9 @@
 '@context': https://schema.org/
 type: ScholarlyArticle
 id: https://oer.community/recap-konzeptionstage
-name: Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO
+name: 'Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO'
 description: >-
-Im März und April 2025 haben sich rpi-virtuell und FOERBICO erneut in zwei digitalen Konzeptionstagen getroffen, um an der Entwicklung eines Community-Hubs für die religiöse Bildungsarbeit zu arbeiten. Im Mittelpunkt standen die KI-gestützte Unterrichtsplanung, offene Bildungspraktiken, die Verbesserung technischer Infrastrukturen und die Vernetzung von Communities. In Kleingruppen wurden zentrale Themen wie Metadaten-Standards, Qualitätskriterien, Kommunikation und Serverstrukturen vertieft. Ziel ist ein Hub, der Partizipation, Sichtbarkeit und Zusammenarbeit stärkt – ganz im Sinne einer „Community of Communities“. 
+  Im März und April 2025 haben sich rpi-virtuell und FOERBICO erneut in zwei digitalen Konzeptionstagen getroffen, um an der Entwicklung eines Community-Hubs für die religiöse Bildungsarbeit zu arbeiten. Im Mittelpunkt standen die KI-gestützte Unterrichtsplanung, offene Bildungspraktiken, die Verbesserung technischer Infrastrukturen und die Vernetzung von Communities. In Kleingruppen wurden zentrale Themen wie Metadaten-Standards, Qualitätskriterien, Kommunikation und Serverstrukturen vertieft. Ziel ist ein Hub, der Partizipation, Sichtbarkeit und Zusammenarbeit stärkt – ganz im Sinne einer „Community of Communities“. 
 inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/
 creator:
@@ -22,19 +22,19 @@ keywords:
   - Teamevent
   - Metadaten
   - Technik
-image: https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-konzeptionstage/Website/content/posts/2025-04-24-Konzeptionstage/Weg%20zum%20Community-Hub.jpg
+image: https://oer.community/recap-konzeptionstage/Weg_zum_Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-04-24'
 #staticSiteGenerator:
 author:
   - Gina Buchwald-Chassée
-title: Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO
+title: 'Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO'
 cover:
   relative: true
-  image: Weg zum Community-Hub.jpg
+  image: Weg_zum_Community-Hub.jpg
 summary: >-
-Wie gelingt digitale Vernetzung in der religiösen Bildungsarbeit? rpi-virtuell und FOERBICO arbeiten gemeinsam an einem Community-Hub, der Austausch, offene Bildungspraktiken und technische Innovation verbindet. Ein Rückblick auf die Konzeptionstage im März und April 2025 zeigt erste Ansätze, Herausforderungen und Ideen – von KI-gestützter Unterrichtsplanung über Qualitätskriterien bis hin zu Metadatenstandards und Community-Arbeit.
+  Wie gelingt digitale Vernetzung in der religiösen Bildungsarbeit? rpi-virtuell und FOERBICO arbeiten gemeinsam an einem Community-Hub, der Austausch, offene Bildungspraktiken und technische Innovation verbindet. Ein Rückblick auf die Konzeptionstage im März und April 2025 zeigt erste Ansätze, Herausforderungen und Ideen – von KI-gestützter Unterrichtsplanung über Qualitätskriterien bis hin zu Metadatenstandards und Community-Arbeit.
 url: recap-konzeptionstage
 tags:
   - Austausch
@@ -44,11 +44,9 @@ tags:
   - Community
 ---
 
-# Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO
+Nach dem [ersten Konzeptionstag im Oktober 2024](https://oer.community/konzeptionstag/) an der Goethe-Universität in Frankfurt, bei dem erste Ideen und Visionen für zukünftige Entwicklungen in der religiösen Bildungsarbeit gesammelt wurden, ging es nun an die Konkretisierung: In zwei Online-Konzeptionstagen am 19. März und am 7. April 2025 kamen die Teams von rpi-virtuell und FOERBICO erneut zusammen, um sich intensiv mit einem gemeinsamen Vorhaben zu beschäftigen: der Entwicklung eines Community-Hubs, der religionsbezogene Akteur:innen vernetzt und offene Bildungspraktiken im religiösen Kontext stärkt.
 
-Nach dem [ersten Konzeptionstag im Oktober 2024](https://oer.community/konzeptionstag/) an der Goethe-Universität in Frankfurt, bei dem erste Ideen und Visionen für zukünftige Entwicklungen in der religiösen Bildungsarbeit gesammelt wurden, ging es nun an die Konkretisierung: In zwei Online-Konzeptionstagen am 19. März und am 7. April 2025 kamen die Teams von rpi-virtuell und FOERBICO erneut zusammen, um sich intensiv mit einem gemeinsamen Vorhaben zu beschäftigen: der Entwicklung eines Community-Hubs, der religionsbezogene Akteur:innen vernetzt und offene Bildungspraktiken im religiösen Kontext stärkt. 
-
-## Wanderschuhe geschnürt: Aufbruch zum Community Hub – Rückblick auf den Konzeptionstag am 19. März 
+## Wanderschuhe geschnürt: Aufbruch zum Community Hub – Rückblick auf den Konzeptionstag am 19. März
 
 Eröffnet wurde die Runde mit einem spannenden Einblick in aktuelle Entwicklungen rund um KI-gestützte Unterrichtsplanung. Zentrales Anliegen: Wie können Lehrkräfte zukünftig durch einen intelligenten Workflow bei der Unterrichtsvorbereitung unterstützt werden? Die Vision: Ein interaktiver Dialog mit einer KI, die auf Basis von semantischer Suche passende Materialien vorschlägt – und daraus ein maßgeschneidertes Unterrichtsprodukt entwickelt.
 Dabei spielt ein Didaktik-Chat mit „Amos Comenius“ eine zentrale Rolle: Die KI analysiert Datenbanken, kuratiert Material, formuliert Lernziele und stellt eine Phasenplanung bereit – alles in Markdown, damit es möglichst einfach editierbar bleibt. Ein besonderer Charme: Der KI-Workflow orientiert sich nicht nur an Lehrplänen, sondern auch an theologischen und erfahrungsbezogenen Qualitätsmerkmalen.
@@ -65,6 +63,7 @@ Neben der technischen Infrastruktur – von Vektordatenbanken über Docker-Insta
 Ein Vorschlag: ein Bewertungssystem für hochwertige Materialien, das auf redaktionellen Einschätzungen beruht. Damit ließe sich Transparenz schaffen – und zugleich ein Qualitätssiegel für handverlesene Inhalte etablieren.
 
 ### Von der KI zum Hub: Think – Pair – Share
+
 Nach einer kurzen Verschnaufpause ging es in Slot 2 mit einem Perspektivwechsel weiter: Wie kommen wir vom Einzelprojekt zum Community Hub? Unter der Leitfrage „Was verstehen wir eigentlich unter einem Hub?“ tauschten sich die Teilnehmenden im Think-Pair-Share-Format aus.
 
 **Definitionen & Bilder, die hängengeblieben sind:**
@@ -90,7 +89,7 @@ Welche Kompetenzen bringen wir als jeweilige Personen im Team mit, welche Stärk
 
 ### Community-Hub als „der heilige Gral“
 
-Wie kommen wir zum Community-Hub und was braucht es dafür? 
+Wie kommen wir zum Community-Hub und was braucht es dafür?
 
 #### Kommunikation und Community
 
