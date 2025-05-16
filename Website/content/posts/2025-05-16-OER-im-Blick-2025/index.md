@@ -1,3 +1,8 @@
+
+Titelbild: 
+
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-oer-im-blick-2025/Website/content/posts/2025-05-16-OER-im-Blick-2025/IMG_9713.jpg)
+
 # Rückblick: OER im Blick 2025 
 
 Nach der Auftaktkonferenz letztes Jahr in Frankfurt am Main (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/))
