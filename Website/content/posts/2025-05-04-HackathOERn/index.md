@@ -2,10 +2,10 @@
 #commonMetadata:
 '@context': https://schema.org/
 type: LearningResource
-id: https://oer.community/HackathOERn
-name: Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
+id: https://oer.community/hackathoern
+name: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen'
 description: >-
-Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
+  Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
 inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/
 creator:
@@ -40,7 +40,7 @@ keywords:
   - Interoperabilität
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/HacktahOERn/attachment0oHLo7.jpg
+image: https://oer.community/hacktahoern/gina-ludger-joerg.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -51,14 +51,14 @@ author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
   - Ludger Sicking
-title: Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
+title: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen'
 cover:
   relative: true
-  image: attachment0oHLo7.jpg
+  image: gina-ludger-joerg.jpg
   caption: "Ludger, Jörg und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen"
 summary: >-
-Vom 28. bis 30. April 2025 kamen beim ersten HackathOERn von edu-sharing in Göttingen Akteur:innen aus dem OER-Bereich zusammen, um gemeinsam an digitalen Lösungen zur Stärkung von Open Educational Resources (OER) und Open Educational Practices (OEP) zu arbeiten. Im Mittelpunkt standen Vernetzung, Wissenstransfer und die kollaborative Weiterentwicklung eingereichter Projektideen bis hin zu ersten Prototypen.
-url: HackathOERn
+  Vom 28. bis 30. April 2025 kamen beim ersten HackathOERn von edu-sharing in Göttingen Akteur:innen aus dem OER-Bereich zusammen, um gemeinsam an digitalen Lösungen zur Stärkung von Open Educational Resources (OER) und Open Educational Practices (OEP) zu arbeiten. Im Mittelpunkt standen Vernetzung, Wissenstransfer und die kollaborative Weiterentwicklung eingereichter Projektideen bis hin zu ersten Prototypen.
+url: hackathoern
 tags:
   - Digitalisierung
   - Vernetzung
@@ -68,13 +68,11 @@ tags:
   - UX Design
 ---
 
-# Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen
-
 Wie können wir digitale Infrastrukturen stärken, um Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland voranzubringen? Mit dieser zentralen Frage im Gepäck kamen vom 28. bis 30. April 2025 Expert:innen, Entwickler:innen und OER-Interessierte beim ersten [HackathOERn von edu-sharing](https://edu-sharing-network.org/projekt-hackathoern/) in den inspirierenden Räumen der [Gesellschaft für wissenschaftliche Datenverarbeitung mbH (GWDG)](https://gwdg.de/) in Göttingen zusammen.
 
 Im Fokus standen: Vernetzung, Wissenstransfer und das gemeinsame Tüfteln an digitalen Lösungen und ersten Prototypen. Bereits im Vorfeld wurden Projektideen eingereicht, die beim HackathOERn kollaborativ weiterentwickelt wurden.
 
-![](IMG_9679.jpg)
+![](praesentation.jpg)
 
 ## Die Projektideen im Überblick
 
@@ -124,9 +122,9 @@ Bereits letztes Jahr beim [IT-Sommercamp in Weimar](https://oer.community/einbli
 
 Beim HackathOERn wollten wir zum einen Use-Cases in den Blick nehmen (z.B. OpenCards als „Task-Card-Klon“ oder die Erweiterung um soziale Komponenten wie Likes und Kommentare) und zum anderen die komplexe und sehr technische Idee im Sinne eines „Letter to Grandma“ auch Personen vermitteln, die nicht aus dem IT-Bereich kommen. Kein leichtes Unterfangen! Doch da unsere Gruppe sehr interdisziplinär zusammengesetzt war und vielfältige Perspektiven einbringen konnte, wurde in zwei Tagen ordentlich getüftelt und einiges auf die Beine gestellt!
 
-![Die Hackerboys](ima14078618187494364063.jpg)
+![Die Hackerboys](hackerboys.jpg)
 
-![Hacking in Nature](attachmentXonQt9.jpg)
+![Hacking in Nature](hacking-in-nature.jpg)
 
 ## Pitch Perfect: Hackathon-Ergebnisse auf der Bühne
 
@@ -154,4 +152,4 @@ Wir vom [Edufeed](https://www.edufeed.org/)-Team haben entschieden an der Idee w
 
 Ansonsten wird der **2. HackathOERn vom 25.-27.08.2025 in Weimar** stattfinden, also save-the-Date 📅 Wir hatten auf jeden Fall eine gute Zeit und jede Menge Spaß #HappyHacking!
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/src/branch/add-blogpost-hackathoern/Website/content/posts/2025-05-04-HackathOERn/_DSC7632%20nicht%20ver%C3%B6ff.JPG)
+![](hackathoern-teilnehmer-innen.jpg)
