@@ -132,7 +132,7 @@ Stolz präsentierten wir unsere Vision vom [Edufeed](https://www.edufeed.org/) a
 
 Stellt euch vor, jede Bildungsplattform in Deutschland wäre eine eigene Insel. Und von diesen Inseln gibt es nicht nur ein paar, sondern über 16.000, verteilt im weiten Meer des deutschen Bildungssystems. Das Problem: Diese Inseln sind größtenteils voneinander isoliert. Es gibt zwar hin und wieder kleine Brücken, die zwei Plattformen miteinander verbinden – etwa Metadatenbrücken zwischen Serlo und anderen Plattformen – doch um auf die ZUM-Insel zu gelangen, braucht es eine ganz andere Inhaltsbrücke. Jede neue Verbindung muss mühsam gebaut werden. Der Aufwand ist enorm und oft nicht nachhaltig.
 
-![ChatGPT Image Plattforminseln.PNG](/attachments/05823e84-b9ab-449c-9096-21389f151db5)
+![ChatGPT Image Plattforminseln.PNG](/attachments/2fda4176-0104-491e-a350-11e7c9320c37)
 
 Ein Beispiel zur Veranschaulichung:
 
