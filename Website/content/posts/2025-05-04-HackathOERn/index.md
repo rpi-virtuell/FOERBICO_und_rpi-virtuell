@@ -84,7 +84,7 @@ Eine zentrale Anlaufstelle für OER-Visionen: Die Ideendatenbank von [edu-sharin
 
 Es gibt immer mehr Wege, die du nicht gegangen bist, als die, die du gegangen bist. LearnGraph ermöglicht dir all die unbekannten Wege zu sehen und direkt an das Ziel zu springen! [LearnGraph](https://learngraph.org/) ist eine interaktive Wissenslandkarte, die Open Educational Resources (OER) strukturiert und verknüpft. Durch Crowdsourcing, KI-gestützte Empfehlungen und intuitive Visualisierung ermöglicht sie einen barrierefreien Zugang zu Bildungsinhalten. Ähnlich einem Routenplaner (für Fahrzeuge auf Straßen) möchte die Karte Wege (auch verschiedene Routen) zu Bildungsinhalten aufzeigen. Als Open-Source-Projekt fördert LearnGraph die globale Zusammenarbeit und ermöglicht praxisnahe Bildung.
 
-### 03: Edufeed
+### 03: [Edufeed](https://www.edufeed.org/)
 
 Die deutsche Bildungsinfrastruktur zeigt sich stark fragmentiert, was die Zusammenarbeit über Plattformen hinweg erschwert. Mit Nostr - einem einfachen und leichtgewichtigen Protokoll für dezentrale Kommunikation - gibt es eine Lösung, die Interaktionen in einer offenen und verteilten Architektur ermöglicht. Im HackathOERn wollen wir untersuchen, wie dieses dezentrale Protokoll als Grundlage für einen interoperablen und freien Daten- und Kollaborationsraum für OER genutzt werden kann.
 
