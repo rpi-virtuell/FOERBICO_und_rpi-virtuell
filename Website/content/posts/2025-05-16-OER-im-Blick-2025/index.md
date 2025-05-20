@@ -40,15 +40,19 @@ Alle, die Lust haben an einem Arbeitspapier weiterzuarbeiten sind herzlich einge
 Francis Fukuyamas Theorie vom „Ende der Geschichte“ stand für das Vertrauen in die Demokratie nach dem Kalten Krieg. Doch seit den 1990ern ist diese Zustimmung rückläufig. Schon früh kritisierte Risse-Lappen: Ideen wie Demokratie müssen erstritten werden – sie sind nie selbstverständlich.
 Maqueen (2001) definiert eine Community als eine Gruppe mit sozialen Bindungen, gemeinsamen Perspektiven und kollektiven Handlungen. In der OER-Gemeinschaft ist vor allem die affektive Komponente entscheidend: Engagement entsteht aus Verbundenheit – nicht nur aus Struktur.
 
+> Ich würde es vielleicht den oberen Teil umformulieren: "Ausgehend aus allgemeinen gesellschaftlichen Entwicklungen seit den 1990ern hält Otto fest, das wir in Zeiten von Disruption leben. Die sogenannten Sicherheiten der frühen 1990er Jahre wie Fukuyama es unter dem Schlagwort „Ende der Geschichte“ titelte ist heute nicht viel übrig geblieben. Er arbeitet heraus, was eine Komponente sein könnte, warum Menschen sich trotz dieser unsicherheiten in Communities engagieren. Entscheiden ist für das Engegament und den Zusammenhalt von OER-Gemeinschaften die affektive Komponente. Denn wenn aus dem Engagement Verbundenheit entsteht, dann bildet dies sich nicht nur in der Struktur ab, sondern verbindet die Mitglieder untereinander. 
+
 **OER trifft auf KI – Widerspruch oder Potenzial?**
 OER und generative KI könnten unterschiedlicher kaum sein: Offenheit vs. Proprietät, Kollaboration vs. Black Box. Ist KI also das Ende von OER?
 Nicht unbedingt. Bildung entsteht durch Reibung, nicht durch Perfektion. Oder wie Biesta (2003) sagt:
 
 > *Education always involves an interruption - of what we do not yet know, of what we have not planned, of what we cannot control.* 
 
+> Vielleicht danach noch hinzufügen: Wissen und Information leicht zugänglich machen, ist nicht mit Bildung gleich zu setzen. Denn Bildung erfordert eine kritische Auseinandersetzung und Übung mit dem zu erlernenden Stoff.
+
 **Kompetenzdebatte: Kurzlebige Skills vs. nachhaltige Haltungen**
 Die Diskussion um „zukünftige Kompetenzen“ greift oft zu kurz. Was heute wichtig scheint – etwa Prompting – kann morgen schon überholt sein. In der OER-Kultur hingegen zählen Kompetenzen, die Technik überdauern: Offenheit, Kritikfähigkeit, Nachhaltigkeit. Früher fragte man: Ist ein offenes Lehrbuch besser als ein geschlossenes? Solche Vergleiche greifen zu kurz. Es ist nicht das Medium allein, das Bildung verbessert, sondern die pädagogische Gestaltung. Im aktuellen Diskurs sind wir stark auf die Frage der Überprüfung und Bewertung fokussiert. Die Frage ist: Was folgt daraus?
-
+> Ich frage mich ob hier noch ein kurzer Satz dazu kommen sollte wie: Was in dieser Diskussion untergeht, ist der Lernprozess sowie Möglichkeitsräume die beispielsweise Open Textbooks dür Lehrende und Lernende eröffnet wird.
 
 **OER ist die Antwort – aber was war die Frage?**
 Nicht der Austausch von Materialien macht OER stark, sondern die damit verbundene Haltung: Vertrauen, Partizipation, Offenheit. Offenheit in der Bildung ist kein Tool, sondern eine Praxis. Nach Giddens (1986) braucht es sowohl Akteure mit Gestaltungswillen als auch Strukturen, die Wandel ermöglichen. Veränderung beginnt an beiden Enden. OER und OEP sind demnach kein fertiges Modell, sondern ein kultureller Prozess. Offenheit, Irritation und gemeinsames Handeln sind dabei keine Nebenprodukte, sondern Kern der Idee. Ob mit oder ohne KI – das Fundament bleibt: Bildung braucht Haltung.
