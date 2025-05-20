@@ -53,13 +53,13 @@ summary: |
   Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
 tags:
-- Austausch
-- BMBF
-- Community
-- Networking
-- OER
-- OER-Strategie
-- Vernetzung
+  - Austausch
+  - BMBF
+  - Community
+  - Networking
+  - OER
+  - OER-Strategie
+  - Vernetzung
 ---
 
 ![](DIPF-Gebaeude.jpg)

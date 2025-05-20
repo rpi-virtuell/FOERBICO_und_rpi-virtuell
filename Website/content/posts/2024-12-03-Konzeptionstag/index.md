@@ -64,13 +64,13 @@ summary: |
   welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
 url: konzeptionstag
 tags:
-- Communityaufbau
-- OER
-- Netzwerkbildung
-- Open Education
-- Professionalisierung
-- Qualitätssicherung
-- Religionspädagogik
+  - Communityaufbau
+  - OER
+  - Netzwerkbildung
+  - Open Education
+  - Professionalisierung
+  - Qualitätssicherung
+  - Religionspädagogik
 ---
 
 ## Vorstellung rpi-virtuell – digitale Plattform für religionspädagogische Bildung 

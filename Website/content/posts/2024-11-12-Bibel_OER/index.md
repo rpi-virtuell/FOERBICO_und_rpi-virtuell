@@ -63,11 +63,11 @@ summary: |
   eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
 tags:
-- OER
-- Bibel
-- Katholisches Bibelwerk
-- Deutsche Bibelgesellschaft
-- Open
+  - OER
+  - Bibel
+  - Katholisches Bibelwerk
+  - Deutsche Bibelgesellschaft
+  - Open
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.

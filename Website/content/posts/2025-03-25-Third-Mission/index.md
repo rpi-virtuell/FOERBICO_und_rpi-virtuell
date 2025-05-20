@@ -56,10 +56,10 @@ summary: |
   Bericht: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
 url: third-mission
 tags:
-- OER
-- OEP
-- Third Mission
-- Theologie
+  - OER
+  - OEP
+  - Third Mission
+  - Theologie
 ---
 
 ![Eine rote Flagge am Strand mit dem Aufdruck "Open"](clemens-van-lay-ppJjSjpaw58-unsplash.jpg)

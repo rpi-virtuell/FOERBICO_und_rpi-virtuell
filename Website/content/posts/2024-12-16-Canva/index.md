@@ -60,11 +60,11 @@ summary: |
   hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
 url: canva
 tags:
-- Rechtsfragen
-- OER
-- Bildlizenzen
-- Bildrechte
-- Canva
+  - Rechtsfragen
+  - OER
+  - Bildlizenzen
+  - Bildrechte
+  - Canva
 ---
 
 ## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?

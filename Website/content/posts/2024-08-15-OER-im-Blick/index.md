@@ -50,12 +50,12 @@ summary: |
   a. M. mit dabei!
 url: rueckblick-auftaktkonferenz-oer-im-blick
 tags:
-- Austausch
-- Konferenz
-- BMBF
-- OER-Strategie
-- Networking
-- Vernetzung
+  - Austausch
+  - Konferenz
+  - BMBF
+  - OER-Strategie
+  - Networking
+  - Vernetzung
 ---
 
 ![](OER-im-Blick-2.jpeg)

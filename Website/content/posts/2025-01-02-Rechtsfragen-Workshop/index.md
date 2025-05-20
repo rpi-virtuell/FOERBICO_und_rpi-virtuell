@@ -49,11 +49,11 @@ summary: |
   im Umgang mit OER zu diskutieren
 url: oer-rechtsfragen
 tags:
-- Rechtsfragen
-- OER
-- Lizenzen
-- Bildrechte
-- twillo
+  - Rechtsfragen
+  - OER
+  - Lizenzen
+  - Bildrechte
+  - twillo
 ---
 
 # Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️

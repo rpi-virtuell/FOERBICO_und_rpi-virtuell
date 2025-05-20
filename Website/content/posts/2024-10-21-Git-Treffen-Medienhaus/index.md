@@ -62,10 +62,10 @@ summary: |
   Zusammenarbeit.
 url: arbeiten-mit-git-foerbico-meets-ekhn-medienhaus
 tags:
-- Austausch
-- Git
-- Offenheit
-- Vernetzung
+  - Austausch
+  - Git
+  - Offenheit
+  - Vernetzung
 ---
 
 ## GitLab: Ein Blick hinter die Kulissen

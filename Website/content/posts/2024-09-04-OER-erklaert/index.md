@@ -50,9 +50,9 @@ summary: |
   Lernmaterialien zu entdecken und anzuwenden. 
 url: oer-erklaert-an-der-rhabarberbar
 tags:
-- OER
-- Community
-- Offenheit
+  - OER
+  - Community
+  - Offenheit
 ---
 
 Was heißt eigentlich OER? Im Bildungsbereich wird das Akronym oft selbstverständlich im Sprachgebrauch verwendet, aber nicht jede:r weiß auf Anhieb, wofür das Kürzel eigentlich steht. 

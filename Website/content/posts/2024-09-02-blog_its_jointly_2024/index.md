@@ -50,15 +50,15 @@ summary: >-
   19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
 tags:
-- Austausch
-- Konferenz
-- BMBF
-- OER-Strategie
-- OER
-- Networking
-- Vernetzung
-- Sommercamp
-- ''
+  - Austausch
+  - Konferenz
+  - BMBF
+  - OER-Strategie
+  - OER
+  - Networking
+  - Vernetzung
+  - Sommercamp
+  - ''
 ---
 
 ![Viele gute Ideen wurden gesammelt](brainstorming.png)
