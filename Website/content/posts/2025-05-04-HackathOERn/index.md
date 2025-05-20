@@ -32,12 +32,14 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - Hackathon
   - Vernetzung
-  - OER
+  - Open Educational Resources (OER)
   - Infrastruktur
   - Edufeed
-  - Interoperabilität
+  - Nostr
+  - interoperabel
+  - FOERBICO in Kontakt
+  - Digitalisierung
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
 image: https://oer.community/hacktahoern/gina-ludger-joerg.jpg
@@ -60,12 +62,14 @@ summary: >-
   Vom 28. bis 30. April 2025 kamen beim ersten HackathOERn von edu-sharing in Göttingen Akteur:innen aus dem OER-Bereich zusammen, um gemeinsam an digitalen Lösungen zur Stärkung von Open Educational Resources (OER) und Open Educational Practices (OEP) zu arbeiten. Im Mittelpunkt standen Vernetzung, Wissenstransfer und die kollaborative Weiterentwicklung eingereichter Projektideen bis hin zu ersten Prototypen.
 url: hackathoern
 tags:
-  - Digitalisierung
   - Vernetzung
-  - Plattformen
-  - OER
+  - Open Educational Resources (OER)
+  - Infrastruktur
   - Edufeed
-  - UX Design
+  - Nostr
+  - interoperabel
+  - FOERBICO in Kontakt
+  - Digitalisierung
 ---
 
 Wie können wir digitale Infrastrukturen stärken, um Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland voranzubringen? Mit dieser zentralen Frage im Gepäck kamen vom 28. bis 30. April 2025 Expert:innen, Entwickler:innen und OER-Interessierte beim ersten [HackathOERn von edu-sharing](https://edu-sharing-network.org/projekt-hackathoern/) in den inspirierenden Räumen der [Gesellschaft für wissenschaftliche Datenverarbeitung mbH (GWDG)](https://gwdg.de/) in Göttingen zusammen.
@@ -132,7 +136,7 @@ Stolz präsentierten wir unsere Vision vom [Edufeed](https://www.edufeed.org/) a
 
 Stellt euch vor, jede Bildungsplattform in Deutschland wäre eine eigene Insel. Und von diesen Inseln gibt es nicht nur ein paar, sondern über 16.000, verteilt im weiten Meer des deutschen Bildungssystems. Das Problem: Diese Inseln sind größtenteils voneinander isoliert. Es gibt zwar hin und wieder kleine Brücken, die zwei Plattformen miteinander verbinden – etwa Metadatenbrücken zwischen Serlo und anderen Plattformen – doch um auf die ZUM-Insel zu gelangen, braucht es eine ganz andere Inhaltsbrücke. Jede neue Verbindung muss mühsam gebaut werden. Der Aufwand ist enorm und oft nicht nachhaltig.
 
-![ChatGPT Image Plattforminseln.PNG](/attachments/2fda4176-0104-491e-a350-11e7c9320c37)
+![Plattformem als Inseln (ein KI generiertes Bild)](plattformen-als-inseln.jpg)
 
 Ein Beispiel zur Veranschaulichung:
 
