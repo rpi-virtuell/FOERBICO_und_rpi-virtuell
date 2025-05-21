@@ -91,7 +91,6 @@ Im digitalen Raum braucht möglichst offene Tools mit einer einfachen Handhabung
 
 #### Tisch 2
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch2.jpeg)
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch2a.jpeg)
 Auch hier wurde ein digitaler und analoger Raum vorgeschlagen, die sich aufeinander zu bewegen. Der Hub sollte ein Raum sollte explorativ sein, indem auch die Barrieren klein gemacht und ein barrierefreier Zugang ermöglicht werden.
 OER wurden hier als zarte Pflänzchen dargestellt, um die man sich gemeinsam kümmert, damit sie wachsen. Es muss jedoch auch Menschen geben, die den Hut aufhaben. Außerdem braucht es feste Termine für Treffen und einen strukturieren Rahmen, den der Hub bieten sollte. 
