@@ -92,11 +92,9 @@ Im digitalen Raum braucht möglichst offene Tools mit einer einfachen Handhabung
 #### Tisch 2
 
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch2.jpeg)
+![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch2a.jpeg)
 Auch hier wurde ein digitaler und analoger Raum vorgeschlagen, die sich aufeinander zu bewegen. Der Hub sollte ein Raum sollte explorativ sein, indem auch die Barrieren klein gemacht und ein barrierefreier Zugang ermöglicht werden.
 OER wurden hier als zarte Pflänzchen dargestellt, um die man sich gemeinsam kümmert, damit sie wachsen. Es muss jedoch auch Menschen geben, die den Hut aufhaben. Außerdem braucht es feste Termine für Treffen und einen strukturieren Rahmen, den der Hub bieten sollte. 
-
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch2a.jpeg)
-
 Neben der Funktion muss auch die Ästhetik des virtuellen Raums in Betracht gezogen werden. Dieser bedarf auch der Pflege. Ein Hub kann eine Roadmap zur Orientierung bieten. Es sollte auch zusammengearbeitet werden und Wissen aus dem Elfenbeiturm herausgeholt werden und hierarchisches Denken sollte dort bleiben.
 Ein Hub bedarf eine Infrastruktur und Werkzeuge der Zusammenarbeit und muss sich selbst als einen dynamischen Prozess verstehen. Zugleich muss in einem Hub die auf Aktualität geachtet werden. Eine Reinigungsfunktion sollte möglich sein, damit 'Müll' aussortiert werden kann.
 
@@ -104,7 +102,6 @@ Ein Hub bedarf eine Infrastruktur und Werkzeuge der Zusammenarbeit und muss sich
 
 #### Tisch 3
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch3a.jpeg)
 ![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/raw/branch/main/events/workshops/Workshop-Community-Hub-DLR/Tisch3b.jpeg)
 
 Ein Hub kann als eigene Bildungsinsel mit anderen Bildungsinseln verbunden und vernetzt sein. Zum Datenaustausch bedarf es transparente 'Drehscheiben'. Damit man einsehen kann, was wie auf welcher Basis geschieht. Innerhalb eines Hubs können verschiedene Rollen mit spezifischen Verantwortlichkeiten vergeben werden, darunter beispielsweise eine Technikverantwortlicher, eine Expertin für Finanzierung (unter Einbeziehung der Mitgestaltung durch die Community), eine für digitale Infrastruktur zuständige Person mit einem weitreichenden Netzwerk sowie eine übergeordnete Instanz zur Beobachtung und Steuerung, etwa durch das zuständige Bundesministerium. Der Hub dient darüber hinaus als Plattform für den Austausch zwischen den beteiligten Communities und ermöglicht eine partizipative Aufteilung von Zuständigkeiten.
