@@ -89,9 +89,10 @@ Bei einem nächsten Online-Treffen sollen die Ergebnisse des Workshops weiter di
 
 Alle, die Lust haben an einem Arbeitspapier weiterzuarbeiten sind herzlich eingeladen!
 
-![](IMG_9725.jpg)
 
 ## Keynote: „OER in Zeiten der Disruption: Why Ideas Do Not Float Freely“ von Prof. Dr. Daniel Otto, Europäische Hochschule für Innovation und Perspektive
+
+![](IMG_9725.jpg)
  
 In seinem Vortrag ging Otto auf Francis Fukuyamas Theorie vom „Ende der Geschichte“ ein, welche für das Vertrauen in die Demokratie nach dem Kalten Krieg stand. Doch seit den 1990ern ist diese Zustimmung rückläufig. Schon früh kritisierte Risse-Lappen: Ideen wie Demokratie müssen erstritten werden – sie sind nie selbstverständlich.
 Maqueen (2001) definiert eine Community als eine Gruppe mit sozialen Bindungen, gemeinsamen Perspektiven und kollektiven Handlungen. In der OER-Gemeinschaft ist vor allem die affektive Komponente entscheidend: Engagement entsteht aus Verbundenheit – nicht nur aus Struktur.
@@ -104,11 +105,10 @@ Nicht unbedingt. Bildung entsteht durch Reibung, nicht durch Perfektion. Oder wi
 
 > *Education always involves an interruption - of what we do not yet know, of what we have not planned, of what we cannot control.*
 
-> Vielleicht danach noch hinzufügen: Wissen und Information leicht zugänglich machen, ist nicht mit Bildung gleich zu setzen. Denn Bildung erfordert eine kritische Auseinandersetzung und Übung mit dem zu erlernenden Stoff.
+Wissen und Informationen leicht zugänglich zu machen, ist nicht mit Bildung gleichzusetzen. Denn Bildung erfordert eine kritische Auseinandersetzung und Übung mit dem zu erlernenden Stoff.
 
 **Kompetenzdebatte: Kurzlebige Skills vs. nachhaltige Haltungen**
-Otto kam auch auf die Kompetenzdebatte mit Blick auf zukünftige Herausforderungen zu sprechen. Die Diskussion um „zukünftige Kompetenzen“ greift seiner Ansicht nach oft zu kurz. Was heute wichtig scheint – etwa Prompting – kann morgen schon überholt sein. In der OER-Kultur hingegen zählen Kompetenzen, die Technik überdauern: Offenheit, Kritikfähigkeit, Nachhaltigkeit. Früher fragte man: Ist ein offenes Lehrbuch besser als ein geschlossenes? Solche Vergleiche greifen zu kurz. Es ist nicht das Medium allein, das Bildung verbessert, sondern die pädagogische Gestaltung. Im aktuellen Diskurs sind wir stark auf die Frage der Überprüfung und Bewertung fokussiert. Die Frage ist: Was folgt daraus?
-> Ich frage mich ob hier noch ein kurzer Satz dazu kommen sollte wie: Was in dieser Diskussion untergeht, ist der Lernprozess sowie Möglichkeitsräume die beispielsweise Open Textbooks für Lehrende und Lernende eröffnet wird.
+Otto kam auch auf die Kompetenzdebatte mit Blick auf zukünftige Herausforderungen zu sprechen. Die Diskussion um „zukünftige Kompetenzen“ greift seiner Ansicht nach oft zu kurz. Was heute wichtig scheint – etwa Prompting – kann morgen schon überholt sein. In der OER-Kultur hingegen zählen Kompetenzen, die Technik überdauern: Offenheit, Kritikfähigkeit, Nachhaltigkeit. Früher fragte man: Ist ein offenes Lehrbuch besser als ein geschlossenes? Solche Vergleiche greifen zu kurz. Es ist nicht das Medium allein, das Bildung verbessert, sondern die pädagogische Gestaltung. Im aktuellen Diskurs sind wir stark auf die Frage der Überprüfung und Bewertung fokussiert. Die Frage ist: Was folgt daraus? Was in dieser Diskussion untergeht, ist der Lernprozess sowie Möglichkeitsräume, die beispielsweise Open Textbooks für Lehrende und Lernende eröffnet.
 
 **OER ist die Antwort – aber was war die Frage?**
 Zuletzt betonte Otto noch, dass nicht der Austausch von Materialien macht OER stark mache, sondern die damit verbundene Haltung: Vertrauen, Partizipation und Offenheit. Offenheit in der Bildung ist kein Tool, sondern eine Praxis. Nach Giddens (1986) brauche es sowohl Akteure mit Gestaltungswillen als auch Strukturen, die Wandel ermöglichen. Veränderung beginnt an beiden Enden. OER und OEP sind demnach kein fertiges Modell, sondern ein kultureller Prozess. Offenheit, Irritation und gemeinsames Handeln sind dabei keine Nebenprodukte, sondern Kern der Idee. Ob mit oder ohne KI – das Fundament bleibt: Bildung braucht Haltung.
@@ -116,6 +116,7 @@ Zuletzt betonte Otto noch, dass nicht der Austausch von Materialien macht OER st
 ## Workshop: Synergien schaffen, Gemeinschaft stärken - Der Community-HUB als Innovationsraum nachhaltiger Zusammenarbeit
 
 Anschließend ging es in Workshopphasen, auch wir vom FOERBICO-Team waren mit einem Workshop zum Community-Hub vertreten. Dort wurden die 16 Teilnehmenden dazu eingeladen, an der Idee eines Community-Hubs mitzugestalten. Der Arbeitsauftrag lautete, einen möglichst idealen Ort Austausch, Kollaboration und Netzwerk zu entwickeln und möglichst plastisch zu gestalten. Hierfür teilten sich die Teilnehmenden in vier Kleingruppen auf und entwickelten mit Lego Education Sets unterschiedliche Orte mit vielen Eigenschaften, die ein Community-Hub unbedingt aufweisen sollte. Unter anderem gingen sie der Frage nach: Wie können verschiedene Communities und Netzwerkakteure erfolgreich vernetzt werden?  Im FOERBICO-Projekt zielen wir eine „Community of Communities“ an – ein zentraler Ort für Kollaboration, Begegnung und Austausch. Unsere ersten Schritte auf dem Weg zum Community-Hub findet ihr [hier](https://oer.community/recap-konzeptionstage/). 
+
 Die spannenden Ergebnisse aus den Gruppen wollen wir euch hier genauer vorstellen: 
 
 ### Gruppenergebnisse
