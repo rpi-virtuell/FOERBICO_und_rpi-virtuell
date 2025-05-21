@@ -76,7 +76,7 @@ Offene Bildungspraktiken fördern – das haben wir uns als OE_COM-Projekte auf 
 3: Eine Praktik, die ich mit OER tun kann …
 4: OEP sind in keinem Fall …
 
-
+![](IMG_6385.jpeg)
 
 **Wie geht es weiter?**
 
