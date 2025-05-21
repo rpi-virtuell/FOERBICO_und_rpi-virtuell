@@ -72,8 +72,11 @@ Offene Bildungspraktiken fördern – das haben wir uns als OE_COM-Projekte auf 
 **In Kleingruppen haben wir über folgende Aussagen nachgedacht:**
 
 1: OEP geht über die reine Bereitstellung hinaus …
+
 2: OEP ist etwas anderes als Frontalunterricht …
+
 3: Eine Praktik, die ich mit OER tun kann …
+
 4: OEP sind in keinem Fall …
 
 ![Ergebnisse Pre-Workshop](IMG_6385.jpeg)
@@ -93,10 +96,7 @@ Alle, die Lust haben an einem Arbeitspapier weiterzuarbeiten sind herzlich einge
 
 ![Vortrag Prof. Dr. Otto](IMG_9725.jpg)
  
-In seinem Vortrag ging Otto auf Francis Fukuyamas Theorie vom „Ende der Geschichte“ ein, welche für das Vertrauen in die Demokratie nach dem Kalten Krieg stand. Doch seit den 1990ern ist diese Zustimmung rückläufig. Schon früh kritisierte Risse-Lappen: Ideen wie Demokratie müssen erstritten werden – sie sind nie selbstverständlich.
-Maqueen (2001) definiert eine Community als eine Gruppe mit sozialen Bindungen, gemeinsamen Perspektiven und kollektiven Handlungen. In der OER-Gemeinschaft ist vor allem die affektive Komponente entscheidend: Engagement entsteht aus Verbundenheit – nicht nur aus Struktur.
-
-> Ich würde es vielleicht den oberen Teil umformulieren: "Ausgehend aus allgemeinen gesellschaftlichen Entwicklungen seit den 1990ern hält Otto fest, das wir in Zeiten von Disruption leben. Von den sogenannten Sicherheiten der frühen 1990er Jahre wie Fukuyama es unter dem Schlagwort „Ende der Geschichte“ titelte, ist heute nicht viel übrig geblieben. Er arbeitet heraus, warum Menschen sich trotz dieser Unsicherheiten in Communities engagieren. Entscheidend für das Engegament und den Zusammenhalt von OER-Communities ist die affektive Komponente. Denn wenn aus dem Engagement Verbundenheit entsteht, dann bildet sich dies nicht nur in der Struktur ab, sondern verbindet die Mitglieder untereinander.
+Ausgehend aus allgemeinen gesellschaftlichen Entwicklungen seit den 1990ern hält Otto fest, dass wir in Zeiten von Disruption leben. Von den sogenannten Sicherheiten der frühen 1990er Jahre wie Fukuyama es unter dem Schlagwort „Ende der Geschichte“ titelte, ist heute nicht viel übrig geblieben. Er arbeitet heraus, warum Menschen sich trotz dieser Unsicherheiten in Communities engagieren. Entscheidend für das Engagement und den Zusammenhalt von OER-Communities ist die affektive Komponente. Denn wenn aus dem Engagement Verbundenheit entsteht, dann bildet sich dies nicht nur in der Struktur ab, sondern verbindet die Mitglieder untereinander.
 
 **OER trifft auf KI – Widerspruch oder Potenzial?**
 Otto setzte auch wichtige Impulse in der Debatte von OER und KI. Er problematisierte, dass OER und generative KI unterschiedlicher kaum sein könnten: Offenheit vs. Proprietät, Kollaboration vs. Black Box. Ist KI also das Ende von OER?
