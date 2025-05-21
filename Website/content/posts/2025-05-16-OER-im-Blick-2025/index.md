@@ -66,13 +66,8 @@ ging es am 13. und 14. Mai 2025 nach Jena, genauer: Zur [Imaginata](https://imag
 
 ## Pre-Workshop: Was sind eigentlich Open Educational Practices?
 
-![OEP - wir tappen im Dunkeln](Bild1.png)
-Grafik: https://cocomaterial.com/ unter [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)
 
 Offene Bildungspraktiken fördern – das haben wir uns als OE_COM-Projekte auf die Fahne geschrieben, aber wie erklären wir das im Austausch mit verschiedenen Communities? Für viele sind Open Educational Parctices (OEP) eine BlackBox, manche haben eine vages Bild und andere eine konkrete Vorstellung. Mit dem Ziel ein gemeinsames Grundverständnis zu OEP zu entwickeln und dieses in Form eines Arbeitspapiers als Handreichung auch für andere zugänglich zu machen, hat sich eine Arbeitsgruppe einiger OE_COM-Projekte zusammengefunden und versucht auf einen gemeinsamen Nenner zu kommen.
-
-![OEP - wir versuchen, Licht ins Dunkel zu bringen](Bild2.png)
-Grafik: https://cocomaterial.com/ unter [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)
 
 **In Kleingruppen haben wir über folgende Aussagen nachgedacht:**
 
@@ -80,6 +75,8 @@ Grafik: https://cocomaterial.com/ unter [CC0](https://creativecommons.org/public
 2: OEP ist etwas anderes als Frontalunterricht …
 3: Eine Praktik, die ich mit OER tun kann …
 4: OEP sind in keinem Fall …
+
+
 
 **Wie geht es weiter?**
 
