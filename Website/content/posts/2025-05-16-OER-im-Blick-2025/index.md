@@ -81,7 +81,9 @@ Offene Bildungspraktiken fördern – das haben wir uns als OE_COM-Projekte auf 
 **Wie geht es weiter?**
 
 Bei einem nächsten Online-Treffen sollen die Ergebnisse des Workshops weiter diskutiert werden:
+
 📅 7. Juli 2025, 14-15 Uhr
+
 🔗 https://unibox.uni-rostock.de/getlink/fiS9pCpDmDVmXgddsBBo9K/OE_com%20Arbeitspapier%20OEP.docx
 
 Alle, die Lust haben an einem Arbeitspapier weiterzuarbeiten sind herzlich eingeladen!
