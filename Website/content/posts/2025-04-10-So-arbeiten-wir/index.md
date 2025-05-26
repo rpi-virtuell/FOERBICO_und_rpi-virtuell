@@ -26,7 +26,7 @@ creator:
       type: Organization
 keywords:
   - OER
-  - Open Educational Practices
+  - Open Educational Practices (OEP)
   - Git
   - Kollaboration
   - FOERBICO
@@ -56,7 +56,7 @@ cover:
 url: so-arbeiten-wir
 tags:
   - OER
-  - OEP
+  - Open Educational Practices (OEP)
   - Kollaboration
   - Git
   - Workflow

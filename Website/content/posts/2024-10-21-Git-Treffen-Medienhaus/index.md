@@ -28,7 +28,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - Austausch
+  - FOERBICO in Kontakt
   - Git
   - Offenheit
   - Vernetzung
@@ -62,7 +62,7 @@ summary: |
   Zusammenarbeit.
 url: arbeiten-mit-git-foerbico-meets-ekhn-medienhaus
 tags:
-  - Austausch
+  - FOERBICO in Kontakt
   - Git
   - Offenheit
   - Vernetzung

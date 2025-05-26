@@ -46,6 +46,8 @@ keywords:
   - Sustainable Developtment Goals
   - OER
   - Creative Commons
+  - Lizenzen
+  - Rechtsfragen
 inLanguage:
   - de
 about:
@@ -81,6 +83,8 @@ tags:
   - Sustainable Developtment Goals
   - OER
   - Creative Commons
+  - Lizenzen
+  - Rechtsfragen
 ---
 
 Im Kontext des Projektes [reliGlobal](https://religlobal.org/) kam bei der Erstellung eines OER-Materials zu den 17 [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) als Ziele für nachhaltige Entwicklung die Frage auf, ob die Logos der einzelnen Ziele im Material verwendet werden dürfen oder welche Rechteangabe gemacht werden muss?

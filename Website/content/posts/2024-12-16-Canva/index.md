@@ -26,14 +26,12 @@ creator:
 keywords:
   - Rechtsfragen
   - OER
-  - Bildlizenzen
-  - Bildrechte
+  - Bild
+  - Lizenzen
   - Canva
+  - Tools
 inLanguage:
   - de
-about:
-  - Canva
-  - Open Educational Resources
 image: https://oer.community/canva/Canva-OER-KI-generiert.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
@@ -62,9 +60,10 @@ url: canva
 tags:
   - Rechtsfragen
   - OER
-  - Bildlizenzen
-  - Bildrechte
+  - Bild
+  - Lizenzen
   - Canva
+  - Tools
 ---
 
 ## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?

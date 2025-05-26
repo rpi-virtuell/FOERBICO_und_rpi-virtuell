@@ -17,11 +17,13 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
+  - FOERBICO in Kontakt
   - Community-Hub
   - Konzeptionstag
   - Teamevent
   - Metadaten
   - Technik
+  - Community-Building
 image: https://oer.community/recap-konzeptionstage/Weg_zum_Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
@@ -37,7 +39,7 @@ summary: >-
   Wie gelingt digitale Vernetzung in der religiösen Bildungsarbeit? rpi-virtuell und FOERBICO arbeiten gemeinsam an einem Community-Hub, der Austausch, offene Bildungspraktiken und technische Innovation verbindet. Ein Rückblick auf die Konzeptionstage im März und April 2025 zeigt erste Ansätze, Herausforderungen und Ideen – von KI-gestützter Unterrichtsplanung über Qualitätskriterien bis hin zu Metadatenstandards und Community-Arbeit.
 url: recap-konzeptionstage
 tags:
-  - Austausch
+  - FOERBICO in Kontakt
   - Community-Building
   - Vernetzung
   - Metadaten

@@ -39,7 +39,7 @@ keywords:
   - OEP
   - Hochschuldidaktik
   - Theologie
-  - CC-Lizenzen
+  - Creative Commons
   - Rechtsfragen
   - Lizenzen
   - Religionspädagogik
@@ -75,7 +75,7 @@ tags:
   - OEP
   - Hochschuldidaktik
   - Theologie
-  - CC-Lizenzen
+  - Creative Commons
   - Rechtsfragen
   - Lizenzen
   - Religionspädagogik

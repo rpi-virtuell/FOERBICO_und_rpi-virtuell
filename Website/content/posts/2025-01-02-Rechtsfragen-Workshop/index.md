@@ -20,13 +20,10 @@ keywords:
   - Rechtsfragen
   - OER
   - Lizenzen
-  - Bildrechte
+  - Bild
   - twillo
 inLanguage:
   - de
-about:
-  - Rechtsfragen
-  - Open Educational Resources
 image: https://oer.community/canva/copyright-protection-1552941260nrw.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
@@ -52,7 +49,7 @@ tags:
   - Rechtsfragen
   - OER
   - Lizenzen
-  - Bildrechte
+  - Bild
   - twillo
 ---
 

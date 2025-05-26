@@ -17,9 +17,8 @@ creator:
     familyName: Angelina
     type: Person
 keywords:
-  - Austausch
+  - FOERBICO in Kontakt
   - Konferenz
-  - BMBF
   - OER-Strategie
   - OER
   - Networking
@@ -50,9 +49,8 @@ summary: >-
   19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
 tags:
-  - Austausch
+  - FOERBICO in Kontakt
   - Konferenz
-  - BMBF
   - OER-Strategie
   - OER
   - Networking

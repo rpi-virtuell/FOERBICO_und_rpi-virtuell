@@ -28,10 +28,10 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - Communityaufbau
+  - Community
   - OER
   - Netzwerkbildung
-  - Open Education
+  - Open Educational Practices (OEP)
   - Professionalisierung
   - Qualitätssicherung
   - Religionspädagogik
@@ -64,10 +64,10 @@ summary: |
   welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
 url: konzeptionstag
 tags:
-  - Communityaufbau
+  - Community
   - OER
   - Netzwerkbildung
-  - Open Education
+  - Open Educational Practices (OEP)
   - Professionalisierung
   - Qualitätssicherung
   - Religionspädagogik

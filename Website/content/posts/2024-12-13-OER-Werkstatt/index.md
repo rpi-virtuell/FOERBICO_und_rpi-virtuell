@@ -20,9 +20,9 @@ creator:
 keywords:
   - OER
   - OEP
-  - Openness
-  - Open Educational Recourses
-  - Open Educational Practices
+  - Offenheit
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
 inLanguage:
   - de
 about:
@@ -46,9 +46,9 @@ url: oer-werkstatt-digill-com-projekt
 tags:
   - OER
   - OEP
-  - Openness
-  - Open Educational Recourses
-  - Open Educational Practices
+  - Offenheit
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
 ---
 
 ## Werkstatt-Prinzip

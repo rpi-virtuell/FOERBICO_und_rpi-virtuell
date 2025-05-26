@@ -22,8 +22,8 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - Antisemitismus
-  - Austausch
+  - Antisemitismuskritik
+  - FOERBICO in Kontakt
   - Community
   - OER
   - Networking
@@ -49,8 +49,8 @@ summary: |
   Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
 url: oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten
 tags:
-  - Antisemitismus
-  - Austausch
+  - Antisemitismuskritik
+  - FOERBICO in Kontakt
   - Community
   - OER
   - Networking

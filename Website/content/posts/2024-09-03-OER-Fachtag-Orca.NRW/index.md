@@ -23,7 +23,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - Austausch
+  - FOERBICO in Kontakt
   - Fachtag
   - Event
   - OER
@@ -61,7 +61,7 @@ summary: |
   oer.community.
 url: oer-fachtag-2024-von-orca-nrw
 tags:
-  - Austausch
+  - FOERBICO in Kontakt
   - Fachtag
   - Event
   - OER

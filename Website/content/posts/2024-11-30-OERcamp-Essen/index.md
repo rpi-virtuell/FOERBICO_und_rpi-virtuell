@@ -20,7 +20,7 @@ creator:
       type: Organization
 keywords:
   - OER
-  - Open Education
+  - Open Educational Practices (OEP)
   - OEP
   - OERcamp
   - Vernetzung
@@ -50,7 +50,7 @@ summary: |
 url: oercamp-und-oer-festival-2024-in-essen
 tags:
   - OER
-  - Open Education
+  - Open Educational Practices (OEP)
   - OEP
   - OERcamp
   - Vernetzung

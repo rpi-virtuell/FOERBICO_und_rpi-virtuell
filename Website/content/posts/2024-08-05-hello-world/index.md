@@ -17,10 +17,10 @@ creator:
       name: Comenius-Institut
       type: Organization
 keywords:
-  - Communityaufbau
+  - Community
   - OER
   - Netzwerkbildung
-  - Open Education
+  - Open Educational Practices (OEP)
   - Professionalisierung
   - Qualitätssicherung
   - Religionspädagogik
@@ -47,10 +47,10 @@ summary: |
   durchzustarten!
 url: hello-world
 tags:
-  - Communityaufbau
+  - Community
   - OER
   - Netzwerkbildung
-  - Open Education
+  - Open Educational Practices (OEP)
   - Professionalisierung
   - Qualitätssicherung
   - Religionspädagogik

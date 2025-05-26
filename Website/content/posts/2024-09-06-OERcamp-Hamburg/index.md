@@ -26,7 +26,7 @@ keywords:
   - OER
   - OERinfo
   - OERcamp
-  - Austausch
+  - FOERBICO in Kontakt
   - Vernetzung
   - Community
   - Networking
@@ -59,7 +59,7 @@ tags:
   - OER
   - OERinfo
   - OERcamp
-  - Austausch
+  - FOERBICO in Kontakt
   - Vernetzung
   - Community
   - Networking

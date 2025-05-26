@@ -22,7 +22,7 @@ creator:
       type: Organization
 keywords:
   - OER
-  - Austausch
+  - FOERBICO in Kontakt
   - Vernetzung
   - Community-Building
   - OE_COM
@@ -49,7 +49,7 @@ summary: |
 url: austausch-mit-digill_com-zum-thema-community-building
 tags:
   - OER
-  - Austausch
+  - FOERBICO in Kontakt
   - Vernetzung
   - Community-Building
   - OE_COM

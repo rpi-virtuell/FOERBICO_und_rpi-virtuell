@@ -22,9 +22,8 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - Austausch
+  - FOERBICO in Kontakt
   - Konferenz
-  - BMBF
   - OER-Strategie
   - Networking
   - Vernetzung
@@ -50,9 +49,8 @@ summary: |
   a. M. mit dabei!
 url: rueckblick-auftaktkonferenz-oer-im-blick
 tags:
-  - Austausch
+  - FOERBICO in Kontakt
   - Konferenz
-  - BMBF
   - OER-Strategie
   - Networking
   - Vernetzung

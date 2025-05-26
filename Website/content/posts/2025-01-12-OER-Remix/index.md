@@ -28,7 +28,8 @@ creator:
     type: Person
 keywords:
   - OER
-  - CC-Lizenzen
+  - Creative Commons
+  - Lizenzen
   - Rechtsfragen
 inLanguage:
   - de
@@ -52,7 +53,8 @@ summary: |
 url: oer-remix
 tags:
   - OER
-  - CC-Lizenzen
+  - Creative Commons
+  - Lizenzen
   - Rechtsfragen
 ---
 
