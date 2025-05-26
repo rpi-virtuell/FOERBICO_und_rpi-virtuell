@@ -1,5 +1,5 @@
 when:
-  - branch: main
+  - branch: [main]
     event: push
     path:
       include: ['Website/**']
@@ -12,14 +12,19 @@ steps:
       - date -I'seconds'
 
   - name: build_by_hugo
-    image: hugomods/hugo
+    image: alpine:3.21 # hugomods/hugo # vs image: alpine >= 3.21, damit Hugo-Version >= 0.139
     commands:
-      - mkdir Website/PROD
+      - date -I'seconds'
+      - cat /etc/alpine-release
+      - apk add --no-cache hugo
       - hugo version
-      #- hugo -s Website -d PROD --logLevel debug
-      # - grep "zielt FOERBICO auf die Vernetzung" Website/PROD/index.html # enthält index.html auch den Inhalt der Startseite?
-      # - grep localhost Website/PROD/index.html # hat sich beim build ein Fehler eingeschlichen?
-      # - grep -E 'href.+favicon.ico' Website/PROD/index.html | cut -d= -f3 # baseURL ausgeben
+
+      - mkdir Website/PROD
+      - hugo -s Website -d PROD --logLevel debug
+      
+      - ls -la Website/PROD/index.html
+      - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Blog Teamseite"; else echo "Webseite Startseite"; fi
+      - echo $?
 
   - name: copy_to_server
     image: alpine
@@ -45,7 +50,7 @@ steps:
       - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
       - chmod 600 ~/.ssh/known_hosts
       - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
-#      - scp -r -i ~/.ssh/deployKey -P $SSH_PORT Website/PROD/* $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH/
+      - scp -r -i ~/.ssh/deployKey -P $SSH_PORT Website/PROD/* $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH/
       - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_end_copy_$(date +'%Y-%m-%d_%T')"
 
   - name: log_end_time
