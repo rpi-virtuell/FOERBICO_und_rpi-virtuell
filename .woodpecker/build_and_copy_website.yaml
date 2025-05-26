@@ -26,6 +26,8 @@ steps:
       - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Blog Teamseite"; else echo "Webseite Startseite"; fi
       - echo $?
 
+      - grep -E "Du hast sogar schon mal selbst Materialien erstellt oder arbeitest in einer Community" Website/PROD/index.html
+
   - name: copy_to_server
     image: alpine
     environment:
