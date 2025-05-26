@@ -20,12 +20,12 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Offenheit
-  - Kollaboartion
+  - Kollaboration
   - Community
-  - Netzwerke
+  - Vernetzung
   - Vernetzung
   - FOERBICO in Kontakt
 inLanguage:
@@ -48,12 +48,12 @@ summary: |
   offene Bildungspraktiken fördern wollen. 
 url: raus-aus-den-bubbles
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Offenheit
-  - Kollaboartion
+  - Kollaboration
   - Community
-  - Netzwerke
+  - Vernetzung
   - Vernetzung
   - FOERBICO in Kontakt
 ---

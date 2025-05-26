@@ -24,14 +24,14 @@ creator:
       type: Organization
 keywords:
   - FOERBICO in Kontakt
-  - Fachtag
   - Event
-  - OER
+  - Event
+  - Open Educational Resources (OER)
   - Hochschulen
   - Gamification
   - Inklusion
   - KI
-  - Networking
+  - Vernetzung
   - Storytelling
   - Vernetzung
 inLanguage:
@@ -62,14 +62,14 @@ summary: |
 url: oer-fachtag-2024-von-orca-nrw
 tags:
   - FOERBICO in Kontakt
-  - Fachtag
   - Event
-  - OER
+  - Event
+  - Open Educational Resources (OER)
   - Hochschulen
   - Gamification
   - Inklusion
   - KI
-  - Networking
+  - Vernetzung
   - Storytelling
   - Vernetzung
 ---

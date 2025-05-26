@@ -23,13 +23,13 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - OERinfo
   - OERcamp
   - FOERBICO in Kontakt
   - Vernetzung
   - Community
-  - Networking
+  - Vernetzung
 inLanguage:
   - de
 about:
@@ -56,13 +56,13 @@ summary: |
   war mit dabei und schildert im Blogbeitrag seine Eindrücke.
 url: recap-oercamp-im-maerz-2024-in-hamburg
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - OERinfo
   - OERcamp
   - FOERBICO in Kontakt
   - Vernetzung
   - Community
-  - Networking
+  - Vernetzung
 ---
 
 Jörg Lohrer hat für das Frühjahrs-OERcamp die Session ["BottomUp -> MarkDown - 5V-Power für deine OER!"](https://joerg-lohrer.de/2024/03/05/bottomup-markdown.html/) eingereicht. Damit hat er bereits vor dem offiziellen Projektbeginn erste Spuren für unser FOERBICO-Projekt gelegt. Mehr dazu: https://www.oercamp.de/24/

@@ -29,8 +29,8 @@ creator:
       type: Organization
 keywords:
   - Community
-  - OER
-  - Netzwerkbildung
+  - Open Educational Resources (OER)
+  - Vernetzung
   - Open Educational Practices (OEP)
   - Professionalisierung
   - Qualitätssicherung
@@ -65,8 +65,8 @@ summary: |
 url: konzeptionstag
 tags:
   - Community
-  - OER
-  - Netzwerkbildung
+  - Open Educational Resources (OER)
+  - Vernetzung
   - Open Educational Practices (OEP)
   - Professionalisierung
   - Qualitätssicherung

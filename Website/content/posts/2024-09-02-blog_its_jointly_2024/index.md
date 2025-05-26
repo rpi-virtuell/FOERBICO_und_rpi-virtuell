@@ -18,10 +18,10 @@ creator:
     type: Person
 keywords:
   - FOERBICO in Kontakt
-  - Konferenz
+  - Event
   - OER-Strategie
-  - OER
-  - Networking
+  - Open Educational Resources (OER)
+  - Vernetzung
   - Vernetzung
   - Sommercamp
   - ''
@@ -50,10 +50,10 @@ summary: >-
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
 tags:
   - FOERBICO in Kontakt
-  - Konferenz
+  - Event
   - OER-Strategie
-  - OER
-  - Networking
+  - Open Educational Resources (OER)
+  - Vernetzung
   - Vernetzung
   - Sommercamp
   - ''

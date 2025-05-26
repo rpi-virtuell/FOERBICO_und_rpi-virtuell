@@ -21,7 +21,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - FOERBICO in Kontakt
   - Vernetzung
   - Community-Building
@@ -48,7 +48,7 @@ summary: |
   diskutieren und Erfahrungen auszutauschen.
 url: austausch-mit-digill_com-zum-thema-community-building
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - FOERBICO in Kontakt
   - Vernetzung
   - Community-Building

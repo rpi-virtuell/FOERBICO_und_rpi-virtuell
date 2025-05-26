@@ -19,12 +19,12 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - OEP
+  - Open Educational Practices (OEP)
   - OERcamp
   - Vernetzung
-  - FOERBICO
+  - Event
 inLanguage:
   - de
 image: >-
@@ -49,12 +49,12 @@ summary: |
   mit dabei und gibt euch hier einige Einblicke!
 url: oercamp-und-oer-festival-2024-in-essen
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - OEP
+  - Open Educational Practices (OEP)
   - OERcamp
   - Vernetzung
-  - FOERBICO
+  - Event
 ---
 
 Hinweis: Eine ausführliche Dokumentation des OERcamps ist unter https://go.oercamp.de/24essen/ verfügbar, Registrierung bzw. Anmeldung erforderlich!

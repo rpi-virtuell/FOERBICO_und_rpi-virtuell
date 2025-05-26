@@ -31,10 +31,11 @@ keywords:
   - Netzwerkarchitektur
   - Protokollbasiertes Denken
   - OpenNet
+  - Open Educational Resources (OER)
   - Partizipation
   - Publishing-Cockpit
   - Evangelisches Labor
-  - Interoperabilität
+  - interoperabel
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
@@ -65,8 +66,9 @@ tags:
   - Religion und Medien
   - Vernetzung
   - Plattformen
-  - OER
+  - Open Educational Resources (OER)
   - UX Design
+  - interoperabel
 ---
 
 ## Vom Gemeindebrief zur Protokollarchitektur: Wie sich Bildungsräume vernetzen lassen

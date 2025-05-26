@@ -30,8 +30,8 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
 inLanguage:
@@ -58,8 +58,8 @@ summary: |
   Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
 url: oer-fortbildungsreihe-1
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
 ---

@@ -26,7 +26,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OEP
+  - Open Educational Practices (OEP)
   - Mastodon
   - Codeberg
   - Community-Building
@@ -63,7 +63,7 @@ summary: |
   katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 url: libori-social
 tags:
-  - OEP
+  - Open Educational Practices (OEP)
   - Mastodon
   - Codeberg
   - Community-Building

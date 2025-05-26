@@ -15,7 +15,7 @@ creator:
 keywords:
   - YouTube
   - Rechtsfragen
-  - OER
+  - Open Educational Resources (OER)
   - Videos
 inLanguage:
   - de
@@ -43,7 +43,7 @@ url: sind-youtube-videos-oer-faehig
 tags:
   - YouTube
   - Rechtsfragen
-  - OER
+  - Open Educational Resources (OER)
   - Videos
 ---
 

@@ -27,10 +27,10 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
-  - OEP
-  - Dezentrale Bildung
-  - Interoperabilität
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - dezentral
+  - interoperabel
   - Moodle
 inLanguage:
   - de
@@ -57,10 +57,10 @@ cover:
   image: gina-matthias-joerg.png
 url: dezentrale-oer-infrastrukturen
 tags:
-  - OER
-  - OEP
-  - Dezentrale Bildung
-  - Interoperabilität
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - dezentral
+  - interoperabel
   - Moodle
 ---
 

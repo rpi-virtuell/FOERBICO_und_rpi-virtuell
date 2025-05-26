@@ -31,7 +31,7 @@ creator:
 keywords:
   - Didaktik
   - KI
-  - OER
+  - Open Educational Resources (OER)
   - Religionspädagogik
 inLanguage:
   - de
@@ -70,7 +70,7 @@ url: welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akr
 tags:
   - Didaktik
   - KI
-  - OER
+  - Open Educational Resources (OER)
   - Religionspädagogik
 ---
 

@@ -22,7 +22,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - Community
   - Offenheit
 inLanguage:
@@ -50,7 +50,7 @@ summary: |
   Lernmaterialien zu entdecken und anzuwenden. 
 url: oer-erklaert-an-der-rhabarberbar
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - Community
   - Offenheit
 ---

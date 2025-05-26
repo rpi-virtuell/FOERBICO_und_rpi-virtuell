@@ -18,8 +18,8 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Offenheit
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
@@ -44,8 +44,8 @@ summary: |
   Vom 10. bis zum 11. Dezember 2024 fand eine OER-Werkstatt eines unserer Partnerprojekte digiLL_COM in Bochum statt. Phillip vom FOERBICO-Team nahm daran teil und berichtet in diesem Beitrag über seine Erfahrungen. Zudem geht er der Frage nach, um was es sich bei Open Educational Practices (OEP) handelt.
 url: oer-werkstatt-digill-com-projekt
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Offenheit
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)

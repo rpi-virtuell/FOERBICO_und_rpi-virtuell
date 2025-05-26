@@ -27,8 +27,8 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Third Mission
   - Theologie
 inLanguage:
@@ -56,8 +56,8 @@ summary: |
   Bericht: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
 url: third-mission
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Third Mission
   - Theologie
 ---

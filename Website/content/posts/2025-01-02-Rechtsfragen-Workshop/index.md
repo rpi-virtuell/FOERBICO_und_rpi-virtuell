@@ -18,7 +18,7 @@ creator:
       type: Organization
 keywords:
   - Rechtsfragen
-  - OER
+  - Open Educational Resources (OER)
   - Lizenzen
   - Bild
   - twillo
@@ -47,7 +47,7 @@ summary: |
 url: oer-rechtsfragen
 tags:
   - Rechtsfragen
-  - OER
+  - Open Educational Resources (OER)
   - Lizenzen
   - Bild
   - twillo

@@ -81,7 +81,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - Open Access
   - Religionspädagogik
   - Wissenschaftskommunikation
@@ -123,7 +123,7 @@ cover:
   image: fachzeitschriften.png
 url: oer-zeitschriften-religionspaedagogik
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - Open Access
   - Religionspädagogik
   - Wissenschaftskommunikation

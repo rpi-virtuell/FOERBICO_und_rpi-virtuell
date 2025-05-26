@@ -25,12 +25,12 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Git
   - Kollaboration
-  - FOERBICO
   - Community
+  - Workflow
   - Versionsverwaltung
 inLanguage:
   - de
@@ -55,12 +55,13 @@ cover:
   image: foerbildfunktion.jpg
 url: so-arbeiten-wir
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Kollaboration
   - Git
   - Workflow
   - Community
+  - Versionsverwaltung
 ---
 
 

@@ -25,7 +25,7 @@ creator:
       type: Organization
 keywords:
   - Rechtsfragen
-  - OER
+  - Open Educational Resources (OER)
   - Bild
   - Lizenzen
   - Canva
@@ -59,7 +59,7 @@ summary: |
 url: canva
 tags:
   - Rechtsfragen
-  - OER
+  - Open Educational Resources (OER)
   - Bild
   - Lizenzen
   - Canva

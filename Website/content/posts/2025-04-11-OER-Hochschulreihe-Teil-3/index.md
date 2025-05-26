@@ -35,8 +35,8 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 keywords:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
   - Creative Commons
@@ -71,8 +71,8 @@ summary: |
   (Goethe-Universität Frankfurt), Corinna Ullmann und Jörg Lohrer (Comenius-Institut).
 url: oer-fortbildungsreihe-3
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
   - Creative Commons

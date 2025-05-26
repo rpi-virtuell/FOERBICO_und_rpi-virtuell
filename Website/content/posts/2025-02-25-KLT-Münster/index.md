@@ -34,8 +34,8 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
 inLanguage:
@@ -64,8 +64,8 @@ summary: |
   Hochschuldidaktik im Februar 2025
 url: oer-meets-fachdidaktik
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
 ---

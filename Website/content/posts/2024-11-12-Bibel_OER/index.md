@@ -27,7 +27,7 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - OER
+  - Open Educational Resources (OER)
   - Bibel
   - Rechtsfragen
   - Offenheit
@@ -62,7 +62,7 @@ summary: |
   eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - Bibel
   - Rechtsfragen
   - Offenheit

@@ -23,9 +23,9 @@ creator:
       type: Organization
 keywords:
   - FOERBICO in Kontakt
-  - Konferenz
+  - Event
   - OER-Strategie
-  - Networking
+  - Vernetzung
   - Vernetzung
 inLanguage:
   - de
@@ -50,9 +50,9 @@ summary: |
 url: rueckblick-auftaktkonferenz-oer-im-blick
 tags:
   - FOERBICO in Kontakt
-  - Konferenz
+  - Event
   - OER-Strategie
-  - Networking
+  - Vernetzung
   - Vernetzung
 ---
 

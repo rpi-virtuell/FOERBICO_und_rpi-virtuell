@@ -18,7 +18,7 @@ creator:
       type: Organization
 keywords:
   - Antisemitismuskritik
-  - OER
+  - Open Educational Resources (OER)
   - Community
   - Community-Building
 inLanguage:
@@ -41,7 +41,7 @@ summary: |
 url: gemeinsam-gegen-antisemitismus
 tags:
   - Antisemitismuskritik
-  - OER
+  - Open Educational Resources (OER)
   - Community
   - Community-Building
 ---

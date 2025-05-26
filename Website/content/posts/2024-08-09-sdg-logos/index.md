@@ -44,7 +44,7 @@ creator:
 keywords:
   - SDG
   - Sustainable Developtment Goals
-  - OER
+  - Open Educational Resources (OER)
   - Creative Commons
   - Lizenzen
   - Rechtsfragen
@@ -81,7 +81,7 @@ url: sdg-logos-und-oer-wie-darf-ich-sie-verwenden
 tags:
   - SDG
   - Sustainable Developtment Goals
-  - OER
+  - Open Educational Resources (OER)
   - Creative Commons
   - Lizenzen
   - Rechtsfragen
