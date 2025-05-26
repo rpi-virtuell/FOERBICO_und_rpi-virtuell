@@ -57,7 +57,7 @@ title: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-
 cover:
   relative: true
   image: gina-ludger-joerg.jpg
-  caption: "Ludger, Jörg und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen"
+  caption: "Jörg, Ludger und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen"
 summary: >-
   Vom 28. bis 30. April 2025 kamen beim ersten HackathOERn von edu-sharing in Göttingen Akteur:innen aus dem OER-Bereich zusammen, um gemeinsam an digitalen Lösungen zur Stärkung von Open Educational Resources (OER) und Open Educational Practices (OEP) zu arbeiten. Im Mittelpunkt standen Vernetzung, Wissenstransfer und die kollaborative Weiterentwicklung eingereichter Projektideen bis hin zu ersten Prototypen.
 url: hackathoern
