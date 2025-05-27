@@ -32,12 +32,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - Community
-  - Event
-  - Workshop
-  - Vernetzung
-  - Open Educational Resources (OER)
 image: https://oer.community/oer-im-blick-2025/IMG_9713.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article

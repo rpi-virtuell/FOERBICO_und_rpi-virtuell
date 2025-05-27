@@ -16,14 +16,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - FOERBICO in Kontakt
-  - Community-Hub
-  - Konzeptionstag
-  - Teamevent
-  - Metadaten
-  - Technik
-  - Community-Building
 image: https://oer.community/recap-konzeptionstage/Weg_zum_Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article

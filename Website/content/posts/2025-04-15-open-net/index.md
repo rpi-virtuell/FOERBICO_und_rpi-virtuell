@@ -27,18 +27,6 @@ creator:
     affiliation:
       name: Gemeinschaftswerk der Evangelischen Publizistik
       type: Organization
-keywords:
-  - Digitalisierung
-  - Netzwerkarchitektur
-  - Protokollbasiertes Denken
-  - OpenNet
-  - Open Educational Resources (OER)
-  - Partizipation
-  - Publishing-Cockpit
-  - Evangelisches Labor
-  - interoperabel
-  - Vernetzung
-  - Open Educational Resources (OER)
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079

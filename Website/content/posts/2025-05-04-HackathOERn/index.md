@@ -31,15 +31,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Vernetzung
-  - Open Educational Resources (OER)
-  - Infrastruktur
-  - Edufeed
-  - Nostr
-  - interoperabel
-  - FOERBICO in Kontakt
-  - Digitalisierung
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
 image: https://oer.community/hacktahoern/gina-ludger-joerg.jpg
