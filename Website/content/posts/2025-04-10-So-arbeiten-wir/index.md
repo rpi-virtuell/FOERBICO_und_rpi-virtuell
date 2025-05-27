@@ -30,7 +30,6 @@ keywords:
   - Git
   - Kollaboration
   - Community
-  - Workflow
   - Versionsverwaltung
 inLanguage:
   - de
@@ -59,7 +58,6 @@ tags:
   - Open Educational Practices (OEP)
   - Kollaboration
   - Git
-  - Workflow
   - Community
   - Versionsverwaltung
 ---

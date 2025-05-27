@@ -21,8 +21,7 @@ keywords:
   - Open Educational Resources (OER)
   - Vernetzung
   - Open Educational Practices (OEP)
-  - Professionalisierung
-  - Qualitätssicherung
+  - Qualitätskriterien
   - Religionspädagogik
 inLanguage:
   - de
@@ -51,8 +50,7 @@ tags:
   - Open Educational Resources (OER)
   - Vernetzung
   - Open Educational Practices (OEP)
-  - Professionalisierung
-  - Qualitätssicherung
+  - Qualitätskriterien
   - Religionspädagogik
 ---
 

@@ -14,9 +14,10 @@ creator:
       type: University
 keywords:
   - YouTube
+  - Tools
   - Rechtsfragen
   - Open Educational Resources (OER)
-  - Videos
+  - Video
 inLanguage:
   - de
 image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
@@ -42,9 +43,10 @@ summary: |
 url: sind-youtube-videos-oer-faehig
 tags:
   - YouTube
+  - Tools
   - Rechtsfragen
   - Open Educational Resources (OER)
-  - Videos
+  - Video
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!

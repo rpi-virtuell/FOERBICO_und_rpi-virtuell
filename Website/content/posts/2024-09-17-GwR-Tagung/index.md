@@ -30,7 +30,7 @@ keywords:
   - FOERBICO in Kontakt
   - Religionspädagogik
   - Theologie
-  - Wissenschaft
+  - Wissenschaftskommunikation
   - Öffentlichkeitsarbeit
   - Vernetzung
 inLanguage:
@@ -68,7 +68,7 @@ tags:
   - FOERBICO in Kontakt
   - Religionspädagogik
   - Theologie
-  - Wissenschaft
+  - Wissenschaftskommunikation
   - Öffentlichkeitsarbeit
   - Vernetzung
 ---

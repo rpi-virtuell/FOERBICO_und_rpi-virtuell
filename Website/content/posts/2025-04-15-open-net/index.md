@@ -28,6 +28,7 @@ creator:
       name: Gemeinschaftswerk der Evangelischen Publizistik
       type: Organization
 keywords:
+  - Digitalisierung
   - Netzwerkarchitektur
   - Protokollbasiertes Denken
   - OpenNet
@@ -36,6 +37,8 @@ keywords:
   - Publishing-Cockpit
   - Evangelisches Labor
   - interoperabel
+  - Vernetzung
+  - Open Educational Resources (OER)
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
@@ -63,12 +66,16 @@ summary: >-
 url: evangelisches-labor
 tags:
   - Digitalisierung
-  - Religion und Medien
-  - Vernetzung
-  - Plattformen
+  - Netzwerkarchitektur
+  - Protokollbasiertes Denken
+  - OpenNet
   - Open Educational Resources (OER)
-  - UX Design
+  - Partizipation
+  - Publishing-Cockpit
+  - Evangelisches Labor
   - interoperabel
+  - Vernetzung
+  - Open Educational Resources (OER)
 ---
 
 ## Vom Gemeindebrief zur Protokollarchitektur: Wie sich Bildungsräume vernetzen lassen

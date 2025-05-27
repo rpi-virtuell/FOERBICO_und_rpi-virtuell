@@ -33,10 +33,11 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - Community-Hub
+  - Community
   - Event
   - Workshop
   - Vernetzung
+  - Open Educational Resources (OER)
 image: https://oer.community/oer-im-blick-2025/IMG_9713.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
@@ -54,8 +55,10 @@ summary: >-
   Nach der erfolgreichen Auftaktkonferenz in Frankfurt 2024 fand das diesjährige Treffen der OER-Strategie am 13. und 14. Mai 2025 in der Jenaer Imaginata statt. Unter dem Motto "Back to basics" kamen Projekte und Interessierte aus dem Bereich offene Bildung zusammen, um über die Rolle von OER und OEP in aktuellen gesellschaftlichen und bildungspolitischen Kontexten zu diskutieren. Neben Projektupdates standen vor allem Austausch und Vernetzung im Mittelpunkt. FOERBICO war vor Ort und teilt im Blogbeitrag Eindrücke und Highlights der Konferenz.
 url: oer-im-blick-2025
 tags:
+  - Community
+  - Event
+  - Workshop
   - Vernetzung
-  - Plattformen
   - Open Educational Resources (OER)
 ---
 

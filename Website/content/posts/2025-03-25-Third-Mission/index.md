@@ -29,7 +29,6 @@ creator:
 keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Third Mission
   - Theologie
 inLanguage:
   - de
@@ -58,7 +57,6 @@ url: third-mission
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Third Mission
   - Theologie
 ---
 

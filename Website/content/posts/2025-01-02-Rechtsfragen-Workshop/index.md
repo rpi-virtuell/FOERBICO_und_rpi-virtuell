@@ -21,7 +21,6 @@ keywords:
   - Open Educational Resources (OER)
   - Lizenzen
   - Bild
-  - twillo
 inLanguage:
   - de
 image: https://oer.community/canva/copyright-protection-1552941260nrw.jpg
@@ -50,7 +49,6 @@ tags:
   - Open Educational Resources (OER)
   - Lizenzen
   - Bild
-  - twillo
 ---
 
 # Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️

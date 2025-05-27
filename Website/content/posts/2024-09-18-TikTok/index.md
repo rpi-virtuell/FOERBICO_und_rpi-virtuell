@@ -32,6 +32,7 @@ creator:
       type: Organization
 keywords:
   - TikTok
+  - Tools
   - Wissenschaftskommunikation
   - Social Media
   - Theologie
@@ -68,6 +69,7 @@ summary: |
 url: theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
 tags:
   - TikTok
+  - Tools
   - Wissenschaftskommunikation
   - Social Media
   - Theologie

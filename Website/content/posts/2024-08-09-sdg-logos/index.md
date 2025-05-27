@@ -42,8 +42,7 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
-  - SDG
-  - Sustainable Developtment Goals
+  - Sustainable Developtment Goals (SDG)
   - Open Educational Resources (OER)
   - Creative Commons
   - Lizenzen
@@ -79,8 +78,7 @@ summary: |
   Nutzung der Symbole zur Förderung globaler Bildung.
 url: sdg-logos-und-oer-wie-darf-ich-sie-verwenden
 tags:
-  - SDG
-  - Sustainable Developtment Goals
+  - Sustainable Developtment Goals (SDG)
   - Open Educational Resources (OER)
   - Creative Commons
   - Lizenzen
