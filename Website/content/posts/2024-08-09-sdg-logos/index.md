@@ -41,12 +41,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - Sustainable Developtment Goals (SDG)
-  - Open Educational Resources (OER)
-  - Creative Commons
-  - Lizenzen
-  - Rechtsfragen
 inLanguage:
   - de
 about:

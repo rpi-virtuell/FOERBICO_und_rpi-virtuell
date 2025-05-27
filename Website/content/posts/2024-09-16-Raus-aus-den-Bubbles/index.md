@@ -19,15 +19,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - Open Educational Practices (OEP)
-  - Offenheit
-  - Kollaboration
-  - Community
-  - Vernetzung
-  - Vernetzung
-  - FOERBICO in Kontakt
 inLanguage:
   - de
 image: raus-aus-den-bubbles_vorschau.jpg

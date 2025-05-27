@@ -22,13 +22,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - FOERBICO in Kontakt
-  - Community
-  - Vernetzung
-  - Open Educational Resources (OER)
-  - OER-Strategie
-  - Vernetzung
 inLanguage:
   - de
 image: OERinfo-Fachtag-FOERBICO-Team.jpg

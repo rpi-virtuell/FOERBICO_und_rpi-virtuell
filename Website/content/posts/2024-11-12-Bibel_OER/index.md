@@ -26,11 +26,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - Bibel
-  - Rechtsfragen
-  - Offenheit
 inLanguage:
   - de
 about:

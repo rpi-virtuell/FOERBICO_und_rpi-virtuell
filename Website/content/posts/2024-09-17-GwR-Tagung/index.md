@@ -24,15 +24,6 @@ creator:
     affiliation:
       name: Goethe-Universität Frankfurt
       type: Organization
-keywords:
-  - Event
-  - Wissenschaftskommunikation
-  - FOERBICO in Kontakt
-  - Religionspädagogik
-  - Theologie
-  - Wissenschaftskommunikation
-  - Öffentlichkeitsarbeit
-  - Vernetzung
 inLanguage:
   - de
 about:

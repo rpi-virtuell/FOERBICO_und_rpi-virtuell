@@ -26,10 +26,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - Open Educational Practices (OEP)
-  - Theologie
 inLanguage:
   - de
 about:

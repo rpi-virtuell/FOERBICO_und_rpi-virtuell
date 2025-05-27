@@ -27,11 +27,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - FOERBICO in Kontakt
-  - Git
-  - Offenheit
-  - Vernetzung
 inLanguage:
   - de
 about:

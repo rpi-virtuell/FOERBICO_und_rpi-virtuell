@@ -16,11 +16,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Antisemitismuskritik
-  - Open Educational Resources (OER)
-  - Community
-  - Community-Building
 inLanguage:
   - de
 image: https://oer.community/gemeinsam-gegen-antisemitismus/Community-Treffen.PNG

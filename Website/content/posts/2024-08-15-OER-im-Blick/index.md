@@ -21,12 +21,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - FOERBICO in Kontakt
-  - Event
-  - OER-Strategie
-  - Vernetzung
-  - Vernetzung
 inLanguage:
   - de
 about:

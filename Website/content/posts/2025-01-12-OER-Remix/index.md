@@ -26,11 +26,6 @@ creator:
   - givenName: Niels 
     familyName: Winkelmann
     type: Person
-keywords:
-  - Open Educational Resources (OER)
-  - Creative Commons
-  - Lizenzen
-  - Rechtsfragen
 inLanguage:
   - de
 image: https://upload.wikimedia.org/wikipedia/commons/b/b5/Open_Educational_Resources.png

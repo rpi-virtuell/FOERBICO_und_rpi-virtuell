@@ -22,14 +22,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - OERinfo
-  - OERcamp
-  - FOERBICO in Kontakt
-  - Vernetzung
-  - Community
-  - Vernetzung
 inLanguage:
   - de
 about:

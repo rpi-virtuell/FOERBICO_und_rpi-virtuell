@@ -12,12 +12,6 @@ creator:
     affiliation:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       type: University
-keywords:
-  - YouTube
-  - Tools
-  - Rechtsfragen
-  - Open Educational Resources (OER)
-  - Video
 inLanguage:
   - de
 image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png

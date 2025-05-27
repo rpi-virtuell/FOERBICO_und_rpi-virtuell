@@ -22,18 +22,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - FOERBICO in Kontakt
-  - Event
-  - Event
-  - Open Educational Resources (OER)
-  - Hochschulen
-  - Gamification
-  - Inklusion
-  - KI
-  - Vernetzung
-  - Storytelling
-  - Vernetzung
 inLanguage:
   - de
 about:

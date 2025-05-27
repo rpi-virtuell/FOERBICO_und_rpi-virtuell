@@ -16,13 +16,6 @@ creator:
     affiliation:
       name: Comenius-Institut
       type: Organization
-keywords:
-  - Community
-  - Open Educational Resources (OER)
-  - Vernetzung
-  - Open Educational Practices (OEP)
-  - Qualitätskriterien
-  - Religionspädagogik
 inLanguage:
   - de
 learningResourceType:

@@ -20,12 +20,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - FOERBICO in Kontakt
-  - Vernetzung
-  - Community-Building
-  - OE_COM
 inLanguage:
   - de
 learningResourceType:

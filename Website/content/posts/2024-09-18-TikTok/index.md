@@ -30,12 +30,6 @@ creator:
       name: Kirchliche Hochschule Wuppertal
       id: https://ror.org/05n1ym881
       type: Organization
-keywords:
-  - TikTok
-  - Tools
-  - Wissenschaftskommunikation
-  - Social Media
-  - Theologie
 inLanguage:
   - de
 about:

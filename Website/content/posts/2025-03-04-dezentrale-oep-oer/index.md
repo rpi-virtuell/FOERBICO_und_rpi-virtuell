@@ -31,12 +31,6 @@ creator:
     familyName: Granas
     type: Person
     affiliation: ''
-keywords:
-  - Open Educational Resources (OER)
-  - Open Educational Practices (OEP)
-  - dezentral
-  - interoperabel
-  - Nostr
 inLanguage:
   - de
 about:

@@ -80,13 +80,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - Open Access
-  - Religionspädagogik
-  - Wissenschaftskommunikation
-  - Metadaten
-  - OERSI
 inLanguage:
   - de
 about:

@@ -23,13 +23,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Rechtsfragen
-  - Open Educational Resources (OER)
-  - Bild
-  - Lizenzen
-  - Canva
-  - Tools
 inLanguage:
   - de
 image: https://oer.community/canva/Canva-OER-KI-generiert.jpg

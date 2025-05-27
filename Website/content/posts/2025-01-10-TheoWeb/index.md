@@ -29,12 +29,6 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-keywords:
-  - Open Educational Resources (OER)
-  - Open Educational Practices (OEP)
-  - Digitalisierung
-  - Religionspädagogik
-  - Wissenschaftskommunikation
 inLanguage:
   - de
 about:

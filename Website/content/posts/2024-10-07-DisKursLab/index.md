@@ -21,12 +21,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Antisemitismuskritik
-  - FOERBICO in Kontakt
-  - Community
-  - Open Educational Resources (OER)
-  - Vernetzung
 inLanguage:
   - de
 image: videokonferenz_diskurslab-rpi-foerbico.jpg

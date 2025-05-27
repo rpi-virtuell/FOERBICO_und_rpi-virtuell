@@ -16,15 +16,6 @@ creator:
   - givenName: Phillip
     familyName: Angelina
     type: Person
-keywords:
-  - FOERBICO in Kontakt
-  - Event
-  - OER-Strategie
-  - Open Educational Resources (OER)
-  - Vernetzung
-  - Vernetzung
-  - Sommercamp
-  - ''
 inLanguage:
   - de
 learningResourceType:

@@ -28,11 +28,6 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-keywords:
-  - Didaktik
-  - KI
-  - Open Educational Resources (OER)
-  - Religionspädagogik
 inLanguage:
   - de
 about:
