@@ -27,14 +27,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Communityaufbau
-  - OER
-  - Netzwerkbildung
-  - Open Education
-  - Professionalisierung
-  - Qualitätssicherung
-  - Religionspädagogik
 inLanguage:
   - de
 learningResourceType:
@@ -64,13 +56,12 @@ summary: |
   welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
 url: konzeptionstag
 tags:
-- Communityaufbau
-- OER
-- Netzwerkbildung
-- Open Education
-- Professionalisierung
-- Qualitätssicherung
-- Religionspädagogik
+  - Community
+  - Open Educational Resources (OER)
+  - Vernetzung
+  - Open Educational Practices (OEP)
+  - Qualitätskriterien
+  - Religionspädagogik
 ---
 
 ## Vorstellung rpi-virtuell – digitale Plattform für religionspädagogische Bildung 

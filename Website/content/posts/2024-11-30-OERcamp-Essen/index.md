@@ -18,13 +18,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - Open Education
-  - OEP
-  - OERcamp
-  - Vernetzung
-  - FOERBICO
 inLanguage:
   - de
 image: >-
@@ -49,12 +42,11 @@ summary: |
   mit dabei und gibt euch hier einige Einblicke!
 url: oercamp-und-oer-festival-2024-in-essen
 tags:
-- OER
-- Open Education
-- OEP
-- OERcamp
-- Vernetzung
-- FOERBICO
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OERcamp
+  - Vernetzung
+  - Event
 ---
 
 Hinweis: Eine ausführliche Dokumentation des OERcamps ist unter https://go.oercamp.de/24essen/ verfügbar, Registrierung bzw. Anmeldung erforderlich!

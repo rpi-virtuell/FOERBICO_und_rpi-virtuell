@@ -29,11 +29,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - Hochschuldidaktik
-  - Theologie
 inLanguage:
   - de
 about:
@@ -58,10 +53,10 @@ summary: |
   Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
 url: oer-fortbildungsreihe-1
 tags:
-- OER
-- OEP
-- Hochschuldidaktik
-- Theologie
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Hochschuldidaktik
+  - Theologie
 ---
 
 ## Wir legen endlich los!

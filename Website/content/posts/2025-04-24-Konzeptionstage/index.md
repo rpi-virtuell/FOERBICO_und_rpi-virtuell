@@ -16,12 +16,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Community-Hub
-  - Konzeptionstag
-  - Teamevent
-  - Metadaten
-  - Technik
 image: https://oer.community/recap-konzeptionstage/Weg_zum_Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
@@ -37,8 +31,7 @@ summary: >-
   Wie gelingt digitale Vernetzung in der religiösen Bildungsarbeit? rpi-virtuell und FOERBICO arbeiten gemeinsam an einem Community-Hub, der Austausch, offene Bildungspraktiken und technische Innovation verbindet. Ein Rückblick auf die Konzeptionstage im März und April 2025 zeigt erste Ansätze, Herausforderungen und Ideen – von KI-gestützter Unterrichtsplanung über Qualitätskriterien bis hin zu Metadatenstandards und Community-Arbeit.
 url: recap-konzeptionstage
 tags:
-  - Austausch
-  - Community-Building
+  - FOERBICO in Kontakt
   - Vernetzung
   - Metadaten
   - Community

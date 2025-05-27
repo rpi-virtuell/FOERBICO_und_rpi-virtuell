@@ -21,13 +21,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Austausch
-  - Konferenz
-  - BMBF
-  - OER-Strategie
-  - Networking
-  - Vernetzung
 inLanguage:
   - de
 about:
@@ -50,12 +43,10 @@ summary: |
   a. M. mit dabei!
 url: rueckblick-auftaktkonferenz-oer-im-blick
 tags:
-- Austausch
-- Konferenz
-- BMBF
-- OER-Strategie
-- Networking
-- Vernetzung
+  - FOERBICO in Kontakt
+  - Event
+  - OER-Strategie
+  - Vernetzung
 ---
 
 ![](OER-im-Blick-2.jpeg)

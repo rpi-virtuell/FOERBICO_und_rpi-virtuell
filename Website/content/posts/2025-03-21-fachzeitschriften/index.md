@@ -80,13 +80,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - Open Access
-  - Religionspädagogik
-  - Wissenschaftskommunikation
-  - Metadaten
-  - OERSI
 inLanguage:
   - de
 about:
@@ -123,7 +116,7 @@ cover:
   image: fachzeitschriften.png
 url: oer-zeitschriften-religionspaedagogik
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - Open Access
   - Religionspädagogik
   - Wissenschaftskommunikation

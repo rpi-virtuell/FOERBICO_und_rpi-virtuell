@@ -24,14 +24,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - Open Educational Practices
-  - Git
-  - Kollaboration
-  - FOERBICO
-  - Community
-  - Versionsverwaltung
 inLanguage:
   - de
 about:
@@ -55,12 +47,12 @@ cover:
   image: foerbildfunktion.jpg
 url: so-arbeiten-wir
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Kollaboration
   - Git
-  - Workflow
   - Community
+  - Versionsverwaltung
 ---
 
 

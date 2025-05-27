@@ -12,11 +12,6 @@ creator:
     affiliation:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       type: University
-keywords:
-  - YouTube
-  - Rechtsfragen
-  - OER
-  - Videos
 inLanguage:
   - de
 image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
@@ -41,10 +36,11 @@ summary: |
   konkretisiert und differenziert.
 url: sind-youtube-videos-oer-faehig
 tags:
-- YouTube
-- Rechtsfragen
-- OER
-- Videos
+  - YouTube
+  - Tools
+  - Rechtsfragen
+  - Open Educational Resources (OER)
+  - Video
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!

@@ -22,18 +22,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Austausch
-  - Fachtag
-  - Event
-  - OER
-  - Hochschulen
-  - Gamification
-  - Inklusion
-  - KI
-  - Networking
-  - Storytelling
-  - Vernetzung
 inLanguage:
   - de
 about:
@@ -61,17 +49,15 @@ summary: |
   oer.community.
 url: oer-fachtag-2024-von-orca-nrw
 tags:
-- Austausch
-- Fachtag
-- Event
-- OER
-- Hochschulen
-- Gamification
-- Inklusion
-- KI
-- Networking
-- Storytelling
-- Vernetzung
+  - FOERBICO in Kontakt
+  - Event
+  - Open Educational Resources (OER)
+  - Hochschulen
+  - Gamification
+  - Inklusion
+  - KI
+  - Vernetzung
+  - Storytelling
 ---
 
 ![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)

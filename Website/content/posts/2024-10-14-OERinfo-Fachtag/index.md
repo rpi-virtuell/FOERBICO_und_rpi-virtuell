@@ -22,14 +22,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Austausch
-  - BMBF
-  - Community
-  - Networking
-  - OER
-  - OER-Strategie
-  - Vernetzung
 inLanguage:
   - de
 image: OERinfo-Fachtag-FOERBICO-Team.jpg
@@ -53,13 +45,11 @@ summary: |
   Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
 tags:
-- Austausch
-- BMBF
-- Community
-- Networking
-- OER
-- OER-Strategie
-- Vernetzung
+  - FOERBICO in Kontakt
+  - Community
+  - Open Educational Resources (OER)
+  - OER-Strategie
+  - Vernetzung
 ---
 
 ![](DIPF-Gebaeude.jpg)

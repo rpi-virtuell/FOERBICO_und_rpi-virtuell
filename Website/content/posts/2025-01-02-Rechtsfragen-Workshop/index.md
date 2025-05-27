@@ -16,17 +16,8 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Rechtsfragen
-  - OER
-  - Lizenzen
-  - Bildrechte
-  - twillo
 inLanguage:
   - de
-about:
-  - Rechtsfragen
-  - Open Educational Resources
 image: https://oer.community/canva/copyright-protection-1552941260nrw.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
@@ -49,11 +40,10 @@ summary: |
   im Umgang mit OER zu diskutieren
 url: oer-rechtsfragen
 tags:
-- Rechtsfragen
-- OER
-- Lizenzen
-- Bildrechte
-- twillo
+  - Rechtsfragen
+  - Open Educational Resources (OER)
+  - Lizenzen
+  - Bild
 ---
 
 # Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️

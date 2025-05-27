@@ -16,16 +16,6 @@ creator:
   - givenName: Phillip
     familyName: Angelina
     type: Person
-keywords:
-  - Austausch
-  - Konferenz
-  - BMBF
-  - OER-Strategie
-  - OER
-  - Networking
-  - Vernetzung
-  - Sommercamp
-  - ''
 inLanguage:
   - de
 learningResourceType:
@@ -50,15 +40,12 @@ summary: >-
   19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
 tags:
-- Austausch
-- Konferenz
-- BMBF
-- OER-Strategie
-- OER
-- Networking
-- Vernetzung
-- Sommercamp
-- ''
+  - FOERBICO in Kontakt
+  - Event
+  - OER-Strategie
+  - Open Educational Resources (OER)
+  - Vernetzung
+  - Sommercamp
 ---
 
 ![Viele gute Ideen wurden gesammelt](brainstorming.png)

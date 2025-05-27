@@ -16,14 +16,6 @@ creator:
     affiliation:
       name: Comenius-Institut
       type: Organization
-keywords:
-  - Communityaufbau
-  - OER
-  - Netzwerkbildung
-  - Open Education
-  - Professionalisierung
-  - Qualitätssicherung
-  - Religionspädagogik
 inLanguage:
   - de
 learningResourceType:
@@ -47,13 +39,12 @@ summary: |
   durchzustarten!
 url: hello-world
 tags:
-- Communityaufbau
-- OER
-- Netzwerkbildung
-- Open Education
-- Professionalisierung
-- Qualitätssicherung
-- Religionspädagogik
+  - Community
+  - Open Educational Resources (OER)
+  - Vernetzung
+  - Open Educational Practices (OEP)
+  - Qualitätskriterien
+  - Religionspädagogik
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋

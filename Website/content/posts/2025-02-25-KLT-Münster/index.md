@@ -33,11 +33,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - Hochschuldidaktik
-  - Theologie
 inLanguage:
   - de
 about:
@@ -64,10 +59,10 @@ summary: |
   Hochschuldidaktik im Februar 2025
 url: oer-meets-fachdidaktik
 tags:
-- OER
-- OEP
-- Hochschuldidaktik
-- Theologie
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Hochschuldidaktik
+  - Theologie
 ---
 
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025

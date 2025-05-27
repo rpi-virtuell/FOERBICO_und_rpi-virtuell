@@ -31,12 +31,6 @@ creator:
     familyName: Granas
     type: Person
     affiliation: ''
-keywords:
-  - OER
-  - OEP
-  - Dezentrale Bildung
-  - Interoperabilität
-  - Nostr
 inLanguage:
   - de
 about:
@@ -67,11 +61,11 @@ summary: |
   Einladung zum offenen Denken und Handeln in der Bildungsgemeinschaft. Der Beitrag diskutiert, warum eine dezentrale Infrastruktur für Open Educational Resources (OER) und Open Educational Practices (OEP) notwendig ist, um nachhaltige, resiliente und interoperable Bildungsräume zu schaffen. Dabei wird das Potenzial des Nostr-Protokolls für Bildungsnetzwerke beleuchtet.
 url: dezentrale-oep-oer
 tags:
-- OER
-- OEP
-- Dezentrale Bildung
-- Interoperabilität
-- Nostr
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - dezentral
+  - interoperabel
+  - Nostr
 ---
 
 ## Warum wir eine neue Perspektive brauchen

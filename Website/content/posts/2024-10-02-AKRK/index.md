@@ -28,11 +28,6 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-keywords:
-  - Didaktik
-  - KI
-  - OER
-  - Religionspädagogik
 inLanguage:
   - de
 about:
@@ -68,10 +63,10 @@ summary: |
   Blogbeitrag lesen!
 url: welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024
 tags:
-- Didaktik
-- KI
-- OER
-- Religionspädagogik
+  - Didaktik
+  - KI
+  - Open Educational Resources (OER)
+  - Religionspädagogik
 ---
 
 ## Religionsdidaktik im Verhältnis

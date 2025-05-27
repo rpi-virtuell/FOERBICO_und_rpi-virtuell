@@ -26,12 +26,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - Bibel
-  - Katholisches Bibelwerk
-  - Deutsche Bibelgesellschaft
-  - Open
 inLanguage:
   - de
 about:
@@ -63,11 +57,10 @@ summary: |
   eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
 tags:
-- OER
-- Bibel
-- Katholisches Bibelwerk
-- Deutsche Bibelgesellschaft
-- Open
+  - Open Educational Resources (OER)
+  - Bibel
+  - Rechtsfragen
+  - Offenheit
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.

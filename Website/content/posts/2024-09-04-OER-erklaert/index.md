@@ -21,10 +21,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - Community
-  - Offenheit
 inLanguage:
   - de
 about:
@@ -50,9 +46,9 @@ summary: |
   Lernmaterialien zu entdecken und anzuwenden. 
 url: oer-erklaert-an-der-rhabarberbar
 tags:
-- OER
-- Community
-- Offenheit
+  - Open Educational Resources (OER)
+  - Community
+  - Offenheit
 ---
 
 Was heißt eigentlich OER? Im Bildungsbereich wird das Akronym oft selbstverständlich im Sprachgebrauch verwendet, aber nicht jede:r weiß auf Anhieb, wofür das Kürzel eigentlich steht. 

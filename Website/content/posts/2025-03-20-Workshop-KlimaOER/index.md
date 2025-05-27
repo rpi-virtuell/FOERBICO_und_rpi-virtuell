@@ -17,11 +17,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - Open Source
-  - Markdown
-  - Tools
 inLanguage:
   - de
 image: >-
@@ -41,10 +36,10 @@ summary: |
   Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
 url: markdown-einfuehrung-klimaoer
 tags:
-- OER
-- Open Source
-- Markdown
-- Tools
+  - Open Educational Resources (OER)
+  - Open Source
+  - Markdown
+  - Tools
 ---
 
 

@@ -30,11 +30,6 @@ creator:
       name: Kirchliche Hochschule Wuppertal
       id: https://ror.org/05n1ym881
       type: Organization
-keywords:
-  - TikTok
-  - Wissenschaftskommunikation
-  - Social Media
-  - Theologie
 inLanguage:
   - de
 about:
@@ -67,10 +62,11 @@ summary: |
   Theologie und religionsbezogene Bildung über TikTok erschließen.
 url: theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
 tags:
-- TikTok
-- Wissenschaftskommunikation
-- Social Media
-- Theologie
+  - TikTok
+  - Tools
+  - Wissenschaftskommunikation
+  - Social Media
+  - Theologie
 ---
 
 ![](kemnitzer-tiktok.png)

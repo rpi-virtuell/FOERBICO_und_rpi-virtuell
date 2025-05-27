@@ -20,12 +20,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - Austausch
-  - Vernetzung
-  - Community-Building
-  - OE_COM
 inLanguage:
   - de
 learningResourceType:
@@ -48,11 +42,11 @@ summary: |
   diskutieren und Erfahrungen auszutauschen.
 url: austausch-mit-digill_com-zum-thema-community-building
 tags:
-- OER
-- Austausch
-- Vernetzung
-- Community-Building
-- OE_COM
+  - Open Educational Resources (OER)
+  - FOERBICO in Kontakt
+  - Vernetzung
+  - Community
+  - OE_COM
 ---
 
 Beide Projekte sind in der aktuellen Förderstrategie des Bundes OE_COM,

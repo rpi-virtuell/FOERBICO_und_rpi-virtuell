@@ -26,11 +26,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - Third Mission
-  - Theologie
 inLanguage:
   - de
 about:
@@ -56,10 +51,9 @@ summary: |
   Bericht: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
 url: third-mission
 tags:
-- OER
-- OEP
-- Third Mission
-- Theologie
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Theologie
 ---
 
 ![Eine rote Flagge am Strand mit dem Aufdruck "Open"](clemens-van-lay-ppJjSjpaw58-unsplash.jpg)

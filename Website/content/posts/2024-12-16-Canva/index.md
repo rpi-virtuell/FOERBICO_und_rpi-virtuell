@@ -23,17 +23,8 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - Rechtsfragen
-  - OER
-  - Bildlizenzen
-  - Bildrechte
-  - Canva
 inLanguage:
   - de
-about:
-  - Canva
-  - Open Educational Resources
 image: https://oer.community/canva/Canva-OER-KI-generiert.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
@@ -60,11 +51,12 @@ summary: |
   hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
 url: canva
 tags:
-- Rechtsfragen
-- OER
-- Bildlizenzen
-- Bildrechte
-- Canva
+  - Rechtsfragen
+  - Open Educational Resources (OER)
+  - Bild
+  - Lizenzen
+  - Canva
+  - Tools
 ---
 
 ## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?

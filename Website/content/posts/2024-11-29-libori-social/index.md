@@ -25,11 +25,6 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OEP
-  - Mastodon
-  - Codeberg
-  - Community-Building
 inLanguage:
   - de
 about:
@@ -63,10 +58,10 @@ summary: |
   katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 url: libori-social
 tags:
-- OEP
-- Mastodon
-- Codeberg
-- Community-Building
+  - Open Educational Practices (OEP)
+  - Mastodon
+  - Codeberg
+  - Community-Building
 ---
 
 Gina und Jörg im Gespräch mit Alexander, der die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
