@@ -41,8 +41,6 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Offenheit
-  - Open Educational Resources (OER)
-  - Open Educational Practices (OEP)
 ---
 
 ## Werkstatt-Prinzip

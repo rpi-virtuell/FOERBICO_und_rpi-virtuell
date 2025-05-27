@@ -47,7 +47,6 @@ tags:
   - Event
   - OER-Strategie
   - Vernetzung
-  - Vernetzung
 ---
 
 ![](OER-im-Blick-2.jpeg)

@@ -45,9 +45,7 @@ tags:
   - OER-Strategie
   - Open Educational Resources (OER)
   - Vernetzung
-  - Vernetzung
   - Sommercamp
-  - ''
 ---
 
 ![Viele gute Ideen wurden gesammelt](brainstorming.png)

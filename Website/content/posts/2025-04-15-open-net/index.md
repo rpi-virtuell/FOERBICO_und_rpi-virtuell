@@ -75,7 +75,6 @@ tags:
   - Evangelisches Labor
   - interoperabel
   - Vernetzung
-  - Open Educational Resources (OER)
 ---
 
 ## Vom Gemeindebrief zur Protokollarchitektur: Wie sich Bildungsräume vernetzen lassen

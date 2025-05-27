@@ -56,6 +56,7 @@ tags:
   - dezentral
   - interoperabel
   - Moodle
+  - Tools
 ---
 
 Im heutigen Austausch zwischen Matthias von [digiLL](https://digill.de/) sowie Jörg und Gina vom FOERBICO-Projekt haben wir fundamentale Überlegungen zur Entwicklung dezentraler Infrastrukturen im Kontext offener Bildungsressourcen reflektiert. Dabei wurden technisch-konzeptionelle sowie nutzungsorientierte Aspekte exploriert, die für die Etablierung nachhaltiger, gemeinschaftsbasierter OER-Ökosysteme essenziell sind. Besonders akzentuiert wurde die Notwendigkeit interoperabler Systeme, die Berücksichtigung realer Nutzungspraktiken sowie die Potenziale dezentraler Architekturmodelle für kollaborative Wissensschöpfungsprozesse.

@@ -40,7 +40,6 @@ summary: >-
 url: recap-konzeptionstage
 tags:
   - FOERBICO in Kontakt
-  - Community-Building
   - Vernetzung
   - Metadaten
   - Community

@@ -44,7 +44,6 @@ url: oercamp-und-oer-festival-2024-in-essen
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Open Educational Practices (OEP)
   - OERcamp
   - Vernetzung
   - Event

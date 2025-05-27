@@ -68,7 +68,6 @@ tags:
   - Rechtsfragen
   - Lizenzen
   - Religionspädagogik
-  - Theologie
   - Qualitätskriterien
 ---
 

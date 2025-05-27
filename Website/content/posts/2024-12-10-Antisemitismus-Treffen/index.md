@@ -38,7 +38,6 @@ tags:
   - Antisemitismuskritik
   - Open Educational Resources (OER)
   - Community
-  - Community-Building
 ---
 
 Die Stärkung der Demokratie und das Zusammenhalten gegen Antisemitismus liegen gesellschaftspolitisch oben auf und ist auch im Bildungsbereich von hoher Bedeutung, um Auklärungsarbeit zu leisten und Vorurteilen entgegenzuwirken, bestenfalls bevor sie überhaupt entstehen! Aber wie können wir Bildungsakteure vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind. Bereits im Vorfeld im Gespräch des [Comenius-Institutes](https://comenius.de/) mit dem [DiskursLab](https://diskurslab.eaberlin.de/) der [Ev. Akademie zu Berlin](https://www.eaberlin.de/) am 30.09.24 zeigte sich ein klarer Bedarf: Viele Organisationen und Einzelpersonen arbeiten an antisemitismuskritischen Materialien, doch fehlt es oft an Austausch, Feedback und Koordination. So entstand die Vision einer Antisemitismus-Community, die Expertisen bündelt, Projekte und Netzwerke vernetzt sowie Ressourcen teilt. Mehr zu dem Vorgespräch erfahrt ihr in unserem [Blogbeitrag](https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten/)!

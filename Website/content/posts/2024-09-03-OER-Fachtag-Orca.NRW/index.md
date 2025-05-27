@@ -51,7 +51,6 @@ url: oer-fachtag-2024-von-orca-nrw
 tags:
   - FOERBICO in Kontakt
   - Event
-  - Event
   - Open Educational Resources (OER)
   - Hochschulen
   - Gamification
@@ -59,7 +58,6 @@ tags:
   - KI
   - Vernetzung
   - Storytelling
-  - Vernetzung
 ---
 
 ![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)

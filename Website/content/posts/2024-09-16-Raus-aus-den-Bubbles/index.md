@@ -45,7 +45,6 @@ tags:
   - Kollaboration
   - Community
   - Vernetzung
-  - Vernetzung
   - FOERBICO in Kontakt
 ---
 

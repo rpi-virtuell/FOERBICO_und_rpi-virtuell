@@ -59,7 +59,6 @@ tags:
   - FOERBICO in Kontakt
   - Religionspädagogik
   - Theologie
-  - Wissenschaftskommunikation
   - Öffentlichkeitsarbeit
   - Vernetzung
 ---

@@ -45,7 +45,7 @@ tags:
   - Open Educational Resources (OER)
   - FOERBICO in Kontakt
   - Vernetzung
-  - Community-Building
+  - Community
   - OE_COM
 ---
 

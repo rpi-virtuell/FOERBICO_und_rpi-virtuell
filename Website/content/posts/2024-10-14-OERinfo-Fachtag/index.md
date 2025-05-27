@@ -47,7 +47,6 @@ url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
 tags:
   - FOERBICO in Kontakt
   - Community
-  - Vernetzung
   - Open Educational Resources (OER)
   - OER-Strategie
   - Vernetzung

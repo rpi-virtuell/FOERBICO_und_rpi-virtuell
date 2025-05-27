@@ -54,7 +54,6 @@ tags:
   - FOERBICO in Kontakt
   - Vernetzung
   - Community
-  - Vernetzung
 ---
 
 Jörg Lohrer hat für das Frühjahrs-OERcamp die Session ["BottomUp -> MarkDown - 5V-Power für deine OER!"](https://joerg-lohrer.de/2024/03/05/bottomup-markdown.html/) eingereicht. Damit hat er bereits vor dem offiziellen Projektbeginn erste Spuren für unser FOERBICO-Projekt gelegt. Mehr dazu: https://www.oercamp.de/24/
