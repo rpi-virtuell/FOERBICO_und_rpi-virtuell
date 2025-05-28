@@ -52,9 +52,10 @@ tags:
 Hinweis: Eine ausführliche Dokumentation des OERcamps ist unter https://go.oercamp.de/24essen/ verfügbar, Registrierung bzw. Anmeldung erforderlich!
 
 # Tag 1
+
 ## ORCA.nrw-Tagung im Rahmen des OER-Festivals: Hochschullehre inspirierend und verbindend
 
-Los ging es am 18. November im Ruhrturm Essen: Erstmals seit 2017 findet wieder ein OER-Festival statt, das ein OERcamp, eine Fachtagung von [ORCA.nrw](https://www.orca.nrw/) in Zusammenarbeit mit dem Stifterverband und das 10 Jahre-Jubiläum des Bündnisses Freie Bildung miteinander verbindet. Dabei kamen Lehrende, Hochschulmitarbeitende und alle anderen Interessierten für einen Erfahrungs- und Wissensaustausch zusammen. Der inhaltliche Fokus liegt besonders auf dem Thema Lehrkräftebildung und dem Austausch der Fachwissenschaften. Das komplette Programm zur ORCA.nrw-Tagung findest du [hier](https://www.orca.nrw/vernetzung/veranstaltungen/orca-tagung/tagung-2024/). 
+Los ging es am 18. November im Ruhrturm Essen: Erstmals seit 2017 findet wieder ein OER-Festival statt, das ein OERcamp, eine Fachtagung von [ORCA.nrw](https://www.orca.nrw/) in Zusammenarbeit mit dem Stifterverband und das 10 Jahre-Jubiläum des Bündnisses Freie Bildung miteinander verbindet. Dabei kamen Lehrende, Hochschulmitarbeitende und alle anderen Interessierten für einen Erfahrungs- und Wissensaustausch zusammen. Der inhaltliche Fokus liegt besonders auf dem Thema Lehrkräftebildung und dem Austausch der Fachwissenschaften. Das komplette Programm zur ORCA.nrw-Tagung findest du [hier](https://www.orca.nrw/vernetzung/veranstaltungen/orca-tagung/tagung-2024/).
 
 Nach einer Begrüßung von Dr. Markus Deimann (ORCA.nrw) und Grußworten von Dr. Martin Jungwirth (DH.NRW) und Bettina Jorzik (Stifterverband) starteten fünf parallele Sessions bis zur Mittagspause. Gina war bei der ersten Session „Beiträge aus der Community: Die Bedeutung offener Bildungsressourcen in der Hochschullehre“ dabei, in der verschiedene Projekte vorgestellt wurden:
 
@@ -67,11 +68,12 @@ Das Team der Ruhr-Universität Bochum (RUB) entwickelt für Moodle.nrw einen OER
 ![](OER-Assistent-3.jpg)
 ![](OER-Assistent-4.jpg)
 
-Ausblick: 
--	Erstellen von mehr Kursinhalten ermöglichen
--	RAG Chat in Kurs über OER Inhalt
--	Spracheingabe im Service
--	Export des Kurses wieder direkt zu OER-Repository (Bspw. ZOERR)
+Ausblick:
+
+- Erstellen von mehr Kursinhalten ermöglichen
+- RAG Chat in Kurs über OER Inhalt
+- Spracheingabe im Service
+- Export des Kurses wieder direkt zu OER-Repository (Bspw. ZOERR)
 
 Für uns wäre interessant, inwieweit auch Metadaten automatisiert generiert werden könnten und ob die einzelnen Inhalte/Kurse auch plattformübergreifend über Moodle hinaus geteilt werden könnten. Unsere Idee: Ein OER-KI-Assistent spezifisch für die Relgionspädagogik, was meint ihr?
 
@@ -88,13 +90,13 @@ Ein deutlicher Bruch zu den vorherigen technischen Beiträgen bot das 1995 in De
 
 ### 4. Forschungsdatenmanagement in Studium und Lehre – Ergebnisse des Projekts FDM@Studium.nrw – Dr. Torsten Rathmann (Bergische Universität Wuppertal) und Ceren Yildiz (Universität Duisburg-Essen)
 
-Mitte 2021 startete das Projekt zu Forschungsdatenmanagement (FDM) in Studium und Lehre mit dem Ziel, die bisherige Zielgruppe von Schulungs- und Unterstützungsmaßnahmen zum FDM bestehend aus Promivierenden, PostDocs und arrivierten Wissenschaftler:innen um Studierende zu erweitern. Dazu wurden didaktisch aufbereitete Bildungsressourcen zur Vermittlung von Grundlagen im Forschungsdatenmanagement für ein Selbststudium und zur Nachnutzung durch Lehrende entwickelt. 
+Mitte 2021 startete das Projekt zu Forschungsdatenmanagement (FDM) in Studium und Lehre mit dem Ziel, die bisherige Zielgruppe von Schulungs- und Unterstützungsmaßnahmen zum FDM bestehend aus Promivierenden, PostDocs und arrivierten Wissenschaftler:innen um Studierende zu erweitern. Dazu wurden didaktisch aufbereitete Bildungsressourcen zur Vermittlung von Grundlagen im Forschungsdatenmanagement für ein Selbststudium und zur Nachnutzung durch Lehrende entwickelt.
 
 ![](FDM-2.jpg)
 
 ### 5. STACK.nrw: Git-basierter Aufgabenpool für STACK-Aufgaben – Dr. Benjamin H. Schulz-Rosenberger und Dr. Michael Kallweit (Ruhr-Universität Bochum)
 
-Git-basiertes Arbeiten - da schlägt unser FOERBICO-Herz doch gleich höher, denn auch wir versuchen unsere Arbeit über Git als Open Source Versionsverwaltungssystem anschlüssfähig, nachhaltig und transparent zu gestalten (schaut gerne in unser [Repo](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/) rein 😉). Das Projekt [STACK.nrw](https://www.ruhr-uni-bochum.de/stack-nrw/) hat anders als wir allerdings keinen Religionsbezug, sondern legt den Fokus auf den mathematischen Bereich. Sie möchten eine zentrale und dezentrale Infrastruktur schaffen, um einen qualitätsgesicherten OER-Matheaufgabenpool, die mit [STACK](https://stack-assessment.org/) erstellt wurden, aufzubauen. Darüber hinaus zielen sie auch auf Vernetzung und Wissensaustausch von Lehrenden bzw. Hochschulen in NRW. 
+Git-basiertes Arbeiten - da schlägt unser FOERBICO-Herz doch gleich höher, denn auch wir versuchen unsere Arbeit über Git als Open Source Versionsverwaltungssystem anschlüssfähig, nachhaltig und transparent zu gestalten (schaut gerne in unser [Repo](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/) rein 😉). Das Projekt [STACK.nrw](https://www.ruhr-uni-bochum.de/stack-nrw/) hat anders als wir allerdings keinen Religionsbezug, sondern legt den Fokus auf den mathematischen Bereich. Sie möchten eine zentrale und dezentrale Infrastruktur schaffen, um einen qualitätsgesicherten OER-Matheaufgabenpool, die mit [STACK](https://stack-assessment.org/) erstellt wurden, aufzubauen. Darüber hinaus zielen sie auch auf Vernetzung und Wissensaustausch von Lehrenden bzw. Hochschulen in NRW.
 
 ![](Stack.nrw-1.jpg)
 ![](Stack.nrw-2.jpg)
@@ -103,30 +105,31 @@ Git-basiertes Arbeiten - da schlägt unser FOERBICO-Herz doch gleich höher, den
 
 ### 6. [Vorstellung und Evaluation des Projekts „DigStat – Digitale Lerneinheiten in der Statistik“](https://www.orca.nrw/wp-content/uploads/2024/11/OER_Tagung_Razeghpour_Mueller.pdf) – Farhad Razeghpour (Ruhr-Universität Bochum) und Christian Müller (Universität Düssseldorf)
 
-Mathematisch und auch mit STACK ging es weiter: Wie kann man Studierende und Lehrende im Bereich Statistik unterstützen? Dem widmet sich das Projekt „[DigStat – Digitale Lerneinheiten in der Statistik](https://oer-stochastik-nrw.de/)“ und hat anwendungsnahe und illustrative digitale OER-Materialien entwickelt, um Grundkenntnisse von statistischen Methoden sowie Anwendungskompetenzen auf fachnahe reale Datensätze zu erwerben. 
+Mathematisch und auch mit STACK ging es weiter: Wie kann man Studierende und Lehrende im Bereich Statistik unterstützen? Dem widmet sich das Projekt „[DigStat – Digitale Lerneinheiten in der Statistik](https://oer-stochastik-nrw.de/)“ und hat anwendungsnahe und illustrative digitale OER-Materialien entwickelt, um Grundkenntnisse von statistischen Methoden sowie Anwendungskompetenzen auf fachnahe reale Datensätze zu erwerben.
 
 Der erste Teil brachte bereits viel neuen Input! Nach der Mittagspause wurden vier parallele Sessions angeboten. Gina entschied sich für den Slot „OER in der Lehrkräftebildung“ von unserem Co-Projekt [digiLL_COM](https://digill.de/) aus der [OE_COM-Förderrichtlinie](https://www.oer-strategie.de/foerdern/foerderrichtlinien/):
 
-Welche OER-Angebote gibt es im Bereich der Lehrkräftebildung? Wie setze ich OER sinnvoll in die eigene Lehre ein und wie kann ich eigene Inhalte als OER bereitstellen? Mit diesen Fragen beschäftigt sich das Projekt digiLL und möchte bereits in der Ausbildung von Lehrkräften ansetzen, um offene Bildungspraktiken zu vermitteln. Dabei werden verschiedene Hochschulstandorte miteinander vernetzt und im Bereich der Hochschullehre ein Wahlpflichtkurs entwickelt sowie [Lernmodule](https://digill.de/lernmodule/) zur Verfügung gestellt. Ihr Ansatz: Lernende bzw. Lehramtsstudierende als Produzierende einbeziehen! 
+Welche OER-Angebote gibt es im Bereich der Lehrkräftebildung? Wie setze ich OER sinnvoll in die eigene Lehre ein und wie kann ich eigene Inhalte als OER bereitstellen? Mit diesen Fragen beschäftigt sich das Projekt digiLL und möchte bereits in der Ausbildung von Lehrkräften ansetzen, um offene Bildungspraktiken zu vermitteln. Dabei werden verschiedene Hochschulstandorte miteinander vernetzt und im Bereich der Hochschullehre ein Wahlpflichtkurs entwickelt sowie [Lernmodule](https://digill.de/lernmodule/) zur Verfügung gestellt. Ihr Ansatz: Lernende bzw. Lehramtsstudierende als Produzierende einbeziehen!
 
 ![](digiLL.jpg)
 
 Mit dem Abendprogramm „10 Jahre [Bündnis Freie Bildung](https://buendnis-freie-bildung.de/): Feiern & Zukunft gestalten!“ endete der erste Tag voll spannender Impluse und netten Gesprächen!
 
 # Tag 2
+
 ## Start der Barcamp-Sessions: Die Qual der Wahl
 
 Es sind tatsächlich 55 Sessions an Tag 2 zusammengekommen, da fällt die Entscheidung nicht leicht! Gina entschied sich für folgende Sessions:
 
 ### Flexible Erstellung von Lehrmaterial
 
-Wie kann ich als angehende Lehrkraft im Lehr-Lernkontext mit OER arbeiten? Welche Skills brauche ich und wo bekomme ich die her? Die Anzahl an Plattformen ist historisch gewachsen, aber dadurch teilweise unübersichtlich geworden. In der Session wurde diskutiert, welche Anlaufstellen es gibt, um sich einen ersten Überblick zu verschaffen, da über Suchmaschinen wie Google kaum OER gefunden werden. [OERinfo](https://open-educational-resources.de/) bündelt alles und wurde somit als Anlaufstelle Nr.1 genannt. Außerdem gilt es selbst als Multiplikator:in tätig zu sein, Fortbildungen zu nutzen, aber auch Universitäten und andere Anbieter können Zugänge über kleine Informationsangebote leisten. Weitere Vorschläge: Padlet / Taskcards als Lernbegleiter entlang der [5R (5V)](https://open-educational-resources.de/oerklaert-5v-freiheiten-in-der-gegenueberstellung-erklaert/) oder ein gemeinsames Wiki als Tool. Auch Feedbackfunktion für Materialien ist vielen wichtig! Einzelne Plattformen wie EduTags erlauben Feedback bereits, dennoch stellt sich die Frage, wie wir Communities und Feedbackstrukturen aufbauen können. 
+Wie kann ich als angehende Lehrkraft im Lehr-Lernkontext mit OER arbeiten? Welche Skills brauche ich und wo bekomme ich die her? Die Anzahl an Plattformen ist historisch gewachsen, aber dadurch teilweise unübersichtlich geworden. In der Session wurde diskutiert, welche Anlaufstellen es gibt, um sich einen ersten Überblick zu verschaffen, da über Suchmaschinen wie Google kaum OER gefunden werden. [OERinfo](https://open-educational-resources.de/) bündelt alles und wurde somit als Anlaufstelle Nr.1 genannt. Außerdem gilt es selbst als Multiplikator:in tätig zu sein, Fortbildungen zu nutzen, aber auch Universitäten und andere Anbieter können Zugänge über kleine Informationsangebote leisten. Weitere Vorschläge: Padlet / Taskcards als Lernbegleiter entlang der [5R (5V)](https://open-educational-resources.de/oerklaert-5v-freiheiten-in-der-gegenueberstellung-erklaert/) oder ein gemeinsames Wiki als Tool. Auch Feedbackfunktion für Materialien ist vielen wichtig! Einzelne Plattformen wie EduTags erlauben Feedback bereits, dennoch stellt sich die Frage, wie wir Communities und Feedbackstrukturen aufbauen können.
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/FRBH3E/
 
 ### Mit OER bessere Zukünfte möglich machen - ein Einstieg ins Design Futuring!
 
-Design Futuring ist ein kreativer Ansatz, um Zukünfte zu entwerfen und zu verhandeln sowie um heutige Entscheidungen zu beeinflussen und aktiv zu werden. Nele Hirsch (ebildungslabor) hat in der Session drei Methoden vorgestellt, die wir gemeinsam erkunden und in Kleingruppen anhand konkreter Ideenentwicklungen ausprobieren konnten. 
+Design Futuring ist ein kreativer Ansatz, um Zukünfte zu entwerfen und zu verhandeln sowie um heutige Entscheidungen zu beeinflussen und aktiv zu werden. Nele Hirsch (ebildungslabor) hat in der Session drei Methoden vorgestellt, die wir gemeinsam erkunden und in Kleingruppen anhand konkreter Ideenentwicklungen ausprobieren konnten.
 
 ![](DesignFuturing.jpg)
 
@@ -138,7 +141,7 @@ https://ebildungslabor.de/blog/design-futuring-aus-oer-perspektive/
 
 ### OER-Autorensysteme
 
-Im Rahmen des [digiLL](https://digill.de/)-Projektes sollen bei der OER-Erstellung auch externe Autorinnen und Autoren einbezogen werden. In der Session sind wir der Frage nachgegangen, wie die Partizipation möglichst institutions- und bereichsübergreifend sowie plattformunabhängig gelingen kann. 
+Im Rahmen des [digiLL](https://digill.de/)-Projektes sollen bei der OER-Erstellung auch externe Autorinnen und Autoren einbezogen werden. In der Session sind wir der Frage nachgegangen, wie die Partizipation möglichst institutions- und bereichsübergreifend sowie plattformunabhängig gelingen kann.
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/E7FYZ8/ 
 
@@ -152,11 +155,12 @@ Mehr dazu 👉 https://go.oercamp.de/24essen/talk/PQHR8U/
 
 ### Narratives Communitybuilding
 
-In der letzten Session des ersten Tages ging es darum, mit welchen Geschichten und Narrativen wir im Sinne des Storytellings verschiedene Zielgruppen erreichen und unsere jeweilige Community gestalten können. Eins wurde schnell klar: Wortspiele mit OER ziehen nicht, da der Begriff OER gar nicht unbedingt bekannt ist. Außerdem wurde überlegt, wie Vorteile von Offenheit so kommuniziert werden können, dass sie die Lebenswelt der heterogenen Bildungsakteure erreicht und zur Partizipation einladen. Ein schwieriges Thema… 
+In der letzten Session des ersten Tages ging es darum, mit welchen Geschichten und Narrativen wir im Sinne des Storytellings verschiedene Zielgruppen erreichen und unsere jeweilige Community gestalten können. Eins wurde schnell klar: Wortspiele mit OER ziehen nicht, da der Begriff OER gar nicht unbedingt bekannt ist. Außerdem wurde überlegt, wie Vorteile von Offenheit so kommuniziert werden können, dass sie die Lebenswelt der heterogenen Bildungsakteure erreicht und zur Partizipation einladen. Ein schwieriges Thema…
 
-Ein Highlight noch zum Schluss „Dubai Calling“: Bei der [3rd OER World Congress](https://www.unesco.org/en/articles/3rd-unesco-world-oer-congress) in Dubai wurde die [OER-Strategie](https://www.oer-strategie.de/) des Bundes vorgestellt und Jöran Muuß-Merholz (Agentur J&K) als OERcamp-Korrespondent wurde live zugeschaltet. 
+Ein Highlight noch zum Schluss „Dubai Calling“: Bei der [3rd OER World Congress](https://www.unesco.org/en/articles/3rd-unesco-world-oer-congress) in Dubai wurde die [OER-Strategie](https://www.oer-strategie.de/) des Bundes vorgestellt und Jöran Muuß-Merholz (Agentur J&K) als OERcamp-Korrespondent wurde live zugeschaltet.
 
 # Tag 3
+
 ## Beratschlagung zum Thema „OER im Kontext generativer Künstlicher Intelligenz (KI)“ (Schwerpunkt beim 3rd World Congress in Dubai)
 
 ![](Unperfekthaus-1.jpg)
@@ -164,21 +168,20 @@ Ein Highlight noch zum Schluss „Dubai Calling“: Bei der [3rd OER World Congr
 
 Der letzte Tag startete im Unperfekthaus in Essen mit drei XXL-Sessions im Barcamp-Format. Gina entschied sich für die Session moderiert von Frank Homp und Nele Hirsch zu Community-Beratschlagung zum Thema „OER im Kontext generativer Künstlicher Intelligenz (KI)“. Dabei wurde in Kleingruppen anhand folgender Leitfragen gebrainstormt:
 
-1.	Wie kann die OER-Community von der aktuellen KI-Entwicklung profitieren?
+1. Wie kann die OER-Community von der aktuellen KI-Entwicklung profitieren?
 
-2.	Was kann die OER-Community im Rahmen der aktuellen KI-Debatte beitragen?
+2. Was kann die OER-Community im Rahmen der aktuellen KI-Debatte beitragen?
 
-Die Ergebnisse findet ihr unter https://www.oercamp.de/24/offene-ki/ 
+Die Ergebnisse findet ihr unter https://www.oercamp.de/24/offene-ki/
 
 ![](KI-1.jpg)
 ![](KI-2.jpg)
 
-Zum Abschluss des OERcamps fanden noch drei Workshops des Bündnisses Freie Bildung zu Organisationsentwicklung, Offenheitskompetenzen und zukunftsweisende Bildungspolitik statt. Gina nahm am Workshop „Organisationsentwicklung“ von Celestine Kleinesper (Bündnis freie Bildung) & Matthias Kostrzewa (digiLL) teil. 
+Zum Abschluss des OERcamps fanden noch drei Workshops des Bündnisses Freie Bildung zu Organisationsentwicklung, Offenheitskompetenzen und zukunftsweisende Bildungspolitik statt. Gina nahm am Workshop „Organisationsentwicklung“ von Celestine Kleinesper (Bündnis freie Bildung) & Matthias Kostrzewa (digiLL) teil.
 
 Worum es ging, erfahrt ihr hier 🎥
 
 [![Video auf YouTube](workshop-organisationsentwicklung.jpg)](https://www.youtube.com/watch?v=gnNOrjSEwdk)
-
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/DYGB3F/ 
 
