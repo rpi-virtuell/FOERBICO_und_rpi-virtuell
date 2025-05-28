@@ -61,7 +61,7 @@ tags:
   - Open Educational Practices (OEP)
   - Mastodon
   - Codeberg
-  - Community-Building
+  - Community
 ---
 
 Gina und Jörg im Gespräch mit Alexander, der die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
