@@ -46,22 +46,22 @@ tags:
   - Bild
 ---
 
-# Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️
+## Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️
 
 OER-Materialien ermöglichen es, Bildungsressourcen mit anderen zu teilen, weiterzuentwickeln und zu adaptieren. Dabei ergeben sich jedoch oft rechtliche Unsicherheiten, insbesondere im Bereich der **Urheberrechtsverletzungen**, der richtigen **Lizenzierung** und der korrekten **Quellenangaben**. Die [Rechtsfragen-Workshops](https://www.twillo.de/oer/web/rechtsfragen-workshop/) sind ein regelmäßiges kostenloses Angebot von [twillo](https://www.twillo.de/oer/web/) und behandelt diese Themen, um sicherzustellen, dass OER-Erstellende mit den wichtigsten Grundlagen ausgestattet sind:
 
--	**Urheberrecht und Lizenzen:**  
+- **Urheberrecht und Lizenzen:**  
 Die Teilnehmenden lernen, wie man Inhalte korrekt lizenziert, um Urheberrechtsverletzungen zu vermeiden, und wie verschiedene Lizenztypen (wie z.B. Creative Commons) funktionieren.
 
--	**Datenschutz und Persönlichkeitsrechte:**  
+- **Datenschutz und Persönlichkeitsrechte:**  
 Neben Urheberrechtsfragen spielen auch der Schutz personenbezogener Daten und das Recht am eigenen Bild eine Rolle - insbesondere in Hinblick auf den Einsatz von Bildern und Videos in OER.
 
--	**Praktische Anwendung und Fallbeispiele:**  
+- **Praktische Anwendung und Fallbeispiele:**  
 Der Workshop beinhaltet auch zahlreiche praxisorientierte Beispiele und konkrete Fallstudien. So können die Teilnehmenden das Gelernte auf ihre eigene Arbeit anwenden und bekamen wertvolle Tipps zur Integration von OER in den Bildungsalltag.
 
 Wir waren im Juli 2024 beim Rechtsfragen-Workshop dabei, die Präsentation findet ihr [hier](https://uol.de/fileadmin/user_upload/lehre/Hochschuldidaktik/e-Didaktik/Mittagstreffen/2022/2022_02_02_Mittagstreffen_Spezial_2_FAQ_Rechtsfragen_rund_um_OER.pdf?v=1658133603). Die Inhalte sind unter CC BY 4.0 lizenziert - eine Nachnutzung ist ausdrücklich erwünscht!
 
-## Tipps & Tools 🛠️:
+## Tipps & Tools 🛠️
 
 - **OER Planungshilfe von twillo:**  
 https://tibhannover.gitlab.io/oer/oer-wizard/html/wizard-modal.html#step-1
@@ -72,14 +72,12 @@ https://learn.hoou.de/course/view.php?id=57
 Tools, die Nutzer:innen dabei helfen zu erfahren, ob KI-Anwendungen mit ihren Werken trainiert wurden sowie Tools, die Werke (Bilder, Fotos) vom Auslesen durch KI-Anwendungen schützen:
 
 - https://haveibeentrained.com/
-
 - https://nightshade.cs.uchicago.edu/whatis.html
-
 - https://glaze.cs.uchicago.edu/
 
 Interessante FAQ zu KI-Rechtsfragen gibt es unter: https://www.impulse.de/organisation/ki-chatgtp-urheberrecht/7613928.html
 
-## Save-the-Date 📅:
+## Save-the-Date 📅
 
 Der nächste [Rechtsfragen-Workshop](https://www.twillo.de/oer/web/rechtsfragen-workshop-22-01-2025/) findet am **22.01.2025 von 10:00 – 12:00 Uhr** online statt! Wenn ihr dabei sein wollt, meldet euch einfach per Mail an info@twillo.de an - der Veranstaltungslink wird euch nach der Anmeldung zugeschickt.
 

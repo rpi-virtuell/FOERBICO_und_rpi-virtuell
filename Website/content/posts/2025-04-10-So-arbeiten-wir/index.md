@@ -55,9 +55,6 @@ tags:
   - Versionsverwaltung
 ---
 
-
-# So arbeiten wir in der oer.community
-
 ## Vorweg: Offene Projektkultur im Kontext von FOERBICO
 
 Das Projekt **FOERBICO** (Förderung offener Bildungspraktiken in religionsbezogenen Communities durch die Entwicklung eines koordinierten OER-Ökosystems) wird vom [Comenius-Institut](https://comenius.de/2024/03/28/foerderung-offener-bildungspraktiken-in-religionsbezogenen-communities-durch-die-entwicklung-eines-koordinierten-oer-oekosystems-foerbico/) in Kooperation mit der Goethe-Universität Frankfurt (GU) und der Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) durchgeführt. Ziel ist es, bislang isolierte Aktivitäten in OER-Communities zu vernetzen und offene Bildungspraktiken (Open Educational Practices, *OEP*) zu stärken. Diese offene Ausrichtung spiegelt sich nicht nur in den Projektzielen wider, sondern auch in der Art und Weise, **wie wir im Projekt zusammenarbeiten**. Alle Arbeitsprozesse – von der technischen Entwicklung bis zur inhaltlichen Redaktion – erfolgen transparent, kollaborativ und unter Nutzung offener und nachnutzbarer digitaler Werkzeuge unter freien Nutzungslizenzen. Im Folgenden dokumentieren wir unsere Arbeitsweise als Team, um Beteiligten und Fördernden einen Einblick in unsere Methoden zu geben. Gleichzeitig soll dieser Beitrag neuen Mitarbeitenden als Anleitung dienen.
