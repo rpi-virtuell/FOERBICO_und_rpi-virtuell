@@ -67,6 +67,7 @@ tags:
 Gina und Jörg im Gespräch mit Alexander, der die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 
 ## Motivationen, Haltungen und Ethische Intentionen
+
 Ausgelöst durch den Twitter-Crash entstand bei Alexander die Intention eine Plattform für die pastorale Arbeit zu entwickeln. Sein Ziel ist es trotz der digitalen Distanz eine Nähe auf regionaler Ebene spürbar zu machen und ein "digitales Zuhause" zu ermöglichen: 
 > Da ist erst mal ganz viel technisches Interesse, Hobby, Freude am Ausprobieren ausschlaggebend gewesen, zu sagen, es ist eine eigene Instanz. Und dieses Ideal, damit einen Gewinn für den Kontext, in dem ich auch tätig bin, zu bringen.
 
@@ -81,19 +82,20 @@ Die Idee einer Einstiegsseite für Mastodon entstand aus dem Bedürfnis heraus, 
 [![](liboriSocial_postcard.png)](https://start.libori.social)
 
 ### Die libori.social-[Einstiegsseite](https://start.libori.social/):
+
 [Dieses "Starterkit](https://start.libori.social/)", inspiriert von [ähnlichen Ansätzen auf BlueSky](https://steadyhq.com/de/eulemagazin/posts/8936e046-d69e-4cd5-8122-72332e1ae27e), soll den Nutzenden ein erstes Gefühl für die "katholische Theo-Bubble" auf Mastodon vermitteln und ihnen den Einstieg in die Plattform erleichtern.
 Es
-* bietet eine kurze Begrüßung und erklärt, wofür die Instanz steht.
-* enthält Weiterleitungslinks zu relevanten Ressourcen.
+
+* bietet eine kurze Begrüßung und erklärt, wofür die Instanz steht
+* enthält Weiterleitungslinks zu relevanten Ressourcen
 * erläutert die ersten Schritte und die App-Installation
-* und stellt vor allem eine Sammlung von aktiven Accounts aus dem katholischen und ökumenischen Bereich bereit, denen Nutzer:innen direkt folgen können.
+* stellt vor allem eine Sammlung von aktiven Accounts aus dem katholischen und ökumenischen Bereich bereit, denen Nutzer:innen direkt folgen können.
 
 >“Wenn etwas auf Interesse stößt, hat man auch wieder ganz viel Kraft.”
 
-Die Pflege der Instanz ist mit einem nicht unerheblichen Zeitaufwand verbunden, den Alexander zum Großteil ehrenamtlich in seiner Freizeit leistet. Er berichtet jedoch von überwiegend positiven Erfahrungen und betont, dass das positive Feedback und die Begeisterung der Nutzer ihn motivieren die Community zu unterstützen. 
+Die Pflege der Instanz ist mit einem nicht unerheblichen Zeitaufwand verbunden, den Alexander zum Großteil ehrenamtlich in seiner Freizeit leistet. Er berichtet jedoch von überwiegend positiven Erfahrungen und betont, dass das positive Feedback und die Begeisterung der Nutzer ihn motivieren die Community zu unterstützen.
 
-
-## Die Vision eines größeren kirchlichen Netzwerks:
+## Die Vision eines größeren kirchlichen Netzwerks
 
 > “Wenn man es nicht vorlebt, kann es nicht nachgemacht werden.”
 
@@ -101,16 +103,15 @@ Alexander denkt bereits weiter: Er möchte die Idee der Einstiegsseite nutzen, u
 
 > "Wie wäre es, ein eigenständiges Portal zu schaffen, das - getragen von befreundeten Instanzen - nicht nur die katholische, sondern die kirchliche Bubble insgesamt anspricht? Mit Funktionen wie Account-Filterung und Kategorisierung könnten Institutionen, Pastorale und Gläubige besser vernetzt werden. So ließen sich neue Anknüpfungspunkte schaffen und das Netzwerk nachhaltig erweitern."
 
-Diese Vision eines "Hubs" für kirchliche Mastodon-Instanzen auch im Kontext religionsbezogener Bildung teilen auch Jörg und Gina vom Comenius-Institut und wir tüfteln bereits an den nächsten wichtigen Schritten der Zusammenarbeit in Richtung der Realisierung. 
+Diese Vision eines "Hubs" für kirchliche Mastodon-Instanzen auch im Kontext religionsbezogener Bildung teilen auch Jörg und Gina vom Comenius-Institut und wir tüfteln bereits an den nächsten wichtigen Schritten der Zusammenarbeit in Richtung der Realisierung.
 
 Ein Netzwerk im Sinne eines "Hubs" könnte:
+
 * mehrere befreundete Instanzen umfassen, die gemeinsame Ziele und Werte teilen.
 * eine Filterfunktion für Accounts bieten, um die Suche nach relevanten Inhalten zu vereinfachen.
 * Kategorisierung von Accounts ermöglichen, um z.B. zwischen Institutionen, Bildungseinrichtungen und Einzelpersonen zu unterscheiden.
 
-
-
-### Konkrete Schritte zur Umsetzung:
+### Konkrete Schritte zur Umsetzung
 
 Um diese Idee zu verwirklichen, schlägt Alexander folgende konkrete Schritte vor:
 
@@ -122,7 +123,7 @@ Um diese Idee zu verwirklichen, schlägt Alexander folgende konkrete Schritte vo
 
 Die Initiative von libori.social zeigt, wie aus einer einfachen Idee ein bedeutendes Projekt entstehen kann. Die Vision eines größeren kirchlichen Mastodon-Netzwerks ist ambitioniert, aber realistisch. Durch Zusammenarbeit, Offenheit und Engagement kann dieses Netzwerk zu einem lebendigen und wertvollen Ort für kirchliche Gemeinschaft, religionsbezogene Bildung und den überkonfessionellen Austausch werden.
 
-Wir haben uns von Alexander inspirieren lassen, sein Starterpaket als Einstiegsseite für unseren Mastodon-Server anzupassen und gemeinsam an der Weiterentwicklung zu arbeiten. 
+Wir haben uns von Alexander inspirieren lassen, sein Starterpaket als Einstiegsseite für unseren Mastodon-Server anzupassen und gemeinsam an der Weiterentwicklung zu arbeiten.
 [![](startodon-reliverse.png)](https://startodon.oer.community)
 
 Unter https://startodon.oer.community gibt es einen Einstieg mit Empfehlungen zur religionsbezogenen Bildung und die herzliche Einladung an Religionslehrkräfte, Ehrenamtliche oder Fortbildende sich auf https://reliverse.social zu registrieren, anzumelden und mit uns in den offenen Austausch zu kommen.
