@@ -6,16 +6,21 @@ type: LearningResource
 name: >-
   Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwendet wird?
 description: >-
-    Am Beispiel einer unter CC-lizenzierten Grafik erörtern wir verschiedene
-    Fragestellungen zum Lizenzrecht: Wer kann eine Lizenz erteilen?
-    Was gilt bei einer Änderung einer Lizenz? Wann und wie dürfen lizenzierte
-    Materialien weitergenutzt werden?...
+    Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/dezentrale-oep-oer
 creator:
   - givenName: Jörg
     familyName: Lohrer
     id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jens
+    familyName: Dechow
+    id: https://orcid.org/0009-0003-1657-4631
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -37,6 +42,7 @@ datePublished: '2025-04-20'
 #staticSiteGenerator:
 author:
   - Jörg Lohrer
+  - Jens Dechow
 title: Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwendet wird?
 cover:
   relative: true
@@ -45,8 +51,8 @@ cover:
   alt: "Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh."
   hiddenInSingle: false
 summary: |
-  Am Beispiel einer unter CC-lizenzierten Grafik erörtern wir verschiedene Fragestellungen zum Lizenzrecht: Wer kann eine Lizenz erteilen? Was gilt bei einer Änderung einer Lizenz? Wann und wie dürfen lizenzierte Materialien weitergenutzt werden?...
-url: faelschlicherweise-oer
+  Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
+url: lizenz-irrtum-oer
 ---
 
 ## Eine Fallbeschreibung
