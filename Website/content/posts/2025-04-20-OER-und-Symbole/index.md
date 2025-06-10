@@ -6,9 +6,9 @@ type: LearningResource
 name: >-
   Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwendet wird?
 description: >-
-    Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
+  Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/dezentrale-oep-oer
+id: https://oer.community/lizenz-irrtum-oer
 creator:
   - givenName: Jörg
     familyName: Lohrer
@@ -32,7 +32,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n287
 image: >-
-  https://oer.community/faelschlicherweise-oer/nadel-im-heuhaufen.jpg
+  https://oer.community/lizenz-irrtum-oer/nadel-im-heuhaufen.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
