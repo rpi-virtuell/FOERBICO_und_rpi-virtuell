@@ -38,7 +38,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-04-20'
+datePublished: '2025-06-11'
 #staticSiteGenerator:
 author:
   - Jörg Lohrer
