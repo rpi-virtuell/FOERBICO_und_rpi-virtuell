@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Roboto Condensed';
-    src: url('RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    src: url('/font/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Roboto Condensed Italic';
-    src: url('RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('/font/RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
