@@ -1,5 +1,10 @@
 https://docs.google.com/document/d/1Qgc7uMtPuDqZ\_JpQQbOVgpGWu5A4FRYW/edit
-Arbeitsstand vom 16.06.2025
+Arbeitsstand vom 18.06.2025
+
+CI: Comenius Institut Münster; FAU: Friedrich Alexander Universität Erlangen-Nürnberg; GU: Goethe Universität Frankfurt, CM: Jörg Lohrer (CI); ÖA: Gina Buchwald-Chassée (CI); IT: Ludger Sicking (CI); WM1: Dr. Laura Mößle (GU); WM2: Phillip Angelina (FAU)
+
+Stand Juni 2025, Projektmonat: 14
+
 
 | AP | Leitung | Beteiligt | Meilenstein | Unter-AP | Mitarbeitenden | Terminierung | Status |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
