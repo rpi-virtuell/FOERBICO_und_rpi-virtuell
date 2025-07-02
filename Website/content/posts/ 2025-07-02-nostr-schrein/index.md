@@ -1,5 +1,7 @@
 # Die Kraft der Gemeinschaft: Von der prozessualen Kontinuität des Ise-Schreins zur dezentralen Architektur offener Bildungssysteme
 
+WiP: https://pad.gwdg.de/44hzBJVFRUu1WXs-hXgXKQ?both#
+
 ![](https://pad.gwdg.de/uploads/f744cda4-eaa1-4c5a-bd7a-4175560984a9.png)
 
 Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle funktionieren. Dabei zeigt sich, dass sich die Robustheit eines Systems nicht primär in der Stabilität seiner physischen oder institutionellen Struktur manifestiert sondern in der Kontinuität und Adaptivität seiner zugrundeliegenden Prozesse. 
