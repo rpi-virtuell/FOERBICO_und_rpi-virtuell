@@ -17,7 +17,7 @@ Deeper Learning steht als Oberbegriff für verschiedene Konzepte, die aktuelle E
 
 Sliwka und Klopsch (2022) betonen, dass nachhaltiges Lernen vor allem dann geschieht, wenn sich Lernprozesse in folgenden drei Phasen ereignen: 
 1. Instruktion und Aneignung: Zunächst müssen Schüler:innen fachliche Schlüsselkompetenzen und methodische Fertigekeiten erwerben, die für die spätere Aneignung notwendig sind. Ziel dieser Phase ist ein solides Wissensfundament zu schaffen.
-2. Ko-Konstrukton und Ko-Kreation: In diesr Phase arbeiten die Schüler*innen in Teams und bearbeiten Lernherausforderungen eigenständig auf Basis der zuvor erworbenen Kompetenzen bzw. des Wissens.
+2. Ko-Konstruktion und Ko-Kreation: In diesr Phase arbeiten die Schüler*innen in Teams und bearbeiten Lernherausforderungen eigenständig auf Basis der zuvor erworbenen Kompetenzen bzw. des Wissens.
 3. Authentische Leistungserbringung: Am Ende steht die Produktion eines eigenen Lernprodukts bzw. einer Performanz. Authentisch meint hierbei, dass die Ergebnisse der Schüler*innen in deren realen Lebenswelten eingebettet sind und gegebenefalls auch öffentlich (z.B.) in der Klasse präsentiert werden. 
 
 ## Prinzipien des Deeper Learning
