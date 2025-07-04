@@ -4,9 +4,9 @@ WiP: https://pad.gwdg.de/44hzBJVFRUu1WXs-hXgXKQ?both#
 
 ![](https://pad.gwdg.de/uploads/f744cda4-eaa1-4c5a-bd7a-4175560984a9.png)
 
-Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle funktionieren. Dabei zeigt sich, dass sich die Robustheit eines Systems nicht primär in der Stabilität seiner physischen oder institutionellen Struktur manifestiert sondern in der Kontinuität und Adaptivität seiner zugrundeliegenden Prozesse. 
+Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle funktionieren. Dabei zeigt sich, dass sich die Robustheit eines Systems nicht primär in der Stabilität seiner physischen oder institutionellen Struktur manifestiert, sondern in der Kontinuität und Adaptivität seiner zugrundeliegenden Prozesse. 
 Wenn wir durch eine Hub-Entwicklung, die Bildungscommunities dabei unterstützen wollen, dass ihre OEP (Open Educational Practice)-Prozesse "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir dazu eine Technik, die die zyklischen Erneuerungsprozesse der Communities unterstützt.
-Welche Prinzipien dabei zum Tragen kommen könnten, zeigt nachfolgend die exemplarische Veranschaulichung im spirituellen und architektonischen Erbe des Großen Schreins von Ise sowie in den dynamischen Ökosystemen moderner Open-Source-Initiativen und ein Ausblick auf eine zukünftig potenziell offene Bildungsinfrastruktur in Deutschland.
+Welche Prinzipien dabei zum Tragen kommen könnten, zeigt nachfolgend die exemplarische Veranschaulichung des spirituellen und architektonischen Erbes des Großen Schreins von Ise sowie das dynamische Ökosystemen moderner Open-Source-Initiativen. Beide bilden einen Ausblick auf eine zukünftig potenziell offene Bildungsinfrastruktur in Deutschland.
 
 ## Prozess statt Bauwerk - Die Kraft der Gemeinschaft beim Bau des Ise-Schreins
 
@@ -27,7 +27,7 @@ Die entscheidende Frage zur Prognose der Langlebigkeit eines Systems ist daher n
 
 [Steffen Rörtgen zeigt in seinem Blogbeitrag: Just calling it Open is not enough](https://blossom.edufeed.org/) auf, wo es heute architektonisch bei den Bildungsplattformen bislang noch hakt und wie gelingende Prozesse einer offenen Bildungsinfrastruktur angebahnt werden könnten:
 
-- **Fragmentierung und Silos:** OER-Materialien (Open Educational Resources) werden oft in abgeschlossenen Plattformen gehalten, die Zusammenarbeit und Auffindbarkeit erschweren.
+- **Fragmentierung und Silos:** OER-Materialien werden oft in abgeschlossenen Plattformen gehalten, die Zusammenarbeit und Auffindbarkeit erschweren.
 - **Zentralisierte Kuration und Metadaten:** Listen, Sammlungen und Annotationsprozesse sind selten interoperabel oder kollaborativ.
 - **Doppelte Arbeit und ineffiziente Suche:** Inhalte werden mehrfach indexiert, Crawler müssen für jede Plattform separat entwickelt werden, kleine Akteure bleiben außen vor.
 - **Fehlende plattformübergreifende Kollaboration:** Technische Lösungen für offene, gemeinschaftliche Qualitätsprozesse fehlen.
@@ -35,7 +35,7 @@ Die entscheidende Frage zur Prognose der Langlebigkeit eines Systems ist daher n
 
 All diese Herausforderungen wurzeln darin, dass Nutzer:innen, Services und Daten bislang zu stark in feststehende Plattformgebäude eingebaut wurden.
 
-Beweglichkeit in die Prozesse könnte durch das [Nostr-Protokoll](https://nostr.how/de/what-is-nostr) entstehen, eine offene, dezentrale Vereinbarungslogik, die Nutzer:innen, Services und Daten voneinander entkoppeln und somit wieder beweglicher aufeinander beziehbar machen könnte. Hierdurch würde es möglich werden, dass Inhalte, Metadaten und Kollaborationsmöglichkeiten plattformübergreifend geteilt, gepflegt und weiterentwickelt werden könnten.
+Beweglichkeit in die Prozesse könnte durch das [Nostr-Protokoll](https://nostr.how/de/what-is-nostr) entstehen, eine offene, dezentrale Vereinbarungslogik, die Nutzer:innen, Services und Daten voneinander entkoppeln und somit wieder beweglicher aufeinander beziehbar machen könnte. Hierdurch wäre es möglich, dass Inhalte, Metadaten und Kollaborationsmöglichkeiten plattformübergreifend geteilt, gepflegt und weiterentwickelt werden könnten.
 
 - **Materialien und Metadaten** sind nicht an einzelne Plattformen gebunden, sondern für alle offen zugänglich.
 - **Kuration und Annotation** werden zu gemeinschaftlichen, interoperablen Prozessen.
@@ -50,7 +50,7 @@ Das Resultat wäre eine Infrastruktur, die nicht von einzelnen Plattformen, Inst
 Die Geschichte des Ise-Schreins, die Erfolgsgeschichte von Open Source und die aktuellen Herausforderungen in der Bildungsinfrastruktur zeigen verbindende Gemeinschaft als das eigentliche Fundament nachhaltiger Offenheit. Es sind die Menschen, die sich umeinander kümmern, die Wissen, Werte und Innovation über Zeiträume und Generationen hinweg tragen und weitertradieren.
 
 Wenn es uns gelingt, die technische Infrastruktur und mit ihr einen Community-Hub für die religionsbezogene Bildung so zu gestalten, dass wir Offenheit, Kollaboration und Fürsorge ermöglichen, könnten wir dadurch an einer Netzwerk-Architektur mitarbeiten, die nicht statisch bleiben muss, sondern sich dynamisch erneuert und gerade dadurch Beständigkeit entwickelt. 
-Die Frage ist also nicht ob sondern wie es uns gelingt in offenen Ökosystemen interoperable Gemeinschaftsprozesse zu organisieren.
+Die Frage ist also nicht, *ob* sondern *wie* es uns gelingt in offenen Ökosystemen interoperable Gemeinschaftsprozesse zu organisieren.
 Dies gemeinsam und miteinander zu erproben und zu gestalten, dazu laden wir ein - dezentral, datenschutzkonform, demokratisch:
 - In der Matrix
     - Space oer-community mit vielen offenen Räumen in der Übersicht (z.B. OER und Recht, OER ist blöd, )
