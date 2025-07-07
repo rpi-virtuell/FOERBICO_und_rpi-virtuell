@@ -6,7 +6,7 @@ WiP: https://pad.gwdg.de/44hzBJVFRUu1WXs-hXgXKQ?both#
 
 Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle funktionieren. Dabei zeigt sich, dass sich die Robustheit eines Systems nicht primär in der Stabilität seiner physischen oder institutionellen Struktur manifestiert, sondern in der Kontinuität und Adaptivität seiner zugrundeliegenden Prozesse. 
 Wenn wir durch eine Hub-Entwicklung, die Bildungscommunities dabei unterstützen wollen, dass ihre OEP (Open Educational Practice)-Prozesse "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir dazu eine Technik, die die zyklischen Erneuerungsprozesse der Communities unterstützt.
-Welche Prinzipien dabei zum Tragen kommen könnten, zeigt nachfolgend die exemplarische Veranschaulichung des spirituellen und architektonischen Erbes des Großen Schreins von Ise sowie das dynamische Ökosystemen moderner Open-Source-Initiativen. Beide bilden einen Ausblick auf eine zukünftig potenziell offene Bildungsinfrastruktur in Deutschland.
+Welche Prinzipien dabei zum Tragen kommen könnten, zeigt nachfolgend die exemplarische Veranschaulichung des spirituellen und architektonischen Erbes des Großen Schreins von Ise sowie das dynamische Ökosystem moderner Open-Source-Initiativen. Beide bilden einen Ausblick auf eine zukünftig potenziell offene Bildungsinfrastruktur in Deutschland.
 
 ## Prozess statt Bauwerk - Die Kraft der Gemeinschaft beim Bau des Ise-Schreins
 
@@ -29,7 +29,7 @@ Die entscheidende Frage zur Prognose der Langlebigkeit eines Systems ist daher n
 
 - **Fragmentierung und Silos:** OER-Materialien werden oft in abgeschlossenen Plattformen gehalten, die Zusammenarbeit und Auffindbarkeit erschweren.
 - **Zentralisierte Kuration und Metadaten:** Listen, Sammlungen und Annotationsprozesse sind selten interoperabel oder kollaborativ.
-- **Doppelte Arbeit und ineffiziente Suche:** Inhalte werden mehrfach indexiert, Crawler müssen für jede Plattform separat entwickelt werden, kleine Akteure bleiben außen vor.
+- **Doppelte Arbeit und ineffiziente Suche:** Inhalte werden mehrfach indexiert, Crawler (= automatisierte Programme oder Bots, die Websites systematisch durchsuchen und deren Inhalte indizieren) müssen für jede Plattform separat entwickelt werden, kleine Akteure bleiben außen vor.
 - **Fehlende plattformübergreifende Kollaboration:** Technische Lösungen für offene, gemeinschaftliche Qualitätsprozesse fehlen.
 - **KI-Services als Insellösungen:** Automatisierte Dienste sind meist an einzelne Plattformen gebunden.
 
@@ -39,7 +39,7 @@ Beweglichkeit in die Prozesse könnte durch das [Nostr-Protokoll](https://nostr.
 
 - **Materialien und Metadaten** sind nicht an einzelne Plattformen gebunden, sondern für alle offen zugänglich.
 - **Kuration und Annotation** werden zu gemeinschaftlichen, interoperablen Prozessen.
-- **Suche und Indexierung** funktionieren relay-übergreifend und effizient.
+- **Suche und Indexierung** funktionieren [relay](https://nostr.how/de/relays)-übergreifend und effizient.
 - **Kollaboration und Qualitätssicherung** werden technisch möglich und sozial gestärkt.
 - **KI-Services** können als offene Akteure im Netzwerk agieren und so für alle nutzbar gemacht werden.
 
@@ -50,10 +50,10 @@ Das Resultat wäre eine Infrastruktur, die nicht von einzelnen Plattformen, Inst
 Die Geschichte des Ise-Schreins, die Erfolgsgeschichte von Open Source und die aktuellen Herausforderungen in der Bildungsinfrastruktur zeigen verbindende Gemeinschaft als das eigentliche Fundament nachhaltiger Offenheit. Es sind die Menschen, die sich umeinander kümmern, die Wissen, Werte und Innovation über Zeiträume und Generationen hinweg tragen und weitertradieren.
 
 Wenn es uns gelingt, die technische Infrastruktur und mit ihr einen Community-Hub für die religionsbezogene Bildung so zu gestalten, dass wir Offenheit, Kollaboration und Fürsorge ermöglichen, könnten wir dadurch an einer Netzwerk-Architektur mitarbeiten, die nicht statisch bleiben muss, sondern sich dynamisch erneuert und gerade dadurch Beständigkeit entwickelt. 
-Die Frage ist also nicht, *ob* sondern *wie* es uns gelingt in offenen Ökosystemen interoperable Gemeinschaftsprozesse zu organisieren.
+Die Frage ist also nicht, *ob*, sondern *wie* es uns gelingt in offenen Ökosystemen interoperable Gemeinschaftsprozesse zu organisieren.
 Dies gemeinsam und miteinander zu erproben und zu gestalten, dazu laden wir ein - dezentral, datenschutzkonform, demokratisch:
 - In der Matrix
-    - Space oer-community mit vielen offenen Räumen in der Übersicht (z.B. OER und Recht, OER ist blöd, )
+    - Space oer-community mit vielen offenen Räumen in der Übersicht (z.B. OER und Recht, OER ist blöd,)
     - Raum "OERTR" (OER transmitted over Relays), wo OER & NOSTR zusammengedacht werden
 - auf Nostr
     - hier eine Starthilfe 
