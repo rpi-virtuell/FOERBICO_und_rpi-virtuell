@@ -1,3 +1,53 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/going-deep-er-oerf-tagung-2025
+name: 'Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning'
+description: >-
+  Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Florian
+    familyName: Mayrhofer
+    id: https://orcid.org/0000-0003-1900-3052
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: https://oer.community/going-deep-er-oerf-tagung-2025/OERF-2025-gruppenfoto.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2025-07-08'
+#staticSiteGenerator:
+author:
+  - Dr. Laura Mößle
+  - Dr. Florian Mayrhofer
+title: 'Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning'
+cover:
+  relative: true
+  image: OERF-2025-gruppenfoto.jpg
+summary: >-
+  Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
+url: going-deep-er-oerf-tagung-2025
+tags:
+  - Community
+  - Event
+  - Vernetzung
+  - Open Educational Resources (OER)
+---
+
+
 # Going deep(er)!  
 ## FOERBICO auf der ÖRF-Tagung zu Deeper Learning
 
