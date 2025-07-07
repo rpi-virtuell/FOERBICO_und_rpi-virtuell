@@ -1,7 +1,7 @@
 # Going deep(er)!  
 ## FOERBICO auf der ÖRF-Tagung zu Deeper Learning
 
-![Platzhalter: Bild](xxx.jpg) <!--ich habe Robert Schelander angefragt, ob er mir das Gruppenbild schicken kann -->
+![Gruppenfoto OERF 2025](OERF-2025-gruppenfoto.jpg)
 
 Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das [Österreichische Religionspädagogische Forum (ÖRF)](https://oerf.eu/) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: *Deeper Learning*. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
 
@@ -30,7 +30,7 @@ Besonders hervorzuheben sind drei Prinzipien, die Deeper Learning deutlich veran
 
 - **Kooperative Professionalität**: Lehrkräfte arbeiten kooperativ, designen Unterricht in Teams und geben sich gegenseitig Feedback. Dies ermöglicht eine adaptive Perspektive der Lehrkräfte, welche es ihnen ermöglicht, flexibel und professionell auf unterschiedliche pädagogische Situationen beim Deeper Learning adäquat zu reagieren.
 
-![Platzhalter: Präsentation des FOERBICO-Projekts](XXX.jpg)
+![Präsentation des FOERBICO-Projekts](praesentation-foerbico.jpeg)
 
 ## FOERBICO goes ÖRF
 
