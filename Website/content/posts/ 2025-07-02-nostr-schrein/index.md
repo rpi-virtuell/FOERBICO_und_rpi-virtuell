@@ -53,11 +53,13 @@ Wenn es uns gelingt, die technische Infrastruktur und mit ihr einen Community-Hu
 Die Frage ist also nicht, *ob*, sondern *wie* es uns gelingt in offenen Ökosystemen interoperable Gemeinschaftsprozesse zu organisieren.
 Dies gemeinsam und miteinander zu erproben und zu gestalten, dazu laden wir ein - dezentral, datenschutzkonform, demokratisch:
 - In der Matrix
-    - Space oer-community mit vielen offenen Räumen in der Übersicht (z.B. OER und Recht, OER ist blöd,)
-    - Raum "OERTR" (OER transmitted over Relays), wo OER & NOSTR zusammengedacht werden
+    - Im [Space OERcommunity](https://matrix.to/#/#oercommunity:rpi-virtuell.de) mit vielen offenen Räumen in der Übersicht (z.B. [OER-Rechtsfragen](https://matrix.to/#/#oer-rechtsfragen:rpi-virtuell.de), [OER + KI](https://matrix.to/#/#oer-ki:rpi-virtuell.de), oder auch ["OER ist blöd (?)"](https://matrix.to/#/#oer-ki:rpi-virtuell.de)
+    - vor allem [in den Raum "OERTR"](https://matrix.to/#/#OERTR:rpi-virtuell.de) (OER transmitted over Relays), wo OER & NOSTR zusammengedacht werden
 - auf Nostr
-    - hier eine Starthilfe 
-    - Hier ein paar Accounts 
+    - [hier eine Starthilfe zur Profilerstellung](https://nstart.me/de?an=Primal&am=light&aa=203a8f&asb=yes&s=npub1k85m3haymj3ggjknfrxm5kwtf5umaze4nyghnp29a80lcpmg2k2q54v05a)
+    - Hier ein paar Accounts z.B. von [Jörg](https://njump.me/npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9) oder [Steffen](https://njump.me/npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma)
+- auf github
+    - Die [Organisation von Edufeed](https://github.com/edufeed-org): Interoperabilität in Bildungsinfrastrukturen neu gedacht
 
 
 #Gemeinschaft #Verbindung #OER #Nostr #Resilienz #Dezentral
