@@ -47,19 +47,18 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-
 # Going deep(er)!  
 ## FOERBICO auf der ÖRF-Tagung zu Deeper Learning
 
-![Gruppenfoto OERF 2025](OERF-2025-gruppenfoto.jpg)
-
-Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das [Österreichische Religionspädagogische Forum (ÖRF)](https://oerf.eu/) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: *Deeper Learning*. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
+Das [Österreichische Religionspädagogische Forum (ÖRF)](https://oerf.eu/) führte vom 12. bis 13. Juni 2025 die diesjährige Jahrestagung durch. Im Mittelpunkt stand ein höchst aktuelles Thema: *Deeper Learning*. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
 
 ## Deeper Learning trifft Open Pedagogy – It's a match
 
 Prof. Andrea Lehner-Hartmann von der Universität Wien eröffnete die Tagung mit einer Einführung in das Konzept des Deeper Learning, basierend auf den Arbeiten von [Sliwka und Klopsch (2022)](https://www.beltz.de/fachmedien/paedagogik/produkte/details/42827-deeper-learning-in-der-schule.html). In ihren Ausführungen wurde deutlich, dass Deeper Learning eine Antwort auf die Herausforderungen des digitalen Bildungszeitalters sucht. 
 
 Statt eines lehrer:innenzentrierten Modells, das Lernende auf passive Wissensaufnahme reduziert, fördert Deeper Learning eigenverantwortliches, forschendes und partizipatives Lernen - ganz im Sinne des "Teach less - learn more." Schüler:innen und Studierende sollen befähigt werden, ihren Lernweg aktiv mitzugestalten, eigene Fragen zu entwickeln und kreative Lösungen zu verfolgen. In diesem Zusammenhang wurde auch die Anschlussfähigkeit des Ansatzes an die Prinzipien der Open Pedagogy und offener Bildungsressourcen (OER) deutlich. Beide Konzepte basieren auf der Vorstellung von Bildung als ko-konstruktivem Prozess: Lernen wird als aktives Handeln verstanden, das Reflexion, Selbstbestimmung und Verantwortungsübernahme in den Mittelpunkt rückt.
+
+![Gruppenfoto OERF 2025](OERF-2025-gruppenfoto.jpg)
 
 ## Deeper Learning - Lernen in Phasen
 
