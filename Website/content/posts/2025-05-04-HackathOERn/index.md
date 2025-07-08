@@ -149,4 +149,7 @@ Wir vom [Edufeed](https://www.edufeed.org/)-Team haben entschieden an der Idee w
 
 Ansonsten wird der **2. HackathOERn vom 25.-27.08.2025 in Weimar** stattfinden, also save-the-Date 📅 Wir hatten auf jeden Fall eine gute Zeit und jede Menge Spaß #HappyHacking!
 
+Update vom 08.07.2025
+Die [Dokumentation vom HackathOERn 28.-30. April 2025, Göttingen](https://drive.google.com/file/d/18buhPrpPzSUxkCiIy8QZManpXmwVCA3q/view) von edu-sharing ist online.
+
 ![](hackathoern-teilnehmer-innen.jpg)
