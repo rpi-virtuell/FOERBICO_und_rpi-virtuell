@@ -37,6 +37,7 @@ title: 'Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning'
 cover:
   relative: true
   image: OERF-2025-gruppenfoto.jpg
+  hiddenInSingle: true
 summary: >-
   Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
 url: going-deep-er-oerf-tagung-2025
