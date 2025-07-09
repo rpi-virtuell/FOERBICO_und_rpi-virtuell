@@ -47,9 +47,6 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-# Going deep(er)!  
-## FOERBICO auf der ÖRF-Tagung zu Deeper Learning
-
 Das [Österreichische Religionspädagogische Forum (ÖRF)](https://oerf.eu/) führte vom 12. bis 13. Juni 2025 die diesjährige Jahrestagung durch. Im Mittelpunkt stand ein höchst aktuelles Thema: *Deeper Learning*. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
 
 ## Deeper Learning trifft Open Pedagogy – It's a match
