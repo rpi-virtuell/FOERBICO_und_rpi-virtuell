@@ -50,7 +50,7 @@ OER
 # Save the Date: „Mit OER zu einer Kultur des Teilens“
 ## Tagung am 24.–25. Februar 2026 in Nürnberg
 
-OER (Open Educational Resources) sind zwar kein Nischenthema mehr, dennoch bleiben viele Fragen offen: Wie arbeiten OER-Communities eigentlich zusammen? Wie entstehen Materialien wirklich kollaborativ? Welche Strukturen, Motivationen und Herausforderungen prägen das gemeinsame Arbeiten? Und wie kann eine Kultur des Teilens konkret gelebt werden? Die Tagung widmet sich diesen Fragen – mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten.
+OER (Open Educational Resources) sind zwar kein Nischenthema mehr >[also ich finde es ist noch ein Nischenthema also meine ehemaligen Kolleg:innen können mit dem Begriff nichts anfangen, vielleicht: Die Bekanntheit von OER nahm in den letzten Jahren zu und langsam entwächst der Nische, dennoch...], dennoch bleiben viele Fragen offen: Wie arbeiten OER-Communities eigentlich zusammen? Wie entstehen Materialien wirklich kollaborativ? Welche Strukturen, Motivationen und Herausforderungen prägen das gemeinsame Arbeiten? Und wie kann eine Kultur des Teilens konkret gelebt werden? Die Tagung widmet sich diesen Fragen – mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten.
 
 Obwohl es zahlreiche Tagungen zu OER und Open Educational Practices (OEP) gibt, stehen meist technische Fragen oder die Materialerstellung sowie Vorteile von OER in der Bildungsarbeit im Vordergrund. Diese Veranstaltungen sind wichtig für die Stärkung offener Bildungspraktiken und die Förderung der OER-Produktion. Die Zusammenarbeit von OER-Communities selbst wird jedoch bislang kaum systematisch untersucht.
 
@@ -68,21 +68,17 @@ Das BMBF-Strategiepapier sowie die Machbarkeitsstudie halten fest, dass in Deuts
 
 Ein Beispiel für eine solche Community ist das relilab: Hier werden offene digitale Räume angeboten, in denen Materialien nicht nur gemeinsam erstellt, sondern auch veröffentlicht werden können (vgl. myrelilab). Darüber hinaus ermöglichen offene Veranstaltungsformate eine unkomplizierte Teilnahme – teils sogar ohne vorherige Anmeldung.
 
-Die Aussagen und Statements wurden von unserem Team aufgenommen und analysiert. Sie zeigen ein facettenreiches Bild und geben wichtige Hinweise für die Weiterentwicklung von OER und OEP. Auf der Tagung möchten wir in den Austausch mit Engagierten aus Wissenschaft, Praxis und Community-Arbeit kommen und weitere Perspektiven von Akteur:innen selbst zu Hürden und Chancen von OER und OEP kennenlernen. Darüber hinaus bietet die Tagung Raum für Vernetzung, Reflexion und Perspektivwechsel!
+Die Aussagen und Statements >[von aktiven Community-Mitgliedern] wurden von unserem Team aufgenommen und analysiert. Sie zeigen ein facettenreiches Bild und geben wichtige Hinweise für die Weiterentwicklung von OER und OEP. Auf der Tagung möchten wir in den Austausch mit Engagierten aus Wissenschaft, Praxis und Community-Arbeit kommen und weitere Perspektiven von Akteur:innen selbst zu Hürden und Chancen von OER und OEP kennenlernen. Darüber hinaus bietet die Tagung Raum für Vernetzung, Reflexion und Perspektivwechsel!
 
 
 ## Mit OER zu einer Kultur des Teilens
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
-Wir laden herzlich ein, einen Einblick in die Alltagswelt von OER-Communities zu bekommen. Wie wird gearbeitet? Welche verschiedenen Formen von Communities gibt es? Welche Rolle spielen Institutionen wie Schule oder Kirchen bei der weiterentwicklung von Communities? Darauf möchten wir gemeinsam mit einer Haltung von Openness uns den *Phänomenen* OER-Communities gemeinsam annähren. 
-
-Unter diesem Titel steht unsere Tagung – und zugleich die Frage, wie die gemeinsame Arbeit an OER zur Weiterentwicklung von Open Educational Practices (OEP) beitragen kann. Dabei sollen nicht nur die empirischen Forschungsergebnisse vorgestellt und diskutiert, sondern auch konkrete Perspektiven für die Zukunft gemeinschaftlich entwickelt werden.
-
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen:
 Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Communities existieren? Und welche Rolle spielen Institutionen wie Schulen oder Kirchen bei ihrer Entwicklung und Verstetigung?
 
-Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten.
+Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen die Wünsche der Communities Raum geben und gemeinsam überlegen wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER ermöglicht wird und OEP eine Grundlage für die Communities bildet.  
 
 Eine offizielle Einladung mit Programm folgt demnächst. Wir freuen uns auf euer Interesse und euren Input!
 
-Für Rückfragen und Anmeldungen wenden Sie sich gerne an Phillip Angelina: phillip.angelina@fau.de. 
+Für Rückfragen und Anmeldungen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
