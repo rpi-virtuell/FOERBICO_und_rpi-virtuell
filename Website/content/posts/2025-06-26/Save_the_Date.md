@@ -1,7 +1,7 @@
 ---
 '@context': https://schema.org/
+'@type': LearningResource
 creativeWorkStatus: Draft
-type: LearningResource
 name: Save the Date
 description: Ein Informationspost über unsere Tagung im Februar 2026
 license: https://creativecommons.org/licenses/by/4.0/deed.de
@@ -29,23 +29,21 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-#staticSiteGenerator:
 author:
   - Phillip Angelina
-title: Save the Date
 cover:
   relative: true
-  image: 
   hiddenInSingle: true
 summary: |
   Ein Informationspost über unsere Tagung im Februar 2026.
 url: save-the-date
 tags:
-OER
+  - OER
   - OEP
   - OER-Community
   - Community Forschung
 ---
+
 
 # Save the Date: „Mit OER zu einer Kultur des Teilens“
 ## Tagung am 24.–25. Februar 2026 in Nürnberg
