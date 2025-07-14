@@ -24,7 +24,7 @@ Praktische Einblicke bot die Session zu „OER-Video und Best-Practice Nennung O
 
 ### Anreize, Qualität und Infrastruktur
 
-Ein Austausch um die „Debutatsreduktion für OER“ war ebenfalls ein Thema einer Workshop-Session auf dem Barcamp. Es wurde die Frage aufgeworfen, ob eine Reduktion der Lehrverpflichtung einen **Anreiz zur Erstellung von OER** darstellen könnte und ob dies überhaupt umsetzbar ist. Konsens herrschte darüber, dass Debutatsreduktion als **„harte Währung und Wertschätzung“** für die Erstellung von OER wahrgenommen wird. Auch die **Qualitätssicherung bei OER** wurde im Vergleich zum Peer-Review-Prozess in der Forschung beleuchtet und ein **möglicher, noch zu erstellender OER-Kodex als Leitlinie und Selbstkontrolle** diskutiert. Es wurde angemerkt, dass es für OER keinen etablierten Qualitätssicherungsprozess wie das Peer-Review in der Forschung gibt.
+Ein Austausch um die „Deputatsreduktion für OER“ war ebenfalls ein Thema einer Workshop-Session auf dem Barcamp. Es wurde die Frage aufgeworfen, ob eine Reduktion der Lehrverpflichtung einen **Anreiz zur Erstellung von OER** darstellen könnte und ob dies überhaupt umsetzbar ist. Konsens herrschte darüber, dass Deputatsreduktion als **„harte Währung und Wertschätzung“** für die Erstellung von OER wahrgenommen wird. Auch die **Qualitätssicherung bei OER** wurde im Vergleich zum Peer-Review-Prozess in der Forschung beleuchtet und ein **möglicher, noch zu erstellender OER-Kodex als Leitlinie und Selbstkontrolle** diskutiert. Es wurde angemerkt, dass es für OER keinen etablierten Qualitätssicherungsprozess wie das Peer-Review in der Forschung gibt.
 
 ![](https://pad.gwdg.de/uploads/e56b62f0-f884-4af2-b778-b214cad68d68.png)
 
