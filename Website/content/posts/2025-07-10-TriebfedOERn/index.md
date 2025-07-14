@@ -1,13 +1,10 @@
 # TriebfedOERn
 
-[Beitragsbearbeitung auch hier möglich](https://pad.gwdg.de/mIaV2exKTNy75YD468Zk4A?both):
-
-
 Ein Rückblick auf das TriebfedOERn Barcamp: Ein Tag voller Impulse für OER, KI und Vernetzung
 
 Das TriebfedOERn Barcamp war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI) und Forschungsdatenmanagement. Teilnehmende aus verschiedenen Bereichen kamen zusammen, um Herausforderungen zu beleuchten, Best Practices zu teilen und gemeinsame Wege für die Zukunft zu finden.
 
-![](https://pad.gwdg.de/uploads/614175c0-9019-4a2e-96af-95c510265f1b.png)
+![](sessionplan-triebfedoern-barcamp.jpg)
 
 
 ### KI in der Lehre und Urheberrecht
@@ -26,7 +23,7 @@ Praktische Einblicke bot die Session zu „OER-Video und Best-Practice Nennung O
 
 Ein Austausch um die „Deputatsreduktion für OER“ war ebenfalls ein Thema einer Workshop-Session auf dem Barcamp. Es wurde die Frage aufgeworfen, ob eine Reduktion der Lehrverpflichtung einen **Anreiz zur Erstellung von OER** darstellen könnte und ob dies überhaupt umsetzbar ist. Konsens herrschte darüber, dass Deputatsreduktion als **„harte Währung und Wertschätzung“** für die Erstellung von OER wahrgenommen wird. Auch die **Qualitätssicherung bei OER** wurde im Vergleich zum Peer-Review-Prozess in der Forschung beleuchtet und ein **möglicher, noch zu erstellender OER-Kodex als Leitlinie und Selbstkontrolle** diskutiert. Es wurde angemerkt, dass es für OER keinen etablierten Qualitätssicherungsprozess wie das Peer-Review in der Forschung gibt.
 
-![](https://pad.gwdg.de/uploads/e56b62f0-f884-4af2-b778-b214cad68d68.png)
+![](deputat-fuer-OER.jpg)
 
 
 Die Sessions „Moodle meets Metadaten“ und „Rein Raus“ konzentrierten sich auf die **technische Infrastruktur und die Vernetzung**. Für Moodle wurde ein **„Wizard für Schlagworte“** angedacht, der die Eingabe von Metadaten wie „zuletzt benutze Metadaten“ oder „didaktische Metadaten“ erleichtern soll, um die Auffindbarkeit zu verbessern und Autoren Anerkennung zu geben. Die Diskussion „Rein Raus“ beleuchtete die **Herausforderungen der Kommunikation zwischen offenen und geschlossenen Systemen**. Es wurde festgestellt, dass das **Prestige des „eigenen Repositoriums“ oft der „Nachnutzung“ entgegensteht**. Eine Stärkung der dezentralen Kommunikation, beispielsweise über Matrix/Element, und **gemeinsame Veranstaltungen** könnten die Zusammenarbeit fördern. Die Notwendigkeit von **didaktischen Metadaten zur transparenteren Gestaltung von Lehr-Lernprozessen** wurde ebenfalls hervorgehoben.
@@ -49,13 +46,13 @@ Die Sessions „Moodle meets Metadaten“ und „Rein Raus“ konzentrierten sic
 
 Ein besonders kreativer Ansatz war das „Wimmelcamp“, bei dem die Idee eines **„Wimmelbildes“ zur spielerischen Vermittlung von OER- und CC-Konzepten** entwickelt wurde. Es wurden Vorschläge gemacht, wie man **KI im Spielverlauf einbinden** könnte, etwa als Chatbot oder Side-Quests. Das Bild soll Charaktere und ein Narrativ enthalten, um die Komplexität der Materialvielfalt bei OER und der Vermischung von Lizenzen greifbar zu machen. Ideen für Easter-Eggs und Aufgaben, wie das Finden von CC-Symbolen, wurden ebenfalls gesammelt. Ein Anstoß aus dem Teilnehmendenkreis waren auch die "Horror-Szenarien" im Forschungsdaten-Bereich, die man unter **[https://forschungsdaten-thueringen.de/fdm-scarytales](https://forschungsdaten-thueringen.de/fdm-scarytales)** findet.
 
-![](https://pad.gwdg.de/uploads/ae76cca3-4ef5-413a-9c74-759ce493e14e.png)
+![](oer-wimmelbild-cc-mixer.jpg)
 kleines chatGPT 4o experiment zum Mixer-Wimmelbild (CC0)
 
 ### Bilanz und Ausblick
 Das TriebfedOERn Barcamp hat gezeigt, dass die **OER-Community lebendig und voller Ideen ist**. Die Diskussionen reichten von grundlegenden ethischen Fragen der KI über praktische Umsetzungshilfen bis hin zu strategischen Überlegungen zur Förderung von Offenheit und Zusammenarbeit in der Bildung. Die Energie und das Engagement der Teilnehmenden stimmen optimistisch für die Weiterentwicklung von OER und OEP und sowohl Ort als auch Tagungsorga ließen keine Wünsche offen. 
 Vielen herzlichen Dank und: to be continued!
 
-![](https://pad.gwdg.de/uploads/06e65618-728c-481e-9072-cbb2d5d3dbf7.jpg)
+![](einhorn-sonja-silvia-joerg.jpg)
 
 CC BY Nadja, Judith, Kristina, Aniko, Veronica, Erika, Laura, Bernd, Rebecca, Alice, Myriam, Saskia, Jörg, Verena, Katja, Jorge, Silvia, Sonja, Pia, 
