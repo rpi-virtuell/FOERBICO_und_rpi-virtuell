@@ -15,4 +15,6 @@
 - was ist interessant für Katechese?
 - OER from the start, es geht eher um Haltung/Grund-Bereitschaft/Mindset/Basis
 - anfangen / machen / einüben
+- Tipps? "Wo finde ich freie Bilddatenbanken?" "Welche Editoren gibt es?" "Welche Plattformen gibt es?"
 - alle vorherigen Themen wiederholend anreißen/aufgreifen?
+
