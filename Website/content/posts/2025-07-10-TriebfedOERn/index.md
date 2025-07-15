@@ -28,7 +28,7 @@ Ein Austausch um die „Deputatsreduktion für OER“ war ebenfalls ein Thema ei
 
 Die Sessions „Moodle meets Metadaten“ und „Rein Raus“ konzentrierten sich auf die **technische Infrastruktur und die Vernetzung**. Für Moodle wurde ein **„Wizard für Schlagworte“** angedacht, der die Eingabe von Metadaten wie „zuletzt benutze Metadaten“ oder „didaktische Metadaten“ erleichtern soll, um die Auffindbarkeit zu verbessern und Autoren Anerkennung zu geben. Die Diskussion „Rein Raus“ beleuchtete die **Herausforderungen der Kommunikation zwischen offenen und geschlossenen Systemen**. Es wurde festgestellt, dass das **Prestige des „eigenen Repositoriums“ oft der „Nachnutzung“ entgegensteht**. Eine Stärkung der dezentralen Kommunikation, beispielsweise über Matrix/Element, und **gemeinsame Veranstaltungen** könnten die Zusammenarbeit fördern. Die Notwendigkeit von **didaktischen Metadaten zur transparenteren Gestaltung von Lehr-Lernprozessen** wurde ebenfalls hervorgehoben.
 
-![](https://pad.gwdg.de/uploads/0f5e2bff-0bf7-410c-a43b-9a47bdceeab4.png)
+![](moodle-zoerr.jpg)
 
 
 #### Ressourcen und Links zum Weiterdenken und Vernetzen 🌐
