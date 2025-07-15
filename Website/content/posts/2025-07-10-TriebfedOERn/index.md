@@ -1,4 +1,60 @@
-Das TriebfedOERn Barcamp war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI) und Forschungsdatenmanagement. Teilnehmende aus verschiedenen Bereichen kamen zusammen, um Herausforderungen zu beleuchten, Best Practices zu teilen und gemeinsame Wege für die Zukunft zu finden.
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: "TriebfedOERn Barcamp: OER, KI und Vernetzung gemeinsam denken"
+description: >-
+  Rückblick auf das TriebfedOERn-Barcamp: Ein inspirierender Tag rund um Open Educational Resources (OER) und Vernetzung der Hochschulen.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/triebfedoern
+creator:
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+image: https://oer.community/triebfedoern/einhorn-sonja-silvia-joerg.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-07-15'
+#staticSiteGenerator:
+author:
+  - Jörg Lohrer
+title: 'TriebfedOERn Barcamp: Impulse für OER, KI und Vernetzung'
+cover:
+  relative: true
+  image: einhorn-sonja-silvia-joerg.jpg
+  caption: "Gruppenbild vom TriebfedOERn Barcamp: Einhorn-Maskottchen mit Sonja, Silvia und Jörg als Symbol für kreative Zusammenarbeit in der OER-Community."
+  alt: "Gruppenbild vom TriebfedOERn Barcamp in Heilbronn: Einhorn-Maskottchen mit Silvia, Sonja und Jörg als Symbol für vernetzte Zusammenarbeit in der OER-Community."
+  hiddenInSingle: true
+summary: |
+  Rückblick auf das TriebfedOERn-Barcamp: Ein inspirierender Tag rund um Open Educational Resources (OER) und Vernetzung der Hochschulen.
+url: triebfedoern
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Barcamp
+  - Vernetzung
+  - Community
+  - FOERBICO in Kontakt
+  - OE_COM
+---
+
+
+Das TriebfedOERn Barcamp war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI), Forschungsdatenmanagement und Vernetzung.
 
 ![](sessionplan-triebfedoern-barcamp.jpg)
 
