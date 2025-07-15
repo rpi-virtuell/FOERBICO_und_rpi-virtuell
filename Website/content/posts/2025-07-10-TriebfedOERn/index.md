@@ -54,7 +54,7 @@ tags:
 ---
 
 
-Das TriebfedOERn Barcamp war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI), Forschungsdatenmanagement und Vernetzung.
+Das [TriebfedOERn-Barcamp](https://www.mosbach.dhbw.de/triebfedoern2/#anchor-main-content) war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI), Forschungsdatenmanagement und Vernetzung.
 
 ![](sessionplan-triebfedoern-barcamp.jpg)
 
@@ -101,7 +101,7 @@ Eine besonders kreative Session war das „Wimmelcamp“, bei dem die Idee eines
 (Kleines chatGPT 4o experiment zum OER-Mixer-Wimmelbild (CC0))
 
 ### Bilanz und Ausblick
-Das TriebfedOERn Barcamp hat gezeigt, dass die **OER-Community lebendig und voller Ideen ist**. Die Diskussionen reichten von grundlegenden ethischen Fragen der KI über praktische Umsetzungshilfen bis hin zu strategischen Überlegungen zur Förderung von Offenheit und Zusammenarbeit in der Bildung. Die Energie und das Engagement der Teilnehmenden stimmen optimistisch für die Weiterentwicklung von OER und OEP und sowohl Ort als auch Tagungsorga ließen keine Wünsche offen. 
+Das TriebfedOERn-Barcamp hat gezeigt, dass die **OER-Community lebendig und voller Ideen ist**. Die Diskussionen reichten von grundlegenden ethischen Fragen der KI über praktische Umsetzungshilfen bis hin zu strategischen Überlegungen zur Förderung von Offenheit und Zusammenarbeit in der Bildung. Die Energie und das Engagement der Teilnehmenden stimmen optimistisch für die Weiterentwicklung von OER und OEP und sowohl Ort als auch Tagungsorga ließen keine Wünsche offen. 
 Vielen herzlichen Dank und: to be continued!
 
 ![](einhorn-sonja-silvia-joerg.jpg)
