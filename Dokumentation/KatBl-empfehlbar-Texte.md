@@ -7,7 +7,7 @@
 | 2   | Grundlagen            | **Was ist eigentlich OER?**                 | Kurzer Einstieg ins Thema: Was sind offene Bildungsmaterialien – und warum sind sie relevant für Kirche, Schule, Gemeinde? | Einführung in OER, mit Link zu Materialien                               | 5/2025         | Anfang September 2025  | Laura          |
 | 3  | Communityporträt      | **Relimentar? reliGlobal?**                | Vorstellung einer engagierten OER-Community?                                     | Sichtbarmachung aktiver Netzwerke in der religiösen Bildung             | 1/2026         | Januar/Februar 2026    | Jörg        |
 | 4   | Praktische Tipps     | **Kleine Brötchen Backen**                | Es bedarf viele kleine Elemente und nicht das große OER Produkt                                     | Um vor Überforderung zu schützen         | ?         | ?   | Phillip      |
-| 5   | Praktische Tipps     | **OER from the Start**                | OER sollte von Anfang an mitgedacht werden, bei Anträgen oder der Lehre                                   | Es ist viel Arbeit zum Abschluss alles als OER zu im nachhinein umzuwandeln         | ?         | ?   |       |
+| 5   | Praktische Tipps     | **OER Beispiele**                | ?                                   | ?         | ?         | ?   |   Ludger & Gina    |
 ```
 
 
