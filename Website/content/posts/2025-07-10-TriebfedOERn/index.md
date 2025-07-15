@@ -1,7 +1,3 @@
-# TriebfedOERn
-
-Ein Rückblick auf das TriebfedOERn Barcamp: Ein Tag voller Impulse für OER, KI und Vernetzung
-
 Das TriebfedOERn Barcamp war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI) und Forschungsdatenmanagement. Teilnehmende aus verschiedenen Bereichen kamen zusammen, um Herausforderungen zu beleuchten, Best Practices zu teilen und gemeinsame Wege für die Zukunft zu finden.
 
 ![](sessionplan-triebfedoern-barcamp.jpg)
