@@ -12,5 +12,5 @@ Ob mit oder ohne umfangreiche technische Ausstattung – die Workshops funktioni
 
 - Crash der Website - Suche nach geeignetem Ort (Repository), das langfrastiges Hosten gewährt und die nachhaltige Nutzung sicherstellen kann. 
 - Qualitätskriterien
-- Probleme bei der Anpassung
+- Probleme bei der Anpassung 
 - Frage der Dissemination
