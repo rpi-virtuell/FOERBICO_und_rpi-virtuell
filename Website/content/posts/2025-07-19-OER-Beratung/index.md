@@ -1,4 +1,14 @@
-# Beratungsprozess bestehender OER-Projekte mit den Qualitätskriterien
+# Beratungsprozess bestehender OER-Projekte mit Hilfe der Qualitätskriterien
+
+Wodurch zeichnen sich eigentlich gute OER aus? Würde man Bildungsmaterialien mit einem Kriterienkatalog begutachten, wäre die Liste sicherlich lang, schließlich spielen viele Faktoren eine wichtige Rolle. 
+Damit OER nicht nur gemäß der [5V-Freiheiten](https://open-educational-resources.de/5rs-auf-deutsch/) verwahrt, verwendet, verarbeitet, vermischt und verbreitet werden können, sondern auch auf pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, braucht es verschiedene Elemente
+
+## Eine Frage der Qualität
+Die Frage nach der Qualität von OER-Materialien ist nicht ganz neu. Zawacki-Richter & Mayrberger haben bereits 2017 einen am internationalen Forschungsstand entwickelten Systematirierungsversuch von OER-Qualtität unternommen und Kriterien eines [Instrumentes zur Qualitätssicherung von OER]() entwickelt. Dieses Modell umspannt Qualitätskriterien in der pädagogisch-didaktischen Dimension und technischen Dimension.  
+
+## Qualitätskriterien aus dem FOERBICO Projekt
+
+Die pädagogisch-didaktische Dimension fokussiert den Inhalt, also die fachwissenschaftliche Fundierung, Zielgruppenorientierung und inhaltliche Wiederverwendbarkeit des Materials. Auch das didaktische Desgin, also wie das Material zur Kollaboration und Interaktion anregt oder wie es Transwer, Assessment und Motivation ermögicht, wird hierbei berücksichtigt.
 
 ## Was ist M@ps?
 
