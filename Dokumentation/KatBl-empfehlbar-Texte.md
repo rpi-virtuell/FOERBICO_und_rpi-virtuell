@@ -17,4 +17,7 @@
 - anfangen / machen / einüben
 - Tipps? "Wo finde ich freie Bilddatenbanken?" "Welche Editoren gibt es?" "Welche Plattformen gibt es?"
 - alle vorherigen Themen wiederholend anreißen/aufgreifen?
-
+---
+## Veranstaltungstipp-Text
+"Ich teile, was ich mache. Also ich, ich, ich teile meine guten Ideen, von denen ich selber davon überzeugt bin, dass sie gut sind und wo es sich lohnt, mir auch die Mühe zu machen, das in einen Raster zu bringen, dass es anderen nützt..." - so beschreibt ein Interviewteilnehmer seine Motivation Open Educational Resources (OER) zu erstellen.
+Bei OER handelt es sich um frei zugängliche Bildungsmaterialien und werden in Bildungskontexten immer bedeutsamer. Nach der Deutschen UNESCO Definition zeichnen sich OER als Bildungsmaterialien aus, welche unter einer offenen Lizenz stehen. Durch OER sollen, so die Erwartung, Chancengerechtigkeit, Inklusion und Bildungsqualität in besonderem Maße gefördert werden. In Deutschland gibt es verschiedene Online-Communities die im religionsbezogenen Bildungsbereich aktiv für OER einsetzen. Wir vom FOERBICO Team (Förderung offener Bildungspraktiken in religionsbezogenen Communities durch die Entwicklung eines koordinierten OER-Ökosystems) haben diese Communities untersucht und stellen auf unserer Tagung *Mit OER zu einer Kultur des Teilens* unsere Forschungsergebnisse vor und wollen gemeinsam Erarbeiten wie OER in verschiedene Bildungskontexten gefördert werden kann. 
