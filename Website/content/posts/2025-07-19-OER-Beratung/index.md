@@ -1,4 +1,57 @@
-# Beratungsprozess bestehender OER-Projekte mit Hilfe der Qualitätskriterien
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/oer-beratung-und-qualitätskriterien
+name: Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@ps
+description: >-
+  Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER aus dem Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Florian
+    familyName: Mayrhofer
+    id: https://orcid.org/0000-0003-1900-3052
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: https://oer.community/oer-beratung-und-qualitätskriterien/check-306411_1280.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2025-07-29'
+#staticSiteGenerator:
+author:
+  - Dr. Laura Mößle
+  - Dr. Florian Mayrhofer
+title: Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@ps
+cover:
+  relative: true
+  image: check-306411_1280.png
+  alt: Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)
+summary: >-
+  Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER aus dem Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
+url: oer-beratung-und-qualitätskriterien
+tags:
+  - Qualitätskriterien
+  - Didaktik
+  - Hochschuldidaktik
+  - Religionspädagogik
+  - Theologie
+  - Medienpädagogik
+  - Open Educational Resources (OER)
+---
+
+# Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@ps
 
 Wodurch zeichnen sich eigentlich gute OER aus? Würde man Bildungsmaterialien mit einem Kriterienkatalog begutachten, wäre die Liste sicherlich lang, schließlich spielen viele Faktoren eine wichtige Rolle. 
 Damit OER nicht nur gemäß der [5V-Freiheiten](https://open-educational-resources.de/5rs-auf-deutsch/) verwahrt, verwendet, verarbeitet, vermischt und verbreitet werden können, sondern auch auf pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, braucht es verschiedene Elemente
@@ -30,6 +83,8 @@ Um die Qualitätskriterien auf ihre Praxistauglichkeit zu testen, wurden sie am 
 # Medienpädagogische OER: Das Projekt M@PS
 
 Im Zuge der hessischen Bildungsinitiative **Löwenstark – Der BildungsKICK** entwickelte die Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt ein innovatives Workshop-Format, das auf die Herausforderungen der digitalen Transformation im schulischen Bildungsbereich antwortet: **M@PS – Medienkompetenz erweitern, Persönlichkeit stärken**. 
+
+![M@ps Logo](MaPS-Logo-17.10-rounded.png)
 
 Vor dem Hintergrund des rasant fortschreitenden technologischen Wandels steht das Bildungssystem zunehmend vor der Aufgabe, Schüler:innen nicht nur technisch zu schulen, sondern sie zu befähigen, ihre digitale Umwelt kritisch zu reflektieren und mündig mitzugestalten.
 
