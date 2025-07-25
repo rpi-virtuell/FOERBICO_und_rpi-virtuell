@@ -18,30 +18,32 @@ keywords:
   - OER
   - OEP
   - OER-Community
-  - Community Forschung
-  - ''
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n086
+  - https://w3id.org/kim/hochschulfaechersystematik/n08
+image: FOERBICO_Tagung_Save_the_Date_neues_Logo.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
+
+#staticSiteGenerator
 author:
   - Phillip Angelina
 cover:
   relative: true
   hiddenInSingle: true
+  image: FOERBICO_Tagung_Save_the_Date_neues_Logo.png
 summary: |
   Ein Informationspost über unsere Tagung im Februar 2026.
 url: save-the-date
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - OER-Community
-  - Community Forschung
+  
 ---
 
 
