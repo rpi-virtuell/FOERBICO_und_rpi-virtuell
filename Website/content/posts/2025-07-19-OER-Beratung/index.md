@@ -78,7 +78,7 @@ So wird im Rahmen des Projekts eine Handreichung entwickelt, die OER-Erstellende
 
 Mit diesen vier Qualitätsdimensionen will FOERBICO einen systematischen Beitrag zur Weiterentwicklung der OER-Qualität in der religionspädagogischen Schul- und Hochschulbildung leisten. Die Qualitätskriterien werden derzeit erneut überarbeitet und dann ebenfalls als OER zugänglich gemacht. 
 
-Um die Qualitätskriterien auf ihre Praxistauglichkeit zu testen, wurden sie am medienpädagogischen OER-Materialien des M@ps-Projekts erprobt. 
+Um die Qualitätskriterien auf ihre Praxistauglichkeit zu testen, wurden sie am medienpädagogischen OER-Materialien des M@PS-Projekts erprobt. 
 
 # OER zu Medienkompetenz: Das Projekt M@PS
 
@@ -115,3 +115,6 @@ In einem nächsten Schritt wird ein Fokus auf der breiten Dissemination der M@PS
 Geplant ist die Veröffentlichung auf Plattformen wie [OERSI](https://oersi.org/) und [rpi-virtuell](https://material.rpi-virtuell.de). 
 Auf diese Weise können die Materialien für schulische oder außerschulische Bildungszwecke aufgefunden werden und zur Nachnutzung und Adaption in verschiedene Kontexte bereitstehen. 
 Die Erfahrungen aus dem Projekt M@PS verdeutlichen, dass OER sowohl leicht umsetzbare technische Lösungen als auch eine pädagogisch-didaktische Reflexion benötigen, so dass sie eine verlässliche Qualität und offene Strukturen der Zusammenarbeit ermöglichen.
+
+# Praxistauglichkeit der Qualitätskriterien
+Wie sind wir vorgegangen? Wie lange hat es gedauert? Wie viele Nacharbeiten waren notwendig? Was lernen wir für die Qualitätskriterien?
