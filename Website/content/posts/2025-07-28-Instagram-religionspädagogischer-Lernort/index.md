@@ -1,11 +1,58 @@
-
-# Instagram als religionspädagogischer Lernort
+---
+#commonMetadata:
+'@context': https://schema.org/
+'@type': LearningResource
+creativeWorkStatus: Published
+name: Instagram als religionspädagogischer Lernort
+description: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/instagram-als-lernort
+creator:
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - OER
+  - OEP
+  - OER-Community
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n08
+image: 
+learningResourceType:
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-07-28'
+#staticSiteGenerator
+author:
+  - Corinna Ullmann
+title: 'Instagram als religionspädagogischer Lernort'
+cover:
+  relative: true
+  hiddenInSingle: true
+  image: 
+summary: |
+  Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+url: instagram-als-lernort
+tags:
+  - Lernorte
+  - Instagram
+  - Open Educational Practices (OEP)
+  - Religionspädagogik
+---
 
 ## Einblicke in den Account @nt.evangelisch_tudortmund und seine Bedeutung für eine zeitgemäße Religionspädagogik
 
 **1. Scrollen mit Sinn: Religion auf Instagram**
 
-„Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“ . Der Lehrstuhl für Neues Testament am Institut für Evangelische Theologie wagt genau das: Lara Gotthard ist auf Instagram aktiv, unter dem Handle @nt.evangelisch_tudortmund. Der Account zeigt: Religiöse Kommunikation findet längst auch in digitalen Räumen statt – ästhetisch, persönlich und lebensnah.
+„Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“ . Der [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie](https://eth.ht.tu-dortmund.de/professuren/neues-testament/) wagt genau das: Lara Gotthard ist auf Instagram aktiv, unter dem Handle @nt.evangelisch_tudortmund. Der Account zeigt: Religiöse Kommunikation findet längst auch in digitalen Räumen statt – ästhetisch, persönlich und lebensnah.
 
 Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räume lernförderlich gestaltet und reflektiert werden?
 
