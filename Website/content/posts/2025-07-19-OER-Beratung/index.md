@@ -25,21 +25,30 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
 image: https://oer.community/oer-beratung-und-qualitätskriterien/check-306411_1280.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-07-29'
+datePublished: '2025-07-31'
 #staticSiteGenerator:
 author:
   - Dr. Laura Mößle
   - Dr. Florian Mayrhofer
+  - Prof. Dr. Viera Pirker
 title: Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@PS
 cover:
   relative: true
   image: check-306411_1280.png
   alt: Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)
 summary: >-
-  Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER aus dem Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
+  Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER im Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
 url: oer-beratung-und-qualitätskriterien
 tags:
   - Qualitätskriterien
@@ -59,14 +68,13 @@ Wodurch zeichnen sich gute OER aus? Wie lassen sich Bildungsmaterialien mit eine
 
 Die Diskussion um die Qualität von OER ist keineswegs neu, sondern eine zentrale Herausforderung für ihre nachhaltige Integration in Schule und Hochschullehre. Nach wie vor zählt die Sorge um mangelnde Qualität zu den Hauptgründen, warum Lehrende OER nur zögerlich oder gar nicht nutzen ([Pirker & Pirner, 2025](https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51/113)). Gerade aufgrund ihrer offenen, kollaborativen Entstehung und Nutzung bedarf es spezifischer Konzepte zur Qualitätssicherung, um OER langfristig als integralen Bestandteil bildungspolitischer Strategien zu verankern ([Zawacki-Richter & Mayrberger, 2017](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaet-von-oer-2017.pdf)).
 
-Zudem bleibt die Akzeptanz von OER trotz eines stetig wachsenden Angebots noch begrenzt, nicht zuletzt, weil Nutzer:innen Schwierigkeiten haben, verlässliche, aktuelle, qualitativ hochwertige und rechtlich sichere Materialien zu finden. Zur systematischen Bewertung schlagen [Blees et al. (2016)](https://www.pedocs.de/volltexte/2016/11715/pdf/OER_Machbarkeitsstudie_Bericht.pdf) drei zentrale Qualitätsdimensionen vor: (1) inhaltliche und sachliche Richtigkeit, (2) rechtliche Absicherung im Sinne korrekt vergebener Lizenzen sowie (3) die Einhaltung technischer Standards. Diese können durch verschiedene Formen der Qualitätssicherung überprüft werden, beispielsweise durch institutionelle Akteure, redaktionelle Begutachtung, Peer-Review-Verfahren oder durch die Community selbst.
-
+Zudem bleibt die Akzeptanz von OER trotz eines stetig wachsenden Angebots noch begrenzt, nicht zuletzt, weil Nutzer:innen Schwierigkeiten haben, verlässliche, aktuelle, qualitativ hochwertige und rechtlich sichere Materialien zu finden. Zur systematischen Bewertung schlagen [Blees et al. (2016)](https://www.pedocs.de/volltexte/2016/11715/pdf/OER_Machbarkeitsstudie_Bericht.pdf) drei zentrale Qualitätsdimensionen vor: (1) inhaltliche und sachliche Richtigkeit, (2) rechtliche Absicherung im Sinne korrekt vergebener Lizenzen sowie (3) die Einhaltung technischer Standards. Diese können durch verschiedene Formen der Qualitätssicherung überprüft werden, bspw. durch institutionelle Akteure, redaktionelle Begutachtung, Peer-Review-Verfahren oder durch die Community selbst.
 
 ## Qualitätsdimensionen im FOERBICO-Projekt: Verschränkung von Offenheit & Qualität
 
 Hochschulen entwickeln zunehmend OER-Strategien und -Policies, doch bedarf es neben der strategischen Verankerung auch einer stabilen technischen Infrastruktur und fachlicher Qualitätskritierien, um OER verlässlich anzubieten und in die Breite zu streuen ([Kopp et al., 2021](https://www.pedocs.de/volltexte/2023/26636/pdf/MidW_78_Kopp_et_al_Strategische_Verankerung.pdf)). Dies gilt auch für die wissenschaftliche Religionspädagogik: Die Qualität von OER wirkt entscheidend für deren Akzeptanz und nachhaltige Verbreitung. 
 
-Hier greift das im Projekt **FOERBICO** verfolgte Ziel, differenzierte Qualitätskriterien für OER im Schulfach Religion, in religionspädagogischen Bildungszusammenhängen und religionspädagogischer Hochschullehre zu entwickeln. Ausgangspunkt für diese Entwicklung bildet eine Analyse bestehender Qualitätssicherungsprozesse in einschlägigen Communitys <!--im Deutschen wird Community nur mit s im Plural geschrieben, nicht in der englischen Form Communities -->, die mit dem aktuellen wissenschaftlichen Diskurs abgeglichen, weiterentwickelt und mit Expert:innen disktutiert wurden. Im Zentrum steht dabei eine Vertiefung der fachlich spezifischen, also pädagogisch-didaktischen und religionspädagogischen Dimension von Qualität.
+Hier greift das im Projekt **FOERBICO** verfolgte Ziel, differenzierte Qualitätskriterien für OER im Schulfach Religion, in religionspädagogischen Bildungszusammenhängen und religionspädagogischer Hochschullehre zu entwickeln. Ausgangspunkt für diese Entwicklung bildet eine Analyse bestehender Qualitätssicherungsprozesse in einschlägigen Communitys, die mit dem aktuellen wissenschaftlichen Diskurs abgeglichen, weiterentwickelt und mit Expert:innen disktutiert wurden. Im Zentrum steht dabei eine Vertiefung der fachlich spezifischen, also pädagogisch-didaktischen und religionspädagogischen Dimension von Qualität.
 
 So wird im Rahmen des Projekts eine Handreichung entwickelt, die OER-Erstellende mit Blick auf folgende Qualitätsdimensionen unterstützen soll: 
 
@@ -97,15 +105,15 @@ Die Workshops funktionieren mit oder ohne umfangreiche technische Ausstattung. S
 Bei umfassend positiver Resonanz stieß das Projekt M@PS bei der Publikation auch auf einige Herausforderungen. Diese Fallstricke zur Veröffentlichung und nachhaltigen Bereitstellung von OER-Materialien werden hier dargestellt: Andere Materialentwickler:innen können daraus lernen.
 
 ### Grafiken
-Zur Erstellung von Materialien wurden zu Beginn proprietäre Plattformen genutzt, beispielswesie für Grafiken die Plattform Canva: Sie kann in Bildungszusammenhängen genutzt werden, doch die Grafiken sind nicht für OER lizenzierbar. Hier waren [Workarounds und Nacharbeiten](https://oer.community/canva/) notwendig.
+Zur Erstellung von Materialien wurden zu Beginn proprietäre Plattformen genutzt, bspw. für Grafiken die Plattform Canva: Sie kann in Bildungszusammenhängen genutzt werden, doch die Grafiken sind nicht für OER lizenzierbar. Hier waren [Workarounds und Nacharbeiten](https://oer.community/canva/) notwendig.
 
 ### Bereitstellung und Hosting
-Zunächst wurden die Materialien auf einer WordPress-Seite veröffentlicht, um besonders leichte Zugänglichkeit zu ermöglichen. Doch ein Hackerangriff beschädigte die Webseite und die darauf veröffentlichten Materialien. Daran wird deutlich, wie wichtig es ist, OER nicht nur rechtlich sauber, sondern auch technisch resilient und langfristig zugänglich zu hosten. Die Suche nach einer tragfähigen Lösung führte schließlich zur Moodle-Connect-Plattform von **„studiumdigitale“** der Goethe-Universität. Diese gewährleistet einen stabilen Zugang, sowie eine barrierearme und anpassbare Nutzung - die Gestaltungsmöglichkeiten sind im Vergleich zu WordPress jedoch eingeschränkt. Aus diesem Grund waren umfassende Nacharbeiten notwendig, da es sich bei Moodle-Connect um ein Lern-Management-System handelt, das nach anderen Logiken als Webseiten funktioniert. 
+Zunächst wurden die Materialien auf einer WordPress-Seite veröffentlicht, um besonders leichte Zugänglichkeit zu ermöglichen. Doch ein Hackerangriff beschädigte die Webseite und die darauf veröffentlichten Materialien. Daran wird deutlich, wie wichtig es ist, OER nicht nur rechtlich sauber, sondern auch technisch resilient und langfristig zugänglich zu hosten. Die Suche nach einer tragfähigen Lösung führte schließlich zur Moodle-Connect-Plattform von **„studiumdigitale“** der Goethe-Universität. Diese gewährleistet einen stabilen Zugang, sowie eine barrierearme und anpassbare Nutzung, allerdings sind die Gestaltungsmöglichkeiten im Vergleich zu WordPress eingeschränkt. Da es sich bei Moodle-Connect um ein Lern-Management-System handelt, das nach anderen Logiken als Webseiten funktioniert, waren umfassende Nacharbeiten notwendig.
 
 ### Qualitätsüberprüfung
 Im Zuge der Umstellung auf Moodle-Connect wurden die Materialien mit Hilfe der im **FOERBICO-Projekt** entwickelten OER-Qualitätskriterien geprüft. 
 Anhand der Checkliste wurden zunächst die *rechtlichen Qualitätskriterien* besprochen. Diese umfassen bspw. die Frage, ob das Material ausgewählte CC-Lizenz ausweist und die externe Inhalte korrekt gekennzeichnet wurden. Anhand der *technischen Qualitätskriterien* kann z.B. geprüft werden, ob die Materialien in offenen und verbreiteten Dateiformaten bereitgestellt wurden, die verwendeten Tools auch langfrisitig nutzbar sind und das Material bspw. Alternativtexte für Bilder und visuelle Inhalte bereitstellt. Die *pädagogisch-didaktische Qualität* konnte u.a. auf die fachwissenschaftliche Fundierung, die inhaltliche Wiederverwendbarkeit und die Möglichkeiten zur Interaktion und Kollaboration unter den Lernenden hin geprüft werden. Da die Materialien einen medienpädagogische Ausrichtung haben, kamen die *religionspädagogischen Qualitätskriterien* bei M@PS nicht zum Zuge. Die Materialien wurden nach dem Feedback auf die Qualitätsdimensionen noch einmal überarbeitet und stehen nun [hier](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57) zur freien Verfügung. 
-Die Kriterien erwiesen sich als eine hilfreiche und praxisnahe Checkliste zur Überprüfung dieser Qualitätsdimensionen.
+Die Kriterien erwiesen sich als eine hilfreiche und praxisnahe Checkliste zur Überprüfung dieser Qualitätsdimensionen. Insgesamt wurde deutlich, dass der Kriterienkatalog noch lang ist und an einigen Stellen gestrafft werden kann. Das Feedback aus dem Beratungsgespräch fließt nun in den Überarbeitungsprozess der Qualitätskriterien ein. 
 
 ## Dissemination und Perspektiven: M@PS als Beitrag zur OER-Community
 In einem nächsten Schritt wird ein Fokus auf der breiten Dissemination der M@PS-Materialien liegen. Ziel ist es, die entwickelten Inhalte über einschlägige OER-Repositorien strukturiert auffindbar und langfristig für den schulischen und außerschulischen Gebrauch nutzbar zu machen.
@@ -114,5 +122,4 @@ Geplant ist die Veröffentlichung auf Plattformen wie [OERSI](https://oersi.org/
 Auf diese Weise können die Materialien für schulische oder außerschulische Bildungszwecke aufgefunden werden und stehen zur Nachnutzung und Adaption in verschiedene Kontexte bereit. Zudem wird überlegt, den Moodle-Connect-Kurs als MBZ-Datei zur Verfügung zu stellen. Auf diese Weise können andere den Kurs auch in ihre eigenen Moodle-Instanzen einbinden. 
 
 # Zur Praxistauglichkeit der Qualitätskriterien
-Die Erfahrungen aus dem Projekt M@PS verdeutlichen, dass OER sowohl leicht umsetzbare technische Lösungen als auch eine pädagogisch-didaktische Reflexion benötigen, damit sie eine verlässliche Qualität und offene Strukturen der Zusammenarbeit ermöglichen. In der Erprobung der Qualitätskriterien zeigte sich  einerseits, dass die Qualitätskriterien einen guten roten Faden bieten, welche Ersteller:innen von OER-Materialien der Reihe nach abarbeiten können. Das Material aus dem Projekt M@PS war hierbei bereits in weiten Teilen hervorragend aufbereitet, sodass z.B. bei den *rechtlichen Aspekten* nur noch Kleinigkeiten nachgebessert werden mussten. Eine Überprüfung des Materials anhand der Kriterien dauerte in diesem Fall zunächst nur ca. eineinhalb Stunden. Die Nachbesserungen des Materials selbst erwiesen sich dann schon als etwas aufwändiger und bedurften weiterer Arbeitsschritte, die insgesamt etwa eine Woche Arbeitszeit in Anspruch nahmen. Vor allem viele kleine Details (z.B. die Konvertierung der PDF-Dateien in offene Textformate, die aufgrund der Neukonzeption der Plattform notwendig wurde) stellten in der Summe doch einen größeren Aufwand dar, als zunächst erhofft.
-Das M@PS-Projekt zeigt daher, wie sinnvoll und hilfreich die Liste der OER-Qualitätskriteiren in der Praxis ist; dennoch führte es vor Augen, dass die Überarbeitung bestehender Materialien aufwändiger ist, als wenn das Material direkt entlang der Kriterien konzipiert wird. Es ist daher auf alle Fälle sinnvoll, sich zu einem frühen Zeitpunkt genau zu überlegen, wie selbst erstellte Materialien bereit gestellt werden sollen. Dementsprechend sollte dann auch der gesamte Arbeitsprozess angelegt sein.
+Die Erfahrungen aus dem Projekt M@PS verdeutlichen, dass OER sowohl leicht umsetzbare technische Lösungen als auch eine pädagogisch-didaktische Reflexion benötigen, damit sie eine verlässliche Qualität und offene Strukturen der Zusammenarbeit ermöglichen. Die Erfahrungen aus der Beratung zeigen, wie hilfreich die Handreichung zu den OER-Qualitätskriterien ist, um strukuriert verschiedene Qualitätsdimensionen in den Blick zu nehmen. Das M@PS-Material war bereits weitgehend OER-konform aufbereitet, sodass nur geringfügige Anpassungen erforderlich waren. Die erste Durchsicht anhand der Qualitätskriterien dauerte etwa eineinhalb Stunden. Die anschließenden Überarbeitungen, bei denen vor allem technische Detailarbeiten wie die Umwandlung von PDF-Dateien in offene Formate erforderlich waren, erforderten zwar zusätzlichen Aufwand, blieben jedoch insgesamt überschaubar. Der geringe Nachbesserungsbedarf macht deutlich: Werden OER-Materialien direkt entlang der Qualitätskriterien entwickelt, reduziert sich der spätere Aufwand erheblich. Es ist daher sinnvoll, bereits frühzeitig zu planen, wie Materialien bereitgestellt und veröffentlicht werden sollen.
