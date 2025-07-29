@@ -42,7 +42,6 @@ summary: |
   Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: instagram-als-lernort
 tags:
-  - Lernorte
   - Instagram
   - Open Educational Practices (OEP)
   - Religionspädagogik
@@ -52,13 +51,17 @@ tags:
 
 **1. Scrollen mit Sinn: Religion auf Instagram**
 
-„Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“ . Der [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie](https://eth.ht.tu-dortmund.de/professuren/neues-testament/) wagt genau das: Lara Gotthard ist auf Instagram aktiv, unter dem Handle @nt.evangelisch_tudortmund. Der Account zeigt: Religiöse Kommunikation findet längst auch in digitalen Räumen statt – ästhetisch, persönlich und lebensnah.
+„Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“ . Der [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie](https://eth.ht.tu-dortmund.de/professuren/neues-testament/) wagt genau das: Lara Gotthard ist auf Instagram aktiv, unter dem Handle [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/). Der Account zeigt: Religiöse Kommunikation findet längst auch in digitalen Räumen statt – ästhetisch, persönlich und lebensnah.
 
 Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räume lernförderlich gestaltet und reflektiert werden?
 
 **2. Was zeigt der Account? – Einblicke in die Inhalte**
 
-Der Instagram-Kanal der evangelischen Fachrichtung „Neues Testament“ (NT) an der TU Dortmund verbindet spannende News über aktuelle Forschung, Einblicke in das Theologiestudium und aufbereitete Bibelstellen lehrplanbezogener religionspädagogischer Themen
+Der Instagram-Kanal der evangelischen Fachrichtung „Neues Testament“ (NT) an der TU Dortmund verbindet spannende News über aktuelle Forschung, Einblicke in das Theologiestudium und aufbereitete Bibelstellen lehrplanbezogener religionspädagogischer Themen - hier ein Beispiel:
+
+![]()
+![]()
+![]()
 
 Bilder und Sprache wirken bewusst niedrigschwellig, gleichzeitig ist die Botschaft klar: Das Evangelium ist anschlussfähig – auch heute. Jedes Visual bringt die Themen auf den Punkt und leitet an, wie es mit Lernenden bearbeitet werden kann.
 
