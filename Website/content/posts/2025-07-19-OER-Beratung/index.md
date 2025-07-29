@@ -118,7 +118,7 @@ Die Kriterien erwiesen sich als eine hilfreiche und praxisnahe Checkliste zur Ü
 ## Dissemination und Perspektiven: M@PS als Beitrag zur OER-Community
 In einem nächsten Schritt wird ein Fokus auf der breiten Dissemination der M@PS-Materialien liegen. Ziel ist es, die entwickelten Inhalte über einschlägige OER-Repositorien strukturiert auffindbar und langfristig für den schulischen und außerschulischen Gebrauch nutzbar zu machen.
 
-Geplant ist die Veröffentlichung auf Plattformen wie [OERSI](https://oersi.org/) und [rpi-virtuell](https://material.rpi-virtuell.de). 
+Geplant ist die Veröffentlichung auf [OERSI](https://oersi.org/), auf [rpi-virtuell](https://material.rpi-virtuell.de) ist das [Material](https://material.rpi-virtuell.de/material/medienkompetenz-erweitern-persoenlichkeit-staerken/) bereits eingestellt. 
 Auf diese Weise können die Materialien für schulische oder außerschulische Bildungszwecke aufgefunden werden und stehen zur Nachnutzung und Adaption in verschiedene Kontexte bereit. Zudem wird überlegt, den Moodle-Connect-Kurs als MBZ-Datei zur Verfügung zu stellen. Auf diese Weise können andere den Kurs auch in ihre eigenen Moodle-Instanzen einbinden. 
 
 
