@@ -94,6 +94,8 @@ Der Account bietet vielfältige Anlässe für die Praxis:
 Der Account @nt.evangelisch_tudortmund zeigt beispielhaft, wie Theologie digital sichtbar wird – niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
 
 *Glauben reflektieren, statt nur zu konsumieren*
+
 *Digitale Räume als spirituelle Lernorte begreifen*
+
 *Theologie in Echtzeit mit Leben füllen*
 
