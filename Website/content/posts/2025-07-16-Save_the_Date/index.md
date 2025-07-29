@@ -82,3 +82,5 @@ Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fr
 Anmeldemöglichkeit und Programm werden Anfang September auf dieser Website veröffentlicht.
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
+
+![](FOERBICO_Tagung_Save_the_Date_neues_Logo.png)
