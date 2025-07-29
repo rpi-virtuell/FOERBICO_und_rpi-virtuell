@@ -59,9 +59,9 @@ Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räum
 
 Der Instagram-Kanal der evangelischen Fachrichtung „Neues Testament“ (NT) an der TU Dortmund verbindet spannende News über aktuelle Forschung, Einblicke in das Theologiestudium und aufbereitete Bibelstellen lehrplanbezogener religionspädagogischer Themen - hier ein Beispiel:
 
-![]()
-![]()
-![]()
+![](ima_2648be8.jpeg)
+![](ima_a6fc6d5.jpeg)
+![](ima_eb6a938.jpeg)
 
 Bilder und Sprache wirken bewusst niedrigschwellig, gleichzeitig ist die Botschaft klar: Das Evangelium ist anschlussfähig – auch heute. Jedes Visual bringt die Themen auf den Punkt und leitet an, wie es mit Lernenden bearbeitet werden kann.
 
