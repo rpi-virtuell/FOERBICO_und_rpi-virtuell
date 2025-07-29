@@ -46,7 +46,7 @@ title: 'Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@PS'
 cover:
   relative: true
   image: check-306411_1280.png
-  alt: Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)
+  alt: 'Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)'
 summary: >-
   Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER im Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
 url: oer-beratung-und-qualitätskriterien
