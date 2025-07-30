@@ -1,9 +1,5 @@
 # Die Kraft der Gemeinschaft: Von der prozessualen Kontinuität des Ise-Schreins zur dezentralen Architektur offener Bildungssysteme
 
-WiP: https://pad.gwdg.de/44hzBJVFRUu1WXs-hXgXKQ?both#
-
-![](https://pad.gwdg.de/uploads/f744cda4-eaa1-4c5a-bd7a-4175560984a9.png)
-
 Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle funktionieren. Dabei zeigt sich, dass sich die Robustheit eines Systems nicht primär in der Stabilität seiner physischen oder institutionellen Struktur manifestiert, sondern in der Kontinuität und Adaptivität seiner zugrundeliegenden Prozesse. 
 Wenn wir durch eine Hub-Entwicklung, die Bildungscommunities dabei unterstützen wollen, dass ihre OEP (Open Educational Practice)-Prozesse "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir dazu eine Technik, die die zyklischen Erneuerungsprozesse der Communities unterstützt.
 Welche Prinzipien dabei zum Tragen kommen könnten, zeigt nachfolgend die exemplarische Veranschaulichung des spirituellen und architektonischen Erbes des Großen Schreins von Ise sowie das dynamische Ökosystem moderner Open-Source-Initiativen. Beide bilden einen Ausblick auf eine zukünftig potenziell offene Bildungsinfrastruktur in Deutschland.
@@ -25,9 +21,9 @@ Die entscheidende Frage zur Prognose der Langlebigkeit eines Systems ist daher n
 
 ## Nostr als Infrastruktur für eine offene Bildungszukunft
 
-[Steffen Rörtgen zeigt in seinem Blogbeitrag: Just calling it Open is not enough](https://blossom.edufeed.org/) auf, wo es heute architektonisch bei den Bildungsplattformen bislang noch hakt und wie gelingende Prozesse einer offenen Bildungsinfrastruktur angebahnt werden könnten:
+[Steffen Rörtgen zeigt in seinem Blogbeitrag: Just calling it Open is not enough](https://habla.news/u/laoc42@getalby.com/h-k72fOoZmf_SOC3cUpqc) auf, wo es heute architektonisch bei den Bildungsplattformen bislang noch hakt und wie gelingende Prozesse einer offenen Bildungsinfrastruktur angebahnt werden könnten:
 
-- **Fragmentierung und Silos:** OER-Materialien werden oft in abgeschlossenen Plattformen gehalten, die Zusammenarbeit und Auffindbarkeit erschweren.
+- **Fragmentierung und Silos:** OER-Materialien (Open Educational Resources) werden oft in abgeschlossenen Plattformen gehalten, die Zusammenarbeit und Auffindbarkeit erschweren.
 - **Zentralisierte Kuration und Metadaten:** Listen, Sammlungen und Annotationsprozesse sind selten interoperabel oder kollaborativ.
 - **Doppelte Arbeit und ineffiziente Suche:** Inhalte werden mehrfach indexiert, Crawler (= automatisierte Programme oder Bots, die Websites systematisch durchsuchen und deren Inhalte indizieren) müssen für jede Plattform separat entwickelt werden, kleine Akteure bleiben außen vor.
 - **Fehlende plattformübergreifende Kollaboration:** Technische Lösungen für offene, gemeinschaftliche Qualitätsprozesse fehlen.
@@ -54,7 +50,7 @@ Die Frage ist also nicht, *ob*, sondern *wie* es uns gelingt in offenen Ökosyst
 Dies gemeinsam und miteinander zu erproben und zu gestalten, dazu laden wir ein - dezentral, datenschutzkonform, demokratisch:
 - In der Matrix
     - Im [Space OERcommunity](https://matrix.to/#/#oercommunity:rpi-virtuell.de) mit vielen offenen Räumen in der Übersicht (z.B. [OER-Rechtsfragen](https://matrix.to/#/#oer-rechtsfragen:rpi-virtuell.de), [OER + KI](https://matrix.to/#/#oer-ki:rpi-virtuell.de), oder auch ["OER ist blöd (?)"](https://matrix.to/#/#oer-ki:rpi-virtuell.de)
-    - vor allem [in den Raum "OERTR"](https://matrix.to/#/#OERTR:rpi-virtuell.de) (OER transmitted over Relays), wo OER & NOSTR zusammengedacht werden
+    - vor allem [in den Raum "edufeed"](https://matrix.to/#/#edufeed:rpi-virtuell.de), wo OER & NOSTR zusammengedacht wird
 - auf Nostr
     - [hier eine Starthilfe zur Profilerstellung](https://nstart.me/de?an=Primal&am=light&aa=203a8f&asb=yes&s=npub1k85m3haymj3ggjknfrxm5kwtf5umaze4nyghnp29a80lcpmg2k2q54v05a)
     - Hier ein paar Accounts z.B. von [Jörg](https://njump.me/npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9) oder [Steffen](https://njump.me/npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma)
@@ -66,5 +62,5 @@ Dies gemeinsam und miteinander zu erproben und zu gestalten, dazu laden wir ein 
 
 **Quellen & Inspirationen für diesen Beitrag:**
 - [Clay Shirky: Love, Internet Style](https://www.youtube.com/watch?v=Xe1TZaElTAs)
-- [Steffen Rörtgen: Just calling it Open is not enough](https://blossom.edufeed.org/)
+- [Steffen Rörtgen: Just calling it Open is not enough](https://habla.news/u/laoc42@getalby.com/h-k72fOoZmf_SOC3cUpqc)
 - [Ise-Schrein – Japanliebe](https://japanliebe.de/alltaegliches/ise-jingu-schrein-neubau-alle-20-jahre/)
