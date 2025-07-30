@@ -1,4 +1,4 @@
-# fOERbico
+# FOERBICO und rpi-virtuell
 Förderung offener Bildungspraktiken in religionsbezogenen Communities durch die Entwicklung eines koordinierten OER-Ökosystems (FOERBICO)
 
 
