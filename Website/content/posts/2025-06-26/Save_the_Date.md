@@ -1,12 +1,10 @@
 ---
-#commonMetadata:
 '@context': https://schema.org/
 '@type': LearningResource
-creativeWorkStatus: Published
-name: 'Save the Date: „Mit OER zu einer Kultur des Teilens“'
+creativeWorkStatus: Draft
+name: Save the Date
 description: Ein Informationspost über unsere Tagung im Februar 2026
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/save-the-date
 creator:
   - givenName: Phillip
     familyName: Angelina
@@ -20,34 +18,34 @@ keywords:
   - OER
   - OEP
   - OER-Community
+  - Community Forschung
+  - ''
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: FOERBICO_Tagung_Save_the_Date_neues_Logo.png
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-07-25'
-#staticSiteGenerator
 author:
   - Phillip Angelina
-title: 'Save the Date: „Mit OER zu einer Kultur des Teilens“'
 cover:
   relative: true
   hiddenInSingle: true
-  image: FOERBICO_Tagung_Save_the_Date_neues_Logo.png
 summary: |
   Ein Informationspost über unsere Tagung im Februar 2026.
 url: save-the-date
 tags:
-  - Open Educational Resources (OER)
-  - Open Educational Practices (OEP)
+  - OER
+  - OEP
   - OER-Community
+  - Community Forschung
 ---
 
+
+# Save the Date: „Mit OER zu einer Kultur des Teilens“
 ## Tagung am 24.–25. Februar 2026 in Nürnberg
 
 Die Bekanntheit von OER nimmt in den letzten Jahren langsam zu und entwächst der Nische, dennoch bleiben viele Fragen offen: Wie arbeiten OER-Communities eigentlich zusammen? Wie entstehen Materialien wirklich kollaborativ? Welche Strukturen, Motivationen und Herausforderungen prägen das gemeinsame Arbeiten? Und wie kann eine Kultur des Teilens konkret gelebt werden? Diesen Fragen widmet sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg  – mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten.
@@ -82,5 +80,3 @@ Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fr
 Anmeldemöglichkeit und Programm werden Anfang September auf dieser Website veröffentlicht.
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
-
-![](FOERBICO_Tagung_Save_the_Date_neues_Logo.png)
