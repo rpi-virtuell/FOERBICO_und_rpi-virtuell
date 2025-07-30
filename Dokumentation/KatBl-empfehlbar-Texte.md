@@ -34,7 +34,7 @@ Offene Bildungsmaterialien (OER) sind mehr als frei verfügbare Arbeitsblätter 
 
 Gerade in Schule und Gemeinde, wo Bildungsarbeit oft unter knappen Bedingungen, aber mit großem Engagement geschieht, eröffnen OER neue Spielräume: Sie entlasten, vernetzen und ermöglichen Adaption an schulische oder außerschulische Bildungorte.  
 
-OER-Materialien für den Religionsunterricht und gemeindepädagogische Praxis finden sich auf [rpi-virtuell.org](https://rpi-virtuell.org). Dort ist auch seit kurzem das Projekt **M@PS – Medienkompetenz erweitern, Persönlichkeit stärken** zu finden. Entwickelt an der Goethe-Universität Frankfurt im Rahmen der Initiative *Löwenstark*, zielt es auf die Stärkung der Urteilskraft Jugendlicher im digitalen Raum.  
+OER-Materialien für den Religionsunterricht und gemeindepädagogische Praxis finden sich auf [rpi-virtuell](https://rpi-virtuell.de/). Dort ist auch seit kurzem das Projekt **M@PS – Medienkompetenz erweitern, Persönlichkeit stärken** zu finden. Entwickelt an der Goethe-Universität Frankfurt im Rahmen der Initiative *Löwenstark*, zielt es auf die Stärkung der Urteilskraft Jugendlicher im digitalen Raum.  
 
 Die Workshops stehen zur freien Nutzung und Anpassung bereit:  
 **[M@PS-Workshops als OER (Gastzugang)](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57)**
