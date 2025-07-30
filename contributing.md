@@ -22,7 +22,7 @@ Bitte beachte bei deinen Beiträgen die folgenden Richtlinien:
 
 ## Wie kann ich loslegen?
 
-1. Durchsuche unsere [Issues](https://codeberg.org/Comenius-Institut/fOERbico/issues), um zu sehen, wo wir Unterstützung benötigen.
+1. Durchsuche unsere [Issues](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/issues), um zu sehen, wo wir Unterstützung benötigen.
 2. Erstelle ein neues Issue, um deine Idee vorzustellen oder um Feedback zu einem bestehenden Beitrag zu erhalten.
 3. Sende einen Pull Request mit deinen Änderungen, sobald du fertig bist.
 
