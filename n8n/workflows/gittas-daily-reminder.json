@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "mode": "everyWeek",
+              "hour": 12,
+              "minute": 14,
+              "weekday": "2"
+            },
+            {
+              "mode": "everyWeek",
+              "hour": 12,
+              "minute": 14,
+              "weekday": "3"
+            },
+            {
+              "mode": "everyWeek",
+              "hour": 12,
+              "minute": 14,
+              "weekday": "4"
+            },
+            {
+              "mode": "everyWeek",
+              "hour": 12,
+              "minute": 14,
+              "weekday": "5"
+            }
+          ]
+        }
+      },
+      "name": "Gittas Daily von Di-Fr um 12:14 Uhr",
+      "type": "n8n-nodes-base.cron",
+      "position": [
+        260,
+        640
+      ],
+      "typeVersion": 1,
+      "id": "92edb5ae-1697-4938-bf00-1de83561f273",
+      "notesInFlow": true,
+      "notes": "Wöchentlich an Di, Mi, Do, Fr um 12:14 Uhr "
+    },
+    {
+      "parameters": {
+        "roomId": "!giiGDQftOiFGmrrOiT:rpi-virtuell.de",
+        "text": "={{ $json.message.content }} | <a href=\"https://comenius.de/zoom\">Zoom-Link</a>",
+        "messageFormat": "org.matrix.custom.html"
+      },
+      "name": " 👋 Gitta lädt zum Daily in's Zoom!",
+      "type": "n8n-nodes-base.matrix",
+      "position": [
+        780,
+        640
+      ],
+      "typeVersion": 1,
+      "id": "699c82df-31be-4fd7-bc69-bf14bdefd370",
+      "alwaysOutputData": false,
+      "credentials": {
+        "matrixApi": {
+          "id": "jbNtlnoAsWVC8vUN",
+          "name": "Matrix account"
+        }
+      },
+      "notes": "erstelle eine Nachricht"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "Lade alle zum täglichen Daily mit einer freundlichen Aufforderung und motivierendem Motto zum gemeinsamen Zoom-Meeting ein und gib mir die Nachricht aus. Das Zoom-Meeting ist jetzt! und deine Zeichenzahl soll auf 90 beschärnkt sein."
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        460,
+        640
+      ],
+      "id": "5ce186d7-219c-4e04-981f-41891b9f3311",
+      "name": "OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "LfkaiSQbKzSvfcEi",
+          "name": "OpenAi account 3"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Gittas Daily von Di-Fr um 12:14 Uhr": {
+      "main": [
+        [
+          {
+            "node": "OpenAI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    " 👋 Gitta lädt zum Daily in's Zoom!": {
+      "main": [
+        []
+      ]
+    },
+    "OpenAI": {
+      "main": [
+        [
+          {
+            "node": " 👋 Gitta lädt zum Daily in's Zoom!",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "634e789e9cac462123b2b4acaedfe20e105965d27f018a60d1d4305ae72b1acb"
+  }
+}
