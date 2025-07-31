@@ -24,7 +24,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: 
+image: ima_22a17d4.jpeg 
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -37,7 +37,7 @@ title: 'Instagram als religionspädagogischer Lernort'
 cover:
   relative: true
   hiddenInSingle: true
-  image: 
+  image: ima_22a17d4.jpeg 
 summary: |
   Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: instagram-als-lernort
@@ -51,7 +51,7 @@ tags:
 
 **1. Scrollen mit Sinn: Religion auf Instagram**
 
-„Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“ . Der [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie](https://eth.ht.tu-dortmund.de/professuren/neues-testament/) wagt genau das: Lara Gotthard ist auf Instagram aktiv, unter dem Handle [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/). Der Account zeigt: Religiöse Kommunikation findet längst auch in digitalen Räumen statt – ästhetisch, persönlich und lebensnah.
+„Wo zwei oder drei in meinem Namen versammelt sind, da bin ich mitten unter ihnen“. Der [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie](https://eth.ht.tu-dortmund.de/professuren/neues-testament/) wagt genau das: Lara Gotthard ist auf Instagram aktiv, unter dem Handle [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/). Der Account zeigt: Religiöse Kommunikation findet längst auch in digitalen Räumen statt – ästhetisch, persönlich und lebensnah.
 
 Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räume lernförderlich gestaltet und reflektiert werden?
 
@@ -91,7 +91,7 @@ Der Account bietet vielfältige Anlässe für die Praxis:
 
 **Fazit:** Instagram als Brücke
 
-Der Account @nt.evangelisch_tudortmund zeigt beispielhaft, wie Theologie digital sichtbar wird – niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
+Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird – niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
 
 *Glauben reflektieren, statt nur zu konsumieren*
 
