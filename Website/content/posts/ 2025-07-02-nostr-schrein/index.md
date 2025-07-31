@@ -45,6 +45,8 @@ Hier kannst du mitmachen:
 Lasst uns gemeinsam eine Netzwerk-Architektur schaffen, die sich dynamisch erneuert und gerade dadurch ihre Beständigkeit entwickelt!
 
 
+![](nosTr-schrein.jpg)
+
 **Inspirationen:**
 - [Clay Shirky: Love, Internet Style](https://www.youtube.com/watch?v=Xe1TZaElTAs)
 - [Steffen Rörtgen: Just calling it Open is not enough](https://habla.news/u/laoc42@getalby.com/h-k72fOoZmf_SOC3cUpqc)
