@@ -29,7 +29,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-07-28'
+datePublished: '2025-07-31'
 #staticSiteGenerator
 author:
   - Corinna Ullmann
@@ -63,7 +63,7 @@ Der Instagram-Kanal der evangelischen Fachrichtung „Neues Testament“ (NT) an
 ![](ima_a6fc6d5.jpeg)
 ![](ima_eb6a938.jpeg)
 
-Bilder und Sprache wirken bewusst niedrigschwellig, gleichzeitig ist die Botschaft klar: Das Evangelium ist anschlussfähig – auch heute. Jedes Visual bringt die Themen auf den Punkt und leitet an, wie es mit Lernenden bearbeitet werden kann.
+Bilder und Sprache wirken bewusst niedrigschwellig, gleichzeitig ist die Botschaft klar: Das Evangelium ist anschlussfähig - auch heute. Jedes Visual bringt die Themen auf den Punkt und leitet an, wie es mit Lernenden bearbeitet werden kann.
 
 ## Theologische Medienpädagogik: Warum das relevant ist
 
@@ -71,11 +71,11 @@ Instagram gehört zur Lebenswelt junger Menschen. Religiöse Kommunikation in So
 
 **a) Performative Religionspädagogik**
 
-Glaube zeigt sich im Vollzug – in Wort, Bild und Handlung. Der Instagram-Account zeigt Segenssprüche, Rituale und Gemeinschaftserfahrungen: performativ, öffentlich, digital. Hier wird Religion erlebbar.
+Glaube zeigt sich im Vollzug - in Wort, Bild und Handlung. Der Instagram-Account zeigt Segenssprüche, Rituale und Gemeinschaftserfahrungen: performativ, öffentlich, digital. Hier wird Religion erlebbar.
 
 **b) Subjektorientierung**
 
-Persönliche Zugänge und Erfahrungswelten stehen im Fokus. Wer einen Story-Impuls teilt oder ein Insta-Zitat liked, agiert religiös im digitalen Raum – das kann Reflexionsanlass im Unterricht sein.
+Persönliche Zugänge und Erfahrungswelten stehen im Fokus. Wer einen Story-Impuls teilt oder ein Insta-Zitat liked, agiert religiös im digitalen Raum - das kann Reflexionsanlass im Unterricht sein.
 
 **c) Medienethik**
 
@@ -85,13 +85,13 @@ Instagram ist nicht neutral: Es filtert, verstärkt, inszeniert. Religionspädag
 
 Der Account bietet vielfältige Anlässe für die Praxis:
 
-**Analyse im Unterricht:** Schülerinnen analysieren einen Post – Was wird wie gesagt? Welche biblischen Bezüge? Welche Bildsprache?
+**Analyse im Unterricht:** Schülerinnen analysieren einen Post - Was wird wie gesagt? Welche biblischen Bezüge? Welche Bildsprache?
 
 **Eigene Beiträge erstellen:** Religiöse Themen als Reels oder Posts gestalten
 
 **Fazit:** Instagram als Brücke
 
-Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird – niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
+Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
 
 *Glauben reflektieren, statt nur zu konsumieren*
 
