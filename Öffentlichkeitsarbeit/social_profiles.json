@@ -1,158 +1,228 @@
 {
-    "_usage_instructions": "JSON erlaubt keine klassischen Kommentarzeilen. Daher werden hier spezielle Schlüssel wie _comment_platform verwendet, um Felder zu erläutern. Um dieses JSON zu verwenden, kannst du das Feld persons durchlaufen und jede Person hat ein profiles-Array mit den entsprechenden Social-Media-Angaben. Die Felder platform, handle, mentionSyntax, profileLink etc. enthalten alle relevanten Informationen zu einem Account.",
-    "_comment_performance": "Die Kommentar-Felder steigern die Dateigröße minimal, haben aber auf normalem Datenumfang kaum Auswirkung auf die Performance. In einer fertigen Anwendung können diese _comment_-Felder entfernt werden, falls sie nicht mehr benötigt werden.",
-  
-    "_comment_organizations": "Enthält eine Liste aller Organisationen, Communities oder Labels (z.B. relilab, relimentar). Jede Organisation hat eine orgId, orgName und optionale relatedOrgs, um Verknüpfungen mit anderen Organisationen herzustellen.",
-    "organizations": [
-      {
-        "orgId": "meineFirma",
-        "orgName": "MeineFirma GmbH",
-        "handles": [
-          {
-            "platform": "Twitter",
-            "handle": "meinefirma",
-            "mentionSyntax": "@meinefirma",
-            "profileLink": "https://twitter.com/meinefirma"
-          },
-          {
-            "platform": "LinkedIn",
-            "handle": "firma-linkedin",
-            "mentionSyntax": "@firma-linkedin",
-            "profileLink": "https://www.linkedin.com/company/meinefirma/"
-          }
-        ]
-      },
-      {
-        "orgId": "comenius",
-        "orgName": "Comenius-Institut",
-        "relatedOrgs": ["relilab"],
-        "handles": [
-          {
-            "platform": "Twitter",
-            "handle": "ComeniusInst",
-            "mentionSyntax": "@ComeniusInst",
-            "profileLink": "https://twitter.com/ComeniusInst"
-          },
-          {
-            "platform": "LinkedIn",
-            "handle": "comenius-institut",
-            "mentionSyntax": "@comenius-institut",
-            "profileLink": "https://www.linkedin.com/company/comenius-institut/"
-          }
-        ]
-      },
-      {
-        "orgId": "relilab",
-        "orgName": "Relilab Community",
-        "relatedOrgs": ["comenius"],
-        "handles": [
-          {
-            "platform": "Twitter",
-            "handle": "relilab",
-            "mentionSyntax": "@relilab",
-            "profileLink": "https://twitter.com/relilab"
-          }
-        ]
-      },
-      {
-        "orgId": "relimentar",
-        "orgName": "Relimentar Community",
-        "handles": [
-          {
-            "platform": "Instagram",
-            "handle": "relimentar",
-            "mentionSyntax": "@relimentar",
-            "profileLink": "https://instagram.com/relimentar"
-          }
-        ]
-      }
-    ],
-  
-    "persons": [
-      {
-        "name": "Max Mustermann",
-        "profiles": [
-          {
-            "platform": "Twitter",
-            "_comment_platform": "Plattform (z.B. Twitter/X, Instagram, LinkedIn, YouTube)",
-            "handle": "max_muster",
-            "_comment_handle": "Profilname bzw. Benutzername",
-            "mentionSyntax": "@max_muster",
-            "_comment_mentionSyntax": "Erwähnungs-Syntax (@Handle, ggf. spezielle ID-Formate)",
-            "profileLink": "https://twitter.com/max_muster",
-            "_comment_profileLink": "Direktlink zur Profilseite",
-            "notes": "Kooperationspartner",
-            "_comment_notes": "Notizen, z.B. verifiziert, Ansprechpartner, letztes Update",
-            "category": "Kooperationspartner",
-            "_comment_category": "Kategorie, z.B. VIP, Influencer, Kooperationspartner",
-            "firstSeen": "2025-01-01T10:00:00",
-            "_comment_firstSeen": "Zeitpunkt der ersten Erfassung",
-            "lastUpdated": "2025-01-15T09:30:00",
-            "_comment_lastUpdated": "Datum der letzten Aktualisierung",
-  
-            "organizationIds": ["meineFirma"],
-            "_comment_organizationIds": "Liste von Organisationen, mit denen dieses Profil assoziiert ist"
-          },
-          {
-            "platform": "Instagram",
-            "handle": "max_gram",
-            "mentionSyntax": "@max_gram",
-            "profileLink": "https://instagram.com/max_gram",
-            "category": "Influencer",
-            "firstSeen": "2025-01-05T15:30:00",
-            "lastUpdated": "2025-01-20T08:45:00"
-          }
-        ]
-      },
-      {
-        "name": "Erika Beispiel",
-        "profiles": [
-          {
-            "platform": "LinkedIn",
-            "handle": "erika-beispiel-123",
-            "mentionSyntax": "@erika-beispiel-123",
-            "profileLink": "https://www.linkedin.com/in/erika-beispiel/",
-            "notes": "VIP",
-            "category": "VIP",
-            "firstSeen": "2025-01-02T11:00:00",
-            "lastUpdated": "2025-01-18T17:20:00"
-          },
-          {
-            "platform": "YouTube",
-            "handle": "UCerikaChannel",
-            "mentionSyntax": "@UCerikaChannel",
-            "profileLink": "https://youtube.com/@UCerikaChannel",
-            "category": "BNE",
-            "firstSeen": "2025-01-10T09:00:00",
-            "lastUpdated": "2025-01-25T14:15:00"
-          }
-        ]
-      },
-      {
-        "name": "Jörg Lohrer",
-        "profiles": [
-          {
-            "platform": "Twitter",
-            "handle": "joerglohrer",
-            "mentionSyntax": "@joerglohrer",
-            "profileLink": "https://twitter.com/joerglohrer",
-            "category": "Bildung",
-            "firstSeen": "2025-02-01T09:00:00",
-            "lastUpdated": "2025-02-10T14:00:00",
-            "organizationIds": ["comenius", "relilab"]
-          },
-          {
-            "platform": "LinkedIn",
-            "handle": "joerg-lohrer-9876",
-            "mentionSyntax": "@joerg-lohrer-9876",
-            "profileLink": "https://www.linkedin.com/in/joerg-lohrer/",
-            "category": "BNE",
-            "firstSeen": "2025-02-02T10:30:00",
-            "lastUpdated": "2025-02-10T14:00:00",
-            "organizationIds": ["comenius", "relilab"]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "_usage_instructions": "JSON erlaubt keine klassischen Kommentarzeilen. Daher werden hier spezielle Schlüssel wie _comment_platform verwendet, um Felder zu erläutern. Um dieses JSON zu verwenden, kannst du das Feld persons durchlaufen und jede Person hat ein profiles-Array mit den entsprechenden Social-Media-Angaben. Die Felder platform, handle, mentionSyntax, profileLink etc. enthalten alle relevanten Informationen zu einem Account.",
+  "_comment_performance": "Die Kommentar-Felder steigern die Dateigröße minimal, haben aber auf normalem Datenumfang kaum Auswirkung auf die Performance. In einer fertigen Anwendung können diese _comment_-Felder entfernt werden, falls sie nicht mehr benötigt werden.",
+  "_comment_organizations": "Enthält eine Liste aller Organisationen, Communities oder Labels (z.B. relilab, relimentar). Jede Organisation hat eine orgId, orgName und optionale relatedOrgs, um Verknüpfungen mit anderen Organisationen herzustellen.",
+  "organizations": [
+    {
+      "orgId": "comenius",
+      "orgName": "Comenius-Institut",
+      "relatedOrgs": ["relilab"],
+      "handles": [
+        {
+          "platform": "LinkedIn",
+          "handle": "comenius-institut",
+          "mentionSyntax": "@comenius-institut",
+          "profileLink": "https://www.linkedin.com/company/comenius-institut/"
+        }
+      ],
+      "rorId": "https://ror.org/025e8aw85"
+    },
+    {
+      "orgId": "relilab",
+      "orgName": "Relilab Community",
+      "relatedOrgs": ["comenius"],
+      "handles": [
+        {
+          "platform": "Instagram",
+          "handle": "relilab",
+          "mentionSyntax": "@relilab",
+          "profileLink": "https://instagram.com/relilab"
+        }
+      ],
+      "rorId": null
+    },
+    {
+      "orgId": "relimentar",
+      "orgName": "Relimentar Community",
+      "handles": [
+        {
+          "platform": "Instagram",
+          "handle": "relimentar",
+          "mentionSyntax": "@relimentar",
+          "profileLink": "https://instagram.com/relimentar"
+        }
+      ],
+      "rorId": null
+    },
+    {
+      "orgId": "fau",
+      "orgName": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "rorId": "https://ror.org/00f7hpc57",
+      "handles": []
+    },
+    {
+      "orgId": "goethe",
+      "orgName": "Johann Wolfgang Goethe-Universität Frankfurt",
+      "rorId": "https://ror.org/04cvxnb49",
+      "handles": []
+    }
+  ],
+  "persons": [
+    {
+      "name": "Max Mustermann",
+      "profiles": [
+        {
+          "platform": "Twitter",
+          "_comment_platform": "Plattform (z.B. Twitter/X, Instagram, LinkedIn, YouTube)",
+          "handle": "max_muster",
+          "_comment_handle": "Profilname bzw. Benutzername",
+          "mentionSyntax": "@max_muster",
+          "_comment_mentionSyntax": "Erwähnungs-Syntax (@Handle, ggf. spezielle ID-Formate)",
+          "profileLink": "https://twitter.com/max_muster",
+          "_comment_profileLink": "Direktlink zur Profilseite",
+          "notes": "Kooperationspartner",
+          "_comment_notes": "Notizen, z.B. verifiziert, Ansprechpartner, letztes Update",
+          "category": "Kooperationspartner",
+          "_comment_category": "Kategorie, z.B. VIP, Influencer, Kooperationspartner",
+          "firstSeen": "2025-01-01T10:00:00",
+          "_comment_firstSeen": "Zeitpunkt der ersten Erfassung",
+          "lastUpdated": "2025-01-15T09:30:00",
+          "_comment_lastUpdated": "Datum der letzten Aktualisierung",
+          "organizationIds": ["meineFirma"],
+          "_comment_organizationIds": "Liste von Organisationen, mit denen dieses Profil assoziiert ist"
+        },
+        {
+          "platform": "Instagram",
+          "handle": "max_gram",
+          "mentionSyntax": "@max_gram",
+          "profileLink": "https://instagram.com/max_gram",
+          "category": "Influencer",
+          "firstSeen": "2025-01-05T15:30:00",
+          "lastUpdated": "2025-01-20T08:45:00"
+        }
+      ]
+    },
+    {
+      "name": "Jörg Lohrer",
+      "profiles": [
+        {
+          "platform": "Twitter",
+          "handle": "joerglohrer",
+          "mentionSyntax": "@joerglohrer",
+          "profileLink": "https://twitter.com/joerglohrer",
+          "category": "Bildung",
+          "firstSeen": "2025-02-01T09:00:00",
+          "lastUpdated": "2025-02-10T14:00:00",
+          "organizationIds": ["comenius", "relilab"]
+        },
+        {
+          "platform": "LinkedIn",
+          "handle": "joerg-lohrer-9876",
+          "mentionSyntax": "@joerg-lohrer-9876",
+          "profileLink": "https://www.linkedin.com/in/joerg-lohrer/",
+          "category": "BNE",
+          "firstSeen": "2025-02-02T10:30:00",
+          "lastUpdated": "2025-02-10T14:00:00",
+          "organizationIds": ["comenius", "relilab"]
+        },
+        {
+          "platform": "ORCID",
+          "handle": "0000-0002-9282-0406",
+          "mentionSyntax": "@0000-0002-9282-0406",
+          "profileLink": "https://orcid.org/0000-0002-9282-0406",
+          "category": "Autor",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Gina Buchwald-Chassée",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": null,
+          "mentionSyntax": null,
+          "profileLink": null,
+          "category": "Autorin",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Laura Mößle",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": "0000-0001-5255-8063",
+          "mentionSyntax": "@0000-0001-5255-8063",
+          "profileLink": "https://orcid.org/0000-0001-5255-8063",
+          "category": "Autorin",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Phillip Angelina",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": "0000-0002-6905-5523",
+          "mentionSyntax": "@0000-0002-6905-5523",
+          "profileLink": "https://orcid.org/0000-0002-6905-5523",
+          "category": "Autor",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Manfred Pirner",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": "0000-0002-6641-4690",
+          "mentionSyntax": "@0000-0002-6641-4690",
+          "profileLink": "https://orcid.org/0000-0002-6641-4690",
+          "category": "Autor",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Viera Pirker",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": "0000-0002-6971-8905",
+          "mentionSyntax": "@0000-0002-6971-8905",
+          "profileLink": "https://orcid.org/0000-0002-6971-8905",
+          "category": "Autorin",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Ludger Sicking",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": null,
+          "mentionSyntax": null,
+          "profileLink": null,
+          "category": "Autor",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    },
+    {
+      "name": "Jens Dechow",
+      "profiles": [
+        {
+          "platform": "ORCID",
+          "handle": "0009-0003-1657-4631",
+          "mentionSyntax": "@0009-0003-1657-4631",
+          "profileLink": "https://orcid.org/0009-0003-1657-4631",
+          "category": "Autor",
+          "firstSeen": "2025-07-31T14:59:57",
+          "lastUpdated": "2025-07-31T14:59:57"
+        }
+      ]
+    }
+  ]
+}
