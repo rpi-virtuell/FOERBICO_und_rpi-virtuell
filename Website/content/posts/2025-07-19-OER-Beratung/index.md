@@ -33,10 +33,10 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: https://oer.community/oer-beratung-und-qualitätskriterien/check-306411_1280.png
+image: check-306411_1280.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-07-31'
+datePublished: '2025-08-01'
 #staticSiteGenerator:
 author:
   - Dr. Laura Mößle
