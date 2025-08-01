@@ -1,3 +1,65 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
+description: >-
+    Open Educational Resources (OER) und Open Educational Practices (OEP) haben sich als zentrale Elemente der strategischen Entwicklung digitaler Bildungspraktiken etabliert, bleiben jedoch in der religionspädagogischen Forschung bislang weitgehend unbeachtet. Der vorliegende systematische Literaturbericht untersucht die empirische Evidenz zu OER/OEP hinsichtlich Bildungsgerechtigkeit, Inklusion und Qualität sowie deren Wechselwirkung, insbesondere im Hochschulkontext. Methodisch folgt die Analyse den PRISMA-Leitlinien und kombiniert induktive mit deduktiven Auswertungsansätzen. Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/oer-oep-literaturbericht
+creator:
+  - givenName: Manfred
+    familyName: Pirner
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+  - https://w3id.org/kim/hochschulfaechersystematik/n545
+image: >-
+  https://oer.community/oer-oep-literaturbericht/theoweb-OER.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_B
+datePublished: '2025-08-04'
+#staticSiteGenerator:
+author:
+  - Viera Pirker
+  - Manfred Pirner
+title: 'Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont'
+cover:
+  relative: true
+  image: theoweb-OER.jpg
+url: oer-oep-literaturbericht
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Open Access
+  - Religionspädagogik
+---
+
 # Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
 
 Viera Pirker / Manfred L. Pirner
