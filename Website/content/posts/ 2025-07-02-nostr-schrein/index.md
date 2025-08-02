@@ -1,38 +1,34 @@
-# Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen sondern in Prozessen
+# Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen, sondern in Prozessen
 
-Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle funktionieren. Dabei zeigt sich, dass sich die Robustheit eines Systems nicht primär in der Stabilität seiner physischen oder institutionellen Struktur manifestiert, sondern in der Kontinuität und Adaptivität seiner zugrundeliegenden Prozesse. 
-Wenn wir durch eine Hub-Entwicklung, die Bildungscommunities dabei unterstützen wollen, dass ihre OEP (Open Educational Practice)-Prozesse "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir dazu eine Technik, die die zyklischen Erneuerungsprozesse der Communities nachhaltig unterstützt.
-Wo können wir uns also etwas abschauen und welche Prinzipien könnten zum Tragen kommen?
+Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle gelingen können. Eine wichtige Erkenntnis, die wir bisher gewinnen konnten: Die  Robustheit eines Systems hängt weniger von seinen organisatorischen oder technischen Strukturen ab, sondern vor allem von der Kontinuität und  Anpassungsfähigkeit seiner zugrunde liegenden Prozesse. Wenn wir mit einer Hub-Entwicklung die Bildungscommunities dabei unterstützen wollen, dass ihre Prozesse der OEP (Open Educational Practice) "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir eine Technik, die die zyklischen Erneuerungsprozesse dieser Communities nachhaltig unterstützt. Lasst uns einen Blick über den Tellerrand wagen und uns Inspiration aus jahrtausendealten Traditionen und Open-Source-Prinzipien schöpfen:
 
-## Prozess statt Bauwerk - Die Kraft der Gemeinschaft beim Bau des Ise-Schreins
+## Prozess statt Bauwerk – Die Kraft der Gemeinschaft am Beispiel des Ise-Schreins
 
-Stell dir vor, du würdest alle 20 Jahre dein Haus abreißen und identisch wieder aufbauen. Verrückt? In Japan passiert genau das seit 1.300 Jahren mit dem Großen Schrein von Ise, dem heiligsten Ort des Landes. Das Geheimnis seiner andauernden Existenz liegt nicht im Bauwerk selbst, sondern im gemeinsamen Ritual des Erneuerens. 
+Stell dir vor, du würdest alle 20 Jahre dein Haus abreißen und identisch wieder aufbauen. Verrückt? In Japan passiert genau das seit 1.300 Jahren mit dem Großen Schrein von Ise, dem heiligsten Ort des Landes. Das Geheimnis seiner Beständigkeit liegt also nicht im Bauwerk selbst, sondern im gemeinsamen Ritual seiner Erneuerung.
 
-Nicht das solide Bauwerk bildet die Verbindung der Gemeinschaft, sondern die zunehmende Zuverlässigkeit ihres kontinuierlich wiederholbaren Bauprozesses.Die physische Manifestation wird also stets erneuert, während die bewährte Prozessqualität durch rituelle und prozessuale Abläufe gesichert bleibt.
+Nicht das solide Gebäude selbst stiftet  hier die Gemeinschaft, sondern die Zuverlässigkeit ihres kontinuierlichen Bauprozesses. Die Manifestation und Struktur des Schreins unterliegt also einem  steten Wandel, während die Qualität und Verlässlichkeit im Prozess  seiner Erneuerung durch die ritualisierten Abläufe über Generationen hinweg erhalten bleibt.
 
 ## Open Source: Liebe als erneuerbares Baumaterial
 
-Clay Shirky beschreibt Open-Source-Projekte wie Linux als moderne Entsprechung zum Ise-Schrein: Ihre Beständigkeit kommt nicht von kommerzieller Unterstützung, sondern resultiert aus einem "Akt der Liebe" -  getragen von Menschen, die sich umeinander kümmern und gemeinsam etwas schaffen. 
+Clay Shirky beschreibt Open-Source-Projekte wie das Betriebssysten Linux als moderne Entsprechung zum Ise-Schrein: Ihre Beständigkeit beruhe nicht auf kommerzieller Unterstützung, sondern resultiere aus einem "Akt der Liebe" – sie sei getragen von Menschen, die sich umeinander kümmerten und gemeinsam etwas schaffen würden. 
 
-Die entscheidende Frage zur Prognose der Langlebigkeit eines Systems ist daher nicht "Was ist das Geschäftsmodell?", sondern vielmehr: "Kümmern sich die Menschen, die es lieben, umeinander?" 
-Dieser Indikator könnte sich als ein überlegener Prädiktor erweisen für nachhaltige Kooperationserfolge und die Langlebigkeit eines Community-Hubs.
+Die entscheidende Frage für die Langlebigkeit eines Systems sei daher nicht die nach dem das Geschäftsmodell, sondern vielmehr: "Kümmern sich die Menschen, die es lieben, umeinander?" Dieser Indikator könnte sich als ein überlegener Prädiktor für nachhaltige Kooperationserfolge und die Langlebigkeit eines Community-Hubs erweisen.
 
 ## Unsere digitalen Kathedralen der Bildung
-Schauen wir auf unsere Bildungslandschaft, sehen wir oft das Gegenteil: abgeschlossene Plattformen, getrennte Datensilos, doppelte Arbeit. Wir bauen digitale Festungen statt lebendige Gemeinschaften.
+Schauen wir auf unsere Bildungslandschaft, sehen wir oft das Gegenteil: abgeschlossene Plattformen und getrennte Datensilos. Wir bauen digitale Festungen statt lebendige Gemeinschaften.
 
-Anstatt Materialien gemeinsam zu ***v***erwenden, zu ***v***erarbeiten, zu ***v***ermischen, zu ***v***ervielfältigen und zu ***v***erbreiten, werden, bleiben Bildungsmedien in Plattformen gefangen und ***v***erwahrt. Statt offener Kollaboration haben wir Insellösungen. 
-Das ist, als würden wir den Ise-Schrein einmal bauen und dann hoffen, dass er 1.300 Jahre hält - zum Scheitern verurteilt.
+Anstatt Materialien gemeinsam zu ***v***erwenden, zu ***v***erarbeiten, zu ***v***ermischen, zu ***v***ervielfältigen und zu ***v***erbreiten, bleiben Bildungsmedien in Plattformen gefangen und ***v***erwahrt. Statt offener Kollaboration haben wir Insellösungen. 
 
 ## Eine Infrastruktur, die atmet
 
 Was wäre, wenn wir Bildungsinfrastruktur wie den Ise-Schrein denken würden? 
-Protokolle wie [Nostr](https://nostr.how/de/what-is-nostr) zeigen, wie das technisch möglich wird: dezentral, offen und von der Gemeinschaft getragen.
+Protokolle wie [Nostr](https://nostr.how/de/what-is-nostr) eigen, wie das technisch möglich wird: dezentral, offen und von der Gemeinschaft getragen.
 
-Das Resultat wäre eine Infrastruktur, die nicht von einzelnen Plattformen, Institutionen oder "Internet-Gebäuden" abhängig ist, sondern von der kollektiven Fürsorge und dem Engagement der Community getragen werden kann – resilient, erneuerbar, offen für alle.
+Das Resultat wäre eine Infrastruktur, die nicht von einzelnen Plattformen, Institutionen oder "Internet-Gebäuden" abhängig ist, sondern von der kollektiven Fürsorge und dem Engagement der Community getragen werden kann – resilient, erneuerbar und offen für alle.
 
 ## Mach mit beim Bauen!
 
-Die Geschichte des Ise-Schreins lehrt uns: Das beständigste Fundament sind Menschen, die sich umeinander kümmern. Lasst uns gemeinsam eine technische Infrastruktur für die Bildung schaffen, die genau das fördert.
+Die Geschichte des Ise-Schreins lehrt uns: Das beständigste Fundament sind die Menschen, die sich umeinander kümmern. Lasst uns gemeinsam eine technische Infrastruktur für die Bildung schaffen, die genau das fördert!
 
 Hier kannst du mitmachen: 
 - Im Matrix [Space OERcommunity](https://matrix.to/#/#oercommunity:rpi-virtuell.de) Offene Räume für Austausch und Experimente
@@ -42,8 +38,7 @@ Hier kannst du mitmachen:
     - Hier ein paar Accounts z.B. von [Jörg](https://njump.me/npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9) oder [Steffen](https://njump.me/npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma)
 - GitHub [Edufeed](https://github.com/edufeed-org): Wo wir gemeinsam an der Zukunft bauen
 
-Lasst uns gemeinsam eine Netzwerk-Architektur schaffen, die sich dynamisch erneuert und gerade dadurch ihre Beständigkeit entwickelt!
-
+Lasst uns gemeinsam eine Netzwerk-Struktur schaffen, die sich dynamisch erneuert und gerade dadurch ihre Beständigkeit entwickelt!
 
 ![](nosTr-schrein.jpg)
 
