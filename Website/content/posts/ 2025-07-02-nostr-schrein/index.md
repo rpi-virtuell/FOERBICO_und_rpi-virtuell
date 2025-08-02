@@ -28,7 +28,7 @@ Das Resultat wäre eine Infrastruktur, die nicht von einzelnen Plattformen, Inst
 
 ## Mach mit beim Bauen!
 
-Die Geschichte des Ise-Schreins lehrt uns: Das beständigste Fundament sind die Menschen, die sich umeinander kümmern. Lasst uns gemeinsam eine technische Infrastruktur für die Bildung schaffen, die genau das fördert!
+Die Geschichte des Ise-Schreins lehrt uns: Das beständigste Fundament sind die Menschen, die sich umeinander kümmern. Lasst uns gemeinsam ein lebendiges Ökosystem für die Bildung schaffen, das uns miteinander in Verbindung bringt!
 
 Hier kannst du mitmachen: 
 - Im Matrix [Space OERcommunity](https://matrix.to/#/#oercommunity:rpi-virtuell.de) Offene Räume für Austausch und Experimente
@@ -37,8 +37,6 @@ Hier kannst du mitmachen:
     - [hier eine Starthilfe zur Profilerstellung](https://nstart.me/de?an=Primal&am=light&aa=203a8f&asb=yes&s=npub1k85m3haymj3ggjknfrxm5kwtf5umaze4nyghnp29a80lcpmg2k2q54v05a)
     - Hier ein paar Accounts z.B. von [Jörg](https://njump.me/npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9) oder [Steffen](https://njump.me/npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma)
 - GitHub [Edufeed](https://github.com/edufeed-org): Wo wir gemeinsam an der Zukunft bauen
-
-Lasst uns gemeinsam eine Netzwerk-Struktur schaffen, die sich dynamisch erneuert und gerade dadurch ihre Beständigkeit entwickelt!
 
 ![](nosTr-schrein.jpg)
 
