@@ -59,7 +59,7 @@ Qualitätssicherung bedeutet dabei nicht, OER mit starren Standards zu überzieh
 * Angelina, P. & Mößle, Laura (2025). *Fürchtet euch nicht. OER und Third Mission*. y-nachten, https://y-nachten.de/2025/03/oer-und-die-third-mission/
 * Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). *Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien*. FOERBICO-Handreichung.
 * Baas, M., van der Rijst, R., Huizinga, T., & van den Berg, E. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education.* The Internet and Higher Education, 54, 100848. https://doi.org/10.1016/j.iheduc.2022.100848
-* Mößle, L. & Pirker, V. (2024). Offenheit als Haltung: Religiöse Bildung mit OER. In *Theo-Web. Zeitschrift für Religionspädagogik*, 23(2).
+* Mößle, L. & Pirker, V. (2024).Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“? Theo-Web. Zeitschrift für Religionspädagogik 23 (2024) H. 2, 159-170.
 * Pirker, V., & Pirner, M. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont. *Theo-Web*, 24(1).
 
 ---
