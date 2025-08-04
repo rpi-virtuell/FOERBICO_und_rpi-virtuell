@@ -6,13 +6,16 @@ OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie s
 
 ## OER-Qualität im religionspädagogischen Horizont
 
-Die wissenschaftliche Debatte fokussiert häufig auf technische und rechtliche Aspekte von OER – etwa Lizenzierung oder Barrierefreiheit. Doch für den Religionsunterricht, der von Subjektorientierung, Pluralitätsfähigkeit und der Auseinandersetzung mit existenziellen Fragen geprägt ist, reicht ein rein formaler Qualitätsbegriff nicht aus. 
+Die wissenschaftliche Diskussion zur Qualität von OER war lange Zeit von einer technokratischen Perspektive geprägt, die vornehmlich rechtliche (Lizenzierung, Urheberrecht) und technische Aspekte (Barrierefreiheit, Interoperabilität) fokussierte (vgl. Zawacki-Richter & Mayrberger, 2017). Diese Dimensionen sind unbestritten essenziell für die Nutzbarkeit offener Bildungsmaterialien, greifen jedoch im Kontext religionspädagogischer Bildungsprozesse zu kurz. 
+Religionsunterricht ist kein neutraler Vermittlungsraum, sondern ein Lernort, an dem Pluralität, Subjektorientierung und die Auseinandersetzung mit existenziellen Fragen grundlegend sind. Daraus ergibt sich die Notwendigkeit eines erweiterten Qualitätsbegriffs, der sowohl fachwissenschaftliche als auch didaktisch-reflexive Kategorien umfasst.
 
-[Pirker und Pirner (2025)](https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51) betonen in ihrem Literaturbericht: „Qualität von OER im religionspädagogischen Feld entsteht erst im Zusammenspiel mit offenen Bildungspraktiken (OEP), die dialogische Lernprozesse fördern und das Material im sozialen Kontext verankern“. 
-OER Qualität wird damit nicht als statische Eigenschaft verstanden, sondern als Ergebnis eines reflektierten Aushandlungsprozesses innerhalb einer Community.
+ Qualität sollte dabei nicht als statische Eigenschaft der Ressource selbst verstanden, sondern als Ergebnis eines reflexiven Aushandlungsprozesses innerhalb einer Community, der sowohl in der Erstellung als auch in der Nutzung und Weiterentwicklung von OER wirksam wird.
 
-Die im Projekt **FOERBICO** entwickelte Handreichung zu Qualitätskriterien zu OER setzt genau hier an. Sie bietet ein praxisnahes Instrumentarium, um OER religionspädagogisch fundiert zu erstellen, bereits vorhandene OER auf ihre Qualität hin zu bewerten und weiterzuentwickeln. Die Kriterien orientieren sich dabei nicht nur an rechtlichen, technischen und pädagogisch-didaktischen Standards, sondern integrieren dezidiert religionspädagogische Qualitätsdimensionen.
+[Baas et al. (2022)](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y) zeigen mit ihrer Studie eindrücklich, dass die Qualität von OER kein feststehendes Attribut ist, sondern das Ergebnis eines dialogischen Aushandlungsprozesses. Lehrende bewerten Materialien demnach nicht isoliert, sondern entwickeln ihre Qualitätswahrnehmung im Austausch mit Kolleg:innen und im Kontext institutioneller Rahmenbedingungen. 
+**Qualität** entsteht demnach dort, wo OER inhaltlich relevant, didaktisch tragfähig, nutzbar und anschlussfähig für die eigene Lehre gestaltet werden. 
 
+Die im Projekt FOERBICO entwickelte Handreichung zu Qualitätskriterien setzt genau an diesem dynamischen Qualitätsverständnis an. .Sie bietet ein praxisnahes Instrumentarium, um OER religionspädagogisch fundiert zu erstellen, bereits vorhandene OER auf ihre Qualität hin zu bewerten und weiterzuentwickeln. 
+Die FOERBICO-Kriterien greifen dabei etablierte Modelle zurück (vgl. Graf & Kürzinger, 2019), erweitern diese jedoch um dezidiert religionspädagogische Dimensionen. Ziel ist es, ein Qualitätsverständnis zu fördern, das sowohl die strukturellen Anforderungen digitaler Bildungsressourcen als auch die inhaltlich-didaktischen Besonderheiten religiöser Bildungsprozesse integriert.
 ## Entstehungsprozess
 
 ## Qualitätskriterien: Die FOERBICO-Checkliste im Detail
@@ -55,6 +58,7 @@ Qualitätssicherung bedeutet dabei nicht, OER mit starren Standards zu überzieh
 ## Literatur
 * Angelina, P. & Mößle, Laura (2025). *Fürchtet euch nicht. OER und Third Mission*. y-nachten, https://y-nachten.de/2025/03/oer-und-die-third-mission/
 * Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). *Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien*. FOERBICO-Handreichung.
+Baas, M., van der Rijst, R., Huizinga, T., & van den Berg, E. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education.* The Internet and Higher Education, 54, 100848. https://doi.org/10.1016/j.iheduc.2022.100848
 * Mößle, L. & Pirker, V. (2024). Offenheit als Haltung: Religiöse Bildung mit OER. In *Theo-Web. Zeitschrift für Religionspädagogik*, 23(2).
 * Pirker, V., & Pirner, M. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont. *Theo-Web*, 24(1).
 
