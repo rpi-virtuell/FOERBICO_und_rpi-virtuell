@@ -15,7 +15,7 @@ Religionsunterricht ist kein neutraler Vermittlungsraum, sondern ein Lernort, an
 **Qualität** entsteht demnach dort, wo OER inhaltlich relevant, didaktisch tragfähig, nutzbar und anschlussfähig für die eigene Lehre gestaltet werden. 
 
 Die im Projekt FOERBICO entwickelte Handreichung zu Qualitätskriterien setzt genau an diesem dynamischen Qualitätsverständnis an. .Sie bietet ein praxisnahes Instrumentarium, um OER religionspädagogisch fundiert zu erstellen, bereits vorhandene OER auf ihre Qualität hin zu bewerten und weiterzuentwickeln. 
-Die FOERBICO-Kriterien greifen dabei etablierte Modelle zurück (vgl. Graf & Kürzinger, 2019), erweitern diese jedoch um dezidiert religionspädagogische Dimensionen. Ziel ist es, ein Qualitätsverständnis zu fördern, das sowohl die strukturellen Anforderungen digitaler Bildungsressourcen als auch die inhaltlich-didaktischen Besonderheiten religiöser Bildungsprozesse integriert.
+Die FOERBICO-Kriterien greifen dabei etablierte Modelle zurück ([vgl. Graf & Kürzinger, 2019](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/deliver/index/docId/65957/file/9783781523326-M%c3%bcller.pdf)), erweitern diese jedoch um dezidiert religionspädagogische Dimensionen. Ziel ist es, ein Qualitätsverständnis zu fördern, das sowohl die strukturellen Anforderungen digitaler Bildungsressourcen als auch die inhaltlich-didaktischen Besonderheiten religiöser Bildungsprozesse integriert.
 ## Entstehungsprozess
 
 ## Qualitätskriterien: Die FOERBICO-Checkliste im Detail
@@ -58,7 +58,7 @@ Qualitätssicherung bedeutet dabei nicht, OER mit starren Standards zu überzieh
 ## Literatur
 * Angelina, P. & Mößle, Laura (2025). *Fürchtet euch nicht. OER und Third Mission*. y-nachten, https://y-nachten.de/2025/03/oer-und-die-third-mission/
 * Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). *Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien*. FOERBICO-Handreichung.
-Baas, M., van der Rijst, R., Huizinga, T., & van den Berg, E. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education.* The Internet and Higher Education, 54, 100848. https://doi.org/10.1016/j.iheduc.2022.100848
+* Baas, M., van der Rijst, R., Huizinga, T., & van den Berg, E. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education.* The Internet and Higher Education, 54, 100848. https://doi.org/10.1016/j.iheduc.2022.100848
 * Mößle, L. & Pirker, V. (2024). Offenheit als Haltung: Religiöse Bildung mit OER. In *Theo-Web. Zeitschrift für Religionspädagogik*, 23(2).
 * Pirker, V., & Pirner, M. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont. *Theo-Web*, 24(1).
 
