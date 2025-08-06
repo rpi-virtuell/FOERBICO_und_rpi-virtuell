@@ -1,3 +1,58 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/oer-visuelle-qualität
+name: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre'
+description: >-
+  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? Die visuelle Qualität von OER ist bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Paula
+    familyName: Paschke
+    id: 
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: XXX.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2025-09-10'
+#staticSiteGenerator:
+author:
+  - Dr. Laura Mößle
+  - Paula Paschke
+title: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre'
+cover:
+  relative: true
+  image: check-306411_1280.png
+  hidddenInSingle: false
+  alt: 'Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)'
+summary: >-
+  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? Die visuelle Qualität von OER ist bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
+url: oer-beratung-und-qualitätskriterien
+tags:
+  - Qualitätskriterien
+  - Hochschuldidaktik
+  - Religionspädagogik
+  - Theologie
+  - Open Educational Resources (OER)
+---
+
+Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Dies wirft jedoch bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
+
+
 # OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre
 
 ## Inhalt oder Eindruck? Warum Ästhetik in OER zählt
@@ -6,6 +61,7 @@ Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der
 
 Visuelle Kommunikation prägt längst unseren Informationsalltag: von Infografiken über Lernvideos bis hin zu Info-Kacheln und Bilder auf Instagram. Und doch ist die visuelle Qualität von OER bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
 
+
 ## Der *Iconic Turn* und visuelle OER-Qualität
 
 Mit dem „Iconic Turn“ ([Boehm, 1994](https://polc.ttk.pte.hu/tamop-4.1.2.b.2-13/1-2013-0014/10/Anhang_1_Boehm_WiederkehrDerBilder.pdf)) bzw. dem „Pictorial Turn“ ([Mitchell 1994](https://press.uchicago.edu/ucp/books/book/chicago/P/bo3683962.html)) hat das Bild neue Relevanz in Wissenschaft und Bildung gewonnen. Gerade die Digitalisierung hat dieser Entwicklung Vorschub geleistet: Bildkommunikation wird zur dominanten Kulturtechnik, nicht nur im Alltag, sondern zunehmend auch in Lehr-Lern-Kontexten ([Missomelius 2017](https://doi.org/10.21240/mpaed/27/2017.04.27.X)).
@@ -13,6 +69,7 @@ Mit dem „Iconic Turn“ ([Boehm, 1994](https://polc.ttk.pte.hu/tamop-4.1.2.b.2
 Dennoch konstatiert Missomelius eine Forschungslücke in der medienpädagogischen Auseinandersetzung mit visueller Wissensvermittlung. Dabei ist Bildlichkeit längst elementarer Bestandteil didaktischer Settings bspw. durch Schaubilder oder [Erklärvideos](https://www.die-bibel.de/ressourcen/wirelex/3-methoden-und-medien/erklaervideo). OER-Erstellende greifen z.B. häufig auf Stockfotografie oder KI-generierte Bilder zurück aus Gründen der Zugänglichkeit, Ästhetik und (vermeintlichen) Rechtssicherheit.
 
 Doch damit eröffnen sich bildethische Herausforderungen: Welche Stereotype werden durch Stockfotografie oder KI-generierte BIlder (re-)produziert? Woher stammen die Trainingsdaten für KI-generierte Bilder? Welche impliziten Normen vermitteln diese Bilder? In theologischen Kontexten, in denen Bildverwendung stets auch eine Reflexion religiöser Bedeutungen mit sich bringt, ist diese Auseinandersetzung umso dringlicher.
+
 
 ## Visuelle Qualität in OER: Zwischen Anspruch und Realität
 
@@ -73,14 +130,15 @@ Das FOERBICO widmet sich der Weiterentwicklung theologischer OER-Qualitätskrite
 Die theologische Hochschuldidaktik kann in diesem Kontext von ihrer **Multiperspektivität** auf den Umgang mit Bildern profitieren. Die Frage nach den Anforderungen von Bildmaterialien im aufgezeigten Spannungsfeld bleibt bislang bestehen. 
 Eine offene Diskussion ist weiterhin erforderlich, um die Potenziale und Grenzen offener Bildungsmaterialien kritisch zu hinterfragen und eine fachdidaktische Haltung zu entwickeln.
 
+
 ## Angaben
 
 Beck, W. / Kohlbrenner, L. (2024): Ein Sein vor, hinter und in dem Bild? In: Pirker, V./Paschke, P. (Hg.): *Religion auf Instagram*, Freiburg, 194–211.  
-Boehm, G. (1994): Was ist ein Bild? München
-Burghard, M. / Hornung, A. (2024): Was ist schon normal? In: *Kritische Berichte* 52 (2), S. 64–72. https://doi.org/10.11588/kb.2024.2.103988  
-Burrichter, R. (2015): Bilder. In: WiReLex, https://www.die-bibel.de/ressourcen/wirelex/3-methoden-und-medien/bilder  
-Gärtner, C. (2016): Bildung, ästhetische. In: WiReLex, https://www.die-bibel.de/ressourcen/wirelex/8-lernende-lehrende/bildung-aesthetische  
-Missomelius, P. (2017): Medienpädagogische Aufgabenfelder. In: *MedienPädagogik*, 27. https://doi.org/10.21240/mpaed/27/2017.04.27.X  
+Boehm, G. (1994): Was ist ein Bild? München.
+Burghard, M. / Hornung, A. (2024): Was ist schon normal? In: *Kritische Berichte* 52 (2), 64–72, https://doi.org/10.11588/kb.2024.2.103988.  
+Burrichter, R. (2015): Bilder. In: WiReLex, https://www.die-bibel.de/ressourcen/wirelex/3-methoden-und-medien/bilder.  
+Gärtner, C. (2016): Bildung, ästhetische. In: WiReLex, https://www.die-bibel.de/ressourcen/wirelex/8-lernende-lehrende/bildung-aesthetische.  
+Missomelius, P. (2017): Medienpädagogische Aufgabenfelder. In: *MedienPädagogik*, 27. https://doi.org/10.21240/mpaed/27/2017.04.27.X.  
 Mitchell, W. J. T. (1994): *Picture Theory*, Chicago.  
 Pirker, V. (2021): Zur Macht der Bilder. In: Beck, W./Nord, I./Valentin, J. (Hg.): *Theologie und Digitalität*, Freiburg, 155–179.   
 Steinhau, H. (2021): Pixabay und Co.. Nutzung & Lizenzbedingungen für Bilder von Foto- und Medienplattformen, https://open-educational-resources.de/pixabay-und-co/. 
