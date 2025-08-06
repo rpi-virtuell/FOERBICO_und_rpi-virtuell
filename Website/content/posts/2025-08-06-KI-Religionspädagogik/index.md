@@ -23,7 +23,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: 
+image: https://rpt25.ch/wp-content/uploads/2024/10/daniel_97906_digital_education_in_a_analog_world_e1f9abd9-b4bc-4f96-84e5-a8961eebb2cf.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -36,7 +36,7 @@ title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
 cover:
   relative: true
   hiddenInSingle: true
-  image: 
+  image: https://rpt25.ch/wp-content/uploads/2024/10/daniel_97906_digital_education_in_a_analog_world_e1f9abd9-b4bc-4f96-84e5-a8961eebb2cf.png
 summary: |
   Im Workshop „KI und Religionspädagogik“ bei der Tagung „Religion Reloaded?“ in Luzern wurde KI als kulturelles und ethisches Phänomen im Bildungsbereich diskutiert.
 url: ki-religionspaedagogik
