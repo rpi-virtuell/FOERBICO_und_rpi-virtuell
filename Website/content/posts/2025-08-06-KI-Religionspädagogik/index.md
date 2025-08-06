@@ -1,11 +1,54 @@
-# Zwischen Utopie und Dystopie: KI und Religionspädagogik 
-https://rpt25.ch/ki-und-religionspaedagogik/
+---
+#commonMetadata:
+'@context': https://schema.org/
+'@type': LearningResource
+creativeWorkStatus: Published
+name: Zwischen Utopie und Dystopie: KI und Religionspädagogik
+description: Beim Workshop „KI und Religionspädagogik“ auf der Tagung „Religion Reloaded? Religiöse Bildung in einer vernetzten Welt“ (Juni 2025, Luzern) stand die Frage im Mittelpunkt, wie Künstliche Intelligenz unser Menschenbild beeinflusst und welche Antworten die Religionspädagogik darauf bietet. KI wurde dabei nicht nur als technologische Innovation, sondern auch als kulturelles und ethisches Phänomen betrachtet. Referentin Birte Platow leitete den Workshop, dokumentiert wurde er von Corinna Ullmann (Comenius-Institut).
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/ki-religionspaedagogik
+creator:
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+keywords:
+  - KI
+  - Religionspädagogik
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n08
+image: 
+learningResourceType:
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-08-08'
+#staticSiteGenerator
+author:
+  - Corinna Ullmann
+title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
+cover:
+  relative: true
+  hiddenInSingle: true
+  image: 
+summary: |
+  Im Workshop „KI und Religionspädagogik“ bei der Tagung „Religion Reloaded?“ in Luzern wurde KI als kulturelles und ethisches Phänomen im Bildungsbereich diskutiert.
+url: ki-religionspaedagogik
+tags:
+  - KI
+  - Religionspädagogik
+---
 
-Referentin Birte Platow
 
-Dokumentiert von Corinna Ullmann
+Künstliche Intelligenz (KI) ist längst keine ferne Zukunftsvision mehr, sondern prägt unsere Gegenwart – auch im Bildungsbereich. In der religionspädagogischen Fortbildung wurde KI nicht nur als technologische Innovation betrachtet, sondern als kulturelles und ethisches Phänomen. Dabei ging es um zentrale Fragen: Welches Menschenbild prägt den Umgang mit KI? Und welche Antworten gibt die Religionspädagogik darauf? 
 
-Künstliche Intelligenz (KI) ist längst keine ferne Zukunftsvision mehr, sondern prägt unsere Gegenwart – auch im Bildungsbereich. In der religionspädagogischen Fortbildung wurde KI nicht nur als technologische Innovation betrachtet, sondern als kulturelles und ethisches Phänomen. Dabei ging es um zentrale Fragen: Welches Menschenbild prägt den Umgang mit KI? Und welche Antworten gibt die Religionspädagogik darauf?
+Im Rahmen der Tagung "[Religion Reloaded? Religiöse Bildung in einer vernetzten Welt](https://rpt25.ch/ki-und-religionspaedagogik/)" im Juni 2025 in Luzern wurde im Workshop "KI und Religionspädagogik" von Referentin Birte Platow darüber diskutiert. Corinna Ullmann vom Comenius-Institut war dabei und teilt hier ihre Dokumentation des Workshops.
 
 **1. Ein nachdenklicher Blick in die Zukunft – Was kommt auf uns zu?**
 
