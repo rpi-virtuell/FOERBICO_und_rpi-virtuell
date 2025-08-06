@@ -32,7 +32,7 @@ OER sind frei zugängliche Bildungsmaterialien, die in Bildungskontexten zunehme
 
 Offene Bildungsmaterialien (OER) sind mehr als frei verfügbare Arbeitsblätter mit Lizenzvermerk. Sie stehen für eine Bildungspraxis, die auf Offenheit, Kooperation und kollegiales Weiterdenken setzt. Wer Materialien zugänglich macht und zur Weiterentwicklung freigibt, macht die eigene religionspädagogische Arbeit sichtbar und schafft Möglichkeit für Teilhabe und gemeinsame Qualitätssicherung.  
 
-Gerade in Schule und Gemeinde, wo Bildungsarbeit oft unter knappen Bedingungen, aber mit großem Engagement geschieht, eröffnen OER neue Spielräume: Sie entlasten, vernetzen und ermöglichen Adaption an schulische oder außerschulische Bildungorte.  
+Gerade in Schule und Gemeinde, wo Bildungsarbeit oft unter knappen Bedingungen, aber mit großem Engagement geschieht, eröffnen OER neue Spielräume: Sie entlasten, vernetzen und ermöglichen Adaption an schulische oder außerschulische Bildungsorte.  
 
 OER-Materialien für den Religionsunterricht und gemeindepädagogische Praxis finden sich auf [rpi-virtuell](https://rpi-virtuell.de/). Dort ist auch seit kurzem das Projekt **M@PS – Medienkompetenz erweitern, Persönlichkeit stärken** zu finden. Entwickelt an der Goethe-Universität Frankfurt im Rahmen der Initiative *Löwenstark*, zielt es auf die Stärkung der Urteilskraft Jugendlicher im digitalen Raum.  
 
