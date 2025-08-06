@@ -25,6 +25,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n086
+image: Save the Date.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
