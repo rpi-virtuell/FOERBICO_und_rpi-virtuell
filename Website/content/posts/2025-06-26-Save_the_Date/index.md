@@ -35,6 +35,7 @@ author:
 cover:
   relative: true
   hiddenInSingle: true
+  image: Save the Date.png
 summary: |
   Ein Informationspost über unsere Tagung im Februar 2026.
 url: save-the-date
