@@ -106,4 +106,4 @@ Hands-On: Vom Material zum OER mit der richtigen Lizenz
 - Metadaten-Generator: https://projekt.oer.community/foerbicometa/metadata-generator.html (cool wäre, wenn Import-Funktion mit PDF + Word möglich wäre & Metadaten ausgelesen werden)
 - Kuratierungstool?
 - Tipps zu offenen Bilddatenbanken + Optionen/Workarouds für Umgang mit geschützten Bildern
-- Eingabemaske / Formular, wo sie ihre Texte reinkopieren & Umwandlung als MD => ggf. Blog / Webseite generieren
+- Eingabemaske / Formular, wo sie ihre Texte reinkopieren & Umwandlung als MD => ggf. Blog / Webseite generieren => Blogwall
