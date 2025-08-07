@@ -14,6 +14,8 @@ Was wollen wir erreichen? Was müssen die Leitenden wissen?
 
 Ziel: Rechtssicherheit, religionspädagogische Relevanz & Qualität
 
+Ggf. offene Fragerrunde, was sie unter Qualität verstehen bzw. was für sie Qualitätsstandards wären? und ggf. bereits entwickelte Qualitätskriterien diskutieren?
+
 #### Idee Einstiegsvideo
 
 Perspektiven (z.B. konkret aus Pfalz/Saar) - Herausforderungen (z.B. zurückgehende Ressourcen)
@@ -94,7 +96,14 @@ Hands-On: Vom Material zum OER mit der richtigen Lizenz
 
 ### 4. Möglichkeiten + Vereinbarungen zu Zugänglichkeit & Vernetzung
 
-- Fortbildungen (Verknüpfung relilab)
+- Fortbildungen (Verknüpfung relilab, Beispiele aus ALPIKA-Instituten wie kurz & knackig, Online-Trialog...)
 - Verbreitungsmöglichkeiten (Verknüpfung rpi-virtuell Materialpool)
 - Zusammenarbeit (Beobachtungen aus Instituten + weiteres Vorgehen)
 
+**Was können wir anbieten?**
+
+- Veranstaltungsticker (über Newsletter + ALPIKA-Veranstaltungen in Nostr-Events?)
+- Metadaten-Generator: https://projekt.oer.community/foerbicometa/metadata-generator.html (cool wäre, wenn Import-Funktion mit PDF + Word möglich wäre & Metadaten ausgelesen werden)
+- Kuratierungstool?
+- Tipps zu offenen Bilddatenbanken + Optionen/Workarouds für Umgang mit geschützten Bildern
+- Eingabemaske / Formular, wo sie ihre Texte reinkopieren & Umwandlung als MD => ggf. Blog / Webseite generieren
