@@ -20,6 +20,6 @@
 | Oktober 2025        | [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER - Checkliste](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/2025-10-10-OER-Qualit%C3%A4tskriterien-Checkliste/Website/content/posts/2025-10-10-OER-Qualit%C3%A4tskriterien-Checkliste/index.md)                                          |
 | November 2025       | Wie verändern, nutzen und adaptieren Lehrkräfte Bildungsressourcen? <br> - OER und systematische Phasenvernetzung der Lehrer:innenbildung |
 | Dezember 2025       | OER als Chance für mehr Bildungsgerechtigkeit und Inklusion?                                   |
-| Januar 2026         | Politische Dimensionen auf OER: Postkoloniale Perspektiven                                                |
+| Januar 2026         | Politische Perspektiven auf OER: Postkoloniale Perspektiven                                                |
 | Februar 2026        | OER in der Aus- und Fortbildung                                                                    |
 | März 2026           | Kirchliche Mitsprache bei Materialien vs. "open"?                                                 |
