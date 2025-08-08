@@ -1,7 +1,7 @@
 ## Themenvorschläge für die Beiträge der „empfehl:bar“  
 **Katechetische Blätter (2025/2026) – FOERBICO: OER in der Religionspädagogik**
 
-| Nr. | Art des Beitrags      | Empohlenes Produkt                                     | Kurzbeschreibung                                                                 | Bezug zu OER/ OER to go                                                            | Geplantes Heft | Abgabe bis             | Autor:in       |
+| Nr. | Art des Beitrags      | Empfohlenes Produkt                                     | Kurzbeschreibung                                                                 | Bezug zu OER/ OER to go                                                            | Geplantes Heft | Abgabe bis             | Autor:in       |
 |-----|-----------------------|---------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------|------------------------|----------------|
 | 1   | Veranstaltungstipp    | **ZwischenTagung 2026: Mit OER zu einer Kultur des Teilens** | Einladung zur Zwischenfazit-Tagung am 24./25. Februar 2026 in Erlangen-Nürnberg. Vorstellung der Ergebnisse zu OER-Communities | Förderung einer OER-Kultur in religionsbezogenen Communites                | 4/2025         | Anfang August 2025     | Phillip        |
 | 2   | Grundlagen            | **Was ist eigentlich OER?**                 | Kurzer Einstieg ins Thema: Was sind offene Bildungsmaterialien – und warum sind sie relevant für Kirche, Schule, Gemeinde? | Einführung in OER, mit Link zu Materialien                               | 5/2025         | Anfang September 2025  | Laura          |
@@ -19,7 +19,7 @@
 - alle vorherigen Themen wiederholend anreißen/aufgreifen?
 ---
 ### Text 1
-
+--> Tagung als "Produkt" mehr in den Vordergrund rücken
 ## OER-Veranstaltungstipp
 "Ich teile, was ich mache. Also ich teile meine guten Ideen, von denen ich selber davon überzeugt bin, dass sie gut sind und wo es sich lohnt, mir auch die Mühe zu machen, das in einen Raster zu bringen, dass es anderen nützt" - so beschreibt eine befragte Person ihre Motivation Open Educational Resources (OER) zu erstellen.
 
@@ -28,14 +28,12 @@ OER sind frei zugängliche Bildungsmaterialien, die in Bildungskontexten zunehme
 ---
 ### Text 2
 
-## Offen teilen, was gut ist: Warum OER in Schule und Gemeinde Zukunft haben
+## M@PS – Medienkompetenz erweitern, Persönlichkeit stärken
 
-Offene Bildungsmaterialien (OER) sind mehr als frei verfügbare Arbeitsblätter mit Lizenzvermerk. Sie stehen für eine Bildungspraxis, die auf Offenheit, Kooperation und kollegiales Weiterdenken setzt. Wer Materialien zugänglich macht und zur Weiterentwicklung freigibt, macht die eigene religionspädagogische Arbeit sichtbar und schafft Möglichkeit für Teilhabe und gemeinsame Qualitätssicherung.  
+Wer im Religionsunterricht oder in der Gemeinde junge Menschen fit für den digitalen Raum machen will, sollte unbedingt einen Blick auf die Materialien von "M@PS – Medienkompetenz erweitern, Persönlichkeit stärken" werfen. Angesichts des rasanten technologischen Wandels wird es immer wichtiger, Jugendlichen nicht nur technische Fähigkeiten zu vermitteln, sondern auch ihr kritisches Denken und verantwortungsbewusstes Online-Handeln zu fördern.
 
-Gerade in Schule und Gemeinde, wo Bildungsarbeit oft unter knappen Bedingungen, aber mit großem Engagement geschieht, eröffnen OER neue Spielräume: Sie entlasten, vernetzen und ermöglichen Adaption an schulische oder außerschulische Bildungsorte.  
+M@PS, entwickelt an der Professur für Religionspädagogik & Mediendidaktik der Goethe-Universität Frankfurt, bietet drei Module mit je drei Workshops. Sie zielen darauf, die Reflexionsfähigkeit, Urteilsbildung und Medienmündigkeit Jugendlicher zu stärken. Zwischen 2022 und 2024 wurden die Workshops für verschiedenen Schulformen der Sekundarstufe I entwickelt und praktisch erprobt.
 
-OER-Materialien für den Religionsunterricht und gemeindepädagogische Praxis finden sich auf [rpi-virtuell](https://rpi-virtuell.de/). Dort ist auch seit kurzem das Projekt **M@PS – Medienkompetenz erweitern, Persönlichkeit stärken** zu finden. Entwickelt an der Goethe-Universität Frankfurt im Rahmen der Initiative *Löwenstark*, zielt es auf die Stärkung der Urteilskraft Jugendlicher im digitalen Raum.  
-
-Die Workshops stehen zur freien Nutzung und Anpassung bereit:  
+Alle Materialien stehen als Open Educational Resources (OER) frei zur Verfügung: barrierearm, unter CC-Lizenz, zur direkten Nutzung, individuellen Anpassung und gemeinschaftlichen Weiterentwicklung. Einfach den Moodle-Kurs im Gastzugang betreten, stöbern, Materialien herunterladen und anpassen:
 **[M@PS-Workshops als OER (Gastzugang)](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57)**
 
