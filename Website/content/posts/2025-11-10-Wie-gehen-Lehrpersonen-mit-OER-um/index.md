@@ -1,4 +1,3 @@
-
 # „Open“ ist eine Haltung: Wie Lehrkräfte mit OER umgehen
 
 
@@ -7,7 +6,7 @@ Offene Bildungsressourcen versprechen mehr als lediglich freien Zugang zu Unterr
 Doch was geschieht, wenn diese Vision auf die Realität schulischer Unterrichtspraxis trifft? Empirische Studien von *Baas et al.* (2022), *Hetmanek et al.* (2015) und *Admiraal* (2022) geben hierzu differenzierte Einblicke. Ihre Befunde zeigen, dass zwischen dem visionären Potenzial von OER und ihrer gelebten Praxis eine deutliche Lücke besteht. Doch liegt in eben dieser Diskrepanz womöglich der Schlüssel für einen möglichen **kulturellen Wandel** der Bildungskultur?
 
 
-## 1. Ressourcenrealität
+## Eine Frage der Ressourcen
 
 Wenn Lehrpersonen Unterricht vorbereiten, greifen sie dabei primär auf institutionell bereitgestellte oder selbst entwickelte Materialien zurück. OER stellen im Lehrer:innenalltag nach wie vor ein Randphänomen dar, weniger aus Ablehnung, sondern vorwiegend aus **Pragmatismus**. Entscheidend sind Kriterien wie **Curriculumpassung**, **Zeitökonomie** und **didaktische Anschlussfähigkeit**.
 Die Offenheit einer Lizenz spielt häufig nur eine marginale Rolle, wenn Lehrpersonen Materialien heraussuchen, abändern und für ihre Zielgruppe aufbereiten (vgl. *Hetmanek et al.* (2015).
