@@ -9,12 +9,6 @@ description: >-
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://rpt25.ch/ki-und-religionspaedagogik/
 creator:
-  - givenName: Birte
-    familyName: Platow # Klären ob Birte Mitautorin sein will
-    type: Person
-    affiliation:
-      name: unbekannt
-      type: Organization
   - givenName: Corinna
     familyName: Ullmann
     type: Person
@@ -35,15 +29,14 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_B
-datePublished: '2025-06-02'  # Ggf. genaues Datum eintragen
+datePublished: '2025-08-11'
 #staticSiteGenerator:
 author:
-  - Birte Platow # selbst Autorin?
   - Corinna Ullmann
 title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
 cover:
   relative: false
-  image: https://rpt25.ch/wp-content/uploads/2024/10/daniel_97906_digital_education_in_a_analog_world_e1f9abd9-b4bc-4f96-84e5-a8961eebb2cf.png #muss noch ersetzt werden
+  image: https://rpt25.ch/wp-content/uploads/2024/10/daniel_97906_digital_education_in_a_analog_world_e1f9abd9-b4bc-4f96-84e5-a8961eebb2cf.png
 url: ki-und-religionspaedagogik
 tags:
   - Künstliche Intelligenz
@@ -55,13 +48,9 @@ tags:
 ---
 
 
-
-https://rpt25.ch/ki-und-religionspaedagogik/
-
-Referentin Birte Platow
-Dokumentiert von Corinna Ullmann
-
 Künstliche Intelligenz (KI) ist längst keine ferne Zukunftsvision mehr, sondern prägt unsere Gegenwart – auch im Bildungsbereich. In der religionspädagogischen Fortbildung wurde KI nicht nur als technologische Innovation betrachtet, sondern als kulturelles und ethisches Phänomen. Dabei ging es um zentrale Fragen: Welches Menschenbild prägt den Umgang mit KI? Und welche Antworten gibt die Religionspädagogik darauf?
+
+Im Rahmen der Tagung "[Religion Reloaded? Religiöse Bildung in einer vernetzten Welt](https://rpt25.ch/ki-und-religionspaedagogik/)" im Juni 2025 in Luzern wurde im Workshop "KI und Religionspädagogik" von Referentin Birte Platow darüber diskutiert. Corinna Ullmann vom Comenius-Institut war dabei und teilt hier ihre Dokumentation des Workshops.
 
 **1. Ein nachdenklicher Blick in die Zukunft – Was kommt auf uns zu?**
 Ausgangspunkt war Max Tegmarks visionärer Text Life 3.0, der fragt: In welchem Verhältnis stehen Mensch und Maschine? Vom bloßen „Human Performance“ der 1960er Jahre bis hin zur Vision, den Menschen selbst nachzubilden oder gar zu übertreffen – die technologische Entwicklung scheint keinen Halt zu kennen.
