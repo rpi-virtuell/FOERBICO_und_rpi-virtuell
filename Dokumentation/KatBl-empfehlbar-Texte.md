@@ -21,8 +21,9 @@
 ### Text 1
 --> Tagung als "Produkt" mehr in den Vordergrund rücken
 ## OER-Veranstaltungstipp
-Herzliche Einladung zu unserer Fachtagung *Mit OER zu einer Kultur des Teilens* vom 24.02.2026-25.02.2026 in Nürnberg. 
-Bei OER handelt es sich um frei zugängliche Bildungsmaterialien und werden in Bildungskontexten immer bedeutsamer. Durch OER sollen, so die Erwartung, Chancengerechtigkeit, Inklusion und Bildungsqualität in besonderem Maße gefördert werden. In Deutschland gibt es verschiedene Online-Communities die im religionsbezogenen Bildungsbereich aktiv für OER einsetzen. Diese haben wir vom FOERBICO-Team (Förderung offener Bildungspraktiken in religionsbezogenen Communities durch die Entwicklung eines koordinierten OER-Ökosystems) befragt. Auf unserer Tagung stellen wir unsere Ergebnisse vor. Die Community Mitglieder wurden unter anderem gefragt: Weshalb sich Personen engagieren? Welche Vorteile sehen sie in OER? Gibt es innerhalb der Communities besondere Formen der Begegnung und Zusammenarbeit? Die Auswertung der Befragungen und weitere Ergebnisse wollen wir gemeinsam diskutieren und erarbeiten, wie OER in verschiedenen Bildungskontexten gefördert werden kann. Weitere Infos unter https://oer.community
+Die Tagung *Mit OER zu einer Kultur des Teilens* am 24.02.2026-25.02.2026 in Nürnberg lädt alle ein, die mehr über die Vorteile einer offenen Bildungskultur in der Religionspädagogik erfahren möchten. 
+OER (Open Educational Resources) sind frei zugängliche Bildungsmaterialien, die Chancengerechtigkeit, Inklusion und Bildungsqualität in besonderem Maße fördern möchten. Im Rahmen des Verbundprojekts „FOERBICO” (Comenius-Institut Münster, Friedrich-Alexander-Universität Erlangen-Nürnberg und Goethe-Universität Frankfurt) wurden aktive Online-Communities im religionsbezogenen Bildungsbereich befragt: Warum engagieren sich Personen für OER? Welche Vorteile sehen sie? Wie gestalten sie Begegnung und Zusammenarbeit? Die Tagung präsentiert die Ergebnisse dieser Befragung und bietet Raum für die Dikussion, wie OER in verschiedenen Bildungskontexten gefördert werden kann. Die Anmeldung ist ab sofort möglich. Weitere Infos unter https://oer.community
+
 
 ---
 ### Text 2
