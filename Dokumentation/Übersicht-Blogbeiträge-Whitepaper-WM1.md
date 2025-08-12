@@ -18,7 +18,7 @@
 | August 2025         | [Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@ps](https://oer.community/oer-beratung-und-qualitätskriterien/) |
 | September 2025      | [OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/lmoessle-patch-1/Website/content/posts/2025-09-10-OER-und-visuelle-Qualit%C3%A4t/index.md) |
 | Oktober 2025        | [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER - Checkliste](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/2025-10-10-OER-Qualit%C3%A4tskriterien-Checkliste/Website/content/posts/2025-10-10-OER-Qualit%C3%A4tskriterien-Checkliste/index.md)                                          |
-| November 2025       | Wie verändern, nutzen und adaptieren Lehrkräfte Bildungsressourcen? <br> - OER und systematische Phasenvernetzung der Lehrer:innenbildung |
+| November 2025       | [Wie verändern, nutzen und adaptieren Lehrkräfte Bildungsressourcen? <br> - OER und systematische Phasenvernetzung der Lehrer:innenbildung](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/commit/189d558ebe33d76e46789019caf3909cf52ff59b/Website/content/posts/2025-11-10-Wie-gehen-Lehrpersonen-mit-OER-um/index.md) |
 | Dezember 2025       | OER als Chance für mehr Bildungsgerechtigkeit und Inklusion?                                   |
 | Januar 2026         | Politische Perspektiven auf OER: Postkoloniale Perspektiven                                                |
 | Februar 2026        | OER in der Aus- und Fortbildung                                                                    |
