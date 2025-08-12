@@ -1,7 +1,7 @@
 # „Open“ ist eine Haltung: Wie Lehrkräfte mit OER umgehen
 
 
-Offene Bildungsressourcen versprechen mehr als lediglich freien Zugang zu Unterrichtsmaterialien. Zwar ist der unkomplizierte Zugriff auf Arbeitsblätter, Präsentationen oder Schaubilder ein unbestreitbarer Vorteil. Doch OER verkörpern darüber hinaus eine bildungstheoretische Vision, die auf **Kollaboration**, **Offenheit* und **Bildungsgerechtigkeit** zielt. 
+Offene Bildungsressourcen versprechen mehr als lediglich freien Zugang zu Unterrichtsmaterialien. Zwar ist der unkomplizierte Zugriff auf Arbeitsblätter, Präsentationen oder Schaubilder ein unbestreitbarer Vorteil. Doch OER verkörpern darüber hinaus eine bildungstheoretische Vision, die auf **Kollaboration**, **Offenheit** und **Bildungsgerechtigkeit** zielt. 
 
 Doch was geschieht, wenn diese Vision auf die Realität schulischer Unterrichtspraxis trifft? Empirische Studien von *Baas et al.* (2022), *Hetmanek et al.* (2015) und *Admiraal* (2022) geben hierzu differenzierte Einblicke. Ihre Befunde zeigen, dass zwischen dem visionären Potenzial von OER und ihrer gelebten Praxis eine deutliche Lücke besteht. Doch liegt in eben dieser Diskrepanz womöglich der Schlüssel für einen möglichen **kulturellen Wandel** der Bildungskultur?
 
