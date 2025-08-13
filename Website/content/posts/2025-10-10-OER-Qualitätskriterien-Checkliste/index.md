@@ -53,7 +53,7 @@ OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie s
 ## OER-Qualität im diskursiven Horizont
 Die freie Nutzbarkeit und Weiterverbreitung von OER stellt die Frage der Qualität vor gewisse Herausforderungen. Neben der Unsicherheit zu urheberrechtlichen Fragen stellt die die Qualität von OER eine der am breitesten diskutiertesten Themen im Umfeld von OER dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). 
 Die Qualität von OER wird als wesentlicher Faktor für den Erfolg und die Akzeptanz von OER im breiten Feld angeführt [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51). 
-Angebtrieben durch die Entwicklungen mit KI steigt die Anzahl frei verfügubarer Bildungsmaterialien im Internet rasant an. [Yuan et al (2015)](https://doi.org/10.19173/irrodl.v16i5.2389) verweisen darauf, dass es aus diesem Grund eine immer größere Herausforderung darstellt, qualitativ hochwertige OER zu identifizieren. 
+Angebtrieben durch die Entwicklungen mit KI steigt die Anzahl frei verfügubarer Bildungsmaterialien im Internet rasant an. Aus diesem Grund verweisen [Yuan et al (2015)](https://doi.org/10.19173/irrodl.v16i5.2389) darauf, dass die Identifikation von qualitativ hochwertigen OER eine immer größere Herausforderung darstellt. 
 
 Nutzende bewerten die Qualität von OER oftmals auf Basis ihrer individuellen Anforderungen und Bedarfe. Dies führt dazu, dass Qualitätsvorstellungen im Diskurs stark auseinandergehen. Die prozesshafte Natur der Materialien, d.h. dass sie verändert und adaptiert werden, stellt eine besondere Herausforderungen der Qualitätssicherung dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Statische Qualitätssicherungsprozesse, die Kriterien festlegen und überprüfen sind bei OER nur bedingt sinnvoll. Da sie eine hohe Offenheit und Anpassbarkeit an individuelle Kontexte, Bedrüfnisse und Anforderungen der Zielgruppe ermöglichen braucht es für die Qualitätssicherung eine besondere Aufmerksamkeit. 
 
@@ -69,9 +69,8 @@ Im Kontext der Qualitätssicherung von OER existieren mittlerweile eine Reihe vo
 
 Das niedersächsische OER-Portal [**Twillo**](https://www.twillo.de), verfolgt hingegen einen dezidiert partizipativen Ansatz: Die Qualitätssicherung erfolgt primär über eine Selbsteinschätzung der Ersteller:innen, unterstützt durch den sog. *OER-Qualitätscheck*. Dieser führt die Nutzenden strukturiert durch sieben zentrale Prüfdimensionen, die von der inhaltlichen Wiederverwendbarkeit bis hin zur didaktischen Anwendbarkeit reichen. Ergänzend stellt Twillo eine kontinuierlich erweiterte Sammlung praxisorientierter Hilfestellungen zur Verfügung.
 
- Die **Hamburg Open Online University (HOOU)** hat sich mit einem eigenen Qualitätssicherungsmodell im Hochschulkontext positioniert. Im Vordergrund steht hier ein beratendes Evaluationsverfahren, das sich auf die pädagogisch-didaktische und technische Qualität fokussiert, während die inhaltliche Verantwortung bei den Autor:innen verbleibt [(Friz, 2019)](https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf).
+Die **Hamburg Open Online University (HOOU)** hat sich mit einem eigenen Qualitätssicherungsmodell im Hochschulkontext positioniert. Im Vordergrund steht hier ein beratendes Evaluationsverfahren, das sich auf die pädagogisch-didaktische und technische Qualität fokussiert, während die inhaltliche Verantwortung bei den Autor:innen verbleibt [(Friz, 2019)](https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf).
 Die HOOU entwickelt derzeit einen umfassenden Kriterienkatalog, der inhaltliche, didaktische, technische und nutzungsorientierte Aspekte (Usability) gleichermaßen berücksichtigt. Perspektivisch strebt die HOOU an, mit einem eigens entwickelten Qualitätssiegel – dem HOOU-Label – ein markenspezifisches Vertrauensmerkmal für OER zu etablieren [(Zawacki-Richter et al., 2017)](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf).
-
 
 ## Qualität im religionspädagogischen Kontext
 
@@ -85,7 +84,7 @@ Der exemplarische Überblick dieser Debatte zeigt die noch wenig bearbeitete Aus
 ## Entstehungsprozess
 Im Projekt FOERBICO entstand ein Kriterienkatalog zur OER-Qualität für den schulischen, außerschulischen und hochschulischen Bereich aus rechtlicher, technischer, pädagogisch-didaktischer und religionspädagogischer Perspektive, in einem mehrschichtigen Entwicklungsprozess. 
 Ausgangspunkt war eine Analyse bestehender Qualitätssicherungsansätze in OER-Communities, die mit dem aktuellen Forschungsstand zu OER-Qualität reflektiert und diskutiert wurde.
-Dabei stand die Frage im Zentrum, welche spezifischen Anforderungen das Fach Religion an die Qualität von offenen Bildungsmaterialien stellt.
+Dabei stand die Frage im Zentrum, welche spezifischen Anforderungen das Fach Religion an die Qualität von offenen Bildungsmaterialien stellt?
 
 Diese theoretisch fundierte Vorarbeit wurde durch Interviews mit sechs Expert:innen aus der religionspädagogischen Schul- und Unterrichtsforschung empirisch rückgekoppelt. In einem iterativen Verfahren wurden die entwickelten Kriterien auf Grundlage dieser Rückmeldungen präzisiert und weiterentwickelt. 
 Parallel wurden Projekte der Professur für Religionspädagogik und Mediendidaktik der Goethe Universität Frankfurt mit Hilfe der im FOERBICO Projekt entwickelten Handreichung auf ihre Qualität hin überprüft und entsprechend [für die Publikation überarbeitet](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/$0). Auch diese Erkenntnisse floßen in die Überarbeitung der Kritieren ein. 
@@ -137,7 +136,7 @@ Die genannten Qualitätsmerkmale sind dabei keine Pflichtvorgaben, sondern Anreg
 
 Exemplarisch für die pädagogisch-didaktische Dimension sieht die Checkliste folgende Items vor: 
 
-*  Lernprozesse können durch angemessene Diﬀerenzierung auf verschiedenen Niveaus initiiert werden.
+* Lernprozesse können durch angemessene Diﬀerenzierung auf verschiedenen Niveaus initiiert werden.
 * Das Material und die genutzten Plattformen fördern den aktiven Austausch zwischen Lernenden, z.B. durch Diskussionsanlässe, reflexive Fragen oder integrierte Foren.
 * Die Lernenden werden dazu angeregt, selbstständig Lösungsansätze zu entwickeln und Gelerntes auf neue Kontexte anzuwenden.
 
