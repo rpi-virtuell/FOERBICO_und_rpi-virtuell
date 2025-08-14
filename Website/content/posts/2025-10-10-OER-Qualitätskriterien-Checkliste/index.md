@@ -75,8 +75,10 @@ Die HOOU entwickelt derzeit einen umfassenden Kriterienkatalog, der inhaltliche,
 ## Qualität im religionspädagogischen Kontext
 
 In der religionspädagogischen Qualitätsdebatte steht v.a. die Frage im Vordergrund, wie sich *guter* Religionsunterricht jenseits von bloßen Konzeptionen bestimmen lässt. [Rothgangel (2021)](https://doi.org/10.1007/s42010-021-00107-w) plädiert für einen mehrdimensionalen Qualitätsbegriff, der fachübergreifende, fachspezifische und transzendenzbezogene Kriterien integriert. 
-Schweitzer fordert eine stärkere empirische Fundierung der Qualitätsdiskussion, die sich nicht nur auf Outcome-Messungen stützt, sondern auch Prozesse religiöser Bildung und Pluralitätsfähigkeit in den Blick nimmt. 
-[Käbisch und Woppowa (2022)](https://rpb-journal.de/index.php/rpb/article/view/193) zeigen am Beispiel kooperativer Religionsunterrichtsformate, dass Qualitätsentwicklung vor diesem HIntergrund vor allem eine besondere Formm der Didaktik erfordert, die den Perspektivenwechsel und Dialogfähigkeit systematisch fördert. 
+In der Auseinandersetzung mit dem berufsschulischen Religionsunterricht (BRU) präzisieren [Schweitzer, Schnabel-Henke und Rutkowski 2024](https://www.pedocs.de/volltexte/2024/30758/pdf/Schweitzer_et_al_2024_Was_ist_guter_BRU.pdf) diesen Anspruch weiter. Guter BRU muss nicht nur allgemeinen didaktischen Qualitätskriterien genügen, sondern zugleich fachlich verantwortet und berufsbezogen kontextualisiert sein. Er basiert auf einem allgemeindidaktischen, fachdidaktischen und spezifisch am orientierten BRU Qualitätsanspruch und soll kognitive Aktivierung, persönliche Relevanz und interreligiöse Dialogfähigkeit fördern. Die Perspektive der Schüler:innen ist dabei deutlich zu berücksichten: Gute Qualität zeigt sich auch darin, ob Lernende den Unterricht als offen, relevant und identitätsbildend erleben. 
+Auch Englert (2006) unterstreicht, dass die Qualität des Religionsunterrichts nur unter Einbezug fachspezifischer Kategorien zu bestimmen sei. So plädiert er für eine eigenständige Qualitätsreflexion der Religionsdidaktik, die in kritischem Dialog mit der allgemeinen Unterrichtsforschung steht, sich jedoch ihrer spezifischen Inhalte und Zielperspektiven bewusst ist.
+[Käbisch und Woppowa (2022)](https://rpb-journal.de/index.php/rpb/article/view/193) zeigen am Beispiel kooperativer Religionsunterrichtsformate, dass Qualitätsentwicklung vor diesem Hintergrund vor allem eine besondere Formm der Didaktik erfordert, die den Perspektivenwechsel und Dialogfähigkeit systematisch fördert. 
+emeinen Unterrichtsforschung steht, sich jedoch ihrer spezifischen Inhalte, Zielperspektiven und ethisch-normativen Dimensionen bewusst ist.
 Die Qualitätsdebatte wird in der religionspädagogischen Forschung auch in Form der Schulbuchforschung (vgl. [Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/)) vorangetrieben, bspw. wenn Unterrichtsmedien verstärkt inhaltsanalytisch und ideologiekritisch in den Blick genommen werden. Qualitätskriterien für Bildungsmedien im Religionsunterricht umfassen daher über Inhaltsrichtigkeit hinaus die Sensibilität für Repräsentationen, aber auch die didaktische Struktur sowie die empirisch fundierte Materialnutzung. 
 Der exemplarische Überblick dieser Debatte zeigt die noch wenig bearbeitete Auseinandersetzung mit der Qualität von digitaler Unterrichtsmaterialien: Während sich Qualitätsdiskurse primär auf Unterrichtsprozesse konzentrieren, fehlen noch immer belastbare Kriterien und Verfahren zur systematischen Einschätzung von digitalen Bildungsmedien.  
 
@@ -173,6 +175,8 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 * Ehlers, U.-D. (2015). Qualitätsentwicklung für OER – viel besprochen, wenig realisiert! Wikimedia Deutschland. https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert
 
+* Englert, R. (2006). Die Diskussion über Unterrichtsqualität – und was die Religionsdidaktik daraus lernen könnte, in: C. Bizer u.a. (Hg.), Was ist guter Religionsunterricht? (Jahrbuch der Religionspädagogik 22), (S. 52–64). Neukirchen-Vluyn.
+
 * Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive (S. 14–47). Bad Heilbrunn.
 
 * Friz, S. (2019). Qualität und freie, digitale Bildungsmedien (OER) – Wie passt das zusammen? Vortrag auf dem 36. Forum Kommunikationskultur der GMK, München, 16.11.2019. https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf
@@ -192,7 +196,7 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 * Rothgangel, M. (2021). Unterrichtsqualität in der Religionsdidaktik – fachspezifische und fachübergreifende Aspekte. Unterrichtswissenschaft, 49, 253–260. https://doi.org/10.1007/s42010-021-00107-w
 
-* Schweitzer, F. (2004). Bildungsstandards auch für Evangelische Religion? Zeitschrift für Pädagogik und Theologie (ZPT), 3(4), 236–241.
+* Schweitzer, F; Schnabel-Henke, H., Rutkowski, M. (2024). Was ist "guter BRU"? Qualität und Qualitätsentwicklung im Religionsunterricht an beruflichen Schulen. Das Projekt QUIRU-B. Münster, New York.
 
 * Yuan, M., & Recker, M. (2015). Not All Rubrics Are Equal: A Review of Rubrics for Evaluating the Quality of Open Educational Resources. International Review of Research in Open and Distributed Learning, 16(5), 16–38. https://doi.org/10.19173/irrodl.v16i5.2389
 
