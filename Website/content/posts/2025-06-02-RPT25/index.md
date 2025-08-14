@@ -7,7 +7,7 @@ name: >-
 description: >-
   Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://rpt25.ch/ki-und-religionspaedagogik/
+id: https://oer.community/ki-und-religionspaedagogik/
 creator:
   - givenName: Corinna
     familyName: Ullmann
@@ -23,7 +23,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544 # Bildungswissenschaft
   - https://w3id.org/kim/hochschulfaechersystematik/n031 # Informatik
 image: >-
-  https://rpt25.ch/ki-und-religionspaedagogik/cover.jpg
+  https://oer.community/ki-und-religionspaedagogik/rpt25.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -34,9 +34,14 @@ datePublished: '2025-08-11'
 author:
   - Corinna Ullmann
 title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
+summary: |
+  Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
 cover:
-  relative: false
-  image: https://rpt25.ch/wp-content/uploads/2024/10/daniel_97906_digital_education_in_a_analog_world_e1f9abd9-b4bc-4f96-84e5-a8961eebb2cf.png
+  relative: true
+  image: rpt25.jpg
+  caption: "Von Daniel Ritter und von David Wakefield) bearbeitetes Midjourney-Bild CC0"
+  alt: "Ein junges Mädchen sitzt an einem Tisch und trägt ein großes Virtual-Reality-Headset. Aus dem Headset scheinen leuchtende Funken und Lichtpartikel zu strömen, die eine magische, traumartige Atmosphäre erzeugen. Der Hintergrund ist unscharf und dunkel, wodurch das Leuchten besonders hervorsticht."
+  hiddenInSingle: true
 url: ki-und-religionspaedagogik
 tags:
   - Künstliche Intelligenz
