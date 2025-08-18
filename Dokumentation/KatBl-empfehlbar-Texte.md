@@ -30,10 +30,10 @@ OER (Open Educational Resources) sind frei zugängliche Bildungsmaterialien, die
 
 ## M@PS – Medienkompetenz erweitern, Persönlichkeit stärken
 
-Wer im Religionsunterricht oder in der Gemeinde junge Menschen fit für den digitalen Raum machen will, sollte unbedingt einen Blick auf die Materialien von "M@PS – Medienkompetenz erweitern, Persönlichkeit stärken" werfen. Angesichts des rasanten technologischen Wandels wird es immer wichtiger, Jugendlichen nicht nur technische Fähigkeiten zu vermitteln, sondern auch ihr kritisches Denken und verantwortungsbewusstes Online-Handeln zu fördern.
+Wer junge Menschen im Religionsunterricht oder in der Gemeinde fit für den digitalen Raum machen will, sollte unbedingt einen Blick auf die Materialien von "M@PS – Medienkompetenz erweitern, Persönlichkeit stärken" werfen. Angesichts des rasanten digitalen Wandels ist es wichtiger denn je, neben technischen Fähigkeiten auch kritisches Denken und verantwortungsbewusstes Online-Handeln von Kindern und Jugendlichen zu fördern.
 
-M@PS, entwickelt an der Professur für Religionspädagogik & Mediendidaktik der Goethe-Universität Frankfurt, bietet drei Module mit je drei Workshops. Sie zielen darauf, die Reflexionsfähigkeit, Urteilsbildung und Medienmündigkeit Jugendlicher zu stärken. Zwischen 2022 und 2024 wurden die Workshops für verschiedenen Schulformen der Sekundarstufe I entwickelt und praktisch erprobt.
+Die Materialien von M@PS wurden an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt entwickelt und sind als Moodle-Kurs frei zugänglich. Drei Module mit je drei Workshops zielen darauf ab, die Reflexionsfähigkeit, Urteilsbildung und Medienmündigkeit von Kindern und Jugendlichen zu stärken. Die Workshops wurden für verschiedene Schulformen der Sekundarstufe I konzipiert und zwischen 2022 und 2024 praktisch erprobt.
 
-Alle Materialien stehen als Open Educational Resources (OER) frei zur Verfügung: barrierearm, unter CC-Lizenz, zur direkten Nutzung, individuellen Anpassung und gemeinschaftlichen Weiterentwicklung. Einfach den Moodle-Kurs im Gastzugang betreten, stöbern, Materialien herunterladen und anpassen:
+Alle Materialien stehen als Open Educational Resources (OER) frei zur Verfügung: Sie sind barrierearm, stehen unter einer CC-Lizenz und sind zur direkten Nutzung, zur individuellen Anpassung sowie gemeinschaftlichen Weiterentwicklung geeignet. Über den "Gastzugang" lässt sich der Moodle-Kurs einfach betreten, darin stöbern, Materialien herunterladen und selbstständig anpassen:
 **[M@PS-Workshops als OER (Gastzugang)](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57)**
 
