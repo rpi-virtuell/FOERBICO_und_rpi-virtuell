@@ -155,7 +155,7 @@ Exemplarisch für die religionspädagogische Dimension sieht die Checkliste folg
 * Das Material legt seine konfessionelle oder religiöse Perspektive oﬀen und ermöglicht eine reflektierte Auseinandersetzung damit
 * Das Material ermöglicht Lernenden, unterschiedliche religiös-weltanschauliche Deutungen der Wirklichkeit wahrzunehmen und in einem multiperspektvischen Kontext zu reflektieren.
 
-Die [**vollständige Checkliste**](XXX) kann hier heruntergeladen werden. Sie steht auch als offene Datei zur Bearbeitung und Weiterentwicklung bereit. 
+Die [**vollständigen OER-Qualitätskriterien**](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO-geschlossen/src/commit/19c5b57a18fa684ab9ff3bbe10b9c8feaef9c39e/Qualit%C3%A4tskriterien/2025_08_19_Qualit%C3%A4tskriterien.md) können hier heruntergeladen werden. Sie stehen als offene Markdown-Datei zur Bearbeitung und Weiterentwicklung unter CC BY 4.0 Lizenz bereit. 
 
 
 ### Qualität als reflexiver Aushandlungsprozess
