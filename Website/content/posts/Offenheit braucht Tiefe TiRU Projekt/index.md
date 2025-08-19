@@ -1,10 +1,62 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/digitale-offenheit-braucht-tiefe
+name: 'Digitale Offenheit braucht Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen'
+description: >-
+  Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird exemplarisch ein prozessbegleitender Ansatz zur Qualitätssicherung vorgestellt, der im Rahmen des FOERBICO-Projekts durch die Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Paula
+    familyName: Paschke
+    id: 
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: XXX.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2025-10-10'
+#staticSiteGenerator:
+author:
+  - Dr. Laura Mößle
+  - Paula Paschke
+title: 'Digitale Offenheit braucht Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen'
+cover:
+  relative: true
+  image: check-306411_1280.png
+  hidddenInSingle: false
+  alt: 'Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)'
+summary: >-
+  Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird exemplarisch ein prozessbegleitender Ansatz zur Qualitätssicherung vorgestellt, der im Rahmen des FOERBICO-Projekts durch die Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
+url: oer-beratung-und-qualitätskriterien
+tags:
+  - Qualitätskriterien
+  - Hochschuldidaktik
+  - Religionspädagogik
+  - Theologie
+  - Open Educational Resources (OER)
+---
+
 # Digitale Offenheit braucht Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen
 
 ## OER-Qualität als Entwicklungsaufgabe religionspädagogischer Bildungsressourcen
 
-Die wachsende Verbreitung von Open Educational Resources (OER) eröffnet in der Lehrer:innenbildung neue didaktische Gestaltungsräume, stellt jedoch zugleich anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer, also religionspädagogischer Qualitätsdimensionen an Bedeutung.  
+Die wachsende Verbreitung von Open Educational Resources (OER) eröffnet in der Lehrer:innenbildung neue didaktische Gestaltungsräume, stellt jedoch zugleich anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer, also religionspädagogischer Qualitätsdimensionen zunehmend an Bedeutung.  
 
-Wie sich diese unterschiedlichen Facetten in einem qualitätsorientierten Entwicklungsprozess verbinden lassen, zeigt exemplarisch das Projekt **TiRU (Tablets im Religionsunterricht)** an der Goethe-Universität Frankfurt. Die dort entwickelten Materialien wurden im Rahmen des FOERBICO-Projekts einer systematischen Beratung unterzogen, gestützt auf die eigens erarbeitete Handreichung zu OER-Qualitätskriterien. Der vorliegende Beitrag dokumentiert diesen Prozess, reflektiert die identifizierten Gelingensbedingungen und verdeutlicht, wie Qualität in offenen Bildungsressourcen nicht nur überprüft, sondern als integraler Bestandteil ihrer Konzeption aktiv gestaltet werden kann.  
+Wie sich diese unterschiedlichen Facetten in einem qualitätsorientierten Entwicklungsprozess verbinden lassen, zeigt exemplarisch das Projekt **TiRU (Tablets im Religionsunterricht)** an der Goethe-Universität Frankfurt. Die dort entwickelten Materialien wurden im Rahmen des FOERBICO-Projekts einer Beratung unterzogen, gestützt auf die eigens erarbeitete Handreichung zu OER-Qualitätskriterien. Der vorliegende Beitrag dokumentiert diesen Prozess, reflektiert die identifizierten Gelingensbedingungen und verdeutlicht, wie Qualität in offenen Bildungsressourcen nicht nur überprüft, sondern als integraler Bestandteil ihrer Konzeption aktiv gestaltet werden kann.  
 
 
 ## Das Projekt TiRU: Tablets im Religionsunterricht
