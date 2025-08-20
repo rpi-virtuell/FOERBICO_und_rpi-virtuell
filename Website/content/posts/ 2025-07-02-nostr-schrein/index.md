@@ -22,7 +22,7 @@ Anstatt Materialien gemeinsam zu ***v***erwenden, zu ***v***erarbeiten, zu ***v*
 ## Eine Infrastruktur, die atmet
 
 Was wäre, wenn wir Bildungsinfrastruktur wie den Ise-Schrein denken würden? 
-Protokolle wie [Nostr](https://nostr.how/de/what-is-nostr) eigen, wie das technisch möglich wird: dezentral, offen und von der Gemeinschaft getragen.
+Protokolle wie [Nostr](https://nostr.how/de/what-is-nostr) zeigen, wie das technisch möglich wird: dezentral, offen und von der Gemeinschaft getragen.
 
 Das Resultat wäre eine Infrastruktur, die nicht von einzelnen Plattformen, Institutionen oder "Internet-Gebäuden" abhängig ist, sondern von der kollektiven Fürsorge und dem Engagement der Community getragen werden kann – resilient, erneuerbar und offen für alle.
 
