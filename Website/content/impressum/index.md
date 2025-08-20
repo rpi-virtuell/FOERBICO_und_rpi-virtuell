@@ -70,8 +70,6 @@ Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS
 unter https://ec.europa.eu/consumers/odr finden. Zur Teilnahme an einem Streitbeilegungsverfahren
 vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
 
-vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
-
 ----
 
 ![](/images/gefoerdert_vom_bmbfsfj.png)
