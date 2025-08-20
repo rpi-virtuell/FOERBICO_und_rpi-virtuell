@@ -31,9 +31,11 @@ Oder melde dich direkt bei unserem [Team](/unser-team/)!
 
 ----
 
-![](/images/gefoerdert_vom_bmbf.jpg)
+![](/images/gefoerdert_vom_bmbfsfj.png)
 
 Das Projekt FOERBICO wird von Mai 2024 bis Ende April 2027 vom
-[Bundesministerium für Bildung und Forschung (BMBF)](https://www.bmbf.de/)
+[Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ)](https://www.bmfsfj.de/)
 im Rahmen der [OER-Strategie](https://www.oer-strategie.de/) des Bundes unter den
 Förderkennzeichen 01PO23012A, 01PO23012B und 01PO23012C gefördert.
+
+[![](/images/OER_Strategie.png)](https://www.oer-strategie.de/)
