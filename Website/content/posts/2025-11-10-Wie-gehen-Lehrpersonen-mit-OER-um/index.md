@@ -14,6 +14,7 @@ Wenn Lehrpersonen oder Dozierende an Universitäten Unterricht bzw. Seminare vor
 
 Die Entscheidung, ob OER von Lehrpersonen verwendet werden, hängt an der Frage der Qualität. *Admiraal* (2022) hebt hervor, dass Qualitätswahrnehmung von Lehrpersonen mit Blick auf den jeweiligen Schul- und Unterrichtskontext erfolgt. Lehrkräfte bewerten Materialien primär nach der Passung zum eigenen Unterrichtsstil und zu den spezifischen Lernzielen. Offenheit, im Sinne der CC-Lizenzen ist dabei ein Ermöglichungsfaktor, jedoch kein Selbstzweck. > [Dies deckt sich auch mit einigen Aussagen, aus unseren Interview, in denen das Teilen von Material für andere Lehrkräfte im Vordergrund stand und nicht die CC-Lizensierung]. 
 
+Aus den genannten Interviews lässt sich herausarbeiten, dass Unterrichtsmaterial so passend wie möglich zur Lerngruppe ausgewählt und dann mit kleinen Änderungen für den eigenen Unterricht tauglich gemacht wird. Die Weiterentwicklung des Materials, um dies dann erneut online zur Verfügung zu stellen, fände nur selten bis gar nicht statt. Dazu fehlen nach Einschätzung der interviewten Person weitere Hilfestellungen zur Verwendung von CC-Lizenzen und generelles Wissen zu den Möglichkeiten von und mit OER.
 
 ## Barrieren und blinde Flecken
 
