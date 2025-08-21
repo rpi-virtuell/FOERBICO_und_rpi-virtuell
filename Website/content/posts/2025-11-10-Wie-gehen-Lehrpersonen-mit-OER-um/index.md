@@ -17,7 +17,7 @@ Die Entscheidung, ob OER von Lehrpersonen verwendet werden, hängt an der Frage 
 
 ## Barrieren und blinde Flecken
 
-Inzwischen ist durch Studien recht gut belegt, dass strukturelle Hemnisse einen immensen Faktor darstellen, warum OER nicht zum Einsatz kommen (*Baas et al.*, 2022). Hierzu zählen vor allem mangelnde Sichtbarkeit der Materialien, fehlende institutionelle Unterstützung und rechtliche Unsicherheiten. Dies deutet auf infrastrukturelle Defizite hin, die den Einsatz offener Ressourcen nach wie vor zu wenig unterstützen.
+Inzwischen ist durch Studien recht gut belegt, dass strukturelle Hemmnisse einen immensen Faktor darstellen, warum OER nicht zum Einsatz kommen (*Baas et al.*, 2022). Hierzu zählen vor allem mangelnde Sichtbarkeit der Materialien, fehlende institutionelle Unterstützung und rechtliche Unsicherheiten. Dies deutet auf infrastrukturelle Defizite hin, die den Einsatz offener Ressourcen nach wie vor zu wenig unterstützen.
 
 Darüber hinaus herrschen noch immer verbreitete **Lizenzunsicherheiten** selbst unter erfahrenen OER-Nutzenden vor, was die Weitergabe, Bereitstellung und Nachnutzung von Materialien als OER deutlich hemmt (*Admiraal* 2022).
 
