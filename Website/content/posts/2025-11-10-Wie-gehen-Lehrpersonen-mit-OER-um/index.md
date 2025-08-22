@@ -52,12 +52,9 @@ Werden Materialien von vornherein als OER erstellt, erleichtert dies ihre Publik
 
 ## Literatur  
 
-* [Admiraal, W. (2022). *A typology of educators using Open Educational Resources for teaching*. International Journal on Studies in Education 4 (1), 1–23.](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching).
+* [Admiraal, W. (2022). *A typology of educators using Open Educational Resources for teaching*. International Journal on Studies in Education 4 (1), 1–23.](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching)
 * [Baas, M.; Van der Rijst, R.; Huizinga, T.; van der Berg, E.; Admiraal, W. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education*. The Internet and Higher Education 54, 1–14.](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub). 
 * [Buntins, K., Diekmann, D., Klar, M., Rittberger, M., Kerres, M. (2024). «Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland». MedienPädagogik (Occasional Papers): 1–33.](https://doi.org/10.21240/mpaed/00/2024.01.10.X).
 * [Littlejohn, A. & Hood, N. (2017). *How educators build knowledge and expand their practice: The case of open educational resources*. British Journal of Educational Technology 48 (2), 499–510. doi:10.1111/bjet.12438](https://doi.org/10.1111/bjet.12438).
 
-- [Admiraal, W. (2022). *A typology of educators using Open Educational Resources for teaching*. International Journal on Studies in Education 4 (1), 1–23.](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching)  
-- [Baas, M.; Van der Rijst, R.; Huizinga, T.; van der Berg, E.; Admiraal, W. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education*. The Internet and Higher Education 54, 1–14.](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub)  
-- [Buntins, K., Diekmann, D., Klar, M., Rittberger, M., Kerres, M. (2024). «Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland». MedienPädagogik (Occasional Papers): 1–33.](https://doi.org/10.21240/mpaed/00/2024.01.10.X)  
-- [Littlejohn, A. & Hood, N. (2017). *How educators build knowledge and expand their practice: The case of open educational resources*. Computers & Education 117, 90–101.](https://doi.org/10.1016/j.compedu.2017.02.009)  
+ 
