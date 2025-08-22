@@ -1,70 +1,59 @@
-# „Open“ ist eine Haltung: Wie Lehrkräfte mit OER umgehen
+# *Open* ist eine Haltung: Wie Lehrkräfte mit OER umgehen  
 
+OER versprechen weit mehr als den bloßen Zugang zu Unterrichtsmaterialien. Neben der unkomplizierten Verfügbarkeit von Arbeitsblättern, Präsentationen oder Schaubildern verkörpern sie eine bildungstheoretische Vision, die auf **Kollaboration**, **Offenheit** und **Bildungsgerechtigkeit** zielt.  
 
-Offene Bildungsressourcen versprechen mehr als lediglich freien Zugang zu Unterrichtsmaterialien. Zwar ist der unkomplizierte Zugriff auf Arbeitsblätter, Präsentationen oder Schaubilder ein unbestreitbarer Vorteil. Doch OER verkörpern darüber hinaus eine bildungstheoretische Vision, die auf **Kollaboration**, **Offenheit** und **Bildungsgerechtigkeit** zielt. 
+Empirische Studien ([Baas et al. 2022](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub); [Buntins et al. 2024](https://doi.org/10.21240/mpaed/00/2024.01.10.X); [Admiraal 2022](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching)) zeigen jedoch, dass zwischen diesem Anspruch und der Realität schulischer wie hochschulischer Praxis erhebliche Spannungen bestehen. Gerade diese Diskrepanz verweist jedoch auf das Potenzial von OER, einen **kulturellen Wandel** in der Bildung zu initiieren.  
 
-Doch was geschieht, wenn diese Vision auf die Realität schulischer oder hochschulischer Unterrichts- und Lehrpraxis trifft? Empirische Studien von *Baas et al.* (2022), *Buntins et al.* (2024) und *Admiraal* (2022) geben hierzu differenzierte Einblicke. Ihre Befunde zeigen, dass zwischen dem visionären Potenzial von OER und ihrer gelebten Praxis eine deutliche Lücke besteht. Liegt etwa in eben dieser Diskrepanz womöglich der Schlüssel für einen möglichen **kulturellen Wandel** der Bildungskultur?
+## Eine Frage der Ressourcen  
 
+Bisweilen greifen Lehrpersonen und Hochschuldozierende bei der Vorbereitung von Unterricht oder Seminaren überwiegend auf institutionell bereitgestellte Materialien oder Suchergebnisse aus dem Internet zurück. 
+Die gezielte Suche nach OER kommt nur selten vor und ist weniger Ausdruck bewusster Ablehnung als mangelnder Bekanntheit. Wird geeignetes Material gefunden, spielt die ausgewiesene Lizenz meist nur eine untergeordnete Rolle. 
 
-## Eine Frage der Ressourcen
+Viele Lehrende teilen ihre eigenen Materialien zwar bereitwilligen mit Dritten, jedoch ohne ausgewiesene Lizenz, sodass automatisch die Restriktionen des Urheberrechts greifen. Die damit verbundenen Implikationen sind den meisten Lehrenden jedoch nicht bewusst ([vgl. Buntins et al. 2024](https://doi.org/10.21240/mpaed/00/2024.01.10.X)).  
 
-Wenn Lehrpersonen oder Dozierende an Universitäten Unterricht bzw. Seminare vorbereiten, greifen sie dabei primär auf institutionell bereitgestellte, selbst entwickelte oder Materialien aus der Google-Suche zurück. OER stellen im Lehrer:innen- bzw. Dozierendenalltag nach wie vor ein Randphänomen dar, weniger aus Ablehnung, sondern weil das Phänomen nach wie vor noch wenig bekannt ist. Wird geeignetes Material gefunden, spielt die ausgewiesene Lizenz häufig nur eine marginale Rolle [(vgl. Buntins et al. 2024)].
+[Admiraal (2022)](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching) spricht in diesem Zusammenhang von einer sog. *verborgenen* Nutzung. Lehrkräfte greifen auf Materialien zurück, die sie online finden oder von Kolleg:innen erhalten, ohne sich genauer mit den rechtlichen Vorgaben auseinanderzusetzen. 
+Treffen sie zufällig auf OER, ist ihnen das meist gar nicht bewusst. In der Regel verbleibt die Nutzung im Bereich individuellen Konsums oder kleiner Anpassungen. Der Schritt zur aktiven, öffentlichen Gestaltung und Weiterentwicklung von OER bleibt bei den meisten Lehrenden die Ausnahme, obgleich gerade hier das Potenzial für eine Veränderung der Lehr- und Lernkultur liegt ([Littlejohn & Hood 2017](https://doi.org/10.1016/j.compedu.2017.02.009)).  
 
-*Admiraal* (2022) ergänzt, dass der Erstkontakt mit OER bei Lehrpersonen oftmals zufällig erfolgt, etwa durch informelle Netzwerke oder kollegiale Empfehlungen. Kommen also Lehrpersonen mit OER in Kontakt oder gebrauchen diese gar, ist das nicht zwingend das Resultat einer strategischen Medienplanung.
+## Didaktische Passung als Schlüssel
 
-Die Entscheidung, ob OER von Lehrpersonen verwendet werden, hängt an der Frage der Qualität. *Admiraal* (2022) hebt hervor, dass Qualitätswahrnehmung von Lehrpersonen mit Blick auf den jeweiligen Schul- und Unterrichtskontext erfolgt. Lehrkräfte bewerten Materialien primär nach der Passung zum eigenen Unterrichtsstil und zu den spezifischen Lernzielen. Offenheit, im Sinne der CC-Lizenzen ist dabei ein Ermöglichungsfaktor, jedoch kein Selbstzweck. > [Dies deckt sich auch mit einigen Aussagen, aus unseren Interview, in denen das Teilen von Material für andere Lehrkräfte im Vordergrund stand und nicht die CC-Lizensierung]. 
+Ob OER tatsächlich genutzt werden, hängt wesentlich von der Wahrnehmung ihrer **Qualität** im Verhältnis zum eigenen Unterrich ab. ([Admiraal 2022](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching)) hebt hervor, dass sich die zentralen Herausforderungen der Lehrkräfte bei der OER-Nutzung darauf beziehen, geeignete, qualitativ hochwertige und zugleich kontextrelevante Materialien zu finden. 
+Die Qualitätswahrnehmung erfolgt dabei nicht abstrakt, sondern in enger Verbindung zum jeweiligen Schul- und Unterrichtskontext.
+ Materialien müssen anschlussfähig an den eigenen Unterrichtsstil und die spezifischen Lernziele sein. Insofern ist Qualität für Lehrpersonen weniger eine universale Eigenschaft von OER, sondern eine **relationale Kategorie**, die sich aus Passung, Aktualität und situativer Relevanz ergibt. Offenheit im Sinne der Lizenzierung ist dabei ein wesentlicher Ermöglichungsfaktor, sie wird jedoch nicht als Selbstzweck wahrgenommen, sondern tritt hinter der Frage zurück, ob ein Material didaktisch sinnvoll einsetzbar und für die konkrete Lerngruppe geeignet ist.
+ 
 
-Aus den genannten Interviews lässt sich herausarbeiten, dass Lehrkräfte Unterrichtsmaterial so passend wie möglich zur Lerngruppe auswählen und dann mit kleinen Änderungen für den eigenen Unterricht tauglich machen. Die Weiterentwicklung des Materials, um diese dann erneut online zur Verfügung zu stellen, fände nur selten bis gar nicht statt. Dazu fehlen nach Einschätzung der interviewten Person weitere Hilfestellungen zur Verwendung von CC-Lizenzen und generelles Wissen zu den Möglichkeiten von und mit OER. Vor allem werden aber technische Hürden genannt, die durch fehlende Kenntnisse und unausreichende Auseinandersetzung der Lehrkräfte auch weiterhin bestehen.
+## Barrieren und blinde Flecken  
 
+Studien verweisen zunehmend auf strukturelle Hemmnisse als zentrale Ursache für die bislang eingeschränkte Nutzung von OER. [Baas et al. (2022)](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub) zeigen, dass Lehrende insbesondere mit der begrenzten Sichtbarkeit und Auffindbarkeit qualitativ geeigneter Materialien konfrontiert sind, da relevante und aktuelle Ressourcen häufig schwer zugänglich sind (vgl. Baas et al. 2022, 7). 
 
-## Barrieren und blinde Flecken
+Darüber hinaus mangelt es weitestgehend noch immer an einer systematischen institutionellen Unterstützung. Fortbestehende rechtliche und technische Unsicherheiten, etwa im Hinblick auf offene Lizenzen und Fragen der Implementierung in bestehende Curricula stellen eine Hürde für Lehrende dar. Diese Bedingungen hemmen nach wie vor die nachhaltige Integration offener Bildungsressourcen in den Schul- und Hochschulkontext. Selbst unter erfahrenden OER-Nutzenden herrschen noch immer Lizenzunsicherheiten vor (vgl. [Admiraal 2022](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub)).  
 
-Inzwischen ist durch Studien recht gut belegt, dass strukturelle Hemmnisse einen immensen Faktor darstellen, warum OER nicht zum Einsatz kommen (*Baas et al.*, 2022). Hierzu zählen vor allem mangelnde Sichtbarkeit der Materialien, fehlende institutionelle Unterstützung und rechtliche Unsicherheiten. Dies deutet auf infrastrukturelle Defizite hin, die den Einsatz offener Ressourcen nach wie vor zu wenig unterstützen.
+## Von der Ressource zur offenen Praxis  
 
-Darüber hinaus herrschen noch immer verbreitete **Lizenzunsicherheiten** selbst unter erfahrenen OER-Nutzenden vor, was die Weitergabe, Bereitstellung und Nachnutzung von Materialien als OER deutlich hemmt (*Admiraal* 2022).
+OER entfalten ihr transformatives Potenzial erst, wenn sie nicht lediglich als konsumierbare Materialien verstanden, sondern in **offene Bildungspraktiken**, sog. OEP eingebettet werden. Damit sind z.B. Prozesse der Adaption, Weiterentwicklung, Veröffentlichung und kooperativen Gestaltung gmeint. Die Studien von [Buntins et al. (2024)](https://doi.org/10.21240/mpaed/00/2024.01.10.X) und Admiraal (2022) zeigen jedoch, dass Lehrkräfte OER bislang überwiegend adaptieren oder rezipieren, während eigenständige Produktion und kollaborative Entwicklung marginal bleiben. 
+Auch das Teilen erfolgt meist innerhalb vertrauter schulischer Netzwerke, während öffentliche Plattformen (aufgrund fehlender rechtlicher Kenntnisse) selten genutzt werden.  
 
+Gerade hierin liegt jedoch eine Chance. Werden Lehrkräfte systematisch in offenen Praktiken unterstützt, z.B. durch rechtliche Orientierung, niedrigschwellige technische Lösungen und kollaborative Formate, können OER zu **Motoren einer innovationsorientierten Bildungskultur** werden. 
+[Baas et al. (2022)](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub) betonen, dass kollaborative Prozesse nicht nur Materialien verbessern, sondern auch Perspektivenvielfalt integrieren und Qualitätsmaßstäbe gemeinsam aushandeln. Dies verändert zugleich die professionelle Selbstwahrnehmung von Lehrkräften, von Materialnutzenden hin zu **Ko-Produzent:innen und Qualitätsgestalter:innen**.
 
-## Von der Ressource zur offenen Praxis
+## Offenheit als Kulturwandel: Religionspädagogische Perspektiven  
 
-Die Praxis von Lehrpersonen zeigt deutlich, dass Offenheit kein Selbstläufer darstellt. Kommt es zum Einsatz von OER in der Schul- und Lehrpraxis, wird jedoch auch deutlich, dass OER noch immer hinter ihrem Potenzial zurückbleiben. Selbst qualitativ hochwertige OER werden nicht automatisch zu Treibern innovativer Lehr-Lern-Kulturen, solange sie primär als fertige, unveränderliche Produkte verstanden werden.  
+Nachhaltige OER-Integration in die eigene Lehrpraxis sowie das Bereitstellen von Materialien erfordert einen **Paradigmenwechsel**: Offenheit muss als professionelle Norm etabliert und durch institutionelle Anerkennung, infrastrukturelle Rahmenbedingungen sowie gezielte Kompetenzentwicklung gestützt werden. Offenheit ist kein Automatismus, sondern eine **Haltung**, die z.B. in Workshops und Fortbildungen erlernt und eingeübt werden muss.  
 
-Offene Bildungsressourcen entfalten ihr volles transformatives Potenzial erst dann, wenn sie in offene Bildungspraktiken eingebettet werden, also in Lehr-Lern-Arrangements, die auf Adaption, Weiterentwicklung, Publikation und kollaborative Gestaltung setzen. 
-Die Befunde von [Buntins et al. (2024)](file:///Users/lauramossle/Downloads/1768_Buntins+et+al_final.pdf) unterstreichen dies: Lehrkräfte in Deutschland nutzen OER eher selten aktiv. Am häufigsten passen sie bestehende offene Materialien an, gefolgt von der reinen Nutzung fremder OER. Die eigenständige Erstellung und Bereitstellung offener Materialien ist hingegen deutlich seltener, ebenso die kooperative Entwicklung. Auch das Wissen über Lizenzvarianten ist gering und bei der Onlinesuche achten Lehrkräfte nur in begrenztem Maße auf offene Lizenzen.  
+Gerade in der **Religionspädagogik** bieten OER besondere Chancen, die den zusätzlichen Aufwand ihrer Erstellung und die Suche nach OER für die Lehrpraxis rechtfertigen. Sie eröffnen didaktische und strukturelle Handlungsräume, die über traditionelle Materialien hinausgehen:
 
-Auch *Admiraal* (2022) kommt zu ähnlichen Ergebnisse und entwirft eine **Typologie von OER-Nutzenden**, die sich nach dem Grad ihrer Partizipation unterscheiden:  
+1. **Kontextualisierte Materialien**: OER können passgenau auf die jeweilige Zielgruppe, den religiösen Kontext und spezifische Lernbedarfe zugeschnitten werden.
+2. **Kollaborative Entwicklung**: Offene Plattformen wie rpi-virtuell ermöglichen die gemeinschaftliche Erstellung, Pflege und Weiterentwicklung religionspädagogischer Materialien über Institutions- und Konfessionsgrenzen hinweg.
+3. **Partizipative Lernprozesse**: Lernende können aktiv in die Materialentwicklung eingebunden werden.
+4. **Machtsensible Gestaltung**: Kollaborative OER-Produktion eröffnet vielfältigen Stimmen Raum und trägt dazu bei, unterschiedliche Perspektiven sichtbar zu machen und Stereotypisierungen zu vermeiden.
+5. **Aktualität**: Durch ihre Offenheit lassen sich OER flexibel an bildungstheoretische Konzepte, länderspezifische Lehrpläne oder aktuelle gesellschaftliche Entwicklungen anpassen.
 
-- **Retain & Consume**: OER werden genutzt, aber unverändert beibehalten (ca. **16 %** der Befragten).  
-- **Adapt & Re-use**: Bestehende Materialien werden an den eigenen Kontext angepasst und erneut verwendet (die größte Gruppe mit ca. **47 %**).  
-- **Create & Add** – Neue Materialien werden entwickelt und in offene Repositorien eingestellt (ca. **12 %**).  
-- **Publish & Comment** – Neben dem Erstellen und Veröffentlichen findet auch ein aktiver Austausch und kollektives Kommentieren in offenen Communities statt (ca. **11 %**).  
+In diesem Sinn ist *open* keine rein technische oder rechtliche Kategorie, sondern eine **pädagogische Haltung** und damit ein Bekenntnis zu einer Bildungskultur, die Teilhabe nicht nur ermöglicht, sondern als grundlegendes Prinzip begreift. 
+Werden Materialien von vornherein als OER erstellt, erleichtert dies ihre Publikation. Langfristiges Ziel ist es, Lehrpersonen darin zu unterstützen, offene Praktiken als Bestandteil ihrer Lehrpraxis zu gestalten.
 
-Die Übersicht verdeutlicht, dass fast zwei Drittel der Lehrenden sich im Bereich des individuellen Konsums und der Anpassung bewegen, während nur ein kleinerer Anteil den Schritt in die öffentliche, kollaborative Gestaltung wagt. Dies ist dahingehend hemmend für die Weiterentwicklung von der Lehr- und Lernpraxis, da eine Veränderung der Bildungskultur nicht durch Materialien wie OER vorangetrieben wird, sondern durch das Engagement der Pädagog:innen, die den letzteren Schritt wagt (Littlejohn & Hood 2017: 506 f.).  
+## Literatur  
 
-Gerade hier liegt jedoch nach *Baas et al.* (2022) das größte Innovationspotenzial: In kollaborativen Prozessen werden Qualitätsdimensionen gemeinsam verhandelt, Perspektivenvielfalt integriert und Materialien kontinuierlich verbessert. Dieser Schritt von der Ressource zur Praxis verändert nicht nur die Unterrichtsmaterialien, sondern auch die professionelle Selbstwahrnehmung der Lehrkräfte – von Materialnutzer:innen hin zu Ko-Produzent:innen und Qualitätsprüfer:innen.  
-
-Wer OER nicht nur verwendet, sondern aktiv gestaltet, benötigt neben Zugang und Qualitätsbewusstsein auch institutionelle Unterstützung, Rechtssicherheit und kollegiale Netzwerke. Kooperative Entwicklungsprozesse steigern die Qualität und Innovationskraft von OER. Kollegiale Netzwerke fungieren dabei als Katalysatoren, indem sie Perspektivenvielfalt und geteilte Verantwortung in den Produktionsprozess einbringen (Admiraal 2022). Erst diese Kombination ermöglicht, dass Offenheit zu einer gelebten pädagogischen Haltung wird.  
-
-
-## Offenheit als Kulturwandel: Religionspädagogische Perspektiven
-Sowohl *Baas et al.* (2022) als auch *Admiraal* (2022) betonen, dass nachhaltige OER-Integration einen **Paradigmenwechsel** erfordert. Offenheit muss als **professionelle Norm** verankert werden, unterstützt durch institutionelle Anerkennung, infrastrukturelle Rahmenbedingungen und  Kompetenzentwicklung. Erst dann wird das Teilen von Materialien zu einer selbstverständlichen pädagogischen Praxis. > Diese Offenheit ist jedoch kein Automatismus, aus unserer Erfahrung mit Communities sowie Personen die Material für den Kontext von Schule und Lehre erstellen, es ist etwas, das erlernt und geübt werden muss.
-
-Für Religionslehrkräfte eröffnen sich kreative Handlungsräume, die sich trotz nachvollziehbarer Hemmnisse dennoch lohnen:  
-
-- **Kontextualisierte Materialien**: OER ermöglichen die flexible Anpassung an unterschiedliche konfessionelle, interreligiöse oder pluralitätsorientierte Unterrichtskontexte
-- **Kollaborative Materialentwicklung**: Offene Plattformen wie rpi-virtuell erlauben die Erstellung und gemeinsame Pflege religionspädagogischer Materialien über Schul- und Gemeindegrenzen hinweg
-- **Partizipative Lernprozesse**: Lernende können aktiv in die Erstellung religionspädagogischer Bildungsressourcen eingebunden werden, bspw. bei Erklärvideos oder Glossaren 
-  
-
-*Open* ist in diesem Sinn keine rein technische oder rechtliche Kategorie, sondern eine pädagogische Haltung, ein Bekenntnis zu einer Bildungskultur, die Teilhabe nicht nur ermöglicht, sondern als grundlegendes Prinzip pädagogischen Handelns versteht.
-
-Wenn Material für die eigene Lerngruppen erstellt wird und dabei im Hintergrund der Gedanke der Veröffentlichung steht, fällt es leichter das Material direkt *open* zu gestalten. Dadurch muss das Material nicht erst angepasst werden, sondern es wird von vornherein darauf geachtet, *offen* zu gestalten. Somit wäre unser Ziel Lehrpersonen soweit zu beraten, dass sie diese Prozesse in ihren eigenen Vorgang der  Materialerstellung bzw. bei Veränderung anderen Materials einbinden. 
-
-
-## Literatur
-
-- Admiraal, W. (2022). *A typology of educators using Open Educational Resources for teaching*.  
-- Baas, M., et al. (2022). *Qualitätskriterien und Reflexionsprozesse in der OER-Nutzung von Lehrkräften*.  
-- Buntins, K., Diekmann D., Klar M., Rittberger M., Kerres M. (2024). «Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland». MedienPädagogik (Occasional Papers): 1–33.
-https://doi.org/10.21240/mpaed/00/2024.01.10.X.
-- Littlejohn & Hood (2017). *How educators build knowledge and expand their practice: The case of open education resources* 
+* [Admiraal, W. (2022). *A typology of educators using Open Educational Resources for teaching*. International Journal on Studies in Education 4 (1), 1–23.](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching).
+* [Baas, M.; Van der Rijst, R.; Huizinga, T.; van der Berg, E.; Admiraal, W. (2022). *Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education*. The Internet and Higher Education 54, 1–14.](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub). 
+* [Buntins, K., Diekmann, D., Klar, M., Rittberger, M., Kerres, M. (2024). «Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland». MedienPädagogik (Occasional Papers): 1–33.](https://doi.org/10.21240/mpaed/00/2024.01.10.X).
+* [Littlejohn, A. & Hood, N. (2017). *How educators build knowledge and expand their practice: The case of open educational resources*. British Journal of Educational Technology 48 (2), 499–510. doi:10.1111/bjet.12438](https://doi.org/10.1111/bjet.12438).
 
