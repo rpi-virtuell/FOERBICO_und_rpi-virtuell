@@ -14,7 +14,8 @@ Wenn Lehrpersonen oder Dozierende an Universitäten Unterricht bzw. Seminare vor
 
 Die Entscheidung, ob OER von Lehrpersonen verwendet werden, hängt an der Frage der Qualität. *Admiraal* (2022) hebt hervor, dass Qualitätswahrnehmung von Lehrpersonen mit Blick auf den jeweiligen Schul- und Unterrichtskontext erfolgt. Lehrkräfte bewerten Materialien primär nach der Passung zum eigenen Unterrichtsstil und zu den spezifischen Lernzielen. Offenheit, im Sinne der CC-Lizenzen ist dabei ein Ermöglichungsfaktor, jedoch kein Selbstzweck. > [Dies deckt sich auch mit einigen Aussagen, aus unseren Interview, in denen das Teilen von Material für andere Lehrkräfte im Vordergrund stand und nicht die CC-Lizensierung]. 
 
-Aus den genannten Interviews lässt sich herausarbeiten, dass Unterrichtsmaterial so passend wie möglich zur Lerngruppe ausgewählt und dann mit kleinen Änderungen für den eigenen Unterricht tauglich gemacht wird. Die Weiterentwicklung des Materials, um dies dann erneut online zur Verfügung zu stellen, fände nur selten bis gar nicht statt. Dazu fehlen nach Einschätzung der interviewten Person weitere Hilfestellungen zur Verwendung von CC-Lizenzen und generelles Wissen zu den Möglichkeiten von und mit OER.
+Aus den genannten Interviews lässt sich herausarbeiten, dass Lehrkräfte Unterrichtsmaterial so passend wie möglich zur Lerngruppe auswählen und dann mit kleinen Änderungen für den eigenen Unterricht tauglich machen. Die Weiterentwicklung des Materials, um diese dann erneut online zur Verfügung zu stellen, fände nur selten bis gar nicht statt. Dazu fehlen nach Einschätzung der interviewten Person weitere Hilfestellungen zur Verwendung von CC-Lizenzen und generelles Wissen zu den Möglichkeiten von und mit OER. Vor allem werden aber technische Hürden genannt, die durch fehlende Kenntnisse und unausreichende Auseinandersetzung der Lehrkräfte auch weiterhin bestehen.
+
 
 ## Barrieren und blinde Flecken
 
@@ -56,6 +57,7 @@ Für Religionslehrkräfte eröffnen sich kreative Handlungsräume, die sich trot
 
 *Open* ist in diesem Sinn keine rein technische oder rechtliche Kategorie, sondern eine pädagogische Haltung, ein Bekenntnis zu einer Bildungskultur, die Teilhabe nicht nur ermöglicht, sondern als grundlegendes Prinzip pädagogischen Handelns versteht.
 
+Wenn Material für die eigene Lerngruppen erstellt wird und dabei im Hintergrund der Gedanke der Veröffentlichung steht, fällt es leichter das Material direkt *open* zu gestalten. Dadurch muss das Material nicht erst angepasst werden, sondern es wird von vornherein darauf geachtet, *offen* zu gestalten. Somit wäre unser Ziel Lehrpersonen soweit zu beraten, dass sie diese Prozesse in ihren eigenen Vorgang der  Materialerstellung bzw. bei Veränderung anderen Materials einbinden. 
 
 
 ## Literatur
