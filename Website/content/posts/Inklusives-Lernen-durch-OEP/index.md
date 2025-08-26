@@ -1,4 +1,3 @@
-
 # Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens  
 
 ## Von der Illusion der Offenheit  
@@ -48,17 +47,23 @@ Nicht jede offene Praxis ist also automatisch gerecht. Erst wenn Fragen nach Zug
 
 ## Kriterien für Inklusionssensibilität: Was Materialien leisten müssen  
 
-Pieper et al. (2023) machen deutlich, dass OER nur dann ihr inklusives Potenzial entfalten, wenn sie bestimmte Qualitätsanforderungen erfüllen. Diese Kriterien gehen über rein technische oder inhaltliche Aspekte hinaus und betreffen die didaktische, soziale und kulturelle Dimension von Lernprozessen.  
+Wenn es nun doch konkret um die Gestaltung von Materialien geht, stellt sich die Frage nach Kriterien, die für inklusionssensible Bildungsmaterialien beachtet werden müssen. Einen ersten Katalog mit sechs Basiskriterien stellt das Forschungs- und Entwicklungsprojekt **ITM – Inklusiv-Transformative Materialien** (2018–2021) bereit. Ziel dieser Kriterien war es, Qualitätsmaßstäbe für Unterrichtsmaterialien zu erarbeiten, die Inklusion nicht nur im engeren Sinn mit Blick auf Behinderung begreifen, sondern in einem weiten Verständnis von Heterogenität und Differenz berücksichtigen.
+Pieper et al. entwickelten Basiskriterien im Projekt **DigiLLM** mit Blick auf digitale Kontexte und OER weiter. Dabei kamen Aspekte hinzu, die für offene und digitale Bildung zentral sind, etwa die Frage nach Agency der Lernenden, der kritischen Reflexion digitaler Technologien oder der Transparenz über den gesamten Lebenszyklus von Materialien.  
 
-- **Adaptivität**: Materialien müssen so gestaltet sein, dass sie flexibel an unterschiedliche Lernvoraussetzungen angepasst werden können. Das betrifft nicht nur Lesbarkeit, Sprache oder Niveau, sondern ebenso die Möglichkeit, Inhalte zu kürzen, zu erweitern oder in andere Kontexte zu übertragen. Adaptivität bedeutet damit, individuelle Lernwege ernst zu nehmen und Heterogenität als Ausgangspunkt zu verstehen.  
+Die folgende Tabelle stellt sechs Basiskriterien sowie ihre digitalen Erweiterungen dar und erläutert, welche Überlegungen jeweils damit verbunden sind.
 
-- **Selbstwirksamkeit**: Materialien sollen Lernende nicht in einer passiven Rolle belassen, sondern sie aktiv ermutigen, Fragen zu stellen, eigene Zugänge zu entwickeln und ihre Stimmen einzubringen. In digitalen Kontexten geht es noch stärker um **Agency**, also um die Fähigkeit, Lernprozesse eigenständig mitzugestalten. 
 
-- **Lernstandsüberprüfung**: Inklusionssensible Materialien regen Lernende an, über das eigene Lernen nachzudenken und dabei auch Macht- und Wissensverhältnisse kritisch zu reflektieren. Im digitalen Raum bedeutet dies **Self-reflection**: die Fähigkeit, Technologien nicht nur zu nutzen, sondern ihre gesellschaftlichen Implikationen, Chancen und Risiken bewusst zu hinterfragen.  
+| Basiskriterium (ITM)          | Erweiterung im digitalen Kontext (DigiLLM) | Erklärung |
+|-------------------------------|--------------------------------------------|-----------|
+| **Individuenbezogene Adaptivität** | Berücksichtigung digitaler Ungleichheiten (z. B. Geräte, Internet, Barrierefreiheit) | Materialien sollen an individuelle Lernbedarfe anschlussfähig sein, etwa durch unterschiedliche Niveaus, Sprachen oder Darstellungsweisen. Im digitalen Kontext umfasst dies zusätzlich die Reflexion struktureller Ungleichheiten beim Zugang zu Endgeräten, Netzen und barrierefreien Formaten. |
+| **Umfeldbezogene Adaptivität** | Reflexion digitaler Lernumgebungen, Plattformen und technischer Infrastrukturen | Materialien müssen in unterschiedlichen schulischen, sozialen und kulturellen Kontexten einsetzbar sein. Mit Blick auf digitale Bildung bedeutet dies, auch technische Plattformen, Software-Umgebungen und institutionelle Rahmenbedingungen kritisch einzubeziehen. |
+| **Metakognition** | **Self-reflection**: kritischer Umgang mit digitalen Technologien und Fragen von *knowledge equity* | Materialien sollen Lernende dabei unterstützen, ihr eigenes Lernen zu reflektieren. In digitalen Kontexten erweitert sich dies zur kritischen Auseinandersetzung mit Wissensbeständen, Datenpraktiken und Machtverhältnissen im digitalen Raum. |
+| **Selbstwirksamkeit** | **Agency**: Lernende als aktive Mitgestaltende | Materialien sollen Lernende ermutigen, ihr Lernen aktiv zu gestalten und Vertrauen in die eigenen Fähigkeiten zu entwickeln. Digital erweitert sich dies zur Agency: Lernende können OER nicht nur nutzen, sondern auch selbst produzieren, anpassen oder bewusste Entscheidungen treffen |
+| **Lernstandsüberprüfung** | **Feedback**: Rückmeldungen nicht nur zum Lernstand, sondern auch zum Material selbst | Materialien sollen differenzierte und multimodale Formen der Rückmeldung ermöglichen, die Lernwege sichtbar machen. Im digitalen Kontext wird daraus eine Feedbackkultur, die zusätzlich die Weiterentwicklung der Materialien selbst einschließt, z. B. durch Kommentare, Adaptionen oder Nachnutzungen. |
+| **Konzeptionelle Erläuterungen** | **Philosophy**: Transparenz über den gesamten Material-Lebenszyklus | Materialien sollen ihre didaktischen Zielsetzungen und Begründungen transparent machen. In digitalen Kontexten bedeutet dies zudem, offen zu legen, wie Materialien entstehen, verändert und weiterverwendet werden, sodass ihre Entwicklungsgeschichte nachvollziehbar bleibt. |
 
-- **Feedback**: Materialien müssen Rückmeldungen in mehrfacher Hinsicht ermöglichen. Sie sollen Lernenden helfen, ihren Lernstand einzuschätzen, zugleich aber auch die Weiterentwicklung des Materials selbst unterstützen. Feedback ist hier nicht nur Korrektur, sondern Teil einer offenen Feedbackkultur, die Materialien lebendig hält und durch Rückmeldungen von Lernenden, Lehrenden und Communities kontinuierlich verbessert.  
 
-Diese Kriterien bilden in ihrer Gesamtheit eine Reflexionsfolie für die Gestaltung inklusiver Materialien. Sie zeigen, dass Inklusionssensibilität nicht als ein feststehendes Label verstanden werden darf, sondern als Prozess, als offene Praktik, in der Materialien stets auf ihre Passung, ihre Anschlussfähigkeit und ihre Wirkung auf unterschiedliche Lernende hin überprüft und weiterentwickelt werden.  
+Diese Kriterien bilden in ihrer Gesamtheit eine Reflexionsfolie für die Gestaltung inklusiver Materialien. Sie zeigen, dass Inklusionssensibilität als Prozess und als Praktik zu verstehen sind, in der Materialien stets auf ihre Passung, ihre Anschlussfähigkeit und ihre Wirkung auf unterschiedliche Lernende hin überprüft und weiterentwickelt werden.  
 
 
 ## Offenheit braucht Haltung  
