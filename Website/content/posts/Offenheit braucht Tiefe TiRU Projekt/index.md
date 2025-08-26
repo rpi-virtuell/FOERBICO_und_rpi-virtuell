@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 type: ScholarlyArticle
 id: https://oer.community/digitale-offenheit-braucht-tiefe
-name: 'Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt'
+name: 'Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität umsetzt'
 description: >-
   Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird exemplarisch ein prozessbegleitender Ansatz zur Qualitätssicherung vorgestellt, der im Rahmen des FOERBICO-Projekts durch die Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
 inLanguage: de
@@ -33,7 +33,7 @@ datePublished: '2025-10-10'
 author:
   - Dr. Laura Mößle
   - Paula Paschke
-title: 'Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt'
+title: 'Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität umsetzt'
 cover:
   relative: true
   image: check-306411_1280.png
@@ -50,7 +50,7 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-# Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen
+# Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen
 
 ## OER-Qualität als Entwicklungsaufgabe religionspädagogischer Bildungsressourcen
 
