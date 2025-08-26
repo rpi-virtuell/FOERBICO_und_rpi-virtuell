@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 type: ScholarlyArticle
 id: https://oer.community/digitale-offenheit-braucht-tiefe
-name: 'Digitale Offenheit braucht Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen'
+name: 'Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt'
 description: >-
   Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird exemplarisch ein prozessbegleitender Ansatz zur Qualitätssicherung vorgestellt, der im Rahmen des FOERBICO-Projekts durch die Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
 inLanguage: de
@@ -33,7 +33,7 @@ datePublished: '2025-10-10'
 author:
   - Dr. Laura Mößle
   - Paula Paschke
-title: 'Digitale Offenheit braucht Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen'
+title: 'Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt'
 cover:
   relative: true
   image: check-306411_1280.png
@@ -50,18 +50,18 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-# Digitale Offenheit braucht Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen
+# Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität in der Religionspädagogik umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen
 
 ## OER-Qualität als Entwicklungsaufgabe religionspädagogischer Bildungsressourcen
 
-Die wachsende Verbreitung von Open Educational Resources (OER) eröffnet in der Lehrer:innenbildung neue didaktische Gestaltungsräume, stellt jedoch zugleich anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer, also religionspädagogischer Qualitätsdimensionen zunehmend an Bedeutung.  
+Die wachsende Verbreitung von Open Educational Resources (OER) eröffnet in der Lehrer:innenbildung neue didaktische Gestaltungsräume, stellt jedoch zugleich anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer, also religionspädagogischer Qualitätsdimensionen an Bedeutung.  
 
-Wie sich diese unterschiedlichen Facetten in einem qualitätsorientierten Entwicklungsprozess verbinden lassen, zeigt exemplarisch das Projekt **TiRU (Tablets im Religionsunterricht)** an der Goethe-Universität Frankfurt. Die dort entwickelten Materialien wurden im Rahmen des FOERBICO-Projekts einer Beratung unterzogen, gestützt auf die eigens erarbeitete Handreichung zu OER-Qualitätskriterien. Der vorliegende Beitrag dokumentiert diesen Prozess, reflektiert die identifizierten Gelingensbedingungen und verdeutlicht, wie Qualität in offenen Bildungsressourcen nicht nur überprüft, sondern als integraler Bestandteil ihrer Konzeption aktiv gestaltet werden kann.  
+Wie sich diese unterschiedlichen Facetten in einem qualitätsorientierten Entwicklungsprozess verbinden lassen, zeigt exemplarisch das Projekt **TiRU (Tablets im Religionsunterricht)** an der Goethe-Universität Frankfurt. Die dort entwickelten Materialien wurden im Rahmen des FOERBICO-Projekts einer systematischen Beratung unterzogen, gestützt auf die eigens erarbeitete Handreichung zu OER-Qualitätskriterien. Der vorliegende Beitrag dokumentiert diesen Prozess, reflektiert die identifizierten Gelingensbedingungen und verdeutlicht, wie Qualität in offenen Bildungsressourcen nicht nur überprüft, sondern als integraler Bestandteil ihrer Konzeption aktiv gestaltet werden kann.  
 
 
 ## Das Projekt TiRU: Tablets im Religionsunterricht
 
-Im Projekt **TiRU (Tablets im Religionsunterricht)** wird seit 2022 an der Goethe-Universität Frankfurt ein innovatives, sechssemestriges fachdidaktisches Lehr-Lern-Laboratorium umgesetzt. Unter Leitung von Prof. Viera Pirker und Umsetzung von Paula Paschke wurden innovate religionspädagogische Lernmaterialien für den Einsatz in Tabletklassen entwickelt. Ziel von TiRU ist es, Digitalkompetenz, theologische Reflexion und mediendidaktische Expertise praxisnah zu verbinden und die entstandenen Materialien als barrierearme, diversitätssensible OER verfügbar zu machen. Das Projekt orientiert sich konsequent an einer offenen Bildungskultur, adressiert lebenslanges Lernen durch phasenübergreifende Nutzbarkeit der Inhalte in Studium, Referendariat und Fortbildung und stellt alle erarbeiteten Inhalte als OER bereit.
+Im Projekt **TiRU (Tablets im Religionsunterricht)** wird seit 2022 an der Goethe-Universität Frankfurt ein innovatives, sechssemestriges fachdidaktisches Lehr-Lern-Laboratorium umgesetzt. Unter Leitung von Prof. Viera Pirker und Umsetzung von Paula Paschke wurden OER entwickelt, die fachdidaktische und fachwissenschaftliche Perspektiven auf den Einsatz von Tablets in der religionspädagogischen Lehrkräftebildung zusammenbringen. Ziel von TiRU ist es, Digitalkompetenz, theologische Reflexion und mediendidaktische Expertise praxisnah in Seminaren zu verbinden und die daraus entwickelten Materialien als barrierearme OER verfügbar zu machen. Das Projekt orientiert sich konsequent an einer offenen Bildungskultur, adressiert lebenslanges Lernen durch phasenübergreifende Nutzbarkeit der Inhalte in Studium, Referendariat und Fortbildung und stellt alle erarbeiteten Inhalte als OER bereit. Adressiert werden durch die OER-Selbstlernkurse Lehramtsstudierende an anderen Hochschulstandorten, Lehrkräfte in den weiteren Phasen der Lehrkräftebildung oder andere Einzelpersonen im Selbststudium.
 
 
 ## Beratung und Qualitätsentwicklung im Rahmen von FOERBICO
@@ -80,11 +80,11 @@ Die Handreichung gliedert die Qualitätskriterien in vier Dimensionen:
 
 ## TiRU als Modellprojekt für OER-Qualität
 
-Die Beratung des TiRU Projekts fungiert dabei als Modellprojekt für die praxisnahe Erprobung und Validierung der im FOERBICO-Projekt entwickelten OER-Qualitätskriterien. Es trägt wesentlich zur Schärfung  der Qualitätsdimensionen bei, bspw. mit Blick auf Lizenfragen oder zum Umgang mit Bildern und oder fachspezifischer Elemente. 
+Die Beratung des TiRU Projekts fungiert dabei als Modellprojekt für die praxisnahe Erprobung und Validierung der im FOERBICO-Projekt entwickelten OER-Qualitätskriterien. Es trägt wesentlich zur Schärfung  der Qualitätsdimensionen bei, bspw. mit Blick auf Lizenfragen oder zum Umgang mit Bildern und oder fachspezifischer Elemente. Bereits im Zuge der Entwicklung der OER befassten sich die Verantwortlichen des Projektes TiRU mit bereits vorhandenen Qualitätskriterien zu OER. Ihnen fehlte es zu diesem Zeitpunkt jedoch an fachspezifischen Auseinandersetzungen mit diesen Fragestellungen. Zudem konnte mithilfe des Programms "Zeit für Lehre" eine studentische Hilfskraft eingestellt werden, die die Barrierefreiheit der Materialien überprüfte und weiterentwickelte.
 
 ## Qualitätsprüfung und offene Punkte
 
-Die Beratung der TiRU-Materialien anhand der FOERBICO-Handreichung zu OER-Qualitätskriterien zeigte: Die Materialien sind bereits rechtlich solide, technisch tragfähig und nachhaltig angelegt sowie didaktisch und religionspädagogisch durchdacht. Die Materialien verdeutlichen beispielsweise die Anschlussfähigkeit biblischer Zeugnisse an heutige Fragen und Lebenssituationen, bieten Möglichkeiten zum Perspektivwechsel und regen zu reflektierten Urteilen an.
+Die Beratung der TiRU-Materialien anhand der FOERBICO-Handreichung zu OER-Qualitätskriterien zeigte: Die Materialien sind bereits rechtlich solide, technisch tragfähig und nachhaltig angelegt sowie didaktisch und religionspädagogisch durchdacht. Die Materialien zum biblischen Lernen in Tabletumgebungen orientieren sich beispielsweise an den heutige Fragen und Lebenssituationen der Studierenden, bieten Möglichkeiten zum Perspektivwechsel und regen zu reflektierten Urteilen an.
 Dennoch offenbarten sich im Detail feine Stellschrauben, an denen sich die Qualität weiter schärfen lässt. Diese lassen sich in vier zentrale Handlungsfelder bündeln:  
 
 **Rechtliche Präzisierung**  
@@ -97,19 +97,15 @@ Dennoch offenbarten sich im Detail feine Stellschrauben, an denen sich die Quali
 -   - Integration standardisierter Metadaten (Titel, Urheber:in, Lizenz, Format, Zielgruppe)    
    - Sicherstellung der Bereitstellung in offenen, weit verbreiteten Dateiformaten  
    - Gewährleistung der Exportierbarkeit von H5P-Elementen  
-   - Einsatz barrierefreier, offen lizenzierter Schriftarten  
-   - Gut lesbare Schriftart mit offener Lizenzierung, siehe hierzu: (offene Schriftarten)[https://open-educational-resources.de/texte-und-schriftarten] 
+   - Einsatz offen lizenzierter Schriftarten  
+   - Gut lesbare Schriftart mit offener Lizenzierung (Bei Downloads von PPP und Word vor allem, siehe hierzu: https://open-educational-resources.de/texte-und-schriftarten 
 
-**Pädagogisch-didaktische und religionspädagogische Tiefe**  
-- (Binnen-)Differenzierung der Materialien, um unterschiedliche Lernniveaus, Hintergründe und Lernstile gezielt zu adressieren  
-- Integration vielfältiger religiöser, kultureller und weltanschaulicher Perspektiven  
-
-Die Umsetzung dieser Maßnahmen verfolgt eine doppelte Zielsetzung: Sie stellt nicht nur rechtliche Klarheit, technische Resilienz und pädagogische Kohärenz sicher, sondern hebt die TiRU-Materialien zugleich auf ein Niveau, das sie als Referenzmodell für OER in der religionspädagogischen Bildung ausweist. Die aus diesem Prozess gewonnenen Einsichten fließen zurück in die Weiterentwicklung der FOERBICO-Handreichung, stärken deren Praxistauglichkeit und tragen so zur Weiterentwicklung belastbarer Qualitätskriterien für kommende OER-Initiativen bei.
+Die Umsetzung dieser Maßnahmen verfolgt eine doppelte Zielsetzung: Sie stellt nicht nur rechtliche Klarheit, technische Resilienz und pädagogische Kohärenz sicher, sondern hebt die TiRU-Materialien zugleich auf ein Niveau, das sie als Referenzmodell für OER in der religionspädagogischen Bildung ausweist. Die aus dem Beratungsprozess gewonnenen Einsichten fließen zurück in die Weiterentwicklung der FOERBICO-Handreichung, stärken deren Praxistauglichkeit und tragen so zur Weiterentwicklung belastbarer Qualitätskriterien für kommende OER-Initiativen bei.
 
 
 ### Save the Date: TiRU-Launch im Oktober 2025
 
-Im Oktober 2025 werden die TiRU-Materialien offiziell an der **Goethe-Universität Frankfurt** gelauncht. Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und Feedback zu geben. Details zur Anmeldung folgen in Kürze.
+Am 16. Oktober 2025 werden die TiRU-Materialien offiziell an der **Goethe-Universität Frankfurt** gelauncht. Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und in den offenen Austausch zu treten. Details zur Anmeldung folgen in Kürze.
 
 ## Fazit: Qualität als konstitutives Prinzip
 
@@ -117,5 +113,6 @@ Die im Projekt TiRU entwickelten OER-Materialien – ebenso wie das ebenfalls an
 
 Die im Rahmen des FOERBICO-Projekts entwickelten Qualitätsdimensionen verdeutlichen, dass Qualität im OER-Kontext nicht als nachträgliche Ergänzung („Add-on“) zu verstehen ist. Vielmehr stellt sie ein konstitutives Prinzip dar, das die gesamte Materialentwicklung – von der Quellenwahl über die Formatgestaltung bis hin zur rechtlichen und technischen Umsetzung – durchzieht. Qualität wird so zu einer Haltung, die in jeder gestalterischen Entscheidung sichtbar wird und die Offenheit der Materialien nicht nur formal, sondern auch strukturell und inhaltlich absichert.  
 
-TiRU und M@PS leisten nicht nur einen Beitrag zur Erweiterung des OER-Angebots religionspädagogischer Arbeit, sondern fungieren zugleich als praxisnahe Referenzmodelle dafür, wie sich Offenheit und Qualitätsorientierung wechselseitig stärken können.
+TiRU und M@PS leisten nicht nur einen Beitrag zur Erweiterung des OER-Angebots religionspädagogischer Arbeit, sondern fungieren zugleich als praxisnahe Referenzmodelle dafür, wie sich Offenheit und Qualitätsorientierung wechselseitig stärken und kontinuirlich weiterentwickelt werden können.
+
 
