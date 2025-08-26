@@ -16,7 +16,7 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-image: 
+image: ChatGPT Image Plattforminseln.PNG
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-08-26'
@@ -26,7 +26,7 @@ author:
 title: 'Edufeed: Dezentral. Offen. Interoperabel.'
 cover:
   relative: true
-  image: 
+  image: ChatGPT Image Plattforminseln.PNG
   hidddenInSingle: true
   alt: 'Plattform-Inseln, ChatGPT'
 summary: >-
