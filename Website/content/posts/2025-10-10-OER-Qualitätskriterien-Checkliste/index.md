@@ -74,34 +74,37 @@ Die HOOU entwickelt derzeit einen umfassenden Kriterienkatalog, der inhaltliche,
 
 ## Qualität im religionspädagogischen Kontext
 
-In der religionspädagogischen Qualitätsdebatte steht v.a. die Frage im Vordergrund, wie sich *guter* Religionsunterricht jenseits von bloßen Konzeptionen bestimmen lässt. [Rothgangel (2021)](https://doi.org/10.1007/s42010-021-00107-w) plädiert für einen mehrdimensionalen Qualitätsbegriff, der fachübergreifende, fachspezifische und transzendenzbezogene Kriterien integriert. 
-In der Auseinandersetzung mit dem berufsschulischen Religionsunterricht (BRU) präzisieren [Schweitzer, Schnabel-Henke und Rutkowski 2024](https://www.pedocs.de/volltexte/2024/30758/pdf/Schweitzer_et_al_2024_Was_ist_guter_BRU.pdf) diesen Anspruch weiter. Guter BRU muss nicht nur allgemeinen didaktischen Qualitätskriterien genügen, sondern zugleich fachlich verantwortet und berufsbezogen kontextualisiert sein. Er basiert auf einem allgemeindidaktischen, fachdidaktischen und spezifisch am orientierten BRU Qualitätsanspruch und soll kognitive Aktivierung, persönliche Relevanz und interreligiöse Dialogfähigkeit fördern. Die Perspektive der Schüler:innen ist dabei deutlich zu berücksichten: Gute Qualität zeigt sich auch darin, ob Lernende den Unterricht als offen, relevant und identitätsbildend erleben. 
-Auch Englert (2006) unterstreicht, dass die Qualität des Religionsunterrichts nur unter Einbezug fachspezifischer Kategorien zu bestimmen sei. So plädiert er für eine eigenständige Qualitätsreflexion der Religionsdidaktik, die in kritischem Dialog mit der allgemeinen Unterrichtsforschung steht, sich jedoch ihrer spezifischen Inhalte und Zielperspektiven bewusst ist.
-[Käbisch und Woppowa (2022)](https://rpb-journal.de/index.php/rpb/article/view/193) zeigen am Beispiel kooperativer Religionsunterrichtsformate, dass Qualitätsentwicklung vor diesem Hintergrund vor allem eine besondere Formm der Didaktik erfordert, die den Perspektivenwechsel und Dialogfähigkeit systematisch fördert. 
-emeinen Unterrichtsforschung steht, sich jedoch ihrer spezifischen Inhalte, Zielperspektiven und ethisch-normativen Dimensionen bewusst ist.
-Die Qualitätsdebatte wird in der religionspädagogischen Forschung auch in Form der Schulbuchforschung (vgl. [Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/)) vorangetrieben, bspw. wenn Unterrichtsmedien verstärkt inhaltsanalytisch und ideologiekritisch in den Blick genommen werden. Qualitätskriterien für Bildungsmedien im Religionsunterricht umfassen daher über Inhaltsrichtigkeit hinaus die Sensibilität für Repräsentationen, aber auch die didaktische Struktur sowie die empirisch fundierte Materialnutzung. 
-Der exemplarische Überblick dieser Debatte zeigt die noch wenig bearbeitete Auseinandersetzung mit der Qualität von digitaler Unterrichtsmaterialien: Während sich Qualitätsdiskurse primär auf Unterrichtsprozesse konzentrieren, fehlen noch immer belastbare Kriterien und Verfahren zur systematischen Einschätzung von digitalen Bildungsmedien.  
+„Die Frage nach Unterrichtsqualität ist zu einer Schlüsselfrage geworden, nicht nur für den schulischen Alltag, sondern für die schul- und bildungspolitische Diskussion insgesamt“ (Schweitzer, 2008, S. 11). 
+Die Frage nach der Qualität religiöser Bildungsprozesse bildet einen zentralen Kern religionspädagogischer Reflexion. 
+Diskutiert wird sie auf unterschiedlichen Ebenen: Sie reicht von allgemeinen didaktischen Grundsatzüberlegungen bis hin zur Analyse und Bewertung konkreter Lehrmaterialien. Von besonderer Bedeutung ist dabei die Frage, wie sich guter Religionsunterricht jenseits abstrakter Konzeptionen bestimmen lässt. Es ist also für den Religionsunterricht geboten, präzise auszuweisen, „was und wie in diesem Fach gelernt werden soll“ (Schweitzer, 2020, S. 15).
+
+Dabei ist zu berücksichtigen, dass es **den** guten Unterricht im Singular nicht gibt (vgl. Gojny; Lenhard & Zimmermann, 2022, S. 164). Mit Helmke (2017) ist vielmehr zu fragen: Gut wofür, gut für wen, gemessen an welchen Bedingungen, aus welcher Perspektive und für welchen Zeitraum? Qualität erweist sich somit als vielschichtiges und kontextabhängiges Kriterium, das je nach Bildungsziel, Lerngruppe, institutionellem Rahmen oder Zeitpunkt unterschiedlich bestimmt wird (vgl. Adam & Rothgangel, 2012). 
+
+Auch die verschiedenen Anspruchsgruppen wie Lehrpersonen, Schüler:innen, Eltern, Kirche, Öffentlichkeit oder Bildungspolitik verbinden jeweils eigene Erwartungen mit dem Religionsunterricht (vgl. Gojny; Lenhard & Zimmermann, 2022, S. 164). Qualitätsfragen dürfen daher nicht eindimensional beantwortet werden, sondern müssen stets im Spannungsfeld verschiedener Perspektiven reflektiert werden.
+So plädiert [Rothgangel (2021)](https://doi.org/10.1007/s42010-021-00107-w) für einen mehrdimensionalen Qualitätsbegriff, der fachübergreifende, fachspezifische und transzendenzbezogene Kriterien integriert. Englert (2006) betont, dass die Bestimmung von Qualität im Religionsunterricht nur unter Einbezug genuin fachspezifischer Kategorien gelingen kann. In diesem Sinne erfordern z.B. kooperative Formate eine Didaktik, die Perspektivenwechsel und Dialogfähigkeit systematisch fördert (vgl.[Käbisch und Woppowa (2022)](https://rpb-journal.de/index.php/rpb/article/view/193).
+Eine bloße Auflistung von Qualitätskriterien kann allerdings nicht als Garantie für gelingenden Unterricht gelten. Wie die Unterrichtsforschung zeigt, ergibt sich Qualität nicht aus der Summe einzelner Merkmale, sondern aus deren Zusammenspiel (vgl. Helmke, 2017). 
+Die Qualitätsdebatte reicht bis in die Schulbuchforschung (vgl.[Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/), wo Fragen nach inhaltlicher Richtigkeit mit Sensibilität für Repräsentationen, didaktischer Struktur und ideologiekritischer Reflexion verbunden werden. Auffällig ist jedoch, dass digitale Bildungsmedien bislang nur am Rande berücksichtigt werden und belastbare Kriterien für deren systematische Bewertung fehlen. 
 
 
 ## Entstehungsprozess
-Im Projekt FOERBICO entstand ein Kriterienkatalog zur OER-Qualität für den schulischen, außerschulischen und hochschulischen Bereich aus rechtlicher, technischer, pädagogisch-didaktischer und religionspädagogischer Perspektive, in einem mehrschichtigen Entwicklungsprozess. 
-Ausgangspunkt war eine Analyse bestehender Qualitätssicherungsansätze in OER-Communities, die mit dem aktuellen Forschungsstand zu OER-Qualität reflektiert und diskutiert wurde.
-Dabei stand die Frage im Zentrum, welche spezifischen Anforderungen das Fach Religion an die Qualität von offenen Bildungsmaterialien stellt?
 
-Diese theoretisch fundierte Vorarbeit wurde durch Interviews mit sechs Expert:innen aus der religionspädagogischen Schul- und Unterrichtsforschung empirisch rückgekoppelt. In einem iterativen Verfahren wurden die entwickelten Kriterien auf Grundlage dieser Rückmeldungen präzisiert und weiterentwickelt. 
+Vor diesem Hintergrund entwickelte das FOERBICO Team einen Kriterienkatalog zur OER-Qualität für schulische, außerschulische und hochschulische Kontexte. Ausgangspunkt war die Analyse bestehender Qualitätssicherungsansätze in OER-Communities, die mit aktuellen religionspädagogischen Forschungsdiskursen abgeglichen und in Expert:inneninterviews sowie praktischen Erprobungen iterativ weiterentwickelt wurden. 
 Parallel wurden Projekte der Professur für Religionspädagogik und Mediendidaktik der Goethe Universität Frankfurt mit Hilfe der im FOERBICO Projekt entwickelten Handreichung auf ihre Qualität hin überprüft und entsprechend [für die Publikation überarbeitet](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/$0). Auch diese Erkenntnisse floßen in die Überarbeitung der Kritieren ein. 
-So entstand ein Qualitätsrahmen im Checklistenformat, der wissenschaftliche Diskurse, praktische Anwendungserfordernisse und fachcommunitybasierte Perspektiven integrativ zusammenführt.
+
+So entstand eine Handreichung, die wissenschaftliche, praxisbezogene und communitybasierte Perspektiven integriert und im Format einer Checkliste zugänglich macht.
+
+Die Handreichung versteht Qualität nicht als normatives Prüfschema oder als Garantie *guter OER* und damit *guter religiöser Bildungsprozesse*. Sie ist vielmehr als **reflexives Instrument** konzipiert, das die Vielschichtigkeit religionspädagogischer Qualitätsdebatten aufgreift und Lehrenden und Materialerstellenden eine **Orientierung** bietet, ohne in reduktionistische 'Abhak-Logik' zu verfallen. 
+Qualität wird  als Ergebnis eines fortlaufenden Aushandlungsprozesses verstanden, der sich sowohl in der Erstellung als auch in der Nutzung und Weiterentwicklung von OER vollzieht
 
 
 ## Qualitätskriterien: Die FOERBICO-Checkliste im Detail
 
-Die im Projekt FOERBICO entwickelte Handreichung zu Qualitätskriterien setzt an einem dynamischen Qualitätsverständnis an. Qualität wird dabei nicht als statische Eigenschaft der Ressource selbst verstanden, sondern als Ergebnis eines reflexiven Aushandlungsprozesses innerhalb einer Community, der sowohl in der Erstellung als auch in der Nutzung und Weiterentwicklung von OER wirksam wird. Ziel der Handreichung ist es, ein Qualitätsverständnis zu fördern, das sowohl die strukturellen Anforderungen digitaler Bildungsressourcen als auch die inhaltlich-didaktischen Besonderheiten religiöser Bildungsprozesse integriert.
+Die im Projekt FOERBICO entwickelte Handreichung zu Qualitätskriterien setzt an einem dynamischen Qualitätsverständnis an. Qualität soll als Ergebnis eines reflexiven Aushandlungsprozesses innerhalb einer Community betrachtet werden, die sowohl in der Erstellung als auch in der Nutzung und Weiterentwicklung von OER wirksam wird. Ziel der Handreichung ist es, ein Qualitätsverständnis zu fördern, das sowohl die strukturellen Anforderungen digitaler Bildungsressourcen als auch die inhaltlich-didaktischen Besonderheiten religiöser Bildungsprozesse integriert.
 Die entwickelte Handreichung bietet damit ein praxisnahes Instrumentarium, um OER religionspädagogisch fundiert zu erstellen, bereits vorhandene OER auf ihre Qualität hin zu bewerten und weiterzuentwickeln. 
 
-Die Handreichung ist als Checkliste aufgebaut und basiert in Teilen auf den Qualitätsmerkmalen von Mayberger, Zawacki-Richter und Müskens (2017) sowie auf [Kobusch & Halm (2022)](https://www.hsbi.de/publikationsserver/download/2761/3626/FH%20Bielefeld%202022%2C%20Checkliste%20OER%20v1.1.pdf). Sie erweitert bestehende Qualitätsmodelle um eine dezidiert religionspädagogische
+Die Handreichung ist aufgrund einer Bedarfsanalyse als Checkliste aufgebaut und basiert in Teilen auf den Qualitätsmerkmalen von Mayberger, Zawacki-Richter und Müskens (2017) sowie auf [Kobusch & Halm (2022)](https://www.hsbi.de/publikationsserver/download/2761/3626/FH%20Bielefeld%202022%2C%20Checkliste%20OER%20v1.1.pdf). Sie erweitert bestehende Qualitätsmodelle um eine dezidiert religionspädagogische
 Perspektive.
-Die im FOERBICO-Projekt erarbeiteten Qualitätskriterien bieten eine systematische Orientierung zur Erstellung und Bewertung von OER im Bereich der Religionspädagogik. Als unterstützendes Instrument soll die Handreichung Lehrende bei der Qualitätssicherung
-begleiten. Sie bietet jedoch keine rechtsverbindliche Auskunft und ersetzt nicht die eigenverantwortliche Prüfung der Materialien.
+
 
 Die Handreichung ist in vier Dimensionen untergliedert:
 
@@ -156,6 +159,8 @@ Exemplarisch für die religionspädagogische Dimension sieht die Checkliste folg
 
 Die [**vollständigen OER-Qualitätskriterien**](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO-geschlossen/src/commit/19c5b57a18fa684ab9ff3bbe10b9c8feaef9c39e/Qualit%C3%A4tskriterien/2025_08_19_Qualit%C3%A4tskriterien.md) können hier heruntergeladen werden. Sie stehen als offene Markdown-Datei zur Bearbeitung und Weiterentwicklung unter CC BY 4.0 Lizenz bereit. 
 
+Die Wualitätskriterien bieten eine systematische Orientierung zur Erstellung und Bewertung von OER im Bereich der Religionspädagogik. Sie bietet keine rechtsverbindliche Auskunft und ersetzt nicht die eigenverantwortliche Prüfung der Materialien.
+
 
 ### Qualität als reflexiver Aushandlungsprozess
 
@@ -166,6 +171,8 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 
 ## Literatur
+* Adam, G. & Rothgangel, M. (2012. Was ist guter Religionsunterricht?, in: Rothgangel, M./Adam, G./Lachmann, R. (Hg.), Religionspädagogisches Kompendium, Göttingen 7. Aufl., 416–433.
+
 * Angelina, P., & Mößle, L. (2025). Fürchtet euch nicht. OER und Third Mission. y-nachten. https://y-nachten.de/2025/03/oer-und-die-third-mission/
 
 * Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien. FOERBICO-Handreichung.
@@ -179,6 +186,10 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 * Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive (S. 14–47). Bad Heilbrunn.
 
 * Friz, S. (2019). Qualität und freie, digitale Bildungsmedien (OER) – Wie passt das zusammen? Vortrag auf dem 36. Forum Kommunikationskultur der GMK, München, 16.11.2019. https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf
+
+* Gojny, T., Lenhard, H., Zimmermann, M. (2022). Religionspädagogik in Anforderungssituationen. Fachdidaktische Grundlagen für Studium und Beruf, Göttingen.
+
+* Helmke, A. (2017). Unterrichtsqualität und Lehrerprofessionalität. Diagnose, Evaluation und Verbesserung des Unterrichts, 7. Auflage, Seelze-Velber.
 
 * Henningsen, J. (2023). Schulbuchanalyse. In: wirelex, Bibelwissenschaft.de. https://bibelwissenschaft.de/stichwort/201081/
 
@@ -195,7 +206,10 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 * Rothgangel, M. (2021). Unterrichtsqualität in der Religionsdidaktik – fachspezifische und fachübergreifende Aspekte. Unterrichtswissenschaft, 49, 253–260. https://doi.org/10.1007/s42010-021-00107-w
 
-* Schweitzer, F; Schnabel-Henke, H., Rutkowski, M. (2024). Was ist "guter BRU"? Qualität und Qualitätsentwicklung im Religionsunterricht an beruflichen Schulen. Das Projekt QUIRU-B. Münster, New York.
+* Schweitzer, F. (2008). Elementarisierung und Kompetenz. Wie Schülerinnen und Schüler von „gutem Religionsunterricht“ profitieren, Neukirchen-Vluyn.
+
+* Schweitzer, F. (2020). Religion noch besser unterrichten. Qualität und Qualitätsentwicklung im RU, Göttingen.
+
 
 * Yuan, M., & Recker, M. (2015). Not All Rubrics Are Equal: A Review of Rubrics for Evaluating the Quality of Open Educational Resources. International Review of Research in Open and Distributed Learning, 16(5), 16–38. https://doi.org/10.19173/irrodl.v16i5.2389
 
