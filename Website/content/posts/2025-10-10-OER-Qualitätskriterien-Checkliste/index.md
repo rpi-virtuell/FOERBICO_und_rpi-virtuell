@@ -45,7 +45,7 @@ tags:
 
 # Offenheit ist kein Gegensatz zu Qualität
 
-## Religionspädagogische Qualitätskriterien für OER: Eine Checkliste
+## Religionspädagogische Qualitätskriterien für OER: Eine Handreichung
 
 OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie sollen Chancengleichheit fördern, Teilhabe ermöglichen, digitale Kompetenzen stärken und Bildungsprozesse demokratisieren. Auch in der Religionspädagogik werden OER zunehmend als Hoffnungsträger für eine gerechtere und innovativere Bildungslandschaft ([Mößle/Pirker 2024](https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open); [Angelina/ Mößle 2025](https://y-nachten.de/2025/03/oer-und-die-third-mission/)) diskutiert. Doch hinter der offenen Zugänglichkeit stellt sich immer dringlicher eine strukturelle Frage: Was macht gute, nachhaltig nutzbare und qualitative OER eigentlich aus? Wie lässt sich die Qualität von OER bewerten? Und worauf gilt es zu achten, wenn man qualitative OER erstellen möchte?
 
@@ -53,7 +53,7 @@ OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie s
 ## OER-Qualität im diskursiven Horizont
 Die freie Nutzbarkeit und Weiterverbreitung von OER stellt die Frage der Qualität vor gewisse Herausforderungen. Neben der Unsicherheit zu urheberrechtlichen Fragen stellt die die Qualität von OER eine der am breitesten diskutiertesten Themen im Umfeld von OER dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). 
 Die Qualität von OER wird als wesentlicher Faktor für den Erfolg und die Akzeptanz von OER im breiten Feld angeführt [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51). 
-Angebtrieben durch die Entwicklungen mit KI steigt die Anzahl frei verfügubarer Bildungsmaterialien im Internet rasant an. Aus diesem Grund verweisen [Yuan et al (2015)](https://doi.org/10.19173/irrodl.v16i5.2389) darauf, dass die Identifikation von qualitativ hochwertigen OER eine immer größere Herausforderung darstellt. 
+Angebtrieben durch die Entwicklungen mit KI steigt die Anzahl frei verfügubarer Bildungsmaterialien im Internet rasant an. Aus diesem Grund stellt die Identifikation von qualitativ hochwertigen OER eine immer größere Herausforderung dar. 
 
 Nutzende bewerten die Qualität von OER oftmals auf Basis ihrer individuellen Anforderungen und Bedarfe. Dies führt dazu, dass Qualitätsvorstellungen im Diskurs stark auseinandergehen. Die prozesshafte Natur der Materialien, d.h. dass sie verändert und adaptiert werden, stellt eine besondere Herausforderungen der Qualitätssicherung dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Statische Qualitätssicherungsprozesse, die Kriterien festlegen und überprüfen sind bei OER nur bedingt sinnvoll. Da sie eine hohe Offenheit und Anpassbarkeit an individuelle Kontexte, Bedrüfnisse und Anforderungen der Zielgruppe ermöglichen braucht es für die Qualitätssicherung eine besondere Aufmerksamkeit. 
 
@@ -181,9 +181,9 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 * Ehlers, U.-D. (2015). Qualitätsentwicklung für OER – viel besprochen, wenig realisiert! Wikimedia Deutschland. https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert
 
-* Englert, R. (2006). Die Diskussion über Unterrichtsqualität – und was die Religionsdidaktik daraus lernen könnte, in: C. Bizer u.a. (Hg.), Was ist guter Religionsunterricht? (Jahrbuch der Religionspädagogik 22), (S. 52–64). Neukirchen-Vluyn.
+* Englert, R. (2006). Die Diskussion über Unterrichtsqualität – und was die Religionsdidaktik daraus lernen könnte, in: C. Bizer u.a. (Hg.), Was ist guter Religionsunterricht? (Jahrbuch der Religionspädagogik 22), Neukirchen-Vluyn, 52–64.
 
-* Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive (S. 14–47). Bad Heilbrunn.
+* Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive, Bad Heilbrunn, 14–47.
 
 * Friz, S. (2019). Qualität und freie, digitale Bildungsmedien (OER) – Wie passt das zusammen? Vortrag auf dem 36. Forum Kommunikationskultur der GMK, München, 16.11.2019. https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf
 
@@ -209,9 +209,6 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 * Schweitzer, F. (2008). Elementarisierung und Kompetenz. Wie Schülerinnen und Schüler von „gutem Religionsunterricht“ profitieren, Neukirchen-Vluyn.
 
 * Schweitzer, F. (2020). Religion noch besser unterrichten. Qualität und Qualitätsentwicklung im RU, Göttingen.
-
-
-* Yuan, M., & Recker, M. (2015). Not All Rubrics Are Equal: A Review of Rubrics for Evaluating the Quality of Open Educational Resources. International Review of Research in Open and Distributed Learning, 16(5), 16–38. https://doi.org/10.19173/irrodl.v16i5.2389
 
 * Zawacki-Richter, O., Müskens, W., & Mayrberger, K. (Hrsg.) (2017). Qualitätsentwicklung von OER. Vorschlag zur Erstellung eines Qualitätssicherungsinstruments für OER am Beispiel der Hamburg Open Online University. Hamburg. https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf
 
