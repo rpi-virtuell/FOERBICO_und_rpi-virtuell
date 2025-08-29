@@ -157,7 +157,7 @@ Exemplarisch für die religionspädagogische Dimension sieht die Checkliste folg
 * Das Material legt seine konfessionelle oder religiöse Perspektive oﬀen und ermöglicht eine reflektierte Auseinandersetzung damit
 * Das Material ermöglicht Lernenden, unterschiedliche religiös-weltanschauliche Deutungen der Wirklichkeit wahrzunehmen und in einem multiperspektvischen Kontext zu reflektieren.
 
-Die [**vollständigen OER-Qualitätskriterien**](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO-geschlossen/src/commit/19c5b57a18fa684ab9ff3bbe10b9c8feaef9c39e/Qualit%C3%A4tskriterien/2025_08_19_Qualit%C3%A4tskriterien.md) können hier heruntergeladen werden. Sie stehen als offene Markdown-Datei zur Bearbeitung und Weiterentwicklung unter CC BY 4.0 Lizenz bereit. 
+Die [**vollständigen OER-Qualitätskriterien**](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO-geschlossen/src/branch/main/Qualit%C3%A4tskriterien/2025_08_29_Qualit%C3%A4tskriterien.md) können hier heruntergeladen werden. Sie stehen als offene Markdown-Datei zur Bearbeitung und Weiterentwicklung unter CC BY 4.0 Lizenz bereit. 
 
 Die Wualitätskriterien bieten eine systematische Orientierung zur Erstellung und Bewertung von OER im Bereich der Religionspädagogik. Sie bietet keine rechtsverbindliche Auskunft und ersetzt nicht die eigenverantwortliche Prüfung der Materialien.
 
