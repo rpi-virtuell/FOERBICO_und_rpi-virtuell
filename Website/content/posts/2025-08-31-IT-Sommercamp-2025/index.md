@@ -1,6 +1,56 @@
-# HackathOERn goes OER/IT-Sommercamp in Weimar
-
-Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in der Goethe-Stadt Weimar gemeinsam mit vielen weiteren IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen, Lösungsansätzen und Konzepten für OER- und OEP-förderliche Infrastrukturen. Bereits letztes Jahr waren wir mit dabei (siehe [Blogbeitrag](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/)) und wollten uns das Event auch dieses Mal nicht entgehen lassen! 
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/oer-it-sommercamp-2025
+name: 'HackathOERn goes OER/IT-Sommercamp in Weimar'
+description: >-
+  Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Ludger
+    familyName: Sicking
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://oer.community/oer-it-sommercamp-2025/IMG_1664.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-08-31'
+#staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
+  - Ludger Sicking
+title: 'HackathOERn goes OER/IT-Sommercamp in Weimar'
+cover:
+  relative: true
+  image: IMG_1664.jpg
+summary: >-
+  Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in der Goethe-Stadt Weimar gemeinsam mit vielen weiteren IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen, Lösungsansätzen und Konzepten für OER- und OEP-förderliche Infrastrukturen. Bereits letztes Jahr waren wir mit dabei (siehe [Blogbeitrag](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/)) und wollten uns das Event auch dieses Mal nicht entgehen lassen!
+url: hackathoern
+tags:
+  - Vernetzung
+  - Open Educational Resources (OER)
+  - Infrastruktur
+  - Edufeed
+  - Nostr
+  - interoperabel
+  - Digitalisierung
+---
 
 ## Pre-Event zum OER-/IT-Sommercamp 🤝
 
@@ -45,7 +95,8 @@ Am nächsten Tag haben wir nach einer ersten Runde Lightning-Talks im Edufeed-Wo
 
 Kreative Denkpausen, Fun-Time und (informeller) Austausch durften daher auch nicht zu kurz kommen!
 
-Foto Ludger + Gina
+![](IMG_1689.jpg)
+![](IMG_1692.jpg)
 
 ## Finale an Tag 3: Abschlusspräsentationen der Projekte🎤
 
