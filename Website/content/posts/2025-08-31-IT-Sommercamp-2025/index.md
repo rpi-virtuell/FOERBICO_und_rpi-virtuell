@@ -84,8 +84,8 @@ Wir vom FOERBICO-Team waren vorwiegend beim Edufeed-Workshop, um mit weiteren In
 
 Darauf aufbauend haben wir überlegt, wie wir mit unseren OER-Plattformen mithalten können oder wollen. Unser Fazit: Da kein Business-Modell dahinter steht, spielen wir vielfach in einer anderen Liga und können in punkto Marketing etc. nicht unbedingt mithalten. Danach sind wir der Frage nachgegangen, was denn die OER-Community stark macht/auszeichnet. Hier die losen Ergebnisse:
 
-![](https://pad.edufeed.org/uploads/888ec29a-b1d1-4762-869b-62cd0f4c2bff.jpg)
-![](https://pad.edufeed.org/uploads/64c4ea16-20dd-4d89-9712-6f3da9bc84c6.jpg)
+![](Edufeed-1.jpg)
+![](Edufeed-2.jpg)
 
 Highlights des Abends: Burger-Grillabend und der große Auftritt der OER-Band 🍔🎶
 
@@ -109,6 +109,6 @@ Drei aufregende Tage gingen damit zu Ende und wir möchten uns riesig beim [Hack
 
 ### Was natürlich nicht fehlen darf: Cat Content 🐈
 
-![](https://pad.edufeed.org/uploads/ba446e28-78f9-4569-8c37-7e0ec5d2aa8d.jpg)
-![](https://pad.edufeed.org/uploads/358bcf1f-a968-4142-a942-3424520c0744.jpg)
+![](Cat-Content-1.jpg)
+![](Cat-Content-2.jpg)
 
