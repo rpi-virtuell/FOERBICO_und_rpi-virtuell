@@ -105,7 +105,6 @@ Die Ergebnisse der Workshops findet ihr [hier](https://drive.google.com/drive/fo
 
 Drei aufregende Tage gingen damit zu Ende und wir möchten uns riesig beim [HackathOERn-Team](https://edu-sharing-network.org/projekt-hackathoern/) für die tolle Organisation bedanken 🙏 Es war eine super Stimmung und wir freuen uns aufs nächste Jahr! 
 
-
 ### Was natürlich nicht fehlen darf: Cat Content 🐈
 
 ![](Cat-Content-2.jpg)
