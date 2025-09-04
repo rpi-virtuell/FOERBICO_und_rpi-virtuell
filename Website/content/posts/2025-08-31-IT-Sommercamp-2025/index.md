@@ -108,6 +108,6 @@ Drei aufregende Tage gingen damit zu Ende und wir möchten uns riesig beim [Hack
 
 ### Was natürlich nicht fehlen darf: Cat Content 🐈
 
-![](Cat-Content-1.jpg)
 ![](Cat-Content-2.jpg)
+![](Cat-Content-3.jpg)
 
