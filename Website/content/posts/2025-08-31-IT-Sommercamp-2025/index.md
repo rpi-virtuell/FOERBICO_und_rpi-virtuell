@@ -96,7 +96,6 @@ Am nächsten Tag haben wir nach einer ersten Runde Lightning-Talks im Edufeed-Wo
 Kreative Denkpausen, Fun-Time und (informeller) Austausch durften daher auch nicht zu kurz kommen!
 
 ![](IMG_1689.jpg)
-![](IMG_1692.jpg)
 
 ## Finale an Tag 3: Abschlusspräsentationen der Projekte🎤
 
