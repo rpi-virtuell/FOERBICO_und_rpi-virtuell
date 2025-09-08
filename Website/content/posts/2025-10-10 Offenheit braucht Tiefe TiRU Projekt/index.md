@@ -25,7 +25,7 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: XXX.png
+image: TiRU.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-10-10'
