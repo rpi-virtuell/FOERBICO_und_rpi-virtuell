@@ -25,7 +25,7 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: .png
+image: pictureframe.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-09-10'
@@ -36,11 +36,11 @@ author:
 title: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien'
 cover:
   relative: true
-  image: check-306411_1280.png
+  image: pictureframe.jpg
   hidddenInSingle: false
   alt: 'Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)'
 summary: >-
-  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? Die visuelle Qualität von OER ist bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
+  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*?
 url: oer-beratung-und-qualitätskriterien
 tags:
   - Qualitätskriterien
