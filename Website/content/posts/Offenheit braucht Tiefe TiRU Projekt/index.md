@@ -50,7 +50,7 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-# Digitale Offenheit braucht fachdidaktische und fachwissenschaftliche Tiefe: Wie das Projekt TiRU Maßstäbe für OER-Qualität umsetzt. Einblicke in die Qualitätsentwicklung offener Bildungsressourcen
+# Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU
 
 ## OER-Qualität als Entwicklungsaufgabe religionspädagogischer Bildungsressourcen
 
