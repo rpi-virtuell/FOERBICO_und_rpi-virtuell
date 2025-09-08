@@ -113,7 +113,7 @@ Die aus dem Beratungsprozess gewonnenen Einsichten wiederum flossen zurück in d
 
 > [!NOTE]  
 > **Save the Date: TiRU-Launch**  
-> Am 16. Oktober 2025 werden die ersten beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
+> Am **16. Oktober 2025** werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
 > Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und in den offenen Austausch zu treten.   
 
 
@@ -129,7 +129,7 @@ TiRU und M@PS leisten nicht nur einen Beitrag zur Erweiterung des OER-Angebots r
 
 ### Literaturangaben
 
-Kopp, M., Neuböck, K., Gröblinger, O., Schön, S. (2021). Strategische Verankerung von OER an Hochschulen. Ein nationales Weiterbildungsangebot für Open Educational Resources. In: Wollersheim, H.-W., Karapanos, M., Pengel, N. [Hrsg.]: Bildung in der digitalen Transformation. Münster/ New York, 179-183, https://www.pedocs.de/volltexte/2023/26636/pdf/MidW_78_Kopp_et_al_Strategische_Verankerung.pdf.  
+- Kopp, M., Neuböck, K., Gröblinger, O., Schön, S. (2021). Strategische Verankerung von OER an Hochschulen. Ein nationales Weiterbildungsangebot für Open Educational Resources. In: Wollersheim, H.-W., Karapanos, M., Pengel, N. [Hrsg.]: Bildung in der digitalen Transformation. Münster/ New York, 179-183, https://www.pedocs.de/volltexte/2023/26636/pdf/MidW_78_Kopp_et_al_Strategische_Verankerung.pdf.  
 
-- Pirker, V., Pirner, M. L. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont. In: *Theo-Web. Zeitschrift für Religionspädagogik* 24 (1): 151–185. https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51.  
+- Pirker, V., Pirner, M. L. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont. In: *Theo-Web. Zeitschrift für Religionspädagogik* 24 (1), 151–185, https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51.  
 
