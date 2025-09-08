@@ -29,7 +29,7 @@ Darüber hinaus mangelt es weitestgehend noch immer an einer systematischen inst
 
 ## Von der Ressource zur offenen Praxis  
 
-OER entfalten ihr transformatives Potenzial erst, wenn sie nicht lediglich als konsumierbare Materialien verstanden, sondern in **offene Bildungspraktiken**, sog. OEP eingebettet werden. Damit sind z.B. Prozesse der Adaption, Weiterentwicklung, Veröffentlichung und kooperativen Gestaltung gmeint. Die Studien von [Buntins et al. (2024)](https://doi.org/10.21240/mpaed/00/2024.01.10.X) und Admiraal (2022) zeigen jedoch, dass Lehrkräfte OER bislang überwiegend adaptieren oder rezipieren, während eigenständige Produktion und kollaborative Entwicklung marginal bleiben. 
+OER entfalten ihr transformatives Potenzial erst, wenn sie nicht lediglich als konsumierbare Materialien verstanden, sondern in **offene Bildungspraktiken**, sog. OEP eingebettet werden. Damit sind z.B. Prozesse der Adaption, Weiterentwicklung, Veröffentlichung und kooperativen Gestaltung gemeint. Die Studien von [Buntins et al. (2024)](https://doi.org/10.21240/mpaed/00/2024.01.10.X) und Admiraal (2022) zeigen jedoch, dass Lehrkräfte OER bislang überwiegend adaptieren oder rezipieren, während eigenständige Produktion und kollaborative Entwicklung marginal bleiben. 
 Auch das Teilen erfolgt meist innerhalb vertrauter schulischer Netzwerke, während öffentliche Plattformen (aufgrund fehlender rechtlicher Kenntnisse) selten genutzt werden.  
 
 Gerade hierin liegt jedoch eine Chance. Werden Lehrkräfte systematisch in offenen Praktiken unterstützt, z.B. durch rechtliche Orientierung, niedrigschwellige technische Lösungen und kollaborative Formate, können OER zu **Motoren einer innovationsorientierten Bildungskultur** werden. 
