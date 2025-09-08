@@ -41,7 +41,7 @@ cover:
   image: IMG_1664.jpg
 summary: >-
   Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in der Goethe-Stadt Weimar gemeinsam mit vielen weiteren IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen, Lösungsansätzen und Konzepten für OER- und OEP-förderliche Infrastrukturen. Bereits letztes Jahr waren wir mit dabei (siehe [Blogbeitrag](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/)) und wollten uns das Event auch dieses Mal nicht entgehen lassen!
-url: hackathoern
+url: oer-it-sommercamp-2025
 tags:
   - Vernetzung
   - Open Educational Resources (OER)
