@@ -5,7 +5,7 @@ type: ScholarlyArticle
 id: https://oer.community/oer-visuelle-qualität
 name: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien'
 description: >-
-  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? Die visuelle Qualität von OER ist bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
+  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? 
 inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/
 creator:
@@ -28,7 +28,7 @@ creator:
 image: pictureframe.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-09-10'
+datePublished: '2025-09-20'
 #staticSiteGenerator:
 author:
   - Laura Mößle
@@ -38,15 +38,16 @@ cover:
   relative: true
   image: pictureframe.jpg
   hidddenInSingle: false
-  alt: 'Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)'
+  alt: 'Pictureframe (Quelle: Unsplash, mk-s-U74OlS8ANGI-unsplash, Unsplash-Lizenz)'
 summary: >-
   Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*?
-url: oer-beratung-und-qualitätskriterien
+url: oer-visuelle-qualität
 tags:
-  - Qualitätskriterien
+  - Ästhetische Bildung
   - Hochschuldidaktik
   - Religionspädagogik
   - Theologie
+  - Bildungsmedien
   - Open Educational Resources (OER)
 ---
 
@@ -57,8 +58,8 @@ Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle. In der th
 
 ## Inhalt oder Eindruck? Warum Ästhetik in OER zählt
 
-Bildung erschöpft sich nicht in der Weitergabe von Wissen, sie ist immer auch eine Frage der Form. Gerade bei offenen Bildungsmaterialien stellt sich daher die Frage: Genügt es, wenn Inhalte fachlich korrekt und rechtlich abgesichert sind? Oder entscheidet die Art ihrer visuellen Aufbereitung ebenso sehr über ihre Wirkung und ihren didaktischen Wert wie der Inhalt selbst?
-Die visuelle Gestaltung von Lernmaterialien ist nicht nur eine didaktische Frage, sondern auch Ausdruck gesellschaftlicher Entwicklungen. In einer Zeit, in der Kommunikation zunehmend visuell geprägt ist, sei es durch soziale Medien, Infografiken oder Videos, wird auch von Bildungsmaterialien erwartet, dass sie ästhetisch ansprechend und visuell verständlich sind. Technische Möglichkeiten, mediale Gewohnheiten und der Trend zur Visualität insgesamt spiegeln sich somit unmittelbar in den Anforderungen an OER wider. 
+Bildung ist nicht nur eine Frage des Inhalts, sondern immer auch eine der Form. Gerade bei offenen Bildungsmaterialien stellt sich die Frage: Genügt es, wenn Inhalte fachlich korrekt und rechtlich abgesichert sind? Oder entscheidet die Art ihrer visuellen Aufbereitung ebenso sehr über ihre Wirkung und ihren didaktischen Wert wie der Inhalt selbst?
+Die visuelle Gestaltung von Lernmaterialien ist nicht nur eine didaktische Frage, sondern auch Ausdruck gesellschaftlicher Entwicklungen. In einer Zeit, in der Kommunikation zunehmend visuell geprägt ist, wird auch von Bildungsmaterialien erwartet, dass sie ästhetisch ansprechend und visuell verständlich sind. Technische Möglichkeiten, mediale Gewohnheiten und der Trend zur Visualität insgesamt spiegeln sich somit unmittelbar in den Anforderungen an OER wider. 
 
 
 ## Der *Iconic Turn* und visuelle OER-Qualität
@@ -72,12 +73,10 @@ Doch damit eröffnen sich bildethische Herausforderungen: Welche Stereotype werd
 
 ## Visuelle Qualität in OER: Zwischen Anspruch und Realität
 
-Die visuelle Gestaltung ist für viele Lehrende ein Ausdruck von Wertschätzung gegenüber den Lernenden, wie die empirische Begleitforschung des FOERBICO-Projekts anhand der Interviews aufzeigen konnte.
+Die visuelle Gestaltung von Lernmaterialien wird von vielen Lehrenden als Ausdruck von Wertschätzung gegenüber den Lernenden verstanden. Ansprechend gestaltete Inhalte erhöhen nicht nur die Aufmerksamkeit, sondern signalisieren zugleich ernsthaftes pädagogisches Engagement. 
 
-Ästhetisch ansprechende Inhalte steigern nicht nur die Aufmerksamkeit, sondern werden auch als Ausdruck eines ernsthaften pädagogischen Engagements wahrgenommen. Gleichzeitig empfinden viele Lehrpersonen ihre gestalterischen Fähigkeiten als begrenzt und wünschen sich professionelle Unterstützung, da sie weder die Zeit noch die Expertise haben, um ansprechende Grafiken selbst zu erstellen. 
-
-Es wird deutlich, dass visuelle Qualität eine zentrale Voraussetzung darstellt, damit OER überhaupt genutzt und weiterentwickelt werden. Dies ist insbesondere in aktuellen Bildungskontexten relevant, die von visueller Sozialisation äußerst stark beeinflußt sind.
-
+Zugleich erleben sich viele Lehrpersonen in ihren gestalterischen Möglichkeiten als begrenzt und wünschen sich fachliche Unterstützung, da ihnen oft sowohl Zeit als auch Expertise fehlen, um überzeugende Grafiken selbst zu entwickeln.
+Gleichzeitig ist evident, dass visuelle Qualität eine entscheidende Voraussetzung darstellt, damit OER überhaupt genutzt und weiterverarbeitet werden. In einer durch visuelle Sozialisation stark geprägten Bildungslandschaft gewinnt dieser Aspekt zunehmend an Bedeutung.
 
 ## Problemfelder: KI-generierte Bilder und rechtliche Unsicherheiten
 
@@ -135,14 +134,14 @@ Tiefergehende Analysen unternimmt Paula Paschke in ihrem Dissertationsprojekt: "
 
 ## Literaturangaben
 
-Beck, W. / Kohlbrenner, L. (2024): Ein Sein vor, hinter und in dem Bild? In: Pirker, V./Paschke, P. (Hg.): *Religion auf Instagram*, Freiburg, 194–211.  
+Beck, W. / Kohlbrenner, L. (2024): Ein Sein vor, hinter und in dem Bild? In: Pirker, V./Paschke, P. (Hg.): [Religion auf Instagram. Analysen und Perspektiven](https://www.herder.de/theologie-pastoral/shop/p2/81689-religion-auf-instagram-gebundene-ausgabe/), Freiburg, 194–211.  
 Boehm, G. (1994): Was ist ein Bild? München.
 Burghard, M. / Hornung, A. (2024): Was ist schon normal? In: *Kritische Berichte* 52 (2), 64–72, https://doi.org/10.11588/kb.2024.2.103988.  
 Burrichter, R. (2015): Bilder. In: WiReLex, https://www.die-bibel.de/ressourcen/wirelex/3-methoden-und-medien/bilder.  
 Gärtner, C. (2016): Bildung, ästhetische. In: WiReLex, https://www.die-bibel.de/ressourcen/wirelex/8-lernende-lehrende/bildung-aesthetische.  
 Missomelius, P. (2017): Medienpädagogische Aufgabenfelder. In: *MedienPädagogik*, 27. https://doi.org/10.21240/mpaed/27/2017.04.27.X.  
 Mitchell, W. J. T. (1994): *Picture Theory*, Chicago.  
-Pirker, V. (2021): Zur Macht der Bilder. In: Beck, W./Nord, I./Valentin, J. (Hg.): *Theologie und Digitalität*, Freiburg, 155–179.   
+Pirker, V. (2021): Zur Macht der Bilder. In: Beck, W./Nord, I./Valentin, J. (Hg.): [Theologie und Digitalität. Ein Kompendium](https://www.herder.de/theologie-pastoral/shop/p2/63137-theologie-und-digitalitaet-gebundene-ausgabe/), Freiburg, 155–179.   
 Steinhau, H. (2021): Pixabay und Co. Nutzung & Lizenzbedingungen für Bilder von Foto- und Medienplattformen, https://open-educational-resources.de/pixabay-und-co/. 
 
 
