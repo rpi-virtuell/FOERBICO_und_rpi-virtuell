@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 type: ScholarlyArticle
 id: https://oer.community/oer-visuelle-qualität
-name: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre'
+name: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien'
 description: >-
   Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? Die visuelle Qualität von OER ist bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
 inLanguage: de
@@ -25,15 +25,15 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: XXX.png
+image: .png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-09-10'
 #staticSiteGenerator:
 author:
-  - Dr. Laura Mößle
+  - Laura Mößle
   - Paula Paschke
-title: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre'
+title: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien'
 cover:
   relative: true
   image: check-306411_1280.png
@@ -50,16 +50,15 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Dies wirft jedoch bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
+Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen.  Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
 
 
-# OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien in der theologischen Hochschullehre
+# OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien
 
 ## Inhalt oder Eindruck? Warum Ästhetik in OER zählt
 
-Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*?
-
-Visuelle Kommunikation prägt längst unseren Informationsalltag: von Infografiken über Lernvideos bis hin zu Info-Kacheln und Bilder auf Instagram. Und doch ist die visuelle Qualität von OER bislang ein weitgehend unterbelichtetes Thema, besonders in der theologischen Hochschuldidaktik.
+Bildung erschöpft sich nicht in der Weitergabe von Wissen, sie ist immer auch eine Frage der Form. Gerade bei offenen Bildungsmaterialien stellt sich daher die Frage: Genügt es, wenn Inhalte fachlich korrekt und rechtlich abgesichert sind? Oder entscheidet die Art ihrer visuellen Aufbereitung ebenso sehr über ihre Wirkung und ihren didaktischen Wert wie der Inhalt selbst?
+Die visuelle Gestaltung von Lernmaterialien ist nicht nur eine didaktische Frage, sondern auch Ausdruck gesellschaftlicher Entwicklungen. In einer Zeit, in der Kommunikation zunehmend visuell geprägt ist, sei es durch soziale Medien, Infografiken oder Videos, wird auch von Bildungsmaterialien erwartet, dass sie ästhetisch ansprechend und visuell verständlich sind. Technische Möglichkeiten, mediale Gewohnheiten und der Trend zur Visualität insgesamt spiegeln sich somit unmittelbar in den Anforderungen an OER wider. 
 
 
 ## Der *Iconic Turn* und visuelle OER-Qualität
@@ -68,7 +67,7 @@ Mit dem „Iconic Turn“ ([Boehm, 1994](https://polc.ttk.pte.hu/tamop-4.1.2.b.2
 
 Dennoch konstatiert Missomelius eine Forschungslücke in der medienpädagogischen Auseinandersetzung mit visueller Wissensvermittlung. Dabei ist Bildlichkeit längst elementarer Bestandteil didaktischer Settings bspw. durch Schaubilder oder [Erklärvideos](https://www.die-bibel.de/ressourcen/wirelex/3-methoden-und-medien/erklaervideo). OER-Erstellende greifen z.B. häufig auf Stockfotografie oder KI-generierte Bilder zurück aus Gründen der Zugänglichkeit, Ästhetik und (vermeintlichen) Rechtssicherheit.
 
-Doch damit eröffnen sich bildethische Herausforderungen: Welche Stereotype werden durch Stockfotografie oder KI-generierte BIlder (re-)produziert? Woher stammen die Trainingsdaten für KI-generierte Bilder? Welche impliziten Normen vermitteln diese Bilder? In theologischen Kontexten, in denen Bildverwendung stets auch eine Reflexion religiöser Bedeutungen mit sich bringt, ist diese Auseinandersetzung umso dringlicher.
+Doch damit eröffnen sich bildethische Herausforderungen: Welche Stereotype werden durch Stockfotografie oder KI-generierte BIlder (re-)produziert? Woher stammen die Trainingsdaten für KI-generierte Bilder? Welche impliziten Normen vermitteln diese Bilder? In theologischen Kontexten ist die Auseinandersetzung besonders dringlich, da Bilder hier nicht nur illustrativ wirken, sondern häufig mit Fragen religiöser Symbolik, Tradition und Deutung einhergehen, selbst wenn diese Dimensionen nicht immer ausdrücklich reflektiert werden.
 
 
 ## Visuelle Qualität in OER: Zwischen Anspruch und Realität
@@ -92,12 +91,12 @@ Die Situation wird noch komplexer bei KI-generierten Bildern. Zwar unterliegen d
 - Haben diese zugestimmt, dass ihre urheberrechtlich geschützten Werke für die KI-Trainingsdaten verwendet werden?  
 - Wie nachhaltig ist der hohe Energieverbrauch, der mit der KI-Bildgenerierung einhergeht?
 
-Darüber hinaus zeigen erste Studien, dass KI-generierte Bilder bestehende stereotype Darstellungen und Vorurteile visuell reproduzieren ([vgl. Burghard & Hornung 2024](https://journals.ub.uni-heidelberg.de/index.php/kb/article/view/103988)). Aktuell arbeitet die EU derzeit an einer Regulierung von KI-Systemen, die Transparenz, Sicherheit und Verantwortlichkeit stärken soll. Diese umfasst auch den Umgang mit Trainingsdaten, was die rechtliche Einordnung und den ethischen Umgang mit KI-Bildern künftig maßgeblich prägen wird ([Tagesschau, 2025](https://www.tagesschau.de/ausland/europa/eu-regeln-ki-100.html)).
+Darüber hinaus zeigen erste Studien, dass KI-generierte Bilder bestehende stereotype Darstellungen und Vorurteile visuell reproduzieren ([vgl. Burghard & Hornung 2024](https://journals.ub.uni-heidelberg.de/index.php/kb/article/view/103988)). Aktuell arbeitet die EU derzeit an einer Regulierung von KI-Systemen, die Transparenz, Sicherheit und Verantwortlichkeit stärken soll. Diese umfasst auch den Umgang mit Trainingsdaten, was die rechtliche Einordnung und den ethischen Umgang mit KI-Bildern maßgeblich prägt ([Tagesschau, 02.08.2025](https://www.tagesschau.de/ausland/europa/eu-regeln-ki-100.html)).
 
 Insgesamt sind diese Fragen nicht nur juristisch relevant, sondern stellen vor allem eine ethische Herausforderung dar, besonders im Bildungsbereich, der eine kritische Reflexion und Urteilsfähigkeit bei Lernenden fördern will.
 
 
-## Religiöse Bildskepsis in der Theologie
+## Bildskepsis in der Theologie
 
 Das Christentum ist historisch durch eine ambivalente Haltung gegenüber Bildern geprägt, die sich aus seiner „Wortreligion“ ableitet, in der dem gesprochenen und geschriebenen Wort eine zentrale Offenbarungsfunktion zukommt ([vgl. Burrichter 2015](https://www.die-bibel.de/ressourcen/wirelex/3-methoden-und-medien/bilder)). Das biblische Bilderverbot und innerchristliche Kontroversen über Bilddarstellungen wirken bis heute nach und beeinflussen maßgeblich religionspädagogische Fragestellungen. 
 Dabei ist eine wichtige Unterscheidung zwischen **bildtheologischen** und **bilddidaktischen Aspekten** zu treffen: Während bildtheologische Überlegungen das Verhältnis von Bild und Offenbarung thematisieren, fokussiert die Bilddidaktik auf die Förderung von Wahrnehmung, Deutung und kritischer Reflexion im Lernprozess.
@@ -131,7 +130,10 @@ Die theologische Hochschuldidaktik kann in diesem Kontext von ihrer **Multipersp
 Eine offene Diskussion ist weiterhin erforderlich, um die Potenziale und Grenzen offener Bildungsmaterialien kritisch zu hinterfragen und eine fachdidaktische Haltung zu entwickeln.
 
 
-## Angaben
+Tiefergehende Analysen unternimmt Paula Paschke in ihrem Dissertationsprojekt: "Digital Diversity" in der Religionspädagogik. Eine diskriminierungskritische Analyse digitaler Bildungmedien. 
+
+
+## Literaturangaben
 
 Beck, W. / Kohlbrenner, L. (2024): Ein Sein vor, hinter und in dem Bild? In: Pirker, V./Paschke, P. (Hg.): *Religion auf Instagram*, Freiburg, 194–211.  
 Boehm, G. (1994): Was ist ein Bild? München.
@@ -141,6 +143,6 @@ Gärtner, C. (2016): Bildung, ästhetische. In: WiReLex, https://www.die-bibel.d
 Missomelius, P. (2017): Medienpädagogische Aufgabenfelder. In: *MedienPädagogik*, 27. https://doi.org/10.21240/mpaed/27/2017.04.27.X.  
 Mitchell, W. J. T. (1994): *Picture Theory*, Chicago.  
 Pirker, V. (2021): Zur Macht der Bilder. In: Beck, W./Nord, I./Valentin, J. (Hg.): *Theologie und Digitalität*, Freiburg, 155–179.   
-Steinhau, H. (2021): Pixabay und Co.. Nutzung & Lizenzbedingungen für Bilder von Foto- und Medienplattformen, https://open-educational-resources.de/pixabay-und-co/. 
+Steinhau, H. (2021): Pixabay und Co. Nutzung & Lizenzbedingungen für Bilder von Foto- und Medienplattformen, https://open-educational-resources.de/pixabay-und-co/. 
 
 
