@@ -20,7 +20,7 @@ Lageanzeige des Instituts mit Hilfe von [OpenStreetMap](http://www.openstreetmap
 Comenius-Institut  
 Evangelische Arbeitsstätte für Erziehungswissenschaft e.V.  
 Vertreten durch:  
-Prof. Dr. Dr. h.c. Friedrich Schweitzer, Vorsitzender des Vorstands  
+Prof. Dr. Bernd Schröder, Vorsitzender des Vorstands  
 Dr. Jens Dechow, Direktor
 
 Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE 126 043 813

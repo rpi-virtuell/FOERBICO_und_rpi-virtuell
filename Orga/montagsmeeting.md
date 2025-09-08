@@ -24,5 +24,5 @@ grundlegende Struktur der Treffen
 **10:45 - 11:30 Uhr** (_optional_): weiterer Austausch in den Break-out-Räumen
 
 ## Protokoll
-- unser [Kanban-Board in git](https://git.rpi-virtuell.de/Comenius-Institut/rpi-virtuell_und_FOERBICO/projects/28) `Noch neu anlegen hier im Repo`
+- unser [Kanban-Board in git](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/projects/52)
 - unser [Montagsmeeting-Pad](https://pad.rpi-virtuell.de/p/Montagsmeeting)

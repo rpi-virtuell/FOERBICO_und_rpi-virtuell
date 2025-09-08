@@ -50,7 +50,7 @@ tags:
 
 Bildungs- und Unterrichtsmaterialien bleiben oft isoliert, werden nicht miteinander geteilt und alle basteln vor sich hin - das kostet Zeit, Energie und macht keinen Spaß. Du hast Angst vor Trouble, wenn du dein Material veröffentlichst oder bist unsicher, wie das mit Rechten, Lizenzen und der Qualität aussieht? Damit bist du nicht alleine! Wir nehmen dich mit und begleiten dich raus aus deiner Bubble 🫧 Transparenz, Anschlussfähigkeit und Nachvollziehbarkeit sind unser Ziel 🏁 Vorbei mit dem ganzen Bubbletrouble – wir als OER-Communities wollen unser Wisssen, Erfahrungen und Materialien offen miteinander teilen 🤝 Dazu haben wir zusammen mit unserem FOERBICO-Team und einzelnen Personen aus verschiedenen Communities wie [relilab](https://relilab.org/) oder [reliGlobal](https://religlobal.org/) eine kleine Fun-Aktion gestartet und einen Bubblesong entwickelt 👇
 
-[![Raus aus den Bubbles](raus-aus-den-bubbles_vorschau.jpg)](https://reliverse.social/system/media_attachments/files/112/904/428/137/450/089/original/0a9aa90406a723e5.mp4)
+[![Raus aus den Bubbles](raus-aus-den-bubbles_vorschau.jpg)](https://blossom.primal.net/c126cdf894412efe78fca2cd0f7259b88de8eda67b6880132ad213ada4f4977d.mp4)
 
 Vielen Dank an Jörg Lohrer, Gina Buchwald-Chassée, Laura Moessle, Phillip Angelina, Corinna Ullmann, Bianca Kappelhoff, David Wakefield und Nele Hirsch fürs Mitmachen ❤️
 
