@@ -23,7 +23,6 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
-  - https://w3id.org/kim/hochschulfaechersystematik/n544
 image: https://oer.community/oep-von-ressourcen-zu-praktiken/oer-cube.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
