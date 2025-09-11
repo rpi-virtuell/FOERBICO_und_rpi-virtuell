@@ -2,9 +2,9 @@
 <!-- In der Grundkonzeption finde ich den Text schon recht schön! An ein paar Stellen hätte ich noch Ergänzungsvorschläge bzw. Präzisierungen in den Kommentaren -->
 ## Von der Illusion der Offenheit  
 
-Kostenlose Lehrbücher, frei zugängliche Materialien und Texte, offene Lern-Plattformen. Da liegt doch folgender Gedanke nahe: Wer könnte denn hier noch ausgeschlossen werden?
+Kostenlose Lehrbücher, frei zugängliche Materialien und Texte, offene Lern-Plattformen. Wer könnte denn hier noch ausgeschlossen werden?
 Blick man jedoch genauer hin, wird schnell deutlich, dass Offenheit allein nicht reicht. Ein freies E-Book nützt wenig, wenn Lernende kein stabiles Internet haben, wenn die Inhalte nur eine Perspektive abbilden oder wenn das Material Lernende auf eine passive Konsument:innenrolle festlegt.  
-Wie können also OER und Open Educational Practices (OEP) wirklich inklusives Lernen ermöglichen? <!--Würde den folgenden Satz umformulieren: Die Studie von [Bali, Cronin & Jhangiani (2020)](https://doi.org/10.5334/jime.565) liefern wertvolle Erkentnnisse auf OEP aus sozial-gerechter Perspektive. --> Wertvolle Einblicke in die Studie von [Bali, Cronin & Jhangiani (2020)](https://doi.org/10.5334/jime.565) liefern Erkentnnisse auf OEP aus sozial-gerechter Perspektive. Auch die Studie von [Pieper, Bierschwale, Sikorová & Vogt (2023)](https://doi.org/10.21240/mpaed/jb20/2023.09.25.X) gibt Aufschluss über zentrale Kriterien für inklusionssensible Bildungsmaterialien. Schauen wir also genauer hin, was es wirklich für inklusives Lernen braucht. 
+Wie können also OER und Open Educational Practices (OEP) wirklich inklusives Lernen ermöglichen? Die Studie von [Bali, Cronin & Jhangiani (2020)](https://doi.org/10.5334/jime.565) liefert wertvolle Perspektiven auf OEP aus sozial-gerechter Perspektive.  Auch die Studie von [Pieper, Bierschwale, Sikorová & Vogt (2023)](https://doi.org/10.21240/mpaed/jb20/2023.09.25.X) gibt Aufschluss über zentrale Kriterien für inklusionssensible Bildungsmaterialien. Schauen wir also genauer hin, was es wirklich für inklusives Lernen braucht. 
 
 
 ## Chancen von OER: Barrieren senken, Vielfalt sichtbar machen  
