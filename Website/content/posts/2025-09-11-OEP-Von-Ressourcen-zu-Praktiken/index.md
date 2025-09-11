@@ -1,4 +1,56 @@
-# Open Educational Practices – Von Ressourcen zu Praktiken
+---
+
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: "Open Educational Practices - Von Ressourcen zu Praktiken"
+description: >-
+  Ein Rückblick von Ulf-Daniel Ehlers auf die Entstehung und Entwicklung von Open Educational Practices (OEP). Im Zentrum steht die Verschiebung des Diskurses von Open Educational Resources (OER) hin zu offenen Lehr- und Lernpraktiken, bei denen Partizipation, Ko-Kreation und didaktische Innovation entscheidend sind.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/oep-von-ressourcen-zu-praktiken
+creator:
+  - givenName: Ehlers
+    familyName: Ulf-Daniel
+    id: https://orcid.org/0000-0003-1730-0256
+    type: Person
+    affiliation:
+      name: Baden-Wuerttemberg Cooperative State University
+      id: https://ror.org/02xdzy536
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+image: https://oer.community/oep-von-ressourcen-zu-praktiken/oer-cube.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-09-11'
+
+#staticSiteGenerator:
+author:
+  - Prof. Dr. Ulf-Daniel Ehlers
+title: 'Open Educational Practices - Von Ressourcen zu Praktiken'
+cover:
+  relative: true
+  image: oer-cube.jpg
+  caption: "Symbolbild: Der Würfel aus Bildern symbolisiert die Vielfalt offener Bildungsressourcen (OER) und die Vernetzung in Open Educational Practices (OEP) - frei kombinierbar, zugänglich und gemeinschaftlich gestaltbar"
+  alt: "Ein 3D-Bild eines schwarzen Würfels, dessen Flächen aus vielen rechteckigen Screens bestehen. Auf jedem Screen ist ein Foto oder Bild dargestellt, z. B. Landschaften, Architektur, Tiere, Kunstwerke, Symbole und Objekte in kräftigen Farben. Der Würfel ist leicht gedreht im Raum schwebend, mit blauer Hintergrundbeleuchtung, sodass er futuristisch und modern wirkt. Der Stil soll fotorealistisch und detailreich sein, wie eine digitale Collage aus kleinen Monitoren."
+  hiddenInSingle: true
+summary: |
+  Ein Rückblick von Ulf-Daniel Ehlers auf die Entstehung und Entwicklung von Open Educational Practices (OEP). Im Zentrum steht die Verschiebung des Diskurses von Open Educational Resources (OER) hin zu offenen Lehr- und Lernpraktiken, bei denen Partizipation, Ko-Kreation und didaktische Innovation entscheidend sind.
+url: oep-von-ressourcen-zu-praktiken
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+
+---
+
 CC BY [Prof. Dr. Ulf-Daniel Ehlers (NextEducation)](https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/)
 
 Es ist nun mehr als anderthalb Jahrzehnte her, dass ich als (damals) junger Wissenschaftler an der europäischen OPAL-Initiative mitwirken durfte. Damals begann die internationale Debatte, den Fokus von Open Educational Resources (OER) auf die pädagogischen Praktiken selbst zu lenken (Open Pedagogy). Rückblickend sehe ich mich heute fast in einer Art "Gedächtnis" dieser Entwicklungen – wissend, dass vieles, was damals grundgelegt wurde, heute in den aktuellen Diskussionen wiederkehrt. Interessant ist dabei auch der Blick nach Österreich: Kolleg:innen rund um Sandra Schön und Martin Ebner u.a. entwickelten in Projekten wie **OLCOS (Open eLearning Content Observatory Services, 2006–2007)** Impulse, die den europäischen Diskurs stark prägten. OLCOS stellte früh heraus, dass die eigentliche Innovation in der offenen Didaktik liegt, nicht allein in der Produktion freier Materialien (Geser, 2007). Diese Spur griffen wir in OPAL (Open Educational Quality Initiative, 2010–2011) auf und führten sie weiter – und damit entstand das, was wir heute als **Open Educational Practices (OEP)** diskutieren.
@@ -34,7 +86,7 @@ OEP ist also nicht nur eine didaktische Technik, sondern ein **ganzheitlicher An
 
   
 
-![Figure 2: Matrix 1 -Constitutive Elements of OEP (Ehlers 2011)](constitutive-elements-of-OEP-Ehlers-2011.jpg)
+![Figure 2: Matrix 1 . Constitutive Elements of OEP (Ehlers 2011)](constitutive-elements-of-OEP-Ehlers-2011.jpg)
 
 ### Vergleichende Modelle: Cronin, Hegarty, UNESCO
 
