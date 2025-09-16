@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI-Artikel Kuratierungstool - MVP</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --light-bg: #ecf0f1;
+            --border-radius: 8px;
+            --shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--primary-color);
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .app-header {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .app-title {
+            color: var(--primary-color);
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .quality-indicator {
+            text-align: center;
+            padding: 10px;
+            background: var(--light-bg);
+            border-radius: var(--border-radius);
+            min-width: 120px;
+        }
+
+        .score-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--secondary-color);
+            display: block;
+        }
+
+        .score-label {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Progress Indicator */
+        .progress-indicator {
+            margin-bottom: 20px;
+        }
+
+        .progress-steps {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .progress-steps::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #ddd;
+            z-index: 1;
+        }
+
+        .step {
+            background: white;
+            padding: 8px 15px;
+            border-radius: var(--border-radius);
+            border: 2px solid #ddd;
+            position: relative;
+            z-index: 2;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .step.completed {
+            background: var(--success-color);
+            color: white;
+            border-color: var(--success-color);
+        }
+
+        .step.active {
+            background: var(--secondary-color);
+            color: white;
+            border-color: var(--secondary-color);
+        }
+
+        /* Navigation */
+        .header-nav {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            background: var(--light-bg);
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+        }
+
+        .nav-btn:hover {
+            background: var(--secondary-color);
+            color: white;
+        }
+
+        .nav-btn.active {
+            background: var(--secondary-color);
+            color: white;
+        }
+
+        /* Main Content */
+        .main-content {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 30px;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light-bg);
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin: 0;
+        }
+
+        /* Quality Dimensions */
+        .quality-dimensions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .dimension-card {
+            background: var(--light-bg);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .dimension-card:hover {
+            border-color: var(--secondary-color);
+        }
+
+        .dimension-title {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .dimension-score {
+            text-align: right;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .criteria-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .criteria-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .criteria-list input[type="range"] {
+            flex: 1;
+        }
+
+        .criteria-value {
+            min-width: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            margin: 5px;
+        }
+
+        .btn-primary {
+            background: var(--secondary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2980b9;
+        }
+
+        .btn-success {
+            background: var(--success-color);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #229954;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
+        }
+
+        .btn-outline:hover {
+            background: var(--secondary-color);
+            color: white;
+        }
+
+        /* Results */
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .result-card {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            text-align: center;
+        }
+
+        .result-score {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .result-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        /* Export Section */
+        .export-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .export-card {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .export-card:hover {
+            background: var(--secondary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .export-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        /* Bot Assistant */
+        .bot-assistant {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 15px;
+            display: none;
+            z-index: 1000;
+        }
+
+        .bot-assistant.active {
+            display: block;
+        }
+
+        .bot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .bot-message {
+            background: var(--light-bg);
+            padding: 10px;
+            border-radius: var(--border-radius);
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .bot-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5em;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
+
+        .bot-toggle:hover {
+            background: #2980b9;
+            transform: scale(1.1);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header-top {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .progress-steps {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .progress-steps::before {
+                display: none;
+            }
+
+            .header-nav {
+                justify-content: center;
+            }
+
+            .quality-dimensions {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-top">
+                <h1 class="app-title">🎓 KI-Artikel Kuratierungstool</h1>
+                <div class="quality-indicator">
+                    <span class="score-value" id="overallQualityScore">--</span>
+                    <span class="score-label">Gesamtqualität</span>
+                </div>
+            </div>
+            
+            <div class="progress-indicator">
+                <div class="progress-steps">
+                    <div class="step completed" data-step="settings">Einstellungen</div>
+                    <div class="step" data-step="metadata">Metadaten</div>
+                    <div class="step" data-step="criteria">Kriterien</div>
+                    <div class="step" data-step="analysis">Analyse</div>
+                    <div class="step" data-step="results">Ergebnisse</div>
+                </div>
+            </div>
+
+            <nav class="header-nav">
+                <button class="nav-btn active" data-section="settings">Grundeinstellungen</button>
+                <button class="nav-btn" data-section="metadata">Metadaten</button>
+                <button class="nav-btn" data-section="criteria">Bewertungskriterien</button>
+                <button class="nav-btn" data-section="analysis">Qualitätsanalyse</button>
+                <button class="nav-btn" data-section="results">Ergebnisse & Export</button>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Section 1: Grundeinstellungen & Zielgruppendifferenzierung -->
+            <section class="section active fade-in" id="settings">
+                <h2 class="section-title">📋 Schritt 1: Grundeinstellungen & Zielgruppendifferenzierung</h2>
+                
+                <div class="form-group">
+                    <label class="form-label">Bildungsstufe auswählen:</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="elementar" name="bildungsstufe" value="elementar">
+                            <label for="elementar">Elementar</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="primar" name="bildungsstufe" value="primar">
+                            <label for="primar">Primar</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="sekundar1" name="bildungsstufe" value="sekundar1">
+                            <label for="sekundar1">Sekundar I</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="sekundar2" name="bildungsstufe" value="sekundar2">
+                            <label for="sekundar2">Sekundar II</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="tertiaer" name="bildungsstufe" value="tertiaer">
+                            <label for="tertiaer">Tertiär</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="erwachsenenbildung" name="bildungsstufe" value="erwachsenenbildung">
+                            <label for="erwachsenenbildung">Erwachsenenbildung</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Religionspädagogischer Kontext:</label>
+                    <select class="form-control" id="religionskontext">
+                        <option value="">Bitte auswählen...</option>
+                        <option value="konfessionell">Konfessionell</option>
+                        <option value="ueberkonfessionell">Überkonfessionell</option>
+                        <option value="interreligioes">Interreligiös</option>
+                        <option value="werteorientiert">Werteorientiert/Ethik</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Medientyp:</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="text" name="medientyp" value="text">
+                            <label for="text">📄 Text/Aufsatz</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="video" name="medientyp" value="video">
+                            <label for="video">🎥 Video</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="audio" name="medientyp" value="audio">
+                            <label for="audio">🎵 Audio</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="interaktiv" name="medientyp" value="interaktiv">
+                            <label for="interaktiv">⚡ Interaktiv</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="arbeitsmaterial" name="medientyp" value="arbeitsmaterial">
+                            <label for="arbeitsmaterial">📋 Arbeitsmaterial</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Multiplikatorenebene:</label>
+                    <select class="form-control" id="multiplikatorenebene">
+                        <option value="">Bitte auswählen...</option>
+                        <option value="praktiker">Praktiker:innen</option>
+                        <option value="fortbildende">Fortbildende</option>
+                        <option value="fortbildner-fortbildende">Fortbildner für Fortbildende</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-primary" onclick="nextSection('metadata')">Weiter zu Metadaten →</button>
+            </section>
+
+            <!-- Section 2: Metadaten & Erschließung -->
+            <section class="section fade-in" id="metadata">
+                <h2 class="section-title">📊 Schritt 2: Metadaten & Erschließung</h2>
+                
+                <div class="form-group">
+                    <label class="form-label">Titel des Materials:</label>
+                    <input type="text" class="form-control" id="material-titel" placeholder="Titel eingeben...">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Autor:in/Herausgeber:</label>
+                    <input type="text" class="form-control" id="material-autor" placeholder="Autor:in eingeben...">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">URL/DOI:</label>
+                    <input type="url" class="form-control" id="material-url" placeholder="https://...">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Fachbereiche:</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="theologie" name="fachbereich" value="theologie">
+                            <label for="theologie">Theologie</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="religionspaedagogik" name="fachbereich" value="religionspaedagogik">
+                            <label for="religionspaedagogik">Religionspädagogik</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="ethik" name="fachbereich" value="ethik">
+                            <label for="ethik">Ethik</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="philosophie" name="fachbereich" value="philosophie">
+                            <label for="philosophie">Philosophie</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="paedagogik" name="fachbereich" value="paedagogik">
+                            <label for="paedagogik">Pädagogik</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Schlagworte (durch Kommas getrennt):</label>
+                    <textarea class="form-control" id="schlagworte" rows="3" placeholder="KI, Bildung, Religionspädagogik, Qualitätssicherung..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Kurzbeschreibung/Abstract:</label>
+                    <textarea class="form-control" id="abstract" rows="4" placeholder="Kurze Beschreibung des Materials..."></textarea>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" onclick="previousSection('settings')">← Zurück</button>
+                    <button class="btn btn-primary" onclick="nextSection('criteria')">Weiter zu Kriterien →</button>
+                </div>
+            </section>
+
+            <!-- Section 3: Qualitätskriterien & Gewichtung -->
+            <section class="section fade-in" id="criteria">
+                <h2 class="section-title">⚖️ Schritt 3: Qualitätskriterien & Gewichtung</h2>
+                
+                <div class="quality-dimensions">
+                    <!-- Dimension 1: Rechtliche Qualität -->
+                    <div class="dimension-card">
+                        <div class="dimension-title">⚖️ Rechtliche Qualität</div>
+                        <div class="dimension-score"><span id="legal-score">0</span>/100</div>
+                        <ul class="criteria-list">
+                            <li>
+                                <label>TULLU-Regel erfüllt:</label>
+                                <input type="range" min="0" max="100" value="0" id="tullu-range">
+                                <span class="criteria-value" id="tullu-value">0</span>
+                            </li>
+                            <li>
+                                <label>CC-Lizenz vorhanden:</label>
+                                <input type="range" min="0" max="100" value="0" id="cc-range">
+                                <span class="criteria-value" id="cc-value">0</span>
+                            </li>
+                            <li>
+                                <label>KI-Content gekennzeichnet:</label>
+                                <input type="range" min="0" max="100" value="0" id="ki-range">
+                                <span class="criteria-value" id="ki-value">0</span>
+                            </li>
+                            <li>
+                                <label>Urheberrecht geklärt:</label>
+                                <input type="range" min="0" max="100" value="0" id="urheberrecht-range">
+                                <span class="criteria-value" id="urheberrecht-value">0</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Dimension 2: Technische Qualität -->
+                    <div class="dimension-card">
+                        <div class="dimension-title">🔧 Technische Qualität</div>
+                        <div class="dimension-score"><span id="technical-score">0</span>/100</div>
+                        <ul class="criteria-list">
+                            <li>
+                                <label>Offene Dateiformate:</label>
+                                <input type="range" min="0" max="100" value="0" id="formats-range">
+                                <span class="criteria-value" id="formats-value">0</span>
+                            </li>
+                            <li>
+                                <label>Barrierefreiheit (WCAG):</label>
+                                <input type="range" min="0" max="100" value="0" id="accessibility-range">
+                                <span class="criteria-value" id="accessibility-value">0</span>
+                            </li>
+                            <li>
+                                <label>Metadaten-Qualität:</label>
+                                <input type="range" min="0" max="100" value="0" id="metadata-range">
+                                <span class="criteria-value" id="metadata-value">0</span>
+                            </li>
+                            <li>
+                                <label>Geräte-Kompatibilität:</label>
+                                <input type="range" min="0" max="100" value="0" id="compatibility-range">
+                                <span class="criteria-value" id="compatibility-value">0</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Dimension 3: Pädagogische Qualität -->
+                    <div class="dimension-card">
+                        <div class="dimension-title">📚 Pädagogische Qualität</div>
+                        <div class="dimension-score"><span id="pedagogical-score">0</span>/100</div>
+                        <ul class="criteria-list">
+                            <li>
+                                <label>Fachwissenschaftliche Fundierung:</label>
+                                <input type="range" min="0" max="100" value="0" id="scientific-range">
+                                <span class="criteria-value" id="scientific-value">0</span>
+                            </li>
+                            <li>
+                                <label>Zielgruppenorientierung:</label>
+                                <input type="range" min="0" max="100" value="0" id="target-range">
+                                <span class="criteria-value" id="target-value">0</span>
+                            </li>
+                            <li>
+                                <label>Kompetenzorientierung:</label>
+                                <input type="range" min="0" max="100" value="0" id="competence-range">
+                                <span class="criteria-value" id="competence-value">0</span>
+                            </li>
+                            <li>
+                                <label>Interaktion & Transfer:</label>
+                                <input type="range" min="0" max="100" value="0" id="interaction-range">
+                                <span class="criteria-value" id="interaction-value">0</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Dimension 4: Religionspädagogische Qualität -->
+                    <div class="dimension-card">
+                        <div class="dimension-title">✝️ Religionspädagogische Qualität</div>
+                        <div class="dimension-score"><span id="religious-score">0</span>/100</div>
+                        <ul class="criteria-list">
+                            <li>
+                                <label>Elementarisierung:</label>
+                                <input type="range" min="0" max="100" value="0" id="elementarisierung-range">
+                                <span class="criteria-value" id="elementarisierung-value">0</span>
+                            </li>
+                            <li>
+                                <label>Korrelation (Lebenswelt):</label>
+                                <input type="range" min="0" max="100" value="0" id="korrelation-range">
+                                <span class="criteria-value" id="korrelation-value">0</span>
+                            </li>
+                            <li>
+                                <label>Subjektorientierung:</label>
+                                <input type="range" min="0" max="100" value="0" id="subjektorientierung-range">
+                                <span class="criteria-value" id="subjektorientierung-value">0</span>
+                            </li>
+                            <li>
+                                <label>Pluralitätssensibilität:</label>
+                                <input type="range" min="0" max="100" value="0" id="pluralitaet-range">
+                                <span class="criteria-value" id="pluralitaet-value">0</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" onclick="previousSection('metadata')">← Zurück</button>
+                    <button class="btn btn-primary" onclick="nextSection('analysis')">Weiter zur Analyse →</button>
+                </div>
+            </section>
+
+            <!-- Section 4: Qualitätsanalyse & KI-Bewertung -->
+            <section class="section fade-in" id="analysis">
+                <h2 class="section-title">🔍 Schritt 4: Qualitätsanalyse & KI-Bewertung</h2>
+                
+                <div class="form-group">
+                    <label class="form-label">Material-Input:</label>
+                    <textarea class="form-control" id="material-input" rows="6" placeholder="Fügen Sie hier den Text des zu bewertenden Materials ein oder geben Sie zusätzliche Informationen an..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">KI-Analyse-Optionen:</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="populismus-analyse" name="ai-analyse" value="populismus">
+                            <label for="populismus-analyse">Populismus-Analyse</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="bias-erkennung" name="ai-analyse" value="bias">
+                            <label for="bias-erkennung">Bias-Erkennung</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="barrierefreiheit" name="ai-analyse" value="accessibility">
+                            <label for="barrierefreiheit">Barrierefreiheitsprüfung</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="antisemitismus" name="ai-analyse" value="antisemitism">
+                            <label for="antisemitismus">Antisemitismus-Screening</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="rassismus" name="ai-analyse" value="racism">
+                            <label for="rassismus">Rassismus-Screening</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-success" onclick="performAnalysis()">🤖 KI-Analyse starten</button>
+                </div>
+
+                <div id="analysis-results" style="display: none;">
+                    <h3>Analyse-Ergebnisse:</h3>
+                    <div id="analysis-output" class="form-group">
+                        <textarea class="form-control" rows="8" readonly placeholder="Analyse-Ergebnisse werden hier angezeigt..."></textarea>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" onclick="previousSection('criteria')">← Zurück</button>
+                    <button class="btn btn-primary" onclick="nextSection('results')">Weiter zu Ergebnissen →</button>
+                </div>
+            </section>
+
+            <!-- Section 5: Bewertungsergebnisse & Export -->
+            <section class="section fade-in" id="results">
+                <h2 class="section-title">📊 Schritt 5: Bewertungsergebnisse & Export</h2>
+                
+                <div class="results-grid">
+                    <div class="result-card">
+                        <div class="result-score" style="color: var(--danger-color);" id="result-legal">--</div>
+                        <div class="result-label">Rechtliche Qualität</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-score" style="color: var(--warning-color);" id="result-technical">--</div>
+                        <div class="result-label">Technische Qualität</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-score" style="color: var(--secondary-color);" id="result-pedagogical">--</div>
+                        <div class="result-label">Pädagogische Qualität</div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-score" style="color: var(--success-color);" id="result-religious">--</div>
+                        <div class="result-label">Religionspädagogische Qualität</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <h3>Handlungsempfehlungen:</h3>
+                    <div id="recommendations" class="form-group">
+                        <textarea class="form-control" rows="6" readonly placeholder="Basierend auf der Bewertung werden hier Empfehlungen angezeigt..."></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <h3>Export-Optionen:</h3>
+                    <div class="export-options">
+                        <div class="export-card" onclick="exportPrompt()">
+                            <div class="export-icon">📋</div>
+                            <strong>KI-Bewertungs-Prompt</strong>
+                            <p>Für ChatGPT, Claude & Co.</p>
+                        </div>
+                        <div class="export-card" onclick="exportMetadata()">
+                            <div class="export-icon">📊</div>
+                            <strong>Metadaten (JSON)</strong>
+                            <p>Strukturierte Daten</p>
+                        </div>
+                        <div class="export-card" onclick="exportReport()">
+                            <div class="export-icon">📄</div>
+                            <strong>Qualitätsbericht</strong>
+                            <p>PDF-Dokument</p>
+                        </div>
+                        <div class="export-card" onclick="exportMaterialpool()">
+                            <div class="export-icon">📝</div>
+                            <strong>Materialpool-Eintrag</strong>
+                            <p>rpi-virtuell Format</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-outline" onclick="previousSection('analysis')">← Zurück</button>
+                    <button class="btn btn-success" onclick="resetTool()">🔄 Neue Bewertung starten</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Bot Assistant -->
+        <div class="bot-assistant" id="botAssistant">
+            <div class="bot-header">
+                <strong>🤖 Religionspädagogischer Assistent</strong>
+                <button onclick="toggleBot()" style="background: none; border: none; font-size: 1.2em; cursor: pointer;">✕</button>
+            </div>
+            <div class="bot-message" id="botMessage">
+                Willkommen! Für wen kuratieren Sie das Material heute?
+            </div>
+            <div>
+                <input type="text" class="form-control" placeholder="Ihre Antwort..." style="margin-bottom: 10px;">
+                <button class="btn btn-primary" style="width: 100%; padding: 8px;">Antworten</button>
+            </div>
+        </div>
+
+        <button class="bot-toggle" onclick="toggleBot()" id="botToggle">🤖</button>
+    </div>
+
+    <script>
+        // Globale Variablen
+        let currentSection = 'settings';
+        let qualityScores = {
+            legal: 0,
+            technical: 0,
+            pedagogical: 0,
+            religious: 0
+        };
+
+        // Event Listeners für Navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation Buttons
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const section = this.getAttribute('data-section');
+                    showSection(section);
+                });
+            });
+
+            // Range Slider Updates
+            document.querySelectorAll('input[type="range"]').forEach(slider => {
+                slider.addEventListener('input', updateCriteriaValues);
+            });
+
+            // Initial Update
+            updateCriteriaValues();
+        });
+
+        // Section Navigation
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show target section
+            document.getElementById(sectionId).classList.add('active');
+            document.getElementById(sectionId).classList.add('fade-in');
+
+            // Update navigation
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-section="${sectionId}"]`).classList.add('active');
+
+            // Update progress
+            updateProgress(sectionId);
+            currentSection = sectionId;
+        }
+
+        function nextSection(sectionId) {
+            showSection(sectionId);
+        }
+
+        function previousSection(sectionId) {
+            showSection(sectionId);
+        }
+
+        // Progress Update
+        function updateProgress(currentStep) {
+            const steps = ['settings', 'metadata', 'criteria', 'analysis', 'results'];
+            const currentIndex = steps.indexOf(currentStep);
+
+            document.querySelectorAll('.step').forEach((step, index) => {
+                step.classList.remove('active', 'completed');
+                if (index < currentIndex) {
+                    step.classList.add('completed');
+                } else if (index === currentIndex) {
+                    step.classList.add('active');
+                }
+            });
+        }
+
+        // Criteria Values Update
+        function updateCriteriaValues() {
+            // Update individual criteria values
+            document.querySelectorAll('input[type="range"]').forEach(slider => {
+                const valueSpan = document.getElementById(slider.id.replace('-range', '-value'));
+                if (valueSpan) {
+                    valueSpan.textContent = slider.value;
+                }
+            });
+
+            // Calculate dimension scores
+            const legalScores = ['tullu-range', 'cc-range', 'ki-range', 'urheberrecht-range'];
+            const technicalScores = ['formats-range', 'accessibility-range', 'metadata-range', 'compatibility-range'];
+            const pedagogicalScores = ['scientific-range', 'target-range', 'competence-range', 'interaction-range'];
+            const religiousScores = ['elementarisierung-range', 'korrelation-range', 'subjektorientierung-range', 'pluralitaet-range'];
+
+            qualityScores.legal = calculateDimensionScore(legalScores);
+            qualityScores.technical = calculateDimensionScore(technicalScores);
+            qualityScores.pedagogical = calculateDimensionScore(pedagogicalScores);
+            qualityScores.religious = calculateDimensionScore(religiousScores);
+
+            // Update dimension displays
+            document.getElementById('legal-score').textContent = qualityScores.legal;
+            document.getElementById('technical-score').textContent = qualityScores.technical;
+            document.getElementById('pedagogical-score').textContent = qualityScores.pedagogical;
+            document.getElementById('religious-score').textContent = qualityScores.religious;
+
+            // Update overall score
+            const overallScore = Math.round((qualityScores.legal + qualityScores.technical + qualityScores.pedagogical + qualityScores.religious) / 4);
+            document.getElementById('overallQualityScore').textContent = overallScore;
+
+            // Update results section
+            document.getElementById('result-legal').textContent = qualityScores.legal;
+            document.getElementById('result-technical').textContent = qualityScores.technical;
+            document.getElementById('result-pedagogical').textContent = qualityScores.pedagogical;
+            document.getElementById('result-religious').textContent = qualityScores.religious;
+
+            // Generate recommendations
+            generateRecommendations();
+        }
+
+        function calculateDimensionScore(rangeIds) {
+            let total = 0;
+            let count = 0;
+            rangeIds.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    total += parseInt(element.value);
+                    count++;
+                }
+            });
+            return count > 0 ? Math.round(total / count) : 0;
+        }
+
+        // AI Analysis
+        function performAnalysis() {
+            const materialInput = document.getElementById('material-input').value;
+            const selectedAnalyses = document.querySelectorAll('input[name="ai-analyse"]:checked');
+            
+            if (!materialInput.trim()) {
+                alert('Bitte geben Sie Material-Text ein für die Analyse.');
+                return;
+            }
+
+            // Show results section
+            document.getElementById('analysis-results').style.display = 'block';
+            
+            // Simulate AI analysis
+            let analysisText = "=== KI-ANALYSE ERGEBNISSE ===\n\n";
+            analysisText += `Analysierter Text: ${materialInput.substring(0, 100)}...\n\n`;
+            
+            selectedAnalyses.forEach(checkbox => {
+                const analysis = checkbox.value;
+                switch(analysis) {
+                    case 'populismus':
+                        analysisText += "🔍 POPULISMUS-ANALYSE:\n";
+                        analysisText += "- Keine populistischen Strukturmerkmale erkannt\n";
+                        analysisText += "- Argumentationsweise ist differenziert\n\n";
+                        break;
+                    case 'bias':
+                        analysisText += "⚖️ BIAS-ERKENNUNG:\n";
+                        analysisText += "- Geringe kulturelle Verzerrungen festgestellt\n";
+                        analysisText += "- Empfehlung: Perspektivenvielfalt erweitern\n\n";
+                        break;
+                    case 'accessibility':
+                        analysisText += "♿ BARRIEREFREIHEIT:\n";
+                        analysisText += "- Alt-Texte für Bilder fehlen\n";
+                        analysisText += "- Kontrast-Verhältnisse prüfen\n\n";
+                        break;
+                    case 'antisemitism':
+                        analysisText += "✡️ ANTISEMITISMUS-SCREENING:\n";
+                        analysisText += "- Keine antisemitischen Inhalte erkannt\n";
+                        analysisText += "- Historische Darstellung sensibel\n\n";
+                        break;
+                    case 'racism':
+                        analysisText += "🤝 RASSISMUS-SCREENING:\n";
+                        analysisText += "- Material ist diskriminierungsfrei\n";
+                        analysisText += "- Diversitätssensible Sprache verwendet\n\n";
+                        break;
+                }
+            });
+
+            document.querySelector('#analysis-output textarea').value = analysisText;
+        }
+
+        // Recommendations
+        function generateRecommendations() {
+            let recommendations = "=== HANDLUNGSEMPFEHLUNGEN ===\n\n";
+            
+            if (qualityScores.legal < 50) {
+                recommendations += "⚖️ RECHTLICHE QUALITÄT (Priorität: HOCH):\n";
+                recommendations += "- TULLU-Regel vollständig implementieren\n";
+                recommendations += "- Creative Commons Lizenz hinzufügen\n";
+                recommendations += "- KI-generierte Inhalte kennzeichnen\n\n";
+            }
+            
+            if (qualityScores.technical < 50) {
+                recommendations += "🔧 TECHNISCHE QUALITÄT (Priorität: MITTEL):\n";
+                recommendations += "- Auf offene Dateiformate umstellen (.odt, .svg)\n";
+                recommendations += "- Barrierefreiheits-Standards implementieren\n";
+                recommendations += "- Metadaten-Qualität verbessern\n\n";
+            }
+            
+            if (qualityScores.pedagogical < 50) {
+                recommendations += "📚 PÄDAGOGISCHE QUALITÄT (Priorität: HOCH):\n";
+                recommendations += "- Fachwissenschaftliche Referenzen ergänzen\n";
+                recommendations += "- Zielgruppen-Anpassung überprüfen\n";
+                recommendations += "- Kompetenzorientierung stärken\n\n";
+            }
+            
+            if (qualityScores.religious < 50) {
+                recommendations += "✝️ RELIGIONSPÄDAGOGISCHE QUALITÄT (Priorität: HOCH):\n";
+                recommendations += "- Elementarisierung verbessern\n";
+                recommendations += "- Lebensweltbezug stärken\n";
+                recommendations += "- Pluralitätssensibilität erhöhen\n\n";
+            }
+
+            const overallScore = Math.round((qualityScores.legal + qualityScores.technical + qualityScores.pedagogical + qualityScores.religious) / 4);
+            if (overallScore >= 80) {
+                recommendations += "🎉 GLÜCKWUNSCH! Ihr Material erfüllt hohe Qualitätsstandards.\n";
+                recommendations += "Empfehlung: Material für Community-Sharing freigeben.";
+            } else if (overallScore >= 60) {
+                recommendations += "✅ Gute Qualität erreicht! Kleinere Verbesserungen empfohlen.\n";
+                recommendations += "Das Material ist grundsätzlich verwendbar.";
+            } else {
+                recommendations += "⚠️ Erheblicher Verbesserungsbedarf erkannt.\n";
+                recommendations += "Bitte arbeiten Sie die oben genannten Punkte ab.";
+            }
+
+            document.querySelector('#recommendations textarea').value = recommendations;
+        }
+
+        // Export Functions
+        function exportPrompt() {
+            const materialData = collectMaterialData();
+            let prompt = `# KI-Bewertungs-Prompt für Bildungsmaterial\n\n`;
+            prompt += `Bewerte folgendes Bildungsmaterial nach den FOERBICO 4-Dimensionen-Qualitätsstandards:\n\n`;
+            prompt += `## Material-Informationen:\n`;
+            prompt += `- Titel: ${materialData.titel}\n`;
+            prompt += `- Autor:in: ${materialData.autor}\n`;
+            prompt += `- URL: ${materialData.url}\n`;
+            prompt += `- Bildungsstufe: ${materialData.bildungsstufe}\n`;
+            prompt += `- Religionskontext: ${materialData.religionskontext}\n\n`;
+            prompt += `## Bewertungsdimensionen (je 0-100 Punkte):\n`;
+            prompt += `1. Rechtliche Qualität (TULLU, CC-Lizenz, KI-Kennzeichnung)\n`;
+            prompt += `2. Technische Qualität (Formate, Barrierefreiheit, Metadaten)\n`;
+            prompt += `3. Pädagogische Qualität (Fundierung, Zielgruppe, Kompetenz)\n`;
+            prompt += `4. Religionspädagogische Qualität (Elementarisierung, Korrelation, Subjektorientierung, Pluralität)\n\n`;
+            prompt += `## Material-Text:\n${document.getElementById('material-input').value}\n\n`;
+            prompt += `Gib eine detaillierte Bewertung mit Punktzahl pro Dimension und Verbesserungsvorschlägen.`;
+            
+            downloadText(prompt, 'bewertungs-prompt.txt');
+        }
+
+        function exportMetadata() {
+            const materialData = collectMaterialData();
+            const metadata = {
+                title: materialData.titel,
+                author: materialData.autor,
+                url: materialData.url,
+                educationLevel: materialData.bildungsstufe,
+                religiousContext: materialData.religionskontext,
+                mediaType: materialData.medientyp,
+                keywords: materialData.schlagworte.split(',').map(k => k.trim()),
+                abstract: materialData.abstract,
+                qualityScores: qualityScores,
+                overallScore: Math.round((qualityScores.legal + qualityScores.technical + qualityScores.pedagogical + qualityScores.religious) / 4),
+                timestamp: new Date().toISOString(),
+                foerbicoCompliant: true
+            };
+            
+            downloadText(JSON.stringify(metadata, null, 2), 'material-metadaten.json');
+        }
+
+        function exportReport() {
+            alert('PDF-Export wird in der finalen Version verfügbar sein.');
+        }
+
+        function exportMaterialpool() {
+            const materialData = collectMaterialData();
+            let entry = `# rpi-virtuell Materialpool-Eintrag\n\n`;
+            entry += `**Titel:** ${materialData.titel}\n`;
+            entry += `**Autor:in:** ${materialData.autor}\n`;
+            entry += `**URL:** ${materialData.url}\n`;
+            entry += `**Bildungsstufe:** ${materialData.bildungsstufe}\n`;
+            entry += `**Fachbereich:** Religionspädagogik\n`;
+            entry += `**Schlagworte:** ${materialData.schlagworte}\n\n`;
+            entry += `**Beschreibung:**\n${materialData.abstract}\n\n`;
+            entry += `**FOERBICO-Qualitätsbewertung:**\n`;
+            entry += `- Rechtlich: ${qualityScores.legal}/100\n`;
+            entry += `- Technisch: ${qualityScores.technical}/100\n`;
+            entry += `- Pädagogisch: ${qualityScores.pedagogical}/100\n`;
+            entry += `- Religionspädagogisch: ${qualityScores.religious}/100\n\n`;
+            entry += `**Gesamtqualität:** ${Math.round((qualityScores.legal + qualityScores.technical + qualityScores.pedagogical + qualityScores.religious) / 4)}/100\n\n`;
+            entry += `*Kuratiert mit KI-Artikel Kuratierungstool v1.0*`;
+            
+            downloadText(entry, 'materialpool-eintrag.md');
+        }
+
+        // Helper Functions
+        function collectMaterialData() {
+            return {
+                titel: document.getElementById('material-titel').value,
+                autor: document.getElementById('material-autor').value,
+                url: document.getElementById('material-url').value,
+                bildungsstufe: Array.from(document.querySelectorAll('input[name="bildungsstufe"]:checked')).map(cb => cb.value).join(', '),
+                religionskontext: document.getElementById('religionskontext').value,
+                medientyp: Array.from(document.querySelectorAll('input[name="medientyp"]:checked')).map(cb => cb.value).join(', '),
+                schlagworte: document.getElementById('schlagworte').value,
+                abstract: document.getElementById('abstract').value
+            };
+        }
+
+        function downloadText(text, filename) {
+            const element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        }
+
+        function resetTool() {
+            if (confirm('Möchten Sie wirklich eine neue Bewertung starten? Alle Eingaben werden zurückgesetzt.')) {
+                location.reload();
+            }
+        }
+
+        // Bot Assistant
+        function toggleBot() {
+            const bot = document.getElementById('botAssistant');
+            const toggle = document.getElementById('botToggle');
+            
+            if (bot.classList.contains('active')) {
+                bot.classList.remove('active');
+                toggle.style.display = 'block';
+            } else {
+                bot.classList.add('active');
+                toggle.style.display = 'none';
+                updateBotMessage();
+            }
+        }
+
+        function updateBotMessage() {
+            const messages = [
+                "Für wen kuratieren Sie das Material?",
+                "Welcher religionspädagogische Kontext ist relevant?",
+                "Auf welche Qualitätsdimension legen Sie besonderen Wert?",
+                "Benötigen Sie Hilfe bei der Bewertung?",
+                "Möchten Sie Community-Feedback einholen?"
+            ];
+            
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            document.getElementById('botMessage').textContent = randomMessage;
+        }
+    </script>
+</body>
+</html>
