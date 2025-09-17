@@ -501,7 +501,7 @@ root((Lerngegenstand))
 
 * Fey, C.-C. (2015). Kostenfreie Online-Lehrmittel. Eine kritische Qualitätsanalyse, Bad Heilbrunn.
 
-* * Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive, Bad Heilbrunn, 14–47). 
+* Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive, Bad Heilbrunn, 14–47). 
 
 * Gärtner, C. (2016). Bildung, ästhetische, in: Wissenschaftlich Religionspädagogisches Lexikon im Internet, 1–10, [https://www.wirelex.de/](https://www.wirelex.de/).
 
