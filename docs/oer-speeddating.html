@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Speed-Dating Karten – O/E/R × Farben × Themen</title>
+<style>
+  :root{
+    --schwarz-bg:#111111; --schwarz-fg:#ffffff;
+    --gelb-bg:#ffd60a; --gelb-fg:#111111;
+    --blau-bg:#1d4ed8; --blau-fg:#ffffff;
+
+    --card-radius:16px; --card-pad:14px; --gap:14px;
+  }
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;margin:24px;color:#111}
+  h1{font-size:1.5rem;margin:0 0 6px}
+  h2{font-size:1.2rem;margin:22px 0 8px}
+  .legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:6px 0 18px}
+  .swatch{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;font-size:.9rem;border:1px solid #e5e7eb}
+  .swatch .dot{width:14px;height:14px;border-radius:50%}
+  .dot.schwarz{background:var(--schwarz-bg)}
+  .dot.gelb{background:var(--gelb-bg)}
+  .dot.blau{background:var(--blau-bg)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:var(--gap)}
+  .card{
+    border-radius:var(--card-radius);
+    padding:var(--card-pad);
+    box-shadow:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.06);
+    border:1px solid #e5e7eb;
+    display:flex;flex-direction:column;gap:10px;min-height:130px;
+  }
+  .card.schwarz{background:var(--schwarz-bg); color:var(--schwarz-fg)}
+  .card.gelb{background:var(--gelb-bg); color:var(--gelb-fg)}
+  .card.blau{background:var(--blau-bg); color:var(--blau-fg)}
+
+  .meta{display:flex;justify-content:space-between;opacity:.9;font-size:.9rem}
+  .letter{font-weight:800;font-size:2.6rem;line-height:1}
+  .topic{font-weight:600;font-size:1.05rem;margin-top:auto}
+  .num{opacity:.85;font-size:.9rem}
+  .section{margin-bottom:28px}
+  .note{font-size:.9rem;color:#4b5563;margin-bottom:6px}
+  @media print{
+    body{margin:0}
+    .card{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<h1>Speed-Dating Karten</h1>
+<div class="legend">
+  <span class="swatch"><span class="dot schwarz"></span>Schwarz</span>
+  <span class="swatch"><span class="dot gelb"></span>Gelb</span>
+  <span class="swatch"><span class="dot blau"></span>Blau</span>
+</div>
+
+<div class="section" id="s12">
+  <h2>12 Personen (3 Karten doppelt)</h2>
+  <div class="note">Set basiert auf 9 Grundkarten, plus 3 Duplikate: Schwarz-O-Erstellen, Gelb-E-Teilen, Blau-R-Verwenden.</div>
+  <div class="grid" data-size="12"></div>
+</div>
+
+<div class="section" id="s15">
+  <h2>15 Personen (6 Karten doppelt)</h2>
+  <div class="note">Duplikate: Schwarz-O-Erstellen, Schwarz-E-Erstellen, Gelb-R-Teilen, Blau-O-Verwenden, Blau-E-Verwenden, Gelb-O-Teilen.</div>
+  <div class="grid" data-size="15"></div>
+</div>
+
+<div class="section" id="s18">
+  <h2>18 Personen (alle Karten doppelt)</h2>
+  <div class="note">Komplettes 9er-Set ×2.</div>
+  <div class="grid" data-size="18"></div>
+</div>
+
+<script>
+  // Grundset (9 Karten)
+  const BASE = [
+    {farbe:'schwarz', letter:'O', topic:'Erstellen'},
+    {farbe:'schwarz', letter:'E', topic:'Erstellen'},
+    {farbe:'schwarz', letter:'R', topic:'Erstellen'},
+    {farbe:'gelb',    letter:'O', topic:'Teilen'},
+    {farbe:'gelb',    letter:'E', topic:'Teilen'},
+    {farbe:'gelb',    letter:'R', topic:'Teilen'},
+    {farbe:'blau',    letter:'O', topic:'Verwenden'},
+    {farbe:'blau',    letter:'E', topic:'Verwenden'},
+    {farbe:'blau',    letter:'R', topic:'Verwenden'},
+  ];
+
+  // Sets nach deiner Vorgabe
+  const SET_12 = [
+    ...BASE,
+    {farbe:'schwarz', letter:'O', topic:'Erstellen'},
+    {farbe:'gelb',    letter:'E', topic:'Teilen'},
+    {farbe:'blau',    letter:'R', topic:'Verwenden'},
+  ];
+
+  const SET_15 = [
+    ...BASE,
+    {farbe:'schwarz', letter:'O', topic:'Erstellen'},
+    {farbe:'schwarz', letter:'E', topic:'Erstellen'},
+    {farbe:'gelb',    letter:'R', topic:'Teilen'},
+    {farbe:'blau',    letter:'O', topic:'Verwenden'},
+    {farbe:'blau',    letter:'E', topic:'Verwenden'},
+    {farbe:'gelb',    letter:'O', topic:'Teilen'},
+  ];
+
+  const SET_18 = [
+    ...BASE,
+    ...BASE, // komplett doppelt
+  ];
+
+  function renderCards(container, data){
+    container.innerHTML = '';
+    data.forEach((k, idx) => {
+      const el = document.createElement('div');
+      el.className = `card ${k.farbe}`;
+      el.innerHTML = `
+        <div class="meta">
+          <div>${k.farbe.charAt(0).toUpperCase()+k.farbe.slice(1)}</div>
+          <div class="num">Karte ${idx+1}</div>
+        </div>
+        <div class="letter">${k.letter}</div>
+        <div class="topic">${k.topic}</div>
+      `;
+      container.appendChild(el);
+    });
+  }
+
+  renderCards(document.querySelector('.grid[data-size="12"]'), SET_12);
+  renderCards(document.querySelector('.grid[data-size="15"]'), SET_15);
+  renderCards(document.querySelector('.grid[data-size="18"]'), SET_18);
+</script>
+</body>
+</html>
