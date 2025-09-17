@@ -234,7 +234,7 @@ Wenn Material in Kombination mit geschützten Texten, Bildern, Audios und Videos
 
 ## Zugänglichkeit für Menschen mit Beeinträchtigungen
 - [ ] Das Material ist klar strukturiert und einfach zu navigieren.
-- [ ] Alternativtexte für Menschen mit Lernschwächen wie Legasthenie bereitstellen.
+- [ ] Alternativtexte für Menschen mit Lernschwächen wie Legasthenie wurden bereitgestellt.
 - [ ] Alternativtexte für Bilder und visuelle Inhalte wurden bereitgestellt, damit Screenreader sie erfassen können.
 - [ ] Für audiovisuelle Inhalte sind Untertitel und Texttranskripte vorhanden.
 - [ ] Kontraste und Farbauswahl sind für Menschen mit Sehbeeinträchtigungen optimiert
