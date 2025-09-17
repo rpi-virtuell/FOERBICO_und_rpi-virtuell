@@ -27,7 +27,7 @@ author:
 title: Offenheit ist kein Gegensatz zu Qualität.Religionspädagogische Qualitätskriterien für OER
 cover:
   relative: true
-  image: Quality.kpg
+  image: Quality.jpg
   hidddenInSingle: false
   alt: 'Wandkunst mit Text über Qualität und Frische von Adhitya Sibikumar (@adhitya_2505)(Quelle: Unsplash, Unsplash-Lizenz)'
 summary: >-
@@ -105,7 +105,7 @@ Er verweist darauf, dass Religionsunterricht einerseits denselben allgemeinen St
 Andererseits muss sich Religionsunterricht an Maßstäben orientieren, die aus den Bezugswissenschaften Theologie und Religionswissenschaft sowie aus der Religionsdidaktik selbst hervorgehen. Diese betreffen spezifische Kompetenzen religiöser Bildung wie das Wahrnehmen religiöser Phänomene, das Verstehen und Verwenden religiöser Sprache oder das begründete Urteilen in Glaubensfragen.  
 Auch Englert (2006) betont, dass die Bestimmung von Qualität im Religionsunterricht nur unter Einbezug genuin fachspezifischer Kategorien gelingen kann. In diesem Sinne erfordern z.B. kooperative Formate eine Didaktik, die Perspektivenwechsel und Dialogfähigkeit systematisch fördert ([vgl. Käbisch und Woppowa 2022)](https://rpb-journal.de/index.php/rpb/article/view/193).
 Eine bloße Auflistung von Qualitätskriterien kann allerdings nicht als Garantie für gelingenden Unterricht gelten. Wie die Unterrichtsforschung zeigt, ergibt sich Qualität nicht aus der Summe einzelner Merkmale, sondern aus deren Zusammenspiel (vgl. Helmke, 2017). 
-Die Qualitätsdebatte reicht bis in die Schulbuchforschung ([vgl. Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/), wo Fragen nach inhaltlicher Richtigkeit mit Sensibilität für Repräsentationen, didaktischer Struktur und ideologiekritischer Reflexion verbunden werden. Auffällig ist jedoch, dass digitale Bildungsmedien bislang nur am Rande berücksichtigt werden und belastbare Kriterien für deren systematische Bewertung fehlen. 
+Die Qualitätsdebatte reicht bis in die Schulbuchforschung ([vgl. Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/]), wo Fragen nach inhaltlicher Richtigkeit mit Sensibilität für Repräsentationen, didaktischer Struktur und ideologiekritischer Reflexion verbunden werden. Auffällig ist jedoch, dass digitale Bildungsmedien bislang nur am Rande berücksichtigt werden und belastbare Kriterien für deren systematische Bewertung fehlen. 
 
 
 ## Entstehungsprozess
@@ -183,7 +183,7 @@ Exemplarisch für die religionspädagogische Dimension sieht die Checkliste folg
 > Offen zugängliche Markdown-Datei unter CC BY 4.0 Lizenz 
 >  
 > Die Handreichung versteht sich als lebendiges Dokument, das kontinuierlich weiterentwickelt, angepasst und erprobt wird.  
-> Sie bietet Lehrenden eine **praxisnahe und flexible Grundlage**, um OER systematisch zu bewerten**, zu gestalten und weiterzuentwickeln.
+> Sie bietet Lehrenden eine praxisnahe und flexible Grundlage, um OER systematisch zu bewerten, zu gestalten und weiterzuentwickeln.
 
 
 Die Qualitätskriterien bieten eine systematische Orientierung zur Erstellung und Bewertung von OER im Bereich der Religionspädagogik. Sie bietet keine rechtsverbindliche Auskunft und ersetzt nicht die eigenverantwortliche Prüfung der Materialien.
@@ -198,44 +198,43 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 
 ## Literaturangaben
-* Adam, G. & Rothgangel, M. (2012. Was ist guter Religionsunterricht?, in: Rothgangel, M./Adam, G./Lachmann, R. (Hg.), Religionspädagogisches Kompendium, Göttingen 7. Aufl., 416–433.
+* Adam, G. & Rothgangel, M. (2012). Was ist guter Religionsunterricht? In: Rothgangel, M./Adam, G./Lachmann, R. (Hg.), Religionspädagogisches Kompendium, Göttingen, 7. Aufl., 416–433.
 
-* Angelina, P., & Mößle, L. (2025). Fürchtet euch nicht. OER und Third Mission. y-nachten. https://y-nachten.de/2025/03/oer-und-die-third-mission/
+* Angelina, P., & Mößle, L. (2025). [Fürchtet euch nicht. OER und Third Mission](https://y-nachten.de/2025/03/oer-und-die-third-mission/). 
 
-* Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien. FOERBICO-Handreichung. https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/commit/9116013541c4106874af283163378390bfdd0a9f/qualitaetskriterien/handreichung-qualitaetskriterien.md
+* Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). [Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/commit/9116013541c4106874af283163378390bfdd0a9f/qualitaetskriterien/handreichung-qualitaetskriterien.md). FOERBICO-Handreichung.
 
-* Baas, M., van der Rijst, R., Huizinga, T., & van den Berg, E. (2022). Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education. The Internet and Higher Education, 54, 100848, 1–14. https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y
+* Baas, M., van der Rijst, R., Huizinga, T., & van den Berg, E. (2022). [Would you use them? A qualitative study on teachers' assessments of open educational resources in higher education](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y). The Internet and Higher Education, 54, 100848, 1–14.
 
-* Ehlers, U.-D. (2015). Qualitätsentwicklung für OER – viel besprochen, wenig realisiert! Wikimedia Deutschland. https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert
+* Ehlers, U.-D. (2015). [Qualitätsentwicklung für OER – viel besprochen, wenig realisiert!](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert) Wikimedia Deutschland.
 
-* Englert, R. (2006). Die Diskussion über Unterrichtsqualität – und was die Religionsdidaktik daraus lernen könnte, in: C. Bizer u.a. (Hg.), Was ist guter Religionsunterricht? (Jahrbuch der Religionspädagogik 22), Neukirchen-Vluyn, 52–64.
+* Englert, R. (2006). Die Diskussion über Unterrichtsqualität – und was die Religionsdidaktik daraus lernen könnte. In: C. Bizer u.a. (Hg.), Was ist guter Religionsunterricht? (Jahrbuch der Religionspädagogik 22), Neukirchen-Vluyn, 52–64.
 
-* Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien. In C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive, Bad Heilbrunn, 14–47.
+* Fey, C.-C. (2017). Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien, in: C.-C. Fey & E. Matthes (Hrsg.), Das Augsburger Analyse- und Evaluationsraster für analoge und digitale Bildungsmedien (AAER). Grundlegung und Anwendungsbeispiele in interdisziplinärer Perspektive, Bad Heilbrunn, 14–47.
 
-* Friz, S. (2019). Qualität und freie, digitale Bildungsmedien (OER) – Wie passt das zusammen? Vortrag auf dem 36. Forum Kommunikationskultur der GMK, München, 16.11.2019. https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf
+* Friz, S. (2019). [Qualität und freie, digitale Bildungsmedien (OER) – Wie passt das zusammen?](https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf) Vortrag auf dem 36. Forum Kommunikationskultur der GMK, München, 16.11.2019.
 
 * Gojny, T., Lenhard, H., Zimmermann, M. (2022). Religionspädagogik in Anforderungssituationen. Fachdidaktische Grundlagen für Studium und Beruf, Göttingen.
 
 * Helmke, A. (2017). Unterrichtsqualität und Lehrerprofessionalität. Diagnose, Evaluation und Verbesserung des Unterrichts, 7. Auflage, Seelze-Velber.
 
-* Henningsen, J. (2023). Schulbuchanalyse. In: wirelex, Bibelwissenschaft.de. https://bibelwissenschaft.de/stichwort/201081/
+* Henningsen, J. (2023). [Schulbuchanalyse](https://bibelwissenschaft.de/stichwort/201081/), in: wirelex, das Wissenschaftlich-Religionspädagogische Lexikon im Internet.
 
-* Käbisch, D., Woppowa J. (2022). Qualitätskriterien für kooperative Formate im Religionsunterricht, in: RpB 45 (2), 33–45. https://rpb-journal.de/index.php/rpb/article/view/193
+* Käbisch, D., Woppowa J. (2022). [Qualitätskriterien für kooperative Formate im Religionsunterricht](https://rpb-journal.de/index.php/rpb/article/view/193), RpB 45 (2), 33–45.
 
-* Kobusch, A., Halm, L. (2022). Checkliste: Open EducaTonal Resources erstellen, Bielefeld. https://www.hsbi.de/publikationsserver/download/2761/3626/FH%20Bielefeld%202
-022%2C%20Checkliste%20OER%20v1.1.pdf
+* Kobusch, A., Halm, L. (2022). [Checkliste: Open Educational Resources erstellen](https://www.hsbi.de/publikationsserver/download/2761/3626/FH%20Bielefeld%202022%2C%20Checkliste%20OER%20v1.1.pdf), Bielefeld.
 
-* Lübben, S., Müskens, W., & Zawacki-Richter, O. (2023). Quality of OER: Test Theoretical Development and Validation of an Assessment Tool. In D. Otto, G. Scharnberg, M. Kerres & O. Zawacki-Richter (Hrsg.), Distributed Learning Ecosystems. Concepts, Resources, and Repositories (S. 139–160). Wiesbaden.
+* Lübben, S., Müskens, W., & Zawacki-Richter, O. (2023). Quality of OER: Test Theoretical Development and Validation of an Assessment Tool. In: D. Otto, G. Scharnberg, M. Kerres & O. Zawacki-Richter (Hrsg.), Distributed Learning Ecosystems. Concepts, Resources, and Repositories, Wiesbaden, 139–160.
 
-* Mößle, L., & Pirker, V. (2024). Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“? Theo-Web. Zeitschrift für Religionspädagogik, 23(2), 159–170. https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open
+* Mößle, L., & Pirker, V. (2024). [Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?](https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open), in: Theo-Web. Zeitschrift für Religionspädagogik, 23(2), 159–170.
 
-* Pirker, V., & Pirner, M. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont. Theo-Web, 24(1), 151–185. https://doi.org/10.58069/theow.2025.1.51
+* Pirker, V., & Pirner, M. (2025). [Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont](https://doi.org/10.58069/theow.2025.1.51), in: Theo-Web, 24(1), 151–185.
 
-* Rothgangel, M. (2021). Unterrichtsqualität in der Religionsdidaktik – fachspezifische und fachübergreifende Aspekte. Unterrichtswissenschaft, 49, 253–260. https://doi.org/10.1007/s42010-021-00107-w
+* Rothgangel, M. (2021). [Unterrichtsqualität in der Religionsdidaktik – fachspezifische und fachübergreifende Aspekte](https://doi.org/10.1007/s42010-021-00107-w), in: Unterrichtswissenschaft. Journal of Teaching and Learning Sciences 49, 253–260.
 
 * Schweitzer, F. (2008). Elementarisierung und Kompetenz. Wie Schülerinnen und Schüler von „gutem Religionsunterricht“ profitieren, Neukirchen-Vluyn.
 
 * Schweitzer, F. (2020). Religion noch besser unterrichten. Qualität und Qualitätsentwicklung im RU, Göttingen.
 
-* Zawacki-Richter, O., Müskens, W., & Mayrberger, K. (Hrsg.) (2017). Qualitätsentwicklung von OER. Vorschlag zur Erstellung eines Qualitätssicherungsinstruments für OER am Beispiel der Hamburg Open Online University. Hamburg. https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf
+* Zawacki-Richter, O., Müskens, W., & Mayrberger, K. (Hrsg.) (2017). [Qualitätsentwicklung von OER. Vorschlag zur Erstellung eines Qualitätssicherungsinstruments für OER am Beispiel der Hamburg Open Online University](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf), Hamburg.
 
