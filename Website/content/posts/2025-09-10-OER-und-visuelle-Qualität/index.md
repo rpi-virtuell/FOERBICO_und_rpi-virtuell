@@ -129,7 +129,7 @@ Die theologische Hochschuldidaktik kann in diesem Kontext von ihrer **Multipersp
 Eine offene Diskussion ist weiterhin erforderlich, um die Potenziale und Grenzen offener Bildungsmaterialien kritisch zu hinterfragen und eine fachdidaktische Haltung zu entwickeln.
 
 
-Tiefergehende Analysen unternimmt Paula Paschke (wissenschaftliche Mitarbeiterin am Lehrstuhl Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt) in ihrem Dissertationsprojekt: "Digital Diversity" in der Religionspädagogik. Eine diskriminierungskritische Analyse digitaler Bildungmedien. 
+Tiefergehende Analysen unternimmt Paula Paschke (wissenschaftliche Mitarbeiterin am Lehrstuhl Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt) in ihrem Dissertationsprojekt: "Digital Diversity" in der Religionspädagogik. Eine diskriminierungskritische Analyse digitaler Bildungsmedien. 
 
 
 ## Literaturangaben
