@@ -1,3 +1,47 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/inklusives-Lernen-durch-OEP
+name: 'Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens'
+description: >-
+ Wirklich inklusives Lernen entsteht erst, wenn Offenheit über den bloßen Zugang hinausgeht und Lernende selbst zu aktiven Mitgestalter:innen ihres Lernprozesses werden. Der Beitrag zeigt, wie Lehrkräfte und Lernende gemeinsam Lernprozesse schaffen können, in denen Vielfalt nicht nur abgebildet, sondern zur Grundlage des Lernens wird. Offenheit wird hier nicht als technisches Schlagwort verstanden, sondern als Haltung, die Bildung gerechter, kreativer und zukunftsfähiger macht.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: you-belong.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2026-02-20'
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+title: 'Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens'
+cover:
+  relative: true
+  image: you-belong.jpg
+  hidddenInSingle: false
+  alt: 'You belong (Quelle: https://unsplash.com/de/fotos/ein-schild-das-besagt-dass-sie-von-pflanzen-umgeben-sind-pId0KssmHK4, Unsplash-Lizenz)'
+summary: >-
+  Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER im Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
+url: oer-beratung-und-qualitätskriterien
+tags:
+  - Inklusives Lernen
+  - Bildungsziele
+  - Didaktik
+  - Open Educational Practices (OEP)
+  - Open Educational Resources (OER)
+---
+
+
 # Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens  
 
 ## Von der Illusion der Offenheit  
@@ -22,6 +66,7 @@ Darüber hinaus tragen OER das Potenzial in sich, eine **erhöhte Sensibilität 
 ## Chancen von OEP: Prozesse öffnen, Teilhabe ermöglichen  
 
 Während OER vor allem auf Inhalte zielen, geht es bei OEP um die Frage, *wie* gelernt wird. [Bali, Cronin & Jhangiani (2020)](https://doi.org/10.5334/jime.565) machen deutlich, dass OEP drei Dimensionen umfassen: **(1) Inhalte, (2) Rollenverteilungen und (3) Zielsetzungen**. Offenheit kann bedeuten, Materialien frei zugänglich zu machen. Sie kann aber auch bedeuten, Lernende in die Rolle von Mitgestalter:innen zu bringen oder Praktiken bewusst auf soziale Gerechtigkeit auszurichten. Hier lohnt sich ein genauerer Blick auf die verschiedenen Bereiche:
+
 
 ### 1. Von inhaltszentriert zu prozessorientiert  
 
@@ -74,13 +119,13 @@ Offenheit ist somit keine neutrale Kategorie, sondern eine gelebte Praxis. Sie r
 OER und OEP entfalten ihr Potenzial dort, wo sie Vielfalt nicht nur abbilden, sondern zur Grundlage des Lernens machen. Offenheit ist dann kein leeres Versprechen mehr, sondern gelebte Praxis, die die Zukunft inklusiven Lernens prägen kann. 
 
 
-### Literaturverzeichnis
+### Literaturangaben
 
-- Bali, Maha; Cronin, Catherine & Jhangiani, Rajiv S. (2020). Framing Open Educational Practices from a Social Justice Perspective. *Journal of Interactive Media in Education*, 10(1), 1–12. https://doi.org/10.5334/jime.565  
+- Bali, Maha; Cronin, Catherine & Jhangiani, Rajiv S. (2020). Framing Open Educational Practices from a Social Justice Perspective, in: Journal of Interactive Media in Education, 10(1), 1–12. https://doi.org/10.5334/jime.565  
 
-- Müller, Frank J. (2016). Inklusive Open Educational Resources. Wie frei verfügbare Bildungsmaterialien im Umgang mit Heterogenität helfen können. *Schweizerische Zeitschrift für Heilpädagogik*, 22, 38–44.  
+- Müller, Frank J. (2016). Inklusive Open Educational Resources. Wie frei verfügbare Bildungsmaterialien im Umgang mit Heterogenität helfen können, in: Schweizerische Zeitschrift für Heilpädagogik, 22, 38–44.  
 
-- UNESCO (2017). *Ljubljana OER Action Plan. Second World Open Educational Resources Congress*. Paris: UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000260762  
+- UNESCO (2017). Ljubljana OER Action Plan. Second World Open Educational Resources Congress. Paris: UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000260762  
 
-- Pieper, Marlene; Bierschwale, Christoph; Sikorová, Zuzana & Vogt, Michaela (2023). Kriterien für inklusionssensible Bildungsmaterialien und ihre Weiterentwicklung für den digitalen Kontext. *MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung*, 20 (Jahrbuch Medienpädagogik), 669–688. https://doi.org/10.21240/mpaed/jb20/2023.09.25.X  
+- Pieper, Marlene; Bierschwale, Christoph; Sikorová, Zuzana & Vogt, Michaela (2023). Kriterien für inklusionssensible Bildungsmaterialien und ihre Weiterentwicklung für den digitalen Kontext, in: MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung*, 20 (Jahrbuch Medienpädagogik), 669–688. https://doi.org/10.21240/mpaed/jb20/2023.09.25.X  
 
