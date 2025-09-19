@@ -46,18 +46,18 @@ tags:
 # Offenheit ist kein Gegensatz zu Qualität
 
 ## Religionspädagogische Qualitätskriterien für OER: Der Weg zu einer Handreichung
-
+<!--braucht es diese Überschrift hier davor? Der Absatz wäre ja eine gute Eröffnung, die auch ohne Überschrift verständlich wäre -->
 OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie sollen Chancengleichheit fördern, Teilhabe ermöglichen, digitale Kompetenzen stärken und Bildungsprozesse demokratisieren. Auch in der Religionspädagogik werden OER zunehmend als Hoffnungsträger für eine gerechtere und innovativere Bildungslandschaft ([vgl. Mößle/Pirker 2024](https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open); [Angelina/ Mößle 2025](https://y-nachten.de/2025/03/oer-und-die-third-mission/)) diskutiert. Doch verbunden mit der Zugänglichkeit stellt sich immer dringlicher die Frage nach der Qualität: Was macht gute, nachhaltig nutzbare und qualitative OER eigentlich aus? Wie lässt sich die Qualität von OER bewerten? Und worauf gilt es zu achten, wenn man qualitative OER erstellen möchte?
 
 
 ## OER-Qualität im diskursiven Horizont
 
-Die freie Nutzbarkeit und Weiterverbreitung von OER wirft zentrale Fragen nach ihrer **Qualität** auf. Neben Unsicherheiten im Urheberrecht zählt die Qualität von OER zu den am intensivsten diskutierten Themen im OER-Umfeld [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Sie gilt als entscheidender Faktor für Akzeptanz und Erfolg offener Bildungsressourcen [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51).
+Die freie Nutzbarkeit und Weiterverbreitung von OER wirft zentrale Fragen nach ihrer **Qualität** auf. Neben Unsicherheiten im Urheberrecht zählt die Qualität von OER zu den am intensivsten diskutierten Themen im OER-Umfeld [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Sie gilt als entscheidender Faktor für Akzeptanz und Erfolg offener Bildungsressourcen [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51). <!--hier würde mich als Leser noch interessieren, für wen das als entscheidender Faktor für Aktzepatnz und Erfolg zählt? Die Praktiker*innen, die Wissenschaftler*innen usw. -->
 
 Mit dem rasanten Anstieg frei verfügbarer Materialien, nicht zuletzt durch KI-gestützte Entwicklungen, wird die Identifikation qualitativ hochwertiger OER zunehmend komplex. 
 Nutzer:innen bewerten Qualität meist auf Basis individueller Bedürfnisse, was zu stark divergierenden Qualitätsvorstellungen führt. Die prozesshafte Natur von OER, die fortwährend verändert und adaptiert werden, erschwert statische Qualitätssicherungsprozesse zusätzlich [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert).
 
-Um dennoch Vertrauen in offene Bildungsressourcen zu stärken, braucht es Orientierung für OER-Qualität. Qualität ist kein feststehendes Attribut, sondern Ergebnis eines **dialogischen Aushandlungsprozesses**. [Baas et al. (2022)](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y) zeigen, dass Lehrende ihre Qualitätswahrnehmung nicht isoliert, sondern im Austausch mit Kolleg:innen und innerhalb institutioneller Rahmenbedingungen entwickeln. Qualität entsteht folglich dort, wo OER **inhaltlich relevant**, **didaktisch tragfähig**, **praktisch nutzbar** und **anschlussfähig** für die eigene Lehre gestaltet werden.
+Um dennoch Vertrauen in offene Bildungsressourcen zu stärken, braucht es Orientierung für OER-Qualität. Qualität ist kein feststehendes Attribut, sondern Ergebnis eines **dialogischen Aushandlungsprozesses**. [Baas et al. (2022)](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y) zeigen, dass Lehrende ihre Qualitätswahrnehmung nicht isoliert, sondern im Austausch mit Kolleg:innen und innerhalb institutioneller Rahmenbedingungen entwickeln. Qualität entsteht folglich dort, wo OER **inhaltlich relevant**, **didaktisch tragfähig**, **praktisch nutzbar** und **anschlussfähig** für die eigene Lehre <!--evt. ergänzen: im Austausch mit anderen --> gestaltet werden.
 
 ## Verfahren zur Qualitätssicherung von OER
 
@@ -89,13 +89,13 @@ Damit fördert Twillo nicht nur die Reflexion über die Qualität von OER, sonde
 Die **Hamburg Open Online University (HOOU)** hat sich mit einem eigenen Qualitätssicherungsmodell im Hochschulkontext positioniert. Das beratende Evaluationsverfahren konzentriert sich auf pädagogisch-didaktische und technische Qualität, während die inhaltliche Verantwortung bewusst bei den Autor:innen verbleibt [(vgl. Friz, 2019)](https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf). 
 Aufbauend auf diesem Verfahren entwickelt die HOOU einen umfassenden Kriterienkatalog, der inhaltliche, didaktische, technische und nutzungsorientierte Aspekte gleichermaßen berücksichtigt. Perspektivisch soll mit dem HOOU-Label ein markenspezifisches Qualitätssiegel etabliert werden, das als Vertrauensmerkmal für hochwertige OER fungiert [(vgl. Zawacki-Richter et al., 2017)](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf).  
 
-Die genannten Verfahren zur Qualitätssicherung von OER zeigen die Bandbreite, wie Qualität entwickelt werden kann, von detaillierten Kriterienrastern (AAER), partizipative Selbstbewertung (Twillo) bis hin zu eher beratende Verfahren mit institutionellen Qualitätslabels (HOOU). 
+Die genannten Verfahren zur Qualitätssicherung von OER zeigen die Bandbreite, wie Qualität entwickelt werden kann, von detaillierten Kriterienrastern (AAER), partizipative Selbstbewertung (Twillo) bis hin zu eher beratenden Verfahren mit institutionellen Qualitätslabels (HOOU). 
 
 
 ## Qualität im religionspädagogischen Kontext
 
 „Die Frage nach Unterrichtsqualität ist zu einer Schlüsselfrage geworden, nicht nur für den schulischen Alltag, sondern für die schul- und bildungspolitische Diskussion insgesamt“ (Schweitzer, 2008, S. 11). 
-Die Frage nach der Qualität religiöser Bildungsprozesse wird vor allgemeinen didaktischen Grundsatzüberlegungen bis hin zur Analyse und Bewertung konkreter Lehrmaterialien diskutiert. Von besonderer Bedeutung ist dabei die Frage, wie sich guter Religionsunterricht jenseits abstrakter Konzeptionen bestimmen lässt. Es ist also für den Religionsunterricht geboten, präzise auszuweisen, „was und wie in diesem Fach gelernt werden soll“ (Schweitzer, 2020, S. 15).
+Die Frage nach der Qualität religiöser Bildungsprozesse wird von allgemein didaktischen Grundsatzüberlegungen bis hin zur Analyse und Bewertung konkreter Lehrmaterialien diskutiert. Von besonderer Bedeutung ist dabei die Frage, wie sich guter Religionsunterricht jenseits abstrakter Konzeptionen bestimmen lässt. Es ist also für den Religionsunterricht geboten, präzise auszuweisen, „was und wie in diesem Fach gelernt werden soll“ (Schweitzer, 2020, S. 15).
 
 Dabei ist zu berücksichtigen, dass es **den** guten Unterricht nicht gibt (vgl. Gojny; Lenhard & Zimmermann, 2022, S. 164). Mit Helmke (2017) ist vielmehr zu fragen: Gut wofür, gut für wen, gemessen an welchen Bedingungen, aus welcher Perspektive und für welchen Zeitraum? Qualität erweist sich daher als vielschichtiges und kontextabhängiges Kriterium, das je nach Bildungsziel, Lerngruppe, institutionellem Rahmen oder Zeitpunkt unterschiedlich bestimmt wird (vgl. Adam & Rothgangel, 2012). 
 
@@ -105,13 +105,13 @@ Er verweist darauf, dass Religionsunterricht einerseits denselben allgemeinen St
 Andererseits muss sich Religionsunterricht an Maßstäben orientieren, die aus den Bezugswissenschaften Theologie und Religionswissenschaft sowie aus der Religionsdidaktik selbst hervorgehen. Diese betreffen spezifische Kompetenzen religiöser Bildung wie das Wahrnehmen religiöser Phänomene, das Verstehen und Verwenden religiöser Sprache oder das begründete Urteilen in Glaubensfragen.  
 Auch Englert (2006) betont, dass die Bestimmung von Qualität im Religionsunterricht nur unter Einbezug genuin fachspezifischer Kategorien gelingen kann. In diesem Sinne erfordern z.B. kooperative Formate eine Didaktik, die Perspektivenwechsel und Dialogfähigkeit systematisch fördert ([vgl. Käbisch und Woppowa 2022)](https://rpb-journal.de/index.php/rpb/article/view/193).
 Eine bloße Auflistung von Qualitätskriterien kann allerdings nicht als Garantie für gelingenden Unterricht gelten. Wie die Unterrichtsforschung zeigt, ergibt sich Qualität nicht aus der Summe einzelner Merkmale, sondern aus deren Zusammenspiel (vgl. Helmke, 2017). 
-Die Qualitätsdebatte reicht bis in die Schulbuchforschung ([vgl. Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/]), wo Fragen nach inhaltlicher Richtigkeit mit Sensibilität für Repräsentationen, didaktischer Struktur und ideologiekritischer Reflexion verbunden werden. Auffällig ist jedoch, dass digitale Bildungsmedien bislang nur am Rande berücksichtigt werden und belastbare Kriterien für deren systematische Bewertung fehlen. 
+Die Qualitätsdebatte reicht bis in die Schulbuchforschung ([vgl. Henningsen, 2023](https://bibelwissenschaft.de/stichwort/201081/])), wo Fragen nach inhaltlicher Richtigkeit mit Sensibilität für Repräsentationen, didaktischer Struktur und ideologiekritischer Reflexion verbunden werden. Auffällig ist jedoch, dass digitale Bildungsmedien bislang nur am Rande berücksichtigt werden und belastbare Kriterien für deren systematische Bewertung fehlen.
 
 
-## Entstehungsprozess
+## Entstehungsprozess eines Kriterienkatalogs für religionsbezogene Bildung
 
 Vor diesem Hintergrund entwickelte das FOERBICO Team einen Kriterienkatalog zur OER-Qualität für schulische, außerschulische und hochschulische Kontexte. Ausgangspunkt war die Analyse bestehender Qualitätssicherungsansätze in OER-Communities, die mit aktuellen religionspädagogischen Forschungsdiskursen abgeglichen und in Expert:inneninterviews sowie praktischen Erprobungen iterativ weiterentwickelt wurden. 
-Parallel wurden Projekte der Professur für Religionspädagogik und Mediendidaktik der Goethe Universität Frankfurt mit Hilfe der im FOERBICO Projekt entwickelten Handreichung auf ihre Qualität hin überprüft und entsprechend [für die Publikation überarbeitet](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/$0). Auch diese Erkenntnisse flossen in die Überarbeitung der Kritieren ein. 
+Parallel wurden Projekte der Professur für Religionspädagogik und Mediendidaktik der Goethe Universität Frankfurt mit Hilfe der im FOERBICO Projekt entwickelten Handreichung auf ihre Qualität hin überprüft und entsprechend [für die Publikation überarbeitet](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/). Auch diese Erkenntnisse flossen in die Überarbeitung der Kritieren ein. 
 
 So entstand eine Handreichung, die wissenschaftliche, praxisbezogene und communitybasierte Perspektiven integriert und im Format einer Checkliste zugänglich macht.
 
@@ -124,9 +124,7 @@ Qualität wird  als Ergebnis eines fortlaufenden Aushandlungsprozesses verstande
 Die im Projekt FOERBICO entwickelte Handreichung zu Qualitätskriterien setzt an einem dynamischen Qualitätsverständnis an. Qualität soll als Ergebnis eines reflexiven Aushandlungsprozesses innerhalb einer Community betrachtet werden, die sowohl in der Erstellung als auch in der Nutzung und Weiterentwicklung von OER wirksam wird. Ziel der Handreichung ist es, ein Qualitätsverständnis zu fördern, das sowohl die strukturellen Anforderungen digitaler Bildungsressourcen als auch die inhaltlich-didaktischen Besonderheiten religiöser Bildungsprozesse integriert.
 Die entwickelte Handreichung bietet damit ein praxisnahes Instrumentarium, um OER religionspädagogisch fundiert zu erstellen, bereits vorhandene OER auf ihre Qualität hin zu bewerten und weiterzuentwickeln. 
 
-Die Handreichung ist aufgrund einer Bedarfsanalyse als Checkliste aufgebaut und basiert in Teilen auf den Qualitätsmerkmalen von [Mayrberger, Zawacki-Richter und Müskens (2017)](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf) sowie auf [Kobusch & Halm (2022)](https://www.hsbi.de/publikationsserver/download/2761/3626/FH%20Bielefeld%202022%2C%20Checkliste%20OER%20v1.1.pdf). Sie erweitert bestehende Qualitätsmodelle um eine dezidiert religionspädagogische
-Perspektive.
-
+Die Handreichung ist aufgrund einer Bedarfsanalyse als Checkliste aufgebaut und basiert in Teilen auf den Qualitätsmerkmalen von [Mayrberger, Zawacki-Richter und Müskens (2017)](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf) sowie auf [Kobusch & Halm (2022)](https://www.hsbi.de/publikationsserver/download/2761/3626/FH%20Bielefeld%202022%2C%20Checkliste%20OER%20v1.1.pdf). Sie erweitert bestehende Qualitätsmodelle um eine dezidiert religionspädagogische Perspektive.
 
 Die Handreichung ist in vier Dimensionen untergliedert:
 
@@ -134,7 +132,7 @@ Die Handreichung ist in vier Dimensionen untergliedert:
 ### Die vier Dimensionen im Überblick
 
 **1. Rechtliche Qualität:**
-Um OER rechtssicher zu veröffentlichen, müssen **urheberrechtliche Vorgaben** zweingend beachtet werden, insbesondere bei der Nutzung externer Inhalte wie Bilder, Grafiken oder Textausschnitte. 
+Um OER rechtssicher zu veröffentlichen, müssen **urheberrechtliche Vorgaben** zwingend beachtet werden, insbesondere bei der Nutzung externer Inhalte wie Bilder, Grafiken oder Textausschnitte. 
 Idealerweise bestehen OER ausschließlich aus selbst erstelltem, offen lizenziertem Material. 
 Inhalte von Dritten gelten grundsätzlich als urheberrechtlich geschützt, auch ohne ausdrücklichen Hinweis. Eine Nutzung von Inhalten als OER ist daher nur dann zulässig, wenn eine ausdrückliche Erlaubnis, etwa durch Creative Commons-Lizenzen, vorliegt. Auch KI-generierte Inhalte sind nicht automatisch frei verwendbar; hier sind die Lizenzbedingungen der jeweiligen Plattformen sorgfältig zu prüfen. Transparente Lizenzierung, korrekte Quellenangaben und ein bewusster Umgang mit geschütztem Material sind daher zentrale Qualitätsanforderungen.
 
