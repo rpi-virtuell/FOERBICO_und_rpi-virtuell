@@ -53,16 +53,16 @@ tags:
 # Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU
 
 ## OER-Qualität als Entwicklungsaufgabe religionspädagogischer Bildungsressourcen
-
-OER eröffnen in der Lehrer:innenbildung neue didaktische Gestaltungsräume. Gleichzeitig stellen sie anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer, also religionspädagogischer Qualitätsdimensionen an Bedeutung.  
+<!--Braucht es diese zweite Überschrift hier nach der großen Überschrift? Könnte man vielleicht auch weglassen-->
+OER eröffnen in der Lehrer:innenbildung neue didaktische Gestaltungsräume. Gleichzeitig stellen sie anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer - also religionspädagogischer - Qualitätsdimensionen an Bedeutung.  
 
 Wie sich diese unterschiedlichen Facetten in einem qualitätsorientierten Entwicklungsprozess verbinden lassen, zeigt exemplarisch das Projekt **TiRU (Tablets im Religionsunterricht)** an der Goethe-Universität Frankfurt. Die dort entwickelten Materialien wurden im Rahmen des FOERBICO-Projekts einer systematischen Beratung unterzogen, gestützt auf die eigens erarbeitete Handreichung zu [OER-Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell-geschlossen/src/branch/main/Qualit%C3%A4tskriterien/2025_08_29_Qualit%C3%A4tskriterien.md). Der Beitrag dokumentiert diesen Prozess, reflektiert die identifizierten Gelingensbedingungen und verdeutlicht, wie Qualität in offenen Bildungsressourcen nicht nur überprüft, sondern als integraler Bestandteil ihrer Konzeption aktiv gestaltet werden kann. 
 
 
 ## Das Projekt TiRU: Tablets im Religionsunterricht
 
-Im Projekt **TiRU (Tablets im Religionsunterricht)** wird seit 2022 an der Goethe-Universität Frankfurt ein innovatives, sechssemestriges fachdidaktisches Lehr-Lern-Laboratorium umgesetzt. Unter Leitung von Prof. Viera Pirker und Umsetzung von Paula Paschke wurden OER entwickelt, die fachdidaktische und fachwissenschaftliche Perspektiven auf den Einsatz von Tablets in der religionspädagogischen Lehrkräftebildung zusammenbringen. 
-Ziel von TiRU ist es, Digitalkompetenz, theologische Reflexion und mediendidaktische Expertise praxisnah in Seminaren zu verbinden und die daraus entwickelten Materialien als barrierearme OER verfügbar zu machen. Darüber hinaus zielt TiRU darauf, die an vielen Schulen bereits verbreiteten Tablets didaktisch fundiert im Religionsunterricht einzusetzen. Lehramtsstudierende werden gezielt angeleitet, Tablets aktiv und reflektiert im Religionsunterricht zu verwenden.
+Im Projekt **TiRU (Tablets im Religionsunterricht)** wird seit 2022 an der Goethe-Universität Frankfurt ein innovatives, sechssemestriges fachdidaktisches Lehr-Lern-Laboratorium umgesetzt. Unter Leitung von Prof. Viera Pirker und der Umsetzung von Paula Paschke wurden OER entwickelt, die fachdidaktische und fachwissenschaftliche Perspektiven auf den Einsatz von Tablets in der religionspädagogischen Lehrkräftebildung zusammenbringen. 
+Ziel von TiRU ist es, Digitalkompetenz, theologische Reflexion und mediendidaktische Expertise praxisnah in Seminaren zu verbinden und die daraus entwickelten Materialien für die religionspädagogische Hochschuldidaktik als barrierearme OER verfügbar zu machen. Darüber hinaus zielt TiRU darauf, die an vielen Schulen bereits verbreiteten Tablets didaktisch fundiert im Religionsunterricht einzusetzen. Lehramtsstudierende werden gezielt angeleitet, Tablets aktiv und reflektiert im Religionsunterricht zu verwenden.
 
 TiRU orientiert sich konsequent an einer offenen Bildungskultur. Es adressiert lebenslanges Lernen durch phasenübergreifende Nutzbarkeit der Inhalte in Studium, Referendariat und Fortbildung. Die entwickelten OER-Selbstlernkurse richten sich nicht nur an Studierende der Goethe-Universität, sondern auch an Lehramtsstudierende anderer Hochschulen, an Dozierende in allen Phasen der Lehrer:innenbildung sowie an Einzelpersonen im Selbststudium.   
 
@@ -113,7 +113,7 @@ Die aus dem Beratungsprozess gewonnenen Einsichten wiederum flossen zurück in d
 
 > [!NOTE]  
 > **Save the Date: TiRU-Launch**  
-> Am **16. Oktober 2025** werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
+> Am **16. Oktober 2025** <!--laut letztem Projektgespräch mit Paula Paschke: 20.November 2025, 16-18 Uhr --> werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
 > Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und in den offenen Austausch zu treten.   
 
 
