@@ -31,8 +31,8 @@ cover:
   hidddenInSingle: false
   alt: 'You belong (Quelle: https://unsplash.com/de/fotos/ein-schild-das-besagt-dass-sie-von-pflanzen-umgeben-sind-pId0KssmHK4, Unsplash-Lizenz)'
 summary: >-
-  Wodurch zeichnen sich eigentlich gute OER aus? Damit OER auf rechtlicher, technischer, pädagogischer-didaktischer und religionspädagogischer Ebene Qualität aufweisen, sind Qualitätskriterien elementar. Der Beitrag beschreibt die Erprobung der im Rahmen des FOERBICO-Projekts entwickelten Qualitätskriterien für OER im Projekt „M@PS – Medienkompetenz erweitern, Persönlichkeit stärken” an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
-url: oer-beratung-und-qualitätskriterien
+  Wirklich inklusives Lernen entsteht erst, wenn Offenheit über den bloßen Zugang hinausgeht und Lernende selbst zu aktiven Mitgestalter:innen ihres Lernprozesses werden. Der Beitrag zeigt, wie Lehrkräfte und Lernende gemeinsam Lernprozesse schaffen können, in denen Vielfalt nicht nur abgebildet, sondern zur Grundlage des Lernens wird. Offenheit wird hier nicht als technisches Schlagwort verstanden, sondern als Haltung, die Bildung gerechter, kreativer und zukunftsfähiger macht.
+url: inklusives-Lernen-durch-OEP
 tags:
   - Inklusives Lernen
   - Bildungsziele
