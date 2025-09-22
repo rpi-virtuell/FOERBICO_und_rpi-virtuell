@@ -28,7 +28,7 @@ creator:
 image: pictureframe.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-09-20'
+datePublished: '2025-09-22'
 #staticSiteGenerator:
 author:
   - Laura Mößle
@@ -51,14 +51,14 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen.  Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
+Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle in der Lehre. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen.  Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
 
 
 # OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien
 
 ## Inhalt oder Eindruck? Warum Ästhetik in OER zählt
 
-Bildung ist nicht nur eine Frage des Inhalts, sondern immer auch eine der Form. Gerade bei offenen Bildungsmaterialien stellt sich die Frage: Genügt es, wenn Inhalte fachlich korrekt und rechtlich abgesichert sind? Oder entscheidet die Art ihrer visuellen Aufbereitung ebenso sehr über ihre Wirkung und ihren didaktischen Wert wie der Inhalt selbst?
+Bildung ist nicht nur eine Frage des Inhalts, sondern immer auch eine der Form. Gerade bei offenen Bildungsmaterialien stellt sich die Frage: Genügt es, wenn Inhalte fachlich korrekt und rechtlich abgesichert sind? Oder entscheidet die Art ihrer visuellen Aufbereitung ebenso sehr über ihre Wirkung und ihren didaktischen Wert wie der Inhalt selbst? 
 Die visuelle Gestaltung von Lernmaterialien ist nicht nur eine didaktische Frage, sondern auch Ausdruck gesellschaftlicher Entwicklungen. In einer Zeit, in der Kommunikation zunehmend visuell geprägt ist, wird auch von Bildungsmaterialien erwartet, dass sie ästhetisch ansprechend und visuell verständlich sind. Technische Möglichkeiten, mediale Gewohnheiten und der Trend zur Visualität insgesamt spiegeln sich somit unmittelbar in den Anforderungen an OER wider. 
 
 
@@ -84,7 +84,8 @@ Viele Materialerstellende greifen zunehmend auf frei zugängliche Plattformen wi
 
 Doch auch in diesem scheinbar unkomplizierten Zugang verbergen sich erhebliche Herausforderungen. Bilddatenbanken wie Pixabay sind häufig von uneinheitlichen Lizenzmodellen und unklaren Nutzungsbedingungen geprägt ([vgl. Steinhau 2021](https://open-educational-resources.de/pixabay-und-co/)). Zudem lässt sich die Herkunft der Bilder nicht immer sicher nachvollziehen. 
 
-Die Situation wird noch komplexer bei KI-generierten Bildern. Zwar unterliegen diese aktuell nicht dem klassischen Urheberrecht, was zunächst eine unkomplizierte Nutzung nahelegt. Doch gerade diese fehlende urheberrechtliche Klärung wirft grundlegende Fragen zu einer verantwortungsvollen Verwendung auf:
+Die Situation wird noch komplexer bei KI-generierten Bildern. Zwar unterliegen diese aktuell nicht dem klassischen Urheberrecht, was zunächst eine unkomplizierte Nutzung nahelegt. Doch auch hier gilt es die Nutzungsbedingungen verschiedener [KI-Anbieter, wie z.B. Canva](https://oer.community/canva/)zu beachten.
+Die Verwendung von KI-generierten Bildern wirft grundlegende Fragen zu einer verantwortungsvollen Verwendung auf, z.B.:
 
 - Wer sind die eigentlichen Urheber*innen der Trainingsdaten?  
 - Haben diese zugestimmt, dass ihre urheberrechtlich geschützten Werke für die KI-Trainingsdaten verwendet werden?  
