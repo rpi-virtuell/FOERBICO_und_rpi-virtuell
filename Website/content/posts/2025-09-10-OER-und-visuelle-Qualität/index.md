@@ -51,7 +51,7 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle in der Lehre. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen.  Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
+Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle in der Lehre. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen. Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
 
 
 # OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien
@@ -84,7 +84,7 @@ Viele Materialerstellende greifen zunehmend auf frei zugängliche Plattformen wi
 
 Doch auch in diesem scheinbar unkomplizierten Zugang verbergen sich erhebliche Herausforderungen. Bilddatenbanken wie Pixabay sind häufig von uneinheitlichen Lizenzmodellen und unklaren Nutzungsbedingungen geprägt ([vgl. Steinhau 2021](https://open-educational-resources.de/pixabay-und-co/)). Zudem lässt sich die Herkunft der Bilder nicht immer sicher nachvollziehen. 
 
-Die Situation wird noch komplexer bei KI-generierten Bildern. Zwar unterliegen diese aktuell nicht dem klassischen Urheberrecht, was zunächst eine unkomplizierte Nutzung nahelegt. Doch auch hier gilt es die Nutzungsbedingungen verschiedener [KI-Anbieter, wie z.B. Canva](https://oer.community/canva/)zu beachten.
+Die Situation wird noch komplexer bei KI-generierten Bildern. Zwar unterliegen diese aktuell nicht dem klassischen Urheberrecht, was zunächst eine unkomplizierte Nutzung nahelegt. Doch auch hier gilt es die Nutzungsbedingungen verschiedener [KI-Anbieter, wie z.B. Canva](https://oer.community/canva/) zu beachten.
 Die Verwendung von KI-generierten Bildern wirft grundlegende Fragen zu einer verantwortungsvollen Verwendung auf, z.B.:
 
 - Wer sind die eigentlichen Urheber*innen der Trainingsdaten?  
@@ -115,7 +115,7 @@ Sie wecken Emotionen, Deutungen und Werte, können Transzendenz hervorrufen und 
 
 Allerdings erschweren eng gefasste Lizenzbedingungen die Verfügbarkeit von Kunstwerken für den OER-Bereich, während KI-generierte Bilder oder Stockfotografie noch nicht an die inhaltliche und theologische Tiefe heranreichen, um als tragfähige Bildungsmedien zu dienen. Sie dienen häufig dazu, das Arbeitsmaterial zu verschönern oder zu strukturieren, nicht jedoch als eigenständiger Lerngegenstand. 
 Zudem erfordert die zunehmende Verbreitung bearbeiteter und manipulierten Bilder einen geschulten, kritischen Umgang mit bildlich vermittelten Botschaften. 
-###„Ein bildkritischer Umgang muss angesichts der Persuasivität bildlich vermittelter Botschaften kontinuierlich eingeübt werden“### (Pirker 2021, 162).
+***„Ein bildkritischer Umgang muss angesichts der Persuasivität bildlich vermittelter Botschaften kontinuierlich eingeübt werden“*** (Pirker 2021, 162).
 
 Zukunftsperspektivisch berührt dies zentrale Anliegen der Bilddidaktik: Verlangsamung, Vertiefung und theologische Reflexion in digitalen Bildwelten. Die Herausforderung bleibt, wie OER und KI-basierte Bildtechnologien eingesetzt werden können, ohne die für die Religionspädagogik essenziellen didaktischen Prozesse zu verkürzen.
 
