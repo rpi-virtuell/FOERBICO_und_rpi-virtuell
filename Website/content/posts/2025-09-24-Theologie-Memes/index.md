@@ -32,7 +32,7 @@ creator:
       type: Organization
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: 
+image: Social-Media-Logo-Uni-Vechta.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -46,7 +46,7 @@ author:
 title: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen schaffen'
 cover:
   relative: true
-  image: 
+  image: Social-Media-Logo-Uni-Vechta.jpg
 summary: >-
   Tanzvideos, Rezepte, Comedy – und jetzt auch Theologie? An der Universität Vechta wird ausprobiert, wie sich akademisch-theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes spielen dabei eine Schlüsselrolle – sie sind nicht nur Unterhaltung, sondern auch didaktisches Werkzeug.
 url: theologie-memes
@@ -118,6 +118,12 @@ TikTok-Videos oder Memes verstehen sich als Lernprodukte, die Studierende im Sem
 „Erstellen Sie ein 60-Sekunden-Video, in dem Sie ein theologisches Konzept in einer für TikTok typischen Form erklären. Begründen Sie anschließend schriftlich, welche Entscheidungen Sie getroffen haben, welche Vereinfachungen notwendig waren und wie Sie mit Quellen umgegangen sind.“
 
 So werden digitale Formate nicht zum Selbstzweck, sondern zu einem Reflexionsinstrument: Sie fordern eine präzise, kreative Auseinandersetzung mit Inhalten – und verknüpfen theologische Wissenschaft mit den Kommunikationsweisen einer jungen Generation.
+
+Hier konkrete Meme-Beispiele der Universität Vechta, um theologische Inhalte zu vermitteln:
+
+![Psalm 137,9](Meme-1.png)
+![Labubu-Trend](Meme-2.png)
+![Herodes](Meme-3.png)
 
 **Blick nach vorn: Storytelling als didaktisches Labor**
 
