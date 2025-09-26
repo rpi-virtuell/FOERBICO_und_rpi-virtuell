@@ -30,7 +30,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-08-01'
+datePublished: '2025-09-26'
 author:
   - Phillip Angelina
 cover:
@@ -48,7 +48,10 @@ tags:
 ---
 
 
-# Save the Date: „Mit OER zu einer Kultur des Teilens“
+# Save the Date: „Mit OER zu einer Kultur des Teilens“ - Jetzt mit Anmeldung
+
+[![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+
 ## Tagung am 24.–25. Februar 2026 in Nürnberg
 
 Die Bekanntheit von OER nimmt in den letzten Jahren langsam zu und entwächst der Nische, dennoch bleiben viele Fragen offen: Wie arbeiten OER-Communities eigentlich zusammen? Wie entstehen Materialien wirklich kollaborativ? Welche Strukturen, Motivationen und Herausforderungen prägen das gemeinsame Arbeiten? Und wie kann eine Kultur des Teilens konkret gelebt werden? Diesen Fragen widmet sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg  – mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten.
@@ -80,6 +83,6 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und Programm werden Anfang September auf dieser Website veröffentlicht.
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
