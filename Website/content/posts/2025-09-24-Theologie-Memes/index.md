@@ -57,12 +57,12 @@ tags:
   - Hochschulen
 ---
 
-Wer durch TikTok scrollt, denkt vermutlich nicht sofort an Glaubensfragen. Doch genau das wagt das Institut für Katholische Theologie an der Universität Vechta: Es bringt theologische Inhalte aus Seminarraum und Schreibtisch in die sozialen Medien – auf TikTok, Instagram und YouTube.
+Wer durch TikTok scrollt, denkt vermutlich nicht sofort an Glaubensfragen. Doch genau das wagt das Institut für Katholische Theologie an der Universität Vechta (IKT): Es bringt theologische Inhalte aus dem Seminarraum und vom Schreibtisch in die sozialen Medien – auf TikTok, Instagram und YouTube.
 Der Account erreicht mit bisher ca. 25 Posts seit April jeden Monat bis zu 20.000 Menschen. Die Followerschaft ist hauptsächlich zwischen 18 und 40 Jahre alt – und die Rückmeldungen sind durchweg positiv.
 
 Verantwortlich dafür ist Jonas Benedict Breuer, wissenschaftlicher Mitarbeiter und Social-Media-Manager. Unterstützt von zwei studentischen Hilfskräften entwickelt er Formate, die aktuelle religiös-theologische Phänomene wissenschaftlich aufbereiten und ins Social Web übersetzen – mal argumentativ, mal alltagspraktisch, mal augenzwinkernd.
 
-👉 Hinweis: Universität Vechta wagt Experiment mit ihrem TikTok-Account @theologie.univechta
+👉 Hinweis: Die Katholische Theologie an der Universität Vechta wagt ein Experiment mit ihrem TikTok-Account @theologie.univechta
 
 ## Warum Social Media für Theologie?
 
@@ -70,7 +70,7 @@ Das erste Ziel der Social-Media-Arbeit des Instituts ist, Studieninteressierte f
 
 Bei der Analyse der Social-Media-Arbeit vergleichbarer Einrichtungen im Vorfeld des Strategieworkshops fiel außerdem auf, dass universitäre Institutionen vor allem auf TikTok unterrepräsentiert sind. Zum Vergleich: Auf TikTok ist neben dem IKT Vechta bislang nur die Theologische Fakultät der Universität Wien aktiv, akademische Stimmen aus der Theologie sind selten. Wissenschaftlich fundierte Produktionen wie Info-Posts, diskursive Videos oder Rezensionen von Aufsätzen, die eigens auf Soziale Medien zugeschnitten sind, sind insgesamt in Social Media deutlich seltener zu finden als Veranstaltungsrückblicke und Einladungen zu Ringvorlesungen, die die eigene Community bedienen. 
 
-Teil der Social-Media-Strategie der Uni Vechta ist deshalb, Soziale Medien nicht nur als wichtigen Baustein der Akquise von Studierenden zu sehen, sondern Theologie ,,im Feld’’ zu zeigen, vielleicht sogar Debatten im Social Web wahrnehmbar mitzugestalten, wo es Stimmen aus der Wissenschaft braucht. Und zwar in einer Weise, die daran anschließt, wie diese Debatten schon geführt werden: durch Kurzvideos, in einer erkennbaren Handschrift, mit Memes, ohne die Differenzierung auf der Sachebene zu vernachlässigen. Universitäre Theologie soll nicht nur im Seminarraum oder innerhalb der Scientific Community vermittelt werden. Sie wird in ihrer Vielfalt außerhalb gebraucht und dazu gehören auch Instagram, TikTok, Youtube! Natürlich gibt es vielfältige theologische Inhalte auf Social Media, die von häufig kirchlich verorteten Creator:innen erstellt werden, die sich teilweise in Netzwerken organisieren.
+Teil der Social-Media-Strategie des IKT ist deshalb, Soziale Medien nicht nur als wichtigen Baustein der Akquise von Studierenden zu sehen, sondern Theologie ,,im Feld’’ zu zeigen, vielleicht sogar Debatten im Social Web wahrnehmbar mitzugestalten, wo es Stimmen aus der Wissenschaft braucht. Und zwar in einer Weise, die daran anschließt, wie diese Debatten schon geführt werden: durch Kurzvideos, in einer erkennbaren Handschrift, mit Memes, ohne die Differenzierung auf der Sachebene zu vernachlässigen. Universitäre Theologie soll nicht nur im Seminarraum oder innerhalb der Scientific Community vermittelt werden. Sie wird in ihrer Vielfalt außerhalb gebraucht und dazu gehören auch Instagram, TikTok, Youtube! Natürlich gibt es vielfältige theologische Inhalte auf Social Media, die von häufig kirchlich verorteten Creator:innen erstellt werden, die sich teilweise in Netzwerken organisieren. Vergleichbares gibt es im universitären Bereich allerdings nicht.
 
 ## Memes als Türöffner: Humor mit Tiefgang
 
@@ -119,7 +119,7 @@ TikTok-Videos oder Memes verstehen sich als Lernprodukte, die Studierende im Sem
 
 So werden digitale Formate nicht zum Selbstzweck, sondern zu einem Reflexionsinstrument: Sie fordern eine präzise, kreative Auseinandersetzung mit Inhalten – und verknüpfen theologische Wissenschaft mit den Kommunikationsweisen einer jungen Generation.
 
-Hier konkrete Meme-Beispiele der Universität Vechta, um theologische Inhalte zu vermitteln:
+Hier konkrete Meme-Beispiele aus dem IKT der Universität Vechta, um theologische Inhalte zu vermitteln:
 
 ![Psalm 137,9](Meme-1.png)
 ![Labubu-Trend](Meme-2.png)
