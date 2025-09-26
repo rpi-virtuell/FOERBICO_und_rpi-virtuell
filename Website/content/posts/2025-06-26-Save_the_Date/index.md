@@ -48,7 +48,9 @@ tags:
 ---
 
 
-# Save the Date: „Mit OER zu einer Kultur des Teilens“
+# Save the Date: „Mit OER zu einer Kultur des Teilens“ - Jetzt mit Anmeldung
+
+[![Anmeldebutton](Website/content/posts/2025-06-26-Save_the_Date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 ## Tagung am 24.–25. Februar 2026 in Nürnberg
 
 Die Bekanntheit von OER nimmt in den letzten Jahren langsam zu und entwächst der Nische, dennoch bleiben viele Fragen offen: Wie arbeiten OER-Communities eigentlich zusammen? Wie entstehen Materialien wirklich kollaborativ? Welche Strukturen, Motivationen und Herausforderungen prägen das gemeinsame Arbeiten? Und wie kann eine Kultur des Teilens konkret gelebt werden? Diesen Fragen widmet sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg  – mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten.
