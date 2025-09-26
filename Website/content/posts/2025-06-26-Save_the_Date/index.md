@@ -82,6 +82,6 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und das vorläufige Programm finden Sie [hier](https://www.evrel.phil.fau.de/foerbico-tagung-2026/) .
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
