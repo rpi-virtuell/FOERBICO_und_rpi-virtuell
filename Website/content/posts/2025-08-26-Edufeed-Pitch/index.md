@@ -75,5 +75,5 @@ Unser Pitch war erfolgreich und unser Antrag wurde bewilligt - es kann losgehen 
 
 Hier findet ihr unseren [Edufeed-Pitch](https://cloud.rpi-virtuell.de/s/wzGPY563q6TrARM) zum Anschauen 🎬
 
-
+[![Edufeed-Pitch](edufeed-pitch-vorschaubild.jpg)](https://peertube.katholisch.social/w/mR9eE4AqJEGFfWM6KvVpbd)
 
