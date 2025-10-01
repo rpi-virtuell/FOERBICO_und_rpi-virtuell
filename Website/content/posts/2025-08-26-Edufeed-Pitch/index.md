@@ -19,7 +19,7 @@ creator:
 image: ChatGPT Image Plattforminseln.PNG
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-08-26'
+datePublished: '2025-10-01'
 #staticSiteGenerator:
 author:
   - Gina Buchwald-Chassée
