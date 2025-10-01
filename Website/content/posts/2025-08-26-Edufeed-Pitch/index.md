@@ -33,11 +33,11 @@ summary: >-
     Wir haben mit Edufeed die Idee einer dezentralen, auf dem Nostr-Protokoll basierenden OER-Infrastruktur erfolgreich gepitcht, die mit drei Prototypen für Onboarding, Kollaboration und Kommunikation Offenheit, Interoperabilität und digitale Souveränität im Bildungsbereich stärkt. Was es mit Edufeed auf sich hat und mehr über die Prototypen erfahrt ihr in unserem Blobeitrag.
 url: edufeed-pitch
 tags:
-  - Edufeed
-  - Infrastruktur
-  - interoperabel
+  - Dezentral
+  - Interoperabilität
   - Nostr
   - Open Educational Resources (OER)
+  - Offenheit
 ---
 
 Edufeed ist unsere Vision einer dezentralen Infrastruktur für den Bildungsbereich, die auf dem offenen Social-Media-Protokoll Nostr basiert. Unser Ziel ist es, OER-Materialien plattformübergreifend auffindbar, teilbar und nutzbar zu machen – unabhängig von zentralen Plattformen oder proprietären Systemen. Dies sichert die Sichtbarkeit, Wiederverwendbarkeit und Langzeitverfügbarkeit von OER nachhaltig, regt zu offener Bildungspraxis an und hat auch unser Pitch-Team institutionsübergreifend zu einer Entwicklungscommunity zusammengebracht, die erweiterte Beteiligung initialisiert. Dazu haben wir bei einem Pitch unsere Idee zur Weiterentwicklung von Edufeed vorgestellt, um eine Sprint-Förderung in Höhe von 50.000€ zu erhalten.
@@ -74,5 +74,6 @@ Dieser Prototyp ermöglicht die technische Integration von Edufeed-Events in den
 Unser Pitch war erfolgreich und unser Antrag wurde bewilligt - es kann losgehen 🎉
 
 Hier findet ihr unseren [Edufeed-Pitch](https://cloud.rpi-virtuell.de/s/wzGPY563q6TrARM) zum Anschauen 🎬
+
 
 
