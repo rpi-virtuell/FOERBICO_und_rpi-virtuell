@@ -86,6 +86,10 @@ Luther war kein Influencer – aber seine Botschaft hatte „Impact“.
 Seine Kommunikationsform war reformatorisch, weil sie Menschen erreichte.
 
 Vergleich: Viral damals vs. viral heute
+1517 – Reformation |: | 2025 – Social Media|
+| ------------- |:-| -------------:|
+| ✍️ 95 Thesen	| | 2025 – Social Media|
+| Zeile 2, Zelle 1 | Zeile 2, Zelle 2 | Zeile 2, Zelle 3 |
 1517 – Reformation	                             2025 – Social Media
 ✍️ 95 Thesen	                                📲 Hashtag oder Video
 📜 Buchdruck	                                💻 Algorithmus
