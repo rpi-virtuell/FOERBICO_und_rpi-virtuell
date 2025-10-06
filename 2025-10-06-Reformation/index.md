@@ -16,17 +16,17 @@ Im Instagram-Post können Lernende diese Botschaft kreativ ausdrücken – mit H
 So wird Theologie nicht nur vermittelt, sondern kommunikativ erlebt.
 ### Historisch-theologische Bildung im digitalen Raum
 Die Unterrichtsidee greift zentrale Konzepte auf, die in der aktuellen kirchengeschichts- und religionsdidaktischen Diskussion (vgl. Höhne 2023) betont werden:
-1 Emotionale Beteiligung und performatives Lernen
+1) Emotionale Beteiligung und performatives Lernen
 Lernprozesse werden vertieft, wenn Lernende sich handelnd und emotional in historische Perspektiven hineinversetzen.
 Der Instagram-Post ist ein narrativer Zugang, der Empathie und Identifikation ermöglicht.
-2 Dekonstruktives und rekonstruktives Lernen
+2) Dekonstruktives und rekonstruktives Lernen
 Wie bei der Arbeit mit historischen Avataren gilt auch hier: Nicht nur nacherzählen, sondern kritisch rekonstruieren.
 Lernende fragen: Wie sah Luther seine Welt? Welche Konflikte prägten ihn? Wie wäre das heute?
 Damit entwickeln sie historisches und theologisches Urteilsvermögen.
-3 Multiperspektivität und Ambivalenz
+3) Multiperspektivität und Ambivalenz
 Luther wird nicht als „Influencer-Held“ präsentiert, sondern als ambivalente Persönlichkeit mit Spannungen zwischen Mut, Glaube und Konflikten (z. B. mit Kirche, Autorität, Antijudaismus).
 Das schützt vor Vereinfachung und fördert Geschichtsbewusstsein.
-4 Digitale Bildung und Medienreflexion
+4) Digitale Bildung und Medienreflexion
 Social Media wird nicht unkritisch genutzt, sondern reflektiert:
 Welche Verantwortung trägt, wer öffentlich Glauben kommuniziert?
 Wie beeinflussen Algorithmen religiöse Diskurse?
