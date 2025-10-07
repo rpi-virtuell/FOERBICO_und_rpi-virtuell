@@ -15,7 +15,7 @@ Im Instagram-Post können Lernende diese Botschaft kreativ ausdrücken – mit H
 #SolaGratia #FreiheitImGlauben #HierSteheIch
 So wird Theologie nicht nur vermittelt, sondern kommunikativ erlebt.
 ### Historisch-theologische Bildung im digitalen Raum
-Die Unterrichtsidee greift zentrale Konzepte auf, die in der aktuellen kirchengeschichts- und religionsdidaktischen Diskussion (vgl. Höhne 2023) betont werden:
+Die Unterrichtsidee greift zentrale Konzepte auf, die in der aktuellen kirchengeschichts- und religionsdidaktischen Diskussion betont werden:
 1) Emotionale Beteiligung und performatives Lernen
 Lernprozesse werden vertieft, wenn Lernende sich handelnd und emotional in historische Perspektiven hineinversetzen.
 Der Instagram-Post ist ein narrativer Zugang, der Empathie und Identifikation ermöglicht.
