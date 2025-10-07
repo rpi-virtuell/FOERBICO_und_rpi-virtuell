@@ -42,7 +42,7 @@ So wird Reformation nicht nur erinnert, sondern erlebt und reflektiert.
 1. Kommunikatives Lernen: Reformation als Medienereignis
 Damals: Der Buchdruck machte Luthers Botschaften viral. Seine Flugschriften und Lieder waren die Social-Media-Beiträge des 16. Jahrhunderts.
 Heute: Jugendliche kommunizieren über Reels, Stories und Posts.
-#### Konkret im Unterricht:
+Konkret im Unterricht:
 Lehrkräfte lassen Lernende untersuchen, wie Luther Medien genutzt hat (Flugblätter, Bibelübersetzung, Streitgespräche).
 Anschließend übertragen sie diese Kommunikationsstrategien auf heutige Kanäle:
 „Wie würde Luther heute seine Thesen posten?“
@@ -51,7 +51,7 @@ Der Transfer verdeutlicht: Reformation war Kommunikation – und Kommunikation b
 Zielkompetenz:
 Lernende erkennen, dass Glaubenskommunikation immer an zeitgemäße Ausdrucksformen gebunden ist – früher Buchdruck, heute Social Media.
 2. Emotionale Beteiligung: Glauben ins Gespräch bringen
-#### Didaktischer Gedanke:
+###### Didaktischer Gedanke:
 Performative Lernformen ermöglichen es, sich in Luthers Situation einzufühlen – zwischen Angst, Gewissenskonflikt und Mut zum Widerspruch.
 Konkret im Unterricht:
 Schülerinnen und Schüler schreiben Posts aus Luthers Perspektive:
@@ -62,7 +62,7 @@ Eine Reflexionsphase schließt an:
 Zielkompetenz:
 Lernende deuten Glaubenskonflikte existenziell – sie erkennen: Reformation war auch ein persönlicher Befreiungsakt.
 3. Multiperspektivität: Luther – Held, Zweifler, Mensch
-#### Didaktischer Gedanke:
+###### Didaktischer Gedanke:
 Geschichte ist mehrdeutig. Luther war mutig, aber auch streitbar und verletzend.
 Seine Haltung bietet Anlass zur Reflexion über Ambivalenz, Verantwortung und Toleranz.
 Konkret im Unterricht:
@@ -77,7 +77,7 @@ Im Plenum wird diskutiert:
 Zielkompetenz:
 Schüler:innen lernen, komplexe historische Figuren kritisch zu verstehen und ihre Haltung in die Gegenwart zu übersetzen – etwa im Umgang mit gesellschaftlichen Konflikten.
 4. Kritisch-mediale Kompetenz: Glauben im digitalen Raum
-#### Didaktischer Gedanke:
+###### Didaktischer Gedanke:
 Medien prägen die Wahrnehmung von Wahrheit, Autorität und Glauben.
 Das gilt für Luthers Zeit (Buchdruck) ebenso wie für Instagram heute.
 
