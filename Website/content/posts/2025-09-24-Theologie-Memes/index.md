@@ -123,8 +123,6 @@ Hier konkrete Meme-Beispiele aus dem IKT der Universität Vechta, um theologisch
 
 ![Psalm 137,9](Meme-1.png)
 Copyright: Katholische Theologie der Universität Vechta
-![Labubu-Trend](Meme-2.png)
-Copyright: Katholische Theologie der Universität Vechta
 ![Herodes](Meme-3.png)
 Copyright: Katholische Theologie der Universität Vechta
 
