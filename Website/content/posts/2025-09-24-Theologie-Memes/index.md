@@ -5,7 +5,7 @@ type: LearningResource
 id: https://oer.community/theologie-memes
 name: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen schaffen'
 description: >-
-  An der Uni Vechta wird vom Lehrstuhl Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
+  An der Uni Vechta wird vom Institut für Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
 inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/
 creator:
