@@ -3,14 +3,15 @@
 ### Wenn Thesen viral gehen
 „Hier stehe ich – und poste!“
 Diese humorvolle Umdeutung von Luthers berühmtem Zitat bildet den Ausgangspunkt einer Unterrichtseinheit für den evangelischen Religionsunterricht der Jahrgangsstufen 7/8.
-Schüler:innen versetzen sich in Martin Luther hinein und erstellen einen Instagram-Post aus seiner Perspektive – mit Text, Bild und Hashtags.
+Schüler:innen versetzen sich in Martin Luther hinein und erstellen einen Instagram-Post aus seiner Perspektive – mit Text, Bild und Hashtags. > [Kurze Rückfrage, machen sie das in Insta oder erstellen sie Posts für die klasse mit Bookcreator oder so?]
 Die Idee verbindet historisch-theologische Bildung mit digitaler Medienkompetenz:
 Wie hätte Luther seine reformatorische Botschaft heute kommuniziert? Und was bedeutet Glaubensfreiheit in einer vernetzten Welt?
 ### Freiheit im Glauben – Reformation als Befreiungserfahrung
 Im Zentrum der Reformation steht Luthers Entdeckung der Rechtfertigung allein aus Gnade (sola gratia).
 Nicht menschliche Leistung, sondern göttliche Gnade befreit den Menschen – von Angst, Selbstoptimierung und religiösem Leistungsdenken.
 Diese Einsicht prägt auch den heutigen Religionsunterricht:
-„Ich bin angenommen – nicht weil ich perfekt bin, sondern weil Gott mich liebt.“
+„Ich bin angenommen – nicht weil ich perfekt bin, sondern weil Gott mich liebt.“ > ["Ich bin angenommen!" Finde ich vielleicht sogar als Aussage stärker. Da könnten sogar die SuS überlegen welche theologischen Gründe eine Rolle spielen: Liebe, Geschöpflichkeit, Würde, Zuspruch...] 
+> [Aus dieser Erkenntnis heraus, konnte Luther die Kraft ziehen, auch gegen Widrigkeiten "Ich" zu sagen.]
 Im Instagram-Post können Lernende diese Botschaft kreativ ausdrücken – mit Hashtags wie
 #SolaGratia #FreiheitImGlauben #HierSteheIch
 So wird Theologie nicht nur vermittelt, sondern kommunikativ erlebt.
@@ -18,29 +19,29 @@ So wird Theologie nicht nur vermittelt, sondern kommunikativ erlebt.
 Die Unterrichtsidee greift zentrale Konzepte auf, die in der aktuellen kirchengeschichts- und religionsdidaktischen Diskussion betont werden:
 1) Emotionale Beteiligung und performatives Lernen
 Lernprozesse werden vertieft, wenn Lernende sich handelnd und emotional in historische Perspektiven hineinversetzen.
-Der Instagram-Post ist ein narrativer Zugang, der Empathie und Identifikation ermöglicht.
+Der Instagram-Post ist ein narrativer Zugang, der Empathie und Identifikation ermöglicht. > [Ist der Post der narrative Zugang oder die Erstellung des Posts? Weil so verstehe ich es, dass es bereits einen Post gibt.]
 2) Dekonstruktives und rekonstruktives Lernen
 Wie bei der Arbeit mit historischen Avataren gilt auch hier: Nicht nur nacherzählen, sondern kritisch rekonstruieren.
 Lernende fragen: Wie sah Luther seine Welt? Welche Konflikte prägten ihn? Wie wäre das heute?
 Damit entwickeln sie historisches und theologisches Urteilsvermögen.
 3) Multiperspektivität und Ambivalenz
-Luther wird nicht als „Influencer-Held“ präsentiert, sondern als ambivalente Persönlichkeit mit Spannungen zwischen Mut, Glaube und Konflikten (z. B. mit Kirche, Autorität, Antijudaismus).
+Luther wird nicht als „Influencer-Held“ präsentiert, sondern als ambivalente Persönlichkeit mit Spannungen zwischen Mut, Glaube und Konflikten (z. B. mit Kirche, Autorität, Antijudaismus). > [Die Auseinandersetzung mit den Folgen seiner Schriften, führt zudem auch zu einem Bewusstsein, dass Worte, Schriften und Posts Macht besitzen.]
 Das schützt vor Vereinfachung und fördert Geschichtsbewusstsein.
 4) Digitale Bildung und Medienreflexion
 Social Media wird nicht unkritisch genutzt, sondern reflektiert:
-Welche Verantwortung trägt, wer öffentlich Glauben kommuniziert?
-Wie beeinflussen Algorithmen religiöse Diskurse?
+Welche Verantwortung trägt, wer > [der statt wer?] öffentlich Glauben kommuniziert?
+Wie beeinflussen Algorithmen religiöse Diskurse? > ["Aller Wut klickt gut"]
 Wo liegen Chancen und Risiken digitaler Verkündigung?
 #### Diese vier didaktischen Leitlinien verankern die Aufgabe theologisch, historisch und medienpädagogisch.
 ## Luther hatte kein Instagram, kein TikTok – und ging trotzdem viral.
-Im Herbst 1517 verbreiteten sich seine 95 Thesen in Windeseile über ganz Europa. Kein Algorithmus, kein Livestream, sondern der Buchdruck machte die Reformation zum ersten viralen Ereignis der Geschichte.
+Im Herbst 1517 verbreiteten sich seine 95 Thesen in Windeseile über ganz Europa. Kein Algorithmus, kein Livestream, sondern der Buchdruck >[verständliche Thesen und Karrikaturen] machte>[n] die Reformation zum ersten viralen Ereignis der Geschichte.  
 Das Projekt „Luther als Influencer“ überträgt diesen Gedanken in den Religionsunterricht der Jahrgangsstufen 7/8.
 Schüler:innen versetzen sich in Luthers Perspektive und gestalten einen Instagram-Post, der seine Botschaften, Gefühle und Konflikte in die Gegenwart übersetzt.
 ### Didaktische Umsetzung: Reformation kommunizieren – heute
-Die Aufgabe „Luther als Influencer“ greift zentrale Prinzipien kirchengeschichtlicher Bildung auf – und übersetzt sie in konkrete Unterrichtshandlungen.
+Die Aufgabe „Luther als Influencer“ greift zentrale Prinzipien kirchengeschichtlicher Bildung auf – und übersetzt sie in konkrete Unterrichtshandlungen. > [Sollten hier ein paar Beispiele stehen: Auseinandersetzung mit einem Thema, Position beziehen, Diskutieren und Urteilen.]
 So wird Reformation nicht nur erinnert, sondern erlebt und reflektiert.
 ### Kommunikatives Lernen: Reformation als Medienereignis
-Damals: Der Buchdruck machte Luthers Botschaften viral. Seine Flugschriften und Lieder waren die Social-Media-Beiträge des 16. Jahrhunderts.
+Damals: Der Buchdruck machte Luthers Botschaften viral. Seine Flugschriften und Lieder waren die Social-Media-Beiträge des 16. Jahrhunderts. > [Sie waren für die breite Masse zugänglich und verständlich.]
 Heute: Jugendliche kommunizieren über Reels, Stories und Posts.
 Konkret im Unterricht:
 Lehrkräfte lassen Lernende untersuchen, wie Luther Medien genutzt hat (Flugblätter, Bibelübersetzung, Streitgespräche).
