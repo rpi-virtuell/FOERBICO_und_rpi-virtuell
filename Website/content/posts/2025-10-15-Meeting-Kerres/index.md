@@ -62,7 +62,7 @@ Prof. Kerres betonte in diesem Zusammenhang die Notwendigkeit, die infrastruktur
 
 Auch **FOERBICO** versteht sich als strategische Klammer für offene Bildungsprozesse im religionspädagogischen Feld: Das Verbundprojekt stärkt und vernetzt bestehende OER-Communities of Practice und setzt gezielt auf die Etablierung von Metadatenstandards, um die Interoperabilität über Plattform- und Institutionsgrenzen hinweg zu fördern. In der Schwerpunktsetzung auf religionsbezogene Bildungsakteure zeigt sich jedoch eine fachspezifische Verankerung, die Kooperationen mit anderen Fachkulturen bislang nur punktuell realisiert. Damit steht auch FOERBICO vor der Herausforderung, dass OER-/OEP-Initiativen oft auf ihre jeweiligen Fachkulturen beschränkt bleiben, was den Wissenstransfer und die nachhaltige Wirkung über disziplinäre Grenzen hinweg einschränkt.
 
-### Ehrenamt als Bildungsakteur
+## Ehrenamt als Bildungsakteur
 
 Prof. Kerres richtete noch den Blick auf eine oft übersehene Bildungsdimension: die Qualifizierung ehrenamtlich Engagierter. Ob in der Geflüchtetenhilfe oder in der Arbeit mit Kindern und Jugendlichen sind viele Ehrenamtliche gefordert, sich kontinuierlich fortzubilden. Oftmals stehen sie dabei unter einem gewissen Qualifizierungsdruck, dem sie zeitlich kaum gerecht werden können. Deshalb stellte sich das Learning Lab die Frage: Wie lassen sich Bildungsräume gestalten, die jenseits formaler Settings niedrigschwellige Lerngelegenheiten bieten und die Qualifizierung im Ehrenamt auf diese stärken?
 
