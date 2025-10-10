@@ -30,7 +30,7 @@ cover:
   image: Kerres-Moessle2025.png
   hiddenInSingle: false
 summary: >-
-Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom Learning Lab zum Austausch über digitale Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open Educational Practices, zu Infrastrukturen sowie zum informellen Lernen außerhalb formaler Bildungsinstitutionen.
+  Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom Learning Lab zum Austausch über digitale Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open Educational Practices, zu Infrastrukturen sowie zum informellen Lernen außerhalb formaler Bildungsinstitutionen.
 url: austausch-mit-michael-kerres
 tags:
   - Vernetzung
