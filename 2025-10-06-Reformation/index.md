@@ -7,7 +7,8 @@ Schüler:innen versetzen sich in Martin Luther hinein und erstellen einen Instag
 Die Idee verbindet historisch-theologische Bildung mit digitaler Medienkompetenz:
 Wie hätte Luther seine reformatorische Botschaft heute kommuniziert? Und was bedeutet Glaubensfreiheit in einer vernetzten Welt?
 Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder digital über ein interaktives Tool gestalten.
-💡 Tipp für die Umsetzung: Mit Zeoob (https://zeoob.com) lassen sich analoge PDF-Vorlagen ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
+####💡 Tipp für die Umsetzung: 
+Mit Zeoob (https://zeoob.com) lassen sich analoge PDF-Vorlagen ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 ### Freiheit im Glauben – Reformation als Befreiungserfahrung
 Im Zentrum der Reformation steht Luthers Entdeckung der Rechtfertigung allein aus Gnade (sola gratia).
 Nicht menschliche Leistung, sondern göttliche Gnade befreit den Menschen – von Angst, Selbstoptimierung und religiösem Leistungsdenken.
