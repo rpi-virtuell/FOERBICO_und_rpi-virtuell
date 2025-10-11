@@ -1,3 +1,53 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/theologie-memes
+name: 'Instagram als Lernort: Luther als Influencer'
+description: >-
+  Ausgehend von Luthers Entdeckung der Gnade zeigt der Beitrag, wie Reformation als Kommunikationsereignis im digitalen Zeitalter neu erfahrbar wird – durch die kreative Aufgabe „Luther als Influencer“.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Lara
+    familyName: Gotthard
+    type: Person
+    affiliation:
+      name: nt.dortmund
+      id: https://ror.org/025e8aw85
+      type: Organization
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: 
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-10-06'
+#staticSiteGenerator:
+author:
+  - Lara Gotthard
+  - Corinna Ullmann
+title: 'Instagram als Lernort: Luther als Influencer'
+cover:
+  relative: true
+  image: 
+summary: >-
+  Was wäre, wenn Luther Instagram gehabt hätte? Der Beitrag verbindet Reformation, Medienkompetenz und Kreativität – und zeigt, wie Jugendliche heute Haltung zeigen können: analog, digital, reformatorisch.
+url: Luther-influencer
+tags:
+  - Theologie
+  - Instagram
+  - Didaktik
+  - Schule
+---
 # Luther als Influencer
 
 ### Wenn Thesen viral gehen
