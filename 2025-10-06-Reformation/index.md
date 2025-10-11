@@ -25,7 +25,7 @@ creator:
       type: Organization
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: 
+image: 2025-10-06-Reformation/1.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
