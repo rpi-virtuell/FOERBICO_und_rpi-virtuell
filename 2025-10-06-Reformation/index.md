@@ -38,7 +38,7 @@ author:
 title: 'Instagram als Lernort: Luther als Influencer'
 cover:
   relative: true
-  image: 
+  image: 2025-10-06-Reformation/2.png
 summary: >-
   Was wäre, wenn Luther Instagram gehabt hätte? Der Beitrag verbindet Reformation, Medienkompetenz und Kreativität – und zeigt, wie Jugendliche heute Haltung zeigen können: analog, digital, reformatorisch.
 url: Luther-influencer
