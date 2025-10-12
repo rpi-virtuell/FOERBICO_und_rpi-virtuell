@@ -2,7 +2,7 @@
 #commonMetadata:
 '@context': https://schema.org/
 type: LearningResource
-id: https://oer.community/theologie-memes
+id: https://oer.community/luther-influencer
 name: 'Instagram als Lernort: Luther als Influencer'
 description: >-
   Ausgehend von Luthers Entdeckung der Gnade zeigt der Beitrag, wie Reformation als Kommunikationsereignis im digitalen Zeitalter neu erfahrbar wird – durch die kreative Aufgabe „Luther als Influencer“.
@@ -47,15 +47,17 @@ tags:
   - Medienpädagogik
   - Didaktik
   - Social Media
+  - Religionspädagogik
 ---
 
 ### Wenn Thesen viral gehen
 
 „Hier stehe ich – und poste!“
 Diese humorvolle Umdeutung von Luthers berühmtem Zitat bildet den Ausgangspunkt einer Unterrichtseinheit für den evangelischen Religionsunterricht der Jahrgangsstufen 7/8.
-Schüler:innen versetzen sich in Martin Luther hinein und erstellen einen Instagram-Post aus seiner Perspektive – mit Text, Bild und Hashtags. > [Kurze Rückfrage, machen sie das in Insta oder erstellen sie Posts für die klasse mit Bookcreator oder so?]
+Schüler:innen versetzen sich in Martin Luther hinein und erstellen einen Instagram-Post aus seiner Perspektive – mit Text, Bild und Hashtags.
 Die Idee verbindet historisch-theologische Bildung mit digitaler Medienkompetenz:
-Wie hätte Luther seine reformatorische Botschaft heute kommuniziert? Und was bedeutet Glaubensfreiheit in einer vernetzten Welt?
+Wie hätte Luther seine reformatorische Botschaft heute kommuniziert? 
+Und was bedeutet Glaubensfreiheit in einer vernetzten Welt?
 Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder digital über ein interaktives Tool gestalten.
 
 #### Tipp für die Umsetzung: 
@@ -90,7 +92,7 @@ Das schützt vor Vereinfachung und fördert Geschichtsbewusstsein.
 4) Digitale Bildung und Medienreflexion
 Social Media wird nicht unkritisch genutzt, sondern reflektiert:
 Welche Verantwortung trägt, der öffentlich Glauben kommuniziert?
-Wie beeinflussen Algorithmen religiöse Diskurse? > ["Aller Wut klickt gut"]
+Wie beeinflussen Algorithmen religiöse Diskurse? 
 Wo liegen Chancen und Risiken digitaler Verkündigung?
 
 #### Diese vier didaktischen Leitlinien verankern die Aufgabe theologisch, historisch und medienpädagogisch.
@@ -191,3 +193,10 @@ Vorschläge:
 ### Fazit:
 „Ein guter Insta-Post ist wie eine kleine Reformation:
 Er verändert den Blick auf die Welt – mit Mut, Gefühl und einer klaren Botschaft.“
+
+## Literaturangaben:
+WDR (2023): Reformationstag: Martin Luther-Avatar beantwortet Fragen. In: Aktuelle Stunde, 31.10.2023.
+https://www1.wdr.de/fernsehen/aktuelle-stunde/alle-videos/reformationstag-luther-avatar-beantwortet-fragen-100.html
+RUPRE – Forschungsstelle für Öffentliche Religionspädagogik. (2024). Luther als Avatar? Theologische und religionspädagogische (Un-)Möglichkeit? In: Video-Vortrag von Prof. Dr. Manfred L. Pirner. https://youtu.be/m2wFtG1FUj4?si=yjbeeejT5uX1Tzr_
+
+
