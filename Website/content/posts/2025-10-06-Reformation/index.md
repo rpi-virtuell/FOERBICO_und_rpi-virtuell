@@ -212,6 +212,7 @@ Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botscha
 
 ### Dieser Beitrag illustriert auf Instagram
 [![](1.png)](https://www.instagram.com/p/DPvl4HrjeGp)
+(Bildlizenz: Canva - Durch Klicken auf das Bild landest du beim [Beitrag auf Instagram](https://www.instagram.com/p/DPvl4HrjeGp))
 
 ## Literaturangaben
 
