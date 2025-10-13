@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Religious Education Curation Tool v0.2 (AMB)</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #8b5cf6;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --border-radius: 8px;
+            --border-radius-lg: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--gray-700);
+            background: linear-gradient(135deg, var(--gray-50) 0%, #fff 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--border-radius-lg);
+            margin-bottom: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .header h1 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+
+        .header .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+        }
+
+        /* Steps */
+        .step {
+            background: white;
+            border-radius: var(--border-radius-lg);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--gray-200);
+        }
+
+        .step-title {
+            color: var(--primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .step-number {
+            width: 2rem;
+            height: 2rem;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        /* Form Elements */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--gray-700);
+            font-size: 0.875rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--gray-300);
+            border-radius: var(--border-radius);
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+            background: white;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgb(99 102 241 / 0.1);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Checkbox Groups */
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 0.75rem;
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--border-radius);
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .checkbox-item:hover {
+            background: var(--gray-100);
+            border-color: var(--gray-300);
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin-right: 0.75rem;
+            width: 1rem;
+            height: 1rem;
+            accent-color: var(--primary);
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .checkbox-item label {
+            margin: 0;
+            cursor: pointer;
+            font-size: 0.875rem;
+            line-height: 1.4;
+        }
+
+        .checkbox-item .label-description {
+            display: block;
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            margin-top: 0.25rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: var(--gray-600);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: var(--gray-700);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid var(--gray-200);
+            margin-bottom: 1rem;
+        }
+
+        .tab {
+            padding: 0.75rem 1rem;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--gray-600);
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Output Areas */
+        .output-box {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.8rem;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+            margin: 1rem 0;
+        }
+
+        /* Navigation */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        /* Final Output */
+        .final-summary-container {
+            background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%);
+            border: 1px solid var(--success);
+            border-radius: var(--border-radius-lg);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .final-summary-container h3 {
+            color: #065f46;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .summary-section {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--primary);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .summary-content {
+            font-size: 0.95rem;
+            color: var(--gray-800);
+            line-height: 1.7;
+        }
+
+        .summary-content strong {
+            color: var(--gray-900);
+        }
+
+        .summary-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin: 0.5rem 0;
+        }
+        
+        .summary-content ul li {
+            margin-bottom: 0.25rem;
+        }
+
+        .amb-metadata-box {
+            background: #f0f9ff;
+            border: 1px solid #0284c7;
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin-top: 1rem;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.75rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .tags {
+            background: var(--gray-100);
+            border-radius: var(--border-radius);
+            padding: 0.75rem;
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            line-height: 1.8;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5em;
+        }
+
+        .tags strong {
+            color: var(--gray-700);
+            flex-basis: 100%;
+            margin-bottom: 0.5em;
+        }
+
+        .tag-item {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 0.2em 0.6em;
+            border-radius: 4px;
+            font-size: 0.8em;
+            white-space: nowrap;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: var(--border-radius);
+            font-size: 0.875rem;
+        }
+
+        .info-box strong {
+            color: #1e40af;
+        }
+
+        /* Utility Classes */
+        .hidden { display: none; }
+        .text-center { text-align: center; }
+        .text-sm { font-size: 0.875rem; }
+        .text-xs { font-size: 0.75rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+
+        /* Error States */
+        .error {
+            border-color: var(--danger) !important;
+            box-shadow: 0 0 0 3px rgb(239 68 68 / 0.1) !important;
+        }
+
+        .error-message {
+            color: var(--danger);
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .success-message {
+            background: #ecfdf5;
+            color: #065f46;
+            padding: 0.75rem;
+            border-radius: var(--border-radius);
+            margin: 0.5rem 0;
+            border: 1px solid #a7f3d0;
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0.5rem;
+            }
+            
+            .header {
+                padding: 1.5rem;
+            }
+
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .checkbox-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Religious Education Curation Tool</h1>
+            <p>AMB-Compliant Metadata Generation for Religious Education Resources</p>
+            <div class="badge">v0.2 (AMB) | reliedu vocabulary | OpenEduHub + KIM</div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText">Schritt 1 von 5</div>
+        </div>
+
+        <!-- STEP 1: Basic Metadata -->
+        <div class="step" id="step1">
+            <h2 class="step-title">
+                <span class="step-number">1</span>
+                Grundmetadaten (AMB Required Fields)
+            </h2>
+
+            <div class="info-box">
+                <strong>ℹ️ AMB-Pflichtfelder:</strong> Diese Angaben sind für AMB-konforme Metadaten erforderlich.
+            </div>
+            
+            <div class="form-group">
+                <label for="resourceTitle">Titel der Ressource *</label>
+                <input type="text" id="resourceTitle" class="form-control" placeholder="z.B. Gleichnisse Jesu verstehen" oninput="updateProgress()">
+                <div class="error-message" id="title-error">Bitte geben Sie einen Titel ein.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="resourceUrl">URL der Ressource *</label>
+                <input type="url" id="resourceUrl" class="form-control" placeholder="https://..." oninput="updateProgress()">
+                <div class="error-message" id="url-error">Bitte geben Sie eine gültige URL ein.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="resourceDescription">Kurzbeschreibung</label>
+                <textarea id="resourceDescription" class="form-control" rows="3" placeholder="Kurze Beschreibung der Ressource..." oninput="updateProgress()"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="audience">Zielgruppe (audience - intendedEndUserRole) *</label>
+                <select id="audience" class="form-control" multiple size="4" onchange="updateProgress()">
+                    <option value="http://w3id.org/openeduhub/vocabs/intendedEndUserRole/teacher">Lehrkräfte (teacher)</option>
+                    <option value="http://w3id.org/openeduhub/vocabs/intendedEndUserRole/learner">Lernende (learner)</option>
+                    <option value="http://w3id.org/openeduhub/vocabs/intendedEndUserRole/parent">Eltern (parent)</option>
+                    <option value="http://w3id.org/openeduhub/vocabs/intendedEndUserRole/counsellor">Beratende (counsellor)</option>
+                </select>
+                <div class="text-xs" style="margin-top: 0.25rem; color: var(--gray-500);">Mehrfachauswahl möglich (Strg/Cmd + Klick)</div>
+                <div class="error-message" id="audience-error">Bitte wählen Sie mindestens eine Zielgruppe aus.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="educationalLevel">Bildungsstufe (educationalLevel - KIM) *</label>
+                <select id="educationalLevel" class="form-control" multiple size="6" onchange="updateProgress()">
+                    <option value="https://w3id.org/kim/educationalLevel/level_0">Elementarbereich (level_0)</option>
+                    <option value="https://w3id.org/kim/educationalLevel/level_1">Primarbereich (level_1)</option>
+                    <option value="https://w3id.org/kim/educationalLevel/level_2">Sekundarbereich I (level_2)</option>
+                    <option value="https://w3id.org/kim/educationalLevel/level_3">Sekundarbereich II (level_3)</option>
+                    <option value="https://w3id.org/kim/educationalLevel/level_A">Hochschule (level_A)</option>
+                    <option value="https://w3id.org/kim/educationalLevel/level_B">Referendariat (level_B)</option>
+                    <option value="https://w3id.org/kim/educationalLevel/level_C">Fortbildung (level_C)</option>
+                </select>
+                <div class="text-xs" style="margin-top: 0.25rem; color: var(--gray-500);">Mehrfachauswahl möglich (Strg/Cmd + Klick)</div>
+                <div class="error-message" id="educationallevel-error">Bitte wählen Sie mindestens eine Bildungsstufe aus.</div>
+            </div>
+
+            <div class="navigation">
+                <div></div>
+                <button class="btn btn-primary" onclick="nextStep(2)">
+                    Weiter
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- STEP 2: Resource Classification -->
+        <div class="step hidden" id="step2">
+            <h2 class="step-title">
+                <span class="step-number">2</span>
+                Ressourcentyp & Fach (learningResourceType & about)
+            </h2>
+
+            <div class="info-box">
+                <strong>📚 OpenEduHub new_lrt:</strong> Wählen Sie passende Ressourcentypen aus dem offiziellen Vokabular.
+            </div>
+
+            <div class="form-group">
+                <label>Lernressourcentyp (learningResourceType - OpenEduHub new_lrt) *</label>
+                <div class="checkbox-grid">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="lrt_bibeltext" value="ab5b99ea-551c-42f3-995b-e4b5f469ad7e" onchange="updateProgress()">
+                        <label for="lrt_bibeltext">
+                            Bibeltext / Primärmaterial
+                            <span class="label-description">Quellentext, religiöses Dokument</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="lrt_stundenentwurf" value="0d23ff13-9d92-4944-92fa-2b5fe1dde80b" onchange="updateProgress()">
+                        <label for="lrt_stundenentwurf">
+                            Stundenentwurf
+                            <span class="label-description">Vollständige Unterrichtsplanung</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="lrt_arbeitsblatt" value="36e68792-6159-481d-a97b-2c00901f4f78" onchange="updateProgress()">
+                        <label for="lrt_arbeitsblatt">
+                            Arbeitsblatt
+                            <span class="label-description">Übungsblatt, Aufgabenblatt</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="lrt_video" value="7a6e9608-2554-4981-95dc-47ab9ba924de" onchange="updateProgress()">
+                        <label for="lrt_video">
+                            Video
+                            <span class="label-description">Lernvideo, Erklärvideo</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="lrt_methode" value="477115fd-5042-4174-ac39-7c05f8a24766" onchange="updateProgress()">
+                        <label for="lrt_methode">
+                            Pädagogische Methode
+                            <span class="label-description">Unterrichtsmethode, Konzept</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="lrt_text" value="0cef3ce9-e106-47ae-836a-48f9ed04384e" onchange="updateProgress()">
+                        <label for="lrt_text">
+                            Text/Dokument
+                            <span class="label-description">Fachartikel, Aufsatz</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="error-message" id="lrt-error">Bitte wählen Sie mindestens einen Ressourcentyp aus.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="about">Fach (about - discipline) *</label>
+                <select id="about" class="form-control" onchange="updateProgress()">
+                    <option value="">Bitte wählen...</option>
+                    <option value="http://w3id.org/openeduhub/vocabs/discipline/520">Religion (520)</option>
+                    <option value="http://w3id.org/openeduhub/vocabs/discipline/340">Interkulturelle Bildung (340)</option>
+                    <option value="http://w3id.org/openeduhub/vocabs/discipline/48005">Ethik (48005)</option>
+                </select>
+                <div class="error-message" id="about-error">Bitte wählen Sie ein Fach aus.</div>
+            </div>
+
+            <div class="navigation">
+                <button class="btn btn-secondary" onclick="previousStep(1)">
+                    ← Zurück
+                </button>
+                <button class="btn btn-primary" onclick="nextStep(3)">
+                    Weiter
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- STEP 3: Religious-Didactic Labels -->
+        <div class="step hidden" id="step3">
+            <h2 class="step-title">
+                <span class="step-number">3</span>
+                Religionsdidaktische Zugänge (reliedu-didactics)
+            </h2>
+
+            <div class="info-box">
+                <strong>🔍 reliedu Vocabulary:</strong> Wählen Sie religionsdidaktische Labels aus dem internationalen reliedu-Vokabular. Diese erweitern das AMB-Feld "about" um religionspädagogische Spezifika.
+            </div>
+
+            <div class="form-group">
+                <label>Didaktische Zugänge (13 Kern-Labels)</label>
+                <div class="checkbox-grid">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_subjekt" value="https://w3id.org/reliedu/didactics/subjektorientierung" onchange="updateProgress()">
+                        <label for="did_subjekt">
+                            Subjektorientierung
+                            <span class="label-description">Individuelle Erfahrungen der Lernenden</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_korrelation" value="https://w3id.org/reliedu/didactics/korrelation" onchange="updateProgress()">
+                        <label for="did_korrelation">
+                            Korrelationsdidaktik
+                            <span class="label-description">Glaube ↔ Leben verbinden</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_elementar" value="https://w3id.org/reliedu/didactics/elementarisierung" onchange="updateProgress()">
+                        <label for="did_elementar">
+                            Elementarisierung
+                            <span class="label-description">Reduktion auf Kernaussagen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_performativ" value="https://w3id.org/reliedu/didactics/performativ" onchange="updateProgress()">
+                        <label for="did_performativ">
+                            Performatives Lernen
+                            <span class="label-description">Durch Handeln und Erleben</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_theologisieren" value="https://w3id.org/reliedu/didactics/theologisieren" onchange="updateProgress()">
+                        <label for="did_theologisieren">
+                            Theologisieren mit Kindern
+                            <span class="label-description">Eigene theologische Fragen entwickeln</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_interreligioes" value="https://w3id.org/reliedu/didactics/interreligioes" onchange="updateProgress()">
+                        <label for="did_interreligioes">
+                            Interreligiöses Lernen
+                            <span class="label-description">Dialog mit anderen Religionen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_biblisch" value="https://w3id.org/reliedu/didactics/biblisch" onchange="updateProgress()">
+                        <label for="did_biblisch">
+                            Biblische Didaktik
+                            <span class="label-description">Umgang mit biblischen Texten</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_symbol" value="https://w3id.org/reliedu/didactics/symbol" onchange="updateProgress()">
+                        <label for="did_symbol">
+                            Symboldidaktik
+                            <span class="label-description">Religiöse Symbole erschließen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_kirchenraum" value="https://w3id.org/reliedu/didactics/kirchenraum" onchange="updateProgress()">
+                        <label for="did_kirchenraum">
+                            Kirchenraumpädagogik
+                            <span class="label-description">Kirchenräume als Lernorte</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_aesthetisch" value="https://w3id.org/reliedu/didactics/aesthetisch" onchange="updateProgress()">
+                        <label for="did_aesthetisch">
+                            Ästhetisches Lernen
+                            <span class="label-description">Kunst, Musik, sinnliche Zugänge</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_inklusiv" value="https://w3id.org/reliedu/didactics/inklusiv" onchange="updateProgress()">
+                        <label for="did_inklusiv">
+                            Inklusive Religionspädagogik
+                            <span class="label-description">Heterogenität berücksichtigen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_oekumenisch" value="https://w3id.org/reliedu/didactics/oekumenisch" onchange="updateProgress()">
+                        <label for="did_oekumenisch">
+                            Konfessionelle Kooperation
+                            <span class="label-description">Ökumenisches Lernen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="did_digital" value="https://w3id.org/reliedu/didactics/digital" onchange="updateProgress()">
+                        <label for="did_digital">
+                            Digitale Religionsdidaktik
+                            <span class="label-description">Digitale Medien sinnvoll einsetzen</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button class="btn btn-secondary" onclick="previousStep(2)">
+                    ← Zurück
+                </button>
+                <button class="btn btn-primary" onclick="nextStep(4)">
+                    Weiter
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- STEP 4: Competencies & Content -->
+        <div class="step hidden" id="step4">
+            <h2 class="step-title">
+                <span class="step-number">4</span>
+                Kompetenzen & Inhaltsbereiche (teaches)
+            </h2>
+
+            <div class="info-box">
+                <strong>🎯 Kompetenzorientierung:</strong> Welche Kompetenzen fördert die Ressource? Welche Inhaltsbereiche werden behandelt?
+            </div>
+
+            <div class="form-group">
+                <label>Prozessbezogene Kompetenzen (reliedu-competency)</label>
+                <div class="checkbox-grid">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="comp_wahrnehmung" value="https://w3id.org/reliedu/competency/wahrnehmung" onchange="updateProgress()">
+                        <label for="comp_wahrnehmung">
+                            Wahrnehmungs- und Darstellungskompetenz
+                            <span class="label-description">Religiöse Phänomene wahrnehmen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="comp_deutung" value="https://w3id.org/reliedu/competency/deutung" onchange="updateProgress()">
+                        <label for="comp_deutung">
+                            Deutungskompetenz
+                            <span class="label-description">Religiöse Sprache verstehen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="comp_urteil" value="https://w3id.org/reliedu/competency/urteil" onchange="updateProgress()">
+                        <label for="comp_urteil">
+                            Urteilskompetenz
+                            <span class="label-description">Reflektieren und Position beziehen</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="comp_dialog" value="https://w3id.org/reliedu/competency/dialog" onchange="updateProgress()">
+                        <label for="comp_dialog">
+                            Dialogkompetenz
+                            <span class="label-description">Respektvoll kommunizieren</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="comp_gestaltung" value="https://w3id.org/reliedu/competency/gestaltung" onchange="updateProgress()">
+                        <label for="comp_gestaltung">
+                            Gestaltungskompetenz
+                            <span class="label-description">Religiöse Ausdrucksformen gestalten</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Inhaltsbereiche (reliedu-content)</label>
+                <div class="checkbox-grid">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="content_mensch" value="https://w3id.org/reliedu/content/mensch-welt" onchange="updateProgress()">
+                        <label for="content_mensch">
+                            Mensch und Welt
+                            <span class="label-description">Anthropologie, Schöpfung</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="content_bibel" value="https://w3id.org/reliedu/content/bibel" onchange="updateProgress()">
+                        <label for="content_bibel">
+                            Bibel
+                            <span class="label-description">Heilige Schrift</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="content_gott" value="https://w3id.org/reliedu/content/gott" onchange="updateProgress()">
+                        <label for="content_gott">
+                            Gott
+                            <span class="label-description">Gottesbild, Trinität</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="content_jesus" value="https://w3id.org/reliedu/content/jesus-christus" onchange="updateProgress()">
+                        <label for="content_jesus">
+                            Jesus Christus
+                            <span class="label-description">Leben, Wirken, Bedeutung</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="content_kirche" value="https://w3id.org/reliedu/content/kirche" onchange="updateProgress()">
+                        <label for="content_kirche">
+                            Kirche und Kirchen
+                            <span class="label-description">Ekklesiologie, Ökumene</span>
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="content_religionen" value="https://w3id.org/reliedu/content/religionen" onchange="updateProgress()">
+                        <label for="content_religionen">
+                            Religionen und Weltanschauungen
+                            <span class="label-description">Weltreligionen, Dialog</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="keywords">Freie Schlagworte (keywords)</label>
+                <input type="text" id="keywords" class="form-control" placeholder="z.B. Gleichnis, Barmherzigkeit, Nächstenliebe (kommagetrennt)" oninput="updateProgress()">
+                <div class="text-xs" style="margin-top: 0.25rem; color: var(--gray-500);">Mehrere Schlagworte durch Komma trennen</div>
+            </div>
+
+            <div class="navigation">
+                <button class="btn btn-secondary" onclick="previousStep(3)">
+                    ← Zurück
+                </button>
+                <button class="btn btn-primary" onclick="generateAMBMetadata()">
+                    AMB-Metadaten generieren
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- STEP 5: Final Output -->
+        <div class="step hidden" id="step5">
+            <h2 class="step-title">
+                <span class="step-number">✓</span>
+                AMB-Metadaten generiert
+            </h2>
+            
+            <div class="final-summary-container">
+                <h3>🎉 AMB-konforme Metadaten erfolgreich erstellt!</h3>
+                <p>Die Metadaten entsprechen dem Allgemeinen Metadatenprofil für Bildungsressourcen (AMB v20231019) der DINI-AG-KIM und nutzen das internationale reliedu-Vokabular.</p>
+            </div>
+
+            <div class="summary-section">
+                <h4>📋 JSON-LD Metadaten (AMB-konform)</h4>
+                <div class="amb-metadata-box" id="ambMetadataOutput"></div>
+                <button class="btn btn-outline" onclick="copyToClipboard('ambMetadataOutput')">
+                    📋 JSON-LD kopieren
+                </button>
+            </div>
+
+            <div class="summary-section">
+                <h4>🔍 Zusammenfassung</h4>
+                <div id="summaryOutput"></div>
+            </div>
+
+            <div class="navigation">
+                <button class="btn btn-secondary" onclick="startOver()">
+                    🔄 Neue Ressource
+                </button>
+                <button class="btn btn-primary" onclick="exportResults()">
+                    💾 Exportieren
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentStep = 1;
+        let formData = {};
+        let ambMetadata = {};
+
+        function updateProgress() {
+            let progress = 0;
+            const totalSteps = 5;
+
+            if (currentStep === 1) {
+                let step1Complete = 0;
+                if (document.getElementById('resourceTitle').value) step1Complete += 25;
+                if (document.getElementById('resourceUrl').value) step1Complete += 25;
+                if (getSelectedValues('audience').length > 0) step1Complete += 25;
+                if (getSelectedValues('educationalLevel').length > 0) step1Complete += 25;
+                progress = step1Complete / totalSteps;
+            } else if (currentStep === 2) {
+                let step2Complete = 0;
+                if (document.querySelectorAll('#step2 input[type="checkbox"]:checked').length > 0) step2Complete += 50;
+                if (document.getElementById('about').value) step2Complete += 50;
+                progress = 100/totalSteps + step2Complete/totalSteps;
+            } else if (currentStep === 3) {
+                progress = 200/totalSteps;
+            } else if (currentStep === 4) {
+                progress = 300/totalSteps;
+            } else if (currentStep >= 5) {
+                progress = 100;
+            }
+
+            document.getElementById('progressFill').style.width = progress + '%';
+            document.getElementById('progressText').textContent = `Schritt ${currentStep} von 5 (${Math.round(progress)}%)`;
+        }
+
+        function getSelectedValues(selectId) {
+            const select = document.getElementById(selectId);
+            return Array.from(select.selectedOptions).map(option => option.value);
+        }
+
+        function getCheckedValues(selector) {
+            return Array.from(document.querySelectorAll(selector + ':checked')).map(cb => cb.value);
+        }
+
+        function validateCurrentStep() {
+            let isValid = true;
+
+            if (currentStep === 1) {
+                const title = document.getElementById('resourceTitle').value;
+                const url = document.getElementById('resourceUrl').value;
+                const audience = getSelectedValues('audience');
+                const educationalLevel = getSelectedValues('educationalLevel');
+
+                if (!title) {
+                    showError('resourceTitle', 'title-error');
+                    isValid = false;
+                } else {
+                    hideError('resourceTitle', 'title-error');
+                }
+
+                if (!url || !url.startsWith('http')) {
+                    showError('resourceUrl', 'url-error');
+                    isValid = false;
+                } else {
+                    hideError('resourceUrl', 'url-error');
+                }
+
+                if (audience.length === 0) {
+                    showError('audience', 'audience-error');
+                    isValid = false;
+                } else {
+                    hideError('audience', 'audience-error');
+                }
+
+                if (educationalLevel.length === 0) {
+                    showError('educationalLevel', 'educationallevel-error');
+                    isValid = false;
+                } else {
+                    hideError('educationalLevel', 'educationallevel-error');
+                }
+            } else if (currentStep === 2) {
+                const lrt = getCheckedValues('#step2 input[type="checkbox"]');
+                const about = document.getElementById('about').value;
+
+                if (lrt.length === 0) {
+                    document.getElementById('lrt-error').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('lrt-error').style.display = 'none';
+                }
+
+                if (!about) {
+                    showError('about', 'about-error');
+                    isValid = false;
+                } else {
+                    hideError('about', 'about-error');
+                }
+            }
+
+            return isValid;
+        }
+
+        function showError(fieldId, errorId) {
+            document.getElementById(fieldId).classList.add('error');
+            document.getElementById(errorId).style.display = 'block';
+        }
+
+        function hideError(fieldId, errorId) {
+            document.getElementById(fieldId).classList.remove('error');
+            document.getElementById(errorId).style.display = 'none';
+        }
+
+        function nextStep(step) {
+            if (!validateCurrentStep()) return;
+
+            document.getElementById('step' + currentStep).classList.add('hidden');
+            document.getElementById('step' + step).classList.remove('hidden');
+            currentStep = step;
+            updateProgress();
+        }
+
+        function previousStep(step) {
+            document.getElementById('step' + currentStep).classList.add('hidden');
+            document.getElementById('step' + step).classList.remove('hidden');
+            currentStep = step;
+            updateProgress();
+        }
+
+        function generateAMBMetadata() {
+            if (!validateCurrentStep()) return;
+
+            // Collect all form data
+            formData = {
+                title: document.getElementById('resourceTitle').value,
+                url: document.getElementById('resourceUrl').value,
+                description: document.getElementById('resourceDescription').value || undefined,
+                audience: getSelectedValues('audience'),
+                educationalLevel: getSelectedValues('educationalLevel'),
+                learningResourceType: getCheckedValues('#step2 input[type="checkbox"]').map(uuid => 
+                    `http://w3id.org/openeduhub/vocabs/new_lrt/${uuid}`
+                ),
+                about: [document.getElementById('about').value],
+                didactics: getCheckedValues('#step3 input[type="checkbox"]'),
+                competencies: getCheckedValues('#step4 input[id^="comp_"]'),
+                content: getCheckedValues('#step4 input[id^="content_"]'),
+                keywords: document.getElementById('keywords').value.split(',').map(k => k.trim()).filter(k => k)
+            };
+
+            // Add didactic labels to 'about' array
+            formData.about = formData.about.concat(formData.didactics);
+
+            // Create AMB-compliant JSON-LD
+            ambMetadata = {
+                "@context": [
+                    "https://w3id.org/kim/amb/context.jsonld",
+                    {
+                        "reliedu": "https://w3id.org/reliedu/"
+                    }
+                ],
+                "id": formData.url,
+                "type": "LearningResource",
+                "name": formData.title,
+                "description": formData.description,
+                "about": formData.about,
+                "audience": formData.audience.map(uri => ({
+                    "type": "Audience",
+                    "id": uri
+                })),
+                "educationalLevel": formData.educationalLevel,
+                "learningResourceType": formData.learningResourceType,
+                "inLanguage": ["de"],
+                "datePublished": new Date().toISOString().split('T')[0]
+            };
+
+            // Add teaches if competencies or content selected
+            if (formData.competencies.length > 0 || formData.content.length > 0) {
+                ambMetadata.teaches = [
+                    ...formData.competencies.map(uri => ({ "id": uri })),
+                    ...formData.content.map(uri => ({ "id": uri }))
+                ];
+            }
+
+            // Add keywords if present
+            if (formData.keywords.length > 0) {
+                ambMetadata.keywords = formData.keywords;
+            }
+
+            // Display metadata
+            document.getElementById('ambMetadataOutput').textContent = JSON.stringify(ambMetadata, null, 2);
+
+            // Generate summary
+            generateSummary();
+
+            nextStep(5);
+        }
+
+        function generateSummary() {
+            const getLabelFromUri = (uri, mapping) => {
+                return mapping[uri] || uri;
+            };
+
+            const audienceLabels = {
+                'http://w3id.org/openeduhub/vocabs/intendedEndUserRole/teacher': 'Lehrkräfte',
+                'http://w3id.org/openeduhub/vocabs/intendedEndUserRole/learner': 'Lernende',
+                'http://w3id.org/openeduhub/vocabs/intendedEndUserRole/parent': 'Eltern',
+                'http://w3id.org/openeduhub/vocabs/intendedEndUserRole/counsellor': 'Beratende'
+            };
+
+            const educationalLevelLabels = {
+                'https://w3id.org/kim/educationalLevel/level_0': 'Elementarbereich',
+                'https://w3id.org/kim/educationalLevel/level_1': 'Primarbereich',
+                'https://w3id.org/kim/educationalLevel/level_2': 'Sekundarbereich I',
+                'https://w3id.org/kim/educationalLevel/level_3': 'Sekundarbereich II',
+                'https://w3id.org/kim/educationalLevel/level_A': 'Hochschule',
+                'https://w3id.org/kim/educationalLevel/level_B': 'Referendariat',
+                'https://w3id.org/kim/educationalLevel/level_C': 'Fortbildung'
+            };
+
+            const lrtLabels = {
+                'ab5b99ea-551c-42f3-995b-e4b5f469ad7e': 'Bibeltext/Primärmaterial',
+                '0d23ff13-9d92-4944-92fa-2b5fe1dde80b': 'Stundenentwurf',
+                '36e68792-6159-481d-a97b-2c00901f4f78': 'Arbeitsblatt',
+                '7a6e9608-2554-4981-95dc-47ab9ba924de': 'Video',
+                '477115fd-5042-4174-ac39-7c05f8a24766': 'Pädagogische Methode',
+                '0cef3ce9-e106-47ae-836a-48f9ed04384e': 'Text/Dokument'
+            };
+
+            const disciplineLabels = {
+                'http://w3id.org/openeduhub/vocabs/discipline/520': 'Religion',
+                'http://w3id.org/openeduhub/vocabs/discipline/340': 'Interkulturelle Bildung',
+                'http://w3id.org/openeduhub/vocabs/discipline/48005': 'Ethik'
+            };
+
+            let summaryHtml = '<div class="summary-content">';
+            summaryHtml += `<p><strong>Titel:</strong> ${formData.title}</p>`;
+            summaryHtml += `<p><strong>URL:</strong> <a href="${formData.url}" target="_blank">${formData.url}</a></p>`;
+            
+            if (formData.description) {
+                summaryHtml += `<p><strong>Beschreibung:</strong> ${formData.description}</p>`;
+            }
+
+            summaryHtml += `<p><strong>Zielgruppe:</strong> ${formData.audience.map(uri => audienceLabels[uri]).join(', ')}</p>`;
+            summaryHtml += `<p><strong>Bildungsstufe (KIM):</strong> ${formData.educationalLevel.map(uri => educationalLevelLabels[uri]).join(', ')}</p>`;
+            
+            summaryHtml += `<p><strong>Ressourcentyp (OpenEduHub):</strong> ${formData.learningResourceType.map(uri => {
+                const uuid = uri.split('/').pop();
+                return lrtLabels[uuid] || uuid;
+            }).join(', ')}</p>`;
+
+            summaryHtml += `<p><strong>Fach:</strong> ${disciplineLabels[formData.about[0]]}</p>`;
+
+            if (formData.didactics.length > 0) {
+                summaryHtml += `<p><strong>Religionsdidaktische Labels:</strong> ${formData.didactics.length} ausgewählt</p>`;
+            }
+
+            if (formData.competencies.length > 0) {
+                summaryHtml += `<p><strong>Prozessbezogene Kompetenzen:</strong> ${formData.competencies.length} ausgewählt</p>`;
+            }
+
+            if (formData.content.length > 0) {
+                summaryHtml += `<p><strong>Inhaltsbereiche:</strong> ${formData.content.length} ausgewählt</p>`;
+            }
+
+            if (formData.keywords.length > 0) {
+                summaryHtml += `<p><strong>Schlagworte:</strong> ${formData.keywords.join(', ')}</p>`;
+            }
+
+            summaryHtml += '</div>';
+
+            document.getElementById('summaryOutput').innerHTML = summaryHtml;
+        }
+
+        async function copyToClipboard(elementId) {
+            const element = document.getElementById(elementId);
+            const text = element.textContent;
+            
+            try {
+                await navigator.clipboard.writeText(text);
+                showSuccessMessage('In Zwischenablage kopiert!');
+            } catch (err) {
+                alert('Kopieren fehlgeschlagen. Bitte manuell kopieren.');
+            }
+        }
+
+        function showSuccessMessage(message) {
+            const successDiv = document.createElement('div');
+            successDiv.className = 'success-message';
+            successDiv.textContent = message;
+            
+            const currentStepElement = document.querySelector('.step:not(.hidden)');
+            if (currentStepElement) {
+                currentStepElement.insertBefore(successDiv, currentStepElement.querySelector('.navigation'));
+                setTimeout(() => {
+                    if (successDiv.parentNode) {
+                        successDiv.parentNode.removeChild(successDiv);
+                    }
+                }, 3000);
+            }
+        }
+
+        function startOver() {
+            if (confirm('Möchten Sie wirklich alle Eingaben zurücksetzen?')) {
+                document.querySelectorAll('input, select, textarea').forEach(element => {
+                    if (element.type === 'checkbox') {
+                        element.checked = false;
+                    } else if (element.tagName === 'SELECT' && element.multiple) {
+                        Array.from(element.options).forEach(option => option.selected = false);
+                    } else {
+                        element.value = '';
+                    }
+                });
+                
+                formData = {};
+                ambMetadata = {};
+                
+                document.querySelectorAll('.step').forEach(step => step.classList.add('hidden'));
+                document.getElementById('step1').classList.remove('hidden');
+                currentStep = 1;
+                updateProgress();
+            }
+        }
+
+        function exportResults() {
+            const timestamp = new Date().toISOString().split('T')[0];
+            
+            // Export JSON-LD
+            const jsonBlob = new Blob([JSON.stringify(ambMetadata, null, 2)],
+                { type: 'application/json;charset=utf-8' });
+            const jsonLink = document.createElement('a');
+            jsonLink.href = URL.createObjectURL(jsonBlob);
+            jsonLink.download = `reliedu_amb_metadata_${timestamp}.json`;
+            document.body.appendChild(jsonLink);
+            jsonLink.click();
+            document.body.removeChild(jsonLink);
+
+            showSuccessMessage('AMB-Metadaten wurden exportiert!');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            updateProgress();
+        });
+    </script>
+</body>
+</html>
