@@ -68,7 +68,7 @@ Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder d
 
 ### Tipp für die Umsetzung
 
-Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](Vorlage Instagram-Post.pdf)
+Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](Vorlage%20Instagram-Post.pdf)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 
 ## Freiheit im Glauben - Reformation als Befreiungserfahrung
