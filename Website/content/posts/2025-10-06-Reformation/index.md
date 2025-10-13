@@ -23,8 +23,14 @@ creator:
       name: nt.dortmund
       id: https://ror.org/01k97gp34
       type: Organization
+keywords:
+  - Theologie
+  - Didaktik
+  - Social Media
+  - Religionspädagogik
+  - Open Educational Practices (OEP)
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n0
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
 image: https://oer.community/luther-influencer/1.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
@@ -50,7 +56,7 @@ tags:
   - Open Educational Practices (OEP)
 ---
 
-### Wenn Thesen viral gehen
+## Wenn Thesen viral gehen
 
 „Hier stehe ich - und poste!“
 Diese humorvolle Umdeutung von Luthers berühmtem Zitat bildet den Ausgangspunkt einer Unterrichtseinheit für den evangelischen Religionsunterricht der Jahrgangsstufen 7/8.
@@ -60,12 +66,12 @@ Wie hätte Luther seine reformatorische Botschaft heute kommuniziert?
 Und was bedeutet Glaubensfreiheit in einer vernetzten Welt?
 Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder digital über ein interaktives Tool gestalten.
 
-#### Tipp für die Umsetzung
+### Tipp für die Umsetzung
 
 Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](https://nextcloud.comenius.de/s/dJidYZP7p2s6Nxt)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 
-### Freiheit im Glauben - Reformation als Befreiungserfahrung
+## Freiheit im Glauben - Reformation als Befreiungserfahrung
 
 Im Zentrum der Reformation steht Luthers Entdeckung der Rechtfertigung allein aus Gnade (sola gratia).
 Nicht menschliche Leistung, sondern göttliche Gnade befreit den Menschen – von Angst, Selbstoptimierung und religiösem Leistungsdenken.
@@ -76,7 +82,7 @@ Für die Unterrichtspraxis eröffnet sich hier ein produktiver Lernraum: Schüle
 Im Instagram-Post können Lernende diese Botschaft kreativ ausdrücken – mit Hashtags wie #SolaGratia #FreiheitImGlauben #HierSteheIch.
 So wird Theologie nicht nur vermittelt, sondern kommunikativ erlebt.
 
-### Historisch-theologische Bildung im digitalen Raum
+## Historisch-theologische Bildung im digitalen Raum
 
 Die Unterrichtsidee greift zentrale Konzepte auf, die in der aktuellen kirchengeschichts- und religionsdidaktischen Diskussion betont werden:
 
@@ -107,7 +113,8 @@ Schüler:innen versetzen sich in Luthers Perspektive und gestalten einen Instagr
 ### Didaktische Umsetzung: Reformation kommunizieren - heute
 
 Die Aufgabe „Luther als Influencer“ greift zentrale Prinzipien kirchengeschichtlicher Bildung auf und überträgt sie in konkrete Unterrichtshandlungen. Sie lädt Lernende dazu ein, reformatorisches Denken kommunikativ, kreativ und kritisch zu erschließen.
-Im Zentrum steht nicht die bloße Wissensreproduktion, sondern ein aktiver Aneignungsprozess: Schülerinnen und Schüler
+Im Zentrum steht nicht die bloße Wissensreproduktion, sondern ein aktiver Aneignungsprozess: &nbsp;
+Schülerinnen und Schüler
 
 - setzen sich mit zentralen Themen der Reformation auseinander (z. B. Freiheit, Gewissen, Gnade, Verantwortung),
 - beziehen Position zu Glaubensfragen und gesellschaftlichen Herausforderungen,
@@ -164,15 +171,17 @@ Schüler:innen lernen, komplexe historische Figuren kritisch zu verstehen und ih
 
 ### Kritisch-mediale Kompetenz: Glauben im digitalen Raum
 
-###### Didaktischer Gedanke:
+#### Didaktischer Gedanke:
+
 Medien prägen die Wahrnehmung von Wahrheit, Autorität und Glauben.
 Das gilt für Luthers Zeit (Buchdruck) ebenso wie für Instagram heute.
 
 ### Erstelle einen Instagram-Post aus Luthers Perspektive!
+
 Luther war kein Influencer - aber seine Botschaft hatte „Impact“.
 Seine Kommunikationsform war reformatorisch, weil sie Menschen erreichte.
 
-Vergleich: Viral damals vs. viral heute
+**Vergleich: viral damals vs. viral heute**
 
 |1517 – Reformation| 2025 – Social Media|
 | -------------| -------------:|
@@ -184,7 +193,7 @@ Vergleich: Viral damals vs. viral heute
 |⏳ Wochenlange Verbreitung| ⚡ Sekunden bis viral|
 |🙋 Mut zur Meinung| 💬 Haltung im Netz|
 
-➡️ Wie würde er seine Thesen heute formulieren?
+➡️ Wie würde er seine Thesen heute formulieren?  
 ➡️ Welche Emotion, welches Thema, welche Hashtags?
 
 Vorschläge:
