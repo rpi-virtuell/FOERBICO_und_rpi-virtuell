@@ -31,7 +31,7 @@ keywords:
   - Open Educational Practices (OEP)
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/luther-influencer/1.png
+image: https://oer.community/luther-influencer/2.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -44,7 +44,7 @@ author:
 title: 'Instagram als Lernort: Luther als Influencer'
 cover:
   relative: true
-  image: 1.png
+  image: 2.png
 summary: >-
   Was wäre, wenn Luther Instagram gehabt hätte? Der Beitrag verbindet Reformation, Medienkompetenz und Kreativität – und zeigt, wie Jugendliche heute Haltung zeigen können: analog, digital, reformatorisch.
 url: luther-influencer
