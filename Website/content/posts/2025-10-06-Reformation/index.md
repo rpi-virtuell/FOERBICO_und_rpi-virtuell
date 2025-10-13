@@ -210,6 +210,9 @@ Vorschläge:
 „Ein guter Insta-Post ist wie eine kleine Reformation:
 Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botschaft.“
 
+### Dieser Beitrag illustriert auf Instagram
+[![](1.png)](https://www.instagram.com/p/DPvl4HrjeGp)
+
 ## Literaturangaben
 
 - WDR (2023): Reformationstag: Martin Luther-Avatar beantwortet Fragen. In: Aktuelle Stunde, 31.10.2023.
