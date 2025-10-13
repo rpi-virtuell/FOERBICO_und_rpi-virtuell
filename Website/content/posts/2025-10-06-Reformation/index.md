@@ -219,4 +219,4 @@ Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botscha
 
 - WDR (2023): Reformationstag: Martin Luther-Avatar beantwortet Fragen. In: Aktuelle Stunde, 31.10.2023.
 https://www1.wdr.de/fernsehen/aktuelle-stunde/alle-videos/reformationstag-luther-avatar-beantwortet-fragen-100.html
-- RUPRE – Forschungsstelle für Öffentliche Religionspädagogik. (2024). Luther als Avatar? Theologische und religionspädagogische (Un-)Möglichkeit? In: Video-Vortrag von Prof. Dr. Manfred L. Pirner. https://youtu.be/m2wFtG1FUj4?si=yjbeeejT5uX1Tzr_
+- RUPRE – Forschungsstelle für Öffentliche Religionspädagogik. (2024). Luther als Avatar? Theologische und religionspädagogische (Un-)Möglichkeit? In: Video-Vortrag von Prof. Dr. Manfred L. Pirner. https://youtu.be/m2wFtG1FUj4
