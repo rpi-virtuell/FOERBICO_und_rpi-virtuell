@@ -29,9 +29,13 @@ Wie ein Kuchenrezept braucht auch offenes Lernmaterial nur ein paar gute Zutaten
 ### Das OER-Grundrezept enthält fünf unverzichtbare Zutaten:
 
 🧈 Lizenz – das Fett, das alles zusammenhält. Ohne Lizenz kein OER!
+
 🧩 Modularisierung – einzelne Bausteine statt eines ganzen Kuchens, flexibel kombinierbar.
+
 🍯 Offenes Format – die süße Grundlage, die Weiterentwicklung möglich macht.
+
 🥛 Metadaten – die Milch, die alles geschmeidig und auffindbar hält.
+
 🧂 Veröffentlichung – das Backpulver, das den Teig aufgehen lässt und OER in die Welt bringt.
 
 Mit diesen Zutaten wird aus jedem Material ein offenes, anpassbares und nachhaltiges Lernangebot.
