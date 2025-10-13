@@ -25,12 +25,12 @@ creator:
       type: Organization
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: 2025-10-06-Reformation/1.png
+image: https://oer.community/luther-influencer/2.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-10-06'
+datePublished: '2025-10-13'
 #staticSiteGenerator:
 author:
   - Lara Gotthard
@@ -38,10 +38,10 @@ author:
 title: 'Instagram als Lernort: Luther als Influencer'
 cover:
   relative: true
-  image: 2025-10-06-Reformation/2.png
+  image: https://oer.community/luther-influencer/2.png
 summary: >-
   Was wäre, wenn Luther Instagram gehabt hätte? Der Beitrag verbindet Reformation, Medienkompetenz und Kreativität – und zeigt, wie Jugendliche heute Haltung zeigen können: analog, digital, reformatorisch.
-url: Luther-influencer
+url: luther-influencer
 tags:
   - Theologie
   - Medienpädagogik
@@ -52,7 +52,7 @@ tags:
 
 ### Wenn Thesen viral gehen
 
-„Hier stehe ich – und poste!“
+„Hier stehe ich - und poste!“
 Diese humorvolle Umdeutung von Luthers berühmtem Zitat bildet den Ausgangspunkt einer Unterrichtseinheit für den evangelischen Religionsunterricht der Jahrgangsstufen 7/8.
 Schüler:innen versetzen sich in Martin Luther hinein und erstellen einen Instagram-Post aus seiner Perspektive – mit Text, Bild und Hashtags.
 Die Idee verbindet historisch-theologische Bildung mit digitaler Medienkompetenz:
@@ -65,7 +65,7 @@ Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder d
 Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](https://nextcloud.comenius.de/s/dJidYZP7p2s6Nxt)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 
-### Freiheit im Glauben – Reformation als Befreiungserfahrung
+### Freiheit im Glauben - Reformation als Befreiungserfahrung
 
 Im Zentrum der Reformation steht Luthers Entdeckung der Rechtfertigung allein aus Gnade (sola gratia).
 Nicht menschliche Leistung, sondern göttliche Gnade befreit den Menschen – von Angst, Selbstoptimierung und religiösem Leistungsdenken.
@@ -98,13 +98,13 @@ Wo liegen Chancen und Risiken digitaler Verkündigung?
 
 #### Diese vier didaktischen Leitlinien verankern die Aufgabe theologisch, historisch und medienpädagogisch.
 
-## Luther hatte kein Instagram, kein TikTok – und ging trotzdem viral.
+## Luther hatte kein Instagram, kein TikTok - und ging trotzdem viral.
 
 Im Herbst 1517 verbreiteten sich seine 95 Thesen in Windeseile über ganz Europa. Kein Algorithmus, kein Livestream, sondern der Buchdruck verständliche Thesen und Karikaturen machten die Reformation zum ersten viralen Ereignis der Geschichte.  
 Das Projekt „Luther als Influencer“ überträgt diesen Gedanken in den Religionsunterricht der Jahrgangsstufen 7/8.
 Schüler:innen versetzen sich in Luthers Perspektive und gestalten einen Instagram-Post, der seine Botschaften, Gefühle und Konflikte in die Gegenwart übersetzt.
 
-### Didaktische Umsetzung: Reformation kommunizieren – heute
+### Didaktische Umsetzung: Reformation kommunizieren - heute
 
 Die Aufgabe „Luther als Influencer“ greift zentrale Prinzipien kirchengeschichtlicher Bildung auf und überträgt sie in konkrete Unterrichtshandlungen. Sie lädt Lernende dazu ein, reformatorisches Denken kommunikativ, kreativ und kritisch zu erschließen.
 Im Zentrum steht nicht die bloße Wissensreproduktion, sondern ein aktiver Aneignungsprozess: Schülerinnen und Schüler
@@ -141,7 +141,7 @@ Eine Reflexionsphase schließt an:
 Zielkompetenz:
 Lernende deuten Glaubenskonflikte existenziell – sie erkennen: Reformation war auch ein persönlicher Befreiungsakt.
 
-### Multiperspektivität: Luther – Held, Zweifler, Mensch
+### Multiperspektivität: Luther - Held, Zweifler, Mensch
 
 #### Didaktischer Gedanke:
 Geschichte ist mehrdeutig. Luther war mutig, aber auch streitbar und verletzend.
@@ -165,7 +165,7 @@ Medien prägen die Wahrnehmung von Wahrheit, Autorität und Glauben.
 Das gilt für Luthers Zeit (Buchdruck) ebenso wie für Instagram heute.
 
 ### Erstelle einen Instagram-Post aus Luthers Perspektive!
-Luther war kein Influencer – aber seine Botschaft hatte „Impact“.
+Luther war kein Influencer - aber seine Botschaft hatte „Impact“.
 Seine Kommunikationsform war reformatorisch, weil sie Menschen erreichte.
 
 Vergleich: Viral damals vs. viral heute
@@ -193,7 +193,7 @@ Vorschläge:
 
 ### Fazit:
 „Ein guter Insta-Post ist wie eine kleine Reformation:
-Er verändert den Blick auf die Welt – mit Mut, Gefühl und einer klaren Botschaft.“
+Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botschaft.“
 
 ## Literaturangaben:
 WDR (2023): Reformationstag: Martin Luther-Avatar beantwortet Fragen. In: Aktuelle Stunde, 31.10.2023.
