@@ -98,7 +98,7 @@ Luther wird nicht als „Influencer-Held“ präsentiert, sondern als ambivalent
 Das schützt vor Vereinfachung und fördert Geschichtsbewusstsein.
 4) Digitale Bildung und Medienreflexion
 Social Media wird nicht unkritisch genutzt, sondern reflektiert:
-Welche Verantwortung trägt, der öffentlich Glauben kommuniziert?
+Welche Verantwortung trägt derjenige, der öffentlich Glauben kommuniziert?
 Wie beeinflussen Algorithmen religiöse Diskurse? 
 Wo liegen Chancen und Risiken digitaler Verkündigung?
 
