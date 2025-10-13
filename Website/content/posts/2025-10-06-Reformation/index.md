@@ -25,7 +25,7 @@ creator:
       type: Organization
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/luther-influencer/2.png
+image: https://oer.community/luther-influencer/1.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -38,16 +38,16 @@ author:
 title: 'Instagram als Lernort: Luther als Influencer'
 cover:
   relative: true
-  image: https://oer.community/luther-influencer/2.png
+  image: 1.png
 summary: >-
   Was wäre, wenn Luther Instagram gehabt hätte? Der Beitrag verbindet Reformation, Medienkompetenz und Kreativität – und zeigt, wie Jugendliche heute Haltung zeigen können: analog, digital, reformatorisch.
 url: luther-influencer
 tags:
   - Theologie
-  - Medienpädagogik
   - Didaktik
   - Social Media
   - Religionspädagogik
+  - Open Educational Practices (OEP)
 ---
 
 ### Wenn Thesen viral gehen
@@ -60,7 +60,7 @@ Wie hätte Luther seine reformatorische Botschaft heute kommuniziert?
 Und was bedeutet Glaubensfreiheit in einer vernetzten Welt?
 Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder digital über ein interaktives Tool gestalten.
 
-#### Tipp für die Umsetzung: 
+#### Tipp für die Umsetzung
 
 Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](https://nextcloud.comenius.de/s/dJidYZP7p2s6Nxt)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
@@ -96,7 +96,7 @@ Welche Verantwortung trägt, der öffentlich Glauben kommuniziert?
 Wie beeinflussen Algorithmen religiöse Diskurse? 
 Wo liegen Chancen und Risiken digitaler Verkündigung?
 
-#### Diese vier didaktischen Leitlinien verankern die Aufgabe theologisch, historisch und medienpädagogisch.
+**Diese vier didaktischen Leitlinien verankern die Aufgabe theologisch, historisch und medienpädagogisch.**
 
 ## Luther hatte kein Instagram, kein TikTok - und ging trotzdem viral.
 
@@ -108,10 +108,12 @@ Schüler:innen versetzen sich in Luthers Perspektive und gestalten einen Instagr
 
 Die Aufgabe „Luther als Influencer“ greift zentrale Prinzipien kirchengeschichtlicher Bildung auf und überträgt sie in konkrete Unterrichtshandlungen. Sie lädt Lernende dazu ein, reformatorisches Denken kommunikativ, kreativ und kritisch zu erschließen.
 Im Zentrum steht nicht die bloße Wissensreproduktion, sondern ein aktiver Aneignungsprozess: Schülerinnen und Schüler
+
 - setzen sich mit zentralen Themen der Reformation auseinander (z. B. Freiheit, Gewissen, Gnade, Verantwortung),
 - beziehen Position zu Glaubensfragen und gesellschaftlichen Herausforderungen,
 - diskutieren kontroverse Perspektiven und lernen, differenziert zu urteilen,
 - reflektieren, wie theologische Überzeugungen in unterschiedlichen Medien Gestalt gewinnen können.
+
 So wird kirchengeschichtliches Lernen zu einem kommunikativen Lernprozess, der historische Einsichten in heutige Lebens- und Medienwelten übersetzt. Reformation wird nicht nur erinnert, sondern kommunikativ fortgeführt – im Denken, im Diskurs und im digitalen Ausdruck.
 So wird Reformation nicht nur erinnert, sondern erlebt und reflektiert.
 
@@ -131,6 +133,7 @@ Lernende erkennen, dass Glaubenskommunikation immer an zeitgemäße Ausdrucksfor
 ### Emotionale Beteiligung: Glauben ins Gespräch bringen
 
 #### Didaktischer Gedanke:
+
 Performative Lernformen ermöglichen es, sich in Luthers Situation einzufühlen – zwischen Angst, Gewissenskonflikt und Mut zum Widerspruch.
 Konkret im Unterricht:
 Schülerinnen und Schüler schreiben Posts aus Luthers Perspektive:
@@ -144,6 +147,7 @@ Lernende deuten Glaubenskonflikte existenziell – sie erkennen: Reformation war
 ### Multiperspektivität: Luther - Held, Zweifler, Mensch
 
 #### Didaktischer Gedanke:
+
 Geschichte ist mehrdeutig. Luther war mutig, aber auch streitbar und verletzend.
 Seine Haltung bietet Anlass zur Reflexion über Ambivalenz, Verantwortung und Toleranz.
 Konkret im Unterricht:
@@ -169,6 +173,7 @@ Luther war kein Influencer - aber seine Botschaft hatte „Impact“.
 Seine Kommunikationsform war reformatorisch, weil sie Menschen erreichte.
 
 Vergleich: Viral damals vs. viral heute
+
 |1517 – Reformation| 2025 – Social Media|
 | -------------| -------------:|
 | ✍️ 95 Thesen| 📲 Hashtag oder Video |
@@ -191,13 +196,13 @@ Vorschläge:
 #MutZurMeinung
 #FaithNotFilter
 
-### Fazit:
+### Fazit
+
 „Ein guter Insta-Post ist wie eine kleine Reformation:
 Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botschaft.“
 
-## Literaturangaben:
-WDR (2023): Reformationstag: Martin Luther-Avatar beantwortet Fragen. In: Aktuelle Stunde, 31.10.2023.
+## Literaturangaben
+
+- WDR (2023): Reformationstag: Martin Luther-Avatar beantwortet Fragen. In: Aktuelle Stunde, 31.10.2023.
 https://www1.wdr.de/fernsehen/aktuelle-stunde/alle-videos/reformationstag-luther-avatar-beantwortet-fragen-100.html
-RUPRE – Forschungsstelle für Öffentliche Religionspädagogik. (2024). Luther als Avatar? Theologische und religionspädagogische (Un-)Möglichkeit? In: Video-Vortrag von Prof. Dr. Manfred L. Pirner. https://youtu.be/m2wFtG1FUj4?si=yjbeeejT5uX1Tzr_
-
-
+- RUPRE – Forschungsstelle für Öffentliche Religionspädagogik. (2024). Luther als Avatar? Theologische und religionspädagogische (Un-)Möglichkeit? In: Video-Vortrag von Prof. Dr. Manfred L. Pirner. https://youtu.be/m2wFtG1FUj4?si=yjbeeejT5uX1Tzr_
