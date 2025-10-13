@@ -5,12 +5,12 @@ Mit dieser Frage begann die [ALPIKA](https://alpika.de/)-Leitendentagung, die vo
 
 ## Ein geistlicher Auftakt: Teilen als Haltung
 
-Den Anfang bildete eine Andacht zur Speisung der 5000 – eine Geschichte, die eindrücklich zeigt, wie aus Wenigem durch Teilen Fülle entsteht.
+Den Anfang bildete eine Andacht zur Speisung der 5000 – interpretiert als eine Geschichte, die eindrücklich zeigt, wie aus Wenigem durch Teilen Fülle entsteht.
 Dieses biblische Bild prägte den weiteren Verlauf der Tagung: Es geht beim Thema OER (Open Educational Resources) nicht nur um technische Lösungen oder Lizenzen, sondern um eine Haltung des Teilens, Vertrauens und der Gemeinschaft. So wurde gleich zu Beginn deutlich: Offene Bildungsarbeit ist mehr als das Öffnen von Dateien – sie ist Ausdruck einer theologischen und pädagogischen Kultur des Teilens.
 
 ## Ein kreativer Einstieg: Der Flaschenkuchen 
 
-Im Anschluss an die Andacht begann die Tagung mit einer ungewöhnlichen Methode: Alle Teilnehmenden erhielten eine Flasche – und den Auftrag, sich zunächst nur damit zu beschäftigen. Was diese mit dem Thema OER zu tun haben sollte, blieb offen. Erst durch gemeinsames Nachdenken wurde klar: Materialien sind manchmal wie ein Flaschenkuchen. Ein tolles Rezept, aber nicht jede Zutat passt für jede Lerngruppe oder jeden Kontext.
+Im Anschluss an die Andacht begann die Tagung mit einer ungewöhnlichen Methode: Alle Teilnehmenden erhielten eine Flasche mit Backzutaten – und den Auftrag, sich zunächst nur damit zu beschäftigen. Was diese mit dem Thema OER zu tun haben sollte, blieb offen. Erst durch gemeinsames Nachdenken wurde klar: Materialien sind manchmal wie ein Flaschenkuchen. Ein tolles Rezept, aber nicht jede Zutat passt für jede Lerngruppe oder jeden Kontext.
 
 Die Flasche wurde so zur Metapher für Unterrichtsmaterialien, die angepasst, verändert oder neu zusammengesetzt werden müssen – genau das, was OER ermöglichen sollen. Gemeinsam überlegten wir:
 
