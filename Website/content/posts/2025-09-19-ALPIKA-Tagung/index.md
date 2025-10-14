@@ -14,25 +14,25 @@ Im Anschluss an die Andacht begann die Tagung mit einer ungewöhnlichen Methode:
 
 Die Flasche wurde so zur Metapher für Unterrichtsmaterialien, die angepasst, verändert oder neu zusammengesetzt werden müssen – genau das, was OER ermöglichen sollen. Gemeinsam überlegten wir:
 
-Du möchtest für deine Schüler:innen einen Kuchen backen.
-Du hast eher wenig Zeit und keine Zutaten im Haus. 
-Aber du hast im Keller eine fertige Flaschen-Backmischung stehen.
-Das Problem ist nun: Einige SuS mögen überhaupt keine Schokolade. Andere reagieren empfindlich auf Nüsse.
-Wie gehst du mit der Situation um?
+> Du möchtest für deine Schüler:innen einen Kuchen backen.
+> Du hast eher wenig Zeit und keine Zutaten im Haus. 
+> Aber du hast im Keller eine fertige Flaschen-Backmischung stehen.
+> Das Problem ist nun: Einige SuS mögen überhaupt keine Schokolade. Andere reagieren empfindlich auf Nüsse.
+> Wie gehst du mit der Situation um?
 
 [comment]: <> (Hier noch die theoretische Einführung @Jens)
 
 ## Das OER-Grundrezept: In 5 Schritten zum offenen Bildungsmaterial
 
-Wie ein Kuchenrezept braucht auch offenes Lernmaterial nur ein paar gute Zutaten – und etwas Sorgfalt beim Backen. Open Educational Resources (OER) sind frei verfügbare Lehr- und Lernmaterialien, die unter offenen Lizenzen stehen. Sie dürfen genutzt, verändert und weitergegeben werden – rechtssicher, kostenlos und gemeinschaftlich. So entsteht aus einem Grundteig immer wieder Neues: Materialien können angepasst, kombiniert und weiterentwickelt werden – ohne dass Wissen verloren geht.
+Wie ein Kuchenrezept braucht auch offenes Lernmaterial nur ein paar gute Zutaten - und etwas Sorgfalt beim Backen. Open Educational Resources (OER) sind frei verfügbare Lehr- und Lernmaterialien, die unter offenen Lizenzen stehen. Sie dürfen genutzt, verändert und weitergegeben werden - rechtssicher, kostenlos und gemeinschaftlich. So entsteht aus einem Grundteig immer wieder Neues: Materialien können angepasst, kombiniert und weiterentwickelt werden - ohne dass Wissen verloren geht.
 
 ### Das OER-Grundrezept enthält fünf unverzichtbare Zutaten:
 
-🧈 Lizenz – das Fett, das alles zusammenhält. Ohne Lizenz kein OER!
+🥚 Ei  - die Grundlage, die alles zusammenhält. Ohne Lizenz kein OER!
 
-🧩 Modularisierung – einzelne Bausteine statt eines ganzen Kuchens, flexibel kombinierbar.
+🧩 Modularisierung - einzelne Bausteine statt eines ganzen Kuchens, flexibel kombinierbar.
 
-🍯 Offenes Format – die süße Grundlage, die Weiterentwicklung möglich macht.
+🍯 Offenes Format - das süße Grundlage, die Weiterentwicklung möglich macht.
 
 🥛 Metadaten – die Milch, die alles geschmeidig und auffindbar hält.
 
@@ -58,12 +58,8 @@ Die Leitendentagung machte deutlich: Eine OEP-Strategie (Open Educational Practi
 In weiteren Workshops und Praxisphasen ging es um konkrete Tools und Strukturen, z.B.: Metadatengeneratoren, Lösungen zur Dezentralität (z.B. über Nostr oder Kanban-Tools), Lizenzgeneratoren und Fragen zu Bildrechten, Versionierungen und offene Editoren zur individuellen Materialbearbeitung.
 
 Dabei wurde auch kritisch reflektiert:
-Wie lassen sich offene Materialien auffindbar und qualitativ hochwertig halten?
-Welche rechtlichen Rahmenbedingungen gelten, wenn Materialien von Mitarbeitenden oder Arbeitsgruppen erstellt werden?
-Wie viel Offenheit ist realistisch – und wo braucht es Schutzräume?
+- Wie lassen sich offene Materialien auffindbar und qualitativ hochwertig halten?
+- Welche rechtlichen Rahmenbedingungen gelten, wenn Materialien von Mitarbeitenden oder Arbeitsgruppen erstellt werden?
+- Wie viel Offenheit ist realistisch - und wo braucht es Schutzräume?
 
-Die nächsten Schritte werden nun in den verschiedenen ALPIKA-Arbeitsgruppen konkretisiert. Ziel ist es, die „Flaschenkuchen-Materialien“ in offene, anpassbare Formate zu überführen – und so OER und OEP im religionspädagogischen Kontext nachhaltig zu verankern. Denn am Ende geht es um mehr als Materialien: Es geht um eine Kultur des Teilens, wie sie schon die Speisung der 5000 inspiriert hat – und darum, diese Haltung in die Bildungsarbeit unserer Zeit zu übersetzen.
-
-
-
-
+Die nächsten Schritte werden nun in den verschiedenen ALPIKA-Arbeitsgruppen konkretisiert. Ziel ist es, die „Flaschenkuchen-Materialien“ in offene, anpassbare Formate zu überführen - und so OER und OEP im religionspädagogischen Kontext nachhaltig zu verankern. Denn am Ende geht es um mehr als Materialien: Es geht um eine Kultur des Teilens, wie sie schon die Speisung der 5000 inspiriert hat - und darum, diese Haltung in die Bildungsarbeit unserer Zeit zu übersetzen.
