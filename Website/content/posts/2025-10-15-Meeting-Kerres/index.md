@@ -18,7 +18,7 @@ creator:
 image: https://oer.community/austausch-mit-michael-kerres/Kerres-Moessle2025.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-10-10'
+datePublished: '2025-10-15'
 #staticSiteGenerator:
 author:
   - Laura Mößle
