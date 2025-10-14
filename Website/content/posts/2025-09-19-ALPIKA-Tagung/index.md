@@ -1,4 +1,46 @@
-# „Vom Flaschenkuchen zur OER-Strategie“ – Eindrücke von der ALPIKA-Leitendentagung 2025 in Wuppertal
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/alpika-leitendentagung-2025
+name: '„Vom Flaschenkuchen zur OER-Strategie“ – Eindrücke von der ALPIKA-Leitendentagung 2025 in Wuppertal'
+description: >-
+  Auf der ALPIKA-Leitendentagung 2025 stand das Teilen im Mittelpunkt – und wie OER Lehrende dabei unterstützen, Materialien offen und gemeinsam weiterzuentwickeln.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: ALPIKA-Leitendentagung-2025.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-10-15'
+#staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
+title: '„Vom Flaschenkuchen zur OER-Strategie“ – Eindrücke von der ALPIKA-Leitendentagung 2025 in Wuppertal'
+cover:
+  relative: true
+  image: ALPIKA-Leitendentagung-2025.png
+summary: >-
+  Der Beitrag blickt auf die ALPIKA-Leitendentagung 2025 zurück, bei der das Teilen im Mittelpunkt stand – theologisch wie praktisch. Anhand des „OER-Grundrezepts“ wurde deutlich, wie offene Bildungsressourcen Lehrenden neue Wege eröffnen, Materialien gemeinsam zu nutzen, anzupassen und nachhaltig weiterzugeben.
+url: alpika-leitendentagung-2025
+tags:
+  - Event
+  - Workshop
+  - Religionspädagogik
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+---
 
 Wie lässt sich die Kultur des Teilens in unserer Bildungsarbeit lebendig gestalten?
 Mit dieser Frage begann die [ALPIKA](https://alpika.de/)-Leitendentagung, die vom 17. bis 19. September 2025 in Wuppertal stattfand.
@@ -28,7 +70,7 @@ Wie ein Kuchenrezept braucht auch offenes Lernmaterial nur ein paar gute Zutaten
 
 ### Das OER-Grundrezept enthält fünf unverzichtbare Zutaten:
 
-🥚 Ei  - die Grundlage, die alles zusammenhält. Ohne Lizenz kein OER!
+🧈 Lizenz – das Fett, das alles zusammenhält. Ohne Lizenz kein OER!
 
 🧩 Modularisierung - einzelne Bausteine statt eines ganzen Kuchens, flexibel kombinierbar.
 
@@ -41,6 +83,19 @@ Wie ein Kuchenrezept braucht auch offenes Lernmaterial nur ein paar gute Zutaten
 Mit diesen Zutaten wird aus jedem Material ein offenes, anpassbares und nachhaltiges Lernangebot.
 
 Die komplette Präsentation als offenes Lernmodul findet ihr [hier](LINK zu Präsi oder Lernmodul).
+
+### Der Aha-Moment: Offenheit als Voraussetzung, nicht als Zusatz
+
+Ein wichtiger Aha-Moment: Die ALPIKA-Institute veröffentlichen seit Jahren Materialien online – mit dem Ziel, sie für Bildungspraxis zugänglich und nutzbar zu machen. Doch erst im Gespräch wurde klar: Ohne offene Lizenz (z.B. Creative Commons) ist eine echte Weiterverwendung rechtlich gar nicht möglich.
+
+Damit wurde deutlich, dass OER nicht nur ein technischer oder administrativer Schritt ist, sondern eine pädagogische Notwendigkeit:
+
+Wer möchte, dass Materialien im Unterricht, in Fortbildungen oder in Gemeinden lebendig weiterverwendet werden, muss sie offen lizenzieren und als OER zugänglich machen.
+
+Für Praktiker:innen bedeutet das:
+- weniger rechtliche Unsicherheit,
+- mehr Flexibilität in der Anpassung von Materialien,
+- und echte Kooperation über Institutsgrenzen hinweg.
 
 ## Von der Backstube zur Strategie: OER und OEP als Leitungsaufgabe
 
