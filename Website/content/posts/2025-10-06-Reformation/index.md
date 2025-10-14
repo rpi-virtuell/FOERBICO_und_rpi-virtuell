@@ -71,6 +71,10 @@ Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder d
 Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](Vorlage%20Instagram-Post.pdf)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 
+![](Toolhinweis.JPG) 
+
+Weitere Infos hier in den [Nutzungshinweisen von Zeoob](https://zeoob.com/terms-and-conditions/)
+
 ## Freiheit im Glauben - Reformation als Befreiungserfahrung
 
 Im Zentrum der Reformation steht Luthers Entdeckung der Rechtfertigung allein aus Gnade (sola gratia).
