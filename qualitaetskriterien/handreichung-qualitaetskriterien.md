@@ -25,10 +25,10 @@ gefördert vom BMBFSFJ unter den Förderkennzeichen: 01PO23012A, 01PO23012B und 
 
 Offene Bildungsressourcen, im Englischen als *Open Educational Resources (OER)* bezeichnet, ermöglichen es Lehrenden, Materialien rechtssicher zu teilen, weiterzuentwickeln und für unterschiedliche Lehr- und Lernszenarien nutzbar zu machen. Sie sind frei zugänglich und lassen sich flexibel an verschiedene didaktische Kontexte anpassen. Die Offenheit dieser Materialien verweist zugleich auf eine Haltung, die eine Bildungskultur beschreibt, in der Teilhabe nicht nur ermöglicht, sondern als grundlegendes Prinzip pädagogischen Handelns verstanden wird.
 
-Besonders im Kontext der Lehrer:innenbildung spielen OER eine doppelte Rolle: Einerseits werden sie in der Hochschullehre selbst genutzt, um Lernprozesse zu unterstützen. Andererseits entstehen an Hochschulen zunehmend Materialien, die gezielt für den schulischen Einsatz konzipiert werden, etwa im Rahmen von Seminaren, Forschungsprojekten oder Praxisphasen. Diese Schnittstelle zwischen Hochschule und Schule erfordert klare Qualitätsskriterien, die beiden Bereichen gerecht werden.
+Besonders im Kontext der Lehrer:innenbildung spielen OER eine doppelte Rolle: Einerseits werden sie in der Hochschullehre selbst genutzt, um Lernprozesse zu unterstützen. Andererseits entstehen an Hochschulen zunehmend Materialien, die gezielt für den schulischen Einsatz konzipiert werden, etwa im Rahmen von Seminaren, Forschungsprojekten oder Praxisphasen. Diese Schnittstelle zwischen Hochschule und Schule erfordert klare Qualitätskriterien, die beiden Bereichen gerecht werden.
 
 Qualität bedeutet mehr als inhaltliche Richtigkeit. Sie umfasst rechtliche Klarheit, technische Standards, didaktische Passung sowie die Anschlussfähigkeit an unterschiedliche Lehr-Lern-Kontexte (vgl. Zawacki-Richter/Mayrberger 2017, S. 6f).
-Qualitativ hochwertige OER setzen eine eigenständige Planung sowie den gezielten Einsatz von Ressourcen und Zeit voraus. Ihre Erstellung ist nicht als Nebenprodukt zu verstehen, sondern als eigenständige Aufgabe. Da die nachträgliche Umwandlung bestehender Materialien in OER häufig aufwendig ist, empfiehlt es sich, Lehr- und Lernmaterialien von Beginn an als OER zu konzipieren und dafür die notwendigen Ressourcen einzuplanen
+Qualitativ hochwertige OER setzen eine eigenständige Planung sowie den gezielten Einsatz von Ressourcen und Zeit voraus. Ihre Erstellung ist nicht als Nebenprodukt zu verstehen, sondern als eigenständige Aufgabe. Da die nachträgliche Umwandlung bestehender Materialien in OER häufig aufwendig ist, empfiehlt es sich, Lehr- und Lernmaterialien von Beginn an als OER zu konzipieren und dafür die notwendigen Ressourcen einzuplanen.
 
 Diese Handreichung richtet sich an Lehrende, die im Bereich der Religionspädagogik OER erstellen oder ihre Qualität in schulischen, hochschulischen oder außerschulischen Bildungssettings bewerten möchten.  
 OER werden in der Handreichung als Ausdruck einer Bildungskultur verstanden, die von Offenheit, Teilhabe und dialogischer Auseinandersetzung geprägt ist. Entsprechend wird an zentrale, subjektorientierte Prinzipien religiöser Bildung angeknüpft. 
@@ -38,15 +38,15 @@ OER werden in der Handreichung als Ausdruck einer Bildungskultur verstanden, die
 
 Die freie Nutzbarkeit und Weiterverbreitung von OER stellt die Frage der Qualität vor gewisse Herausforderungen. Neben der Unsicherheit zu urheberrechtlichen Fragen stellt die die Qualität von OER eine der am breitesten diskutiertesten Themen im Umfeld von OER dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). 
 Die Qualität von OER wird als wesentlicher Faktor für den Erfolg und die Akzeptanz von OER im breiten Feld angeführt [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51). 
-Angebtrieben durch die Entwicklungen mit KI steigt die Anzahl frei verfügubarer Bildungsmaterialien im Internet rasant an. Aus diesem Grund stellt die die Identifikation von qualitativ hochwertigen OER eine immer größere Herausforderung dar. 
+Angetrieben durch die Entwicklungen mit KI steigt die Anzahl frei verfügubarer Bildungsmaterialien im Internet rasant an. Aus diesem Grund stellt die die Identifikation von qualitativ hochwertigen OER eine immer größere Herausforderung dar. 
 
-Nutzende bewerten die Qualität von OER oftmals auf Basis ihrer individuellen Anforderungen und Bedarfe. Dies führt dazu, dass Qualitätsvorstellungen im Diskurs stark auseinandergehen. Die prozesshafte Natur der Materialien, d.h. dass sie verändert und adaptiert werden, stellt eine besondere Herausforderungen der Qualitätssicherung dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Statische Qualitätssicherungsprozesse, die Kriterien festlegen und überprüfen sind bei OER nur bedingt sinnvoll. Da sie eine hohe Offenheit und Anpassbarkeit an individuelle Kontexte, Bedrüfnisse und Anforderungen der Zielgruppe ermöglichen braucht es für die Qualitätssicherung eine besondere Aufmerksamkeit. 
+Nutzende bewerten die Qualität von OER oftmals auf Basis ihrer individuellen Anforderungen und Bedarfe. Dies führt dazu, dass Qualitätsvorstellungen im Diskurs stark auseinandergehen. Die prozesshafte Natur der Materialien, d.h. dass sie verändert und adaptiert werden, stellt eine besondere Herausforderungen der Qualitätssicherung dar [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Statische Qualitätssicherungsprozesse, die Kriterien festlegen und überprüfen sind bei OER nur bedingt sinnvoll. Da sie eine hohe Offenheit und Anpassbarkeit an individuelle Kontexte, Bedürfnisse und Anforderungen der Zielgruppe ermöglichen braucht es für die Qualitätssicherung eine besondere Aufmerksamkeit. 
 
 Dennoch ist ein Orientierungslinie bedeutsam, um eine grundlegende Struktur für die Qualität von OER zu schaffen, schließlich auch um das Vertrauen in offene Bildungsressourcen zu stärken [(vgl. Lübben/ Müskens/ Zawacki-Richter 2023)]
 
 [Baas et al. (2022)](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y) zeigen mit ihrer Studie eindrücklich, dass die Qualität von OER kein feststehendes Attribut ist, sondern das Ergebnis eines dialogischen Aushandlungsprozesses. Lehrende bewerten Materialien demnach nicht isoliert, sondern entwickeln ihre Qualitätswahrnehmung im Austausch mit Kolleg:innen und im Kontext institutioneller Rahmenbedingungen. 
 
-Die Handreichung versteht die Qualitätkriterien nicht als Garantie *guter OER* und damit *guter religiöser Bildungsprozesse*. Sie ist vielmehr als reflexives Instrument konzipiert, das die Vielschichtigkeit religionspädagogischer Qualitätsdebatten aufgreift und Lehrenden und Materialerstellenden eine Orientierung bietet, ohne in reduktionistische 'Abhak-Logik' zu verfallen. 
+Die Handreichung versteht die Qualitätskriterien nicht als Garantie *guter OER* und damit *guter religiöser Bildungsprozesse*. Sie ist vielmehr als reflexives Instrument konzipiert, das die Vielschichtigkeit religionspädagogischer Qualitätsdebatten aufgreift und Lehrenden und Materialerstellenden eine Orientierung bietet, ohne in reduktionistische 'Abhak-Logik' zu verfallen. 
 Qualität wird  als Ergebnis eines fortlaufenden Aushandlungsprozesses verstanden, der sich sowohl in der Erstellung als auch in der Nutzung und Weiterentwicklung von OER vollzieht.
 
 
@@ -130,9 +130,9 @@ Auch bei KI-generierten Inhalten (z. B. aus Tools wie DALL·E) ist Vorsicht gebo
 
 
 ## KI-generierte Materialien
-- [ ] KI-generierte Inhalte sind im Material gekennzeichnet und das verwendete Tool ist angegeben
+- [ ] KI-generierte Inhalte sind im Material gekennzeichnet und das verwendete Tool ist angegeben.
 - [ ] Die Quellenangabe enthält Tool, Erstellungsdatum, ggf. Lizenzhinweis und Bearbeitername (z. B. „Bild generiert mit ChatGPT (OpenAI, 2025), bearbeitet durch …“. Weiterführende Informationen [hier](https://digitalzentrum-berlin.de/leitfaden-ki-generierte-inhalte-kennzeichnen)).  
-- [ ] Rechtliche Fragen KI-genertierter Materialien mit Blick auf Urheberrecht, Lizenzierung und Einschränkungen der Plattform sind geprüft und im Material  gekennzeichnet.  
+- [ ] Rechtliche Fragen KI-generierter Materialien mit Blick auf Urheberrecht, Lizenzierung und Einschränkungen der Plattform sind geprüft und im Material  gekennzeichnet.  
 - [ ] KI-generiertes Bildmaterial ist sorgfältig ausgewählt, vermeidet Verzerrungen und Stereotype.  
 - [ ] KI-generiertes Bildmaterial ist didaktisch sinnvoll eingebunden und fördert die kritische Bildkompetenz der Lernenden.  
 
@@ -220,6 +220,7 @@ Wenn Material in Kombination mit geschützten Texten, Bildern, Audios und Videos
 
 > [!TIP]
 > **Hilfreiche Tools zur OER-Erstellung**
+
 > Bilderstellung: Für die Bilderstellung und Bearbeitung empfehlen sich [gimp](https://www.gimp.org/) sowie [darkable](https://open-educational-resources.de/goldstandard-foto/). Für weitere Informationen siehe [oerinfo](https://https://open-educational-resources.de/goldstandard-foto/). 
 > Audio und Podcast: Für die Erstellung von Audioelementen sowie Podcast empfehlen sich [Audacity](https://www.audacityteam.org/) und [UltraschallFM](https://ultraschall.fm/). Für weitere Informationen siehe [oerinfo](https://open-educational-resources.de/goldstandard-podcast/).
 > Arbeitsblätter und interaktive Übungen: Für die erstellung von Arbeitsblättern und interaktive Übungen empfehlen sich [LibreOffice](https://www.libreoffice.org/download/libreoffice-online/) und [h5P](https://h5p.org/). Für weitere Informationen siehe [oerinfo](https://open-educational-resources.de/goldstandard-arbeitsblaetter/).
@@ -227,7 +228,7 @@ Wenn Material in Kombination mit geschützten Texten, Bildern, Audios und Videos
 
 ## Design & Lesbarkeit
 - [ ] Wichtige Informationen werden im Material visuell hervorgehoben (z. B. durch größere Schrift, Symbole, Farben).
-- [ ] Eine gut lesbare Schriftart, die unter offener Lizenz steht, wird verwendet (Übersicht offene [Schriftarten](https://https://open-educational-resources.de/texte-und-schriftarten/))
+- [ ] Eine gut lesbare Schriftart, die unter offener Lizenz steht, wird verwendet (Übersicht offene [Schriftarten](https://https://open-educational-resources.de/texte-und-schriftarten/)).
 - [ ] Im Material wird eine Mindestschriftgröße von 12–14 pt für Fließtext und größere Schriftgrößen für Überschriften verwendet.
 - [ ] Hoher Kontrast zwischen Text und Hintergrund (z. B. schwarze Schrift auf weißem Hintergrund) wird im Material berücksichtigt. 
 - [ ] Das Material passt sich automatisch an verschiedene Geräte an und ist dort gut lesbar (Smartphones, Tablets, Laptops).
@@ -243,6 +244,7 @@ Wenn Material in Kombination mit geschützten Texten, Bildern, Audios und Videos
 
 > [!TIP]
 > **Fortbildungsangebote zu OER**  
+
 > Die Erstellung und Überarbeitung von OER kann am Anfang herausfordernd sein.  
 > Unterstützung bietet das [relilab](https://relilab.org/) gemeinsam mit dem FOERBICO-Team durch praxisorientierte Fortbildungen.  
 > 
@@ -298,6 +300,7 @@ Die folgenden Qualitätsmerkmale sind nicht alle als zwingend erforderlich zu ve
 
 > [!TIP]
 > **OER frühzeitig und strategisch planen**
+
 > Bei Forschungs- und Förderanträgen sollten OER von Beginn an berücksichtigt werden.  
 > Der Aufwand für Erstellung und Veröffentlichung muss quantifiziert, begründet und in den Ressourcen, z.B. mit Blick auf Zeit, Personal und Kosten miteinkalkuliert werden.  
 > 
