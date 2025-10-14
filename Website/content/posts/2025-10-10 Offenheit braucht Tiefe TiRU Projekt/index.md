@@ -28,7 +28,7 @@ creator:
 image: TiRU.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-10-10'
+datePublished: '2025-10-17'
 #staticSiteGenerator:
 author:
   - Laura Mößle
