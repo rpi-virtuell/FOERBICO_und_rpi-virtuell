@@ -52,8 +52,6 @@ tags:
 
 # Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU
 
-## OER-Qualität als Entwicklungsaufgabe religionspädagogischer Bildungsressourcen
-<!--Braucht es diese zweite Überschrift hier nach der großen Überschrift? Könnte man vielleicht auch weglassen-->
 OER eröffnen in der Lehrer:innenbildung neue didaktische Gestaltungsräume. Gleichzeitig stellen sie anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer - also religionspädagogischer - Qualitätsdimensionen an Bedeutung.  
 
 Wie sich diese unterschiedlichen Facetten in einem qualitätsorientierten Entwicklungsprozess verbinden lassen, zeigt exemplarisch das Projekt **TiRU (Tablets im Religionsunterricht)** an der Goethe-Universität Frankfurt. Die dort entwickelten Materialien wurden im Rahmen des FOERBICO-Projekts einer systematischen Beratung unterzogen, gestützt auf die eigens erarbeitete Handreichung zu [OER-Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell-geschlossen/src/branch/main/Qualit%C3%A4tskriterien/2025_08_29_Qualit%C3%A4tskriterien.md). Der Beitrag dokumentiert diesen Prozess, reflektiert die identifizierten Gelingensbedingungen und verdeutlicht, wie Qualität in offenen Bildungsressourcen nicht nur überprüft, sondern als integraler Bestandteil ihrer Konzeption aktiv gestaltet werden kann. 
@@ -113,7 +111,7 @@ Die aus dem Beratungsprozess gewonnenen Einsichten wiederum flossen zurück in d
 
 > [!NOTE]  
 > **Save the Date: TiRU-Launch**  
-> Am **16. Oktober 2025** <!--laut letztem Projektgespräch mit Paula Paschke: 20.November 2025, 16-18 Uhr --> werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
+> Am **20. November 202, 16-18:00 Uhr ** werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
 > Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und in den offenen Austausch zu treten.   
 
 
