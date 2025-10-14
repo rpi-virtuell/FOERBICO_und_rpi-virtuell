@@ -110,7 +110,7 @@ Die aus dem Beratungsprozess gewonnenen Einsichten wiederum flossen zurück in d
 
 > [!NOTE]  
 > **Save the Date: TiRU-Launch**  
-> Am **20. November 202, 16-18:00 Uhr ** werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
+> Am **20. November 2025, 16:00-18:00 Uhr** werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
 > Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und in den offenen Austausch zu treten.   
 
 
