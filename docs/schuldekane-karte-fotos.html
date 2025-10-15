@@ -5,19 +5,35 @@
 <title>Schuldekane Württemberg – Karte (mit Fotos)</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
-  html,body,#map{height:100%;margin:0}
+  html,body,#map{height:100%;margin:0;font-family:system-ui,-apple-system,Arial,sans-serif}
   /* runde Avatar-Pins */
   .avatar-pin{
     width:44px;height:44px;border-radius:50%;
     background-size:cover;background-position:center;
     box-shadow:0 0 0 2px #fff, 0 1px 6px rgba(0,0,0,.3);
+    cursor:pointer;
+    transition:transform .2s ease;
+  }
+  .avatar-pin:hover{
+    transform:scale(1.1);
   }
   .avatar-pin.fallback{
     display:flex;align-items:center;justify-content:center;
-    font:700 12px/1.2 system-ui,Arial,sans-serif;background:#ddd;color:#555;
+    font:700 12px/1.2 system-ui,Arial,sans-serif;
+    background:#6d1463;color:#fff;
+  }
+  .leaflet-popup-content{
+    margin:14px 16px;
   }
   .leaflet-popup-content img{
-    max-width:220px;height:auto;border-radius:8px;display:block;margin:.25rem 0;
+    max-width:280px;height:auto;border-radius:8px;display:block;margin:8px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+  }
+  .leaflet-popup-content a{
+    color:#6d1463;text-decoration:none;
+  }
+  .leaflet-popup-content a:hover{
+    text-decoration:underline;
   }
 </style>
 <div id="map"></div>
@@ -26,30 +42,30 @@
 const features = {
   "type": "FeatureCollection",
   "features": [
-    {"type":"Feature","id":3131,"properties":{"name":"Dr. Til Elbe-Seiffart","bezirk":"Hohenlohe; Weinsberg-Neuenstadt","url":"https://www.kirche-und-religionsunterricht.de/website/de/oehr","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50260_50315_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.50558,49.200474]}},
-    {"type":"Feature","id":3138,"properties":{"name":"Jürgen Heuschele","bezirk":"Heilbronn-Brackenheim","url":"https://www.kirche-und-religionsunterricht.de/website/de/hn","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50262_50317_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.221243,49.13931]}},
-    {"type":"Feature","id":3191,"properties":{"name":"Dr. Joachim Bayer","bezirk":"Bad Urach-Münsingen; Reutlingen","url":"https://reutlingen.schuldek.de/","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50298_50353_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.211347,48.489777]}},
-    {"type":"Feature","id":3192,"properties":{"name":"Dr. Uwe Böhm","bezirk":"Bad Cannstatt; Zuffenhausen","url":"https://www.kirche-und-religionsunterricht.de/website/de/stg","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50316_50371_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.17275,48.777695]}},
-    {"type":"Feature","id":3194,"properties":{"name":"Hans Jörg Dieter","bezirk":"Freudenstadt; Sulz am Neckar","url":"https://www.kirche-und-religionsunterricht.de/website/de/fds","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50296_50351_450_300.jpg"},"geometry":{"type":"Point","coordinates":[8.414273,48.466618]}},
-    {"type":"Feature","id":3195,"properties":{"name":"Samuel Holzhäuer","bezirk":"Ravensburg","url":"https://www.schuldekan-ravensburg.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_52289_53045_450_300.jpeg"},"geometry":{"type":"Point","coordinates":[9.610583,47.779552]}},
-    {"type":"Feature","id":3196,"properties":{"name":"Dr. Andreas Hinz","bezirk":"Leonberg; Mühlacker","url":"https://www.schuldekan-ditzingen.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50312_50367_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.013048,48.797268]}},
-    {"type":"Feature","id":3197,"properties":{"name":"Andrea Holm","bezirk":"Biberach","url":"https://www.kirche-und-religionsunterricht.de/website/de/bc","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_51122_51447_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.997218,48.39738]}},
-    {"type":"Feature","id":3198,"properties":{"name":"Thomas Holm","bezirk":"Ulm; Blaubeuren","url":"https://www.kirche-und-religionsunterricht.de/website/de/ul","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_51123_51448_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.99753,48.397354]}},
-    {"type":"Feature","id":3199,"properties":{"name":"Dr. Harry Jungbauer","bezirk":"Aalen; Schwäbisch Gmünd; Heidenheim","url":"https://www.kirche-und-religionsunterricht.de/website/de/sgm","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_51124_51449_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.801916,48.798893]}},
-    {"type":"Feature","id":3200,"properties":{"name":"Gabriele Karle","bezirk":"Vaihingen-Ditzingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/vai","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50304_50359_450_300.jpg"},"geometry":{"type":"Point","coordinates":[8.956262,48.933044]}},
-    {"type":"Feature","id":3201,"properties":{"name":"Simon Keefer","bezirk":"Crailsheim-Blaufelden; Schwäbisch Hall-Gaildorf","url":"https://www.kirche-und-religionsunterricht.de/website/de/sha","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50320_50375_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.732796,49.11233]}},
-    {"type":"Feature","id":3202,"properties":{"name":"Dr. Andreas Löw","bezirk":"Besigheim; Ludwigsburg","url":"https://www.kirche-und-religionsunterricht.de/website/de/lb","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50292_50347_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.19276,48.890415]}},
-    {"type":"Feature","id":3203,"properties":{"name":"Andreas Lorenz","bezirk":"Schorndorf; Waiblingen","url":"https://www.schuldekan-schorndorf.de/","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50299_50354_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.528753,48.80538]}},
-    {"type":"Feature","id":3204,"properties":{"name":"Dorothee Moser","bezirk":"Kirchheim/Teck; Nürtingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/nt","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50283_50338_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.381407,48.67402]}},
-    {"type":"Feature","id":3205,"properties":{"name":"Büro des Schuldekans","bezirk":"Böblingen; Herrenberg (Vakaturvertretung)","url":"https://www.kirche-und-religionsunterricht.de/website/de/bb","photo":null},"geometry":{"type":"Point","coordinates":[9.012948,48.79732]}},
-    {"type":"Feature","id":3206,"properties":{"name":"Joachim Ruopp","bezirk":"Tübingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/tue","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50277_50332_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.06084,48.51435]}},
-    {"type":"Feature","id":3207,"properties":{"name":"Christoph Salzger","bezirk":"Bernhausen; Esslingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/es","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50267_50322_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.381299,48.674015]}},
-    {"type":"Feature","id":3208,"properties":{"name":"Stephan Schiek","bezirk":"Geislingen-Göppingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/gp","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50318_50373_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.653888,48.708866]}},
-    {"type":"Feature","id":3209,"properties":{"name":"Amrei Steinfort","bezirk":"Balingen; Rottweil","url":"https://www.schuldekan-balingen.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50270_50325_450_300.jpg"},"geometry":{"type":"Point","coordinates":[8.85267,48.27358]}},
-    {"type":"Feature","id":3210,"properties":{"name":"Dr. Elke Theurer-Vogt","bezirk":"Stuttgart; Degerloch","url":"https://www.kirche-und-religionsunterricht.de/website/de/stg","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50280_50335_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.172444,48.777855]}},
-    {"type":"Feature","id":3211,"properties":{"name":"Silvia Trautwein","bezirk":"Backnang; Marbach","url":"https://www.kirche-und-religionsunterricht.de/website/de/bk","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50306_50361_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.430006,48.945168]}},
-    {"type":"Feature","id":3212,"properties":{"name":"Thorsten Trautwein","bezirk":"Calw-Nagold; Neuenbürg","url":"https://www.schuldekan-calw.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50289_50344_450_300.jpg"},"geometry":{"type":"Point","coordinates":[8.764139,48.712784]}},
-    {"type":"Feature","id":4692,"properties":{"name":"Gudrun Bertsch (Co)","bezirk":"Bad Urach-Münsingen; Reutlingen","url":"https://reutlingen.schuldek.de/","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50323_50378_450_300.jpg"},"geometry":{"type":"Point","coordinates":[9.211525,48.489597]}}
+    {"type":"Feature","id":3131,"properties":{"name":"Dr. Til Elbe-Seiffart","bezirk":"Hohenlohe • Weinsberg-Neuenstadt","url":"https://www.kirche-und-religionsunterricht.de/website/de/oehr","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50260_50315_450_300.jpg","adresse":"Hunnenstraße 12, 74613 Öhringen","telefon":"+4979412724","fax":"+49794161234","email":"schuldek.oehringen@elkw.de","sekretariat":"Martina Jungwirth","studienleitung":"Barbara Hartmann, Steffen Bäuerle"},"geometry":{"type":"Point","coordinates":[9.50558,49.200474]}},
+    {"type":"Feature","id":3138,"properties":{"name":"Jürgen Heuschele","bezirk":"Heilbronn-Brackenheim","url":"https://www.kirche-und-religionsunterricht.de/website/de/hn","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50262_50317_450_300.jpg","adresse":"Am Wollhaus 13, 74072 Heilbronn","telefon":"+49713180671","fax":"+497131962418","email":"schuldek.heilbronn@elkw.de","sekretariat":"Christiane Hafner","studienleitung":"Marita Wolfram"},"geometry":{"type":"Point","coordinates":[9.221243,49.13931]}},
+    {"type":"Feature","id":3191,"properties":{"name":"Dr. Joachim Bayer","bezirk":"Bad Urach-Münsingen • Reutlingen","url":"https://reutlingen.schuldek.de/","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50298_50353_450_300.jpg","adresse":"Lederstraße 81, 72764 Reutlingen","telefon":"+497121312450","email":"schuldekan.reutlingen@elk-wue.de","sekretariat":"Eva Sehne","studienleitung":"Bernd Müllerschön","zusatz":"Co-Schuldekanin: Gudrun Bertsch"},"geometry":{"type":"Point","coordinates":[9.211347,48.489777]}},
+    {"type":"Feature","id":3192,"properties":{"name":"Dr. Uwe Böhm","bezirk":"Bad Cannstatt • Zuffenhausen","url":"https://www.kirche-und-religionsunterricht.de/website/de/stg","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50316_50371_450_300.jpg","adresse":"Büchsenstraße 33, 70174 Stuttgart","telefon":"+49711229363154","fax":"+49711229363332","email":"schuldekan.bad-cannstatt@elk-wue.de","sekretariat":"Alexandra Hudelmayer","studienleitung":"Margit Tschinkel"},"geometry":{"type":"Point","coordinates":[9.17275,48.777695]}},
+    {"type":"Feature","id":3194,"properties":{"name":"Hans Jörg Dieter","bezirk":"Freudenstadt • Sulz am Neckar","url":"https://www.kirche-und-religionsunterricht.de/website/de/fds","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50296_50351_450_300.jpg","adresse":"Justinus-Kerner-Straße 10, 72250 Freudenstadt","telefon":"+4974419156950","fax":"+4974419156991","email":"schuldek.freudenstadt@elkw.de","sekretariat":"Dorothea Hölzlberger","studienleitung":"Karlheinz Müller"},"geometry":{"type":"Point","coordinates":[8.414273,48.466618]}},
+    {"type":"Feature","id":3195,"properties":{"name":"Samuel Holzhäuer","bezirk":"Ravensburg","url":"https://www.schuldekan-ravensburg.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_52289_53045_450_300.jpeg","adresse":"Weinbergstraße 10, 88214 Ravensburg","telefon":"+4975195223020","fax":"+4975195223029","email":"schuldek.ravensburg@elkw.de","sekretariat":"Petra Wilhelm","studienleitung":"Ines Krieger"},"geometry":{"type":"Point","coordinates":[9.610583,47.779552]}},
+    {"type":"Feature","id":3196,"properties":{"name":"Dr. Andreas Hinz","bezirk":"Leonberg • Mühlacker","url":"https://www.schuldekan-ditzingen.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50312_50367_450_300.jpg","adresse":"Eltinger Straße 51, 71229 Leonberg","telefon":"+4971523517774","email":"schuldek.leonberg@elkw.de","sekretariat":"Daniela Kogel","studienleitung":"Patricia Naujoks"},"geometry":{"type":"Point","coordinates":[9.013048,48.797268]}},
+    {"type":"Feature","id":3197,"properties":{"name":"Andrea Holm","bezirk":"Biberach","url":"https://www.kirche-und-religionsunterricht.de/website/de/bc","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_51122_51447_450_300.jpg","adresse":"Adlerbastei 3, 89073 Ulm","telefon":"+4973128979","fax":"+4973127192","email":"schuldekan.biberach@elk-wue.de","sekretariat":"Patricia Sissenich","studienleitung":"Angelika Reusch","zusatz":"Bürogemeinschaft mit dem Schuldekan für Ulm und Blaubeuren"},"geometry":{"type":"Point","coordinates":[9.997218,48.39738]}},
+    {"type":"Feature","id":3198,"properties":{"name":"Thomas Holm","bezirk":"Ulm • Blaubeuren","url":"https://www.kirche-und-religionsunterricht.de/website/de/ul","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_51123_51448_450_300.jpg","adresse":"Adlerbastei 3, 89073 Ulm","telefon":"+4973128979","fax":"+4973127192","email":"schuldekan.ulm@elk-wue.de","sekretariat":"Patricia Sissenich","studienleitung":"Regina Eisenmann"},"geometry":{"type":"Point","coordinates":[9.99753,48.397354]}},
+    {"type":"Feature","id":3199,"properties":{"name":"Dr. Harry Jungbauer","bezirk":"Aalen • Schwäbisch Gmünd • Heidenheim","url":"https://www.kirche-und-religionsunterricht.de/website/de/sgm","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_51124_51449_450_300.jpg","adresse":"Gemeindehausstraße 7, 73525 Schwäbisch Gmünd","telefon":"+49717139104","fax":"+497171998803","email":"schuldek.schwaebisch-gmuend@elkw.de","sekretariat":"Karin Wohlfahrth","studienleitung":"Kai Spittel"},"geometry":{"type":"Point","coordinates":[9.801916,48.798893]}},
+    {"type":"Feature","id":3200,"properties":{"name":"Gabriele Karle","bezirk":"Vaihingen-Ditzingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/vai","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50304_50359_450_300.jpg","adresse":"Kirchplatz 5, 71665 Vaihingen/Enz","telefon":"+4970429668450","email":"schuldek.vaihingen@elkw.de","sekretariat":"Sylvia Masholder","studienleitung":"Karen Kittel"},"geometry":{"type":"Point","coordinates":[8.956262,48.933044]}},
+    {"type":"Feature","id":3201,"properties":{"name":"Simon Keefer","bezirk":"Crailsheim-Blaufelden • Schwäbisch Hall-Gaildorf","url":"https://www.kirche-und-religionsunterricht.de/website/de/sha","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50320_50375_450_300.jpg","adresse":"Mauerstraße 5, 74523 Schwäbisch Hall","telefon":"+4979171950","fax":"+4979171774","email":"schuldek.schwaebisch-hall@elkw.de","sekretariat":"Silke Tanja Frey","studienleitung":"Walter Gronbach"},"geometry":{"type":"Point","coordinates":[9.732796,49.11233]}},
+    {"type":"Feature","id":3202,"properties":{"name":"Dr. Andreas Löw","bezirk":"Besigheim • Ludwigsburg","url":"https://www.kirche-und-religionsunterricht.de/website/de/lb","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50292_50347_450_300.jpg","adresse":"Karlsplatz 9, 71638 Ludwigsburg","telefon":"+497141926517","fax":"+497141905652","email":"schuldek.ludwigsburg@elkw.de","sekretariat":"Dorith Szillat-Poerschke","studienleitung":"Reiner Freudenberger"},"geometry":{"type":"Point","coordinates":[9.19276,48.890415]}},
+    {"type":"Feature","id":3203,"properties":{"name":"Andreas Lorenz","bezirk":"Schorndorf • Waiblingen","url":"https://www.schuldekan-schorndorf.de/","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50299_50354_450_300.jpg","adresse":"Johann-Philipp-Palm-Straße 15, 73601 Schorndorf","telefon":"+49718163528","fax":"+49718122486","email":"schuldek.schorndorf@elkw.de","sekretariat":"Beate Sommerau","studienleitung":"Katrin Sauer"},"geometry":{"type":"Point","coordinates":[9.528753,48.80538]}},
+    {"type":"Feature","id":3204,"properties":{"name":"Dorothee Moser","bezirk":"Kirchheim/Teck • Nürtingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/nt","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50283_50338_450_300.jpg","adresse":"Unterboihinger Straße 9, 73240 Wendlingen","telefon":"+497024409210","fax":"+4970244092119","email":"schuldek.nuertingen@elkw.de","sekretariat":"Silke Klaß","studienleitung":"Anja Hezinger"},"geometry":{"type":"Point","coordinates":[9.381407,48.67402]}},
+    {"type":"Feature","id":3205,"properties":{"name":"Büro des Schuldekans","bezirk":"Böblingen • Herrenberg","url":"https://www.kirche-und-religionsunterricht.de/website/de/bb","photo":null,"adresse":"Eltinger Straße 51, 71229 Leonberg","telefon":"+4971523517775","email":"schuldek.boeblingen-herrenberg@elkw.de","sekretariat":"Birgit Reimann","studienleitung":"Daniela Reiff","zusatz":"Vakaturvertretung: Schuldekan Dr. Andreas Hinz"},"geometry":{"type":"Point","coordinates":[9.012948,48.79732]}},
+    {"type":"Feature","id":3206,"properties":{"name":"Joachim Ruopp","bezirk":"Tübingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/tue","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50277_50332_450_300.jpg","adresse":"Hechinger Straße 13, 72072 Tübingen","telefon":"+497071930451","fax":"+497071930453","email":"schuldek.tuebingen@elkw.de","sekretariat":"Gitte Braun","studienleitung":"Gudrun Jauß"},"geometry":{"type":"Point","coordinates":[9.06084,48.51435]}},
+    {"type":"Feature","id":3207,"properties":{"name":"Christoph Salzger","bezirk":"Bernhausen • Esslingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/es","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50267_50322_450_300.jpg","adresse":"Unterboihinger Straße 9, 73240 Wendlingen","telefon":"+497024409210","fax":"+4970244092119","email":"schuldek.esslingen@elkw.de","sekretariat":"Marion Wiesler","studienleitung":"Anja Hezinger"},"geometry":{"type":"Point","coordinates":[9.381299,48.674015]}},
+    {"type":"Feature","id":3208,"properties":{"name":"Stephan Schiek","bezirk":"Geislingen-Göppingen","url":"https://www.kirche-und-religionsunterricht.de/website/de/gp","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50318_50373_450_300.jpg","adresse":"Ulrichstraße 29, 73033 Göppingen","telefon":"+4971619459890","fax":"+4971619459893","email":"schuldek.goeppingen@elkw.de","sekretariat":"Birgit Riedißer","studienleitung":"Ingrid Held"},"geometry":{"type":"Point","coordinates":[9.653888,48.708866]}},
+    {"type":"Feature","id":3209,"properties":{"name":"Amrei Steinfort","bezirk":"Balingen • Rottweil","url":"https://www.schuldekan-balingen.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50270_50325_450_300.jpg","adresse":"Ölbergstraße 23, 72336 Balingen","telefon":"+497433160784","fax":"+497433160788","email":"schuldek.balingen@elkw.de","sekretariat":"Melanie Fetzer","studienleitung":"Daniela Brändle"},"geometry":{"type":"Point","coordinates":[8.85267,48.27358]}},
+    {"type":"Feature","id":3210,"properties":{"name":"Dr. Elke Theurer-Vogt","bezirk":"Stuttgart • Degerloch","url":"https://www.kirche-und-religionsunterricht.de/website/de/stg","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50280_50335_450_300.jpg","adresse":"Büchsenstraße 33, 70174 Stuttgart","telefon":"+49711229363178","fax":"+49711229363332","email":"schuldekan.stuttgart@elk-wue.de","sekretariat":"Meike Kenner","studienleitung":"Margit Tschinkel"},"geometry":{"type":"Point","coordinates":[9.172444,48.777855]}},
+    {"type":"Feature","id":3211,"properties":{"name":"Silvia Trautwein","bezirk":"Backnang • Marbach","url":"https://www.kirche-und-religionsunterricht.de/website/de/bk","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50306_50361_450_300.jpg","adresse":"Am Schillerplatz 11, 71522 Backnang","telefon":"+49719161561","fax":"+49719167095","email":"schuldek.backnang@elkw.de","sekretariat":"Sarah Ritter","studienleitung":"Heike Schulz"},"geometry":{"type":"Point","coordinates":[9.430006,48.945168]}},
+    {"type":"Feature","id":3212,"properties":{"name":"Thorsten Trautwein","bezirk":"Calw-Nagold • Neuenbürg","url":"https://www.schuldekan-calw.de","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50289_50344_450_300.jpg","adresse":"Wielandstraße 12, 75365 Calw-Heumaden","telefon":"+4970513950","fax":"+49705112181","email":"schuldek.calw@elkw.de","sekretariat":"Sabrina Minella","studienleitung":"Sandra Rodies"},"geometry":{"type":"Point","coordinates":[8.764139,48.712784]}},
+    {"type":"Feature","id":4692,"properties":{"name":"Gudrun Bertsch","titel":"Co-Schuldekanin","bezirk":"Bad Urach-Münsingen • Reutlingen","url":"https://reutlingen.schuldek.de/","photo":"https://www.kirche-und-religionsunterricht.de/system/getthumb/images/__tn4__ecics_50323_50378_450_300.jpg","adresse":"Lederstraße 81, 72764 Reutlingen","telefon":"+497121312450","email":"schuldekan.reutlingen@elk-wue.de","sekretariat":"Eva Sehne","studienleitung":"Bernd Müllerschön","zusatz":"Schuldekan: Dr. Joachim Bayer"},"geometry":{"type":"Point","coordinates":[9.211525,48.489597]}}
   ]
 }
 
@@ -83,11 +99,36 @@ function avatarIcon(photo, name){
 
 function onEachFeature(f, layer){
   const p=f.properties||{};
+  const titel = p.titel || '';
   const name = p.name || 'Unbekannt';
-  const bez  = p.bezirk || '';
-  const url  = p.url ? `<p><a href="${p.url}" target="_blank" rel="noopener">Homepage</a></p>` : '';
+  const displayName = titel ? `${name}<br><small style="font-weight:normal">${titel}</small>` : name;
+  const bez  = p.bezirk ? `<div style="color:#666;margin:4px 0">${p.bezirk}</div>` : '';
   const img  = p.photo ? `<img alt="${name}" src="${p.photo}">` : '';
-  layer.bindPopup(`<b>${name}</b><br>${bez}${img}${url}`);
+  
+  let kontakt = '';
+  if(p.adresse || p.telefon || p.email){
+    kontakt = '<div style="margin-top:8px;font-size:13px;line-height:1.5">';
+    if(p.adresse) kontakt += `📍 ${p.adresse}<br>`;
+    if(p.telefon) kontakt += `📞 <a href="tel:${p.telefon}">${p.telefon}</a><br>`;
+    if(p.fax) kontakt += `📠 ${p.fax}<br>`;
+    if(p.email) kontakt += `✉️ <a href="mailto:${p.email}">${p.email}</a><br>`;
+    kontakt += '</div>';
+  }
+  
+  let team = '';
+  if(p.sekretariat || p.studienleitung){
+    team = '<div style="margin-top:8px;font-size:12px;line-height:1.5;color:#555">';
+    if(p.sekretariat) team += `<b>Sekretariat:</b> ${p.sekretariat}<br>`;
+    if(p.studienleitung) team += `<b>Studienleitung:</b> ${p.studienleitung}<br>`;
+    team += '</div>';
+  }
+  
+  const zusatz = p.zusatz ? `<div style="margin-top:6px;font-size:12px;font-style:italic;color:#777">${p.zusatz}</div>` : '';
+  const url  = p.url ? `<p style="margin-top:10px"><a href="${p.url}" target="_blank" rel="noopener" style="color:#6d1463;font-weight:600">→ Homepage</a></p>` : '';
+  
+  layer.bindPopup(`<div style="min-width:240px"><b style="font-size:15px">${displayName}</b>${bez}${img}${kontakt}${team}${zusatz}${url}</div>`, {
+    maxWidth: 320
+  });
 }
 
 const layer = L.geoJSON(features, {
