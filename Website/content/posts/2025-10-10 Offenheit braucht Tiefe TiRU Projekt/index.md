@@ -106,12 +106,7 @@ Dennoch offenbarten sich im Detail feine Stellschrauben, an denen sich die Quali
    - Gut lesbare Schriftart mit [offener Lizenzierung](https://open-educational-resources.de/texte-und-schriftarten)  
 
 Die Umsetzung dieser Maßnahmen stellt nicht nur rechtliche Klarheit, technische Resilienz und pädagogische Kohärenz sicher, sondern hebt die TiRU-Materialien zugleich auf ein Niveau, das sie als Referenzmodell für OER in der religionspädagogischen Bildung ausweist. 
-Die aus dem Beratungsprozess gewonnenen Einsichten wiederum flossen zurück in die Weiterentwicklung der Handreichung, stärken deren Praxistauglichkeit und tragen so zur Weiterentwicklung belastbarer Qualitätskriterien für kommende OER-Initiativen bei.
-
-> [!NOTE]  
-> **Save the Date: TiRU-Launch**  
-> Am **20. November 2025, 16:00-18:00 Uhr** werden die beiden TiRU-Materialien – *Bibeldidaktik* und *Ethisches Lernen* – offiziell an der Goethe-Universität Frankfurt gelauncht.  
-> Die Veranstaltung bietet die Möglichkeit, die OER-Materialien in einer praktischen Werkstattphase kennenzulernen, selbst zu erproben und in den offenen Austausch zu treten.   
+Die aus dem Beratungsprozess gewonnenen Einsichten wiederum flossen zurück in die Weiterentwicklung der Handreichung, stärken deren Praxistauglichkeit und tragen so zur Weiterentwicklung belastbarer Qualitätskriterien für kommende OER-Initiativen bei.  
 
 
 ## Fazit: Qualität als konstitutives Prinzip
