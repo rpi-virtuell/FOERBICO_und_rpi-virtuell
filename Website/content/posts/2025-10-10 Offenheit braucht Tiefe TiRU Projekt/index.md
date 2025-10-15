@@ -66,7 +66,7 @@ TiRU orientiert sich konsequent an einer offenen Bildungskultur. Es adressiert l
 
 ## Beratung und Qualitätsentwicklung im Rahmen von FOERBICO
 
-Die in TiRU entwickelten [**OER-Materialien zum Biblischen Lernen**](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39) (Zugriff über den **Gastzugang** möglich - einfach "Anmelden als Gast") wurden im Rahmen des FOERBICO Projekts zur weiteren Qualitätsentwicklung systematisch beraten. 
+Die in TiRU entwickelten [**OER-Materialien zum Biblischen Lernen**](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39) (Zugriff über den **Gastzugang** möglich - einfach auf "Anmelden als Gast" klicken) wurden im Rahmen des FOERBICO Projekts zur weiteren Qualitätsentwicklung systematisch beraten. 
 Ziel von FOERBICO ist es, OER in der wissenschaftlichen Religionspädagogik sichtbarer zu machen und ihre Qualität durch systematisierte und praxisnahe Kriterien zu verbessern. 
 Für eine verlässliche und breite Nutzung und Etablierung von OER braucht es neben einer stabilen technischen Infrastruktur auch fachlich fundierter Qualitätsstandards [(vgl. Kopp et al., 2021)](https://www.pedocs.de/volltexte/2023/26636/pdf/MidW_78_Kopp_et_al_Strategische_Verankerung.pdf). Dies gilt insbesondere für die Religionspädagogik, da die Qualität offener Bildungsressourcen maßgeblich ihre Akzeptanz und nachhaltige Verbreitung bestimmt [(vgl. Pirker & Pirner 2025)](https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51).
 
