@@ -12,6 +12,7 @@ description: >-
   Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open
   Educational Practices, zu Infrastrukturen sowie zum informellen Lernen
   außerhalb formaler Bildungsinstitutionen.
+inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/austausch-mit-michael-kerres
 creator:
@@ -22,9 +23,7 @@ creator:
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
-      type: Organization
-inLanguage:
-  - de
+      type: Organizatione
 image: https://oer.community/austausch-mit-michael-kerres/Kerres-Moessle2025.png
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
@@ -32,7 +31,7 @@ datePublished: '2025-10-15'
 #staticSiteGenerator:
 author:
   - Laura Mößle
-title: 'Über Infrastrukturen, Communities und digitale Bildungsräume – Einblicke in das Gespräch mit Prof. Michael Kerres'
+title: 'Über Infrastrukturen, Communities und digitale Bildungsräume - Einblicke in das Gespräch mit Prof. Michael Kerres'
 cover:
   relative: true
   image: Kerres-Moessle2025.png
