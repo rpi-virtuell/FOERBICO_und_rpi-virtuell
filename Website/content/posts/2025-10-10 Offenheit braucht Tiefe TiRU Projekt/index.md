@@ -77,19 +77,19 @@ Die Handreichung gliedert die Qualitätskriterien in vier Dimensionen:
 1. **Rechtliche Qualität** –  Lizenz- und Urheberrechtsangaben als Grundlage für rechtssichere Nutzung und Weiterverbreitung  
 2. **Technische Qualität** – Kriterien für langfristige Verfügbarkeit, Barrierefreiheit und Interoperabilität
 3. **Pädagogisch-didaktische Qualität** – Zielgruppenorientierung, didaktisches Design, Lernaktivitäten sowie Möglichkeiten zur Lernerfolgskontrolle und zum Transfer
-4. **Religionspädagogische Qualität** – Ausrichtung der Materialien an den Kernprinzipien einer subjektorientierten, pluralitätsfähigen und lebenswelt orientierten Religionsdidaktik
+4. **Religionspädagogische Qualität** – Ausrichtung der Materialien an den Kernprinzipien einer subjektorientierten, pluralitätsfähigen und lebensweltorientierten Religionsdidaktik
 
 
 ## TiRU als Modellprojekt für OER-Qualität
 
-Die Beratung des TiRU Projekts fungiert dabei als Modellprojekt für die praxisnahe Erprobung und Validierung der im FOERBICO-Projekt entwickelten OER-Qualitätskriterien. Es trägt wesentlich zur Schärfung  der Qualitätsdimensionen bei, bspw. mit Blick auf Lizenfragen oder zum Umgang mit Bildern und fachspezifischen Elementen. 
+Die Beratung des TiRU Projekts fungiert dabei als Modellprojekt für die praxisnahe Erprobung und Validierung der im FOERBICO-Projekt entwickelten OER-Qualitätskriterien. Es trägt wesentlich zur Schärfung  der Qualitätsdimensionen bei, bspw. mit Blick auf Lizenzfragen oder zum Umgang mit Bildern und fachspezifischen Elementen. 
 Bereits im Zuge der Entwicklung der OER befassten sich die Verantwortlichen des Projektes TiRU mit bereits vorhandenen Qualitätskriterien zu OER. Ihnen fehlte es zu diesem Zeitpunkt jedoch an fachspezifischen Auseinandersetzungen mit diesen Fragestellungen. Zudem konnte mithilfe des Programms "Zeit für Lehre" eine studentische Hilfskraft eingestellt werden, die die Barrierefreiheit der Materialien überprüfte und weiterentwickelte.
 
 ## Qualitätsprüfung und offene Punkte
 
 Die Beratung der TiRU-Materialien anhand der FOERBICO-Handreichung zu OER-Qualitätskriterien zeigte: Die Materialien sind bereits rechtlich solide, technisch tragfähig und nachhaltig angelegt sowie didaktisch und religionspädagogisch durchdacht. 
 
-Die Materialien zum biblischen Lernen in Tabletumgebungen orientieren sich beispielsweise an den heutige Fragen und Lebenssituationen der Studierenden, bieten Möglichkeiten zum Perspektivwechsel und regen zu reflektierten Urteilen an.
+Die Materialien zum biblischen Lernen in Tabletumgebungen orientieren sich beispielsweise an den heutigen Fragen und Lebenssituationen der Studierenden, bieten Möglichkeiten zum Perspektivwechsel und regen zu reflektierten Urteilen an.
 Dennoch offenbarten sich im Detail feine Stellschrauben, an denen sich die Qualität weiter schärfen lässt. Diese lassen sich in vier zentrale Handlungsfelder bündeln:  
 
 **Rechtliche Präzisierung**  
@@ -116,7 +116,7 @@ Die im Projekt TiRU entwickelten OER-Materialien, aber auch das ebenfalls an der
 Die im Rahmen des FOERBICO-Projekts entwickelten Qualitätsdimensionen verdeutlichen, dass Qualität im OER-Kontext nicht als nachträgliche Ergänzung, ein sog. „Add-on“ zu verstehen ist. Vielmehr stellt sie ein konstitutives Prinzip dar, das die gesamte Materialentwicklung von der Quellenwahl über die Formatgestaltung bis hin zur rechtlichen und technischen Umsetzung durchzieht. 
 Qualität wird so zu einer Haltung, die in jeder gestalterischen Entscheidung sichtbar wird und die Offenheit der Materialien nicht nur formal, sondern auch strukturell und inhaltlich absichert.  
 
-TiRU und M@PS leisten nicht nur einen Beitrag zur Erweiterung des OER-Angebots religionspädagogischer Arbeit, sondern fungieren zugleich als praxisnahe Referenzmodelle dafür, wie sich Offenheit und Qualitätsorientierung wechselseitig stärken und kontinuirlich weiterentwickelt werden können.
+TiRU und M@PS leisten nicht nur einen Beitrag zur Erweiterung des OER-Angebots religionspädagogischer Arbeit, sondern fungieren zugleich als praxisnahe Referenzmodelle dafür, wie sich Offenheit und Qualitätsorientierung wechselseitig stärken und kontinuierlich weiterentwickelt werden können.
 
 
 ### Literaturangaben
