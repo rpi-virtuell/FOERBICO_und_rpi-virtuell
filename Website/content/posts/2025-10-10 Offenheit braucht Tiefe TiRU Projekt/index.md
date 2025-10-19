@@ -50,7 +50,6 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-# Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU
 
 OER eröffnen in der Lehrer:innenbildung neue didaktische Gestaltungsräume. Gleichzeitig stellen sie anspruchsvolle Fragen nach Qualität, Nachhaltigkeit und struktureller Anschlussfähigkeit. Im Spannungsfeld von Offenheit, fachwissenschaftlicher Fundierung und rechtlicher Absicherung gewinnt insbesondere die Berücksichtigung fachspezifischer - also religionspädagogischer - Qualitätsdimensionen an Bedeutung.  
 
