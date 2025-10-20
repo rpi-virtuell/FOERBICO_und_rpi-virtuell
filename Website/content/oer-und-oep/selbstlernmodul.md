@@ -102,7 +102,7 @@ Bild
 ❌ Ich darf das Material weitergeben & verbreiten.
 
 
-**Fazit:**
+👉 **Fazit:**
 
 - Privatnutzung ist erlaubt (lesen, anschauen, im Unterricht für sich selbst verwenden).
 
@@ -114,3 +114,29 @@ Bild
 
 
 **Beispielmaterial mit CC-Lizenz:**
+
+Bild
+
+✅ Ich darf das Material verwahren & vervielfältigen.
+
+✅ Ich darf das Material in verschiedenen Lernsituationen verwenden.
+
+✅ Ich darf das Material weiter verarbeiten & anpassen.
+
+✅ Ich darf das Material mit anderen Inhalten kombinieren & vermischen.
+
+✅ Ich darf das Material weitergeben & verbreiten.
+
+👉 **Fazit:**
+
+Ich darf das Material unter Angabe der Lizenz weiterverwenden anpassen & verbreiten.
+
+⚠️ Wichtig bei CC BY: 
+
+Namensnennung: Ich muss immer die Urheber:innen nennen.
+
+Bild Vergleich CC
+
+
+
+
