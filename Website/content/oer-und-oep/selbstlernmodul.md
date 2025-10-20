@@ -92,12 +92,18 @@ CC-Lizenzen im Überblick: https://creativecommons.org
 Bild
 
 ❌ Ich darf das Material verwahren & vervielfältigen.
+
 ❌ Ich darf das Material in verschiedenen Lernsituationen verwenden.
+
 ❌ Ich darf das Material weiter verarbeiten & anpassen.
+
 ❌ Ich darf das Material mit anderen Inhalten kombinieren & vermischen.
+
 ❌ Ich darf das Material weitergeben & verbreiten.
 
-Fazit: 
+
+**Fazit:**
+
 - Privatnutzung ist erlaubt (lesen, anschauen, im Unterricht für sich selbst verwenden).
 
 - Keine Weitergabe – weder im Kollegium noch online oder in einer Cloud etc.
