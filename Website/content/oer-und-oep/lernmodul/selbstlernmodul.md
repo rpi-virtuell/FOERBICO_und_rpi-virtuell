@@ -135,7 +135,7 @@ Ich darf das Material unter Angabe der Lizenz weiterverwenden anpassen & verbrei
 
 Namensnennung: Ich muss immer die Urheber:innen nennen.
 
-Bild Vergleich CC
+![](Vergleich Nutzung CC-Lizenz-KI-generiert.png)
 
 
 
