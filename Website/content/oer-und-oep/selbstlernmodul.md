@@ -10,15 +10,15 @@ OER bieten eine verlässliche Basis, die individuell angepasst und kreativ verä
 
 ## Was beudetet das für OER - die 5 Vs:
 
-Bild einfügen
-
-https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf
+![5V-Freiheiten-CC-by-4.0.jpg](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)
 
 „5 V-Freiheiten für Offenheit“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer)
 online abrufbar unter: https://open-educational-resources.de/5rs-auf-deutsch/ 
 Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Wie lautet das Grundrezept von OER, welche Zutaten braucht es?
+
+Wieso das Grundrezept, was bringt mir das usw.
 
 ## Das OER-Rezept zum Nachbacken 🍰
 
@@ -72,7 +72,6 @@ CC-Lizenzen im Überblick: https://creativecommons.org
 - **Datenschutz & Persönlichkeitsrechte:** Marken- & Persönlichkeitsrechte, Datenschutz oder Patente können zusätzliche Genehmigungen erfordern.
 
 - **Padlet & Task-Cards**: Ein urheberrechtlich geschütztes PDF darf nicht ohne Erlaubnis des Rechteinhabers öffentlich zugänglich gemacht werden – auch nicht in einer TaskCard, wenn diese von anderen eingesehen werden kann! Wenn die TaskCard öffentlich (als ab 2 Personen) zugänglich ist, braucht man eine ausdrückliche Erlaubnis des Rechteinhabers. Für dich privat darfst du ein solches PDF natürlich speichern und nutzen. Auch die TaskCard / Padlet darf nicht-öffentlich verwendet werden.
-
 
 ##### 3. Tipps & Tricks 💡
 
