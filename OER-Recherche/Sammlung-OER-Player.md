@@ -65,7 +65,7 @@
 - https://www.fachportal-paedagogik.de/
 - https://www.edutags.de/
 - https://www.pedocs.de/
-- https://rke.cidoli.de/webopac/index.asp?DB=w_cibuch
+- RKE-OPAC: https://eopac.net/comenius-institut/
 
 ## Videos
 
