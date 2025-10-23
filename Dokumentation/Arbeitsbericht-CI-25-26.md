@@ -14,6 +14,14 @@ Klammer "Hub"
 | **Community & Netzwerk**    | aktive, vernetzte OER-Communities             | Partizipation, Ökosystembildung   |
 | **Didaktik & Wissenschaft** | qualitätsgesicherte, reflexive Bildungspraxis | Professionalisierung, Innovation  |
 
+**Vorschlag Gina zur Einführung:**
+
+Der Arbeitsbereich Digitalisierung am Comenius-Institut versteht sich als Knotenpunkt, der digitale Netzwerke, Projekte und Aktivitäten miteinander verbindet. Ausgangspunkt ist dabei die Idee der digitalen Vernetzung als arbeitsbereichs- und institutionsübergreifendes Prinzip. Im Zentrum steht der Hub-Gedanke: religiöses Bildungshandeln sichtbar zu machen, Menschen zu vernetzen und bestehende Initiativen anschlussfähig zu gestalten – über den eigenen Arbeitsbereich/Tellerrand hinaus. Der entstehende Community-Hub bildet dafür den gemeinsamen Raum, in dem Akteurinnen und Akteure, Projekte und Infrastrukturen der religiösen Bildung zusammenwirken. In diesem Rahmen entfaltet sich die Dreigliedrigkeit des Digitalisierungsbereichs als integratives Konzept, das technische, soziale und fachlich-wissenschaftliche Dimensionen systematisch miteinander verbindet und gegenseitig stärkt.
+
+Würde dann weitermachen ab "Im Bereich Technik..."
+
+---
+
 Die Dreigliedrigkeit des Digitalisierungsbereichs am Comenius-Institut lässt sich als integratives Konzept verstehen, das technische, soziale und fachlich-wissenschaftliche Dimensionen des digitalen Bildungshandelns systematisch miteinander verbindet. Der entstehende Community-Hub bildet dabei die Klammer, in der diese drei Dimensionen ineinandergreifen und sich gegenseitig stärken.
 Im Bereich Technik und Infrastruktur stehen der Aufbau und die Pflege stabiler, offener und zunehmend KI-gestützter Plattformen im Zentrum. Sie bilden die technische Grundlage, auf der digitale Bildungsprozesse gestaltet, geteilt und weiterentwickelt werden können. Durch die konsequente Ausrichtung auf Nachhaltigkeit und Interoperabilität wird eine Infrastruktur geschaffen, die langfristig tragfähig ist und den Austausch über institutionelle Grenzen hinweg ermöglicht. Systeme wie rpi-virtuell, material.rpi-virtuell.de und oer.community fungieren dabei als technische Träger einer vernetzten Bildungslandschaft.
 Die Dimension Community und Netzwerk beschreibt das soziale Gefüge, das diese Infrastruktur mit Leben füllt. Hier entstehen durch Austausch, Kooperation und gemeinsame Verantwortung aktive OER-Communities, die offen, partizipativ und verlässlich miteinander arbeiten. Projekte wie relilab und FOERBICO zeigen exemplarisch, wie digitale Vernetzung und gemeinsames Lernen zur Bildung eines Ökosystems religionspädagogischer Akteure führen. Der Community-Gedanke trägt wesentlich dazu bei, digitale Bildung nicht nur technologisch, sondern auch sozial und kulturell nachhaltig zu gestalten.
