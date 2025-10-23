@@ -224,7 +224,9 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 **Beispielmaterial PDF ohne CC-Lizenz:**
 
 ❌ Ich kann die einzelnen Bausteine/Arbeitsblätter herunterladen.
+
 ❌ Das Material ist mit einer CC-Lizenz gekennzeichnet.
+
 ❌ Beschreibung, was einzelne Lerneinheiten beinhalten
 
 👉 **Fazit:**
@@ -234,7 +236,9 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 **Beispielmaterial Einzelmaterialien als Doc mit CC-Lizenz:**
 
 ✅ Ich kann die einzelnen Bausteine/Arbeitsblätter herunterladen.
+
 ✅ Das Material ist mit einer CC-Lizenz gekennzeichnet.
+
 ✅ Beschreibung, was einzelne Lerneinheiten beinhalten
 
 👉 **Fazit:** 
@@ -278,7 +282,7 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 #### 2. Welche Möglichkeiten gibt es?
 
-Grafik KI
+![](Offene Formate - KI-generiert.png)
 
 #### 3. Achtung - Fallstricke ⚠️
 
@@ -389,6 +393,7 @@ Man unterscheidet häufig:
 ❌ Keine Angabe der Metadaten: 
 *Formal:* Autor:in, Medientyp, Datum...
 *Didaktisch:* Zielgruppe, Lernzeit, Schwierigkeitsgrad...
+
 ❌ Keine Angabe der CC-Lizenz, Weiterverarbeitung &-verbreitung nicht möglich!
 
 👉 **Fazit:** 
