@@ -2,7 +2,7 @@
 
 Das OER-Grundrezept zeigt dir, wie du mit wenigen, gut verständlichen Schritten eigene offene Lehr- und Lernmaterialien (Open Educational Resources, kurz OER) erstellen kannst. OER sind frei verfügbare Materialien, die du rechtssicher nutzen, anpassen und teilen darfst – ein Gewinn für alle, die Bildung zugänglich und gemeinschaftlich gestalten möchten.
 
-In diesem Modul erfährst du:
+In diesem Selbstlernmodul erfährst du:
 
 ➡️ was OER sind und warum sie für Lehre, Schule und Weiterbildung so wertvoll sind,
 
@@ -487,3 +487,12 @@ Wie könnte man gut zusammenarbeiten & über die eigene Plattform hinaus denken?
 #### Tools - Veröffentlichung 🛠️
 
 
+## 🎉 Herzlichen Glückwunsch – du hast das OER-Grundrezept geschafft!
+
+Du weißt jetzt, welche grundlegenden Zutaten es braucht, um aus einem Material ein offenes, nachnutzbares OER zu machen: von der Lizenz über Modularisierung und offene Formate bis zu Metadaten und Veröffentlichung.
+
+Wie beim Backen gilt: Je öfter du es ausprobierst, desto leichter und intuitiver wird es. Mit jedem OER, das du erstellst, wächst deine Sicherheit und Kreativität – und du trägst dazu bei, Wissen offen und zugänglich zu machen.
+
+Wenn du Rückfragen hast oder Feedback geben möchtest, melde dich gerne bei:
+📧 [Gina Buchwald-Chassée / buchwald-chassee@comenius.de]
+💬 Wir freuen uns über deine Ideen, Erfahrungen und Anregungen!
