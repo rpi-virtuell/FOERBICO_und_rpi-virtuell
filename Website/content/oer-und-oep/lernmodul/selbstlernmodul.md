@@ -147,7 +147,7 @@ Welche Lizenz würdet ihr vergeben und warum?
 Sind Bild- und Textlizenz einzeln ausgewiesen? Muss die z.B. die Bildquelle noch hinzugefügt werden? 
 
 
-##### Tools - CC-Lizenzen 🛠️
+#### Tools - CC-Lizenzen 🛠️
 
 - **Welche CC-Lizenz nehme ich:** Hier können z.B. der [License Chooser von Creative Commons](https://creativecommons.org/chooser/), die [Infografik vom wb-web](https://wb-web.de/material/medien/die-cc-lizenzen-im-uberblick-welche-lizenz-fur-welche-zwecke-1.html) oder unsere [Entscheidungshilfe](https://oer.community/oer-und-oep/handout-cc-lizenzen.pdf) bei der Lizenzauswahl unterstützen. 
 
@@ -230,7 +230,7 @@ Sind einzelne Module im Material vorhanden? Wie könnte man sie als einzelne Ein
 
 Welche CC-Lizenz für welche Einheit (Bild, Quiz, Arbeitsblatt...)?
 
-##### Tools - Modularisierung 🛠️
+#### Tools - Modularisierung 🛠️
 
 Noch hinzufügen! 
 
@@ -280,9 +280,128 @@ Grafik KI
 
 #### 4. Hands-On: Konkret am Material 📝
 
-Beispiel geschlossen
+**Beispiel geschlossen**
 
-Beispiel offenes Format
+👉 **Fazit:** 
+
+**Beispiel offenes Format**
+
+
+👉 **Fazit:** 
+
+**Aufgabenkarte: Offenes Format**
+
+Wandelt ein geschlossenes Material in ein offenes Format um und haltet Herausforderungen, Gedanken & Ideen fest:
+
+Gibt es bereits Materialien in offenen Fomaten? Wie könnte man die anderen umwandeln?
+
+Wie könnte man Module direkt im offenen Format anbieten?
+
+#### Tools - Offenes Format 🛠️
+
+- **Converter**, z.B. : https://www.freeconvert.com/, https://tools.pdf24.org/de/pdf-converter, https://www.online-convert.com/de => ggf. Formatierungsprobleme
+- **Markdown**: Doku zum Workshop beim Projekt KlimaOER: https://oer.community/markdown-einfuehrung-klimaoer/, wer ausprobieren mag: https://t1p.de/MDAusprobieren
+
+## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig
+
+Einführungstext: worum es in dem Modul geht, was man erfährt...
+
+Video Corinna
+
+### Schritt 4: Metadaten 🏷️
+
+1. Was sind Metadaten & warum sind sie für OER wichtig?
+2. Welche Metadatenstandards gibt es? 
+3. Fallstricke & Tipps
+4. Hands-On: Füge den Materialien Metadaten hinzu
+
+#### 1. Was sind Metadaten?
+
+**Metadaten** = strukturierte Informationen über den Inhalt, um ihn auffindbar zu machen (quasi „Daten über Daten“). 
+Man unterscheidet häufig:
+
+**Formale Metadaten:** Beschreiben eher technische und organisatorische Eigenschaften. Beispiele: Titel, Autor:in, Medientyp (Video, Arbeitsblatt), Sprache, Datum, usw.
+
+**Inhaltliche Metadaten:** Beziehen sich auf die Didaktik & Pädagogik. Beispiele: Lernziele, Zielgruppe, Einsatzszenario, didaktisch-pädagogische Qualitätskriterien, Grad der Interaktivität.
+
+#### 1. Warum sind Metadaten für OER wichtig?
+
+**Auffindbarkeit & Transparenz:** Nur durch Metadaten (z.B. Titel, Autor:in...) können OER in Suchmaschinen, Repositorien oder Plattformen gezielt gefunden werden. Nutzer:innen können einschätzen, ob ein Material aktuell, vertrauenswürdig & passend ist und wie es verwendet werden kann.
+
+**Interoperabilität & Wiederverwendung:** Einheitliche Metadatenstandards ermöglichen Austausch zwischen Plattformen. Dadurch können Materialien leichter kombiniert, angepasst oder in neue Kontexte eingebettet werden.
+
+#### 2. Welche Metadatenstandards gibt es?
+
+- **[Dublin Core (DCMI)](https://www.dublincore.org/):** Einer der ältesten Metadatenstandards mit 15 Basisfeldern (z. B. Titel, Autor:in...).
+
+- **[LOM (Learning Object Metadata)](https://de.wikipedia.org/wiki/Learning_Objects_Metadata):** Für Bildungsressourcen entwickelt mit Kategorien wie Allgemein, Technische Angaben, Pädagogik.
+
+- **[schema.org](https://schema.org/):** Allgemeiner Web-Standard, von Suchmaschinen unterstützt.
+
+- **[Allgemeines Metadatenprofil für Bildungsressourcen (AMB)](https://open-educational-resources.de/tag/allgemeines-metadatenprofil-fuer-bildungsressourcen-amb/):** Für den deutschsprachigen Bildungsbereich entwickeltes Metadatenprofil. Definierte Pflicht- & optionale Felder für formale  & didaktische Metadaten.
+
+#### 3. Achtung - Fallstricke ⚠️
+
+- **Aufwand & Motivation:** Viele Lehrende sehen es als Zusatzarbeit und geben nur das Nötigste an → dadurch sinkt die Qualität und Nachnutzbarkeit.
+
+- **Uneinheitliche Standards:** Metadaten sind durch verschiedene Standards schwer zwischen Systemen austauschbar (Interoperabilitätsproblem).
+
+- **Technische Barrieren & Unvollständigkeit:** Nicht alle Plattformen machen die Eingabe von Metadaten benutzerfreundlich. Teilweise gibt es keine Pflichtfelder oder zu komplexe Eingabemasken.
+
+- **Konsistenz:** Freitextfelder (z.B. Schlagworte) werden unterschiedlich befüllt. Ohne einheitliches Vokabular entsteht „Wildwuchs” & erschwert die Suche.
+
+#### 3. Tipps & Tricks 💡
+
+- **Vorlagen & Checklisten nutzen:** Fertige Metadaten-Templates helfen, nichts zu vergessen. Z.B: https://projekt.oer.community/foerbicometa/metadata-generator.html
+
+- **Automatisierung einsetzen:** Viele Tools (z.B. H5P) erzeugen automatisch Basis-Metadaten wie Erstellungsdatum, Dateiformat...
+
+- **Copy & Paste aus bestehenden OER:** Bei ähnlichen Materialien kann man die Metadaten übernehmen & anpassen. Das spart Zeit und sorgt für Konsistenz.
+
+- **Metadaten im Arbeitsprozess integrieren:** Pflichtangaben wie Titel, Autor:in, Jahr, Lizenz etc. nicht vergessen, damit OER nicht nur offen liegt, sondern auch nutzbar ist.
+
+#### 4. Hands-On: Konkret am Material 📝
+
+**Beispiel ohne Metadaten**
+
+❌ Keine Angabe der Metadaten: 
+*Formal:* Autor:in, Medientyp, Datum...
+*Didaktisch:* Zielgruppe, Lernzeit, Schwierigkeitsgrad...
+❌ Keine Angabe der CC-Lizenz, Weiterverarbeitung &-verbreitung nicht möglich!
+
+👉 **Fazit:** 
+Du darfst das Material nur privat nutzen und kannst es ohne Angabe der Metadaten nicht finden & zitieren!
+
+**Beispiel mit Metadaten**
+
+
+👉 **Fazit:** 
+
+**Aufgabenkarte: Metadaten**
+
+Fügt eurem Material Metadaten hinzu und haltet Herausforderungen, Gedanken & Ideen auf einer roten Karte fest:
+
+Welche Pflichtmetadaten braucht es? Auf welchen Standard sollte man sich einigen?
+
+Wie könnte man die Angabe von Metadaten gut im Arbeitsprozess implementieren?
+
+
+#### Tools - Offenes Format 🛠️
+
+hinzufügen!
+
+## 🧂 Ohne Backpulver geht der Teig nicht auf, ohne Veröffentlichung von OER keine Verbreitung
+
+Einführungstext: worum es in dem Modul geht, was man erfährt...
+
+Video Corinna
+
+### Schritt 5: Veröffentlichung 🌐
+
+1. Wie veröffentliche ich mein OER-Material?
+2. Wo veröffentliche ich mein Material? Welche Plattformen/OER-Repositorien gibt es? 
+3. Fallstricke & Tipps
+4. Hands-On: Veröffentliche ein Material auf einer OER-Plattform
 
 
 
