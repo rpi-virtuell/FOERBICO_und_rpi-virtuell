@@ -739,19 +739,34 @@
         }
 
         function switchTab(tab) {
+            // Alle Container
             const articlesDiv = document.getElementById('articles');
             const eventsDiv = document.getElementById('events');
+            const efabiResourcesDiv = document.getElementById('efabi-resources');
+            const efabiEventsDiv = document.getElementById('efabi-events');
+            const efabiNetworkDiv = document.getElementById('efabi-network');
+            
+            const allContainers = [articlesDiv, eventsDiv, efabiResourcesDiv, efabiEventsDiv, efabiNetworkDiv];
+            
+            // Alle Buttons
             const btns = document.querySelectorAll('.tab-btn');
-
             btns.forEach(btn => btn.classList.remove('active'));
             event.target.classList.add('active');
 
+            // Verstecke alle Container
+            allContainers.forEach(container => container.classList.add('hidden'));
+
+            // Zeige nur den gewählten Container
             if (tab === 'articles') {
                 articlesDiv.classList.remove('hidden');
-                eventsDiv.classList.add('hidden');
-            } else {
-                articlesDiv.classList.add('hidden');
+            } else if (tab === 'events') {
                 eventsDiv.classList.remove('hidden');
+            } else if (tab === 'efabi-resources') {
+                efabiResourcesDiv.classList.remove('hidden');
+            } else if (tab === 'efabi-events') {
+                efabiEventsDiv.classList.remove('hidden');
+            } else if (tab === 'efabi-network') {
+                efabiNetworkDiv.classList.remove('hidden');
             }
         }
 
