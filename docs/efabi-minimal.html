@@ -638,21 +638,21 @@
             <div class="status connecting" id="status">Verbinde zu Relays...</div>
             
             <div class="tabs">
-                <button class="tab-btn active" onclick="switchTab('articles')">📄 FOERBICO Artikel</button>
+                <button class="tab-btn" onclick="switchTab('articles')">📄 FOERBICO Artikel</button>
                 <button class="tab-btn" onclick="switchTab('events')">📅 relilab Events</button>
             </div>
 
             <div class="tabs">
-                <button class="tab-btn" onclick="switchTab('efabi-resources')">📝 efabi Ressourcen</button>
+                <button class="tab-btn active" onclick="switchTab('efabi-resources')">📝 efabi Ressourcen</button>
                 <button class="tab-btn" onclick="switchTab('efabi-events')">📆 efabi Veranstaltungen</button>
                 <button class="tab-btn" onclick="switchTab('efabi-network')">👤 efabi Netzwerkstatt</button>
             </div>
         </header>
 
         <div class="loading" id="loading">Lade Inhalte...</div>
-        <div class="articles" id="articles"></div>
+        <div class="articles hidden" id="articles"></div>
         <div class="events hidden" id="events"></div>
-        <div class="articles hidden" id="efabi-resources"></div>
+        <div class="articles" id="efabi-resources"></div>
         <div class="events hidden" id="efabi-events"></div>
         <div class="network hidden" id="efabi-network"></div>
     </div>
