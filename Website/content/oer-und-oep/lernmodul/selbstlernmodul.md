@@ -1,6 +1,18 @@
 # Das OER-Grundrezept - mit wenigen Zutaten zum offenen Material
 
-Einführungstext: Ziel, für wen, Inhalt...
+Das OER-Grundrezept zeigt dir, wie du mit wenigen, gut verständlichen Schritten eigene offene Lehr- und Lernmaterialien (Open Educational Resources, kurz OER) erstellen kannst. OER sind frei verfügbare Materialien, die du rechtssicher nutzen, anpassen und teilen darfst – ein Gewinn für alle, die Bildung zugänglich und gemeinschaftlich gestalten möchten.
+
+In diesem Modul erfährst du:
+
+➡️ was OER sind und warum sie für Lehre, Schule und Weiterbildung so wertvoll sind,
+
+➡️ welche grundlegenden „Zutaten“ es braucht, um ein Material in ein OER zu verwandeln,
+
+➡️ wie du Schritt für Schritt von der Lizenz über das Format bis zur Veröffentlichung dein eigenes OER backst.
+
+Das OER-Grundrezept richtet sich an Lehrende, Bildungsverantwortliche und Interessierte, die lernen möchten, wie sie ihre Materialien offen teilen und dabei rechtliche Sicherheit, kreative Freiheit und nachhaltige Nutzung verbinden können.
+
+Egal, ob du neu in der OER-Welt bist oder bereits erste Erfahrungen hast – hier bekommst du die wichtigsten Grundlagen, praxisnahe Tipps und hilfreiche Werkzeuge, um dein eigenes OER „nach Rezept“ zu gestalten.
 
 ## Was sind eigentlich Open Educational Resources (OER)? 🤔
 
@@ -18,7 +30,9 @@ Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Wie lautet das Grundrezept von OER, welche Zutaten braucht es?
 
-Wieso das Grundrezept, was bringt mir das usw.
+Damit ein Lern- und Lehrmaterial wirklich offen, rechtssicher und nachnutzbar ist, braucht es ein paar grundlegende „Zutaten“. Genau diese zeigt das OER-Grundrezept.
+
+Das Grundrezept hilft dir, dein Material so aufzubereiten, dass andere es verwenden, anpassen und weiterentwickeln können – und du selbst von der Arbeit anderer profitierst. Du lernst, worauf es bei Lizenzen, Struktur, Formaten, Metadaten und Veröffentlichung ankommt und wie daraus ein rundes, „gelingsicheres“ OER entsteht.
 
 ## Das OER-Rezept zum Nachbacken 🍰
 
@@ -34,7 +48,9 @@ Wieso das Grundrezept, was bringt mir das usw.
 
 ## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER! 
 
-Einführungstext: worum es in dem Modul geht, was man erfährt...
+Wie das Mehl beim Backen ist die Lizenz die wichtigste Grundlage für jedes OER: Ohne sie hält nichts zusammen und niemand weiß, was erlaubt ist.
+
+In diesem Modul lernst du, warum Lizenzen so wichtig sind und wie du dein Material rechtssicher öffnest. Du erfährst, welche Creative-Commons-Lizenzen (CC-Lizenzen) es gibt, was sie erlauben – und wo Fallstricke lauern können. Außerdem bekommst du praktische Tipps, wie du dein Material korrekt kennzeichnest und so anderen die Nachnutzung erleichterst.
 
 Video Corinna
 
@@ -157,9 +173,9 @@ Sind Bild- und Textlizenz einzeln ausgewiesen? Muss die z.B. die Bildquelle noch
 
 ## 🧈 Fett im Gebäck, einzelne Elemente miteinander verbinden für flexible OER
 
-Dein Material hat eine CC-Lizenz? Großartig! 
+Du hast nun das „Mehl“ (die Lizenz) als Basis, nun kommt das Fett ins Gebäck: die Modularisierung. Sie sorgt dafür, dass dein Material flexibel, kombinierbar und wiederverwendbar wird.
 
-Einführungstext: worum es in dem Modul geht, was man erfährt...
+In diesem Modul lernst du, wie du dein OER in kleine, in sich geschlossene Bausteine zerlegst, die unabhängig voneinander genutzt oder mit anderen Modulen kombiniert werden können. Du erfährst, warum Modularisierung für Anpassbarkeit, Nachnutzbarkeit und kreative Freiheit so entscheidend ist – und worauf du achten musst, damit der „rote Faden“ erhalten bleibt.
 
 Video Corinna
 
@@ -236,9 +252,9 @@ Noch hinzufügen!
 
 ## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer
 
-Wie du bereits gemerkt hast, ist die Modularisierung von geschlossenen Formaten gar nicht so einfach!
+Nachdem dein Material lizenziert und modular aufgebaut ist, kommt die Süße ins Gebäck: das offene Format. Nur in offenen Formaten kann dein OER wirklich bearbeitet, angepasst und weitergegeben werden – sonst bleibt es starr wie ein trockener Kuchen.
 
-Einführungstext: worum es in dem Modul geht, was man erfährt...
+In diesem Modul lernst du, warum offene Formate (z. B. ODT, Markdown, H5P) so wichtig für OER sind und wie sie die Nachnutzung, Barrierefreiheit und Flexibilität erleichtern. Du erfährst, welche Formate sich eignen, welche Fallstricke es gibt und wie du bestehende geschlossene Materialien in offene Formate überführst.
 
 Video Corinna
 
@@ -304,7 +320,9 @@ Wie könnte man Module direkt im offenen Format anbieten?
 
 ## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig
 
-Einführungstext: worum es in dem Modul geht, was man erfährt...
+Nach Lizenzierung, Modularisierung und offenen Formaten kommt die Milch ins Gebäck: die Metadaten. Sie geben deinem OER Struktur, Kontext und Auffindbarkeit – ohne sie bleibt dein Material zwar offen, aber schwer nutzbar.
+
+In diesem Modul lernst du, was Metadaten sind, warum sie für OER so wichtig sind und wie du sie richtig anlegst. Du erfährst, welche Standards existieren (z. B. Dublin Core, LOM, schema.org), welche Pflicht- und optionale Angaben sinnvoll sind und wie Metadaten die Suche, Nutzung und Weitergabe deiner Materialien erleichtern.
 
 Video Corinna
 
@@ -392,7 +410,9 @@ hinzufügen!
 
 ## 🧂 Ohne Backpulver geht der Teig nicht auf, ohne Veröffentlichung von OER keine Verbreitung
 
-Einführungstext: worum es in dem Modul geht, was man erfährt...
+Nachdem dein OER lizenziert, modular aufgebaut, offen formatiert und mit Metadaten angereichert ist, fehlt nur noch das Backpulver: die Veröffentlichung. Sie sorgt dafür, dass dein Material wirklich genutzt, geteilt und weiterentwickelt wird – sonst bleibt dein OER im „Ofen“ stecken.
+
+In diesem Modul lernst du, wie du dein OER sicher und sichtbar veröffentlichst. Du erfährst, welche Plattformen, Repositorien und Formate sich eignen, welche Fallstricke es bei rechtlicher Sicherheit, Metadaten und Barrierefreiheit gibt und wie du die Verbreitung deiner Materialien langfristig sicherstellst.
 
 Video Corinna
 
