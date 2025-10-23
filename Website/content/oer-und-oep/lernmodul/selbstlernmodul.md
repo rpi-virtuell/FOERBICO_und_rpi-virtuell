@@ -504,5 +504,7 @@ Du weißt jetzt, welche grundlegenden Zutaten es braucht, um aus einem Material 
 Wie beim Backen gilt: Je öfter du es ausprobierst, desto leichter und intuitiver wird es. Mit jedem OER, das du erstellst, wächst deine Sicherheit und Kreativität – und du trägst dazu bei, Wissen offen und zugänglich zu machen.
 
 Wenn du Rückfragen hast oder Feedback geben möchtest, melde dich gerne bei:
+
 📧 [Gina Buchwald-Chassée / buchwald-chassee@comenius.de]
+
 💬 Wir freuen uns über deine Ideen, Erfahrungen und Anregungen!
