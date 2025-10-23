@@ -404,4 +404,66 @@ Video Corinna
 4. Hands-On: Veröffentliche ein Material auf einer OER-Plattform
 
 
+#### 1. Wie veröffentliche ich mein OER-Material?
+
+1. **Materialprüfung:** Material inhaltlich, didaktisch & rechtlich prüfen. Fremdmaterial nur mit Lizenzhinweis nutzen, korrekt zitieren.
+2. **Lizenzhinweis:** Empfohlen: CC-BY (Namensnennung, sonst freie Nutzung). Eher vermeiden: ND (keine Bearbeitung), sonst Nachnutzung stark eingeschränkt.
+3. **Technische Aufbereitung:** Offene, verbreitete Formate nutzen (z.B. ODT). Möglichst barrierearm gestalten (Alt-Texte, klare Struktur).
+4. **Plattform/Repositorium auswählen:** Je nach Zielgruppe und Reichweite, über die eigene Homepage hinaus.
+5. **Metadaten & Beschreibung hinzufügen:** Mind. Pflichtangaben (z.B. Titel) & kurze Einführung ins Material (Worum geht’s, wofür?).
+6. **Verbreitung:** z.B. auf Social Media, im Newsletter oder im Rahmen von Events
+
+#### 2. Wo veröffentliche ich mein OER-Material?
+
+**Deutschsprachige OER-Repositorien:**
+*Schule:* z.B. [edu-sharing](https://oer-contentbuffet.info/edu-sharing/components/search) / [WirLernenOnline](https://wirlernenonline.de/), [Mundo](https://mundo.schule)
+*Hochschule:* z.B. [OERSI](https://oersi.org/), [twillo](https://www.twillo.de/), Landes- oder Hochschulrepositorien z.B. [ZOERR](https://www.oerbw.de/)
+*Fachbezogen:* z.B. [rpi-virtuell](https://rpi-virtuell.de/), [relilab](https://relilab.org/) oder [religionsunterricht.net](https://religionsunterricht.net/) mit Fokus auf Religionspädagogik
+
+**Weitere Möglichkeiten:** 
+*Repositorien:* z.B. GitHub/GitLab für Materialien mit Versionierung
+*Selbstveröffentlichung:* Eigene Plattform/Webseite, [Moodle-Instanz](https://moodle.org/) oder Nextcloud (wenn frei zugänglich, dann als Share-Link teilbar)
+*Dezentraler Datenraum:* auf Basis des Social Media Protokolls [Nostr](https://nostr.com/) / [Edufeed](https://www.edufeed.org/), mehr dazu unter https://oer.community/edufeed-pitch/
+
+#### 3. Achtung - Fallstricke ⚠️
+
+- **Rechtliches:** Fehlende CC-Hinweise & Quellenangaben.
+
+- **Fehlender Kontext & Metadaten:** Materialien ohne Beschreibung oder Einführung wirken schwer nutzbar & ohne Metadaten schwer auffindbar.
+
+- **Nachhaltigkeit & Aktualität:** Materialien werden hochgeladen, aber nie aktualisiert (veraltete Inhalte).
+
+- **Unsicherheit:** Viele Lehrende kennen Lizenzen und Plattformen nicht → Angst vor Fehlern.
+
+- **Zeitaufwand:** Da Plattformen kaum miteinander vernetzt sind, müssen Materialien überall manuell eingetragen werden.
+
+#### 3. Tipps & Tricks 💡
+
+- Materialien mit klarer Beschreibung & in offenen Formaten veröffentlichen + „Didaktische Hinweise“ mitgeben: Wofür eignet sich das Material, wie kann es eingesetzt werden?
+- Gleich beim Erstellen darauf achten, nur frei lizenzierte Inhalte zu verwenden → später viel Aufwand gespart.
+- Versionierungen nutzen, damit Änderungen nachvollziehbar sind.
+- Publikation auf langfristig gesicherten Plattformen (z.B. rpi-virtuell) statt nur auf der eigenen Homepage.
+- Materialien explizit als OER kennzeichnen → Vorbildfunktion.
+- Verbreitung an relevante Akteur:innen (z.B. über Newsletter/Social Media)
+
+#### 4. Hands-On: Konkret am Material 📝
+
+**Beispiel nur bei sich**
+
+👉 **Fazit:** 
+
+**Beispiel in relilab -> OERSI...**
+
+👉 **Fazit:** 
+
+**Aufgabenkarte - Veröffentlichung**
+
+Wo würdet ihr Materialien veröffentlichen und haltet Herausforderungen, Gedanken & Ideen fest:
+
+Welche Plattformen fallen euch ein? Wie könnte man für die weitere Verbreitung sorgen?
+
+Wie könnte man gut zusammenarbeiten & über die eigene Plattform hinaus denken?
+
+#### Tools - Veröffentlichung 🛠️
+
 
