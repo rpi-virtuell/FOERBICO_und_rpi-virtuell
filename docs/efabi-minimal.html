@@ -143,7 +143,7 @@
             gap: 28px;
         }
 
-        .articles.hidden, .events.hidden {
+        .articles.hidden, .events.hidden, .network.hidden {
             display: none;
         }
 
@@ -757,16 +757,22 @@
             allContainers.forEach(container => container.classList.add('hidden'));
 
             // Zeige nur den gewählten Container
+            console.log('[SWITCH-TAB] Selected tab:', tab);
             if (tab === 'articles') {
                 articlesDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing articles');
             } else if (tab === 'events') {
                 eventsDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing events');
             } else if (tab === 'efabi-resources') {
                 efabiResourcesDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing efabi-resources, innerHTML length:', efabiResourcesDiv.innerHTML.length);
             } else if (tab === 'efabi-events') {
                 efabiEventsDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing efabi-events, innerHTML length:', efabiEventsDiv.innerHTML.length);
             } else if (tab === 'efabi-network') {
                 efabiNetworkDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing efabi-network, innerHTML length:', efabiNetworkDiv.innerHTML.length);
             }
         }
 
@@ -988,9 +994,9 @@
                     authors: [efabiHex],
                     limit: 50
                 };
-                console.log('🔍 EFABI Ressourcen-Filter:', efabiResourceFilter);
+                console.log('[LOAD] EFABI Ressourcen-Filter:', efabiResourceFilter);
                 efabiResources = await pool.querySync(relays, efabiResourceFilter);
-                console.log('📥 EFABI Ressourcen erhalten:', efabiResources.length);
+                console.log('[LOAD] EFABI Ressourcen erhalten:', efabiResources.length, 'kind:', efabiResources[0]?.kind);
 
                 // Lade EFABI Veranstaltungen (NIP-52: Calendar Events)
                 const efabiEventFilter = {
@@ -998,9 +1004,9 @@
                     authors: [efabiHex],
                     limit: 50
                 };
-                console.log('🔍 EFABI Event-Filter:', efabiEventFilter);
+                console.log('[LOAD] EFABI Event-Filter:', efabiEventFilter);
                 efabiEvents = await pool.querySync(relays, efabiEventFilter);
-                console.log('📥 EFABI Events erhalten:', efabiEvents.length);
+                console.log('[LOAD] EFABI Events erhalten:', efabiEvents.length, 'kind:', efabiEvents[0]?.kind);
 
                 // Lade EFABI Netzwerkstatt Profile (NIP-05: User Metadata)
                 const efabiNetworkFilter = {
@@ -1008,9 +1014,9 @@
                     authors: [efabiHex],
                     limit: 50
                 };
-                console.log('🔍 EFABI Netzwerkstatt-Filter:', efabiNetworkFilter);
+                console.log('[LOAD] EFABI Netzwerkstatt-Filter:', efabiNetworkFilter);
                 efabiNetwork = await pool.querySync(relays, efabiNetworkFilter);
-                console.log('📥 EFABI Netzwerk-Profile erhalten:', efabiNetwork.length);
+                console.log('[LOAD] EFABI Netzwerk-Profile erhalten:', efabiNetwork.length, 'kind:', efabiNetwork[0]?.kind);
 
                 console.log('✅ FOERBICO Artikel geladen:', articles.length);
                 console.log('✅ relilab Events geladen:', events.length);
@@ -1041,6 +1047,11 @@
 
         function renderEfabiResources() {
             const container = document.getElementById('efabi-resources');
+            console.log('[RENDER-EFABI-RESOURCES] Container:', container);
+            console.log('[RENDER-EFABI-RESOURCES] efabiResources.length:', efabiResources.length);
+            if (efabiResources.length > 0) {
+                console.log('[RENDER-EFABI-RESOURCES] First event kind:', efabiResources[0].kind);
+            }
             
             if (efabiResources.length === 0) {
                 container.innerHTML = '<div class="no-items">Keine efabi Ressourcen gefunden.</div>';
@@ -1093,6 +1104,11 @@
 
         function renderEfabiEvents() {
             const container = document.getElementById('efabi-events');
+            console.log('[RENDER-EFABI-EVENTS] Container:', container);
+            console.log('[RENDER-EFABI-EVENTS] efabiEvents.length:', efabiEvents.length);
+            if (efabiEvents.length > 0) {
+                console.log('[RENDER-EFABI-EVENTS] First event kind:', efabiEvents[0].kind);
+            }
             
             if (efabiEvents.length === 0) {
                 container.innerHTML = '<div class="no-items">Keine efabi Veranstaltungen gefunden.</div>';
@@ -1168,6 +1184,11 @@
 
         function renderEfabiNetwork() {
             const container = document.getElementById('efabi-network');
+            console.log('[RENDER-EFABI-NETWORK] Container:', container);
+            console.log('[RENDER-EFABI-NETWORK] efabiNetwork.length:', efabiNetwork.length);
+            if (efabiNetwork.length > 0) {
+                console.log('[RENDER-EFABI-NETWORK] First event kind:', efabiNetwork[0].kind);
+            }
             
             if (efabiNetwork.length === 0) {
                 container.innerHTML = '<div class="no-items">Keine Netzwerk-Profile gefunden.</div>';
