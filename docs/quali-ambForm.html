@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMB-Formular: Religiöse Bildung</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.6; }
+  h1, h2 { color: #3a3a7a; }
+  section { border: 2px solid #ccc; padding: 1rem; margin-bottom: 1.5rem; border-radius: 10px; background: #fafafa; }
+  label { font-weight: 600; display: block; margin-top: 0.5rem; }
+  input, textarea, select { width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #bbb; border-radius: 5px; }
+  textarea { min-height: 4rem; }
+  .btn { display: inline-block; margin-top: 1rem; padding: 0.75rem 1.25rem; background: #3a3a7a; color: white; border: none; border-radius: 6px; cursor: pointer; }
+  .btn:hover { background: #2a2a66; }
+  pre { background: #f0f0f0; padding: 1rem; border-radius: 6px; overflow-x: auto; }
+</style>
+</head>
+<body>
+
+<h1>Konsequenzen für religiöse Bildung – AMB-Metadatenschema</h1>
+<p>
+Diese Vorlage unterstützt die Beschreibung von Lernressourcen im Fach <strong>Religionspädagogik</strong>
+im Einklang mit Kompetenzorientierung, Bildungsplänen der Bundesländer und KI-Kompetenzen.
+</p>
+
+<form id="ambForm">
+
+<section>
+  <h2>Allgemeine Angaben</h2>
+  <label for="title">Titel der Ressource</label>
+  <input id="title" type="text" placeholder="z. B. Interreligiöser Dialog im Schulkontext">
+
+  <label for="description">Beschreibung</label>
+  <textarea id="description" placeholder="Kurzbeschreibung der Ressource"></textarea>
+
+  <label for="creator">Autor / Ersteller</label>
+  <input id="creator" type="text">
+
+  <label for="publisher">Herausgeber / Institution</label>
+  <input id="publisher" type="text">
+
+  <label for="dateCreated">Erstellungsdatum</label>
+  <input id="dateCreated" type="date">
+
+  <label for="license">Lizenz</label>
+  <input id="license" type="text" placeholder="z. B. CC BY-SA 4.0">
+</section>
+
+<section>
+  <h2>Fach- und Lernbereichsbezug</h2>
+  <label for="educationalSubject">Fach</label>
+  <select id="educationalSubject">
+    <option value="">– bitte wählen –</option>
+    <option>Religionspädagogik</option>
+    <option>Ethik und Religion</option>
+    <option>Interreligiöser Dialog</option>
+    <option>Religiöse Bildung</option>
+  </select>
+
+  <label for="learningResourceType">Ressourcentyp</label>
+  <select id="learningResourceType">
+    <option value="">– bitte wählen –</option>
+    <option>Unterrichtseinheit</option>
+    <option>Materialsammlung</option>
+    <option>Video / Medienmodul</option>
+    <option>Forschungsdokumentation</option>
+  </select>
+
+  <label for="educationalLevel">Bildungsstufe</label>
+  <select id="educationalLevel">
+    <option value="">– bitte wählen –</option>
+    <option>Grundschule</option>
+    <option>Sekundarstufe I</option>
+    <option>Sekundarstufe II</option>
+    <option>Erwachsenenbildung</option>
+  </select>
+
+  <label for="typicalLearningTime">Typische Lernzeit</label>
+  <input id="typicalLearningTime" type="text" placeholder="z. B. 90 Minuten">
+</section>
+
+<section>
+  <h2>Kompetenzorientierung</h2>
+  <label for="learningOutcome">Lernergebnis / Zielkompetenz</label>
+  <textarea id="learningOutcome" placeholder="Nach Abschluss dieser Einheit können Lernende …"></textarea>
+
+  <h3>Educational Alignment</h3>
+  <label for="targetName">Kompetenzname</label>
+  <input id="targetName" type="text" placeholder="z. B. Urteilskompetenz">
+  <label for="targetFramework">Kompetenzrahmen</label>
+  <input id="targetFramework" type="text" placeholder="z. B. KMK-Kompetenzstruktur Evangelische Religion 2023">
+  <label for="targetUrl">URL zur Kompetenzbeschreibung</label>
+  <input id="targetUrl" type="url" placeholder="https://w3id.org/religion/competences#judgement">
+</section>
+
+<section>
+  <h2>Didaktische Hinweise & Qualitätssicherung</h2>
+  <label for="didacticComment">Didaktischer Kommentar</label>
+  <textarea id="didacticComment"></textarea>
+
+  <label for="differentiationHint">Hinweise zur Differenzierung</label>
+  <textarea id="differentiationHint"></textarea>
+
+  <label for="evaluationNote">Evaluation / Erprobung</label>
+  <textarea id="evaluationNote" placeholder="z. B. in Klasse 9 erprobt, Peer Review durch Fachkollegium"></textarea>
+
+  <label for="usabilityContext">Einsatzkontext</label>
+  <input id="usabilityContext" type="text" placeholder="z. B. Gymnasium, Sek. I, konfessionell-kooperativ">
+
+  <label for="peerReview">Peer-Review oder Qualitätssicherung</label>
+  <input id="peerReview" type="text">
+</section>
+
+<section>
+  <h2>Freitext / Ergänzungen</h2>
+  <label for="notes">Zusätzliche Anmerkungen</label>
+  <textarea id="notes" placeholder="Freiraum für kreative oder schulformspezifische Ergänzungen"></textarea>
+</section>
+
+<button type="button" class="btn" onclick="generateJSON()">JSON erzeugen</button>
+
+</form>
+
+<h2>JSON-Ausgabe</h2>
+<pre id="output">{}</pre>
+
+<script>
+function generateJSON() {
+  const data = {
+    "@context": "https://w3id.org/amb/context.jsonld",
+    "type": "LearningResource",
+    "title": document.getElementById("title").value,
+    "description": document.getElementById("description").value,
+    "creator": document.getElementById("creator").value,
+    "publisher": document.getElementById("publisher").value,
+    "dateCreated": document.getElementById("dateCreated").value,
+    "license": document.getElementById("license").value,
+    "educationalSubject": document.getElementById("educationalSubject").value,
+    "educationalLevel": document.getElementById("educationalLevel").value,
+    "learningResourceType": document.getElementById("learningResourceType").value,
+    "typicalLearningTime": document.getElementById("typicalLearningTime").value,
+    "learningOutcome": document.getElementById("learningOutcome").value,
+    "educationalAlignment": {
+      "targetName": document.getElementById("targetName").value,
+      "alignmentType": "educationalFramework",
+      "targetFramework": document.getElementById("targetFramework").value,
+      "targetUrl": document.getElementById("targetUrl").value
+    },
+    "didacticComment": document.getElementById("didacticComment").value,
+    "differentiationHint": document.getElementById("differentiationHint").value,
+    "evaluationNote": document.getElementById("evaluationNote").value,
+    "usabilityContext": document.getElementById("usabilityContext").value,
+    "peerReview": document.getElementById("peerReview").value,
+    "notes": document.getElementById("notes").value
+  };
+  document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+}
+</script>
+
+</body>
+</html>
