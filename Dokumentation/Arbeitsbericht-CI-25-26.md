@@ -1,5 +1,12 @@
 # arbeitsbericht erarbeitung
 
+---
+
+## !!!ACHTUNG!!! - hier ab sofort  **nicht weiterarbeiten ab heute 29.10.2025** sondern in der Nextlcoud unter 1_Institut -> 3_Ber_Pl -> 2025-2026 
+
+----
+
+
 
 ## DREIGLIEDRIGKEIT
 Klammer "Hub"
