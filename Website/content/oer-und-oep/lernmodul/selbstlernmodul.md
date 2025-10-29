@@ -350,7 +350,7 @@ Man unterscheidet häufig:
 
 **Inhaltliche Metadaten:** Beziehen sich auf die Didaktik & Pädagogik. Beispiele: Lernziele, Zielgruppe, Einsatzszenario, didaktisch-pädagogische Qualitätskriterien, Grad der Interaktivität.
 
-#### 1. Warum sind Metadaten für OER wichtig?
+#### 2. Warum sind Metadaten für OER wichtig?
 
 **Auffindbarkeit & Transparenz:** Nur durch Metadaten (z.B. Titel, Autor:in...) können OER in Suchmaschinen, Repositorien oder Plattformen gezielt gefunden werden. Nutzer:innen können einschätzen, ob ein Material aktuell, vertrauenswürdig & passend ist und wie es verwendet werden kann.
 
@@ -413,7 +413,7 @@ Welche Pflichtmetadaten braucht es? Auf welchen Standard sollte man sich einigen
 Wie könnte man die Angabe von Metadaten gut im Arbeitsprozess implementieren?
 
 
-#### Tools - Offenes Format 🛠️
+#### Tools - Metadaten 🛠️
 
 hinzufügen!
 
