@@ -21,6 +21,7 @@ Der Arbeitsbereich Digitalisierung am Comenius-Institut versteht sich als Knoten
 Würde dann weitermachen ab "Im Bereich Technik..."
 
 ---
+Vorschlag Corinna
 
 Die Dreigliedrigkeit des Digitalisierungsbereichs am Comenius-Institut lässt sich als integratives Konzept verstehen, das technische, soziale und fachlich-wissenschaftliche Dimensionen des digitalen Bildungshandelns systematisch miteinander verbindet. Der entstehende Community-Hub bildet dabei die Klammer, in der diese drei Dimensionen ineinandergreifen und sich gegenseitig stärken.
 Im Bereich Technik und Infrastruktur stehen der Aufbau und die Pflege stabiler, offener und zunehmend KI-gestützter Plattformen im Zentrum. Sie bilden die technische Grundlage, auf der digitale Bildungsprozesse gestaltet, geteilt und weiterentwickelt werden können. Durch die konsequente Ausrichtung auf Nachhaltigkeit und Interoperabilität wird eine Infrastruktur geschaffen, die langfristig tragfähig ist und den Austausch über institutionelle Grenzen hinweg ermöglicht. Systeme wie rpi-virtuell, material.rpi-virtuell.de und oer.community fungieren dabei als technische Träger einer vernetzten Bildungslandschaft.
