@@ -548,7 +548,7 @@ root((Lerngegenstand))
 
 * Mößle, L. & Pirker, V. (2024). Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?, Theo-Web. Zeitschrift für Religionspädagogik, 23 (2), 159–170. [https://www.theo-web.de/fileadmin/user\_upload/theo-web/pdfs/23-jahrgang-2024-heft-2/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open.pdf](https://www.theo-web.de/fileadmin/user_upload/theo-web/pdfs/23-jahrgang-2024-heft-2/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open.pdf).
 
-* Pirker, V. & Pirner, M. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont, Theo-Web. Zeitschrift für Religionspädagogik, 24 (1) \[im Erscheinen].
+* Pirker, V. & Pirner, M. (2025). Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont, Theo-Web. Zeitschrift für Religionspädagogik, 24 (1), 153-185. (https://doi.org/10.58069/theow.2025.1.51$0) 
 
 * Pirner, M. (2017). Menschenrechtspädagogik, in: Wissenschaftlich Religionspädagogisches Lexikon im Internet, 1–9, [https://www.wirelex.de/](https://www.wirelex.de/).
 
