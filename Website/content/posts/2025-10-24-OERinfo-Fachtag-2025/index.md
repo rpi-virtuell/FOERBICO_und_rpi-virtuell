@@ -14,7 +14,7 @@ Offenheit in der Bildung ist kein Randthema mehr – sie betrifft zunehmend das 
 
 Im Fishbowl „OER on Stage: User-Stories“ diskutierten Franziska Mucha (usOER) und Verena Zimper (providOER) mit dem Publikum über konkrete Erfahrungen im Umgang mit offenen Materialien.
 
-Die Gesprächsrunde, begleitet von intensiven Beiträgen aus der Community, orientierte sich entlang zentrale Fragen:
+Die Gesprächsrunde, begleitet von intensiven Beiträgen aus der Community, orientierte sich entlang zentraler Fragen:
 
 - Wie behalten wir den Überblick über Materialien, Plattformen und Lizenzen?
 - Was passiert eigentlich mit den erstellten OER – werden sie gefunden, genutzt, weiterentwickelt?
@@ -36,7 +36,7 @@ In „Build the Stage: Infrastruktur zum Mitmachen“ konnten Teilnehmende selbs
 ### Forschung und internationale Perspektiven
 
 Am Nachmittag boten Marktstände und Posterpräsentationen einen Überblick über aktuelle Projekte aus Forschung und Entwicklung. Den internationalen Schlusspunkt setzte Dr. Robert Farrow (Open University, UK) mit seinem Vortrag „Elements of an Open Ecosystem“.
-Farrow beleuchtete Offenheit als dynamisches, fragiles und evolvierendes Habitat von Werten – beeinflusst durch technologische, politische und kulturelle Faktoren. Besonders der Einsatz von Künstlicher Intelligenz rücke neue Fragen nach Zugang, Abhängigkeit und Gerechtigkeit in den Fokus.
+Farrow beleuchtete Offenheit als dynamisches, fragiles und evolvierendes Habitat von Werten – beeinflusst durch technologische, politische und kulturelle Faktoren. Besonders der Einsatz von Künstlicher Intelligenz rücke derzeit neue Fragen nach Zugang, Abhängigkeit und Gerechtigkeit in den Fokus.
 
 ## Zentrale Fragen und Felder
 
@@ -48,7 +48,10 @@ Die Vielfalt an OER-Materialien, Plattformen und Lizenzmodellen ist Chance und H
 
 ### Black Box Nutzung
 
-Ein bisher kaum beleuchtete Frage ist, was mit OER-Materialien nach ihrer Veröffentlichung geschieht. Oft endet der Produktionsprozess mit dem Upload – und was danach passiert, bleibt eine Black box. Dabei wäre es zentral zu wissen, wie Materialien tatsächlich genutzt, verändert und weiterentwickelt werden. Dafür braucht es zwei Dinge: Anreize für Autor*innen, ihre überarbeiteten Materialien wieder zu teilen, und eine passende Infrastruktur, die diesen Rückfluss ermöglicht. 
+Ein bisher kaum beleuchtete Frage ist, was mit OER-Materialien nach ihrer Veröffentlichung geschieht. Oft endet der Produktionsprozess mit dem Upload – und was danach passiert, bleibt eine Black Box. Dabei wäre es zentral zu wissen, wie Materialien tatsächlich genutzt, verändert und weiterentwickelt werden. 
+Dafür braucht es zwei Dinge: 
+- Anreize für Autor*innen, ihre überarbeiteten Materialien wieder zu teilen
+- eine passende Infrastruktur, die diesen Rückfluss ermöglicht
 Der von FOERBICO geplante Community Hub setzt genau hier an und möchte diesen Bruch in der OER-Kette schließen. Wir halten euch auf darüber natürlich auf dem Laufenden!
 
 ### Qualität von OER
@@ -65,7 +68,7 @@ Trotz zahlreicher Praxisbeispiele wissen wir bislang erstaunlich wenig über die
 
 OER leben von Zugänglichkeit. Doch Zugänglichkeit braucht Ordnung. Immer häufiger wird daher der Ruf nach Standardisierung von Metadaten laut – ergänzt um didaktische Metadaten, die pädagogische Intentionen und Lernziele erfassen. 
 
-Erst kürzlich entstand auch innerhalb von FOERBICO die Überlegung, religionspädagogische Metadatenstandards zu entwickeln. Diese könnten nicht nur die Auffindbarkeit verbessern, sondern auch KI-Bots dabei unterstützen, passende Materialien für bestimmte Lernkontexte zu identifizieren und mit den richtigen Nutzer:innen zu verknüpfen.
+Seit kurzem denken wir auch innerhalb von FOERBICO darüber nach, religionspädagogische Metadatenstandards zu entwickeln. Diese könnten nicht nur die Auffindbarkeit verbessern, sondern auch KI-Bots dabei unterstützen, passende Materialien für bestimmte Lernkontexte zu identifizieren und mit den richtigen Nutzer:innen zu verknüpfen.
 
 ### Fehlende Anerkennung 
 
@@ -73,9 +76,9 @@ Ein wiederkehrendes Thema ist der Mangel an Anerkennung für die Erstellung von 
 
 ### Blick in die Zukunft 
 
-Der Konsens: Austausch, Support und Beratung werden als entscheidende Hebel gesehen. Eine zentrale Plattform allein löst die Probleme nicht. Stattdessen braucht es vernetzte, dezentrale Strukturen, die Metadaten, Nutzungsinformationen und Attributionsdaten bündelt. Im Kontext von Bildungsstrukturen gilt Dezentralität als Ideal. Sie steht für Vielfalt, Eigenverantwortung und Offenheit – Werte, die auch im OER-Gedanken zentral sind. Dezentral organisierte Netzwerke können Innovation und Qualität in der Bildungsarbeit stärken, wenn sie durch gemeinsame Standards und transparente Strukturen verbunden bleiben.So könnten Anerkennung und Sichtbarkeit für OER-Akteur:innen wachsen. 
+Der Konsens: Austausch, Support und Beratung werden als entscheidende Hebel gesehen. Eine zentrale Plattform allein löst die Probleme nicht. Sinnvoller sind gut vernetzte, dezentrale Strukturen, die Metadaten, Nutzungsinformationen und Attributionsdaten bündeln. Im Kontext von Bildungsstrukturen gilt Dezentralität als Ideal. Sie steht für Vielfalt, Eigenverantwortung und Offenheit – Werte, die dem Gedanken offener Bildung entsprechen. Dezentral organisierte Netzwerke können Innovation und Qualität in der Bildungsarbeit stärken, wenn sie durch gemeinsame Standards und transparente Strukturen verbunden bleiben. So könnten Anerkennung und Sichtbarkeit für OER-Akteur:innen wachsen. 
 
-Dennoch: Die Realität ist komplex: „Wir kriegen die Player nicht zusammen“, hieß es mehrfach – ein Hinweis darauf, dass Koordination, Peers und politische Unterstützung entscheidend bleiben, um Offenheit langfristig zu sichern.
+Dennoch ist die Realität komplex: „Wir kriegen die Player nicht zusammen“, hieß es mehrfach – ein Hinweis darauf, dass Koordination, Peers und politische Unterstützung entscheidend bleiben, um Offenheit langfristig zu sichern.
 
 
 ## Fazit: Offenheit ist kein Selbstläufer
@@ -83,4 +86,4 @@ Dennoch: Die Realität ist komplex: „Wir kriegen die Player nicht zusammen“,
 Offene Bildungsressourcen entstehen und wirken nur dann nachhaltig, wenn sie eingebettet sind in unterstützende Infrastrukturen, klare Verantwortlichkeiten und gelebte Kooperation.
 
 Für das FOERBICO-Team war der OERinfo-Fachtag 2025 eine wichtige Impulsveranstaltung: für die weitere Auseinandersetzung mit OER-Beratung, Praxisnähe und Vernetzung, aber auch für die Frage, wie offene Bildungslandschaften stärker integriert, sichtbar und wertgeschätzt werden können.
-Doch neben Infrastrukturen stehen immer auch die Menschen im Fokus und so bot der Fachtag eine wunderbare Gelegenheit miteinander ins Gespräch zu kommen, gemeinsam an Lösungen zu denken und tiefere Einblicke in die OER-Communities zu erhalten. Zugleich zeigte sich, dass das FOERBICO gut unterwegs ist und bereits an einigen Stellen aktiv nach konkreten Lösungsmöglichkeiten sucht.
+Doch neben Infrastrukturen stehen immer auch die Menschen im Fokus und so bot der Fachtag eine wunderbare Gelegenheit miteinander ins Gespräch zu kommen, gemeinsam an Lösungen zu denken und tiefere Einblicke in die OER-Communities zu erhalten. Zugleich sehen wir, dass das FOERBICO gut unterwegs ist und bereits an offenen Fragen aktiv nach konkreten Lösungsmöglichkeiten sucht.
