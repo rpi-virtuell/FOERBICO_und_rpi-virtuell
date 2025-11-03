@@ -74,7 +74,10 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 #### 2. Welche Lizenzen gibt es?
 
-Bild Übersicht
+![](https://www.tourismusnetzwerk-franken.de/data/thumbs/img/12032397_cc-lizenzen.png.png)
+
+Bearbeitet von Michael Fuchs, Original: Ruhr-Uni Bochum, eScouts OER, Christine Ruthenfranz, CC-BY-SA 4.0
+Stand: 02.05.2019
 
 CC-Lizenzen im Überblick: https://creativecommons.org
 
