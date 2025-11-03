@@ -1,8 +1,59 @@
-# Gemeinsam für mehr Offenheit – Eindrücke vom OERinfo-Fachtag 2025 in Frankfurt
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/oerinfo-fachtag-2025
+name: 'Gemeinsam für mehr Offenheit – Eindrücke vom OERinfo-Fachtag 2025 in Frankfurt'
+description: >-
+  Am 24. Oktober 2025 fand am DIPF in Frankfurt der zweite OERinfo-Fachtag unter dem Motto „Gemeinsam für mehr Offenheit“ statt. Thema war digitale und offene Bildungsinfrastrukturen. Das FOERBICO-Team war mit dabei - im Blogbeitrag erhaltet ihr weitere Einblicke.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Florian
+    familyName: Mayrhofer
+    id: https://orcid.org/0000-0003-1900-3052
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: 20251024_100342.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2025-11-03'
+#staticSiteGenerator:
+author:
+  - Florian Mayrhofer
+  - Gina Buchwald-Chassée
+title: 'Gemeinsam für mehr Offenheit – Eindrücke vom OERinfo-Fachtag 2025 in Frankfurt'
+cover:
+  relative: true
+  image: 20251024_100342.jpg
+  hidddenInSingle: false
+  alt: 'OERinfo-Fachtag'
+summary: >-
+  Am 24. Oktober 2025 fand am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main der zweite OERinfo-Fachtag unter dem Motto „Gemeinsam für mehr Offenheit“ statt. Im Mittelpunkt stand das Thema „Bildungsinfrastrukturen, digital und offen – usOER, researchOER und providOER im Trialog“. Vom FOERBICO-Team nahmen Florian Mayrhofer (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut Münster) teil, die ihre Erfahrungen und Perspektiven zu offenen Bildungsressourcen teilten.
+url: oerinfo-fachtag-2025
+tags:
+  - FOERBICO in Kontakt
+  - OER-Strategie
+  - Community
+  - Vernetzung
+  - Open Educational Resources (OER)
+---
 
 Am 24. Oktober 2025 fand am [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/de/startseite) in Frankfurt am Main der zweite [OERinfo-Fachtag](https://open-educational-resources.de/oerinfo-fachtag-2/) statt – diesmal unter dem Motto „Gemeinsam für mehr Offenheit“. Das Schwerpunktthema: „Bildungsinfrastrukturen, digital und offen – usOER, researchOER und providOER im Trialog“.
 
-Mit dabei waren Florian Mayrhofer ([Goethe-Universität Frankfurt, Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Religionsp%C3%A4dagogik_und_Mediendidaktik)) und Gina Buchwald-Chassée ([Comenius-Institut Münster](https://comenius.de/) vom FOERBICO-Team, die hier ihre Einblicke mit euch teilen.
+Mit dabei waren Florian Mayrhofer ([Goethe-Universität Frankfurt, Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Religionsp%C3%A4dagogik_und_Mediendidaktik)) und Gina Buchwald-Chassée ([Comenius-Institut Münster](https://comenius.de/)) vom FOERBICO-Team, die hier ihre Einblicke mit euch teilen.
+
+![](OERinfo-Fachtag-2025.jpg)
 
 ## Austausch zwischen Nutzer:innen, Forschung und Entwicklung
 
@@ -52,6 +103,7 @@ Ein bisher kaum beleuchtete Frage ist, was mit OER-Materialien nach ihrer Veröf
 Dafür braucht es zwei Dinge: 
 - Anreize für Autor*innen, ihre überarbeiteten Materialien wieder zu teilen
 - eine passende Infrastruktur, die diesen Rückfluss ermöglicht
+
 Der von FOERBICO geplante Community Hub setzt genau hier an und möchte diesen Bruch in der OER-Kette schließen. Wir halten euch auf darüber natürlich auf dem Laufenden!
 
 ### Qualität von OER
