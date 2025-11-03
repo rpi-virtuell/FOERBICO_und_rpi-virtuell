@@ -86,7 +86,7 @@ In „Build the Stage: Infrastruktur zum Mitmachen“ konnten Teilnehmende selbs
 
 ### Forschung und internationale Perspektiven
 
-Am Nachmittag boten Marktstände und Posterpräsentationen einen Überblick über aktuelle Projekte aus Forschung und Entwicklung. Den internationalen Schlusspunkt setzte Dr. Robert Farrow (Open University, UK) mit seinem Vortrag „Elements of an Open Ecosystem“.
+Am Nachmittag boten Marktstände und Posterpräsentationen einen Überblick über aktuelle Projekte aus Forschung und Entwicklung. Den internationalen Schlusspunkt setzte [Dr. Robert Farrow (Open University, UK)](https://iet.open.ac.uk/people/rob.farrow) mit seinem Vortrag „Elements of an Open Ecosystem“.
 Farrow beleuchtete Offenheit als dynamisches, fragiles und evolvierendes Habitat von Werten – beeinflusst durch technologische, politische und kulturelle Faktoren. Besonders der Einsatz von Künstlicher Intelligenz rücke derzeit neue Fragen nach Zugang, Abhängigkeit und Gerechtigkeit in den Fokus.
 
 ## Zentrale Fragen und Felder
@@ -101,14 +101,14 @@ Die Vielfalt an OER-Materialien, Plattformen und Lizenzmodellen ist Chance und H
 
 Ein bisher kaum beleuchtete Frage ist, was mit OER-Materialien nach ihrer Veröffentlichung geschieht. Oft endet der Produktionsprozess mit dem Upload – und was danach passiert, bleibt eine Black Box. Dabei wäre es zentral zu wissen, wie Materialien tatsächlich genutzt, verändert und weiterentwickelt werden. 
 Dafür braucht es zwei Dinge: 
-- Anreize für Autor*innen, ihre überarbeiteten Materialien wieder zu teilen
+- Anreize für Autor:innen, ihre überarbeiteten Materialien wieder zu teilen
 - eine passende Infrastruktur, die diesen Rückfluss ermöglicht
 
 Der von FOERBICO geplante Community Hub setzt genau hier an und möchte diesen Bruch in der OER-Kette schließen. Wir halten euch auf darüber natürlich auf dem Laufenden!
 
 ### Qualität von OER
 
-Ein häufig genanntes Problem in der OER-Praxis ist die Materialproduktion. Oft bringen Produzent*innen bereits fertige Lehrmaterialien mit, die anschließend an OER-Standards angepasst werden müssen – ein Prozess, der viel Zeit und Detailarbeit erfordert. 
+Ein häufig genanntes Problem in der OER-Praxis ist die Materialproduktion. Oft bringen Produzent:innen bereits fertige Lehrmaterialien mit, die anschließend an OER-Standards angepasst werden müssen – ein Prozess, der viel Zeit und Detailarbeit erfordert. 
 
 Für religionsbezogene OER stehen seit kurzem die von FOERBICO entwickelten [Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) zur Verfügung. Sie setzen für das religionsbezogene Lehren und Lernen einen wichtigen Impuls: Sie machen sichtbar, worauf es bei offen zugänglichen Bildungsmaterialien wirklich ankommt – nicht nur auf die Offenheit, sondern auch auf pädagogische Qualität (mehr dazu im kürzlich veröffentlichen Blogbeitrag [Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU](https://oer.community/digitale-offenheit-braucht-tiefe/)).
 
@@ -138,4 +138,4 @@ Dennoch ist die Realität komplex: „Wir kriegen die Player nicht zusammen“, 
 Offene Bildungsressourcen entstehen und wirken nur dann nachhaltig, wenn sie eingebettet sind in unterstützende Infrastrukturen, klare Verantwortlichkeiten und gelebte Kooperation.
 
 Für das FOERBICO-Team war der OERinfo-Fachtag 2025 eine wichtige Impulsveranstaltung: für die weitere Auseinandersetzung mit OER-Beratung, Praxisnähe und Vernetzung, aber auch für die Frage, wie offene Bildungslandschaften stärker integriert, sichtbar und wertgeschätzt werden können.
-Doch neben Infrastrukturen stehen immer auch die Menschen im Fokus und so bot der Fachtag eine wunderbare Gelegenheit miteinander ins Gespräch zu kommen, gemeinsam an Lösungen zu denken und tiefere Einblicke in die OER-Communities zu erhalten. Zugleich sehen wir, dass das FOERBICO gut unterwegs ist und bereits an offenen Fragen aktiv nach konkreten Lösungsmöglichkeiten sucht.
+Doch neben Infrastrukturen stehen immer auch die Menschen im Fokus und so bot der Fachtag eine wunderbare Gelegenheit miteinander ins Gespräch zu kommen, gemeinsam an Lösungen zu denken und tiefere Einblicke in die OER-Communities zu erhalten. Zugleich sehen wir, dass das Projekt FOERBICO gut unterwegs ist und bereits an offenen Fragen aktiv nach konkreten Lösungsmöglichkeiten sucht.
