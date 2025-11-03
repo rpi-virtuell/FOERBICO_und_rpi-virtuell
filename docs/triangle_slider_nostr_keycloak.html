@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>3-Achsen-Dreiecks-Slider – Nostr & Keycloak</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+      background: #FFFFFF;
+      color: #3A4F66;
+    }
+
+    h1 {
+      font-size: 1.3rem;
+      text-align: center;
+      color: #FAAC00;
+      font-weight: 700;
+    }
+
+    h1 small {
+      font-size: 0.9rem;
+      color: #3A4F66;
+      font-weight: 500;
+    }
+
+    h2 {
+      color: #192A3D;
+      font-weight: 600;
+    }
+
+    h3, h4, h5, h6 {
+      color: #3A4F66;
+      font-weight: 600;
+    }
+
+    a {
+      color: #3F40F7;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: #00A8CC;
+    }
+
+    ::selection {
+      background-color: #1559ED;
+      color: #FFFFFF;
+    }
+
+    .triangle-wrapper {
+      position: relative;
+      width: 320px;
+      height: 280px;
+      min-width: 280px;
+      background: #FFFFFF;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(21, 89, 237, 0.1);
+      border: 2px solid #E1E8ED;
+      padding: 1rem;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .handle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #3F40F7 0%, #1559ED 100%);
+      border: 3px solid white;
+      box-shadow: 0 2px 8px rgba(63, 64, 247, 0.4);
+      transform: translate(-50%, -50%);
+      cursor: grab;
+      transition: box-shadow 0.2s ease;
+      z-index: 10;
+    }
+
+    .handle:hover {
+      box-shadow: 0 4px 16px rgba(63, 64, 247, 0.6);
+    }
+
+    .handle:active {
+      cursor: grabbing;
+    }
+
+    /* Größere Hit-Area für Touch */
+    .handle::before {
+      content: '';
+      position: absolute;
+      inset: -10px;
+      border-radius: 50%;
+    }
+
+    .values {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #FFFFFF;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 2px solid #E1E8ED;
+      box-shadow: 0 2px 8px rgba(58, 79, 102, 0.05);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .value-item {
+      flex: 1;
+      min-width: 120px;
+      text-align: center;
+    }
+
+    .value-label {
+      font-size: 0.8rem;
+      color: #3A4F66;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .value-number {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #192A3D;
+    }
+
+    .value-unit {
+      font-size: 1rem;
+      color: #3A4F66;
+    }
+
+    .value-bar {
+      width: 100%;
+      height: 4px;
+      background: #E1E8ED;
+      border-radius: 2px;
+      margin-top: 0.75rem;
+      overflow: hidden;
+    }
+
+    .value-bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      transition: width 0.15s ease;
+    }
+
+    #bar-u .value-bar-fill,
+    #bar-u {
+      background: linear-gradient(90deg, #FAAC00 0%, #FFD966 100%);
+    }
+
+    #bar-s .value-bar-fill,
+    #bar-s {
+      background: linear-gradient(90deg, #3F40F7 0%, #1559ED 100%);
+    }
+
+    #bar-d .value-bar-fill,
+    #bar-d {
+      background: linear-gradient(90deg, #00A8CC 0%, #00CED1 100%);
+    }
+
+    .presets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .presets button {
+      border: 2px solid #E1E8ED;
+      background: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: #3A4F66;
+    }
+
+    .presets button:hover {
+      border-color: #3F40F7;
+      background: #F8F9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(63, 64, 247, 0.15);
+    }
+
+    .presets button.active {
+      background: linear-gradient(135deg, #3F40F7 0%, #1559ED 100%);
+      color: white;
+      border-color: #3F40F7;
+      box-shadow: 0 4px 16px rgba(63, 64, 247, 0.3);
+    }
+
+    .presets button:active {
+      transform: translateY(0);
+    }
+
+    .actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .actions button {
+      padding: 0.6rem 1.2rem;
+      border: 2px solid #E1E8ED;
+      background: white;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: #3A4F66;
+    }
+
+    .actions button:hover {
+      background: #F8F9FF;
+      border-color: #3F40F7;
+    }
+
+    .legend {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      border-top: 2px solid #E1E8ED;
+      padding-top: 1.5rem;
+      max-width: 720px;
+      width: 100%;
+      color: #3A4F66;
+    }
+
+    .legend h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #192A3D;
+      font-weight: 600;
+    }
+
+    .legend dl {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .legend dt {
+      font-weight: 600;
+      color: #192A3D;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .legend dt::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .legend dt:nth-of-type(3n+1)::before {
+      background: #FAAC00;
+    }
+
+    .legend dt:nth-of-type(3n+2)::before {
+      background: #3F40F7;
+    }
+
+    .legend dt:nth-of-type(3n)::before {
+      background: #00A8CC;
+    }
+
+    .legend dd {
+      margin: 0 0 0 1.5rem;
+      color: #3A4F66;
+    }
+
+    .legend dd strong {
+      color: #192A3D;
+    }
+
+    @media (min-width: 640px) {
+      .legend dl {
+        grid-template-columns: 1.1fr 2.4fr;
+      }
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #192A3D;
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 6px;
+      box-shadow: 0 4px 16px rgba(25, 42, 61, 0.3);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    .toast.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Balance: Nutzerfreundlichkeit – Sicherheit – Datensouveränität<br>
+    <small>(Onboarding zu Nostr über Keycloak)</small>
+  </h1>
+
+  <div class="triangle-wrapper" id="triangle-wrapper" role="slider" 
+       aria-label="Balancier-Dreieck zwischen Nutzerfreundlichkeit, Sicherheit und Datensouveränität"
+       aria-valuemin="0" aria-valuemax="100" tabindex="0">
+    <svg viewBox="0 0 300 260">
+      <!-- Dreiecksfläche mit Farbverlauf -->
+      <defs>
+        <linearGradient id="triGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#FAAC00;stop-opacity:0.08" />
+          <stop offset="50%" style="stop-color:#3F40F7;stop-opacity:0.08" />
+          <stop offset="100%" style="stop-color:#00A8CC;stop-opacity:0.08" />
+        </linearGradient>
+      </defs>
+      <polygon points="150,20 20,240 280,240"
+               fill="url(#triGrad)"
+               stroke="#3F40F7"
+               stroke-width="2" />
+
+      <!-- Hilfslinien -->
+      <line x1="150" y1="20"  x2="150" y2="240"
+            stroke="#E1E8ED" stroke-dasharray="4 4" stroke-width="1" />
+      <line x1="20"  y1="240" x2="215" y2="130"
+            stroke="#E1E8ED" stroke-dasharray="4 4" stroke-width="1" />
+      <line x1="280" y1="240" x2="85"  y2="130"
+            stroke="#E1E8ED" stroke-dasharray="4 4" stroke-width="1" />
+
+      <!-- Labels an den Ecken mit efabi-Farben -->
+      <text x="150" y="10" text-anchor="middle" font-size="12" font-weight="600" fill="#FAAC00">
+        Nutzerfreundlichkeit
+      </text>
+      <text x="8" y="255" text-anchor="start" font-size="12" font-weight="600" fill="#3F40F7">
+        Sicherheit
+      </text>
+      <text x="292" y="255" text-anchor="end" font-size="12" font-weight="600" fill="#00A8CC">
+        Datensouveränität
+      </text>
+    </svg>
+
+    <div class="handle" id="handle"></div>
+  </div>
+
+  <!-- Anzeige der aktuellen Gewichte -->
+  <div class="values">
+    <div class="value-item">
+      <div class="value-label">Nutzerfreundlichkeit</div>
+      <div class="value-number"><span id="val-u">33</span><span class="value-unit">%</span></div>
+      <div class="value-bar" id="bar-u">
+        <div class="value-bar-fill" style="width: 33%"></div>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="value-label">Sicherheit</div>
+      <div class="value-number"><span id="val-s">33</span><span class="value-unit">%</span></div>
+      <div class="value-bar" id="bar-s">
+        <div class="value-bar-fill" style="width: 33%"></div>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="value-label">Datensouveränität</div>
+      <div class="value-number"><span id="val-d">33</span><span class="value-unit">%</span></div>
+      <div class="value-bar" id="bar-d">
+        <div class="value-bar-fill" style="width: 33%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Preset-Buttons -->
+  <div class="presets">
+    <button data-preset="balanced" class="active"
+      title="Ausgewogener Ansatz: UX, Sicherheit und Datensouveränität im Gleichgewicht.">
+      ⚖️ Ausgewogen
+    </button>
+    <button data-preset="ux"
+      title="NSEC zentral als Attribut in Keycloak, Nostr-Schlüsselmanagement weitgehend versteckt.">
+      ⚡ UX first
+    </button>
+    <button data-preset="security"
+      title="Schlüssel bleibt beim Nutzenden (Signer/Client), Keycloak nur für Web-Login.">
+      🔒 Security first
+    </button>
+    <button data-preset="data"
+      title="NSEC clientseitig verschlüsselt, maximale Kontrolle beim Nutzenden.">
+      👤 Data first
+    </button>
+    <button data-preset="compliance"
+      title="Bunker unter Organisationskontrolle, starke Policies & Audits.">
+      ✅ Compliance
+    </button>
+  </div>
+
+  <!-- Aktionen -->
+  <div class="actions">
+    <button id="btn-export" title="Aktuelle Auswahl herunterladen">📥 Exportieren</button>
+    <button id="btn-reset" title="Auf Standard zurücksetzen">🔄 Zurücksetzen</button>
+  </div>
+
+  <!-- Legende -->
+  <section class="legend">
+    <h2>📖 Was bedeutet die Position im Dreieck?</h2>
+    <dl>
+      <dt>Nutzerfreundlichkeit (oben)</dt>
+      <dd>
+        Hoher Wert: Onboarding „ein Klick", kaum Schlüsselbegriffe, wenig Reibung.
+        Niedriger Wert: mehr Erklärungen, Bestätigungen, zusätzliche Schritte (z.B. Seed-Backup, Passphrasen).
+      </dd>
+
+      <dt>Sicherheit (links unten)</dt>
+      <dd>
+        Hoher Wert: starke Trennung von Systemen, minimale Angriffsfläche, Härtung von Diensten, wenig Vollzugriffe.
+        Niedriger Wert: mehr Komfort, aber größere Folgen bei Kompromittierung einzelner Komponenten.
+      </dd>
+
+      <dt>Datensouveränität (rechts unten)</dt>
+      <dd>
+        Hoher Wert: Nutzende behalten Kontrolle über ihre Nostr-Schlüssel und Relays, Transparenz, Export/Exit möglich.
+        Niedriger Wert: mehr Bequemlichkeit, aber stärkere Bindung an zentrale Infrastruktur.
+      </dd>
+    </dl>
+
+    <h2>📚 Beispiele: Nostr-Onboarding über Keycloak</h2>
+    <dl>
+      <dt>UX first (nsec in Keycloak)</dt>
+      <dd>
+        <strong>Architektur:</strong> NSEC wird einmalig erzeugt und als verschlüsseltes Attribut in Keycloak gespeichert.
+        Web-App holt den Schlüssel via Token und signiert Events server- oder clientseitig automatisch.<br>
+        <strong>Effekt im Dreieck:</strong> Sehr hohe Nutzerfreundlichkeit („Einloggen & fertig"),
+        aber starke Abhängigkeit von Keycloak als „single point of failure" und zentrale Stelle für Schlüsselkompromittierung.
+        Datensouveränität ist begrenzt, Export/Relay-Wechsel eher ein Power-User-Feature.
+      </dd>
+
+      <dt>Security first (Key beim User)</dt>
+      <dd>
+        <strong>Architektur:</strong> NSEC liegt ausschließlich beim Nutzenden (z.B. Nostr-Signer-App, Browser-Extension).
+        Keycloak macht nur OIDC-Login, Nostr erfolgt über NIP-46/Delegation oder lokale Signatur.
+        Server sieht den NSEC nie.<br>
+        <strong>Effekt im Dreieck:</strong> Sehr hohe Sicherheit und hohe Datensouveränität, weil der Schlüssel
+        nicht in deiner Infrastruktur liegt. UX leidet: zusätzliche App/Extension, mehr Erklärungsbedarf,
+        Onboarding-Schritte für „Signer verbinden".
+      </dd>
+
+      <dt>Data first (Bunker + Schlüsselverschlüsselung)</dt>
+      <dd>
+        <strong>Architektur:</strong> NSEC wird verschlüsselt (z.B. mit Nutzer-Passphrase oder Key aus Keycloak-Token)
+        in einem dedizierten Bunker/Key-Service gespeichert. Signaturen laufen über den Bunker, der nur „entschlüsseln & signieren" kann,
+        ohne den Klartext-Schlüssel breit verfügbar zu machen.<br>
+        <strong>Effekt im Dreieck:</strong> Hohe Datensouveränität (klar definierter Schlüsselort, theoretisch portierbar),
+        hohe Sicherheit (Schlüssel nur entschlüsselt im Bunker-Kontext),
+        UX mittel: etwas mehr Erklärung („Was ist Bunker?"), aber ins UI gut integrierbar.
+      </dd>
+
+      <dt>Compliance-Modus (Org-Bunker mit Policies)</dt>
+      <dd>
+        <strong>Architektur:</strong> Bunker/Key-Service wird von der Organisation betrieben,
+        mit Logging, Rollen, evtl. HSM/Hardware-Backends. Keycloak-Login erteilt nur zeitlich begrenzte
+        Delegationen/Session-Keys für den Bunker. Richtlinien definieren, wer wann signieren darf (z.B. nur Dienstaccounts,
+        nur bestimmte Kinds, nur bestimmte Relays).<br>
+        <strong>Effekt im Dreieck:</strong> Sicherheit und Compliance sehr hoch,
+        Datensouveränität eher organisationsbezogen als individuell.
+        UX je nach UI: für Redakteur:innen kann es noch recht smooth sein, aber spontane Privatnutzung ist eingeschränkt.
+      </dd>
+
+      <dt>Ausgewogen (Balanced)</dt>
+      <dd>
+        <strong>Architektur:</strong> Kombination, z.B.:
+        Keycloak für komfortablen Login, NSEC im Bunker mit guter UI,
+        einfache Ex-/Import-Funktionen für Schlüssel, klare Info-Texte („Wo liegt mein Schlüssel?").<br>
+        <strong>Effekt im Dreieck:</strong> Kein Extrem: genug Komfort für Alltag,
+        genug Sicherheit/Datensouveränität für Bildungs-Infrastruktur,
+        ohne Nutzer:innen mit Kryptodetails zu erschlagen.
+      </dd>
+    </dl>
+  </section>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ===== KONFIGURATION =====
+    const CONFIG = {
+      triangle: {
+        A: { x: 150, y: 20 },   // Nutzerfreundlichkeit
+        B: { x: 20, y: 240 },   // Sicherheit
+        C: { x: 280, y: 240 }   // Datensouveränität
+      },
+      viewBox: { width: 300, height: 260 },
+      storageKey: 'triangleBalance'
+    };
+
+    const PRESETS = {
+      balanced: { alpha: 1/3, beta: 1/3, gamma: 1/3 },
+      ux: { alpha: 0.65, beta: 0.20, gamma: 0.15 },
+      security: { alpha: 0.25, beta: 0.55, gamma: 0.20 },
+      data: { alpha: 0.25, beta: 0.25, gamma: 0.50 },
+      compliance: { alpha: 0.20, beta: 0.45, gamma: 0.35 }
+    };
+
+    // ===== DOM ELEMENTE =====
+    const wrapper = document.getElementById('triangle-wrapper');
+    const handle = document.getElementById('handle');
+    const valU = document.getElementById('val-u');
+    const valS = document.getElementById('val-s');
+    const valD = document.getElementById('val-d');
+    const barU = document.querySelector('#bar-u .value-bar-fill');
+    const barS = document.querySelector('#bar-s .value-bar-fill');
+    const barD = document.querySelector('#bar-d .value-bar-fill');
+    const presetButtons = document.querySelectorAll('.presets button');
+    const btnExport = document.getElementById('btn-export');
+    const btnReset = document.getElementById('btn-reset');
+    const toast = document.getElementById('toast');
+
+    let dragging = false;
+    let currentPreset = 'balanced';
+
+    // ===== UTILITIES =====
+    function getPointerCoords(evt) {
+      if (evt.touches && evt.touches.length > 0) {
+        return { clientX: evt.touches[0].clientX, clientY: evt.touches[0].clientY };
+      }
+      return { clientX: evt.clientX, clientY: evt.clientY };
+    }
+
+    function showToast(message, duration = 2500) {
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, duration);
+    }
+
+    // ===== BARYZENTRISCHE KOORDINATEN =====
+    function cartesianToBarycentric(P) {
+      const { A, B, C } = CONFIG.triangle;
+      const denom = (B.y - C.y) * (A.x - C.x) + (C.x - B.x) * (A.y - C.y);
+
+      const alpha = ((B.y - C.y) * (P.x - C.x) + (C.x - B.x) * (P.y - C.y)) / denom;
+      const beta = ((C.y - A.y) * (P.x - C.x) + (A.x - C.x) * (P.y - C.y)) / denom;
+      const gamma = 1 - alpha - beta;
+
+      return { alpha, beta, gamma };
+    }
+
+    function barycentricToCartesian(b) {
+      const { A, B, C } = CONFIG.triangle;
+      return {
+        x: b.alpha * A.x + b.beta * B.x + b.gamma * C.x,
+        y: b.alpha * A.y + b.beta * B.y + b.gamma * C.y
+      };
+    }
+
+    function clampBarycentric(b) {
+      let { alpha, beta, gamma } = b;
+      alpha = Math.max(0, alpha);
+      beta = Math.max(0, beta);
+      gamma = Math.max(0, gamma);
+
+      let sum = alpha + beta + gamma;
+      if (sum === 0) {
+        alpha = beta = gamma = 1/3;
+        sum = 1;
+      }
+
+      return {
+        alpha: alpha / sum,
+        beta: beta / sum,
+        gamma: gamma / sum
+      };
+    }
+
+    function setHandleFromBarycentric(bary, save = true) {
+      const p = barycentricToCartesian(bary);
+      handle.style.left = p.x + 'px';
+      handle.style.top = p.y + 'px';
+
+      const u = Math.round(bary.alpha * 100);
+      const s = Math.round(bary.beta * 100);
+      const d = Math.round(bary.gamma * 100);
+
+      valU.textContent = u;
+      valS.textContent = s;
+      valD.textContent = d;
+
+      barU.style.width = u + '%';
+      barS.style.width = s + '%';
+      barD.style.width = d + '%';
+
+      // ARIA aktualisieren
+      wrapper.setAttribute('aria-valuenow', u);
+      wrapper.setAttribute('aria-valuetext', `Nutzerfreundlichkeit ${u}%, Sicherheit ${s}%, Datensouveränität ${d}%`);
+
+      if (save) {
+        saveState(bary);
+        currentPreset = null;
+        updatePresetButtons();
+      }
+    }
+
+    function updateFromPointer(evt) {
+      const rect = wrapper.getBoundingClientRect();
+      const { clientX, clientY } = getPointerCoords(evt);
+
+      const x = clientX - rect.left;
+      const y = clientY - rect.top;
+
+      const scaleX = CONFIG.viewBox.width / rect.width;
+      const scaleY = CONFIG.viewBox.height / rect.height;
+
+      const P = { x: x * scaleX, y: y * scaleY };
+
+      let bary = cartesianToBarycentric(P);
+      bary = clampBarycentric(bary);
+      setHandleFromBarycentric(bary);
+    }
+
+    // ===== STORAGE =====
+    function saveState(bary) {
+      try {
+        localStorage.setItem(CONFIG.storageKey, JSON.stringify({
+          alpha: bary.alpha,
+          beta: bary.beta,
+          gamma: bary.gamma,
+          timestamp: Date.now()
+        }));
+      } catch (e) {
+        console.warn('localStorage nicht verfügbar');
+      }
+    }
+
+    function loadState() {
+      try {
+        const saved = localStorage.getItem(CONFIG.storageKey);
+        if (saved) {
+          return JSON.parse(saved);
+        }
+      } catch (e) {
+        console.warn('localStorage Fehler');
+      }
+      return { alpha: 1/3, beta: 1/3, gamma: 1/3 };
+    }
+
+    // ===== PRESETS =====
+    function applyPreset(name) {
+      const bary = PRESETS[name] || PRESETS.balanced;
+      currentPreset = name;
+      setHandleFromBarycentric(bary, true);
+      updatePresetButtons();
+      showToast(`✅ Preset „${name}" angewendet`);
+    }
+
+    function updatePresetButtons() {
+      presetButtons.forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-preset') === currentPreset);
+      });
+    }
+
+    // ===== EXPORT =====
+    function exportState() {
+      const state = {
+        nutzerfreundlichkeit: parseInt(valU.textContent),
+        sicherheit: parseInt(valS.textContent),
+        datensouveränität: parseInt(valD.textContent),
+        exportiert: new Date().toLocaleString('de-DE')
+      };
+
+      const dataStr = JSON.stringify(state, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `balance-${Date.now()}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+
+      showToast('📥 Auswahl exportiert');
+    }
+
+    // ===== EVENT LISTENER =====
+    wrapper.addEventListener('mousedown', (evt) => {
+      dragging = true;
+      updateFromPointer(evt);
+    });
+
+    wrapper.addEventListener('touchstart', (evt) => {
+      dragging = true;
+      updateFromPointer(evt);
+    }, { passive: false });
+
+    window.addEventListener('mousemove', (evt) => {
+      if (!dragging) return;
+      updateFromPointer(evt);
+    });
+
+    window.addEventListener('touchmove', (evt) => {
+      if (!dragging) return;
+      evt.preventDefault();
+      updateFromPointer(evt);
+    }, { passive: false });
+
+    window.addEventListener('mouseup', () => {
+      dragging = false;
+    });
+
+    window.addEventListener('touchend', () => {
+      dragging = false;
+    });
+
+    // Keyboard Navigation
+    wrapper.addEventListener('keydown', (evt) => {
+      const step = 0.05;
+      let bary = cartesianToBarycentric(
+        barycentricToCartesian({
+          alpha: parseFloat(valU.textContent) / 100,
+          beta: parseFloat(valS.textContent) / 100,
+          gamma: parseFloat(valD.textContent) / 100
+        })
+      );
+
+      switch(evt.key) {
+        case 'ArrowUp':
+          bary.alpha += step;
+          evt.preventDefault();
+          break;
+        case 'ArrowDown':
+          bary.alpha -= step;
+          evt.preventDefault();
+          break;
+        case 'ArrowLeft':
+          bary.beta += step;
+          evt.preventDefault();
+          break;
+        case 'ArrowRight':
+          bary.gamma += step;
+          evt.preventDefault();
+          break;
+        default:
+          return;
+      }
+
+      bary = clampBarycentric(bary);
+      setHandleFromBarycentric(bary);
+    });
+
+    // Preset Buttons
+    presetButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        applyPreset(btn.getAttribute('data-preset'));
+      });
+    });
+
+    // Action Buttons
+    btnExport.addEventListener('click', exportState);
+    btnReset.addEventListener('click', () => {
+      applyPreset('balanced');
+    });
+
+    // ===== INITIALIZATION =====
+    const initialState = loadState();
+    setHandleFromBarycentric(initialState, false);
+    updatePresetButtons();
+  </script>
+</body>
+</html>
