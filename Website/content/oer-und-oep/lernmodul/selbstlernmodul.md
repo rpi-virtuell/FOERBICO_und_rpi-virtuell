@@ -109,7 +109,7 @@ CC-Lizenzen im Überblick: https://creativecommons.org
 
 **Beispielmaterial ohne CC-Lizenz:**
 
-Bild
+![](Materialbeispiel-ohne-CC-KI-generiert.png)
 
 ❌ Ich darf das Material verwahren & vervielfältigen.
 
@@ -135,7 +135,7 @@ Bild
 
 **Beispielmaterial mit CC-Lizenz:**
 
-Bild
+![](Materialbeispiel-mit-CC-KI-generiert.png)
 
 ✅ Ich darf das Material verwahren & vervielfältigen.
 
