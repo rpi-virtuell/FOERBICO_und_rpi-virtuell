@@ -11,7 +11,7 @@ weight: 100
 ## Comenius Institute
 ![Logo des Comenius Instituts](/hello-world/comenius-institut-logo.png)
 
-The Comenius Institute, Evangelical Centre for Educational Science, promotes education and training based on protestant principles. It sees itself as a scientific, expert, and research institution, as well as a centre for inspiration and services regarding fundamental questions of Protestant educational practice.
+The Comenius Institute, Protestant Centre for Educational Science, promotes education and training based on Protestant principles. It sees itself as a scientific and research institution, as well as a centre for inspiration and services regarding fundamental questions of Protestant educational practice.
 
 Further Information: [Comenius-Institut](https://comenius.de/)
 
@@ -27,7 +27,7 @@ Contact: [dechow@comenius.de](mailto:dechow@comenius.de)
 
 **Jörg Lohrer**
 
-Jörg Lohrer is the project coordinator and supports community management. Through his experience in the leadership team of RPI-Virtuell and Reliab, he has gained knowledge in networking.
+Jörg Lohrer is the project coordinator and supports community management. Through his experience in the leadership team of rpi-virtuell and reliab, he has gained knowledge in networking.
 
 Contact: [lohrer@comenius.de](mailto:lohrer@comenius.de)
 
@@ -35,7 +35,7 @@ Contact: [lohrer@comenius.de](mailto:lohrer@comenius.de)
 
 **Gina Buchwald-Chassée**
 
-Gina Buchwald-Chassée, who studied communications science, supports the project in community management and is responsible for public relations. She coordinated the network schule-evangelisch-digital.
+Gina Buchwald-Chassée studied communications science and supports the project in community management and is responsible for public relations. She previously coordinated the network schule-evangelisch-digital.
 
 Contact: [buchwald-chassee@comenius.de](mailto:buchwald-chassee@comenius.de)
 
