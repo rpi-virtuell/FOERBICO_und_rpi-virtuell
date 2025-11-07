@@ -2,7 +2,7 @@
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein Prozess der Selbst- und Welterschließung. Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über Verantwortung, Empathie und Miteinander nachdenken können.
 Als Religionspädagoginnen (kath. und evang.), die in der Lehrer:innenfortbildung arbeiten, erleben wir immer wieder, wie stark die Verbindung von Tradition und Digitalität wirkt, wenn sie didaktisch gut gestaltet ist. 
 
-#### Ein Beispiel dafür ist das Projekt „[Auf Martins Spuren – ein Actionbound zum Thema St. Martin](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“, das klassische Wertebildung mit digitalen Medien verbindet.
+#### Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verbindet.
 
 ## Vom Teilen zum Teilhaben – Actionbound als Lernraum für Werte
 Actionbound ist ein interaktives Lern- und Lehrwerkzeug, das sich hervorragend für Bildungseinrichtungen eignet. Lehrende können damit eigene digitale Lernrouten („Bounds“) erstellen, die Elemente von Storytelling, Spiel und Medienbildung verbinden. Lernende werden so nicht nur zu Konsument:innen, sondern zu aktiv Beteiligten und Gestaltenden.
