@@ -27,6 +27,7 @@ Jede Station kombiniert digitale Aufgaben, Reflexion und kreative Umsetzung im R
 - digital – durch Nutzung eines Datenschutz-konformen Tools.
 
 ### „Teilen verbindet“ – Wertebildung als Open Educational Practice
+
 Besonders spannend wird der Ansatz, wenn man ihn unter der Perspektive der Open Educational Resources (OER) betrachtet.
 Denn: Teilen ist nicht nur das zentrale Motiv der Martinsgeschichte, sondern auch Kern der OER-Bewegung.
 Lehrkräfte können Bounds wie diesen teilen, anpassen und weiterentwickeln. Dadurch wird die Idee des Teilens zu einem gelebten Prinzip der Unterrichtskultur – im digitalen wie im ethischen Sinn.
@@ -37,6 +38,7 @@ Geh mit uns auf Martins Weg – digital, kreativ und mit offenem Herzen.
 Dieser Slogan verbindet pädagogische Haltung und digitale Praxis: Offene Bildung als Ausdruck von Solidarität und gemeinschaftlichem Lernen.
 
 ### Didaktischer Mehrwert: Lernen mit Kopf, Herz und Hand
+
 In der Fortbildungspraxis erleben viele Kolleg:innen, dass digitale Tools oft dann Akzeptanz finden, wenn sie nicht als Selbstzweck, sondern als didaktisch sinnvolle Erweiterung erlebt werden.
 Im St. Martin-Bound wird diese Verbindung greifbar:
 Kognitive Ebene: Auseinandersetzung mit Martins Biografie und ethischen Fragestellungen.
@@ -45,6 +47,7 @@ Gestalterische Ebene: Umsetzung von Symbolen (Feder, Schwert, Licht) in kreative
 Spirituelle Ebene: Nachdenken über Orte der Stille, Gemeinschaft und Verantwortung.
 
 ## Bildung mit Herz, Kopf und Smartphone
+
 Das Beispiel zeigt:
 → Digitalität kann Wertebildung nicht ersetzen, aber erweitern und vertiefen.
 Lernen wird mehrperspektivisch, wenn digitale Medien nicht nur Wissen vermitteln, sondern auch Wertorientierung ermöglichen.
@@ -52,6 +55,7 @@ Die Figur des heiligen Martin wird zur Brücke zwischen Tradition und Transforma
 „Digitale Wertebildung bedeutet, die Kultur des Teilens bewusst zu gestalten – als pädagogische Haltung, nicht nur als technische Option.“
 
 ## Anleitung: „Auf Martins Spuren – ein Actionbound zur digitalen Wertebildung“
+
 Zielgruppe: GS 3/4 oder Sekundarstufe 5/6
 Dauer: ca. 60 Minuten (plus ggf. Verlängerung)
 - Materialien:
@@ -62,26 +66,31 @@ Stationen-Markierungen auf dem Schulgelände oder im Klassenraum
 - Optional: Ausdrucke für Backup-Stationen, Papier und Stifte
 
 **Schritt 1 – Einstieg: „Die goldene Feder und das zerbrochene Schwert“**
+
 *Begrüßung*
 „Heute begeben wir uns auf den digitalen und realen Weg von St. Martin – mit Smartphone, aber auch mit offenem Herzen. Mission: Die goldene Feder und das zerbrochene Schwert entdecken und verstehen, was Teilen, Mut und Verantwortung heute bedeuten.“
 Weise darauf hin, dass es eine Stationen-Rallye gibt (6 Stationen).
 Verteile die Geräte und prüfe, ob alle die App starten können / Zugang zum Bound haben.
 
-Schritt 2 – Durchführung: Stationen im Bound
+**Schritt 2 – Durchführung: Stationen im Bound**
+
 Führe die Lernenden entweder einzeln oder in kleinen Teams durch die Stationen. Jede Station verbindet digitale Aufgaben, die über die App Actionbound an die Lernenden gegeben wird.
 
 ### Der Bound besteht aus sechs Stationen, die inhaltlich aufeinander aufbauen.
 
 **Schritt 3 – Sicherung und Abschluss**
+
 Alle Teams/Einzelnen kommen zusammen.
 Präsentation: Jede Gruppe zeigt ein Highlight aus ihrem Bound (z. B. Foto, Idee, Reflexion).
 Plenumfrage: „Was bedeutet Teilen heute – in Schule, digital, im Alltag?“
 
 *Hausaufgabe (optional):*
+
 Erstelle dein eigenes kleines „Martin-Mut-Mini-Bound“ mit 3 Stationen zu deinem Alltag.
 Oder: Teile online ein Symbolfoto mit Hashtag #teilenverbindet #martinslicht (gemäß Datenschutz).
 
 **Schritt 4 – Hinweise für Lehrende**
+
 Digital-Technik prüfen: WLAN, Geräteaufladung, App-Zugang vorher testen.
 Datenschutz beachten:
 Keine erkennbaren Gesichter posten ohne Einwilligung.
@@ -89,6 +98,7 @@ Fotografien anonym oder mit Symbolik nutzen.
 Grenzen der privaten Endgeräte beleuchten.
 
 **Differenzierung:**
+
 Schnellere Gruppen: eigene Station entwickeln lassen.
 Schwächere Gruppen: mehr Hilfestellungen (Bild-Trigger, Leitfragen).
 Didaktische Reflexion:
@@ -96,6 +106,7 @@ Am Ende: „Wo war der Moment, in dem ich etwas Neues verstanden habe?“
 Feedbackrunde: Was war gut, was könnte verbessert werden?
 
 ### Warum dieses Format?
+
 Es verbindet digitale Medien mit realem Erleben und Wertebildung – also Kopf, Herz und Hand.
 Der Einsatz von Symbolen (Feder, Schwert) macht abstrakte Werte erfahrbar.
 Durch Reflexion und Handlung wird Wertebildung aktiv statt nur passiv.
