@@ -2,13 +2,13 @@
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein Prozess der Selbst- und Welterschließung. Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über Verantwortung, Empathie und Miteinander nachdenken können.
 Als Religionspädagoginnen (kath. und evang.), die in der Lehrer:innenfortbildung arbeiten, erleben wir immer wieder, wie stark die Verbindung von Tradition und Digitalität wirkt, wenn sie didaktisch gut gestaltet ist. 
 
-#### Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verbindet.
+#### Ein Beispiel dafür ist das Projekt „[Auf Martins Spuren – ein Actionbound zum Thema St. Martin](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“, das klassische Wertebildung mit digitalen Medien verbindet.
 
 ## Vom Teilen zum Teilhaben – Actionbound als Lernraum für Werte
 Actionbound ist ein interaktives Lern- und Lehrwerkzeug, das sich hervorragend für Bildungseinrichtungen eignet. Lehrende können damit eigene digitale Lernrouten („Bounds“) erstellen, die Elemente von Storytelling, Spiel und Medienbildung verbinden. Lernende werden so nicht nur zu Konsument:innen, sondern zu aktiv Beteiligten und Gestaltenden.
 
-Im Bound „Auf Martins Spuren“ gehen Schülerinnen und Schüler mit Smartphone, Herz und Verstand auf eine Reise durch die Geschichte des heiligen Martin.
-Sie lösen Rätsel, diskutieren moralische Dilemmata und gestalten eigene Beiträge – etwa, indem sie das Wort Frieden mit Steinen legen oder einen Ort der Stille fotografieren.
+Im Bound „Auf Martins Spuren“ gehen Schülerinnen und Schüler mit Smartphone, Herz und Verstand auf eine Reise durch die Geschichte des heiligen Martin. Sie lösen Rätsel, diskutieren moralische Dilemmata und gestalten eigene Beiträge – etwa, indem sie das Wort Frieden mit Steinen legen oder einen Ort der Stille fotografieren.
+
 **Überblick:**
 Der Bound besteht aus sechs Stationen, die inhaltlich aufeinander aufbauen.
 Jede Station kombiniert digitale Aufgaben, Reflexion und kreative Umsetzung im Raum Schule.
@@ -77,7 +77,7 @@ Alle Teams/Einzelnen kommen zusammen.
 Präsentation: Jede Gruppe zeigt ein Highlight aus ihrem Bound (z. B. Foto, Idee, Reflexion).
 Plenumfrage: „Was bedeutet Teilen heute – in Schule, digital, im Alltag?“
 
-Hausaufgabe (optional):
+*Hausaufgabe (optional):*
 Erstelle dein eigenes kleines „Martin-Mut-Mini-Bound“ mit 3 Stationen zu deinem Alltag.
 Oder: Teile online ein Symbolfoto mit Hashtag #teilenverbindet #martinslicht (gemäß Datenschutz).
 
