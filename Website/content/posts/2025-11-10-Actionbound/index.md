@@ -11,18 +11,7 @@ Dieser Baustein kann direkt in Seminare, Fortbildungen oder Schulprojekte integr
 
 ---
 
-## Datenschutz und OER-Qualität
-
-*Actionbound* (Ampel: Grün/Gelb) ist bei Schullizenzen **datenschutzkonform** einsetzbar.  
-Fotos und Videos nur mit **Einwilligung der Eltern** oder anonym (z. B. Symbole, Objekte).  
-Hinweise im Bound auf **anonyme Bildernutzung** sind integriert.  
-
-Offen gestaltete Materialien (Aufgaben, Texte, Objekte) sind als **OER adaptierbar**.  
-→ Arbeitsaufträge, Reflexionsfragen und Bound-Struktur können frei weiterentwickelt werden.
-
----
-
-## Vorschlag Blogbeitrag: *Wertebildung im digitalen Zeitalter*
+## *Wertebildung im digitalen Zeitalter*
 
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
 Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über **Verantwortung, Empathie und Miteinander** nachdenken können.
@@ -185,4 +174,13 @@ Durch Reflexion und Handlung wird Wertebildung **aktiv statt passiv**.
 Der digitale Bound erlaubt individuelle Zugänge und motiviert durch spielerische Elemente.
 
 ---
+
+## Datenschutz und OER-Qualität
+
+*Actionbound* (Ampel: Grün/Gelb) ist bei Schullizenzen **datenschutzkonform** einsetzbar.  
+Fotos und Videos nur mit **Einwilligung der Eltern** oder anonym (z. B. Symbole, Objekte).  
+Hinweise im Bound auf **anonyme Bildernutzung** sind integriert.  
+
+Offen gestaltete Materialien (Aufgaben, Texte, Objekte) sind als **OER adaptierbar**.  
+→ Arbeitsaufträge, Reflexionsfragen und Bound-Struktur können frei weiterentwickelt werden.
 
