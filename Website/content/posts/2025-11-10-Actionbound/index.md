@@ -1,4 +1,3 @@
-
 ## *Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin*
 
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
@@ -153,7 +152,7 @@ Oder: Teile online ein Symbolfoto mit Hashtag **#teilenverbindet #martinslicht**
 
 ---
 
-### Schritt 4 – Hinweise für Lehrende
+## Hinweise für Lehrende
 
 - **Digitaltechnik prüfen:** WLAN, Geräteaufladung, App-Zugang vorher testen.  
 - **Datenschutz beachten:** Keine erkennbaren Gesichter posten ohne Einwilligung.  
