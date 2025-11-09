@@ -1,4 +1,12 @@
-# Auf Martins Spuren – Wertebildung digital gestalten
+
+## *Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin*
+
+Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
+Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über **Verantwortung, Empathie und Miteinander** nachdenken können.
+
+Als Religionspädagoginnen (kath. und evang.), die in der Lehrer:innenfortbildung arbeiten, erleben wir immer wieder, wie stark die Verbindung von **Tradition und Digitalität** wirkt, wenn sie didaktisch gut gestaltet ist.
+
+Ein Beispiel dafür ist das Projekt **„Auf Martins Spuren – ein Actionbound zum Thema St. Martin“**, das klassische Wertebildung mit digitalen Medien verbindet.
 
 ## Didaktische Idee
 
@@ -8,17 +16,6 @@ Das Projekt **„Auf Martins Spuren“** nutzt die App *Actionbound*, um die Ges
 So wird der traditionelle Martinstag in einen lernwirksamen, partizipativen Kontext überführt, der **Kopf, Herz und Hand** gleichermaßen anspricht.
 
 Dieser Baustein kann direkt in Seminare, Fortbildungen oder Schulprojekte integriert werden – etwa in den Fächern **Religionspädagogik, Ethik, Medienbildung** oder **Allgemeine Didaktik**.
-
----
-
-## *Wertebildung im digitalen Zeitalter*
-
-Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
-Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über **Verantwortung, Empathie und Miteinander** nachdenken können.
-
-Als Religionspädagoginnen (kath. und evang.), die in der Lehrer:innenfortbildung arbeiten, erleben wir immer wieder, wie stark die Verbindung von **Tradition und Digitalität** wirkt, wenn sie didaktisch gut gestaltet ist.
-
-Ein Beispiel dafür ist das Projekt **„Auf Martins Spuren – ein Actionbound zum Thema St. Martin“**, das klassische Wertebildung mit digitalen Medien verbindet.
 
 ---
 
