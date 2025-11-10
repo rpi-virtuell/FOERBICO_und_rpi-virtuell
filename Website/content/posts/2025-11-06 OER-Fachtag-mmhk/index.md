@@ -13,8 +13,8 @@ Welche potentiellen Auswirkungen KI auf OER hat, wurde im Rahmen des Fachtags au
 ### Empirische Perspektive auf OER- und KI-Nutzung
 Funda Seyfeli-Özhizalan (HIS-HE) präsentierte erste empirische Ergebnisse zu Einsatzfeldern von KI-Anwendungen bei Erstellung und Verbreitung von OER (Veröffentlichung bei twillo, angekündigt für Ende 2025). Die Studie folgt einem Mixed-Methods-Ansatz (quantitative Befragung, vertiefende Interviews, Expert:inneninterviews) und zeigt:
 - KI wird vor allem unterstützend eingesetzt (z.B. für Textoptimierung, Strukturierung, Bildgenerierung), weniger zur vollständigen Generierung von Materialien.
-- KI wird in der Erstellung und Anpassung von OER als potenziell entlastendes Werkzeug wahrgenommen.
-- Gleichzeitig bestehen erhebliche rechtliche Unsicherheiten (AGB-Änderungen, Unklarheiten bzgl. Trainingsdaten, Lizensierung) sowie Sorgen hinsichtlich Qualitätsverlusten.
+- KI wird in der Erstellung und Anpassung von OER als potentiell entlastendes Werkzeug wahrgenommen.
+- Gleichzeitig bestehen erhebliche rechtliche Unsicherheiten (AGB-Änderungen, Unklarheiten bzgl. Trainingsdaten, Lizenzierung) sowie Sorgen hinsichtlich Qualitätsverlusten.
 - Hemmnisse für OER und KI umfassen u.a. fehlende Sicherheit im Umgang mit Lizenzen, Unsicherheit über die Rolle der eigenen didaktischen Expertise und ein „übermäßiges Vertrauen“ in KI-Systeme.
 
 In der Diskussion wurde deutlich, dass sich viele Lehrende zwischen Entlastung und Verunsicherung bewegen: KI eröffnet pragmatische Unterstützungsmöglichkeiten, verstärkt zugleich aber das Bewusstsein für rechtliche Graubereiche und die Notwendigkeit, die eigene didaktische Expertise nicht an automatisierte Systeme zu delegieren.
@@ -38,6 +38,7 @@ Die transkribierten Inhalte werden bei Bedarf in Abschnitte zerlegt, um Kontextf
 - unzureichend präzise Fachzuordnungen, insbesondere auf feineren Ebenen.
 
 Der Ansatz unterstreicht zwei zentrale Punkte: Zum einen kann KI helfen, OER-Systeme wie OERSI sichtbarer und besser nutzbar zu machen; zum anderen bleibt eine qualifizierte, menschliche Qualitätssicherung unverzichtbar - etwa durch Metadatenvorschläge, die Autor:innen beim Upload prüfen und korrigieren können. Die zugrundeliegenden Prompts und Konfigurationen werden offen bereitgestellt (vgl. <https://gitlab.com/oersi/sidre/metadata-optimization>) und sind damit selbst Teil einer offenen Infrastruktur für OER-Metadaten.
+
 ### OER als Grundlage für einen KI-Chatbot (iMooX)
 Im zweiten Lightning Talk präsentierte PD Dr. Martin Ebner (TU Graz) den Einsatz eines KI-gestützten Chatbots auf Basis von OER-Materialien der nationalen MOOC-Plattform iMooX.
 
@@ -61,6 +62,7 @@ Für die OER-Perspektive sind zwei Aspekte zentral:
 Die ausschließliche Nutzung offen lizenzierter Kursmaterialien als Wissensbasis ermöglicht einen rechtlich transparenten Einsatz des Chatbots. Gleichzeitig bleibt ein Spannungsfeld, solange das zugrundeliegende LLM proprietär und dessen Trainingsdaten intransparent sind. Als mögliche Perspektive werden offene und europäisch betriebene Sprachmodelle genannt (z.B. Academic Cloud, Apertus), die langfristig zu mehr digitaler Souveränität beitragen könnten.
 
 Das Beispiel iMooX zeigt damit konkret, wie OER die Grundlage für KI-gestützte, lernendennahe Unterstützungssysteme bilden können - unter der Bedingung, dass Qualitätssicherung, Transparenz und reflektierter Einsatz mitgedacht werden.
+
 ### Vom Lehrbuch zum Kurzvideo mit KI-Unterstützung
 Im dritten Lightning Talk stellte Prof. Dr. Martin Erdmann (RWTH Aachen) ein Projekt vor, in dem ein Lehrbuch mit Unterstützung von KI in kurze Lehrvideos für die Hochschullehre transformiert wurde.
 
