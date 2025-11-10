@@ -22,7 +22,7 @@ In der Diskussion wurde deutlich, dass sich viele Lehrende zwischen Entlastung u
 ### KI-generierte Metadaten und OERSI
 Im ersten Lightning Talk zeigte Axel Klinger (TIB Hannover), wie KI bei der Generierung von Metadaten für das OER-Suchportal [OERSI](https://oersi.org/) eingesetzt werden kann. Ein erheblicher Teil der indexierten Materialien weist unvollständige oder fehlende Metadaten auf; dies erschwert Auffindbarkeit, Nachnutzbarkeit und inhaltliche Einordnung. Genannt wurden u.a. zehntausende Materialien ohne Beschreibung, fehlende Fachzuordnungen sowie uneinheitliche Sprachangaben.
 
-Als Antwort darauf wird eine modulare Pipeline erprobt, die auf Open-Source-Sprachmodellen basiert. Nach einem Modellvergleich (u.a. Qwen und Phi) fiel die Wahl auf Qwen 2.5 im lokalen Betrieb mit großem Kontextfenster. Fokussiert werden vorerst
+Als Antwort darauf wird eine modulare Pipeline erprobt, die auf Open-Source-Sprachmodellen basiert. Nach einem Modellvergleich (u.a. Qwen und Phi) fiel die Wahl auf Qwen 2.5 im lokalen Betrieb mit großem Kontextfenster. Fokussiert werden vorerst:
 - Open Textbooks und Videos (über Transkripte),
 - Materialien mit fehlenden Beschreibungen,
 - testweise vor allem offen lizenzierte Inhalte (z.B. CC BY).
@@ -43,7 +43,11 @@ Im zweiten Lightning Talk präsentierte PD Dr. Martin Ebner (TU Graz) den Einsat
 
 Ausgangspunkt ist der [Kurs „Informatik-Fit“](https://imoox.at/course/InfoFit25), der Studieninteressierte bereits vor Studienbeginn beim Aufbau grundlegender Informatikkompetenzen unterstützt. Der Kurs ist offen lizenziert, wird in ein Blended-/Flipped-Classroom-Szenario eingebettet und umfasst u.a. Videos, Transkripte, Kursunterlagen und Webinhalte.
 
-Auf dieser Basis wurde ein Retrieval-Augmented-Generation-System (RAG) implementiert:
+Auf dieser Basis wurde ein Retrieval-Augmented-Generation-System (RAG) implementiert. Ein RAG ist nach Zhao et. Al:
+> In particular, RAG introduces the information retrieval process, which enhances the generation process by retrieving relevant objects
+from available data stores, leading to higher accuracy and better robustness ([Zhao et. Al 2024: 1](https://doi.org/10.48550/arXiv.2402.19473)).
+
+Ein RAG verbessert Antwortgenerierung der KI. Denn das RAG identifiziert anhand der Eingabefrage relevante Datenquellen und interargiert mit dem Generator um robuste und genaue Antworten zu generieren. Es ist wie ein Datenspürhund, welches aus einem Datenset die relevanten Informationen herausholt. Für den Kurs „Informatik-Fit“ bedeutet das Konkret:
 - Sämtliche OER-Kursmaterialien werden in einer Vektordatenbank abgelegt und bilden den primären Antwortkontext.
 - Lernende können nach aktiver Zustimmung einen Chatbot nutzen, der Fragen zum Kurs stellt und Antworten auf Grundlage dieser OER-Inhalte generiert.
 - Als zugrundeliegendes Sprachmodell kommt (Stand der Präsentation) ein kommerzielles LLM (ChatGPT 4.0 mini) zum Einsatz, das nach Tests eine hohe Antwortqualität (Validität von über 97 % in Stichproben) zeigte.
@@ -54,8 +58,7 @@ Die begleitende Evaluation zeigt u.a.:
 - Auffällig ist eine Tendenz zur technologischen Überschätzung bei Nicht-Nutzenden, die dem System teils mehr zutrauen als diejenigen, die es erprobt haben.
 
 Für die OER-Perspektive sind zwei Aspekte zentral:
-- Die ausschließliche Nutzung offen lizenzierter Kursmaterialien als Wissensbasis ermöglicht einen rechtlich transparenten Einsatz des Chatbots.
-- Gleichzeitig bleibt ein Spannungsfeld, solange das zugrundeliegende LLM proprietär und dessen Trainingsdaten intransparent sind. Als mögliche Perspektive werden offene und europäisch betriebene Sprachmodelle genannt (z.B. Academic Cloud, Apertus), die langfristig zu mehr digitaler Souveränität beitragen könnten.
+Die ausschließliche Nutzung offen lizenzierter Kursmaterialien als Wissensbasis ermöglicht einen rechtlich transparenten Einsatz des Chatbots. Gleichzeitig bleibt ein Spannungsfeld, solange das zugrundeliegende LLM proprietär und dessen Trainingsdaten intransparent sind. Als mögliche Perspektive werden offene und europäisch betriebene Sprachmodelle genannt (z.B. Academic Cloud, Apertus), die langfristig zu mehr digitaler Souveränität beitragen könnten.
 
 Das Beispiel iMooX zeigt damit konkret, wie OER die Grundlage für KI-gestützte, lernendennahe Unterstützungssysteme bilden können - unter der Bedingung, dass Qualitätssicherung, Transparenz und reflektierter Einsatz mitgedacht werden.
 ### Vom Lehrbuch zum Kurzvideo mit KI-Unterstützung
@@ -66,6 +69,8 @@ Wesentliche Beobachtungen:
 - Die Videos ergänzen Lehrbuch und Lehrveranstaltung, ersetzen diese jedoch nicht.
 - KI-Werkzeuge kamen u.a. bei der sprachlichen Anpassung (Schriftsprache zu gesprochener Sprache) zum Einsatz, die inhaltliche Strukturierung, Schwerpunktsetzung sowie didaktische Entscheidungen blieben klar in menschlicher Verantwortung.
 - Das Projekt unterstreicht, dass Bildung ein sozialer, relationaler Prozess bleibt: KI kann hier unterstützen, nicht substituieren.
+
+Das Bildung ein sozialer Prozess ist, zeigte sich nach Prof. Dr. Erdmann deutlich anhand des gemeinsamen schauen der Videos vor den einzelnen Sitzungen. Ein signifikanter Teil der Studierenden kamen 15 Minuten vor der Vorlesung um gemeinsam die Videos zu schauen. Das Projekt zeigt aber auch welche Kosten bei der Nutzung von KI verbunden sein können. Denn für die KI Software, welche für die Video Generierung verwendet wurde, mussten neben der Arbeitszeit auch finanzielle Ressourcen aufgebracht werden.
 
 ### Zwiegespräch: Zuspitzung der Leitfrage
 
@@ -83,10 +88,8 @@ Kritisch rückblickend formuliert Malte Persike eine gewisse „OER-Desillusioni
 ## Fazit: OER im Zeitalter von KI - jetzt erst recht
 
 Zusammenfassend lässt sich aus den Beiträgen des Fachtags festhalten:
-- KI kann zur Unterstützung der OER-Produktion beitragen, etwa bei Qualitätssicherung, Sprachüberarbeitung, Übersetzungen, Metadatenanreicherung und der didaktischen Aufbereitung von Materialien.
-- OER bieten gleichzeitig eine zentrale Grundlage, um KI-Anwendungen für Bildung rechtskonform, transparent und gemeinwohlorientiert zu gestalten.
-- Offene Fragen bleiben insbesondere in Bezug auf Urheberrecht, Lizenzierung von KI-gestützten Materialien, Transparenz von Trainingsdaten sowie nachhaltige Infrastrukturen für offene Bildung.
-- Ohne menschliche Verantwortung, kritische Reflexion und Community-getragene Qualitätsprozesse kann weder KI noch OER ihr Potenzial für eine offene, souveräne Bildungslandschaft entfalten.
+OER und KI können sich gegenseitig unterstützen und voranbringen. KI kann zur Unterstützung der OER-Produktion beitragen, etwa bei Qualitätssicherung, Sprachüberarbeitung, Übersetzungen, Metadatenanreicherung und der didaktischen Aufbereitung von Materialien.OER bieten gleichzeitig eine zentrale Grundlage, um KI-Anwendungen für Bildung rechtskonform, transparent und gemeinwohlorientiert zu gestalten. Es bleiben jedoch Offene Fragen insbesondere in Bezug auf Urheberrecht, Lizenzierung von KI-gestützten Materialien, Transparenz von Trainingsdaten sowie nachhaltige Infrastrukturen für offene Bildung.
+Ohne menschliche Verantwortung, kritische Reflexion und Community-getragene Qualitätsprozesse kann weder KI noch OER ihr Potenzial für eine offene, souveräne Bildungslandschaft entfalten.
 
 ## Eigene Learnings
 
