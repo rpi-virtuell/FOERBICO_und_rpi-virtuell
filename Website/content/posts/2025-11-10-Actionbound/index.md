@@ -227,4 +227,7 @@ Hinweise im Bound auf **anonyme Bildernutzung** sind integriert.
 
 Offen gestaltete Materialien (Aufgaben, Texte, Objekte) sind als **OER adaptierbar**.  
 → Arbeitsaufträge, Reflexionsfragen und Bound-Struktur können frei weiterentwickelt werden.
+Es kommt allerdings auf die jeweilige Actionbound-Lizenz an, hier ein Überblick:
+
+![](Actionbound-Übersicht.png)
 
