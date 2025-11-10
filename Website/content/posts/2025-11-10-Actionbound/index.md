@@ -24,7 +24,7 @@ creator:
       type: Organization
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/wertebildung/Titelbild-Auf_Martins_Spuren.png
+image: https://oer.community/wertebildung/Titelbild-Martin.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -37,7 +37,7 @@ author:
 title: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
 cover:
   relative: true
-  image: Titelbild-Auf_Martins_Spuren.png
+  image: Titelbild-Martin.png
 summary: >-
   Wertebildung bedeutet mehr als Tugenden zu vermitteln – sie ist ein aktiver Prozess, in dem Lernende sich selbst und die Welt verstehen lernen. In einer digitalen Lebenswelt brauchen Schülerinnen und Schüler Räume, um über Verantwortung, Empathie und Gemeinschaft nachzudenken. Religionspädagog:innen zeigen, dass die Verbindung von Tradition und Digitalität besonders wirksam ist, wenn sie didaktisch gut umgesetzt wird. Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verknüpft.
 url: wertebildung
@@ -76,7 +76,7 @@ Lernende werden so nicht nur zu Konsument:innen, sondern zu **aktiv Beteiligten 
 Im Bound *„[Auf Martins Spuren](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“* gehen Schülerinnen und Schüler mit **Smartphone, Herz und Verstand** auf eine Reise durch die Geschichte des heiligen Martin.  
 Sie lösen Rätsel, diskutieren moralische Dilemmata und gestalten eigene Beiträge – etwa, indem sie das Wort *Frieden* mit Steinen legen oder einen *Ort der Stille* fotografieren.
 
-![](Actionbound-Hinweis.png)
+![](Hinweis-Actionbound.png)
 
 ---
 
@@ -98,7 +98,7 @@ Jede Station kombiniert digitale Aufgaben, Reflexion und kreative Umsetzung im R
 6. **Martin, der Bischof – Verantwortung übernehmen**  
    → Auf Gänsefeder schreiben: „Was könnte ich besser machen?“
 
-![](About-Martin.png)
+![](Hinweis-Martin.png)
 
 ---
 
