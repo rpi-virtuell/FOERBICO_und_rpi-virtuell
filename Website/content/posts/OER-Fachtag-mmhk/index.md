@@ -18,6 +18,7 @@ Funda Seyfeli-Özhizalan (HIS-HE) präsentierte erste empirische Ergebnisse zu E
 - Hemmnisse für OER und KI umfassen u.a. fehlende Sicherheit im Umgang mit Lizenzen, Unsicherheit über die Rolle der eigenen didaktischen Expertise und ein „übermäßiges Vertrauen“ in KI-Systeme.
 
 In der Diskussion wurde deutlich, dass sich viele Lehrende zwischen Entlastung und Verunsicherung bewegen: KI eröffnet pragmatische Unterstützungsmöglichkeiten, verstärkt zugleich aber das Bewusstsein für rechtliche Graubereiche und die Notwendigkeit, die eigene didaktische Expertise nicht an automatisierte Systeme zu delegieren.
+
 ### KI-generierte Metadaten und OERSI
 Im ersten Lightning Talk zeigte Axel Klinger (TIB Hannover), wie KI bei der Generierung von Metadaten für das OER-Suchportal [OERSI](https://oersi.org/) eingesetzt werden kann. Ein erheblicher Teil der indexierten Materialien weist unvollständige oder fehlende Metadaten auf; dies erschwert Auffindbarkeit, Nachnutzbarkeit und inhaltliche Einordnung. Genannt wurden u.a. zehntausende Materialien ohne Beschreibung, fehlende Fachzuordnungen sowie uneinheitliche Sprachangaben.
 
@@ -40,7 +41,7 @@ Der Ansatz unterstreicht zwei zentrale Punkte: Zum einen kann KI helfen, OER-Sys
 ### OER als Grundlage für einen KI-Chatbot (iMooX)
 Im zweiten Lightning Talk präsentierte PD Dr. Martin Ebner (TU Graz) den Einsatz eines KI-gestützten Chatbots auf Basis von OER-Materialien der nationalen MOOC-Plattform iMooX.
 
-Ausgangspunkt ist der [Kurs „Informatik-Fit“](https://imoox.at/course/InfoFit25) der Studieninteressierte bereits vor Studienbeginn beim Aufbau grundlegender Informatikkompetenzen unterstützt. Der Kurs ist offen lizenziert, wird in ein Blended-/Flipped-Classroom-Szenario eingebettet und umfasst u.a. Videos, Transkripte, Kursunterlagen und Webinhalte.
+Ausgangspunkt ist der [Kurs „Informatik-Fit“](https://imoox.at/course/InfoFit25), der Studieninteressierte bereits vor Studienbeginn beim Aufbau grundlegender Informatikkompetenzen unterstützt. Der Kurs ist offen lizenziert, wird in ein Blended-/Flipped-Classroom-Szenario eingebettet und umfasst u.a. Videos, Transkripte, Kursunterlagen und Webinhalte.
 
 Auf dieser Basis wurde ein Retrieval-Augmented-Generation-System (RAG) implementiert:
 - Sämtliche OER-Kursmaterialien werden in einer Vektordatenbank abgelegt und bilden den primären Antwortkontext.
@@ -95,6 +96,7 @@ Für unsere Arbeit – insbesondere im Kontext von OER-Communities und Initiativ
 - Offen lizenzierte Bildung ist nicht kostenfrei in der Erstellung: Zeit, Expertise und Infrastruktur bleiben entscheidend – auch dann, wenn KI einzelne Arbeitsschritte erleichtert.
 - Fragen der digitalen Souveränität, der gerechten Zugänglichkeit von KI-Werkzeugen und der Rolle offener Infrastrukturen (inklusive Vektordatenbanken und RAG-Systemen auf OER-Basis) werden für die zukünftige OER-Landschaft zentral sein.
 - Die Weiterentwicklung von OER kann nur gemeinsam mit aktiven Communities, offenen Werkzeugen und einer klaren bildungspolitischen und institutionellen Unterstützung gelingen.
+
 Vor diesem Hintergrund erscheint die Leitfrage „Heilsbringer oder Zerstörer?“ verkürzt. Im Lichte der Tagungsbeiträge wird deutlich: KI entscheidet nicht über die Zukunft von OER – vielmehr entscheidet die Art, wie Bildungsakteur:innen Offenheit, Verantwortung und technologische Gestaltungsspielräume zusammenführen.
 
 ## Materialien und weiterführende Links
@@ -109,6 +111,6 @@ Vor diesem Hintergrund erscheint die Leitfrage „Heilsbringer oder Zerstörer?�
 - OERSI-Metadatenoptimierung (Prompts/Beispiele): https://gitlab.com/oersi/sidre/metadata-optimization
 - iMooX-Kurs „Info-Fit“: https://imoox.at/course/InfoFit25
 - Publikation zum iMooX-Chatbot-Einsatz (Hinweis aus den Tagungsnotizen): https://link.springer.com/chapter/10.1007/978-3-031-93567-1_4
-- Vortragsfolien „Vom Lehrbuch zum Kino: Erfahrungen mit KI gestützten Kurzvideos in der Hochschullehre“ (Prof. Dr. Erdmann): https://www.mmkh.de/fileadmin/veranstaltungen/OER-KI/2025-11-06_KI-Lehrbuch-Videos_Erdmann.pdf
+- Vortragsfolien „Vom Lehrbuch zum Kino: Erfahrungen mit KI-gestützten Kurzvideos in der Hochschullehre“ (Prof. Dr. Erdmann): https://www.mmkh.de/fileadmin/veranstaltungen/OER-KI/2025-11-06_KI-Lehrbuch-Videos_Erdmann.pdf
 - Deskilling-Diskurs (Hinweis aus der Diskussion): https://hochschulforumdigitalisierung.de/wp-content/uploads/2023/10/HFD_DP_25_Deskilling.pdf
 - Initiative für europäische Sprachmodelle (Hinweis aus den Materialien): https://hessian.ai/de/occiglot-neue-initiative-fuer-europaeische-sprachmodelle-gestartet/
