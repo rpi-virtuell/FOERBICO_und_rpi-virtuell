@@ -1,4 +1,52 @@
-## *Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin*
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/wertebildung
+name: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
+description: >-
+  Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Simone
+    familyName: Dinse de Salas
+    type: Person
+    affiliation:
+      name: Diözese Rottenburg-Stuttgart
+      type: Organization
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: 
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-11-10'
+#staticSiteGenerator:
+author:
+  - Corinna Ullmann
+  - Simone Dinse de Salas
+title: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
+cover:
+  relative: true
+  image: 
+summary: >-
+  Wertebildung bedeutet mehr als Tugenden zu vermitteln – sie ist ein aktiver Prozess, in dem Lernende sich selbst und die Welt verstehen lernen. In einer digitalen Lebenswelt brauchen Schülerinnen und Schüler Räume, um über Verantwortung, Empathie und Gemeinschaft nachzudenken. Religionspädagog:innen zeigen, dass die Verbindung von Tradition und Digitalität besonders wirksam ist, wenn sie didaktisch gut umgesetzt wird. Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verknüpft.
+url: wertebildung
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Religionspädagogik
+  - Bildungsmedien
+---
 
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
 Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über **Verantwortung, Empathie und Miteinander** nachdenken können.
