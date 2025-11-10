@@ -53,13 +53,13 @@ Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich
 
 Als Religionspädagoginnen (kath. und evang.), die in der Lehrer:innenfortbildung arbeiten, erleben wir immer wieder, wie stark die Verbindung von **Tradition und Digitalität** wirkt, wenn sie didaktisch gut gestaltet ist.
 
-Ein Beispiel dafür ist das Projekt **„Auf Martins Spuren – ein Actionbound zum Thema St. Martin“**, das klassische Wertebildung mit digitalen Medien verbindet.
+Ein Beispiel dafür ist das Projekt **„[Auf Martins Spuren – ein Actionbound zum Thema St. Martin](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“**, das klassische Wertebildung mit digitalen Medien verbindet.
 
 ## Didaktische Idee
 
 **Wie können Schülerinnen und Schüler den Gedanken des Teilens und der Nächstenliebe in einer digitalen Welt erleben?**
 
-Das Projekt **„Auf Martins Spuren“** nutzt die App *Actionbound*, um die Geschichte des heiligen Martin erfahrbar zu machen – **digital, interaktiv und handlungsorientiert**.  
+Das Projekt **„Auf Martins Spuren“** nutzt die App *[Actionbound](https://de.actionbound.com/)*, um die Geschichte des heiligen Martin erfahrbar zu machen – **digital, interaktiv und handlungsorientiert**.  
 So wird der traditionelle Martinstag in einen lernwirksamen, partizipativen Kontext überführt, der **Kopf, Herz und Hand** gleichermaßen anspricht.
 
 Dieser Baustein kann direkt in Seminare, Fortbildungen oder Schulprojekte integriert werden – etwa in den Fächern **Religionspädagogik, Ethik, Medienbildung** oder **Allgemeine Didaktik**.
@@ -73,7 +73,7 @@ Lehrende können damit eigene digitale Lernrouten („Bounds“) erstellen, die 
 
 Lernende werden so nicht nur zu Konsument:innen, sondern zu **aktiv Beteiligten und Gestaltenden**.
 
-Im Bound *„Auf Martins Spuren“* gehen Schülerinnen und Schüler mit **Smartphone, Herz und Verstand** auf eine Reise durch die Geschichte des heiligen Martin.  
+Im Bound *„[Auf Martins Spuren](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“* gehen Schülerinnen und Schüler mit **Smartphone, Herz und Verstand** auf eine Reise durch die Geschichte des heiligen Martin.  
 Sie lösen Rätsel, diskutieren moralische Dilemmata und gestalten eigene Beiträge – etwa, indem sie das Wort *Frieden* mit Steinen legen oder einen *Ort der Stille* fotografieren.
 
 ---
@@ -230,4 +230,15 @@ Offen gestaltete Materialien (Aufgaben, Texte, Objekte) sind als **OER adaptierb
 Es kommt allerdings auf die jeweilige Actionbound-Lizenz an, hier ein Überblick:
 
 ![](Actionbound-Übersicht.png)
+
+Zum [Bound](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)
+Zur dazugehörigen [TaskCard](https://www.taskcards.de/#/board/dcf7aef3-b39b-4329-a4a1-4fef791624de/view?token=4df396d0-9855-49c3-8f16-28ce65372a3f)
+-> Der Bound ist unter [CC-by-SA-Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) veröffentlicht, d.h. ihr dürft das Material weiterverwenden und bearbeiten (wenn ihr die entsprechende Actionbound-Lizenz habt), aber nur unter Namensnennung (Simone Dinse de Salas - RPK Rottenburg-Stuttgart) und unter derselben Lizenz wie das Original (also wieder unter CC-by-SA).
+
+Weitere Informationen zu [Actionbound](https://fachstelle-medien.drs.de/medienpaedagogik/actionbound.html).
+
+📅 **Veranstaltungshinweis:**
+[Actionbound für Einsteiger](https://de.actionbound.com/events) am 26.11.2025 von 15:00 Uhr - 16:30 Uhr
+
+
 
