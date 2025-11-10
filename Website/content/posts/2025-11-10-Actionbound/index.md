@@ -24,7 +24,7 @@ creator:
       type: Organization
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: 
+image: https://content.actionbound.com/user/615c349fedfd3a92b6425553/image/bi/1717415554.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -37,7 +37,7 @@ author:
 title: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
 cover:
   relative: true
-  image: 
+  image: https://content.actionbound.com/user/615c349fedfd3a92b6425553/image/bi/1717415554.png
 summary: >-
   Wertebildung bedeutet mehr als Tugenden zu vermitteln – sie ist ein aktiver Prozess, in dem Lernende sich selbst und die Welt verstehen lernen. In einer digitalen Lebenswelt brauchen Schülerinnen und Schüler Räume, um über Verantwortung, Empathie und Gemeinschaft nachzudenken. Religionspädagog:innen zeigen, dass die Verbindung von Tradition und Digitalität besonders wirksam ist, wenn sie didaktisch gut umgesetzt wird. Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verknüpft.
 url: wertebildung
