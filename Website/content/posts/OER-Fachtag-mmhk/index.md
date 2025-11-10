@@ -1,10 +1,10 @@
-# KI – Heilsbringer oder Zerstörer für OER?
+# KI - Heilsbringer oder Zerstörer für OER?
 
-Unter dem Titel „OER im Zeitalter von KI – jetzt erst recht oder Auslaufmodell?“ veranstalteten das Multimedia Kontor Hamburg ([MMKH](https://www.mmkh.de)), das niedersächsische OER-Portal [twillo](https://www.twillo.de/) in Partnerschaft mit [HIS-HE](https://his-he.de/), [KNOER](https://kn-oer.de/) und der Hamburg Open Online University ([HOOU](https://portal.hoou.de/)) am 6. November 2025 eine [Online-Fachtagung](https://www.mmkh.de/digitale-lehre/oer-und-knoer/oer-im-zeitalter-von-ki) zur Rolle von Künstlicher Intelligenz (KI) für offene Bildungsressourcen.
+Unter dem Titel „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“ veranstalteten das Multimedia Kontor Hamburg ([MMKH](https://www.mmkh.de)), das niedersächsische OER-Portal [twillo](https://www.twillo.de/) in Partnerschaft mit [HIS-HE](https://his-he.de/), [KNOER](https://kn-oer.de/) und der Hamburg Open Online University ([HOOU](https://portal.hoou.de/)) am 6. November 2025 eine [Online-Fachtagung](https://www.mmkh.de/digitale-lehre/oer-und-knoer/oer-im-zeitalter-von-ki) zur Rolle von Künstlicher Intelligenz (KI) für offene Bildungsressourcen.
 
 Die Veranstaltungsankündigung fasst den Ausgangspunkt prägnant zusammen:
 
-> Die Entwicklungen der letzten zweieinhalb Jahre zeigen ganz deutlich, dass Künstliche Intelligenz (KI) alle Hochschulbereiche tangiert und signifikant verändern wird. Dies betrifft vor allem auch den Bereich der Hochschullehre und damit die Produktion von Lehr- und Lernmaterialien. Seitdem es mit wenigen Prompts möglich ist, Lehr- und Lernmaterialien quasi per Knopfdruck zu erstellen und da diese Inhalte dann auch als gemeinfreie Werke gelten – sofern nicht durch kreative Promptketten und eigenständige Nachbearbeitungen eine Schaffenshöhe erreicht wird, die ein individuelles Urheberrecht begründen –, ergeben sich Fragestellungen nach den Auswirkungen dieser Entwicklungen auf Open Educational Resources (OER).
+> Die Entwicklungen der letzten zweieinhalb Jahre zeigen ganz deutlich, dass Künstliche Intelligenz (KI) alle Hochschulbereiche tangiert und signifikant verändern wird. Dies betrifft vor allem auch den Bereich der Hochschullehre und damit die Produktion von Lehr- und Lernmaterialien. Seitdem es mit wenigen Prompts möglich ist, Lehr- und Lernmaterialien quasi per Knopfdruck zu erstellen und da diese Inhalte dann auch als gemeinfreie Werke gelten - sofern nicht durch kreative Promptketten und eigenständige Nachbearbeitungen eine Schaffenshöhe erreicht wird, die ein individuelles Urheberrecht begründen -, ergeben sich Fragestellungen nach den Auswirkungen dieser Entwicklungen auf Open Educational Resources (OER).
 
 Welche potentiellen Auswirkungen KI auf OER hat, wurde im Rahmen des Fachtags aus unterschiedlichen wissenschaftlichen und praktischen Perspektiven beleuchtet. Im Zentrum stand dabei weniger die Suche nach einer einfachen Antwort, sondern eine vielschichtige Auseinandersetzung mit Chancen, Spannungsfeldern und offenen Fragen rund um Offenheit, Qualität und Verantwortung in der Hochschulbildung.
 
@@ -37,7 +37,7 @@ Die transkribierten Inhalte werden bei Bedarf in Abschnitte zerlegt, um Kontextf
 - Kontextverschiebungen bei stark segmentierten Texten,
 - unzureichend präzise Fachzuordnungen, insbesondere auf feineren Ebenen.
 
-Der Ansatz unterstreicht zwei zentrale Punkte: Zum einen kann KI helfen, OER-Systeme wie OERSI sichtbarer und besser nutzbar zu machen; zum anderen bleibt eine qualifizierte, menschliche Qualitätssicherung unverzichtbar – etwa durch Metadatenvorschläge, die Autor:innen beim Upload prüfen und korrigieren können. Die zugrundeliegenden Prompts und Konfigurationen werden offen bereitgestellt (vgl. <https://gitlab.com/oersi/sidre/metadata-optimization>) und sind damit selbst Teil einer offenen Infrastruktur für OER-Metadaten.
+Der Ansatz unterstreicht zwei zentrale Punkte: Zum einen kann KI helfen, OER-Systeme wie OERSI sichtbarer und besser nutzbar zu machen; zum anderen bleibt eine qualifizierte, menschliche Qualitätssicherung unverzichtbar - etwa durch Metadatenvorschläge, die Autor:innen beim Upload prüfen und korrigieren können. Die zugrundeliegenden Prompts und Konfigurationen werden offen bereitgestellt (vgl. <https://gitlab.com/oersi/sidre/metadata-optimization>) und sind damit selbst Teil einer offenen Infrastruktur für OER-Metadaten.
 ### OER als Grundlage für einen KI-Chatbot (iMooX)
 Im zweiten Lightning Talk präsentierte PD Dr. Martin Ebner (TU Graz) den Einsatz eines KI-gestützten Chatbots auf Basis von OER-Materialien der nationalen MOOC-Plattform iMooX.
 
@@ -57,7 +57,7 @@ Für die OER-Perspektive sind zwei Aspekte zentral:
 - Die ausschließliche Nutzung offen lizenzierter Kursmaterialien als Wissensbasis ermöglicht einen rechtlich transparenten Einsatz des Chatbots.
 - Gleichzeitig bleibt ein Spannungsfeld, solange das zugrundeliegende LLM proprietär und dessen Trainingsdaten intransparent sind. Als mögliche Perspektive werden offene und europäisch betriebene Sprachmodelle genannt (z.B. Academic Cloud, Apertus), die langfristig zu mehr digitaler Souveränität beitragen könnten.
 
-Das Beispiel iMooX zeigt damit konkret, wie OER die Grundlage für KI-gestützte, lernendennahe Unterstützungssysteme bilden können – unter der Bedingung, dass Qualitätssicherung, Transparenz und reflektierter Einsatz mitgedacht werden.
+Das Beispiel iMooX zeigt damit konkret, wie OER die Grundlage für KI-gestützte, lernendennahe Unterstützungssysteme bilden können - unter der Bedingung, dass Qualitätssicherung, Transparenz und reflektierter Einsatz mitgedacht werden.
 ### Vom Lehrbuch zum Kurzvideo mit KI-Unterstützung
 Im dritten Lightning Talk stellte Prof. Dr. Martin Erdmann (RWTH Aachen) ein Projekt vor, in dem ein Lehrbuch mit Unterstützung von KI in kurze Lehrvideos für die Hochschullehre transformiert wurde.
 
@@ -69,19 +69,18 @@ Wesentliche Beobachtungen:
 
 ### Zwiegespräch: Zuspitzung der Leitfrage
 
-Im abschließenden Zwiegespräch zwischen Dr. Sandra Schön (TU Graz) und PD Dr. Malte Persike (RWTH Aachen), moderiert von Dr. Klaus Wannemacher (HIS-HE/twillo), wurden zentrale Fäden des Fachtags aufgegriffen, zugespitzt und mit kritischen Rückfragen an die Community zurückgespiegelt:
-- Viele strukturelle Herausforderungen von OER – z.B. fehlende nachhaltige Finanzierung, geringe institutionelle Verbindlichkeit, unzureichende Infrastruktur, mangelnde Qualitäts- und Nutzungsdaten – werden durch KI nicht gelöst.
-- KI erscheint häufig prominenter als OER selbst, ohne dass grundlegende offene Fragen zu Offenheit, Lizenzen und Gemeinwohlorientierung geklärt sind.
-- KI-Systeme bringen – in ihrer derzeit überwiegend kommerziellen Ausgestaltung – keine automatische digitale Souveränität mit sich: Sie sind kostenintensiv, rechtlich komplex und von intransparenten Trainingsdaten abhängig.
-- Gleichzeitig kann KI ein wichtiges Werkzeug für OER-Entwicklung sein, etwa bei Metadaten, Übersetzungen oder der Aufbereitung von Inhalten. Voraussetzung bleibt jedoch menschliche Kontrolle und eine bewusste, reflektierte Nutzung.
+Im abschließenden Zwiegespräch zwischen Dr. Sandra Schön (TU Graz) und PD Dr. Malte Persike (RWTH Aachen), moderiert von Dr. Klaus Wannemacher (HIS-HE/twillo), wurden die Eindrücke der Vorträge zusammengeführt und in eine grundsätzliche Debatte über den Stellenwert von KI und OER überführt.
 
-Deutlich wurde zudem, dass OER und Open Educational Practices (OEP) an vielen Hochschulen noch keineswegs selbstverständlich sind. Die Diskutant:innen betonten Forschungs- und Handlungsbedarfe, u.a. hinsichtlich:
-- der tatsächlichen Nutzung und Wirkung von OER,
-- der Rolle von Studierenden, die KI intensiv für individuelles Lernen einsetzen,
-- der Frage, wie sich Lern- und Bildungsverhalten durch KI verändert,
-- der Entwicklung kollaborativer, offener Werkzeuge für OER-Erstellung.
+Zentrale Akzente aus dem Gespräch waren:
+- KI-generierte Lehrmaterialien sind aktuell nicht hinreichend verlässlich, um ohne menschliche Qualitätssicherung eingesetzt zu werden. Die Beiträge von Axel Klinger, Martin Ebner und Martin Erdmann verdeutlichen vielmehr, wie arbeitsintensiv es bleibt, gute Bildungsressourcen zu erstellen - auch mit KI.
+- KI sollte daher primär als Werkzeug verstanden werden, das OER-Produktion und -Nutzung unterstützt, nicht als Ersatz für pädagogische Expertise. Die Verantwortung von Lehrenden verschiebt sich eher hin zu Kuratierung, Prüfung und reflektierter Gestaltung.
+- OER besitzen im Unterschied zu vielen KI-Systemen eine klare gemeinwohlorientierte und rechtlich transparente Grundlage. Für rechtssichere KI-Szenarien werden offene, nachnutzbare Materialien und transparente Trainingsdaten zunehmend zur Voraussetzung.
+- Gleichzeitig wird betont, dass KI nicht alle positiven Effekte von OER teilt: Kommerzielle Modelle und intransparente Datenpraktiken bergen Risiken für digitale Souveränität, Teilhabe und Urheberrecht. Die „Euphorie“ über KI sollte deshalb kritisch gebrochen werden.
+- Offen bleibt die Frage, wie weit Qualitätsprozesse automatisiert werden können, ohne die Verantwortung an „Agentensysteme“ abzugeben, deren Entscheidungen selbst kaum überprüfbar sind.
 
-## Fazit: OER im Zeitalter von KI – jetzt erst recht
+Kritisch rückblickend formuliert Malte Persike eine gewisse „OER-Desillusionierung“: OER und OEP sollten an Hochschulen Selbstverständlichkeit sein, tatsächlich fehlen aber häufig verlässliche Daten zu Nutzung, Wirkung und Nachnutzung. Zugleich wird darauf hingewiesen, dass Lernende KI bereits breit für individuelles Lernen einsetzen - oft weit sichtbarer als institutionelle OER-Angebote. Hier entsteht ein Spannungsfeld zwischen gelebter Praxis, offenen Bildungsansprüchen und noch offenen Forschungsfragen.
+
+## Fazit: OER im Zeitalter von KI - jetzt erst recht
 
 Zusammenfassend lässt sich aus den Beiträgen des Fachtags festhalten:
 - KI kann zur Unterstützung der OER-Produktion beitragen, etwa bei Qualitätssicherung, Sprachüberarbeitung, Übersetzungen, Metadatenanreicherung und der didaktischen Aufbereitung von Materialien.
@@ -91,23 +90,23 @@ Zusammenfassend lässt sich aus den Beiträgen des Fachtags festhalten:
 
 ## Eigene Learnings
 
-Für unsere Arbeit – insbesondere im Kontext von OER-Communities und Initiativen wie FOERBICO – war der Fachtag eine Gelegenheit, Einblicke in laufende Forschungs- und Praxisprojekte zu gewinnen und diese mit eigenen Erfahrungen zu verschränken. Er bestätigt mehrere zentrale Einsichten:
+Für unsere Arbeit - insbesondere im Kontext von OER-Communities und Initiativen wie FOERBICO - war der Fachtag eine Gelegenheit, Einblicke in laufende Forschungs- und Praxisprojekte zu gewinnen und diese mit eigenen Erfahrungen zu verschränken. Er bestätigt mehrere zentrale Einsichten:
 - KI ist kein Allheilmittel, sondern ein Werkzeug, das bewusst, reflektiert und ressourcensensibel eingesetzt werden muss.
-- Offen lizenzierte Bildung ist nicht kostenfrei in der Erstellung: Zeit, Expertise und Infrastruktur bleiben entscheidend – auch dann, wenn KI einzelne Arbeitsschritte erleichtert.
+- Offen lizenzierte Bildung ist nicht kostenfrei in der Erstellung: Zeit, Expertise und Infrastruktur bleiben entscheidend - auch dann, wenn KI einzelne Arbeitsschritte erleichtert.
 - Fragen der digitalen Souveränität, der gerechten Zugänglichkeit von KI-Werkzeugen und der Rolle offener Infrastrukturen (inklusive Vektordatenbanken und RAG-Systemen auf OER-Basis) werden für die zukünftige OER-Landschaft zentral sein.
 - Die Weiterentwicklung von OER kann nur gemeinsam mit aktiven Communities, offenen Werkzeugen und einer klaren bildungspolitischen und institutionellen Unterstützung gelingen.
 
-Vor diesem Hintergrund erscheint die Leitfrage „Heilsbringer oder Zerstörer?“ verkürzt. Im Lichte der Tagungsbeiträge wird deutlich: KI entscheidet nicht über die Zukunft von OER – vielmehr entscheidet die Art, wie Bildungsakteur:innen Offenheit, Verantwortung und technologische Gestaltungsspielräume zusammenführen.
+Vor diesem Hintergrund erscheint die Leitfrage „Heilsbringer oder Zerstörer?“ verkürzt. Im Lichte der Tagungsbeiträge wird deutlich: KI entscheidet nicht über die Zukunft von OER - vielmehr entscheidet die Art, wie Bildungsakteur:innen Offenheit, Verantwortung und technologische Gestaltungsspielräume zusammenführen.
 
 ## Materialien und weiterführende Links
 
-- Ausschreibung und Dokumentation des Fachtags „OER im Zeitalter von KI – jetzt erst recht oder Auslaufmodell?“: https://www.mmkh.de/digitale-lehre/oer-und-knoer/oer-im-zeitalter-von-ki
+- Ausschreibung und Dokumentation des Fachtags „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“: https://www.mmkh.de/digitale-lehre/oer-und-knoer/oer-im-zeitalter-von-ki
 - Multimedia Kontor Hamburg (MMKH): https://www.mmkh.de
 - OER-Portal twillo: https://www.twillo.de
 - HIS-HE: https://his-he.de
-- KNOER – Kompetenznetzwerk OER: https://kn-oer.de
+- KNOER - Kompetenznetzwerk OER: https://kn-oer.de
 - Hamburg Open Online University (HOOU): https://portal.hoou.de
-- OERSI – Open Educational Resources Search Index: https://oersi.org
+- OERSI - Open Educational Resources Search Index: https://oersi.org
 - OERSI-Metadatenoptimierung (Prompts/Beispiele): https://gitlab.com/oersi/sidre/metadata-optimization
 - iMooX-Kurs „Info-Fit“: https://imoox.at/course/InfoFit25
 - Publikation zum iMooX-Chatbot-Einsatz (Hinweis aus den Tagungsnotizen): https://link.springer.com/chapter/10.1007/978-3-031-93567-1_4
