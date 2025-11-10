@@ -1,0 +1,245 @@
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/wertebildung
+name: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
+description: >-
+  Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Corinna
+    familyName: Ullmann
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Simone
+    familyName: Dinse de Salas
+    type: Person
+    affiliation:
+      name: Diözese Rottenburg-Stuttgart
+      type: Organization
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://oer.community/wertebildung/Titelbild-Auf_Martins_Spuren.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-11-10'
+#staticSiteGenerator:
+author:
+  - Corinna Ullmann
+  - Simone Dinse de Salas
+title: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
+cover:
+  relative: true
+  image: Titelbild-Auf_Martins_Spuren.png
+summary: >-
+  Wertebildung bedeutet mehr als Tugenden zu vermitteln – sie ist ein aktiver Prozess, in dem Lernende sich selbst und die Welt verstehen lernen. In einer digitalen Lebenswelt brauchen Schülerinnen und Schüler Räume, um über Verantwortung, Empathie und Gemeinschaft nachzudenken. Religionspädagog:innen zeigen, dass die Verbindung von Tradition und Digitalität besonders wirksam ist, wenn sie didaktisch gut umgesetzt wird. Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verknüpft.
+url: wertebildung
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Religionspädagogik
+  - Bildungsmedien
+---
+
+Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
+Gerade in einer digitalen Lebenswelt, in der Schülerinnen und Schüler täglich mit sozialen Medien, Gaming und Online-Kommunikation konfrontiert sind, braucht es Lernräume, in denen sie über **Verantwortung, Empathie und Miteinander** nachdenken können.
+
+Als Religionspädagoginnen (kath. und evang.), die in der Lehrer:innenfortbildung arbeiten, erleben wir immer wieder, wie stark die Verbindung von **Tradition und Digitalität** wirkt, wenn sie didaktisch gut gestaltet ist.
+
+Ein Beispiel dafür ist das Projekt **„[Auf Martins Spuren – ein Actionbound zum Thema St. Martin](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“**, das klassische Wertebildung mit digitalen Medien verbindet.
+
+## Didaktische Idee
+
+**Wie können Schülerinnen und Schüler den Gedanken des Teilens und der Nächstenliebe in einer digitalen Welt erleben?**
+
+Das Projekt **„Auf Martins Spuren“** nutzt die App *[Actionbound](https://de.actionbound.com/)*, um die Geschichte des heiligen Martin erfahrbar zu machen – **digital, interaktiv und handlungsorientiert**.  
+So wird der traditionelle Martinstag in einen lernwirksamen, partizipativen Kontext überführt, der **Kopf, Herz und Hand** gleichermaßen anspricht.
+
+Dieser Baustein kann direkt in Seminare, Fortbildungen oder Schulprojekte integriert werden – etwa in den Fächern **Religionspädagogik, Ethik, Medienbildung** oder **Allgemeine Didaktik**.
+
+---
+
+## Vom Teilen zum Teilhaben – Actionbound als Lernraum für Werte
+
+*Actionbound* ist ein interaktives Lern- und Lehrwerkzeug, das sich hervorragend für Bildungseinrichtungen eignet.  
+Lehrende können damit eigene digitale Lernrouten („Bounds“) erstellen, die Elemente von **Storytelling, Spiel und Medienbildung** verbinden.  
+
+Lernende werden so nicht nur zu Konsument:innen, sondern zu **aktiv Beteiligten und Gestaltenden**.
+
+Im Bound *„[Auf Martins Spuren](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“* gehen Schülerinnen und Schüler mit **Smartphone, Herz und Verstand** auf eine Reise durch die Geschichte des heiligen Martin.  
+Sie lösen Rätsel, diskutieren moralische Dilemmata und gestalten eigene Beiträge – etwa, indem sie das Wort *Frieden* mit Steinen legen oder einen *Ort der Stille* fotografieren.
+
+![](Actionbound-Hinweis.png)
+
+---
+
+## Überblick: Aufbau des Bounds
+
+Der Bound besteht aus **sechs Stationen**, die inhaltlich aufeinander aufbauen.  
+Jede Station kombiniert digitale Aufgaben, Reflexion und kreative Umsetzung im Raum Schule.
+
+1. **Martin, der Junge – Identität & Herkunft**  
+   → Bedeutung des eigenen Namens recherchieren  
+2. **Vom Soldat zum Friedensstifter – Wandel & Verantwortung**  
+   → Miniquiz zum Thema Frieden  
+3. **Helfen und Hilfe annehmen – Empathie**  
+   → Reflexionsfrage: „Wann habe ich Hilfe angenommen?“  
+4. **Der Feigling oder der Mutige? – Zivilcourage**  
+   → Fallbeispiele (Cybermobbing, Gruppendruck) diskutieren  
+5. **Martin, der Mönch – Ruhe & Spiritualität**  
+   → Ort der Stille aufsuchen und fotografieren  
+6. **Martin, der Bischof – Verantwortung übernehmen**  
+   → Auf Gänsefeder schreiben: „Was könnte ich besser machen?“
+
+![](About-Martin.png)
+
+---
+
+## Lernen multimodal, erfahrungsbasiert und dialogisch
+
+- **kognitiv** – durch Quizfragen und Recherche  
+- **emotional** – durch Reflexion und kreative Aufgaben  
+- **sozial** – durch Teamarbeit und Austausch  
+- **digital** – durch Nutzung eines datenschutzkonformen Tools  
+
+---
+
+## „Teilen verbindet“ – Wertebildung als Open Educational Practice
+
+Besonders spannend wird der Ansatz, wenn man ihn unter der Perspektive der **Open Educational Resources (OER)** betrachtet.  
+Denn: *Teilen* ist nicht nur das zentrale Motiv der Martinsgeschichte, sondern auch **Kern der OER-Bewegung**.
+
+Lehrkräfte können Bounds wie diesen **teilen, anpassen und weiterentwickeln**.  
+Dadurch wird die Idee des Teilens zu einem **gelebten Prinzip der Unterrichtskultur** – im digitalen wie im ethischen Sinn.
+
+> „Wie können wir St. Martin heute leben?  
+> Geh mit uns auf Martins Weg – digital, kreativ und mit offenem Herzen.  
+> **#teilenverbindet #martinslicht**“
+
+Dieser Slogan verbindet pädagogische Haltung und digitale Praxis:  
+**Offene Bildung als Ausdruck von Solidarität und gemeinschaftlichem Lernen.**
+
+---
+
+## Didaktischer Mehrwert – Lernen mit Kopf, Herz und Hand
+
+In der Fortbildungspraxis erleben viele Kolleg:innen, dass digitale Tools oft dann Akzeptanz finden, wenn sie **nicht als Selbstzweck**, sondern als **didaktisch sinnvolle Erweiterung** erlebt werden.
+
+Im St.-Martin-Bound wird diese Verbindung greifbar:
+
+- **Kognitive Ebene:** Auseinandersetzung mit Martins Biografie und ethischen Fragestellungen  
+- **Emotionale Ebene:** Reflexion eigener Erfahrungen – Mut, Feigheit, Hilfe annehmen  
+- **Gestalterische Ebene:** Umsetzung von Symbolen (Feder, Schwert, Licht) in kreative Medienprodukte  
+- **Spirituelle Ebene:** Nachdenken über Orte der Stille, Gemeinschaft und Verantwortung  
+
+---
+
+## Bildung mit Herz, Kopf und Smartphone
+
+Das Beispiel zeigt:  
+> **Digitalität kann Wertebildung nicht ersetzen, aber erweitern und vertiefen.**
+
+Lernen wird **mehrperspektivisch**, wenn digitale Medien nicht nur Wissen vermitteln, sondern auch **Wertorientierung** ermöglichen.  
+Die Figur des heiligen Martin wird zur **Brücke zwischen Tradition und Transformation**.
+
+> „Digitale Wertebildung bedeutet, die Kultur des Teilens bewusst zu gestalten – als pädagogische Haltung, nicht nur als technische Option.“
+
+---
+
+## Anleitung: *Auf Martins Spuren – ein Actionbound zur digitalen Wertebildung*
+
+**Zielgruppe:** GS 3/4 oder Sekundarstufe 5/6  
+**Dauer:** ca. 60 Minuten (plus ggf. Verlängerung)  
+
+### Materialien
+
+- Smartphones oder Tablets für die Lernenden  
+- Zugang zu einem digitalen Bound (z. B. über die App *Actionbound*)  
+- Stationen-Markierungen auf dem Schulgelände oder im Klassenraum  
+- Medien: Bilder, Reflexionsfragen, QR-Codes, ggf. Karte/Feder/Schwert-Symbolik  
+- Optional: Ausdrucke für Backup-Stationen, Papier und Stifte  
+
+---
+
+### Schritt 1 – Einstieg: *„Die goldene Feder und das zerbrochene Schwert“*
+
+**Begrüßung:**  
+„Heute begeben wir uns auf den digitalen und realen Weg von St. Martin – mit Smartphone, aber auch mit offenem Herzen.  
+Mission: Die goldene Feder und das zerbrochene Schwert entdecken und verstehen, was Teilen, Mut und Verantwortung heute bedeuten.“  
+
+Hinweis: Es gibt eine Stationen-Rallye (6 Stationen).  
+Verteile die Geräte und prüfe, ob alle die App starten können bzw. Zugang zum Bound haben.
+
+---
+
+### Schritt 2 – Durchführung: Stationen im Bound
+
+Führe die Lernenden einzeln oder in kleinen Teams durch die Stationen.  
+Jede Station verbindet digitale Aufgaben, die über die App *Actionbound* an die Lernenden gegeben werden.  
+
+Der Bound besteht aus **sechs Stationen**, die inhaltlich aufeinander aufbauen.
+
+---
+
+### Schritt 3 – Sicherung und Abschluss
+
+Alle Teams/Einzelnen kommen zusammen.  
+
+**Präsentation:**  
+Jede Gruppe zeigt ein Highlight aus ihrem Bound (z. B. Foto, Idee, Reflexion).  
+
+**Plenumfrage:**  
+> „Was bedeutet Teilen heute – in Schule, digital, im Alltag?“  
+
+**Hausaufgabe (optional):**  
+Erstelle dein eigenes kleines *„Martin-Mut-Mini-Bound“* mit 3 Stationen zu deinem Alltag.  
+Oder: Teile online ein Symbolfoto mit Hashtag **#teilenverbindet #martinslicht** (gemäß Datenschutz).
+
+---
+
+## Hinweise für Lehrende
+
+- **Digitaltechnik prüfen:** WLAN, Geräteaufladung, App-Zugang vorher testen.  
+- **Datenschutz beachten:** Keine erkennbaren Gesichter posten ohne Einwilligung.  
+  Fotografien anonym oder mit Symbolik nutzen.  
+- **Private Endgeräte:** Thematisiere deren Grenzen.   
+
+
+---
+
+## Warum dieses Format?
+
+Dieses Format verbindet **digitale Medien** mit **realem Erleben** und **Wertebildung** – also **Kopf, Herz und Hand**.  
+Der Einsatz von Symbolen (Feder, Schwert) macht abstrakte Werte erfahrbar.  
+Durch Reflexion und Handlung wird Wertebildung **aktiv statt passiv**.  
+Der digitale Bound erlaubt individuelle Zugänge und motiviert durch spielerische Elemente.
+
+---
+
+## Datenschutz und OER-Qualität
+
+*Actionbound* (Ampel: Grün/Gelb) ist bei Schullizenzen **datenschutzkonform** einsetzbar.  
+Fotos und Videos nur mit **Einwilligung der Eltern** oder anonym (z. B. Symbole, Objekte).  
+Hinweise im Bound auf **anonyme Bildernutzung** sind integriert.  
+
+Offen gestaltete Materialien (Aufgaben, Texte, Objekte) sind als **OER adaptierbar**.  
+→ Arbeitsaufträge, Reflexionsfragen und Bound-Struktur können frei weiterentwickelt werden.
+Es kommt allerdings auf die jeweilige Actionbound-Lizenz an, hier ein Überblick:
+
+![](Actionbound-Übersicht.png)
+
+Zum [Bound](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)
+Zur dazugehörigen [TaskCard](https://www.taskcards.de/#/board/dcf7aef3-b39b-4329-a4a1-4fef791624de/view?token=4df396d0-9855-49c3-8f16-28ce65372a3f)
+-> Der Bound ist unter [CC-by-SA-Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) veröffentlicht, d.h. ihr dürft das Material weiterverwenden und bearbeiten (wenn ihr die entsprechende Actionbound-Lizenz habt), aber nur unter Namensnennung (Simone Dinse de Salas - RPK Rottenburg-Stuttgart) und unter derselben Lizenz wie das Original (also wieder unter CC-by-SA).
+
+Weitere Informationen zu [Actionbound](https://fachstelle-medien.drs.de/medienpaedagogik/actionbound.html).
+
+📅 **Veranstaltungshinweis:**
+[Actionbound für Einsteiger](https://de.actionbound.com/events) am 26.11.2025 von 15:00 Uhr - 16:30 Uhr
