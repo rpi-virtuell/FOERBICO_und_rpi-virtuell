@@ -200,7 +200,7 @@ Jede Gruppe zeigt ein Highlight aus ihrem Bound (z. B. Foto, Idee, Reflexion).
 
 **Hausaufgabe (optional):**  
 Erstelle dein eigenes kleines *„Martin-Mut-Mini-Bound“* mit 3 Stationen zu deinem Alltag.  
-Oder: Teile online ein Symbolfoto mit Hashtag **#teilenverbindet #martinslicht** (gemäß Datenschutz).
+Oder: Teile online ein Symbolfoto mit Hashtag **# teilenverbindet # martinslicht** (gemäß Datenschutz).
 
 ---
 
@@ -236,7 +236,11 @@ Es kommt allerdings auf die jeweilige Actionbound-Lizenz an, hier ein Überblick
 ![](Actionbound-Übersicht.png)
 
 Zum [Bound](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)
+
 Zur dazugehörigen [TaskCard](https://www.taskcards.de/#/board/dcf7aef3-b39b-4329-a4a1-4fef791624de/view?token=4df396d0-9855-49c3-8f16-28ce65372a3f)
+
+Zum [Instagram-Post](https://www.instagram.com/p/DQ4or3RjBbJ/?igsh=MTQzcTJwcjlrNmRl)
+
 -> Der Bound ist unter [CC-by-SA-Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) veröffentlicht, d.h. ihr dürft das Material weiterverwenden und bearbeiten (wenn ihr die entsprechende Actionbound-Lizenz habt), aber nur unter Namensnennung (Simone Dinse de Salas - RPK Rottenburg-Stuttgart) und unter derselben Lizenz wie das Original (also wieder unter CC-by-SA).
 
 Weitere Informationen zu [Actionbound](https://fachstelle-medien.drs.de/medienpaedagogik/actionbound.html).
