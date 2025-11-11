@@ -46,8 +46,6 @@ Link zum Flyer?
 |  12:45  | **Ende der Tagung**                                                  | –                                                                                                                                                                                                                                                                                                            |
 
 
-## Abschluss-Tagung 2027
-
-### Save-the-Date: 24. & 25.02.2027 an der Goethe-Universität Frankfurt
+## Abschluss-Tagung 2027 - Save-the-Date: 24. & 25.02.2027 an der Goethe-Universität Frankfurt
 
 Weitere Infos folgen!
