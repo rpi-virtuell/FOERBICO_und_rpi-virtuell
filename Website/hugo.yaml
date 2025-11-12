@@ -18,6 +18,9 @@ menus:
   - name: Blog
     url: /blog/
     weight: 300
+  - name: Tagungen
+    url: /tagungen/
+    weight: 14
   - name: Tags
     url: /tags/
     weight: 400
