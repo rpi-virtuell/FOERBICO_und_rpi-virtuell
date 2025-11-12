@@ -15,7 +15,7 @@ Unser FOERBICO Team nimmt diese Lücke in den Blick: Seit August 2024 erforschen
 
 Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstellen und gemeinsam mit euch diskutieren.
 
-[![Anmeldebutton](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/raw/branch/main/Website/content/posts/2025-06-26-Save_the_Date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+[![Anmeldebutton](/save-the-date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 ### Tagungsprogramm
 
@@ -42,7 +42,6 @@ Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstell
 |  10:45  | ☕ **Kaffee-Pause**                                                   | –                                                                                                                                                                                                                                                                                                            |
 |  11:45  | **Critical Friends (Kommentierungen und Podium)**                    | Dr. Susanne Friz (FWU Institut für Film & Bild in Wissenschaft & Unterricht)<br>Dr. Alexandra Habicher (Koordinatorin des Projektverbunds digiLL)<br>Prof. Dr. Ilona Nord (Religionspädagogik, Uni Würzburg)<br>Prof. Dr. Franco Rau (Schulpädagogik, FAU)<br>**Moderation:** Prof. Dr. Manfred Pirner (FAU) |
 |  12:45  | **Ende der Tagung**                                                  | –                                                                                                                                                                                                                                                                                                            |
-
 
 ## Abschluss-Tagung 2027 - Save-the-Date: 24. & 25.02.2027 an der Goethe-Universität Frankfurt
 
