@@ -13,7 +13,7 @@ Obwohl es zahlreiche Tagungen zu OER und Open Educational Practices (OEP) gibt, 
 
 Unser FOERBICO Team nimmt diese Lücke in den Blick: Seit August 2024 erforschen wir OER-Communities im religionsbezogenen Bildungsbereich – mit einem besonderen Augenmerk auf die Zusammenarbeit, Dynamiken und Strukturen innerhalb dieser Gruppen.
 
-Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstellen und gemeinsam mit euch diskutieren.
+Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstellen und gemeinsam diskutieren.
 
 [![Anmeldebutton](/save-the-date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
