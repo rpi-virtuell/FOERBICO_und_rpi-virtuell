@@ -17,31 +17,45 @@ Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstell
 
 [![Anmeldebutton](/save-the-date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
-### Tagungsprogramm
+
+## Tagungsprogramm
 
 **Dienstag, 24. Februar**
 
-| Uhrzeit | Programmpunkt                                                                                                                                                                                                                                                                                            | Referent:innen / Hinweise                                                                                                  |
-| :-----: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
-|  13:30  | **Begrüßung**                                                                                                                                                                                                                                                                                            | –                                                                                                                          |
-|  14:00  | **Zwischenergebnisse aus FOERBICO – ein Überblick**<br>• Zentrale Einsichten aus dem Forschungsstand<br>• Ergebnisse aus den Interviews der Begleitforschung<br>• Aktueller Stand der OER-Communities und ihrer Vernetzungen (Community-Hub)<br>• Aktueller Stand der Entwicklung von Qualitätskriterien | –                                                                                                                          |
-|  15:30  | ☕ **Kaffee-Pause**                                                                                                                                                                                                                                                                                       | –                                                                                                                          |
-|  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                                                                                                                                                                                                                                          | Prof. Dr. Daniel Otto (Professur für E-Learning und digitale Lehre, Europäische Hochschule für Innovation und Perspektive) |
-|  17:15  | 🧭 **Wegfindungs-Pause**                                                                                                                                                                                                                                                                                 | –                                                                                                                          |
-|  17:30  | **Thematische Workshops**<br>• Community Hub<br>• Qualitätskriterien<br>• Community of Praxis                                                                                                                                                                                                            | –                                                                                                                          |
-|  19:00  | 🍽️ **Abendessen**                                                                                                                                                                                                                                                                                       | –                                                                                                                          |
-|  20:00  | **Abend der Begegnung**<br>Gelegenheit, eigene Projekte vorzustellen und sich auszutauschen                                                                                                                                                                                                              | –                                                                                                                          |
+| Uhrzeit | Programmpunkt                                                                             | Referent:innen / Hinweise |
+| :-----: | ----------------------------------------------------------------------------------------- | ------------------------- |
+|  13:30  | **Begrüßung**                                                                             | –                         |
+|  14:00  | **Zwischenergebnisse aus FOERBICO – ein Überblick**                                       | –                         |
+|         | • Zentrale Einsichten aus dem Forschungsstand                                             |                           |
+|         | • Ergebnisse aus den Interviews der Begleitforschung                                      |                           |
+|         | • Aktueller Stand der OER-Communities und ihrer Vernetzungen (Community-Hub)              |                           |
+|         | • Aktueller Stand der Entwicklung von Qualitätskriterien                                  |                           |
+|  15:30  | ☕ **Kaffee-Pause**                                                                        | –                         |
+|  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                           | Prof. Dr. Daniel Otto     |
+|  17:15  | 🧭 **Wegfindungs-Pause**                                                                  | –                         |
+|  17:30  | **Thematische Workshops**                                                                 | –                         |
+|         | • Community Hub                                                                           |                           |
+|         | • Qualitätskriterien                                                                      |                           |
+|         | • Community of Praxis                                                                     |                           |
+|  19:00  | 🍽️ **Abendessen**                                                                        | –                         |
+|  20:00  | **Abend der Begegnung**: Gelegenheit, eigene Projekte vorzustellen und sich auszutauschen | –                         |
 
 
 **Mittwoch, 25. Februar**
 
-| Uhrzeit | Programmpunkt                                                        | Referent:innen / Hinweise                                                                                                                                                                                                                                                                                    |
-| :-----: | :------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  09:00  | **Begrüßung**                                                        | –                                                                                                                                                                                                                                                                                                            |
-|  09:15  | **Community-Workshops**<br>• relilab<br>• reliGlobal<br>• RELImentar | –                                                                                                                                                                                                                                                                                                            |
-|  10:45  | ☕ **Kaffee-Pause**                                                   | –                                                                                                                                                                                                                                                                                                            |
-|  11:45  | **Critical Friends (Kommentierungen und Podium)**                    | Dr. Susanne Friz (FWU Institut für Film & Bild in Wissenschaft & Unterricht)<br>Dr. Alexandra Habicher (Koordinatorin des Projektverbunds digiLL)<br>Prof. Dr. Ilona Nord (Religionspädagogik, Uni Würzburg)<br>Prof. Dr. Franco Rau (Schulpädagogik, FAU)<br>**Moderation:** Prof. Dr. Manfred Pirner (FAU) |
-|  12:45  | **Ende der Tagung**                                                  | –                                                                                                                                                                                                                                                                                                            |
+| Uhrzeit | Programmpunkt                                     | Referent:innen / Hinweise                                                                                                              |
+| :-----: | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+|  09:00  | **Begrüßung**                                     | –                                                                                                                                      |
+|  09:15  | **Community-Workshops**                           | –                                                                                                                                      |
+|         | • relilab                                         |                                                                                                                                        |
+|         | • reliGlobal                                      |                                                                                                                                        |
+|         | • RELImentar                                      |                                                                                                                                        |
+|  10:45  | ☕ **Kaffee-Pause**                                | –                                                                                                                                      |
+|  11:45  | **Critical Friends (Kommentierungen und Podium)** | Dr. Susanne Friz, Dr. Alexandra Habicher, Prof. Dr. Ilona Nord, Prof. Dr. Franco Rau - **Moderation:** Prof. Dr. Manfred Pirner |
+|  12:45  | **Ende der Tagung**                               | –                                                                                                                                      |
+                                                                                                                             |
+
+--- 
 
 ## Abschluss-Tagung 2027 - Save-the-Date: 24. & 25.02.2027 an der Goethe-Universität Frankfurt
 
