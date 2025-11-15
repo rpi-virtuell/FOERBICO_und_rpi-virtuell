@@ -48,7 +48,7 @@ Auf dieser Basis wurde ein Retrieval-Augmented-Generation-System (RAG) implement
 > In particular, RAG introduces the information retrieval process, which enhances the generation process by retrieving relevant objects
 from available data stores, leading to higher accuracy and better robustness ([Zhao et. Al 2024: 1](https://doi.org/10.48550/arXiv.2402.19473)).
 
-Ein RAG verbessert Antwortgenerierung der KI. Denn das RAG identifiziert anhand der Eingabefrage relevante Datenquellen und interargiert mit dem Generator um robuste und genaue Antworten zu generieren. Es ist wie ein Datenspürhund, welches aus einem Datenset die relevanten Informationen herausholt. Für den Kurs „Informatik-Fit“ bedeutet das Konkret:
+Ein RAG verbessert Antwortgenerierung der KI. Denn das RAG identifiziert anhand der Eingabefrage relevante Datenquellen und interagiert mit dem Generator, um robuste und genaue Antworten zu generieren. Es ist wie ein Datenspürhund, welches aus einem Datenset die relevanten Informationen herausholt. Für den Kurs „Informatik-Fit“ bedeutet das konkret:
 - Sämtliche OER-Kursmaterialien werden in einer Vektordatenbank abgelegt und bilden den primären Antwortkontext.
 - Lernende können nach aktiver Zustimmung einen Chatbot nutzen, der Fragen zum Kurs stellt und Antworten auf Grundlage dieser OER-Inhalte generiert.
 - Als zugrundeliegendes Sprachmodell kommt (Stand der Präsentation) ein kommerzielles LLM (ChatGPT 4.0 mini) zum Einsatz, das nach Tests eine hohe Antwortqualität (Validität von über 97 % in Stichproben) zeigte.
@@ -72,7 +72,7 @@ Wesentliche Beobachtungen:
 - KI-Werkzeuge kamen u.a. bei der sprachlichen Anpassung (Schriftsprache zu gesprochener Sprache) zum Einsatz, die inhaltliche Strukturierung, Schwerpunktsetzung sowie didaktische Entscheidungen blieben klar in menschlicher Verantwortung.
 - Das Projekt unterstreicht, dass Bildung ein sozialer, relationaler Prozess bleibt: KI kann hier unterstützen, nicht substituieren.
 
-Das Bildung ein sozialer Prozess ist, zeigte sich nach Prof. Dr. Erdmann deutlich anhand des gemeinsamen schauen der Videos vor den einzelnen Sitzungen. Ein signifikanter Teil der Studierenden kamen 15 Minuten vor der Vorlesung um gemeinsam die Videos zu schauen. Das Projekt zeigt aber auch welche Kosten bei der Nutzung von KI verbunden sein können. Denn für die KI Software, welche für die Video Generierung verwendet wurde, mussten neben der Arbeitszeit auch finanzielle Ressourcen aufgebracht werden.
+Das Bildung ein sozialer Prozess ist, zeigte sich nach Prof. Dr. Erdmann deutlich anhand des gemeinsamen Schauens der Videos vor den einzelnen Sitzungen. Ein signifikanter Teil der Studierenden kamen 15 Minuten vor der Vorlesung, um gemeinsam die Videos zu sehen. Das Projekt zeigt aber auch, welche Kosten bei der Nutzung von KI verbunden sein können. Denn für die KI Software, welche für die Video-Generierung verwendet wurde, mussten neben der Arbeitszeit auch finanzielle Ressourcen aufgebracht werden.
 
 ### Zwiegespräch: Zuspitzung der Leitfrage
 
@@ -90,7 +90,7 @@ Kritisch rückblickend formuliert Malte Persike eine gewisse „OER-Desillusioni
 ## Fazit: OER im Zeitalter von KI - jetzt erst recht
 
 Zusammenfassend lässt sich aus den Beiträgen des Fachtags festhalten:
-OER und KI können sich gegenseitig unterstützen und voranbringen. KI kann zur Unterstützung der OER-Produktion beitragen, etwa bei Qualitätssicherung, Sprachüberarbeitung, Übersetzungen, Metadatenanreicherung und der didaktischen Aufbereitung von Materialien.OER bieten gleichzeitig eine zentrale Grundlage, um KI-Anwendungen für Bildung rechtskonform, transparent und gemeinwohlorientiert zu gestalten. Es bleiben jedoch Offene Fragen insbesondere in Bezug auf Urheberrecht, Lizenzierung von KI-gestützten Materialien, Transparenz von Trainingsdaten sowie nachhaltige Infrastrukturen für offene Bildung.
+OER und KI können sich gegenseitig unterstützen und voranbringen. KI kann zur Unterstützung der OER-Produktion beitragen, etwa bei Qualitätssicherung, Sprachüberarbeitung, Übersetzungen, Metadatenanreicherung und der didaktischen Aufbereitung von Materialien.OER bieten gleichzeitig eine zentrale Grundlage, um KI-Anwendungen für Bildung rechtskonform, transparent und gemeinwohlorientiert zu gestalten. Es bleiben jedoch offene Fragen insbesondere in Bezug auf Urheberrecht, Lizenzierung von KI-gestützten Materialien, Transparenz von Trainingsdaten sowie nachhaltige Infrastrukturen für offene Bildung.
 Ohne menschliche Verantwortung, kritische Reflexion und Community-getragene Qualitätsprozesse kann weder KI noch OER ihr Potenzial für eine offene, souveräne Bildungslandschaft entfalten.
 
 ## Eigene Learnings
