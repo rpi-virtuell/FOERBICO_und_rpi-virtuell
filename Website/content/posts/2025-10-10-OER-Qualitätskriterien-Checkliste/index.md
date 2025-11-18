@@ -5,7 +5,7 @@ type: ScholarlyArticle
 id: https://oer.community/offenheit-ist-kein-gegensatz-zu-qualität
 name: Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER
 description: >-
-   OER werden in der Religionspädagogik als zukunftsweisendes Instrument gesehen. Immer drängender stellt sich damit Frage nach ihrer Qualität: Woran lässt sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.
+   OER werden in der Religionspädagogik als zukunftsweisendes Instrument offener Bildungspraktiken gesehen. Immer drängender stellt sich damit die Frage nach ihrer Qualität: Woran lassen sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.
 inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/
 creator:
@@ -20,7 +20,7 @@ creator:
 image: Quality.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-10-10'
+datePublished: '2025-11-24'
 #staticSiteGenerator:
 author:
   - Laura Mößle
@@ -31,7 +31,7 @@ cover:
   hidddenInSingle: false
   alt: 'Wandkunst mit Text über Qualität und Frische von Adhitya Sibikumar (@adhitya_2505)(Quelle: Unsplash, Unsplash-Lizenz)'
 summary: >-
-   OER werden in der Religionspädagogik als zukunftsweisendes Instrument gesehen. Immer drängender stellt sich damit Frage nach ihrer Qualität: Woran lässt sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.
+  OER werden in der Religionspädagogik als zukunftsweisendes Instrument offener Bildungspraktiken gesehen. Immer drängender stellt sich damit die Frage nach ihrer Qualität: Woran lassen sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.
 tags:
   - Qualitätskriterien
   - Hochschuldidaktik
@@ -45,19 +45,17 @@ tags:
 
 # Offenheit ist kein Gegensatz zu Qualität
 
-## Religionspädagogische Qualitätskriterien für OER: Der Weg zu einer Handreichung
-<!--braucht es diese Überschrift hier davor? Der Absatz wäre ja eine gute Eröffnung, die auch ohne Überschrift verständlich wäre -->
 OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie sollen Chancengleichheit fördern, Teilhabe ermöglichen, digitale Kompetenzen stärken und Bildungsprozesse demokratisieren. Auch in der Religionspädagogik werden OER zunehmend als Hoffnungsträger für eine gerechtere und innovativere Bildungslandschaft ([vgl. Mößle/Pirker 2024](https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open); [Angelina/ Mößle 2025](https://y-nachten.de/2025/03/oer-und-die-third-mission/)) diskutiert. Doch verbunden mit der Zugänglichkeit stellt sich immer dringlicher die Frage nach der Qualität: Was macht gute, nachhaltig nutzbare und qualitative OER eigentlich aus? Wie lässt sich die Qualität von OER bewerten? Und worauf gilt es zu achten, wenn man qualitative OER erstellen möchte?
 
 
 ## OER-Qualität im diskursiven Horizont
 
-Die freie Nutzbarkeit und Weiterverbreitung von OER wirft zentrale Fragen nach ihrer **Qualität** auf. Neben Unsicherheiten im Urheberrecht zählt die Qualität von OER zu den am intensivsten diskutierten Themen im OER-Umfeld [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Sie gilt als entscheidender Faktor für Akzeptanz und Erfolg offener Bildungsressourcen [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51). <!--hier würde mich als Leser noch interessieren, für wen das als entscheidender Faktor für Aktzepatnz und Erfolg zählt? Die Praktiker*innen, die Wissenschaftler*innen usw. -->
+Die freie Nutzbarkeit und Weiterverbreitung von OER wirft zentrale Fragen nach ihrer **Qualität** auf. Neben Unsicherheiten im Urheberrecht zählt die Qualität von OER zu den am intensivsten diskutierten Themen im OER-Umfeld [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert). Qualität gilt aus Sicht der Nutzer:innen als entscheidender Faktor für die Akzeptanz und den Erfolg offener Bildungsressourcen [(vgl. Pirker & Pirner 2025)](https://doi.org/10.58069/theow.2025.1.51). 
 
 Mit dem rasanten Anstieg frei verfügbarer Materialien, nicht zuletzt durch KI-gestützte Entwicklungen, wird die Identifikation qualitativ hochwertiger OER zunehmend komplex. 
 Nutzer:innen bewerten Qualität meist auf Basis individueller Bedürfnisse, was zu stark divergierenden Qualitätsvorstellungen führt. Die prozesshafte Natur von OER, die fortwährend verändert und adaptiert werden, erschwert statische Qualitätssicherungsprozesse zusätzlich [(vgl. Ehlers 2015)](https://www.researchgate.net/publication/327393832_Qualitatsentwicklung_fur_OER_-_viel_besprochen_wenig_realisiert).
 
-Um dennoch Vertrauen in offene Bildungsressourcen zu stärken, braucht es Orientierung für OER-Qualität. Qualität ist kein feststehendes Attribut, sondern Ergebnis eines **dialogischen Aushandlungsprozesses**. [Baas et al. (2022)](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y) zeigen, dass Lehrende ihre Qualitätswahrnehmung nicht isoliert, sondern im Austausch mit Kolleg:innen und innerhalb institutioneller Rahmenbedingungen entwickeln. Qualität entsteht folglich dort, wo OER **inhaltlich relevant**, **didaktisch tragfähig**, **praktisch nutzbar** und **anschlussfähig** für die eigene Lehre <!--evt. ergänzen: im Austausch mit anderen --> gestaltet werden.
+Um dennoch Vertrauen in offene Bildungsressourcen zu stärken, braucht es Orientierung für OER-Qualität. Qualität ist kein feststehendes Attribut, sondern Ergebnis eines **dialogischen Aushandlungsprozesses**. [Baas et al. (2022)](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063763/Baas%2bet%2bal.%2b%25282022%2529.pdf?sequence=1&isAllowed=y) zeigen, dass Lehrende ihre Qualitätswahrnehmung nicht isoliert, sondern im Austausch mit Kolleg:innen und innerhalb institutioneller Rahmenbedingungen entwickeln. Qualität entsteht folglich dort, wo OER **inhaltlich relevant**, **didaktisch tragfähig**, **praktisch nutzbar** und **anschlussfähig** für die eigene Lehre gestaltet werden.
 
 ## Verfahren zur Qualitätssicherung von OER
 
@@ -95,7 +93,7 @@ Die genannten Verfahren zur Qualitätssicherung von OER zeigen die Bandbreite, w
 ## Qualität im religionspädagogischen Kontext
 
 „Die Frage nach Unterrichtsqualität ist zu einer Schlüsselfrage geworden, nicht nur für den schulischen Alltag, sondern für die schul- und bildungspolitische Diskussion insgesamt“ (Schweitzer, 2008, S. 11). 
-Die Frage nach der Qualität religiöser Bildungsprozesse wird von allgemein didaktischen Grundsatzüberlegungen bis hin zur Analyse und Bewertung konkreter Lehrmaterialien diskutiert. Von besonderer Bedeutung ist dabei die Frage, wie sich guter Religionsunterricht jenseits abstrakter Konzeptionen bestimmen lässt. Es ist also für den Religionsunterricht geboten, präzise auszuweisen, „was und wie in diesem Fach gelernt werden soll“ (Schweitzer, 2020, S. 15).
+Die Frage nach der Qualität religiöser Bildungsprozesse wird bereits seit geraumer Zeit von allgemein didaktischen Grundsatzüberlegungen bis hin zur Analyse und Bewertung konkreter Lehrmaterialien diskutiert. Von besonderer Bedeutung ist dabei die Frage, wie sich guter Religionsunterricht jenseits abstrakter Konzeptionen bestimmen lässt. Es ist also für den Religionsunterricht geboten, präzise auszuweisen, „was und wie in diesem Fach gelernt werden soll“ (Schweitzer, 2020, S. 15).
 
 Dabei ist zu berücksichtigen, dass es **den** guten Unterricht nicht gibt (vgl. Gojny; Lenhard & Zimmermann, 2022, S. 164). Mit Helmke (2017) ist vielmehr zu fragen: Gut wofür, gut für wen, gemessen an welchen Bedingungen, aus welcher Perspektive und für welchen Zeitraum? Qualität erweist sich daher als vielschichtiges und kontextabhängiges Kriterium, das je nach Bildungsziel, Lerngruppe, institutionellem Rahmen oder Zeitpunkt unterschiedlich bestimmt wird (vgl. Adam & Rothgangel, 2012). 
 
@@ -178,13 +176,12 @@ Exemplarisch für die religionspädagogische Dimension sieht die Checkliste folg
 * Das Material ermöglicht Lernenden, unterschiedliche religiös-weltanschauliche Deutungen der Wirklichkeit wahrzunehmen und in einem multiperspektvischen Kontext zu reflektieren.
 
 > **[Vollständige OER-Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/commit/9116013541c4106874af283163378390bfdd0a9f/qualitaetskriterien/handreichung-qualitaetskriterien.md)**  
-> Offen zugängliche Markdown-Datei unter CC BY 4.0 Lizenz 
->  
+> Die OER-Qualitätskriterien stehen als offen zugängliche Markdown-Datei unter CC BY 4.0 Lizenz zur Verfügung. 
 > Die Handreichung versteht sich als lebendiges Dokument, das kontinuierlich weiterentwickelt, angepasst und erprobt wird.  
-> Sie bietet Lehrenden eine praxisnahe und flexible Grundlage, um OER systematisch zu bewerten, zu gestalten und weiterzuentwickeln.
+> Die OER-Qualitätskriterien bieten Lehrenden eine praxisnahe und flexible Grundlage, um OER zu bewerten, zu gestalten und weiterzuentwickeln.
 
 
-Die Qualitätskriterien bieten eine systematische Orientierung zur Erstellung und Bewertung von OER im Bereich der Religionspädagogik. Sie bietet keine rechtsverbindliche Auskunft und ersetzt nicht die eigenverantwortliche Prüfung der Materialien.
+Die Qualitätskriterien bieten Orientierung zur Erstellung und Bewertung von OER im Bereich der Religionspädagogik. Sie bieten keine rechtsverbindliche Auskunft und ersetzten nicht die eigenverantwortliche Prüfung der Materialien.
 
 
 ### Qualität als reflexiver Aushandlungsprozess
@@ -228,7 +225,7 @@ Qualitätssicherung bedeutet dabei Offenheit als Chance für gemeinsames Lernen 
 
 * Pirker, V., & Pirner, M. (2025). [Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont](https://doi.org/10.58069/theow.2025.1.51), in: Theo-Web, 24(1), 151–185.
 
-* Rothgangel, M. (2021). [Unterrichtsqualität in der Religionsdidaktik – fachspezifische und fachübergreifende Aspekte](https://doi.org/10.1007/s42010-021-00107-w), in: Unterrichtswissenschaft. Journal of Teaching and Learning Sciences 49, 253–260.
+* Rothgangel, M. (2021). [Unterrichtsqualität in der Religionsdidaktik – fachspezifische und fachübergreifende Aspekte](https://doi.org/10.1007/s42010-021-00107-w), in: Unterrichtswissenschaft. Journal of Teaching and Learning Sciences 49(2), 253–260.
 
 * Schweitzer, F. (2008). Elementarisierung und Kompetenz. Wie Schülerinnen und Schüler von „gutem Religionsunterricht“ profitieren, Neukirchen-Vluyn.
 
