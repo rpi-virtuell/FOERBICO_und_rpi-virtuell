@@ -24,7 +24,7 @@ datePublished: '2025-11-25'
 #staticSiteGenerator:
 author:
   - Laura Mößle
-title: Offenheit ist kein Gegensatz zu Qualität.Religionspädagogische Qualitätskriterien für OER
+title: Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER
 cover:
   relative: true
   image: Quality.jpg
@@ -39,13 +39,11 @@ tags:
   - Theologie
   - Medienpädagogik
   - Open Educational Resources (OER)
-  - Barrierefreiheit
   
 ---
 
-# Offenheit ist kein Gegensatz zu Qualität
 
-OER werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie sollen Chancengleichheit fördern, Teilhabe ermöglichen, digitale Kompetenzen stärken und Bildungsprozesse demokratisieren. Auch in der Religionspädagogik werden OER zunehmend als Hoffnungsträger für eine gerechtere und innovativere Bildungslandschaft ([vgl. Mößle/Pirker 2024](https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open); [Angelina/ Mößle 2025](https://y-nachten.de/2025/03/oer-und-die-third-mission/)) diskutiert. Doch verbunden mit der Zugänglichkeit stellt sich immer dringlicher die Frage nach der Qualität: Was macht gute, nachhaltig nutzbare und qualitative OER eigentlich aus? Wie lässt sich die Qualität von OER bewerten? Und worauf gilt es zu achten, wenn man qualitative OER erstellen möchte?
+Open Educational Resources (OER) werden häufig mit großen bildungspolitischen Erwartungen verknüpft: Sie sollen Chancengleichheit fördern, Teilhabe ermöglichen, digitale Kompetenzen stärken und Bildungsprozesse demokratisieren. Auch in der Religionspädagogik werden OER zunehmend als Hoffnungsträger für eine gerechtere und innovativere Bildungslandschaft ([vgl. Mößle/Pirker 2024](https://www.theo-web.de/ausgaben/2023/22-jahrgang-2023-heft-1/news/open-educational-practices-als-wissenstransfer-welche-potenziale-hat-die-religionspaedagogik-auf-dem-weg-ins-open); [Angelina/ Mößle 2025](https://y-nachten.de/2025/03/oer-und-die-third-mission/)) diskutiert. Doch verbunden mit der Zugänglichkeit stellt sich immer dringlicher die Frage nach der Qualität: Was macht gute, nachhaltig nutzbare und qualitative OER eigentlich aus? Wie lässt sich die Qualität von OER bewerten? Und worauf gilt es zu achten, wenn man qualitative OER erstellen möchte?
 
 
 ## OER-Qualität im diskursiven Horizont
@@ -61,7 +59,7 @@ Um dennoch Vertrauen in offene Bildungsressourcen zu stärken, braucht es Orient
 
 Im Kontext der Qualitätssicherung OER existieren mittlerweile mehrere erprobte Verfahren, die sowohl im schulischen als auch im hochschulischen Bereich Anwendung finden und unterschiedliche Schwerpunkte setzen.
 
-Ein prominentes Instrument ist das **Augsburger Analyse- und Evaluationsraster (AAER)**. Es ermöglicht eine systematische Bewertung analoger und digitaler Lehr-Lern-Materialien auf Grundlage von acht definierten Qualitätsdimensionen:  
+Ein prominentes Instrument ist das **[Augsburger Analyse- und Evaluationsraster (AAER)](https://digillab.uni-augsburg.de/onlinedienste/das-augsburger-analyse-und-evaluationsraster-aaer/)**. Es ermöglicht eine systematische Bewertung analoger und digitaler Lehr-Lern-Materialien auf Grundlage von acht definierten Qualitätsdimensionen:  
 1. Lehrplan- und Bildungsstandards  
 2. Diskursive Positionierung  
 3. Makrodidaktische und bildungstheoretische Fundierung  
@@ -84,7 +82,7 @@ Das niedersächsische OER-Portal [**Twillo**](https://www.twillo.de) verfolgt ei
 
 Damit fördert Twillo nicht nur die Reflexion über die Qualität von OER, sondern bietet ergänzend praxisorientierte Hilfestellungen.
 
-Die **Hamburg Open Online University (HOOU)** hat sich mit einem eigenen Qualitätssicherungsmodell im Hochschulkontext positioniert. Das beratende Evaluationsverfahren konzentriert sich auf pädagogisch-didaktische und technische Qualität, während die inhaltliche Verantwortung bewusst bei den Autor:innen verbleibt [(vgl. Friz, 2019)](https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf). 
+Die **[Hamburg Open Online University (HOOU)](https://portal.hoou.de/)** hat sich mit einem eigenen Qualitätssicherungsmodell im Hochschulkontext positioniert. Das beratende Evaluationsverfahren konzentriert sich auf pädagogisch-didaktische und technische Qualität, während die inhaltliche Verantwortung bewusst bei den Autor:innen verbleibt [(vgl. Friz, 2019)](https://open-educational-resources.de/wp-content/uploads/GMK_M%C3%BCnchen.pdf). 
 Aufbauend auf diesem Verfahren entwickelt die HOOU einen umfassenden Kriterienkatalog, der inhaltliche, didaktische, technische und nutzungsorientierte Aspekte gleichermaßen berücksichtigt. Perspektivisch soll mit dem HOOU-Label ein markenspezifisches Qualitätssiegel etabliert werden, das als Vertrauensmerkmal für hochwertige OER fungiert [(vgl. Zawacki-Richter et al., 2017)](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf).  
 
 Die genannten Verfahren zur Qualitätssicherung von OER zeigen die Bandbreite, wie Qualität entwickelt werden kann, von detaillierten Kriterienrastern (AAER), partizipative Selbstbewertung (Twillo) bis hin zu eher beratenden Verfahren mit institutionellen Qualitätslabels (HOOU). 
@@ -108,7 +106,7 @@ Die Qualitätsdebatte reicht bis in die Schulbuchforschung ([vgl. Henningsen, 20
 
 ## Entstehungsprozess eines Kriterienkatalogs für religionsbezogene Bildung
 
-Vor diesem Hintergrund entwickelte das FOERBICO Team einen Kriterienkatalog zur OER-Qualität für schulische, außerschulische und hochschulische Kontexte. Ausgangspunkt war die Analyse bestehender Qualitätssicherungsansätze in OER-Communities, die mit aktuellen religionspädagogischen Forschungsdiskursen abgeglichen und in Expert:inneninterviews sowie praktischen Erprobungen iterativ weiterentwickelt wurden. 
+Vor diesem Hintergrund entwickelte das FOERBICO-Team einen Kriterienkatalog zur OER-Qualität für schulische, außerschulische und hochschulische Kontexte. Ausgangspunkt war die Analyse bestehender Qualitätssicherungsansätze in OER-Communities, die mit aktuellen religionspädagogischen Forschungsdiskursen abgeglichen und in Expert:inneninterviews sowie praktischen Erprobungen iterativ weiterentwickelt wurden. 
 Parallel wurden Projekte der Professur für Religionspädagogik und Mediendidaktik der Goethe Universität Frankfurt mit Hilfe der im FOERBICO Projekt entwickelten Handreichung auf ihre Qualität hin überprüft und entsprechend [für die Publikation überarbeitet](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/). Auch diese Erkenntnisse flossen in die Überarbeitung der Kritieren ein. 
 
 So entstand eine Handreichung, die wissenschaftliche, praxisbezogene und communitybasierte Perspektiven integriert und im Format einer Checkliste zugänglich macht.
