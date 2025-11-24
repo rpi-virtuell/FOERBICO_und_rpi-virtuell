@@ -20,7 +20,7 @@ creator:
 image: Quality.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-11-25'
+datePublished: '2025-11-24'
 #staticSiteGenerator:
 author:
   - Laura Mößle
