@@ -17,7 +17,7 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: Quality.jpg
+image: https://oer.community/qualitaetskriterien-checkliste/Quality.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: '2025-11-24'
@@ -25,6 +25,7 @@ datePublished: '2025-11-24'
 author:
   - Laura Mößle
 title: Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER
+url: qualitaetskriterien-checkliste
 cover:
   relative: true
   image: Quality.jpg
@@ -39,7 +40,6 @@ tags:
   - Theologie
   - Medienpädagogik
   - Open Educational Resources (OER)
-  
 ---
 
 
