@@ -76,7 +76,7 @@ Treffen sie zufällig auf OER, ist ihnen das meist gar nicht bewusst. In der Reg
 ## Didaktische Passung als Schlüssel
 
 Ob OER tatsächlich genutzt werden, hängt wesentlich von der Wahrnehmung ihrer *Qualität* im Verhältnis zum eigenen Unterricht ab. [Admiraal 2022](https://www.researchgate.net/publication/350954901_A_Typology_of_Educators_Using_Open_Educational_Resources_for_Teaching) hebt hervor, dass sich die zentralen Herausforderungen der Lehrkräfte bei der OER-Nutzung darauf beziehen, geeignete, qualitativ hochwertige und zugleich kontextrelevante Materialien zu finden. 
-Die Qualitätswahrnehmung erfolgt keineswegs nicht abstrakt, sondern in enger Verbindung zum jeweiligen Schul- und Unterrichtskontext.
+Die Qualitätswahrnehmung erfolgt keineswegs abstrakt, sondern in enger Verbindung zum jeweiligen Schul- und Unterrichtskontext.
  Materialien müssen anschlussfähig an den eigenen Unterrichtsstil und die spezifischen Lernziele sein. Insofern ist Qualität für Lehrpersonen weniger eine universale Eigenschaft der OER, sondern eine *relationale Kategorie*, die sich aus Passung, Aktualität und situativer Relevanz ergibt. Offenheit im Sinne der Lizenzierung ist dabei ein wesentlicher Ermöglichungsfaktor, sie wird jedoch nicht als Selbstzweck wahrgenommen, sondern tritt hinter die Frage zurück, ob ein Material didaktisch sinnvoll einsetzbar und für die konkrete Lerngruppe geeignet ist.
  
 
