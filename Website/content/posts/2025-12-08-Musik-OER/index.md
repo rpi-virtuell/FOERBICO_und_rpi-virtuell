@@ -27,6 +27,7 @@ Weiterführende Infos:
 Selbst wenn die Komposition gemeinfrei ist, können Aufnahmen trotzdem geschützt sein – etwa durch Leistungsschutzrechte oder GEMA-Pflichten. Das bedeutet:
 
 ❌ Eine vorhandene Aufnahme einfach nutzen → oft nicht erlaubt
+
 ✔️ Eine eigene Aufnahme erstellen → meist unproblematisch
 
 Relevante Rechte: [Leistungsschutzrechte](https://www.urheberrecht.de/leistungsschutzrecht/), [GEMA](https://www.gema.de/de/musiknutzer), [Gesellschaft zur Verwertung von Leistungsschutzrechten mbH (GVL)](https://gvl.de/).
@@ -73,6 +74,7 @@ Typische Merkmale:
 Kurz: Ein Sample ist kein neues Werk, nur weil es „anders klingt“. Es muss eine kreative Eigenleistung erkennbar sein.
 
 In der Praxis bedeutet das:
+
 👉 Wenn man beim Hören denkt: „Das erinnert mich an…“ → dann ist es oft noch zu nah dran.
 
 #### Praxisbeispiele
@@ -97,6 +99,7 @@ In der Praxis bedeutet das:
 Gerade Reels, Shorts oder TikTok-Videos nutzen oft musikrechtlich geschützte Audios. Sobald man ein eigenes Material mit offenem Lizenzhinweis veröffentlicht, darf man:
 
 ❌ nicht einfach auf vorgeschlagene Musik der Social Media Anbieter zurückgreifen
+
 ✔️ besser: nur gemeinfreie oder CC-lizenzierte Musik verwenden
 
 Mehr dazu: https://www.instagram.com/reel/DReUnhajSTT/?igsh=MXUxYTFzNjhjMjkyZw==
@@ -115,15 +118,18 @@ Aktueller Hintergrund:
 https://www.tagesschau.de/wirtschaft/digitales/openai-gema-songtexte-100.html
 
 Für OER gilt:
+
 ✔️ KI-Musik kann nutzbar sein, wenn sie eigenständig genug ist
+
 ❌ keine KI-Rekonstruktionen bekannter Lieder
 
 ### Praxisbeispiele:
-https://praxis.leaschulz.com/2025/03/06/station-13-gs/
 
-https://blogs.nmz.de/badblog/2024/04/15/suno-ai-im-musikunterricht-ein-konzept-um-lieder-des-19-jahrhunderts-besser-zu-verstehen/
+- https://praxis.leaschulz.com/2025/03/06/station-13-gs/
 
-https://www.kms-bildung.de/2025/11/09/musikvideos-mit-ki-im-unterricht-ein-praxisversuch/
+- https://blogs.nmz.de/badblog/2024/04/15/suno-ai-im-musikunterricht-ein-konzept-um-lieder-des-19-jahrhunderts-besser-zu-verstehen/
+
+- https://www.kms-bildung.de/2025/11/09/musikvideos-mit-ki-im-unterricht-ein-praxisversuch/
 
 ## Kirchenmusik und OER – was gilt?
 
@@ -143,6 +149,7 @@ Beispiele (alle gemeinfrei als Komposition):
 - Franz Xaver Gruber (Stille Nacht, 1818)
 
 👉 Komposition = frei verwendbar
+
 Aber: Moderne Einspielungen (Chor, Orgel, Ensemble) sind oft geschützt.
 
 ### 2. Moderne Kirchenmusik: häufig NICHT gemeinfrei
@@ -166,7 +173,9 @@ Hillsong, Bethel, Elevation Worship etc. (international stark geschützt)
 Gemeinfreie Komposition – moderne Aufnahme ✔️/❌
 
 ❌ Ein Chor nimmt „Stille Nacht“ neu auf → die Aufnahme selbst ist geschützt
+
 ✔️ Eine Aufnahme auf MusOpen oder Wikimedia Commons unter CC-Lizenz → verwendbar
+
 ✔️ Gemeinfreie Komposition & gemeinfreie Aufnahme 
 
 4. Noten kirchlicher Musik
@@ -180,7 +189,9 @@ Kirchenmusikalische Verlage (z. B. Carus, Strube, Dehm Verlag) haben in der Rege
 Für OER brauche ich also entweder:
 
 ✔️ alte, eindeutig gemeinfreie Ausgaben
+
 ✔️ selbst gesetzte Noten
+
 ✔️ CC-lizenzierte Notensätze (selten, aber vorhanden)
 
 
@@ -196,6 +207,7 @@ Hier die wichtigsten Punkte:
 Streaming-Dienste geben dir:
 
 ✔ Recht zum Anhören
+
 ❌ kein Recht zum Speichern, Bearbeiten, Hochladen, Kopieren oder Einbetten (außer in engen Grenzen)
 
 OER erfordern aber, dass andere das Material speichern, bearbeiten, remixen, weiterverbreiten, lizenzkonform weiterverwenden.
@@ -219,9 +231,13 @@ Streaming-Inhalte sind jedoch:
 #### 3. Konkret verboten (für OER):
 
 ❌ Songs aus Spotify im Unterrichtsvideo nutzen
+
 ❌ Musik von YouTube downloaden und in OER einbauen
+
 ❌ TikTok-/Instagram-Audios in OER-Materialien verlinken
+
 ❌ Filmausschnitte aus Streamingplattformen in OER-Nachnutzung verwenden
+
 ❌ Screenshots aus Streamingdiensten in OER benutzen (auch Coverbilder!)
 
 → Selbst kurzes Zitieren ist bei Musik extrem eingeschränkt.
@@ -229,13 +245,17 @@ Streaming-Inhalte sind jedoch:
 #### 4. Was ist erlaubt?
 
 ✔ Links auf offizielle Streams setzen
+
 Das ist rechtlich okay – aber: Der Stream selbst wird dadurch nicht zu OER!
 
 Das heißt: Du kannst sagen: „Hört euch diesen Song auf Spotify an“ – aber du darfst ihn nicht in dein OER einbetten oder weiterverwenden.
 
 ✔ Einbettungen von YouTube-Videos, solange YouTube selbst den Embed-Code anbietet
+
 — aber auch hier gilt:
+
 👉 Das Video selbst ist nicht OER und darf nicht heruntergeladen oder verarbeitet werden.
+
 👉 Für OER ist diese Methode nur geeignet, wenn klar ist, dass der Inhalt NICHT unter der OER-Lizenz steht, sondern nur verlinkt / eingebettet wird.
 
 #### 5. Streaming ≠ CC-Lizenz
@@ -275,14 +295,18 @@ Für Schulen und viele Bildungseinrichtungen gibt es gesetzliche Schranken und h
 Das bedeutet:
 
 ✔ Musik im Unterricht abspielen (CD, Streaming, MP3)
+
 ✔ gemeinsam singen
+
 ✔ Noten im Unterricht nutzen
+
 ✔ kleine Teile für Unterrichtszwecke kopieren (max. 10 %, außer für „Große Werke“ – Opern, Oratorien etc.)
 
 Aber:
 Diese Rechte gelten nur für den Unterricht selbst, nicht für eine Veröffentlichung im Internet.
 
 ➡️ Unterricht = erlaubt
+
 ➡️ OER = separate Prüfung notwendig
 
 **Rechtsgrundlagen:**
@@ -300,15 +324,21 @@ Sobald etwas online gestellt, geteilt, als OER lizenziert oder auf Social Media 
 Dann braucht man:
 
 ✔ gemeinfreie Musik
+
 ✔ CC-lizenzierte Musik
+
 ✔ oder selbst erzeugte Aufnahmen
 
 Dagegen sind nicht erlaubt:
 
 ❌ Popsongs
+
 ❌ Kinderlieder moderner Autor:innen
+
 ❌ Musik aus dem „Gotteslob“ / „Evangelischen Gesangbuch“ (außer gemeinfreie Einzelfälle)
+
 ❌ YouTube-/Spotify-/TikTok-Audios
+
 ❌ Scans moderner Noten
 
 → Das gilt auch für kleinste Ausschnitte.
@@ -324,9 +354,13 @@ OER verlangt Bearbeitungs- und Weitergaberechte, die bei Popsongs niemals vorlie
 Für OER bedeutet das:
 
 ❌ Kein Mitschnitt der Klasse, die einen Hit singt
+
 ❌ Kein Arbeitsblatt mit Songtexten
+
 ❌ Kein Lernvideo mit Musik im Hintergrund
+
 ❌ Keine TikTok-/Instagram-Audios in OER-Medien
+
 ❌ Kein Download von Karaoke-Versionen
 
 Das gilt unabhängig vom Zweck (Bildung, Gemeindearbeit, „nur für die Eltern“).
@@ -354,6 +388,7 @@ Viele vermeintlich traditionelle Kinderlieder sind in Wahrheit:
 - „Das Lied über mich“
 
 Für OER gilt:
+
 ❌ weder als Aufnahme noch als Text/Melodie verwendbar.
 
 
