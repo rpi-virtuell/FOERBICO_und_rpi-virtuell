@@ -4,7 +4,7 @@
 '@type': LearningResource
 creativeWorkStatus: Published
 name: Instagram als religionspädagogischer Lernort
-description: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+description: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/instagram-als-lernort
 creator:
@@ -49,28 +49,80 @@ tags:
 
 # Lichtmomente
 
-## Lichter !
+## Lichtmomente im Advent
+Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis
+Im Advent suchen Menschen traditionell nach Licht – nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
+Mit der Reihe #Lichtmomente entwickeln rpi-virtuell und das NT Dortmund drei kompakte Adventsimpulse im Instagram-Format. Sie verbinden wissenschaftlich fundierte theologische Inhalte mit didaktischer Reduktion, ästhetischen Zugängen und digitaler Narration.
+Der Advent wird damit zu einem exemplarischen Ort des Transfers:
+zwischen wissenschaftlicher Reflexion und schulischer Praxis,
+zwischen biblischer Tradition und gegenwärtigen Medienformen,
+zwischen religiöser Kompetenzentwicklung und ästhetischem Lernen im digitalen Raum.
 
-Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räume lernförderlich gestaltet und reflektiert werden?
+## Warum digitale Räume für Religionspädagogik wichtig sind
+Religionspädagogik entfaltet sich heute nicht mehr nur analog, sondern hybrid:
+Texte, Methoden und Beiträge wandern zwischen Präsenzunterricht, digitalen Sammlungen, Materialplattformen und sozialen Medien.
+rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
+- offen zugängliche Materialien
+- theologische Inhalte
+- didaktische Unterstützungen
+- Austausch und Community
+Es ist ein Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
+nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich.
 
-**2. Was zeigt der Account? – Einblicke in die Inhalte**
-
+## Drei Posts – Drei #Lichtmomente
+Die Reihe umfasst drei kurze Instagram-Impulse, die jeweils ein klassisches Advent-/Weihnachtsthema aufgreifen und als kreative, offene Lernanregung gestaltet sind.
+Jeder Post funktioniert als Story-Starter:
+ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwachsene weiterdenken, remixen, kommentieren oder im Unterricht aufgreifen können.
+Die Reihe umfasst drei Impulse:
+1. einen Poetry-Slam zu Jes 9,1–6
+2. eine Bibel-Spurensuche in Mt 2 und Lk 2
+3. die fünfte Kerze des Adventskranzes als Zeichen des Christuslichts
 
 ![](ima_2648be8.jpeg)
 ![](ima_a6fc6d5.jpeg)
-![](ima_eb6a938.jpeg)
-
-## Theologische Medienpädagogik: Warum das relevant ist
 
 
-Der Account bietet vielfältige Anlässe für die Praxis:
+1. Lichtmoment: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
+Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: Jesaja 9,1–6.
+Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
+Gerade deshalb entfaltet seine Verheißung eine besondere Kraft:
+„Das Volk, das im Finstern wandelt, sieht ein helles Licht.“
+Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
+In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam:
+Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
+2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und Lk 2,1-20
+Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
+Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
+Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
+Mt 2,9-11; LUT 2017 
+Lk 2, 9; LUT 2017
+Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE (PDF einfügen) aus:
+- Wo taucht das Licht auf?
+- Was bedeutet das Licht?
+- Welche Rolle spielt das Licht heute?
+Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
 
-**Analyse im Unterricht:** Schülerinnen analysieren einen Post - Was wird wie gesagt? Welche biblischen Bezüge? Welche Bildsprache?
 
-**Eigene Beiträge erstellen:** Religiöse Themen als Reels oder Posts gestalten
 
-**Fazit:** Instagram als Brücke
 
+3. Lichtmoment: Die fünfte Kerze – Das Christuslicht an Weihnachten
+Der dritte Impuls nimmt ein Symbol auf, das über viele Klassenzimmer und Kirchen hinweg vertraut ist: den Adventskranz. Traditionell werden vier Kerzen entzündet – jeweils an den vier Adventssonntagen.
+Doch vielerorts wird an Weihnachten eine fünfte Kerze entzündet: die Christuskerze.
+Sie markiert den Übergang von der Erwartung (Advent) zur Erfüllung (Weihnachten).
+
+## Zwischen Tradition und medialer Kultur
+Die Reihe #LichtMomente zeigt, wie digitale Medien ein theologisches Thema nicht oberflächlich verkürzen, sondern ästhetisch vertiefen können. Instagram wird zum Lernort, der Bilder, Worte und Symbole zusammenführt.
+Die Verbindung von
+biblischer Tradition,
+wissenschaftlicher Theologie,
+didaktischer Reduktion und
+digitaler Narration
+eröffnet neue Wege für religionspädagogische Prozesse.
+Was hier sichtbar wird, ist ein exemplarischer Transferraum:
+Wissenschaftliche Inhalte werden für die Praxis aufbereitet, ohne inhaltliche Tiefe einzubüßen. Lehrkräfte erhalten Impulse, die sie unmittelbar in ihren Lerngruppen einsetzen können. Und Lernende erfahren religiöse Sprache in einer Form, die ihre Lebenswelt ernst nimmt.
+Ausblick
+Die drei Lichtmomente laden dazu ein, sowohl biblische Texte als auch ästhetische Lernformen neu zu entdecken.
+Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolhandlungen – das Lichtmotiv des Advents erweist sich als besonders geeignet, die Frage nach Hoffnung, Orientierung und Deutungskraft religiöser Tradition in die Gegenwart zu übertragen.
 Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
 
 *Glauben reflektieren, statt nur zu konsumieren*
