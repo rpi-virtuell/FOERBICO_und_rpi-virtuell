@@ -153,7 +153,7 @@ Weitere Möglichkeiten:
 | **Book Creator** | Browser, iOS / Android App | Alle Altersgruppen, Projektarbeit, E-Portfolios    | Direktaufnahme in Buch / Seite einfügen              | Multimedial, individuelles Portfolio, Feedback möglich           | Speicherung lokal oder schulinterne Cloud → DSGVO-konform; Veröffentlichung nur mit Einwilligung   |
 
 
-** Datenschutz & DSGVO: Was Lehrkräfte wissen müssen **
+**Datenschutz & DSGVO: Was Lehrkräfte wissen müssen**
 
 Grundprinzipien:
 Stimmen gelten als personenbezogene Daten.
@@ -162,7 +162,7 @@ Aufnahmen dürfen nur für den angegebenen Zweck verwendet werden.
 Speicherung muss sicher und begrenzt erfolgen.
 Zugriffsrechte müssen klar geregelt sein.
 
-** Praxis-Tipps: **
+**Praxis-Tipps:**
 - Einwilligung einholen (schriftlich oder digital).
 - Zweck und Nutzung klar kommunizieren.
 - Aufbewahrungsdauer festlegen.
