@@ -97,6 +97,8 @@ Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in po
 
 2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
+![Lupe](Website/content/2025-12-08-Lichtmomente/1.jpg)
+
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
