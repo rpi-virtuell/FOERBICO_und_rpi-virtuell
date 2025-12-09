@@ -6,7 +6,7 @@ type: LearningResource
 name: >-
   'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'
 description: >-
-  OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein kultureller Wandel in der Bildung vollziehen?
+  OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/open-ist-eine-haltung
 creator:
@@ -35,7 +35,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-10'
+datePublished: '2025-12-12'
 #staticSiteGenerator:
 author:
   - Laura Mößle
@@ -46,7 +46,7 @@ cover:
   image: we-are-open.jpg
   hiddenInSingle: false
 summary: |
-    OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein kultureller Wandel in der Bildung vollziehen?
+    OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
 url: open-ist-eine-haltung
 tags:
   - Open Educational Resources (OER)
@@ -55,6 +55,7 @@ tags:
   - Rechtsfragen
   - Lizenzen
   - Religionspädagogik
+  - Haltung
   
 ---
 
@@ -88,29 +89,26 @@ Darüber hinaus mangelt es weitestgehend noch immer an einer systematischen inst
 
 ## Von der Ressource zur offenen Praxis  
 
-OER entfalten ihr transformatives Potenzial erst, wenn sie nicht lediglich als konsumierbare Materialien verstanden, sondern in *offene Bildungspraktiken*, sog. *Open Educational Practices* (OEP) eingebettet werden. Damit sind z.B. Prozesse der Adaption, Weiterentwicklung, Veröffentlichung und kooperativen Gestaltung gemeint. Die Studien von [Buntins et al. (2024)](https://doi.org/10.21240/mpaed/00/2024.01.10.X) und [Admiraal (2022)](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub) zeigen jedoch, dass Lehrkräfte OER bislang, wenn sie diese überhaupt nutzen, überwiegend adaptieren oder rezipieren, während eigenständige Produktion und kollaborative Entwicklung marginal bleiben. Insbesondere das Teilen erfolgt meist innerhalb vertrauter schulischer Netzwerke, während öffentliche Plattformen (aufgrund fehlender rechtlicher Kenntnisse) selten genutzt werden.  
+OER entfalten ihr transformatives Potenzial erst, wenn sie nicht lediglich als konsumierbare Materialien verstanden, sondern in *offene Bildungspraktiken*, sog. *Open Educational Practices* (OEP) eingebettet werden. Damit sind z.B. Prozesse der Adaption, Weiterentwicklung, Veröffentlichung und kooperativen Gestaltung gemeint. Die Studien von [Buntins et al. (2024)](https://doi.org/10.21240/mpaed/00/2024.01.10.X) und [Admiraal (2022)](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub) zeigen jedoch, dass Lehrkräfte OER bislang, wenn sie diese überhaupt nutzen, überwiegend adaptieren oder rezipieren, während eigenständige Produktion und kollaborative Entwicklung marginal bleiben. Insbesondere das Teilen erfolgt meist innerhalb vertrauter schulischer Netzwerke, während öffentliche Plattformen (aufgrund fehlender rechtlicher Kenntnisse) nur selten genutzt werden.  
 
-Gerade hierin liegt jedoch eine Chance. Werden Lehrkräfte systematisch in offenen Praktiken unterstützt, z.B. durch rechtliche Orientierung, niedrigschwellige technische Lösungen und kollaborative Formate, können OER zu *Motoren einer innovationsorientierten Bildungskultur* werden. 
+Gerade hierin liegt jedoch eine Chance. Werden Lehrkräfte in offenen Praktiken unterstützt, z.B. durch rechtliche Orientierung, niedrigschwellige technische Lösungen und kollaborative Formate, können OER zu *Motoren einer innovationsorientierten Bildungskultur* werden. 
 [Baas et al. (2022)](https://www.sciencedirect.com/science/article/pii/S1096751622000136?via%3Dihub) betonen, dass kollaborative Prozesse nicht nur Materialien verbessern, sondern auch Perspektivenvielfalt integrieren und die gemeinsame Aushandlung von Qualitätsmaßstäben fördern. Dies verändert zugleich die professionelle Selbstwahrnehmung von Lehrkräften, von Materialnutzenden hin zu *Ko-Produzent:innen und Qualitätsgestalter:innen*.
 
 ## Offenheit als Kulturwandel: Religionspädagogische Perspektiven  
 
-Nachhaltige OER-Integration in die eigene Lehrpraxis sowie das Bereitstellen von Materialien erfordert einen *Paradigmenwechsel*: Offenheit muss als professionelle Norm etabliert und durch institutionelle Anerkennung, infrastrukturelle Rahmenbedingungen sowie gezielte Kompetenzentwicklung flankiert werden. Offenheit ist kein Automatismus, sondern eine *Haltung*, die z.B. in Workshops und Fortbildungen erlernt und eingeübt werden kann.  
+Warum kann sich eine Auseinandersetzung mit OER - trotz der aufgezeigten Hindernisse - besonders für Lehrende lohnen?
+Gerade in der *Religionspädagogik* bieten OER Chancen, die den zusätzlichen Aufwand ihrer Erstellung für die Lehrpraxis rechtfertigen. Denn sie eröffnen didaktische und strukturelle Handlungsräume, die über traditionelle Materialien hinausgehen und für die religionspädagogische Arbeit gewinnbringend sein können. Zum Beispiel: 
 
-<!--ich würde den folgenden Abschnitt anders Labeln, weil hier macht ihr ja auf die Vorteile von OER in der Relpäd aufmerksam, die - zumindest beim Lesen bei mir - eher weniger mit einer konkreten Haltung assoziert werden. -->
+1. **Kontextualisierte Materialien**: OER können passgenau auf die jeweilige Zielgruppe, den religiös pluralen Kontext und spezifische Lernbedarfe für schulische, außerschulische oder hochschulische Bildung zugeschnitten werden. 
+2. **Kollaborative Entwicklung**: Offene Plattformen wie das [relilab](https://relilab.org) ermöglichen die gemeinschaftliche Erstellung und Weiterentwicklung religionspädagogischer Materialien über Institutions- und Konfessionsgrenzen hinweg. Hier stehen niedrigschwellige Räume bereit, in denen Bildungsmaterialien ökumenisch und interreligiös entwickelt und im Austausch stetig verbessert werden können. 
+3. **Partizipative Lernprozesse**: Die aktive Einbindung von Lernenden in die Materialentwicklung setzt die zentrale religionsdidaktische  Perspektve der Subjektorientierung ganz konkret um. Lernende werden nicht als Rezipient:innen, sondern als Gestaltende ihres eigenen Bildungsprozesses wahr- und ernstgenommen. Die Subjektorientierung als konstitutives Prinzip religiöser Bildung betrachtet Lernende als aktive Subjekte mit eigener Deutungs- und Handlungskompetenz. Durch partizipative Lernprozesse, die durch OEP unterstützt werden, werden Lernende in das Zentrum religiöser Bildungsprozesse gerückt.
+4. **Machtsensible Gestaltung**: Das kollaborative Erstellen von OER eröffnet vielfältigen Stimmen Raum und trägt dazu bei, unterschiedliche Perspektiven auf einen religiösen Lerngegenstand sichtbar zu machen. Dies lässt sich fruchtbar mit ideologiekritischer Religionspädagogik verbinden, die Vielfalt ernst nimmt, Machtstrukturen kritisch reflektiert und religiöse Bildung als bewusst gestalteten Reflexionsprozess versteht. Offene Bildungspraktiken unterstützen Lernende dabei, Materialien kritisch zu hinterfragen und eigene, machtsensible Bildungsmaterialien einzubringen. 
+5. **Aktualität**: Durch ihre Offenheit lassen sich OER fortlaufend an neue Kontexte anpassen. Dies umfasst sowohl veränderte bildungstheoretische Ansätze und länderspezifische Lehrpläne als auch aktuelle gesellschaftliche Entwicklungen und kirchenpolitische Fragestellungen. So bleiben die Materialien relevant und anschlussfähig an gegenwärtige Diskurse.
 
-<!-- mir (VP) geht es beim Lesen auch so: Hier ist ein argumentativer Sprung im Beitrag, der von einer sehr guten analytischen Problembeschreibung oben hier in eine zu allgemeine Behauptung wechselt. Die Probleme von oben werden durch die hier aufgezählten Aspekte weder wirklich religionspädagogisch gewendet noch in eine Lösung hinein entwickelt. Kann man das schärfer verknüpfen? War macht es denn "Religionspädagogisch", dass etwas kontextualisiert werden kann / dass es kollaborativ gebaut wird, partizipativ entwickelt? Sind das nicht Allgemeinplätze?-->
-Gerade in der *Religionspädagogik* bieten OER besondere Chancen, die den zusätzlichen Aufwand ihrer Erstellung und die Suche nach OER für die Lehrpraxis rechtfertigen. Denn sie eröffnen didaktische und strukturelle Handlungsräume, die über traditionelle Materialien hinausgehen:
-
-1. **Kontextualisierte Materialien**: OER können passgenau auf die jeweilige Zielgruppe, den religiösen Kontext und spezifische Lernbedarfe zugeschnitten werden.
-2. **Kollaborative Entwicklung**: Offene Plattformen wie rpi-virtuell <!--verlinken?--> ermöglichen die gemeinschaftliche Erstellung, Pflege und Weiterentwicklung religionspädagogischer Materialien über Institutions- und Konfessionsgrenzen hinweg. <!--vielleicht auch dezidiert noch als ökumentisches Potenzial labeln? -->
-3. **Partizipative Lernprozesse**: Lernende können aktiv in die Materialentwicklung eingebunden werden. <!--vielleicht auf die Subjektorientierung als religionsdidaktisches Prinzip verweisen, das ja auch theologisch im Personsein des Menschen gründet?-->
-4. **Machtsensible Gestaltung**: Kollaborative OER-Produktion eröffnet vielfältigen Stimmen Raum und trägt dazu bei, unterschiedliche Perspektiven sichtbar zu machen und Stereotypisierungen zu vermeiden. <!--evt. Ideologiekritische Relpäd hier verorten und ebenso Multiperspktivität, wie sie Woppowa vorschlägt, als wichtiges Element der Relpäd? -->
-5. **Aktualität**: Durch ihre Offenheit lassen sich OER flexibel an bildungstheoretische Konzepte, länderspezifische Lehrpläne oder aktuelle gesellschaftliche Entwicklungen anpassen.
-
+Eine nachhaltige Integration von offenen Bildungspraktiken in die religionspädagogische Landschaft erfordert einen  Paradigmenwechsel. Offenheit ist eine *Haltung*, die z.B. in Workshops und Fortbildungen erlernt und eingeübt werden kann.  
 In diesem Sinn ist *open* keine rein technische oder rechtliche Kategorie, sondern eine *pädagogische Haltung* und damit ein Bekenntnis zu einer Bildungskultur, die Teilhabe nicht nur ermöglicht, sondern als grundlegendes Prinzip begreift.
 Besonders in der Religionspädagogik knüpft diese Offenheit an das christliche Bildungsverständnis an. Wissen ist kein zu hütender Schatz, den man verbergen sollte, sondern etwas, das „überfließend“ geteilt werden darf, um andere zu unterstützen und in ihrer Entwicklung zu fördern. 
-Langfristiges Ziel <!--für wen? in welchem Zusammenhang?--> muss es also sein, Lehrpersonen darin zu unterstützen, offene Praktiken als Bestandteil ihrer Lehrpraxis und ihres Bildungsauftrags zu gestalten.
+Ein langfristiges Ziel in Aus-, Fort- und Weiterbildungsangeboten muss es also sein, Lehrende darin zu unterstützen, offene Praktiken als Bestandteil ihrer Lehrpraxis und ihres Bildungsauftrags zu gestalten.
 
 ## Literaturangaben 
 
