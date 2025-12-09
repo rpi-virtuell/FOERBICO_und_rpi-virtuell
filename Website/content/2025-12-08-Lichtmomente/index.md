@@ -152,13 +152,13 @@ Audioaufnahmen bieten eine kreative Möglichkeit, Unterricht lebendig zu gestalt
 | ------------------------------------- | ------------------- | --------------------- | ---------------------------------------------------------- |
 | **Audacity**                          | Windows, Mac        | Open Source (GPL)     | Offline, umfangreiche Bearbeitungsmöglichkeiten            |
 | **GarageBand**                        | Mac, iOS            | Kostenlos             | Multitrack, einfache Bedienung, nur Apple-Geräte           |
-| **Smartphone-Recorder / Sprachmemo**  | iOS / Android       | Kostenlos             | Schnell & unkompliziert für kurze 
+| **Smartphone-Recorder / Sprachmemo**  | iOS / Android       | Kostenlos             | Schnell & unkompliziert für kurze Audioaufnahmen
 
 Weitere Möglichkeiten:
 | Tool             | Plattform / Geräte         | Zielgruppe / Einsatz                               | Audiofunktion                                        | Vorteile                                                         | Datenschutz / DSGVO                                                                                |
 | ---------------- | -------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **TaskCards**    | Browserbasiert, PC, Tablet | Gruppenarbeit, Lernstationen, ältere Schüler:innen | Audio-Dateien hochladen / aufnehmen (je nach Lizenz) | Kollaborativ, interaktive Lernboards, Links/QR-Codes für Audio   | Inhalte bleiben im geschützten Raum, Zugriff kontrollierbar, DSGVO-konform bei geschützter Nutzung |
-| **ChatterPix**   | iOS / Android App          | Grundschule, kreative Projekte, Storytelling       | Direktaufnahme über App, Mundbewegung animieren      | Spielerisch, motivierend, ideal für Storytelling / Fremdsprachen | Audio lokal auf Gerät gespeichert, Einwilligung erforderlich für Teilen/Veröffentlichung           |
+| **ChatterPix**   | iOS / Android App          | Grundschule, kreative Projekte, Storytelling       | Direktaufnahme über App, Mundbewegung animieren      | Spielerisch, motivierend, ideal für Storytelling / Fremdsprachen | Audio lokal auf Gerät gespeichert (30 Sekunden), Einwilligung erforderlich für Teilen/Veröffentlichung           |
 | **Book Creator** | Browser, iOS / Android App | Alle Altersgruppen, Projektarbeit, E-Portfolios    | Direktaufnahme in Buch / Seite einfügen              | Multimedial, individuelles Portfolio, Feedback möglich           | Speicherung lokal oder schulinterne Cloud → DSGVO-konform; Veröffentlichung nur mit Einwilligung   |
 
 
