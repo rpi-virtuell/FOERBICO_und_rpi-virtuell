@@ -124,11 +124,13 @@ Mut, Zusammenhalt, Trost, Hoffnung, Würde, Schutz …
 Anschließend werden diese Markierungen in ein gemeinsames Ritual überführt.
 
 In kurzen Fürbitten oder Segenssätzen bringen die Lernenden ihre Lichtworte zur Sprache:
+
       „Wir denken an die Menschen in …“
       „Schenke Licht, wo Dunkelheit ist.“
       „Christus, Licht der Welt – leuchte in diese Welt.“
 
 So entsteht ein globales Bild von Weihnachten:
+
     - Licht, das Menschen verbindet.
     - Licht, das Grenzen überschreitet.
     - Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
@@ -193,6 +195,14 @@ Chatterpix https://www.medien-in-die-schule.de/tools/apps/chatterpix
 Book Creator Anleitung https://lehrerfortbildung-bw.de/st_digital/medienwerkstatt/fortbildungen/lern2/2_werk/3_mmtext/book_creator_anleitung.pdf
 
 https://www.biss-sprachbildung.de/btools/erstellen-von-e-books-z-b-mit-dem-book-creator
+
+Audacity 
+
+https://www.uni-hamburg.de/elearning/anleitungen/audacity.html
+
+https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/audio-bearbeiten/$0
+
+
 
 
 
