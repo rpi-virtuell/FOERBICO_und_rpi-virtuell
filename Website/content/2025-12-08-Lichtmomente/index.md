@@ -142,7 +142,7 @@ Die Reihe #LichtMomente zeigt, wie digitale Medien ein theologisches Thema nicht
 Was hier sichtbar wird, ist ein exemplarischer Transferraum:
 Wissenschaftliche Inhalte werden für die Praxis aufbereitet, ohne inhaltliche Tiefe einzubüßen. Lehrkräfte erhalten Impulse, die sie unmittelbar in ihren Lerngruppen einsetzen können. Und Lernende erfahren religiöse Sprache in einer Form, die ihre Lebenswelt ernst nimmt.
 
-## Audio mit Schüler:innen aufnehmen
+## Toolinfo: Audio mit Schüler:innen aufnehmen
 Audioaufnahmen bieten eine kreative Möglichkeit, Unterricht lebendig zu gestalten: Podcasts, Hörspiele, Interviews oder Reflexionen lassen sich schnell produzieren und machen Lerninhalte nachhaltig erlebbar. Gleichzeitig müssen Lehrkräfte beim Umgang mit Schülerdaten die DSGVO beachten und Tools mit klaren Lizenzbedingungen einsetzen.
 | Tool                                  | Plattform           | Lizenz / Kosten       | Besonderheiten                                             |
 | ------------------------------------- | ------------------- | --------------------- | ---------------------------------------------------------- |
