@@ -103,7 +103,7 @@ mit Canva erstellt
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
 Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
-
+Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg==)
 ## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 ![Zielgruppe](2.jpg)
@@ -124,6 +124,8 @@ Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem
 ![Arbeitsblatt](6.jpg)
 
 mit Canva erstellt
+
+Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund ![Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw==)
 
 ## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
