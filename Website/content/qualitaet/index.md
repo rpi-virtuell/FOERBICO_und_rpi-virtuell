@@ -11,6 +11,8 @@ Offene Bildungsmaterialien (OER) eröffnen große Chancen für die Religionspäd
 
 Während allgemeine OER-Qualitätsmodelle wertvolle Orientierung bieten, berücksichtigen sie fachspezifische Besonderheiten religiöser Bildungsprozesse nur teilweise. Hier haben wir mit dem FOERBICO-Projekt angesetzt und praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien entwickelt, die speziell für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
 
+Mehr dazu: [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
+
 ### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
 
 Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
@@ -27,31 +29,31 @@ Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
 
 Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als reflexiven Aushandlungsprozess. Sie soll Materialerstellende dabei unterstützen, eigene OER qualitätsbewusst zu entwickeln, bestehende Materialien kritisch einzuschätzen und religionspädagogische Kriterien transparent einfließen zu lassen.
 
+Die vollständige Checkliste steht als offen lizenzierte Markdown-Datei (CC BY 4.0) zur Verfügung und kann für Lehre, Materialerstellung und Evaluation direkt genutzt werden. Sie ist als lebendiges Dokument angelegt und wird fortlaufend aktualisiert – basierend auf Feedback, Forschung und Praxiserfahrungen.
+
+**Button Download docx/PDF fehlt noch!**
+
 #### Die vier Dimensionen der OER-Qualität
 
-🧑‍⚖️ Rechtliche Qualität
+🧑‍⚖️ **Rechtliche Qualität**
 
 Rechtssichere OER benötigen transparente Lizenzangaben, korrekte Quellen und einen bewusst reflektierten Umgang mit geschützten Inhalten – auch bei KI-generierten Materialien.
 
-🧑‍💻 Technische Qualität
+🧑‍💻 **Technische Qualität**
 
 OER müssen langfristig zugänglich, barrierearm und interoperabel sein. Offene Formate, Metadaten, Exportierbarkeit und barrierefreie Gestaltung sind hierfür zentral.
 
-🧑‍🏫 Pädagogisch-didaktische Qualität
+🧑‍🏫 **Pädagogisch-didaktische Qualität**
 
 Qualitative OER ermöglichen zielgruppenorientiertes Lernen, klare Strukturierung, Differenzierung und vielseitige Nutzungsszenarien. Sie regen eigenständiges Denken, Reflexion und Transfer an.
 
-⛪ Religionspädagogische Qualität
+⛪ **Religionspädagogische Qualität**
 
 OER im Religionsunterricht benötigen fachliche Fundierung: Subjektorientierung, Pluralitätsfähigkeit, Elementarisierung sowie Perspektiven für biblisches, ästhetisches oder interreligiöses Lernen. Sie sollen religiöse Deutungsprozesse sichtbar machen und kritisch-reflexiv begleiten.
 
-### Die FOERBICO-Checkliste
+### Praxisbeispiele: Qualitätsentwicklung in den Projekten TiRU & M@PS
 
-Die vollständige Checkliste steht als offen lizenzierte Markdown-Datei (CC BY 4.0) zur Verfügung und kann für Lehre, Materialerstellung und Evaluation direkt genutzt werden. Sie ist als lebendiges Dokument angelegt und wird fortlaufend aktualisiert – basierend auf Feedback, Forschung und Praxiserfahrungen.
-
-### Praxisbeispiel: Qualitätsentwicklung im Projekt TiRU
-
-Das Projekt TiRU – Tablets im Religionsunterricht (Goethe-Universität Frankfurt) verbindet theologische Reflexion, mediendidaktische Kompetenz und digitale Bildung. Die dort entwickelten OER wurden im Rahmen von FOERBICO systematisch beraten und mit der Checkliste weiterentwickelt.
+Die Projekte TiRU – Tablets im Religionsunterricht und M@PS – Medienkompetenz erweitern, Persönlichkeit stärken der Goethe-Universität Frankfurt verbinden theologische Reflexion, mediendidaktische Kompetenz und digitale Bildung. Die dort entwickelten OER wurden im Rahmen von FOERBICO systematisch beraten und mit der Checkliste weiterentwickelt. 
 
 Die Beratung zeigte:
 
@@ -65,7 +67,11 @@ Die Beratung zeigte:
 
 Gleichzeitig wurden Stellschrauben identifiziert – u. a. Lizenzvereinheitlichung, Metadaten, Barrierefreiheit und der Umgang mit KI-Inhalten.
 
-TiRU fungiert damit als Modellprojekt, das zur Schärfung der Kriterien beiträgt und zeigt, wie Qualität in OER bereits im Entwicklungsprozess verankert werden kann.
+TiRU und M@PS fungieren damit als Modellprojekte, die zur Schärfung der Kriterien beiträgt und zeigt, wie Qualität in OER bereits im Entwicklungsprozess verankert werden kann.
+
+Mehr dazu: 
+[Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU](https://oer.community/digitale-offenheit-braucht-tiefe/) 
+[Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@PS](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/)
 
 ### Was die Kriterien leisten – und was nicht
 
@@ -97,10 +103,6 @@ Wir freuen uns über:
 
 Für Rückfragen oder Rückmeldungen stehen wir gerne zur Verfügung!
 
-Handreichung & Checkliste: Dr. Laura Mößle (GU Frankfurt) 
-Evaluation & Forschung: Phillip Angelina (FAU Erlangen-Nürnberg)
-TiRU: Paula Paschke (GU Frankfurt)
-
-Projekt M@PS
-
-weiterführende Literatur zu OER-Qualität und Religionspädagogik
+Handreichung & Checkliste: [Dr. Laura Mößle](mailto:Moessle@em.uni-frankfurt.de) (GU Frankfurt) 
+Evaluation & Forschung: [Phillip Angelina](mailto:phillip.angelina@fau.de) (FAU Erlangen-Nürnberg)
+TiRU: [Paula Paschke](mailto:paschke@em.uni-frankfurt.de) (GU Frankfurt)
