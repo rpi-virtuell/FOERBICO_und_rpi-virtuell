@@ -180,9 +180,15 @@ Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolh
 Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. 
 
 ## Literatur
-Poetry-Slam https://www.cornelsen.de/_Resources/Persistent/a/b/9/2/ab928cca676fa095db8f2bcde2f8d2f283319bca/0001100000220%20KEMNMI_190717_001_9783060976739_Magazin_Poetry-Slam.pdf
-Audioaufnahmen https://www.medien-in-die-schule.de/tools/apps/chatterpix
+**Poetry-Slam** 
+https://www.cornelsen.de/_Resources/Persistent/a/b/9/2/ab928cca676fa095db8f2bcde2f8d2f283319bca/0001100000220%20KEMNMI_190717_001_9783060976739_Magazin_Poetry-Slam.pdf
+
+**Audioaufnahmen** 
+
+Chatterpix https://www.medien-in-die-schule.de/tools/apps/chatterpix
+
 Book Creator Anleitung https://lehrerfortbildung-bw.de/st_digital/medienwerkstatt/fortbildungen/lern2/2_werk/3_mmtext/book_creator_anleitung.pdf
+
 https://www.biss-sprachbildung.de/btools/erstellen-von-e-books-z-b-mit-dem-book-creator
 
 
