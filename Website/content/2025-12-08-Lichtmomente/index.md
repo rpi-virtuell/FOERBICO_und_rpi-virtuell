@@ -70,7 +70,7 @@ rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 Es ist ein Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
 nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich.
 
-## Drei Posts – Drei #Lichtmomente
+## Drei Posts – Drei #LichtMomente
 
 Die Reihe umfasst drei kurze Instagram-Impulse, die jeweils ein klassisches Advent-/Weihnachtsthema aufgreifen und als kreative, offene Lernanregung gestaltet sind.
 Jeder Post funktioniert als Story-Starter:
@@ -158,6 +158,8 @@ Zugriffsrechte müssen klar geregelt sein.
 - Aufbewahrungsdauer festlegen.
 - Dateien sicher ablegen (z. B. schulischer Server oder DSGVO-konforme Cloud).
 - Veröffentlichung regeln: Nur mit erneuter Zustimmung.
+
+Audioaufnahmen sind ein kraftvolles Werkzeug im Unterricht, um Kreativität, Sprache und Reflexion zu fördern. Mit den richtigen Tools, klaren Regeln und Beachtung der DSGVO können Lehrkräfte Projekte sicher und datenschutzkonform durchführen.
 
 ## Ausblick
 
