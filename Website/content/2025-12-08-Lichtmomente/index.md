@@ -48,11 +48,11 @@ tags:
 ---
 
 
-## LichtMomente im Advent
+## #LichtMomente im Advent
 
 Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis
 Im Advent suchen Menschen traditionell nach Licht – nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
-Mit der Reihe #Lichtmomente entwickeln rpi-virtuell und das NT Dortmund drei kompakte Adventsimpulse im Instagram-Format. Sie verbinden wissenschaftlich fundierte theologische Inhalte mit didaktischer Reduktion, ästhetischen Zugängen und digitaler Narration.
+Mit der Reihe #Lichtmomente entwickeln rpi-virtuell, das NT Dortmund und religlobal drei kompakte Adventsimpulse im Instagram-Format. Sie verbinden wissenschaftlich fundierte theologische Inhalte mit didaktischer Reduktion, ästhetischen Zugängen und digitaler Narration.
 Der Advent wird damit zu einem exemplarischen Ort des Transfers:
 zwischen wissenschaftlicher Reflexion und schulischer Praxis,
 zwischen biblischer Tradition und gegenwärtigen Medienformen,
@@ -79,15 +79,13 @@ ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwac
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu Jes 9,1–6
 ![Dunkelheit](10.jpg)
+
 mit Canva erstellt
 2. eine Bibel-Spurensuche in Mt 2 und Lk 2
 ![Lupe](1.jpg)
+
 mit Canva erstellt
 3. einen globalen Weihnachtsimpuls zu Joh 8,12
-
-![](ima_2648be8.jpeg)
-![](ima_a6fc6d5.jpeg)
-
 
 1. Lichtmoment: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
 
@@ -95,13 +93,19 @@ Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: Jesaja 9
 Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
 Gerade deshalb entfaltet seine Verheißung eine besondere Kraft:
 „Das Volk, das im Finstern wandelt, sieht ein helles Licht.“
+![Bibeltext](17.jpg)
+
+mit Canva erstellt
+
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
-In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam:
+In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
 Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
 
 2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 ![Zielgruppe](2.jpg)
+
+mit Canva erstellt
 
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
@@ -116,6 +120,7 @@ Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Lichtspur-
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
 ![Arbeitsblatt](6.jpg)
 
+mit Canva erstellt
 
 3. Lichtmoment: „Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
@@ -164,6 +169,7 @@ Weitere Möglichkeiten:
 | **ChatterPix**   | iOS / Android App          | Grundschule, kreative Projekte, Storytelling       | Direktaufnahme über App, Mundbewegung animieren      | Spielerisch, motivierend, ideal für Storytelling / Fremdsprachen | Audio lokal auf Gerät gespeichert (30 Sekunden), Einwilligung erforderlich für Teilen/Veröffentlichung           |
 | **Book Creator** | Browser, iOS / Android App | Alle Altersgruppen, Projektarbeit, E-Portfolios    | Direktaufnahme in Buch / Seite einfügen              | Multimedial, individuelles Portfolio, Feedback möglich           | Speicherung lokal oder schulinterne Cloud → DSGVO-konform; Veröffentlichung nur mit Einwilligung   |
 
+## Good to know für Lehrende
 
 **Datenschutz & DSGVO: Was Lehrkräfte wissen müssen**
 
