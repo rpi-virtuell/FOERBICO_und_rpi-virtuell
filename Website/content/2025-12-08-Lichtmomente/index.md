@@ -78,7 +78,11 @@ Jeder Post funktioniert als Story-Starter:
 ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwachsene weiterdenken, remixen, kommentieren oder im Unterricht aufgreifen können.
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu Jes 9,1–6
+![Dunkelheit](10.jpg)
+mit Canva erstellt
 2. eine Bibel-Spurensuche in Mt 2 und Lk 2
+![Lupe](1.jpg)
+mit Canva erstellt
 3. einen globalen Weihnachtsimpuls zu Joh 8,12
 
 ![](ima_2648be8.jpeg)
@@ -97,7 +101,6 @@ Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in po
 
 2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
-![Lupe](1.jpg)
 ![Zielgruppe](2.jpg)
 
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
