@@ -160,7 +160,6 @@ Weitere Möglichkeiten:
 
 **Datenschutz & DSGVO: Was Lehrkräfte wissen müssen**
 
-Grundprinzipien:
 - Stimmen gelten als personenbezogene Daten.
 - Einwilligung der Schüler:innen bzw. Erziehungsberechtigten ist erforderlich.
 - Aufnahmen dürfen nur für den angegebenen Zweck verwendet werden.
