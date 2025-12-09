@@ -186,6 +186,8 @@ https://www.cornelsen.de/_Resources/Persistent/a/b/9/2/ab928cca676fa095db8f2bcde
 
 **Audioaufnahmen** 
 
+https://digitale-lehre.fau.de/digital-lehren/umsetzen/lehrformate-digitalisieren/audio-aufnahme
+
 Chatterpix https://www.medien-in-die-schule.de/tools/apps/chatterpix
 
 Book Creator Anleitung https://lehrerfortbildung-bw.de/st_digital/medienwerkstatt/fortbildungen/lern2/2_werk/3_mmtext/book_creator_anleitung.pdf
