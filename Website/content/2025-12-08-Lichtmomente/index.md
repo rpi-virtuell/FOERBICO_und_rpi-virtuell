@@ -108,6 +108,7 @@ Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem
 
 
 3. Lichtmoment: „Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
+
 Der dritte Impuls „Ich bin das Licht der Welt.“ (Joh 8,12) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte (analog oder digital) und markieren Orte, an denen heute Licht aufscheint:
     - Initiativen für Frieden
