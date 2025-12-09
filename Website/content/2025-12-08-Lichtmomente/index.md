@@ -137,15 +137,33 @@ Die Reihe #LichtMomente zeigt, wie digitale Medien ein theologisches Thema nicht
 Was hier sichtbar wird, ist ein exemplarischer Transferraum:
 Wissenschaftliche Inhalte werden für die Praxis aufbereitet, ohne inhaltliche Tiefe einzubüßen. Lehrkräfte erhalten Impulse, die sie unmittelbar in ihren Lerngruppen einsetzen können. Und Lernende erfahren religiöse Sprache in einer Form, die ihre Lebenswelt ernst nimmt.
 
+## Audio mit Schüler:innen aufnehmen
+Audioaufnahmen bieten eine kreative Möglichkeit, Unterricht lebendig zu gestalten: Podcasts, Hörspiele, Interviews oder Reflexionen lassen sich schnell produzieren und machen Lerninhalte nachhaltig erlebbar. Gleichzeitig müssen Lehrkräfte beim Umgang mit Schülerdaten die DSGVO beachten und Tools mit klaren Lizenzbedingungen einsetzen.
+| Tool                                  | Plattform           | Lizenz / Kosten       | Besonderheiten                                             |
+| ------------------------------------- | ------------------- | --------------------- | ---------------------------------------------------------- |
+| **Audacity**                          | Windows, Mac        | Open Source (GPL)     | Offline, umfangreiche Bearbeitungsmöglichkeiten            |
+| **GarageBand**                        | Mac, iOS            | Kostenlos             | Multitrack, einfache Bedienung, nur Apple-Geräte           |
+| **Smartphone-Recorder / Sprachmemo**  | iOS / Android       | Kostenlos             | Schnell & unkompliziert für kurze 
+
+** Datenschutz & DSGVO: Was Lehrkräfte wissen müssen **
+Grundprinzipien:
+Stimmen gelten als personenbezogene Daten.
+Einwilligung der Schüler:innen bzw. Erziehungsberechtigten ist erforderlich.
+Aufnahmen dürfen nur für den angegebenen Zweck verwendet werden.
+Speicherung muss sicher und begrenzt erfolgen.
+Zugriffsrechte müssen klar geregelt sein.
+** Praxis-Tipps: **
+- Einwilligung einholen (schriftlich oder digital).
+- Zweck und Nutzung klar kommunizieren.
+- Aufbewahrungsdauer festlegen.
+- Dateien sicher ablegen (z. B. schulischer Server oder DSGVO-konforme Cloud).
+- Veröffentlichung regeln: Nur mit erneuter Zustimmung.
+
 ## Ausblick
 
 Die drei Lichtmomente laden dazu ein, sowohl biblische Texte als auch ästhetische Lernformen neu zu entdecken.
 Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolhandlungen – das Lichtmotiv des Advents erweist sich als besonders geeignet, die Frage nach Hoffnung, Orientierung und Deutungskraft religiöser Tradition in die Gegenwart zu übertragen.
 Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. 
-*Glauben reflektieren, statt nur zu konsumieren*
 
-*Digitale Räume als spirituelle Lernorte begreifen*
-
-*Theologie in Echtzeit mit Leben füllen*
 
 
