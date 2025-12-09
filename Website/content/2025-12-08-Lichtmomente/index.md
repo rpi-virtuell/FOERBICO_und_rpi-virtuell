@@ -100,30 +100,31 @@ Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren je
 Mt 2,9-11; LUT 2017 
 Lk 2, 9; LUT 2017
 Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE (PDF einfügen) aus:
-- Wo taucht das Licht auf?
-- Was bedeutet das Licht?
-- Welche Rolle spielt das Licht heute?
+  - Wo taucht das Licht auf?
+  - Was bedeutet das Licht?
+  - Welche Rolle spielt das Licht heute?
+
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
 
 
 3. Lichtmoment: „Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 Der dritte Impuls „Ich bin das Licht der Welt.“ (Joh 8,12) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte (analog oder digital) und markieren Orte, an denen heute Licht aufscheint:
-- Initiativen für Frieden
-- Orte, an denen Menschen für Gerechtigkeit eintreten
-- internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
-- persönliche Bezüge (Herkunft, Reisen, Begegnungen), die „Lichtmomente“ tragen
+    - Initiativen für Frieden
+    - Orte, an denen Menschen für Gerechtigkeit eintreten
+    - internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
+    - persönliche Bezüge (Herkunft, Reisen, Begegnungen), die „Lichtmomente“ tragen
 In kurzen Stichworten benennen sie, warum dieser Ort für sie ein Lichtpunkt ist:
 Mut, Zusammenhalt, Trost, Hoffnung, Würde, Schutz …
 Anschließend werden diese Markierungen in ein gemeinsames Ritual überführt.
 In kurzen Fürbitten oder Segenssätzen bringen die Lernenden ihre Lichtworte zur Sprache:
-„Wir denken an die Menschen in …“
-„Schenke Licht, wo Dunkelheit ist.“
-„Christus, Licht der Welt – leuchte in diese Welt.“
+      „Wir denken an die Menschen in …“
+      „Schenke Licht, wo Dunkelheit ist.“
+      „Christus, Licht der Welt – leuchte in diese Welt.“
 So entsteht ein globales Bild von Weihnachten:
-- Licht, das Menschen verbindet.
-- Licht, das Grenzen überschreitet.
-- Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
+    - Licht, das Menschen verbindet.
+    - Licht, das Grenzen überschreitet.
+    - Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
 
 ## Zwischen Tradition und medialer Kultur
 
@@ -136,8 +137,7 @@ Wissenschaftliche Inhalte werden für die Praxis aufbereitet, ohne inhaltliche T
 
 Die drei Lichtmomente laden dazu ein, sowohl biblische Texte als auch ästhetische Lernformen neu zu entdecken.
 Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolhandlungen – das Lichtmotiv des Advents erweist sich als besonders geeignet, die Frage nach Hoffnung, Orientierung und Deutungskraft religiöser Tradition in die Gegenwart zu übertragen.
-Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. Für die Religionspädagogik eröffnet das Wege:
-
+Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. 
 *Glauben reflektieren, statt nur zu konsumieren*
 
 *Digitale Räume als spirituelle Lernorte begreifen*
