@@ -85,6 +85,7 @@ Die Reihe umfasst drei Impulse:
 
 
 1. Lichtmoment: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
+
 Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: Jesaja 9,1–6.
 Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
 Gerade deshalb entfaltet seine Verheißung eine besondere Kraft:
@@ -94,6 +95,7 @@ In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für ei
 Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
 
 2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und Lk 2,1-20
+
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
@@ -166,7 +168,7 @@ Zugriffsrechte müssen klar geregelt sein.
 - Einwilligung einholen (schriftlich oder digital).
 - Zweck und Nutzung klar kommunizieren.
 - Aufbewahrungsdauer festlegen.
-- Dateien sicher ablegen (z. B. schulischer Server oder DSGVO-konforme Cloud).
+- Dateien sicher ablegen (z.B. schulischer Server oder DSGVO-konforme Cloud).
 - Veröffentlichung regeln: Nur mit erneuter Zustimmung.
 
 Audioaufnahmen sind ein kraftvolles Werkzeug im Unterricht, um Kreativität, Sprache und Reflexion zu fördern. Mit den richtigen Tools, klaren Regeln und Beachtung der DSGVO können Lehrkräfte Projekte sicher und datenschutzkonform durchführen.
@@ -178,6 +180,10 @@ Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolh
 Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. 
 
 ## Literatur
-Poetry-Slam https://www.cornelsen.de/_Resources/Persistent/a/b/9/2/ab928cca676fa095db8f2bcde2f8d2f283319bca/0001100000220%20KEMNMI_190717_001_9783060976739_Magazin_Poetry-Slam.pdf$0
+Poetry-Slam https://www.cornelsen.de/_Resources/Persistent/a/b/9/2/ab928cca676fa095db8f2bcde2f8d2f283319bca/0001100000220%20KEMNMI_190717_001_9783060976739_Magazin_Poetry-Slam.pdf
+Audioaufnahmen https://www.medien-in-die-schule.de/tools/apps/chatterpix
+Book Creator Anleitung https://lehrerfortbildung-bw.de/st_digital/medienwerkstatt/fortbildungen/lern2/2_werk/3_mmtext/book_creator_anleitung.pdf
+https://www.biss-sprachbildung.de/btools/erstellen-von-e-books-z-b-mit-dem-book-creator
+
 
 
