@@ -81,10 +81,12 @@ Die Reihe umfasst drei Impulse:
 ![Dunkelheit](10.jpg)
 
 mit Canva erstellt
+
 2. eine Bibel-Spurensuche in Mt 2 und Lk 2
 ![Lupe](1.jpg)
 
 mit Canva erstellt
+
 3. einen globalen Weihnachtsimpuls zu Joh 8,12
 
 1. Lichtmoment: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
@@ -125,7 +127,7 @@ mit Canva erstellt
 3. Lichtmoment: „Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
 Der dritte Impuls „Ich bin das Licht der Welt.“ (Joh 8,12) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
-Die Lernenden betrachten eine Weltkarte (analog oder digital) und markieren Orte, an denen heute Licht aufscheint:
+Die Lernenden betrachten eine Weltkarte ![analog](![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
     - Initiativen für Frieden
     - Orte, an denen Menschen für Gerechtigkeit eintreten
     - internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
@@ -216,7 +218,19 @@ https://www.biss-sprachbildung.de/btools/erstellen-von-e-books-z-b-mit-dem-book-
 
 https://www.uni-hamburg.de/elearning/anleitungen/audacity.html
 
-https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/audio-bearbeiten/$0
+https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/audio-bearbeiten
+
+**Brot für die Welt Weltkarte** 
+
+Actionbound https://www.brot-fuer-die-welt.de/material/projektbesuche-gerechtigkeit/ 
+
+**Weltkarte Engagement global**
+
+https://www.das-weltspiel.com/de/links-detail/weltkarte-perspektiven-wechseln/
+
+**Weltverteilungsspiel**
+
+https://bne-sachsen.de/app/uploads/2020/04/Weltverteilungsspiel_2020.pdf
 
 
 
