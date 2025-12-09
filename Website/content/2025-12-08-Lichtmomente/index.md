@@ -95,7 +95,7 @@ Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenr
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam:
 Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
 
-2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und Lk 2,1-20
+2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
