@@ -48,7 +48,7 @@ tags:
 ---
 
 
-## Lichtmomente im Advent
+## LichtMomente im Advent
 
 Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis
 Im Advent suchen Menschen traditionell nach Licht – nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
