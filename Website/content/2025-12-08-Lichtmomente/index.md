@@ -89,7 +89,8 @@ mit Canva erstellt
 
 3. einen globalen Weihnachtsimpuls zu Joh 8,12
 
-1. Lichtmoment: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
+
+## **Lichtmoment 1**: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
 
 Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: Jesaja 9,1–6.
 Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
@@ -103,7 +104,7 @@ Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenr
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
 Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
 
-2. Lichtmoment: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
+## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 ![Zielgruppe](2.jpg)
 
@@ -124,7 +125,7 @@ Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem
 
 mit Canva erstellt
 
-3. Lichtmoment: „Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
+## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
 Der dritte Impuls „Ich bin das Licht der Welt.“ (Joh 8,12) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
