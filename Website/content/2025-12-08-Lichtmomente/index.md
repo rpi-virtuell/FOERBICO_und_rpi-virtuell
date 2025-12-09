@@ -78,7 +78,7 @@ ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwac
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu Jes 9,1–6
 2. eine Bibel-Spurensuche in Mt 2 und Lk 2
-3. die fünfte Kerze des Adventskranzes als Zeichen des Christuslichts
+3. einen globalen Weihnachtsimpuls zu Joh 8,12
 
 ![](ima_2648be8.jpeg)
 ![](ima_a6fc6d5.jpeg)
@@ -106,10 +106,24 @@ Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE (PDF einfügen) a
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
 
 
-3. Lichtmoment: Die fünfte Kerze – Das Christuslicht an Weihnachten
-Der dritte Impuls nimmt ein Symbol auf, das über viele Klassenzimmer und Kirchen hinweg vertraut ist: den Adventskranz. Traditionell werden vier Kerzen entzündet – jeweils an den vier Adventssonntagen.
-Doch vielerorts wird an Weihnachten eine fünfte Kerze entzündet: die Christuskerze.
-Sie markiert den Übergang von der Erwartung (Advent) zur Erfüllung (Weihnachten).
+3. Lichtmoment: „Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
+Der dritte Impuls „Ich bin das Licht der Welt.“ (Joh 8,12) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
+Die Lernenden betrachten eine Weltkarte (analog oder digital) und markieren Orte, an denen heute Licht aufscheint:
+- Initiativen für Frieden
+- Orte, an denen Menschen für Gerechtigkeit eintreten
+- internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
+- persönliche Bezüge (Herkunft, Reisen, Begegnungen), die „Lichtmomente“ tragen
+In kurzen Stichworten benennen sie, warum dieser Ort für sie ein Lichtpunkt ist:
+Mut, Zusammenhalt, Trost, Hoffnung, Würde, Schutz …
+Anschließend werden diese Markierungen in ein gemeinsames Ritual überführt.
+In kurzen Fürbitten oder Segenssätzen bringen die Lernenden ihre Lichtworte zur Sprache:
+„Wir denken an die Menschen in …“
+„Schenke Licht, wo Dunkelheit ist.“
+„Christus, Licht der Welt – leuchte in diese Welt.“
+So entsteht ein globales Bild von Weihnachten:
+- Licht, das Menschen verbindet.
+- Licht, das Grenzen überschreitet.
+- Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
 
 ## Zwischen Tradition und medialer Kultur
 
