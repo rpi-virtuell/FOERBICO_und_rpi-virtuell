@@ -67,6 +67,7 @@ rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 - theologische Inhalte
 - didaktische Unterstützungen
 - Austausch und Community
+
 Es ist ein Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
 nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich.
 
