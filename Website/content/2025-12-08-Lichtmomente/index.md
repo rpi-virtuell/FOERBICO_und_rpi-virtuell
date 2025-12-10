@@ -51,25 +51,25 @@ tags:
 ## #LichtMomente im Advent
 
 Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis
-Im Advent suchen Menschen traditionell nach Licht – nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
-Mit der Reihe #Lichtmomente entwickeln rpi-virtuell, das NT Dortmund und religlobal drei kompakte Adventsimpulse im Instagram-Format. Sie verbinden wissenschaftlich fundierte theologische Inhalte mit didaktischer Reduktion, ästhetischen Zugängen und digitaler Narration.
-Der Advent wird damit zu einem exemplarischen Ort des Transfers:
+Im Advent suchen Menschen traditionell nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln, sie suchen nach Licht. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Raum. Dies zeigt sich auch in der Recherche nach Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
+Mit der Reihe #Lichtmomente entwickeln rpi-virtuell, das NT Dortmund und religlobal drei kompakte Adventsimpulse im Instagram-Format. Die Impulse begegnen dieser Suche und bieten zudem didaktische Reduktion, ästhetische Zugänge und digitale Narration.
+Somit wird *LichtMomente im Advent* zu einem exemplarischen Ort des Transfers:
 zwischen wissenschaftlicher Reflexion und schulischer Praxis,
 zwischen biblischer Tradition und gegenwärtigen Medienformen,
 zwischen religiöser Kompetenzentwicklung und ästhetischem Lernen im digitalen Raum.
 
 ## Warum digitale Räume für Religionspädagogik wichtig sind
 
-Religionspädagogik entfaltet sich heute nicht mehr nur analog, sondern hybrid:
-Texte, Methoden und Beiträge wandern zwischen Präsenzunterricht, digitalen Sammlungen, Materialplattformen und sozialen Medien.
+Religionspädagogische Ideen verbreiten sich heute nicht mehr nur analog, sondern hybrid:
+Texte, Methoden und Beiträge wandern zwischen Präsenzunterricht, digitalen Sammlungen, Materialplattformen und sozialen Medien. Sie werden in der Wissenschaft und Praxis digital gespeichert, bearbeitet und geteilt.
 rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 - offen zugängliche Materialien
 - theologische Inhalte
 - didaktische Unterstützungen
 - Austausch und Community
 
-Es ist ein Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
-nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich.
+Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
+nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. > [Woran zeigen sie das, da fehlt mir gerade der Übergang, da braucht es einen oder zwei sätze]
 
 ## Drei Posts – Drei #LichtMomente
 
@@ -77,24 +77,24 @@ Die Reihe umfasst drei kurze Instagram-Impulse, die jeweils ein klassisches Adve
 Jeder Post funktioniert als Story-Starter:
 ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwachsene weiterdenken, remixen, kommentieren oder im Unterricht aufgreifen können.
 Die Reihe umfasst drei Impulse:
-1. einen Poetry-Slam zu Jes 9,1–6
+1. einen Poetry-Slam zu [Jes 9,1–6](https://www.die-bibel.de/bibel/LU12/ISA.9)
 ![Dunkelheit](10.jpg)
 
 mit Canva erstellt
 
-2. eine Bibel-Spurensuche in Mt 2 und Lk 2
+2. eine Bibel-Spurensuche in [Mt 2](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2](https://www.die-bibel.de/bibel/LU12/LUK.2)
 ![Lupe](1.jpg)
 
 mit Canva erstellt
 
-3. einen globalen Weihnachtsimpuls zu Joh 8,12
+3. einen globalen Weihnachtsimpuls zu [Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)
 
 
 ## **Lichtmoment 1**: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
 
-Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: Jesaja 9,1–6.
+Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: [Jes 9,1–6](https://www.die-bibel.de/bibel/LU12/ISA.9).
 Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
-Gerade deshalb entfaltet seine Verheißung eine besondere Kraft:
+Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 „Das Volk, das im Finstern wandelt, sieht ein helles Licht.“
 ![Bibeltext](17.jpg)
 
@@ -102,9 +102,9 @@ mit Canva erstellt
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
-Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann.
+Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann. > [Lass uns da nochmal kurz eine bessere Formulierung finden, denn sie entdecken ja zuerst, das Zweifel und vielleicht auch Hoffnungslosigkeit, grundauf menschlich ist und Gottes Zusagen da hinein sprechen.]
 Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg==)
-## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in Mt 2,1-12 und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
+## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in [Mt 2,1-12](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 ![Zielgruppe](2.jpg)
 
@@ -113,7 +113,7 @@ mit Canva erstellt
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
-Mt 2,9-11; LUT 2017 
+Mt 2,9-11; LUT 2017 > [Ist das im Material so? Weil wir haben jetzt hier im Text immer die Lut 1912 verwendet]
 Lk 2, 9; LUT 2017
 Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Lichtspur-Karte.pdf) aus:
   - Wo taucht das Licht auf?
@@ -129,7 +129,7 @@ Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmu
 
 ## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
-Der dritte Impuls „Ich bin das Licht der Welt.“ (Joh 8,12) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
+Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
     - Initiativen für Frieden
     - Orte, an denen Menschen für Gerechtigkeit eintreten
@@ -154,7 +154,7 @@ So entsteht ein globales Bild von Weihnachten:
 
 ## Zwischen Tradition und medialer Kultur
 
-Die Reihe #LichtMomente zeigt, wie digitale Medien ein theologisches Thema nicht oberflächlich verkürzen, sondern ästhetisch vertiefen können. Instagram wird zum Lernort, der Bilder, Worte und Symbole zusammenführt. Die Verbindung von biblischer Tradition, wissenschaftlicher Theologie, didaktischer Reduktion und digitaler Narration eröffnet neue Wege für religionspädagogische Prozesse.
+Die Reihe #LichtMomente zeigt, wie digitale Medien ein theologisches Thema nicht oberflächlich verkürzen, sondern didaktisch und ästhetisch vertiefen können. Instagram wird zum Lernort, der Bilder, Worte und Symbole zusammenführt. Die Verbindung von biblischer Tradition, wissenschaftlicher Theologie, didaktischer Reduktion und digitaler Narration eröffnet neue Wege für religionspädagogische Prozesse.
 
 Was hier sichtbar wird, ist ein exemplarischer Transferraum:
 Wissenschaftliche Inhalte werden für die Praxis aufbereitet, ohne inhaltliche Tiefe einzubüßen. Lehrkräfte erhalten Impulse, die sie unmittelbar in ihren Lerngruppen einsetzen können. Und Lernende erfahren religiöse Sprache in einer Form, die ihre Lebenswelt ernst nimmt.
@@ -167,6 +167,7 @@ Audioaufnahmen bieten eine kreative Möglichkeit, Unterricht lebendig zu gestalt
 | **GarageBand**                        | Mac, iOS            | Kostenlos             | Multitrack, einfache Bedienung, nur Apple-Geräte           |
 | **Smartphone-Recorder / Sprachmemo**  | iOS / Android       | Kostenlos             | Schnell & unkompliziert für kurze Audioaufnahmen
 
+Eine kleine Arbeitshilfe ist es, wenn die Aufnahmen mit einem Handy gemacht werden, um im Anschluss diese dann in **Audacity** nachträglich bearbeiten. Für eine kleine Einführung in Audicity siehe diesen [Artikel](https://www.medien-in-die-schule.de/werkzeugkaesten/werkzeugkasten-freie-software/werkzeugportraits-freie-software/freie-software-im-portrait-audacity/) und diese [Video-Reihe](https://vimeo.com/showcase/45014). 
 Weitere Möglichkeiten:
 | Tool             | Plattform / Geräte         | Zielgruppe / Einsatz                               | Audiofunktion                                        | Vorteile                                                         | Datenschutz / DSGVO                                                                                |
 | ---------------- | -------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
