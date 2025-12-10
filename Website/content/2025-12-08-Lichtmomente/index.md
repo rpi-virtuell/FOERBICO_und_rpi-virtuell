@@ -15,6 +15,13 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+  - givenName: Phillip
+    familyName: Angelina
+    type: Person
+    affiliation:
+      name: FAU
+      id: https://ror.org/025e8aw85
+      type: Organization
 keywords:
   - OER
   - OEP
@@ -33,7 +40,8 @@ datePublished: '2025-12-08'
 #staticSiteGenerator
 author:
   - Corinna Ullmann
-title: 'Instagram als religionspädagogischer Lernort'
+  - Phillip Angelina
+title: 'LichtMomente'
 cover:
   relative: true
   hiddenInSingle: true
@@ -69,7 +77,8 @@ rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 - Austausch und Community
 
 Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
-nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. > [Woran zeigen sie das, da fehlt mir gerade der Übergang, da braucht es einen oder zwei sätze]
+nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
+Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort)
 
 ## Drei Posts – Drei #LichtMomente
 
@@ -113,7 +122,7 @@ mit Canva erstellt
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
-Mt 2,9-11; LUT 2017 > [Ist das im Material so? Weil wir haben jetzt hier im Text immer die Lut 1912 verwendet]
+Mt 2,9-11; LUT 2017 
 Lk 2, 9; LUT 2017
 Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Lichtspur-Karte.pdf) aus:
   - Wo taucht das Licht auf?
