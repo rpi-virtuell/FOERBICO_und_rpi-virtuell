@@ -94,7 +94,7 @@ Die Reihe umfasst drei Impulse:
 ![Lupe](1.jpg) <br>*mit Canva erstellt*</br>
 
 3. einen globalen Weihnachtsimpuls zu [Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)
-![Weihnachten](Weihnachten global.jpg)
+![Weihnachten](Weihnachtenglobal.jpg)
 
 ## **Lichtmoment 1**: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
 
