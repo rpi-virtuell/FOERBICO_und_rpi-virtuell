@@ -56,6 +56,7 @@ tags:
   - Open Educational Practices (OEP)
   - Religionspädagogik
 --- 
+
 # Steckbrief
 Das relilab ist eine Community welche religionsbezogene Bildung ermöglicht. Dabei sind sie heterarisch strukturiert und ermöglichen somit, dass alle Menschen eingeladen sind teilzunehmen. Als Community wird selbstgesteurtes Lernen unterstützt und die Erstellung sowie Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, welche vom relilab selbst oder über das relilab-Zoom stattfinden. 
 Aus den Interviews unserer Begleitforschung aus dem Jahr 2024 wissen wir, dass das relilab aus dem relichat auf Twitter entstanden ist. In Zeiten von Corona bildete sich aus dem wöchentlichen relichat, eine Community die digitale Bildungswege erkundet. Im Laufe der Jahre hat sich die Community verändert, erneuert und angepasst. Das relilab ist eine Laborumgebung in der experimentiert werden darf und soll.
