@@ -88,8 +88,7 @@ ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwac
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu [Jes 9,1–6](https://www.die-bibel.de/bibel/LU12/ISA.9)
 ![Dunkelheit](10.jpg)
-
-mit Canva erstellt
+*mit Canva erstellt*
 
 2. eine Bibel-Spurensuche in [Mt 2](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2](https://www.die-bibel.de/bibel/LU12/LUK.2)
 ![Lupe](1.jpg)
