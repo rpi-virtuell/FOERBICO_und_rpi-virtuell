@@ -94,7 +94,7 @@ Die Reihe umfasst drei Impulse:
 ![Lupe](1.jpg) <br>*mit Canva erstellt*</br>
 
 3. einen globalen Weihnachtsimpuls zu [Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)
-![Weihnachten](Weihnachtenglobal.jpg)
+![Weihnachten](Weihnachtenglobal.jpg) <br>*mit Canva erstellt*</br>
 
 ## **Lichtmoment 1**: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
 
@@ -132,7 +132,7 @@ Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem
 Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund ![Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw==)
 
 ## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
-![GlobalesLernen](GlobalesLernen.jpg)
+![GlobalesLernen](GlobalesLernen.jpg) <br>*mit Canva erstellt*</br>
 Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
     - Initiativen für Frieden
