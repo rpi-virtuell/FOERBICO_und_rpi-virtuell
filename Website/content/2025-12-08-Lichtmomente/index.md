@@ -139,6 +139,7 @@ Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) ode
     - Orte, an denen Menschen für Gerechtigkeit eintreten
     - internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
     - persönliche Bezüge (Herkunft, Reisen, Begegnungen), die „Lichtmomente“ tragen
+
 In kurzen Stichworten benennen sie, warum dieser Ort für sie ein Lichtpunkt ist:
 Mut, Zusammenhalt, Trost, Hoffnung, Würde, Schutz …
 
@@ -155,6 +156,7 @@ So entsteht ein globales Bild von Weihnachten:
     - Licht, das Menschen verbindet.
     - Licht, das Grenzen überschreitet.
     - Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
+  Weitere Materialien zu Jesus Christus Global findest du hier ![Global](https://religlobal.org/unit/jesus-christus-global)
 
 ## Zwischen Tradition und medialer Kultur
 
@@ -247,6 +249,8 @@ https://www.das-weltspiel.com/de/links-detail/weltkarte-perspektiven-wechseln/
 **Weltverteilungsspiel**
 
 https://bne-sachsen.de/app/uploads/2020/04/Weltverteilungsspiel_2020.pdf
+
+https://www.friedenslicht.de/jahresthema
 
 
 
