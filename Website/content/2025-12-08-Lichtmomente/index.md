@@ -88,8 +88,7 @@ Jeder Post funktioniert als Story-Starter:
 ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwachsene weiterdenken, remixen, kommentieren oder im Unterricht aufgreifen können.
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu [Jes 9,1–6](https://www.die-bibel.de/bibel/LU12/ISA.9)
-![Dunkelheit](10.jpg)
-*mit Canva erstellt*
+![Dunkelheit](10.jpg) <br>*mit Canva erstellt*</br>
 
 2. eine Bibel-Spurensuche in [Mt 2](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2](https://www.die-bibel.de/bibel/LU12/LUK.2)
 ![Lupe](1.jpg)
