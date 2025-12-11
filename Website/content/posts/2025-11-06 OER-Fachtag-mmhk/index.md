@@ -1,3 +1,59 @@
+---
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: KI-Heilsbringer oder Zerstörer für OER
+description: >-
+  Dieser Artikel berichtet von unserer Teilnahme an der Veranstaltung „OER im
+  Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“. Die Veranstaltung
+  fand Anfang November statt und gab viele wichtige Impulse zu der Thematik KI
+  und OER.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+creator:
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation: ''
+keywords:
+  - OER
+  - OEP
+  - KI
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+learningResourceType:
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+  datePublished: ''
+author:
+  - Phillip Angelina
+  - Jörg Lohrer
+cover:
+  relative: true
+  hiddenInSingle: true
+  image: OER und KI.png
+summary: |
+  Ein Informationspost über die Teilnahme an der Tagung „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“.
+url: KI-Heilsbringer-Zerstörer
+tags:
+  - OER
+  - OEP
+  - KI
+weight: 100
+---
+
 # KI - Heilsbringer oder Zerstörer für OER?
 
 Unter dem Titel „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“ veranstalteten das Multimedia Kontor Hamburg ([MMKH](https://www.mmkh.de)), das niedersächsische OER-Portal [twillo](https://www.twillo.de/) in Partnerschaft mit [HIS-HE](https://his-he.de/), [KNOER](https://kn-oer.de/) und der Hamburg Open Online University ([HOOU](https://portal.hoou.de/)) am 6. November 2025 eine [Online-Fachtagung](https://www.mmkh.de/digitale-lehre/oer-und-knoer/oer-im-zeitalter-von-ki) zur Rolle von Künstlicher Intelligenz (KI) für offene Bildungsressourcen.
