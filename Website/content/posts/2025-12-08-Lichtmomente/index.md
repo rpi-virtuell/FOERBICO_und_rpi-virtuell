@@ -49,7 +49,7 @@ cover:
   image: ima_22a17d4.jpeg 
 summary: |
   Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
-url: instagram-als-lernort
+url: lichtmomente
 tags:
   - Instagram
   - Open Educational Practices (OEP)
