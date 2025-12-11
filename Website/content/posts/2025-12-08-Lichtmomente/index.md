@@ -46,7 +46,7 @@ title: 'LichtMomente'
 cover:
   relative: true
   hiddenInSingle: true
-  image: ima_22a17d4.jpeg 
+  image: Titelbild.jpg 
 summary: |
   Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: lichtmomente
@@ -79,7 +79,7 @@ rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 
 Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
 Lara Gotthard zeigt mti dem Account @nt.evangelisch_tudortmund: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
-Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort)
+Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort).
 
 religlobal macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitales Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
 
@@ -122,7 +122,7 @@ Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwe
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
 Mt 2,9-11; LUT 2017 
 Lk 2, 9; LUT 2017
-Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Lichtspur-Karte.pdf) aus:
+Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Dokument Lichtspur-Karte.pdf) aus:
   - Wo taucht das Licht auf?
   - Was bedeutet das Licht?
   - Welche Rolle spielt das Licht heute?
