@@ -78,8 +78,10 @@ rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 - Austausch und Community
 
 Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
-nt.evangelisch_tudortmund zeigt: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
+Lara Gotthard zeigt mti dem Account @nt.evangelisch_tudortmund: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
 Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort)
+
+religlobal macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitales Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
 
 ## Drei Posts – Drei #LichtMomente
 
@@ -105,10 +107,9 @@ Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 ![Bibeltext](17.jpg) <br>*mit Canva erstellt*</br>
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
-In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
-er Text Jesaja 9,1ff. spricht genau in solche Situationen hinein. 
-Die Adressaten des Propheten erleben politische Bedrängnis 
-und gesellschaftliche Unsicherheit. 
+In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf):
+Der Text Jesaja 9,1ff. spricht genau in solche Situationen hinein. 
+Die Adressaten des Propheten erleben politische Bedrängnis und gesellschaftliche Unsicherheit. 
 Die Zusage eines „hellen Lichts“ steht als Gegenbild zu Angst und Finsternis. Für die Schüler:innen wird deutlich: 
 Die biblische Hoffnung entsteht nicht abseits der Realität, sondern inmitten einer dunklen Situation. Sie eröffnet Perspektiven von Befreiung, Gerechtigkeit und Frieden – Themen, die für Jugendliche im Übergang zur Adoleszenz von hoher emotionaler Relevanz sind. 
 Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg==)
@@ -135,6 +136,7 @@ Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmu
 ![GlobalesLernen](GlobalesLernen.jpg) <br>*mit Canva erstellt*</br>
 Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
+
     - Initiativen für Frieden
     - Orte, an denen Menschen für Gerechtigkeit eintreten
     - internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
