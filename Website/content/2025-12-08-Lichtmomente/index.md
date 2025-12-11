@@ -250,7 +250,13 @@ https://www.das-weltspiel.com/de/links-detail/weltkarte-perspektiven-wechseln/
 
 https://bne-sachsen.de/app/uploads/2020/04/Weltverteilungsspiel_2020.pdf
 
+**Friedenslicht**
+
 https://www.friedenslicht.de/jahresthema
+
+**Frieden**
+
+https://www.frieden-fragen.de/entdecken/weltkarten.html
 
 
 
