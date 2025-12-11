@@ -32,7 +32,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: ima_22a17d4.jpeg 
+image: Titelbild.jpg 
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
