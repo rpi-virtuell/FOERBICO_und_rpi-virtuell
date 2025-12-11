@@ -91,8 +91,7 @@ Die Reihe umfasst drei Impulse:
 ![Dunkelheit](10.jpg) <br>*mit Canva erstellt*</br>
 
 2. eine Bibel-Spurensuche in [Mt 2](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2](https://www.die-bibel.de/bibel/LU12/LUK.2)
-![Lupe](1.jpg)
-*mit Canva erstellt*
+![Lupe](1.jpg) <br>*mit Canva erstellt*</br>
 
 3. einen globalen Weihnachtsimpuls zu [Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)
 
@@ -103,8 +102,7 @@ Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: [Jes 9,1
 Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
 Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 „Das Volk, das im Finstern wandelt, sieht ein helles Licht.“
-![Bibeltext](17.jpg)
-*mit Canva erstellt*
+![Bibeltext](17.jpg) <br>*mit Canva erstellt*</br>
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
@@ -116,8 +114,7 @@ Die biblische Hoffnung entsteht nicht abseits der Realität, sondern inmitten ei
 Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg==)
 ## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in [Mt 2,1-12](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
-![Zielgruppe](2.jpg)
-*mit Canva erstellt*
+![Zielgruppe](2.jpg) <br>*mit Canva erstellt*</br>
 
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
@@ -130,8 +127,7 @@ Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Lichtspur-
   - Welche Rolle spielt das Licht heute?
 
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
-![Arbeitsblatt](6.jpg)
-*mit Canva erstellt*
+![Arbeitsblatt](6.jpg) <br>*mit Canva erstellt*</br>
 
 Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund ![Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw==)
 
