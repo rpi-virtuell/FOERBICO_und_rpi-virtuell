@@ -111,7 +111,11 @@ mit Canva erstellt
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
-Die Lernenden bringen ihre eigenen Erfahrungen von Dunkelheit und Hoffnung in poetische Sprache ein. So entsteht ein Resonanzraum, in dem biblische Worte und persönliche Lebenswelt miteinander in Dialog treten. Die Jugendlichen formulieren ihre Deutung – und entdecken, dass biblische Hoffnung in belasteten Situationen entstehen kann. > [Lass uns da nochmal kurz eine bessere Formulierung finden, denn sie entdecken ja zuerst, das Zweifel und vielleicht auch Hoffnungslosigkeit, grundauf menschlich ist und Gottes Zusagen da hinein sprechen.]
+er Text Jesaja 9,1ff. spricht genau in solche Situationen hinein. 
+Die Adressaten des Propheten erleben politische Bedrängnis 
+und gesellschaftliche Unsicherheit. 
+Die Zusage eines „hellen Lichts“ steht als Gegenbild zu Angst und Finsternis. Für die Schüler:innen wird deutlich: 
+Die biblische Hoffnung entsteht nicht abseits der Realität, sondern inmitten einer dunklen Situation. Sie eröffnet Perspektiven von Befreiung, Gerechtigkeit und Frieden – Themen, die für Jugendliche im Übergang zur Adoleszenz von hoher emotionaler Relevanz sind. 
 Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg==)
 ## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in [Mt 2,1-12](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
