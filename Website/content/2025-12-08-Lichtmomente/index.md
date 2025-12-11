@@ -156,7 +156,7 @@ So entsteht ein globales Bild von Weihnachten:
     - Licht, das Menschen verbindet.
     - Licht, das Grenzen überschreitet.
     - Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
-  Weitere Materialien zu Jesus Christus Global findest du hier ![Global](https://religlobal.org/unit/jesus-christus-global)
+  Weitere Materialien zu Jesus Christus Global findest du hier ![religlobal](https://religlobal.org/unit/jesus-christus-global)
 
 ## Zwischen Tradition und medialer Kultur
 
