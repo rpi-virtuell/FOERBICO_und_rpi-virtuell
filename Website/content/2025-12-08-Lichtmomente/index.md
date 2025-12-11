@@ -88,12 +88,11 @@ ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwac
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu [Jes 9,1–6](https://www.die-bibel.de/bibel/LU12/ISA.9)
 ![Dunkelheit](10.jpg)
-<div class="pull-right">*mit Canva erstellt*</div>
+*mit Canva erstellt*
 
 2. eine Bibel-Spurensuche in [Mt 2](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2](https://www.die-bibel.de/bibel/LU12/LUK.2)
 ![Lupe](1.jpg)
-
-mit Canva erstellt
+*mit Canva erstellt*
 
 3. einen globalen Weihnachtsimpuls zu [Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)
 
@@ -105,8 +104,7 @@ Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen u
 Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 „Das Volk, das im Finstern wandelt, sieht ein helles Licht.“
 ![Bibeltext](17.jpg)
-
-mit Canva erstellt
+*mit Canva erstellt*
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
 In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf) :
@@ -119,8 +117,7 @@ Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunke
 ## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in [Mt 2,1-12](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 ![Zielgruppe](2.jpg)
-
-mit Canva erstellt
+*mit Canva erstellt*
 
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
 Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwei Gruppen (A und B) erarbeitet.
@@ -134,8 +131,7 @@ Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Lichtspur-
 
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
 ![Arbeitsblatt](6.jpg)
-
-mit Canva erstellt
+*mit Canva erstellt*
 
 Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund ![Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw==)
 
