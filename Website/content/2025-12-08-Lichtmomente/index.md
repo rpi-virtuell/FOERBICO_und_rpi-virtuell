@@ -17,10 +17,11 @@ creator:
       type: Organization
   - givenName: Phillip
     familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
     type: Person
     affiliation:
-      name: FAU
-      id: https://ror.org/025e8aw85
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
       type: Organization
 keywords:
   - OER
