@@ -31,7 +31,10 @@ Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als r
 
 Die vollständige Checkliste steht als offen lizenzierte Markdown-Datei (CC BY 4.0) zur Verfügung und kann für Lehre, Materialerstellung und Evaluation direkt genutzt werden. Sie ist als lebendiges Dokument angelegt und wird fortlaufend aktualisiert – basierend auf Feedback, Forschung und Praxiserfahrungen.
 
-**Button Download docx/PDF fehlt noch!**
+**Die Handreichung zum Download:**
+
+📄 [PDF-Datei](LINK)
+📝 [Word-Datei](LINK)
 
 #### Die vier Dimensionen der OER-Qualität
 
