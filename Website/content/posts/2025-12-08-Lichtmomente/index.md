@@ -107,12 +107,15 @@ Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 ![Bibeltext](17.jpg) <br>*mit Canva erstellt*</br>
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
-In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam ![PDF](PoetrySlamArbeitsauftrag.pdf):
+In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam als ![PDF-Datei](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-lichtmomente-NEU/Website/content/2025-12-08-Lichtmomente/PoetrySlamArbeitsauftrag.pdf):
 Der Text Jesaja 9,1ff. spricht genau in solche Situationen hinein. 
 Die Adressaten des Propheten erleben politische Bedrängnis und gesellschaftliche Unsicherheit. 
 Die Zusage eines „hellen Lichts“ steht als Gegenbild zu Angst und Finsternis. Für die Schüler:innen wird deutlich: 
 Die biblische Hoffnung entsteht nicht abseits der Realität, sondern inmitten einer dunklen Situation. Sie eröffnet Perspektiven von Befreiung, Gerechtigkeit und Frieden – Themen, die für Jugendliche im Übergang zur Adoleszenz von hoher emotionaler Relevanz sind. 
-Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an ![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg==)
+Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an 
+
+![Dunkelheit](https://www.instagram.com/p/DR7db9WjI2J/?igsh=MTNvNm85d2Rianlhcg%3D%3D)
+
 ## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in [Mt 2,1-12](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
 ![Zielgruppe](2.jpg) <br>*mit Canva erstellt*</br>
@@ -122,7 +125,7 @@ Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwe
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
 Mt 2,9-11; LUT 2017 
 Lk 2, 9; LUT 2017
-Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Dokument Lichtspur-Karte.pdf) aus:
+Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE als ![PDF-Datei](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-lichtmomente-NEU/Website/content/2025-12-08-Lichtmomente/Dokument%20Lichtspur-Karte.pdf) aus:
   - Wo taucht das Licht auf?
   - Was bedeutet das Licht?
   - Welche Rolle spielt das Licht heute?
@@ -130,9 +133,12 @@ Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE ![PDF](Dokument L
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
 ![Arbeitsblatt](6.jpg) <br>*mit Canva erstellt*</br>
 
-Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund ![Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw==)
+Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund 
+
+![Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw%3D%3D)
 
 ## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
+
 ![GlobalesLernen](GlobalesLernen.jpg) <br>*mit Canva erstellt*</br>
 Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
