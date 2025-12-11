@@ -3,8 +3,7 @@
 creativeWorkStatus: Draft
 type: LearningResource
 name: KI-Heilsbringer oder Zerstörer für OER
-description: >-
-  Dieser Artikel berichtet von unserer Teilnahme an der Veranstaltung „OER im
+description: Dieser Artikel berichtet von unserer Teilnahme an der Veranstaltung „OER im
   Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“. Die Veranstaltung
   fand Anfang November statt und gab viele wichtige Impulse zu der Thematik KI
   und OER.
@@ -22,7 +21,10 @@ creator:
     familyName: Lohrer
     id: https://orcid.org/0000-0002-9282-0406
     type: Person
-    affiliation: ''
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 keywords:
   - OER
   - OEP
