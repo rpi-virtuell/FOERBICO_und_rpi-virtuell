@@ -61,7 +61,7 @@ Das relilab ist eine Community welche religionsbezogene Bildung ermöglicht. Dab
 Aus den Interviews unserer Begleitforschung aus dem Jahr 2024 wissen wir, dass das relilab aus dem relichat auf Twitter entstanden ist. In Zeiten von Corona bildete sich aus dem wöchentlichen relichat, eine Community die digitale Bildungswege erkundet. Im Laufe der Jahre hat sich die Community verändert, erneuert und angepasst. Das relilab ist eine Laborumgebung in der experimentiert werden darf und soll.
 Das relilab wird nicht nur im Rahmen der Tagung vorgestellt, sondern stellt sich selber vor. Corinna Ullmann wird am zweiten Tag einen Workshop zum relilab geben. Zur Einstimmung auf den Workshop konnten wir Corinna vorher befragen.
 
-![Logo relilab](Community Post relilab.png)
+![Logo relilab](relilab_Logo.png)
 
 ## Interview
 Hallo Corinna und vielen herzlichen Dank für deine Zeit.
