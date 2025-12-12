@@ -34,6 +34,7 @@ Die vollständige Checkliste steht als offen lizenzierte Markdown-Datei (CC BY 4
 **Die Handreichung zum Download:**
 
 📄 [PDF-Datei](Handreichung_Qualitätskriterien.pdf)
+
 📝 [Word-Datei](Handreichung_Qualitätskriterien_Word.docx)
 
 #### Die vier Dimensionen der OER-Qualität
