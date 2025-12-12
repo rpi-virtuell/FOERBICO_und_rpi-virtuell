@@ -138,11 +138,10 @@ Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmu
 ![GlobalesLernen](GlobalesLernen.jpg) <br>*mit Canva erstellt*</br>
 Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
-
-    - Initiativen für Frieden
-    - Orte, an denen Menschen für Gerechtigkeit eintreten
-    - internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern
-    - persönliche Bezüge (Herkunft, Reisen, Begegnungen), die „Lichtmomente“ tragen
+**Initiativen für Frieden**
+**Orte, an denen Menschen für Gerechtigkeit eintreten**
+**internationale Gemeinden, die Weihnachten unter schwierigen Bedingungen feiern**
+**persönliche Bezüge (Herkunft, Reisen, Begegnungen), die „Lichtmomente“ tragen**
 
 In kurzen Stichworten benennen sie, warum dieser Ort für sie ein Lichtpunkt ist:
 Mut, Zusammenhalt, Trost, Hoffnung, Würde, Schutz …
@@ -150,15 +149,15 @@ Mut, Zusammenhalt, Trost, Hoffnung, Würde, Schutz …
 Anschließend werden diese Markierungen in ein gemeinsames Ritual überführt.
 
 In kurzen Fürbitten oder Segenssätzen bringen die Lernenden ihre Lichtworte zur Sprache:
-
 - „Wir denken an die Menschen in …“
 - „Schenke Licht, wo Dunkelheit ist.“
 - „Christus, Licht der Welt – leuchte in diese Welt.“
 
 So entsteht ein globales Bild von Weihnachten:
-- Licht, das Menschen verbindet.
-- Licht, das Grenzen überschreitet.
-- Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
+**Licht, das Menschen verbindet.**
+**Licht, das Grenzen überschreitet.**
+**Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.**
+
 Weitere Materialien zu Jesus Christus Global findest du hier [religlobal](https://religlobal.org/unit/jesus-christus-global)
 
 ## Zwischen Tradition und medialer Kultur
