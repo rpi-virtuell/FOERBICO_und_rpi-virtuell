@@ -57,7 +57,7 @@ tags:
   - Tagung
   - KI
 ---
-# Interview mit Daniel Otto
+# Interview mit Prof. Dr. Daniel Otto
 
 Auf unserer Zwischenfazittagung *Mit OER zu einer Kultur des Teilens* wird Prof. Dr. Daniel Otto die Keynote halten. Wir vom FOERBICO-Team konnten im Vorhinein ein Interview mit ihm durchführen. Zuerst wollen wir ihn euch, liebe Lesende, kurz vorstellen.
 
