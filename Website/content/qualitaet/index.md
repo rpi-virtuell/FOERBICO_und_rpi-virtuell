@@ -11,7 +11,7 @@ Offene Bildungsmaterialien (OER) eröffnen große Chancen für die Religionspäd
 
 Während allgemeine OER-Qualitätsmodelle wertvolle Orientierung bieten, berücksichtigen sie fachspezifische Besonderheiten religiöser Bildungsprozesse nur bedingt. Das FOERBICO-Projekt setzt genau hier an und entwickelt praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien, die speziell für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
 
-Mehr dazu: [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
+👉 Mehr dazu: [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
 
 ### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
 
@@ -81,7 +81,7 @@ Gleichzeitig wurden Stellschrauben identifiziert, u. a. ...
 
 TiRU und M@PS fungieren damit als Modellprojekte, die zur Schärfung der Kriterien beigetragen haben und zeigen, wie Qualität in OER bereits im Entwicklungsprozess verankert werden kann.
 
-Mehr dazu: 
+👉 Mehr dazu: 
 [Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU](https://oer.community/digitale-offenheit-braucht-tiefe/) 
 [Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@PS](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/)
 
