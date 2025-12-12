@@ -151,16 +151,15 @@ Anschließend werden diese Markierungen in ein gemeinsames Ritual überführt.
 
 In kurzen Fürbitten oder Segenssätzen bringen die Lernenden ihre Lichtworte zur Sprache:
 
-      „Wir denken an die Menschen in …“
-      „Schenke Licht, wo Dunkelheit ist.“
-      „Christus, Licht der Welt – leuchte in diese Welt.“
+- „Wir denken an die Menschen in …“
+- „Schenke Licht, wo Dunkelheit ist.“
+- „Christus, Licht der Welt – leuchte in diese Welt.“
 
 So entsteht ein globales Bild von Weihnachten:
-
-    - Licht, das Menschen verbindet.
-    - Licht, das Grenzen überschreitet.
-    - Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
-  Weitere Materialien zu Jesus Christus Global findest du hier [religlobal](https://religlobal.org/unit/jesus-christus-global)
+- Licht, das Menschen verbindet.
+- Licht, das Grenzen überschreitet.
+- Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
+Weitere Materialien zu Jesus Christus Global findest du hier [religlobal](https://religlobal.org/unit/jesus-christus-global)
 
 ## Zwischen Tradition und medialer Kultur
 
