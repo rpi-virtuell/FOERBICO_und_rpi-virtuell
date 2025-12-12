@@ -32,7 +32,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: ima_22a17d4.jpeg 
+image: TitelBlog_Interview.png 
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -60,7 +60,7 @@ tags:
 Das relilab ist eine Community welche religionsbezogene Bildung ermöglicht. Dabei sind sie heterarisch strukturiert und ermöglichen somit, dass alle Menschen eingeladen sind teilzunehmen. Als Community wird selbstgesteurtes Lernen unterstützt und die Erstellung sowie Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, welche vom relilab selbst oder über das relilab-Zoom stattfinden. 
 Aus den Interviews unserer Begleitforschung aus dem Jahr 2024 wissen wir, dass das relilab aus dem relichat auf Twitter entstanden ist. In Zeiten von Corona bildete sich aus dem wöchentlichen relichat, eine Community die digitale Bildungswege erkundet. Im Laufe der Jahre hat sich die Community verändert, erneuert und angepasst. Das relilab ist eine Laborumgebung in der experimentiert werden darf und soll.
 Das relilab wird nicht nur im Rahmen der Tagung vorgestellt, sondern stellt sich selber vor. Corinna Ullmann wird am zweiten Tag einen Workshop zum relilab geben. Zur Einstimmung auf den Workshop konnten wir Corinna vorher befragen.
-
+![Logo relilab](Community Post relilab.png)
 ## Interview
 Hallo Corinna und vielen herzlichen Dank für deine Zeit.
 1. Frage: Was genau ist das relilab?
@@ -76,3 +76,17 @@ Ich versuche zusätzlich asynchrone Angebote zu ermölgichen, indem ich Material
 Zudem ermöglicht mir die Community über meinen eigenen Tellerand zu schauen und neue Impulse für meine eigene Arbeit zu bekommen. 
 5. Frage: Was können wir von euch auf der zwischenfazit Tagung erwarten?
 Wir können aus unseren Erfahrungen aus der Laborumgebung die Chancen, Möglichkeiten und Grenzen einer aktiven Community aufzeigen.
+
+## Mit OER zu einer Kultur des Teilens
+
+![Tagungslogo](FOERBICO_Tagung_Logo.png)
+
+Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
+Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:
+Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Communities existieren? Und welche Rolle spielen Institutionen wie Schulen oder Kirchen bei ihrer Entwicklung und Verstetigung?
+
+Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
+
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+
+Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
