@@ -116,6 +116,6 @@ Wir freuen uns über:
 Für Rückfragen oder Rückmeldungen stehen wir gerne zur Verfügung!
 
 Handreichung & Checkliste: [Dr. Laura Mößle](mailto:Moessle@em.uni-frankfurt.de) (GU Frankfurt) 
-Evaluation & Forschung: [Phillip Angelina](mailto:phillip.angelina@fau.de) (FAU Erlangen-Nürnberg)
+Evaluation & Forschung: [Phillip Angelina](mailto:phillip.angelina@fau.de) (FAU Erlangen-Nürnberg) 
 TiRU: [Paula Paschke](mailto:paschke@em.uni-frankfurt.de) (GU Frankfurt)
 M@PS: [Dr. Florian Mayrhofer](mailto:f.mayrhofer@em.uni-frankfurt.de) (GU Frankfurt)
