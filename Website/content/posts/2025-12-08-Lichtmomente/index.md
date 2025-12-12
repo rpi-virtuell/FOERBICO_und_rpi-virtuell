@@ -81,7 +81,7 @@ Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam
 Lara Gotthard zeigt mti dem Account @nt.evangelisch_tudortmund: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
 Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort).
 
-religlobal macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitales Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
+[religlobal](https://religlobal.org) macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitales Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
 
 ## Drei Posts – Drei #LichtMomente
 
@@ -160,7 +160,7 @@ So entsteht ein globales Bild von Weihnachten:
     - Licht, das Menschen verbindet.
     - Licht, das Grenzen überschreitet.
     - Licht, das im Sinne Jesu allen gilt – nicht nur einem Ort, einer Kultur oder einer Zeit.
-  Weitere Materialien zu Jesus Christus Global findest du hier ![religlobal](https://religlobal.org/unit/jesus-christus-global)
+  Weitere Materialien zu Jesus Christus Global findest du hier [religlobal](https://religlobal.org/unit/jesus-christus-global)
 
 ## Zwischen Tradition und medialer Kultur
 
