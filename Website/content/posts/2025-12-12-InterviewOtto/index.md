@@ -1,4 +1,63 @@
-# Interview mit unserer Keynote
+---
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: Interview mit Daniel Otto
+description: >-
+  Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorberteitung
+  unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/_edit/Interview-Otto/Website/content/posts/2025-12-12-InterviewOtto/index.md
+creator:
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      type: Organization
+keywords:
+  - OER
+  - OEP
+  - Tagung
+  - KI
+inLanguage:
+  - de
+image: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/Interview-Otto/Website/content/posts/2025-12-12-InterviewOtto/FOERBICO_Tagung_Logo.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+#staticSiteGenerator:
+author:
+  - Phillip Angelina
+  - Gina Buchwald-Chassée
+title: 'Interview mit Daniel Otto'
+cover:
+  relative: true
+  image: FOERBICO_Tagung_Logo.png
+  hidddenInSingle: false
+  alt: 'Interview Otto'
+summary: >-
+  Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorberteitung
+  unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
+url: interview-daniel-otto
+tags:
+  - OER
+  - OEP
+  - Tagung
+  - KI
+---
+# Interview mit Daniel Otto
 
 Auf unserer Zwischenfazittagung *Mit OER zu einer Kultur des Teilens* wird Prof. Dr. Daniel Otto die Keynote halten. Wir vom FOERBICO-Team konnten im Vorhinein ein Interview mit ihm durchführen. Zuerst wollen wir ihn euch, liebe Lesende, kurz vorstellen.
 
