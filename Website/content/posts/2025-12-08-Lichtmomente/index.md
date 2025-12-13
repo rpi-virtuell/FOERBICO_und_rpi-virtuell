@@ -59,7 +59,7 @@ tags:
 
 ## #LichtMomente im Advent
 
-Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis
+Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis.
 Im Advent suchen Menschen traditionell nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln, sie suchen nach Licht. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Raum. Dies zeigt sich auch in der Recherche nach Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
 Mit der Reihe #Lichtmomente entwickeln rpi-virtuell, das NT Dortmund und religlobal drei kompakte Adventsimpulse im Instagram-Format. Die Impulse begegnen dieser Suche und bieten zudem didaktische Reduktion, ästhetische Zugänge und digitale Narration.
 Somit wird *LichtMomente im Advent* zu einem exemplarischen Ort des Transfers:
