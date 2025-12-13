@@ -81,7 +81,7 @@ Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam
 Lara Gotthard zeigt mit dem Account @nt.evangelisch_tudortmund: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
 Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort).
 
-[religlobal](https://religlobal.org) macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitales Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
+[religlobal](https://religlobal.org) macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitale Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
 
 ## Drei Posts – Drei #LichtMomente
 
@@ -207,6 +207,7 @@ Audioaufnahmen sind ein kraftvolles Werkzeug im Unterricht, um Kreativität, Spr
 Die drei Lichtmomente laden dazu ein, sowohl biblische Texte als auch ästhetische Lernformen neu zu entdecken.
 Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolhandlungen – das Lichtmotiv des Advents erweist sich als besonders geeignet, die Frage nach Hoffnung, Orientierung und Deutungskraft religiöser Tradition in die Gegenwart zu übertragen.
 Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. 
+Das Projekt religlobal schärft den blick auf Religion in Materialien des Globalen Lernens.
 
 ## Weiterführende Materialien
 
