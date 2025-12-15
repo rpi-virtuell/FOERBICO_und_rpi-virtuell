@@ -48,7 +48,7 @@ cover:
   hidddenInSingle: false
   alt: 'Interview Otto'
 summary: >-
-  Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorberteitung
+  Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorbereitung
   unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
 url: interview-daniel-otto
 tags:
@@ -59,15 +59,22 @@ tags:
 ---
 # Interview mit Prof. Dr. Daniel Otto
 
-Auf unserer Zwischenfazittagung *Mit OER zu einer Kultur des Teilens* wird Prof. Dr. Daniel Otto die Keynote halten. Wir vom FOERBICO-Team konnten im Vorhinein ein Interview mit ihm durchführen. Zuerst wollen wir ihn euch, liebe Lesende, kurz vorstellen.
+Welche Rolle spielen Offenheit, Gemeinschaft und geteilte Verantwortung in einer Bildungslandschaft im Wandel?
+
+Mit diesen Fragen beschäftigt sich Prof. Dr. Daniel Otto seit vielen Jahren in Forschung und Praxis. Auf unserer [Zwischenfazit-Tagung „Mit OER zu einer Kultur des Teilens“ am 24. und 25. Februar 2026 in Nürnberg](https://oer.community/tagungen/) wird er die Keynote halten und zentrale Impulse zu Open Educational Resources (OER) und Open Educational Practices (OEP) geben. Im Vorfeld der Tagung konnten wir vom FOERBICO-Team mit ihm über offene Bildung, Communities, Irritationen – und darüber sprechen, warum OER mehr sind als frei zugängliche Materialien.
+
+Zuerst wollen wir ihn euch, liebe Lesende, kurz vorstellen.
 
 ## Kurzvorstellung
+
 ![Portrait](https://www.campus-innovation.de/fileadmin/_processed_/1/9/csm_Daniel_Otto_c7ddcc06ea.jpg)
 
-Prof. Dr. Daniel Otto ist Professor für Mediendidaktik und digitale Bildung an der Europäischen Hochschule für Innovation und Perspektive in Backnang. Zu seinen Forschungsinteressen gehören unter anderem: E-Learning, Digital Storytelling, Open Educational Resources (OER) und gestaltungsorientierte Mediendidaktik. Er beschäftigt sich und veröffentlicht seit Mitte der 2010er Jahre zum Thema Offene Bildung und OER, darunter Otto, D. et al. (2021). Offen gemacht: Der Stand der internationalen evidenzbasierten Forschung zu Open Educational Resources (OER); Otto, D. (2022). Die Förderung von Open Educational Resources (OER) in der Hochschule und Bozkurt, A. et. al. (2023). Openness in Education as a Praxis: From Individual Testimonials to Collective Voices. Er ist Mitglied im OER-Beirat des Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (siehe https://www.oer-strategie.de/fortentwickeln/der-oer-beirat/). Zudem hielt Herr Otto die Keynote bei der OER im Blick-Tagung 2025.
-Und wir als FOERBICO-Team freuen uns , mit ihm ein Interview in Vorbereitung der  Tagung zu führen.
+Prof. Dr. Daniel Otto ist Professor für Mediendidaktik und digitale Bildung an der Europäischen Hochschule für Innovation und Perspektive in Backnang. Zu seinen Forschungsinteressen gehören unter anderem: E-Learning, Digital Storytelling, Open Educational Resources (OER) und gestaltungsorientierte Mediendidaktik. Er beschäftigt sich und veröffentlicht seit Mitte der 2010er Jahre zum Thema Offene Bildung und OER, darunter [Otto, D. et al. (2021). Offen gemacht: Der Stand der internationalen evidenzbasierten Forschung zu Open Educational Resources (OER)](https://open-educational-resources.de/oer_materialien/offen-gemacht-der-stand-der-internationalen-evidenzbasierten-forschung-zu-open-educational-resources-oer/); [Otto, D. (2022). Die Förderung von Open Educational Resources (OER) in der Hochschule](https://www.pedocs.de/volltexte/2023/26622/pdf/MidW_78_Otto_Die_Foerderung_von_Open_Educational.pdf) und [Bozkurt, A. et. al. (2023). Openness in Education as a Praxis: From Individual Testimonials to Collective Voices](https://www.researchgate.net/publication/372479007_Openness_in_Education_as_a_Praxis_From_Individual_Testimonials_to_Collective_Voices). Er ist Mitglied im OER-Beirat des Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (siehe https://www.oer-strategie.de/fortentwickeln/der-oer-beirat/). Zudem hielt Herr Otto die [Keynote bei der OER im Blick-Tagung 2025](https://www.oer-strategie.de/konferenz/dokumentation-der-statuskonferenz-2025/#keynote).
 
 ## Interview
+
+(F = FOERBICO-Team, O = Prof. Dr. Otto)
+
 F: „Bildung ist keine Vorbereitung auf das Leben; Bildung ist das Leben selbst.“ – John Dewey.
 Dieses Zitat steht über Ihrer Vita auf der Hochschulseite, wie würden Sie dieses Zitat auf OER und OEP beziehen?
 
@@ -93,12 +100,12 @@ F: Auf der Tagung OER im Blick 2025 in Jena betonten Sie, dass OER und OEP nachh
 
 O: Ich würde OER/OEP und KI nicht als Gegensätze inszenieren. Die rasante Entwicklung im Bereich generativer KI zwingt uns vielmehr, grundsätzliche Fragen zu stellen: Was verstehen wir unter Bildung, wenn Informationen jederzeit verfügbar und automatisiert generierbar sind? In meinem Vortrag habe ich versucht zu zeigen, dass OER und OEP hier ein wichtiges Fundament bilden. Sie rücken menschliche Kollaboration, geteilte Verantwortung und die öffentliche Aushandlung von Wissen in den Mittelpunkt. Vielleicht ist die Chance darin zu sehen, KI-Technologien so zu gestalten und zu regulieren, dass sie diese Prinzipien unterstützen, etwa indem OER zu einem Referenzpunkt für transparente, nachvollziehbare und überprüfbare Inhalte werden, anstatt Bildung auf kurzfristig verwertbare Skills zu reduzieren.
 
-F: Herr Otto Sie halten die Keynote auf unserer Zwischenfazit-Tagung „Mit OER zu einer Kultur des Teilens“. Worauf können sich unsere Teilnehmenden hinsichtlich Ihrer Keynote freuen und was erhoffen Sie sich von unserer Tagung?
+F: Herr Otto, Sie halten die Keynote auf unserer Zwischenfazit-Tagung „Mit OER zu einer Kultur des Teilens“. Worauf können sich unsere Teilnehmenden hinsichtlich Ihrer Keynote freuen und was erhoffen Sie sich von unserer Tagung?
 
 O: Ich möchte in meiner Keynote Impulse aus meiner Rolle als empirischer Bildungsforscher geben, der Entwicklungen kritisch hinterfragt. Dabei werde ich auch Ergebnisse einer gemeinsam mit Kolleg:innen durchgeführten Studie präsentieren. Zugleich bin ich aber davon überzeugt, dass OER und OEP zentrale Bausteine für eine zukunftsfähige Bildung sind.
 Die Tagung verkörpert für mich genau das, was KI aktuell noch nicht leisten kann: den unmittelbaren zwischenmenschlichen Austausch, zufällige Begegnungen, kontroverse Diskussionen und – im Sinne von Biesta gedacht – auch die eine oder andere produktive Irritation. Wenn es uns gelingt, OER und OEP aus dieser Praxis heraus weiterzudenken, wäre für mich viel gewonnen.
 
-Vielen Dank für Ihre Zeit. Wir freuen uns schon jetzt auf Ihre Keynote in Nürnberg.
+F: Vielen Dank für Ihre Zeit. Wir freuen uns schon jetzt auf Ihre Keynote in Nürnberg!
 
 Ihr möchtet diese Keynote auf keinen Fall verpassen? Dann seid am 24. & 25. Februar 2026 bei unserer Zwischenfazit-Tagung ‚Mit OER zu einer Kultur des Teilens‘ in Nürnberg dabei!
 
@@ -106,12 +113,14 @@ Ihr möchtet diese Keynote auf keinen Fall verpassen? Dann seid am 24. & 25. Feb
 
 ![Tagungslogo](FOERBICO_Tagung_Logo.png)
 
-Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
+Unter diesem Titel steht unsere Tagung. Die bisherigen Ergebnisse aus dem FOERBICO-Projekt sollen dabei nicht nur diskutiert werden, sondern als Ausgangspunkt dienen, um gemeinsam zu reflektieren, wie die Arbeit an OER offene Bildungspraktiken (OEP) stärken kann.
+
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:
+
 Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Communities existieren? Und welche Rolle spielen Institutionen wie Schulen oder Kirchen bei ihrer Entwicklung und Verstetigung?
 
-Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
+Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können, damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bilden.  
 
 Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton(1).png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
-Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
+Für Rückfragen wendet euch gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
