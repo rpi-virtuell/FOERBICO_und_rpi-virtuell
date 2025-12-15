@@ -46,7 +46,7 @@ author:
 title: KI - Heilsbringer oder Zerstörer für OER?
 cover:
   relative: true
-  hiddenInSingle: true
+  hiddenInSingle: false
   image: oer-und-ki.jpg
 summary: |
   Ein Informationspost über die Teilnahme an der Tagung „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“.
