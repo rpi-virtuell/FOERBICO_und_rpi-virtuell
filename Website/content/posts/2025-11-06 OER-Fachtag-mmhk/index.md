@@ -47,7 +47,7 @@ title: KI-Heilsbringer oder Zerstörer für OER?
 cover:
   relative: true
   hiddenInSingle: true
-  image: OER und KI.png
+  image: oer-und-ki.jpg
 summary: |
   Ein Informationspost über die Teilnahme an der Tagung „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“.
 url: KI-Heilsbringer-Zerstörer
