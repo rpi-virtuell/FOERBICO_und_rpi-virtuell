@@ -59,7 +59,7 @@ tags:
 
 ## #LichtMomente im Advent
 
-Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis
+Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis.
 Im Advent suchen Menschen traditionell nach Momenten, die Wärme, Orientierung und Hoffnung vermitteln, sie suchen nach Licht. Diese Suchbewegung vollzieht sich heute jedoch nicht mehr ausschließlich in analogen Raum. Dies zeigt sich auch in der Recherche nach Unterrichtsmaterialien. Gerade im digitalen Raum greifen Lehrkräfte zunehmend auf Impulse zurück, die ihnen theologisch fundierte und zugleich praxisnahe Anregungen bieten. Plattformen wie Instagram, Blogs oder kurze audiovisuelle Formate eröffnen dabei neue Zugänge für religiöse Bildungsprozesse.
 Mit der Reihe #Lichtmomente entwickeln rpi-virtuell, das NT Dortmund und religlobal drei kompakte Adventsimpulse im Instagram-Format. Die Impulse begegnen dieser Suche und bieten zudem didaktische Reduktion, ästhetische Zugänge und digitale Narration.
 Somit wird *LichtMomente im Advent* zu einem exemplarischen Ort des Transfers:
@@ -78,10 +78,10 @@ rpi-virtuell bietet dafür seit Jahren eine verlässliche Struktur:
 - Austausch und Community
 
 Es ist ein digitaler Ort, an dem Fachwissen geteilt, weitergedacht und gemeinsam gestaltet werden kann – gerade im Advent, wenn viele Lehrkräfte schnell nach Ideen greifen, die zugleich fachlich belastbar und ästhetisch ansprechend sind.
-Lara Gotthard zeigt mti dem Account @nt.evangelisch_tudortmund: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
+Lara Gotthard zeigt mit dem Account @nt.evangelisch_tudortmund: Der digitale Raum kann Lernort sein, ästhetische Werkstatt, spiritueller Impuls und Austauschfeld zugleich. 
 Mehr dazu im Blogbeitrag [Instagram als Lernort](https://oer.community/instagram-als-lernort).
 
-[religlobal](https://religlobal.org) macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitales Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
+[religlobal](https://religlobal.org) macht exemplarisch sichtbar, welches Potenzial offene Bildungsangebote (OEP) für einen zeitgemäßen Religionsunterricht besitzen. Das digitale Baukastensystem zeigt praxisnah, wie Materialien transparent, zugänglich und zugleich global ausgerichtet bereitgestellt werden können. So wird die Dimension des Globalen Lernens im Religionsunterricht nicht nur theoretisch greifbar, sondern konkret erfahrbar – für Lehrkräfte wie für Schüler:innen gleichermaßen.
 
 ## Drei Posts – Drei #LichtMomente
 
@@ -136,6 +136,7 @@ Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmu
 ## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
 ![GlobalesLernen](GlobalesLernen.jpg) <br>*mit Canva erstellt*</br>
+
 Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.
 Die Lernenden betrachten eine Weltkarte analog (Kontinente im Raum auslegen) oder digital (Whiteboard) ![digital](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/1600px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png?20121218085416oder)und markieren Orte, an denen heute Licht aufscheint:
 **Initiativen für Frieden**
@@ -207,6 +208,7 @@ Audioaufnahmen sind ein kraftvolles Werkzeug im Unterricht, um Kreativität, Spr
 Die drei Lichtmomente laden dazu ein, sowohl biblische Texte als auch ästhetische Lernformen neu zu entdecken.
 Ob in poetischen Sprachen, in visueller Spurensuche oder in liturgischen Symbolhandlungen – das Lichtmotiv des Advents erweist sich als besonders geeignet, die Frage nach Hoffnung, Orientierung und Deutungskraft religiöser Tradition in die Gegenwart zu übertragen.
 Der Account [@nt.evangelisch_tudortmund](https://www.instagram.com/nt.evangelisch_tudortmund/) zeigt beispielhaft, wie Theologie digital sichtbar wird - niedrigschwellig, inspirierend, partizipativ. 
+Das Projekt religlobal schärft den blick auf Religion in Materialien des Globalen Lernens.
 
 ## Weiterführende Materialien
 
