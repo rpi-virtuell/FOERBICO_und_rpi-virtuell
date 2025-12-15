@@ -2,7 +2,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Draft
 type: LearningResource
-name: KI-Heilsbringer oder Zerstörer für OER
+name: KI - Heilsbringer oder Zerstörer für OER?
 description: Dieser Artikel berichtet von unserer Teilnahme an der Veranstaltung „OER im
   Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“. Die Veranstaltung
   fand Anfang November statt und gab viele wichtige Impulse zu der Thematik KI
@@ -43,7 +43,7 @@ datePublished: '2025-12-12'
 author:
   - Phillip Angelina
   - Jörg Lohrer
-title: KI-Heilsbringer oder Zerstörer für OER?
+title: KI - Heilsbringer oder Zerstörer für OER?
 cover:
   relative: true
   hiddenInSingle: true
