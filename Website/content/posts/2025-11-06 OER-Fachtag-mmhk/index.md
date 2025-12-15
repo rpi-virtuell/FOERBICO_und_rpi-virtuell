@@ -68,7 +68,9 @@ Welche potentiellen Auswirkungen KI auf OER hat, wurde im Rahmen des Fachtags au
 ## Einblick in die Tagung
 
 ### Empirische Perspektive auf OER- und KI-Nutzung
+
 Funda Seyfeli-Özhizalan (HIS-HE) präsentierte erste empirische Ergebnisse zu Einsatzfeldern von KI-Anwendungen bei Erstellung und Verbreitung von OER (Veröffentlichung bei twillo, angekündigt für Ende 2025). Die Studie folgt einem Mixed-Methods-Ansatz (quantitative Befragung, vertiefende Interviews, Expert:inneninterviews) und zeigt:
+
 - KI wird vor allem unterstützend eingesetzt (z.B. für Textoptimierung, Strukturierung, Bildgenerierung), weniger zur vollständigen Generierung von Materialien.
 - KI wird in der Erstellung und Anpassung von OER als potentiell entlastendes Werkzeug wahrgenommen.
 - Gleichzeitig bestehen erhebliche rechtliche Unsicherheiten (AGB-Änderungen, Unklarheiten bzgl. Trainingsdaten, Lizenzierung) sowie Sorgen hinsichtlich Qualitätsverlusten.
@@ -77,19 +79,23 @@ Funda Seyfeli-Özhizalan (HIS-HE) präsentierte erste empirische Ergebnisse zu E
 In der Diskussion wurde deutlich, dass sich viele Lehrende zwischen Entlastung und Verunsicherung bewegen: KI eröffnet pragmatische Unterstützungsmöglichkeiten, verstärkt zugleich aber das Bewusstsein für rechtliche Graubereiche und die Notwendigkeit, die eigene didaktische Expertise nicht an automatisierte Systeme zu delegieren.
 
 ### KI-generierte Metadaten und OERSI
+
 Im ersten Lightning Talk zeigte Axel Klinger (TIB Hannover), wie KI bei der Generierung von Metadaten für das OER-Suchportal [OERSI](https://oersi.org/) eingesetzt werden kann. Ein erheblicher Teil der indexierten Materialien weist unvollständige oder fehlende Metadaten auf; dies erschwert Auffindbarkeit, Nachnutzbarkeit und inhaltliche Einordnung. Genannt wurden u.a. zehntausende Materialien ohne Beschreibung, fehlende Fachzuordnungen sowie uneinheitliche Sprachangaben.
 
 Als Antwort darauf wird eine modulare Pipeline erprobt, die auf Open-Source-Sprachmodellen basiert. Nach einem Modellvergleich (u.a. Qwen und Phi) fiel die Wahl auf Qwen 2.5 im lokalen Betrieb mit großem Kontextfenster. Fokussiert werden vorerst:
+
 - Open Textbooks und Videos (über Transkripte),
 - Materialien mit fehlenden Beschreibungen,
 - testweise vor allem offen lizenzierte Inhalte (z.B. CC BY).
 
 Aus den Volltexten werden automatisiert erzeugt:
+
 - Zusammenfassungen für Detailseiten (ähnlich Abstracts),
 - prägnante Kurzbeschreibungen für Trefferlisten,
 - Vorschläge für Titel, Schlagworte und Fachzuordnungen.
 
 Die transkribierten Inhalte werden bei Bedarf in Abschnitte zerlegt, um Kontextfenstergrenzen einzuhalten; anschließend werden Teilsummaries wieder zu Gesamtsummaries zusammengeführt. Erste Testläufe mit einer begrenzten Menge von Materialien zeigen grundsätzlich brauchbare Zusammenfassungen und Kurzbeschreibungen, zugleich aber typische Probleme:
+
 - fehlerhafte Eigennamen und Fachbegriffe,
 - Kontextverschiebungen bei stark segmentierten Texten,
 - unzureichend präzise Fachzuordnungen, insbesondere auf feineren Ebenen.
@@ -97,6 +103,7 @@ Die transkribierten Inhalte werden bei Bedarf in Abschnitte zerlegt, um Kontextf
 Der Ansatz unterstreicht zwei zentrale Punkte: Zum einen kann KI helfen, OER-Systeme wie OERSI sichtbarer und besser nutzbar zu machen; zum anderen bleibt eine qualifizierte, menschliche Qualitätssicherung unverzichtbar - etwa durch Metadatenvorschläge, die Autor:innen beim Upload prüfen und korrigieren können. Die zugrundeliegenden Prompts und Konfigurationen werden offen bereitgestellt (vgl. <https://gitlab.com/oersi/sidre/metadata-optimization>) und sind damit selbst Teil einer offenen Infrastruktur für OER-Metadaten.
 
 ### OER als Grundlage für einen KI-Chatbot (iMooX)
+
 Im zweiten Lightning Talk präsentierte PD Dr. Martin Ebner (TU Graz) den Einsatz eines KI-gestützten Chatbots auf Basis von OER-Materialien der nationalen MOOC-Plattform iMooX.
 
 Ausgangspunkt ist der [Kurs „Informatik-Fit“](https://imoox.at/course/InfoFit25), der Studieninteressierte bereits vor Studienbeginn beim Aufbau grundlegender Informatikkompetenzen unterstützt. Der Kurs ist offen lizenziert, wird in ein Blended-/Flipped-Classroom-Szenario eingebettet und umfasst u.a. Videos, Transkripte, Kursunterlagen und Webinhalte.
@@ -106,11 +113,13 @@ Auf dieser Basis wurde ein Retrieval-Augmented-Generation-System (RAG) implement
 from available data stores, leading to higher accuracy and better robustness ([Zhao et. Al 2024: 1](https://doi.org/10.48550/arXiv.2402.19473)).
 
 Ein RAG verbessert Antwortgenerierung der KI. Denn das RAG identifiziert anhand der Eingabefrage relevante Datenquellen und interagiert mit dem Generator, um robuste und genaue Antworten zu generieren. Es ist wie ein Datenspürhund, welches aus einem Datenset die relevanten Informationen herausholt. Für den Kurs „Informatik-Fit“ bedeutet das konkret:
+
 - Sämtliche OER-Kursmaterialien werden in einer Vektordatenbank abgelegt und bilden den primären Antwortkontext.
 - Lernende können nach aktiver Zustimmung einen Chatbot nutzen, der Fragen zum Kurs stellt und Antworten auf Grundlage dieser OER-Inhalte generiert.
 - Als zugrundeliegendes Sprachmodell kommt (Stand der Präsentation) ein kommerzielles LLM (ChatGPT 4.0 mini) zum Einsatz, das nach Tests eine hohe Antwortqualität (Validität von über 97 % in Stichproben) zeigte.
 
 Die begleitende Evaluation zeigt u.a.:
+
 - Der Chatbot wird vor allem für Verständnisfragen, Zusammenfassungen und Prüfungsvorbereitung genutzt.
 - Ein Teil der Lernenden verzichtet bewusst auf den Chatbot; teils, weil sie ihn nicht benötigen, teils aus Unsicherheit oder fehlender Routine im Umgang mit KI.
 - Auffällig ist eine Tendenz zur technologischen Überschätzung bei Nicht-Nutzenden, die dem System teils mehr zutrauen als diejenigen, die es erprobt haben.
@@ -121,9 +130,11 @@ Die ausschließliche Nutzung offen lizenzierter Kursmaterialien als Wissensbasis
 Das Beispiel iMooX zeigt damit konkret, wie OER die Grundlage für KI-gestützte, lernendennahe Unterstützungssysteme bilden können - unter der Bedingung, dass Qualitätssicherung, Transparenz und reflektierter Einsatz mitgedacht werden.
 
 ### Vom Lehrbuch zum Kurzvideo mit KI-Unterstützung
+
 Im dritten Lightning Talk stellte Prof. Dr. Martin Erdmann (RWTH Aachen) ein Projekt vor, in dem ein Lehrbuch mit Unterstützung von KI in kurze Lehrvideos für die Hochschullehre transformiert wurde.
 
 Wesentliche Beobachtungen:
+
 - Die Videos wurden von einem signifikanten Teil der Studierenden genutzt, insbesondere zur Vor- und Nachbereitung.
 - Die Videos ergänzen Lehrbuch und Lehrveranstaltung, ersetzen diese jedoch nicht.
 - KI-Werkzeuge kamen u.a. bei der sprachlichen Anpassung (Schriftsprache zu gesprochener Sprache) zum Einsatz, die inhaltliche Strukturierung, Schwerpunktsetzung sowie didaktische Entscheidungen blieben klar in menschlicher Verantwortung.
@@ -136,6 +147,7 @@ Das Bildung ein sozialer Prozess ist, zeigte sich nach Prof. Dr. Erdmann deutlic
 Im abschließenden Zwiegespräch zwischen Dr. Sandra Schön (TU Graz) und PD Dr. Malte Persike (RWTH Aachen), moderiert von Dr. Klaus Wannemacher (HIS-HE/twillo), wurden die Eindrücke der Vorträge zusammengeführt und in eine grundsätzliche Debatte über den Stellenwert von KI und OER überführt.
 
 Zentrale Akzente aus dem Gespräch waren:
+
 - KI-generierte Lehrmaterialien sind aktuell nicht hinreichend verlässlich, um ohne menschliche Qualitätssicherung eingesetzt zu werden. Die Beiträge von Axel Klinger, Martin Ebner und Martin Erdmann verdeutlichen vielmehr, wie arbeitsintensiv es bleibt, gute Bildungsressourcen zu erstellen - auch mit KI.
 - KI sollte daher primär als Werkzeug verstanden werden, das OER-Produktion und -Nutzung unterstützt, nicht als Ersatz für pädagogische Expertise. Die Verantwortung von Lehrenden verschiebt sich eher hin zu Kuratierung, Prüfung und reflektierter Gestaltung.
 - OER besitzen im Unterschied zu vielen KI-Systemen eine klare gemeinwohlorientierte und rechtlich transparente Grundlage. Für rechtssichere KI-Szenarien werden offene, nachnutzbare Materialien und transparente Trainingsdaten zunehmend zur Voraussetzung.
@@ -153,6 +165,7 @@ Ohne menschliche Verantwortung, kritische Reflexion und Community-getragene Qual
 ## Eigene Learnings
 
 Für unsere Arbeit - insbesondere im Kontext von OER-Communities und Initiativen wie FOERBICO - war der Fachtag eine Gelegenheit, Einblicke in laufende Forschungs- und Praxisprojekte zu gewinnen und diese mit eigenen Erfahrungen zu verschränken. Er bestätigt mehrere zentrale Einsichten:
+
 - KI ist kein Allheilmittel, sondern ein Werkzeug, das bewusst, reflektiert und ressourcensensibel eingesetzt werden muss.
 - Offen lizenzierte Bildung ist nicht kostenfrei in der Erstellung: Zeit, Expertise und Infrastruktur bleiben entscheidend - auch dann, wenn KI einzelne Arbeitsschritte erleichtert.
 - Fragen der digitalen Souveränität, der gerechten Zugänglichkeit von KI-Werkzeugen und der Rolle offener Infrastrukturen (inklusive Vektordatenbanken und RAG-Systemen auf OER-Basis) werden für die zukünftige OER-Landschaft zentral sein.
