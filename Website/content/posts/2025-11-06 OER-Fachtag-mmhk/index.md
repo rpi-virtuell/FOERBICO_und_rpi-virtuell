@@ -38,7 +38,8 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-  datePublished: '12.12.2025'
+datePublished: '2025-12-12'
+#staticSiteGenerator:
 author:
   - Phillip Angelina
   - Jörg Lohrer
