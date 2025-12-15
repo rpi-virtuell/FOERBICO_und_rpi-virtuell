@@ -43,6 +43,7 @@ datePublished: '2025-12-12'
 author:
   - Phillip Angelina
   - Jörg Lohrer
+title: KI-Heilsbringer oder Zerstörer für OER?
 cover:
   relative: true
   hiddenInSingle: true
@@ -56,8 +57,6 @@ tags:
   - KI
 weight: 100
 ---
-
-# KI - Heilsbringer oder Zerstörer für OER?
 
 Unter dem Titel „OER im Zeitalter von KI - jetzt erst recht oder Auslaufmodell?“ veranstalteten das Multimedia Kontor Hamburg ([MMKH](https://www.mmkh.de)), das niedersächsische OER-Portal [twillo](https://www.twillo.de/) in Partnerschaft mit [HIS-HE](https://his-he.de/), [KNOER](https://kn-oer.de/) und der Hamburg Open Online University ([HOOU](https://portal.hoou.de/)) am 6. November 2025 eine [Online-Fachtagung](https://www.mmkh.de/digitale-lehre/oer-und-knoer/oer-im-zeitalter-von-ki) zur Rolle von Künstlicher Intelligenz (KI) für offene Bildungsressourcen.
 
