@@ -33,7 +33,7 @@ Die **vollständige Checkliste** steht als [offen lizenzierte Markdown-Datei (CC
 
 **Die Handreichung zum Download:**
 
-📄<!-- sind diese Emojis CC-BY fähig? Ich dachte mir, dass die keiner offenen Lizenz unterliegen --> [PDF-Datei](Handreichung_Qualitätskriterien.pdf)
+📄 [PDF-Datei](Handreichung_Qualitätskriterien.pdf)
 
 📝 [Word-Datei](Handreichung_Qualitätskriterien_Word.docx)
 
