@@ -1,4 +1,44 @@
-# Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER? 
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: LearningResource
+id: https://oer.community/musik-oer
+name: 'Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?'
+description: >-
+  Musik in offen geteilten Weihnachtsmaterialien wirft rechtliche Fragen auf. FOERBICO bietet dazu recherchierte Hinweise und Praxistipps für die rechtssichere OER-Nutzung.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: Music-House-Susanlenox-CC0.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-12-17'
+#staticSiteGenerator:
+author:
+  - Gina Buchwald-Chassée
+title: 'Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?'
+cover:
+  relative: true
+  image: Music-House-Susanlenox-CC0.jpg
+summary: >-
+  Während viele Inhalte rund um Weihnachten frei veröffentlicht werden sollen, wirft Musik rechtliche Fragen auf – etwa zur Nutzung, Offenheit und möglichen GEMA-Rechten. Das FOERBICO-Team hat dazu recherchiert und eine Sammlung von Hinweisen, Ressourcen und Praxistipps zusammengestellt, die helfen sollen, Musik rechtssicher im OER-Kontext zu nutzen.
+url: musik-oer
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Rechtsfragen
+---
 
 „Gloria in excelsis Deo“, „In der Weihnachtsbäckerei“ oder „Oh du fröhliche“ – oder lieber doch nicht?
 
@@ -76,6 +116,8 @@ Kurz: Ein Sample ist kein neues Werk, nur weil es „anders klingt“. Es muss e
 In der Praxis bedeutet das:
 
 👉 Wenn man beim Hören denkt: „Das erinnert mich an…“ → dann ist es oft noch zu nah dran.
+
+Mehr dazu: [https://www.twillo.de/blog/was-ist-schoepfungshoehe/](https://www.twillo.de/blog/was-ist-schoepfungshoehe/)
 
 #### Praxisbeispiele
 
@@ -228,19 +270,25 @@ Streaming-Inhalte sind jedoch:
 
 ➜ Sie können daher nicht als OER eingebunden werden.
 
-#### 3. Konkret verboten (für OER):
+#### 3. Besondere Vorsicht bei OER - das ist zu beachten:
 
-❌ Songs aus Spotify im Unterrichtsvideo nutzen
+⚠️ **Songs aus Spotify in Unterrichtsvideos einbinden**
+Streamingdienste erlauben in der Regel nur die private Nutzung – eine Weiterverwendung in OER ist meist nicht abgedeckt.
 
-❌ Musik von YouTube downloaden und in OER einbauen
+⚠️ **Musik von YouTube herunterladen und in OER verwenden**
+Downloads und Weiterverwendungen sind häufig nicht durch die Plattformbedingungen oder das Urheberrecht erlaubt.
 
-❌ TikTok-/Instagram-Audios in OER-Materialien verlinken
+⚠️ **TikTok-/Instagram-Audios in OER-Materialien verlinken**
+Verlinken ist grundsätzlich erlaubt. Problematisch kann es werden, wenn wissentlich auf rechtswidrige Inhalte verlinkt wird oder Plattformbedingungen entgegenstehen (bei Hochschullehre meist selten, aber sollte geprüft werden).
 
-❌ Filmausschnitte aus Streamingplattformen in OER-Nachnutzung verwenden
+⚠️ **Filmausschnitte aus Streamingplattformen für OER nachnutzen**
+Die Lizenzen der Plattformen erlauben in der Regel keine Weiterverwendung oder offene Nachnutzung.
 
-❌ Screenshots aus Streamingdiensten in OER benutzen (auch Coverbilder!)
+⚠️ **Screenshots aus Streamingdiensten in OER nutzen (auch Coverbilder)**
+Nur unproblematisch, wenn keine geschützten Inhalte gezeigt werden (z. B. gemeinfreie Werke). Geschützte Inhalte dürfen nur unter den engen Voraussetzungen des Zitierrechts (§ 51 UrhG) verwendet werden, insbesondere mit klar erkennbarem Zitatzweck.
 
-→ Selbst kurzes Zitieren ist bei Musik extrem eingeschränkt.
+➡️ Wichtig: Bei Musik ist selbst kurzes Zitieren rechtlich stark eingeschränkt.
+Weitere Infos: https://www.musikgutachter.de/zitat.html
 
 #### 4. Was ist erlaubt?
 
@@ -248,7 +296,7 @@ Streaming-Inhalte sind jedoch:
 
 Das ist rechtlich okay – aber: Der Stream selbst wird dadurch nicht zu OER!
 
-Das heißt: Du kannst sagen: „Hört euch diesen Song auf Spotify an“ – aber du darfst ihn nicht in dein OER einbetten oder weiterverwenden.
+Das heißt: Du kannst sagen: „Hört euch diesen Song auf Spotify an“ – aber du darfst ihn nicht in dein OER einbetten oder weiterverwenden und das Zitat muss von der CC-Lizenz ausgenommen werden: „Von der Lizenz nicht umfasst ist der zitierte Stream XY.“
 
 ✔ Einbettungen von YouTube-Videos, solange YouTube selbst den Embed-Code anbietet
 
@@ -257,6 +305,8 @@ Das heißt: Du kannst sagen: „Hört euch diesen Song auf Spotify an“ – abe
 👉 Das Video selbst ist nicht OER und darf nicht heruntergeladen oder verarbeitet werden.
 
 👉 Für OER ist diese Methode nur geeignet, wenn klar ist, dass der Inhalt NICHT unter der OER-Lizenz steht, sondern nur verlinkt / eingebettet wird.
+
+
 
 #### 5. Streaming ≠ CC-Lizenz
 
@@ -302,8 +352,7 @@ Das bedeutet:
 
 ✔ kleine Teile für Unterrichtszwecke kopieren (max. 10 %, außer für „Große Werke“ – Opern, Oratorien etc.)
 
-Aber:
-Diese Rechte gelten nur für den Unterricht selbst, nicht für eine Veröffentlichung im Internet.
+**Aber:** Diese Rechte gelten nur für den Unterricht selbst, nicht für eine Veröffentlichung im Internet.
 
 ➡️ Unterricht = erlaubt
 
@@ -389,9 +438,11 @@ Viele vermeintlich traditionelle Kinderlieder sind in Wahrheit:
 
 Für OER gilt:
 
-❌ weder als Aufnahme noch als Text/Melodie verwendbar.
+❌ weder als Aufnahme noch als Melodie verwendbar. Textzitate sind aber erlaubt!
 
+**Parxisbeispiele:**
 
+Der eigenen Kreativität sind natürlich keine Grenzen gesetzt, wie das [Instagram-Beispiel](https://www.instagram.com/p/DSR6yOTDWtk/?igsh=MTQ1bG9qd2IyOGdtdw%3D%3D) der Professur für Neues Testament der TU Dortmund zeigt: Hier wird das Lied „Kommet, ihr Hirten“ (EG 48) in einen coolen Weihnachtsrap verwandelt. 🎤🎶 
 
 ## Tipp: Offene Musikdatenbanken verwenden
 
@@ -425,6 +476,8 @@ Für OER gilt:
 
 
 ## Hilfreiche Quellen / Rechtliches:
+
+- https://www.twillo.de/helpcenter/wie-verwende-ich-fremde-musik-in-oer-rechtskonform/ 
 
 - https://www.gema.de/de/musiknutzer/branchen/kirchen
 
