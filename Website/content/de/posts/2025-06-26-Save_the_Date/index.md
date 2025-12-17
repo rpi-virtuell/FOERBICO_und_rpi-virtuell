@@ -63,6 +63,44 @@ Unser FOERBICO Team nimmt diese Lücke in den Blick: Seit August 2024 erforschen
 
 Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstellen und gemeinsam mit euch diskutieren.
 
+## Tagungsprogramm
+
+**Dienstag, 24. Februar**
+
+| Uhrzeit | Programmpunkt                                                                             | Referent:innen / Hinweise |
+| :-----: | ----------------------------------------------------------------------------------------- | ------------------------- |
+|  13:30  | **Begrüßung**                                                                             | –                         |
+|  14:00  | **Zwischenergebnisse aus FOERBICO – ein Überblick**                                       | –                         |
+|         | • Zentrale Einsichten aus dem Forschungsstand                                             |                           |
+|         | • Ergebnisse aus den Interviews der Begleitforschung                                      |                           |
+|         | • Aktueller Stand der OER-Communities und ihrer Vernetzungen (Community-Hub)              |                           |
+|         | • Aktueller Stand der Entwicklung von Qualitätskriterien                                  |                           |
+|  15:30  | ☕ **Kaffee-Pause**                                                                        | –                         |
+|  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                           | Prof. Dr. Daniel Otto     |
+|  17:15  | 🧭 **Wegfindungs-Pause**                                                                  | –                         |
+|  17:30  | **Thematische Workshops**                                                                 | –                         |
+|         | • Community Hub                                                                           |                           |
+|         | • Qualitätskriterien                                                                      |                           |
+|         | • Community of Praxis                                                                     |                           |
+|  19:00  | 🍽️ **Abendessen**                                                                        | –                         |
+|  20:00  | **Abend der Begegnung**: Gelegenheit, eigene Projekte vorzustellen und sich auszutauschen | –                         |
+
+
+**Mittwoch, 25. Februar**
+
+| Uhrzeit | Programmpunkt                                     | Referent:innen / Hinweise                                                                                                              |
+| :-----: | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+|  09:00  | **Begrüßung**                                     | –                                                                                                                                      |
+|  09:15  | **Community-Workshops**                           | –                                                                                                                                      |
+|         | • relilab                                         |                                                                                                                                        |
+|         | • reliGlobal                                      |                                                                                                                                        |
+|         | • RELImentar                                      |                                                                                                                                        |
+|  10:45  | ☕ **Kaffee-Pause**                                | –                                                                                                                                      |
+|  11:45  | **Critical Friends (Kommentierungen und Podium)** | Dr. Susanne Friz, Dr. Alexandra Habicher, Prof. Dr. Ilona Nord, Prof. Dr. Franco Rau - **Moderation:** Prof. Dr. Manfred Pirner |
+|  12:45  | **Ende der Tagung**                               | –                                                                                                                                      |
+
+
+
 ## Warum teilnehmen? Erste Einblicke in die Black Box der (religionsbezogenen) OER-Communities!
 
 OER-Communities wirken für Außenstehende oder Interessierte oft wie eine Black Box: Obwohl sie offen zugänglich sind, ist meist nicht ersichtlich, wie gearbeitet wird. Was bedeutet es also Material gemeinsam zu erstellen und wie kann die Kollaboration im digitalen Raum gelingen? Bei der Tagung möchten wir Einblicke in die Innenperspektive von OER-Communities vorstellen: Wie wird kooperiert, kommuniziert und produziert?
