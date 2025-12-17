@@ -249,6 +249,11 @@ Für OER brauche ich also entweder:
 ✔️ CC-lizenzierte Notensätze (selten, aber vorhanden)
 
 
+#### Praxisbeispiele:
+
+Das Lied "[Maria durch ein’ Dornwald ging](https://nun-singet-und-seid-froh.info/24/Maria_durch_ein%27_Dornwald_ging(Distler,_Hugo)-sheet.pdf)" steht unter CC0 und damit gemeinfrei zur Verfügung. Es kann daher kreativ verändert und in Sozialen Medien veröffentlicht werden wie die Reels von [iamyionas](https://www.instagram.com/reel/C2U2OwyseZy/?igsh=MXRuMDN6Zzl0b3Y2aQ%3D%3D) oder [umschimmelswillen](https://www.instagram.com/reel/DSUQcI8jZS4/?igsh=MWt2bGt2bjc0NTc5eA%3D%3D) zeigen, ob das immer den persönlichen Geschmack trifft, ist eine andere Frage 😉
+
+
 ## Streaming & OER – was ist erlaubt, was nicht?
 
 Streaming-Dienste wie Spotify, Apple Music, YouTube, Deezer, Amazon Music, TikTok Music, SoundCloud usw. scheinen im Alltag selbstverständlich – aber für OER sind sie fast nie nutzbar. Der Grund: OER brauchen Nutzungsrechte, Streaming aber nur Nutzungsrechte fürs Anhören.
@@ -454,6 +459,9 @@ Für OER gilt:
 
 Der eigenen Kreativität sind natürlich keine Grenzen gesetzt, wie das [Instagram-Beispiel](https://www.instagram.com/p/DSR6yOTDWtk/?igsh=MTQ1bG9qd2IyOGdtdw%3D%3D) der Professur für Neues Testament der TU Dortmund zeigt: Hier wird das Lied „Kommet, ihr Hirten“ (EG 48) in einen coolen Weihnachtsrap verwandelt. 🎤🎶 
 
+Das [PI Villigst](https://www.pi-villigst.de/aktuelles) stellt Lieder bzw. Noten z.T. unter CC-Lizenz für den Unterricht bereit, z.B. "[Du stellst meine Füße auf weiten Raum](https://www.pi-villigst.de/fileadmin/user_upload/schule/primar/material/dateien/schulanfang/Du_stellst_meine_Fuesse_auf_weiten_Raum_-_Text_mit_Gitarrengriffen.pdf)" von Christina Heidemann, lizensiert unter: https://creativecommons.org/licenses/by-nc-sa/4.0/ (Namensnennung, nicht für kommerzielle Zwecke und Weitergabe unter den gleichen Bedingungen also CC-BY-NC-SA). Zu dem Lied gibt es auch ein passendes [YouTube-Video](https://www.youtube.com/watch?v=2jaJXWMXyMI).
+
+
 ## Tipp: Offene Musikdatenbanken verwenden
 
 - https://www.medienpaedagogik-praxis.de/kostenlose-medien/freie-musik/
@@ -483,6 +491,8 @@ Der eigenen Kreativität sind natürlich keine Grenzen gesetzt, wie das [Instagr
 - https://oer-musik.de/
 
 - https://bandcamp.com/discover/ccmusic oder https://bandcamp.com/discover/creative-commons
+
+- https://www.ekhn.de/themen/advent/advent/die-schoensten-weihnachtslieder-zum-mitsingen-und-mitspielen (Lieder gemeinfrei)
 
 
 ## Hilfreiche Quellen / Rechtliches:
