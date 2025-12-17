@@ -77,7 +77,9 @@ Relevante Rechte: [Leistungsschutzrechte](https://www.urheberrecht.de/leistungss
 *Beispiel "In der Weihnachtsbäckerei" von Rolf:*
 
 🎙️ Ich singe “In der Weihnachtsbäckerei” von Rolf Zuckowski mit gleicher Melodie und Text nach und veröffentliche die eigene Aufnahme (unter CC-Lizenz) - ist **NICHT** erlaubt!
+
 📝 Melodie und Text des geschützten Originals werden als Arbeitsblatt (unter CC-Lizenz) veröffentlicht - ist **NICHT** erlaubt, auch nicht unter Angabe des Copyrights (Veröffentlichung muss angefragt und schriftlich genehmigt werden)!
+
 🎛️ Workaround: Text und Melodie verfremden, sodass es nicht mehr auf das Ursprungslied zurückzuführen ist.
 
 Mehr zum Thema Verfremdung 👇
