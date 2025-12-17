@@ -52,7 +52,7 @@ Wer OER erstellt, sollte zwei Dinge unterscheiden:
 
 ### 1. Kompositionen (Melodie & Text)
 
-Bei vielen traditionellen Weihnachtsliedern ist die Komposition gemeinfrei – also verwendbar ohne Einschränkungen. Das gilt z.B. für „Backe backe Kuchen“ oder „Es ist ein Ros entsprungen“. Aber nicht alle Weihnachtslieder sind gemeinfrei: „In der Weihnachtsbäckerei“ ist z.B. urheberrechtlich geschützt. Häufig gilt: Das Lied ist zwar gemeinfrei, nicht aber das moderne Arrangement oder die Notenausgabe.
+Bei vielen traditionellen Weihnachtsliedern ist die Komposition gemeinfrei – also verwendbar ohne Einschränkungen. Das gilt z.B. für „Backe backe Kuchen“ oder „Es ist ein Ros entsprungen“. Die Schutzfrist von Musikaufnahmen beträgt 70 Jahre nach dem Tod des Urhebers bzw. der Urheberin und erlischt zum Ende (31.12.) des 70 (vgl. [GEMA](https://www.gema.de/de/w/hilfe/allgemein/urheberrechte-nutzungsrechte/fragen-antworten/wann-wird-musik-lizenzfrei)). Aber nicht alle Weihnachtslieder sind gemeinfrei: „In der Weihnachtsbäckerei“ ist z.B. urheberrechtlich geschützt. Häufig gilt: Das Lied ist zwar gemeinfrei, nicht aber das moderne Arrangement oder die Notenausgabe.
 
 Weiterführende Infos:
 
@@ -64,13 +64,23 @@ Weiterführende Infos:
 
 ### 2. Aufnahmen (Performance, Tonaufnahme)
 
-Selbst wenn die Komposition gemeinfrei ist, können Aufnahmen trotzdem geschützt sein – etwa durch Leistungsschutzrechte oder GEMA-Pflichten. Das bedeutet:
+Selbst wenn die Komposition **gemeinfrei** ist, können Aufnahmen trotzdem geschützt sein – etwa durch Leistungsschutzrechte oder GEMA-Pflichten. Das bedeutet:
 
-❌ Eine vorhandene Aufnahme einfach nutzen → oft nicht erlaubt
+❌ Eine neue vorhandene Aufnahme eines gemeinfreien Liedes einfach nutzen → oft nicht erlaubt
 
-✔️ Eine eigene Aufnahme erstellen → meist unproblematisch
+✔️ Eine eigene Aufnahme eines gemeinfreien Liedes erstellen → meist unproblematisch
 
 Relevante Rechte: [Leistungsschutzrechte](https://www.urheberrecht.de/leistungsschutzrecht/), [GEMA](https://www.gema.de/de/musiknutzer), [Gesellschaft zur Verwertung von Leistungsschutzrechten mbH (GVL)](https://gvl.de/).
+
+⚠️ **Achtung bei geschützten Werken!**
+
+*Beispiel "In der Weihnachtsbäckerei" von Rolf:*
+
+🎙️ Ich singe “In der Weihnachtsbäckerei” von Rolf Zuckowski mit gleicher Melodie und Text nach und veröffentliche die eigene Aufnahme (unter CC-Lizenz) - ist **NICHT** erlaubt!
+📝 Melodie und Text des geschützten Originals werden als Arbeitsblatt (unter CC-Lizenz) veröffentlicht - ist **NICHT** erlaubt, auch nicht unter Angabe des Copyrights (Veröffentlichung muss angefragt und schriftlich genehmigt werden)!
+🎛️ Workaround: Text und Melodie verfremden, sodass es nicht mehr auf das Ursprungslied zurückzuführen ist.
+
+Mehr zum Thema Verfremdung 👇
 
 ### 3. Verfremdung & Sampling – wann entsteht ein eigenes Werk?
 
