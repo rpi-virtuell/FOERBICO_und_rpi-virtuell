@@ -1,11 +1,9 @@
 ---
 #commonMetadata:
 #staticSiteGenerator:
-title: our team
-url: unser-team.en
+title: Our team
+url: /en/our-team
 weight: 100
-# line break after 76 characters
-#...........3456789012345678901234567890123456789012345678901234567890123456)
 ---
 
 ## Comenius Institute
@@ -15,7 +13,7 @@ The Comenius Institute, Protestant Centre for Educational Science, promotes educ
 
 Further Information: [Comenius-Institut](https://comenius.de/)
 
-![Portrait Jens Dechow](JensDechow.jpg)
+![Portrait Jens Dechow](../../unser-team/JensDechow.jpg)
 
 **Dr. Jens Dechow**
 
@@ -23,7 +21,7 @@ Dr. Jens Dechow is the director of the Comenius Institute and oversees FOERBICO.
 
 Contact: [dechow@comenius.de](mailto:dechow@comenius.de)
 
-![Portrait Jörg Lohrer](JoergLohrer.jpg)
+![Portrait Jörg Lohrer](../../unser-team/JoergLohrer.jpg)
 
 **Jörg Lohrer**
 
@@ -31,7 +29,7 @@ Jörg Lohrer is the project coordinator and supports community management. Throu
 
 Contact: [lohrer@comenius.de](mailto:lohrer@comenius.de)
 
-![Portrait Gina Buchwald-Chassée](GinaBuchwaldChassee.jpg)
+![Portrait Gina Buchwald-Chassée](../../unser-team/GinaBuchwaldChassee.jpg)
 
 **Gina Buchwald-Chassée**
 
@@ -39,7 +37,7 @@ Gina Buchwald-Chassée studied communications science and supports the project i
 
 Contact: [buchwald-chassee@comenius.de](mailto:buchwald-chassee@comenius.de)
 
-![Portrait Ludger Sicking](LudgerSicking.jpg)
+![Portrait Ludger Sicking](../../unser-team/LudgerSicking.jpg)
 
 **Ludger Sicking**
 
@@ -55,13 +53,13 @@ The Professorship for Religious Education and Media Didactics from the Goethe Un
 
 Further information: [Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) an der Goethe-Universität
 
-![Portrait Viera Pirker](VieraPirker.jpg)
+![Portrait Viera Pirker](../../unser-team/VieraPirker.jpg)
 
 **Prof. Dr. Viera Pirker**
 
 Prof. Dr. Viera Pirker researches, teaches, and heads the Professorship for Religious Education and Media Didactics, focusing on the fields of religious education, interfaith learning, media education, and media didactics. Her work focuses on how religion can be taught in an increasingly digitalised and media-driven world. Prof. Dr. Pirker is also actively involved in numerous research projects and publications.
 
-![Portrait Laura Mößle](LauraMoessle.jpg)
+![Portrait Laura Mößle](../../unser-team/LauraMoessle.jpg)
 
 **Dr. Laura Mößle**
 
@@ -77,7 +75,7 @@ The Department of Religious Education and Didactics of Protestant Religious Educ
 
 Further infromation: [Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts](https://www.evrel.phil.fau.de/) an der Friedrich-Alexander-Universität Erlangen-Nürnberg
 
-![Portrait Manfred Pirner](ManfredPirner.jpg)
+![Portrait Manfred Pirner](../../unser-team/ManfredPirner.jpg)
 
 **Prof. Dr. Manfred Pirner**
 
@@ -85,7 +83,7 @@ Prof. Dr. Manfred Pirner is Professor of Religious Education and Didactics of Pr
 
 Contact: [manfred.pirner@fau.de](mailto:manfred.pirner@fau.de)
 
-![Portrait Phillip Angelina](PhillipAngelina.jpg)
+![Portrait Phillip Angelina](../../unser-team/PhillipAngelina.jpg)
 
 **Phillip Angelina**
 

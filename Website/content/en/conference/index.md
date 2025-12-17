@@ -1,5 +1,12 @@
-# Tagungsseite
-## Mit OER hinzu eine Kultur des Teilens
+---
+#commonMetadata:
+#staticSiteGenerator:
+title: Conference page
+url: /en/conference
+---
+
+## Building a culture of sharing with OER
+
 The popularity of OER has been slowly growing in recent years. Still, many questions remain unanswered: How do OER communities actually work together? How are OER created collaboratively? What kind of structures, motivation, and challenges shape collaborative work? How can a practice of a culture of sharing be implemented? These questions will be addressed at the FOERBICO Interim Conference 2026 in Nuremberg, featuring insights from research, voices from the communities, and interactive formats.
 Although there are numerous conferences on OER and Open Educational Practices (OEP), the focus is typically on technical issues or the composition of OER. The advantages of OER in educational contexts are also a vital discussion point. These events are crucial for strengthening open educational practices and promoting the production of OER. However, the collaboration of OER communities themselves has hardly been addressed so far.
 

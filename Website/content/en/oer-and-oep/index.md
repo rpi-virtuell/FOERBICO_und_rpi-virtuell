@@ -2,8 +2,9 @@
 #commonMetadata:
 #staticSiteGenerator:
 title: OER and OEP
-url: oer-und-oep_en
+url: /en/oer-and-oep
 ---
+
 ## What is OER, what is OEP
 
 We follow the definition of OER on David Wiley's work, because it is widely accepted also in the German scientific community [Otto 2019](https://doi.org/10.19173/irrodl.v20i5.4472) as well as [OER](https://open-educational-resources.de/5rs-auf-deutsch/) Info, which is the National Community Portal for Open Educational Resources. 

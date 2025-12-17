@@ -1,8 +1,8 @@
 ---
 #commonMetadata:
 #staticSiteGenerator:
-title: welcome!
-url: /
+title: Welcome!
+url: /en/
 weight: 50
 ---
 
