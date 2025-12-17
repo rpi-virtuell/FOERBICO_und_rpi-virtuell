@@ -65,7 +65,6 @@ Pagination:
 
 Params:
   ShowReadingTime: false
-  
   ShowTags: true           # ← Tags unter Beiträgen anzeigen
 
 taxonomies:
