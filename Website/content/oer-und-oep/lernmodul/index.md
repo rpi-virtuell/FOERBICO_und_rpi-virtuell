@@ -22,9 +22,9 @@ OER bieten eine verlässliche Basis, die individuell angepasst und kreativ verä
 
 ## Was beudetet das für OER - die 5 Vs:
 
-![5V-Freiheiten-CC-by-4.0.jpg](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)
+![5V-Freiheiten-CC-by-4.0.jpg](5V-Freiheiten-CC-by-4.0.jpg)
 
-„5 V-Freiheiten für Offenheit“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer)
+„[5 V-Freiheiten für Offenheit](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer)
 online abrufbar unter: https://open-educational-resources.de/5rs-auf-deutsch/ 
 Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
@@ -111,7 +111,7 @@ CC-Lizenzen im Überblick: https://creativecommons.org
 
 **Beispielmaterial ohne CC-Lizenz:**
 
-![](Materialbeispiel-ohne-CC-KI-generiert.png)
+![](Arbeitsblatt-ohne-CC.jpg)
 
 ❌ Ich darf das Material verwahren & vervielfältigen.
 
@@ -137,7 +137,7 @@ CC-Lizenzen im Überblick: https://creativecommons.org
 
 **Beispielmaterial mit CC-Lizenz:**
 
-![](Materialbeispiel-mit-CC-KI-generiert.png)
+![](Arbeitsblatt-mit-CC.jpg)
 
 ✅ Ich darf das Material verwahren & vervielfältigen.
 
