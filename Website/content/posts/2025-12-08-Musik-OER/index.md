@@ -78,7 +78,7 @@ Im Rahmen des Workshops „Musik, Remix, Urheberrecht und freie Lizenzen“ beim
 
 Aber ab wann ist bei musikalischer Verfremdung die Schöpfungshöhe erreicht?
 
-#### Die ursprüngliche Melodie darf nicht erkennbar sein
+#### Die ursprüngliche Melodie darf nicht erkennbar sein:
 
 Die Melodie ist der urheberrechtlich am stärksten geschützte Teil.
 Veränderungen können sein:
@@ -90,7 +90,7 @@ Veränderungen können sein:
 
 Wenn ein geübtes Musikgehör das Original noch erkennt → keine Schöpfungshöhe.
 
-#### Auch Klangfarbe und Timbre müssen deutlich anders sein
+#### Auch Klangfarbe und Timbre müssen deutlich anders sein:
 
 Schon wenn die Tonhöhe gleich bleibt, reichen allein Filter oder Effekte oft nicht aus.
 
@@ -100,7 +100,7 @@ Beispiele, die **nicht** reichen:
 * nur Geschwindigkeit ändern
 * nur Instrument austauschen
 
-#### Der neue Ausschnitt muss individuelle Gestaltungsleistung enthalten
+#### Der neue Ausschnitt muss individuelle Gestaltungsleistung enthalten:
 
 Das heißt: nicht nur verfremden, sondern neu gestalten.
 
@@ -119,7 +119,7 @@ In der Praxis bedeutet das:
 
 Mehr dazu: [https://www.twillo.de/blog/was-ist-schoepfungshoehe/](https://www.twillo.de/blog/was-ist-schoepfungshoehe/)
 
-#### Praxisbeispiele
+#### Praxisbeispiele:
 
 ❌ **Keine ausreichende Schöpfungshöhe:**
 
@@ -165,7 +165,7 @@ Für OER gilt:
 
 ❌ keine KI-Rekonstruktionen bekannter Lieder
 
-### Praxisbeispiele:
+#### Praxisbeispiele:
 
 - https://praxis.leaschulz.com/2025/03/06/station-13-gs/
 
@@ -220,13 +220,13 @@ Gemeinfreie Komposition – moderne Aufnahme ✔️/❌
 
 ✔️ Gemeinfreie Komposition & gemeinfreie Aufnahme 
 
-4. Noten kirchlicher Musik
+### 4. Noten kirchlicher Musik
 
 Auch hier gilt wieder:
 
 Die Komposition kann gemeinfrei sein, aber die Notenausgabe ist es oft nicht.
 
-Kirchenmusikalische Verlage (z. B. Carus, Strube, Dehm Verlag) haben in der Regel urheberrechtlich geschützte Ausgaben.
+Kirchenmusikalische Verlage (z.B. Carus, Strube, Dehm Verlag) haben in der Regel urheberrechtlich geschützte Ausgaben.
 
 Für OER brauche ich also entweder:
 
@@ -239,12 +239,11 @@ Für OER brauche ich also entweder:
 
 ## Streaming & OER – was ist erlaubt, was nicht?
 
-Streaming-Dienste wie Spotify, Apple Music, YouTube, Deezer, Amazon Music, TikTok Music, SoundCloud usw. scheinen im Alltag selbstverständlich – aber für OER sind sie fast nie nutzbar.
-Der Grund: OER brauchen Nutzungsrechte, Streaming aber nur Nutzungsrechte fürs Anhören.
+Streaming-Dienste wie Spotify, Apple Music, YouTube, Deezer, Amazon Music, TikTok Music, SoundCloud usw. scheinen im Alltag selbstverständlich – aber für OER sind sie fast nie nutzbar. Der Grund: OER brauchen Nutzungsrechte, Streaming aber nur Nutzungsrechte fürs Anhören.
 
 Hier die wichtigsten Punkte:
 
-#### 1. Streaming = nur anhören, nicht weiterverwenden
+### 1. Streaming = nur anhören, nicht weiterverwenden
 
 Streaming-Dienste geben dir:
 
@@ -256,7 +255,7 @@ OER erfordern aber, dass andere das Material speichern, bearbeiten, remixen, wei
 
 → Streaming-Content erfüllt diese Anforderungen fast nie.
 
-#### 2. OER bedeutet: Weiterverwendung muss erlaubt sein
+### 2. OER bedeutet: Weiterverwendung muss erlaubt sein
 
 OER = Open Educational Resources
 Heißt: andere dürfen Materialien frei nutzen, verändern, teilen.
@@ -270,7 +269,7 @@ Streaming-Inhalte sind jedoch:
 
 ➜ Sie können daher nicht als OER eingebunden werden.
 
-#### 3. Besondere Vorsicht bei OER - das ist zu beachten:
+### 3. Besondere Vorsicht bei OER - das ist zu beachten:
 
 ⚠️ **Songs aus Spotify in Unterrichtsvideos einbinden**
 Streamingdienste erlauben in der Regel nur die private Nutzung – eine Weiterverwendung in OER ist meist nicht abgedeckt.
@@ -290,7 +289,7 @@ Nur unproblematisch, wenn keine geschützten Inhalte gezeigt werden (z. B. gemei
 ➡️ Wichtig: Bei Musik ist selbst kurzes Zitieren rechtlich stark eingeschränkt.
 Weitere Infos: https://www.musikgutachter.de/zitat.html
 
-#### 4. Was ist erlaubt?
+### 4. Was ist erlaubt?
 
 ✔ Links auf offizielle Streams setzen
 
@@ -307,8 +306,7 @@ Das heißt: Du kannst sagen: „Hört euch diesen Song auf Spotify an“ – abe
 👉 Für OER ist diese Methode nur geeignet, wenn klar ist, dass der Inhalt NICHT unter der OER-Lizenz steht, sondern nur verlinkt / eingebettet wird.
 
 
-
-#### 5. Streaming ≠ CC-Lizenz
+### 5. Streaming ≠ CC-Lizenz
 
 Auch wenn auf Streaming-Plattformen freie Künstler:innen veröffentlicht sind: Spotify/Apple Music erlauben keine CC-Verwendung, selbst wenn die Künstler:innen das eigentlich wünschen würden. CC-Musik findet man dort fast nie offiziell gekennzeichnet.
 
@@ -338,7 +336,7 @@ Für Pädagog:innen in Schule, Kita und Gemeindearbeit ist besonders wichtig:
 
 Hier ist die klare Abgrenzung:
 
-#### 1. Nutzung von Musik im Unterricht (nicht öffentlich) – meist erlaubt
+### 1. Nutzung von Musik im Unterricht (nicht öffentlich) – meist erlaubt
 
 Für Schulen und viele Bildungseinrichtungen gibt es gesetzliche Schranken und häufig auch Gesamtverträge mit der Kultusministerkonferenz (KMK), der VG Musikedition und der GEMA.
 
@@ -366,7 +364,7 @@ Rahmenvertrag KMK–VG Musikedition
 
 Rahmenvertrag KMK–GEMA
 
-#### 2. Nutzung in OER (öffentliche Veröffentlichung) – fast alles NEU prüfen
+### 2. Nutzung in OER (öffentliche Veröffentlichung) – fast alles NEU prüfen
 
 Sobald etwas online gestellt, geteilt, als OER lizenziert oder auf Social Media veröffentlicht wird, gelten die Schul- und Kita-Sonderregeln nicht mehr.
 
@@ -392,7 +390,7 @@ Dagegen sind nicht erlaubt:
 
 → Das gilt auch für kleinste Ausschnitte.
 
-#### 3. Popsongs in schulischen OER – warum es nicht funktioniert
+### 3. Popsongs in schulischen OER – warum es nicht funktioniert
 
 Die meisten Popsongs sind GEMA-pflichtig und durch Labels/Verlage geschützt.
 
@@ -414,7 +412,7 @@ Für OER bedeutet das:
 
 Das gilt unabhängig vom Zweck (Bildung, Gemeindearbeit, „nur für die Eltern“).
 
-#### 4. Kinderlieder – häufiger geschützt, als man denkt
+### 4. Kinderlieder – häufiger geschützt, als man denkt
 
 Viele vermeintlich traditionelle Kinderlieder sind in Wahrheit:
 
@@ -440,7 +438,7 @@ Für OER gilt:
 
 ❌ weder als Aufnahme noch als Melodie verwendbar. Textzitate sind aber erlaubt!
 
-**Parxisbeispiele:**
+#### Praxisbeispiele:
 
 Der eigenen Kreativität sind natürlich keine Grenzen gesetzt, wie das [Instagram-Beispiel](https://www.instagram.com/p/DSR6yOTDWtk/?igsh=MTQ1bG9qd2IyOGdtdw%3D%3D) der Professur für Neues Testament der TU Dortmund zeigt: Hier wird das Lied „Kommet, ihr Hirten“ (EG 48) in einen coolen Weihnachtsrap verwandelt. 🎤🎶 
 
