@@ -11,7 +11,7 @@ Offene Bildungsmaterialien (OER) eröffnen zentrale Chancen für Lern- und Lehrs
 
 Während allgemeine OER-Qualitätsmodelle zentrale Standards formulieren und insgesamt eine wertvolle Orientierung bieten, berücksichtigen sie natürlich keine fachspezifischen Besonderheiten religiöser Bildungsprozesse. Hier haben wir mit dem FOERBICO-Projekt angesetzt und praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien entwickelt, die für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
 
-Nähere Einblicke dazu:[Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
+Nähere Einblicke dazu: [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
 
 ### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
 
@@ -33,9 +33,9 @@ Die **vollständige Checkliste** steht als [offen lizenzierte Markdown-Datei (CC
 
 **Die Handreichung zum Download:**
 
-📄 [PDF-Datei](Handreichung_Qualitätskriterien.pdf)
+[📄 PDF-Datei](Handreichung_Qualitätskriterien.pdf)
 
-📝 [Word-Datei](Handreichung_Qualitätskriterien_Word.docx)
+[📝 Word-Datei](Handreichung_Qualitätskriterien_Word.docx)
 
 #### Die vier Dimensionen der OER-Qualität
 
