@@ -11,7 +11,7 @@ Offene Bildungsmaterialien (OER) eröffnen zentrale Chancen für Lern- und Lehrs
 
 Während allgemeine OER-Qualitätsmodelle zentrale Standards formulieren und insgesamt eine wertvolle Orientierung bieten, berücksichtigen sie natürlich keine fachspezifischen Besonderheiten religiöser Bildungsprozesse. Hier haben wir mit dem FOERBICO-Projekt angesetzt und praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien entwickelt, die für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
 
-Nähere Einblicke dazu: [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
+> 👉 **Nähere Einblicke dazu:** [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
 
 ### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
 
@@ -31,29 +31,20 @@ Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als r
 
 Die **vollständige Checkliste** steht als [offen lizenzierte Markdown-Datei (CC BY 4.0)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) zur Verfügung und kann für Lehre, Materialerstellung und Evaluation direkt genutzt werden. Sie ist als lebendiges Dokument angelegt und wird fortlaufend aktualisiert – basierend auf Feedback, Forschung und Praxiserfahrungen.
 
-**Die Handreichung zum Download:**
+>**Die Handreichung zum Download:**
+>
+>📄[PDF-Datei](Handreichung_Qualitätskriterien.pdf)
+>
+>📝[Word-Datei](Handreichung_Qualitätskriterien_Word.docx)
 
-[📄 PDF-Datei](Handreichung_Qualitätskriterien.pdf)
+### Die vier Dimensionen der OER-Qualität
 
-[📝 Word-Datei](Handreichung_Qualitätskriterien_Word.docx)
-
-#### Die vier Dimensionen der OER-Qualität
-
-**Rechtliche Qualität**
-
-Rechtssichere OER benötigen transparente Lizenzangaben, korrekte Quellen und einen bewusst reflektierten Umgang mit geschützten Inhalten – auch bei KI-generierten Materialien.
-
-**Technische Qualität**
-
-OER müssen langfristig zugänglich, barrierearm und interoperabel sein. Offene Formate, Metadaten, Exportierbarkeit und barrierefreie Gestaltung sind hierfür zentral.
-
-**Pädagogisch-didaktische Qualität**
-
-Qualitative OER ermöglichen zielgruppenorientiertes Lernen, klare Strukturierung, Differenzierung und vielseitige Nutzungsszenarien. Sie regen eigenständiges Denken, Reflexion und Transfer an.
-
-**Religionspädagogische Qualität**
-
-OER im Religionsunterricht benötigen fachliche Fundierung: Subjektorientierung, Pluralitätsfähigkeit, Elementarisierung sowie Perspektiven für biblisches, ästhetisches oder interreligiöses Lernen. Sie sollen religiöse Deutungsprozesse sichtbar machen und kritisch-reflexiv begleiten.
+| | | |
+|---|---|---|
+|1.|**Rechtliche Qualität**| Rechtssichere OER benötigen transparente Lizenzangaben, korrekte Quellen und einen bewusst reflektierten Umgang mit geschützten Inhalten – auch bei KI-generierten Materialien.|
+|2.|**Technische Qualität**| OER müssen langfristig zugänglich, barrierearm und interoperabel sein. Offene Formate, Metadaten, Exportierbarkeit und barrierefreie Gestaltung sind hierfür zentral.|
+|3.|**Pädagogisch-didaktische Qualität**| Qualitative OER ermöglichen zielgruppenorientiertes Lernen, klare Strukturierung, Differenzierung und vielseitige Nutzungsszenarien. Sie regen eigenständiges Denken, Reflexion und Transfer an.|
+|4.|**Religionspädagogische Qualität**| OER im Religionsunterricht benötigen fachliche Fundierung: Subjektorientierung, Pluralitätsfähigkeit, Elementarisierung sowie Perspektiven für biblisches, ästhetisches oder interreligiöses Lernen. Sie sollen religiöse Deutungsprozesse sichtbar machen und kritisch-reflexiv begleiten.|
 
 ### Praxisbeispiele: Qualitätsentwicklung in den Projekten TiRU & M@PS
 
@@ -81,9 +72,11 @@ Gleichzeitig wurden Stellschrauben identifiziert, u. a. ...
 
 TiRU und M@PS fungieren damit als Modellprojekte, die zur Schärfung der Kriterien beigetragen haben und zeigen, wie Qualität in OER bereits im Entwicklungsprozess verankert werden kann.
 
-👉 Mehr dazu: 
-[Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU](https://oer.community/digitale-offenheit-braucht-tiefe/) 
-[Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@PS](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/)
+> 👉 **Mehr dazu:**
+>
+> - [Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU](https://oer.community/digitale-offenheit-braucht-tiefe/)
+>
+> - [Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@PS](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/)
 
 ### Was die Kriterien leisten – und was nicht
 
