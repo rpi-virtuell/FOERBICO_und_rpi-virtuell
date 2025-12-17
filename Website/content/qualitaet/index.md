@@ -7,15 +7,15 @@ url: qualitaet
 
 ## Qualität als Prinzip offener religiöser Bildung
 
-Offene Bildungsmaterialien (OER) eröffnen große Chancen für die Religionspädagogik: Sie ermöglichen Teilhabe, fördern digitale Kompetenzen und stärken eine offene, kollaborative Bildungskultur. Auch in der Religionspädagogik wächst die Bedeutung offener Lehr- und Lernmaterialien, insbesondere vor dem Hintergrund digitaler Transformationsprozesse und KI-gestützter Erstellungsmethoden. Mit dieser Dynamik stellt sich immer dringlicher die Frage: Woran lässt sich gute Qualität in religionsbezogenen <!-- FM: würde das religionspädagogischen streichen, weil es ja eher um die Perspektive der Relpäd geht?! aber vielleicht auch nur eine Spitzfindigkeit von mir --> OER aus religionspädaogischer Perspektive erkennen – und wie kann sie nachhaltig gesichert werden?
+Offene Bildungsmaterialien (OER) eröffnen zentrale Chancen für Lern- und Lehrsettings: Sie ermöglichen Teilhabe, fördern digitale Kompetenzen und stärken eine offene, kollaborative Bildungskultur. Auch in der Religionspädagogik wächst die Bedeutung offener Lehr- und Lernmaterialien, insbesondere vor dem Hintergrund digitaler Transformationsprozesse und KI-gestützter Erstellungsmethoden von religionsdidaktischen Materialien. Mit dieser Dynamik stellt sich immer dringlicher die Frage: Woran lässt sich gute Qualität in religionspädagogischen OER erkennen – und wie kann sie nachhaltig gesichert werden?
 
-Während allgemeine OER-Qualitätsmodelle wertvolle Orientierung bieten, berücksichtigen sie fachspezifische Besonderheiten religiöser Bildungsprozesse nur bedingt. Das FOERBICO-Projekt setzt genau hier an und entwickelt praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien, die speziell für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
+Während allgemeine OER-Qualitätsmodelle zentrale Standards formulieren und insgesamt eine wertvolle Orientierung bieten, berücksichtigen sie natürlich keine fachspezifischen Besonderheiten religiöser Bildungsprozesse. Hier haben wir mit dem FOERBICO-Projekt angesetzt und praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien entwickelt, die für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
 
-👉 Mehr dazu: [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
+Nähere Einblicke dazu:[Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) 
 
 ### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
 
-Die Qualitätskriterien entstanden in einem mehrstufigen, zirkulären Prozess:
+Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
 
 1. Analyse bestehender Qualitätssicherungsmodelle in OER-Communities
 
@@ -25,7 +25,7 @@ Die Qualitätskriterien entstanden in einem mehrstufigen, zirkulären Prozess:
 
 4. Konkrete Qualitätsberatungen und Erprobung im Rahmen laufender Projekte, u.a. in den Projekten [TiRU – Tablets im Religionsunterricht](https://oer.community/digitale-offenheit-braucht-tiefe/) sowie [M@ps](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/) der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt
 
-5. Kontinuierliche Überarbeitung der Qualitätskriterien in Zusammenarbeit mit den Communities
+5. Kontinuierliche Überarbeitung der Qualitätskriterien in Zusammenarbeit mit den Communitys
 
 Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als reflexiven Aushandlungsprozess. Sie soll Materialerstellende unterstützen, eigene OER qualitätsbewusst zu entwickeln, bestehende Materialien kritisch einzuschätzen und weiterzuentwickeln sowie religionspädagogische Kriterien transparent einfließen zu lassen.
 
@@ -39,25 +39,25 @@ Die **vollständige Checkliste** steht als [offen lizenzierte Markdown-Datei (CC
 
 #### Die vier Dimensionen der OER-Qualität
 
-🧑‍⚖️ **Rechtliche Qualität**
+**Rechtliche Qualität**
 
 Rechtssichere OER benötigen transparente Lizenzangaben, korrekte Quellen und einen bewusst reflektierten Umgang mit geschützten Inhalten – auch bei KI-generierten Materialien.
 
-🧑‍💻 **Technische Qualität**
+**Technische Qualität**
 
 OER müssen langfristig zugänglich, barrierearm und interoperabel sein. Offene Formate, Metadaten, Exportierbarkeit und barrierefreie Gestaltung sind hierfür zentral.
 
-🧑‍🏫 **Pädagogisch-didaktische Qualität**
+**Pädagogisch-didaktische Qualität**
 
 Qualitative OER ermöglichen zielgruppenorientiertes Lernen, klare Strukturierung, Differenzierung und vielseitige Nutzungsszenarien. Sie regen eigenständiges Denken, Reflexion und Transfer an.
 
-⛪ **Religionspädagogische Qualität**
+**Religionspädagogische Qualität**
 
 OER im Religionsunterricht benötigen fachliche Fundierung: Subjektorientierung, Pluralitätsfähigkeit, Elementarisierung sowie Perspektiven für biblisches, ästhetisches oder interreligiöses Lernen. Sie sollen religiöse Deutungsprozesse sichtbar machen und kritisch-reflexiv begleiten.
 
 ### Praxisbeispiele: Qualitätsentwicklung in den Projekten TiRU & M@PS
 
-Die Projekte [TiRU – Tablets im Religionsunterricht](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39) und [M@PS – Medienkompetenz erweitern, Persönlichkeit stärken](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57) der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt verbinden theologische Reflexion, mediendidaktische Kompetenz und digitale Bildung. Die entwickelten OER wurden im Rahmen von FOERBICO systematisch beraten und mit der Checkliste weiterentwickelt. 
+Die Projekte [TiRU – Tablets im Religionsunterricht](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39) und [M@PS – Medienkompetenz erweitern, Persönlichkeit stärken](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57) der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt verbinden theologische Reflexion, mediendidaktische Kompetenz und digitale Bildung. Die entwickelten OER wurden im Rahmen von FOERBICO mit Hilfe der Checkliste beraten und daraufhin weiterentwickelt. 
 
 Die Beratung zeigte, dass es sich um ... 
 
@@ -97,8 +97,7 @@ Die FOERBICO-Kriterien bieten:
 
 - einen strukturierten Reflexionsrahmen
 
-Sie erheben jedoch keinen Anspruch auf Normativität und ersetzen nicht die individuelle, verantwortliche Prüfung der Materialien.
-Qualität entsteht im Zusammenspiel zwischen Material, Kontext, Zielgruppe und reflektiertem (religions)pädagogischem Handeln.
+Die Checkliste zur OER-Qualität versteht sich als reflexives Instrument, das Lehrende dabei unterstützt, Qualitätsfragen nicht nur normativ zu beantworten, sondern in einem dialogischen Aushandlungsprozess mit Kolleg:innen, Lernenden und der OER-Community weiterzuentwickeln. Die Checkliste stellt kein pauschales Bewertungssystem bereit, sondern bietet Orientierung, wie Qualität im spezifischen Kontext religionspädagogischer Bildungsarbeit gestaltet werden kann.
 
 ### Weiterarbeit & Mitmachen
 
