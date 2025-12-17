@@ -120,9 +120,9 @@ Unser Gespräch zeigt, dass Theologie und TikTok kein Widerspruch sein müssen. 
 #### Quellen / Tipps / Links:
 - "Making Science Education More Accessible: A Case Study of TikTok’s Utility as a Science Communication Tool" https://www.sciencedirect.com/science/article/abs/pii/S0306452223003731
 - Interessante TikTok-Accounts:
-    - https://www.tiktok.com/@pt_prof_kiho_wuppertal
-    - https://www.tiktok.com/@was.zurhoelle
-    - https://www.tiktok.com/@kirchemalanders
+    - <https://www.tiktok.com/@pt_prof_kiho_wuppertal>
+    - <https://www.tiktok.com/@was.zurhoelle>
+    - <https://www.tiktok.com/@kirchemalanders>
 - Bibliografie Prof. Konstanze Kemnitzer https://kiho-wuppertal.de/person/?flag=983
     - Immersion – praktisch-theologische Überlegungen, in: Abdel-Hafiez Massud / Christian Hild (Hg.), Religiöse Bildung bis 2030: Hürden und Chancen (RKBG, Bd. 1), Landau 2021, 161–177 (gemeinsam mit Matthias Roser)
     - Die Imagination des Evangeliums in der Virtualisierung der Lebenswelten. Antrittsvorlesung als Inhaberin des Lehrstuhls für Praktische Theologie an der Kirchlichen Hochschule Wuppertal/Bethel vom 7. Februar 2019. [Das Manuskript der Vorlesung steht als pdf-Dokument zum Download bereit: Konstanze Kemnitzer, Die Imagination des Evangeliums in der Virtualisierung der Lebenswelten](https://kiho-wuppertal.de/wp-content/uploads/2023/02/Konstanze-Kemnitzer-Imagination-des-Evangeliums.pdf)
@@ -134,7 +134,7 @@ Unser Gespräch zeigt, dass Theologie und TikTok kein Widerspruch sein müssen. 
 - Philipp Angelina (wiss. MA ([FOERBICO](https://oer.community/)) Uni Nürnberg)
 - Gina Buchwald-Chassée (([FOERBICO](https://oer.community/)), Comenius-Institut Münster),
 - Corinna Ullmann ([rpi-virtuell](https://rpi-virtuell.de/), relilab, Comenius-Institut), 
-- Prof. Konstanze Kemnitzer ([Kirchliche Hochschule Wuppertal]((https://kiho-wuppertal.de/))) [TikTok-@pt_prof_kiho_wuppertal : ](https://www.tiktok.com/@pt_prof_kiho_wuppertal)
+- Prof. Konstanze Kemnitzer ([Kirchliche Hochschule Wuppertal](https://kiho-wuppertal.de/)) [TikTok-@pt_prof_kiho_wuppertal : ](https://www.tiktok.com/@pt_prof_kiho_wuppertal)
 - Jörg Lohrer ([FOERBICO](https://oer.community/))
 
 evtl. TLDR bzw Infobox:

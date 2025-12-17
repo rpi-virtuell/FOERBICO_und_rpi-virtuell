@@ -66,7 +66,7 @@ Insgesamt sechs Teilnehmende aus der wissenschaftlichen Religionspädagogik ware
 
 ## Erst mal die Basics
 
-Wir starteten mit den Grundlagen zu OER. Die [UNESCO (2016)]((https://www.unesco.de/bildung/open-educational-resources)) definiert OER wie folgt:
+Wir starteten mit den Grundlagen zu OER. Die [UNESCO (2016)](https://www.unesco.de/bildung/open-educational-resources) definiert OER wie folgt:
 „Open Educational Resources (OER) sind Bildungsmaterialien jeglicher Art und in jedem Medium, die unter einer offenen Lizenz stehen. Eine solche Lizenz ermöglicht den kostenlosen Zugang sowie die kostenlose Nutzung, Bearbeitung und Weiterverbreitung durch Dritte ohne oder mit geringfügigen Einschränkungen.“
 Wichtig ist hierbei, dass OER sehr vielfältig sein können, neben Lehrbüchern, Bildern, können auch Podcasts oder Planspiele, Präsentationen oder Self-Assessments als OER frei zugänglich gemacht werden.
 Um OER noch weiter zu konturieren sprachen wir auch über die [5V-Freiheiten](https://open-educational-resources.de/5rs-auf-deutsch/): verwahren, verwenden, verarbeiten, vermischen, verbreiten. OER können also ohne Bedenken heruntergeladen und gespeichert (verwahren) werden. Sie können auch privat oder öffentlich genutzt werden (verwenden). OER sollen und können an die jeweilige Lernsituation angepasst werden, z.B. durch Kürzen von Texten (verarbeiten). Das Besondere an OER ist auch, dass sie miteinander zu neuem Material kombiniert werden können. Sei es z.B. durch eine Collage oder einen Audio-Remix (vermischen). Das Material kann dann in dieser neuen Form unter den gleichen rechtlichen Bedingungen veröffentlicht werden (verbreiten).
