@@ -123,7 +123,7 @@ Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwe
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
 Mt 2,9-11; LUT 2017 
 Lk 2, 9; LUT 2017
-Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE als [PDF-Datei](Dokument Lichtspur-Karte.pdf) aus:
+Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE als [PDF-Datei](Lichtspur-Karte.pdf) aus:
   - Wo taucht das Licht auf?
   - Was bedeutet das Licht?
   - Welche Rolle spielt das Licht heute?
