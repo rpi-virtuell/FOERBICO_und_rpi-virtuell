@@ -68,7 +68,7 @@ Selbst wenn die Komposition **gemeinfrei** ist, können Aufnahmen trotzdem gesch
 
 ❌ Eine neue vorhandene Aufnahme eines gemeinfreien Liedes einfach nutzen → oft nicht erlaubt
 
-✔️ Eine eigene Aufnahme eines gemeinfreien Liedes erstellen → meist unproblematisch > [Warum meist unproblematisch? Hat es hier etwas mit Arrangements zu tun?]
+✔️ Eine eigene Aufnahme eines gemeinfreien Liedes erstellen → meist unproblematisch, solange die Aufnahme nicht auf einem geschützten Arrangement oder einer modernen Notenausgabe basiert, sondern auf der gemeinfreien Komposition selbst.
 
 Relevante Rechte: [Leistungsschutzrechte](https://www.urheberrecht.de/leistungsschutzrecht/), [GEMA](https://www.gema.de/de/musiknutzer), [Gesellschaft zur Verwertung von Leistungsschutzrechten mbH (GVL)](https://gvl.de/).
 
@@ -292,7 +292,8 @@ Streaming-Inhalte sind jedoch:
 Streamingdienste erlauben in der Regel nur die private Nutzung – eine Weiterverwendung in OER ist meist nicht abgedeckt.
 
 ⚠️ **Musik von YouTube herunterladen und in OER verwenden**
-Downloads und Weiterverwendungen sind häufig nicht durch die Plattformbedingungen oder das Urheberrecht erlaubt. > [Vielleicht hier auf den alten Blogartikel von Manfred verweisen]
+Downloads und Weiterverwendungen sind häufig nicht durch die Plattformbedingungen oder das Urheberrecht erlaubt. 
+Mehr dazu in unserem [Blogbeitrag "Sind YouTube-Videos OER-fähig?"](https://oer.community/sind-youtube-videos-oer-faehig/).
 
 ⚠️ **TikTok-/Instagram-Audios in OER-Materialien verlinken**
 Verlinken ist grundsätzlich erlaubt. Problematisch kann es werden, wenn wissentlich auf rechtswidrige Inhalte verlinkt wird oder Plattformbedingungen entgegenstehen (bei Hochschullehre meist selten, aber sollte geprüft werden).
