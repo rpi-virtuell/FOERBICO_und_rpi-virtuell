@@ -23,7 +23,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-17'
+datePublished: '2025-12-18'
 #staticSiteGenerator:
 author:
   - Gina Buchwald-Chassée
