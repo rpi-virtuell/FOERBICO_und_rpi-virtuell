@@ -461,6 +461,9 @@ Der eigenen Kreativität sind natürlich keine Grenzen gesetzt, wie das [Instagr
 
 Das [PI Villigst](https://www.pi-villigst.de/aktuelles) stellt Lieder bzw. Noten z.T. unter CC-Lizenz für den Unterricht bereit, z.B. "[Du stellst meine Füße auf weiten Raum](https://www.pi-villigst.de/fileadmin/user_upload/schule/primar/material/dateien/schulanfang/Du_stellst_meine_Fuesse_auf_weiten_Raum_-_Text_mit_Gitarrengriffen.pdf)" von Christina Heidemann, lizensiert unter: https://creativecommons.org/licenses/by-nc-sa/4.0/ (Namensnennung, nicht für kommerzielle Zwecke und Weitergabe unter den gleichen Bedingungen also CC-BY-NC-SA). Zu dem Lied gibt es auch ein passendes [YouTube-Video](https://www.youtube.com/watch?v=2jaJXWMXyMI).
 
+## Fazit
+
+Ob „Gloria in excelsis Deo“, „In der Weihnachtsbäckerei“ oder „Oh du fröhliche“ – Weihnachtslieder gehören zur Adventszeit einfach dazu. Im Musikbereich ist allerdings selten auf den ersten Blick klar, was offen nutzbar ist und was nicht. Zwischen jahrhundertealten Chorälen und modernen Kinderliedern liegen rechtlich oft Welten, was den Umgang mit Musik in OER besonders komplex macht. Gleichzeitig ist man dem Thema nicht hilflos ausgeliefert: Mit etwas Hintergrundwissen lassen sich viele Risiken gut einschätzen. Die folgende Sammlung versteht sich deshalb als Orientierungshilfe für einen bewussten und rechtssicheren Umgang mit Musik in offenen Bildungsressourcen.
 
 ## Tipp: Offene Musikdatenbanken verwenden
 
