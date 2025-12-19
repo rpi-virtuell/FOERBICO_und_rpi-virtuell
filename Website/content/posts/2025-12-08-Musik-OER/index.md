@@ -177,6 +177,8 @@ Für OER gilt:
 
 ❌ keine KI-Rekonstruktionen bekannter Lieder
 
+Fazit: Bei Nutzung von Anbietern wie suno.com steht die erzeugte Musik evtl. nicht unter CC0-Lizenz, entscheidend sind die jeweiligen Nutzungsbedingungen der jeweiligen Anbieter!
+
 #### Praxisbeispiele:
 
 - https://praxis.leaschulz.com/2025/03/06/station-13-gs/
@@ -342,7 +344,13 @@ Streaming-Dienste besitzen nur bestimmte Rechte: Wiedergabe, ggf. Hosting. Sie d
 - Labels
 - Verwertungsgesellschaften (GEMA, GVL)
 
-Mit OER-Lizenzen ist das nicht kompatibel.
+Mit OER-Lizenzen ist das nicht kompatibel. 
+
+Weitere Hinweise zu Streaming im Unterricht:
+
+https://www.internet-abc.de/lehrkraefte/praxishilfen/urheberrecht-in-der-schule/darf-ich-titel-aus-meinem-musikstreaming-abo-zu-unterrichtszwecken-vorspielen/
+
+https://lehrerfortbildung-bw.de/st_recht/urheber/checkl/musik_video/checkliste-musik_video-2020_12-09.pdf
 
 ## Musik im Unterricht – was ist erlaubt?
 
