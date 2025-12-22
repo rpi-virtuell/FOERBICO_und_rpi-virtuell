@@ -51,7 +51,7 @@ Contact: [sicking@comenius.de](mailto:sicking@comenius.de)
 
 The Professorship for Religious Education and Media Didactics from the Goethe University Frankfurt is dedicated to researching and teaching religious education in schools and other educational institutions. It combines traditional approaches to religious education with modern media didactics to improve the teaching of religious content in a digitalized world. The focus is on developing new didactic concepts and promoting reflective media use in the context of religious education.
 
-Further information: [Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) an der Goethe-Universität
+Further information: [Chair of Religious Education and Media Didactics](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) at the Goethe University
 
 ![Portrait Viera Pirker](../../unser-team/VieraPirker.jpg)
 
@@ -73,7 +73,7 @@ Contact: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
 The Department of Religious Education and Didactics of Protestant Religious Education at Friedrich-Alexander University Erlangen-Nuremberg (FAU) focuses on the theory and practice of Protestant religious education, as well as questions related to religious education. The focus is on teaching religious content in schools, developing pedagogical models and methods, and researching the processes of religious learning. The aim is to prepare students for reflective and practical work in religious education and to contribute to the further development of this area of education.
 
-Further infromation: [Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts](https://www.evrel.phil.fau.de/) an der Friedrich-Alexander-Universität Erlangen-Nürnberg
+Further infromation: [Department of Religious Education](https://www.evrel.phil.fau.de/english-pages/) at the University of Erlangen-Nuremberg
 
 ![Portrait Manfred Pirner](../../unser-team/ManfredPirner.jpg)
 
