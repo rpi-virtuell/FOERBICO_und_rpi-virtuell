@@ -58,6 +58,8 @@ Es wäre jetzt ein leichtes auf die Depublizierung von der Löwe von Juda zu zei
 *Fehler* als eine Lernmöglichkeit zu sehen, ist ein Grundgedanke von OER und OEP. 
 
 ## Literatur
+Angelina, Phillip, Buchwald-Chassée, Gina, Gregorio Rodrigo, Paula, Mößle, Laura & Ullmann, Corinna. 2025. Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien. FOERBICO-Handreichung. https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md
+
 Bezold, Helge. 2021. „Gewalt (AT)“. Das Wissenschaftliche Bibellexikon im Internet (www.wibilex.de). https://www.die-bibel.de/ressourcen/wibilex/altes-testament/gewalt-at.
 
 Boschki, Reinhold, und Thomas Schlag. 2016. „Gesetz und Evangelium – Evangelium und Tora“. Das wissenschaftlich-reli‐ gionspädagogische Lexikon im Internet (www.wirelex.de), Februar. https://doi.org/10.23768/wirelex.Gesetz_und_Evangelium_Evangelium_und_Thora.100171.
@@ -95,7 +97,11 @@ Krauter, Stefan. 2013. „Gesetz / Tora (NT)“. In Das Wissenschaftliche Bibell
 
 Leonhardt, Rochus. 2009. Grundinformation Dogmatik: ein Lehr- und Arbeitsbuch für das Studium der Theologie. 4. durchgesehene Auflage. UTB Theologie, Religion 2214. Vandenhoeck & Ruprecht.
 
-Lux, Rüdiger. 2013. „Josef / Josefsgeschichte“. as Wissenschaftliche Bibellexikon im Internet (www.wibilex.de). https://www.die-bibel.de/ressourcen/wibilex/altes-testament/josef-josefsgeschichte.
+Lux, Rüdiger. 2013. „Josef / Josefsgeschichte“. Das Wissenschaftliche Bibellexikon im Internet (www.wibilex.de). https://www.die-bibel.de/ressourcen/wibilex/altes-testament/josef-josefsgeschichte.
+
+Mößle, Laura. 2025. "Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER". FOERBICO-Blog (oer.community). https://oer.community/qualitaetskriterien-checkliste/
+
+Mößle, Laura & Gregorio Rodrigo, Paula. 2025. "Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen". FOERBICO-Blog (oer.community). https://oer.community/open-ist-eine-haltung/
 
 Ruding, Thilo Alexander. 2012. „Schoah“. Das Wissenschaftliche Bibellexikon im Internet (www.wibilex.de). https://www.die-bibel.de/ressourcen/wibilex/altes-testament/schoah.
 
