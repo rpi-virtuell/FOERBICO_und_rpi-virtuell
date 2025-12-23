@@ -227,9 +227,10 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 
 #### 4. Hands-On: Konkret am Material 📝
 
-![](Modularisierung-ohne-CC.jpg)
 
-**Beispielmaterial PDF ohne CC-Lizenz:**
+**Beispielmaterial ohne Modularisierung:**
+
+![](Modularisierung-ohne-CC.jpg)
 
 ❌ Ich kann die einzelnen Bausteine/Arbeitsblätter herunterladen.
 
@@ -240,9 +241,9 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 👉 **Fazit:**
  Ich darf das Material nicht weiterverwenden und habe keinen Zugriff auf die Einzelmodule, nur auf das Gesamtmaterial. 
 
-![](Modularisierung-mit-CC.jpg)
+**Beispielmaterial mit Modularisierung:**
 
-**Beispielmaterial Einzelmaterialien als Doc mit CC-Lizenz:**
+![](Modularisierung-mit-CC.jpg)
 
 ✅ Ich kann die einzelnen Bausteine/Arbeitsblätter herunterladen.
 
@@ -317,12 +318,16 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 #### 4. Hands-On: Konkret am Material 📝
 
-[](Arbeitsblatt.odt)
+**Beispielmaterial als PDF-Datei (geschlossenes Format):**
+[](Arbeitsblatt.pdf)
+
 
 👉 **Fazit:** 
 
-[](Arbeitsblatt.pdf)
 
+**Beispielmaterial als ODT-Datei (offenes Format):**
+
+[](Arbeitsblatt.odt)
 
 👉 **Fazit:** 
 
