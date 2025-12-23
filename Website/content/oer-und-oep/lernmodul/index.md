@@ -227,6 +227,8 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 
 #### 4. Hands-On: Konkret am Material 📝
 
+![](Modularisierung-ohne-CC.jpg)
+
 **Beispielmaterial PDF ohne CC-Lizenz:**
 
 ❌ Ich kann die einzelnen Bausteine/Arbeitsblätter herunterladen.
@@ -238,6 +240,7 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 👉 **Fazit:**
  Ich darf das Material nicht weiterverwenden und habe keinen Zugriff auf die Einzelmodule, nur auf das Gesamtmaterial. 
 
+![](Modularisierung-mit-CC.jpg)
 
 **Beispielmaterial Einzelmaterialien als Doc mit CC-Lizenz:**
 
@@ -260,7 +263,12 @@ Welche CC-Lizenz für welche Einheit (Bild, Quiz, Arbeitsblatt...)?
 
 #### Tools - Modularisierung 🛠️
 
-Noch hinzufügen! 
+- **[H5P](https://h5p.org/)** - zur Erstellung interaktiver Lernmodule
+
+- **[LiaScript](https://liascript.github.io/)** - Markdown-basierte Auszeichnungssprache für OER-Kurse, die interaktive und wiederverwendbare Inhalte modular strukturiert
+
+- **PDF-Splitter** - PDFs in einzelne Einheiten extrahieren und als separate Dateien speichern, z.B. online mit [PDF 24](https://tools.pdf24.org/de/pdf-trennen), [smallpdf](https://smallpdf.com/de/pdf-teilen), [SplitPDF](https://splitpdf.io/de), [Turtles Tools](https://www.turtlestools.com/split-pdf), [PDF Candy](https://pdfcandy.com/de/) u.v.m.
+🔐 Datenschutz beachten: Insbesondere wenn die Lernunterlagen vertraulich sind (z.B. personenbezogene Daten) sollte man vorher die Nutzungs- und Geschäftsbedingungen prüfen, bevor man online das PDF im Browser hochlädt!
 
 ## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer
 
@@ -309,11 +317,11 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 #### 4. Hands-On: Konkret am Material 📝
 
-**Beispiel geschlossen**
+[](Arbeitsblatt.odt)
 
 👉 **Fazit:** 
 
-**Beispiel offenes Format**
+[](Arbeitsblatt.pdf)
 
 
 👉 **Fazit:** 
@@ -329,6 +337,7 @@ Wie könnte man Module direkt im offenen Format anbieten?
 #### Tools - Offenes Format 🛠️
 
 - **Converter**, z.B. : https://www.freeconvert.com/, https://tools.pdf24.org/de/pdf-converter, https://www.online-convert.com/de => ggf. Formatierungsprobleme
+
 - **Markdown**: Doku zum Workshop beim Projekt KlimaOER: https://oer.community/markdown-einfuehrung-klimaoer/, wer ausprobieren mag: https://t1p.de/MDAusprobieren
 
 ## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig
@@ -516,3 +525,24 @@ Wenn du Rückfragen hast oder Feedback geben möchtest, melde dich gerne bei:
 📧 [Gina Buchwald-Chassée / buchwald-chassee@comenius.de]
 
 💬 Wir freuen uns über deine Ideen, Erfahrungen und Anregungen!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
