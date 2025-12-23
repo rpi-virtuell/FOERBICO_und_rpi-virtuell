@@ -269,6 +269,7 @@ Welche CC-Lizenz für welche Einheit (Bild, Quiz, Arbeitsblatt...)?
 - **[LiaScript](https://liascript.github.io/)** - Markdown-basierte Auszeichnungssprache für OER-Kurse, die interaktive und wiederverwendbare Inhalte modular strukturiert
 
 - **PDF-Splitter** - PDFs in einzelne Einheiten extrahieren und als separate Dateien speichern, z.B. online mit [PDF 24](https://tools.pdf24.org/de/pdf-trennen), [smallpdf](https://smallpdf.com/de/pdf-teilen), [SplitPDF](https://splitpdf.io/de), [Turtles Tools](https://www.turtlestools.com/split-pdf), [PDF Candy](https://pdfcandy.com/de/) u.v.m.
+
 🔐 Datenschutz beachten: Insbesondere wenn die Lernunterlagen vertraulich sind (z.B. personenbezogene Daten) sollte man vorher die Nutzungs- und Geschäftsbedingungen prüfen, bevor man online das PDF im Browser hochlädt!
 
 ## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer
