@@ -1,8 +1,8 @@
 # Wenn der Löwe Schwierigkeiten bereitet
 
-![Der Löwe von Juda](https://cms.ibep-prod.com/app/uploads/sites/18/2025/03/Heroimage_LvJ.jpg)
+![Der Löwe von Juda](#Gemini_Generated_Image_k0cbmok0cbmok0cb.png)
 
-<div class="pull-right">Bildquelle: https://www.die-bibel.de/loewe-von-juda</div>
+<div class="pull-right">Bildquelle: Gemini</div>
 
 Es ist kurz vor Weihnachten, als ein Verlag ein Werk gefunden hat, welches eine gute Idee hat und man erhofft sich damit ein profitables Unterfangen. Die Idee eine Kinderbibel, welche im Stile von Disneyfilmen illustriert wurde. Tiere nehmen darin die Rollen von Menschen ein. Die Promotion für dieses Buch ist in vollen Zügen, doch dann aufgrund von Kritik aus verschiedenen Richtungen sieht sich der Verlag dazu gezwungen, das Werk zu depublizieren.
 Das geschah im Dezember 2025  der Deutschen Bibelgesellschaft mit dem Werk *Der Löwe von Juda*. In ihrer [Mitteilung](https://www.die-bibel.de/bibel-in-der-praxis/bibel-fuer-kinder/kinderbibelwelten/loewe-von-juda) zur Depublikation steht: 
