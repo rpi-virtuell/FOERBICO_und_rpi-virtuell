@@ -4,7 +4,7 @@
 
 Es ist kurz vor Weihnachten, als ein Verlag ein Werk gefunden hat, welches eine gute Idee hat und man erhofft sich damit ein profitables Unterfangen. Die Idee eine Kinderbibel, welche im Stile von Disneyfilmen illustriert wurde. Tiere nehmen darin die Rollen von Menschen ein. Die Promotion für dieses Buch ist in vollen Zügen, doch dann aufgrund von Kritik aus verschiedenen Richtungen sieht sich der Verlag dazu gezwungen, das Werk zu depublizieren.
 Das geschah im Dezember 2025  der Deutschen Bibelgesellschaft mit dem Werk *Der Löwe von Juda*. In ihrer [Mitteilung](https://www.die-bibel.de/bibel-in-der-praxis/bibel-fuer-kinder/kinderbibelwelten/loewe-von-juda) zur Depublikation steht: 
-> Bestimmte Passagen zeigten sich als problematisch im Blick auf den jüdisch-christlichen Dialog. Dazu kam Kritik an der stereotypen Darstellung von Geschlechterrollen und der Visualisierung von Gewalt. 
+> »Bestimmte Passagen zeigten sich als problematisch im Blick auf den jüdisch-christlichen Dialog. Dazu kam Kritik an der stereotypen Darstellung von Geschlechterrollen und der Visualisierung von Gewalt.« 
 
 Dieser etwas längere Blogartikel wird widmet sich exemplarisch den hier genannten *problematischen Passagen* und zieht im Anschluss eine Zusammenfassung. Zudem werden Chancen in Hinblick für OER  benannt. Wenn man nicht die längeren Ausführungen dieses Artikels lesen möchte, da diese auch in einem theologischen Diskurs stattfinden seien die Ergebnisse hier kurz zusammengefasst:
 - Im Blick auf den jüdisch-christlichen Dialog ist vor allem die Bewertung des Gesetzes sowie die christliche Deutung der hebräischen Bibel problematisch. Denn das Gesetz wird als eine Last und nicht als eine Gnade dargestellt. Zudem wird die hebräische Bibel konsequent von Jesus Christus her gedeutet. Dies führt zu einer falschen Gegenüberstellung der hebräischen Bibel mit dem christlichen Neuen Testament.
@@ -59,13 +59,13 @@ Der Löwe von Juda ist von einem dualismus von Gut und Böse durchzogen. Die Sch
 ### Gottesbild
 Die verschiedenen Gottesbilder der hebräischen Bibel werden aufgegeben, für ein klares Gottesbild, der von Beginn einen Plan über das gesamte Weltgeschehen hat.
 So heißt es in der Löwe von Juda, nach der Vertreibung aus dem Paradis:
-> Doch Gott gab seine Geschöpfe nicht auf. Er hatte sie doch selbst geschaffen! Daher wollte er sie vor Sünde und Tod retten.
+> »Doch Gott gab seine Geschöpfe nicht auf. Er hatte sie doch selbst geschaffen! Daher wollte er sie vor Sünde und Tod retten.«
 
 Dies ist nicht nur ein weiterer Beleg von der Christianiserung der hebräischen Bibel, sondern auch eine Reduktion des Gottesbildes. Das Gott beispielsweise Reue zeigt ([Gen. 6](https://www.die-bibel.de/bibel/LU17/GEN.6)) oder Menschen mit Gott diskutieren können ([Gen. 18, 16-33](https://www.die-bibel.de/bibel/LU17/GEN.18)).
 
 ## Resümee und Bedeutung für OER
 Leider verfehlt der Löwe von Juda aus den oben genannten Gründen, das selbst gewählte Ziel der Deutschen Bibelgesellschaft:
-> Als Deutsche Bibelgesellschaft ist es unser Ziel, Menschen eine Begegnung mit der Bibel zu ermöglichen, die theologisch verantwortet und dialogfähig ist.
+> »Als Deutsche Bibelgesellschaft ist es unser Ziel, Menschen eine Begegnung mit der Bibel zu ermöglichen, die theologisch verantwortet und dialogfähig ist.«
 
 Trotz all dieser Kritikpunkte am Werk, ist es der deutschen Bibelgesellschaft hoch anzurechnen, dass kurz vor Weihnachten, der Vertrieb dieser Kinderbibel eingestellt wurde. Am Beispiel von der Veröffentlichung und Depublizierung von *der Löwe von Juda* kann man über Haltung reflektieren sowie über die Bewertung von Eingeständnissen.
 
