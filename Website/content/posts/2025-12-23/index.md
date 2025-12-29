@@ -1,6 +1,6 @@
 # Wenn der Löwe Schwierigkeiten bereitet
 
-![Der Löwe von Juda](#Gemini_Generated_Image_k0cbmok0cbmok0cb.png)
+![Der Löwe von Juda](Gemini_Generated_Image_k0cbmok0cbmok0cb.png)
 
 <div class="pull-right">Bildquelle: Gemini</div>
 
