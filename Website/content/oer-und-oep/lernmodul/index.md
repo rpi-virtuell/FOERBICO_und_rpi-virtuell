@@ -157,7 +157,7 @@ Ich darf das Material unter Angabe der Lizenz weiterverwenden anpassen & verbrei
 
 Namensnennung: Ich muss immer die Urheber:innen nennen.
 
-![](Vergleich-Nutzung CC-Lizenz-KI-generiert.png)
+![](Vergleich-Nutzung-CC-Lizenz-KI-generiert.png)
 
 
 **Aufgabenkarte: Mit Lizenz zum OER**
@@ -298,7 +298,7 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 #### 2. Welche Möglichkeiten gibt es?
 
-![](Offene-Formate - KI-generiert.png)
+![](Offene-Formate-KI-generiert.png)
 
 #### 3. Achtung - Fallstricke ⚠️
 
