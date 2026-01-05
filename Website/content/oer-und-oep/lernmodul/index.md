@@ -236,7 +236,7 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 
 ❌ Das Material ist mit einer CC-Lizenz gekennzeichnet.
 
-❌ Beschreibung, was einzelne Lerneinheiten beinhalten
+❌ Beschreibung, was einzelne Lerneinheiten beinhalten.
 
 👉 **Fazit:**
  Ich darf das Material nicht weiterverwenden und habe keinen Zugriff auf die Einzelmodule, nur auf das Gesamtmaterial. 
@@ -249,7 +249,7 @@ Kernidee: Lehr- und Lernmaterial wird in kleinere, klar abgegrenzte Einheiten ze
 
 ✅ Das Material ist mit einer CC-Lizenz gekennzeichnet.
 
-✅ Beschreibung, was einzelne Lerneinheiten beinhalten
+✅ Beschreibung, was einzelne Lerneinheiten beinhalten.
 
 👉 **Fazit:** 
 Ich darf das Material weiterverwenden, ich habe Zugriff auf die Einzelmodule und das Gesamtmaterial sowie Beschreibungen, was die jeweiligen Materialien beinhalten.
@@ -322,15 +322,28 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 **Beispielmaterial als PDF-Datei (geschlossenes Format):**
 [](Arbeitsblatt.pdf)
 
+❌ Ich kann das Material in bearbeitbaren Formaten herunterladen.
 
-👉 **Fazit:** 
+❌ Die einzelnen Module sind mit einer CC-Lizenz gekennzeichnet.
+
+❌ Kurzbeschreibung der Lerninhalte ist vorhanden.
+
+
+👉 **Fazit:** Ich kann das Einzelmaterial downloaden, aber nicht bearbeiten und weiterverwenden. 
 
 
 **Beispielmaterial als ODT-Datei (offenes Format):**
 
 [](Arbeitsblatt.odt)
 
-👉 **Fazit:** 
+✅ Ich kann das Material herunterladen und bearbeiten.
+
+✅ Das Material ist mit einer CC-Lizenz gekennzeichnet.
+
+✅ Beschreibung, was einzelne Lerneinheiten beinhalten.
+
+👉 **Fazit:** Ich kann die Einzelmaterialien bearbeiten und weiterverwenden. Außerdem weiß ich, worum es bei den Lerninhalten geht.
+
 
 **Aufgabenkarte: Offenes Format**
 
@@ -531,6 +544,38 @@ Wenn du Rückfragen hast oder Feedback geben möchtest, melde dich gerne bei:
 📧 [Gina Buchwald-Chassée / buchwald-chassee@comenius.de]
 
 💬 Wir freuen uns über deine Ideen, Erfahrungen und Anregungen!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
