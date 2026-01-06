@@ -526,13 +526,31 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 #### 4. Hands-On: Konkret am Material 📝
 
-**Beispiel nur bei sich**
+**Beispiel Veröffentlichung nur auf eigener Homepage**
+
+![](Single-Veroeffentlichung.JPG)
+
+✅ Das Material öffentlich zugänglich.
+
+✅ Das Material ist bestenfalls mit einer CC-Lizenz gekennzeichnet.
+
+❌ Das Material wurde auf anderen Plattformen veröffentlicht.
 
 👉 **Fazit:** 
+Das Material ist ausschließlich auf der eigenen Homepage verfügbar und daher in der Regel nur für Personen auffindbar, die gezielt danach suchen oder bereits Teil der entsprechenden Community sind. Eine zufällige Entdeckung durch neue Nutzer:innen ist eher unwahrscheinlich. Dadurch bleibt die Reichweite begrenzt und das Material wird überwiegend innerhalb der eigenen Community genutzt statt breit verbreitet.
 
-**Beispiel in relilab -> OERSI...**
+**Beispiel Veröffentlichung auf OER-Plattformen**
+
+![](Multiple-Veroeffentlichung.JPG)
+
+✅ Das Material öffentlich zugänglich.
+
+✅ Das Material ist bestenfalls mit einer CC-Lizenz gekennzeichnet.
+
+✅ Das Material wurde über die eigene Plattform hinaus veröffentlicht.
 
 👉 **Fazit:** 
+Die Materialien wurden über die eigene Homepage hinaus auch im Materialpool von [rpi-virtuell](https://material.rpi-virtuell.de/) und über eine Schnittstelle auch bei [WirLernenOnline](https://www.wirlernenonline.de/) und [edu-sharing](https://oer-contentbuffet.info/edu-sharing/components/search) veröffentlicht und wird somit weiter verbreitet (z.B. auch über Newsletter wie den [Materialticker von rpi-virtuell](https://material.rpi-virtuell.de/materialticker/)).
 
 **Aufgabenkarte - Veröffentlichung**
 
