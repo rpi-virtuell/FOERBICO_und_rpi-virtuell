@@ -368,7 +368,7 @@ Nach Lizenzierung, Modularisierung und offenen Formaten kommt die Milch ins Geb�
 
 In diesem Modul lernst du, was Metadaten sind, warum sie für OER so wichtig sind und wie du sie richtig anlegst. Du erfährst, welche Standards existieren (z. B. Dublin Core, LOM, schema.org), welche Pflicht- und optionale Angaben sinnvoll sind und wie Metadaten die Suche, Nutzung und Weitergabe deiner Materialien erleichtern.
 
-[](Corinna-Metadaten.mp4)
+[](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Metadaten.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
