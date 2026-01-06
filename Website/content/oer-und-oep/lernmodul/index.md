@@ -183,7 +183,7 @@ Du hast nun das „Mehl“ (die Lizenz) als Basis, nun kommt das Fett ins Gebäc
 
 In diesem Modul lernst du, wie du dein OER in kleine, in sich geschlossene Bausteine zerlegst, die unabhängig voneinander genutzt oder mit anderen Modulen kombiniert werden können. Du erfährst, warum Modularisierung für Anpassbarkeit, Nachnutzbarkeit und kreative Freiheit so entscheidend ist – und worauf du achten musst, damit der „rote Faden“ erhalten bleibt.
 
-[](Corinna-Modularisierung.mp4)
+[![Modularisierung von OER](Modularisierung.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Modularisierung.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
@@ -278,7 +278,7 @@ Nachdem dein Material lizenziert und modular aufgebaut ist, kommt die Süße ins
 
 In diesem Modul lernst du, warum offene Formate (z. B. ODT, Markdown, H5P) so wichtig für OER sind und wie sie die Nachnutzung, Barrierefreiheit und Flexibilität erleichtern. Du erfährst, welche Formate sich eignen, welche Fallstricke es gibt und wie du bestehende geschlossene Materialien in offene Formate überführst.
 
-[](Corinna-Offenes-Format.mp4)
+[![Offenes Format von OER](Offenes-Format.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Offenes-Format.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
@@ -368,7 +368,7 @@ Nach Lizenzierung, Modularisierung und offenen Formaten kommt die Milch ins Geb�
 
 In diesem Modul lernst du, was Metadaten sind, warum sie für OER so wichtig sind und wie du sie richtig anlegst. Du erfährst, welche Standards existieren (z. B. Dublin Core, LOM, schema.org), welche Pflicht- und optionale Angaben sinnvoll sind und wie Metadaten die Suche, Nutzung und Weitergabe deiner Materialien erleichtern.
 
-[![Veröffentlichung von OER](Veroeffentlichung.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Metadaten.mp4)
+[![Metadaten von OER](Metadaten.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Metadaten.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
@@ -473,7 +473,7 @@ Nachdem dein OER lizenziert, modular aufgebaut, offen formatiert und mit Metadat
 
 In diesem Modul lernst du, wie du dein OER sicher und sichtbar veröffentlichst. Du erfährst, welche Plattformen, Repositorien und Formate sich eignen, welche Fallstricke es bei rechtlicher Sicherheit, Metadaten und Barrierefreiheit gibt und wie du die Verbreitung deiner Materialien langfristig sicherstellst.
 
-[](Corinna-Veroeffentlichung.mp4)
+[![Veröffentlichung von OER](Veroeffentlichung.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Veroeffentlichung.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
