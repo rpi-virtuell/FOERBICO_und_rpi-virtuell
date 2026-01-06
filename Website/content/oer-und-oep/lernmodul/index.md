@@ -329,7 +329,8 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 ❌ Kurzbeschreibung der Lerninhalte ist vorhanden.
 
 
-👉 **Fazit:** Ich kann das Einzelmaterial downloaden, aber nicht bearbeiten und weiterverwenden. 
+👉 **Fazit:** 
+Ich kann das Einzelmaterial downloaden, aber nicht bearbeiten und weiterverwenden. 
 
 
 **Beispielmaterial als ODT-Datei (offenes Format):**
@@ -342,7 +343,8 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 ✅ Beschreibung, was einzelne Lerneinheiten beinhalten.
 
-👉 **Fazit:** Ich kann die Einzelmaterialien bearbeiten und weiterverwenden. Außerdem weiß ich, worum es bei den Lerninhalten geht.
+👉 **Fazit:** 
+Ich kann die Einzelmaterialien bearbeiten und weiterverwenden. Außerdem weiß ich, worum es bei den Lerninhalten geht.
 
 
 **Aufgabenkarte: Offenes Format**
@@ -425,6 +427,8 @@ Man unterscheidet häufig:
 
 **Beispiel ohne Metadaten**
 
+![](Arbeitsblatt-ohne-Metadaten.jpg)
+
 ❌ Keine Angabe der Metadaten: 
 *Formal:* Autor:in, Medientyp, Datum...
 *Didaktisch:* Zielgruppe, Lernzeit, Schwierigkeitsgrad...
@@ -432,12 +436,20 @@ Man unterscheidet häufig:
 ❌ Keine Angabe der CC-Lizenz, Weiterverarbeitung &-verbreitung nicht möglich!
 
 👉 **Fazit:** 
-Du darfst das Material nur privat nutzen und kannst es ohne Angabe der Metadaten nicht finden & zitieren!
+Du darfst das Material nur privat nutzen und kannst es ohne Angabe der Metadaten nicht finden & zitieren, da du nicht weißt, von wem es veröffentlicht wurde usw.!
 
 **Beispiel mit Metadaten**
 
+![](Arbeitsblatt-mit-Metadaten.jpg)
+
+✅ Beitrag unter CC-by-Lizenz: Weiterverarbeitung &-verbreitung unter Namensnennung möglich.
+
+✅ Metadaten: Autor, Datum, Lizenz...
+
+❌ Als offenes, weiterbearbeitbares Format verfügbar.
 
 👉 **Fazit:** 
+Das Material kann genutzt und weiter verbreitet werden unter Nutzung der gleichen Lizenz, Bearbeitung schwierig!
 
 **Aufgabenkarte: Metadaten**
 
