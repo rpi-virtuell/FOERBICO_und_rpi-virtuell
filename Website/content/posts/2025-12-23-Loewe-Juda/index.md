@@ -1,3 +1,63 @@
+---
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: Wenn der Löwe Schwierigkeiten bereitet
+description: >-
+  In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der
+  Kinderbibel: "Der Löwe von Juda" auseinander. Er geht dabei auf die
+  theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig
+  Communities für das Auffinden von Fehlern und blinden Flecken für das eigene
+  Schaffen sind.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we-von-Juda/Website/content/posts/2025-12-23-Loewe-Juda/index.md
+creator:
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+keywords:
+  - OER
+  - OER-Communities
+  - Bibel
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+image: >-
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we-von-Juda/Website/content/posts/2025-12-23-Loewe-Juda/Gemini_Generated_Image_k0cbmok0cbmok0cb.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+#staticSiteGenerator:
+author:
+  - Phillip Angelina
+title: 'Wenn der Löwe Schwierigkeiten bereitet'
+cover:
+  relative: true
+  image: Gemini_Generated_Image_k0cbmok0cbmok0cb.png
+  hidddenInSingle: false
+  alt: 'Der Löwe von Juda'
+summary: >-
+  In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der
+  Kinderbibel - Der Löwe von Juda auseinander. Er geht dabei auf die
+  theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig
+  Communities für das Auffinden von Fehlern und blinden Flecken für das eigene
+  Schaffen sind.
+url: der-loewe-schwierigkeiten
+tags:
+  - OER
+  - OER-Communities
+  - Bibel
+---
+
 # Wenn der Löwe Schwierigkeiten bereitet
 
 ![Ein Biber, ein Löwe und ein Nilpferd](Gemini_Generated_Image_k0cbmok0cbmok0cb.png) <br>*Bildquelle: Gemini*</br>
