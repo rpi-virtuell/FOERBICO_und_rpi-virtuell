@@ -78,7 +78,9 @@ Zur Veröffentlichung von "Der Löwe von Juda" wurde auf der Instagramseite der 
 > »Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden.«
 
 Dieses Zitat ist für die weiterführende Auseinandersetzung mit der Kinderbibel "Der Löwe von Juda" von besonderer Bedeutung, da bewusst Entscheidungen darüber getroffen wurden, welche Texte die Kinderbibel behandelt und welche nicht. Ebenso wurden Entscheidungen über das Aussehen der Tiere, ihre sprachliche Darstellung sowie über die Art der Illustration der Geschichten getroffen.
+
 ![Zitat auf Instagram](Löwe von Juda 04.png)</br>Screenshot von Instagram
+
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
 ## Das 'schwere' Gesetz
@@ -107,7 +109,9 @@ Männer werden als muskulös und körperlich stark sowie recht groß dargestellt
 Die männlichen Charaktere erinnern stärker an Superhelden oder an John Wayne als an die Urväter in der Bibel. 
 
 ## Gewalt
+
 ![Männliche Charaktere](Löwe von Juda 03.png)</br>Screenshot von Instagram
+
 Diese Superheldenlogik führt zum dritten kritischen Punkt: **die unkritische Darstellung von Gewalt**.
 
 Gewalt ist ein ambivalentes menschliches Verhalten, jeder Mensch steht in der Gefahr Gewalt auszuüben und ihr ausgeliefert zu sein ([Bezold 2021](https://www.die-bibel.de/ressourcen/wibilex/altes-testament/gewalt-at)). Die hebräische Bibel enthält viele Geschichten, in denen Gewalt vorkommt; dabei wäre es jedoch falsch, daraus abzuleiten, dass jegliche Form von Gewalt gutgeheißen wird. Beispielsweise der Brudermord von Kain an Abel zeigt auf, welche zerstörerische Kraft in menschlicher Gewalt liegt ([Bezold 2021](https://www.die-bibel.de/ressourcen/wibilex/altes-testament/gewalt-at)). Diese zu Beginn des Pentateuchs so wichtige Geschichte ist eine, die in "Der Löwe von Juda" nicht vorkommt. Dadurch werden jedwede Darstellungen von Gewalt in einen heroischen Kontext gesetzt, indem das Böse nur mit Gewalt zerstört werden kann. 
