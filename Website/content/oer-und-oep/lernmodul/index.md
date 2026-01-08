@@ -52,7 +52,9 @@ Wie das Mehl beim Backen ist die Lizenz die wichtigste Grundlage für jedes OER:
 
 In diesem Modul lernst du, warum Lizenzen so wichtig sind und wie du dein Material rechtssicher öffnest. Du erfährst, welche Creative-Commons-Lizenzen (CC-Lizenzen) es gibt, was sie erlauben – und wo Fallstricke lauern können. Außerdem bekommst du praktische Tipps, wie du dein Material korrekt kennzeichnest und so anderen die Nachnutzung erleichterst.
 
-![](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Videos/Corinna-CC-Lizenz.mp4)
+[![Modularisierung von OER](Lizenz.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Lizenz.mp4)
+
+
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 ### Schritt 1: Rechte & Lizenzen klären 🧑‍⚖️
