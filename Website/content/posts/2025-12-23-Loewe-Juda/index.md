@@ -79,7 +79,7 @@ Zur Veröffentlichung von "Der Löwe von Juda" wurde auf der Instagramseite der 
 
 Dieses Zitat ist für die weiterführende Auseinandersetzung mit der Kinderbibel "Der Löwe von Juda" von besonderer Bedeutung, da bewusst Entscheidungen darüber getroffen wurden, welche Texte die Kinderbibel behandelt und welche nicht. Ebenso wurden Entscheidungen über das Aussehen der Tiere, ihre sprachliche Darstellung sowie über die Art der Illustration der Geschichten getroffen.
 
-![Zitat auf Instagram](Loewe-von-Juda-03.png) <br>Screenshot von Instagram</br>
+![Zitat auf Instagram](Loewe-von-Juda-04.png) <br>Screenshot von Instagram</br>
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
@@ -110,7 +110,9 @@ Die männlichen Charaktere erinnern stärker an Superhelden oder an John Wayne a
 
 ## Gewalt
 
-![Männliche Charaktere](Loewe-von-Juda-04.png) <br>Screenshot von Instagram</br>
+![Männliche Charaktere](Loewe-von-Juda-03.png) <br>Screenshot von Instagram</br>
+
+[Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
 Diese Superheldenlogik führt zum dritten kritischen Punkt: **die unkritische Darstellung von Gewalt**.
 
