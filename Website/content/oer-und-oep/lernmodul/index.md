@@ -14,6 +14,8 @@ Das OER-Grundrezept richtet sich an Lehrende, Bildungsverantwortliche und Intere
 
 Egal, ob du neu in der OER-Welt bist oder bereits erste Erfahrungen hast – hier bekommst du die wichtigsten Grundlagen, praxisnahe Tipps und hilfreiche Werkzeuge, um dein eigenes OER „nach Rezept“ zu gestalten.
 
+👉 Die gesamte Präsentation zum [Download](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/OER-Einfuehrung.odp)
+
 ## Was sind eigentlich Open Educational Resources (OER)? 🤔
 
 Open Educational Resources (OER) = freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden, um sie rechtssicher und kostenlos benutzen, bearbeiten und durch Dritte weiterzuverarbeiten - ohne oder mit geringfügigen Einschränkungen. 
@@ -36,17 +38,15 @@ Das Grundrezept hilft dir, dein Material so aufzubereiten, dass andere es verwen
 
 ## Das OER-Rezept zum Nachbacken 🍰
 
-🌾 **Mehl: CC-Lizenz**
+- [🌾 Mehl: CC-Lizenz](#mehl)
+- [🧈 Fett: Modularisierung](#fett)
+- [🍯 Süßungsmittel: Offenes Format](#suess)
+- [🥛 Milch: Metadaten](#milch)
+- [🧂 Backpulver: Veröffentlichung](#veroeffentlichung)
 
-🧈 **Fett: Modularisierung**
 
-🍯 **Süßungsmittel: Offenes Format**
-
-🥛 **Milch: Metadaten**
-
-🧂 **Backpulver + Prise Salz: Veröffentlichung**
-
-## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER! 
+<a id="mehl"></a>
+## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER
 
 Wie das Mehl beim Backen ist die Lizenz die wichtigste Grundlage für jedes OER: Ohne sie hält nichts zusammen und niemand weiß, was erlaubt ist.
 
@@ -179,6 +179,7 @@ Sind Bild- und Textlizenz einzeln ausgewiesen? Muss die z.B. die Bildquelle noch
 
 - **Wie nutze ich Canva für OER:** Eine Entscheidungshilfe, wie ich Canva für die OER-Erstellung nutzen kann, findet ihr u.a. im Blogbeitrag "[Canva für OER?](https://oer.community/canva/)".
 
+<a id="fett"></a>
 ## 🧈 Fett im Gebäck, einzelne Elemente miteinander verbinden für flexible OER
 
 Du hast nun das „Mehl“ (die Lizenz) als Basis, nun kommt das Fett ins Gebäck: die Modularisierung. Sie sorgt dafür, dass dein Material flexibel, kombinierbar und wiederverwendbar wird.
@@ -274,6 +275,7 @@ Welche CC-Lizenz für welche Einheit (Bild, Quiz, Arbeitsblatt...)?
 
 🔐 Datenschutz beachten: Insbesondere wenn die Lernunterlagen vertraulich sind (z.B. personenbezogene Daten) sollte man vorher die Nutzungs- und Geschäftsbedingungen prüfen, bevor man online das PDF im Browser hochlädt!
 
+<a id="suess"></a>
 ## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer
 
 Nachdem dein Material lizenziert und modular aufgebaut ist, kommt die Süße ins Gebäck: das offene Format. Nur in offenen Formaten kann dein OER wirklich bearbeitet, angepasst und weitergegeben werden – sonst bleibt es starr wie ein trockener Kuchen.
@@ -364,6 +366,8 @@ Wie könnte man Module direkt im offenen Format anbieten?
 
 - **Markdown**: Doku zum Workshop beim Projekt KlimaOER: https://oer.community/markdown-einfuehrung-klimaoer/, wer ausprobieren mag: https://t1p.de/MDAusprobieren
 
+
+<a id="milch"></a>
 ## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig
 
 Nach Lizenzierung, Modularisierung und offenen Formaten kommt die Milch ins Gebäck: die Metadaten. Sie geben deinem OER Struktur, Kontext und Auffindbarkeit – ohne sie bleibt dein Material zwar offen, aber schwer nutzbar.
@@ -469,6 +473,7 @@ Wie könnte man die Angabe von Metadaten gut im Arbeitsprozess implementieren?
 
 - Metadaten-Checklisten, z.B. unter https://www.twillo.de/edu-sharing/components/render/3800c400-6d1d-4137-9ab4-91bdeddfd8dd
 
+<a id="veroeffentlichung"></a>
 ## 🧂 Ohne Backpulver geht der Teig nicht auf, ohne Veröffentlichung von OER keine Verbreitung
 
 Nachdem dein OER lizenziert, modular aufgebaut, offen formatiert und mit Metadaten angereichert ist, fehlt nur noch das Backpulver: die Veröffentlichung. Sie sorgt dafür, dass dein Material wirklich genutzt, geteilt und weiterentwickelt wird – sonst bleibt dein OER im „Ofen“ stecken.
@@ -579,59 +584,6 @@ Wie beim Backen gilt: Je öfter du es ausprobierst, desto leichter und intuitive
 
 Wenn du Rückfragen hast oder Feedback geben möchtest, melde dich gerne bei:
 
-📧 [Gina Buchwald-Chassée / buchwald-chassee@comenius.de]
+📧 Gina Buchwald-Chassée / buchwald-chassee@comenius.de
 
 💬 Wir freuen uns über deine Ideen, Erfahrungen und Anregungen!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
