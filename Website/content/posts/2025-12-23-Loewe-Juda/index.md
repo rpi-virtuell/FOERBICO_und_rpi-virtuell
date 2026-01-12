@@ -82,7 +82,7 @@ Dieser Blogartikel widmet sich exemplarisch den hier genannten problematischen P
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
-Zur Veröffentlichung von „Der Löwe von Juda” wurde auf der Instagramseite der Deutschen Bibelgesellschaft vom Programmleiter folgendes [Statement](https://www.instagram.com/p/DQB3hZZjKqV/)abgegeben: 
+Zur Veröffentlichung von „Der Löwe von Juda” wurde auf der Instagramseite der Deutschen Bibelgesellschaft vom Programmleiter folgendes [Statement](https://www.instagram.com/p/DQB3hZZjKqV/) abgegeben: 
 
 > »Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden.«
 
