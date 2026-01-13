@@ -12,12 +12,18 @@ menus:
   - name: Was ist OER?
     url: /oer-und-oep/
     weight: 30
+  - name: Qualität
+    url: /qualitaet/
+    weight: 50
   - name: Team
     url: /unser-team/
     weight: 100
   - name: Blog
     url: /blog/
     weight: 300
+  - name: Tagungen
+    url: /tagungen/
+    weight: 14
   - name: Tags
     url: /tags/
     weight: 400
