@@ -1,3 +1,10 @@
+---
+#commonMetadata:
+#staticSiteGenerator:
+title: OER-Selbstlernmodul
+url: oer-und-oep/lernmodul
+---
+
 # Das OER-Grundrezept - mit wenigen Zutaten zum offenen Material
 
 Das OER-Grundrezept zeigt dir, wie du mit wenigen, gut verständlichen Schritten eigene offene Lehr- und Lernmaterialien (Open Educational Resources, kurz OER) erstellen kannst. OER sind frei verfügbare Materialien, die du rechtssicher nutzen, anpassen und teilen darfst – ein Gewinn für alle, die Bildung zugänglich und gemeinschaftlich gestalten möchten.
