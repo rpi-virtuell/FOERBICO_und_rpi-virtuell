@@ -5,6 +5,22 @@ title: OER und OEP
 url: oer-und-oep
 ---
 
+Viele Lehr- und Lernmaterialien dürfen nicht einfach weitergegeben, angepasst oder gemeinsam weiterentwickelt werden – selbst dann nicht, wenn sie eigentlich für Bildung gedacht sind. Das erschwert Zusammenarbeit, Innovation und den Zugang zu Wissen.
+
+Dieses Selbstlernmodul lädt dich dazu ein, eine andere Art des Umgangs mit Bildungsinhalten kennenzulernen: Materialien, die geteilt, angepasst und gemeinsam weiternentwickelt werden können.
+
+![](OER-Selbstlernmodul.png)
+
+Das Modul richtet sich an alle, die:
+
+- offenere Lehr- und Lernformen kennenlernen möchten
+
+- Materialien nicht nur nutzen, sondern auch weiterentwickeln wollen
+
+- nach Orientierung im Umgang mit offenen Lizenzen suchen
+
+Im Verlauf des Moduls lernst du die zentralen Begriffe, Prinzipien und Handlungsmöglichkeiten kennen, die diese offene Bildungspraxis tragen. Die folgenden Definitionen bilden dafür die gemeinsame Ausgangsbasis.
+
 ## Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)?
 
 **Open Educational Resources (OER)** sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. Offene Lizenzen schaffen die Möglichkeit, dass die Lehr- und Lernmaterialien rechtssicher und kostenlos benutzt, bearbeitet und durch Dritte weiterverarbeitet werden können, ohne oder mit geringfügigen Einschränkungen. Die OER-Formate können von Texten, Videos, Präsentationen, Bildern, Podcasts und Planspielen bis hin zu kompletten Kursmaterialien und Lehrbüchern reichen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen. 
