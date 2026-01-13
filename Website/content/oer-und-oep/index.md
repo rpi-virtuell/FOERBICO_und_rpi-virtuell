@@ -9,7 +9,7 @@ Viele Lehr- und Lernmaterialien dürfen nicht einfach weitergegeben, angepasst o
 
 Dieses Selbstlernmodul lädt dich dazu ein, eine andere Art des Umgangs mit Bildungsinhalten kennenzulernen: Materialien, die geteilt, angepasst und gemeinsam weiternentwickelt werden können.
 
-[![Zum OER-Selbstlernmodul](Button_zum-OER-Selbstlernmodul.png)](lernmodul/)
+[![Zum OER-Selbstlernmodul](Button_zum-OER-Selbstlernmodul.png)](lernmodul)
 
 Das Modul richtet sich an alle, die:
 

@@ -21,7 +21,7 @@ Das OER-Grundrezept richtet sich an Lehrende, Bildungsverantwortliche und Intere
 
 Egal, ob du neu in der OER-Welt bist oder bereits erste Erfahrungen hast – hier bekommst du die wichtigsten Grundlagen, praxisnahe Tipps und hilfreiche Werkzeuge, um dein eigenes OER „nach Rezept“ zu gestalten.
 
-👉 Die gesamte Präsentation zum [Download](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/OER-Einfuehrung.odp)
+👉 Die gesamte Präsentation zum [Download](OER-Einfuehrung.odp)
 
 ## Was sind eigentlich Open Educational Resources (OER)? 🤔
 
@@ -51,15 +51,13 @@ Das Grundrezept hilft dir, dein Material so aufzubereiten, dass andere es verwen
 - [🥛 Milch: Metadaten](#milch)
 - [🧂 Backpulver: Veröffentlichung](#veroeffentlichung)
 
-
-<a id="mehl"></a>
-## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER
+## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER {#mehl}
 
 Wie das Mehl beim Backen ist die Lizenz die wichtigste Grundlage für jedes OER: Ohne sie hält nichts zusammen und niemand weiß, was erlaubt ist.
 
 In diesem Modul lernst du, warum Lizenzen so wichtig sind und wie du dein Material rechtssicher öffnest. Du erfährst, welche Creative-Commons-Lizenzen (CC-Lizenzen) es gibt, was sie erlauben – und wo Fallstricke lauern können. Außerdem bekommst du praktische Tipps, wie du dein Material korrekt kennzeichnest und so anderen die Nachnutzung erleichterst.
 
-[![Modularisierung von OER](Lizenz.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Lizenz.mp4)
+[![Modularisierung von OER](Lizenz.jpg)](Corinna-Lizenz.mp4)
 
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
@@ -186,14 +184,13 @@ Sind Bild- und Textlizenz einzeln ausgewiesen? Muss die z.B. die Bildquelle noch
 
 - **Wie nutze ich Canva für OER:** Eine Entscheidungshilfe, wie ich Canva für die OER-Erstellung nutzen kann, findet ihr u.a. im Blogbeitrag "[Canva für OER?](https://oer.community/canva/)".
 
-<a id="fett"></a>
-## 🧈 Fett im Gebäck, einzelne Elemente miteinander verbinden für flexible OER
+## 🧈 Fett im Gebäck, einzelne Elemente miteinander verbinden für flexible OER {#fett}
 
 Du hast nun das „Mehl“ (die Lizenz) als Basis, nun kommt das Fett ins Gebäck: die Modularisierung. Sie sorgt dafür, dass dein Material flexibel, kombinierbar und wiederverwendbar wird.
 
 In diesem Modul lernst du, wie du dein OER in kleine, in sich geschlossene Bausteine zerlegst, die unabhängig voneinander genutzt oder mit anderen Modulen kombiniert werden können. Du erfährst, warum Modularisierung für Anpassbarkeit, Nachnutzbarkeit und kreative Freiheit so entscheidend ist – und worauf du achten musst, damit der „rote Faden“ erhalten bleibt.
 
-[![Modularisierung von OER](Modularisierung.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Modularisierung.mp4)
+[![Modularisierung von OER](Modularisierung.jpg)](Corinna-Modularisierung.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
@@ -282,14 +279,13 @@ Welche CC-Lizenz für welche Einheit (Bild, Quiz, Arbeitsblatt...)?
 
 🔐 Datenschutz beachten: Insbesondere wenn die Lernunterlagen vertraulich sind (z.B. personenbezogene Daten) sollte man vorher die Nutzungs- und Geschäftsbedingungen prüfen, bevor man online das PDF im Browser hochlädt!
 
-<a id="suess"></a>
-## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer
+## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer {#suess}
 
 Nachdem dein Material lizenziert und modular aufgebaut ist, kommt die Süße ins Gebäck: das offene Format. Nur in offenen Formaten kann dein OER wirklich bearbeitet, angepasst und weitergegeben werden – sonst bleibt es starr wie ein trockener Kuchen.
 
 In diesem Modul lernst du, warum offene Formate (z. B. ODT, Markdown, H5P) so wichtig für OER sind und wie sie die Nachnutzung, Barrierefreiheit und Flexibilität erleichtern. Du erfährst, welche Formate sich eignen, welche Fallstricke es gibt und wie du bestehende geschlossene Materialien in offene Formate überführst.
 
-[![Offenes Format von OER](Offenes-Format.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Offenes-Format.mp4)
+[![Offenes Format von OER](Offenes-Format.jpg)](Corinna-Offenes-Format.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
@@ -373,15 +369,13 @@ Wie könnte man Module direkt im offenen Format anbieten?
 
 - **Markdown**: Doku zum Workshop beim Projekt KlimaOER: https://oer.community/markdown-einfuehrung-klimaoer/, wer ausprobieren mag: https://t1p.de/MDAusprobieren
 
-
-<a id="milch"></a>
-## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig
+## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig {#milch}
 
 Nach Lizenzierung, Modularisierung und offenen Formaten kommt die Milch ins Gebäck: die Metadaten. Sie geben deinem OER Struktur, Kontext und Auffindbarkeit – ohne sie bleibt dein Material zwar offen, aber schwer nutzbar.
 
 In diesem Modul lernst du, was Metadaten sind, warum sie für OER so wichtig sind und wie du sie richtig anlegst. Du erfährst, welche Standards existieren (z. B. Dublin Core, LOM, schema.org), welche Pflicht- und optionale Angaben sinnvoll sind und wie Metadaten die Suche, Nutzung und Weitergabe deiner Materialien erleichtern.
 
-[![Metadaten von OER](Metadaten.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Metadaten.mp4)
+[![Metadaten von OER](Metadaten.jpg)](Corinna-Metadaten.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
@@ -480,14 +474,13 @@ Wie könnte man die Angabe von Metadaten gut im Arbeitsprozess implementieren?
 
 - Metadaten-Checklisten, z.B. unter https://www.twillo.de/edu-sharing/components/render/3800c400-6d1d-4137-9ab4-91bdeddfd8dd
 
-<a id="veroeffentlichung"></a>
-## 🧂 Ohne Backpulver geht der Teig nicht auf, ohne Veröffentlichung von OER keine Verbreitung
+## 🧂 Ohne Backpulver geht der Teig nicht auf, ohne Veröffentlichung von OER keine Verbreitung {#veroeffentlichung}
 
 Nachdem dein OER lizenziert, modular aufgebaut, offen formatiert und mit Metadaten angereichert ist, fehlt nur noch das Backpulver: die Veröffentlichung. Sie sorgt dafür, dass dein Material wirklich genutzt, geteilt und weiterentwickelt wird – sonst bleibt dein OER im „Ofen“ stecken.
 
 In diesem Modul lernst du, wie du dein OER sicher und sichtbar veröffentlichst. Du erfährst, welche Plattformen, Repositorien und Formate sich eignen, welche Fallstricke es bei rechtlicher Sicherheit, Metadaten und Barrierefreiheit gibt und wie du die Verbreitung deiner Materialien langfristig sicherstellst.
 
-[![Veröffentlichung von OER](Veroeffentlichung.jpg)](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-lernmodul/Website/content/oer-und-oep/lernmodul/Corinna-Veroeffentlichung.mp4)
+[![Veröffentlichung von OER](Veroeffentlichung.jpg)](Corinna-Veroeffentlichung.mp4)
 
 Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
