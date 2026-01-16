@@ -328,7 +328,8 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 #### 4. Hands-On: Konkret am Material 📝
 
 **Beispielmaterial als PDF-Datei (geschlossenes Format):**
-[](Arbeitsblatt.pdf)
+
+[Arbeitsblatt im geschlossenen Format](Arbeitsblatt.pdf)
 
 ❌ Ich kann das Material in bearbeitbaren Formaten herunterladen.
 
@@ -343,7 +344,7 @@ Ich kann das Einzelmaterial downloaden, aber nicht bearbeiten und weiterverwende
 
 **Beispielmaterial als ODT-Datei (offenes Format):**
 
-[](Arbeitsblatt.odt)
+[Arbeitsblatt im offenen Format](Arbeitsblatt.odt)
 
 ✅ Ich kann das Material herunterladen und bearbeiten.
 
