@@ -22,6 +22,9 @@ languages:
         - name: Startseite
           url: /
           weight: 10
+        - name: Tagungen
+          url: /tagungen/
+          weight: 20
         - name: Was ist OER?
           url: /oer-und-oep/
           weight: 30
