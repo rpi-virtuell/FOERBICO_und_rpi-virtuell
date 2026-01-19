@@ -107,7 +107,7 @@ Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 ![Bibeltext](17.jpg) <br>*mit Canva erstellt*</br>
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
-In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam als [PDF-Datei](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-lichtmomente-NEU/Website/content/2025-12-08-Lichtmomente/PoetrySlamArbeitsauftrag.pdf):
+In der religionspädagogischen Umsetzung wird der Text zum Ausgangspunkt für einen Poetry-Slam als [PDF-Datei](PoetrySlamArbeitsauftrag.pdf):
 Der Text Jesaja 9,1ff. spricht genau in solche Situationen hinein. 
 Die Adressaten des Propheten erleben politische Bedrängnis und gesellschaftliche Unsicherheit. 
 Die Zusage eines „hellen Lichts“ steht als Gegenbild zu Angst und Finsternis. Für die Schüler:innen wird deutlich: 
@@ -123,7 +123,7 @@ Dafür werden zwei Textausschnitte gegenübergestellt und in Einzelarbeit in zwe
 Mit der Methode der Bibel-Spurensuche markieren die Lernenden zunächst ihren jeweiligen „Lichtmoment“ im Text. 
 Mt 2,9-11; LUT 2017 
 Lk 2, 9; LUT 2017
-Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE als [PDF-Datei](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-lichtmomente-NEU/Website/content/2025-12-08-Lichtmomente/Dokument%20Lichtspur-Karte.pdf) aus:
+Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE als [PDF-Datei](Lichtspur-Karte.pdf) aus:
   - Wo taucht das Licht auf?
   - Was bedeutet das Licht?
   - Welche Rolle spielt das Licht heute?
