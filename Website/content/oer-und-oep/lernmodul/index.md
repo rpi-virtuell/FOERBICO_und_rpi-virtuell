@@ -10,7 +10,7 @@ url: oer-und-oep/lernmodul
 ## Inhaltsverzeichnis
 - [Kurseinführung](#einfuehrung)
 - [Was sind OER?](#oer)
-- [Kompetenzen Ziele](#ziele)
+- [Rezeptkarte](#anleitung)
  
 ### Das OER-Rezept zum Nachbacken 🍰
 - [CC-Lizenz: 🌾 Mehl](#cclizenz)
@@ -61,45 +61,28 @@ Bevor du loslegst: Schürze an!
 Wie haben dir hier die [Grundlagen zu OER&OEP](https://oer.community/oer-und-oep/#was-sind-open-educational-resources-oer-und-open-educational-practices-oep) und [hier die 5V-Freiheiten](https://oer.community/oer-und-oep/#was-sind-open-educational-resources-oer-und-open-educational-practices-oep) als Referenz zum einlesen bereitgestellt.
 ![](5v-schuerze.jpg)
 
-## Wie lautet das Grundrezept von OER, welche Zutaten braucht es? {#ziele}
-Damit ein Lern- und Lehrmaterial wirklich offen, rechtssicher und nachnutzbar ist, braucht es ein paar grundlegende „Zutaten“. Genau diese zeigt das OER-Grundrezept.
+## Rezeptkarte oder was du in diesem Modul lernst? {#anleitung}
+Damit ein Lern- und Lehrmaterial wirklich offen, rechtssicher und nachnutzbar ist, braucht es ein paar grundlegende Informationen „Rezeptkarte“. Diese gibt dir einen grundlegenden Überblick über das, was du am Ende erreichen kannst. 
 
-Das Grundrezept hilft dir, dein Material so aufzubereiten, dass andere es verwenden, anpassen und weiterentwickeln können – und du selbst von der Arbeit anderer profitierst. Du lernst, worauf es bei Lizenzen, Struktur, Formaten, Metadaten und Veröffentlichung ankommt und wie daraus ein rundes, „gelingsicheres“ OER entsteht.
+Die Rezeptkarte hilft dir, dein Material so aufzubereiten, dass andere es verwenden, anpassen und weiterentwickeln können – und du selbst von der Arbeit anderer profitierst. Du lernst, worauf es bei Lizenzen, Struktur, Formaten, Metadaten und Veröffentlichung ankommt und wie daraus ein rundes, „gelingsicheres“ OER entsteht.
 Das Lernmodul verfolgt insbesondere folgende Ziele:
 - Vermittlung eines theoretisch fundierten Verständnisses von OER und OEP im Kontext digitaler Bildung
 - Sensibilisierung für rechtliche, technische und didaktische Voraussetzungen offener Bildungsressourcen
 - Befähigung zur Erstellung, Nutzung, Anpassung und Veröffentlichung von OER
 - Förderung reflexiver und partizipativer Haltungen gegenüber Offenheit, Kollaboration und Wissensweitergabe
-- Unterstützung einer nachhaltigen, gemeinschaftsorientierten und offenen Lehr- und Lernpraxis
+- Unterstützung einer gemeinschaftsorientierten offenen Lehr- und Lernpraxis
 
 Zu erwerbende Kompetenzen
 
-Nach Abschluss des Lernmoduls verfügen die Lernenden über folgende Kompetenzen:
-
-Fachliche Kompetenzen: 
-Die Lernenden können zentrale Begriffe, Konzepte und Prinzipien von Open Educational Resources und Open Educational Practices erläutern. 
-Sie können OER in bildungswissenschaftliche, medienpädagogische und hochschuldidaktische Kontexte einordnen.
-Sie können die Bedeutung offener Bildungsressourcen für nachhaltige, inklusive und partizipative Bildung begründen.
-
-Rechtliche Kompetenzen: 
-Die Lernenden können grundlegende urheberrechtliche Fragestellungen im Kontext von OER erklären.
-Sie können Creative-Commons-Lizenzen unterscheiden, korrekt anwenden und deren Auswirkungen auf Nachnutzung und Weiterverbreitung einschätzen.
-Sie können rechtssichere Entscheidungen bei der Nutzung und Veröffentlichung von Bildungsressourcen treffen.
-
-Methodisch-praktische Kompetenzen: 
+Nach Abschluss dieses Lernmoduls verfügen die Lernenden über folgende **methodisch-praktische** Kompetenzen:
 Die Lernenden können eigene Materialien als OER aufbereiten, lizenzieren und veröffentlichen.
 Sie können bestehende OER recherchieren, bewerten, anpassen und didaktisch sinnvoll einsetzen.
 Sie können geeignete Werkzeuge und Plattformen zur Erstellung und Verbreitung offener Bildungsressourcen auswählen und nutzen.
-
-Reflexive und personale Kompetenzen: 
-Die Lernenden können ihre eigene Rolle als Autor:in, Lehrende:r oder Lernende:r in offenen Bildungspraktiken reflektieren.
-Sie können Chancen, Herausforderungen und Grenzen von OER und OEP kritisch einschätzen.
-Sie entwickeln eine offene Haltung gegenüber Wissensaustausch, Kollaboration und gemeinschaftlichem Lernen.
-
-Soziale und kollaborative Kompetenzen:
-Die Lernenden können OER als Teil kooperativer Bildungspraktiken verstehen und nutzen.
-Sie können sich aktiv und verantwortungsvoll in OER-Communities einbringen.
 Sie können Offenheit als Bestandteil einer nachhaltigen und partizipativen Bildungskultur mitgestalten.
+
+>[!TIP] 
+><details> <summary> Im Bereich des OER gibt es weitere Kompetenzen, die dieser Kurs nicht abdeckt  </summary> Es gibt rechtliche, technische und religionspädagogische Kompetenzen die man auch erwerben kann. Ein Überblick sowie weitere Informationen bieten unsere [Qualitätskriterien](https://oer.community/qualitaet/) sowie weitere Blogbeiträge auf [oer.community](https://oer.community/blog/)
+</details>
 
 ## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER {#cclizenz}
 
