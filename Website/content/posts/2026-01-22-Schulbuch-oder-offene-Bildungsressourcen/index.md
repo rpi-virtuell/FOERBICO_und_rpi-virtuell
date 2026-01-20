@@ -91,15 +91,15 @@ Porzelt verweist zudem auf die Gefahr, dass durch ein zu stark normiertes Zulass
 
 Demgegenüber entstehen OER in deutlich offeneren Strukturen. Sie werden von Personen entwickelt, die sich für Bildung engagieren, das sind mit unter Lehrkräfte, Erzieher:innen, Wissenschaftler:innen, Multiplikator:innen von Fort- und Weiterbildungsangeboten oder NGO's. Diese Offenheit ermöglicht es, viele Menschen an der Entstehung von Lehr-Lernmaterialien zu beteiligen und hinsichtlich der Themenauswahl, Produktion, Darstellung, Verwaltung und Verbreitung von Wissen teilzuhaben (vgl. Paschke 2024, 255)
 
-OER werden meist auf digitalen Plattformen wie z.B. *orca.nrw*, *twillo* oder speziell für religiöse Bildungsprozesse *rpi-virtuell* eingestellt und verbreitet, damit sie einem großen Personenkreis konstenlos zugänglich gemacht werden können. 
+OER werden meist auf digitalen Plattformen wie z.B. [*orca.nrw*](https://www.orca.nrw/), [*twillo*](https://www.twillo.de/) oder speziell für religiöse Bildungsprozesse [*rpi-virtuell*](https://rpi-virtuell.de/) eingestellt und verbreitet, damit sie einem großen Personenkreis konstenlos zugänglich gemacht werden können. 
 
 Charakteristisch für OER ist ihre Adaption und Nachnutzbarkeit. Durch offene [Creative Commons-Lizenzen](https://oer.community/oer-und-oep/) können die Materialien frei heruntergeladen, verändert, an spezifische Kontexte angepasst und neu publiziert werden.
 
 Die Qualitätssicherung vollzieht sich hier nicht durch ein zentrales Genehmigungsverfahren, sondern in dynamischen Prozessen kollaborativer Aushandlung. Nutzer:innen prüfen die Materialien im praktischen Einsatz, geben idealerweise Feedback über Kommentarspalten oder in digitalen Austauschrunden, passen die Materialien an ihre Lerngruppen an und entwickeln sie weiter. 
-Evaluation, Adaption und iterative Überarbeitung werden so zu Instrumenten der Qualitätssicherung. OER sind somit keine statisch abgeschlossenen Produkte, sondern kontinuierlich erweiterbar.
+Evaluation, Adaption und iterative Überarbeitung werden so zu Instrumenten der Qualitätssicherung. OER sind somit keine statisch abgeschlossenen Produkte, sondern kontinuierlich erweiterbar. > [Hier ist die Frage ob du auf die Qualitätskriterien noch hinweisen möchtest oder auch als ein Beispiel Community-Cafes etc...]
 
 Diese Offenheit ermöglicht ein hohes Maß an Partizipation, Kreativität und Aktualität. So verdeutlicht Paschke (2024, S. 254f), dass OER die Chance liefern, aktuelle kirchliche Entwicklungen, wie den synodalen Weg oder Out in Church mit geeignetem Material im Unterricht zu bearbeiten, um Schüler:innen über den Schulkontext hinaus dafür zu motivieren, kirchenpolitische Entwicklungen mitzugestalten. 
-Allerdings birgt die Offenheit jedoch auch gewisse Risiken. Ohne institutionelle Autorisierung können theologische Maßstäbe verschwimmen und die Sicherung inhaltlicher Standards hängt stark von der aktiven Mitwirkung der Community ab.
+Allerdings birgt die Offenheit jedoch auch gewisse Risiken. Ohne institutionelle Autorisierung können theologische Maßstäbe verschwimmen > [Was meinst du mit verschwimmen? Ist nicht eher die Gefahr, dass die theologische Ausrichtung zu einseitig sein könnte? Weil ich finde gerade in Schulbüchern ist die theologische Richtung zu allgemein gehalten, weil man nicht zu sehr in eine Richtung gehen möchte.] und die Sicherung inhaltlicher Standards hängt stark von der aktiven Mitwirkung der Community ab.
 
 
 ## Diskussion: Zwischen normativer Verbindlichkeit und partizipativer Offenheit
@@ -109,9 +109,9 @@ Kirchlich bzw. religionsgemeinschaftlich genehmigte Schulbücher gewährleisten 
 OER entfalten ihre Qualität dagegen im Modus der Offenheit. Sie leben von Partizipation, Adaptierbarkeit und der dynamischen Weiterentwicklung durch Praktker:innen.
 
 Religionsgemeinschaftliche bzw. staatlich-kirchliche Verfahren schaffen Verlässlichkeit, können jedoch nach Porzelt (2023; 2024) Innovation und Pluralität begrenzen. 
-OER eröffnen neue Räume für Partizipation und kontextuelle Passung, sind jedoch anfällig für Beliebigkeit und den Verlust theologischer Tiefe. Die Herausforderung für die religionspädagogische Praxis besteht darin, diese beiden Ansätze nicht als unvereinbare Gegensätze zu betrachten, sondern sie produktiv miteinander zu verknüpfen.
+OER eröffnen neue Räume für Partizipation und kontextuelle Passung, sind jedoch anfällig für Beliebigkeit und den Verlust theologischer Tiefe >[Ich würde stattdessen, Verlust von theologischer Reflexion]. Die Herausforderung für die religionspädagogische Praxis besteht darin, diese beiden Ansätze nicht als unvereinbare Gegensätze zu betrachten, sondern sie produktiv miteinander zu verknüpfen.
 
-Eine zukunftsweisende Perspektive könnte darin liegen, normative Orientierungen in offene Entwicklungsprozesse einzubringen und zugleich von den partizipativen, adaptiven Praktiken der OER-Communities zu lernen. So könnte eine neue Materialkultur entstehen, die sowohl Verbindlichkeit als auch Offenheit ernst nimmt.
+Eine zukunftsweisende Perspektive könnte darin liegen, normative Orientierungen in offene Entwicklungsprozesse einzubringen und zugleich von den partizipativen, adaptiven Praktiken der OER-Communities zu lernen. So könnte eine neue Materialkultur entstehen, die sowohl Verbindlichkeit als auch Offenheit ernst nimmt. >[Vielleicht kann auch erwähnt werden, das OER begleitend zu bestehenden Material eine gute ERgänzung ist...]
 
 Letztlich bleibt das eingangs skizzierte Bild bestehen. Auf der einen Seite liegt der geordnete Stapel autorisierter Schulbücher, auf der anderen Seite die dynamische, vielleicht chaotisch anmutende Vielfalt frei zugänglicher OER. 
 Doch gerade in dieser Spannung eröffnet sich die Möglichkeit, beide Welten in einen produktiven Dialog zu führen und eine zukunftsfähige Kultur religiöser Bildung zu gestalten, die institutionelle Verantwortung und kreative Offenheit zumindest miteinander ins Gespräch bringt.
