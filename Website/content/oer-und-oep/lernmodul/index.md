@@ -7,51 +7,101 @@ url: oer-und-oep/lernmodul
 
 # Das OER-Grundrezept - mit wenigen Zutaten zum offenen Material
 
-Das OER-Grundrezept zeigt dir, wie du mit wenigen, gut verständlichen Schritten eigene offene Lehr- und Lernmaterialien (Open Educational Resources, kurz OER) erstellen kannst. OER sind frei verfügbare Materialien, die du rechtssicher nutzen, anpassen und teilen darfst – ein Gewinn für alle, die Bildung zugänglich und gemeinschaftlich gestalten möchten.
+## Inhaltsverzeichnis
+- [Kurseinführung](#einfuehrung)
+- [Was sind OER?](#oer)
+- [Kompetenzen Ziele](#ziele)
+ 
+### Das OER-Rezept zum Nachbacken 🍰
+- [CC-Lizenz: 🌾 Mehl](#cclizenz)
+    - Aufgaben  / Reflexionsfragen
+- [Modularisierung: 🧈 Fett](#modularisierung)
+    - Aufgaben  / Reflexionsfragen
+- [Offenes Format - 🍯 Süßungsmittel](#offenesformat)
+    - Aufgaben  / Reflexionsfragen
+- [Metadaten: 🥛 Milch](#metadaten)
+    - Aufgaben / Reflexionsfragen
+- [Veröffentlichung: 🧂 Backpulver](#veroeffentlichung)
+    - Aufgaben / Reflexionsfragen
 
-In diesem Selbstlernmodul erfährst du:
 
-➡️ was OER sind und warum sie für Lehre, Schule und Weiterbildung so wertvoll sind,
+## Kurseinführung {#einfuehrung}
 
-➡️ welche grundlegenden „Zutaten“ es braucht, um ein Material in ein OER zu verwandeln,
+Um OER nachvollziehbar zu machen, verwenden wir das Bild eines Backrezepts. Hierbei braucht es die 👩‍🍳 Bäckermeister:in, die Vorbereitung und das **Grundrezept**. 
 
-➡️ wie du Schritt für Schritt von der Lizenz über das Format bis zur Veröffentlichung dein eigenes OER backst.
+### Grundrezept
+Um Open Educational Resources (OER) nachvollziehbar und greifbar zu machen, verwenden wir das Bild eines Backrezepts. Ähnlich wie beim Backen oder Kochen bietet ein Rezept Orientierung, Schritt-für-Schritt-Anleitung und hilfreiche Tipps – und zeigt zugleich, wie eigene Fähigkeiten entdeckt und weiterentwickelt werden können.*
 
-Das OER-Grundrezept richtet sich an Lehrende, Bildungsverantwortliche und Interessierte, die lernen möchten, wie sie ihre Materialien offen teilen und dabei rechtliche Sicherheit, kreative Freiheit und nachhaltige Nutzung verbinden können.
+In unserem Bild gibt es drei zentrale Elemente:
+
+- 👩‍🍳 **Die Bäckermeister:in**  – die erfahrene Praxisperson, die Wissen, Erfahrung und Anleitung weitergibt.
+
+- 🥣  **Die Vorbereitung** – die sorgfältige Planung, die Auswahl der Zutaten und das Verständnis der Grundprinzipien.
+
+- 📜 **Das Grundrezept**  – die Basisanleitung, die es ermöglicht, etwas Nahrhaftes und Geschmackvolles zu kreieren.
+
+Wie beim echten Backen kann das Rezept nach dem eigenen Geschmack angepasst werden. Man kann experimentieren, eigene Ideen einbringen und die Zubereitung an die eigenen Bedürfnisse anpassen. Gleichzeitig gilt: Manche Rezepte sind komplex, und Zusammenarbeit kann helfen. In Communities lassen sich Erfahrungen teilen, gemeinsam Neues entwickeln und voneinander lernen.
+
+Dieses Bild macht deutlich: OER ist kein starres Konzept, sondern eine offene Praxis, die Orientierung bietet, Kreativität zulässt und Zusammenarbeit fördert. Genau wie beim Backen entsteht so ein Ergebnis, das nicht nur funktional ist, sondern auch persönlich gestaltet und genossen werden kann.
 
 Egal, ob du neu in der OER-Welt bist oder bereits erste Erfahrungen hast – hier bekommst du die wichtigsten Grundlagen, praxisnahe Tipps und hilfreiche Werkzeuge, um dein eigenes OER „nach Rezept“ zu gestalten.
 
+
 👉 Die gesamte Präsentation zum [Download](OER-Einfuehrung.odp)
 
-## Was sind eigentlich Open Educational Resources (OER)? 🤔
+Bist du bereit, Mehl zu sieben, den Ofen vorzuheizen und deine Materialien endlich richtig open zu machen? 😄
+Dann nichts wie los - die Backstube wartet! 🍪📚
 
+
+## Was sind eigentlich Open Educational Resources (OER)? 🤔{#oer}
 Open Educational Resources (OER) = freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden, um sie rechtssicher und kostenlos benutzen, bearbeiten und durch Dritte weiterzuverarbeiten - ohne oder mit geringfügigen Einschränkungen. 
 
-OER bieten eine verlässliche Basis, die individuell angepasst und kreativ verändert werden kann. Sie sind frei teilbar und bleiben durch Weitergabe und Anpassung aktuell, sodass Wissen und Traditionen nicht verloren gehen. Durch ihre klare Struktur geben sie Sicherheit und erleichtern den Einstieg – wie ein Rezept, das immer gelingt.
 
-## Was beudetet das für OER - die 5 Vs:
+Bevor du loslegst: Schürze an!
+Wie haben dir hier die [Grundlagen zu OER&OEP](https://oer.community/oer-und-oep/#was-sind-open-educational-resources-oer-und-open-educational-practices-oep) und [hier die 5V-Freiheiten](https://oer.community/oer-und-oep/#was-sind-open-educational-resources-oer-und-open-educational-practices-oep) als Referenz zum einlesen bereitgestellt.
+![](5v-schuerze.jpg)
 
-![5V-Freiheiten-CC-by-4.0.jpg](5V-Freiheiten-CC-by-4.0.jpg)
-
-„[5 V-Freiheiten für Offenheit](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer)
-online abrufbar unter: https://open-educational-resources.de/5rs-auf-deutsch/ 
-Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-## Wie lautet das Grundrezept von OER, welche Zutaten braucht es?
-
+## Wie lautet das Grundrezept von OER, welche Zutaten braucht es? {#ziele}
 Damit ein Lern- und Lehrmaterial wirklich offen, rechtssicher und nachnutzbar ist, braucht es ein paar grundlegende „Zutaten“. Genau diese zeigt das OER-Grundrezept.
 
 Das Grundrezept hilft dir, dein Material so aufzubereiten, dass andere es verwenden, anpassen und weiterentwickeln können – und du selbst von der Arbeit anderer profitierst. Du lernst, worauf es bei Lizenzen, Struktur, Formaten, Metadaten und Veröffentlichung ankommt und wie daraus ein rundes, „gelingsicheres“ OER entsteht.
+Das Lernmodul verfolgt insbesondere folgende Ziele:
+- Vermittlung eines theoretisch fundierten Verständnisses von OER und OEP im Kontext digitaler Bildung
+- Sensibilisierung für rechtliche, technische und didaktische Voraussetzungen offener Bildungsressourcen
+- Befähigung zur Erstellung, Nutzung, Anpassung und Veröffentlichung von OER
+- Förderung reflexiver und partizipativer Haltungen gegenüber Offenheit, Kollaboration und Wissensweitergabe
+- Unterstützung einer nachhaltigen, gemeinschaftsorientierten und offenen Lehr- und Lernpraxis
 
-## Das OER-Rezept zum Nachbacken 🍰
+Zu erwerbende Kompetenzen
 
-- [🌾 Mehl: CC-Lizenz](#mehl)
-- [🧈 Fett: Modularisierung](#fett)
-- [🍯 Süßungsmittel: Offenes Format](#suess)
-- [🥛 Milch: Metadaten](#milch)
-- [🧂 Backpulver: Veröffentlichung](#veroeffentlichung)
+Nach Abschluss des Lernmoduls verfügen die Lernenden über folgende Kompetenzen:
 
-## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER {#mehl}
+Fachliche Kompetenzen: 
+Die Lernenden können zentrale Begriffe, Konzepte und Prinzipien von Open Educational Resources und Open Educational Practices erläutern. 
+Sie können OER in bildungswissenschaftliche, medienpädagogische und hochschuldidaktische Kontexte einordnen.
+Sie können die Bedeutung offener Bildungsressourcen für nachhaltige, inklusive und partizipative Bildung begründen.
+
+Rechtliche Kompetenzen: 
+Die Lernenden können grundlegende urheberrechtliche Fragestellungen im Kontext von OER erklären.
+Sie können Creative-Commons-Lizenzen unterscheiden, korrekt anwenden und deren Auswirkungen auf Nachnutzung und Weiterverbreitung einschätzen.
+Sie können rechtssichere Entscheidungen bei der Nutzung und Veröffentlichung von Bildungsressourcen treffen.
+
+Methodisch-praktische Kompetenzen: 
+Die Lernenden können eigene Materialien als OER aufbereiten, lizenzieren und veröffentlichen.
+Sie können bestehende OER recherchieren, bewerten, anpassen und didaktisch sinnvoll einsetzen.
+Sie können geeignete Werkzeuge und Plattformen zur Erstellung und Verbreitung offener Bildungsressourcen auswählen und nutzen.
+
+Reflexive und personale Kompetenzen: 
+Die Lernenden können ihre eigene Rolle als Autor:in, Lehrende:r oder Lernende:r in offenen Bildungspraktiken reflektieren.
+Sie können Chancen, Herausforderungen und Grenzen von OER und OEP kritisch einschätzen.
+Sie entwickeln eine offene Haltung gegenüber Wissensaustausch, Kollaboration und gemeinschaftlichem Lernen.
+
+Soziale und kollaborative Kompetenzen:
+Die Lernenden können OER als Teil kooperativer Bildungspraktiken verstehen und nutzen.
+Sie können sich aktiv und verantwortungsvoll in OER-Communities einbringen.
+Sie können Offenheit als Bestandteil einer nachhaltigen und partizipativen Bildungskultur mitgestalten.
+
+## 🌾 Ohne Mehl keinen Kuchen, ohne Lizenz kein OER {#cclizenz}
 
 Wie das Mehl beim Backen ist die Lizenz die wichtigste Grundlage für jedes OER: Ohne sie hält nichts zusammen und niemand weiß, was erlaubt ist.
 
@@ -184,7 +234,7 @@ Sind Bild- und Textlizenz einzeln ausgewiesen? Muss die z.B. die Bildquelle noch
 
 - **Wie nutze ich Canva für OER:** Eine Entscheidungshilfe, wie ich Canva für die OER-Erstellung nutzen kann, findet ihr u.a. im Blogbeitrag "[Canva für OER?](https://oer.community/canva/)".
 
-## 🧈 Fett im Gebäck, einzelne Elemente miteinander verbinden für flexible OER {#fett}
+## 🧈 Fett im Gebäck, einzelne Elemente miteinander verbinden für flexible OER {#modularisierung}
 
 Du hast nun das „Mehl“ (die Lizenz) als Basis, nun kommt das Fett ins Gebäck: die Modularisierung. Sie sorgt dafür, dass dein Material flexibel, kombinierbar und wiederverwendbar wird.
 
@@ -279,7 +329,7 @@ Welche CC-Lizenz für welche Einheit (Bild, Quiz, Arbeitsblatt...)?
 
 🔐 Datenschutz beachten: Insbesondere wenn die Lernunterlagen vertraulich sind (z.B. personenbezogene Daten) sollte man vorher die Nutzungs- und Geschäftsbedingungen prüfen, bevor man online das PDF im Browser hochlädt!
 
-## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer {#suess}
+## 🍯 Ohne Süße schmeckt der Kuchen nicht, ohne offenes Format macht die Weiterentwicklung sauer {#offenesformat}
 
 Nachdem dein Material lizenziert und modular aufgebaut ist, kommt die Süße ins Gebäck: das offene Format. Nur in offenen Formaten kann dein OER wirklich bearbeitet, angepasst und weitergegeben werden – sonst bleibt es starr wie ein trockener Kuchen.
 
@@ -370,7 +420,7 @@ Wie könnte man Module direkt im offenen Format anbieten?
 
 - **Markdown**: Doku zum Workshop beim Projekt KlimaOER: https://oer.community/markdown-einfuehrung-klimaoer/, wer ausprobieren mag: https://t1p.de/MDAusprobieren
 
-## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig {#milch}
+## 🥛 Milch macht den Kuchen saftig, Metadaten machen OER reichhaltig {#metadaten}
 
 Nach Lizenzierung, Modularisierung und offenen Formaten kommt die Milch ins Gebäck: die Metadaten. Sie geben deinem OER Struktur, Kontext und Auffindbarkeit – ohne sie bleibt dein Material zwar offen, aber schwer nutzbar.
 
