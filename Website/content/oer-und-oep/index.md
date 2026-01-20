@@ -5,26 +5,18 @@ title: OER und OEP
 url: oer-und-oep
 ---
 
-Viele Lehr- und Lernmaterialien dürfen nicht einfach weitergegeben, angepasst oder gemeinsam weiterentwickelt werden – selbst dann nicht, wenn sie eigentlich für Bildung gedacht sind. Das erschwert Zusammenarbeit, Innovation und den Zugang zu Wissen.
+## Inhaltsverzeichnis
+- [Was sind OER und OEP](#oeroep) 
+- [Selbstlernmodul](#selbstlernmodul)
 
-Dieses Selbstlernmodul lädt dich dazu ein, eine andere Art des Umgangs mit Bildungsinhalten kennenzulernen: Materialien, die geteilt, angepasst und gemeinsam weiternentwickelt werden können.
-
-[![Zum OER-Selbstlernmodul](Button_zum-OER-Selbstlernmodul.png)](lernmodul)
-
-Das Modul richtet sich an alle, die:
-
-- offenere Lehr- und Lernformen kennenlernen möchten
-
-- Materialien nicht nur nutzen, sondern auch weiterentwickeln wollen
-
-- nach Orientierung im Umgang mit offenen Lizenzen suchen
-
-Im Verlauf des Moduls lernst du die zentralen Begriffe, Prinzipien und Handlungsmöglichkeiten kennen, die diese offene Bildungspraxis tragen. Die folgenden Definitionen bilden dafür die gemeinsame Ausgangsbasis.
-
-## Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)?
+## Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)? {#oeroep}
 
 **Open Educational Resources (OER)** sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. Offene Lizenzen schaffen die Möglichkeit, dass die Lehr- und Lernmaterialien rechtssicher und kostenlos benutzt, bearbeitet und durch Dritte weiterverarbeitet werden können, ohne oder mit geringfügigen Einschränkungen. Die OER-Formate können von Texten, Videos, Präsentationen, Bildern, Podcasts und Planspielen bis hin zu kompletten Kursmaterialien und Lehrbüchern reichen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen. 
 Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern und den Bildungsprozess durch mehr Zusammenarbeit und Innovation zu bereichern. Material wird als OER bezeichnet wenn die 5V-Freiheiten *verwahren*, *verwenden*, *verarbeiten*, *vermischen* und *verbreiten* ermöglichen. 
+
+![5V-Freiheiten-CC-by-4.0.jpg](5V-Freiheiten-CC-by-4.0.jpg)
+
+„[5 V-Freiheiten für Offenheit](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer) online abrufbar unter: https://open-educational-resources.de/5rs-auf-deutsch/ Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 **Open Educational Practices (OEP)** beschreiben die dazugehörigen offenen Bildungspraktiken. OEP umfassen alle kollaborativen Methoden und Ansätze zur Erstellung, Nutzung und Weiterentwicklung von OER. Sie ermöglichen es den Nutzenden durch offene Lizenzen aktiv an den so genannten 5V-Freiheiten teilzuhaben. OEP greifen auf Technologien und soziale Netzwerke zurück, um Lernprozesse zu gestalten, in denen Lernende aktiv zusammenarbeiten, Wissen austauschen und voneinander lernen. Der Schwerpunkt liegt auf der Befähigung der Lernenden, selbst Wissen zu produzieren und ihren Bildungsweg aktiv zu gestalten. Darüber hinaus beziehen sich OEP auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen.
 Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
@@ -166,3 +158,20 @@ Metadaten sind strukturierte Daten, die Informationen die OER beinhalten. Sie er
 - **Technische Metadaten:** Beschreiben technische Informationen über das Format oder die Softwareanforderungen der Ressource.
 
 Metadaten sind entscheidend für die Verwaltung und Auffindbarkeit von OER. Es gibt verschiedene Standards, wie [Dublin Core](https://de.wikipedia.org/wiki/Dublin_Core), [LOM](https://de.wikipedia.org/wiki/Learning_Objects_Metadata) und [SCORM](https://docs.moodle.org/19/de/Lernpaket_(SCORM)), die speziell auf unterschiedliche Anwendungsfälle zugeschnitten sind. Die Wahl des richtigen Standards hängt von den spezifischen Voraussetzungen und Anforderungen der Ressource ab.
+
+## Selbstlernmodul {#selbstlernmodul}
+Viele Lehr- und Lernmaterialien dürfen nicht einfach weitergegeben, angepasst oder gemeinsam weiterentwickelt werden – selbst dann nicht, wenn sie eigentlich für Bildung gedacht sind. Das erschwert Zusammenarbeit, Innovation und den Zugang zu Wissen.
+
+Dieses Selbstlernmodul lädt dich dazu ein, eine andere Art des Umgangs mit Bildungsinhalten kennenzulernen: Materialien, die geteilt, angepasst und gemeinsam weiternentwickelt werden können.
+
+[![Zum OER-Selbstlernmodul](Button_zum-OER-Selbstlernmodul.png)](lernmodul)
+
+Das Modul richtet sich an alle, die:
+
+- offenere Lehr- und Lernformen kennenlernen möchten
+
+- Materialien nicht nur nutzen, sondern auch weiterentwickeln wollen
+
+- nach Orientierung im Umgang mit offenen Lizenzen suchen
+
+Im Verlauf des Moduls lernst du die zentralen Begriffe, Prinzipien und Handlungsmöglichkeiten kennen, die diese offene Bildungspraxis tragen. Die folgenden Definitionen bilden dafür die gemeinsame Ausgangsbasis.
