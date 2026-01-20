@@ -48,19 +48,19 @@ tags:
 
 Die Realität der religionspädagogischen Materialentwicklung lässt sich in einem markanten Kontrastbild beschreiben: 
 Auf der einen Seite befinden sich kirchlich geprüfte Unterrichtswerke, die meist in Form von Schulbüchern vorliegen. Sie entstehen in enger Kooperation von ausgewählten Autor:innen, kirchlichen Aufsichtsstellen und staatlicher Kulutsbehörde. 
-Auf der anderen Seite stehen offene, digitale Bildungsressourcen (OER), die von Lehrkräften, Praktiker:innen, Wissenschaftler:innen oder Multiplikator:innen erstellt und über Plattformen wie *rpi-virtuell* verbreitet werden. Sie liegen in Form von Arbeitsblättern, Podcasts, Grafiken oder Workshopsreihen vor, können kostenfrei heruntergeladen, unmittelbar angepasst und in unterschiedlichen Kontexten neu eingesetzt werden. 
+Auf der anderen Seite stehen offene, digitale Bildungsressourcen (OER), die von Lehrkräften, Praktiker:innen, Wissenschaftler:innen oder Multiplikator:innen erstellt und über Plattformen wie [*rpi-virtuell*](https://rpi-virtuell.de/) verbreitet werden. Sie liegen in Form von Arbeitsblättern, Podcasts, Grafiken oder Workshopsreihen vor, können kostenfrei heruntergeladen, unmittelbar angepasst und in unterschiedlichen Kontexten neu eingesetzt werden. 
 Es sind zwei Welten, die unterschiedlichen Logiken folgen und doch beide für religiöse Bildungsprozesse von zentraler Bedeutung sind.
 
 ## Die Entstehung und Genehmigung von Religionsschulbüchern
 
 Die Entwicklung von Religionsbüchern – ob katholisch, evangelisch oder islamisch – folgt einem hoch formalisierten Verfahren, das von mehreren Akteursgruppen getragen wird.
-Im anerkannten Religionsunterricht erfolgt die Zulassung der Schulbücher durch kirchliche bzw. religionsgemeinschaftliche Gremien und durch die jeweilige staatliche Kultusbehörde. Damit soll gewährleistet werden, dass theologische bzw. religionsgemeinschaftliche Korrektheit, didaktische Qualität und rechtliche Vorgaben erfüllt sind. Insgesamt zielen die Begutachtungsmodalitäten durch konstruktive und kritische Hinweise auf die Qualitätsentwicklung des Unterrichtsmediums (vgl. Mendl 2024, 250).
+Im anerkannten Religionsunterricht erfolgt die Zulassung der Schulbücher durch kirchliche bzw. religionsgemeinschaftliche Gremien und durch die jeweilige staatliche Kultusbehörde. Damit soll gewährleistet werden, dass theologische bzw. religionsgemeinschaftliche Korrektheit, didaktische Qualität und rechtliche Vorgaben erfüllt sind. Insgesamt zielen die Begutachtungsmodalitäten durch konstruktive und kritische Hinweise auf die Qualitätsentwicklung des Unterrichtsmediums (vgl. Mendl 2024, 250). 
 
 ### Katholische Religionsbücher
 Das Zulassungsverfahren katholischer Religionsbücher ist kirchenrechtlich festgelegt und bestimmt, dass katholische Religionsbücher der Genehmigung durch die zuständige kirchliche Autorität bedürfen ([c. 827 § 2 CIC](https://www.codex-iuris-canonici.de/cic83_dt_buch3.htm)). 
 Die [Verfahrensordnung der Deutschen Bischofskonferenz](https://recht.drs.de/fileadmin/user_files/117/Dokumente/Rechtsdokumentation/3/4/1/02_11_01.pdf) aus dem Jahr 2002 präzisiert diesen Prozess.
 Zunächst erfolgt eine Begutachtung durch die von der Deutschen Bischofskonferenz eingesetzte Schulbuchkommission (Art. 3 Abs. 1).
-Darüber hinaus ist vorgesehen, dass Autor:innen im Besitz der Missio Canonica sind oder, sofern diese fehlt, eine zustimmende Erklärung des zuständigen Diözesanbischofs vorlegen (Art. 5). Diese Regelung gilt für alle an einem Werk Beteiligten.
+Darüber hinaus ist vorgesehen, dass Autor:innen im Besitz der Missio Canonica >[Was ist das? Also ich kann es mir denken, aber Menschen die nicht theologisch gebildete sind könnten sich das fragen] sind oder, sofern diese fehlt, eine zustimmende Erklärung des zuständigen Diözesanbischofs vorlegen (Art. 5). Diese Regelung gilt für alle an einem Werk Beteiligten.
 Nach erfolgreicher Prüfung erteilt der Diözesanbischof die kirchliche Zulassung, die in den Schulbüchern kenntlich gemacht wird.
 
 ### Evangelischer Religionsunterricht
@@ -93,7 +93,7 @@ Demgegenüber entstehen OER in deutlich offeneren Strukturen. Sie werden von Per
 
 OER werden meist auf digitalen Plattformen wie z.B. *orca.nrw*, *twillo* oder speziell für religiöse Bildungsprozesse *rpi-virtuell* eingestellt und verbreitet, damit sie einem großen Personenkreis konstenlos zugänglich gemacht werden können. 
 
-Charakteristisch für OER ist ihre Adaption und Nachnutzbarkeit. Durch offene Creative Commons-Lizenzen können die Materialien frei heruntergeladen, verändert, an spezifische Kontexte angepasst und neu publiziert werden.
+Charakteristisch für OER ist ihre Adaption und Nachnutzbarkeit. Durch offene [Creative Commons-Lizenzen](https://oer.community/oer-und-oep/) können die Materialien frei heruntergeladen, verändert, an spezifische Kontexte angepasst und neu publiziert werden.
 
 Die Qualitätssicherung vollzieht sich hier nicht durch ein zentrales Genehmigungsverfahren, sondern in dynamischen Prozessen kollaborativer Aushandlung. Nutzer:innen prüfen die Materialien im praktischen Einsatz, geben idealerweise Feedback über Kommentarspalten oder in digitalen Austauschrunden, passen die Materialien an ihre Lerngruppen an und entwickeln sie weiter. 
 Evaluation, Adaption und iterative Überarbeitung werden so zu Instrumenten der Qualitätssicherung. OER sind somit keine statisch abgeschlossenen Produkte, sondern kontinuierlich erweiterbar.
