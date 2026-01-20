@@ -6,8 +6,8 @@ url: oer-und-oep
 ---
 
 ## Inhaltsverzeichnis
-- [Was sind OER und OEP](#oeroep) 
-- [Selbstlernmodul](#selbstlernmodul)
+- [Was sind OER und OEP - Kleine theoretische Einführung](#oeroep) 
+- [Selbstlernmodul - Methodisch-didaktische Fähigkeiten zu OER und OEP](#selbstlernmodul)
 
 ## Was sind Open Educational Resources (OER) und Open Educational Practices (OEP)? {#oeroep}
 
