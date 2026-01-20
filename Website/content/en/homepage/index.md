@@ -3,6 +3,7 @@
 #staticSiteGenerator:
 title: Welcome!
 url: /en/
+type: page
 weight: 50
 ---
 
@@ -10,7 +11,6 @@ weight: 50
 
 # FOERBICO 
 
-## FOERBICO
 FOERBICO is a research project which is funded by the Federal Ministry for Education, Family Affairs, Senior Citizens, Women, and Youth (BMBFSFJ) and stands for: Fostering open educational practices within religious pedagogical Communities through the development of a coordinated OER-ecosystem. 
 As a research project, we aim to connect and facilitate exchange between different communities related to religion, to develop common quality criteria and metadata standards. So that valuable OER can be incorporated into various resource pools and made compatible, allowing them to be more widely distributed, further developed, and used by a broader audience.
 
@@ -18,7 +18,6 @@ The research team comprises three institutions: the Comenius Institute (CI), the
 
 For further information and active participation, we invite you to our element room:
 ![](/images/element-logo.svg) [Space "OERcommunity"](https://matrix.to/#/#oercommunity:rpi-virtuell.de)
-
 
 ----
 
