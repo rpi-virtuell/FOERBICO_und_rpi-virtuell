@@ -1,6 +1,50 @@
-# Kirchliche Mitsprache bei Religionsschulbüchern vs. freie Entwicklung von OER?!
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/schulbuch-oder-offene-bildungsressourcen
+name: 'Schulbuch oder offene Bildungsressourcen? Kirchliche Mitsprache bei Religionsschulbüchern vs. offene Entwicklung von OER'
+description: >-
+  Wie entstehen eigentlich die im Religionsuntericht verwendeten Materialien? Neben institutionell geprüften Religionsschulbüchern kommen auch zunehmend mehr offene Bildungsressourcen, sog. OER, zum Einsatz. Der Beitrag beleuchtet, wie sich institutionelle Verbindlichkeit und partizipative Offenheit von Unterrichtsmedien zueinander verhalten und fragt danach, was dies für eine zukunftsfähige Materialkultur bedeuten kann. 
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+image: Buecherregal.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2026-01-22'
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+title: 'Schulbuch oder offene Bildungsressourcen? Kirchliche Mitsprache bei Religionsschulbüchern vs. offene Entwicklung von OER'
+cover:
+  relative: true
+  image: Buecherregal.jpeg
+  hidddenInSingle: false
+  alt: 'Bücherregal (Quelle: Unsplash, Foto von Susan Q Yin)'
+summary: >-
+   Wie entstehen eigentlich die im Religionsuntericht verwendeten Materialien? Neben institutionell geprüften Religionsschulbüchern kommen auch zunehmend mehr offene Bildungsressourcen, sog. OER, zum Einsatz. Der Beitrag beleuchtet, wie sich institutionelle Verbindlichkeit und partizipative Offenheit von Unterrichtsmedien zueinander verhalten und fragt danach, was dies für eine zukunftsfähige Materialkultur bedeuten kann
+url: schulbuch-oder-offene-bildungsressourcen
+tags:
+  - Schulbücher
+  - Religionsunterricht
+  - Kirchliche Mitsprache
+  - Theologie
+  - Pluralität
+  - Open Educational Resources (OER)
+  - Kollaboration
+---
 
-## Kontrast zweier Welten
+# Schulbuch oder offene Bildungsressourcen? Kirchliche Mitsprache bei Religionsschulbüchern vs. offene Entwicklung von OER
+
 
 Die Realität der religionspädagogischen Materialentwicklung lässt sich in einem markanten Kontrastbild beschreiben: 
 Auf der einen Seite befinden sich kirchlich geprüfte Unterrichtswerke, die meist in Form von Schulbüchern vorliegen. Sie entstehen in enger Kooperation von ausgewählten Autor:innen, kirchlichen Aufsichtsstellen und staatlicher Kulutsbehörde. 
@@ -10,14 +54,13 @@ Es sind zwei Welten, die unterschiedlichen Logiken folgen und doch beide für re
 ## Die Entstehung und Genehmigung von Religionsschulbüchern
 
 Die Entwicklung von Religionsbüchern – ob katholisch, evangelisch oder islamisch – folgt einem hoch formalisierten Verfahren, das von mehreren Akteursgruppen getragen wird.
-In allen anerkannten Religionsunterrichten erfolgt die Zulassung durch kirchliche bzw. religionsgemeinschaftliche Gremien und durch die jeweilige staatliche Kultusbehörde. Damit soll gewährleistet sein, dass theologische bzw. religionsgemeinschaftliche Korrektheit, didaktische Qualität und rechtliche Vorgaben erfüllt sind. Insgesamt zielen die Begutachtungsmodalitäten durch konstruktive und kritische Hinweise auf die Qualitätsentwicklung des Unterrichtsmediums (vgl. Mendl 2024, 250)
+Im anerkannten Religionsunterricht erfolgt die Zulassung der Schulbücher durch kirchliche bzw. religionsgemeinschaftliche Gremien und durch die jeweilige staatliche Kultusbehörde. Damit soll gewährleistet werden, dass theologische bzw. religionsgemeinschaftliche Korrektheit, didaktische Qualität und rechtliche Vorgaben erfüllt sind. Insgesamt zielen die Begutachtungsmodalitäten durch konstruktive und kritische Hinweise auf die Qualitätsentwicklung des Unterrichtsmediums (vgl. Mendl 2024, 250).
 
 ### Katholische Religionsbücher
-Kirchenrechtlich ist festgelegt, dass katholische Religionsbücher der Genehmigung durch die zuständige kirchliche Autorität bedürfen ([c. 827 § 2 CIC](https://www.codex-iuris-canonici.de/cic83_dt_buch3.htm)). 
+Das Zulassungsverfahren katholischer Religionsbücher ist kirchenrechtlich festgelegt und bestimmt, dass katholische Religionsbücher der Genehmigung durch die zuständige kirchliche Autorität bedürfen ([c. 827 § 2 CIC](https://www.codex-iuris-canonici.de/cic83_dt_buch3.htm)). 
 Die [Verfahrensordnung der Deutschen Bischofskonferenz](https://recht.drs.de/fileadmin/user_files/117/Dokumente/Rechtsdokumentation/3/4/1/02_11_01.pdf) aus dem Jahr 2002 präzisiert diesen Prozess.
 Zunächst erfolgt eine Begutachtung durch die von der Deutschen Bischofskonferenz eingesetzte Schulbuchkommission (Art. 3 Abs. 1).
-Darüber hinaus ist vorgesehen, dass Autor:innen im Besitz der Missio Canonica sind oder, sofern diese fehlt, eine zustimmende Erklärung des zuständigen Diözesanbischofs vorlegen (Art. 5).
-Diese Regelung gilt für alle an einem Werk Beteiligten.
+Darüber hinaus ist vorgesehen, dass Autor:innen im Besitz der Missio Canonica sind oder, sofern diese fehlt, eine zustimmende Erklärung des zuständigen Diözesanbischofs vorlegen (Art. 5). Diese Regelung gilt für alle an einem Werk Beteiligten.
 Nach erfolgreicher Prüfung erteilt der Diözesanbischof die kirchliche Zulassung, die in den Schulbüchern kenntlich gemacht wird.
 
 ### Evangelischer Religionsunterricht
@@ -39,21 +82,21 @@ Die Schulbuchgenehmigung orientiert sich also neben der fachwissenschaftlichen u
 
 ## Verbindlichkeit und Grenzen von Genehmigungsverfahren
 
-Nähere Einblick in ein Genehmigungsverfahren eines katholischen Religionsbuches liefert Porzelt (2023; 2024). Er versteht die doppelte Bindung von kirchlicher Aufsichtsbehörde und staatlicher Kultusbehörde als Ausdruck eines grundlegenden Spannungsfeldes. Religiöse Bildung ist demnach zweifach bestimmt: Einerseits steht sie unter dem kirchlichen Mandat, das normative Leitlinien vorgibt, andererseits unter den Prinzipien der öffentlichen Schule, die Glaubensfreiheit und Lernendenautonomie garantieren. Schulbücher beanspruchen daher eine besondere Verbindlichkeit, können aber gerade dadurch Pluralität und Vielfalt nur eingeschränkt abbilden.
+Nähere Einblick in ein Genehmigungsverfahren eines katholischen Religionsbuchs liefert Porzelt (2023; 2024). Er versteht die doppelte Bindung von kirchlicher Aufsichtsbehörde und staatlicher Kultusbehörde als Ausdruck eines grundlegenden Spannungsfeldes. Religiöse Bildung ist demnach zweifach bestimmt: Einerseits steht sie unter dem kirchlichen Mandat, das normative Leitlinien vorgibt, andererseits unter den Prinzipien der öffentlichen Schule, die Glaubensfreiheit und Lernendenautonomie garantieren. Schulbücher beanspruchen daher eine besondere Verbindlichkeit, können aber gerade dadurch Pluralität und Vielfalt nur eingeschränkt abbilden.
 
-Porzelt verweist zudem auf die Gefahr, dass durch ein zu stark normiertes Zulassungsverfahren die Lebendigkeit religiöser Bildung eingeschränkt werde. Wenn religiöse Ausdrucksformen oder gesellschaftlich relevante Themen nur am Rande vorkommen, wird das Bildungsangebot leicht in Richtung eines „kanonisch abgesicherten“ Wissens verengt. Damit geht die Herausforderung einher, die Balance zu finden zwischen der notwendigen Autorität, die kirchliche Identität wahrt, und der didaktischen Offenheit, die der Heterogenität heutiger Schüler:innenschaften gerecht wird.
+Porzelt verweist zudem auf die Gefahr, dass durch ein zu stark normiertes Zulassungsverfahren die Offenheit religiöser Bildung eingeschränkt werde. Wenn religiöse Ausdrucksformen oder gesellschaftlich relevante Themen nur am Rande vorkommen, wird das Bildungsangebot leicht in Richtung eines „kanonisch abgesicherten“ Wissens verengt. Damit geht die Herausforderung einher, die Balance zu finden zwischen der notwendigen Autorität, die kirchliche Identität wahrt, und der didaktischen Offenheit, die der Heterogenität heutiger Schüler:innenschaften gerecht wird.
 
 
 ## Entstehung und Qualitätsprozesse von OER
 
-Demgegenüber entstehen OER in deutlich offeneren Strukturen. Sie werden von Personen entwickelt, die sich für Bildung begeistern, das sind mit unter Lehrkräfte, Erzieher:innen, Wissenschaftler:innen, Multiplikator:innen von Fort- und Weiterbildungsangeboten oder NGO's. Diese Offenheit ermöglicht es, viele Menschen an der Entstehung von Lehr-Lernmaterialien zu beteiligen und hinsichtlich der Themenauswahl, Produktion, Darstellung, Verwaltung und Verbreitung von Wissen teilzuhaben (vgl. Paschke 2024, 255)
+Demgegenüber entstehen OER in deutlich offeneren Strukturen. Sie werden von Personen entwickelt, die sich für Bildung engagieren, das sind mit unter Lehrkräfte, Erzieher:innen, Wissenschaftler:innen, Multiplikator:innen von Fort- und Weiterbildungsangeboten oder NGO's. Diese Offenheit ermöglicht es, viele Menschen an der Entstehung von Lehr-Lernmaterialien zu beteiligen und hinsichtlich der Themenauswahl, Produktion, Darstellung, Verwaltung und Verbreitung von Wissen teilzuhaben (vgl. Paschke 2024, 255)
 
 OER werden meist auf digitalen Plattformen wie z.B. *orca.nrw*, *twillo* oder speziell für religiöse Bildungsprozesse *rpi-virtuell* eingestellt und verbreitet, damit sie einem großen Personenkreis konstenlos zugänglich gemacht werden können. 
 
 Charakteristisch für OER ist ihre Adaption und Nachnutzbarkeit. Durch offene Creative Commons-Lizenzen können die Materialien frei heruntergeladen, verändert, an spezifische Kontexte angepasst und neu publiziert werden.
 
-Die Qualitätssicherung vollzieht sich hier nicht durch ein zentrales Genehmigungsverfahren, sondern in dynamischen Prozessen kollaborativer Aushandlung. Nutzer:innen prüfen die Materialien im praktischen Einsatz, geben Feedback über Kommentarspalten oder in digitalen Austauschrunden, passen die Materialien an ihre Lerngruppen an und entwickeln sie weiter. 
-Evaluation, Adaption und iterative Überarbeitung werden so selbst zu Instrumenten der Qualitätssicherung. OER sind somit keine statisch abgeschlossenen Produkte, sondern kontinuierlich erweiterbar.
+Die Qualitätssicherung vollzieht sich hier nicht durch ein zentrales Genehmigungsverfahren, sondern in dynamischen Prozessen kollaborativer Aushandlung. Nutzer:innen prüfen die Materialien im praktischen Einsatz, geben idealerweise Feedback über Kommentarspalten oder in digitalen Austauschrunden, passen die Materialien an ihre Lerngruppen an und entwickeln sie weiter. 
+Evaluation, Adaption und iterative Überarbeitung werden so zu Instrumenten der Qualitätssicherung. OER sind somit keine statisch abgeschlossenen Produkte, sondern kontinuierlich erweiterbar.
 
 Diese Offenheit ermöglicht ein hohes Maß an Partizipation, Kreativität und Aktualität. So verdeutlicht Paschke (2024, S. 254f), dass OER die Chance liefern, aktuelle kirchliche Entwicklungen, wie den synodalen Weg oder Out in Church mit geeignetem Material im Unterricht zu bearbeiten, um Schüler:innen über den Schulkontext hinaus dafür zu motivieren, kirchenpolitische Entwicklungen mitzugestalten. 
 Allerdings birgt die Offenheit jedoch auch gewisse Risiken. Ohne institutionelle Autorisierung können theologische Maßstäbe verschwimmen und die Sicherung inhaltlicher Standards hängt stark von der aktiven Mitwirkung der Community ab.
@@ -69,6 +112,7 @@ Religionsgemeinschaftliche bzw. staatlich-kirchliche Verfahren schaffen Verläss
 OER eröffnen neue Räume für Partizipation und kontextuelle Passung, sind jedoch anfällig für Beliebigkeit und den Verlust theologischer Tiefe. Die Herausforderung für die religionspädagogische Praxis besteht darin, diese beiden Ansätze nicht als unvereinbare Gegensätze zu betrachten, sondern sie produktiv miteinander zu verknüpfen.
 
 Eine zukunftsweisende Perspektive könnte darin liegen, normative Orientierungen in offene Entwicklungsprozesse einzubringen und zugleich von den partizipativen, adaptiven Praktiken der OER-Communities zu lernen. So könnte eine neue Materialkultur entstehen, die sowohl Verbindlichkeit als auch Offenheit ernst nimmt.
+
 Letztlich bleibt das eingangs skizzierte Bild bestehen. Auf der einen Seite liegt der geordnete Stapel autorisierter Schulbücher, auf der anderen Seite die dynamische, vielleicht chaotisch anmutende Vielfalt frei zugänglicher OER. 
 Doch gerade in dieser Spannung eröffnet sich die Möglichkeit, beide Welten in einen produktiven Dialog zu führen und eine zukunftsfähige Kultur religiöser Bildung zu gestalten, die institutionelle Verantwortung und kreative Offenheit zumindest miteinander ins Gespräch bringt.
 
