@@ -112,7 +112,7 @@ Plattformen wie [Wikimedia Commons](https://commons.wikimedia.org/wiki/Hauptseit
 
 ### Wählt Schriftarten sorgfältig aus ✍️ 
 
-Standard-Schriftarten wie Arial oder Times New Roman sind kein Problem. Bei ausgefallenen Schriften schaut lieber einmal mehr auf die Lizenz – oder greift auf freie Schriftarten von [Google Fonts](https://fonts.google.com/), [Font Library](https://fontlibrary.org/) oder [Open Foundry](https://open-foundry.com/) zurück.
+Standard-Schriftarten wie Arial oder Times New Roman sind kein Problem. Bei ausgefallenen Schriften schaut lieber einmal mehr auf die Lizenz – oder greift auf freie Schriftarten von [Font Library](https://fontlibrary.org/) oder [Open Foundry](https://open-foundry.com/) zurück. Die Wiener Schulschrift "Primae" ist inzwischen CC-Lizenziert! Sie ist eigens für die Grundschule entwickelt: https://www.schulschrift.at/
 
 ### Geometrische oder standardisierte Formen? Kein Problem! 🟦 
 
