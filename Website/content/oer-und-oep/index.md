@@ -22,9 +22,9 @@ flowchart TD
     A --> E[Vermischen]
     A --> F[Verbreiten]
 ```
-</br>
-Siehe auch das Poster „[5 V-Freiheiten für Offenheit](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer) online abrufbar unter: https://open-educational-resources.de/5rs-auf-deutsch/ Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) </br>
-</br>
+
+Siehe auch das Poster „[5 V-Freiheiten für Offenheit](https://www.edcon.dhbw.de/fileadmin/user_upload/Dokumente/Projekte/EdCon/Poster_OER.pdf)“ , Grafik von Mark Mulfinger - BadWolfDesign im Auftrag der DHBW in Anlehnung an Julia Eggestein (Grafik), Jöran Muuß-Merholz (inhaltliche Übersetzung, Anpassung und vorsichtige Erweiterung) und Jörg Lohrer (Wortschöpfer) online abrufbar unter: https://open-educational-resources.de/5rs-auf-deutsch/ Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
+
 **Open Educational Practices (OEP)** beschreiben die dazugehörigen offenen Bildungspraktiken. OEP umfassen alle kollaborativen Methoden und Ansätze zur Erstellung, Nutzung und Weiterentwicklung von OER. Sie ermöglichen es den Nutzenden durch offene Lizenzen aktiv an den so genannten 5V-Freiheiten teilzuhaben. OEP greifen auf Technologien und soziale Netzwerke zurück, um Lernprozesse zu gestalten, in denen Lernende aktiv zusammenarbeiten, Wissen austauschen und voneinander lernen. Der Schwerpunkt liegt auf der Befähigung der Lernenden, selbst Wissen zu produzieren und ihren Bildungsweg aktiv zu gestalten. Darüber hinaus beziehen sich OEP auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen.
 Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
 
