@@ -62,7 +62,7 @@ Das [relilab](https://relilab.org/) ist eine Community, die religionsbezogene Bi
 Aus den Interviews unserer Begleitforschung geht hervor, dass das relilab aus dem relichat auf Twitter entstanden ist. In Zeiten von Corona bildete sich aus dem wöchentlichen relichat, eine Community, die digitale Bildungswege erkundet. Im Laufe der Jahre hat sich die Community verändert, erneuert und angepasst. Das relilab ist eine Laborumgebung in der experimentiert werden darf und soll.
 Das relilab wird nicht nur im Rahmen der [Zwischenfazit-Tagung](www.evrel.phil.fau.de/foerbico-tagung-2026/) am 24. und 25. Februar 2026 in Nürnberg vorgestellt, sondern stellt sich selber in diesem Interview vor. Corinna Ullmann wird am zweiten Tag einen Workshop zum relilab geben. Zur Einstimmung auf den Workshop konnten wir Corinna vorher befragen.
 
-![Logo relilab](relilab_Logo.png)
+![Logo relilab](relilab_Logo(3).png)
 
 ## Interview
 
@@ -100,6 +100,6 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton(1).png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton(2).png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
