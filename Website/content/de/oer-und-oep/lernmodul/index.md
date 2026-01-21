@@ -3,6 +3,7 @@
 #staticSiteGenerator:
 title: OER-Selbstlernmodul
 url: oer-und-oep/lernmodul
+type: page
 ---
 
 # Das OER-Grundrezept - mit wenigen Zutaten zum offenen Material

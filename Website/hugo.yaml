@@ -1,41 +1,76 @@
 baseURL: https://oer.community/
-defaultContentLanguage: de
-languageCode: de
 title: oer.community
 theme: PaperMod
 
-menus:
-  main:
-  - name: Startseite
-    url: /
-    weight: 10
-  - name: Was ist OER?
-    url: /oer-und-oep/
-    weight: 30
-  - name: Qualität
-    url: /qualitaet/
-    weight: 50
-  - name: Team
-    url: /unser-team/
-    weight: 100
-  - name: Blog
-    url: /blog/
-    weight: 300
-  - name: Tagungen
-    url: /tagungen/
-    weight: 14
-  - name: Tags
-    url: /tags/
-    weight: 400
+defaultContentLanguage: de
+languageCode: de
+#defaultContentLanguageInSubdir: true
+
+languages:
+  de:
+    languageCode: de-DE
+    languageName: Deutsch
+    languageAltTitle: German
+    pagination:
+      path: seite
+    weight: 1
+    params:
+      DateFormat: "2. January 2006"
+    contentDir: "content/de"
+    menu:
+      main:
+        - name: Startseite
+          url: /
+          weight: 10
+        - name: Tagungen
+          url: /tagungen/
+          weight: 20
+        - name: Was ist OER?
+          url: /oer-und-oep/
+          weight: 30
+        - name: Qualität
+          url: /qualitaet/
+          weight: 50
+        - name: Team
+          url: /unser-team/
+          weight: 100
+        - name: Blog
+          url: /blog/
+          weight: 300
+        - name: Tags
+          url: /tags/
+          weight: 400
+  en:
+    languageCode: en-US
+    languageName: English
+    languageAltTitle: Englisch
+    pagination:
+      path: page
+    weight: 2
+    params:
+      DateFormat: "January 2 2006"
+    contentDir: "content/en"
+    menu:
+      main:
+        - name: Homepage
+          url: /en/
+          weight: 10
+        - name: What is OER?
+          url: /en/oer-and-oep/
+          weight: 30
+        - name: Conference
+          url: /en/conference
+          weight: 80
+        - name: Team
+          url: /en/our-team/
+          weight: 100
 
 Pagination:
   disableAliases: false
   pagerSize: 5
-  path: seite
 
 Params:
   ShowReadingTime: false
-  DateFormat: "2. January 2006"
   ShowTags: true           # ← Tags unter Beiträgen anzeigen
 
 taxonomies:
