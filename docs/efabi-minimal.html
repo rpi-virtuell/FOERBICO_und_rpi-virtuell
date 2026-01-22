@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFABI – Artikel & Veranstaltungen</title>
+    <style>
+        /* EFABI Design System Colors */
+        :root {
+          --efabi-text: #3A4F66;
+          --efabi-h1: #FAAC00;
+          --efabi-h2: #192A3D;
+          --efabi-h3: #3A4F66;
+          --efabi-link: #3F40F7;
+          --efabi-link-hover: #005D8F;
+          --efabi-border: #E1E8ED;
+          --efabi-selection-bg: #1559ED;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: var(--efabi-text);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 4px solid var(--efabi-h1);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .logo-container img {
+            height: 60px;
+            width: auto;
+        }
+
+        h1 {
+            color: var(--efabi-h2);
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+            display: inline-block;
+        }
+
+        .subtitle {
+            color: var(--efabi-h2);
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 12px;
+            margin-top: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            padding: 12px 28px;
+            background: var(--efabi-border);
+            border: 2px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            color: var(--efabi-text);
+            font-weight: 500;
+        }
+
+        .tab-btn.active {
+            background: var(--efabi-link);
+            color: white;
+            border-color: var(--efabi-link-hover);
+            box-shadow: 0 4px 12px rgba(63, 64, 247, 0.2);
+        }
+
+        .tab-btn:hover {
+            background: #e0e0e0;
+        }
+
+        .tab-btn.active:hover {
+            background: var(--efabi-link-hover);
+        }
+
+        .status {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.95em;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        .status.connecting {
+            background: #fff3cd;
+            color: var(--efabi-h2);
+        }
+
+        .status.connected {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: var(--efabi-text);
+            font-size: 1.2em;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .articles, .events {
+            display: grid;
+            gap: 28px;
+        }
+
+        .articles.hidden, .events.hidden, .network.hidden {
+            display: none;
+        }
+
+        .article, .event {
+            background: white;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid var(--efabi-border);
+        }
+
+        .article:hover, .event:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            border-left-color: var(--efabi-link);
+        }
+
+        .article-title, .event-title {
+            font-size: 1.9em;
+            color: var(--efabi-h2);
+            margin-bottom: 12px;
+            line-height: 1.3;
+            font-weight: 700;
+        }
+
+        .article-meta, .event-meta {
+            color: var(--efabi-text);
+            font-size: 0.95em;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--efabi-border);
+            opacity: 0.85;
+        }
+
+        .event-details {
+            background: #f8f9fa;
+            padding: 18px;
+            border-radius: 8px;
+            margin: 18px 0;
+            border-left: 4px solid var(--efabi-link);
+        }
+
+        .event-detail-row {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: start;
+            gap: 12px;
+        }
+
+        .event-detail-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .event-detail-label {
+            font-weight: 600;
+            color: var(--efabi-h2);
+            min-width: 100px;
+        }
+
+        .event-detail-value {
+            color: var(--efabi-text);
+            word-break: break-word;
+            flex: 1;
+        }
+
+        .article-summary {
+            color: var(--efabi-text);
+            font-size: 1.08em;
+            line-height: 1.7;
+            margin-bottom: 18px;
+            font-style: italic;
+            background: #f8f9fa;
+            padding: 16px;
+            border-left: 3px solid var(--efabi-h1);
+            border-radius: 4px;
+        }
+
+        .article-content {
+            color: var(--efabi-text);
+            line-height: 1.9;
+            font-size: 1.05em;
+        }
+
+        .article-content h1,
+        .article-content h2,
+        .article-content h3,
+        .article-content h4 {
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: var(--efabi-h2);
+            font-weight: 700;
+        }
+
+        .article-content h1 {
+            font-size: 1.9em;
+            border-bottom: 2px solid var(--efabi-border);
+            padding-bottom: 12px;
+        }
+
+        .article-content h2 {
+            font-size: 1.6em;
+        }
+
+        .article-content h3 {
+            font-size: 1.4em;
+        }
+
+        .article-content p {
+            margin-bottom: 16px;
+        }
+
+        .article-content a {
+            color: var(--efabi-link);
+            text-decoration: none;
+            border-bottom: 1px solid var(--efabi-link);
+            transition: color 0.2s ease;
+        }
+
+        .article-content a:hover {
+            color: var(--efabi-link-hover);
+            border-bottom-color: var(--efabi-link-hover);
+        }
+
+        .article-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            display: block;
+        }
+
+        .article-content ul,
+        .article-content ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .article-content li {
+            margin-bottom: 8px;
+        }
+
+        .article-content blockquote {
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #636e72;
+            font-style: italic;
+        }
+
+        .article-content code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .article-content pre {
+            background: #2d3436;
+            color: #55efc4;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        .article-content pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 22px;
+        }
+
+        .tag {
+            background: #e8f1ff;
+            color: var(--efabi-link);
+            padding: 6px 14px;
+            border-radius: 16px;
+            font-size: 0.85em;
+            font-weight: 500;
+            border: 1px solid var(--efabi-border);
+        }
+
+        .no-items {
+            background: white;
+            padding: 50px;
+            border-radius: 12px;
+            text-align: center;
+            color: var(--efabi-text);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .json-toggle {
+            margin-top: 22px;
+            padding: 11px 22px;
+            background: var(--efabi-border);
+            border: 1px solid #d0d8e0;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            color: var(--efabi-text);
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .json-toggle:hover {
+            background: #d0d8e0;
+        }
+
+        .read-more-btn {
+            margin-top: 22px;
+            padding: 13px 28px;
+            background: var(--efabi-link);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .read-more-btn:hover {
+            background: var(--efabi-link-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 93, 141, 0.2);
+        }
+
+        .full-content {
+            margin-top: 20px;
+        }
+
+        .full-content.hidden {
+            display: none;
+        }
+
+        .article-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 20px 0;
+            object-fit: cover;
+        }
+
+        .json-container {
+            margin-top: 15px;
+            background: #2d3436;
+            color: #55efc4;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            line-height: 1.5;
+            max-height: 500px;
+            overflow-y: auto;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: pre-wrap;
+            max-width: 100%;
+        }
+
+        .json-container.hidden {
+            display: none;
+        }
+
+        .json-key {
+            color: #74b9ff;
+            word-break: break-all;
+        }
+
+        .json-string {
+            color: #55efc4;
+            word-break: break-all;
+        }
+
+        .json-number {
+            color: #fdcb6e;
+        }
+
+        .json-boolean {
+            color: #ff7675;
+        }
+
+        .network {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .network-profile {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid var(--efabi-border);
+            transition: border-left-color 0.3s ease;
+        }
+
+        .network-profile:hover {
+            border-left-color: var(--efabi-link);
+        }
+
+        .profile-header {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .profile-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--efabi-link);
+        }
+
+        .profile-avatar-placeholder {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--efabi-border);
+            font-size: 2em;
+            flex-shrink: 0;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-name {
+            color: var(--efabi-h2);
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .profile-nip05 {
+            color: var(--efabi-link);
+            font-size: 0.95em;
+            font-weight: 500;
+        }
+
+        .profile-about {
+            color: var(--efabi-text);
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .profile-about p {
+            margin-bottom: 10px;
+        }
+
+        .profile-website {
+            margin-bottom: 15px;
+        }
+
+        .profile-website a {
+            color: var(--efabi-link);
+            text-decoration: none;
+            border-bottom: 1px solid var(--efabi-link);
+            transition: color 0.2s ease;
+        }
+
+        .profile-website a:hover {
+            color: var(--efabi-link-hover);
+            border-bottom-color: var(--efabi-link-hover);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            header {
+                padding: 25px;
+            }
+
+            .article, .event {
+                padding: 22px;
+            }
+
+            .article-title, .event-title {
+                font-size: 1.5em;
+            }
+
+            .article-content {
+                font-size: 1em;
+            }
+
+            .json-container {
+                font-size: 0.75em;
+                padding: 15px;
+                max-height: 300px;
+            }
+
+            .json-toggle {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .tags {
+                gap: 6px;
+            }
+
+            .tag {
+                font-size: 0.8em;
+            }
+
+            .tabs {
+                gap: 8px;
+            }
+
+            .tab-btn {
+                padding: 10px 16px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .subtitle {
+                font-size: 0.95em;
+            }
+
+            header {
+                padding: 18px;
+            }
+
+            .article, .event {
+                padding: 16px;
+            }
+
+            .article-title, .event-title {
+                font-size: 1.3em;
+            }
+
+            .article-meta, .event-meta {
+                font-size: 0.9em;
+            }
+
+            .article-content {
+                font-size: 0.95em;
+            }
+
+            .json-container {
+                font-size: 0.7em;
+                padding: 10px;
+            }
+
+            .tabs {
+                flex-direction: column;
+            }
+
+            .tab-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="https://efabi.net/wp-content/uploads/2025/07/Logo-korrekt.png" alt="efabiNet Logo" title="efabiNet - Entwicklungsperspektiven">
+            </div>
+            <h1>efabiNet</h1>
+            <p class="subtitle">Entwicklungsperspektiven</p>
+            <div class="status connecting" id="status">Verbinde zu Relays...</div>
+            
+            <div class="tabs">
+                <button class="tab-btn" onclick="switchTab('articles')">📄 FOERBICO Artikel</button>
+                <button class="tab-btn" onclick="switchTab('events')">📅 relilab Events</button>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('efabi-resources')">📝 efabi Ressourcen</button>
+                <button class="tab-btn" onclick="switchTab('efabi-events')">📆 efabi Veranstaltungen</button>
+                <button class="tab-btn" onclick="switchTab('efabi-network')">👤 efabi Netzwerkstatt</button>
+            </div>
+        </header>
+
+        <div class="loading" id="loading">Lade Inhalte...</div>
+        <div class="articles hidden" id="articles"></div>
+        <div class="events hidden" id="events"></div>
+        <div class="articles" id="efabi-resources"></div>
+        <div class="events hidden" id="efabi-events"></div>
+        <div class="network hidden" id="efabi-network"></div>
+    </div>
+
+    <script type="module">
+        import { SimplePool, nip19 } from 'https://esm.sh/nostr-tools@2.10.2';
+        import { marked } from 'https://esm.sh/marked@11.1.1';
+
+        marked.setOptions({
+            breaks: true,
+            gfm: true
+        });
+
+        // Configuration für verschiedene Content-Publisher
+        const publishers = {
+            articles: {
+                name: 'FOERBICO Artikel',
+                npub: 'npub1tgftg8kptdrxxg0g3sm3hckuglv3j0uu3way4vylc5qyt0f44m0s3gun6e',
+                kind: 30023
+            },
+            events: {
+                name: 'relilab Events',
+                npub: 'npub12j35qpeve33929kg64etvw9g9rzms4c8g5gnqta58yhjdc6wryfse3phmu',
+                kind: 31923
+            },
+            efabiResources: {
+                name: 'efabi Ressourcen',
+                npub: 'npub14esruzfvraksa9gyqkyp0uzgp5ytnlqu96rpj0ergk05s9hy9wrspsljvc',
+                kind: 30023
+            },
+            efabiEvents: {
+                name: 'efabi Veranstaltungen',
+                npub: 'npub14esruzfvraksa9gyqkyp0uzgp5ytnlqu96rpj0ergk05s9hy9wrspsljvc',
+                kind: 31923
+            },
+            efabiNetwork: {
+                name: 'efabi Netzwerkstatt',
+                npub: 'npub14esruzfvraksa9gyqkyp0uzgp5ytnlqu96rpj0ergk05s9hy9wrspsljvc',
+                kind: 0  // NIP-05: User Metadata (Profiles mit Avataren)
+            }
+        };
+
+        const relays = [
+            'wss://relay-rpi.edufeed.org/',
+            'wss://relay.primal.net/',
+            'wss://primal-cache-eu-central-1-1.primal.net'
+        ];
+
+        let articles = [];
+        let events = [];
+        let efabiResources = [];
+        let efabiEvents = [];
+        let efabiNetwork = [];  // User profiles
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp * 1000);
+            return date.toLocaleDateString('de-DE', { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+        }
+
+        function formatDateTime(timestamp) {
+            const date = new Date(timestamp * 1000);
+            return date.toLocaleDateString('de-DE', { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function formatJSON(obj) {
+            let json = JSON.stringify(obj, null, 2);
+            
+            json = json.replace(/"([^"]+)":/g, '<span class="json-key">"$1":</span>');
+            json = json.replace(/: "([^"]+)"/g, ': <span class="json-string">"$1"</span>');
+            json = json.replace(/: (\d+)/g, ': <span class="json-number">$1</span>');
+            json = json.replace(/: (true|false)/g, ': <span class="json-boolean">$1</span>');
+            
+            return json;
+        }
+
+        function switchTab(tab) {
+            // Alle Container
+            const articlesDiv = document.getElementById('articles');
+            const eventsDiv = document.getElementById('events');
+            const efabiResourcesDiv = document.getElementById('efabi-resources');
+            const efabiEventsDiv = document.getElementById('efabi-events');
+            const efabiNetworkDiv = document.getElementById('efabi-network');
+            
+            const allContainers = [articlesDiv, eventsDiv, efabiResourcesDiv, efabiEventsDiv, efabiNetworkDiv];
+            
+            // Alle Buttons
+            const btns = document.querySelectorAll('.tab-btn');
+            btns.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Verstecke alle Container
+            allContainers.forEach(container => container.classList.add('hidden'));
+
+            // Zeige nur den gewählten Container
+            console.log('[SWITCH-TAB] Selected tab:', tab);
+            if (tab === 'articles') {
+                articlesDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing articles');
+            } else if (tab === 'events') {
+                eventsDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing events');
+            } else if (tab === 'efabi-resources') {
+                efabiResourcesDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing efabi-resources, innerHTML length:', efabiResourcesDiv.innerHTML.length);
+            } else if (tab === 'efabi-events') {
+                efabiEventsDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing efabi-events, innerHTML length:', efabiEventsDiv.innerHTML.length);
+            } else if (tab === 'efabi-network') {
+                efabiNetworkDiv.classList.remove('hidden');
+                console.log('[SWITCH-TAB] Showing efabi-network, innerHTML length:', efabiNetworkDiv.innerHTML.length);
+            }
+        }
+
+        function toggleJSON(eventId) {
+            const container = document.getElementById('json-' + eventId);
+            const button = document.getElementById('btn-' + eventId);
+            
+            if (container.classList.contains('hidden')) {
+                container.classList.remove('hidden');
+                button.textContent = '🔼 JSON ausblenden';
+            } else {
+                container.classList.add('hidden');
+                button.textContent = '🔽 JSON anzeigen';
+            }
+        }
+
+        function toggleContent(eventId) {
+            const container = document.getElementById('content-' + eventId);
+            const button = document.getElementById('read-' + eventId);
+            
+            if (container.classList.contains('hidden')) {
+                container.classList.remove('hidden');
+                button.textContent = '📖 Weniger anzeigen';
+            } else {
+                container.classList.add('hidden');
+                button.textContent = '📖 Weiterlesen';
+            }
+        }
+
+        function renderArticles() {
+            const articlesContainer = document.getElementById('articles');
+            
+            if (articles.length === 0) {
+                articlesContainer.innerHTML = '<div class="no-items">Keine Artikel gefunden.</div>';
+                return;
+            }
+
+            articles.sort((a, b) => b.created_at - a.created_at);
+
+            articlesContainer.innerHTML = articles.map(article => {
+                const title = article.tags.find(t => t[0] === 'title')?.[1] || 'Ohne Titel';
+                const summary = article.tags.find(t => t[0] === 'summary')?.[1] || '';
+                const image = article.tags.find(t => t[0] === 'image')?.[1] || '';
+                const publishedAt = article.tags.find(t => t[0] === 'published_at')?.[1];
+                const tags = article.tags.filter(t => t[0] === 't').map(t => t[1]);
+                
+                const fullHtmlContent = marked.parse(article.content);
+                const eventId = article.id.substring(0, 8);
+                const displayDate = publishedAt ? parseInt(publishedAt) : article.created_at;
+
+                return `
+                    <article class="article">
+                        <h2 class="article-title">${title}</h2>
+                        <div class="article-meta">
+                            📅 ${formatDate(displayDate)}
+                        </div>
+                        ${image ? `<img src="${image}" alt="${title}" class="article-image" />` : ''}
+                        ${summary ? `<div class="article-summary">${summary}</div>` : ''}
+                        <button class="read-more-btn" id="read-${eventId}" onclick="toggleContent('${eventId}')">
+                            📖 Weiterlesen
+                        </button>
+                        <div class="article-content full-content hidden" id="content-${eventId}">
+                            ${fullHtmlContent}
+                        </div>
+                        ${tags.length > 0 ? `
+                            <div class="tags">
+                                ${tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button class="json-toggle" id="btn-${eventId}" onclick="toggleJSON('${eventId}')">
+                            🔽 JSON anzeigen
+                        </button>
+                        <pre class="json-container hidden" id="json-${eventId}">${formatJSON(article)}</pre>
+                    </article>
+                `;
+            }).join('');
+
+            window.toggleJSON = toggleJSON;
+            window.toggleContent = toggleContent;
+        }
+
+        function renderEvents() {
+            const eventsContainer = document.getElementById('events');
+            
+            if (events.length === 0) {
+                eventsContainer.innerHTML = '<div class="no-items">Keine Kalender Events gefunden.</div>';
+                return;
+            }
+
+            events.sort((a, b) => {
+                const aStart = a.tags.find(t => t[0] === 'start')?.[1] || a.created_at;
+                const bStart = b.tags.find(t => t[0] === 'start')?.[1] || b.created_at;
+                return parseInt(aStart) - parseInt(bStart);
+            });
+
+            eventsContainer.innerHTML = events.map(event => {
+                const title = event.tags.find(t => t[0] === 'title')?.[1] || 'Ohne Titel';
+                const summary = event.tags.find(t => t[0] === 'summary')?.[1] || '';
+                const description = event.tags.find(t => t[0] === 'description')?.[1] || event.content || '';
+                const location = event.tags.find(t => t[0] === 'location')?.[1] || '';
+                const startTime = event.tags.find(t => t[0] === 'start')?.[1];
+                const endTime = event.tags.find(t => t[0] === 'end')?.[1];
+                const image = event.tags.find(t => t[0] === 'image')?.[1] || '';
+                const tags = event.tags.filter(t => t[0] === 't').map(t => t[1]);
+
+                const eventId = event.id.substring(0, 8);
+
+                return `
+                    <article class="event">
+                        <h2 class="event-title">${title}</h2>
+                        <div class="event-meta">
+                            ℹ️ Event-Details
+                        </div>
+                        ${image ? `<img src="${image}" alt="${title}" class="article-image" />` : ''}
+                        <div class="event-details">
+                            ${startTime ? `
+                                <div class="event-detail-row">
+                                    <span class="event-detail-label">🕐 Start:</span>
+                                    <span class="event-detail-value">${formatDateTime(parseInt(startTime))}</span>
+                                </div>
+                            ` : ''}
+                            ${endTime ? `
+                                <div class="event-detail-row">
+                                    <span class="event-detail-label">🕐 Ende:</span>
+                                    <span class="event-detail-value">${formatDateTime(parseInt(endTime))}</span>
+                                </div>
+                            ` : ''}
+                            ${location ? `
+                                <div class="event-detail-row">
+                                    <span class="event-detail-label">📍 Ort:</span>
+                                    <span class="event-detail-value">${location}</span>
+                                </div>
+                            ` : ''}
+                        </div>
+                        ${summary ? `<div class="article-summary">${summary}</div>` : ''}
+                        ${description ? `
+                            <button class="read-more-btn" id="read-${eventId}" onclick="toggleContent('${eventId}')">
+                                📖 Beschreibung anzeigen
+                            </button>
+                            <div class="article-content full-content hidden" id="content-${eventId}">
+                                ${marked.parse(description)}
+                            </div>
+                        ` : ''}
+                        ${tags.length > 0 ? `
+                            <div class="tags">
+                                ${tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button class="json-toggle" id="btn-${eventId}" onclick="toggleJSON('${eventId}')">
+                            🔽 JSON anzeigen
+                        </button>
+                        <pre class="json-container hidden" id="json-${eventId}">${formatJSON(event)}</pre>
+                    </article>
+                `;
+            }).join('');
+
+            window.toggleJSON = toggleJSON;
+            window.toggleContent = toggleContent;
+        }
+
+        function updateStatus(connected, relayCount = 0) {
+            const statusEl = document.getElementById('status');
+            if (connected) {
+                statusEl.textContent = `✓ Verbunden (${relayCount} Relays)`;
+                statusEl.className = 'status connected';
+            } else {
+                statusEl.textContent = 'Getrennt';
+                statusEl.className = 'status connecting';
+            }
+        }
+
+        async function loadContent() {
+            try {
+                console.log('🔄 Starte Laden der Inhalte...');
+                
+                const pool = new SimplePool();
+                updateStatus(true, relays.length);
+                console.log('🔗 Verbinde zu Relays:', relays);
+
+                // Lade Artikel vom FOERBICO Publisher
+                const { type: articleType, data: articleHex } = nip19.decode(publishers.articles.npub);
+                if (articleType !== 'npub') throw new Error('Ungültige FOERBICO npub');
+
+                // Lade Events vom relilab Publisher
+                const { type: eventType, data: eventHex } = nip19.decode(publishers.events.npub);
+                if (eventType !== 'npub') throw new Error('Ungültige relilab npub');
+
+                // Lade EFABI Publisher
+                const { type: efabiType, data: efabiHex } = nip19.decode(publishers.efabiResources.npub);
+                if (efabiType !== 'npub') throw new Error('Ungültige EFABI npub');
+
+                console.log('📊 FOERBICO Hex:', articleHex);
+                console.log('📊 relilab Hex:', eventHex);
+                console.log('📊 EFABI Hex:', efabiHex);
+
+                // Lade FOERBICO Artikel (NIP-23: Long-form Content)
+                const articleFilter = {
+                    kinds: [30023],
+                    authors: [articleHex],
+                    limit: 50
+                };
+                console.log('🔍 FOERBICO Artikel-Filter:', articleFilter);
+                articles = await pool.querySync(relays, articleFilter);
+                console.log('📥 FOERBICO Artikel erhalten:', articles.length);
+
+                // Lade relilab Events (NIP-52: Calendar Events)
+                const eventFilter = {
+                    kinds: [31923],
+                    authors: [eventHex],
+                    limit: 50
+                };
+                console.log('🔍 relilab Event-Filter:', eventFilter);
+                events = await pool.querySync(relays, eventFilter);
+                console.log('📥 relilab Events erhalten:', events.length);
+
+                // Lade EFABI Ressourcen (NIP-23: Long-form Content)
+                const efabiResourceFilter = {
+                    kinds: [30023],
+                    authors: [efabiHex],
+                    limit: 50
+                };
+                console.log('[LOAD] EFABI Ressourcen-Filter:', efabiResourceFilter);
+                efabiResources = await pool.querySync(relays, efabiResourceFilter);
+                console.log('[LOAD] EFABI Ressourcen erhalten:', efabiResources.length, 'kind:', efabiResources[0]?.kind);
+
+                // Lade EFABI Veranstaltungen (NIP-52: Calendar Events)
+                const efabiEventFilter = {
+                    kinds: [31923],
+                    authors: [efabiHex],
+                    limit: 50
+                };
+                console.log('[LOAD] EFABI Event-Filter:', efabiEventFilter);
+                efabiEvents = await pool.querySync(relays, efabiEventFilter);
+                console.log('[LOAD] EFABI Events erhalten:', efabiEvents.length, 'kind:', efabiEvents[0]?.kind);
+
+                // Lade EFABI Netzwerkstatt Profile (NIP-05: User Metadata)
+                const efabiNetworkFilter = {
+                    kinds: [0],
+                    authors: [efabiHex],
+                    limit: 50
+                };
+                console.log('[LOAD] EFABI Netzwerkstatt-Filter:', efabiNetworkFilter);
+                efabiNetwork = await pool.querySync(relays, efabiNetworkFilter);
+                console.log('[LOAD] EFABI Netzwerk-Profile erhalten:', efabiNetwork.length, 'kind:', efabiNetwork[0]?.kind);
+
+                console.log('✅ FOERBICO Artikel geladen:', articles.length);
+                console.log('✅ relilab Events geladen:', events.length);
+                console.log('✅ EFABI Ressourcen geladen:', efabiResources.length);
+                console.log('✅ EFABI Events geladen:', efabiEvents.length);
+                console.log('✅ EFABI Netzwerk-Profile geladen:', efabiNetwork.length);
+
+                const loading = document.getElementById('loading');
+                loading.style.display = 'none';
+
+                renderArticles();
+                renderEvents();
+                renderEfabiResources();
+                renderEfabiEvents();
+                renderEfabiNetwork();
+
+                pool.close(relays);
+                
+            } catch (error) {
+                console.error('❌ Fehler beim Laden der Inhalte:', error);
+                const loading = document.getElementById('loading');
+                loading.style.display = 'block';
+                loading.innerHTML = 
+                    '<div class="no-items">⚠️ Fehler: ' + error.message + '</div>';
+                updateStatus(false);
+            }
+        }
+
+        function renderEfabiResources() {
+            const container = document.getElementById('efabi-resources');
+            console.log('[RENDER-EFABI-RESOURCES] Container:', container);
+            console.log('[RENDER-EFABI-RESOURCES] efabiResources.length:', efabiResources.length);
+            if (efabiResources.length > 0) {
+                console.log('[RENDER-EFABI-RESOURCES] First event kind:', efabiResources[0].kind);
+            }
+            
+            if (efabiResources.length === 0) {
+                container.innerHTML = '<div class="no-items">Keine efabi Ressourcen gefunden.</div>';
+                return;
+            }
+
+            efabiResources.sort((a, b) => b.created_at - a.created_at);
+
+            container.innerHTML = efabiResources.map(article => {
+                const title = article.tags.find(t => t[0] === 'title')?.[1] || 'Ohne Titel';
+                const summary = article.tags.find(t => t[0] === 'summary')?.[1] || '';
+                const image = article.tags.find(t => t[0] === 'image')?.[1] || '';
+                const publishedAt = article.tags.find(t => t[0] === 'published_at')?.[1];
+                const tags = article.tags.filter(t => t[0] === 't').map(t => t[1]);
+                
+                const fullHtmlContent = marked.parse(article.content);
+                const eventId = article.id.substring(0, 8);
+                const displayDate = publishedAt ? parseInt(publishedAt) : article.created_at;
+
+                return `
+                    <article class="article">
+                        <h2 class="article-title">${title}</h2>
+                        <div class="article-meta">
+                            📅 ${formatDate(displayDate)} · 📝 efabi Ressource
+                        </div>
+                        ${image ? `<img src="${image}" alt="${title}" class="article-image" />` : ''}
+                        ${summary ? `<div class="article-summary">${summary}</div>` : ''}
+                        <button class="read-more-btn" id="read-${eventId}" onclick="toggleContent('${eventId}')">
+                            📖 Weiterlesen
+                        </button>
+                        <div class="article-content full-content hidden" id="content-${eventId}">
+                            ${fullHtmlContent}
+                        </div>
+                        ${tags.length > 0 ? `
+                            <div class="tags">
+                                ${tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button class="json-toggle" id="btn-${eventId}" onclick="toggleJSON('${eventId}')">
+                            🔽 JSON anzeigen
+                        </button>
+                        <pre class="json-container hidden" id="json-${eventId}">${formatJSON(article)}</pre>
+                    </article>
+                `;
+            }).join('');
+
+            window.toggleJSON = toggleJSON;
+            window.toggleContent = toggleContent;
+        }
+
+        function renderEfabiEvents() {
+            const container = document.getElementById('efabi-events');
+            console.log('[RENDER-EFABI-EVENTS] Container:', container);
+            console.log('[RENDER-EFABI-EVENTS] efabiEvents.length:', efabiEvents.length);
+            if (efabiEvents.length > 0) {
+                console.log('[RENDER-EFABI-EVENTS] First event kind:', efabiEvents[0].kind);
+            }
+            
+            if (efabiEvents.length === 0) {
+                container.innerHTML = '<div class="no-items">Keine efabi Veranstaltungen gefunden.</div>';
+                return;
+            }
+
+            efabiEvents.sort((a, b) => {
+                const aStart = a.tags.find(t => t[0] === 'start')?.[1] || a.created_at;
+                const bStart = b.tags.find(t => t[0] === 'start')?.[1] || b.created_at;
+                return parseInt(aStart) - parseInt(bStart);
+            });
+
+            container.innerHTML = efabiEvents.map(event => {
+                const title = event.tags.find(t => t[0] === 'title')?.[1] || 'Ohne Titel';
+                const summary = event.tags.find(t => t[0] === 'summary')?.[1] || '';
+                const description = event.tags.find(t => t[0] === 'description')?.[1] || event.content || '';
+                const location = event.tags.find(t => t[0] === 'location')?.[1] || '';
+                const startTime = event.tags.find(t => t[0] === 'start')?.[1];
+                const endTime = event.tags.find(t => t[0] === 'end')?.[1];
+                const image = event.tags.find(t => t[0] === 'image')?.[1] || '';
+                const tags = event.tags.filter(t => t[0] === 't').map(t => t[1]);
+
+                const eventId = event.id.substring(0, 8);
+
+                return `
+                    <article class="event">
+                        <h2 class="event-title">${title}</h2>
+                        <div class="event-meta">
+                            ℹ️ efabi Veranstaltung
+                        </div>
+                        ${image ? `<img src="${image}" alt="${title}" class="article-image" />` : ''}
+                        <div class="event-details">
+                            ${startTime ? `
+                                <div class="event-detail-row">
+                                    <span class="event-detail-label">🕐 Start:</span>
+                                    <span class="event-detail-value">${formatDateTime(parseInt(startTime))}</span>
+                                </div>
+                            ` : ''}
+                            ${endTime ? `
+                                <div class="event-detail-row">
+                                    <span class="event-detail-label">🕐 Ende:</span>
+                                    <span class="event-detail-value">${formatDateTime(parseInt(endTime))}</span>
+                                </div>
+                            ` : ''}
+                            ${location ? `
+                                <div class="event-detail-row">
+                                    <span class="event-detail-label">📍 Ort:</span>
+                                    <span class="event-detail-value">${location}</span>
+                                </div>
+                            ` : ''}
+                        </div>
+                        ${summary ? `<div class="article-summary">${summary}</div>` : ''}
+                        ${description ? `<button class="read-more-btn" id="read-${eventId}" onclick="toggleContent('${eventId}')">📖 Beschreibung anzeigen</button>` : ''}
+                        <div class="article-content full-content hidden" id="content-${eventId}">
+                            ${description ? marked.parse(description) : 'Keine Beschreibung'}
+                        </div>
+                        ${tags.length > 0 ? `
+                            <div class="tags">
+                                ${tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button class="json-toggle" id="btn-${eventId}" onclick="toggleJSON('${eventId}')">
+                            🔽 JSON anzeigen
+                        </button>
+                        <pre class="json-container hidden" id="json-${eventId}">${formatJSON(event)}</pre>
+                    </article>
+                `;
+            }).join('');
+
+            window.toggleJSON = toggleJSON;
+            window.toggleContent = toggleContent;
+        }
+
+        function renderEfabiNetwork() {
+            const container = document.getElementById('efabi-network');
+            console.log('[RENDER-EFABI-NETWORK] Container:', container);
+            console.log('[RENDER-EFABI-NETWORK] efabiNetwork.length:', efabiNetwork.length);
+            if (efabiNetwork.length > 0) {
+                console.log('[RENDER-EFABI-NETWORK] First event kind:', efabiNetwork[0].kind);
+            }
+            
+            if (efabiNetwork.length === 0) {
+                container.innerHTML = '<div class="no-items">Keine Netzwerk-Profile gefunden.</div>';
+                return;
+            }
+
+            container.innerHTML = efabiNetwork.map(profile => {
+                let metadata = {};
+                try {
+                    metadata = JSON.parse(profile.content);
+                } catch (e) {
+                    console.warn('Fehler beim Parsen von Profil-Metadaten:', e);
+                }
+
+                const name = metadata.name || 'Profil ohne Namen';
+                const picture = metadata.picture || '';
+                const about = metadata.about || '';
+                const website = metadata.website || '';
+                const nip05 = metadata.nip05 || '';
+
+                const profileId = profile.id.substring(0, 8);
+
+                return `
+                    <article class="network-profile">
+                        <div class="profile-header">
+                            ${picture ? `<img src="${picture}" alt="${name}" class="profile-avatar" />` : '<div class="profile-avatar-placeholder">👤</div>'}
+                            <div class="profile-info">
+                                <h2 class="profile-name">${name}</h2>
+                                ${nip05 ? `<div class="profile-nip05">✓ ${nip05}</div>` : ''}
+                            </div>
+                        </div>
+                        ${about ? `<div class="profile-about">${marked.parse(about)}</div>` : ''}
+                        ${website ? `<div class="profile-website">🔗 <a href="${website}" target="_blank">${website}</a></div>` : ''}
+                        <button class="json-toggle" id="btn-${profileId}" onclick="toggleJSON('${profileId}')">
+                            🔽 JSON anzeigen
+                        </button>
+                        <pre class="json-container hidden" id="json-${profileId}">${formatJSON(profile)}</pre>
+                    </article>
+                `;
+            }).join('');
+
+            window.toggleJSON = toggleJSON;
+        }
+
+        window.switchTab = switchTab;
+        loadContent();
+    </script>
+</body>
+</html>
