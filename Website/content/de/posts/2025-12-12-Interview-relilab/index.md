@@ -56,13 +56,15 @@ tags:
   - Open Educational Practices (OEP)
   - Religionspädagogik
 --- 
+
+![Logo relilab](relilab_Logo(3).png)
+
 # Steckbrief
 Das [relilab](https://relilab.org/) ist eine Community, die religionsbezogene Bildung ermöglicht. Dabei ist sie heterarchisch strukturiert und läadt alle Menschen zum teilnehmen ein. Als Community wird selbstgesteuertes Lernen unterstützt und die Erstellung sowie Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, welche vom relilab selbst oder von externen Anbietern über das relilab-Zoom stattfinden.
 
 Aus den Interviews unserer Begleitforschung geht hervor, dass das relilab aus dem relichat auf Twitter entstanden ist. In Zeiten von Corona bildete sich aus dem wöchentlichen relichat, eine Community, die digitale Bildungswege erkundet. Im Laufe der Jahre hat sich die Community verändert, erneuert und angepasst. Das relilab ist eine Laborumgebung in der experimentiert werden darf und soll.
 Das relilab wird nicht nur im Rahmen der [Zwischenfazit-Tagung](www.evrel.phil.fau.de/foerbico-tagung-2026/) am 24. und 25. Februar 2026 in Nürnberg vorgestellt, sondern stellt sich selber in diesem Interview vor. Corinna Ullmann wird am zweiten Tag einen Workshop zum relilab geben. Zur Einstimmung auf den Workshop konnten wir Corinna vorher befragen.
 
-![Logo relilab](relilab_Logo(3).png)
 
 ## Interview
 
