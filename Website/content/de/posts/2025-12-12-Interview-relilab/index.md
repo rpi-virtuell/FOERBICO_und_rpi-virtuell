@@ -32,12 +32,12 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: TitelBlog_Interview.png 
+image: TitelBlog_Interview.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-08'
+datePublished: '2026-01-21'
 #staticSiteGenerator
 author:
   - Corinna Ullmann
@@ -46,7 +46,7 @@ title: 'InterviewRelilab'
 cover:
   relative: true
   hiddenInSingle: true
-  image: ima_22a17d4.jpeg 
+  image: TitelBlog_Interview.png 
 summary: |
   In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
 url: Interview-relilab
