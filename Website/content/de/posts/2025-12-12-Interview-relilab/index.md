@@ -6,7 +6,7 @@ creativeWorkStatus: Published
 name: Interview Relilab
 description: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/interviewrelilab
+id: https://oer.community/interview-relilab
 creator:
   - givenName: Corinna
     familyName: Ullmann
