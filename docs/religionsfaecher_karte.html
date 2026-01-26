@@ -231,6 +231,68 @@
                 height: 400px;
             }
         }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 24px;
+            }
+            
+            .content {
+                flex-direction: column-reverse;
+                padding: 10px;
+                height: auto;
+                gap: 10px;
+            }
+            
+            #map {
+                height: 500px;
+                min-height: 500px;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 350px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 18px;
+            }
+            
+            .header p {
+                font-size: 12px;
+            }
+            
+            #map {
+                height: 60vh;
+                min-height: 400px;
+            }
+            
+            .sidebar {
+                max-height: 40vh;
+            }
+            
+            .sidebar h2 {
+                font-size: 14px;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr;
+            }
+            
+            .fach-list li {
+                font-size: 10px;
+            }
+        }
     </style>
 </head>
 <body>
