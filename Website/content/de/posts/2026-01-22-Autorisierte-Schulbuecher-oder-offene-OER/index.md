@@ -27,7 +27,7 @@ author:
 title: 'Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur'
 cover:
   relative: true
-  image: Buecherregal.jpeg
+  image: Buecherregal.jpg
   hidddenInSingle: false
   alt: 'Bücherregal (Quelle: Unsplash, Foto von Susan Q Yin)'
 summary: >-
