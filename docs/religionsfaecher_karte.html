@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Religionsfächer in deutschen Bundesländern</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            height: 600px;
+        }
+        
+        #map {
+            flex: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .sidebar {
+            width: 320px;
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .sidebar h2 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #333;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .legend {
+            margin-bottom: 25px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .legend-color {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            margin-right: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        
+        .info-panel {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 12px;
+            font-size: 12px;
+        }
+        
+        .info-panel h3 {
+            margin: 10px 0 8px 0;
+            font-size: 13px;
+            color: #667eea;
+        }
+        
+        .fach-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .fach-list li {
+            padding: 4px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 11px;
+            line-height: 1.4;
+        }
+        
+        .fach-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .fach-list a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .fach-list a:hover {
+            text-decoration: underline;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .stat-box {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            font-size: 11px;
+        }
+        
+        .stat-box .number {
+            font-size: 16px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-box .label {
+            color: #666;
+            margin-top: 4px;
+        }
+        
+        /* Leaflet Popup anpassen */
+        .leaflet-popup-content {
+            font-family: inherit;
+        }
+        
+        .popup-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 6px;
+        }
+        
+        .popup-content {
+            font-size: 12px;
+        }
+        
+        .confession-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin: 2px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        .ontologie-badge {
+            display: inline-block;
+            background: #d73027;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin: 2px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        @media (max-width: 1024px) {
+            .content {
+                flex-direction: column;
+                height: auto;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 300px;
+            }
+            
+            #map {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Religionsfächer in Deutschland</h1>
+            <p>Interaktive Karte der Religionslehre und Ethik nach Bundesländern</p>
+        </div>
+        
+        <div class="content">
+            <div id="map"></div>
+            
+            <div class="sidebar">
+                <div class="legend">
+                    <h2>Legende</h2>
+                    <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #ddd;">
+                        <p style="font-size: 12px; color: #555; margin-bottom: 8px;"><strong>Marker-Größe (Fächeranzahl):</strong></p>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #d73027;"></div>
+                            <span>1 Fach</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #fc8d59;"></div>
+                            <span>2-3 Fächer</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #fee090;"></div>
+                            <span>4-5 Fächer</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #e0f3f8;"></div>
+                            <span>6-7 Fächer</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #91bfdb;"></div>
+                            <span>8-9 Fächer</span>
+                        </div>
+                    </div>
+                    <div style="padding-top: 10px;">
+                        <p style="font-size: 12px; color: #555; margin-bottom: 8px;"><strong>Badges (in Details):</strong></p>
+                        <div class="legend-item">
+                            <span style="background: #d73027; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px;">Bundeslandbezogen</span>
+                            <span style="font-size: 11px; margin-left: 6px; color: #666;">(Schulfach-Ontologie)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span style="background: #667eea; color: white; padding: 2px 6px; border-radius: 3px; font-size: 11px;">Bundesweit</span>
+                            <span style="font-size: 11px; margin-left: 6px; color: #666;">(KIM-Standard)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-panel" id="infoPanel">
+                    <p style="color: #999; text-align: center;">Klicken Sie auf ein Bundesland für Details</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <strong>Quelle:</strong> Schulfach-Ontologie (schulfach-ontologie) | KIM-Standard | 
+            <a href="https://w3id.org/schulfach/" style="color: #667eea;">w3id.org/schulfach/</a>
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    
+    <script>
+        // Daten: Bundesländer mit Religionsfächern
+        const religionData = {
+            "Baden-Württemberg": {
+                faecher: 9,
+                coords: [48.7758, 9.1829],
+                details: [
+                    { name: "Alevitische Religionslehre", uri: "BW_0000001", kim: "" },
+                    { name: "Altkatholische Religionslehre", uri: "BW_0000003", kim: "" },
+                    { name: "Ethik", uri: "BW_0000021", kim: "s1008" },
+                    { name: "Evangelische Religionslehre", uri: "BW_0000022", kim: "s1024" },
+                    { name: "Islamische Religionslehre sunnitischer Prägung", uri: "BW_0000038", kim: "s1025" },
+                    { name: "Jüdische Religionslehre", uri: "BW_0000042", kim: "" },
+                    { name: "Katholische Religionslehre", uri: "BW_0000043", kim: "s1026" },
+                    { name: "Orthodoxe Religionslehre", uri: "BW_0000057", kim: "" },
+                    { name: "Syrisch-Orthodoxe Religionslehre", uri: "BW_0000072", kim: "" }
+                ]
+            },
+            "Bayern": {
+                faecher: 5,
+                coords: [48.9642, 11.4826],
+                details: [
+                    { name: "Ethik", uri: "BY_0000004", kim: "s1008" },
+                    { name: "Evangelische Religionslehre", uri: "BY_0000005", kim: "s1024" },
+                    { name: "Israelitische Religionslehre", uri: "BY_0000033", kim: "" },
+                    { name: "Katholische Religionslehre", uri: "BY_0000008", kim: "s1026" },
+                    { name: "Orthodoxe Religionslehre", uri: "BY_0000012", kim: "" }
+                ]
+            },
+            "Berlin": {
+                faecher: 1,
+                coords: [52.5200, 13.4050],
+                details: [
+                    { name: "Ethik", uri: "BE_0000050", kim: "s1008" }
+                ]
+            },
+            "Brandenburg": {
+                faecher: 1,
+                coords: [52.4056, 12.3316],
+                details: [
+                    { name: "Lebensgestaltung-Ethik-Religion", uri: "BB_0000020", kim: "s1008" }
+                ]
+            },
+            "Bremen": {
+                faecher: 1,
+                coords: [53.0793, 8.8017],
+                details: [
+                    { name: "Religion", uri: "HB_0000036", kim: "" }
+                ]
+            },
+            "Hamburg": {
+                faecher: 1,
+                coords: [53.5511, 9.9937],
+                details: [
+                    { name: "Religion", uri: "HH_0000012", kim: "" }
+                ]
+            },
+            "Hessen": {
+                faecher: 6,
+                coords: [50.0109, 8.6753],
+                details: [
+                    { 
+                        name: "Alevitische Religion", 
+                        uri: "HE_0000001", 
+                        kim: "",
+                        dokumente: []
+                    },
+                    { 
+                        name: "Ethik", 
+                        uri: "HE_0000012", 
+                        kim: "s1008",
+                        dokumente: [
+                            { titel: "Kerncurriculum Ethik - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/kc_ethik_prst_2011_0.pdf", groesse: "465.11 KB", typ: "PDF" },
+                            { titel: "Leitfaden Ethik - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/leitfaden_ethik1.pdf", groesse: "721.18 KB", typ: "PDF" }
+                        ]
+                    },
+                    { 
+                        name: "Evangelische Religion", 
+                        uri: "HE_0000013", 
+                        kim: "s1024",
+                        dokumente: [
+                            { titel: "Kerncurriculum Evangelische Religion - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/kc_evreligion_prst_2011.pdf", groesse: "489.15 KB", typ: "PDF" },
+                            { titel: "Leitfaden Evangelische Religion - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/leitfaden_evangelische_religion_i-1.pdf", groesse: "1.45 MB", typ: "PDF" },
+                            { titel: "Ergänzung zum Leitfaden Evangelische Religion - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/lf_ergaenzung_evreli_prst.pdf", groesse: "757.73 KB", typ: "PDF" },
+                            { titel: "M10-Unterrichtsschwerpunkt (Leerformat) (DIN A3)", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/m10-a3_evreligion.docx", groesse: "795.25 KB", typ: "DOCX" },
+                            { titel: "M10-Unterrichtsschwerpunkt (Leerformat) (DIN A4)", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/m10-a4_evreligion_prst.docx", groesse: "796.23 KB", typ: "DOCX" },
+                            { titel: "M12-Langfristiger Kompetenzaufbau (DIN A4)", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/m12-a4_evreligion_prst.docx", groesse: "875.57 KB", typ: "DOCX" },
+                            { titel: "M12-Langfristiger Kompetenzaufbau (DIN A3)", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/m12-a4_evreligion_prst_0.docx", groesse: "875.57 KB", typ: "DOCX" }
+                        ]
+                    },
+                    { 
+                        name: "Islamische Religion", 
+                        uri: "HE_0000020", 
+                        kim: "s1025",
+                        dokumente: [
+                            { titel: "Islamische Religion (Ahmadiyya Muslim Jamaat) - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/kerncurriculum_islamischer_religionsunterricht.pdf", groesse: "792.52 KB", typ: "PDF" },
+                            { titel: "Islamische Religion (Ditib Hessen sunnitisch)", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2022-10/primarstufe_iru_ditib_hessen_sunnitisch.pdf", groesse: "721.19 KB", typ: "PDF" }
+                        ]
+                    },
+                    { 
+                        name: "Jüdische Religion", 
+                        uri: "HE_0000022", 
+                        kim: "",
+                        dokumente: [
+                            { titel: "Kerncurriculum Jüdische Religion - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/kerncurriculum_juedische_religion_-_primarstufe.pdf", groesse: "815.70 KB", typ: "PDF" }
+                        ]
+                    },
+                    { 
+                        name: "Katholische Religion", 
+                        uri: "HE_0000023", 
+                        kim: "s1026",
+                        dokumente: [
+                            { titel: "Kerncurriculum Katholische Religion - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/kc_kathreligion_prst_2011.pdf", groesse: "500.49 KB", typ: "PDF" },
+                            { titel: "Leitfaden Katholische Religion - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/leitfaden_katholische_religion_i_0.pdf", groesse: "1.44 MB", typ: "PDF" },
+                            { titel: "Planungshilfe zur Ausgestaltung eines Fachcurriculums für den Katholischen Religionsunterricht - Primarstufe", url: "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-06/katholische_religion_primarstufe.pdf", groesse: "208.44 KB", typ: "PDF" }
+                        ]
+                    }
+                ]
+            },
+            "Mecklenburg-Vorpommern": {
+                faecher: 2,
+                coords: [53.6154, 12.9413],
+                details: [
+                    { name: "Evangelische Religion", uri: "MV_0000011", kim: "s1024" },
+                    { name: "Katholische Religion", uri: "MV_0000021", kim: "s1026" }
+                ]
+            },
+            "Niedersachsen": {
+                faecher: 3,
+                coords: [52.2403, 9.0639],
+                details: [
+                    { name: "Evangelische Religion", uri: "NI_0000011", kim: "s1024" },
+                    { name: "Islamische Religion", uri: "NI_0000020", kim: "s1025" },
+                    { name: "Katholische Religion", uri: "NI_0000023", kim: "s1026" }
+                ]
+            },
+            "Nordrhein-Westfalen": {
+                faecher: 7,
+                coords: [51.7236, 7.0570],
+                details: [
+                    { name: "Alevitischer Religionsunterricht", uri: "NW_0000001", kim: "" },
+                    { name: "Evangelische Religionslehre", uri: "NW_0000012", kim: "s1024" },
+                    { name: "Islamischer Religionsunterricht", uri: "NW_0000022", kim: "s1025" },
+                    { name: "Jüdische Religionslehre", uri: "NW_0000025", kim: "" },
+                    { name: "Katholische Religionslehre", uri: "NW_0000026", kim: "s1026" },
+                    { name: "Orthodoxe Religionslehre", uri: "NW_0000036", kim: "" },
+                    { name: "Syrisch-Orthodoxe Religionslehre", uri: "NW_0000049", kim: "" }
+                ]
+            },
+            "Rheinland-Pfalz": {
+                faecher: 5,
+                coords: [50.3520, 7.5717],
+                details: [
+                    { name: "Alevitische Religion", uri: "RP_0000043", kim: "" },
+                    { name: "Ethik", uri: "RP_0000023", kim: "s1008" },
+                    { name: "Evangelische Religion", uri: "RP_0000041", kim: "s1024" },
+                    { name: "Katholische Religion", uri: "RP_0000042", kim: "s1026" },
+                    { name: "Mennonitische Religion", uri: "RP_0000044", kim: "" }
+                ]
+            },
+            "Saarland": {
+                faecher: 5,
+                coords: [49.2557, 6.9922],
+                details: [
+                    { name: "Allgemeine Ethik", uri: "SL_0000001", kim: "s1008" },
+                    { name: "Evangelische Religion", uri: "SL_0000020", kim: "s1024" },
+                    { name: "Islamischer Religionsunterricht", uri: "SL_0000037", kim: "s1025" },
+                    { name: "Katholische Religion", uri: "SL_0000040", kim: "s1026" },
+                    { name: "Katholischer Religionsunterricht", uri: "SL_0000041", kim: "s1026" }
+                ]
+            },
+            "Sachsen": {
+                faecher: 4,
+                coords: [51.1657, 13.5898],
+                details: [
+                    { name: "Ethik", uri: "SN_0000004", kim: "s1008" },
+                    { name: "Evangelische Religion", uri: "SN_0000005", kim: "s1024" },
+                    { name: "Jüdische Religion", uri: "SN_0000009", kim: "" },
+                    { name: "Katholische Religion", uri: "SN_0000010", kim: "s1026" }
+                ]
+            },
+            "Sachsen-Anhalt": {
+                faecher: 3,
+                coords: [51.8621, 11.6923],
+                details: [
+                    { name: "Ethikunterricht", uri: "ST_0000008", kim: "s1008" },
+                    { name: "Evangelischer Religionsunterricht", uri: "ST_0000009", kim: "s1024" },
+                    { name: "Katholischer Religionsunterricht", uri: "ST_0000018", kim: "s1026" }
+                ]
+            },
+            "Schleswig-Holstein": {
+                faecher: 2,
+                coords: [54.2734, 9.5622],
+                details: [
+                    { name: "Evangelische Religion", uri: "SH_0000008", kim: "s1024" },
+                    { name: "Katholische Religion", uri: "SH_0000018", kim: "s1026" }
+                ]
+            },
+            "Thüringen": {
+                faecher: 4,
+                coords: [50.9160, 11.1103],
+                details: [
+                    { name: "Ethik", uri: "TH_0000007", kim: "s1008" },
+                    { name: "Evangelische Religionslehre", uri: "TH_0000008", kim: "s1024" },
+                    { name: "Jüdische Religionslehre", uri: "TH_0000021", kim: "" },
+                    { name: "Katholische Religionslehre", uri: "TH_0000022", kim: "s1026" }
+                ]
+            }
+        };
+        
+        // Farbfunktion basierend auf Fächeranzahl
+        function getColor(faecher) {
+            if (faecher === 1) return '#d73027';
+            if (faecher <= 3) return '#fc8d59';
+            if (faecher <= 5) return '#fee090';
+            if (faecher <= 7) return '#e0f3f8';
+            return '#91bfdb';
+        }
+        
+        // Karte initialisieren
+        const map = L.map('map').setView([51.1657, 10.4515], 6);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 10,
+            minZoom: 5
+        }).addTo(map);
+        
+        // Marker für jedes Bundesland
+        Object.entries(religionData).forEach(([blName, data]) => {
+            const color = getColor(data.faecher);
+            
+            // Marker
+            const marker = L.circleMarker(data.coords, {
+                radius: Math.sqrt(data.faecher) * 4,
+                fillColor: color,
+                color: '#333',
+                weight: 2,
+                opacity: 0.9,
+                fillOpacity: 0.8
+            }).addTo(map);
+            
+            // Popup-Inhalt
+            let popupHTML = `<div class="popup-title">${blName}</div>`;
+            popupHTML += `<div class="popup-content">`;
+            popupHTML += `<strong>${data.faecher} Fächer</strong><br>`;
+            
+            // Fachenliste
+            popupHTML += `<ul style="margin: 8px 0; padding-left: 20px;">`;
+            data.details.forEach(fach => {
+                let link = `<strong>${fach.name}</strong>`;
+                link += ` <a href="https://fwu-de.github.io/schulfach-ontologie/index-de.html#/${fach.uri}" target="_blank" class="confession-badge" style="background: #d73027; text-decoration: none; color: white;">🔗 ${fach.uri}</a>`;
+                if (fach.kim) {
+                    link += ` <a href="http://w3id.org/kim/schulfaecher/${fach.kim}" target="_blank" class="confession-badge" style="text-decoration: none; color: white;">🔗 ${fach.kim}</a>`;
+                }
+                popupHTML += `<li>${link}`;
+                
+                // Für Hessen: Dokumente im Popup anzeigen
+                if (blName === "Hessen" && fach.dokumente && fach.dokumente.length > 0) {
+                    popupHTML += `<br><small style="color: #666;">Dokumente: ${fach.dokumente.length}</small>`;
+                }
+                
+                popupHTML += `</li>`;
+            });
+            popupHTML += `</ul>`;
+            popupHTML += `</div>`;
+            
+            marker.bindPopup(popupHTML);
+            
+            // Click-Handler für Sidebar
+            marker.on('click', function() {
+                updateSidebar(blName, data);
+            });
+        });
+        
+        // Sidebar Update
+        function updateSidebar(blName, data) {
+            let html = `<h3>${blName}</h3>`;
+            html += `<div class="stats">`;
+            html += `<div class="stat-box"><div class="number">${data.faecher}</div><div class="label">Fächer</div></div>`;
+            
+            const withKIM = data.details.filter(f => f.kim).length;
+            html += `<div class="stat-box"><div class="number">${withKIM}</div><div class="label">mit KIM</div></div>`;
+            html += `</div>`;
+            
+            html += `<h3 style="margin-top: 15px;">Religionsfächer</h3>`;
+            html += `<ul class="fach-list">`;
+            data.details.forEach((fach, idx) => {
+                let item = `<li>`;
+                item += `<strong>📚 ${fach.name}</strong>`;
+                item += `<br>`;
+                item += `<a href="https://fwu-de.github.io/schulfach-ontologie/index-de.html#/${fach.uri}" target="_blank" class="ontologie-badge" style="text-decoration: none; color: white;">🔗 ${fach.uri}</a>`;
+                if (fach.kim) {
+                    item += ` <a href="http://w3id.org/kim/schulfaecher/${fach.kim}" target="_blank" class="confession-badge" style="text-decoration: none; color: white;">🔗 ${fach.kim}</a>`;
+                }
+                
+                // Für Hessen: Dokumente anzeigen
+                if (blName === "Hessen" && fach.dokumente && fach.dokumente.length > 0) {
+                    item += `<ul style="margin: 6px 0 0 0; padding-left: 16px;">`;
+                    fach.dokumente.forEach(doc => {
+                        const icon = doc.typ === 'PDF' ? '📄' : '📋';
+                        item += `<li style="font-size: 10px;"><a href="${doc.url}" target="_blank" style="color: #667eea;">${icon} ${doc.titel}</a> <span style="color: #999;">(${doc.groesse})</span></li>`;
+                    });
+                    item += `</ul>`;
+                }
+                
+                item += `</li>`;
+                html += item;
+            });
+            html += `</ul>`;
+            
+            document.getElementById('infoPanel').innerHTML = html;
+        }
+        
+        // Initial: Bayern anzeigen
+        updateSidebar("Bayern", religionData["Bayern"]);
+    </script>
+</body>
+</html>
