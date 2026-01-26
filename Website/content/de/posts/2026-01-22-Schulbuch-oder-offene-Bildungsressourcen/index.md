@@ -20,7 +20,8 @@ creator:
 image: Buecherregal.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2026-01-22'
+datePublished: '2027-05-01'
+draft: true
 #staticSiteGenerator:
 author:
   - Laura Mößle
@@ -42,9 +43,6 @@ tags:
   - Open Educational Resources (OER)
   - Kollaboration
 ---
-
-# Schulbuch oder offene Bildungsressourcen? Kirchliche Mitsprache bei Religionsschulbüchern vs. offene Entwicklung von OER
-
 
 Die Realität der religionspädagogischen Materialentwicklung lässt sich in einem markanten Kontrastbild beschreiben: 
 Auf der einen Seite befinden sich kirchlich geprüfte Unterrichtswerke, die meist in Form von Schulbüchern vorliegen. Sie entstehen in enger Kooperation von ausgewählten Autor:innen, kirchlichen Aufsichtsstellen und staatlicher Kulutsbehörde. 
