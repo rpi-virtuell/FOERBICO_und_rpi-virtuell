@@ -57,7 +57,7 @@ Unser interdisziplinäres Team ist nun komplett und wir freuen uns, gemeinsam du
 
 ![Das FOERBICO Team](FOERBICO-Team.png "Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina")
 
-Erstes Treffen mit dem gesamten FOERBICO-Team am 5. August 2024  
+Erstes Treffen mit dem gesamten FOERBICO-Team am 5. August 2024 
 
 ## Mit dabei:
 
