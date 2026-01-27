@@ -150,7 +150,7 @@ Dies ist nicht nur ein weiterer Beleg von der Christianiserung der hebräischen 
 Leider verfehlt "Der Löwe von Juda" aus den oben genannten Gründen das selbst gewählte Ziel der Deutschen Bibelgesellschaft:
 > »Als Deutsche Bibelgesellschaft ist es unser Ziel, Menschen eine Begegnung mit der Bibel zu ermöglichen, die theologisch verantwortet und dialogfähig ist.«
 
-Trotz all dieser Kritikpunkte am Werk ist es der deutschen Bibelgesellschaft hoch anzurechnen, dass kurz vor Weihnachten der Vertrieb dieser Kinderbibel eingestellt wurde. Am Beispiel von der Veröffentlichung und Depublizierung von „der Löwe von Juda” kann man über Haltung reflektieren sowie über die Bewertung von Eingeständnissen.
+Trotz all dieser Kritikpunkte am Werk ist es der deutschen Bibelgesellschaft hoch anzurechnen, dass kurz vor Weihnachten der Vertrieb dieser Kinderbibel eingestellt wurde. Am Beispiel von der Veröffentlichung und Depublizierung von „der Löwe von Juda” kann man über Umgang mit Kritik sowie über die Bewertung von Eingeständnissen reflektieren.
 
 ### Haltung
 
