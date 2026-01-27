@@ -78,8 +78,7 @@ Die folgende, in den theologischen Diskurs gestellte Erörterung bezieht sich im
 
 - Gewalt wird in „der Löwe von Juda” durchgehend in einen heroischen Kontext gestellt. Die ‚guten‘ Männer Gottes kämpfen kriegerisch gegen die Feinde der Hebräer bzw. Gottes. Dabei wird die kritische Auseinandersetzung mit Gewalt innerhalb der hebräischen Bibel nicht erwähnt.
 
-## Ein kurzes Vorwort
-
+## Bei der Veröffentlichung
 ![Zitat auf Instagram](Loewe-von-Juda-04.png) <br>Screenshot von Instagram</br>
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
