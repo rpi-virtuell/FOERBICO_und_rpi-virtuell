@@ -39,7 +39,7 @@ educationalLevel:
 #staticSiteGenerator:
 author:
   - Phillip Angelina
-title: 'Wenn der Löwe Schwierigkeiten bereitet'
+title: 'Wenn der Löwe ruft und die Communities antworten'
 cover:
   relative: true
   image: Gemini_Generated_Image_k0cbmok0cbmok0cb.png
@@ -57,8 +57,6 @@ tags:
   - OER-Communities
   - Bibel
 ---
-
-# Wenn der Löwe ruft und die Communities antworten
 
 ![Ein Biber, ein Löwe und ein Nilpferd im Stile der Charaktere aus der Kinderbibel der Löwe von Juda KI generiert](Gemini_Generated_Image_k0cbmok0cbmok0cb.png) <br>*Bildquelle: Gemini*</br>
 
