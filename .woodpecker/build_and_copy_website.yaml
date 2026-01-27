@@ -55,7 +55,6 @@ steps:
       - scp -r -i ~/.ssh/deployKey -P $SSH_PORT Website/PROD/* $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH/
       - if ! grep -E "<p>FOERBICO is a research project which " Website/PROD/en/index.html; then ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "cp $DOMAIN_FOLDER/www_stable/en/index.html $DOMAIN_FOLDER/$TARGET_PATH/en/"; fi
       - echo hier
-      - ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_end_copy_$(date +'%Y-%m-%d_%T')"
 
   - name: log_end_time
     image: alpine
