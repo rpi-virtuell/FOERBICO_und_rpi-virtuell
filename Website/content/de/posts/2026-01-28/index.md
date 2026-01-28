@@ -32,7 +32,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: RELImentarInterviewTitelpage.png
+image: https://oer.community/interview-relimentar/RELImentarInterviewTitelpage.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -85,7 +85,7 @@ RELImentar wird durch ein Fachnetzwerk ständig weiterentwickelt. Die Menschen, 
 
 Für mich zeichnet diese Qualität aus, dass wir sie ebenfalls kontinuierlich im Netzwerk beraten. Das Nachdenken über Qualität bleibt nicht stehen und so werden auch die Qualitätskmerkmale, mit denen Materialien auf RELImentar eingeschätzt werden, fortlaufend weiterentwickelt. Dieser Prozesscharakter ist für mich im Rahmen von RELImentar sehr besonders. Alle, die an RELImentar aktiv mitwirken, gestalten damit auch das Nachdenken über Qualität aktiv mit. Dieses gemeinsame Ringen trägt nach meiner Einschätzung zu einer Profilierung und Professionalisierung aller bei, die sich daran beteiligen.
 
-4. Frage: Was können wir von euch auf der zwischenfazit Tagung erwarten?
+4. Frage: Was können wir von euch auf der Zwischenfazit-Tagung erwarten?
 
 Wir möchten konkrete Einblicke in die Arbeit mit Qualitätsmerkmalen geben, die wir auf RELImentar nutzen, um Praxismaterialien einzuschätzen. Dabei geht es zu einem Teil um die Merkmale selbst, zum anderen Teil aber um die Arbeitsweisen, in denen sie entstehen und aus denen sich Hinweise für andere OER-Communities ableiten lassen.
 
