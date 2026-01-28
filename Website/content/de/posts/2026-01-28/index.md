@@ -74,15 +74,19 @@ RELImentar wird nicht nur im Rahmen der [Zwischenfazit-Tagung](www.evrel.phil.fa
 
 ## Interview
 1. Frage: Was genau ist RELImentar?
+
 RELImentar ist eine Plattform für alle, die mit Kindern und Familien in Kindertageseinrichtungen religiöse Bildung gestalten. RELImentar bietet Praxismaterialien als OER, online Fortbildungen und Zugänge zu regionalen Ansprechpersonen und Angeboten.
 
 2. Frage: Was macht RELImentar für dich besonders?
+
 RELImentar wird durch ein Fachnetzwerk ständig weiterentwickelt. Die Menschen, die das Netzwerk gestalten, kommen aus ganz Deutschland. Einige treffen sich für eine kontinuierliche Arbeit an RELImentar ein Mal in der Woche. Dadurch ist eine sehr intensive Zusammenarbeit gewachsen. Was brauchen die Fachkräfte? Welche Entwicklungen zeichnen sich im Kontext früher religiöser Bildung in Kindertageseinrichtungen ab? Wie kann RELImentar unterstützen? Diese Fragen werden miteinander bewegt und sie wirken sich auf RELImentar konkret aus. Damit können wir mit der Plattform relativ schnell auf neue Herausforderungen reagieren.
 
 3. Frage: Das Thema Qualität ist auf eurer Website sehr präsent. Was zeichnet Qualität bei OER für dich aus?
+
 Für mich zeichnet diese Qualität aus, dass wir sie ebenfalls kontinuierlich im Netzwerk beraten. Das Nachdenken über Qualität bleibt nicht stehen und so werden auch die Qualitätskmerkmale, mit denen Materialien auf RELImentar eingeschätzt werden, fortlaufend weiterentwickelt. Dieser Prozesscharakter ist für mich im Rahmen von RELImentar sehr besonders. Alle, die an RELImentar aktiv mitwirken, gestalten damit auch das Nachdenken über Qualität aktiv mit. Dieses gemeinsame Ringen trägt nach meiner Einschätzung zu einer Profilierung und Professionalisierung aller bei, die sich daran beteiligen.
 
 4. Frage: Was können wir von euch auf der zwischenfazit Tagung erwarten?
+
 Wir möchten konkrete Einblicke in die Arbeit mit Qualitätsmerkmalen geben, die wir auf RELImentar nutzen, um Praxismaterialien einzuschätzen. Dabei geht es zu einem Teil um die Merkmale selbst, zum anderen Teil aber um die Arbeitsweisen, in denen sie entstehen und aus denen sich Hinweise für andere OER-Communities ableiten lassen.
 
 ## Mit OER zu einer Kultur des Teilens
