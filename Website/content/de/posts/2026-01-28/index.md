@@ -64,7 +64,9 @@ tags:
 [RELImentar](https://relimentar.de/) ist eine Community, die religionsbezogene Bildung im Elementar- und Primarbereich stärkt. Auf ihrer Website steht:
 > RELImentar ist das religionspädagogisches Portal für alle, die mit Kindern in Krippe, Kita und Hort tätig sind.
 
-RELImentar stellt einen qualitätsgeprüften Materialpool mit Praxismaterialien bereit. Die Materialien sind offen lizenziert und mit Metadaten wie beispielsweise Autor:innenschaft und Zielgruppe ausgewiesen. [Screenshot]
+RELImentar stellt einen qualitätsgeprüften Materialpool mit Praxismaterialien bereit. Die Materialien sind offen lizenziert und mit Metadaten wie beispielsweise Autor:innenschaft und Zielgruppe ausgewiesen. 
+
+![Screenshot-Materialpool](Screenshot_RELImentar.png)
 
 Ein zentraler Baustein sind die RELImentar-Cafés. Die Cafés sind ein Raum für Fachimpulse, kollegialen Austausch und die gemeinsame Arbeit am Material. Die Teilnehmenden können nicht nur ausgewähltes Material für sich erschließen, sondern auch selbst Hand anlegen. Niedrigschwellig und praxisnah wird das in den Materialien liegende Potenzial sichtbar und nutzbar gemacht, inklusive gemeinsamer Übungen zur Anpassung an die eigene Gruppe und den jeweiligen Kontext.
 
