@@ -32,12 +32,12 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: 
+image: RELImentarInterviewTitelpage.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-01-21'
+datePublished: '2026-01-28'
 #staticSiteGenerator
 author:
   - Simone Wustrack
@@ -46,7 +46,7 @@ title: 'Interview RELImentar'
 cover:
   relative: true
   hiddenInSingle: true
-  image: 
+  image: RELImentarInterviewTitelpage.png
 summary: |
   In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
 url: interview-relimentar
@@ -57,6 +57,8 @@ tags:
   - Religionspädagogik
 --- 
 # Interview RELImentar
+
+![RELImentar-Logo](logo-relimentar-final-2.png)
 
 ## Steckbrief
 [RELImentar](https://relimentar.de/) ist eine Community, die religionsbezogene Bildung im Elementar- und Primarbereich stärkt. Auf ihrer Website steht:
@@ -83,7 +85,7 @@ Wir möchten konkrete Einblicke in die Arbeit mit Qualitätsmerkmalen geben, die
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](/2025-12-12-Interview-relilab/FOERBICO_Tagung_Logo.png)
+![Tagungslogo](FOERBICO_Tagung_Logo.png)
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:
@@ -91,6 +93,6 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](/save-the-date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de.
