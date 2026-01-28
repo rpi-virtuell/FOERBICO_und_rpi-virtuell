@@ -6,7 +6,7 @@ creativeWorkStatus: Published
 name: Interview RELImentar
 description: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/interview-relilab
+id: https://oer.community/interview-relimentar
 creator:
   - givenName: Simone
     familyName: Wustrack
