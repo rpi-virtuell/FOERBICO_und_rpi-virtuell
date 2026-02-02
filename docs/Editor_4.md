@@ -81,6 +81,7 @@ Optionale Zielrichtungen des Religionsunterrichts:
 - Bibel als Glaubenszeugnis
 - Konkrete biblische Geschichten
 - Religiöse Symbole
+- Personen der Bibel, und zwar... (hier Freitexteingabe ermöglichen, oder weitere Unterauswahl anbieten)
 
 ### Religionen / Weltanschauungen
 - Christentum
