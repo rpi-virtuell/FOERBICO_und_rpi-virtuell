@@ -6,7 +6,7 @@ creativeWorkStatus: Published
 name: Interview Relilab
 description: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/interviewrelilab
+id: https://oer.community/interview-relilab
 creator:
   - givenName: Corinna
     familyName: Ullmann
@@ -42,14 +42,14 @@ datePublished: '2026-01-21'
 author:
   - Corinna Ullmann
   - Phillip Angelina
-title: 'InterviewRelilab'
+title: 'Interview Relilab'
 cover:
   relative: true
   hiddenInSingle: true
   image: RelilabInterviewTitelpage.png
 summary: |
   In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
-url: Interview-relilab
+url: interview-relilab
 tags:
   - Tagung
   - OER
@@ -57,14 +57,13 @@ tags:
   - Religionspädagogik
 --- 
 
-![Logo relilab](relilab_Logo(3).png)
+![Logo relilab](relilab_logo.png)
 
 # Steckbrief
 Das [relilab](https://relilab.org/) ist eine Community, die religionsbezogene Bildung ermöglicht. Dabei ist sie heterarchisch strukturiert und lädt alle Menschen zum teilnehmen ein. Als Community wird selbstgesteuertes Lernen unterstützt und die Erstellung sowie Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, welche vom relilab selbst oder von externen Anbietern über das relilab-Zoom stattfinden.
 
 Aus den Interviews unserer Begleitforschung geht hervor, dass das relilab aus dem relichat auf Twitter entstanden ist. In Zeiten von Corona bildete sich aus dem wöchentlichen relichat, eine Community, die digitale Bildungswege erkundet. Im Laufe der Jahre hat sich die Community verändert, erneuert und angepasst. Das relilab ist eine Laborumgebung in der experimentiert werden darf und soll.
 Das relilab wird nicht nur im Rahmen der [Zwischenfazit-Tagung](www.evrel.phil.fau.de/foerbico-tagung-2026/) am 24. und 25. Februar 2026 in Nürnberg vorgestellt, sondern stellt sich selber in diesem Interview vor. Corinna Ullmann wird am zweiten Tag einen Workshop zum relilab geben. Zur Einstimmung auf den Workshop konnten wir Corinna vorher befragen.
-
 
 ## Interview
 
@@ -102,6 +101,6 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton(2).png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](/save-the-date/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
-Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 
+Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de.
