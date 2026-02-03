@@ -21,4 +21,4 @@
 | November 2025       | [Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER](https://oer.community/qualitaetskriterien-checkliste/) |
 | Dezember 2025       | [*Open* ist eine Haltung: Wie Lehrkräfte mit OER umgehen](https://oer.community/open-ist-eine-haltung/)                                  |
 | Januar 2026         | [Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur](https://oer.community/autorisierte-schulbuecher-oder-offene-oer/)                                                |
-| Februar 2026        | [Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/lmoessle-Inklusives-Lernen/Website/content/de/posts/2026-02-20-Inklusives-Lernen-durch-OEP/index.md)                                                                         |
+| Februar 2026        | [Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens](https://oer.community/inklusives-Lernen-durch-OEP)                                                                         |
