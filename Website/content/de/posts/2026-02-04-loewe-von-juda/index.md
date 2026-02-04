@@ -44,7 +44,7 @@ title: 'Wenn der Löwe ruft und die Communities antworten'
 cover:
   relative: true
   image: Gemini_Generated_Image_k0cbmok0cbmok0cb.png
-  hidddenInSingle: false
+  hidddenInSingle: true
   alt: 'Der Löwe von Juda'
 summary: >-
   In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der
