@@ -1,6 +1,7 @@
 ---
+#commonMetadata:
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
 name: Wenn der Löwe ruft und die Communities antworten
 description: >-
@@ -10,8 +11,7 @@ description: >-
   Communities für das Auffinden von Fehlern und blinden Flecken für das eigene
   Schaffen sind.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/index.md
+id: https://oer.community/der-loewe-schwierigkeiten
 creator:
   - givenName: Phillip
     familyName: Angelina
@@ -31,11 +31,12 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n053
 image: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/L%C3%B6we_von_Juda_Titelbild.png
+  https://oer.community/der-loewe-schwierigkeiten/Gemini_Generated_Image_k0cbmok0cbmok0cb.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-02-04'
 #staticSiteGenerator:
 author:
   - Phillip Angelina
