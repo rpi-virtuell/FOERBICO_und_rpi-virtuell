@@ -11,7 +11,7 @@ description: >-
   Schaffen sind.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we-von-Juda/Website/content/posts/2025-12-23-Loewe-Juda/index.md
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/index.md
 creator:
   - givenName: Phillip
     familyName: Angelina
