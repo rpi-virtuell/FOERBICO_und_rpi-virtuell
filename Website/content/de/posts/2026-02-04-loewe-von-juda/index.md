@@ -31,7 +31,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n053
 image: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/L%C3%B6we_von_Juda_Titelbild.png
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Website/content/de/posts/2026-02-04-loewe-von-juda/loewe_von_juda_titelbild.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -43,7 +43,7 @@ author:
 title: 'Wenn der Löwe ruft und die Communities antworten'
 cover:
   relative: true
-  image: Gemini_Generated_Image_k0cbmok0cbmok0cb.png
+  image: loewe_von_juda_titelbild.png
   hidddenInSingle: false
   alt: 'Der Löwe von Juda'
 summary: >-
