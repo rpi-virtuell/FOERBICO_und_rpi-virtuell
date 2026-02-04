@@ -2,7 +2,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Draft
 type: LearningResource
-name: Wenn der Löwe Schwierigkeiten bereitet
+name: Wenn der Löwe ruft und die Communities antworten
 description: >-
   In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der
   Kinderbibel: "Der Löwe von Juda" auseinander. Er geht dabei auf die
