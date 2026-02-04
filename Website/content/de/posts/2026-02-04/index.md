@@ -31,7 +31,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n053
 image: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we-von-Juda/Website/content/posts/2025-12-23-Loewe-Juda/Gemini_Generated_Image_k0cbmok0cbmok0cb.png
+  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/L%C3%B6we_von_Juda_Titelbild.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
