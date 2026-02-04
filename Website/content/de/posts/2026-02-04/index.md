@@ -78,7 +78,7 @@ Die folgende, in den theologischen Diskurs gestellte Erörterung bezieht sich im
 - Gewalt wird in „der Löwe von Juda” durchgehend in einen heroischen Kontext gestellt. Die ‚guten‘ Männer Gottes kämpfen kriegerisch gegen die Feinde der Hebräer bzw. Gottes. Dabei wird die kritische Auseinandersetzung mit Gewalt innerhalb der hebräischen Bibel nicht erwähnt.
 
 ## Bei der Veröffentlichung
-![»Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden.«](Loewe-von-Juda-04.png) <br>Screenshot von Instagram</br>
+![»Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden.«](loewe_von_juda_04.png) <br>Screenshot von Instagram</br>
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
@@ -119,7 +119,7 @@ Die männlichen Charaktere erinnern stärker an Superhelden als an die Urväter 
 
 ## Kritikpunkt 3: Gewalt
 
-![Männliche Charaktere](Loewe-von-Juda-03.png) <br>Screenshot von Instagram</br>
+![Männliche Charaktere](loewe_von_juda_03.png) <br>Screenshot von Instagram</br>
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
