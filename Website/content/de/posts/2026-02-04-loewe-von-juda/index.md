@@ -59,9 +59,9 @@ tags:
   - Bibel
 ---
 
-![Ein Biber, ein Löwe und ein Nilpferd im Stile der Charaktere aus der Kinderbibel der Löwe von Juda KI generiert](Gemini_Generated_Image_k0cbmok0cbmok0cb.png) <br>*Bildquelle: Gemini*</br>
-
 Es ist kurz vor Weihnachten, als ein Verlag ein Buch entdeckt, dass eine vielversprechende Idee bietet und auf ein profitables Unterfangen hoffen lässt. Es handelt sich um eine Kinderbibel, die im Stil von Disneyfilmen illustriert ist. Tiere nehmen darin die Rollen von biblischen Personen ein. Der Verlag entscheidet sich dazu, das innovative Projekt auch in Deutschland auf den Markt zu bringen. Die Promotion auf verschiedenen Websites, Social Media sowie auf Messen ist in vollem Gange, doch von verschiedenen Seiten kommen kritische Stimmen auf. Die Folge: Der Verlag sieht sich gezwungen, das Werk zu depublizieren.
+
+![Ein Biber, ein Löwe und ein Nilpferd im Stile der Charaktere aus der Kinderbibel der Löwe von Juda KI generiert](Gemini_Generated_Image_k0cbmok0cbmok0cb.png) <br>*Bildquelle: Gemini*</br>
 
 Der beschriebene Fall betrifft das Buch *„Der Löwe von Juda“*, das im Dezember 2025 von der Deutschen Bibelgesellschaft wieder vom Markt genommen wurde. In ihrer [Mitteilung](https://www.die-bibel.de/bibel-in-der-praxis/bibel-fuer-kinder/kinderbibelwelten/loewe-von-juda) zur Depublikation steht: 
 
