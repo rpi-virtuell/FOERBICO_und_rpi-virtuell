@@ -31,7 +31,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n053
 image: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/L%C3%B6we_von_Juda_Titelbild.png
+  https://oer.community/der-loewe-schwierigkeiten/loewe_von_juda_titelbild.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
