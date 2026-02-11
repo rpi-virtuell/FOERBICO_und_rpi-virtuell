@@ -1,0 +1,282 @@
+# Begleitforschung
+Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO Projekts. Es werden der Verlauf der Begleitforschung vorgestellt sowie die Zusammenfassung der wichtigsten Ergebnisse, welche auf der Zwischenfazittagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess.
+## Timeline
+
+```mermaid
+timeline
+    title Verlauf der Begleitforschung 2024
+    Juli : Beginn der Begleitforschung
+         : Literaturrecherche
+         : Erarbeitung der Forschungsfragen
+         : Kontaktierung der Communitymitglieder
+    August: Datenschutzbeauftragten Kontaktieren
+         : Testen von NoScribe (Automatisierte Transkiptionssoftware)
+         : Termine mit Interviewees ausmachen
+         : Erstes Interview
+    September - November : Interviews mit Personen aus verschiedenen Communities
+         : relilab
+         : RELImentar
+         : narrt
+         : reliGlobal
+         : schule-evangelisch-digital
+         : Vorstellung der ersten Ergebnisse im Team
+    Dezember - März 2025: Auswertung
+         : Kodieren in MAXQDA
+         : Qualitative Inhaltsanalyse nach Kuckartz
+         : Grundlage für die Entwicklung der Qualitätskriterien
+```
+Die Timline zeigt den Verlauf der Begleitforschung im Jahr 2024 und Anfang 2025. [Weiteres Folgt]
+
+### Literaturbericht
+Die Begleitfroschung begann zunächst mit einem kennenlernen des Forschungsfeldes OER durch eine Literaturrecherche. Die wichtigsten Erkenntnisse werden im Artikel ([Pirker & Pirner 2025](https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51)) zusammengefasst:
+>  Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft. (Pirker & Pirner, 2025, p. 151)
+-  Im religionspädagogischen Kontext ist die Nutzung von OER sowie das Anwenden von OEP nicht eingehend erforscht (Pirker & Pirner, 2025, pp. 165).
+    > Zur Verwendung von OER/OEP in der theologischen oder religionspädagogischen Hochschullehre gibt es ebenso wie zu religionsbezogener Bildungsarbeit in Schulen bislang keine wissenschaftlichen Studien (Pirker & Pirner, 2025, p. 167).
+- Im Hochschulbereich gibt es vereinzelte Beteiligungen von OER in diversen Materaialpools (Pirker & Pirner, 2025, p. 167).
+- Es gibt eine religionspädagogische offene Bildungsbewegung, welche aber von wissenschaftlicher sowie institutioneller wenig Beachtung findet (Pirker & Pirner, 2025, p. 168).
+- Die Erwartung das OER/OEP zu mehr Chancengleicheit führen, kann nur teilweise festgestellt werden (Pirker & Pirner, 2025, p. 168).
+- Das Wechselverhältnis von OER und OEP, kann teilweise empirisch nachgewiesen werden (Pirker & Pirner, 2025, p. 168)
+- Im deutschen religionspädagogischen Hochschulkontext ist OER im Internationalen Vergleich unterrepräsentiert (Pirker & Pirner, 2025, pp. 168)
+- Hemmende Faktoren für die Implementirung und Qualitätsentwicklung sind: technische Unzulänglichkeiten, mangelnde Motivation und Kopetenzen, mangelnde Qualitätssicherung und -kommunikation, mangelnde institutionelle Unterstützung (Pirker & Pirner, 2025, p. 169).
+    - Rechtliche Unsicherheiten werden in internationalen Studien kaum genannt.
+- Unterstützende Faktoren sind Kooperation und Austausch (Pirker & Pirner, 2025, p. 169).
+- Der religionspädagogische Bereich ist einerseits pionierhaft und innovativ durch das Engagement der Communities, aber wissenschaftlich wird dies kaum Wahrgenommen (Pirker & Pirner, 2025, p. 169).
+
+### Interview Studie
+Um das Desiderat des Literraturreviews zu füllen, wurden im Rahmen des FOERBIO-Projekts aktive Mitglieder aus verschiedenen Communities befragt. Diese Interviews fanden alle über Zoom statt. Es handelte sich hierbei um 12 Interviews mit 13 Personen. Da alle Interviewpartner:innen über ganz Deutschland verteilt leben und arbeiten und sie durch ihre Arbeit Erfahrung mit digitalen Tools haben, wurden die Interviews über Zoom durchgeführt und aufgezeichnet. Das Audiomaterial wurde mithilfe der KI-Transkriptionssoftware NoScribe transkribiert. Alle Teilnehmer:innen wurden im Vorfeld über ihre Datenschutzrechte aufgeklärt und direkt vor der Aufnahme wurde diese nochmals kurz besprochen. 
+Der Gesamte Leitfaden ist anhand der folgenden vier Forschungsfragen entwickelt worden:
+
+```mermaid
+flowchart TD
+    A[Forschungsfragen] --> B(Inwieweit wird in den untersuchten Communities OER-bezogen gearbeitet?)
+    A --> C(Welche OER-bezogenen offenen Bildungspraktiken zeigen sich in den Communities?)
+    A --> D(Welche Vernetzungen, Kooperationen und Austauschformen bestehen innerhalb und zwischen den Communities sowie über sie hinaus?)
+    A --> E(Welche Stärken und Entwicklungsbedarfe werden von den Community-Verantwortlichen benannt? Welche Rolle spielen dabei OER, OEP und Intra-/Inter-/Trans-Community-Vernetzungen?)
+```
+
+
+#### Leitfaden
+<table>
+<thead>
+  <thead>
+    <tr>
+      <th>Fragen</th>
+      <th>Zielrichtung</th>
+    </tr>
+  
+</thead>
+    <tr>
+      <th>Einstieg</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> In welcher community halten Sie sich hauptsächlich auf? 
+      - Wie würden Sie die Community beschreiben?
+      - In welchen Communities halten Sie sich auf?
+      - Was macht ihr konkret in eurer Community?
+Was ist ihre aktuelle Rolle in der Community und wie hat sich diese im Laufe der Zeit entwickelt?
+- Was schätzen Sie an Ihrer Community? 
+- Was motiviert Sie, in dieser Community mitzuarbeiten?
+- Welche Ziele wollen Sie mit Ihrer Community erreichen?
+
+*Beschreiben Sie, was Sie unter OER und OEP verstehen*
+Erzählen Sie doch mal: Sind Sie schon mit OER in Kontakt gekommen; falls ja, was war Ihre erste Begegnung mit OER?
+- Welche Eindrücke haben Sie dabei gewonnen?
+- Wie würden Sie OER in eigenen Worten beschreiben?
+- Hat sich Ihre Wahrnehmung von OER im Laufe der Zeit verändert?
+- Was schätzen Sie an OER und was finden Sie schwierig an OER
+</td>
+           <td> 
+
+- Biografischer Bezug 
+- Grundlegende Fragen zur Community. 
+- Frage nach Schlüsselfiguren in der Community?
+- Frage nach Organisation und Hierachien innerhalb der Community?
+- Ggf. hier schon Frage nach Vernetzung zwischen den Communities?
+- Frage nach einer Definition von Community/Was zeichnet eine Community Ihrer Meinung nach aus?
+- Frage nach Verantwortung
+- Frage nach Haupt- und Ehrenamt
+- Frage nach Kommunikation innerhalb der Community
+- Frage nach Kultur des Teilens: Was braucht es hierfür?
+- Grundlegende Fragen zum persönlichen Einsatz von OER.
+</td>
+    </tr>
+        <tr>
+      <th>Leitfrage 1: Ist zustand.</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Können Sie erzählen wann/ wo/ wie OER in ihrer Tätigkeit zum Einsatz kommt?
+- Können Sie die Kriterien nennen, nachdem Sie Ressourcen erstellen oder vorhandene Ressourcen auswählen? 
+- Unter einer OER-Perspektive, können Sie uns sagen, ob Sie eine gewisse Art von Material, beispielsweise Video oder Audio, bevorzugen und warum?
+- Welche Tools sind für Sie zur Erstellung von OER am relevantesten?
+- Wo und wie erfahren Sie Unterstützung bei rechtlichen Fragen im Zusammenhang mit OER?</td>
+      <td>OER in der Praxis
+- Gründe für OER in der Community
+- Spielen die 5V Freiheiten eine Rolle
+- Zu welchem Zweck OER?
+- Communitystrukturierung
+- Frage nach Verbesserung der rechtlichen Unterstützung
+</td>
+    </tr>
+      <th>Leitfrage 2: Ist-Zustand OEP</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Was verbinden Sie mit dem Begriff OEP?
+Wie würden Sie das Verhältnis von OER zu OEP beschreiben?
+- Erzählen Sie, welche Rolle offene Bildungspraktiken (OEP) in Ihrer Community spielen.
+- In welchem Umfang spielen Fortbildungen innerhalb Ihrer Community eine Rolle? Wie offen sind diese?
+- Welche Themenschwerpunkte werden in Fortbildungen gesetzt? Wie sind sie strukturiert?
+</td>
+           <td> 
+Verhältnis OER-OEP
+Bedeutung von OEP in der Community
+</td>
+ </tr>
+      <th>Leitfrage 3: Vernetzung</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Beschreiben Sie, wie die Mitglieder in Ihrer Community untereinander vernetzt sind.
+-  An welchen Kriterien machen Sie fest, dass sich ein Tool bewährt hat?
+- Erzählen Sie, inwiefern Ihre Community mit anderen Communities (oder Gruppierungen, Institutionen) vernetzt sind.
+- Welche Chancen und Hürden sehen Sie in der Vernetzungsarbeit?
+- In welchem Maße sind sie mit Communities (oder Gruppierungen, Institutionen) außerhalb der religionsbezogenen vernetzt?
+</td>
+           <td> 
+- Intra-Community-Vernetzung
+- Inter- und Trans-Community-Vernetzung
+</td>
+</tr>
+      <th>Leitfrage 4: Stärken und Entwicklungsbedarf (Transformative Potentiale)</th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stellen Sie sich Ihre Community in 10 Jahren vor: Welche Veränderungen haben sich aufgrund von OER und OEP entwickelt?
+Welche Träume haben Sie für die Zukunft Ihrer Community oder die communityübergreifende OER-/OEP-Arbeit?
+Wie wünschen Sie sich eine zukunftsweisende Vernetzung zwischen den Communities? (national und international)
+Mit Blick auf Ihre persönliche Arbeit und die Ihrer Community:
+- Welche Chancen bieten Ihrer Meinung nach OER und OEP für die Bildungsinfrastruktur in den nächsten zehn Jahren?
+- Wie könnte der Zugang zu Bildungs- und Lernmaterialien durch OER und OEP in den nächsten zehn Jahren verbessert werden, und welche Maßnahmen wären dafür aus Ihrer Sicht notwendig? 
+ 
+Was bedarf es Ihrer Meinung nach, damit ihre Community das Potential von OER und OEP voll ausschöpfen kann?
+- An welchen Stellschrauben müsste gedreht werden, um Ihrer Meinung nach, die Community zu verbessern?
+- Wie gut funktionieren die Community Repositorien, Suchmaschinen u.ä., die Sie verwenden? Welche Entwicklungsbedarfe sehen Sie?
+ 
+Welche Rolle wird aus Ihrer Sicht KI bei der Weiterentwicklung von OER und OEP sowie Ihrer Community spielen?
+Welche Hoffnungen und Erwartungen verbinden Sie mit unserem Projekt (das auf die Stärkung und Vernetzung von OER-Communities zielt), sowohl für Ihre persönliche Arbeit als auch für die Entwicklung Ihrer Community? Was wünschen Sie sich an konkrete Fördermaßnahmen?
+</td>
+           <td> 
+
+- Vision für die Zukunft
+- Abfragen von Bedürfnissen
+- Einfluss auf das Unterrichtsgeschehen
+- Strukturelle Veränderun
+
+</td>
+  </tbody>
+</table>
+
+### Communities
+rpi-virtuell (2): 
+relilab (3):
+RELImentar (2): 
+narrt (1): 
+reliGlobal (3): 
+schule-evangelisch-digital (2):
+DiskursLab (1): 
+
+### Auswertungsmethode: inhaltlich-strukturierende Inahltsanalyse nach Kuckartz
+Die qualitative Inhaltsanalyse ermöglicht „die systematische und methodisch kontrollierte wissenschaftliche Analyse von Texten, Bildern, Filmen und anderen Inhalten von Kommunikation“ (Kuckartz & Rädler, 2024, S. 39). Ein Vorteil der von Kuckartz entwickelten Variante der inhaltlich-strukturierenden Inhaltsanalyse ist, dass sie recht flexibel ein deduktives (z.B. an den Leitfragen orientiertes) mit einem induktiven (aus dem Interviewmaterial heraus entwickelndes) Vorgehen bei der Kategorienbildung reflektiert zu verbinden erlaubt.
+
+#### Codes
+- Deduktiven Hauptcodes: OER - Allgemein, OEP - Allgemein, Community - Allgemein, Biografischer Bezug, Chancen, Hürden
+- Induktive Hauptcodes: Qualität, Recht, Konkrete Erwartungen an FOERBICO, Materialpool und Metadaten, Kultur des Teilens
+- Induktive Subcodes:
+    OER-Allgmein: OER-Eigenschaften, Produktion ohne OER, Produktion von OER, Tools, Anwendbarkeit, Verständnis von OER, 
+    OEP-Allgemein: OEP im Tun, Verständnis von OEP, Fortbildungen, OEP als Beziehungs-geschehen, 
+    Community - Allgemein: Stellung von OER innerhalb der Community, Community Aufbau, Zugehörigkeit, Struktur, Netzwerke,
+    Qualität: Feedback, Qualitätssicherung
+    Hürden: Didaktische und inhaltliche Hürde, Technische Vorkenntnisse, Community-Ressourcen, Bedenken im Hinblick auf Openness, OER-Label, Strukturelle Hürden, Individuelle Ressourcen, Rechtliche Hürden.
+    Chacen: Remix-Chancen, Didaktische und methodische Chancen, Kollaboratives Arbeiten, Technische Möglichkeitn/Chancen, Multiperspektivischer Blick, Strukturelle Chancen, Zukunftsperspektive
+- Subcode der ausdifferenziert wurde: 
+    Struktur: Community Ziele, Hierarchien, Arbeitsräume, Interne Zusammenarbeit, Interne Kommunikation
+
+Die Genaue Auflistung von der Code-Definition und den Beispielen ist hier zu finden [Link einfügen] 
+
+### Ergebnisse 
+```mermaid
+flowchart TD
+    A[Forschungsfragen] --> B(Inwieweit wird in den untersuchten Communities OER-bezogen gearbeitet?)
+    A --> C(Welche OER-bezogenen offenen Bildungspraktiken zeigen sich in den Communities?)
+    A --> D(Welche Vernetzungen, Kooperationen und Austauschformen bestehen innerhalb und zwischen den Communities sowie über sie hinaus?)
+    A --> E(Welche Stärken und Entwicklungsbedarfe werden von den Community-Verantwortlichen benannt? Welche Rolle spielen dabei OER, OEP und Intra-/Inter-/Trans-Community-Vernetzungen?)
+    B --> F(Die Stellung von OER Variert von Community zu Community)
+    B --> G(Wissen über OER ist innerhalb der Communities divergierend)
+    B --> H(OER hat didaktische Grenzen)
+    F --> I(Ohne OER geht es nicht)
+    F --> J(Tools und Werkzeuge verhindern eine OER Lizensierung: Teilen steht im Vordergrund)
+    C --> K(Das Verständnis von OEP ist stark divergierend)
+    C --> L(Alle Communities schaffen Räume der Begegnung sowie Erarbeitung von Materialien)
+    C --> M(Onlinefortbildungen sind der Ort an dem offene Bildungspraktiken erprobt werden)
+    D --> O(Kommunikationsstrukturen sind trotz diverser Organisationsstrukturen sehr ähnlich)
+    E --> P(Stärken)
+    E --> Q(Schwächen)
+    E --> R(Visionen)
+    E --> S(Entwicklungsbedarfe)
+    P --> T(Kultur des Teilens</br>Raum um Ideen zu Teilen</br>Kollaboratives Arbeiten</br>Schwarmintelligenz)
+    Q --> U(Finanzielle Absicherung</br>Rechtliche Unischerheiten </br>Keine langfristige Planung möglich)
+    R --> V(Verbesserte Vernetzung</br>Auflockerung institutioneller Strukturen</br>Entlastung durch KI)
+    S --> W(Community Management</br>Asynchorne Workflows</br>Anpassung der Rechtskonlage</br>)
+```
+
+Dies Flowchart zeigt zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders im Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizensierung sowie das fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. [ZITAT noch EINARBEITEN]
+Ein weierer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code Fortbildungen lassen sich einerseits, klassische Online-Fortbildungen finden, in dem entweder thematisch- oder an einem Material etwas beigebracht werden soll. Dann gibt es Communitytreffen die ein Café oder Werkstattformat haben, in denen vielleicht entweder über aktuelle Themen ausgetauscht wird, oder am konkreten OER das Personen einbringen oder aus dem Materialpool gemeinsam gearbeitet wird.
+OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Diese wird in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code *OEP im Tun* um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber.  
+
+### [Qualitätskriterien](https://oer.community/qualitaet/)
+
+Offene Bildungsmaterialien (OER) eröffnen zentrale Chancen für Lern- und Lehrsettings: Sie ermöglichen Teilhabe, fördern digitale Kompetenzen und stärken eine offene, kollaborative Bildungskultur. Auch in der Religionspädagogik wächst die Bedeutung offener Lehr- und Lernmaterialien, insbesondere vor dem Hintergrund digitaler Transformationsprozesse und KI-gestützter Erstellungsmethoden von religionsdidaktischen Materialien. Mit dieser Dynamik stellt sich immer dringlicher die Frage: Woran lässt sich gute Qualität in religionspädagogischen OER erkennen – und wie kann sie nachhaltig gesichert werden?
+
+Während allgemeine OER-Qualitätsmodelle zentrale Standards formulieren und insgesamt eine wertvolle Orientierung bieten, berücksichtigen sie natürlich keine fachspezifischen Besonderheiten religiöser Bildungsprozesse. Hier haben wir mit dem FOERBICO-Projekt angesetzt und praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien entwickelt, die für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
+
+#### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
+Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
+- Analyse bestehender Qualitätssicherungsmodelle in OER-Communities
+    Hier bei waren wichtige Ergebnisse aus verschiedenen Interviews wichtig. Beispielsweise hat RELImentar einen eigenen Kriterienkatalog. [Link einfügen] [Zitat aus dem Interview]
+- Abgleich mit zentralen religionspädagogischen Forschungsdiskursen zu guter Qualität religiöser Bildung
+    Hierbei wurde auf wissenschaftliche Standardlehrwerke in der religionspädagogischen und didaktischen Ausbildung zurückgegriffen. Diese wurden zusammengefasst und für Checklisten aufbereitet (siehe [Qualitätskriterien-Checkliste](https://oer.community/qualitaetskriterien-checkliste/)). 
+    Wichtig war bei der Erstellung:
+    > Dabei ist zu berücksichtigen, dass es den guten Unterricht nicht gibt (vgl. Gojny; Lenhard & Zimmermann, 2022, S. 164). Mit Helmke (2017) ist vielmehr zu fragen: Gut wofür, gut für wen, gemessen an welchen Bedingungen, aus welcher Perspektive und für welchen Zeitraum? Qualität erweist sich daher als vielschichtiges und kontextabhängiges Kriterium, das je nach Bildungsziel, Lerngruppe, institutionellem Rahmen oder Zeitpunkt unterschiedlich bestimmt wird (vgl. Adam & Rothgangel, 2012) ([Mößle 2025](https://oer.community/qualitaetskriterien-checkliste/)).
+
+    Und das wir die Qualitätskriterien als etwas erstellen, welches nicht starr und unfelxibel ist, sondern sich weiterentwickelt.
+    > Qualitätsfragen dürfen daher nicht eindimensional beantwortet werden, sondern müssen stets im Spannungsfeld verschiedener Perspektiven reflektiert werden. So plädiert Rothgangel (2021) für einen mehrdimensionalen Qualitätsbegriff, der fachübergreifende und fachspezifische Kriterien integriert ([Mößle 2025](https://oer.community/qualitaetskriterien-checkliste/)).
+
+Interviews mit Expert:innen
+    Verschiedene Expert:innen aus der hochschulwissenschaftlichen Landschaft sowie der praktischen Lehrkräfte Aus- & Weiterbildung wurden die Qualitätskriterien zugeschickt. Die daraus entstandenen Expert:innen Interviews wurden als Grundlage für die nächste Überarbeitungsschleife angesetzt.
+
+Konkrete Qualitätsberatungen und Erprobung im Rahmen laufender Projekte, u.a. in den Projekten TiRU – Tablets im Religionsunterricht sowie M@ps der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
+    Kontinuierliche Überarbeitung der Qualitätskriterien in Zusammenarbeit mit den Communities. Dies ist für unser Projekt, das weitere Vorgehen, damit die Qualitätskriterien, als Grundlage für OER dienen können.
+
+Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als reflexiven Aushandlungsprozess. Sie soll Materialerstellende unterstützen, eigene OER qualitätsbewusst zu entwickeln, bestehende Materialien kritisch einzuschätzen und weiterzuentwickeln sowie religionspädagogische Kriterien transparent einfließen zu lassen.
+
+### Community-Treffen
+Wie bereits erwähnt gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und diese teilnehmend beobachtet. Dabei stehen die Auswertung Treffen von reliLab, RELImentar und reliGlobal im Vordergrund. Die narrt Cafés wurden auch besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnis gewinnen konnten. Stützt sich das über narrt referierte auf unser Interview. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview_000904, Pos. 29). Die narrt Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet , in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
+
+#### relilab
+Die Interviews zeigen auf, dass das relilab sich stark auf Online-Fortbildungen konzentriert (vgl. Interview_000906, Pos.21; Interview_000801, Pos. 7; Interview_000907, Pos. 6). Diese unterscheiden sich inhaltlich und didaktisch, sind aber alle offen zugänglich und haben meist eine Dauer von 60 Minuten (Interview_000906, Pos.39). Ziel dieser Fortbildungen ist es, aktuelles Unterrichtsmaterial kollaborativ zu erarbeiten, vorzustellen und unmittelbar zur Weiterverwendung bereitzustellen (vgl. Interview_000801, Pos. 36; Interview_000907, Pos. 34). Es muss aber dazu gesagt werden, dass das relilab ihren Zoomraum weiteren Online-Fortbildungsanbietern zur Verfügung stellt, deswegen lassen sich auch Fortbildungen im Terminkalender finden, welche eine Anmeldung vorsehen. Diese sind explizit ausgeschrieben. Die besuchten Fortbildungen unterschieden sich thematisch sowie in ihrer Umsetzung. Von Unterrichtspraktischen Fortbildungen bis hinzu Vorträgen war alles zu finden. 
+
+#### RELImentar
+RELImentar bietet auch ein Café an, welches aber eher als "kleine Online-Werkstatt" (Interview_000902, Pos. 14) verstanden werden kann. Innerhalb dieser Werkstatt wird gemeinsam mit den Teilnehmenden konkret an Materialien gearbeitet (vgl. ebd.). Die Cafés daueren in der Regel 90 Minuten. In den Besuchten Cafés wurde in Break-Out-Sessions an konkreten Material aus dem eigenen Materialpool gearbeitet. Hierbei konnte das gemeinsame Denken und Konteptionieren von OER als didaktisches Prinzip verstanden werden.
+
+#### reliGlobal
+Das besuchte reliGlobal Community-Treffen war geprägt von Impulsvorträgen.
+
+#### Erste Erkenntnisse
+Onlinefortbildungen bieten viele Möglichkeiten haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60-90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodas diese am Folgetag sofort angewendet werden. Zudem vernetzen sie Menschen überregional und innerhalb des Austausches können spannende Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen, als der Inhalt. Die Break-Out-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu Erfahren ob und wie die langfristige Wirkung der Besuche sich auswirken (Siehe Schweitzer et. al. 2026[LINK]). 
