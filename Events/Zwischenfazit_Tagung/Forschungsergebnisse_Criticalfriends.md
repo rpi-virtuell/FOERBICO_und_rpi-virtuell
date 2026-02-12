@@ -28,23 +28,23 @@ timeline
 Die Timline zeigt den Verlauf der Begleitforschung im Jahr 2024 und Anfang 2025. [Weiteres Folgt]
 
 ### Literaturbericht
-Die Begleitfroschung begann zunächst mit einem kennenlernen des Forschungsfeldes OER durch eine Literaturrecherche. Die wichtigsten Erkenntnisse werden im Artikel ([Pirker & Pirner 2025](https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51)) zusammengefasst:
+Die Begleitfroschung begann zunächst mit einem Kennenlernen des Forschungsfeldes zu OER und OEP durch eine Literaturrecherche. Die wichtigsten Erkenntnisse werden im Artikel ([Pirker & Pirner 2025](https://openjournals.fachportal-paedagogik.de/theo-web/article/view/51)) zusammengefasst:
 >  Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft. (Pirker & Pirner, 2025, p. 151)
 -  Im religionspädagogischen Kontext ist die Nutzung von OER sowie das Anwenden von OEP nicht eingehend erforscht (Pirker & Pirner, 2025, pp. 165).
     > Zur Verwendung von OER/OEP in der theologischen oder religionspädagogischen Hochschullehre gibt es ebenso wie zu religionsbezogener Bildungsarbeit in Schulen bislang keine wissenschaftlichen Studien (Pirker & Pirner, 2025, p. 167).
-- Im Hochschulbereich gibt es vereinzelte Beteiligungen von OER in diversen Materaialpools (Pirker & Pirner, 2025, p. 167).
+- Im Hochschulbereich gibt es vereinzelte Beteiligungen von OER in diversen Materialpools (Pirker & Pirner, 2025, p. 167).
 - Es gibt eine religionspädagogische offene Bildungsbewegung, welche aber von wissenschaftlicher sowie institutioneller wenig Beachtung findet (Pirker & Pirner, 2025, p. 168).
-- Die Erwartung das OER/OEP zu mehr Chancengleicheit führen, kann nur teilweise festgestellt werden (Pirker & Pirner, 2025, p. 168).
+- Die Erwartung das OER/OEP zu mehr Chancengleichheit führen, kann nur teilweise festgestellt werden (Pirker & Pirner, 2025, p. 168).
 - Das Wechselverhältnis von OER und OEP, kann teilweise empirisch nachgewiesen werden (Pirker & Pirner, 2025, p. 168)
 - Im deutschen religionspädagogischen Hochschulkontext ist OER im Internationalen Vergleich unterrepräsentiert (Pirker & Pirner, 2025, pp. 168)
-- Hemmende Faktoren für die Implementirung und Qualitätsentwicklung sind: technische Unzulänglichkeiten, mangelnde Motivation und Kopetenzen, mangelnde Qualitätssicherung und -kommunikation, mangelnde institutionelle Unterstützung (Pirker & Pirner, 2025, p. 169).
+- Hemmende Faktoren für die Implementierung und Qualitätsentwicklung sind: technische Unzulänglichkeiten, mangelnde Motivation und Kompetenzen, mangelnde Qualitätssicherung und -kommunikation, mangelnde institutionelle Unterstützung (Pirker & Pirner, 2025, p. 169).
     - Rechtliche Unsicherheiten werden in internationalen Studien kaum genannt.
 - Unterstützende Faktoren sind Kooperation und Austausch (Pirker & Pirner, 2025, p. 169).
 - Der religionspädagogische Bereich ist einerseits pionierhaft und innovativ durch das Engagement der Communities, aber wissenschaftlich wird dies kaum Wahrgenommen (Pirker & Pirner, 2025, p. 169).
 
 ### Interview Studie
-Um das Desiderat des Literraturreviews zu füllen, wurden im Rahmen des FOERBIO-Projekts aktive Mitglieder aus verschiedenen Communities befragt. Diese Interviews fanden alle über Zoom statt. Es handelte sich hierbei um 12 Interviews mit 13 Personen. Da alle Interviewpartner:innen über ganz Deutschland verteilt leben und arbeiten und sie durch ihre Arbeit Erfahrung mit digitalen Tools haben, wurden die Interviews über Zoom durchgeführt und aufgezeichnet. Das Audiomaterial wurde mithilfe der KI-Transkriptionssoftware NoScribe transkribiert. Alle Teilnehmer:innen wurden im Vorfeld über ihre Datenschutzrechte aufgeklärt und direkt vor der Aufnahme wurde diese nochmals kurz besprochen. 
-Der Gesamte Leitfaden ist anhand der folgenden vier Forschungsfragen entwickelt worden:
+Um das Desiderat des Literraturreviews zu füllen, wurden im Rahmen des FOERBICO-Projekts aktive Mitglieder aus verschiedenen Communities befragt. Diese Interviews fanden alle über Zoom statt. Es handelte sich hierbei um 12 Interviews mit 13 Personen. Da alle Interviewpartner:innen über ganz Deutschland verteilt leben und arbeiten und sie durch ihre Arbeit Erfahrung mit digitalen Tools haben, wurden die Interviews über Zoom durchgeführt und aufgezeichnet. Das Audiomaterial wurde mithilfe der KI-Transkriptionssoftware [NoScribe](https://noscribe.ai/de-DE) transkribiert. Alle Teilnehmer:innen wurden im Vorfeld über ihre Datenschutzrechte aufgeklärt und direkt vor der Aufnahme wurden diese nochmals kurz besprochen. 
+Der gesamte Leitfaden ist anhand der folgenden vier Forschungsfragen entwickelt worden:
 
 ```mermaid
 flowchart TD
@@ -75,7 +75,7 @@ flowchart TD
       - Wie würden Sie die Community beschreiben?
       - In welchen Communities halten Sie sich auf?
       - Was macht ihr konkret in eurer Community?
-Was ist ihre aktuelle Rolle in der Community und wie hat sich diese im Laufe der Zeit entwickelt?
+Was ist Ihre aktuelle Rolle in der Community und wie hat sich diese im Laufe der Zeit entwickelt?
 - Was schätzen Sie an Ihrer Community? 
 - Was motiviert Sie, in dieser Community mitzuarbeiten?
 - Welche Ziele wollen Sie mit Ihrer Community erreichen?
@@ -85,7 +85,7 @@ Erzählen Sie doch mal: Sind Sie schon mit OER in Kontakt gekommen; falls ja, wa
 - Welche Eindrücke haben Sie dabei gewonnen?
 - Wie würden Sie OER in eigenen Worten beschreiben?
 - Hat sich Ihre Wahrnehmung von OER im Laufe der Zeit verändert?
-- Was schätzen Sie an OER und was finden Sie schwierig an OER
+- Was schätzen Sie an OER und was finden Sie schwierig an OER?
 </td>
            <td> 
 
@@ -143,7 +143,7 @@ Bedeutung von OEP in der Community
   <tbody>
     <tr>
       <td>Beschreiben Sie, wie die Mitglieder in Ihrer Community untereinander vernetzt sind.
--  An welchen Kriterien machen Sie fest, dass sich ein Tool bewährt hat?
+- An welchen Kriterien machen Sie fest, dass sich ein Tool bewährt hat?
 - Erzählen Sie, inwiefern Ihre Community mit anderen Communities (oder Gruppierungen, Institutionen) vernetzt sind.
 - Welche Chancen und Hürden sehen Sie in der Vernetzungsarbeit?
 - In welchem Maße sind sie mit Communities (oder Gruppierungen, Institutionen) außerhalb der religionsbezogenen vernetzt?
@@ -236,9 +236,9 @@ flowchart TD
     S --> W(Community Management</br>Asynchorne Workflows</br>Anpassung der Rechtskonlage</br>)
 ```
 
-Dies Flowchart zeigt zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders im Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizensierung sowie das fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. [ZITAT noch EINARBEITEN]
-Ein weierer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code Fortbildungen lassen sich einerseits, klassische Online-Fortbildungen finden, in dem entweder thematisch- oder an einem Material etwas beigebracht werden soll. Dann gibt es Communitytreffen die ein Café oder Werkstattformat haben, in denen vielleicht entweder über aktuelle Themen ausgetauscht wird, oder am konkreten OER das Personen einbringen oder aus dem Materialpool gemeinsam gearbeitet wird.
-OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Diese wird in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code *OEP im Tun* um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber.  
+Dies Flowchart zeigt zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders im Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizenzierung sowie das Fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. [ZITAT noch EINARBEITEN]
+Ein weiterer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code "Fortbildungen" lassen sich einerseits klassische Online-Fortbildungen finden, in denen entweder thematisch- oder an einem Material etwas beigebracht werden soll. Dann gibt es Communitytreffen, die ein Café oder Werkstattformat haben, in denen sich entweder über aktuelle Themen ausgetauscht wird oder an konkreten OER-Materialien, die Personen einbringen oder aus dem Materialpool entnommen werden, gemeinsam gearbeitet wird.
+OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Diese offenen Praktiken werden in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code *OEP im Tun*, um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber.  
 
 ### [Qualitätskriterien](https://oer.community/qualitaet/)
 
@@ -261,22 +261,22 @@ Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
 Interviews mit Expert:innen
     Verschiedene Expert:innen aus der hochschulwissenschaftlichen Landschaft sowie der praktischen Lehrkräfte Aus- & Weiterbildung wurden die Qualitätskriterien zugeschickt. Die daraus entstandenen Expert:innen Interviews wurden als Grundlage für die nächste Überarbeitungsschleife angesetzt.
 
-Konkrete Qualitätsberatungen und Erprobung im Rahmen laufender Projekte, u.a. in den Projekten TiRU – Tablets im Religionsunterricht sowie M@ps der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
+Konkrete Qualitätsberatungen und Erprobung im Rahmen laufender Projekte, u.a. in den Projekten [TiRU – Tablets im Religionsunterricht](https://oer.community/digitale-offenheit-braucht-tiefe/) sowie [M@ps](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/) der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.
     Kontinuierliche Überarbeitung der Qualitätskriterien in Zusammenarbeit mit den Communities. Dies ist für unser Projekt, das weitere Vorgehen, damit die Qualitätskriterien, als Grundlage für OER dienen können.
 
 Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als reflexiven Aushandlungsprozess. Sie soll Materialerstellende unterstützen, eigene OER qualitätsbewusst zu entwickeln, bestehende Materialien kritisch einzuschätzen und weiterzuentwickeln sowie religionspädagogische Kriterien transparent einfließen zu lassen.
 
 ### Community-Treffen
-Wie bereits erwähnt gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und diese teilnehmend beobachtet. Dabei stehen die Auswertung Treffen von reliLab, RELImentar und reliGlobal im Vordergrund. Die narrt Cafés wurden auch besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnis gewinnen konnten. Stützt sich das über narrt referierte auf unser Interview. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview_000904, Pos. 29). Die narrt Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet , in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
+Wie bereits erwähnt gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und diese teilnehmend beobachtet. Dabei stehen die Auswertung Treffen von reliLab, RELImentar und reliGlobal im Vordergrund. Die narrt Cafés wurden ebenfalls besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnisse gewinnen konnten, stützen sich die hier dargestellten Ausführungen primär auf die geführten Interviews. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview_000904, Pos. 29). Die narrt Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet , in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
 
 #### relilab
-Die Interviews zeigen auf, dass das relilab sich stark auf Online-Fortbildungen konzentriert (vgl. Interview_000906, Pos.21; Interview_000801, Pos. 7; Interview_000907, Pos. 6). Diese unterscheiden sich inhaltlich und didaktisch, sind aber alle offen zugänglich und haben meist eine Dauer von 60 Minuten (Interview_000906, Pos.39). Ziel dieser Fortbildungen ist es, aktuelles Unterrichtsmaterial kollaborativ zu erarbeiten, vorzustellen und unmittelbar zur Weiterverwendung bereitzustellen (vgl. Interview_000801, Pos. 36; Interview_000907, Pos. 34). Es muss aber dazu gesagt werden, dass das relilab ihren Zoomraum weiteren Online-Fortbildungsanbietern zur Verfügung stellt, deswegen lassen sich auch Fortbildungen im Terminkalender finden, welche eine Anmeldung vorsehen. Diese sind explizit ausgeschrieben. Die besuchten Fortbildungen unterschieden sich thematisch sowie in ihrer Umsetzung. Von Unterrichtspraktischen Fortbildungen bis hinzu Vorträgen war alles zu finden. 
+Die Interviews zeigen auf, dass das relilab sich stark auf Online-Fortbildungen konzentriert (vgl. Interview_000906, Pos.21; Interview_000801, Pos. 7; Interview_000907, Pos. 6). Diese unterscheiden sich inhaltlich und didaktisch, sind aber alle offen zugänglich und haben meist eine Dauer von 60 Minuten (Interview_000906, Pos.39). Ziel dieser Fortbildungen ist es, aktuelles Unterrichtsmaterial kollaborativ zu erarbeiten, vorzustellen und unmittelbar zur Weiterverwendung bereitzustellen (vgl. Interview_000801, Pos. 36; Interview_000907, Pos. 34). Es muss aber dazu gesagt werden, dass das relilab ihren Zoomraum weiteren Online-Fortbildungsanbietern zur Verfügung stellt, deswegen lassen sich auch Fortbildungen im Terminkalender finden, welche eine Anmeldung vorsehen. Diese sind explizit ausgeschrieben. Die besuchten Fortbildungen unterschieden sich thematisch sowie in ihrer Umsetzung. Von unterrichtspraktischen Fortbildungen bis hin zu Vorträgen war alles zu finden. 
 
 #### RELImentar
-RELImentar bietet auch ein Café an, welches aber eher als "kleine Online-Werkstatt" (Interview_000902, Pos. 14) verstanden werden kann. Innerhalb dieser Werkstatt wird gemeinsam mit den Teilnehmenden konkret an Materialien gearbeitet (vgl. ebd.). Die Cafés daueren in der Regel 90 Minuten. In den Besuchten Cafés wurde in Break-Out-Sessions an konkreten Material aus dem eigenen Materialpool gearbeitet. Hierbei konnte das gemeinsame Denken und Konteptionieren von OER als didaktisches Prinzip verstanden werden.
+RELImentar bietet auch ein Café an, welches aber eher als "kleine Online-Werkstatt" (Interview_000902, Pos. 14) verstanden werden kann. Innerhalb dieser Werkstatt wird gemeinsam mit den Teilnehmenden konkret an Materialien gearbeitet (vgl. ebd.). Die Cafés dauerten in der Regel 90 Minuten. In den besuchten Cafés wurde in Break-Out-Sessions an konkreten Material aus dem eigenen Materialpool gearbeitet. Hierbei konnte das gemeinsame Denken und Konzeptionieren von OER als didaktisches Prinzip verstanden werden.
 
 #### reliGlobal
 Das besuchte reliGlobal Community-Treffen war geprägt von Impulsvorträgen.
 
 #### Erste Erkenntnisse
-Onlinefortbildungen bieten viele Möglichkeiten haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60-90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodas diese am Folgetag sofort angewendet werden. Zudem vernetzen sie Menschen überregional und innerhalb des Austausches können spannende Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen, als der Inhalt. Die Break-Out-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu Erfahren ob und wie die langfristige Wirkung der Besuche sich auswirken (Siehe Schweitzer et. al. 2026[LINK]). 
+Onlinefortbildungen bieten viele Möglichkeiten haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60-90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Zudem vernetzen sie Menschen überregional und innerhalb des Austausches können spannende Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen, als der Inhalt. Die Break-Out-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu erfahren, ob und wie die langfristige Wirkung der Besuche sich auswirken (Siehe Schweitzer et. al. 2026[LINK]). 
