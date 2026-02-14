@@ -273,7 +273,10 @@ flowchart TD
     S --> W(Community Management</br>Asynchorne Workflows</br>Anpassung der Rechtskonlage</br>)
 ```
 
-Dies Flowchart zeigt zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders im Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizenzierung sowie das Fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. [ZITAT noch EINARBEITEN]
+Dies Flowchart zeigt zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders im Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizenzierung sowie das Fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. 
+> Und dann wäre das ja auch wieder eine Aufgabe von FOERBICO, denke ich, dass man einerseits die Didaktik sich erschließen kann, die Pädagogik und einen Praxisentwurf, der bestimmte Kriterien transparent macht, die dann ich wieder übertragen kann in mein eigenes Handling und sagen kann, so und so ist gerade der Sachstand, die und die Erfahrungen, die und die Erkenntnisse kann ich anwenden.  (Interview_01, Pos. 79)
+
+Zudem wurden in den Interviews wenige konkreten religionspädagogischen Kriterien von den befragten Personen genannt.  
 Ein weiterer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code "Fortbildungen" lassen sich einerseits klassische Online-Fortbildungen finden, in denen entweder thematisch- oder an einem Material etwas beigebracht werden soll. Dann gibt es Communitytreffen, die ein Café oder Werkstattformat haben, in denen sich entweder über aktuelle Themen ausgetauscht wird oder an konkreten OER-Materialien, die Personen einbringen oder aus dem Materialpool entnommen werden, gemeinsam gearbeitet wird.
 OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Diese offenen Praktiken werden in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code *OEP im Tun*, um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber.  
 
@@ -283,10 +286,21 @@ Offene Bildungsmaterialien (OER) eröffnen zentrale Chancen für Lern- und Lehrs
 
 Während allgemeine OER-Qualitätsmodelle zentrale Standards formulieren und insgesamt eine wertvolle Orientierung bieten, berücksichtigen sie natürlich keine fachspezifischen Besonderheiten religiöser Bildungsprozesse. Hier haben wir mit dem FOERBICO-Projekt angesetzt und praxisnahe, wissenschaftlich fundierte und community-orientierte Qualitätskriterien entwickelt, die für den schulischen, hochschulischen und außerschulischen religionspädagogischen Kontext konzipiert wurden.
 
+```mermaid
+flowchart TD
+    A[OER-Qualität] 
+    A --> D[Rechtliche </br> Qualitätskriterien]
+    A --> E[Technische</br>Qualitätskriterien ]
+    A --> F[Pädagogisch-</br>didaktische</br>Qualitätskriterien]
+    A --> B[Religionspädagogische</br>Qualitätskriterien]
+``` 
+*Abbildung 1: Vier Dimensionen der OER-Qualität*
+ 
+
 #### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
 Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
 - Analyse bestehender Qualitätssicherungsmodelle in OER-Communities
-    Hier bei waren wichtige Ergebnisse aus verschiedenen Interviews wichtig. Beispielsweise hat RELImentar einen eigenen Kriterienkatalog. [Link einfügen] [Zitat aus dem Interview]
+    Hier bei waren wichtige Ergebnisse aus verschiedenen Interviews wichtig. Beispielsweise hat RELImentar einen eigenen [Kriterienkatalog](https://relimentar.de/qualitaetskriterien-2025/). 
 - Abgleich mit zentralen religionspädagogischen Forschungsdiskursen zu guter Qualität religiöser Bildung
     Hierbei wurde auf wissenschaftliche Standardlehrwerke in der religionspädagogischen und didaktischen Ausbildung zurückgegriffen. Diese wurden zusammengefasst und für Checklisten aufbereitet (siehe [Qualitätskriterien-Checkliste](https://oer.community/qualitaetskriterien-checkliste/)). 
     Wichtig war bei der Erstellung:
@@ -316,4 +330,19 @@ RELImentar bietet auch ein Café an, welches aber eher als "kleine Online-Werkst
 Das besuchte reliGlobal Community-Treffen war geprägt von Impulsvorträgen.
 
 #### Erste Erkenntnisse
-Onlinefortbildungen bieten viele Möglichkeiten haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60-90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Zudem vernetzen sie Menschen überregional und innerhalb des Austausches können spannende Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen, als der Inhalt. Die Break-Out-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu erfahren, ob und wie die langfristige Wirkung der Besuche sich auswirken (Siehe Schweitzer et. al. 2026[LINK]). 
+Onlinefortbildungen bieten viele Möglichkeiten haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60-90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Dies wurde auch von einer interviewten Person als ein Anspruch für die eigenen Fortbildungen angegeben.
+> [Zitat Einfügen]
+Die Onlinefortbildung erlauben eine überregionale Vernetzung und durch den Austausch können Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen, als der Inhalt. Die Break-Out-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu erfahren, ob und wie die langfristige Wirkung der Besuche sich auswirken (Siehe Schweitzer et. al. 2025 [LINK]). 
+Wichtige Erkenntnisse aus der Teilnehmenden Beobachtung sowie den Interviews.
+
+##### Rollenverteilung
+Alle besuchten Fortbildungen werden von mehreren Personen gestaltet. Meist hat eine Person die Moderation übernommen und den Chat in Zoom im Auge behalten. Die Beobachtung des Chat konnte in gewissen Fällen auch eine weitere Person übernehmen. Währenddessen hat eine Person sich um den Vortrag bzw. um die Impulse gehalten. Diese Rollenverteilung war ja nach didaktischen Konzept starr oder fluide. Fortbildungen die in der Form einer Onlinefortbildung stattfanden, waren dahingehend starr. Fortbildungen welche eher auf Partipation aufgebaut waren, oder mit mehreren Redner:innen, hatten meist einen Rollenwechsel mit integriert. 
+Die Rollenverteilung hat den Vorteil, dass wenn eine teilnehmende Person technische Probleme hat, wie z. B. einen Wechsel in den Break-Out Raum nicht schafft, sich nicht die Vortragende Person darum kümmern muss. Zudem hilft eine Moderation im Sinne einer didaktischen Rahmung in die Fortbildung und während der verschiedenen Phasen der Fortbildung zu führen.
+Es ist aber essentiell, dass die Verteilung klar besprochen ist und es hilft auch bei einem Wechsel der Rolle im Laufe einer Fortbildung, dies den Teilnehmenden transparent zu machen. Gerade durch die Funktion des Privaten Chats, ist es hilfreich für Teilnehmende immer zu Wissen an wen sie sich wenden können.
+
+##### Technische Unkenntnis
+Es ist wichtig zu bedenken, dass Menschen an Onlinefortbildungen teilnehmen, die keinen Umgang mit Zoom und anderen technischen Tools in der Regel pflegen. Es bedarf in der Konzeptionierung von Einheiten Zeit für das heranführen an Tools oder auch den Raumwechsel in Zoom. Das erklären von "basics" kann in gewissen fällen bis zu fünf Minuten dauern.
+
+##### Methodenwechsel
+> [Zitat mit 20 20 20]
+Solche im Interview anversierten Orientierungsrahmen, können helfen vor allem die Teilnehmenden aus dem Modus des Zuhörens in die Aktivität zu bringen. Dadurch kann die Gefahr des berieselns ein wenig entgegen gewirkt werden. Dabei zeigte sich in jeder Fortbildung, dass es nach aktiven Phasen von Teilnehmer:innen, es immer auch eine Reflexionsphase ggegeben hat. 
