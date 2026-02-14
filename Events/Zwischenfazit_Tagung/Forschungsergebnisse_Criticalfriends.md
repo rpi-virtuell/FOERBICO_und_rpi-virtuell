@@ -331,7 +331,8 @@ Das besuchte reliGlobal Community-Treffen war geprägt von Impulsvorträgen.
 
 #### Erste Erkenntnisse
 Onlinefortbildungen bieten viele Möglichkeiten haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60-90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Dies wurde auch von einer interviewten Person als ein Anspruch für die eigenen Fortbildungen angegeben.
-> [Zitat Einfügen]
+> Drittens, es sollte ein Output haben, den man möglichst am nächsten Tag direkt mit im Unterricht sein muss. Warum sollte ich meinen Kollegen Zeit stehlen, wenn ich die einfach zuschwalle mit irgendwas, was sie nicht brauchen und es nicht anmelden können? Und ich habe tatsächlich aus den Fortbildungen, die wir haben, habe ich auch teilweise abends dann die Rückmeldung, geil, ich habe das jetzt vorbereitet, ich kann das direkt morgen mit meinen Schülern machen. Aber wenn das nicht der Fall ist, dann weiß ich, ich habe scheiß Arbeit gemacht  (Interview_08, Pos. 36). 
+
 Die Onlinefortbildung erlauben eine überregionale Vernetzung und durch den Austausch können Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen, als der Inhalt. Die Break-Out-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu erfahren, ob und wie die langfristige Wirkung der Besuche sich auswirken (Siehe Schweitzer et. al. 2025 [LINK]). 
 Wichtige Erkenntnisse aus der Teilnehmenden Beobachtung sowie den Interviews.
 
