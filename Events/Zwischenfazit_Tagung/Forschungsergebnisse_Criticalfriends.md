@@ -184,13 +184,50 @@ Welche Hoffnungen und Erwartungen verbinden Sie mit unserem Projekt (das auf die
 </table>
 
 ### Communities
-rpi-virtuell (2): 
-relilab (3):
-RELImentar (2): 
-narrt (1): 
-reliGlobal (3): 
-schule-evangelisch-digital (2):
-DiskursLab (1): 
+Die verschiedenen Communities unserer Interview-Studie werden im folgenden Abschnitt kurz vorgestellt. Die Texte bestehen aus Zusammenfassungen der Websiten und einzelnen Aspekten aus den Interviews.
+
+[rpi-virtuell](https://rpi-virtuell.de/) (2): 
+Ist als religionspädagogischer Akteur seit Anfang der 2000er Teil der digitalen Bildung und Fortbildung tätig. Das rpi ist Teil der deutschen OER-Bewegung von Beginn an.
+Als aktive Community hat sie sich in andere Communities disseminiert und bietet die technische Infrastruktur und Expertise für andere Communities im religionspädagogischen Bereich. 
+Materialpool: Das rpi hosted einen Materialpool auf dem online Material für den elementar Bereich, den schulischen und außerschulischen Bereich zu finden ist.
+
+[relilab](https://relilab.org/) (3):
+Das relilab ist eine Community, die religionsbezogene Bildung ermöglicht. Dabei ist sie heterarchisch strukturiert und lädt alle Menschen zum teilnehmen ein. Als Community wird selbstgesteuertes Lernen unterstützt und die Erstellung sowie Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, welche vom relilab selbst oder von externen Anbietern über das relilab-Zoom stattfinden.
+
+Gegründet: 2020 aus dem #relichat auf Twitter, als eigenständige Community.
+Fortbildungen: Das relilab bietet Mini-Onlinefortbildungen an und ist auch eine Plattform auf der andere Fortbildungsinstitute ihre Fortbildungen zu bewerben und stellt den eigenen Zoomraum zur Verfügung.
+
+[RELImentar](https://relimentar.de/) (2): 
+RELImentar ist eine Community, die religionsbezogene Bildung im Elementar- und Primarbereich stärkt. Auf ihrer Website steht:
+> RELImentar ist das religionspädagogisches Portal für alle, die mit Kindern in Krippe, Kita und Hort tätig sind.
+
+RELImentar stellt einen qualitätsgeprüften Materialpool mit Praxismaterialien bereit. Die Materialien sind offen lizenziert und mit Metadaten wie beispielsweise Autor:innenschaft und Zielgruppe ausgewiesen.
+
+Gegründet: Die Internetseite wurde Ende 2018 Anfang 2019 aufgesetzt. 
+
+Cafés: Ein zentraler Baustein sind die RELImentar-Cafés. Die Cafés sind ein Raum für Fachimpulse, kollegialen Austausch und die gemeinsame Arbeit am Material. Die Teilnehmenden können nicht nur ausgewähltes Material für sich erschließen, sondern auch selbst Hand anlegen.
+
+[narrt](https://narrt.de/) (1): 
+> narrt vernetzt Menschen, die sich selbstreflexiv mit der Verstrickung von Religionspädagogik und Theologie in antisemitische und rassistische Verhältnisse auseinandersetzen. Wir wissen, dass dies ein ständiger Prozess ist, der auch Rückschläge kennt. Wir wollen dennoch gemeinsam nach alternativen Denkweisen, Handlungsformen und Materialien suchen, die sich der Aufgabe stellen, Antisemitismus und Rassismus in Kirche und Gesellschaft abzubauen.
+
+Das Netzwerk narrt ist ein Kooperationsprojekt der Evangelischen Akademie zu Berlin, dem ComeniusInstitut in Münster und dem  Institut für Evangelische Theologie und Religionspädagogik an der Carl von Ossietzky Universität Oldenburg. Vernetzung und Aufklärung steht im Zentrum der Arbeit von narrt. Eine Kernaufgabe ist die Begleitung von schulischen Bildungsbereichen. Personen aus dem narrt Netzwerk erstellen OER und erarbeiten diese im Sinne von OEP in Projekten auch mit Schüler:innen.  
+
+Gegründet: 2016
+Cafés: Die Cafés sind der Ort an dem Interssierte und Mitglieder sich über aktuelle Fragen im Bereich der antisemitismus- und  rassismuskritische austauschen. Die Cafés bieten den Raum um Fragen zu stellen, Gedanken auszutauschen, aber auch über kirchenpolitische Themen zu reden.
+
+[reliGlobal](https://religlobal.org/) (3): 
+> reliGlobal ist die gemeinsame Fachstelle der ALPIKA, in der das Team aus fünf Mitarbeitenden aus fünf Instituten seit dem 01.09.2023 das Ziel verfolgt, Globales Lernen im Religionsunterricht zu verankern. Kern der Arbeit ist die Entwicklung von innovativen Unterrichtsvorhaben und von darauf aufbauenden Fortbildungen, die trotz der Unterschiede zwischen den Bundesländern passgenau an die Standards der jeweiligen Kernlehrpläne ausgerichtet sind. Denn Lehrkräfte sollen die OER-lizensierten Inhalte möglichst unmittelbar verwenden und in ihren Unterrichtsalltag integrieren können.
+
+Das Projekt wird Gefördert von Brot für die Welt. reliGlobal legt den Fokus auf die Erstellung und Verbreitung von OER. Diese werden modularisiert und in verschiedenen Dateiformaten veröffentlicht. 
+Gegründet: 2023
+Arbeitsmethode: Ist die Scrum-Methode in denen Materialien in 6 Wochensprints erstellt und in einer zweiten Phase überarbeiten werden. 
+
+[schule-evangelisch-digita](https://schule-evangelisch-digital.de/) (2):
+Die Community schule-evangelisch-digital wurde gegründet um Lehrkräft in evangelischen Schulen deutschlandweit zu vernetzen. Das Projekt wird vom Comenius-Institut, rpi-Virtuell sowie der Barbara-Schadeberg-Stiftung getragen und gefördert. Neben der Vernetzung und des Austausches soll über diese Community Schulentwicklung vorangetrieben werden. Dabei sind die monatlichen Austauschrunden eine Möglichkeit, dass sich Lehrkräfte gegenseitig Impulse und Inspiration geben können.
+
+[DiskursLab](https://www.eaberlin.de/themen/projekte/diskurslab/) (1): 
+Das Diskurslab ist eine Laborumgebung der Evangelischen Akademie zu Berlin mit innovativen Formaten für Theologie und Religionspädagogik. Dabei handelt es sich hierbei nicht um eine klassische OER Community. Das Interview fand trotzdem statt, da das DiskursLab sich bei dem Versuch einer Community-Gründung vor vielen Herausforderungen stand.
+
 
 ### Auswertungsmethode: inhaltlich-strukturierende Inahltsanalyse nach Kuckartz
 Die qualitative Inhaltsanalyse ermöglicht „die systematische und methodisch kontrollierte wissenschaftliche Analyse von Texten, Bildern, Filmen und anderen Inhalten von Kommunikation“ (Kuckartz & Rädler, 2024, S. 39). Ein Vorteil der von Kuckartz entwickelten Variante der inhaltlich-strukturierenden Inhaltsanalyse ist, dass sie recht flexibel ein deduktives (z.B. an den Leitfragen orientiertes) mit einem induktiven (aus dem Interviewmaterial heraus entwickelndes) Vorgehen bei der Kategorienbildung reflektiert zu verbinden erlaubt.
