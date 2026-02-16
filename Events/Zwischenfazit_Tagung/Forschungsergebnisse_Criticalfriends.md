@@ -1,5 +1,12 @@
 # Begleitforschung
-Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO-Projekts. Vorgestellt werden der Verlauf der Begleitforschung sowie die Zusammenfassung der wichtigsten Ergebnisse, die auf der Zwischenfazit-Tagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess.
+Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO-Projekts. Vorgestellt werden der Verlauf der Begleitforschung sowie die Zusammenfassung der wichtigsten Ergebnisse, die auf der Zwischenfazit-Tagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess. 
+
+Wir verstehen unter [OER](https://oer.community/oer-und-oep/):
+> Open Educational Resources (OER) sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. Offene Lizenzen schaffen die Möglichkeit, dass die Lehr- und Lernmaterialien rechtssicher und kostenlos benutzt, bearbeitet und durch Dritte weiterverarbeitet werden können, ohne oder mit geringfügigen Einschränkungen. Die OER-Formate können von Texten, Videos, Präsentationen, Bildern, Podcasts und Planspielen bis hin zu kompletten Kursmaterialien und Lehrbüchern reichen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen. Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern und den Bildungsprozess durch mehr Zusammenarbeit und Innovation zu bereichern. Material wird als OER bezeichnet wenn die 5V-Freiheiten verwahren, verwenden, verarbeiten, vermischen und verbreiten ermöglichen.
+
+Wir verstehen unter [OEP](https://oer.community/oer-und-oep/):
+> Open Educational Practices (OEP) beschreiben die dazugehörigen offenen Bildungspraktiken. OEP umfassen alle kollaborativen Methoden und Ansätze zur Erstellung, Nutzung und Weiterentwicklung von OER. Sie ermöglichen es den Nutzenden durch offene Lizenzen aktiv an den so genannten 5V-Freiheiten teilzuhaben. OEP greifen auf Technologien und soziale Netzwerke zurück, um Lernprozesse zu gestalten, in denen Lernende aktiv zusammenarbeiten, Wissen austauschen und voneinander lernen. Der Schwerpunkt liegt auf der Befähigung der Lernenden, selbst Wissen zu produzieren und ihren Bildungsweg aktiv zu gestalten. Darüber hinaus beziehen sich OEP auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen. Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
+
 ## Timeline
 
 ```mermaid
@@ -29,51 +36,6 @@ Die Timeline zeigt den Verlauf der Begleitforschung im Jahr 2024 und Anfang 2025
 
 ### Literaturbericht
 
-Begleitforschung
-
-Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO-Projekts. Vorgestellt werden der Verlauf der Begleitforschung sowie die Zusammenfassung der wichtigsten Ergebnisse, die auf der Zwischenfazit-Tagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess.
-
-Timeline
-
-
-mermaid
-timeline
-    title Verlauf der Begleitforschung 2024
-    Juli : Beginn der Begleitforschung
-         : Literaturrecherche
-         : Erarbeitung der Forschungsfragen
-         : Kontaktaufnahme mit Community-Mitgliedern
-    August: Datenschutzbeauftragten kontaktieren
-         : Testen von NoScribe (automatisierte Transkriptionssoftware)
-         : Termine mit Interviewpartner:innen ausmachen
-         : Erstes Interview
-    September - November : Interviews mit Personen aus verschiedenen Communities
-         : relilab
-         : RELImentar
-         : narrt
-         : reliGlobal
-         : schule-evangelisch-digital
-         : Vorstellung der ersten Ergebnisse im Team
-    Dezember - März 2025: Auswertung
-         : Kodieren in MAXQDA
-         : Qualitative Inhaltsanalyse nach Kuckartz
-         : Grundlage für die Entwicklung der Qualitätskriterien
-
-					
-
-						
-
-
-					
-
-					
-
-
-
-Die Timeline zeigt den Verlauf der Begleitforschung im Jahr 2024 und Anfang 2025. [Weiteres folgt]
-
-Literaturbericht
-
 Die Begleitforschung begann zunächst mit einem Kennenlernen des Forschungsfeldes zu OER und OEP durch eine Literaturrecherche. Die wichtigsten Erkenntnisse werden im Artikel (Pirker & Pirner 2025) zusammengefasst:
 > Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft. (Pirker & Pirner, 2025, S. 151)
 
@@ -90,7 +52,7 @@ Die Begleitforschung begann zunächst mit einem Kennenlernen des Forschungsfelde
 - Der religionspädagogische Bereich ist einerseits pionierhaft und innovativ durch das Engagement der Communities, aber wissenschaftlich wird dies kaum wahrgenommen (Pirker & Pirner, 2025, S. 169).
 
 ### Interview Studie
-Um das Desiderat des Literaturreviews zu füllen, wurden im Rahmen des FOERBICO-Projekts aktive Mitglieder aus verschiedenen Communities befragt. Diese Interviews fanden alle über Zoom statt. Es handelte sich hierbei um 12 Interviews mit 13 Personen. Da alle Interviewpartner:innen über ganz Deutschland verteilt leben und arbeiten und sie durch ihre Arbeit Erfahrung mit digitalen Tools haben, wurden die Interviews über Zoom durchgeführt und aufgezeichnet. Das Audiomaterial wurde mithilfe der KI-Transkriptionssoftware NoScribe transkribiert. Alle Teilnehmer:innen wurden im Vorfeld über ihre Datenschutzrechte aufgeklärt und direkt vor der Aufnahme wurden diese nochmals kurz besprochen. 
+Um das Desiderat des Literaturreviews zu füllen, wurden im Rahmen des FOERBICO-Projekts aktive Mitglieder aus verschiedenen Communities befragt. Diese Interviews fanden alle über Zoom statt. Es handelte sich hierbei um 12 Interviews mit 13 Personen (n= 12). Wir haben solche Personen ausgewählt, die aktiv und verantwortlich in einer oder mehreren religionsbezogenen OER-Communities tätig sind, also in der Regel bereits selbst. OER-Inhalte erstellt oder bearbeitet haben, teilweise auch Fortbildungen geben und in der Netzwerkarbeit innerhalb ihrer Community engagiert sind. Da alle Interviewpartner:innen über ganz Deutschland verteilt leben und arbeiten und sie durch ihre Arbeit Erfahrung mit digitalen Tools haben, wurden die Interviews über Zoom durchgeführt und aufgezeichnet. Das Audiomaterial wurde mithilfe der KI-Transkriptionssoftware NoScribe transkribiert. Die Transkripte wurden im Nachhinein mit der Aufnahme geprüft und gegebenenfalls nachträglich verbessert. Alle Teilnehmer:innen wurden im Vorfeld über ihre Datenschutzrechte aufgeklärt und direkt vor der Aufnahme wurden diese nochmals kurz besprochen. 
 Der gesamte Leitfaden ist anhand der folgenden vier Forschungsfragen entwickelt worden:
 
 ```mermaid
@@ -234,15 +196,15 @@ Welche Hoffnungen und Erwartungen verbinden Sie mit unserem Projekt (das auf die
 Die verschiedenen Communities unserer Interview-Studie werden im Folgenden kurz vorgestellt. Die Texte bestehen aus Zusammenfassungen der Webseiten und einzelnen Aspekten aus den Interviews.
 
 [rpi-virtuell](https://rpi-virtuell.de/) (2): 
-Ist als religionspädagogischer Akteur seit Anfang der 2000er-Jahre in der digitalen Bildung und Fortbildung tätig. Das rpi ist Teil der deutschen OER-Bewegung von Beginn an.
+Ist als religionspädagogischer Akteur seit Anfang der 2000er-Jahre in der digitalen Bildung und Fortbildung tätig. Das rpi-virtuell ist Teil der deutschen OER-Bewegung von Beginn an.
 Als aktive Community hat sie sich in andere Communities disseminiert und bietet die technische Infrastruktur und Expertise für andere Communities im religionspädagogischen Bereich. 
-Materialpool: Das rpi hostet einen Materialpool, auf dem online Materialien für den Elementarbereich, den schulischen und den außerschulischen Bereich zu finden sind.
+Materialpool: Das rpi-virtuell hostet einen Materialpool, auf dem Online-Materialien für den Elementarbereich, den schulischen und den außerschulischen Bereich zu finden sind.
 
 [relilab](https://relilab.org/) (3):
-Das relilab ist eine Community, die religionsbezogene Bildung ermöglicht. Dabei ist sie heterarchisch strukturiert und lädt alle Menschen zum Teilnehmen ein. Als Community unterstützt sie selbstgesteuertes Lernen sowie die Erstellung und Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, die vom relilab selbst oder von externen Anbietern über den relilab-Zoom stattfinden.
+Das relilab ist eine Community, die religionsbezogene Bildung ermöglicht. Dabei ist sie heterarchisch strukturiert und lädt alle interessierten Menschen zur Teilname ein. Als Community unterstützt sie selbstgesteuertes Lernen sowie die Erstellung und Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, die vom relilab selbst oder von externen Anbietern über den relilab-Zoom stattfinden.
 
 Gegründet: 2020 aus dem relichat auf Twitter, als eigenständige Community.
-Fortbildungen: Das relilab bietet Mini-Onlinefortbildungen an und ist auch eine Plattform, auf der andere Fortbildungsinstitute ihre Fortbildungen bewerben; es stellt den eigenen Zoom-Raum zur Verfügung.
+Fortbildungen: Das relilab bietet Mini-Online-Fortbildungen an und ist auch eine Plattform, auf der andere Fortbildungsinstitute ihre Fortbildungen bewerben; es stellt den eigenen Zoom-Raum zur Verfügung.
 
 [RELImentar](https://relimentar.de/) (2): 
 RELImentar ist eine Community, die religionsbezogene Bildung im Elementar- und Primarbereich stärkt. Auf ihrer Website steht:
@@ -252,7 +214,7 @@ RELImentar stellt einen qualitätsgeprüften Materialpool mit Praxismaterialien 
 
 Gegründet: Die Internetseite wurde Ende 2018/Anfang 2019 aufgesetzt. 
 
-Cafés: Ein zentraler Baustein sind die RELImentar-Cafés. Die Cafés sind ein Raum für Fachimpulse, kollegialen Austausch und die gemeinsame Arbeit am Material. Die Teilnehmenden können nicht nur ausgewähltes Material für sich erschließen, sondern auch selbst Hand anlegen.
+Cafés: Ein zentraler Baustein sind die RELImentar-Cafés. Die Cafés sind ein Raum für Fachimpulse, kollegialen Austausch und die gemeinsame Arbeit am Material. Die Teilnehmer:innen können nicht nur ausgewähltes Material für sich erschließen, sondern auch selbst Hand anlegen.
 
 [narrt](https://narrt.de/) (1): 
 > narrt vernetzt Menschen, die sich selbstreflexiv mit der Verstrickung von Religionspädagogik und Theologie in antisemitische und rassistische Verhältnisse auseinandersetzen. Wir wissen, dass dies ein ständiger Prozess ist, der auch Rückschläge kennt. Wir wollen dennoch gemeinsam nach alternativen Denkweisen, Handlungsformen und Materialien suchen, die sich der Aufgabe stellen, Antisemitismus und Rassismus in Kirche und Gesellschaft abzubauen.
@@ -305,7 +267,7 @@ Die Genaue Auflistung von der Code-Definition und den Beispielen ist hier zu fin
     3.  “Ich teile, was ich mache. Also ich, ich, ich teile meine guten Ideen, von denen ich selber davon überzeugt bin, dass sie gut sind und wo es sich lohnt, mir auch die Mühe zu machen, das in einen Raster zu bringen, dass es anderen nützt...” (Interview\_000906, Pos. 17)
 *   **Communities sind der Ort, an dem OER bzw. Material gemeinsam entstehen kann.**
 *   **Community-Struktur wirkt sich auf die Zusammenarbeit aus:**
-    1.  **“**Also die Nachfrage ist höher an den Fortbildungsangeboten und sozusagen so mit, wie es so heißt, mit den Füßen abstimmen, ist, glaube ich, auch die Entwicklung des reliLabs stark abhängig von den Benutzerbedarfen.” (Interview\_000906, Pos. 21)
+    1.  **“**Also die Nachfrage ist höher an den Fortbildungsangeboten und sozusagen so mit, wie es so heißt, mit den Füßen abstimmen, ist, glaube ich, auch die Entwicklung des relilabs stark abhängig von den Benutzerbedarfen.” (Interview\_000906, Pos. 21)
     2.  “Aber in Bezug auf die pädagogischen Fachkräfte ist es so, dass wir tatsächlich als einzige Begegnungsmöglichkeit bisher die Community-Treffen haben. In den Community-Treffen tauchen dann häufig die Personen auf, die auch in unseren präsentischen Fortbildungen sind.” (Interview\_000902, Pos. 50)
 *   **Stellung von OER in der Community:**
     1.  Es liegt ein breites Spektrum vor: von "Ohne OER geht es nicht" (Interview\_000902, Pos. 12), bis hin zu, das OER eigentlich keine besondere Rolle innerhalb einer Community spiele (Interview\_000905).
@@ -368,7 +330,7 @@ Die Genaue Auflistung von der Code-Definition und den Beispielen ist hier zu fin
     2.  Grundsätzliche rechtliche Fragen beschäftigen die Communities.
     3.  Rechtlicher Aspekte stehen häufig einer Veröffentlichung als OER im Weg.
 *   **Rechtliche Hürden**
-    1.  Kommen bei Bildmaterialien und Grafiken häufig zum Tragen.
+    1.  Kommen bei Bildmaterialien und Grafiken häufig zum Tragen. 
     2.  Es besteht eine Angst, einen rechtlichen Fehler zu begehen und haftbar gemacht zu werden.
     3.  Rechtliche Klärungen sind zeit- und ressourcenaufwändig. 
 
@@ -413,34 +375,63 @@ Und dass wir die Qualitätskriterien als etwas erstellen, das nicht starr und un
 - Konkrete Qualitätsberatungen und Erprobung im Rahmen laufender Projekte, u. a. in den Projekten [TiRU – Tablets im Religionsunterricht](https://oer.community/digitale-offenheit-braucht-tiefe/) sowie [M@ps](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/) der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.  
   Kontinuierliche Überarbeitung der Qualitätskriterien in Zusammenarbeit mit den Communities. Dies ist für unser Projekt das weitere Vorgehen, damit die Qualitätskriterien als Grundlage für OER dienen könne
 
+#### Beispiel der [Checkliste](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/_edit/main/qualitaetskriterien/handreichung-qualitaetskriterien.md):
+4.3 Lerngegenstand
+
+```mermaid
+%%{ init: { 'theme': 'neutral'} }%%
+mindmap
+root((Lerngegenstand))
+    Symbol-<br/>lernen
+    Biblisches<br/>Lernen
+    Ähstetisches<br/>Lernen
+    Ethisches<br/>Lernen
+    Interkulturelles<br/> und Interreligiöses<br/>Lernen
+    Antisemitismus- und<br/>rassismuskritisches Lernen
+    Diversitäts- und<br/> Gendersensibles Lernen
+```
+
+##### Symbollernen
+- [ ] Das Material verhilft Lernenden dazu, religiöse Symbole zu erkennen und zu beschreiben.
+- [ ] Das Material eröffnet den Lernenden verständlich weitere Ebenen der Tiefenstruktur von Wirklichkeit.
+- [ ] Das Material macht eine individuelle Glaubensvertiefung und das religiöse Lernen mit Symbolen möglich.
+- [ ] Das Material fördert die religiöse Kommunikation der Lernenden mit Hilfe von Symbolen (Texte, Musik, Bilder, Architektur, Riten etc.).
+
+##### Biblisches Lernen
+- [ ] Die Auslegung biblischer Texte im Material ist wissenschaftlich fundiert und berücksichtigt historische, literarische und theologische Kontexte.
+- [ ] Das Material eröffnet den Blick für die Lebenswelt und Entstehungskontexte biblischer Texte.
+- [ ] Das Material stärkt ein respektvolles Verständnis des Judentums und fördert die Sensibilität für antijüdische Deutungsmuster.
+- [ ] Das Material zeigt auf, dass biblische Zeugnisse anschlussfähig an heutige Fragen sind.
+- [ ] Das Material verwendet eine lizenzfreie oder OER-lizenzierte Bibelübersetzung, (z.B. die [Offene Bibel](https://https://offene-bibel.de/wiki/Willkommen_bei_der_Offenen_Bibel) oder die [diffBibel](https://http://www.diffbibel.de/). Auch eigene Übersetzungen sowie gemeinfreie Übersetzungen wie die Lutherbibel von 1912 oder die Schlachter-Bibel von 1951 sind zulässig. Weiterführende Informationen [hier](https://https://oer.community/ist-die-bibel-eigentlich-open/).)
+
 Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als reflexiven Aushandlungsprozess. Sie soll Materialerstellende unterstützen, eigene OER qualitätsbewusst zu entwickeln, bestehende Materialien kritisch einzuschätzen und weiterzuentwickeln sowie religionspädagogische Kriterien transparent einfließen zu lassen.
 
 ### Community-Treffen
-Wie bereits erwähnt, gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und teilnehmend beobachtet. Dabei stehen die Auswertung der Treffen von reliLab, RELImentar und reliGlobal im Vordergrund. Die narrt-Cafés wurden ebenfalls besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnisse gewinnen konnten, stützen sich die hier dargestellten Ausführungen primär auf die geführten Interviews. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview_000904, Pos. 29). Die narrt-Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet, in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
+Wie bereits erwähnt, gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und teilnehmend beobachtet. Dabei stehen die Auswertung der Treffen von relilab, RELImentar und reliGlobal im Vordergrund. Die narrt-Cafés wurden ebenfalls besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnisse gewinnen konnten, stützen sich die hier dargestellten Ausführungen primär auf die geführten Interviews. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview_000904, Pos. 29). Die narrt-Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet, in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
 
 #### relilab
 Die Interviews zeigen auf, dass das relilab sich stark auf Online-Fortbildungen konzentriert (vgl. Interview_000906, Pos. 21; Interview_000801, Pos. 7; Interview_000907, Pos. 6). Diese unterscheiden sich inhaltlich und didaktisch, sind aber alle offen zugänglich und haben meist eine Dauer von 60 Minuten (Interview_000906, Pos. 39). Ziel dieser Fortbildungen ist es, aktuelles Unterrichtsmaterial kollaborativ zu erarbeiten, vorzustellen und unmittelbar zur Weiterverwendung bereitzustellen (vgl. Interview_000801, Pos. 36; Interview_000907, Pos. 34). Es muss aber dazu gesagt werden, dass das relilab seinen Zoom-Raum weiteren Online-Fortbildungsanbietern zur Verfügung stellt; deswegen lassen sich auch Fortbildungen im Terminkalender finden, die eine Anmeldung vorsehen. Diese sind explizit ausgeschrieben. Die besuchten Fortbildungen unterschieden sich thematisch sowie in ihrer Umsetzung. Von unterrichtspraktischen Fortbildungen bis hin zu Vorträgen war alles zu finden. 
 
 #### RELImentar
-RELImentar bietet auch ein Café an, das eher als "kleine Online-Werkstatt" (Interview_03, Pos. 14) verstanden werden kann. Innerhalb dieser Werkstatt wird gemeinsam mit den Teilnehmenden konkret an Materialien gearbeitet (vgl. ebd.). Die Cafés dauerten in der Regel 90 Minuten. In den besuchten Cafés wurde in Breakout-Sessions an konkretem Material aus dem eigenen Materialpool gearbeitet. Hierbei konnte das gemeinsame Denken und Konzeptionieren von OER als didaktisches Prinzip verstanden werden.
+RELImentar bietet auch ein Café an, das eher als "kleine Online-Werkstatt" (Interview_03, Pos. 14) verstanden werden kann. Innerhalb dieser Werkstatt wird gemeinsam mit den Teilnehmer:innen konkret an Materialien gearbeitet (vgl. ebd.). Die Cafés dauerten in der Regel 90 Minuten. In den besuchten Cafés wurde in Breakout-Sessions an konkretem Material aus dem eigenen Materialpool gearbeitet. Hierbei konnte das gemeinsame Denken und Konzeptionieren von OER als didaktisches Prinzip verstanden werden.
 
 #### reliGlobal
 Das besuchte reliGlobal-Community-Treffen war geprägt von Impulsvorträgen.
 
 #### Erste Erkenntnisse
-Onlinefortbildungen bieten viele Möglichkeiten, haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60–90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen, ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Dies wurde auch von einer interviewten Person als ein Anspruch für die eigenen Fortbildungen angegeben.
+Online-Fortbildungen bieten viele Möglichkeiten, haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60–90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen, ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Dies wurde auch von einer interviewten Person als ein Anspruch für die eigenen Fortbildungen angegeben.
 > Drittens, es sollte ein Output haben, den man möglichst am nächsten Tag direkt mit im Unterricht sein muss. Warum sollte ich meinen Kollegen Zeit stehlen, wenn ich die einfach zuschwalle mit irgendwas, was sie nicht brauchen und es nicht anmelden können? Und ich habe tatsächlich aus den Fortbildungen, die wir haben, habe ich auch teilweise abends dann die Rückmeldung, geil, ich habe das jetzt vorbereitet, ich kann das direkt morgen mit meinen Schülern machen. Aber wenn das nicht der Fall ist, dann weiß ich, ich habe scheiß Arbeit gemacht  (Interview_08, Pos. 36). 
 
-Onlinefortbildungen erlauben eine überregionale Vernetzung und durch den Austausch können Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmenden liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmenden können mehr Raum einnehmen als der Inhalt. Die Breakout-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmenden. [Stichwort: Berieseln] Es ist auch schwierig zu erfahren, ob und wie sich die langfristige Wirkung der Besuche auswirkt (siehe Schweitzer et al. 2025 [LINK]). 
+Online-Fortbildungen erlauben eine überregionale Vernetzung und durch den Austausch können Synergie-Effekte entstehen. Es ist aber auch wichtig festzuhalten, dass eine tiefergehende Beschäftigung mit den Fortbildungsthemen in der jeweiligen Eigenverantwortung der Teilnehmer:innen liegt. Technische Schwierigkeiten oder Unkenntnis von Vortragenden oder auch Teilnehmer:innen können mehr Raum einnehmen als der Inhalt. Die Breakout-Sessions können sehr produktiv sein, jedoch verlangt dies Eigeninitiative der Teilnehmer:innen. [Stichwort: Berieseln] Es ist auch schwierig zu erfahren, ob und wie sich die langfristige Wirkung der Besuche auswirkt (siehe Schweitzer et al. 2025 [LINK]). 
 Wichtige Erkenntnisse aus der teilnehmenden Beobachtung sowie den Interviews:
 
 ##### Rollenverteilung
-Alle besuchten Fortbildungen werden von mehreren Personen gestaltet. Meist hat eine Person die Moderation übernommen und den Chat in Zoom im Auge behalten. Die Beobachtung des Chats konnte in gewissen Fällen auch eine weitere Person übernehmen. Währenddessen kümmerte sich eine Person um den Vortrag bzw. um die Impulse. Diese Rollenverteilung war je nach didaktischem Konzept starr oder fluide. Fortbildungen, die in der Form einer Onlinefortbildung stattfanden, waren dahingehend starr. Fortbildungen, die eher auf Partizipation aufgebaut waren oder mit mehreren Redner:innen, hatten meist einen Rollenwechsel integriert. 
+Alle besuchten Fortbildungen werden von mehreren Personen gestaltet. Meist hat eine Person die Moderation übernommen und den Chat in Zoom im Auge behalten. Die Beobachtung des Chats konnte in gewissen Fällen auch eine weitere Person übernehmen. Währenddessen kümmerte sich eine Person um den Vortrag bzw. um die Impulse. Diese Rollenverteilung war je nach didaktischem Konzept starr oder fluide. Fortbildungen, die in der Form einer Online-Fortbildungen stattfanden, waren dahingehend starr. Fortbildungen, die eher auf Partizipation aufgebaut waren oder mit mehreren Redner:innen, hatten meist einen Rollenwechsel integriert. 
 Die Rollenverteilung hat den Vorteil, dass, wenn eine teilnehmende Person technische Probleme hat, wie z. B. den Wechsel in den Breakout-Raum nicht schafft, sich nicht die vortragende Person darum kümmern muss. Zudem hilft eine Moderation, im Sinne einer didaktischen Rahmung, durch die verschiedenen Phasen der Fortbildung zu führen.
-Es ist aber essenziell, dass die Verteilung klar besprochen ist, und es hilft, bei einem Wechsel der Rolle im Laufe einer Fortbildung dies den Teilnehmenden transparent zu machen. Gerade durch die Funktion des privaten Chats ist es hilfreich für Teilnehmende, immer zu wissen, an wen sie sich wenden können.
+Es ist aber essenziell, dass die Verteilung klar besprochen ist, und es hilft, bei einem Wechsel der Rolle im Laufe einer Fortbildung dies den Teilnehmer:innen transparent zu machen. Gerade durch die Funktion des privaten Chats ist es hilfreich für Teilnehmer:innen, immer zu wissen, an wen sie sich wenden können.
 
 ##### Technische Unkenntnis
-Es ist wichtig zu bedenken, dass Menschen an Onlinefortbildungen teilnehmen, die in der Regel keinen Umgang mit Zoom und anderen technischen Tools pflegen. Es bedarf in der Konzeptionierung von Einheiten Zeit für das Heranführen an Tools oder auch den Raumwechsel in Zoom. Das Erklären von "Basics" kann in gewissen Fällen bis zu fünf Minuten dauern.
+Es ist wichtig zu bedenken, dass Menschen an Online-Fortbildungen teilnehmen, die in der Regel keinen Umgang mit Zoom und anderen technischen Tools pflegen. Es bedarf in der Konzeptionierung von Einheiten Zeit für das Heranführen an Tools oder auch den Raumwechsel in Zoom. Das Erklären von "Basics" kann in gewissen Fällen bis zu fünf Minuten dauern.
 
 ##### Methodenwechsel
 > Das Digitale hat die, aus meiner Sicht, eine große Versuchung, dass man nämlich so ein bisschen in das Dozieren verfällt, auch weil häufig, ich sage mal, man wenig Reaktionen merkt, ja, wenn man erzählt. (..) Oder das Gefühl hat, dass vielleicht die Leute, also ich meine, es liegt ja auch manchmal an den Teilnehmern, die dann tatsächlich auch noch andere Dinge im Hintergrund machen, sodass, das ist ja alles, das ist ja auch legitim, ja, aber dadurch hat man nicht so eine Resonanz, wie wenn ich jetzt einen Vortrag oder eine Fortbildung mache und ich kommuniziere direkt mit den Leuten. Diese Versuchung gibt es und deswegen versuchen wir in der reli-Werkstatt, die wir dienstags machen, immer eine Dreiteilung aufrechtzuerhalten. Nicht immer dann 20 Minuten, 20 Minuten, 20 Minuten, aber dass es eine Dreiteilung gibt zwischen einem Impuls, wo ich etwas reingebe, dann einer Resonanz, wo ich dann wieder was rauskriege und einer Praxisphase, die eben, bei denen wirklich die Leute auch selber gerade tätig werden, zum Beispiel in einem Tool. (interview_06, Pos. 39)
