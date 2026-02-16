@@ -248,37 +248,89 @@ Die qualitative Inhaltsanalyse ermöglicht „die systematische und methodisch k
 Die Genaue Auflistung von der Code-Definition und den Beispielen ist hier zu finden [Link einfügen] 
 
 ### Ergebnisse 
-```mermaid
-flowchart TD
-    A[Forschungsfragen] --> B(Inwieweit wird in den untersuchten Communities OER-bezogen gearbeitet?)
-    A --> C(Welche OER-bezogenen offenen Bildungspraktiken zeigen sich in den Communities?)
-    A --> D(Welche Vernetzungen, Kooperationen und Austauschformen bestehen innerhalb und zwischen den Communities sowie über sie hinaus?)
-    A --> E(Welche Stärken und Entwicklungsbedarfe werden von den Community-Verantwortlichen benannt? Welche Rolle spielen dabei OER, OEP und Intra-/Inter-/Trans-Community-Vernetzungen?)
-    B --> F(Die Stellung von OER Variert von Community zu Community)
-    B --> G(Wissen über OER ist innerhalb der Communities divergierend)
-    B --> H(OER hat didaktische Grenzen)
-    F --> I(Ohne OER geht es nicht)
-    F --> J(Tools und Werkzeuge verhindern eine OER Lizensierung: Teilen steht im Vordergrund)
-    C --> K(Das Verständnis von OEP ist stark divergierend)
-    C --> L(Alle Communities schaffen Räume der Begegnung sowie Erarbeitung von Materialien)
-    C --> M(Onlinefortbildungen sind der Ort an dem offene Bildungspraktiken erprobt werden)
-    D --> O(Kommunikationsstrukturen sind trotz diverser Organisationsstrukturen sehr ähnlich)
-    E --> P(Stärken)
-    E --> Q(Schwächen)
-    E --> R(Visionen)
-    E --> S(Entwicklungsbedarfe)
-    P --> T(Kultur des Teilens</br>Raum um Ideen zu Teilen</br>Kollaboratives Arbeiten</br>Schwarmintelligenz)
-    Q --> U(Finanzielle Absicherung</br>Rechtliche Unischerheiten </br>Keine langfristige Planung möglich)
-    R --> V(Verbesserte Vernetzung</br>Auflockerung institutioneller Strukturen</br>Entlastung durch KI)
-    S --> W(Community Management</br>Asynchorne Workflows</br>Anpassung der Rechtskonlage</br>)
-```
 
-Dies Flowchart zeigt zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders im Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizenzierung sowie das Fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. 
-> Und dann wäre das ja auch wieder eine Aufgabe von FOERBICO, denke ich, dass man einerseits die Didaktik sich erschließen kann, die Pädagogik und einen Praxisentwurf, der bestimmte Kriterien transparent macht, die dann ich wieder übertragen kann in mein eigenes Handling und sagen kann, so und so ist gerade der Sachstand, die und die Erfahrungen, die und die Erkenntnisse kann ich anwenden.  (Interview_01, Pos. 79)
+#### FF 1: Inwieweit wird in den untersuchten Communities OER-bezogen gearbeitet?
 
-Zudem wurden in den Interviews wenige konkreten religionspädagogischen Kriterien von den befragten Personen genannt.  
-Ein weiterer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code "Fortbildungen" lassen sich einerseits klassische Online-Fortbildungen finden, in denen entweder thematisch- oder an einem Material etwas beigebracht werden soll. Dann gibt es Communitytreffen, die ein Café oder Werkstattformat haben, in denen sich entweder über aktuelle Themen ausgetauscht wird oder an konkreten OER-Materialien, die Personen einbringen oder aus dem Materialpool entnommen werden, gemeinsam gearbeitet wird.
-OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Diese offenen Praktiken werden in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code *OEP im Tun*, um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber.  
+*   **Alle Interviewpartner wissen, was OER ist und können auch verschiedene Aspekte von OER benennen:**
+    1.  “Den Grundgedanken von OER den finde ich einfach genial, weil es im Prinzip der Gedanke der offene/ Klassentür ist. Also das heißt, ich kann hineingucken, was macht jemand anders, wie macht er das, kann das für mich/eventuell bestenfalls adaptieren” (Interview\_000909, Pos. 17)
+    2.  “Im Prinzip haben wir mit offenen Bildungsmaterialien eine Möglichkeit, auf Steinbrüche für Materialien zuzugreifen und die immer neu zu remixen und meinen Standards anzupassen.” (Interview\_000907, Pos. 10)
+    3.  “Ich teile, was ich mache. Also ich, ich, ich teile meine guten Ideen, von denen ich selber davon überzeugt bin, dass sie gut sind und wo es sich lohnt, mir auch die Mühe zu machen, das in einen Raster zu bringen, dass es anderen nützt...” (Interview\_000906, Pos. 17)
+*   **Communities sind der Ort, an dem OER bzw. Material gemeinsam entstehen kann.**
+*   **Community-Struktur wirkt sich auf die Zusammenarbeit aus:**
+    1.  **“**Also die Nachfrage ist höher an den Fortbildungsangeboten und sozusagen so mit, wie es so heißt, mit den Füßen abstimmen, ist, glaube ich, auch die Entwicklung des reliLabs stark abhängig von den Benutzerbedarfen.” (Interview\_000906, Pos. 21)
+    2.  “Aber in Bezug auf die pädagogischen Fachkräfte ist es so, dass wir tatsächlich als einzige Begegnungsmöglichkeit bisher die Community-Treffen haben. In den Community-Treffen tauchen dann häufig die Personen auf, die auch in unseren präsentischen Fortbildungen sind.” (Interview\_000902, Pos. 50)
+*   **Stellung von OER in der Community:**
+    1.  Es liegt ein breites Spektrum vor: von "Ohne OER geht es nicht" (Interview\_000902, Pos. 12), bis hin zu, das OER eigentlich keine besondere Rolle innerhalb einer Community spiele (Interview\_000905).
+    2.  In gewissen Communities ist OER ein Ziel, welches nur zum Teil oder bis jetzt gar nicht erreicht wird (Interview\_000904; Interview\_000909).
+    3.  In wiederum einer anderer Community spielt der Grundgedanke von OER eine wichtige Rolle, jedoch verhindern die lizenzrechtlichen Bedingungen von kollaborativen Tools die Veröffentlichung von erstelltem Material als OER (Interview\_000906; Interview\_000801).
+*   Wissen über OER ist innerhalb der Communities divergierend
+*   OER hat didaktische Grenzen
+*   **Thematische Schwierigkeiten**
+    1.  Vertreter:innen von Communities, die sensible Themen zum Schwerpunkt haben, weißen darauf hin, dass nicht jedes Thema für OER geeignet sei, da die Missbrauch Gefahr zu hoch sei. 
+    2.  Zudem müssten gewisse Materialien mit einem deutlichen Mehraufwand didaktisch und kontextuell eingebettet werden, um diese als OER zu veröffentlichen. 
+    3.  Es besteht auch die Gefahr, dass inhaltlich verändertes Material, bei sensiblen Themen, somit unter der ursprünglichen Autor:innenschaft veröffentlicht wird.
+
+#### FF 2: Welche OER-bezogenen offenen Bildungspraktiken zeigen sich in den Communities?
+
+*   **Das** **Konzept** **OEP**
+    1.  Nicht allen befragten Personen bekannt gewesen.
+    2.  Das Spektrum reichte von einer klaren Definition von OEP bis hin zu einem klaren nicht-Kennen.
+*   **Räume der Begegnung**
+    1.  Alle Communities schaffen Räume für eine kollaborative Zusammenarbeit.
+    2.  Online-Fortbildungen; Online-Werkstätten oder auch Räume für den Austausch sowie die Reflexion von Material.
+    3.  Je nach Community wird OEP unterschiedlich ausgelebt.
+
+#### FF 3: Welche Vernetzungen, Kooperationen und Austauschformen bestehen innerhalb und zwischen den Communities sowie über sie hinaus?
+
+*   **Kommunikation innerhalb** **der Communities**
+    1.  Die Kommunikationsformen und Kommunikationswege ähneln sich in den Communities. 
+    2.  Zoom, Element-Matrix und E-Mail sind die gängigsten Kommunikationswege
+*   **Community-Struktur**
+    1.  Die Community-Struktur variiert je nach Community. 
+    2.  Es gibt Communities mit einer sehr flachen Hierarchie bis hin zu einer klar hierarchisch aufgebauten Community. 
+*   **Netzwerke**
+    1.  Communities sind unterschiedlich stark miteinander vernetzt.
+    2.  Gewisse Themen eignen sich für eine internationale Vernetzung, während andere Themen diese im Weg stehen.
+
+#### FF 4: Welche Stärken und Entwicklungsbedarfe werden von den Community-Verantwortlichen benannt? Welche Rolle spielen dabei OER, OEP und Intra-/Inter-/Trans-Community-Vernetzungen?
+
+*   **Stärken**
+    1.  „Kultur des Teilens“ als eines der größten Mehrwerte die in Communities gelebt werden.
+    2.  Praxisnahe und niedrigschwellige Angebote.
+    3.  Communities bieten Raum zur Entfaltung.
+    4.  Wertschätzende Haltung, welche innerhalb der Communities praktiziert wird.
+    5.  Bündelung von Expertisen.
+*   **Schwächen**
+    1.  Finanzielle Absicherung wird als eine Schwäche von den Expert:innen gesehen. 
+    2.  Volatilität der Community-Mitglieder, denn diese beteiligen sich meist Ehrenamtlich.
+    3.  Rechtliches Unwissen ist in Communities weit verbreitet.
+*   **Visionen**
+    1.  Vision einer „Dach-Community“, welche Vernetzung stärkt, Communities unterstützt und eine Plattform bildet, auf der Räume der Begegnung ermöglicht werden.
+    2.  Stärkere Etablierung von OER in der deutschen Bildungslandschaft 
+    3.  Veränderung der kirchlichen Strukturen durch die Community-Arbeit.
+*   **Entwicklungsbedarfe**
+    1.  Es bedarf Optimierung im Community-Management. Prozesse sind nicht immer gut geregelt und führen zu Mehrarbeit.
+    2.  Es fehle aktuell an Tools, die kollaboratives Arbeiten ermöglichen und zugleich eine OER-Lizensierung zulassen.
+    3.  Erstellung von Qualitätskriterien und Metadatenstandards zur Orientierung 
+
+#### Rechtliche Hürden
+
+*   **Das Thema Recht und die damit verbundenen Hürden nahmen in jedem Interview viel Raum ein.**
+    1.  OER wurden teilweise auf der Grundlage ihrer rechtlichen Merkmale definiert.
+    2.  Grundsätzliche rechtliche Fragen beschäftigen die Communities.
+    3.  Rechtlicher Aspekte stehen häufig einer Veröffentlichung als OER im Weg.
+*   **Rechtliche Hürden**
+    1.  Kommen bei Bildmaterialien und Grafiken häufig zum Tragen.
+    2.  Es besteht eine Angst, einen rechtlichen Fehler zu begehen und haftbar gemacht zu werden.
+    3.  Rechtliche Klärungen sind zeit- und ressourcenaufwändig. 
+
+Die Ergebnisse zeigen zusammengefasst die wichtigsten Ergebnisse aus der Interviewbefragung im Hinblick auf die vier Forschungsfragen. Hervorzuheben ist, dass die Aspekte von Unwissenheit über OER, besonders in Bezug auf rechtliche Fragen, sowie die Primärstellung des Teilens über der korrekten Lizensierung sowie das Fehlen von Qualitätskriterien im religionspädagogischen Bereich, führte zu der Entwicklung von Qualitätskriterien. 
+
+> „Und dann wäre das ja auch wieder eine Aufgabe von FOERBICO, denke ich, dass man einerseits die Didaktik sich erschließen kann, die Pädagogik und einen Praxisentwurf, der bestimmte Kriterien transparent macht, die dann ich wieder übertragen kann in mein eigenes Handling und sagen kann, so und so ist gerade der Sachstand, die und die Erfahrungen, die und die Erkenntnisse kann ich anwenden“ (Interview\_01, Pos. 79).
+
+Zudem wurden in den Interviews wenige konkreten religionspädagogischen Kriterien von den befragten Personen genannt. 
+
+Ein weiterer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code Fortbildungen lassen sich einerseits, klassische Online-Fortbildungen finden, in dem entweder thematisch- oder an einem Material etwas beigebracht werden soll. Dann gibt es Communitytreffen die ein Café oder Werkstattformat haben, in denen vielleicht entweder über aktuelle Themen ausgetauscht wird, oder am konkreten OER das Personen einbringen oder aus dem Materialpool gemeinsam gearbeitet wird. OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Diese wird in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code _OEP im Tun_ um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber. 
 
 ### [Qualitätskriterien](https://oer.community/qualitaet/)
 
