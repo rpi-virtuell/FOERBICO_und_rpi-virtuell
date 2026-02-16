@@ -27,12 +27,40 @@ timeline
          : reliGlobal
          : schule-evangelisch-digital
          : Vorstellung der ersten Ergebnisse im Team
-    Dezember - März 2025: Auswertung
+    Dezember: Beginn Auswertung
          : Kodieren in MAXQDA
          : Qualitative Inhaltsanalyse nach Kuckartz
          : Grundlage für die Entwicklung der Qualitätskriterien
 ```
-Die Timeline zeigt den Verlauf der Begleitforschung im Jahr 2024 und Anfang 2025. [Weiteres folgt]
+
+```mermaid
+timeline
+    title Verlauf der Begleitforschung 2025 1. Halbjahr
+    Januar : Feinkodieren in  MAXQDA
+         : Entwicklung der Subcodes
+         : Beginn der Arbeit an den Qualitätskriterien  
+    Februar : Konzipierung der OER-Werkstatt (GU Verantwortlich)
+    März : Durchführung der OER-Werkstatt
+         : Erarbeitung der Qualitätskriterien
+         : Feingliederung der Subcodes
+    April - Juni: Erstentwurf der Qualitätskriterien
+         : Expert:innen Interviews
+         : OER im Blick Tagung Jena
+         : Überarbeitung der Qualitätskriterien
+```
+
+```mermaid
+timeline
+    title Verlauf der Begleitforschung 2025 2. Halbjahr
+    Juli : Beendigung der Codierung
+    August : Fertigstellung der Qualitätskriterien
+        : Vorstellung der Ergebnisse auf der International Seminar on Religious Education and Values (ISREV)
+    September : Pseudonymisierung der Transkripte
+    Oktober : Veröffentlichung der Qualitätskriterien
+    November-Dezmber: Vorbereitung der Teilnehmenden Beobachtung
+            : Beginn der Teilnehmenden Beobachtungen
+```
+Die Timeline zeigt den Verlauf der Begleitforschung im Jahr 2024 und 2025.
 
 ### Literaturbericht
 
