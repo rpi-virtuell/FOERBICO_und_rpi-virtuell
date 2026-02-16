@@ -7,19 +7,19 @@
 4. [Literaturbericht](#literaturbericht)
 5. [Interviewstudie](#interviewstudie)
 6. [Qualitätskriterien](#qualitätskriterien)
-7. [Teilnehmende Beobachtung](#teilnehmende)
+7. [Teilnehmende Beobachtung](#beobachtung)
 
 
 Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO-Projekts. Vorgestellt werden der Verlauf der Begleitforschung sowie die Zusammenfassung der wichtigsten Ergebnisse, die auf der Zwischenfazit-Tagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess. 
 
-## OER und OEP 
+## OER und OEP {#oerundoep}
 Wir verstehen unter [OER](https://oer.community/oer-und-oep/):
 > Open Educational Resources (OER) sind freie Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden. Offene Lizenzen schaffen die Möglichkeit, dass die Lehr- und Lernmaterialien rechtssicher und kostenlos benutzt, bearbeitet und durch Dritte weiterverarbeitet werden können, ohne oder mit geringfügigen Einschränkungen. Die OER-Formate können von Texten, Videos, Präsentationen, Bildern, Podcasts und Planspielen bis hin zu kompletten Kursmaterialien und Lehrbüchern reichen. OER fördern den offenen Zugang zu Wissen und unterstützen die globale Bildungsgemeinschaft, indem sie eine flexible Nutzung und Anpassung von Inhalten ermöglichen. Ziel von OER ist es, den Zugang zu hochwertiger Bildung für alle zu fördern und den Bildungsprozess durch mehr Zusammenarbeit und Innovation zu bereichern. Material wird als OER bezeichnet wenn die 5V-Freiheiten verwahren, verwenden, verarbeiten, vermischen und verbreiten ermöglichen.
 
 Wir verstehen unter [OEP](https://oer.community/oer-und-oep/):
 > Open Educational Practices (OEP) beschreiben die dazugehörigen offenen Bildungspraktiken. OEP umfassen alle kollaborativen Methoden und Ansätze zur Erstellung, Nutzung und Weiterentwicklung von OER. Sie ermöglichen es den Nutzenden durch offene Lizenzen aktiv an den so genannten 5V-Freiheiten teilzuhaben. OEP greifen auf Technologien und soziale Netzwerke zurück, um Lernprozesse zu gestalten, in denen Lernende aktiv zusammenarbeiten, Wissen austauschen und voneinander lernen. Der Schwerpunkt liegt auf der Befähigung der Lernenden, selbst Wissen zu produzieren und ihren Bildungsweg aktiv zu gestalten. Darüber hinaus beziehen sich OEP auf pädagogische Ansätze, die auf Offenheit und Zusammenarbeit basieren. OEP fördert nicht nur die Nutzung von offenen Materialien, sondern auch die Praxis des gemeinsamen Lernens und der Kollaboration in offenen Netzwerken. Ziel ist es, Lehr- und Lernprozesse zu verbessern und Barrieren im Zugang zu Bildung abzubauen. Das Ziel von OEP ist es, die Qualität von Bildung durch eine offene, zugängliche und kollaborative Lernkultur zu verbessern und dadurch die Teilhabe und das Lernen für alle zu fördern.
 
-## Timeline
+## Timeline {#timeline}
 
 ```mermaid
 timeline
@@ -44,6 +44,7 @@ timeline
          : Qualitative Inhaltsanalyse nach Kuckartz
          : Grundlage für die Entwicklung der Qualitätskriterien
 ```
+*Abbildung 4: Verlauf Juli-Dezember 2024*
 
 ```mermaid
 timeline
@@ -60,6 +61,7 @@ timeline
          : OER im Blick Tagung Jena
          : Überarbeitung der Qualitätskriterien
 ```
+*Abbildung 2: Verlauf Januar-Juni 2025*
 
 ```mermaid
 timeline
@@ -72,9 +74,11 @@ timeline
     November-Dezmber: Vorbereitung der Teilnehmenden Beobachtung
             : Beginn der Teilnehmenden Beobachtungen
 ```
+*Abbildung 3: Verlauf Juli-Dezember 2025*
+
 Die Timeline zeigt den Verlauf der Begleitforschung im Jahr 2024 und 2025.
 
-## Literaturbericht
+## Literaturbericht {#literaturbericht}
 
 Die Begleitforschung begann zunächst mit einem Kennenlernen des Forschungsfeldes zu OER und OEP durch eine Literaturrecherche. Die wichtigsten Erkenntnisse werden im Artikel (Pirker & Pirner 2025) zusammengefasst:
 > Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft. (Pirker & Pirner, 2025, S. 151)
@@ -91,7 +95,7 @@ Die Begleitforschung begann zunächst mit einem Kennenlernen des Forschungsfelde
 - Unterstützende Faktoren sind Kooperation und Austausch (Pirker & Pirner, 2025, S. 169).
 - Der religionspädagogische Bereich ist einerseits pionierhaft und innovativ durch das Engagement der Communities, aber wissenschaftlich wird dies kaum wahrgenommen (Pirker & Pirner, 2025, S. 169).
 
-## Interviewstudie
+## Interviewstudie {#interviewstudie}
 Um das Desiderat des Literaturreviews zu füllen, wurden im Rahmen des FOERBICO-Projekts aktive Mitglieder aus verschiedenen Communities befragt. Diese Interviews fanden alle über Zoom statt. Es handelte sich hierbei um 12 Interviews mit 13 Personen (n= 12). Wir haben solche Personen ausgewählt, die aktiv und verantwortlich in einer oder mehreren religionsbezogenen OER-Communities tätig sind, also in der Regel bereits selbst. OER-Inhalte erstellt oder bearbeitet haben, teilweise auch Fortbildungen geben und in der Netzwerkarbeit innerhalb ihrer Community engagiert sind. Da alle Interviewpartner:innen über ganz Deutschland verteilt leben und arbeiten und sie durch ihre Arbeit Erfahrung mit digitalen Tools haben, wurden die Interviews über Zoom durchgeführt und aufgezeichnet. Das Audiomaterial wurde mithilfe der KI-Transkriptionssoftware NoScribe transkribiert. Die Transkripte wurden im Nachhinein mit der Aufnahme geprüft und gegebenenfalls nachträglich verbessert. Alle Teilnehmer:innen wurden im Vorfeld über ihre Datenschutzrechte aufgeklärt und direkt vor der Aufnahme wurden diese nochmals kurz besprochen. 
 Der gesamte Leitfaden ist anhand der folgenden vier Forschungsfragen entwickelt worden:
 
@@ -102,7 +106,7 @@ flowchart TD
     A --> D(Welche Vernetzungen, Kooperationen und Austauschformen bestehen innerhalb und zwischen den Communities sowie über sie hinaus?)
     A --> E(Welche Stärken und Entwicklungsbedarfe werden von den Community-Verantwortlichen benannt? Welche Rolle spielen dabei OER, OEP und Intra-/Inter-/Trans-Community-Vernetzungen?)
 ```
-
+*Abbildung 4: Forschungsfragen*
 
 ### Leitfaden
 <table>
@@ -382,7 +386,7 @@ Zudem wurden in den Interviews wenige konkrete religionspädagogische Kriterien 
 
 Ein weiterer wichtiger Aspekt ist, dass die gelebte Praxis von Community-Treffen sehr divergierend ist. Unter dem Code Fortbildungen lassen sich einerseits klassische Online-Fortbildungen finden, in denen entweder thematisch oder an einem Material etwas beigebracht werden soll. Dann gibt es Community-Treffen, die ein Café- oder Werkstattformat haben, in denen entweder über aktuelle Themen ausgetauscht wird oder am konkreten OER, das Personen einbringen oder aus dem Materialpool, gemeinsam gearbeitet wird. OEP ist in der theoretischen Reflexion vielen aktiven Community-Mitgliedern nicht bekannt. Sie wird in allen Communities gelebt. Um auf diese Diskrepanz aufmerksam zu machen, gibt es den Code OEP im Tun, um zu zeigen, dass OEP stattfindet, trotz der fehlenden Reflexion darüber. 
 
-## [Qualitätskriterien](https://oer.community/qualitaet/)
+## [Qualitätskriterien](https://oer.community/qualitaet/) {#qualitätskriterien}
 
 Offene Bildungsmaterialien (OER) eröffnen zentrale Chancen für Lern- und Lehrsettings: Sie ermöglichen Teilhabe, fördern digitale Kompetenzen und stärken eine offene, kollaborative Bildungskultur. Auch in der Religionspädagogik wächst die Bedeutung offener Lehr- und Lernmaterialien, insbesondere vor dem Hintergrund digitaler Transformationsprozesse und KI-gestützter Erstellungsmethoden von religionsdidaktischen Materialien. Mit dieser Dynamik stellt sich immer dringlicher die Frage: Woran lässt sich gute Qualität in religionspädagogischen OER erkennen – und wie kann sie nachhaltig gesichert werden?
 
@@ -396,7 +400,7 @@ flowchart TD
     A --> F[Pädagogisch-</br>didaktische</br>Qualitätskriterien]
     A --> B[Religionspädagogische</br>Qualitätskriterien]
 ``` 
-*Abbildung 1: Vier Dimensionen der OER-Qualität*
+*Abbildung 5: Vier Dimensionen der OER-Qualität*
  
 
 ### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
@@ -430,6 +434,7 @@ root((Lerngegenstand))
     Antisemitismus- und<br/>rassismuskritisches Lernen
     Diversitäts- und<br/> Gendersensibles Lernen
 ```
+*Abbildung 6: Lerngegenstand*
 
 ##### Symbollernen
 - [ ] Das Material verhilft Lernenden dazu, religiöse Symbole zu erkennen und zu beschreiben.
@@ -446,7 +451,7 @@ root((Lerngegenstand))
 
 Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als reflexiven Aushandlungsprozess. Sie soll Materialerstellende unterstützen, eigene OER qualitätsbewusst zu entwickeln, bestehende Materialien kritisch einzuschätzen und weiterzuentwickeln sowie religionspädagogische Kriterien transparent einfließen zu lassen.
 
-## Teilnehmende Beobachtung
+## Teilnehmende Beobachtung {#beobachtung}
 Wie bereits erwähnt, gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und teilnehmend beobachtet. Dabei stehen die Auswertung der Treffen von relilab, RELImentar und reliGlobal im Vordergrund. Die narrt-Cafés wurden ebenfalls besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnisse gewinnen konnten, stützen sich die hier dargestellten Ausführungen primär auf die geführten Interviews. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview\_05, Pos. 29). Die narrt-Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet, in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
 
 ### relilab
