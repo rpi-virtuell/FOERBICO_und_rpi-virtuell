@@ -6,8 +6,8 @@
 3. [Timeline](#timeline)
 4. [Literaturbericht](#literaturbericht)
 5. [Interviewstudie](#interviewstudie)
-6. [Qualitätskriterien](qualitätskriterien)
-7. [Teilnehmende Beobachtung](teilnehmende)
+6. [Qualitätskriterien](#qualitätskriterien)
+7. [Teilnehmende Beobachtung](#teilnehmende)
 
 
 Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO-Projekts. Vorgestellt werden der Verlauf der Begleitforschung sowie die Zusammenfassung der wichtigsten Ergebnisse, die auf der Zwischenfazit-Tagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess. 
