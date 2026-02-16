@@ -4,8 +4,18 @@
 3. [Timeline](#timeline)
 4. [Literaturbericht](#literaturbericht)
 5. [Interviewstudie](#interviewstudie)
+    - [Leitfaden](#leitfaden)
+    - [Communities](#communities)
+    - [Ergebnisse](#ergebnisse)
+    - [Auswertungsmethode](#auswertungsmethode)
 6. [Qualitätskriterien](#qualitätskriterien)
+    - [Die FOERBICO-Handreichung – Entstehung & Zielsetzung](#entstehung)
+    - [Beispiel aus der Checkliste](#checkliste)
 7. [Teilnehmende Beobachtung](#beobachtung)
+    - [relilab](#relilab)
+    - [RELImentar](#relimentar)
+    - [reliGlobal](#religlobal)
+    - [Erste Erkenntnisse](#erkenntnisse)
 
 # Begleitforschungsmappe {#begleitforschung}
 
@@ -107,7 +117,7 @@ flowchart TD
 ```
 *Abbildung 4: Forschungsfragen*
 
-### Leitfaden
+### Leitfaden {#leitfaden}
 <table>
 <thead>
   <thead>
@@ -235,7 +245,7 @@ Welche Hoffnungen und Erwartungen verbinden Sie mit unserem Projekt (das auf die
   </tbody>
 </table>
 
-### Communities
+### Communities {#communities}
 Die verschiedenen Communities unserer Interview-Studie werden im Folgenden kurz vorgestellt. Die Texte bestehen aus Zusammenfassungen der Webseiten und einzelnen Aspekten aus den Interviews.
 
 [rpi-virtuell](https://rpi-virtuell.de/) (2): 
@@ -282,7 +292,7 @@ Die Community schule-evangelisch-digital wurde gegründet, um Lehrkräfte in eva
 Das DiskursLab ist eine Laborumgebung der Evangelischen Akademie zu Berlin mit innovativen Formaten für Theologie und Religionspädagogik. Dabei handelt es sich nicht um eine klassische OER-Community. Das Interview fand trotzdem statt, da das DiskursLab beim Versuch einer Community-Gründung vor vielen Herausforderungen stand.
 
 
-### Auswertungsmethode: inhaltlich-strukturierende Inahltsanalyse nach Kuckartz
+### Auswertungsmethode: inhaltlich-strukturierende Inahltsanalyse nach Kuckartz {#auswertungsmethode}
 Die qualitative Inhaltsanalyse ermöglicht „die systematische und methodisch kontrollierte wissenschaftliche Analyse von Texten, Bildern, Filmen und anderen Inhalten von Kommunikation“ (Kuckartz & Rädler, 2024, S. 39). Ein Vorteil der von Kuckartz entwickelten Variante der inhaltlich-strukturierenden Inhaltsanalyse ist, dass sie recht flexibel ein deduktives (z. B. an den Leitfragen orientiertes) mit einem induktiven (aus dem Interviewmaterial heraus entwickelndes) Vorgehen bei der Kategorienbildung reflektiert zu verbinden erlaubt.
 
 #### Codes
@@ -300,7 +310,7 @@ Die qualitative Inhaltsanalyse ermöglicht „die systematische und methodisch k
 
 Die Genaue Auflistung von der Code-Definition und den Beispielen ist hier zu finden [Link einfügen] 
 
-### Ergebnisse 
+### Ergebnisse {#ergebnisse}
 
 #### FF 1: Inwieweit wird in den untersuchten Communities OER-bezogen gearbeitet?
 
@@ -402,7 +412,7 @@ flowchart TD
 *Abbildung 5: Vier Dimensionen der OER-Qualität*
  
 
-### Die FOERBICO-Handreichung – Entstehung & Zielsetzung
+### Die FOERBICO-Handreichung – Entstehung & Zielsetzung {#entstehung}
 Die Qualitätskriterien entstanden in einem mehrstufigen, iterativen Prozess:
 - Analyse bestehender Qualitätssicherungsmodelle in OER-Communities  
   Hierbei waren wichtige Ergebnisse aus verschiedenen Interviews relevant. Beispielsweise hat RELImentar einen eigenen [Kriterienkatalog](https://relimentar.de/qualitaetskriterien-2025/). 
@@ -418,7 +428,7 @@ Und dass wir die Qualitätskriterien als etwas erstellen, das nicht starr und un
 - Konkrete Qualitätsberatungen und Erprobung im Rahmen laufender Projekte, u. a. in den Projekten [TiRU – Tablets im Religionsunterricht](https://oer.community/digitale-offenheit-braucht-tiefe/) sowie [M@ps](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/) der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt.  
   Kontinuierliche Überarbeitung der Qualitätskriterien in Zusammenarbeit mit den Communities. Dies ist für unser Projekt das weitere Vorgehen, damit die Qualitätskriterien als Grundlage für OER dienen könne
 
-### Beispiel der [Checkliste](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/_edit/main/qualitaetskriterien/handreichung-qualitaetskriterien.md):
+### Beispiel aus der [Checkliste](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/_edit/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) {#checkliste}:
 4.3 Lerngegenstand
 
 ```mermaid
@@ -453,16 +463,16 @@ Die Handreichung versteht Qualität nicht als starres Prüfschema, sondern als r
 ## Teilnehmende Beobachtung {#beobachtung}
 Wie bereits erwähnt, gibt es verschiedene Arten von Community-Treffen. Im weiteren Verlauf von 2025 wurden verschiedene Treffen von FOERBICO-Mitarbeiter:innen besucht und teilnehmend beobachtet. Dabei stehen die Auswertung der Treffen von relilab, RELImentar und reliGlobal im Vordergrund. Die narrt-Cafés wurden ebenfalls besucht, aber da es sich hier um teilweise sensible Inhalte handelt und diese Besuche neben den Interviews keine neuen Erkenntnisse gewinnen konnten, stützen sich die hier dargestellten Ausführungen primär auf die geführten Interviews. Das Netzwerk narrt bietet in einem vier- bis sechswöchigen Rhythmus offene Treffen in Form der sogenannten "narrt Cafés" an (vgl. Interview\_05, Pos. 29). Die narrt-Cafés werden von den Beteiligten als "offener Denkraum" (ebd.) bezeichnet, in dem über verschiedene Aspekte und aktuelle Entwicklungen zu den Themen Antisemitismus und Rassismus gesprochen wird (ebd.). 
 
-### relilab
+### relilab {#relilab}
 Die Interviews zeigen auf, dass das relilab sich stark auf Online-Fortbildungen konzentriert (vgl. Interview\_06, Pos. 21; Interview\_01, Pos. 7; Interview\_08, Pos. 6). Diese unterscheiden sich inhaltlich und didaktisch, sind aber alle offen zugänglich und haben meist eine Dauer von 60 Minuten (Interview\_07, Pos. 39). Ziel dieser Fortbildungen ist es, aktuelles Unterrichtsmaterial kollaborativ zu erarbeiten, vorzustellen und unmittelbar zur Weiterverwendung bereitzustellen (vgl. Interview\_01, Pos. 36; Interview\_08, Pos. 34). Es muss aber dazu gesagt werden, dass das relilab seinen Zoom-Raum weiteren Online-Fortbildungsanbietern zur Verfügung stellt; deswegen lassen sich auch Fortbildungen im Terminkalender finden, die eine Anmeldung vorsehen. Diese sind explizit ausgeschrieben. Die besuchten Fortbildungen unterschieden sich thematisch sowie in ihrer Umsetzung. Von unterrichtspraktischen Fortbildungen bis hin zu Vorträgen war alles zu finden. 
 
-### RELImentar
+### RELImentar {#relimentar}
 RELImentar bietet auch ein Café an, das eher als "kleine Online-Werkstatt" (Interview\_03, Pos. 14) verstanden werden kann. Innerhalb dieser Werkstatt wird gemeinsam mit den Teilnehmer:innen konkret an Materialien gearbeitet (vgl. ebd.). Die Cafés dauerten in der Regel 90 Minuten. In den besuchten Cafés wurde in Breakout-Sessions an konkretem Material aus dem eigenen Materialpool gearbeitet. Hierbei konnte das gemeinsame Denken und Konzeptionieren von OER als didaktisches Prinzip verstanden werden.
 
-### reliGlobal
+### reliGlobal {#religlobal}
 Das besuchte reliGlobal-Community-Treffen war geprägt von Impulsvorträgen.
 
-### Erste Erkenntnisse
+### Erste Erkenntnisse {#erkenntnisse}
 Online-Fortbildungen bieten viele Möglichkeiten, haben jedoch ihre Grenzen. Sie bieten durch ihren niederschwelligen Zugang sowie ihre zeitliche Kürze von 60–90 Minuten die Möglichkeit, dass Praktiker:innen teilnehmen, ohne einen Tag an der Schule bzw. der Kita aufzugeben. In diesen Formaten können Praxismaterialien durchgesprochen werden, sodass diese am Folgetag sofort angewendet werden. Dies wurde auch von einer interviewten Person als ein Anspruch für die eigenen Fortbildungen angegeben.
 > Drittens, es sollte ein Output haben, den man möglichst am nächsten Tag direkt mit im Unterricht sein muss. Warum sollte ich meinen Kollegen Zeit stehlen, wenn ich die einfach zuschwalle mit irgendwas, was sie nicht brauchen und es nicht anmelden können? Und ich habe tatsächlich aus den Fortbildungen, die wir haben, habe ich auch teilweise abends dann die Rückmeldung, geil, ich habe das jetzt vorbereitet, ich kann das direkt morgen mit meinen Schülern machen. Aber wenn das nicht der Fall ist, dann weiß ich, ich habe scheiß Arbeit gemacht  (Interview\_08, Pos. 36). 
 
