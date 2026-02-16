@@ -44,7 +44,7 @@ timeline
          : Qualitative Inhaltsanalyse nach Kuckartz
          : Grundlage für die Entwicklung der Qualitätskriterien
 ```
-*Abbildung 4: Verlauf Juli-Dezember 2024*
+*Abbildung 1: Verlauf Juli-Dezember 2024*
 
 ```mermaid
 timeline
