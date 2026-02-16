@@ -1,7 +1,5 @@
-# Begleitforschung
-
 # Inhaltsverzeichnis
-1. [Begleitforschung](#begleitforschung)
+1. [Begleitforschungsmappe](#begleitforschung)
 2. [OER und OEP](#oerundoep)
 3. [Timeline](#timeline)
 4. [Literaturbericht](#literaturbericht)
@@ -9,6 +7,7 @@
 6. [Qualitätskriterien](#qualitätskriterien)
 7. [Teilnehmende Beobachtung](#beobachtung)
 
+# Begleitforschungsmappe {#begleitforschung}
 
 Dieses Dokument zeigt den bisherigen Projektverlauf des FOERBICO-Projekts. Vorgestellt werden der Verlauf der Begleitforschung sowie die Zusammenfassung der wichtigsten Ergebnisse, die auf der Zwischenfazit-Tagung besprochen werden. Es ist noch nicht vollständig und befindet sich im Arbeitsprozess. 
 
