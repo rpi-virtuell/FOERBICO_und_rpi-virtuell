@@ -24,14 +24,14 @@ Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstell
 
 | Uhrzeit | Programmpunkt                                                                             | Referent:innen / Hinweise |
 | :-----: | ----------------------------------------------------------------------------------------- | ------------------------- |
-|  13:30  | **Begrüßung**                                                                             | –                         |
-|  14:00  | **Zwischenergebnisse aus FOERBICO – ein Überblick**                                       | –                         |
+|  13:30  | **Begrüßung**                                                                             | hybrid                        |
+|  14:00  | **Zwischenergebnisse aus FOERBICO – ein Überblick**                                       | hybrid                         |
 |         | • Zentrale Einsichten aus dem Forschungsstand                                             |                           |
 |         | • Ergebnisse aus den Interviews der Begleitforschung                                      |                           |
 |         | • Aktueller Stand der OER-Communities und ihrer Vernetzungen (Community-Hub)              |                           |
 |         | • Aktueller Stand der Entwicklung von Qualitätskriterien                                  |                           |
 |  15:30  | ☕ **Kaffee-Pause**                                                                        | –                         |
-|  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                           | Prof. Dr. Daniel Otto     |
+|  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                           | Prof. Dr. Daniel Otto, hybrid    |
 |  17:15  | 🧭 **Wegfindungs-Pause**                                                                  | –                         |
 |  17:30  | **Thematische Workshops**                                                                 | –                         |
 |         | • Community Hub                                                                           |                           |
@@ -51,7 +51,7 @@ Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstell
 |         | • reliGlobal                                      |                                                                                                                                        |
 |         | • RELImentar                                      |                                                                                                                                        |
 |  10:45  | ☕ **Kaffee-Pause**                                | –                                                                                                                                      |
-|  11:45  | **Critical Friends (Kommentierungen und Podium)** | Dr. Susanne Friz, Dr. Alexandra Habicher, Prof. Dr. Ilona Nord, Prof. Dr. Franco Rau - **Moderation:** Prof. Dr. Manfred Pirner |
+|  11:45  | **Critical Friends (Kommentierungen und Podium)** | **Critical Friends:** Dr. Susanne Friz, Dr. Alexandra Habicher, Prof. Dr. Ilona Nord, Prof. Dr. Franco Rau - **Moderation:** Prof. Dr. Manfred Pirner, hybrid |
 |  12:45  | **Ende der Tagung**                               | –                                                                                                                                      |
                                                                                                                              |
 
