@@ -12,8 +12,7 @@ creator:
     familyName: Behr
     type: Person
     affiliation:
-      name: Comenius-Institut
-      id: https://ror.org/025e8aw85
+      name: Pädagogisches Instituts der Ev. Kirche von Westfalen
       type: Organization
   - givenName: Phillip
     familyName: Angelina
@@ -37,10 +36,10 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-01-28'
+datePublished: '2026-02-18'
 #staticSiteGenerator
 author:
-  - Simone Wustrack
+  - Frak Behr
   - Phillip Angelina
 title: 'Interview reliGlobal'
 cover:
@@ -98,6 +97,6 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](https://oer.community/interview-relimentar/anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de.
