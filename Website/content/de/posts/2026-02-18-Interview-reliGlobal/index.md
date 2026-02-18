@@ -14,7 +14,7 @@ creator:
     affiliation:
       name: Pädagogisches Instituts der Ev. Kirche von Westfalen
       type: Organization
-    - givenName: Jens
+  - givenName: Jens
     familyName: Palkowitsch-Kühl
     type: Person
     affiliation:
