@@ -14,6 +14,12 @@ creator:
     affiliation:
       name: Pädagogisches Instituts der Ev. Kirche von Westfalen
       type: Organization
+    - givenName: Jens
+    familyName: Palkowitsch-Kühl
+    type: Person
+    affiliation:
+      name: Julius-Maximilians-Universität Würzburg
+      type: Organization
   - givenName: Phillip
     familyName: Angelina
     id: https://orcid.org/0000-0002-6905-5523
