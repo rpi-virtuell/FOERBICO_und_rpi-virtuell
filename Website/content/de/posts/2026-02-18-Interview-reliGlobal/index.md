@@ -68,24 +68,28 @@ Globales Lernen ermöglicht es Schüler:innen, sich die Komplexität der globale
 
 Gefördert wird das Projekt für drei Jahre von [Brot für die Welt](https://www.brot-fuer-die-welt.de/). 
 
-reliGlobal wird nicht nur im Rahmen der [Zwischenfazit-Tagung](www.evrel.phil.fau.de/foerbico-tagung-2026/) am 24. und 25. Februar 2026 in Nürnberg vorgestellt, sondern stellt sich selber in diesem Interview vor. Am zweiten Tagungstag wird es einen Workshop zu reliGlobal geben. Zur Einstimmung auf den Workshop konnten wir mit Frank Behr vorher sprechen.
+reliGlobal wird nicht nur im Rahmen der [Zwischenfazit-Tagung](www.evrel.phil.fau.de/foerbico-tagung-2026/) am 24. und 25. Februar 2026 in Nürnberg vorgestellt, sondern stellt sich selber in diesem Interview vor. Am zweiten Tagungstag wird es einen Workshop zu reliGlobal geben. Zur Einstimmung auf den Workshop konnten wir mit Frank Behr und Dr. Jens Palkowitsch-Kühl vorher sprechen.
 
 ## Interview
 1. Frage: Was genau ist reliGlobal?
 
- reliGlobal ist ein kollaborativ arbeitendes Projekt, um Fragestellungen des Globalen Lernens im (ev.) Religionsunterricht zu implementieren.
+reliGlobal ist eine Fachstelle der ALPIKA (Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter), die seit September 2023 Globales Lernen im (ev.) Religionsunterricht verankert. Das kollaborativ arbeitende Projekt entwickelt OER-Materialien (Open Educational Resources) und Fortbildungen für alle Jahrgangsstufen, angepasst an die unterschiedlichen Kernlehrpläne der Bundesländer.
 
 2. Frage: Was macht reliGlobal für dich besonders?
 
-reliGlobal hat aufgrund der Zusammensetzung des Teams, bestehend aus Mitarbeitenden von religionspädagogischen Instituten verschiedener Bundesländer, die jeweiligen in diesen bestehenden unterschiedlichen Lehr- und Lernvoraussetzungen bei der Entwicklung von Unterrichtsmaterialien im Blick. Außerdem entstehen Unterrichtsmaterialien für alle Jahrgangsstufen des deutschen Schulsystems. OER und OEP gehören zu den Zielvorgaben des Projektes.
+Jens: reliGlobal zeichnet sich durch ein muliperspektivisches Team aus fünf Mitarbeitenden an fünf ALPIKA-Instituten aus, das digital und länderübergreifend arbeitet – via Videokonferenzen, NextCloud und WordPress. Die Materialien sind offen lizenzierbar, editierbar (z. B. als Word-Dateien oder H5P-Elemente) und basieren auf Quellen wie Brot für die Welt, um Perspektiven aus dem Globalen Süden einzubeziehen. Dadurch wird Globales Lernen nicht als Extra, sondern als integraler Bestandteil des regulären Curriculums etabliert, mit Fokus auf Themen wie Nachhaltigkeit, Gerechtigkeit und SDGs.
+
+Frank: reliGlobal hat aufgrund der Zusammensetzung des Teams, bestehend aus Mitarbeitenden von religionspädagogischen Instituten verschiedener Bundesländer, die jeweiligen in diesen bestehenden unterschiedlichen Lehr- und Lernvoraussetzungen bei der Entwicklung von Unterrichtsmaterialien im Blick. Außerdem entstehen Unterrichtsmaterialien für alle Jahrgangsstufen des deutschen Schulsystems. OER und OEP gehören zu den Zielvorgaben des Projektes.
 
 3. Frage: Auf eurer Website steht das reliGlobal - "das Ziel verfolgt, Globales Lernen im Religionsunterricht zu verankern". Kannst du mir konkret anhand eines Beispiels erklären, wie das aussehen könnte?
 
-Die Verankerung des Globalen Lernens im ev. RU wird dadurch angebahnt, dass konsequent Erfahrungen und Sichtweisen von Menschen aus dem Globalen Süden im konkreten, möglichst handlungsorientierten (ev.) RU in den Blick genommen werden. Globales Lernen wird nicht als Additum, sondern als wesentlicher Aspekt innerhalb des ganz normalen Curriculums, bzw. des alltäglichen Unterrichtsgeschehens verstanden und addressiert.
+Frank: Die Verankerung des Globalen Lernens im ev. Religionsunterricht wird dadurch angebahnt, dass konsequent Erfahrungen und Sichtweisen von Menschen aus dem Globalen Süden im konkreten, möglichst handlungsorientierten (ev.) RU in den Blick genommen werden. Globales Lernen wird nicht als Additum, sondern als wesentlicher Aspekt innerhalb des ganz normalen Curriculums, bzw. des alltäglichen Unterrichtsgeschehens verstanden und addressiert.
+
+Jens: In einer Unterrichtsstunde zur Nahrungsmittelknappheit können Schüler:innen Videos und Texte von Menschen aus dem Globalen Süden analysieren, biblische Texte wie die Speisung zu reflektieren und handlungsorientiert Lösungen zu SDGs diskutieren – mit editierbaren OER-Blättern für Gruppenarbeiten.
 
 4. Frage: Was können wir von euch auf der Zwischenfazit-Tagung erwarten?
 
-Das Team der Fachstelle reliGlobal freut sich darauf, reliGlobal vorstellen zu dürfen! Bei unserem Beitrag geht es um Distribution & Nachhaltigkeit von Bildungsmedien.
+Besonders innovativ ist der Community-Ansatz: reliGlobal bietet bis 2026 Beratungen, Fachtagungen (lokal/virtuell) und eine offene Plattform für Lehrkräfte zum Austausch, Download und Vernetzung an.
 
 ## Mit OER zu einer Kultur des Teilens
 
