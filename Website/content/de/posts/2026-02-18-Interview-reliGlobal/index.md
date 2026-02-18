@@ -81,7 +81,7 @@ Jens: reliGlobal zeichnet sich durch ein muliperspektivisches Team aus fünf Mit
 
 Frank: reliGlobal hat aufgrund der Zusammensetzung des Teams, bestehend aus Mitarbeitenden von religionspädagogischen Instituten verschiedener Bundesländer, die jeweiligen in diesen bestehenden unterschiedlichen Lehr- und Lernvoraussetzungen bei der Entwicklung von Unterrichtsmaterialien im Blick. Außerdem entstehen Unterrichtsmaterialien für alle Jahrgangsstufen des deutschen Schulsystems. OER und OEP gehören zu den Zielvorgaben des Projektes.
 
-3. Frage: Auf eurer Website steht das reliGlobal - "das Ziel verfolgt, Globales Lernen im Religionsunterricht zu verankern". Kannst du mir konkret anhand eines Beispiels erklären, wie das aussehen könnte?
+3. Frage: Auf eurer Website steht, dass reliGlobal - "das Ziel verfolgt, Globales Lernen im Religionsunterricht zu verankern". Kannst du mir konkret anhand eines Beispiels erklären, wie das aussehen könnte?
 
 Frank: Die Verankerung des Globalen Lernens im ev. Religionsunterricht wird dadurch angebahnt, dass konsequent Erfahrungen und Sichtweisen von Menschen aus dem Globalen Süden im konkreten, möglichst handlungsorientierten (ev.) RU in den Blick genommen werden. Globales Lernen wird nicht als Additum, sondern als wesentlicher Aspekt innerhalb des ganz normalen Curriculums, bzw. des alltäglichen Unterrichtsgeschehens verstanden und addressiert.
 
