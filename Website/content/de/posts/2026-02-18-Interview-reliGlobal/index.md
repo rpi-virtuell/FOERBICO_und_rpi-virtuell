@@ -31,7 +31,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://religlobal.org/wp-content/uploads/2024/01/Logo_reliGlobal-pnghq-ohne-bg-1536x1536.png
+image: https://oer.community/interview-reliGlobal/Titelbild-reliGlobal.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -45,7 +45,7 @@ title: 'Interview reliGlobal'
 cover:
   relative: true
   hiddenInSingle: true
-  image: https://religlobal.org/wp-content/uploads/2024/01/Logo_reliGlobal-pnghq-ohne-bg-1536x1536.png
+  image: Titelbild-reliGlobal.png
 summary: |
   In der Vorbereitung auf die Zwischenfazit-Tagung haben wir vom FOERBICO-Team Frank Behr aus dem reliGlobal-Team interviewt und stellen euch das Projekt vor.
 url: interview-reliGlobal
