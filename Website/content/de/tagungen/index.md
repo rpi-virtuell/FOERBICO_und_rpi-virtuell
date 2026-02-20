@@ -29,7 +29,7 @@ Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstell
 |         | • Zentrale Einsichten aus dem Forschungsstand                                             |                           |
 |         | • Ergebnisse aus den Interviews der Begleitforschung                                      |                           |
 |         | • Aktueller Stand der Entwicklung von Qualitätskriterien.                                 |                           |
-|         | • Aktueller Stand der OER-Communities und ihrer Vernetzunngen(Community-                  |
+|         | • Aktueller Stand der OER-Communities und ihrer Vernetzunngen (Community-Hub)             |
 |  15:30  | ☕ **Kaffee-Pause**                                                                        | –                         |
 |  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                           | Prof. Dr. Daniel Otto, hybrid    |
 |  17:15  | 🧭 **Wegfindungs-Pause**                                                                  | –                         |
