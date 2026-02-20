@@ -28,8 +28,8 @@ Am 24. und 25. Februar 2026 möchten wir in Nürnberg unsere Ergebnisse vorstell
 |  14:00  | **Zwischenergebnisse aus FOERBICO – ein Überblick**                                       | hybrid                         |
 |         | • Zentrale Einsichten aus dem Forschungsstand                                             |                           |
 |         | • Ergebnisse aus den Interviews der Begleitforschung                                      |                           |
-|         | • Aktueller Stand der OER-Communities und ihrer Vernetzungen (Community-Hub)              |                           |
-|         | • Aktueller Stand der Entwicklung von Qualitätskriterien                                  |                           |
+|         | • Aktueller Stand der Entwicklung von Qualitätskriterien.                                 |                           |
+|         | • Aktueller Stand der OER-Communities und ihrer Vernetzunngen(Community-                  |
 |  15:30  | ☕ **Kaffee-Pause**                                                                        | –                         |
 |  16:00  | **Aktuelle Herausforderungen und Perspektiven für OER und OEP**                           | Prof. Dr. Daniel Otto, hybrid    |
 |  17:15  | 🧭 **Wegfindungs-Pause**                                                                  | –                         |
