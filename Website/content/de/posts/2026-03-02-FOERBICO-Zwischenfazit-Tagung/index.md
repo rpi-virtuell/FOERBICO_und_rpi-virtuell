@@ -1,1 +1,102 @@
 # Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt
+
+Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fragen offen: Wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt.
+
+## Begrüßung & Vorstellung der Zwischenergebnisse aus FOERBICO
+
+![](Grusswort-Reuter.jpg)
+
+"Zitat Detlev Reuter" - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. 
+
+Bild Manfred & Viera?
+
+Zu Beginn führten Manfred Pirner (Prof. am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts der FAU Erlangen-Nürnberg) und Viera Pirker (Prof. für für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt) in den Forschungsstand zu Open Educational Resources (OER) und Open Educational Practices (OEP) ein und teilten zentrale Einsichten aus ihrem [systematischen Literaturbericht im religionspädagogischen Horizont](https://oer.community/oer-oep-literaturbericht/). Ihr Fazit: 
+
+![](Begleitforschung.jpg)
+
+Seit August 2024 erforscht das FOERBICO-Team OER-Communities im religionsbezogenen Bildungsbereich, insbesondere ihre Strukturen, Dynamiken und Formen der Zusammenarbeit. Auf der Tagung präsentierte Phillip Angelina (wiss. Mitarbeiter an der FAU Erlangen-Nürnberg) die Ergebnisse aus Interviewbefragungen mit verschiedenen religionsbezogenen Communities. Grundlegend konstatiert er, dass Open Educational Resources bekannt sind, die Erstellung allerdings insbesondere aufgrund rechtlicher Hürden und fehlender zeitlicher Ressourcen für die Communities oft herausfordernd ist. Open Educational Practices ist als Begriff hingegen weniger geläufig, obwohl alle Communities offene Bildungspraktiken umsetzen.
+
+Foto Laura
+
+Im Anschluss daran stellte Laura Mößle (wiss. Mitarbeiterin der Goethe-Universität) die im Rahmen eines iterativen Prozesses entwickelten [Qualitätskriterien](https://oer.community/qualitaet/) insbesondere mit religionspädagogischem Schwerpunkt vor. Die Qualitätskriterien sollen Orientierung und Unterstützung bieten und zur Selbstreflexion anregen. Sie kommen bereits in Beratungsprozessen, Forschungsprojekten und in der praktischen OER-Materialerstellung bereits zum Einsatz und werden auf Basis der Rückmeldungen stetig weiterentwickelt.
+
+Foto CI?
+
+Abschließend veranschaulichte das Team des Comenius-Institutes die ersten Schritte auf dem Weg zum Community-Hub als Kommunikations- und Kollaborationsumgebung im Sinne einer Community of Communities. Dabei wurden verschiedene "Schmerzpunkte" der Communities aufgegriffen, doch anstatt mit Behelfslösungen "Pflaster" darauf zu kleben, soll nun mit einer dezentralen, kompatiblen und offenen Dateninfrastrukturlösung zu einem nachhaltigen OER-Ökosystem und damit zur "Heilung" beigetragen werden.
+
+Die Begrüßung zum Nachschauen im Stream 📹👉 LINK
+
+Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren, die Folien sind frei verfügbar: Community Hub (LINK ZU FOLIEN), Qualitätskriterien (LINK ZU FOLIEN) & Community of Praxis (LINK ZU FOLIEN)
+
+## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
+
+Foto Daniel Otto
+
+Einblicke aus Forschung
+Rolle von KI
+...
+
+Die Keynote zum Nachschauen im Stream 📹👉 LINK
+
+## Community-Workshops mit relilab, reliGlobal & RELImentar
+
+### relilab - Gemeinsam religionsbezogene Bildung ermöglichen
+
+[relilab](https://relilab.org/) 	Corinna Ullmann & Olav Richter text text
+
+Folien-Link einfügen
+    
+### reliGlobal - Fachstelle für Globales Lernen im Religionsunterricht
+
+![](reliGlobal.jpg)
+
+[reliGlobal](https://religlobal.org/) -	Dr. Jens Palkowitsch-Kühl: Text, text text
+
+Folien-Link einfügen
+    
+### RELImentar - religionspädagogisches Portal für den Elementarbereich
+
+![](RELImentar.jpg)
+
+[RELImentar](https://relimentar.de/) - Simone Wustrack und Frank Ritthaler text text text
+
+Folien-Link einfügen
+
+## Podiumsdiskussion mit Critical Friends
+
+![](Critical Friends.jpg)
+
+Moderiert von Manfred Pirner 
+
+Critical Friends: 
+
+*Dr. Susanne Friz (FWU Institut für Film & Bild in Wissenschaft & Unterricht):* 
+
+*Dr. Alexandra Habicher (Koordinatorin des Projektverbunds digiLL):*
+
+*Prof. Dr. Ilona Nord (Religionspädagogik, Uni Würzburg): *
+
+*Prof. Dr. Franco Rau (Lehrstuhl für Schulpädagogik mit dem Schwerpunkt Digitalisierung im Unterricht an der FAU):*
+
+Die Podiumsdiskussion zum Nachschauen im Stream 📹👉 LINK
+
+## Fazit
+
+Mit OER zu einer Kultur des Teilens - unter diesem Motto haben wir nicht nur unsere bisherigen Erkenntnisse und Schritte aus dem FOERBICO-Projekt mit euch geteilt, sondern zusammen mit den Teilnehmenden auch gegenseitig Einblicke in die Community-Arbeit gegeben und somit quasi Open Educational Practices und Vernetzung auf der Tagung gelebt! Was uns besonders gefreut hat: Die Verknüpfung von Wissenschaft und Praxis sowie der Blick über den eigenen (religionsbezogenen) Tellerrand hinaus - Forschung erhielt wichtige Erfahrungsberichte aus der gelebten Communityarbeit und die Communities erhielten spannende Forschungseinblicke. 
+
+Wir hoffen alle konnten etwas mitnehmen :-)
+
+
+Foto hOERz
+
+Lecker Essen, Tierluftballons und OER-Wortspiele durften natürlich auch nicht fehlen 😋
+
+Foto Paula & Florian
+
+Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und natürlich auch nochmal bei unseren fleißigen Hilfskräften, ohne die wir das alles nicht gestemmt bekommen hätten 🙏
+
+![](Hilfskraefte.jpg)
+
+Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer Abschlusstagung (LINK Anmeldung/Infoseite?) wieder zu begrüßen! 
+
+Foto FOERBICO-Team
