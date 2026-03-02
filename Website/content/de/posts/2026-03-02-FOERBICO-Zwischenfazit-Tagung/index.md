@@ -8,7 +8,7 @@ Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fra
 
 "Zitat Detlev Reuter" - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. 
 
-Bild Manfred & Viera?
+![](Forschungsstand.JPG)
 
 Zu Beginn führten Manfred Pirner (Prof. am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts der FAU Erlangen-Nürnberg) und Viera Pirker (Prof. für für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt) in den Forschungsstand zu Open Educational Resources (OER) und Open Educational Practices (OEP) ein und teilten zentrale Einsichten aus ihrem [systematischen Literaturbericht im religionspädagogischen Horizont](https://oer.community/oer-oep-literaturbericht/). Ihr Fazit: 
 
@@ -16,7 +16,7 @@ Zu Beginn führten Manfred Pirner (Prof. am Lehrstuhl für Religionspädagogik u
 
 Seit August 2024 erforscht das FOERBICO-Team OER-Communities im religionsbezogenen Bildungsbereich, insbesondere ihre Strukturen, Dynamiken und Formen der Zusammenarbeit. Auf der Tagung präsentierte Phillip Angelina (wiss. Mitarbeiter an der FAU Erlangen-Nürnberg) die Ergebnisse aus Interviewbefragungen mit verschiedenen religionsbezogenen Communities. Grundlegend konstatiert er, dass Open Educational Resources bekannt sind, die Erstellung allerdings insbesondere aufgrund rechtlicher Hürden und fehlender zeitlicher Ressourcen für die Communities oft herausfordernd ist. Open Educational Practices ist als Begriff hingegen weniger geläufig, obwohl alle Communities offene Bildungspraktiken umsetzen.
 
-Foto Laura
+![](Qualitaet.jpg)
 
 Im Anschluss daran stellte Laura Mößle (wiss. Mitarbeiterin der Goethe-Universität) die im Rahmen eines iterativen Prozesses entwickelten [Qualitätskriterien](https://oer.community/qualitaet/) insbesondere mit religionspädagogischem Schwerpunkt vor. Die Qualitätskriterien sollen Orientierung und Unterstützung bieten und zur Selbstreflexion anregen. Sie kommen bereits in Beratungsprozessen, Forschungsprojekten und in der praktischen OER-Materialerstellung bereits zum Einsatz und werden auf Basis der Rückmeldungen stetig weiterentwickelt.
 
@@ -30,7 +30,7 @@ Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren,
 
 ## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
 
-Foto Daniel Otto
+![](Keynote.JPG)
 
 Einblicke aus Forschung
 Rolle von KI
@@ -86,12 +86,11 @@ Mit OER zu einer Kultur des Teilens - unter diesem Motto haben wir nicht nur uns
 
 Wir hoffen alle konnten etwas mitnehmen :-)
 
-
-Foto hOERz
+![](hoerz.JPG)
 
 Lecker Essen, Tierluftballons und OER-Wortspiele durften natürlich auch nicht fehlen 😋
 
-Foto Paula & Florian
+![](Essen.JPG)
 
 Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und natürlich auch nochmal bei unseren fleißigen Hilfskräften, ohne die wir das alles nicht gestemmt bekommen hätten 🙏
 
@@ -99,4 +98,4 @@ Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und 
 
 Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer Abschlusstagung (LINK Anmeldung/Infoseite?) wieder zu begrüßen! 
 
-Foto FOERBICO-Team
+![](Team.JPG)
