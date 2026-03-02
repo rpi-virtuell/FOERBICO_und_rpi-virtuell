@@ -6,11 +6,11 @@ Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fra
 
 ![](Grusswort-Reuter.jpg)
 
-"Zitat Detlev Reuter" - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. 
+"Zitat Detlef Reuter" - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. 
 
 ![](Forschungsstand.JPG)
 
-Zu Beginn führten Manfred Pirner (Prof. am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts der FAU Erlangen-Nürnberg) und Viera Pirker (Prof. für für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt) in den Forschungsstand zu Open Educational Resources (OER) und Open Educational Practices (OEP) ein und teilten zentrale Einsichten aus ihrem [systematischen Literaturbericht im religionspädagogischen Horizont](https://oer.community/oer-oep-literaturbericht/). Ihr Fazit: 
+Zu Beginn führten Manfred Pirner (Prof. am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts der FAU Erlangen-Nürnberg) und Viera Pirker (Prof. für für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt) in den Forschungsstand zu Open Educational Resources (OER) und Open Educational Practices (OEP) ein und teilten zentrale Einsichten aus ihrem [systematischen Literaturbericht im religionspädagogischen Horizont](https://oer.community/oer-oep-literaturbericht/). Ihr Fazit: Open Educational Resources und Open Educational Practices gewinnen in Deutschland zunehmend an Bedeutung und weisen großes Potenzial für eine partizipationsorientierte, digitale, pädagogische wie theologisch verantwortete religionspädagogische Bildungslandschaft auf. Dennoch herrscht ein Forschungsdefizit für die Nutzung von OER und die Praxis von OEP in religionspädagogischen Kontexten.  
 
 ![](Begleitforschung.jpg)
 
@@ -40,6 +40,8 @@ Die Keynote zum Nachschauen im Stream 📹👉 LINK
 
 ## Community-Workshops mit relilab, reliGlobal & RELImentar
 
+In verschiedenen Community-Workshops konnten die Teilnehmenden die Communities kennenlernen und sich gemeinsam über Community-Arbeit austauschen sowie Herausforderungen und Möglichkeiten - insbesondere mit Fokus auf OER und OEP - diskutieren.
+
 ### relilab - Gemeinsam religionsbezogene Bildung ermöglichen
 
 [relilab](https://relilab.org/) 	Corinna Ullmann & Olav Richter text text
@@ -58,7 +60,7 @@ Folien-Link einfügen
 
 ![](RELImentar.jpg)
 
-[RELImentar](https://relimentar.de/) - Simone Wustrack und Frank Ritthaler text text text
+[RELImentar](https://relimentar.de/) ist eine digitale Plattform und ein fachliches Netzwerk für religionsbezogene Bildung in früher Kindheit und Familie. Sie stellt qualitätsgeprüfte Praxisideen und Materialien bereit, die auf einer theologisch reflektierten und wissenschaftlich fundierten Grundlage beruhen. Simone Wustrack (Mitarbeiterin des Comenius-Institutes) und Frank Ritthaler (Dozent für Religionspädagogik im Elementarbereich beim PTZ Stuttgart) stellten das Netzwerk vor: vom Entstehungskonzept, über den Aufbau von Fortbildungsformaten und Community-Building bis hin zur (Weiter-)Entwicklung der [Qualitätsmerkmale](https://relimentar.de/qualitaetskriterien-2025/) für den religionspädagogischen Elementarbereich vor.
 
 Folien-Link einfügen
 
