@@ -45,7 +45,6 @@ tags:
   - OEP
   - OER-Community
   - Community Forschung
-weight: 100
 ---
 
 
