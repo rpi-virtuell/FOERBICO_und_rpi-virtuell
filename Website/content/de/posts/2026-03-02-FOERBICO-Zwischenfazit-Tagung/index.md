@@ -1,0 +1,1 @@
+# Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt
