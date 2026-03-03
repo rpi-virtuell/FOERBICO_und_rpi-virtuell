@@ -44,7 +44,7 @@ In verschiedenen Community-Workshops konnten die Teilnehmenden die Communities k
 
 ### relilab - Gemeinsam religionsbezogene Bildung ermöglichen
 
-[relilab](https://relilab.org/) 	Corinna Ullmann & Olav Richter text text
+[relilab](https://relilab.org/) ist kein klassisches Projekt, mit festen Laufzeiten. Es ist eine Community mit einer heterarchischen Netzwerkstruktur und besteht aus Einzelpersonen, Teams und Institutionen, die sich flexibel einbringen können - je nach Talenten und Interessen. relilab verbindet Akteur:innen über Konfessionen, Institutionen und Ländergrenzen hinweg, schafft Austauschräume und regt Kooperation an - offen für Lehrkräfte, Fortbildende, Studierende, Forschende und Praktizierende. Corinna Ullmann (Mitarbeiterin vom Comenius-Institut) und Olav Richter (Studienleiter Medienpädagogik der Ev. Landeskirche in Baden) diskutierten gemeinsam mit den Teilnehmenden, wie Communityarbeit in einem fluiden Netzwerk gelingen kann und wie man Communities mit offenen Fortbildungsangeboten stärken kann.
 
 Folien-Link einfügen
     
@@ -52,7 +52,7 @@ Folien-Link einfügen
 
 ![](reliGlobal.jpg)
 
-[reliGlobal](https://religlobal.org/) -	Dr. Jens Palkowitsch-Kühl: Text, text text
+[reliGlobal](https://religlobal.org/) ist eine gemeinsame Fachstelle der ALPIKA (Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter) mit dem Ziel, Globales Lernen nachhaltig im evangelischen Religionsunterricht zu verankern. Das Projekt wird seit September 2023 vom Comenius-Institut und weiteren pädagogisch-theologischen Instituten getragen und von Brot für die Welt gefördert. Jens Palkowitsch-Kühl brachte den Teilnehmenden insbesondere die Arbeitsweise in Sprint-Teams und den didaktischen Dreischritt bestehend aus Erkennen, Begreifen und Handeln näher.
 
 Folien-Link einfügen
     
@@ -60,7 +60,7 @@ Folien-Link einfügen
 
 ![](RELImentar.jpg)
 
-[RELImentar](https://relimentar.de/) ist eine digitale Plattform und ein fachliches Netzwerk für religionsbezogene Bildung in früher Kindheit und Familie. Sie stellt qualitätsgeprüfte Praxisideen und Materialien bereit, die auf einer theologisch reflektierten und wissenschaftlich fundierten Grundlage beruhen. Simone Wustrack (Mitarbeiterin des Comenius-Institutes) und Frank Ritthaler (Dozent für Religionspädagogik im Elementarbereich beim PTZ Stuttgart) stellten das Netzwerk vor: vom Entstehungskonzept, über den Aufbau von Fortbildungsformaten und Community-Building bis hin zur (Weiter-)Entwicklung der [Qualitätsmerkmale](https://relimentar.de/qualitaetskriterien-2025/) für den religionspädagogischen Elementarbereich vor.
+[RELImentar](https://relimentar.de/) ist eine digitale Plattform und ein fachliches Netzwerk für religionsbezogene Bildung in früher Kindheit und Familie. Sie stellt qualitätsgeprüfte Praxisideen und Materialien bereit, die auf einer theologisch reflektierten und wissenschaftlich fundierten Grundlage beruhen. Simone Wustrack (Mitarbeiterin des Comenius-Institutes) und Frank Ritthaler (Dozent für Religionspädagogik im Elementarbereich beim PTZ Stuttgart) stellten das Netzwerk vor: vom Entstehungskonzept, über den Aufbau von Fortbildungsformaten und Community-Building bis hin zur (Weiter-)Entwicklung der [Qualitätsmerkmale](https://relimentar.de/qualitaetskriterien-2025/) speziell für den religionspädagogischen Elementarbereich vor.
 
 Folien-Link einfügen
 
