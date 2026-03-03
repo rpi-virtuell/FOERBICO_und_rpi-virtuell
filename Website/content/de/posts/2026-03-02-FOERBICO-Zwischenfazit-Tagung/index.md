@@ -6,7 +6,7 @@ Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fra
 
 ![](Grusswort-Reuter.jpg)
 
-"Zitat Detlef Reuter" - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. 
+"Im OER-Kosmos ist FOERBICO gut vernetzt" - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. In seiner Begrüßung macht Herr Reuter deutlich, dass FOERBICO kreativ, kollaborativ und transparent arbeitet. Dies ist zeigt sich für ihn durch den Aufbau des innovativen Nostr-Protokolls, da hier mit der klassischen Plattformlogik gebrochen wird. Zugleich würde FOERBICO auch mit den Communities zusammenarbeiten und professionelle Lerngemeinschaften bzw. Community of Practices unterstützen und fördern. 
 
 ![](Forschungsstand.JPG)
 
@@ -32,8 +32,22 @@ Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren,
 
 ![](Keynote.JPG)
 
-Einblicke aus Forschung
-Rolle von KI
+### Unterscheidung von OER und OEP
+Daniel Otto begann seine Keynote mit der These, dass OEP und OER sich überlappen, aber es sich dennoch um zwei getrennte Konzepte handle. OER rein von Material her zu bestimmen greife zu kurz, denn die Subjekte und eine Praxis sind immer schon mitgedacht. Es geht um ein Arrangement aus Lizensierung, Standards und Infrastruktur, also die *Fähigkeiten* der Ressource und nicht die Ressource an sich. Dies speißt sich aus der normativen Idee (vgl. [Angelina &Buchwald-Chasée 2025](https://oer.community/interview-daniel-otto/)), dass Bildung als öffentliches Gut zugänglich, anpassbar und teilbar sein sollte. Leider ist die globale Umsetzung empirisch ernüchternd. OER sind somit nicht neutral und es kann Zielkonflikte geben welche nach außen getragen werden. OEP ist dagegen definitorisch und analytisch schwer zu greifen und es fehle an theoretischer Unterfütterung (vgl. [Thompson 2023](https://doi.org/10.2139/ssrn.4595912)). Dies decke sich auch mit den Ergebnissen aus dem Literaturbericht von Pircker und Pirner ([2025](https://oer.community/oer-oep-literaturbericht/)). Daraus schließt Otto, dass OEP ein deskriptiver Begriff sei, welches die Nutzung von OER mit einschließt, aber darüber hinaus geht.
+
+### KI als eine Herausfoderung von OER und OEP
+KI spielt dabei eine Herausforderung für OER, da diese von ihrer Logik her anders aufgebaut ist und funktioniert. Die normative Ideen von OER beispielsweise haben sich in einem Rechtsgerüßt der CC-Lizenzen operationalisiert. OER zeichnet sich durch die transparente Angabe von Quellen und Versionierungen aus und ist dabei nachvollziehbar sowie zitierbar. Demgegenüber ist die Anwendung von generativer KI in Rechtsfragen noch unbestimmt zugleich handelt es sich hierbei um eine Blackbox in der weder der Input noch der Output für Nutzende nachvollziehbar sei. Die KI erzeuge, so Otto, eine *eschatologische Spannung* von jetzt schon und noch nicht, also ein Heilsversprechen das auf die Zukunft vertrößtet. Trotz dessen wird die KI nicht verworfen, sondern Otto entwickelt durch Gurndsätze der OER-enabled Pedagogy ([Wiley & Hilton III 2018](https://doi.org/10.19173/irrodl.v19i4.3601)) einen konstruktiven Umgang. Je offener und deligierbarer Aufgaben sind, desto eher kann KI eine Unterstützung sein. 
+
+![](OER_KI_Matrix.png)
+
+Dies führt für die Hochschullehre zu der Ermöglichung von beitragsorientierten Beteiligung, neben der klassischen prüfungsorientierten Abfrage. Der Fokus wird dabei stärker auf dem Lernprozess gelegt, als auf das Endprodukt. 
+
+### Dark Reuse
+Ein weiteres Problem im Bezug auf OER ist die institutionelle Geringschätzung für die Entwicklung von OER. Da im deutschen universitären Kontext Lehre zweitrangig ist, wird wenig als OER veröffentlicht. Material wird geteilt, aber nicht als OER veröffentlicht oder als solche Lizensiert. Hierbei spricht man von der *Dark Reuse Hypothese*, also es gibt mehr, als das was erfassbar ist. Dies deckt sich auch mit der empirischen Forschung von FOERBICO. In der deutschen Forschungslandschaft ist das erheben von Daten zu OER schwierig, da wenig OER produziert wird. Es wird innerhalb der Hochschullandschaft als *nice to have* angesehen und dementsprechend nicht gewürdigt. Dies ist beispielsweise anders in den USA indem Studierende finanziell von OER und Open Textbooks abhängig sind. 
+
+### Motive zur Nutzung von OER und OEP
+In einer Studie von Klar et. Al ([2024](https://10.0.218.174/openpraxis.16.3.679)) wird empirisch aufgezeigt, dass die wichtigste Rolle für die Nutzung von OER, das Wissen über die Existenz von OER, sei. Erst wenn Menschen innerhalb der Bildungslandschaft über OER Wissen erlangen, suchen sie danach. Weitere wichtige Faktoren sind, das Wissen über die Lizenzen, die Kultur des Teilens und Kooperation. Die letzteren beiden Motive geben einen Aufschluss darüber, dass OER über die Ressource hinaus geht und für ihre Etablierung innerhalb von Hochschule sowie der Schule bedarf es eine institutionelle Anerkennung für die Erstellung und Anwendung von OER (vgl. [Otto 2022](https://doi.org/10.3217/zfhe-17-02/12)).
+
 ...
 
 Die Keynote zum Nachschauen im Stream 📹👉 LINK
