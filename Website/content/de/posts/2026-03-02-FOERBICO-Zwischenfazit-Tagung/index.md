@@ -59,6 +59,8 @@ In verschiedenen Community-Workshops konnten die Teilnehmenden die Communities k
 
 ### relilab - Gemeinsam religionsbezogene Bildung ermöglichen
 
+![](relilab.jpg)
+
 [relilab](https://relilab.org/) ist kein klassisches Projekt, mit festen Laufzeiten. Es ist eine Community mit einer heterarchischen Netzwerkstruktur und besteht aus Einzelpersonen, Teams und Institutionen, die sich flexibel einbringen können - je nach Talenten und Interessen. relilab verbindet Akteur:innen über Konfessionen, Institutionen und Ländergrenzen hinweg, schafft Austauschräume und regt Kooperation an - offen für Lehrkräfte, Fortbildende, Studierende, Forschende und Praktizierende. Corinna Ullmann (Mitarbeiterin vom Comenius-Institut) und Olav Richter (Studienleiter Medienpädagogik der Ev. Landeskirche in Baden) diskutierten gemeinsam mit den Teilnehmenden, wie Communityarbeit in einem fluiden Netzwerk gelingen kann und wie man Communities mit offenen Fortbildungsangeboten stärken kann.
 
 Folien-Link einfügen
@@ -94,15 +96,23 @@ Frau Friz beschäftigt sich am FWU schon lange und intensiv mit digitalen Medien
 
 ### Dr. Alexandra Habicher (Koordinatorin des Projektverbunds digiLL):
 
-> Zitat
+Der Universitätsverbund für digitales Lehren und Lernen in der Lehrer/-innenbildung kurz [digiLL](https://digill.de/) wurde 2016 gegründet und hat aktuell 11 Standorte zur Stärkung der digitalen Lehre in der Lehrkräftebildung. Alexandra Habicher ist Gründungsmitglied und aktuell Teil des [digiLL_COM-Projektes](https://www.oer-strategie.de/projects/digill_com-projektsteckbrief/) als zentrale Anlaufstelle für innovative Lehrmethoden und eine gemeinschaftliche Lernumgebung in der phasen- und lernortübergreifenden Lehrkräftebildung zu schaffen. Dabei zielen sie darauf ab, Studierende partizipativ und ko-kreativ als Erstellende zu stärken und sie so aus der kosumierenden Haltung im Digitalen rauszubekommen. 
+
+> Es gibt relativ wenig Daten, die abbilden, dass sich Bildungsgerechtigkeit verändert durch den Einsatz von OEP und das ist schon ein klares Desiderat, was aufgezeigt wurde. Vielleicht würde es helfen, Forschungsfragen mehr mit dem Fokus auf Tranfer auszurichten, um letztendlich dann die großen Fragen von Bildungsgerechtigkeit weiter runterbrechen zu können. 
 
 ### Prof. Dr. Ilona Nord (Religionspädagogik, Uni Würzburg): 
 
-> Zitat
+An der Universität Würzburg beschäftigt sich Ilona Nord beispielweise mit Forschungen zu Kirche in Zeiten von Corona sowie digitalitätsbezogene Projekte zu AI in Religious Leadership oder das Projekt Soulmate, in dem erforscht wird, wie KI-gestützte Chatbots junge Erwachsene in ihrer Religiosität und im Umgang mit existenziellen Fragen unterstützen können. 
+
+OER sei nicht im systematischen und projektbezogenen Sinne bei ihr aufgebaut, es finde aber eine zunehmende Öffnung der Formate und Plattformen statt. Aber es seien nie die technischen Möglichkeiten für OER ausgeschöpft worden. Sie sieht Vorteile von OER z.B. für die inklusive Pädagogik, wenn man das spezifisch ausarbeiten würde.  
+
+> Das Projekt ist deshalb so außerordentlich und hervorragend, weil wir in dem Sinne noch keine Gelegenheit hatten innerhalb eines strukturierten Projekts die Informationen zu sammeln und zu reflektieren. Ich glaube, dass das für die aktuelle Lage des Standes und für die Nachhaltigkeit des Fachs von großer Bedeutung ist. Die Realität ist, dass OER-Formate wachgehalten werden müssen und Partizipierende angesprochen werden müssen. 
 
 ### Prof. Dr. Franco Rau (Lehrstuhl für Schulpädagogik mit dem Schwerpunkt Digitalisierung im Unterricht an der FAU):
 
-> Zitat
+Aktuell arbeitet Franco Rau im Projekt [TOBIS](https://www.oer-strategie.de/projects/tobis-projektsteckbrief/) zur transprofessionellen Organisationsentwicklung zur Zusammenarbeit von Schulträgern zum digitalen Wandel und OER/ OEP. Dabei treiben ihn Fragen um, wie Lehrkräfte mit Wissen umgehen und man müsse die Frage zu stellen, was müssten Lehramtsstudierende darüber wissen, wie ihre Lernenden damit umgehen, was können sie selbst mitgestalten und für wen machen sie das Material. Wichtig sei es, sich mit einer Qualitätsbrille nicht nur die Produkte anzuschauen, sondern auch z.B. mit Methoden des lauten Denkens auf einer mikro-didaktischen Ebene, um so eine Form der Qualitätsevolution hervorzurufen, die sich eher an Prozessen orientiert und Menschen zum Nachdenken anregt.   
+
+> Ich glaube OEP um der OEP-Willen oder OER um der OER-Willen zu betreiben hat nicht so gut funktioniert in den letzten 20 Jahren. Wenn man es mit einem übergeordneten Ziel verknüpft, sei es Schul- oder Unterrichtsentwicklung, dann funktioniert das deutlich besser. Ich erlebe die Debatte so, dass bei OER die Frage gestellt wird, wie stelle ich möglichst viel Material zur Verfügung und wie machen wir es, dass es Menschen finden. Wenn man dann eher in einer Praktiklogik denkt, stellt sich eher die Frage, welche Anwendungen digitaler Art haben wir, um Material anschlussfähig zu bearbeiten, also Offenheit nicht nur als Mindset-Frage, sondern auch als Infrastruktur- und Organisationsfrage.
 
 Die Podiumsdiskussion zum Nachschauen im [Stream](https://www.fau.tv/series/mit-oer-zu-einer-kultur-des-teilens-w25/1-critical-friends-kommentierungen-und-podium-w25) 📹
 
