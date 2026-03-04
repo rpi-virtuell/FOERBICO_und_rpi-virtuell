@@ -1,4 +1,52 @@
-# OER-Plattformen für religionspädagogische Bildungsmaterialien
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  'OER-Plattformen für religionspädagogische Bildungsmaterialien'
+description: >-
+  Plattformen spielen eine wichtige, bisher jedoch wenig beachtete Rolle bei der Nutzung und Verbreitung von OER. Im Internet gibt es zahlreiche Plattformen zur Distribution von Materialien, die jedoch nicht immer als OER gekennzeichnet sind und nicht durchgehend Inhalte für das Fach Religion anbieten. Der Beitrag gibt einen exemplarischen Überblick über Plattformen mit religionspädagogischen Bildungsmaterialien und ordnet diese hinsichtlich fachlicher Eignung und Zielgruppen ein.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/oer-plattformen
+creator:
+  - givenName: Paula
+    familyName: Paschke
+    id: https://orcid.org/0009-0003-1857-2883
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-03-05'
+#staticSiteGenerator:
+author:
+  - Paula Paschke
+title: 'OER-Plattformen für religionspädagogische Bildungsmaterialien'
+cover:
+  relative: true
+  image: OER-Erstellung.png
+  hiddenInSingle: false
+summary: |
+    Plattformen sind zentral für die Verbreitung von OER, wurden bisher jedoch wenig beachtet. Der Beitrag gibt einen exemplarischen Überblick über Plattformen mit religionspädagogischen Materialien und bewertet deren fachliche Eignung sowie Zielgruppen.
+url: oer-plattformen
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Bildungsmedien
+  
+---
+
 
 Zur Nutzung und Distribution von OER kommt den Plattformen eine wichtige, aber bislang nur wenig beachtete Rolle zu. Im Internet steht eine Vielzahl an Plattformen zur Verfügung, auf denen Materialien distribuiert werden. Nicht alle Materialien werden explizit als OER ausgezeichnet und nicht auf allen Plattformen finden sich Materialien für das Fach Religion. Dieser Beitrag bietet einen exemplarischen Überblick über die Plattformlandschaft für religionspädagogische Bildungsmaterialien und ordnet die fachliche Passung sowie die Zielgruppen ein.
 
