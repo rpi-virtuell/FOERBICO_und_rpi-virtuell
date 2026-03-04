@@ -1,4 +1,54 @@
-# OER erstellen – wie fange ich an?
+---
+#commonMetadata:
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: >-
+  'OER erstellen – wie fange ich an?'
+description: >-
+  Der Einstieg in die Erstellung von OER ist oft mit Unsicherheiten verbunden. Die FOERBICO-Qualitätskriterien bieten zwar eine hilfreiche Orientierung, sind jedoch sehr umfangreich. Der Beitrag stellt daher eine niedrigschwellige Einführung mit Best-Practice-Beispielen bereit, um den Einstieg zu erleichtern.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/oer-erstellen
+creator:
+  - givenName: Paula
+    familyName: Paschke
+    id: https://orcid.org/0009-0003-1857-2883
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n03
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-03-04'
+#staticSiteGenerator:
+author:
+  - Paula Paschke
+title: 'OER erstellen – wie fange ich an?'
+cover:
+  relative: true
+  image: OER-Erstellung.png
+  hiddenInSingle: false
+summary: |
+    Der Einstieg in die OER-Erstellung ist oft mit Unsicherheiten verbunden. Der Beitrag bietet eine niedrigschwellige Orientierung mit Best-Practice-Beispielen für einen erleichterten Einstieg.
+url: oer-erstellen
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Creative Commons
+  - Rechtsfragen
+  - Lizenzen
+  
+---
+
 
 Möchte man mit der Erstellung von OER beginnen, geht das zu Beginn oftmals mit Unsicherheiten einher: Wo beginne ich? Welche Schritte sind sinnvoll? Und wie lassen sich Qualität, Offenheit, rechtliche Sicherheit und fachliche Dimensionen kohärent miteinander verknüpfen?
 Um von Anfang an die Qualität der OER sicherzustellen, ist eine Orientierung an den im Projekt FOERBICO entwickelten Qualitätskriterien hilfreich: https://oer.community/qualitaet/ 
@@ -13,6 +63,7 @@ Zu Beginn der OER-Erstellung gilt es eine inhaltliche und thematische Eingrenzun
 
 Zunächst gilt es die anvisierte Zielgruppe einzugrenzen. Eine Orientierung zur Einteilung bieten sogenannte Wertelisten, die unter anderem nach Bildungsstufen differenzieren. Orientieren sich Erstellende bereits zu Beginn an dieser Unterteilung, ist eine spätere Einsortierung auf OER-Plattformen leichter möglich. OER-Plattformen nutzen oftmals standardisierte Metadaten, sodass eine klare Zielgruppenangabe die Auffindbarkeit in Repositorien erhöhen kann.
 
+![](Tabelle.png)
  
 Abbildung 1 Tabelle: Zusammenhänge zwischen Bildungsstufen und Schularten (Oellers & Rötgen, 2024, S. 88), CC-BY 4.0
 
@@ -81,6 +132,7 @@ Auf der Plattform twillo stehen didaktische Templates für den Hochschulkontext 
 Außerdem entsteht möglicherweise früh die Frage, wie, wo und in welcher Form die OER distribuiert werden sollen. Je nach Plattformkonzeption ist lediglich eine Verlinkung möglich. Nicht jede Plattform ermöglicht die direkte Erstellung oder Bearbeitung. Hier ist zu unterscheiden zwischen:
 
 •	**Repositorien (Speicher- und Veröffentlichungsplattformen)**
+
 Repositorien ermöglichen das Hochladen eigener Materialien, bei denen die OER dauerhaft gespeichert, archiviert und zitierfähig gemacht werden. Je nach Plattform ist eine Nutzung von H5P Elementen zur didaktischen und interaktiven Aufarbeitung unmittelbar möglich. Bei der Auswahl ist die Zielgruppe, das Fach sowie das Medienformat zu berücksichtigen:
 -	Moodle oder Illias (Lernmanagementsysteme)
 -	WirLernenOnline (einzelne Dateien)
@@ -89,6 +141,7 @@ Repositorien ermöglichen das Hochladen eigener Materialien, bei denen die OER d
 -> Wichtig ist hierbei, dass beispielsweise im Kontext von Moodle oder Illias zwar umfangreiche Lernmanagementsysteme erstellt werden können, diese jedoch nicht unmittelbar öffentlich zugänglich sind und als OER nutzbar. Hierfür müssen sie mit einem Gastzugang und einer offenen Lizenz zugänglich gemacht werden. Auch sollte bei der Auswahl die Barrierefreiheit berücksichtigt werden.
 
 •	**Referatorium (Referenz- und Verzeichnisplattformen)**
+
 Andere Plattformen fungieren in erster Linie als Aggregatoren. Sie verlinken auf bereits extern veröffentlichte Materialien, ohne selbst Hosting-Strukturen bereitzustellen.
 In solchen Fällen muss das Material zuvor auf einer anderen Plattform bzw. einem Repositorium veröffentlicht werden. Mögliche Referenz- und Verzeichnisplattformen sind:
 
@@ -116,7 +169,7 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 •	Transparente Lizenzierung
 •	Editierbare Formate, die Weiterentwicklung ermöglichen
 
-bild
+![](OER-Erstellung.png)
 
 
 
