@@ -20,13 +20,16 @@ Seit August 2024 erforscht das FOERBICO-Team OER-Communities im religionsbezogen
 
 Im Anschluss daran stellte Laura Mößle (wiss. Mitarbeiterin der Goethe-Universität) die im Rahmen eines iterativen Prozesses entwickelten [Qualitätskriterien](https://oer.community/qualitaet/) insbesondere mit religionspädagogischem Schwerpunkt vor. Die Qualitätskriterien sollen Orientierung und Unterstützung bieten und zur Selbstreflexion anregen. Sie kommen bereits in Beratungsprozessen, Forschungsprojekten und in der praktischen OER-Materialerstellung bereits zum Einsatz und werden auf Basis der Rückmeldungen stetig weiterentwickelt.
 
-Foto CI?
+![](Hub-Vorstellung.jpeg)
 
 Abschließend veranschaulichte das Team des Comenius-Institutes die ersten Schritte auf dem Weg zum Community-Hub als Kommunikations- und Kollaborationsumgebung im Sinne einer Community of Communities. Dabei wurden verschiedene "Schmerzpunkte" der Communities aufgegriffen, doch anstatt mit Behelfslösungen "Pflaster" darauf zu kleben, soll nun mit einer dezentralen, kompatiblen und offenen Dateninfrastrukturlösung zu einem nachhaltigen OER-Ökosystem und damit zur "Heilung" beigetragen werden.
 
 Die Begrüßung zum Nachschauen findet ihr im [Stream](https://www.fau.tv/series/mit-oer-zu-einer-kultur-des-teilens-w25?sortField=episode) 📹
 
-Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren, die Folien sind frei verfügbar: Community Hub (LINK ZU FOLIEN), Qualitätskriterien (LINK ZU FOLIEN) & Community of Praxis (LINK ZU FOLIEN)
+Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren, die Folien sind frei verfügbar: 
+- Community Hub (LINK ZU FOLIEN)
+- Qualitätskriterien (LINK ZU FOLIEN) 
+- Community of Praxis (LINK ZU FOLIEN)
 
 ## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
 
