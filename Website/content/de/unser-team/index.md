@@ -94,6 +94,13 @@ bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
 
 Kontakt: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
+![Portrait Paula Paschke](Paschke-Paula-Profilbild.JPG)
+
+Paula ist wissenschaftliche Mitarbeiterin bei Prof. Dr. Viera Pirker an der Professur für Religionspädagogik und Mediendidaktik am Fachbereich Katholische Theologie an der Goethe-Universität. Aktuell vertritt sie Laura und unterstützt FOERBICO bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
+
+
+Kontakt: [paschke@em.uni-frankfurt.de](mailto:paschke@em.uni-frankfurt.de )
+
 ## Friedrich-Alexander-Universität Erlangen-Nürnberg
 
 ![Logo der Friedrich-Alexander-Universität Erlangen-Nürnberg](/hello-world/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png)
