@@ -159,7 +159,7 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 -	Transparente Lizenzierung
 -	Editierbare Formate, die Weiterentwicklung ermöglichen
 
-![](OER-Erstellung.png)
-
+![Pfad für OER-ERstellung](OER-Erstellung.png)
+Abbildung 2: Pfad für OER-ERstellung <!-- wer hat diese Grafik erstellt? Quelle noch angeben-->
 
 
