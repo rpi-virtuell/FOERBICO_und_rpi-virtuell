@@ -160,6 +160,7 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 -	Editierbare Formate, die Weiterentwicklung ermöglichen
 
 ![Pfad für OER-ERstellung](OER-Erstellung.png)
-Abbildung 2: Pfad für OER-ERstellung <!-- wer hat diese Grafik erstellt? Quelle noch angeben-->
+
+Abbildung 2: Pfad für OER-Erstellung <!-- wer hat diese Grafik erstellt? Quelle noch angeben-->
 
 
