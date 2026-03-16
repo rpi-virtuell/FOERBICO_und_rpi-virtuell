@@ -229,7 +229,7 @@ Die Podiumsdiskussion zum Nachschauen im [Stream](https://www.fau.tv/series/mit-
 
 Mit OER zu einer Kultur des Teilens - unter diesem Motto haben wir nicht nur unsere bisherigen Erkenntnisse und Schritte aus dem FOERBICO-Projekt mit euch geteilt, sondern zusammen mit den Teilnehmenden auch gegenseitig Einblicke in die Community-Arbeit gegeben und somit quasi Open Educational Practices und Vernetzung auf der Tagung gelebt! Was uns besonders gefreut hat: Die Verknüpfung von Wissenschaft und Praxis sowie der Blick über den eigenen (religionsbezogenen) Tellerrand hinaus - Forschung erhielt wichtige Erfahrungsberichte aus der gelebten Communityarbeit und die Communities erhielten spannende Forschungseinblicke. 
 
-Wir hoffen alle konnten etwas mitnehmen ❤️
+Wir hoffen alle konnten etwas mitnehmen ❤️ Eine Anleitung zum #hOERz als OER zur Weiterverwendung gibt's unter https://s.edufeed.org/hoerz 
 
 ![](hoerz.JPG)
 
