@@ -77,7 +77,14 @@ learningResourceType:
 datePublished: '2026-03-16'
 #staticSiteGenerator:
 author:
+  - Gina Buchwald-Chassée
+  - Phillip Angelina
   - Laura Mößle
+  - Jörg Lohrer
+  - Viera Pirker
+  - Manfred Pirner
+  - Jens Dechow
+  - Ludger Sicking
 title: 'Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt'
 cover:
   relative: true
