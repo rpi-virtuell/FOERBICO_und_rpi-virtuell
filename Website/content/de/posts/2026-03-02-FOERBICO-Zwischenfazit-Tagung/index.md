@@ -103,7 +103,9 @@ tags:
   - Open Educational Resources (OER)
 ---
 
-Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fragen offen: Wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt.
+Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fragen offen: Wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt. 
+
+👉 Das Programm und die Präsentationen findet ihr auch in einem [Tagungsboard](https://s.edufeed.org/zwischenfazit).
 
 ## Begrüßung & Vorstellung der Zwischenergebnisse aus FOERBICO
 
@@ -130,7 +132,7 @@ Abschließend veranschaulichte das Team des Comenius-Institutes die ersten Schri
 Die Begrüßung zum Nachschauen findet ihr im [Stream](https://www.fau.tv/series/mit-oer-zu-einer-kultur-des-teilens-w25?sortField=episode) 📹
 
 Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren, die Folien sind frei verfügbar: 
-- Community Hub (LINK ZU FOLIEN)
+- [Community Hub](https://s.edufeed.org/hub)
 - [Qualitätskriterien](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true) 
 - [Community of Praxis](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true)
 
