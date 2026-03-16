@@ -9,7 +9,7 @@ description: >-
 inLanguage: de
 license: https://creativecommons.org/licenses/by/4.0/
 creator:
- - givenName: Jörg
+  - givenName: Jörg
     familyName: Lohrer
     id: https://orcid.org/0000-0002-9282-0406
     type: Person
