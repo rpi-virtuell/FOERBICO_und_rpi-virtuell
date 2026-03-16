@@ -1,4 +1,100 @@
-# Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt
+---
+#commonMetadata:
+'@context': https://schema.org/
+type: ScholarlyArticle
+id: https://oer.community/recap-foerbico-tagung-2026
+name: 'Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt'
+description: >-
+ Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
+inLanguage: de
+license: https://creativecommons.org/licenses/by/4.0/
+creator:
+ - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Manfred
+    familyName: Pirner
+    id: https://orcid.org/0000-0002-6641-4690
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+  - givenName: Ludger
+    familyName: Sicking
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jens
+    familyName: Dechow
+    id: https://orcid.org/0009-0003-1657-4631
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+image: https://oer.community/recap-foerbico-tagung-2026/Team.JPG
+learningResourceType:
+  - https://w3id.org/kim/hcrt/article
+datePublished: '2026-03-16'
+#staticSiteGenerator:
+author:
+  - Laura Mößle
+title: 'Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt'
+cover:
+  relative: true
+  image: Team.JPG
+  hidddenInSingle: false
+  alt: 'FOERBICO-Team ([CC-by-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de))'
+summary: >-
+  Die Bekanntheit von OER wächst, doch Fragen zur Zusammenarbeit von Communities und zur kollaborativen Materialentwicklung bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg stellte diese Themen mit Impulsen aus Forschung und Praxis in den Mittelpunkt.
+url: recap-foerbico-tagung-2026
+tags:
+  - FOERBICO
+  - OER-Communities
+  - Qualitätskriterien
+  - Tagung
+  - Open Educational Practices (OEP)
+  - Open Educational Resources (OER)
+---
 
 Die Bekanntheit von OER ist in den letzten Jahren gestiegen, dennoch bleiben Fragen offen: Wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt.
 
@@ -28,8 +124,8 @@ Die Begrüßung zum Nachschauen findet ihr im [Stream](https://www.fau.tv/series
 
 Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren, die Folien sind frei verfügbar: 
 - Community Hub (LINK ZU FOLIEN)
-- Qualitätskriterien (LINK ZU FOLIEN) 
-- Community of Praxis (LINK ZU FOLIEN)
+- [Qualitätskriterien](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true) 
+- [Community of Praxis](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true)
 
 ## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
 
@@ -66,7 +162,7 @@ In verschiedenen Community-Workshops konnten die Teilnehmenden die Communities k
 
 [relilab](https://relilab.org/) ist kein klassisches Projekt, mit festen Laufzeiten. Es ist eine Community mit einer heterarchischen Netzwerkstruktur und besteht aus Einzelpersonen, Teams und Institutionen, die sich flexibel einbringen können - je nach Talenten und Interessen. relilab verbindet Akteur:innen über Konfessionen, Institutionen und Ländergrenzen hinweg, schafft Austauschräume und regt Kooperation an - offen für Lehrkräfte, Fortbildende, Studierende, Forschende und Praktizierende. Corinna Ullmann (Mitarbeiterin vom Comenius-Institut) und Olav Richter (Studienleiter Medienpädagogik der Ev. Landeskirche in Baden) diskutierten gemeinsam mit den Teilnehmenden, wie Communityarbeit in einem fluiden Netzwerk gelingen kann und wie man Communities mit offenen Fortbildungsangeboten stärken kann.
 
-Folien-Link einfügen
+👉 Die relilab-Folien findet ihr [hier](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true).
     
 ### reliGlobal - Fachstelle für Globales Lernen im Religionsunterricht
 
@@ -74,7 +170,8 @@ Folien-Link einfügen
 
 [reliGlobal](https://religlobal.org/) ist eine gemeinsame Fachstelle der ALPIKA (Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter) mit dem Ziel, Globales Lernen nachhaltig im evangelischen Religionsunterricht zu verankern. Das Projekt wird seit September 2023 vom Comenius-Institut und weiteren pädagogisch-theologischen Instituten getragen und von Brot für die Welt gefördert. Jens Palkowitsch-Kühl brachte den Teilnehmenden insbesondere die Arbeitsweise in Sprint-Teams und den didaktischen Dreischritt bestehend aus Erkennen, Begreifen und Handeln näher.
 
-Folien-Link einfügen
+
+👉 Die reliGlobal-Folien findet ihr [hier](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true).
     
 ### RELImentar - religionspädagogisches Portal für den Elementarbereich
 
@@ -82,7 +179,7 @@ Folien-Link einfügen
 
 [RELImentar](https://relimentar.de/) ist eine digitale Plattform und ein fachliches Netzwerk für religionsbezogene Bildung in früher Kindheit und Familie. Sie stellt qualitätsgeprüfte Praxisideen und Materialien bereit, die auf einer theologisch reflektierten und wissenschaftlich fundierten Grundlage beruhen. Simone Wustrack (Mitarbeiterin des Comenius-Institutes) und Frank Ritthaler (Dozent für Religionspädagogik im Elementarbereich beim PTZ Stuttgart) stellten das Netzwerk vor: vom Entstehungskonzept, über den Aufbau von Fortbildungsformaten und Community-Building bis hin zur (Weiter-)Entwicklung der [Qualitätsmerkmale](https://relimentar.de/qualitaetskriterien-2025/) speziell für den religionspädagogischen Elementarbereich vor.
 
-Folien-Link einfügen
+👉 Die RELImentar-Folien findet ihr [hier](https://nextcloud.comenius.de/s/C9EiLCjpMgdrHq6?dir=/Beitr%C3%A4ge%20%2B%20Workshops/Endfassung_Pr%C3%A4sentationen_Dokumentation&openfile=true).
 
 ## Podiumsdiskussion mit Critical Friends
 
