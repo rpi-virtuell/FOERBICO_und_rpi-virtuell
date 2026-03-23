@@ -1,4 +1,4 @@
-# YAML-Frontmatter-Assistent – FOERBICO Blog
+# YAML-Frontmatter-Assistent-Prompt - FOERBICO Blog
 
 Kopiere diesen gesamten Text in ein beliebiges KI-Sprachmodell (ChatGPT, Claude, Gemini o.ä.).
 Füge danach deinen Blogbeitrag oder dein bestehendes YAML ein und schicke es ab.
