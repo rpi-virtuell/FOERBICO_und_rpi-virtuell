@@ -1,0 +1,197 @@
+# Feldregeln FOERBICO Blog YAML-Frontmatter
+# Definiert Struktur, Pflichtfelder, Standardwerte und Ableitungslogik
+# für beide Blöcke: commonMetadata (OERSI/AMB) und staticSiteGenerator (Hugo).
+
+# ─────────────────────────────────────────────
+# BLOCK 1: commonMetadata
+# ─────────────────────────────────────────────
+
+commonMetadata:
+
+  context:
+    feld: "'@context'"
+    pflicht: true
+    wert: https://schema.org/
+    # Immer dieser feste Wert. Anführungszeichen nötig wegen @ in YAML.
+
+  creativeWorkStatus:
+    feld: creativeWorkStatus
+    pflicht: true
+    erlaubte_werte: [Published, Draft]
+    standard: Published
+
+  type:
+    feld: type
+    pflicht: true
+    wert: LearningResource
+
+  name:
+    feld: name
+    pflicht: true
+    ableitung: identisch mit staticSiteGenerator.title
+
+  description:
+    feld: description
+    pflicht: true
+    yaml_stil: ">-"   # Fließtext, kein abschließender Zeilenumbruch
+    ableitung: identisch mit staticSiteGenerator.summary
+
+  license:
+    feld: license
+    pflicht: true
+    standard: https://creativecommons.org/licenses/by/4.0/deed.de
+    optionen:
+      CC0:      https://creativecommons.org/publicdomain/zero/1.0/deed.de
+      CC-BY:    https://creativecommons.org/licenses/by/4.0/deed.de
+      CC-BY-SA: https://creativecommons.org/licenses/by-sa/4.0/deed.de
+      CC-BY-NC: https://creativecommons.org/licenses/by-nc/4.0/deed.de
+      CC-BY-NC-SA: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+
+  id:
+    feld: id
+    pflicht: true
+    muster: "https://oer.community/{url}"
+    # {url} = Wert von staticSiteGenerator.url
+
+  creator:
+    feld: creator
+    pflicht: true
+    quelle: data/personen.yaml
+    # Strukturierte Autorenangaben mit givenName, familyName, type, ggf. id (ORCID) und affiliation
+
+  inLanguage:
+    feld: inLanguage
+    pflicht: true
+    standard: [de]
+
+  image:
+    feld: image
+    pflicht: true
+    muster: "https://oer.community/{url}/{dateiname}"
+    # {url} = staticSiteGenerator.url
+    # {dateiname} = staticSiteGenerator.cover.image
+
+  learningResourceType:
+    feld: learningResourceType
+    pflicht: true
+    standard: [https://w3id.org/kim/hcrt/text, https://w3id.org/kim/hcrt/web_page]
+    optionen:
+      text:         https://w3id.org/kim/hcrt/text
+      web_page:     https://w3id.org/kim/hcrt/web_page
+      video:        https://w3id.org/kim/hcrt/video
+      audio:        https://w3id.org/kim/hcrt/audio
+      presentation: https://w3id.org/kim/hcrt/presentation
+      image:        https://w3id.org/kim/hcrt/image
+      worksheet:    https://w3id.org/kim/hcrt/worksheet
+      course:       https://w3id.org/kim/hcrt/course
+
+  educationalLevel:
+    feld: educationalLevel
+    pflicht: true
+    standard: [https://w3id.org/kim/educationalLevel/level_A]
+    optionen:
+      level_A: https://w3id.org/kim/educationalLevel/level_A   # Allgemein
+      level_B: https://w3id.org/kim/educationalLevel/level_B   # Berufsbildung
+      level_C: https://w3id.org/kim/educationalLevel/level_C   # Hochschule
+
+  datePublished:
+    feld: datePublished
+    pflicht: true
+    format: "'YYYY-MM-DD'"   # Anführungszeichen sind Pflicht
+
+  keywords:
+    feld: keywords
+    pflicht: true
+    quelle: data/schlagworte.yaml
+    ableitung: identisch mit staticSiteGenerator.tags
+
+  about:
+    feld: about
+    pflicht: false
+    # KIM Hochschulfächersystematik
+    optionen:
+      Allgemeine Pädagogik:       https://w3id.org/kim/hochschulfaechersystematik/n01
+      Erziehungswissenschaft:     https://w3id.org/kim/hochschulfaechersystematik/n02
+      Psychologie:                https://w3id.org/kim/hochschulfaechersystematik/n03
+      Medienpädagogik:            https://w3id.org/kim/hochschulfaechersystematik/n052
+      Evangelische Theologie:     https://w3id.org/kim/hochschulfaechersystematik/n053
+      Katholische Theologie:      https://w3id.org/kim/hochschulfaechersystematik/n054
+      Informatik:                 https://w3id.org/kim/hochschulfaechersystematik/n069
+      Kommunikationswissenschaft: https://w3id.org/kim/hochschulfaechersystematik/n079
+      Politikwissenschaft:        https://w3id.org/kim/hochschulfaechersystematik/n086
+      Informationswissenschaft:   https://w3id.org/kim/hochschulfaechersystematik/n121
+
+# ─────────────────────────────────────────────
+# BLOCK 2: staticSiteGenerator
+# ─────────────────────────────────────────────
+
+staticSiteGenerator:
+
+  author:
+    feld: author
+    pflicht: true
+    format: "Vorname Nachname"
+    ableitung: Vor- und Nachname aus commonMetadata.creator
+
+  title:
+    feld: title
+    pflicht: true
+    ableitung: identisch mit commonMetadata.name
+
+  cover:
+    feld: cover
+    pflicht: true
+    unterfelder:
+      relative:
+        pflicht: true
+        wert: true
+        # true = Bilddatei liegt im Post-Verzeichnis
+        # false = externes Bild (URL), dann cover.image = volle URL
+      image:
+        pflicht: true
+        format: "dateiname.ext"
+        # Nur Dateiname, kein Pfad – identisch mit letztem Segment von commonMetadata.image
+      alt:
+        pflicht: false
+        # Bildbeschreibung für Barrierefreiheit, empfohlen
+      caption:
+        pflicht: false
+        # Bildunterschrift, optional
+      hiddenInSingle:
+        pflicht: true
+        standard: true
+
+  summary:
+    feld: summary
+    pflicht: true
+    yaml_stil: ">-"
+    ableitung: identisch mit commonMetadata.description
+
+  url:
+    feld: url
+    pflicht: true
+    regeln:
+      - Nur Kleinbuchstaben
+      - "Leerzeichen → Bindestrich"
+      - "ä → ae, ö → oe, ü → ue, ß → ss"
+      - "Sonderzeichen entfernen: # ? ! : ' ( )"
+      - Maximal 60 Zeichen
+    beispiel: "OERcamp #2025 in Hamburg → oercamp-2025-in-hamburg"
+
+  tags:
+    feld: tags
+    pflicht: true
+    quelle: data/schlagworte.yaml
+    ableitung: identisch mit commonMetadata.keywords
+
+# ─────────────────────────────────────────────
+# ABLEITUNGSREGELN (Zusammenfassung)
+# ─────────────────────────────────────────────
+
+ableitungen:
+  - commonMetadata.name          == staticSiteGenerator.title
+  - commonMetadata.description   == staticSiteGenerator.summary
+  - commonMetadata.keywords      == staticSiteGenerator.tags
+  - commonMetadata.id            == "https://oer.community/" + staticSiteGenerator.url
+  - commonMetadata.image         == "https://oer.community/" + staticSiteGenerator.url + "/" + staticSiteGenerator.cover.image
+  - commonMetadata.creator[].givenName + " " + familyName == staticSiteGenerator.author[]

@@ -1,0 +1,76 @@
+# Personenverzeichnis FOERBICO
+# Jede Person wird im YAML-Frontmatter unter `creator` (commonMetadata)
+# und als "Vorname Nachname" unter `author` (staticSiteGenerator) eingetragen.
+# Felder id (ORCID) und affiliation.id (ROR) sind optional, aber empfohlen.
+
+personen:
+
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+
+  - givenName: Ludger
+    familyName: Sicking
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+
+  - givenName: Jens
+    familyName: Dechow
+    id: https://orcid.org/0009-0003-1657-4631
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+
+  - givenName: Laura
+    familyName: Mößle
+    id: https://orcid.org/0000-0001-5255-8063
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+
+  - givenName: Viera
+    familyName: Pirker
+    id: https://orcid.org/0000-0002-6971-8905
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
+
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+
+  - givenName: Manfred
+    familyName: Pirner
+    id: https://orcid.org/0000-0002-6641-4690
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization

@@ -1,0 +1,117 @@
+# Schlagwort-Glossar FOERBICO
+# Kanonische Liste aller gültigen Tags/Keywords.
+# Nur diese Schreibweisen verwenden – in `keywords` (commonMetadata)
+# und identisch in `tags` (staticSiteGenerator).
+#
+# Änderungen hier dokumentieren: Datum + Begründung als Kommentar.
+
+schlagworte:
+
+  # Bildung & Pädagogik
+  - Didaktik
+  - Hochschuldidaktik
+  - Religionspädagogik
+  - Theologie
+  - Wissenschaftskommunikation
+  - dezentral
+
+  # OER & Offenheit
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Strategie
+  - OERcamp
+  - OERinfo
+  - OERSI
+  - OE_COM
+  - Offenheit
+  - Open Access
+  - Open Source
+
+  # Lizenzen & Recht
+  - Creative Commons
+  - Lizenzen
+  - Bild
+  - Rechtsfragen
+
+  # Community & Vernetzung
+  - Community
+  - Vernetzung
+  - FOERBICO in Kontakt
+  - Kollaboration
+
+  # Veranstaltungen
+  - Event
+  - Sommercamp
+
+  # Technologie & Tools
+  - Git
+  - Markdown
+  - Metadaten
+  - interoperabel
+  - KI
+  - Tools
+  - Canva
+  - TikTok
+  - YouTube
+  - Moodle
+  - Nostr
+  - Mastodon
+  - Codeberg
+  - Social Media
+
+  # Themen
+  - Antisemitismuskritik
+  - Bibel
+  - Digitalisierung
+  - Gamification
+  - Hochschulen
+  - Inklusion
+  - Qualitätskriterien
+  - Storytelling
+  - Sustainable Development Goals (SDG)
+  - Video
+
+# Maschinenlesbare Zusammenführungsregeln (für Prompt-Generator und Prüf-Tool)
+zusammenfuehrungen:
+  - alt: [OER, Open Educational Recourses]
+    neu: Open Educational Resources (OER)
+  - alt: [OEP, Open Education, Open Educational Practices, "Open Educational Practices (OEP)"]
+    neu: Open Educational Practices (OEP)
+  - alt: [Networking, Netzwerk, Netzwerkbildung, Netzwerke]
+    neu: Vernetzung
+  - alt: [Community-Building, Communityaufbau]
+    neu: Community
+  - alt: [CC-Lizenzen, Bildlizenzen, Bildrechte]
+    neu: "Creative Commons + Lizenzen + ggf. Bild"
+  - alt: [Interoperabilität]
+    neu: interoperabel
+  - alt: [Qualitätssicherung]
+    neu: Qualitätskriterien
+  - alt: [SDG, Sustainable Developtment Goals, Sustainable Development Goals]
+    neu: Sustainable Development Goals (SDG)
+  - alt: [Austausch, Konferenz, Fachtag, GwR, FOERBICO]
+    neu: "FOERBICO in Kontakt + Event"
+  - alt: [Dezentrale Bildung]
+    neu: dezentral
+  - alt: [Openness]
+    neu: Offenheit
+  - alt: [Videos]
+    neu: Video
+  - alt: [Wissenschaft]
+    neu: Wissenschaftskommunikation
+  - alt: [Kollaboartion]
+    neu: Kollaboration
+
+gestrichen:
+  - BMBF
+  - twillo
+  - UX Design
+  - Workflow
+  - Plattformen
+  - Professionalisierung
+  - Third Mission
+  - Religion und Medien
+  - Deutsche Bibelgesellschaft
+  - Katholisches Bibelwerk
+  - Open
+  - Öffnetlichkeitsarbeit
