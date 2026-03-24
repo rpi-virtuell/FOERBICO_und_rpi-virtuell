@@ -137,6 +137,6 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 
 ![Pfad für OER-ERstellung](OER-Erstellung.png)
 
-Abbildung 2: Pfad für OER-Erstellung
+Abbildung 2: Pfad für OER-Erstellung, eigene Darstellung
 
 
