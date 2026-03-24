@@ -1,5 +1,5 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
@@ -13,10 +13,27 @@ description: >-
   diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die
   Theologie und religionsbezogene Bildung über TikTok erschließen.
 license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+# KORRIGIERT: ID aus URL-Slug generiert
+id: https://oer.community/theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum
 creator:
   - givenName: Jörg
     familyName: Lohrer
     id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -36,23 +53,33 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-  - https://w3id.org/kim/hochschulfaechersystematik/n287
-image: kemnitzer-tiktok.png
+image: https://oer.community/theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum/kemnitzer-tiktok.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2024-09-18'
-#staticSiteGenerator:
+keywords:
+  - TikTok
+  - Tools
+  - Wissenschaftskommunikation
+  - Social Media
+  - Theologie
+
+# staticSiteGenerator
 author:
   - Jörg Lohrer
+  - Phillip Angelina
+  - Gina Buchwald-Chassée
   - Konstanze Kemnitzer
 title: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
 cover:
   relative: true
   image: kemnitzer-tiktok.png
+  alt: 'Prof. Konstanze Kemnitzer erklärt Theologie auf TikTok'
   hiddenInSingle: true
-summary: |
+summary: >-
   Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für
   Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität.
   Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung,
