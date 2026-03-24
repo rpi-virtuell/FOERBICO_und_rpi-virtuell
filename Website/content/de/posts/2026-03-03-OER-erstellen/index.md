@@ -51,7 +51,7 @@ tags:
 
 
 Möchte man mit der Erstellung von OER beginnen, geht das zu Beginn oftmals mit Unsicherheiten einher: Wo beginne ich? Welche Schritte sind sinnvoll? Und wie lassen sich Qualität, Offenheit, rechtliche Sicherheit und fachliche Dimensionen kohärent miteinander verknüpfen?
-Um von Anfang an die Qualität der OER sicherzustellen, ist eine Orientierung an den [Qualitätskriterien](https://oer.community/qualitaet/), die im Projekt FOERBICO entwickelt wurden, hilfreich. Diese sind jedoch sehr ausführlich und können zu Beginn möglicherweise überfordernd sein. Daher bietet der folgende Beitrag eine niedrigschwellige Orientierung und Best-Practice Beispiele, um den Anfang zu erleichtern.
+Um von Anfang an die Qualität der OER sicherzustellen, ist eine Orientierung an den [Qualitätskriterien](https://oer.community/qualitaet/), die im Projekt FOERBICO entwickelt wurden, hilfreich. Diese sind jedoch sehr ausführlich und können zu Beginn möglicherweise überfordernd sein, doch man muss nicht unmittelbar mit der Erstellung umfangreicher Lernkurse beginnen. Auch ein gut strukturiertes Arbeitsblatt oder eine adaptierte Sammlung bestehender Materialien kann einen Beitrag in der OER-Community darstellen. Der folgende Beitrag bietet eine niedrigschwellige Orientierung und Best-Practice Beispiele, um den Anfang zu erleichtern.
 
 ## Themenfeld eingrenzen
 
@@ -85,6 +85,8 @@ An folgenden Best-Practice Beispielen können sich Erstellende orientieren:
 |Für die Sekundarstufe I|[Schön, Sabrina (2022). M@PS – Medienkompetenz erweitern, Persönlichkeit stärken, CC-BY-SA 4.0-Lizenz](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57)|
 |Für die Hochschullehre|[Xue Paschke, Paula & Pirker, Viera (2025). Fachdidaktik Bibel mit Tablets, CC-BY-4.0-Lizenz](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39)|
 
+Die aufgeführten Best-Practice Beispiele sind umfangreiche Beispiele, die – auch in einzelnen Bestandteilen, wie beispielsweise nur einzelne Aufgaben – als Inspiration dienen können.
+
 ## Neu erstellen oder remixen?
 
 Um OER zu erstellen, gibt es verschiedene Möglichkeiten, die auch von den eigenen zeitlichen Ressourcen und dem Themenfeld abhängig sein können. Erstellende sollten daher klären, ob sie:
@@ -115,30 +117,6 @@ Hier empfiehlt es sich, nicht ausschließlich materialzentriert zu denken. Eine 
 Auf der Plattform [twillo](https://www.twillo.de/edu-sharing/components/collections?mainnav=true&id=20c80ff4-856d-49a4-8c0f-4b1c2632a7f5
 ) stehen didaktische Templates für den Hochschulkontext zur Verfügung, die bei der Erstellung von Lehr- und Lernszenarien entlang didaktischer Lehrkonzepte (Problembasiertes Lernen, Forschendes Lernen, Inverted Classroom) für unterschiedliche Systeme (Moodle, Illias, Stud.IP und LiaSkript) genutzt werden können.
 
-## Distributionsformen
-
-Beretis früh sollte die Frage, wie, wo und in welcher Form die OER distribuiert werden sollen, gestellt werden. Je nach Plattformkonzeption ist lediglich eine Verlinkung möglich. Nicht jede Plattform ermöglicht die direkte Erstellung oder Bearbeitung. Hier ist zu unterscheiden zwischen:
-
-### Repositorien (Speicher- und Veröffentlichungsplattformen)
-
-Repositorien ermöglichen das Hochladen eigener Materialien, bei denen die OER dauerhaft gespeichert, archiviert und zitierfähig gemacht werden. Je nach Plattform ist eine Nutzung von H5P Elementen zur didaktischen und interaktiven Aufarbeitung unmittelbar möglich. Bei der Auswahl ist die Zielgruppe, das Fach sowie das Medienformat zu berücksichtigen:
--	Moodle oder Illias (Lernmanagementsysteme)
--	[WirLernenOnline](https://wirlernenonline.de/fachportale/) (einzelne Dateien)
--	[Rpi-virtuell](https://rpi-virtuell.de/) (Anlegen eines Blogs nach Registrierung)
-
-> [!Important]
-> Wichtig ist hierbei, dass beispielsweise im Kontext von Moodle oder Illias zwar umfangreiche Lernmanagementsysteme erstellt werden können, diese jedoch nicht unmittelbar öffentlich zugänglich sind und als OER nutzbar. Hierfür müssen sie mit einem Gastzugang und einer offenen Lizenz zugänglich gemacht werden. Auch sollte bei der Auswahl die Barrierefreiheit berücksichtigt werden.
-
-### Referatorium (Referenz- und Verzeichnisplattformen)
-
-Andere Plattformen fungieren in erster Linie als Aggregatoren. Sie verlinken auf bereits extern veröffentlichte Materialien, ohne selbst Hosting-Strukturen bereitzustellen. In solchen Fällen muss das Material zuvor auf einer anderen Plattform bzw. einem Repositorium veröffentlicht werden. Mögliche Referenz- und Verzeichnisplattformen sind:
-
--	[Rpi-virtuell](https://rpi-virtuell.de/)
--	[Twillo](https://www.twillo.de/)
-- [HessenHub](https://www.hessenhub.de/)
--	[WirLernenOnline](https://wirlernenonline.de/fachportale/)
-- [OERSI](https://oersi.org/)
-
 ## Rechtliche und lizenzbezogene Überlegungen
 
 Um Materialien als OER ausweisen zu können, ist eine offene Lizenzierung notwendig. In dieser Hinsicht sind verschiedene Formate möglich; eine Übersicht findet sich ➡️ [hier](https://oer.community/oer-und-oep/)!
@@ -149,8 +127,6 @@ Es ist sinnvoll die Rechtssicherheit von Anfang an mit zu bedenken, das heißt:
 -	Nutzungsrechte für geschützte Inhalte einholen
 
 ## Fazit
-
-Mit der Erstellung von OER zu beginnen kann zunächst herausfordernd erscheinen, doch man muss nicht unmittelbar mit der Erstellung umfangreicher Lernkurse beginnen. Auch ein gut strukturiertes Arbeitsblatt oder eine adaptierte Sammlung bestehender Materialien kann einen Beitrag in der OER-Community darstellen.
 Nach der Fertigstellung der ersten OER können sie mit den eingangs genannten Qualitätskriterien abgeglichen werden, bevor sie dann veröffentlicht werden.
 Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem möglichen Projektende können folgende Aspekte die langfristige Zugänglichkeit ermöglichen:
 
@@ -161,6 +137,6 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 
 ![Pfad für OER-ERstellung](OER-Erstellung.png)
 
-Abbildung 2: Pfad für OER-Erstellung <!-- wer hat diese Grafik erstellt? Quelle noch angeben-->
+Abbildung 2: Pfad für OER-Erstellung
 
 
