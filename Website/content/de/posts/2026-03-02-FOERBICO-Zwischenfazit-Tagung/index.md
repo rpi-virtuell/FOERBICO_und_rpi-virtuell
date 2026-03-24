@@ -1,13 +1,23 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-type: ScholarlyArticle
+# KORRIGIERT: type war ScholarlyArticle
+type: LearningResource
+# KORRIGIERT: creativeWorkStatus fehlte
+creativeWorkStatus: Published
 id: https://oer.community/recap-foerbico-tagung-2026
-name: 'Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt'
+name: 'Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt'
 description: >-
- Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
-inLanguage: de
-license: https://creativecommons.org/licenses/by/4.0/
+  Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur
+  Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und
+  zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung
+  2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis
+  und interaktiven Formaten.
+# KORRIGIERT: /deed.de ergänzt
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+# KORRIGIERT: inLanguage als Liste
+inLanguage:
+  - de
 creator:
   - givenName: Jörg
     familyName: Lohrer
@@ -72,35 +82,63 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 image: https://oer.community/recap-foerbico-tagung-2026/Team.JPG
+# KORRIGIERT: learningResourceType war ungültiger Wert
 learningResourceType:
-  - https://w3id.org/kim/hcrt/article
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+# KORRIGIERT: educationalLevel fehlte
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+# KORRIGIERT: about fehlte
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
 datePublished: '2026-03-16'
-#staticSiteGenerator:
+# KORRIGIERT: keywords fehlten, kanonische Schreibweisen
+keywords:
+  - FOERBICO in Kontakt
+  - Event
+  - Community
+  - Qualitätskriterien
+  - Open Educational Practices (OEP)
+  - Open Educational Resources (OER)
+  - Vernetzung
+
+# staticSiteGenerator
+# KORRIGIERT: author-Reihenfolge an creator angeglichen
 author:
-  - Gina Buchwald-Chassée
-  - Phillip Angelina
-  - Laura Mößle
   - Jörg Lohrer
-  - Viera Pirker
+  - Gina Buchwald-Chassée
+  - Laura Mößle
+  - Phillip Angelina
   - Manfred Pirner
-  - Jens Dechow
+  - Viera Pirker
   - Ludger Sicking
-title: 'Mit OER zu einer Kultur des Teilens - Zwischenfazit-Tagung vom FOERBICO-Projekt'
+  - Jens Dechow
+title: 'Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt'
 cover:
   relative: true
   image: Team.JPG
-  hiddenInSingle: false
-  alt: 'FOERBICO-Team ([CC-by-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de))'
+  hiddenInSingle: true
+  alt: 'FOERBICO-Team (CC BY 4.0)'
+# KORRIGIERT: summary = description (identisch)
 summary: >-
-  Die Bekanntheit von OER wächst, doch Fragen zur Zusammenarbeit von Communities und zur kollaborativen Materialentwicklung bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg stellte diese Themen mit Impulsen aus Forschung und Praxis in den Mittelpunkt.
+  Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur
+  Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und
+  zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung
+  2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis
+  und interaktiven Formaten.
 url: recap-foerbico-tagung-2026
+# KORRIGIERT: tags = keywords (identisch, kanonisch)
 tags:
-  - FOERBICO
-  - OER-Communities
+  - FOERBICO in Kontakt
+  - Event
+  - Community
   - Qualitätskriterien
-  - Tagung
   - Open Educational Practices (OEP)
   - Open Educational Resources (OER)
+  - Vernetzung
 ---
 
 Offene Bildungsressourcen (OER) und offene Bildungspraktiken (OEP) gewinnen mit der fortschreitenden Digitalisierung der Bildung und dem Ziel größerer Chancengleichheit zunehmend an Bedeutung. Mit seiner OER-Strategie fördert der Bund daher Projekte, die Antworten auf zentrale offene Fragen entwickeln, u.a. wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt.
