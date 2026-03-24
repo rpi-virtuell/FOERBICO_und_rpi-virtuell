@@ -136,7 +136,6 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 -	Editierbare Formate, die Weiterentwicklung ermöglichen
 
 ![Pfad für OER-ERstellung](How to get started OER_Xue Paschke.png)
-Website/content/de/posts/2026-03-03-OER-erstellen/How to get started OER_Xue Paschke.png
 
 Abbildung 2: Pfad für OER-Erstellung, eigene Darstellung
 
