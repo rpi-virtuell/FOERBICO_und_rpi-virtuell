@@ -135,7 +135,7 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 -	Transparente Lizenzierung
 -	Editierbare Formate, die Weiterentwicklung ermöglichen
 
-![Pfad für OER-ERstellung](How to get started OER_Xue Paschke.png)
+![Pfad für OER-Erstellung](oer-erstellung-prozess.png)
 
 Abbildung 2: Pfad für OER-Erstellung, eigene Darstellung
 
