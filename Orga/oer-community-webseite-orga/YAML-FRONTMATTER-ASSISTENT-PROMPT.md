@@ -289,16 +289,15 @@ Standard: `level_A`
 
 | Fachbereich | URI |
 |-------------|-----|
-| Allgemeine Pädagogik | `https://w3id.org/kim/hochschulfaechersystematik/n01` |
-| Erziehungswissenschaft | `https://w3id.org/kim/hochschulfaechersystematik/n02` |
-| Psychologie | `https://w3id.org/kim/hochschulfaechersystematik/n03` |
-| Medienpädagogik | `https://w3id.org/kim/hochschulfaechersystematik/n052` |
-| Evangelische Theologie | `https://w3id.org/kim/hochschulfaechersystematik/n053` |
-| Katholische Theologie | `https://w3id.org/kim/hochschulfaechersystematik/n054` |
-| Informatik | `https://w3id.org/kim/hochschulfaechersystematik/n069` |
-| Kommunikationswissenschaft | `https://w3id.org/kim/hochschulfaechersystematik/n079` |
-| Politikwissenschaft | `https://w3id.org/kim/hochschulfaechersystematik/n086` |
-| Informationswissenschaft | `https://w3id.org/kim/hochschulfaechersystematik/n121` |
+| Evang. Religionspädagogik, kirchliche Bildungsarbeit | `https://w3id.org/kim/hochschulfaechersystematik/n544`|
+| Kath. Religionspädagogik, kirchliche Bildungsarbeit | `https://w3id.org/kim/hochschulfaechersystematik/n545`|
+| Erziehungswissenschaft (Pädagogik) | `https://w3id.org/kim/hochschulfaechersystematik/n052` |
+| Evangelische Theologie, -Religionslehre | `https://w3id.org/kim/hochschulfaechersystematik/n053` |
+| Katholische Theologie, -Religionslehre | `https://w3id.org/kim/hochschulfaechersystematik/n086` |
+| Informatik | `https://w3id.org/kim/hochschulfaechersystematik/n71` |
+| Kommunikationswissenschaft/Publizistik | `https://w3id.org/kim/hochschulfaechersystematik/n34` |
+| Politikwissenschaft | `https://w3id.org/kim/hochschulfaechersystematik/n25` |
+| Medieninformatik | `https://w3id.org/kim/hochschulfaechersystematik/n121` |
 
 ---
 
