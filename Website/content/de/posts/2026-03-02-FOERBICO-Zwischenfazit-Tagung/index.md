@@ -134,6 +134,8 @@ Offene Bildungsressourcen (OER) und offene Bildungspraktiken (OEP) gewinnen mit 
 
 👉 Das Programm und die Präsentationen findet ihr auch in einem [Tagungsboard](https://s.edufeed.org/zwischenfazit).
 
+Save-the-Date 🗓️: Die Abschlusstagung findet im Frühling 2027 an der Goethe-Universität in Frankfurt statt! Bei Interesse, meldet euch gerne [hier](https://terminladung.uni-frankfurt.de/)! 
+
 ## Begrüßung & Vorstellung der Zwischenergebnisse aus FOERBICO
 
 ![](Grusswort-Reuter.jpg)
@@ -271,6 +273,6 @@ Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und 
 
 ![](Hilfskraefte.jpg)
 
-Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer Abschlusstagung (LINK Anmeldung/Infoseite?) wieder zu begrüßen! 
+Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer [Abschlusstagung](https://terminladung.uni-frankfurt.de/) wieder zu begrüßen! 
 
 ![](Team.JPG)
