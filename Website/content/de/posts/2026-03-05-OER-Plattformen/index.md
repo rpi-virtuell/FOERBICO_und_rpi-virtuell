@@ -95,7 +95,7 @@ Diese Plattformen fungieren in erster Linie als Aggregatoren. Sie verlinken auf 
 ## 2. Allgemeine Suchforen: Hohe Reichweite, geringe Strukturierung
 
 Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche. Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
-Gleichzeitig sind sie keine spezifischen OER-Infrastrukturen. Ihre Logik orientiert sich an Reichweite und Sichtbarkeit, nicht an pädagogischer Qualität oder konsistenter Lizenztransparenz. Entsprechend eignen sie sich vor allem zur Inspiration und ersten Orientierung, erfordern jedoch eine sorgfältige rechtliche, fachliche und didaktische Prüfung der gefundenen Materialien.
+Gleichzeitig sind sie keine spezifischen OER-Infrastrukturen. Ihre Logik orientiert sich an Reichweite und Sichtbarkeit, nicht an pädagogischen und fachdidaktischen Standards oder konsistenter Lizenztransparenz. Entsprechend eignen sie sich vor allem zur Inspiration und ersten Orientierung, erfordern jedoch eine sorgfältige rechtliche, fachliche und didaktische Prüfung der gefundenen Materialien.
 
 
 ## 3. OER-Suchmaschinen: Materialien vernetzen und auffindbar machen
@@ -152,7 +152,7 @@ Gemeinsam ist diesen Plattformen, dass sie Materialien nicht nur aggregieren, so
 
 Die Übersicht über unterschiedliche OER-Plattformen macht deutlich, dass sich ein vielfältiges Spektrum an Plattformtypen unterscheiden lässt, über die offene Bildungsmaterialien recherchiert und verbreitet werden können. Diese Plattformen verfolgen jeweils unterschiedliche Zielsetzungen und Formen der Qualitätssicherung. Für eine reflektierte Nutzung im religionspädagogischen Kontext ist es daher notwendig, die Plattformlogiken zu kennen und ihre jeweiligen Potenziale sowie Grenzen mitzudenken.
 
-Dabei zeigt sich ein zentrales Strukturproblem der OER-Landschaft: Weniger der Mangel an Materialien stellt derzeit die größte Herausforderung dar als vielmehr ihre begrenzte Sichtbarkeit. 
+Dabei zeigt sich ein zentrales Strukturproblem der OER-Landschaft: Weniger der Mangel an Materialien stellt derzeit die größte Herausforderung dar als vielmehr ihre begrenzte Sichtbarkeit und – in manchen Fällen – ihre fachliche und curriculare Passung. 
 Zwar ist das Angebot an offenen Bildungsmaterialien in den vergangenen Jahren deutlich gewachsen, zugleich ist die Landschaft jedoch stark fragmentiert und vielen Lehrenden sowie Praktiker:innen nur begrenzt bekannt. Repositorien entstehen häufig dezentral an Hochschulen, in Bundesländern oder in projektförmigen Kontexten. Sie nutzen unterschiedliche Metadatenstandards und sind technisch nur eingeschränkt interoperabel. Dadurch verbleiben viele offen lizenzierte Materialien in isolierten Silos und sind außerhalb ihres jeweiligen Ursprungsökosystems nur schwer auffindbar [(vgl. Otto/Kerres 2022)](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.866917/full)
 
 Offenheit im lizenzrechtlichen Sinne garantiert daher noch keine strukturelle Offenheit im digitalen Raum. Plattformen fungieren vielmehr als eigenständige infrastrukturelle Akteure, die durch technische und organisatorische Entscheidungen maßgeblich beeinflussen, welche Inhalte sichtbar werden. 
