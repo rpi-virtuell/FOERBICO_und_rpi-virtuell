@@ -273,6 +273,6 @@ Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und 
 
 ![](Hilfskraefte.jpg)
 
-Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer [Abschlusstagung](https://terminladung.uni-frankfurt.de/) wieder zu begrüßen! 
+Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer [Abschlusstagung](https://terminladung.uni-frankfurt.de/registration?step=workshop&institution=69c25342c3008b1e271c4) wieder zu begrüßen! 
 
 ![](Team.JPG)
