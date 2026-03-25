@@ -1,9 +1,7 @@
 ---
 # commonMetadata
 '@context': https://schema.org/
-# KORRIGIERT: type war ScholarlyArticle
 type: LearningResource
-# KORRIGIERT: creativeWorkStatus fehlte
 creativeWorkStatus: Published
 id: https://oer.community/recap-foerbico-tagung-2026
 name: 'Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt'
@@ -13,9 +11,7 @@ description: >-
   zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung
   2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis
   und interaktiven Formaten.
-# KORRIGIERT: /deed.de ergänzt
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-# KORRIGIERT: inLanguage als Liste
 inLanguage:
   - de
 creator:
@@ -82,20 +78,16 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 image: https://oer.community/recap-foerbico-tagung-2026/Team.JPG
-# KORRIGIERT: learningResourceType war ungültiger Wert
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-# KORRIGIERT: educationalLevel fehlte
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-# KORRIGIERT: about fehlte
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
 datePublished: '2026-03-16'
-# KORRIGIERT: keywords fehlten, kanonische Schreibweisen
 keywords:
   - FOERBICO in Kontakt
   - Event
@@ -106,7 +98,6 @@ keywords:
   - Vernetzung
 
 # staticSiteGenerator
-# KORRIGIERT: author-Reihenfolge an creator angeglichen
 author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
@@ -122,7 +113,6 @@ cover:
   image: Team.JPG
   hiddenInSingle: true
   alt: 'FOERBICO-Team (CC BY 4.0)'
-# KORRIGIERT: summary = description (identisch)
 summary: >-
   Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur
   Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und
@@ -130,7 +120,6 @@ summary: >-
   2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis
   und interaktiven Formaten.
 url: recap-foerbico-tagung-2026
-# KORRIGIERT: tags = keywords (identisch, kanonisch)
 tags:
   - FOERBICO in Kontakt
   - Event
@@ -233,7 +222,7 @@ Weitere Informationen zu RELImentar findet ihr in unserem [Interview](https://oe
 
 ## Podiumsdiskussion mit Critical Friends
 
-![](Critical Friends.jpg)
+![](CriticalFriends.jpg)
 
 Zum Abschluss der Tagung gab es eine Podiumsdiskussion mit Critical Friends moderiert von Manfred Pirner. Die FOERBICO-Ergebnisse dienten als Grundlage und es wurde aus verschiedenen Perspektiven überlegt, welche weiteren Forschungsmöglichkeiten auf Grundlage der Ergebnisse möglich wären.
 
