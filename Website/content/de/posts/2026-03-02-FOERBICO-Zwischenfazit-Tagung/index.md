@@ -208,7 +208,7 @@ Weitere Informationen zu relilab findet ihr in unserem [Interview](https://oer.c
 
 [reliGlobal](https://religlobal.org/) ist eine gemeinsame Fachstelle der ALPIKA (Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter) mit dem Ziel, Globales Lernen nachhaltig im evangelischen Religionsunterricht zu verankern. Das Projekt wird seit September 2023 vom Comenius-Institut und weiteren pädagogisch-theologischen Instituten getragen und von Brot für die Welt gefördert. Jens Palkowitsch-Kühl brachte den Teilnehmenden insbesondere die Arbeitsweise in Sprint-Teams und den didaktischen Dreischritt bestehend aus Erkennen, Begreifen und Handeln näher.
 
-Weitere Informationen zu reliGlobal findet ihr in unserem [Interview](https://oer.community/interview-reliGlobal/) mit Frank Behr.
+Weitere Informationen zu reliGlobal findet ihr in unserem [Interview](https://oer.community/interview-reliGlobal/) mit Frank Behr und Jens Palkowitsch-Kühl.
 
 👉 Die reliGlobal-Folien findet ihr [hier](https://nextcloud.comenius.de/s/4w75Qd7dfYLeNcf).
     
