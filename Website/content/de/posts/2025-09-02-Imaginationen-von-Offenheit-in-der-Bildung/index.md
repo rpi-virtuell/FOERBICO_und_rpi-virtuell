@@ -39,7 +39,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-03-31'
+datePublished: '2026-03-31'
 keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
