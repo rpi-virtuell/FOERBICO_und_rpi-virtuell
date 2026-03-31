@@ -45,3 +45,4 @@ logs
 # Build directories
 public
 dist
+.claude/settings.local.json
