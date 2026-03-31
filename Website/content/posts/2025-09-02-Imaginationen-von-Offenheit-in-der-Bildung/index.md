@@ -20,6 +20,14 @@ creator:
     affiliation:
       name: ORCA.nrw
       type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    id: https://orcid.org/0000-0002-9282-0406
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 inLanguage:
   - de
 about:
@@ -44,6 +52,7 @@ keywords:
 # staticSiteGenerator
 author:
   - Markus Deimann
+  - Jörg Lohrer
 title: 'Imaginationen von Offenheit in der Bildung'
 cover:
   relative: true
@@ -65,7 +74,16 @@ tags:
   - Hochschuldidaktik
   - Digitalisierung
   - KI
-
+---
+ 
+Markus Deimann veröffentlichte seinen Aufsatz „Imaginaries of Openness in Education" 2025 in der ersten Ausgabe des DILeMa-Journals, einer Zeitschrift des europäischen Netzwerks [DIGI-Europe](https://digi-europe.org/dilema-journal.html) für digitale Kompetenz in der Bildung. Seit geraumer Zeit ist die Zeitschriftenwebsite [dilema-journal.de](https://www.dilema-journal.de) nicht mehr erreichbar – der Zugang zu den dort veröffentlichten Beiträgen faktisch unterbrochen.
+ 
+Das ist nicht nur ein technisches Problem, sondern illustriert genau die Spannungen, die Deimann in seinem Text beschreibt: Offenheit in der Bildung bleibt fragil, wenn sie an einzelne Plattformen und zentrale Infrastrukturen gebunden ist. Solange ein Serverausfall oder eine auslaufende Domain genügt, um wissenschaftliche Beiträge verschwinden zu lassen, bleibt das Versprechen offener Bildung uneingelöst.
+ 
+Die vorliegende deutsche Fassung wurde von Jörg Lohrer unter Einsatz verschiedener Sprachmodelle (DeepL, ChatGPT, Claude) aus dem englischen Original übersetzt und redaktionell überarbeitet. Dass der Text hier erscheint – offen lizenziert, dezentral gehostet und nun mehrsprachig zugänglich – ist eine kleine praktische Antwort auf die große Frage, die Deimann stellt: Welche Imaginarien von Offenheit leiten unser Handeln, und wie resilient sind die Strukturen, die wir dafür aufbauen?
+ 
+Der Originalbeitrag ist unter [DOI 10.11576/dilema-7563](https://doi.org/10.11576/dilema-7563) referenziert (wenngleich derzeit nicht erreichbar). Die Übersetzung erfolgt im Rahmen der CC BY-SA 4.0-Lizenz des Originals.
+ 
 ---
 
 # Imaginationen von Offenheit in der Bildung
