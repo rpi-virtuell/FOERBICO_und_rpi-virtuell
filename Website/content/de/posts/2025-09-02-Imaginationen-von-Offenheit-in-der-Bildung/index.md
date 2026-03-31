@@ -201,6 +201,16 @@ Zuboff, S. (2019). *The age of surveillance capitalism.* PublicAffairs.
 
 --------
 
+Markus Deimann published "Imaginaries of Openness in Education" in 2025 as part of the inaugural issue of the DILeMa Journal, a publication of the [DIGI-Europe](https://digi-europe.org/dilema-journal.html) network for digital literacy in education. For some time now, the journal's website [dilema-journal.de](https://www.dilema-journal.de) has been unreachable – effectively cutting off access to the articles published there.
+
+This is more than a technical inconvenience. It illustrates precisely the tensions Deimann describes in his essay: openness in education remains fragile when it depends on single platforms and centralised infrastructure. As long as a server failure or an expiring domain is enough to make scholarly work disappear, the promise of open education remains unfulfilled.
+
+This English original is republished here – openly licensed, decentrally hosted, and now available alongside a [German translation](https://oer.community/imaginationen-offenheit-bildung) prepared by Jörg Lohrer with the assistance of several language models (DeepL, ChatGPT, Claude). Making the text available in multiple languages and on resilient infrastructure is a small, practical response to the larger question Deimann raises: which imaginaries of openness guide our actions, and how resilient are the structures we build to sustain them?
+
+The original publication is referenced under [DOI 10.11576/dilema-7563](https://doi.org/10.11576/dilema-7563). Republication follows the terms of the CC BY-SA 4.0 licence.
+
+--------
+
 
 # Imaginaries of Openness in Education
 *Markus Deimann (ORCA.nrw)*
