@@ -59,7 +59,7 @@ cover:
   image: geo-tueren-offenheit.jpg
   alt: "Abstrakte Illustration mit drei sich überlappenden geometrischen Formen. Im Hintergrund ein Raster aus offenen und geschlossenen Türen als Textur."
   caption: "Symbolbild: KI-generiert ([ChatGPT](https://chatgpt.com/s/m_69cb6fb5e73c819198d6a691f709ab20)) | Lizenz: [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
-  hiddenInSingle: true
+  hiddenInSingle: false
 summary: >-
   Markus Deimann untersucht Open Education als pädagogisches Imaginäres und
   analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von
