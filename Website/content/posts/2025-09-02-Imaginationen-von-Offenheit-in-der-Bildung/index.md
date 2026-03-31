@@ -1,3 +1,73 @@
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Imaginationen von Offenheit in der Bildung'
+description: >-
+  Markus Deimann untersucht Open Education als pädagogisches Imaginäres und
+  analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von
+  Bildungssystemen und Innovation von Lehr- und Lernpraktiken. Dabei zeigt er,
+  warum die Umsetzung offener Bildung aufgrund widersprüchlicher Imaginarien
+  hinter den Erwartungen zurückbleiben kann.
+license: https://creativecommons.org/licenses/by-sa/4.0/deed.de
+id: https://oer.community/imaginationen-offenheit-bildung
+creator:
+  - givenName: Markus
+    familyName: Deimann
+    id: https://orcid.org/0000-0002-1652-5181
+    type: Person
+    affiliation:
+      name: ORCA.nrw
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+image: https://oer.community/imaginationen-offenheit-bildung/BILDNAME.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2025-03-31'
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Offenheit
+  - Hochschulen
+  - Hochschuldidaktik
+  - Digitalisierung
+  - KI
+ 
+# staticSiteGenerator
+author:
+  - Markus Deimann
+title: 'Imaginationen von Offenheit in der Bildung'
+cover:
+  relative: true
+  image: BILDNAME.jpg
+  alt: BILDBESCHREIBUNG
+  hiddenInSingle: true
+summary: >-
+  Markus Deimann untersucht Open Education als pädagogisches Imaginäres und
+  analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von
+  Bildungssystemen und Innovation von Lehr- und Lernpraktiken. Dabei zeigt er,
+  warum die Umsetzung offener Bildung aufgrund widersprüchlicher Imaginarien
+  hinter den Erwartungen zurückbleiben kann.
+url: imaginationen-offenheit-bildung
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Offenheit
+  - Hochschulen
+  - Hochschuldidaktik
+  - Digitalisierung
+  - KI
+
+---
+
 # Imaginationen von Offenheit in der Bildung
 *Markus Deimann (ORCA.nrw)*
  
