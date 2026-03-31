@@ -33,7 +33,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/imaginationen-offenheit-bildung/BILDNAME.jpg
+image: https://oer.community/imaginationen-offenheit-bildung/geo-tueren-offenheit.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -56,8 +56,9 @@ author:
 title: 'Imaginationen von Offenheit in der Bildung'
 cover:
   relative: true
-  image: BILDNAME.jpg
-  alt: BILDBESCHREIBUNG
+  image: geo-tueren-offenheit.jpg
+  alt: "Abstrakte Illustration mit drei sich überlappenden geometrischen Formen. Im Hintergrund ein Raster aus offenen und geschlossenen Türen als Textur."
+  caption: "Symbolbild: KI-generiert ([ChatGPT](https://chatgpt.com/s/m_69cb6fb5e73c819198d6a691f709ab20)) | Lizenz: [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
   hiddenInSingle: true
 summary: >-
   Markus Deimann untersucht Open Education als pädagogisches Imaginäres und
