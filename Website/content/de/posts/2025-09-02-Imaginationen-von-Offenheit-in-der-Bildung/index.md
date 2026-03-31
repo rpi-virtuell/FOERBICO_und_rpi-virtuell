@@ -77,13 +77,13 @@ tags:
   - KI
 ---
  
-Markus Deimann veröffentlichte seinen Aufsatz „Imaginaries of Openness in Education" 2025 in der ersten Ausgabe des DILeMa-Journals, einer Zeitschrift des europäischen Netzwerks [DIGI-Europe](https://digi-europe.org/dilema-journal.html) für digitale Kompetenz in der Bildung. Seit geraumer Zeit ist die Zeitschriftenwebsite [dilema-journal.de](https://www.dilema-journal.de) nicht mehr erreichbar – der Zugang zu den dort veröffentlichten Beiträgen faktisch unterbrochen.
- 
-Das ist nicht nur ein technisches Problem, sondern illustriert genau die Spannungen, die Deimann in seinem Text beschreibt: Offenheit in der Bildung bleibt fragil, wenn sie an einzelne Plattformen und zentrale Infrastrukturen gebunden ist. Solange ein Serverausfall oder eine auslaufende Domain genügt, um wissenschaftliche Beiträge verschwinden zu lassen, bleibt das Versprechen offener Bildung uneingelöst.
- 
-Die vorliegende deutsche Fassung wurde von Jörg Lohrer unter Einsatz verschiedener Sprachmodelle (DeepL, ChatGPT, Claude) aus dem englischen Original übersetzt und redaktionell überarbeitet. Dass der Text hier erscheint – offen lizenziert, dezentral gehostet und nun mehrsprachig zugänglich – ist eine kleine praktische Antwort auf die große Frage, die Deimann stellt: Welche Imaginarien von Offenheit leiten unser Handeln, und wie resilient sind die Strukturen, die wir dafür aufbauen?
- 
-Der Originalbeitrag ist unter [DOI 10.11576/dilema-7563](https://doi.org/10.11576/dilema-7563) referenziert (wenngleich derzeit nicht erreichbar). Die Übersetzung erfolgt im Rahmen der CC BY-SA 4.0-Lizenz des Originals.
+Markus Deimann veröffentlichte seinen Aufsatz „Imaginaries of Openness in Education" 2025 in der ersten Ausgabe des DILeMa-Journals, einer Zeitschrift des europäischen Netzwerks [DIGI-Europe](https://digi-europe.org/dilema-journal.html) für digitale Kompetenz in der Bildung. Die Zeitschriftenwebsite [dilema-journal.de](https://www.dilema-journal.de) ist immer wieder von Serverausfällen betroffen - ein Symptom der Fragilität projektfinanzierter Infrastruktur, auf der ein Großteil offener Bildungspublikationen aufsetzt.
+
+Das ist nicht nur ein technisches Ärgernis, sondern illustriert genau die Spannungen, die Deimann in seinem Text beschreibt: Offenheit in der Bildung bleibt fragil, wenn sie an einzelne Plattformen und befristet geförderte Infrastrukturen gebunden ist. Wenn wiederkehrende Ausfälle den Zugang zu wissenschaftlichen Beiträgen unterbrechen, wird das Versprechen offener Bildung praktisch unterlaufen.
+
+Die vorliegende deutsche Fassung wurde von Jörg Lohrer unter Einsatz verschiedener Sprachmodelle (DeepL, ChatGPT, Claude) aus dem englischen Original übersetzt und redaktionell überarbeitet. Dass der Text hier erscheint - offen lizenziert, dezentral gehostet und nun mehrsprachig zugänglich - ist eine kleine praktische Antwort auf die große Frage, die Deimann stellt: Welche Imaginarien von Offenheit leiten unser Handeln, und wie resilient sind die Strukturen, die wir dafür aufbauen?
+
+Der Originalbeitrag ist unter [DOI 10.11576/dilema-7563](https://doi.org/10.11576/dilema-7563) referenziert. Die Übersetzung erfolgt im Rahmen der CC BY-SA 4.0-Lizenz des Originals.
  
 ---
 
@@ -201,11 +201,11 @@ Zuboff, S. (2019). *The age of surveillance capitalism.* PublicAffairs.
 
 --------
 
-Markus Deimann published "Imaginaries of Openness in Education" in 2025 as part of the inaugural issue of the DILeMa Journal, a publication of the [DIGI-Europe](https://digi-europe.org/dilema-journal.html) network for digital literacy in education. For some time now, the journal's website [dilema-journal.de](https://www.dilema-journal.de) has been unreachable – effectively cutting off access to the articles published there.
+Markus Deimann published "Imaginaries of Openness in Education" in 2025 as part of the inaugural issue of the DILeMa Journal, a publication of the [DIGI-Europe](https://digi-europe.org/dilema-journal.html) network for digital literacy in education. The journal's website [dilema-journal.de](https://www.dilema-journal.de) has been plagued by recurring server outages - a symptom of the fragility of project-funded infrastructure that underpins much of open education publishing.
 
-This is more than a technical inconvenience. It illustrates precisely the tensions Deimann describes in his essay: openness in education remains fragile when it depends on single platforms and centralised infrastructure. As long as a server failure or an expiring domain is enough to make scholarly work disappear, the promise of open education remains unfulfilled.
+This is more than a technical nuisance. It illustrates precisely the tensions Deimann describes in his essay: openness in education remains fragile when it depends on single platforms and temporarily funded infrastructure. When recurring outages interrupt access to scholarly work, the promise of open education is practically undermined.
 
-This English original is republished here – openly licensed, decentrally hosted, and now available alongside a [German translation](https://oer.community/imaginationen-offenheit-bildung) prepared by Jörg Lohrer with the assistance of several language models (DeepL, ChatGPT, Claude). Making the text available in multiple languages and on resilient infrastructure is a small, practical response to the larger question Deimann raises: which imaginaries of openness guide our actions, and how resilient are the structures we build to sustain them?
+This English original is republished here - openly licensed, decentrally hosted, and now available alongside a [German translation](https://oer.community/imaginationen-offenheit-bildung) prepared by Jörg Lohrer with the assistance of several language models (DeepL, ChatGPT, Claude). Making the text available in multiple languages and on resilient infrastructure is a small, practical response to the larger question Deimann raises: which imaginaries of openness guide our actions, and how resilient are the structures we build to sustain them?
 
 The original publication is referenced under [DOI 10.11576/dilema-7563](https://doi.org/10.11576/dilema-7563). Republication follows the terms of the CC BY-SA 4.0 licence.
 
