@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>AMB Metadaten Editor</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<style>
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  max-width: 1100px;
+}
+
+h1, h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 0.35rem;
+}
+
+input[type="text"],
+input[type="url"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.4rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+.help {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* -------- Keywords UI -------- */
+
+.keyword-group-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.keyword-toggle {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.kw-parent-label {
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.keyword-children {
+  margin-left: 1.5rem;
+  margin-top: 0.4rem;
+  display: none;
+}
+
+.keyword-group.open .keyword-children {
+  display: block;
+}
+</style>
+</head>
+
+<body>
+
+<h1>AMB Metadaten Editor</h1>
+
+<div id="loading">Lade Konfiguration...</div>
+
+<form onsubmit="return false;" style="display:none;">
+
+<h2>Allgemein</h2>
+
+<fieldset>
+  <legend>@context *</legend>
+  <label>
+    Sprache
+    <select id="context-language">
+      <option value="de" selected>Deutsch</option>
+      <option value="en">Englisch</option>
+    </select>
+  </label>
+  <label>
+    <input type="checkbox" id="context-schemaorg">
+    schema.org ergänzen
+  </label>
+</fieldset>
+
+<fieldset>
+  <legend>Ressourcen-ID *</legend>
+  <input type="url" id="amb-id">
+</fieldset>
+
+<fieldset>
+  <legend>Art der Bildungsressource *</legend>
+  <label><input type="checkbox" checked disabled> LearningResource</label>
+</fieldset>
+
+<fieldset>
+  <legend>Titel *</legend>
+  <input type="text" id="amb-name">
+</fieldset>
+
+<fieldset>
+  <legend>Beschreibung</legend>
+  <textarea id="amb-description" rows="4"></textarea>
+</fieldset>
+
+<h2>Fach</h2>
+
+<fieldset id="religion-container">
+  <legend>Religion</legend>
+  <!-- Wird dynamisch geladen -->
+</fieldset>
+
+<h2>Schlagworte</h2>
+
+<div id="keywords-container"></div>
+
+<button onclick="generate()">JSON erzeugen</button>
+<button onclick="downloadJSON()">JSON herunterladen</button>
+
+</form>
+
+<h2>Erzeugtes JSON</h2>
+<pre id="output"></pre>
+
+<script>
+/* ---------- Konfiguration ---------- */
+
+// URL zur Markdown-Datei mit den Inhalten
+const CONFIG_URL = 'editorconfig.md'; // Ändern Sie dies zu Ihrer MD-URL
+
+/* ---------- Daten aus Markdown laden ---------- */
+
+let keywordGroups = {};
+let religionOptions = [];
+
+async function loadConfig() {
+  try {
+    const response = await fetch(CONFIG_URL);
+    if (!response.ok) throw new Error('Konnte Konfiguration nicht laden');
+    
+    const markdown = await response.text();
+    parseMarkdown(markdown);
+    renderReligionOptions();
+    renderKeywords();
+    
+    document.getElementById('loading').style.display = 'none';
+    document.querySelector('form').style.display = 'block';
+  } catch (error) {
+    document.getElementById('loading').innerHTML = 
+      `<p style="color:red">Fehler beim Laden: ${error.message}</p>
+       <p>Bitte stellen Sie sicher, dass die Datei "${CONFIG_URL}" erreichbar ist.</p>`;
+  }
+}
+
+function parseMarkdown(md) {
+  const lines = md.split('\n');
+  let currentSection = null;
+  let currentKeywordParent = null;
+  
+  for (let line of lines) {
+    line = line.trim();
+    
+    // Hauptabschnitte
+    if (line.startsWith('## Religion')) {
+      currentSection = 'religion';
+      continue;
+    }
+    if (line.startsWith('## Schlagworte') || line.startsWith('## Keywords')) {
+      currentSection = 'keywords';
+      continue;
+    }
+    
+    // Religion Optionen
+    if (currentSection === 'religion' && line.startsWith('- ')) {
+      const match = line.match(/^- \[([^\]]+)\]\(([^\)]+)\): (.+)$/);
+      if (match) {
+        const [, label, id, description] = match;
+        religionOptions.push({ id, label: label.trim() });
+      }
+    }
+    
+    // Schlagworte
+    if (currentSection === 'keywords') {
+      if (line.startsWith('### ')) {
+        currentKeywordParent = line.substring(4).trim();
+        keywordGroups[currentKeywordParent] = [];
+      } else if (line.startsWith('- ') && currentKeywordParent) {
+        const keyword = line.substring(2).trim();
+        if (keyword) keywordGroups[currentKeywordParent].push(keyword);
+      }
+    }
+  }
+}
+
+function renderReligionOptions() {
+  const container = document.getElementById('religion-container');
+  
+  let html = `
+    <p class="help">
+      Das Fach <strong>Religion</strong> ist gesetzt.
+      Optional können Zielrichtungen des Religionsunterrichts ergänzt werden.
+    </p>
+    <label><input type="checkbox" checked disabled> Religion</label>
+  `;
+  
+  religionOptions.forEach(option => {
+    html += `
+      <label><input type="checkbox" class="about-detail"
+        data-id="${option.id}"
+        data-label="${option.label}"> ${option.label}</label>
+    `;
+  });
+  
+  container.innerHTML = html;
+}
+
+function renderKeywords() {
+  const kc = document.getElementById("keywords-container");
+  kc.innerHTML = '';
+  
+  for (const [parent, children] of Object.entries(keywordGroups)) {
+    const group = document.createElement("div");
+    group.className = "keyword-group";
+
+    group.innerHTML = `
+      <div class="keyword-group-header">
+        <span class="keyword-toggle">▶</span>
+        <label class="kw-parent-label">
+          <input type="checkbox" class="kw-parent" value="${parent}">
+          ${parent}
+        </label>
+      </div>
+      <div class="keyword-children"></div>
+    `;
+
+    const childContainer = group.querySelector(".keyword-children");
+
+    children.forEach(c => {
+      childContainer.innerHTML += `
+        <label>
+          <input type="checkbox" class="kw-child"
+            data-parent="${parent}" value="${c}">
+          ${c}
+        </label>`;
+    });
+
+    childContainer.innerHTML += `
+      <label>
+        Freitext
+        <input type="text" class="kw-free"
+          data-parent="${parent}" placeholder="kommagetrennt">
+      </label>`;
+
+    kc.appendChild(group);
+  }
+}
+
+/* ---------- Accordion & Logik ---------- */
+
+document.addEventListener("click", e => {
+  if (e.target.closest(".keyword-group-header")) {
+    const group = e.target.closest(".keyword-group");
+    group.classList.toggle("open");
+    group.querySelector(".keyword-toggle").textContent =
+      group.classList.contains("open") ? "▼" : "▶";
+  }
+});
+
+document.addEventListener("change", e => {
+  if (e.target.classList.contains("kw-child") && e.target.checked) {
+    const parent = e.target.dataset.parent;
+    document.querySelector(`.kw-parent[value="${parent}"]`).checked = true;
+  }
+});
+
+/* ---------- Build JSON ---------- */
+
+function buildContext() {
+  const ctx = ["https://w3id.org/kim/amb/context.jsonld"];
+  if (document.getElementById('context-schemaorg').checked) ctx.push("https://schema.org");
+  ctx.push({ "@language": document.getElementById('context-language').value });
+  return ctx;
+}
+
+function buildAbout() {
+  const res = [{
+    id: "https://example.org/vocab/school-subject/religion",
+    type: "Concept",
+    prefLabel: { de: "Religion" }
+  }];
+  document.querySelectorAll(".about-detail:checked").forEach(cb => {
+    res.push({
+      id: cb.dataset.id,
+      type: "Concept",
+      prefLabel: { de: cb.dataset.label }
+    });
+  });
+  return res;
+}
+
+function buildKeywords() {
+  const set = new Set();
+
+  document.querySelectorAll(".kw-parent:checked")
+    .forEach(cb => set.add(cb.value));
+
+  document.querySelectorAll(".kw-child:checked")
+    .forEach(cb => set.add(cb.value));
+
+  document.querySelectorAll(".kw-free").forEach(input => {
+    input.value.split(",").map(v => v.trim()).filter(Boolean)
+      .forEach(v => {
+        set.add(v);
+        set.add(input.dataset.parent);
+      });
+  });
+
+  return set.size ? Array.from(set) : undefined;
+}
+
+function generate() {
+  const ambId = document.getElementById('amb-id');
+  const ambName = document.getElementById('amb-name');
+  const ambDescription = document.getElementById('amb-description');
+  const output = document.getElementById('output');
+  
+  if (!ambId.value || !ambName.value)
+    return alert("Pflichtfelder fehlen.");
+
+  const json = {
+    "@context": buildContext(),
+    id: ambId.value.trim(),
+    type: ["LearningResource"],
+    name: ambName.value.trim(),
+    about: buildAbout()
+  };
+
+  if (ambDescription.value.trim())
+    json.description = ambDescription.value.trim();
+
+  const kw = buildKeywords();
+  if (kw) json.keywords = kw;
+
+  output.textContent = JSON.stringify(json, null, 2);
+}
+
+function downloadJSON() {
+  const output = document.getElementById('output');
+  if (!output.textContent) return;
+  const blob = new Blob([output.textContent], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "amb-metadata.json";
+  a.click();
+}
+
+/* ---------- Init ---------- */
+loadConfig();
+</script>
+
+</body>
+</html>

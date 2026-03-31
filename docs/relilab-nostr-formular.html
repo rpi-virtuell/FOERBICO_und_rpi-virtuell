@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>relilab – Session einreichen</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- EasyMDE Markdown Editor -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easymde/2.18.0/easymde.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easymde/2.18.0/easymde.min.js" defer></script>
+
+  <style>
+    :root {
+      --rl-blue: #34b2f6;
+      --rl-purple: #d225f8;
+      --rl-orange: #ff8103;
+      --rl-pink: #e54d9a;
+      --rl-dark: #1a1a2e;
+      --rl-card: #ffffff;
+      --rl-bg: #f4f6fb;
+      --rl-text: #2d2d3a;
+      --rl-muted: #7a7a8e;
+      --rl-border: #e0e4ef;
+      --rl-success: #22c55e;
+      --rl-error: #ef4444;
+      --gradient-main: linear-gradient(135deg, var(--rl-blue), var(--rl-purple), var(--rl-pink), var(--rl-orange));
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: var(--rl-bg);
+      color: var(--rl-text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    /* ====== HEADER ====== */
+    .header {
+      background: var(--rl-dark);
+      position: relative;
+      overflow: hidden;
+      padding: 2rem 1.5rem 3rem;
+      text-align: center;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--gradient-main);
+      opacity: 0.12;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: -2px; left: 0; right: 0;
+      height: 40px;
+      background: var(--rl-bg);
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+    .header-logo {
+      position: relative;
+      z-index: 1;
+      height: 64px;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+    }
+    .header h1 {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 700;
+      font-size: 2.4rem;
+      color: #fff;
+      position: relative;
+      z-index: 1;
+      letter-spacing: 0.02em;
+    }
+    .header h1 span {
+      background: var(--gradient-main);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header p {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 300;
+      font-size: 1.25rem;
+      color: rgba(255,255,255,0.7);
+      position: relative;
+      z-index: 1;
+      margin-top: 0.25rem;
+    }
+
+    /* ====== MAIN CONTAINER ====== */
+    .container {
+      max-width: 740px;
+      margin: -1rem auto 3rem;
+      padding: 0 1.25rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* ====== SECTIONS ====== */
+    .form-section {
+      background: var(--rl-card);
+      border-radius: 16px;
+      padding: 2rem 2rem 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04), 0 8px 24px rgba(0,0,0,0.04);
+      border: 1px solid var(--rl-border);
+      transition: box-shadow 0.3s ease;
+    }
+    .form-section:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06), 0 12px 32px rgba(0,0,0,0.06);
+    }
+    .section-label {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 600;
+      font-size: 1.35rem;
+      color: var(--rl-dark);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .section-label .icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+    .icon-blue { background: rgba(52,178,246,0.12); color: var(--rl-blue); }
+    .icon-purple { background: rgba(210,37,248,0.12); color: var(--rl-purple); }
+    .icon-orange { background: rgba(255,129,3,0.12); color: var(--rl-orange); }
+    .icon-pink { background: rgba(229,77,154,0.12); color: var(--rl-pink); }
+
+    /* ====== FORM ELEMENTS ====== */
+    .field { margin-bottom: 1.25rem; }
+    .field:last-child { margin-bottom: 0; }
+
+    label {
+      display: block;
+      font-weight: 500;
+      font-size: 0.92rem;
+      color: var(--rl-text);
+      margin-bottom: 0.35rem;
+    }
+    label .optional {
+      font-weight: 400;
+      color: var(--rl-muted);
+      font-size: 0.82rem;
+    }
+    label .required {
+      color: var(--rl-pink);
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="date"],
+    input[type="time"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 0.65rem 0.9rem;
+      border: 1.5px solid var(--rl-border);
+      border-radius: 10px;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 0.95rem;
+      color: var(--rl-text);
+      background: #fff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+    input:focus, select:focus {
+      border-color: var(--rl-blue);
+      box-shadow: 0 0 0 3px rgba(52,178,246,0.12);
+    }
+    input::placeholder { color: var(--rl-muted); opacity: 0.7; }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 520px) {
+      .row { grid-template-columns: 1fr; }
+    }
+
+    /* ====== FILE UPLOAD ====== */
+    .file-drop {
+      border: 2px dashed var(--rl-border);
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+    .file-drop:hover, .file-drop.dragover {
+      border-color: var(--rl-blue);
+      background: rgba(52,178,246,0.04);
+    }
+    .file-drop.has-file {
+      border-color: var(--rl-success);
+      background: rgba(34,197,94,0.04);
+    }
+    .file-drop input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .file-drop-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .file-drop-text { font-size: 0.9rem; color: var(--rl-muted); }
+    .file-drop-text strong { color: var(--rl-blue); }
+    .file-preview {
+      margin-top: 1rem;
+      display: none;
+    }
+    .file-preview img {
+      max-width: 100%;
+      max-height: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .file-preview .file-name {
+      font-size: 0.85rem;
+      color: var(--rl-muted);
+      margin-top: 0.5rem;
+    }
+    .file-remove {
+      display: inline-block;
+      margin-top: 0.5rem;
+      font-size: 0.82rem;
+      color: var(--rl-error);
+      cursor: pointer;
+      text-decoration: underline;
+      background: none;
+      border: none;
+      font-family: inherit;
+    }
+
+    /* ====== CC LICENSE SELECT ====== */
+    .license-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .license-option {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.55rem 0.85rem;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 1.5px solid transparent;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+    .license-option:hover {
+      background: rgba(0,0,0,0.02);
+    }
+    .license-option input[type="radio"] {
+      accent-color: var(--rl-blue);
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+    .license-option.selected {
+      border-color: var(--rl-blue);
+      background: rgba(52,178,246,0.06);
+    }
+    .license-green {
+      background: rgba(34,197,94,0.06);
+      border-color: rgba(34,197,94,0.2);
+    }
+    .license-green:hover { background: rgba(34,197,94,0.1); }
+    .license-green.selected {
+      border-color: var(--rl-success);
+      background: rgba(34,197,94,0.12);
+    }
+    .license-red {
+      background: rgba(239,68,68,0.04);
+      border-color: rgba(239,68,68,0.15);
+    }
+    .license-red:hover { background: rgba(239,68,68,0.08); }
+    .license-red.selected {
+      border-color: var(--rl-error);
+      background: rgba(239,68,68,0.1);
+    }
+    .license-badge {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 600;
+      font-size: 0.72rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      flex-shrink: 0;
+    }
+    .badge-green { background: rgba(34,197,94,0.15); color: #16a34a; }
+    .badge-red { background: rgba(239,68,68,0.12); color: #dc2626; }
+
+    /* ====== CHECKBOX GRID (Zielgruppe) ====== */
+    .checkbox-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .chip {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.85rem;
+      border-radius: 50px;
+      border: 1.5px solid var(--rl-border);
+      cursor: pointer;
+      font-size: 0.88rem;
+      transition: all 0.2s;
+      user-select: none;
+    }
+    .chip:hover { border-color: var(--rl-purple); background: rgba(210,37,248,0.04); }
+    .chip input[type="checkbox"] { display: none; }
+    .chip.active {
+      border-color: var(--rl-purple);
+      background: rgba(210,37,248,0.1);
+      color: var(--rl-purple);
+      font-weight: 500;
+    }
+    .chip .checkmark { font-size: 0.75rem; display: none; }
+    .chip.active .checkmark { display: inline; }
+
+    /* ====== TOGGLE / VIDEOKONFERENZ ====== */
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .toggle {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      inset: 0;
+      background: var(--rl-border);
+      border-radius: 24px;
+      transition: background 0.25s;
+    }
+    .toggle-slider::before {
+      content: '';
+      position: absolute;
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.25s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    }
+    .toggle input:checked + .toggle-slider {
+      background: var(--rl-orange);
+    }
+    .toggle input:checked + .toggle-slider::before {
+      transform: translateX(20px);
+    }
+    .toggle-label {
+      font-size: 0.9rem;
+      color: var(--rl-text);
+    }
+    .custom-url-field {
+      display: none;
+      margin-top: 0.75rem;
+      padding: 0.85rem;
+      border-radius: 10px;
+      background: rgba(255,129,3,0.04);
+      border: 1px solid rgba(255,129,3,0.15);
+    }
+    .custom-url-field.visible { display: block; }
+    .zoom-default {
+      font-size: 0.85rem;
+      color: var(--rl-muted);
+      margin-top: 0.35rem;
+    }
+    .zoom-default a { color: var(--rl-blue); text-decoration: none; }
+    .zoom-default a:hover { text-decoration: underline; }
+
+    /* ====== SUBMIT ====== */
+    .submit-section {
+      text-align: center;
+      padding: 1.5rem 2rem 2rem;
+    }
+    .submit-btn {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-weight: 700;
+      font-size: 1.35rem;
+      letter-spacing: 0.03em;
+      padding: 0.85rem 3rem;
+      border: none;
+      border-radius: 50px;
+      color: #fff;
+      background: var(--gradient-main);
+      background-size: 200% 200%;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 16px rgba(52,178,246,0.25);
+      position: relative;
+      overflow: hidden;
+    }
+    .submit-btn:hover {
+      background-position: 100% 0;
+      box-shadow: 0 6px 24px rgba(210,37,248,0.3);
+      transform: translateY(-1px);
+    }
+    .submit-btn:active { transform: translateY(0); }
+    .submit-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+    .submit-btn .spinner {
+      display: none;
+      width: 20px;
+      height: 20px;
+      border: 2.5px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin-right: 0.5rem;
+      vertical-align: middle;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .submit-btn.loading .spinner { display: inline-block; }
+    .submit-btn.loading .btn-text { opacity: 0.8; }
+
+    /* ====== STATUS MESSAGES ====== */
+    .status-msg {
+      margin-top: 1.25rem;
+      padding: 1rem 1.25rem;
+      border-radius: 12px;
+      font-size: 0.92rem;
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .status-msg.success {
+      display: block;
+      background: rgba(34,197,94,0.08);
+      border: 1px solid rgba(34,197,94,0.25);
+      color: #16a34a;
+    }
+    .status-msg.error {
+      display: block;
+      background: rgba(239,68,68,0.08);
+      border: 1px solid rgba(239,68,68,0.2);
+      color: #dc2626;
+    }
+
+    /* ====== EASYMDE OVERRIDES ====== */
+    .EasyMDEContainer .CodeMirror {
+      border-radius: 10px;
+      border-color: var(--rl-border);
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 0.95rem;
+      min-height: 120px;
+    }
+    .EasyMDEContainer .CodeMirror-focused {
+      border-color: var(--rl-blue);
+      box-shadow: 0 0 0 3px rgba(52,178,246,0.12);
+    }
+    .EasyMDEContainer .editor-toolbar {
+      border-color: var(--rl-border);
+      border-radius: 10px 10px 0 0;
+    }
+    .EasyMDEContainer .editor-toolbar button:hover {
+      background: rgba(52,178,246,0.08);
+    }
+    .editor-toolbar button.active, .editor-toolbar button:hover {
+      border-color: var(--rl-blue);
+    }
+
+    /* ====== FOOTER ====== */
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--rl-muted);
+    }
+    .footer a { color: var(--rl-blue); text-decoration: none; }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 520px) {
+      .header h1 { font-size: 1.8rem; }
+      .form-section { padding: 1.5rem 1.25rem 1.25rem; }
+      .submit-btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="header">
+    <img src="https://relilab.org/wp-content/uploads/2021/06/Design-ohne-Titel.png" alt="relilab Logo" class="header-logo">
+    <h1><span>Session</span> einreichen</h1>
+    <p>Erstelle ein Nostr-Kalender-Event für das relilab</p>
+  </header>
+
+  <!-- ====== FORM ====== -->
+  <main class="container">
+    <form id="eventForm" novalidate>
+
+      <!-- KONTAKT -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-blue">✉</span>
+          Kontakt
+        </div>
+        <div class="field">
+          <label for="email">E-Mail-Adresse <span class="optional">(optional)</span></label>
+          <input type="email" id="email" name="email" placeholder="deine@email.de">
+        </div>
+      </div>
+
+      <!-- SESSION -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-purple">📋</span>
+          Session-Details
+        </div>
+        <div class="field">
+          <label for="title">Session-Titel <span class="required">*</span></label>
+          <input type="text" id="title" name="title" placeholder="z.B. KI im Religionsunterricht" required>
+        </div>
+        <div class="field">
+          <label for="summary">Kurzbeschreibung <span class="optional">(optional)</span></label>
+          <textarea id="summary" name="summary"></textarea>
+        </div>
+        <div class="field">
+          <label for="content">Inhaltsbeschreibung <span class="optional">(optional)</span></label>
+          <textarea id="content" name="content"></textarea>
+        </div>
+      </div>
+
+      <!-- BILD -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-orange">🖼</span>
+          Beitragsbild
+        </div>
+        <div class="field">
+          <div class="file-drop" id="fileDrop">
+            <input type="file" id="image" name="image" accept="image/jpeg,image/png,image/webp">
+            <div class="file-drop-icon">📷</div>
+            <div class="file-drop-text">Bild hierher ziehen oder <strong>klicken</strong> zum Auswählen<br><small>JPG, PNG oder WebP</small></div>
+          </div>
+          <div class="file-preview" id="filePreview">
+            <img id="previewImg" src="" alt="Vorschau">
+            <div class="file-name" id="fileName"></div>
+            <button type="button" class="file-remove" id="fileRemove">Bild entfernen</button>
+          </div>
+        </div>
+
+        <div id="imageMetaFields" style="display:none;">
+          <div class="field">
+            <label for="imageCredit">Bildquelle / Credit <span class="optional">(optional)</span></label>
+            <input type="text" id="imageCredit" name="imageCredit" placeholder="z.B. Foto: Max Mustermann">
+          </div>
+          <div class="field">
+            <label>Creative-Commons-Lizenz <span class="required">*</span></label>
+            <div class="license-grid" id="licenseGrid">
+              <!-- Grün (empfohlen) -->
+              <label class="license-option license-green">
+                <input type="radio" name="license" value="CC0">
+                <span class="license-badge badge-green">empfohlen</span>
+                <span><strong>CC0</strong> – Public Domain / Keine Rechte vorbehalten</span>
+              </label>
+              <label class="license-option license-green">
+                <input type="radio" name="license" value="CC BY 4.0">
+                <span class="license-badge badge-green">empfohlen</span>
+                <span><strong>CC BY</strong> – Namensnennung</span>
+              </label>
+              <label class="license-option license-green">
+                <input type="radio" name="license" value="CC BY-SA 4.0">
+                <span class="license-badge badge-green">empfohlen</span>
+                <span><strong>CC BY-SA</strong> – Namensnennung, Weitergabe unter gleichen Bedingungen</span>
+              </label>
+              <!-- Rot (einschränkend) -->
+              <label class="license-option license-red">
+                <input type="radio" name="license" value="CC BY-NC 4.0">
+                <span class="license-badge badge-red">einschränkend</span>
+                <span><strong>CC BY-NC</strong> – Nicht kommerziell</span>
+              </label>
+              <label class="license-option license-red">
+                <input type="radio" name="license" value="CC BY-NC-SA 4.0">
+                <span class="license-badge badge-red">einschränkend</span>
+                <span><strong>CC BY-NC-SA</strong> – Nicht kommerziell, Weitergabe unter gleichen Bed.</span>
+              </label>
+              <label class="license-option license-red">
+                <input type="radio" name="license" value="CC BY-ND 4.0">
+                <span class="license-badge badge-red">einschränkend</span>
+                <span><strong>CC BY-ND</strong> – Keine Bearbeitung</span>
+              </label>
+              <label class="license-option license-red">
+                <input type="radio" name="license" value="CC BY-NC-ND 4.0">
+                <span class="license-badge badge-red">einschränkend</span>
+                <span><strong>CC BY-NC-ND</strong> – Nicht kommerziell, Keine Bearbeitung</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DATUM & ZEIT -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-pink">📅</span>
+          Datum & Uhrzeit
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="startDate">Start-Datum <span class="required">*</span></label>
+            <input type="date" id="startDate" name="startDate" required>
+          </div>
+          <div class="field">
+            <label for="startTime">Start-Uhrzeit <span class="required">*</span></label>
+            <input type="time" id="startTime" name="startTime" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="endDate">End-Datum <span class="required">*</span></label>
+            <input type="date" id="endDate" name="endDate" required>
+          </div>
+          <div class="field">
+            <label for="endTime">End-Uhrzeit <span class="required">*</span></label>
+            <input type="time" id="endTime" name="endTime" required>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEOKONFERENZ -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-blue">🎥</span>
+          Videokonferenz
+        </div>
+        <div class="zoom-default">
+          Standard: <a href="https://relilab.org/live/" target="_blank" rel="noopener">relilab-Zoom (relilab.org/live)</a>
+        </div>
+        <div class="toggle-row" style="margin-top: 0.75rem;">
+          <label class="toggle">
+            <input type="checkbox" id="customZoom">
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label">Veranstaltung findet <strong>nicht</strong> im relilab-Zoom statt</span>
+        </div>
+        <div class="custom-url-field" id="customUrlField">
+          <div class="field">
+            <label for="customUrl">Videokonferenz-URL <span class="required">*</span></label>
+            <input type="url" id="customUrl" name="customUrl" placeholder="https://meet.example.com/...">
+          </div>
+        </div>
+      </div>
+
+      <!-- ZIELGRUPPE -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-purple">🎯</span>
+          Zielgruppe
+        </div>
+        <div class="checkbox-grid" id="audienceGrid">
+          <label class="chip"><input type="checkbox" name="audience" value="elementar"><span class="checkmark">✓</span> Elementar</label>
+          <label class="chip"><input type="checkbox" name="audience" value="Grundschule"><span class="checkmark">✓</span> Grundschule</label>
+          <label class="chip"><input type="checkbox" name="audience" value="Sek1"><span class="checkmark">✓</span> Sek 1</label>
+          <label class="chip"><input type="checkbox" name="audience" value="Sek2"><span class="checkmark">✓</span> Sek 2</label>
+          <label class="chip"><input type="checkbox" name="audience" value="BRU"><span class="checkmark">✓</span> BRU</label>
+          <label class="chip"><input type="checkbox" name="audience" value="Erwachsenenbildung"><span class="checkmark">✓</span> Erwachsenenbildung</label>
+          <label class="chip"><input type="checkbox" name="audience" value="Hochschule"><span class="checkmark">✓</span> Hochschule</label>
+        </div>
+      </div>
+
+      <!-- HASHTAGS -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-orange">🏷</span>
+          Hashtags / Kategorien
+        </div>
+        <div class="field">
+          <label for="hashtags">Hashtags <span class="optional">(kommagetrennt, optional)</span></label>
+          <input type="text" id="hashtags" name="hashtags" placeholder="z.B. ki, religionsunterricht, digital">
+        </div>
+      </div>
+
+      <!-- AUTH -->
+      <div class="form-section">
+        <div class="section-label">
+          <span class="icon icon-pink">🔑</span>
+          Authentifizierung
+        </div>
+        <div class="field">
+          <label for="token">Zugangs-Token <span class="required">*</span></label>
+          <input type="password" id="token" name="token" placeholder="Dein Passwort / Token" required>
+        </div>
+      </div>
+
+      <!-- SUBMIT -->
+      <div class="form-section submit-section">
+        <button type="submit" class="submit-btn" id="submitBtn">
+          <span class="spinner"></span>
+          <span class="btn-text">Session veröffentlichen</span>
+        </button>
+        <div class="status-msg" id="statusMsg"></div>
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="footer">
+    relilab – Religionspädagogisches Labor · Powered by <a href="https://nostr.com" target="_blank" rel="noopener">Nostr</a>
+  </footer>
+
+  <script>
+    // ============================================
+    // KONFIGURATION – Webhook-URL hier eintragen!
+    // ============================================
+    const WEBHOOK_URL = 'https://DEIN-N8N-SERVER.example.com/webhook/nostr-calendar-event';
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+    // ============================================
+    // WYSIWYG Editors (EasyMDE)
+    // ============================================
+    let summaryEditor, contentEditor;
+
+    function initEditors() {
+      if (typeof EasyMDE === 'undefined') {
+        // Fallback: retry after a short delay
+        setTimeout(initEditors, 200);
+        return;
+      }
+
+      summaryEditor = new EasyMDE({
+        element: document.getElementById('summary'),
+        placeholder: 'Kurzer Teaser-Text zur Session…',
+        spellChecker: false,
+        status: false,
+        toolbar: ['bold', 'italic', 'link', '|', 'preview'],
+        minHeight: '80px',
+      });
+
+      contentEditor = new EasyMDE({
+        element: document.getElementById('content'),
+        placeholder: 'Ausführliche Beschreibung der Session-Inhalte…',
+        spellChecker: false,
+        status: ['lines', 'words'],
+        toolbar: ['bold', 'italic', 'heading', '|', 'unordered-list', 'ordered-list', '|', 'link', 'image', '|', 'preview', 'side-by-side'],
+        minHeight: '160px',
+      });
+    }
+
+    initEditors();
+
+    // ============================================
+    // AUTO-FILL: Start → End
+    // ============================================
+    const startDate = document.getElementById('startDate');
+    const startTime = document.getElementById('startTime');
+    const endDate = document.getElementById('endDate');
+    const endTime = document.getElementById('endTime');
+
+    let endManuallyEdited = false;
+
+    startDate.addEventListener('change', () => {
+      if (!endManuallyEdited || endDate.value === '' || endDate.value === startDate.dataset.prev) {
+        endDate.value = startDate.value;
+      }
+      startDate.dataset.prev = startDate.value;
+    });
+
+    startTime.addEventListener('change', () => {
+      if (!endManuallyEdited || endTime.value === '' || endTime.value === startTime.dataset.prev) {
+        endTime.value = startTime.value;
+      }
+      startTime.dataset.prev = startTime.value;
+    });
+
+    endDate.addEventListener('input', () => { endManuallyEdited = true; });
+    endTime.addEventListener('input', () => { endManuallyEdited = true; });
+
+    // ============================================
+    // FILE UPLOAD / PREVIEW
+    // ============================================
+    const fileDrop = document.getElementById('fileDrop');
+    const fileInput = document.getElementById('image');
+    const filePreview = document.getElementById('filePreview');
+    const previewImg = document.getElementById('previewImg');
+    const fileNameEl = document.getElementById('fileName');
+    const fileRemove = document.getElementById('fileRemove');
+    const imageMetaFields = document.getElementById('imageMetaFields');
+
+    function showImagePreview(file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        previewImg.src = e.target.result;
+        fileNameEl.textContent = file.name + ' (' + (file.size / 1024).toFixed(0) + ' KB)';
+        filePreview.style.display = 'block';
+        fileDrop.classList.add('has-file');
+        imageMetaFields.style.display = 'block';
+      };
+      reader.readAsDataURL(file);
+    }
+
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files.length > 0) showImagePreview(e.target.files[0]);
+    });
+
+    fileDrop.addEventListener('dragover', (e) => { e.preventDefault(); fileDrop.classList.add('dragover'); });
+    fileDrop.addEventListener('dragleave', () => { fileDrop.classList.remove('dragover'); });
+    fileDrop.addEventListener('drop', (e) => {
+      e.preventDefault();
+      fileDrop.classList.remove('dragover');
+      if (e.dataTransfer.files.length > 0) {
+        fileInput.files = e.dataTransfer.files;
+        showImagePreview(e.dataTransfer.files[0]);
+      }
+    });
+
+    fileRemove.addEventListener('click', () => {
+      fileInput.value = '';
+      filePreview.style.display = 'none';
+      fileDrop.classList.remove('has-file');
+      imageMetaFields.style.display = 'none';
+    });
+
+    // ============================================
+    // LICENSE SELECTION HIGHLIGHT
+    // ============================================
+    document.querySelectorAll('#licenseGrid .license-option').forEach(opt => {
+      const radio = opt.querySelector('input[type="radio"]');
+      radio.addEventListener('change', () => {
+        document.querySelectorAll('#licenseGrid .license-option').forEach(o => o.classList.remove('selected'));
+        opt.classList.add('selected');
+      });
+    });
+
+    // ============================================
+    // AUDIENCE CHIPS
+    // ============================================
+    document.querySelectorAll('#audienceGrid .chip').forEach(chip => {
+      chip.addEventListener('click', (e) => {
+        // Let the checkbox toggle naturally, then update class
+        setTimeout(() => {
+          const cb = chip.querySelector('input[type="checkbox"]');
+          chip.classList.toggle('active', cb.checked);
+        }, 0);
+      });
+    });
+
+    // ============================================
+    // CUSTOM ZOOM TOGGLE
+    // ============================================
+    const customZoom = document.getElementById('customZoom');
+    const customUrlField = document.getElementById('customUrlField');
+
+    customZoom.addEventListener('change', () => {
+      customUrlField.classList.toggle('visible', customZoom.checked);
+      if (!customZoom.checked) {
+        document.getElementById('customUrl').value = '';
+      }
+    });
+
+    // ============================================
+    // FORM SUBMISSION
+    // ============================================
+    const form = document.getElementById('eventForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const statusMsg = document.getElementById('statusMsg');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      statusMsg.className = 'status-msg';
+      statusMsg.style.display = 'none';
+
+      // Validation
+      const title = document.getElementById('title').value.trim();
+      const sDate = startDate.value;
+      const sTime = startTime.value;
+      const eDate = endDate.value;
+      const eTime = endTime.value;
+      const token = document.getElementById('token').value;
+
+      if (!title) return showError('Bitte gib einen Session-Titel ein.');
+      if (!sDate || !sTime) return showError('Bitte gib Start-Datum und -Uhrzeit ein.');
+      if (!eDate || !eTime) return showError('Bitte gib End-Datum und -Uhrzeit ein.');
+      if (!token) return showError('Bitte gib den Zugangs-Token ein.');
+
+      // Check end > start
+      const startTs = new Date(sDate + 'T' + sTime).getTime() / 1000;
+      const endTs = new Date(eDate + 'T' + eTime).getTime() / 1000;
+      if (endTs < startTs) return showError('Das End-Datum/Zeit muss nach dem Start liegen.');
+
+      // Custom URL required?
+      if (customZoom.checked && !document.getElementById('customUrl').value.trim()) {
+        return showError('Bitte gib eine Videokonferenz-URL ein.');
+      }
+
+      // License required if image?
+      if (fileInput.files.length > 0) {
+        const selectedLicense = document.querySelector('input[name="license"]:checked');
+        if (!selectedLicense) return showError('Bitte wähle eine Creative-Commons-Lizenz für das Bild.');
+      }
+
+      // Build payload
+      const audiences = Array.from(document.querySelectorAll('input[name="audience"]:checked')).map(cb => cb.value);
+      const hashtagsRaw = document.getElementById('hashtags').value.trim();
+      const hashtags = hashtagsRaw ? hashtagsRaw.split(',').map(t => t.trim().toLowerCase()).filter(Boolean) : [];
+
+      const payload = {
+        token: token,
+        email: document.getElementById('email').value.trim(),
+        title: title,
+        summary: summaryEditor ? summaryEditor.value() : document.getElementById('summary').value,
+        content: contentEditor ? contentEditor.value() : document.getElementById('content').value,
+        startTimestamp: startTs,
+        endTimestamp: endTs,
+        location: customZoom.checked ? document.getElementById('customUrl').value.trim() : 'https://relilab.org/live/',
+        audiences: audiences,
+        hashtags: hashtags,
+        imageCredit: document.getElementById('imageCredit').value.trim(),
+        license: fileInput.files.length > 0 ? document.querySelector('input[name="license"]:checked')?.value || '' : '',
+      };
+
+      // Build FormData (for image upload)
+      const formData = new FormData();
+      formData.append('data', JSON.stringify(payload));
+      if (fileInput.files.length > 0) {
+        formData.append('image', fileInput.files[0]);
+      }
+
+      // Submit
+      submitBtn.disabled = true;
+      submitBtn.classList.add('loading');
+
+      try {
+        const res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          body: formData,
+        });
+
+        const result = await res.json();
+
+        if (res.ok && result.success) {
+          showSuccess('Session erfolgreich veröffentlicht! 🎉' + (result.eventId ? '<br><small>Event-ID: ' + result.eventId.substring(0, 16) + '…</small>' : ''));
+          form.reset();
+          summaryEditor && summaryEditor.value('');
+          contentEditor && contentEditor.value('');
+          filePreview.style.display = 'none';
+          fileDrop.classList.remove('has-file');
+          imageMetaFields.style.display = 'none';
+          customUrlField.classList.remove('visible');
+          document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+          document.querySelectorAll('.license-option').forEach(o => o.classList.remove('selected'));
+          endManuallyEdited = false;
+        } else {
+          showError(result.error || 'Fehler beim Veröffentlichen. Bitte versuche es erneut.');
+        }
+      } catch (err) {
+        showError('Verbindungsfehler: ' + err.message);
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.classList.remove('loading');
+      }
+    });
+
+    function showError(msg) {
+      statusMsg.className = 'status-msg error';
+      statusMsg.innerHTML = msg;
+      statusMsg.style.display = 'block';
+      statusMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function showSuccess(msg) {
+      statusMsg.className = 'status-msg success';
+      statusMsg.innerHTML = msg;
+      statusMsg.style.display = 'block';
+      statusMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    }); // end DOMContentLoaded
+  </script>
+
+</body>
+</html>

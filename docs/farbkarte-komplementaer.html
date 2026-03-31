@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farbfusion – FOERBICO × rpi-virtuell | Community-Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;500;700&family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--rpi:#0072aa;--foerbico:#203a8f;--comenius:#2a3b8e;--fau:#04316A;--goethe:#00618F;--relilab:#34b2f6;--fusion-1:#1a5699;--bg:#f6f7fb;--text:#1a1e2e;--text-muted:#5a6178;--card-shadow:0 2px 24px rgba(20,50,100,0.08);--card-shadow-hover:0 8px 40px rgba(20,50,100,0.15);--font-foerbico:'Roboto Condensed',sans-serif;--font-rpi:'Roboto',sans-serif;--font-community:'Yanone Kaffeesatz',sans-serif;--font-mono:'JetBrains Mono',monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-rpi);background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+
+.hero{background:linear-gradient(135deg,#04316A 0%,#203a8f 30%,#0072aa 60%,#34b2f6 100%);padding:80px 40px 60px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40%;left:-20%;width:140%;height:180%;background:radial-gradient(ellipse at 30% 50%,rgba(255,255,255,0.06) 0%,transparent 60%),radial-gradient(ellipse at 80% 30%,rgba(52,178,246,0.12) 0%,transparent 50%);pointer-events:none}
+.hero::after{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1' cy='1' r='0.6' fill='rgba(255,255,255,0.04)'/%3E%3C/svg%3E");pointer-events:none}
+.hero-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1}
+.hero-label{font-family:var(--font-foerbico);font-size:12px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:20px}
+.hero h1{font-family:var(--font-community);font-size:clamp(42px,6vw,72px);font-weight:400;color:white;line-height:1.05;max-width:750px;letter-spacing:.5px}
+.hero h1 em{font-style:normal;font-weight:300;color:rgba(255,255,255,0.65)}
+.hero p{margin-top:24px;font-family:var(--font-rpi);font-weight:300;color:rgba(255,255,255,0.6);font-size:17px;max-width:560px;line-height:1.7}
+
+.container{max-width:1100px;margin:0 auto;padding:0 40px}
+section{padding:72px 0}
+.section-label{font-family:var(--font-foerbico);font-size:12px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--text-muted);margin-bottom:12px}
+.section-title{font-family:var(--font-community);font-size:clamp(30px,4vw,46px);font-weight:400;margin-bottom:40px;color:var(--text);letter-spacing:.3px}
+
+/* COLOR CARDS */
+.color-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:16px}
+.color-card{border-radius:16px;padding:32px 20px;min-height:150px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;transition:transform .3s,box-shadow .3s;cursor:default}
+.color-card:hover{transform:translateY(-4px);box-shadow:var(--card-shadow-hover)}
+.color-card::before{content:'';position:absolute;top:0;right:0;width:70px;height:70px;background:rgba(255,255,255,0.06);border-radius:0 0 0 70px}
+.color-card .institution{font-family:var(--font-foerbico);font-weight:700;font-size:14px;color:white;margin-bottom:4px}
+.color-card .hex{font-family:var(--font-mono);font-size:12px;color:rgba(255,255,255,0.6);letter-spacing:.5px}
+.color-card .relation{font-family:var(--font-rpi);font-size:10px;color:rgba(255,255,255,0.4);margin-top:4px;font-weight:300}
+
+/* FUSION */
+.fusion-band{margin-top:48px;border-radius:20px;overflow:hidden;box-shadow:var(--card-shadow)}
+.fusion-spectrum{height:80px;background:linear-gradient(90deg,#203a8f 0%,#1a4a94 25%,#155a9e 50%,#0072aa 100%);position:relative}
+.fusion-spectrum-labels{position:absolute;inset:0;display:flex;justify-content:space-between;align-items:center;padding:0 32px;color:white;font-family:var(--font-foerbico);font-weight:700;font-size:14px}
+.fusion-spectrum-labels span:nth-child(2){font-weight:300;opacity:.6;font-family:var(--font-rpi)}
+.fusion-details{background:white;padding:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px}
+.fusion-option{text-align:center;padding:20px;border-radius:12px;border:2px solid #eef0f7;transition:all .3s;cursor:default}
+.fusion-option:hover{border-color:var(--fusion-1);background:rgba(26,86,153,0.03)}
+.fusion-option.recommended{border-color:var(--fusion-1);background:rgba(26,86,153,0.05);position:relative}
+.fusion-option.recommended::after{content:'\2605  Empfehlung';position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--fusion-1);color:white;font-family:var(--font-foerbico);font-size:11px;font-weight:700;padding:3px 12px;border-radius:20px}
+.fusion-swatch{width:64px;height:64px;border-radius:50%;margin:0 auto 14px;box-shadow:0 4px 16px rgba(0,0,0,0.12)}
+.fusion-name{font-family:var(--font-foerbico);font-weight:700;font-size:14px;margin-bottom:2px}
+.fusion-hex{font-family:var(--font-mono);font-size:13px;color:var(--text-muted)}
+.fusion-desc{font-family:var(--font-rpi);font-size:13px;color:var(--text-muted);margin-top:8px;line-height:1.5}
+
+/* COMPLEMENTARY */
+.comp-section{background:white;border-radius:20px;box-shadow:var(--card-shadow);overflow:hidden;margin-top:48px}
+.comp-header{padding:32px 32px 0}
+.comp-header h3{font-family:var(--font-community);font-size:28px;font-weight:400}
+.comp-header p{color:var(--text-muted);font-size:14px;margin-top:6px}
+.comp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0}
+.comp-col{padding:28px 32px;border-right:1px solid #eef0f7}
+.comp-col:last-child{border-right:none}
+.comp-col .comp-label{font-family:var(--font-foerbico);font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.comp-col .comp-label .cdot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.comp-pair{display:flex;gap:8px;margin-bottom:12px;align-items:stretch}
+.comp-pair .swatch{width:56px;height:56px;border-radius:10px;flex-shrink:0;position:relative}
+.comp-pair .swatch-info{display:flex;flex-direction:column;justify-content:center}
+.comp-pair .swatch-name{font-family:var(--font-foerbico);font-size:13px;font-weight:700}
+.comp-pair .swatch-hex{font-family:var(--font-mono);font-size:11px;color:var(--text-muted)}
+.comp-pair .swatch-role{font-family:var(--font-rpi);font-size:11px;color:var(--text-muted);font-weight:300}
+.gradient-strip{height:32px;border-radius:8px;margin-top:8px;margin-bottom:16px}
+.comp-example{border-radius:12px;padding:16px;margin-top:12px;position:relative;overflow:hidden}
+.comp-example .ex-label{font-family:var(--font-foerbico);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;opacity:.7;margin-bottom:6px}
+.comp-example .ex-headline{font-family:var(--font-community);font-size:24px;font-weight:400}
+
+/* PROPOSED COMPLEMENTS */
+.proposed-comp{border-top:1px solid #eef0f7;padding:32px}
+.proposed-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
+.proposed-card{border:2px solid #eef0f7;border-radius:14px;padding:20px;transition:all .3s;cursor:default}
+.proposed-card:hover{border-color:var(--fusion-1);box-shadow:0 4px 20px rgba(26,86,153,0.1)}
+.proposed-card.rec-card{border-color:var(--fusion-1);position:relative}
+.proposed-card.rec-card::before{content:'\2605  Empfohlen';position:absolute;top:-10px;right:12px;background:var(--fusion-1);color:white;font-family:var(--font-foerbico);font-size:10px;font-weight:700;padding:2px 10px;border-radius:10px;z-index:2}
+.proposed-swatches{display:flex;gap:6px;margin-bottom:14px}
+.proposed-swatches .ps{width:40px;height:40px;border-radius:8px}
+.proposed-card h4{font-family:var(--font-foerbico);font-size:13px;font-weight:700;margin-bottom:4px}
+.proposed-card p{font-family:var(--font-rpi);font-size:12px;color:var(--text-muted);line-height:1.5}
+
+/* FONT DNA */
+.font-origins{background:white;border-radius:20px;box-shadow:var(--card-shadow);overflow:hidden;margin-top:12px}
+.font-origins-header{padding:32px 32px 0}
+.font-origins-header h3{font-family:var(--font-community);font-size:28px;font-weight:400}
+.font-origins-header p{color:var(--text-muted);font-size:14px;margin-top:6px;max-width:600px}
+.font-dna-grid{display:grid;grid-template-columns:repeat(3,1fr)}
+.font-dna-col{padding:32px;border-right:1px solid #eef0f7}
+.font-dna-col:last-child{border-right:none}
+.origin-tag{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px;font-family:var(--font-foerbico)}
+.origin-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.font-name-label{font-size:13px;font-weight:500;color:var(--text-muted);margin-bottom:8px;font-family:var(--font-mono)}
+.font-desc{font-family:var(--font-rpi);font-size:13px;color:var(--text-muted);line-height:1.6}
+.font-weights{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.weight-pill{font-size:11px;padding:3px 10px;border-radius:6px;background:#f0f2f8;color:var(--text-muted)}
+
+.font-combos,.typo-playground{border-top:1px solid #eef0f7;padding:32px}
+.sub-heading{font-family:var(--font-foerbico);font-size:12px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--text-muted);margin-bottom:24px}
+.combo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.combo-card{border:2px solid #eef0f7;border-radius:16px;overflow:hidden;transition:all .3s}
+.combo-card:hover{border-color:var(--fusion-1);box-shadow:0 4px 20px rgba(26,86,153,0.1)}
+.combo-card.rec{border-color:var(--fusion-1);position:relative}
+.combo-card.rec::before{content:'\2605  Empfohlen';position:absolute;top:12px;right:12px;background:var(--fusion-1);color:white;font-family:var(--font-foerbico);font-size:10px;font-weight:700;padding:3px 10px;border-radius:12px;z-index:2}
+.combo-preview{padding:28px 24px;background:#fafbfe;border-bottom:1px solid #eef0f7}
+.combo-meta{padding:16px 24px;display:flex;flex-wrap:wrap;gap:6px}
+.role-tag{font-family:var(--font-mono);font-size:10px;padding:3px 10px;border-radius:6px;background:#eef2fa;color:var(--fusion-1)}
+.scale-row{display:grid;grid-template-columns:100px 1fr;align-items:baseline;padding:12px 0;border-bottom:1px solid #f4f5fa}
+.scale-row:last-child{border-bottom:none}
+.scale-label{font-family:var(--font-mono);font-size:10px;color:var(--text-muted)}
+
+/* CONCEPTS */
+.concepts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.concept-card{background:white;border-radius:20px;overflow:hidden;box-shadow:var(--card-shadow);transition:transform .3s,box-shadow .3s}
+.concept-card:hover{transform:translateY(-4px);box-shadow:var(--card-shadow-hover)}
+.concept-visual{height:200px;position:relative;overflow:hidden}
+.concept-body{padding:28px}
+.concept-body h3{font-family:var(--font-community);font-size:26px;font-weight:400;margin-bottom:10px}
+.concept-body p{font-family:var(--font-rpi);font-size:14px;color:var(--text-muted);line-height:1.65}
+.concept-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{font-family:var(--font-foerbico);font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:6px;background:#eef2fa;color:var(--fusion-1);font-weight:500}
+
+.viz-nodes{background:linear-gradient(135deg,#0d2e5e,#1a5699);display:flex;align-items:center;justify-content:center;position:relative}
+.node{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,0.12);border:2px solid rgba(255,255,255,0.25);position:absolute;animation:float 6s ease-in-out infinite}
+.node:nth-child(1){top:30%;left:15%}.node:nth-child(2){top:55%;left:35%;width:56px;height:56px;animation-delay:-1s;background:rgba(255,255,255,0.18)}.node:nth-child(3){top:20%;left:55%;width:40px;height:40px;animation-delay:-2s}.node:nth-child(4){top:60%;left:70%;animation-delay:-3s}.node:nth-child(5){top:35%;left:80%;width:36px;height:36px;animation-delay:-4s}
+.viz-nodes .center-label{position:relative;z-index:2;color:white;font-family:var(--font-community);font-size:28px;font-weight:300;letter-spacing:2px}
+.viz-layers{background:linear-gradient(180deg,#f0f3fa,#dce4f4);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:24px}
+.layer{border-radius:10px;padding:10px 24px;color:white;font-family:var(--font-foerbico);font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;text-align:center}
+.layer:nth-child(1){background:#04316A;width:85%}.layer:nth-child(2){background:#154d90;width:75%}.layer:nth-child(3){background:#1a5699;width:65%}.layer:nth-child(4){background:#0072aa;width:55%}.layer:nth-child(5){background:#34b2f6;width:45%}
+.viz-gradient{background:linear-gradient(135deg,#203a8f,#1a5699,#0072aa,#34b2f6);display:flex;align-items:center;justify-content:center}
+.logo-mock{width:120px;height:120px;border-radius:24px;background:rgba(255,255,255,0.12);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.2);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;box-shadow:0 8px 32px rgba(0,0,0,0.2)}
+.logo-mock .logo-main{font-family:var(--font-community);font-size:36px;font-weight:400;line-height:1}
+.logo-mock .logo-sub{font-family:var(--font-foerbico);font-size:8px;letter-spacing:3px;text-transform:uppercase;opacity:.6;margin-top:4px}
+.viz-tiles{background:#0e1c3a;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(3,1fr);gap:4px;padding:16px}
+.tile{border-radius:6px;opacity:.7;transition:opacity .3s}
+.concept-card:hover .tile{opacity:1}
+.tile:nth-child(1){background:#203a8f;grid-column:span 2}.tile:nth-child(2){background:#0072aa}.tile:nth-child(3){background:#34b2f6;grid-column:span 2}.tile:nth-child(4){background:#04316A;grid-column:span 2}.tile:nth-child(5){background:#FFA500}.tile:nth-child(6){background:#1a5699}.tile:nth-child(7){background:#e54d9a}.tile:nth-child(8){background:#0072aa;grid-column:span 2}.tile:nth-child(9){background:#2a3b8e}.tile:nth-child(10){background:#ff8103}.tile:nth-child(11){background:#00618F;grid-column:span 2}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+/* HUB */
+.hub-mockup{margin-top:48px;background:white;border-radius:20px;box-shadow:var(--card-shadow);overflow:hidden}
+.hub-topbar{background:linear-gradient(90deg,#0f3d7a,#1a5699);padding:14px 24px;display:flex;align-items:center;gap:12px}
+.hub-topbar .dot{width:10px;height:10px;border-radius:50%}
+.hub-topbar .dot:nth-child(1){background:#ff5f57}.hub-topbar .dot:nth-child(2){background:#ffbd2e}.hub-topbar .dot:nth-child(3){background:#28ca41}
+.hub-topbar .hub-title{margin-left:16px;color:white;font-family:var(--font-foerbico);font-size:13px;font-weight:500;letter-spacing:.5px}
+.hub-content{display:grid;grid-template-columns:220px 1fr;min-height:400px}
+.hub-sidebar{background:#f2f4f9;padding:24px 20px;border-right:1px solid #e6e9f2}
+.hub-nav-item{padding:10px 14px;border-radius:8px;font-family:var(--font-rpi);font-size:13px;font-weight:500;color:var(--text-muted);margin-bottom:4px;cursor:default;transition:all .2s}
+.hub-nav-item:hover{background:#e6eaf5;color:var(--text)}
+.hub-nav-item.active{background:var(--fusion-1);color:white}
+.hub-main{padding:28px}
+.hub-main h3{font-family:var(--font-community);font-size:30px;font-weight:400;margin-bottom:4px}
+.hub-main .subtitle{font-family:var(--font-rpi);color:var(--text-muted);font-size:14px;margin-bottom:24px;font-weight:300}
+.hub-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.hub-mini-card{border-radius:12px;padding:18px;border:1px solid #e6e9f2;transition:all .2s;cursor:default}
+.hub-mini-card:hover{border-color:var(--fusion-1);box-shadow:0 2px 12px rgba(26,86,153,0.1)}
+.hub-mini-card .card-icon{width:36px;height:36px;border-radius:8px;margin-bottom:12px;display:flex;align-items:center;justify-content:center;font-size:16px}
+.hub-mini-card h4{font-family:var(--font-foerbico);font-size:13px;font-weight:700;margin-bottom:4px}
+.hub-mini-card p{font-family:var(--font-rpi);font-size:12px;color:var(--text-muted);line-height:1.5}
+
+.btn{padding:12px 24px;border-radius:10px;font-size:14px;font-weight:500;border:none;cursor:pointer;transition:all .2s;font-family:var(--font-foerbico);letter-spacing:.3px}
+.btn-primary{background:var(--fusion-1);color:white}.btn-primary:hover{background:#154d90}
+.btn-outline{background:transparent;color:var(--fusion-1);border:2px solid var(--fusion-1)}.btn-outline:hover{background:rgba(26,86,153,0.06)}
+.btn-ghost{background:rgba(26,86,153,0.08);color:var(--fusion-1)}.btn-ghost:hover{background:rgba(26,86,153,0.14)}
+.btn-community{background:var(--fusion-1);color:white;font-family:var(--font-community);font-size:18px;font-weight:400;letter-spacing:.5px;padding:14px 32px;border-radius:12px;border:none;cursor:pointer;transition:all .2s}.btn-community:hover{background:#154d90}
+.btn-accent{background:#FFA500;color:white;font-family:var(--font-foerbico);font-size:14px;font-weight:700;padding:12px 24px;border-radius:10px;border:none;cursor:pointer;transition:all .2s}.btn-accent:hover{background:#e89600}
+.btn-relilab{background:linear-gradient(135deg,#34b2f6,#d225f8);color:white;font-family:var(--font-community);font-size:16px;font-weight:400;padding:12px 28px;border-radius:10px;border:none;cursor:pointer;transition:all .2s}.btn-relilab:hover{opacity:.9}
+
+.summary-card{background:rgba(255,255,255,0.08);border-radius:16px;padding:28px;border:1px solid rgba(255,255,255,0.1)}
+footer{text-align:center;padding:40px;color:var(--text-muted);font-family:var(--font-rpi);font-size:13px;border-top:1px solid #e6e9f2}
+
+@media(max-width:768px){
+  .hero{padding:60px 24px 40px}.container{padding:0 24px}
+  .font-dna-grid,.comp-grid{grid-template-columns:1fr}
+  .font-dna-col,.comp-col{border-right:none;border-bottom:1px solid #eef0f7}.font-dna-col:last-child,.comp-col:last-child{border-bottom:none}
+  .combo-grid,.concepts-grid,.proposed-grid{grid-template-columns:1fr}
+  .hub-content{grid-template-columns:1fr}.hub-sidebar{display:none}
+  .hub-cards{grid-template-columns:1fr}
+  .scale-row{grid-template-columns:80px 1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-label">Farbfusion &amp; Typografie-Konzept &middot; v2</div>
+    <h1>FOERBICO &times; rpi-virtuell<br><em>Community-Hub</em></h1>
+    <p>Farbanalyse mit Komplement&auml;rfarben, relilab-Integration, Schrift-DNA und Gestaltungsideen f&uuml;r den Community-Hub.</p>
+  </div>
+</header>
+
+<!-- ═══ 01 FARBKARTE ═══ -->
+<section>
+  <div class="container">
+    <div class="section-label">01 &mdash; Institutionsfarben</div>
+    <div class="section-title">Farbkarte aller Partnerinstitutionen</div>
+
+    <div class="color-grid">
+      <div class="color-card" style="background:#0072aa"><div class="institution">rpi-virtuell</div><div class="hex">#0072AA</div></div>
+      <div class="color-card" style="background:#34b2f6"><div class="institution">relilab</div><div class="hex">#34B2F6</div><div class="relation">Tochter von rpi-virtuell</div></div>
+      <div class="color-card" style="background:#203a8f"><div class="institution">FOERBICO</div><div class="hex">#203A8F</div></div>
+      <div class="color-card" style="background:#2a3b8e"><div class="institution">Comenius-Institut</div><div class="hex">#2A3B8E</div></div>
+      <div class="color-card" style="background:#04316A"><div class="institution">FAU N&uuml;rnberg</div><div class="hex">#04316A</div></div>
+      <div class="color-card" style="background:#00618F"><div class="institution">Goethe-Uni</div><div class="hex">#00618F</div></div>
+    </div>
+
+    <!-- Fusion -->
+    <div class="fusion-band">
+      <div class="fusion-spectrum">
+        <div class="fusion-spectrum-labels">
+          <span>FOERBICO #203A8F</span>
+          <span>&larr; Fusionsspektrum &rarr;</span>
+          <span>rpi-virtuell #0072AA</span>
+        </div>
+      </div>
+      <div class="fusion-details">
+        <div class="fusion-option"><div class="fusion-swatch" style="background:#0f4a8a"></div><div class="fusion-name">Deep Academic</div><div class="fusion-hex">#0F4A8A</div><div class="fusion-desc">N&auml;her an FOERBICO. Universit&auml;r-seri&ouml;s.</div></div>
+        <div class="fusion-option recommended"><div class="fusion-swatch" style="background:#1a5699"></div><div class="fusion-name">Balanced Blue</div><div class="fusion-hex">#1A5699</div><div class="fusion-desc">Ausgewogene Mitte. Seriosit&auml;t &amp; Offenheit.</div></div>
+        <div class="fusion-option"><div class="fusion-swatch" style="background:#185c9c"></div><div class="fusion-name">Open Community</div><div class="fusion-hex">#185C9C</div><div class="fusion-desc">Leicht heller. Zug&auml;nglich, einladend.</div></div>
+        <div class="fusion-option"><div class="fusion-swatch" style="background:#10547e"></div><div class="fusion-name">Teal Shift</div><div class="fusion-hex">#10547E</div><div class="fusion-desc">Richtung Petrol. Technisch, modern.</div></div>
+      </div>
+    </div>
+
+    <!-- ═══ COMPLEMENTARY COLORS ═══ -->
+    <div class="comp-section">
+      <div class="comp-header">
+        <h3>Komplement&auml;r- &amp; Akzentfarben</h3>
+        <p>Bestehende Farbwelten der Institutionen und abgeleitete Vorschl&auml;ge f&uuml;r den Community-Hub.</p>
+      </div>
+
+      <div class="comp-grid">
+        <!-- FOERBICO -->
+        <div class="comp-col">
+          <div class="comp-label"><span class="cdot" style="background:#203a8f"></span> FOERBICO</div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#203a8f"></div>
+            <div class="swatch-info"><div class="swatch-name">Prim&auml;r</div><div class="swatch-hex">#203A8F</div></div>
+          </div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#FFA500"></div>
+            <div class="swatch-info"><div class="swatch-name">Orange (Komplement&auml;r)</div><div class="swatch-hex">#FFA500</div><div class="swatch-role">CTA-Buttons, Highlights, Warnungen</div></div>
+          </div>
+          <div class="gradient-strip" style="background:linear-gradient(90deg,#203a8f,#FFA500)"></div>
+          <div class="comp-example" style="background:#203a8f;color:white">
+            <div class="ex-label" style="color:rgba(255,255,255,0.6)">FOERBICO Anwendung</div>
+            <div class="ex-headline">Forschung trifft <span style="color:#FFA500">Bildungspraxis</span></div>
+          </div>
+        </div>
+
+        <!-- relilab -->
+        <div class="comp-col">
+          <div class="comp-label"><span class="cdot" style="background:#34b2f6"></span> relilab</div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#34b2f6"></div>
+            <div class="swatch-info"><div class="swatch-name">Prim&auml;r</div><div class="swatch-hex">#34B2F6</div></div>
+          </div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:linear-gradient(135deg,#34b2f6,#d225f8)"></div>
+            <div class="swatch-info"><div class="swatch-name">Gradient Blau&rarr;Magenta</div><div class="swatch-hex">#34B2F6 &rarr; #D225F8</div></div>
+          </div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#ff8103"></div>
+            <div class="swatch-info"><div class="swatch-name">Orange</div><div class="swatch-hex">#FF8103</div><div class="swatch-role">Akzent, Gamification</div></div>
+          </div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#e54d9a"></div>
+            <div class="swatch-info"><div class="swatch-name">Pink</div><div class="swatch-hex">#E54D9A</div><div class="swatch-role">Community-Events, Kreativ</div></div>
+          </div>
+          <div class="gradient-strip" style="background:linear-gradient(90deg,#34b2f6,#d225f8,#e54d9a,#ff8103)"></div>
+          <div class="comp-example" style="background:linear-gradient(135deg,#34b2f6,#d225f8);color:white">
+            <div class="ex-label" style="color:rgba(255,255,255,0.6)">relilab Anwendung</div>
+            <div class="ex-headline">Gemeinsam <span style="color:#ff8103">experimentieren</span></div>
+          </div>
+        </div>
+
+        <!-- rpi-virtuell -->
+        <div class="comp-col">
+          <div class="comp-label"><span class="cdot" style="background:#0072aa"></span> rpi-virtuell</div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#0072aa"></div>
+            <div class="swatch-info"><div class="swatch-name">Prim&auml;r</div><div class="swatch-hex">#0072AA</div></div>
+          </div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#aa5500"></div>
+            <div class="swatch-info"><div class="swatch-name">Kupfer (Komplement&auml;r)</div><div class="swatch-hex">#AA5500</div><div class="swatch-role">Abgeleitet: Farbkreis-Gegen&uuml;ber</div></div>
+          </div>
+          <div class="comp-pair">
+            <div class="swatch" style="background:#e8832a"></div>
+            <div class="swatch-info"><div class="swatch-name">Warm Orange (hellere Variante)</div><div class="swatch-hex">#E8832A</div><div class="swatch-role">Buttons, Badges, Aktionen</div></div>
+          </div>
+          <div class="gradient-strip" style="background:linear-gradient(90deg,#0072aa,#e8832a)"></div>
+          <div class="comp-example" style="background:#0072aa;color:white">
+            <div class="ex-label" style="color:rgba(255,255,255,0.6)">rpi-virtuell Anwendung</div>
+            <div class="ex-headline">Materialien <span style="color:#e8832a">entdecken</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proposed complements for Hub -->
+      <div class="proposed-comp">
+        <div class="sub-heading">Vorgeschlagene Komplement&auml;rpalette &mdash; Community-Hub</div>
+        <p style="font-family:var(--font-rpi);font-size:14px;color:var(--text-muted);margin-bottom:4px;line-height:1.6">Die Partnerfarben zeigen eine klare Tendenz: Orange-T&ouml;ne als universelle Komplement&auml;rfarbe. F&uuml;r den Hub empfehlen wir ein abgestuftes Akzentsystem:</p>
+
+        <div class="proposed-grid">
+          <div class="proposed-card rec-card">
+            <div class="proposed-swatches">
+              <div class="ps" style="background:#1a5699"></div>
+              <div class="ps" style="background:#F29422"></div>
+            </div>
+            <h4>Amber Gold &mdash; Prim&auml;rakzent</h4>
+            <div style="font-family:var(--font-mono);font-size:12px;color:var(--fusion-1);margin-bottom:6px">#F29422</div>
+            <p>Mittelweg zwischen FOERBICO-Orange (#FFA500) und relilab-Orange (#FF8103). Warm, einladend, hoher Kontrast. F&uuml;r CTA-Buttons und Highlights.</p>
+          </div>
+
+          <div class="proposed-card">
+            <div class="proposed-swatches">
+              <div class="ps" style="background:#1a5699"></div>
+              <div class="ps" style="background:#E54D9A"></div>
+            </div>
+            <h4>Magenta Pink &mdash; Community-Akzent</h4>
+            <div style="font-family:var(--font-mono);font-size:12px;color:var(--fusion-1);margin-bottom:6px">#E54D9A</div>
+            <p>&Uuml;bernommen aus relilab. Signalisiert Community-Events, kreative Bereiche und partizipative Formate. Sparsam einsetzen.</p>
+          </div>
+
+          <div class="proposed-card">
+            <div class="proposed-swatches">
+              <div class="ps" style="background:#1a5699"></div>
+              <div class="ps" style="background:#34b2f6"></div>
+              <div class="ps" style="background:#d225f8"></div>
+            </div>
+            <h4>relilab-Gradient &mdash; Tochtermarke</h4>
+            <div style="font-family:var(--font-mono);font-size:12px;color:var(--fusion-1);margin-bottom:6px">#34B2F6 &rarr; #D225F8</div>
+            <p>Behaltener Gradient f&uuml;r relilab-spezifische Inhalte. Erzeugt visuelle Br&uuml;cke zum Hub bei eigener Identit&auml;t.</p>
+          </div>
+
+          <div class="proposed-card">
+            <div class="proposed-swatches">
+              <div class="ps" style="background:#1a5699"></div>
+              <div class="ps" style="background:#2ecc88"></div>
+            </div>
+            <h4>Mint Green &mdash; Erfolg/Status</h4>
+            <div style="font-family:var(--font-mono);font-size:12px;color:var(--fusion-1);margin-bottom:6px">#2ECC88</div>
+            <p>Neutrale Funktionsfarbe f&uuml;r Erfolg, Fortschritt, abgeschlossene Aktionen. Erg&auml;nzt die warmen Akzente k&uuml;hl.</p>
+          </div>
+        </div>
+
+        <!-- Full palette overview -->
+        <div style="margin-top:32px">
+          <div class="sub-heading">Gesamtpalette &mdash; &Uuml;bersicht</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px">
+            <div style="width:48px;height:48px;border-radius:8px;background:#04316A" title="FAU"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#203a8f" title="FOERBICO"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#2a3b8e" title="Comenius"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#0f4a8a" title="Fusion Deep"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#1a5699" title="Fusion Balanced"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#0072aa" title="rpi-virtuell"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#00618F" title="Goethe"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#34b2f6" title="relilab"></div>
+            <div style="width:4px"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#F29422" title="Amber Gold"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#FFA500" title="FOERBICO Orange"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#ff8103" title="relilab Orange"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#e54d9a" title="Pink"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#d225f8" title="Magenta"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#2ecc88" title="Mint"></div>
+          </div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:4px">
+            <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted);padding:2px 8px;background:#f0f2f8;border-radius:4px">Blau-Spektrum: Prim&auml;rfarben</div>
+            <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted);padding:2px 8px;background:#f0f2f8;border-radius:4px">Warm-Spektrum: Akzent &amp; Komplement&auml;r</div>
+            <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted);padding:2px 8px;background:#f0f2f8;border-radius:4px">Gr&uuml;n: Funktionsfarbe</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 02 FONT DNA ═══ -->
+<section style="background:#eef1f8">
+  <div class="container">
+    <div class="section-label">02 &mdash; Typografische DNA</div>
+    <div class="section-title">Drei Schriftfamilien, drei Identit&auml;ten</div>
+
+    <div class="font-origins">
+      <div class="font-origins-header">
+        <h3>Die Schrift-Herkunft des Community-Hubs</h3>
+        <p>Jede Schrift bringt eine eigene Haltung mit. Zusammen erz&auml;hlen sie die Geschichte des Projekts.</p>
+      </div>
+
+      <div class="font-dna-grid">
+        <div class="font-dna-col">
+          <div class="origin-tag" style="background:rgba(32,58,143,0.1);color:#203a8f"><span class="origin-dot" style="background:#203a8f"></span>FOERBICO</div>
+          <div class="font-name-label">Roboto Condensed</div>
+          <div style="font-family:var(--font-foerbico);font-size:36px;font-weight:700;color:#203a8f;margin-bottom:4px;line-height:1.15">Forschung &amp;<br>Bildung</div>
+          <div style="font-family:var(--font-foerbico);font-size:18px;font-weight:300;color:var(--text-muted);margin-bottom:16px">Kompakt. Effizient. Akademisch.</div>
+          <div class="font-desc">Schmal und platzsparend &ndash; ideal f&uuml;r Labels, Navigation, Metadaten. Transportiert wissenschaftliche Kompetenz und institutionelle Seriosit&auml;t.</div>
+          <div class="font-weights">
+            <span class="weight-pill" style="font-family:var(--font-foerbico);font-weight:300">Light 300</span>
+            <span class="weight-pill" style="font-family:var(--font-foerbico);font-weight:400">Regular 400</span>
+            <span class="weight-pill" style="font-family:var(--font-foerbico);font-weight:700">Bold 700</span>
+          </div>
+        </div>
+        <div class="font-dna-col">
+          <div class="origin-tag" style="background:rgba(0,114,170,0.1);color:#0072aa"><span class="origin-dot" style="background:#0072aa"></span>rpi-virtuell</div>
+          <div class="font-name-label">Roboto</div>
+          <div style="font-family:var(--font-rpi);font-size:36px;font-weight:700;color:#0072aa;margin-bottom:4px;line-height:1.15">Digital &amp;<br>Zug&auml;nglich</div>
+          <div style="font-family:var(--font-rpi);font-size:18px;font-weight:300;color:var(--text-muted);margin-bottom:16px">Klar. Lesbar. Vertraut.</div>
+          <div class="font-desc">Die Grundschrift &ndash; bew&auml;hrt im digitalen Raum, hervorragend lesbar. Die gemeinsame Familie mit Condensed schafft visuelle Koh&auml;renz zwischen beiden Institutionen.</div>
+          <div class="font-weights">
+            <span class="weight-pill" style="font-family:var(--font-rpi);font-weight:300">Light 300</span>
+            <span class="weight-pill" style="font-family:var(--font-rpi);font-weight:400">Regular 400</span>
+            <span class="weight-pill" style="font-family:var(--font-rpi);font-weight:500">Medium 500</span>
+            <span class="weight-pill" style="font-family:var(--font-rpi);font-weight:700">Bold 700</span>
+          </div>
+        </div>
+        <div class="font-dna-col">
+          <div class="origin-tag" style="background:rgba(26,86,153,0.1);color:var(--fusion-1)"><span class="origin-dot" style="background:var(--fusion-1)"></span>Community</div>
+          <div class="font-name-label">Yanone Kaffeesatz</div>
+          <div style="font-family:var(--font-community);font-size:42px;font-weight:400;color:var(--fusion-1);margin-bottom:4px;line-height:1.1">Gemeinsam<br>Gestalten</div>
+          <div style="font-family:var(--font-community);font-size:20px;font-weight:300;color:var(--text-muted);margin-bottom:16px">Offen. Einladend. Lebendig.</div>
+          <div class="font-desc">Display-Schrift mit Pers&ouml;nlichkeit. Bricht akademische Strenge auf und signalisiert: hier ist Platz f&uuml;r Menschen. Ideal f&uuml;r Headlines und Community-Bereiche.</div>
+          <div class="font-weights">
+            <span class="weight-pill" style="font-family:var(--font-community);font-weight:300">Light 300</span>
+            <span class="weight-pill" style="font-family:var(--font-community);font-weight:400">Regular 400</span>
+            <span class="weight-pill" style="font-family:var(--font-community);font-weight:600">SemiBold 600</span>
+            <span class="weight-pill" style="font-family:var(--font-community);font-weight:700">Bold 700</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combos -->
+      <div class="font-combos">
+        <div class="sub-heading">Schriftpaarungen im Einsatz</div>
+        <div class="combo-grid">
+          <div class="combo-card">
+            <div class="combo-preview">
+              <div style="font-family:var(--font-foerbico);font-size:26px;font-weight:700;color:var(--fusion-1);margin-bottom:8px">Religi&ouml;se Bildung im digitalen Wandel</div>
+              <div style="font-family:var(--font-foerbico);font-size:14px;font-weight:300;color:var(--text-muted);margin-bottom:12px">FORSCHUNGSBERICHT &middot; 2026</div>
+              <div style="font-family:var(--font-rpi);font-weight:300;font-size:14px;color:var(--text-muted);line-height:1.65">Die Transformation religionsp&auml;dagogischer Praxis erfordert neue theoretische Rahmungen.</div>
+            </div>
+            <div class="combo-meta"><span class="role-tag">H1: Roboto Cond. Bold</span><span class="role-tag">Meta: Roboto Cond. Light</span><span class="role-tag">Body: Roboto Light</span></div>
+          </div>
+          <div class="combo-card rec">
+            <div class="combo-preview">
+              <div style="font-family:var(--font-community);font-size:32px;font-weight:400;color:var(--fusion-1);margin-bottom:8px">Gemeinsam Bildung neu denken</div>
+              <div style="font-family:var(--font-foerbico);font-size:13px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted);margin-bottom:12px">Community-Hub &middot; Diskussion</div>
+              <div style="font-family:var(--font-rpi);font-weight:400;font-size:14px;color:var(--text-muted);line-height:1.65">Teilen Sie Ihre Erfahrungen mit Kolleg:innen aus Forschung, Lehre und kirchlicher Praxis.</div>
+            </div>
+            <div class="combo-meta"><span class="role-tag">H1: Yanone Kaffeesatz</span><span class="role-tag">Meta: Roboto Cond. Medium</span><span class="role-tag">Body: Roboto Regular</span></div>
+          </div>
+          <div class="combo-card">
+            <div class="combo-preview">
+              <div style="font-family:var(--font-community);font-size:30px;font-weight:300;color:var(--fusion-1);margin-bottom:8px">Open-Access-Materialien</div>
+              <div style="font-family:var(--font-foerbico);font-size:18px;font-weight:700;color:#F29422;margin-bottom:12px">Konfirmandenarbeit 4.0</div>
+              <div style="font-family:var(--font-rpi);font-weight:300;font-size:14px;color:var(--text-muted);line-height:1.65">Kuratierte Unterrichtsentw&uuml;rfe und Praxisberichte &ndash; frei verf&uuml;gbar f&uuml;r die Community.</div>
+            </div>
+            <div class="combo-meta"><span class="role-tag">H1: Yanone Light</span><span class="role-tag">H2: Roboto Cond. Bold + Akzent</span><span class="role-tag">Body: Roboto Light</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Type Scale -->
+      <div class="typo-playground">
+        <div class="sub-heading">Typografische Skala</div>
+        <div class="scale-row"><div class="scale-label">Display</div><div style="font-family:var(--font-community);font-size:48px;font-weight:400;line-height:1.1">Community-Hub</div></div>
+        <div class="scale-row"><div class="scale-label">H1</div><div style="font-family:var(--font-community);font-size:36px;font-weight:400;line-height:1.15">Religionsp&auml;dagogik vernetzt</div></div>
+        <div class="scale-row"><div class="scale-label">H2</div><div style="font-family:var(--font-foerbico);font-size:24px;font-weight:700">Forschung &amp; Bildung im Dialog</div></div>
+        <div class="scale-row"><div class="scale-label">H3</div><div style="font-family:var(--font-foerbico);font-size:18px;font-weight:500">Aktuelle Diskussionen im Netzwerk</div></div>
+        <div class="scale-row"><div class="scale-label">Body</div><div style="font-family:var(--font-rpi);font-size:16px;color:var(--text-muted)">Die Plattform verbindet Forschende, Lehrende und Praktizierende in einem gemeinsamen digitalen Raum.</div></div>
+        <div class="scale-row"><div class="scale-label">Small</div><div style="font-family:var(--font-rpi);font-size:14px;font-weight:300;color:var(--text-muted)">12.02.2026 &middot; 5 Kommentare &middot; Open Access</div></div>
+        <div class="scale-row"><div class="scale-label">Label</div><div style="font-family:var(--font-foerbico);font-size:12px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--text-muted)">Forschungsbericht &middot; Praxismaterial &middot; Community</div></div>
+        <div class="scale-row"><div class="scale-label">Accent</div><div style="font-family:var(--font-community);font-size:20px;font-weight:600;color:#F29422">Jetzt <span style="color:#e54d9a">mitmachen</span> &amp; <span style="color:var(--fusion-1)">vernetzen</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 03 CONCEPTS ═══ -->
+<section>
+  <div class="container">
+    <div class="section-label">03 &mdash; Gestaltungsideen</div>
+    <div class="section-title">Vier Konzeptrichtungen f&uuml;r den Community-Hub</div>
+
+    <div class="concepts-grid">
+      <div class="concept-card">
+        <div class="concept-visual viz-nodes"><div class="node"></div><div class="node"></div><div class="node"></div><div class="node"></div><div class="node"></div><span class="center-label">Netzwerk</span></div>
+        <div class="concept-body"><h3>Connected Minds</h3><p>Netzwerk-Metapher mit Yanone Kaffeesatz-Headlines und Roboto Condensed-Metadaten. Dezente Animationen. Orange-Akzente (#F29422) markieren aktive Knoten und Interaktionen.</p><div class="concept-tags"><span class="tag">Netzwerk</span><span class="tag">Dark Mode</span><span class="tag">Animiert</span></div></div>
+      </div>
+      <div class="concept-card">
+        <div class="concept-visual viz-layers"><div class="layer">Forschung</div><div class="layer">Bildung</div><div class="layer">Community</div><div class="layer">Praxis</div><div class="layer">relilab</div></div>
+        <div class="concept-body"><h3>Knowledge Layers</h3><p>Schichtmodell von dunkel (FAU) bis hell (relilab). Roboto Condensed Bold strukturiert die Layer. Komplement&auml;res Orange als Verbindungslinie zwischen den Schichten.</p><div class="concept-tags"><span class="tag">Layer-System</span><span class="tag">Light Mode</span><span class="tag">Hierarchie</span></div></div>
+      </div>
+      <div class="concept-card">
+        <div class="concept-visual viz-gradient"><div class="logo-mock"><span class="logo-main">CH</span><span class="logo-sub">Community Hub</span></div></div>
+        <div class="concept-body"><h3>Gradient Identity</h3><p>Erweiterter Gradient FOERBICO&rarr;rpi&rarr;relilab. Logo in Yanone Kaffeesatz, Untertitel in Roboto Condensed. Glasmorphismus-Elemente. relilab-Gradient als Submarken-Element.</p><div class="concept-tags"><span class="tag">Gradient</span><span class="tag">Glassmorphism</span><span class="tag">Branding</span></div></div>
+      </div>
+      <div class="concept-card">
+        <div class="concept-visual viz-tiles"><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div></div>
+        <div class="concept-body"><h3>Mosaic Grid</h3><p>Kachelsystem mit allen Farben &ndash; Blau-Spektrum plus Akzentfarben (Orange, Pink, Magenta). Jede Kachel ist ein Community-Bereich. Komplement&auml;rfarben heben Aktionen und Events hervor.</p><div class="concept-tags"><span class="tag">Mosaic</span><span class="tag">Komplement&auml;r</span><span class="tag">Responsive</span></div></div>
+      </div>
+    </div>
+
+    <!-- UI Elements -->
+    <div style="background:white;border-radius:20px;box-shadow:var(--card-shadow);overflow:hidden;margin-top:48px">
+      <div style="padding:32px;border-bottom:1px solid #eef0f7"><h3 style="font-family:var(--font-community);font-size:28px;font-weight:400">UI-Elemente &amp; Buttons</h3></div>
+      <div style="padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:40px">
+        <div>
+          <div class="sub-heading">Button-Stile</div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px">
+            <button class="btn btn-primary">Beitreten</button>
+            <button class="btn btn-outline">Entdecken</button>
+            <button class="btn btn-ghost">Mehr erfahren</button>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px">
+            <button class="btn-community">Zur Community</button>
+            <button class="btn-accent">Jetzt starten</button>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <button class="btn-relilab">relilab entdecken</button>
+          </div>
+          <div style="margin-top:12px;font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">Roboto Cond. (sachlich) &middot; Yanone (Community) &middot; Akzentfarben f&uuml;r CTAs</div>
+        </div>
+        <div>
+          <div class="sub-heading">Gesamtpalette</div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <div style="width:48px;height:48px;border-radius:8px;background:#04316A" title="FAU"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#203a8f" title="FOERBICO"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#1a5699" title="Fusion"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#0072aa" title="rpi"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#34b2f6" title="relilab"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#e8f0f8" title="Light"></div>
+          </div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
+            <div style="width:48px;height:48px;border-radius:8px;background:#F29422" title="Amber"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#FFA500" title="Orange"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#ff8103" title="relilab Orange"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#e54d9a" title="Pink"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#d225f8" title="Magenta"></div>
+            <div style="width:48px;height:48px;border-radius:8px;background:#2ecc88" title="Mint"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hub Mockup -->
+    <div class="hub-mockup">
+      <div class="hub-topbar"><div class="dot"></div><div class="dot"></div><div class="dot"></div><span class="hub-title">Community-Hub &mdash; FOERBICO &times; rpi-virtuell</span></div>
+      <div class="hub-content">
+        <div class="hub-sidebar">
+          <div class="hub-nav-item active">&#x1F3E0; Dashboard</div>
+          <div class="hub-nav-item">&#x1F4AC; Diskussionen</div>
+          <div class="hub-nav-item">&#x1F4DA; Materialien</div>
+          <div class="hub-nav-item">&#x1F52C; Forschung</div>
+          <div class="hub-nav-item">&#x1F465; Gruppen</div>
+          <div class="hub-nav-item" style="color:#e54d9a">&#x1F3AA; relilab</div>
+          <div class="hub-nav-item">&#x1F4C5; Veranstaltungen</div>
+          <div class="hub-nav-item">&#x2699;&#xFE0F; Einstellungen</div>
+        </div>
+        <div class="hub-main">
+          <h3>Willkommen im Community-Hub</h3>
+          <div class="subtitle">Religionsp&auml;dagogik vernetzt denken, forschen, gestalten.</div>
+          <div class="hub-cards">
+            <div class="hub-mini-card"><div class="card-icon" style="background:#eef2fa">&#x1F4AC;</div><h4>Aktuelle Diskussionen</h4><p>12 neue Beitr&auml;ge zu &bdquo;Digitale Konfirmandenarbeit&ldquo;</p></div>
+            <div class="hub-mini-card"><div class="card-icon" style="background:#fef5e7">&#x1F4C4;</div><h4 style="color:#F29422">Neue Materialien</h4><p>3 Open-Access-Publikationen diese Woche</p></div>
+            <div class="hub-mini-card" style="border-color:#e54d9a;border-width:2px"><div class="card-icon" style="background:linear-gradient(135deg,rgba(52,178,246,0.15),rgba(210,37,248,0.15))">&#x1F3AA;</div><h4 style="color:#d225f8">relilab Event</h4><p>Workshop &bdquo;KI im Religionsunterricht&ldquo; am 20.02.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 04 SUMMARY ═══ -->
+<section style="background:linear-gradient(135deg,#0d2e5e,#1a5699);color:white">
+  <div class="container">
+    <div class="section-label" style="color:rgba(255,255,255,0.4)">04 &mdash; Zusammenfassung</div>
+    <div class="section-title" style="color:white">Das Designsystem auf einen Blick</div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:40px">
+      <div class="summary-card">
+        <div style="font-family:var(--font-community);font-size:36px;font-weight:400;margin-bottom:8px;opacity:.9">Yanone Kaffeesatz</div>
+        <div style="font-family:var(--font-foerbico);font-size:11px;letter-spacing:2px;text-transform:uppercase;opacity:.5;margin-bottom:16px">Display &middot; Headlines &middot; Community</div>
+        <div style="font-family:var(--font-rpi);font-size:14px;opacity:.7;line-height:1.65">Die Stimme der Community. Emotionale Zug&auml;nge, l&auml;dt zum Mitmachen ein. F&uuml;r alle gro&szlig;en Headlines und Community-Bereiche.</div>
+      </div>
+      <div class="summary-card">
+        <div style="font-family:var(--font-foerbico);font-size:32px;font-weight:700;margin-bottom:8px;opacity:.9">Roboto Condensed</div>
+        <div style="font-family:var(--font-foerbico);font-size:11px;letter-spacing:2px;text-transform:uppercase;opacity:.5;margin-bottom:16px">Navigation &middot; Labels &middot; Subheadings</div>
+        <div style="font-family:var(--font-rpi);font-size:14px;opacity:.7;line-height:1.65">Das R&uuml;ckgrat (FOERBICO-DNA). Kompakt, effizient. F&uuml;r Navigation, Labels, Kategorien und sekund&auml;re &Uuml;berschriften.</div>
+      </div>
+      <div class="summary-card">
+        <div style="font-family:var(--font-rpi);font-size:30px;font-weight:400;margin-bottom:8px;opacity:.9">Roboto Regular</div>
+        <div style="font-family:var(--font-foerbico);font-size:11px;letter-spacing:2px;text-transform:uppercase;opacity:.5;margin-bottom:16px">Flie&szlig;text &middot; Body &middot; Beschreibungen</div>
+        <div style="font-family:var(--font-rpi);font-size:14px;opacity:.7;line-height:1.65">Die rpi-virtuell-Basis. Barrierefrei, exzellent lesbar. Die verl&auml;ssliche Grundlage f&uuml;r alle Inhalte.</div>
+      </div>
+    </div>
+
+    <!-- Color summary -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px">
+      <div class="summary-card">
+        <div style="font-family:var(--font-foerbico);font-size:14px;font-weight:700;margin-bottom:12px;opacity:.9">Blau-Spektrum (Prim&auml;r)</div>
+        <div style="display:flex;gap:6px;margin-bottom:12px">
+          <div style="width:32px;height:32px;border-radius:6px;background:#04316A"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#203a8f"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#1a5699"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#0072aa"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#34b2f6"></div>
+        </div>
+        <div style="font-family:var(--font-rpi);font-size:13px;opacity:.6;line-height:1.5">Von FAU-Dunkelblau &uuml;ber FOERBICO und die Fusionsmitte bis zu rpi-virtuell und relilab-Himmelblau.</div>
+      </div>
+      <div class="summary-card">
+        <div style="font-family:var(--font-foerbico);font-size:14px;font-weight:700;margin-bottom:12px;opacity:.9">Warm-Spektrum (Komplement&auml;r)</div>
+        <div style="display:flex;gap:6px;margin-bottom:12px">
+          <div style="width:32px;height:32px;border-radius:6px;background:#F29422"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#FFA500"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#ff8103"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#e54d9a"></div>
+          <div style="width:32px;height:32px;border-radius:6px;background:#d225f8"></div>
+        </div>
+        <div style="font-family:var(--font-rpi);font-size:13px;opacity:.6;line-height:1.5">Amber Gold als Hub-Akzent, FOERBICO-Orange, relilab-Orange/Pink/Magenta f&uuml;r CTAs und Community-Events.</div>
+      </div>
+      <div class="summary-card">
+        <div style="font-family:var(--font-foerbico);font-size:14px;font-weight:700;margin-bottom:12px;opacity:.9">Einsatzregeln</div>
+        <div style="font-family:var(--font-rpi);font-size:13px;opacity:.6;line-height:1.7">
+          <span style="color:#F29422">&FilledSmallSquare;</span> Amber Gold: CTA-Buttons, Highlights<br>
+          <span style="color:#e54d9a">&FilledSmallSquare;</span> Pink: Community-Events, partizipativ<br>
+          <span style="color:#d225f8">&FilledSmallSquare;</span> Magenta-Gradient: relilab-Inhalte<br>
+          <span style="color:#2ecc88">&FilledSmallSquare;</span> Mint: Erfolg, Fortschritt, Status
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container">Farbfusion &amp; Typografie-Konzept v2 &mdash; FOERBICO &times; rpi-virtuell Community-Hub &middot; Februar 2026</div></footer>
+</body>
+</html>

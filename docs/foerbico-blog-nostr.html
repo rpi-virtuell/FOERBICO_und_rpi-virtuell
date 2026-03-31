@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOERBICO Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        .status.connecting {
+            background: #ffeaa7;
+            color: #d63031;
+        }
+
+        .status.connected {
+            background: #55efc4;
+            color: #00b894;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .articles {
+            display: grid;
+            gap: 25px;
+        }
+
+        .article {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .article:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .article-title {
+            font-size: 1.8em;
+            color: #2d3436;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .article-meta {
+            color: #636e72;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .article-summary {
+            color: #2d3436;
+            font-size: 1.05em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .article-content {
+            color: #2d3436;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+
+        .article-content h1,
+        .article-content h2,
+        .article-content h3,
+        .article-content h4 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #2d3436;
+            font-weight: 600;
+        }
+
+        .article-content h1 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        .article-content h2 {
+            font-size: 1.5em;
+        }
+
+        .article-content h3 {
+            font-size: 1.3em;
+        }
+
+        .article-content p {
+            margin-bottom: 15px;
+        }
+
+        .article-content a {
+            color: #0984e3;
+            text-decoration: none;
+            border-bottom: 1px solid #0984e3;
+            transition: color 0.2s ease;
+        }
+
+        .article-content a:hover {
+            color: #0652dd;
+        }
+
+        .article-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            display: block;
+        }
+
+        .article-content ul,
+        .article-content ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .article-content li {
+            margin-bottom: 8px;
+        }
+
+        .article-content blockquote {
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #636e72;
+            font-style: italic;
+        }
+
+        .article-content code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .article-content pre {
+            background: #2d3436;
+            color: #55efc4;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        .article-content pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background: #e8f4f8;
+            color: #0984e3;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+        }
+
+        .no-articles {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            color: #636e72;
+        }
+
+        .json-toggle {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            color: #2d3436;
+            transition: background 0.2s ease;
+        }
+
+        .json-toggle:hover {
+            background: #e0e0e0;
+        }
+
+        .read-more-btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .read-more-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .full-content {
+            margin-top: 20px;
+        }
+
+        .full-content.hidden {
+            display: none;
+        }
+
+        .article-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 20px 0;
+            object-fit: cover;
+        }
+
+        .json-container {
+            margin-top: 15px;
+            background: #2d3436;
+            color: #55efc4;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            line-height: 1.5;
+            max-height: 500px;
+            overflow-y: auto;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: pre-wrap;
+            max-width: 100%;
+        }
+
+        .json-container.hidden {
+            display: none;
+        }
+
+        .json-key {
+            color: #74b9ff;
+            word-break: break-all;
+        }
+
+        .json-string {
+            color: #55efc4;
+            word-break: break-all;
+        }
+
+        .json-number {
+            color: #fdcb6e;
+        }
+
+        .json-boolean {
+            color: #ff7675;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            .article {
+                padding: 20px;
+            }
+
+            .article-title {
+                font-size: 1.4em;
+            }
+
+            .article-content {
+                font-size: 1em;
+            }
+
+            .json-container {
+                font-size: 0.75em;
+                padding: 15px;
+                max-height: 300px;
+            }
+
+            .json-toggle {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .tags {
+                gap: 6px;
+            }
+
+            .tag {
+                font-size: 0.8em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            .article {
+                padding: 15px;
+            }
+
+            .article-title {
+                font-size: 1.2em;
+            }
+
+            .article-meta {
+                font-size: 0.85em;
+            }
+
+            .article-content {
+                font-size: 0.95em;
+            }
+
+            .json-container {
+                font-size: 0.7em;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 FOERBICO Blog</h1>
+            <div class="status connecting" id="status">Verbinde...</div>
+        </header>
+
+        <div class="loading" id="loading">Lade Artikel...</div>
+        <div class="articles" id="articles"></div>
+    </div>
+
+    <script type="module">
+        import { SimplePool, nip19 } from 'https://esm.sh/nostr-tools@2.10.2';
+        import { marked } from 'https://esm.sh/marked@11.1.1';
+
+        // Marked Konfiguration
+        marked.setOptions({
+            breaks: true,
+            gfm: true
+        });
+
+        const npub = 'npub1tgftg8kptdrxxg0g3sm3hckuglv3j0uu3way4vylc5qyt0f44m0s3gun6e';
+        const relays = [
+            'wss://relay-rpi.edufeed.org/',
+            'wss://relay.primal.net/',
+            'wss://primal-cache-eu-central-1-1.primal.net'
+        ];
+
+        let articles = [];
+        let isConnected = false;
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp * 1000);
+            return date.toLocaleDateString('de-DE', { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+        }
+
+        function formatJSON(obj) {
+            let json = JSON.stringify(obj, null, 2);
+            
+            json = json.replace(/"([^"]+)":/g, '<span class="json-key">"$1":</span>');
+            json = json.replace(/: "([^"]+)"/g, ': <span class="json-string">"$1"</span>');
+            json = json.replace(/: (\d+)/g, ': <span class="json-number">$1</span>');
+            json = json.replace(/: (true|false)/g, ': <span class="json-boolean">$1</span>');
+            
+            return json;
+        }
+
+        function toggleJSON(eventId) {
+            const container = document.getElementById('json-' + eventId);
+            const button = document.getElementById('btn-' + eventId);
+            
+            if (container.classList.contains('hidden')) {
+                container.classList.remove('hidden');
+                button.textContent = '🔼 JSON ausblenden';
+            } else {
+                container.classList.add('hidden');
+                button.textContent = '🔽 JSON anzeigen';
+            }
+        }
+
+        function toggleContent(eventId) {
+            const container = document.getElementById('content-' + eventId);
+            const button = document.getElementById('read-' + eventId);
+            
+            if (container.classList.contains('hidden')) {
+                container.classList.remove('hidden');
+                button.textContent = '📖 Weniger anzeigen';
+            } else {
+                container.classList.add('hidden');
+                button.textContent = '📖 Weiterlesen';
+            }
+        }
+
+        function renderArticles() {
+            const articlesContainer = document.getElementById('articles');
+            const loading = document.getElementById('loading');
+            
+            loading.style.display = 'none';
+
+            if (articles.length === 0) {
+                articlesContainer.innerHTML = '<div class="no-articles">Keine Artikel gefunden.</div>';
+                return;
+            }
+
+            articles.sort((a, b) => b.created_at - a.created_at);
+
+            articlesContainer.innerHTML = articles.map(article => {
+                const title = article.tags.find(t => t[0] === 'title')?.[1] || 'Ohne Titel';
+                const summary = article.tags.find(t => t[0] === 'summary')?.[1] || '';
+                const image = article.tags.find(t => t[0] === 'image')?.[1] || '';
+                const publishedAt = article.tags.find(t => t[0] === 'published_at')?.[1];
+                const tags = article.tags.filter(t => t[0] === 't').map(t => t[1]);
+                
+                // Vollständiger Markdown-Content
+                const fullHtmlContent = marked.parse(article.content);
+
+                const eventId = article.id.substring(0, 8);
+                const displayDate = publishedAt ? parseInt(publishedAt) : article.created_at;
+
+                return `
+                    <article class="article">
+                        <h2 class="article-title">${title}</h2>
+                        <div class="article-meta">
+                            📅 ${formatDate(displayDate)}
+                        </div>
+                        ${image ? `<img src="${image}" alt="${title}" class="article-image" />` : ''}
+                        ${summary ? `<div class="article-summary">${summary}</div>` : ''}
+                        <button class="read-more-btn" id="read-${eventId}" onclick="toggleContent('${eventId}')">
+                            📖 Weiterlesen
+                        </button>
+                        <div class="article-content full-content hidden" id="content-${eventId}">
+                            ${fullHtmlContent}
+                        </div>
+                        ${tags.length > 0 ? `
+                            <div class="tags">
+                                ${tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button class="json-toggle" id="btn-${eventId}" onclick="toggleJSON('${eventId}')">
+                            🔽 JSON anzeigen
+                        </button>
+                        <pre class="json-container hidden" id="json-${eventId}">${formatJSON(article)}</pre>
+                    </article>
+                `;
+            }).join('');
+
+            window.toggleJSON = toggleJSON;
+            window.toggleContent = toggleContent;
+        }
+
+        function updateStatus(connected, relayCount = 0) {
+            const statusEl = document.getElementById('status');
+            if (connected) {
+                statusEl.textContent = `✓ Verbunden (${relayCount} Relays)`;
+                statusEl.className = 'status connected';
+            } else {
+                statusEl.textContent = 'Getrennt';
+                statusEl.className = 'status connecting';
+            }
+        }
+
+        async function loadArticles() {
+            try {
+                console.log('Starte Laden der Artikel...');
+                const { type, data } = nip19.decode(npub);
+                if (type !== 'npub') {
+                    throw new Error('Ungültige npub');
+                }
+                const hexPubkey = data;
+                console.log('Hex Pubkey:', hexPubkey);
+
+                const pool = new SimplePool();
+                
+                updateStatus(true, relays.length);
+                console.log('Verbinde zu Relays:', relays);
+
+                const events = await pool.querySync(relays, {
+                    kinds: [30023],
+                    authors: [hexPubkey]
+                });
+
+                console.log('Erhaltene Events:', events.length);
+                articles = events;
+                renderArticles();
+
+                pool.close(relays);
+                
+            } catch (error) {
+                console.error('Fehler beim Laden der Artikel:', error);
+                const loading = document.getElementById('loading');
+                loading.style.display = 'block';
+                loading.innerHTML = 
+                    '<div class="no-articles">Fehler: ' + error.message + '</div>';
+                updateStatus(false);
+            }
+        }
+
+        loadArticles();
+    </script>
+</body>
+</html>

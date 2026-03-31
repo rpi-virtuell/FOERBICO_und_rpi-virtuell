@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OER-Reflexionsbogen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f8ff;
+        }
+        .form-container {
+            width: 90%;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1, .section-header {
+            background-color: #add8e6;
+            padding: 10px;
+            border-radius: 5px;
+            color: #333;
+        }
+        p {
+            text-align: left;
+            margin: 20px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 20px 0;
+        }
+        li {
+            margin-bottom: 10px;
+            display: block;
+        }
+        li label {
+            display: block;
+            margin-left: 35px;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+            margin-top: 3px;
+            float: left;
+        }
+        blockquote {
+            color: #555;
+            background: #f9f9f9;
+            border-left: 4px solid #ccc;
+            padding: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            background-color: #add8e6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #87cefa;
+        }
+        .hidden {
+            display: none;
+        }
+        .indented {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Reflexionsfragen</h1>
+    
+    <div id="section1">
+        <h2>1. Lizenzrechtliche Fragen</h2>
+        <p>Für die rechtssichere Veröffentlichung offener Bildungsmaterialien ist die Beachtung zentraler urheberrechtlicher Vorgaben unerlässlich, insbesondere beim Einsatz von Inhalten Dritter, wie bspw. Grafiken, Bildern oder Textauszügen. Bei externen Materialien ist stets davon auszugehen, dass sie urheberrechtlich geschützt sind, unabhängig davon, ob ein entsprechender Hinweis vorliegt, da dieser Schutz automatisch gilt. Im schulischen und hochschulischen Unterrichts- und Lehrkontext greift die sog. Bildungs- und Wissenschaftsschranke (§ 60a UrhG).</p>
+
+        <p>Wurde das Material komplett eigenständig erstellt?</p>
+        <ul>
+            <li><input type="checkbox" id="self-created-yes" /><label for="self-created-yes">Ja</label></li>
+            <li><input type="checkbox" id="self-created-no" /><label for="self-created-no">Nein</label></li>
+        </ul>
+
+        <p>Für OER eignet es sich eigenes Material zu verwenden. Dies ist jedoch bei Bildern, Bibeltexten, Liedtexten oder Auszüge aus Büchern nicht immer möglich. Wenn das Material aus bereits bestehendem Material, also Fremdmaterial, erstellt wurde:</p>
+
+        <ul>
+            <li><input type="checkbox" id="oer-license" /><label for="oer-license">Das Fremdmaterial besitzt eine OER Lizenz (wie z. B. CC BY 4.0 CC BY-SA 4.0) und kann problemlos genutzt werden.</label></li>
+            <li><input type="checkbox" id="citation-rights" /><label for="citation-rights">Das Fremdmaterial darf im Sinne des Zitatrechts verwendet werden, wurde jedoch gesondert gekennzeichnet, dass es nicht verändert werden kann.</label></li>
+            <li><input type="checkbox" id="replace-material" /><label for="replace-material">Fremdmaterial kann nicht für ein OER verwendet werden und wird vor der Veröffentlichung ersetzt.</label></li>
+        </ul>
+
+        <p>Wenn das Material veröffentlicht werden kann, wird es unter einer der folgenden Creative-Commons-Lizenzen veröffentlicht:</p>
+        <ul>
+            <li><input type="checkbox" id="cc-by" /><label for="cc-by">CC BY</label></li>
+            <li><input type="checkbox" id="cc-by-sa" /><label for="cc-by-sa">CC BY SA</label></li>
+            <li><input type="checkbox" id="cc-by-nd" /><label for="cc-by-nd">CC BY ND</label></li>
+            <li><input type="checkbox" id="cc-by-nc" /><label for="cc-by-nc">CC BY NC</label></li>
+            <li><input type="checkbox" id="cc-by-nc-sa" /><label for="cc-by-nc-sa">CC BY NC SA</label></li>
+            <li><input type="checkbox" id="cc-by-nc-nd" /><label for="cc-by-nc-nd">CC BY NC ND</label></li>
+            <li><input type="checkbox" id="cc-zero" /><label for="cc-zero">CC0</label></li>
+        </ul>
+
+        <div class="buttons">
+            <button type="button" onclick="nextSection(2)">Weiter</button>
+        </div>
+    </div>
+
+    <div id="section2" class="hidden">
+        <h2>2. Technische Bereitstellung und Metadaten</h2>
+        <p>Die technische Qualität von OER ist entscheidend für ihre Nutzbarkeit und Weiterverwendbarkeit. Damit Materialien einfach zugänglich, auffindbar und bearbeitbar sind, sollten sie mit strukturierten Metadaten versehen und in offenen, verbreiteten Dateiformaten bereitgestellt werden.</p>
+        
+        <ul>
+            <li><input type="checkbox" id="device-compatible" /><label for="device-compatible">Das Material ist mit verschiedenen Geräten und Betriebssystemen kompatibel.</label></li>
+            <li><input type="checkbox" id="open-formats" /><label for="open-formats">Das Material wird in offenen und verbreiteten Dateiformaten bereitgestellt.</label></li>
+            <li><input type="checkbox" id="creation-date" /><label for="creation-date">Das Datum der Materialerstellung ist aufgeführt.</label></li>
+            <li><input type="checkbox" id="standard-metadata" /><label for="standard-metadata">Standardisierte Metadaten sind enthalten:</label></li>
+            <ul class="indented">
+                <li><input type="checkbox" id="author" /><label for="author">Urheber</label></li>
+                <li><input type="checkbox" id="title" /><label for="title">Titel</label></li>
+                <li><input type="checkbox" id="license" /><label for="license">Lizenz</label></li>
+                <li><input type="checkbox" id="format" /><label for="format">Format</label></li>
+                <li><input type="checkbox" id="target-group" /><label for="target-group">Zielgruppe</label></li>
+            </ul>
+            <li><input type="checkbox" id="keywords" /><label for="keywords">Das Material enthält Schlagworte</label></li>
+            <li><input type="checkbox" id="software-hardware-independent" /><label for="software-hardware-independent">Es ist unabhängig von spezifischer Software oder Hardware nutzbar.</label></li>
+            <li><input type="checkbox" id="archiving" /><label for="archiving">Die Bereitstellung erfolgt über Plattformen oder Repositorien mit langfristiger Archivierung.</label></li>
+            <li><input type="checkbox" id="visual-information" /><label for="visual-information">Wichtige Informationen werden im Material visuell hervorgehoben (z. B. durch größere Schrift, Symbole, Farben).</label></li>
+            <li><input type="checkbox" id="font-license" /><label for="font-license">Eine gut lesbare Schriftart, die unter offener Lizenz steht, wird verwendet.</label></li>
+            <li><input type="checkbox" id="font-size" /><label for="font-size">Im Material wird eine Mindestschriftgröße von 12–14 pt für Fließtext und größere Schriftgrößen für Überschriften verwendet.</label></li>
+            <li><input type="checkbox" id="contrast" /><label for="contrast">Hoher Kontrast zwischen Text und Hintergrund (z. B. schwarze Schrift auf weißem Hintergrund) wird im Material berücksichtigt.</label></li>
+        </ul>
+
+        <p>Zugänglichkeit für Menschen mit Beeinträchtigungen</p>
+        <ul>
+            <li><input type="checkbox" id="structure-navigation" /><label for="structure-navigation">Das Material ist klar strukturiert und einfach zu navigieren.</label></li>
+            <li><input type="checkbox" id="alt-texts-learning" /><label for="alt-texts-learning">Alternativtexte für Menschen mit Lernschwächen wie Legasthenie bereitstellen.</label></li>
+            <li><input type="checkbox" id="alt-texts-images" /><label for="alt-texts-images">Alternativtexte für Bilder und visuelle Inhalte wurden bereitgestellt, damit Screenreader sie erfassen können.</label></li>
+            <li><input type="checkbox" id="subtitles" /><label for="subtitles">Für audiovisuelle Inhalte sind Untertitel und Texttranskripte vorhanden.</label></li>
+            <li><input type="checkbox" id="contrast-color" /><label for="contrast-color">Kontraste und Farbauswahl sind für Menschen mit Sehbeeinträchtigungen optimiert (siehe Kontrast-Check).</label></li>
+            <li><input type="checkbox" id="accessible-links" /><label for="accessible-links">Das Material enthält barrierefreie Links.</label></li>
+        </ul>
+
+        <blockquote>
+            Als Beispiel für mögliche technische Bereitstellung, Metadaten und Lizenzierung siehe folgende Seiten: RELImentar und reliGlobal
+        </blockquote>
+
+        <div class="buttons">
+            <button type="button" onclick="prevSection(1)">Zurück</button>
+            <button type="button" onclick="nextSection(3)">Weiter</button>
+        </div>
+    </div>
+
+    <div id="section3" class="hidden">
+        <h2>3. Pädagogisch-didaktische Qualität</h2>
+        <p>OER zielen darauf ab, breitflächig genutzt, verändert und auf die jeweiligen Bedürfnisse ihrer Zielgruppen, Lehrkontexte und Lernniveaus hin angepasst zu werden. Eine hohe pädagogisch-didaktische Qualität der OER fördert ihre nachhaltige Weiternutzung.</p>
+
+        <ul>
+            <li><input type="checkbox" id="scientific-basis" /><label for="scientific-basis">Das Material stützt sich auf fachwissenschaftlichen Erkenntnissen.</label></li>
+            <li><input type="checkbox" id="sources" /><label for="sources">Die Quellen sind angegeben.</label></li>
+            <li><input type="checkbox" id="audience" /><label for="audience">Die Zielgruppe wird im Material benannt.</label></li>
+            <li><input type="checkbox" id="options-adaptation" /><label for="options-adaptation">Das Material bietet konkrete Optionen zur Anpassung an unterschiedliche Lernvoraussetzungen an.</label></li>
+            <li><input type="checkbox" id="context-use" /><label for="context-use">Das Material ist so gestaltet, dass es oder Teile davon in anderen Kontexten verwendet werden können.</label></li>
+            <li><input type="checkbox" id="interaction-collaboration" /><label for="interaction-collaboration">Das Material regt zur Interaktion & Kollaboration an, sei es durch die Bereitstellung oder die vorgeschlagenen Methoden.</label></li>
+            <li><input type="checkbox" id="life-relevance" /><label for="life-relevance">Das Material stellt einen Bezug zur Lebenswelt der Lernenden her.</label></li>
+            <li><input type="checkbox" id="independent-solutions" /><label for="independent-solutions">Die Lernenden werden dazu angeregt, selbstständig Lösungsansätze zu entwickeln und Gelerntes auf neue Kontexte anzuwenden.</label></li>
+        </ul>
+
+        <div class="buttons">
+            <button type="button" onclick="prevSection(2)">Zurück</button>
+            <button type="button" onclick="nextSection(4)">Weiter</button>
+        </div>
+    </div>
+
+    <div id="section4" class="hidden">
+        <h2>4. Religionspädagogische Qualität</h2>
+        <p>Die religionspädagogische Qualität von OER wird anhand eines breiten Spektrums etablierter religionsdidaktischer Konzepte bestimmt. Hierzu gehören grundlegende Prinzipien wie Subjektorientierung, Korrelation und Elementarisierung. Darüber hinaus bieten wissenschaftlich fundierte Lernwege, wie biblisches oder ästhetisches Lernen, bedeutende Qualitätsmerkmale für die Gestaltung qualitativer offener Bildungsressourcen. Die grundlegenden religionspädagogischen Prinzipien und Lernwege nehmen jeweils verstärkt den Lernprozess, die Lernenden oder den Lerngegenstand in den Blick.</p>
+
+        <p>Die in diesem Dokument gestellten Fragen dienen zur Reflexion. Es wird nicht davon ausgegangen, dass ein OER alles beinhalten kann.</p>
+
+        <ul>
+            <li><input type="checkbox"><strong>Das Material nimmt verstärkt den Lernprozess in den Blick</strong>
+                <ul class="indented">
+                    <li>Ist das Material so konzipiert worden, dass es einen Lernprozess ermöglicht?</li>
+                    <li>Wurden bei der Erstellung Kerngedanken aus Prinzipien wie Elementarisierung, Korrelation, konstruktivistisches Lernen und performatives Lernen mitgedacht und miteingearbeitet?</li>
+                    <li>Ermöglicht das Material, neben der Wissensvermittlung, einen Raum zur Selbstreflexion, Anknüpfung mit der Lebensrealität, Positionierung und Partizipation?</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"><strong>Das Material nimmt verstärkt Lernende in den Blick</strong>
+                <ul class="indented">
+                    <li>Wurde bei der Erstellung des Materials auf die Heterogenität von Lebenswelten der Schüler:innen geachtet?</li>
+                    <li>Wurde bei der Erstellung des Materials Kerngedanken aus der Subjektorientierung, pluralitätssensibles Lernen und die Perspektivübernahme übernommen?</li>
+                    <li>Ist das Material offen genug gestaltet, dass die Inhalte und Methoden an unterschiedliche Lernniveaus, Hintergründe und Lernstile angepasst werden können?</li>
+                </ul>
+            </li>
+            <li><input type="checkbox"><strong>Das Material ist sich seinem Lerngegenstand bewusst und macht dies explizit ersichtlich</strong>
+                <ul class="indented">
+                    <li>Das Material beinhaltet Elemente des symbolischen Lernens.</li>
+                    <li>Das Material beinhaltet Elemente des biblischen Lernens
+                        <ul class="indented">
+                            <li><input type="checkbox">Wurde bei der Verwendung von Bibelzitaten gecheckt, dass es sich um eine OER-fähige Bibelübersetzung handelt?</li>
+                            <li><input type="checkbox">Gibt es den biblischen Text in unterschiedlichen Niveau-Stufen?</li>
+                        </ul>
+                    </li>
+                    <li>Das Material beinhaltet Elemente des ästhetischen Lernens
+                        <ul class="indented">
+                            <li><input type="checkbox">Die verwendeten Bilder und Grafiken sowie die Gestaltung des Arbeitsblattes sind unter einer freien Lizenz.</li>
+                            <li><input type="checkbox">Wenn dies nicht der Fall ist, ist das Material so modularisiert, dass die Lizensierungen klar und deutlich sind.</li>
+                        </ul>
+                    </li>
+                    <li>Das Material beinhaltet Elemente des ethischen Lernens.</li>
+                    <li>Das Material beinhaltet Elemente des interkulturellen und interreligiösen Lernens.
+                        <ul class="indented">
+                            <li><input type="checkbox">Reproduziert das Material stereotypische Darstellungen von Menschen aus verschiedenen Kulturen oder Menschen aus verschiedenen Religionen?</li>
+                        </ul>
+                    </li>
+                    <li>Das Material beinhaltet Elemente des antisemitismus- und rassismuskritischen Lernens.
+                        <ul class="indented">
+                            <li><input type="checkbox">Reproduziert das Material antisemitische und rassistische Klischees?</li>
+                        </ul>
+                    </li>
+                    <li>Das Material beinhaltet Elemente des diversitäts- und gendersensiblen Lernens.
+                        <ul class="indented">
+                            <li><input type="checkbox">Beinhaltet das Material klischeehafte Darstellungen von Familie?</li>
+                            <li><input type="checkbox">Ist das Material sprachlich sensibel gestaltet?</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+            <div class="buttons">
+                <button type="button" onclick="prevSection(3)">Zurück</button>
+            </div>
+        </div>
+    </div>
+
+<script>
+    function nextSection(sectionNumber) {
+        document.querySelector('.form-container > div:not(.hidden)').classList.add('hidden');
+        document.getElementById('section' + sectionNumber).classList.remove('hidden');
+    }
+
+    function prevSection(sectionNumber) {
+        document.querySelector('.form-container > div:not(.hidden)').classList.add('hidden');
+        document.getElementById('section' + sectionNumber).classList.remove('hidden');
+    }
+</script>
+
+</body>
+</html>

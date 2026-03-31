@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMB-Formular: Religiöse & KI-Kompetenzen</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.6; }
+  h1, h2 { color: #3a3a7a; }
+  section { border: 2px solid #ccc; padding: 1rem; margin-bottom: 1.5rem; border-radius: 10px; background: #fafafa; }
+  label { font-weight: 600; display: block; margin-top: 0.5rem; }
+  input, textarea, select { width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #bbb; border-radius: 5px; }
+  textarea { min-height: 4rem; }
+  .btn { display: inline-block; margin-top: 1rem; padding: 0.75rem 1.25rem; background: #3a3a7a; color: white; border: none; border-radius: 6px; cursor: pointer; }
+  .btn:hover { background: #2a2a66; }
+  pre { background: #f0f0f0; padding: 1rem; border-radius: 6px; overflow-x: auto; }
+</style>
+</head>
+<body>
+
+<h1>AMB-Formular: Religiöse & KI-Kompetenzen</h1>
+<p>Wähle Bundesland, Bildungsplan, Bildungsstufe, Lizenz und Kompetenzen. Die JSON-Ausgabe enthält automatisch die zugehörigen URIs.</p>
+
+<form id="ambForm">
+
+<section>
+  <h2>Allgemeine Angaben</h2>
+  <label for="title">Titel der Ressource</label>
+  <input id="title" type="text">
+
+  <label for="description">Beschreibung</label>
+  <textarea id="description"></textarea>
+
+  <label for="creator">Autor / Ersteller</label>
+  <input id="creator" type="text">
+
+  <label for="publisher">Herausgeber / Institution</label>
+  <input id="publisher" type="text">
+
+  <label for="dateCreated">Erstellungsdatum</label>
+  <input id="dateCreated" type="date">
+
+  <label for="license">Lizenz</label>
+  <select id="license">
+    <option value="">– bitte wählen –</option>
+    <option>CC BY-NC-SA / CC BY-NC – Zur nicht kommerziellen Wiederverwendung und Veränderung gekennzeichnet</option>
+    <option>CC BY-NC-ND – Zur nicht kommerziellen Wiederverwendung gekennzeichnet</option>
+    <option>CC0 / CC BY / CC BY-SA – Zur Wiederverwendung und Veränderung gekennzeichnet</option>
+    <option>CC BY-ND – Zur Wiederverwendung gekennzeichnet</option>
+  </select>
+</section>
+
+<section>
+  <h2>Bundesland & Bildungsplan</h2>
+  <label for="federalState">Bundesland</label>
+  <select id="federalState" onchange="updateFrameworks()">
+    <option value="">– bitte wählen –</option>
+    <option>Baden-Württemberg</option>
+    <option>Bayern</option>
+    <option>Berlin</option>
+    <option>Brandenburg</option>
+    <option>Bremen</option>
+    <option>Hamburg</option>
+    <option>Hessen</option>
+    <option>Mecklenburg-Vorpommern</option>
+    <option>Niedersachsen</option>
+    <option>Nordrhein-Westfalen</option>
+    <option>Rheinland-Pfalz</option>
+    <option>Saarland</option>
+    <option>Sachsen</option>
+    <option>Sachsen-Anhalt</option>
+    <option>Schleswig-Holstein</option>
+    <option>Thüringen</option>
+  </select>
+
+  <label for="educationalFramework">Bildungsplan / Kompetenzrahmen</label>
+  <select id="educationalFramework"><option>– bitte zuerst Bundesland wählen –</option></select>
+</section>
+
+<section>
+  <h2>Kompetenzbereiche</h2>
+  <label for="competenceAreas">Kompetenzen auswählen (Mehrfachauswahl mit Ctrl/Cmd)</label>
+  <select id="competenceAreas" multiple size="8"></select>
+</section>
+
+<section>
+  <h2>Fach- und Lernbereichsbezug</h2>
+  <label for="educationalSubject">Fach</label>
+  <select id="educationalSubject">
+    <option value="">– bitte wählen –</option>
+    <option>Religionspädagogik</option>
+    <option>Ethik und Religion</option>
+    <option>Interreligiöser Dialog</option>
+    <option>Religiöse Bildung</option>
+  </select>
+
+  <label for="learningLevel">Bildungsstufe / Zielgruppe</label>
+  <select id="learningLevel">
+    <option value="">– bitte wählen –</option>
+    <option>Elementarbereich</option>
+    <option>Grundschule</option>
+    <option>Sekundarstufe</option>
+    <option>Oberstufe</option>
+    <option>Berufsschule</option>
+    <option>Ausbildung/Studium/Lehrerfortbildung</option>
+    <option>Gemeinde</option>
+    <option>Arbeit mit Jugendlichen</option>
+    <option>Konfirmandenarbeit</option>
+    <option>Arbeit mit Kindern</option>
+    <option>Kindergottesdienst</option>
+    <option>Erwachsenenbildung</option>
+    <option>Arbeit mit Familien</option>
+  </select>
+</section>
+
+<section>
+  <h2>Weitere Angaben</h2>
+  <label for="learningOutcome">Lernergebnis / Zielkompetenz</label>
+  <textarea id="learningOutcome"></textarea>
+
+  <label for="didacticComment">Didaktischer Kommentar</label>
+  <textarea id="didacticComment"></textarea>
+
+  <label for="differentiationHint">Hinweise zur Differenzierung</label>
+  <textarea id="differentiationHint"></textarea>
+</section>
+
+<button type="button" class="btn" onclick="generateJSON()">JSON erzeugen</button>
+</form>
+
+<h2>JSON-Ausgabe</h2>
+<pre id="output">{}</pre>
+
+<script>
+// Bildungspläne pro Bundesland
+const frameworks = {
+  "Baden-Württemberg": ["Kompetenzstruktur Evangelische Religion 2016", "Ethik ab Klasse 7"],
+  "Bayern": ["Bekenntnisorientierter RU", "Ethik als Pflichtalternative"],
+  "Berlin": ["Pluralitätsorientierter RU", "Pflichtfach Ethik"],
+  "Brandenburg": ["LER (Lebensgestaltung-Ethik-Religionskunde)"],
+  "Bremen": ["Überkonfessioneller RU"],
+  "Hamburg": ["Dialogischer RU"],
+  "Hessen": ["Bekenntnisorientiert, dialogoffen"],
+  "Mecklenburg-Vorpommern": ["Bekenntnisorientiert mit Öffnung zum Dialog"],
+  "Niedersachsen": ["Ökumenisch-bekenntnisorientiert"],
+  "Nordrhein-Westfalen": ["Kompetenzorientiert, bekenntnisgebunden"],
+  "Rheinland-Pfalz": ["Res mixta mit Kirchen"],
+  "Saarland": ["Christlich fundiert, dialogoffen"],
+  "Sachsen": ["Bekenntnisorientiert, dialogisch"],
+  "Sachsen-Anhalt": ["Bekenntnisorientiert, ökumenisch"],
+  "Schleswig-Holstein": ["Interreligiös, inklusiv"],
+  "Thüringen": ["Bekenntnisorientiert, dialogisch"]
+};
+
+// Kompetenzen mit URIs
+const competenceOptions = [
+  {name:"Persönliche Glaubensüberzeugung ausdrücken", uri:"https://w3id.org/religion/competences#selfBelief"},
+  {name:"Religiöse Deutungen verstehen", uri:"https://w3id.org/religion/competences#interpretation"},
+  {name:"Religiöse Argumente nutzen", uri:"https://w3id.org/religion/competences#argumentation"},
+  {name:"Religiöse Sprachformen deuten", uri:"https://w3id.org/religion/competences#languageInterpretation"},
+  {name:"Selbstverständnis der Religion erklären", uri:"https://w3id.org/religion/competences#selfUnderstanding"},
+  {name:"Religiöse Praxis reflektieren", uri:"https://w3id.org/religion/competences#practiceReflection"},
+  {name:"Lebensförderliche Religion unterscheiden", uri:"https://w3id.org/religion/competences#evaluation"},
+  {name:"Dialog und Kooperation mit anderen Religionen", uri:"https://w3id.org/religion/competences#dialog"},
+  {name:"Zweifel und Religionskritik reflektieren", uri:"https://w3id.org/religion/competences#criticism"},
+  {name:"Religiöse Grundwerte vertreten", uri:"https://w3id.org/religion/competences#values"},
+  {name:"Verstehen (KI)", uri:"https://w3id.org/ki/competences#understand"},
+  {name:"Anwenden (KI)", uri:"https://w3id.org/ki/competences#apply"},
+  {name:"Reflektieren (KI)", uri:"https://w3id.org/ki/competences#reflect"},
+  {name:"Mitgestalten (KI)", uri:"https://w3id.org/ki/competences#coDesign"},
+  {name:"AI-Leadership", uri:"https://w3id.org/ki/competences#leadership"}
+];
+
+// Framework Dropdown aktualisieren
+function updateFrameworks() {
+  const state = document.getElementById("federalState").value;
+  const frameworkSelect = document.getElementById("educationalFramework");
+  frameworkSelect.innerHTML = "";
+  if (!state) {
+    frameworkSelect.innerHTML = "<option>– bitte zuerst Bundesland wählen –</option>";
+    return;
+  }
+  frameworks[state].forEach(f => {
+    const opt = document.createElement("option");
+    opt.value = f;
+    opt.textContent = f;
+    frameworkSelect.appendChild(opt);
+  });
+}
+
+// Kompetenzen Dropdown füllen
+window.addEventListener("DOMContentLoaded", () => {
+  const select = document.getElementById("competenceAreas");
+  competenceOptions.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c.uri;
+    opt.textContent = c.name;
+    select.appendChild(opt);
+  });
+});
+
+// JSON generieren
+function generateJSON() {
+  const competenceSelect = document.getElementById("competenceAreas");
+  const selectedCompetences = Array.from(competenceSelect.selectedOptions).map(o => ({
+    targetName: o.textContent,
+    targetUrl: o.value,
+    alignmentType: "educationalFramework"
+  }));
+
+  const data = {
+    "@context": "https://w3id.org/amb/context.jsonld",
+    "type": "LearningResource",
+    "title": document.getElementById("title").value,
+    "description": document.getElementById("description").value,
+    "creator": document.getElementById("creator").value,
+    "publisher": document.getElementById("publisher").value,
+    "dateCreated": document.getElementById("dateCreated").value,
+    "license": document.getElementById("license").value,
+    "federalState": document.getElementById("federalState").value,
+    "educationalFramework": document.getElementById("educationalFramework").value,
+    "competenceAreas": selectedCompetences,
+    "educationalSubject": document.getElementById("educationalSubject").value,
+    "educationalLevel": document.getElementById("learningLevel").value,
+    "learningOutcome": document.getElementById("learningOutcome").value,
+    "didacticComment": document.getElementById("didacticComment").value,
+    "differentiationHint": document.getElementById("differentiationHint").value
+  };
+
+  document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+}
+</script>
+
+</body>
+</html>
