@@ -1,4 +1,4 @@
-# Wie kann offene Lehr- und Lernpraxis inklusiveres Lernen ermöglichen?
+# Wie kann offene Lehr- und Lernpraxis partizipatives Lernen ermöglichen?
 
 Auch in diesem Jahr fand wieder die Tagung des Netzwerks ["Theologie und Hochschuldidaktik"](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) am 30.-31. März 2026 in Münster statt. Unsere Erfahrung aus dem letzten Jahr könnt ihr [hier](https://oer.community/oer-meets-fachdidaktik/) lesen.
 Dieses Jahr stand OEP & Demokratiebildung im Mittelpunkt der Tagung. Damit sollte der gedankliche Faden des letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Das Ziel der Tagung spiegelte sich auch in der Form wieder: So waren die Beiträge offen und partizipativ angelegt, ein frei zugängliches [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) führte schon im Vorfeld und auch während der Tagung durch das Programm und ermutigte zur offenen Teilhabe.  
