@@ -22,3 +22,4 @@
 | Dezember 2025       | [*Open* ist eine Haltung: Wie Lehrkräfte mit OER umgehen](https://oer.community/open-ist-eine-haltung/)                                  |
 | Januar 2026         | [Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur](https://oer.community/autorisierte-schulbuecher-oder-offene-oer/)                                                |
 | Februar 2026        | [Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens](https://oer.community/inklusives-Lernen-durch-OEP)                                                                         |
+| April 2026        | [Können OEP partizipatives Lernen und Demokratiebildung fördern?](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/Theologie_Und_Hochschuldidaktik/Website/content/de/posts/2026-04-02-Tagung_Theologie_und_Hochschuldidaktik/index.md)                                                                         |
