@@ -38,6 +38,13 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2025-05-06'
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Kollaboration
+  - Git
+  - Community
+  - Versionsverwaltung
 author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
@@ -45,7 +52,10 @@ title: 'So arbeiten wir in der oer.community: Offen, transparent, kollaborativ'
 cover:
   relative: true
   image: foerbildfunktion.jpg
+  hiddenInSingle: true
 url: so-arbeiten-wir
+summary: >-
+  Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit, transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP) gelebt werden.
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
