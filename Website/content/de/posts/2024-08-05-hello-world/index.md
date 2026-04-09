@@ -1,14 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: Hello World!
-description: >-
-  Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener
-  Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist
-  unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
-  durchzustarten!
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+description: Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam durchzustarten!
+license: https://creativecommons.org/publicdomain/zero/1.0/
+id: https://oer.community/hello-world
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -18,11 +15,15 @@ creator:
       type: Organization
 inLanguage:
   - de
+image: https://oer.community/hello-world/FOERBICO-Team.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-datePublished: '2024-08-05'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-08-05
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: Hello World!
@@ -32,11 +33,7 @@ cover:
   alt: Das FOERBICO Team
   caption: 'Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina'
   hiddenInSingle: true
-summary: |
-  Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener
-  Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist
-  unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam
-  durchzustarten!
+summary: Seit 1. Mai 2024 ist das Projekt FOERBICO zur Vernetzung religionsbezogener Communities und zur Förderung offener Bildungspraktiken gestartet. Nun ist unser interdisziplinäres Team vollständig und wir freuen uns, gemeinsam durchzustarten!
 url: hello-world
 tags:
   - Community

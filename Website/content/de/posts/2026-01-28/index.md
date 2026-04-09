@@ -1,11 +1,10 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-'@type': Text
 creativeWorkStatus: Published
 name: Interview RELImentar
 description: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/interview-relimentar
 creator:
   - givenName: Simone
@@ -23,10 +22,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - OER-Community
 inLanguage:
   - de
 about:
@@ -37,25 +32,30 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-01-28'
-#staticSiteGenerator
+datePublished: 2026-01-28
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+'@type': Text
+
+# staticSiteGenerator
 author:
   - Simone Wustrack
   - Phillip Angelina
-title: 'Interview RELImentar'
+title: Interview RELImentar
 cover:
   relative: true
   hiddenInSingle: true
   image: RELImentarInterviewTitelpage.png
-summary: |
-  In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
+summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
 url: interview-relimentar
 tags:
-  - Tagung
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Religionspädagogik
---- 
+  - OER-Community
+---
+ 
 # Interview RELImentar
 
 ![RELImentar-Logo](logo-relimentar-final-2.png)

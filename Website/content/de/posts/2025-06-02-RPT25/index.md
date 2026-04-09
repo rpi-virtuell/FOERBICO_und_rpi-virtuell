@@ -1,12 +1,11 @@
 ---
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Zwischen Utopie und Dystopie: KI und Religionspädagogik
-description: >-
-  Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
+description: Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/ki-und-religionspaedagogik/
 creator:
   - givenName: Corinna
@@ -19,29 +18,28 @@ creator:
 inLanguage:
   - de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n079 # Theologie
-  - https://w3id.org/kim/hochschulfaechersystematik/n544 # Bildungswissenschaft
-  - https://w3id.org/kim/hochschulfaechersystematik/n031 # Informatik
-image: >-
-  https://oer.community/ki-und-religionspaedagogik/rpt25.jpg
+  - https://w3id.org/kim/hochschulfaechersystematik/n079
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+  - https://w3id.org/kim/hochschulfaechersystematik/n031
+image: https://oer.community/ki-und-religionspaedagogik/rpt25.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_B
-datePublished: '2025-08-11'
-#staticSiteGenerator:
+datePublished: 2025-08-11
+
+# staticSiteGenerator
 author:
   - Corinna Ullmann
 title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
-summary: |
-  Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
 cover:
   relative: true
   image: rpt25.jpg
-  caption: "Von Daniel Ritter und von David Wakefield) bearbeitetes Midjourney-Bild CC0"
-  alt: "Ein junges Mädchen sitzt an einem Tisch und trägt ein großes Virtual-Reality-Headset. Aus dem Headset scheinen leuchtende Funken und Lichtpartikel zu strömen, die eine magische, traumartige Atmosphäre erzeugen. Der Hintergrund ist unscharf und dunkel, wodurch das Leuchten besonders hervorsticht."
+  caption: Von Daniel Ritter und von David Wakefield) bearbeitetes Midjourney-Bild CC0
+  alt: Ein junges Mädchen sitzt an einem Tisch und trägt ein großes Virtual-Reality-Headset. Aus dem Headset scheinen leuchtende Funken und Lichtpartikel zu strömen, die eine magische, traumartige Atmosphäre erzeugen. Der Hintergrund ist unscharf und dunkel, wodurch das Leuchten besonders hervorsticht.
   hiddenInSingle: true
+summary: Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
 url: ki-und-religionspaedagogik
 tags:
   - Künstliche Intelligenz

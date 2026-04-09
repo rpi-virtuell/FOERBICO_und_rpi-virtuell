@@ -1,16 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik &
-  Theologie
-description: >-
-  Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem
-  Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die
-  besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie
+description: 'Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. '
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-fortbildungsreihe-1
 creator:
   - givenName: Laura
@@ -40,17 +35,18 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-03-13'
-#staticSiteGenerator:
+datePublished: 2025-03-13
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Phillip Angelina
-title: 'Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie'
+title: Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie
 cover:
   relative: true
   image: OER-Fortbildungsreihe-1.png
-summary: |
-  Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. 
+  hiddenInSingle: true
+summary: 'Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. '
 url: oer-fortbildungsreihe-1
 tags:
   - Open Educational Resources (OER)

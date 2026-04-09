@@ -1,24 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Welche Impulse setzt OER für die Religionsdidaktik? Ein Einblick in die
-  AKRK-Tagung in Leitershofen von 19.-21.9.2024
-description: >-
-  Vom 19. bis 21. September traf sich die AKRK (Arbeitsgemeinschaft Katholische
-  Religionspädagogik und Katechese) zu ihrer Jahrestagung in Leitershofen bei
-  Augsburg – ein Event, das auch für FOERBICO von besonderem Interesse war.
-  Unter dem übergreifenden Thema „Religionsdidaktik in ihren Spannungsfeldern“
-  ergaben sich anregende Anknüpfungspunkte, z.B. wie verändern Open Educational
-  Resources die Religionsdidaktik? Wie können KI-generierte OER in der
-  Religionspädagogik eingesetzt werden und was gilt es dabei zu beachten? Welche
-  Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem
-  Blogbeitrag lesen!
-license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: >-
-  https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/
+name: Welche Impulse setzt OER für die Religionsdidaktik? Ein Einblick in die AKRK-Tagung in Leitershofen von 19.-21.9.2024
+description: Vom 19. bis 21. September traf sich die AKRK (Arbeitsgemeinschaft Katholische Religionspädagogik und Katechese) zu ihrer Jahrestagung in Leitershofen bei Augsburg – ein Event, das auch für FOERBICO von besonderem Interesse war. Unter dem übergreifenden Thema „Religionsdidaktik in ihren Spannungsfeldern“ ergaben sich anregende Anknüpfungspunkte, z.B. wie verändern Open Educational Resources die Religionsdidaktik? Wie können KI-generierte OER in der Religionspädagogik eingesetzt werden und was gilt es dabei zu beachten? Welche Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem Blogbeitrag lesen!
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -37,13 +25,14 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: AKRK-Tagung_OER-standards.jpg
+image: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/AKRK-Tagung_OER-standards.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2024-10-02'
-#staticSiteGenerator:
+datePublished: 2024-10-02
+
+# staticSiteGenerator
 author:
   - Laura Mößle
 title: Welche Impulse setzt OER für die Religionsdidaktik? Ein Einblick in die AKRK-Tagung in Leitershofen von 19.-21.9.2024
@@ -51,16 +40,7 @@ cover:
   relative: true
   image: AKRK-Tagung_OER-standards.jpg
   hiddenInSingle: true
-summary: |
-  Vom 19. bis 21. September traf sich die AKRK (Arbeitsgemeinschaft Katholische
-  Religionspädagogik und Katechese) zu ihrer Jahrestagung in Leitershofen bei
-  Augsburg – ein Event, das auch für FOERBICO von besonderem Interesse war.
-  Unter dem übergreifenden Thema „Religionsdidaktik in ihren Spannungsfeldern“
-  ergaben sich anregende Anknüpfungspunkte, z.B. wie verändern Open Educational
-  Resources die Religionsdidaktik? Wie können KI-generierte OER in der
-  Religionspädagogik eingesetzt werden und was gilt es dabei zu beachten? Welche
-  Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem
-  Blogbeitrag lesen!
+summary: Vom 19. bis 21. September traf sich die AKRK (Arbeitsgemeinschaft Katholische Religionspädagogik und Katechese) zu ihrer Jahrestagung in Leitershofen bei Augsburg – ein Event, das auch für FOERBICO von besonderem Interesse war. Unter dem übergreifenden Thema „Religionsdidaktik in ihren Spannungsfeldern“ ergaben sich anregende Anknüpfungspunkte, z.B. wie verändern Open Educational Resources die Religionsdidaktik? Wie können KI-generierte OER in der Religionspädagogik eingesetzt werden und was gilt es dabei zu beachten? Welche Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem Blogbeitrag lesen!
 url: welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024
 tags:
   - Didaktik

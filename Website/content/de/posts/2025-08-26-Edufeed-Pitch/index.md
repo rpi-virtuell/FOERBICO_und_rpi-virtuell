@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/edufeed-pitch
 name: 'Edufeed: Dezentral. Offen. Interoperabel.'
-description: >-
-  Wir haben mit Edufeed die Idee einer dezentralen, auf dem Nostr-Protokoll basierenden OER-Infrastruktur erfolgreich gepitcht, die mit drei Prototypen für Onboarding, Kollaboration und Kommunikation Offenheit, Interoperabilität und digitale Souveränität im Bildungsbereich stärkt. Was es mit Edufeed auf sich hat und mehr über die Prototypen erfahrt ihr in unserem Blogbeitrag.
-inLanguage: de
+description: Wir haben mit Edufeed die Idee einer dezentralen, auf dem Nostr-Protokoll basierenden OER-Infrastruktur erfolgreich gepitcht, die mit drei Prototypen für Onboarding, Kollaboration und Kommunikation Offenheit, Interoperabilität und digitale Souveränität im Bildungsbereich stärkt. Was es mit Edufeed auf sich hat und mehr über die Prototypen erfahrt ihr in unserem Blogbeitrag.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/edufeed-pitch
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -16,11 +15,15 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-image: ChatGPT-Plattforminseln.PNG
+inLanguage: de
+image: https://oer.community/edufeed-pitch/ChatGPT-Plattforminseln.PNG
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-10-01'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-10-01
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: 'Edufeed: Dezentral. Offen. Interoperabel.'
@@ -28,9 +31,9 @@ cover:
   relative: true
   image: ChatGPT-Plattforminseln.PNG
   hidddenInSingle: true
-  alt: 'Plattform-Inseln, ChatGPT'
-summary: >-
-    Wir haben mit Edufeed die Idee einer dezentralen, auf dem Nostr-Protokoll basierenden OER-Infrastruktur erfolgreich gepitcht, die mit drei Prototypen für Onboarding, Kollaboration und Kommunikation Offenheit, Interoperabilität und digitale Souveränität im Bildungsbereich stärkt. Was es mit Edufeed auf sich hat und mehr über die Prototypen erfahrt ihr in unserem Blobeitrag.
+  alt: Plattform-Inseln, ChatGPT
+  hiddenInSingle: true
+summary: Wir haben mit Edufeed die Idee einer dezentralen, auf dem Nostr-Protokoll basierenden OER-Infrastruktur erfolgreich gepitcht, die mit drei Prototypen für Onboarding, Kollaboration und Kommunikation Offenheit, Interoperabilität und digitale Souveränität im Bildungsbereich stärkt. Was es mit Edufeed auf sich hat und mehr über die Prototypen erfahrt ihr in unserem Blogbeitrag.
 url: edufeed-pitch
 tags:
   - Dezentral

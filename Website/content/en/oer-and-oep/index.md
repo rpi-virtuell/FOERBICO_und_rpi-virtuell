@@ -1,8 +1,20 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/en/oer-and-oep
+inLanguage:
+  - en
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: OER and OEP
-url: /en/oer-and-oep
+url: en/oer-and-oep
 ---
 
 ## What is OER, what is OEP

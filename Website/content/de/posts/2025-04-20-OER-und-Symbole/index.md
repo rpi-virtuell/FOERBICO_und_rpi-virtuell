@@ -1,13 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwendet wird?
-description: >-
-  Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwendet wird?
+description: Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/lizenz-irrtum-oer
 creator:
   - givenName: Jörg
@@ -31,15 +29,15 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n287
-image: >-
-  https://oer.community/lizenz-irrtum-oer/nadel-im-heuhaufen.jpg
+image: https://oer.community/lizenz-irrtum-oer/nadel-im-heuhaufen.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-06-11'
-#staticSiteGenerator:
+datePublished: 2025-06-11
+
+# staticSiteGenerator
 author:
   - Jörg Lohrer
   - Jens Dechow
@@ -47,11 +45,10 @@ title: Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwen
 cover:
   relative: true
   image: nadel-im-heuhaufen.jpg
-  caption: "Eine Nadel im Heuhaufen: ein seltener Fall mit (gültiger?) CC-Lizenz"
-  alt: "Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh."
-  hiddenInSingle: false
-summary: |
-  Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
+  caption: 'Eine Nadel im Heuhaufen: ein seltener Fall mit (gültiger?) CC-Lizenz'
+  alt: Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh.
+  hiddenInSingle: true
+summary: Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
 url: lizenz-irrtum-oer
 ---
 

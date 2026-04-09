@@ -1,11 +1,21 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/unser-team
+inLanguage:
+  - de
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: Unser Team
 url: unser-team
 weight: 100
-# line break after 76 characters
-#...........3456789012345678901234567890123456789012345678901234567890123456)
 ---
 
 ## Comenius-Institut

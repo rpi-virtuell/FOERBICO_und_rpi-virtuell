@@ -1,17 +1,11 @@
 ---
-
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: "Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen, sondern in Prozessen"
-description: >-
-  Im FOERBICO-Projekt zeigen wir: Nicht starre Strukturen machen Systeme dauerhaft
-  robust, sondern die Kontinuität und Anpassungsfähigkeit ihrer Prozesse.
-  Am Ise-Schrein und Open-Source-Prinzipien wird deutlich, wie Bildungsinfrastrukturen
-  gemeinschaftsgetragen, erneuerbar und offen gestaltet werden können – jenseits
-  geschlossener Plattformen hin zu atmenden Protokoll-Ökosystemen (z. B. Nostr).
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: 'Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen, sondern in Prozessen'
+description: 'Im FOERBICO-Projekt zeigen wir: Nicht starre Strukturen machen Systeme dauerhaft robust, sondern die Kontinuität und Anpassungsfähigkeit ihrer Prozesse. Am Ise-Schrein und Open-Source-Prinzipien wird deutlich, wie Bildungsinfrastrukturen gemeinschaftsgetragen, erneuerbar und offen gestaltet werden können – jenseits geschlossener Plattformen hin zu atmenden Protokoll-Ökosystemen (z. B. Nostr).'
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/die-kraft-der-gemeinschaft
 creator:
   - givenName: Jörg
@@ -34,20 +28,19 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-09-02'
+datePublished: 2025-09-02
 
-#staticSiteGenerator:
+# staticSiteGenerator
 author:
   - Jörg Lohrer
-title: 'Die Kraft der Gemeinschaft: Prozesse statt Strukturen'
+title: 'Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen, sondern in Prozessen'
 cover:
   relative: true
   image: nosTr-schrein.jpg
-  caption: "Symbolbild: Der Ise-Schrein als Metapher für erneuerbare, gemeinschaftsgetragene Bildungsinfrastruktur."
-  alt: "Darstellung eines Schreins als Sinnbild zyklischer Erneuerung; übertragen auf offene Bildungsinfrastrukturen (z. B. Nostr)."
+  caption: 'Symbolbild: Der Ise-Schrein als Metapher für erneuerbare, gemeinschaftsgetragene Bildungsinfrastruktur.'
+  alt: Darstellung eines Schreins als Sinnbild zyklischer Erneuerung; übertragen auf offene Bildungsinfrastrukturen (z. B. Nostr).
   hiddenInSingle: true
-summary: |
-  Warum Prozesse wichtiger sind als Strukturen: Was der Ise-Schrein und Open Source für eine resiliente, gemeinschaftsgetragene Bildungsinfrastruktur lehren.
+summary: 'Im FOERBICO-Projekt zeigen wir: Nicht starre Strukturen machen Systeme dauerhaft robust, sondern die Kontinuität und Anpassungsfähigkeit ihrer Prozesse. Am Ise-Schrein und Open-Source-Prinzipien wird deutlich, wie Bildungsinfrastrukturen gemeinschaftsgetragen, erneuerbar und offen gestaltet werden können – jenseits geschlossener Plattformen hin zu atmenden Protokoll-Ökosystemen (z. B. Nostr).'
 url: die-kraft-der-gemeinschaft
 tags:
   - Open Educational Resources (OER)
@@ -56,7 +49,6 @@ tags:
   - FOERBICO
   - Nostr
   - Bildungsinfrastruktur
-
 ---
 
 Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle gelingen können. Eine wichtige Erkenntnis, die wir bisher gewinnen konnten: Die  Robustheit eines Systems hängt weniger von seinen organisatorischen oder technischen Strukturen ab, sondern vor allem von der Kontinuität und  Anpassungsfähigkeit seiner zugrunde liegenden Prozesse. Wenn wir mit einer Hub-Entwicklung die Bildungscommunities dabei unterstützen wollen, dass ihre Prozesse der OEP (Open Educational Practice) "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir eine Technik, die die zyklischen Erneuerungsprozesse dieser Communities nachhaltig unterstützt. Lasst uns einen Blick über den Tellerrand wagen und uns Inspiration aus jahrtausendealten Traditionen und Open-Source-Prinzipien schöpfen:

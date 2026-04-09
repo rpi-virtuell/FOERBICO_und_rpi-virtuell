@@ -1,13 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.social
-description: >-
-  Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut,
-  katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+description: Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
+license: https://creativecommons.org/publicdomain/zero/1.0/
 id: https://oer.community/libori-social
 creator:
   - givenName: Gina
@@ -43,8 +41,9 @@ learningResourceType:
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_C
-datePublished: '2024-12-10'
-#staticSiteGenerator:
+datePublished: 2024-12-10
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
   - Jörg Lohrer
@@ -52,10 +51,8 @@ title: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.soc
 cover:
   relative: true
   image: liboriSocial_postcard.png
-  hiddenInSingle: false
-summary: |
-  Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat,
-  katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
+  hiddenInSingle: true
+summary: Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 url: libori-social
 tags:
   - Open Educational Practices (OEP)

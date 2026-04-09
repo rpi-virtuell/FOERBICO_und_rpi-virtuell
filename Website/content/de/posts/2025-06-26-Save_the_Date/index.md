@@ -1,10 +1,10 @@
 ---
+# commonMetadata
 '@context': https://schema.org/
-'@type': LearningResource
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 name: Save the Date
 description: Ein Informationspost über unsere Tagung im Februar 2026
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+license: https://creativecommons.org/licenses/by/4.0/
 creator:
   - givenName: Phillip
     familyName: Angelina
@@ -14,12 +14,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - OER-Community
-  - Community Forschung
-  - ''
 inLanguage:
   - de
 about:
@@ -30,7 +24,14 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-09-26'
+datePublished: 2025-09-26
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+  - Community Forschung
+  - ''
+'@type': LearningResource
 author:
   - Phillip Angelina
 cover:
@@ -45,6 +46,22 @@ tags:
   - OEP
   - OER-Community
   - Community Forschung
+
+# staticSiteGenerator
+author:
+  - Phillip Angelina
+title: Save the Date
+cover:
+  image: Save the Date.png
+  relative: true
+  hiddenInSingle: true
+summary: Ein Informationspost über unsere Tagung im Februar 2026
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+  - Community Forschung
+  - ''
 ---
 
 

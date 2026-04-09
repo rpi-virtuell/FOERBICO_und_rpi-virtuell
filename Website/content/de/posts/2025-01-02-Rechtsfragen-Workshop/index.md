@@ -1,12 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: 'OER-Rechtsfragen: Kostenloses Workshop-Angebot von twillo'
-description: >-
-  In einer zunehmend digitalen Bildungslandschaft stehen Pädagog:innen, Bildungsmultiplikator:innen und OER-Interessierte vor einer Reihe komplexer rechtlicher Herausforderungen. Dazu bietet twillo als Portal für OER in der Hochschullehre regelmäßig Workshops zu Rechtsfragen für Open Educational Resources an, um wichtige rechtliche Grundlagen und aktuelle Entwicklungen im Umgang mit OER zu diskutieren!
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: In einer zunehmend digitalen Bildungslandschaft stehen Pädagog:innen, Bildungsmultiplikator:innen und OER-Interessierte vor einer Reihe komplexer rechtlicher Herausforderungen. Dazu bietet twillo als Portal für OER in der Hochschullehre regelmäßig Workshops zu Rechtsfragen für Open Educational Resources an, um wichtige rechtliche Grundlagen und aktuelle Entwicklungen im Umgang mit OER zu diskutieren!
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-rechtsfragen
 creator:
   - givenName: Gina
@@ -16,28 +15,29 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 inLanguage:
   - de
-image: https://oer.community/canva/copyright-protection-1552941260nrw.jpg
+image: https://oer.community/oer-rechtsfragen/copyright-protection-1552941260nrw.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-datePublished: '2025-01-02'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-01-02
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: 'OER-Rechtsfragen: Kostenloses Workshop-Angebot von twillo'
 cover:
   relative: true
   image: copyright-protection-1552941260nrw.jpg
-  hiddenInSingle: false
-summary: |
-  In einer zunehmend digitalen Bildungslandschaft stehen Pädagog:innen,
-  Bildungsmultiplikator:innen und OER-Interessierte vor einer Reihe komplexer
-  rechtlicher Herausforderungen. Dazu bietet twillo als Portal für OER in der
-  Hochschullehre regelmäßig Workshops zu Rechtsfragen für Open Educational
-  Resources an, um wichtige rechtliche Grundlagen und aktuelle Entwicklungen
-  im Umgang mit OER zu diskutieren
+  hiddenInSingle: true
+summary: In einer zunehmend digitalen Bildungslandschaft stehen Pädagog:innen, Bildungsmultiplikator:innen und OER-Interessierte vor einer Reihe komplexer rechtlicher Herausforderungen. Dazu bietet twillo als Portal für OER in der Hochschullehre regelmäßig Workshops zu Rechtsfragen für Open Educational Resources an, um wichtige rechtliche Grundlagen und aktuelle Entwicklungen im Umgang mit OER zu diskutieren!
 url: oer-rechtsfragen
 tags:
   - Rechtsfragen

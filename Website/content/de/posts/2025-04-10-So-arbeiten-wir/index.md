@@ -4,14 +4,8 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: 'So arbeiten wir in der oer.community: Offen, transparent, kollaborativ'
-description: >-
-  Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag
-  gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows
-  im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit,
-  transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den
-  Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP)
-  gelebt werden.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit, transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP) gelebt werden.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/so-arbeiten-wir
 creator:
   - givenName: Jörg
@@ -41,13 +35,14 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-05-06'
+datePublished: 2025-05-06
 keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Kollaboration
   - Git
   - Community
+
 # staticSiteGenerator
 author:
   - Jörg Lohrer
@@ -58,13 +53,7 @@ cover:
   image: foerbildfunktion.jpg
   alt: Visualisierung der offenen Arbeitskultur im FOERBICO-Projekt
   hiddenInSingle: true
-summary: >-
-  Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag
-  gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows
-  im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit,
-  transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den
-  Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP)
-  gelebt werden.
+summary: Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit, transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP) gelebt werden.
 url: so-arbeiten-wir
 tags:
   - Open Educational Resources (OER)

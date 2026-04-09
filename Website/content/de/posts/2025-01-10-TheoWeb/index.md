@@ -1,16 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Open Educational Practices als Wissenstransfer: Welche Potenziale hat die
-  Religionspädagogik auf dem Weg ins „open“?
-description: >-
-  Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web -
-  Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum
-  Nachlesen!
-license: https://creativecommons.org/licenses/by-nc/4.0/deed.de
+name: 'Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?'
+description: Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
+license: https://creativecommons.org/licenses/by-nc/4.0/
 id: https://oer.community/oep-als-wissenstransfer/
 creator:
   - givenName: Laura
@@ -38,24 +33,24 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n053
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n302
-image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-01-10'
-#staticSiteGenerator:
+# TODO: Bild "%C2%B4TheoWeb.jpg" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
+datePublished: 2025-01-10
+
+# staticSiteGenerator
 author:
   - Laura Mößle
+  - Viera Pirker
 title: 'Open Educational Practices als Wissenstransfer: Welche Potenziale hat die Religionspädagogik auf dem Weg ins „open“?'
 cover:
-  relative: false
-  image: https://material.rpi-virtuell.de/wp-content/uploads/2019/02/%C2%B4TheoWeb.jpg
-  hiddenInSingle: false
-summary:
-  Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik.
-  Hier der vollständige Beitrag zum Nachlesen!
+  relative: true
+  image: '%C2%B4TheoWeb.jpg'
+  hiddenInSingle: true
+summary: Eine Veröffentlichung von Laura Mößle und Viera Pirker im Theo-Web - Zeitschrift für Religionspädagogik. Hier der vollständige Beitrag zum Nachlesen!
 url: oep-als-wissenstransfer
 tags:
   - Open Educational Resources (OER)

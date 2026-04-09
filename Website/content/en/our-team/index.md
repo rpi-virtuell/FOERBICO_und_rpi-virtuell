@@ -1,8 +1,20 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/en/our-team
+inLanguage:
+  - en
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: Our team
-url: /en/our-team
+url: en/our-team
 weight: 100
 ---
 
