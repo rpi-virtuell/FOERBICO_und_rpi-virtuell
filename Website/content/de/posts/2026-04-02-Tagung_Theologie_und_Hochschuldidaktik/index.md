@@ -87,8 +87,8 @@ tags:
 
 # Können OEP partizipatives Lernen und Demokratiebildung fördern?
 
-Unter dem Motto OEP & Demokratiebildung fand sich das Netzwerk [Theologie und Hochschuldidaktik](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) vom 30.-31. März 2026 in Münster zusammen. Damit sollte der gedankliche Faden des letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Unsere Erfahrung aus dem letzten Jahr könnt ihr [hier](https://oer.community/oer-meets-fachdidaktik/) nachlesen. 
-Das Ziel der diesjährigen Tagung spiegelte sich auch in der Tagungsorganisation wieder: So waren die Beiträge offen und partizipativ angelegt, ein frei zugängliches [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) führte schon im Vorfeld und auch während der Tagung durch das Programm und ermutigte zur offenen Teilhabe. 
+Unter dem Motto OEP & Demokratiebildung fand sich das Netzwerk [Theologie und Hochschuldidaktik](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) vom 30.-31. März 2026 in Münster zusammen. Damit sollte der gedankliche Faden des letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Unseren Artikel über die letztjährige Tagung ihr [hier](https://oer.community/oer-meets-fachdidaktik/) nachlesen. 
+Das Ziel der diesjährigen Tagung spiegelte sich auch in der Tagungsorganisation wieder: So waren die Beiträge offen und partizipativ angelegt, ein frei zugängliches [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) führte schon im Vorfeld und auch während der Tagung durch das Programm und ermutigte zur offenen Teilhabe. [> Kam die Idee eigentlich von dir Laura? Ganz grundsätzlich würde ich schon erwähnen, dass du auch mit in der Orga für die Tagung Verantwortung getragen hast!] 
 
 
 ## Klassismussensible Hochschulbildung
@@ -96,7 +96,6 @@ Das Ziel der diesjährigen Tagung spiegelte sich auch in der Tagungsorganisation
 Das FOERBICO-Team war mit Laura und Phillip vertreten und gestaltete einen Workshop zur klassismussensiblen Hochschulbildung durch OEP. Ausgangspunkt war eine Reflexion eigener Lehrerfahrungen, in der Teilhabebarrieren zunächst subjektiv sichtbar gemacht und anschließend im Rückgriff auf theoretische Perspektiven diskutiert wurden. 
 Dabei wurde insbesondere an die von [Alheit (2020)](https://books.google.de/books?hl=de&lr=&id=cHGYEAAAQBAJ&oi=fnd&pg=PA19&dq=Peter+Alheit+ausschluss+universit%C3%A4t&ots=EEGcjwidXo&sig=pceMTheIk257mawLz-D_dZou5OM#v=onepage&q&f=false) beschriebenen Schließungstendenzen von Universitäten angeknüpft, die auf strukturelle Ungleichheiten und habitualisierte Ausschlüsse im Hochschulkontext verweisen. 
 Vor diesem Hintergrund rückte die Frage in den Fokus, inwiefern OEP dazu beitragen können, solche Barrieren nicht nur zu erkennen, sondern auch produktiv zu irritieren und zu transformieren. 
-
 
 Anknüpfend an didaktische und gerechtigkeitsorientierte Überlegungen zu offener Bildung [(vgl. Bali/ Cronin/ Jhangiani](https://doi.org/10.5334/jime.565)) wurde im Workshop herausgearbeitet, dass OEP über den bloßen Zugang zu Materialien hinausgehen: Sie sind als *Praxis* der Öffnung von Lernprozessen, der kollaborativen Wissensproduktion und der Anerkennung vielfältiger Perspektiven zu verstehen.
 OEP besitzen das Potenzial, klassische Machtasymmetrien in der Lehre aufzubrechen und neue Formen der Teilhabe zu ermöglichen. 
