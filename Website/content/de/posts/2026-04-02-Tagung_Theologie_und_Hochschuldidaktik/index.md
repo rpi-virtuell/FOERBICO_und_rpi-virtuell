@@ -37,7 +37,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/koennen-oep-partizipatives-lernen-und-demokratiebildung-foerdern/oep-demokratiebildung.jpg
+image: https://oer.community/koennen-oep-partizipatives-lernen-und-demokratiebildung-foerdern/educationforall.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
