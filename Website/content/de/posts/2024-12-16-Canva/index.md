@@ -69,7 +69,7 @@ Canva ist zwar ein tolles Gestaltungstool, aber die Inhalte, die ihr dort findet
 
 ### Ein Beispiel:
 
-Ihr erstellt mit Canva ein Handout und nutzt ein schönes Stockfoto aus der Bibliothek. Das Foto ist aber nur für eure private oder berufliche Nutzung unter der Canva-Lizenz freigegeben. Sobald ihr das Handout als OER hochladet und zur freien Nutzung anbietet, verstößt ihr gegen die Nutzungsbedingungen – das Foto ist nämlich immer noch durch das Urheberrecht geschützt!
+Ihr erstellt mit Canva ein Handout und nutzt ein schönes Stockfoto aus der Bibliothek. Das Foto ist aber nur für eure private oder berufliche Nutzung unter der Canva-Lizenz freigegeben. Weitere Infos zur Erstellung und den verschiedenen Canva-Lizenzen erfahrt ihr auch im [relilab-Lernmodul](https://relilab.org/flyer-und-social-media-postings-mit-canva-im-handumdrehen-erstellen/). Sobald ihr das Handout als OER hochladet und zur freien Nutzung anbietet, verstößt ihr gegen die Nutzungsbedingungen – das Foto ist nämlich immer noch durch das Urheberrecht geschützt!
 
 ![](Beispiel-Bildlizenz.jpg) 
 
