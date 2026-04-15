@@ -61,8 +61,7 @@ tags:
 
 ## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?
 
- Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf diese Problematik aufmerksam. Die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis. Deswegen haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und
-  hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
+ Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf diese Problematik aufmerksam. Die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis. Deswegen haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
 
 ## Stolperstein: Ihr habt nur ein Nutzungsrecht
 
@@ -120,7 +119,7 @@ Einfache Figuren wie Kreise oder Rechtecke und Linien genießen keinen urheberre
 
 ### So sieht euer rechtssicheres OER-Material aus!
 
-Am Ende sollte euer OER-Material so gestaltet sein, dass ihr keinerlei urheberrechtlich geschützte Inhalte verwendet, die unter einer geschlossenen Lizenz stehen. Materialien für die OER-Erstellung erhaltet ihr z.B. bei [ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/materialien-oer-erstellung/). bei Stellt euch einfach die Frage: „Kann das, was ich hier gestalte, bedenkenlos von jeder Person weiterverwendet werden?“
+Am Ende sollte euer OER-Material so gestaltet sein, dass ihr keinerlei urheberrechtlich geschützte Inhalte verwendet, die unter einer geschlossenen Lizenz stehen. Materialien für die OER-Erstellung erhaltet ihr z.B. bei [ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/materialien-oer-erstellung/). Auch ein [twillo-Workshop zu Canva](https://www.twillo.de/edu-sharing/components/render/0f9417ec-48bd-4309-8450-d63f344c27c7) gibt Orientierung! Stellt euch einfach die Frage: „Kann das, was ich hier gestalte, bedenkenlos von jeder Person weiterverwendet werden?“
 Wenn ja: Perfekt, euer Werk ist OER-ready!
 
 Ihr möchtet freie Bildungsmaterialien erstellen, seid aber nach wie vor unsicher bezüglich der Nutzungsrechte? Dann laden wir euch herzlich in unseren offenen Element-Raum "[OER-Rechtsfragen](https://matrix.to/#/#oer-rechtsfragen:rpi-virtuell.de)" ein!
