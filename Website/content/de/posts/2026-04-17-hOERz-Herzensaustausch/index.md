@@ -69,7 +69,7 @@ Am ersten Tagungsmorgen hing sie noch fast leer da: unsere **Herzens-Pinnwand**.
 
 Was dann passierte, hat uns selbst überrascht.
 
-Schon in der ersten Kaffeepause standen Menschen vor dem Brett, hielten ihre Handys an die Herzen, zeigten sich gegenseitig, was auftauchte. Ein H5P zur Bibeldidaktik. Ein Etherpad mit einer Methodensammlung. Ein OERSI-Fund, den jemand seit Wochen teilen wollte. Bis zum Nachmittag hatten sich erste Teilnehmende getraut, ein Herz **mitzunehmen**, zu überschreiben und zurückzuhängen. Bis zum Abend war die Pinnwand ein Ort offener Bildungspraxis geworden: Herzen kamen, Herzen gingen, und keiner wusste mehr so genau, welcher Link jetzt wo hing. Genau so war's gedacht.
+Schon in der ersten Kaffeepause standen Menschen vor dem Brett, hielten ihre Handys an die Herzen, zeigten sich gegenseitig, was auftauchte. Ein H5P zur Bibeldidaktik. Ein Etherpad mit einer Methodensammlung. Ein OERSI-Fund, den jemand seit Wochen teilen wollte. Bis zum Nachmittag hatten sich erste Teilnehmende getraut, ein Herz **mitzunehmen**, zu überschreiben und zurückzuhängen. Bis zum Abend war die Pinnwand ein Ort offener Bildungspraxis geworden: Herzen kamen, Herzen gingen, und keiner wusste mehr so genau, welcher Link jetzt wo hing. Genau so war es gedacht.
 
 ![hOERz – Holzherzen mit NFC-Chips auf der FOERBICO-Tagung](cover.jpg)
 [hOERz-Aktion auf der FOERBICO-Tagung](https://oer.community/hoerz), [Franco Rau](https://orcid.org/0000-0003-0327-4704), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
@@ -92,7 +92,7 @@ Ein paar Beobachtungen, die wir gerne weitergeben:
 
 Die **niedrige Einstiegsschwelle** hat gezogen. Auslesen funktioniert auf aktuellen iPhones ohne App, auf Android mit aktiviertem NFC ebenfalls. Wer einmal ein Herz ausgelesen hat, probiert meistens auch das Überschreiben.
 
-Die **Pinnwand als physischer Ort** war zentral. Kein Slack-Channel, kein Padlet, sondern ein Brett in der Tagungshalle an dem sich Gespräche ergaben. Mehrmals habe ich erlebt, dass zwei Leute vor der Pinnwand standen und sich plötzlich über Ressourcen unterhielten, die sie beide nicht kannten.
+Die **Pinnwand als physischer Ort** war zentral. Kein Slack-Channel, kein Padlet, sondern ein Brett in der Tagungshalle an dem sich Gespräche ergaben. Mehrmals standen zwei Leute vor der Pinnwand, die sich plötzlich über Ressourcen unterhielten, die sie beide nicht kannten.
 
 Das **Nicht-Tracken** war eine bewusste Entscheidung. Wir wissen nicht, welches Herz welchen Weg gegangen ist. Kein Logging, keine Analytics, kein „wer hat was überschrieben". Das entspannt. Es entsteht keine Performance-Situation, sondern eine Gaben-Ökonomie im kleinen Maßstab.
 
@@ -100,7 +100,7 @@ Das **Nicht-Tracken** war eine bewusste Entscheidung. Wir wissen nicht, welches 
 
 Ehrlich gesagt: Die **Anleitung** hätte noch niederschwelliger sein können. Die Landingpage hat gut funktioniert, aber das A3-Plakat an der Pinnwand war der eigentliche Türöffner. Wer den QR-Code scannen musste, um überhaupt zu wissen, was zu tun ist, war schon einen Schritt zu weit weg.
 
-Außerdem: Ein **Korb mit Ersatz-Herzen** neben der Pinnwand wäre sinnvoll gewesen. Einige Teilnehmende wollten ein Herz mitnehmen, ohne eines zurückzuhängen und das ist völlig okay. Die Ökonomie der Herzen ist keine Tauschbörse, sondern eine Einladung den Spirit des Teilens in Welt hinaus zu tragen.
+Außerdem: Ein **Korb mit Ersatz-Herzen** neben der Pinnwand wäre sinnvoll gewesen. Einige Teilnehmende wollten ein Herz mitnehmen, ohne eines zurückzuhängen und das ist völlig okay. Die Ökonomie der Herzen ist keine Tauschbörse, sondern eine Einladung den Spirit des Teilens in Welt hinauszutragen.
 
 ## So machst du es nach
 
@@ -120,7 +120,7 @@ Die vollständige Landingpage mit Schritt-für-Schritt-Anleitung, App-Empfehlung
 
 ## Warum wir das erzählen
 
-Wir haben das Format nicht entwickelt, um es als FOERBICO-Marke zu etablieren. Im Gegenteil: Die Herzen-Idee ist genau dann erfolgreich, wenn sie woanders auftaucht, bei einer Fortbildung, im Schulkollegium, einem Vernetzungstreffenm Hochschule, freie Träger: überall, wo Menschen zusammenkommen, die ohnehin Ressourcen im Kopf haben und sie nur selten teilen.
+Wir haben das Format nicht entwickelt, um es als FOERBICO-Marke zu etablieren. Im Gegenteil: Die Herzen-Idee ist genau dann erfolgreich, wenn sie woanders auftaucht, bei einer Fortbildung, im Schulkollegium, einem Vernetzungstreffen, in der Hochschule, bei freien Trägern: überall, wo Menschen zusammenkommen, die ohnehin Ressourcen im Kopf haben und sie nur selten teilen.
 
 Wenn du es ausprobierst: Erzähl davon. Hashtag **#hOERz**, gerne auch eine kurze Rückmeldung an uns. Und wenn du das Format weiterentwickelst – andere Formen, andere Chips, andere Zielgruppen – dann umso besser. OEP lebt davon, dass etwas weitergereicht wird.
 
