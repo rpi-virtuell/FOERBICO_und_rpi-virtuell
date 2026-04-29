@@ -44,7 +44,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n053
   - https://w3id.org/kim/hochschulfaechersystematik/n052
-image: https://oer.community/geschoepflichkeit-als-massstab-ki/geschoepf-ki-banana2.jpg
+image: https://oer.community/geschoepflichkeit-als-massstab-ki/haende.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -68,8 +68,8 @@ author:
 title: 'Geschöpflichkeit als Maßstab - vier Bestimmungen für eine evangelische Position zu KI in der Bildung'
 cover:
   relative: true
-  image: geschoepf-ki-banana2.jpg
-  alt: Geöffnete menschliche Hand, über der eine zarte, leuchtende Netzstruktur frei schwebt - Symbolbild für Geschöpflichkeit und KI
+  image: haende.jpg
+  alt: Vier Hände der Arbeitsgruppe – Miriam, Simone, Jörg und Steffen – auf einem Tisch zusammen
   hiddenInSingle: true
 summary: >-
   Ergebnisse einer Arbeitsgruppe am Comenius-Institut: Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit und KI-Entwicklung als Berufung – vier Bestimmungen, die das Menschsein im KI-Zeitalter evangelisch profilieren und warum religionsbezogene Bildung hier eine eigene Stimme einbringt.
@@ -85,8 +85,8 @@ tags:
 
 > **TL;DR** – In einer Arbeitsgruppe am Comenius-Institut haben wir uns gefragt, was religionsbezogene Bildung gegenüber KI eigentlich Eigenes einzubringen hat. Den Anstoß gaben Anregungen von Prof. Dr. Birte Platow, die uns vier Punkte zum Weiterdenken mitgegeben hatte. Herausgekommen sind vier Bestimmungen des Menschseins, die KI strukturell *nicht* leisten kann: **Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit, KI-Entwicklung als Berufung**. Sie machen Geschöpflichkeit als Maßstab evangelischer Bildung im KI-Zeitalter konkret.
 
-![Geöffnete menschliche Hand, über der eine zarte, leuchtende Netzstruktur frei schwebt – Symbolbild für Geschöpflichkeit und KI](geschoepf-ki-banana2.jpg)
-*Symbolbild „Geschöpflichkeit und KI", erstellt mit Gemini (Nano Banana), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)*
+![Vier Hände der Arbeitsgruppe - Miriam, Simone, Jörg und Steffen - auf der Terrasse des Instituts](haende.jpg)
+*Unsere vier Hände aus der Arbeitsgruppe. Wir haben das [ursprünglich KI-generierte Symbolbild](geschoepf-ki-banana2.jpg) bewusst durch dieses Foto ersetzt - Geschöpflichkeit zeigt sich eben nicht in synthetischen Stockmotiven, sondern in konkreten Personen, die gemeinsam denken. Das passt kongruenter zum Inhalt. Foto: Jörg Lohrer, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)*
 
 ---
 
