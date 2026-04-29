@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: 'Geschöpflichkeit als Maßstab - vier Bestimmungen für eine evangelische Position zu KI in der Bildung'
 description: >-
-  Ergebnisse einer Arbeitsgruppe am Comenius-Institut: Zuspruch, Entzogenheit, Vergebung und Berufung als vier Bestimmungen, die das Menschsein im KI-Zeitalter evangelisch profilieren.
+  Ergebnisse einer Arbeitsgruppe am Comenius-Institut: Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit und KI-Entwicklung als Berufung – vier Bestimmungen, die das Menschsein im KI-Zeitalter evangelisch profilieren.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/geschoepflichkeit-als-massstab-ki
 creator:
@@ -72,7 +72,7 @@ cover:
   alt: Geöffnete menschliche Hand, über der eine zarte, leuchtende Netzstruktur frei schwebt - Symbolbild für Geschöpflichkeit und KI
   hiddenInSingle: true
 summary: >-
-  Ergebnisse einer Arbeitsgruppe am Comenius-Institut: Zuspruch, Entzogenheit, Vergebung und Berufung als vier Bestimmungen, die das Menschsein im KI-Zeitalter evangelisch profilieren und warum religionsbezogene Bildung hier eine eigene Stimme einbringt.
+  Ergebnisse einer Arbeitsgruppe am Comenius-Institut: Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit und KI-Entwicklung als Berufung – vier Bestimmungen, die das Menschsein im KI-Zeitalter evangelisch profilieren und warum religionsbezogene Bildung hier eine eigene Stimme einbringt.
 url: geschoepflichkeit-als-massstab-ki
 tags:
   - KI
@@ -83,7 +83,7 @@ tags:
   - Community
 ---
 
-> **TL;DR** – In einer Arbeitsgruppe am Comenius-Institut haben wir uns gefragt, was religionsbezogene Bildung gegenüber KI eigentlich Eigenes einzubringen hat. Den Anstoß gaben Anregungen von Prof. Dr. Birte Platow, die uns vier Punkte zum Weiterdenken mitgegeben hatte. Herausgekommen sind vier Bestimmungen des Menschseins, die KI strukturell *nicht* leisten kann: **Zuspruch, Entzogenheit, Vergebung, Berufung**. Sie machen Geschöpflichkeit als Maßstab evangelischer Bildung im KI-Zeitalter konkret.
+> **TL;DR** – In einer Arbeitsgruppe am Comenius-Institut haben wir uns gefragt, was religionsbezogene Bildung gegenüber KI eigentlich Eigenes einzubringen hat. Den Anstoß gaben Anregungen von Prof. Dr. Birte Platow, die uns vier Punkte zum Weiterdenken mitgegeben hatte. Herausgekommen sind vier Bestimmungen des Menschseins, die KI strukturell *nicht* leisten kann: **Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit, KI-Entwicklung als Berufung**. Sie machen Geschöpflichkeit als Maßstab evangelischer Bildung im KI-Zeitalter konkret.
 
 ![Geöffnete menschliche Hand, über der eine zarte, leuchtende Netzstruktur frei schwebt – Symbolbild für Geschöpflichkeit und KI](geschoepf-ki-banana2.jpg)
 *Symbolbild „Geschöpflichkeit und KI", erstellt mit Gemini (Nano Banana), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)*
@@ -98,11 +98,11 @@ Die Debatte um KI in Schule und Hochschule wird derzeit überwiegend technisch, 
 
 ## Roter Faden
 
-Die vier Punkte, die wir erarbeitet haben, beschreiben den Menschen jeweils in einer Relation, die KI strukturell nicht haben kann: *Zuspruch* (Potential), *Unverfügbarkeit* (Entzogenheit), *Vergebung* (Fehlerkultur), *Berufung* (cooperatio). Religionsbezogene Bildung ist dann nicht das fünfte Rad am ethischen Wagen, sondern der Ort, an dem diese vier Relationen explizit gemacht und eingeübt werden.
+Die vier Punkte, die wir erarbeitet haben, beschreiben den Menschen jeweils in einer Relation, die KI strukturell nicht haben kann: *Berufung zur Mündigkeit* als Potenzialentfaltung, *Unverfügbarkeit* als Absage an letztgültige Selbstoptimierungslogik, *Scheitern und Neuanfang* als Ausdruck menschlicher Freiheit, *Berufung zur Mitgestaltung* als cooperatio. Religionsbezogene Bildung ist dann nicht das fünfte Rad am ethischen Wagen, sondern der Ort, an dem diese vier Relationen explizit gemacht und eingeübt werden.
 
 Evangelisch profiliert heißt das für uns: Bildung ist Einübung in Geschöpflichkeit gegen die Optimierungs-Hermeneutik der Gegenwart. KI ist nicht Gegner, sondern Anlass. Sie fordert unser Selbstverständnis heraus, eine Klarheit zu entwickeln und unsere Position im normalen Bildungsbetrieb nicht verschwimmen zu lassen.
 
-## 1. Menschen als Potential denken
+## 1. Berufung zur Mündigkeit – Potenzialentfaltung
 
 Reformatorisch grundiert ist das die *promissio*-Logik: Der Mensch wird nicht an dem gemessen, was er *ist*, sondern an dem, was ihm *zugesagt* ist. Luthers Rechtfertigungslehre kehrt die Bewertungsrichtung um: Nicht Leistung qualifiziert, sondern Zuspruch eröffnet Leistung. Übertragen auf religionsbezogene Bildung heißt das: Lernende werden nicht primär über Kompetenzraster definiert (was sie *noch nicht* können), sondern über ihre Berufung zur Mündigkeit.
 
@@ -110,7 +110,7 @@ Das hat im evangelischen Profil eine bildungstheoretische Konsequenz, die für K
 
 Anschluss für unsere Arbeit: Comenius selbst hat *omnia omnibus omnino* gedacht – alle, alles, ganzheitlich. Das ist Potential-Denken avant la lettre, und es lässt sich gegen die Selektionslogik vieler EdTech-Systeme stellen.
 
-## 2. Menschen in Unverfügbarkeit denken
+## 2. Mensch in Unverfügbarkeit – Absage an letztgültige Selbstoptimierungslogik
 
 Hier liegt ein stabiler evangelischer Anker. Die Reformation hat *coram Deo* (vor Gott) als die Dimension bestimmt, in der der Mensch sich selbst gerade *nicht* verfügt. Die Rechtfertigung *sola gratia* ist die radikalste denkbare Absage an die Selbstoptimierungs-Logik: Der Mensch kann sich nicht selbst herstellen, nicht selbst rechtfertigen, nicht selbst vollenden. Was zählt, ist ihm entzogen und zugleich zugesagt.
 
@@ -120,7 +120,7 @@ Für religionsbezogene Bildung in KI-Kontexten heißt das: Es gibt eine theologi
 
 Praktisch: Ein KI-Tool, das Lernfortschritt in Echtzeit komplett abbildet, ist nicht nur datenschutzproblematisch, sondern anthropologisch fragwürdig. Das Schweigen, das Stocken, das Nicht-Wissen-Wollen gehört zur Lerngeschichte.
 
-## 3. Fehler als menschliches Privileg
+## 3. Scheitern, Schuld und Neuanfang gehören zur menschlichen Existenz – Fehler als Freiheit, nicht als Betriebsstörung
 
 In der evangelischen Reflexion zeigt sich Fehlerkultur auch theologisch fundamentiert – *simul iustus et peccator*. Der Mensch ist gerechtfertigt *und* fehlbar, *gleichzeitig*, nicht nacheinander. Das ist mehr als pädagogische Fehlerfreundlichkeit: Es ist die Anerkennung, dass Vollkommenheit nicht das Ziel menschlicher Existenz ist. Wer das Ziel auf Fehlerfreiheit setzt, hat das Evangelium nicht verstanden.
 
@@ -130,7 +130,7 @@ Die Unterscheidung zwischen systematischem und unsystematischem Fehler wird hier
 
 Für religionsbezogene Bildung heißt das: Fehlerkultur im KI-Zeitalter ist eine genuin religionspädagogische Aufgabe, nicht nur eine pädagogische. Wo sonst wird gelernt, dass Scheitern, Schuld und Neuanfang zur Existenz gehören?
 
-## 4. Mensch als cooperator Dei – und KI?
+## 4. KI-Entwicklung ist unsere Berufung – cooperator Dei im KI-Zeitalter
 
 Hier wird das evangelische Profil schärfer als das katholische. *Cooperator Dei* ist im katholischen Verständnis stärker tragfähig (Synergismus); reformatorisch ist Mitwirkung *am* Heilsgeschehen ausgeschlossen, Mitwirkung *am* Schöpfungs- und Erhaltungshandeln Gottes aber zentral. Luthers Rede vom Menschen als „Mitarbeiter Gottes" in den weltlichen Ständen (Beruf, Familie, Gemeinwesen) ist Berufungstheologie: Der Mensch wirkt in seinem Stand am Erhalt der Schöpfung mit - nicht als Heilsmitarbeiter, sondern als Geschöpf unter Geschöpfen.
 
