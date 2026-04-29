@@ -102,7 +102,7 @@ Die vier Punkte, die wir erarbeitet haben, beschreiben den Menschen jeweils in e
 
 Evangelisch profiliert heißt das für uns: Bildung ist Einübung in Geschöpflichkeit gegen die Optimierungs-Hermeneutik der Gegenwart. KI ist nicht Gegner, sondern Anlass. Sie fordert unser Selbstverständnis heraus, eine Klarheit zu entwickeln und unsere Position im normalen Bildungsbetrieb nicht verschwimmen zu lassen.
 
-## 1. Berufung zur Mündigkeit – Potenzialentfaltung
+## 1. Berufung zur Mündigkeit - Potenzialentfaltung
 
 Reformatorisch grundiert ist das die *promissio*-Logik: Der Mensch wird nicht an dem gemessen, was er *ist*, sondern an dem, was ihm *zugesagt* ist. Luthers Rechtfertigungslehre kehrt die Bewertungsrichtung um: Nicht Leistung qualifiziert, sondern Zuspruch eröffnet Leistung. Übertragen auf religionsbezogene Bildung heißt das: Lernende werden nicht primär über Kompetenzraster definiert (was sie *noch nicht* können), sondern über ihre Berufung zur Mündigkeit.
 
@@ -110,7 +110,7 @@ Das hat im evangelischen Profil eine bildungstheoretische Konsequenz, die für K
 
 Anschluss für unsere Arbeit: Comenius selbst hat *omnia omnibus omnino* gedacht – alle, alles, ganzheitlich. Das ist Potential-Denken avant la lettre, und es lässt sich gegen die Selektionslogik vieler EdTech-Systeme stellen.
 
-## 2. Mensch in Unverfügbarkeit – Absage an letztgültige Selbstoptimierungslogik
+## 2. Mensch in Unverfügbarkeit - Absage an letztgültige Selbstoptimierungslogik
 
 Hier liegt ein stabiler evangelischer Anker. Die Reformation hat *coram Deo* (vor Gott) als die Dimension bestimmt, in der der Mensch sich selbst gerade *nicht* verfügt. Die Rechtfertigung *sola gratia* ist die radikalste denkbare Absage an die Selbstoptimierungs-Logik: Der Mensch kann sich nicht selbst herstellen, nicht selbst rechtfertigen, nicht selbst vollenden. Was zählt, ist ihm entzogen und zugleich zugesagt.
 
@@ -120,9 +120,9 @@ Für religionsbezogene Bildung in KI-Kontexten heißt das: Es gibt eine theologi
 
 Praktisch: Ein KI-Tool, das Lernfortschritt in Echtzeit komplett abbildet, ist nicht nur datenschutzproblematisch, sondern anthropologisch fragwürdig. Das Schweigen, das Stocken, das Nicht-Wissen-Wollen gehört zur Lerngeschichte.
 
-## 3. Scheitern, Schuld und Neuanfang gehören zur menschlichen Existenz – Fehler als Freiheit, nicht als Betriebsstörung
+## 3. Scheitern, Schuld und Neuanfang gehören zur menschlichen Existenz - Fehler als Freiheit, nicht als Betriebsstörung
 
-In der evangelischen Reflexion zeigt sich Fehlerkultur auch theologisch fundamentiert – *simul iustus et peccator*. Der Mensch ist gerechtfertigt *und* fehlbar, *gleichzeitig*, nicht nacheinander. Das ist mehr als pädagogische Fehlerfreundlichkeit: Es ist die Anerkennung, dass Vollkommenheit nicht das Ziel menschlicher Existenz ist. Wer das Ziel auf Fehlerfreiheit setzt, hat das Evangelium nicht verstanden.
+In der evangelischen Reflexion zeigt sich Fehlerkultur auch theologisch fundamentiert - *simul iustus et peccator*. Der Mensch ist gerechtfertigt *und* fehlbar, *gleichzeitig*, nicht nacheinander. Das ist mehr als pädagogische Fehlerfreundlichkeit: Es ist die Anerkennung, dass Vollkommenheit nicht das Ziel menschlicher Existenz ist. Wer das Ziel auf Fehlerfreiheit setzt, hat das Evangelium nicht verstanden.
 
 Daraus folgt etwas Konkretes für die KI-Diskussion: Wenn KI-Systeme als „fehlerärmer" beworben werden (in Bewertung, Beratung, Entscheidung), ist das aus evangelischer Sicht keine theologisch neutrale Behauptung. Sie suggeriert, Fehlerfreiheit sei ein erstrebenswertes Ziel, und genau das ist sie nicht. Der Fehler ist nicht Betriebsstörung, sondern konstituiert menschliche Freiheit.
 
@@ -130,7 +130,7 @@ Die Unterscheidung zwischen systematischem und unsystematischem Fehler wird hier
 
 Für religionsbezogene Bildung heißt das: Fehlerkultur im KI-Zeitalter ist eine genuin religionspädagogische Aufgabe, nicht nur eine pädagogische. Wo sonst wird gelernt, dass Scheitern, Schuld und Neuanfang zur Existenz gehören?
 
-## 4. KI-Entwicklung ist unsere Berufung – cooperator Dei im KI-Zeitalter
+## 4. KI-Entwicklung ist unsere Berufung - cooperator Dei im KI-Zeitalter
 
 Hier wird das evangelische Profil schärfer als das katholische. *Cooperator Dei* ist im katholischen Verständnis stärker tragfähig (Synergismus); reformatorisch ist Mitwirkung *am* Heilsgeschehen ausgeschlossen, Mitwirkung *am* Schöpfungs- und Erhaltungshandeln Gottes aber zentral. Luthers Rede vom Menschen als „Mitarbeiter Gottes" in den weltlichen Ständen (Beruf, Familie, Gemeinwesen) ist Berufungstheologie: Der Mensch wirkt in seinem Stand am Erhalt der Schöpfung mit - nicht als Heilsmitarbeiter, sondern als Geschöpf unter Geschöpfen.
 
