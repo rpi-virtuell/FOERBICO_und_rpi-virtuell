@@ -5,9 +5,9 @@ creativeWorkStatus: Published
 type: LearningResource
 name: 'Auf der Suche nach Junia(s)'
 description: >-
-  Das Material beschreibt einen Workshop für Schüler*innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
+  Das Material beschreibt einen Workshop für Schüler:innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/geschoepflichkeit-als-massstab-ki
+id: https://oer.community/kinderuni
 creator:
   - givenName: Jonas
     familyName: Breuer
@@ -19,13 +19,11 @@ creator:
 inLanguage:
   - de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n544
-  - https://w3id.org/kim/hochschulfaechersystematik/n053
-  - https://w3id.org/kim/hochschulfaechersystematik/n052
-image: https://oer.community/geschoepflichkeit-als-massstab-ki/haende.jpg
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+  - https://w3id.org/kim/hochschulfaechersystematik/n01
+image: https://oer.community/Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-04-30'
@@ -36,21 +34,19 @@ keywords:
   - Didaktik
   - Religionsunterricht
   - Bildungsmedien
-
-# Auf der Suche nach Junia(s)
+---
 
 Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.
 
-Wir stellen die Materialien unter einer CC BY-SA 4.0-Lizenz zur Verfügung, damit Lehrkräfte Teile entnehmen, anpassen und für ihre Lerngruppen nutzen können. Open Educational Resources wie diese eröffnen nicht nur die Möglichkeit, Bildungsmaterialien nachhaltig zu nutzen. Sie tragen auch dazu bei, dass wissenschaftliches Arbeiten Eingang in außeruniversitäre Bildungsräume wie Schulen und die religiöse Bildung an Kirchen findet. So wird das Vertrauen in wissenschaftliche Methoden gestärkt und die Hochschullehre lernt, sich zugänglicher zu machen.
+Wir stellen die Materialien unter einer [CC BY-SA 4.0-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) zur Verfügung, damit Lehrkräfte Teile entnehmen, anpassen und für ihre Lerngruppen nutzen können. Open Educational Resources wie diese eröffnen nicht nur die Möglichkeit, Bildungsmaterialien nachhaltig zu nutzen. Sie tragen auch dazu bei, dass wissenschaftliches Arbeiten Eingang in außeruniversitäre Bildungsräume wie Schulen und die religiöse Bildung an Kirchen findet. So wird das Vertrauen in wissenschaftliche Methoden gestärkt und die Hochschullehre lernt, sich zugänglicher zu machen.
 
 ## 📅 Veranstaltungshinweis
 
-Am 12. Mai findet um 17 Uhr im relilab ein Online-Werkstattgespräch zu Projekt und Material statt - herzliche Einladung dabei zu sein!
-
+Am 12. Mai findet um 17 Uhr im relilab ein [Online-Werkstattgespräch](https://relilab.org/werkstattgespraech-auf-der-suche-nach-junias-oer/) zu Projekt und Material statt - herzliche Einladung dabei zu sein!
 
 ## Lernziele
 
-Die Schüler*innen kennen
+Die Schüler:innen kennen
 
 •	antike Schreibmaterialien und den kulturhistorischen Kontext des Schreibens in der griechisch-römisch-frühjüdischen Antike,
 
@@ -70,7 +66,7 @@ Die Schüler*innen kennen
 
 ## Bereitgestelltes Material 
 
-•	Materialmappe mit
+Materialmappe mit...
 
 •	Lese- und Schreibaufgaben, 
 
@@ -86,7 +82,7 @@ Die Schüler*innen kennen
 
 •	Audiodatei zu Röm 16,1-7, auf Griechisch gelesen
 
-👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download)
+👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf)
 
 ## Für praktische Übungen zu ergänzendes Material
 
@@ -106,7 +102,8 @@ Die Schüler*innen kennen
 
 Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
 
-![Präsentation Beispiel]()
+![](Präsentation Beispiel)
+Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 Anschließend wird nach Unterschieden in der Übersetzung gefragt: Während die Elberfelder Bibel mit ,,Junias’’ (maskulin) übersetzt, nennt die Einheitsübersetzung ,,Junia’’ (feminin). 
 
@@ -117,9 +114,9 @@ Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Pa
 3.	Wer war Paulus und wie entstanden seine Texte?
 4.	Wen hat Paulus wahrscheinlich in Röm 16,7 gemeint – Junia oder Junias?
 
-(Datei ,,Präsentation Beispiel Ausschnitt 1’’ einfügen)
+![]()
 
-Die SuS erhalten jeweils eine Materialmappe (LINK?) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen.
+Die SuS erhalten jeweils eine [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen.
 
 ### Aufgaben
 
@@ -171,39 +168,71 @@ Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-
 
 ## Sämtliches Material zum Download
 
-•	Materialmappe mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de) (VERLINKEN)
-•	Collage: Paulus-Mosaik mit Fragezeichen, Oratorium S. Andrea, Ravenna, 5. Jhdt. (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de) (VERLINKEN)
-•	Ausgewählte Prezi-Folien (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de) (VERLINKEN)
-•	Römische Holztafel mit Notizen, England, 1. Jhdt. n. Chr. (Daniel Leal-Olivas / AFP, Link: https://u.afp.com/SaUf).
-•	Pergamentrolle, erfunden im 2. Jhdt. v. Chr. wegen Exportverbots für Papyrus durch Pharao Ptolemäus Epiphanes (KI-generiert) (VERLINKEN)
-•	Wachstafel aus Pompeji, Scavi Pompeji, Inv. 14372 (TH Köln – CICS – Robert Fuchs, Link: https://www.th-koeln.de/kulturwissenschaften/cics---forschungsprojekt---schreiben-auf-wachs-im-alten-rom_99637.php)
-•	Porträt einer jungen Frau (sogenannte Sappho), Pompeji, 1 Jhdt. n. Chr. (Museo Archeologico Nazionale di Napoli, gemeinfrei) (VERLINKEN)
-•	Ostrakon mit sechs Zeilen griechischer Aufschrift, 2.–3. Jh. n. Chr. (Kunsthistorisches Museum Wien, Ägyptisch-Orientalische Sammlung, Link: https://www.khm.at/kunstwerke/ostrakon-mit-sechs-zeilen-griechischer-aufschrift-323272)
-•	Vorderseite (verso) des Papyrus 37 (Mt 26), ca. 300 n. Chr. (gemeinfrei) (VERLINKEN)
-•	Standbilder aus der Dokumentation ,,Die letzten Papyrus-Macher Ägyptens erhalten ein 5000 Jahre altes Handwerk am Leben’’ (Business Insider Deutschland, Link: https://youtu.be/fe0-o4ROnq8?si=RD_SwMxmH7hZIzds)
-•	Paulus-Fresko, Ephesus, 6. Jhdt. n. Chr. (gemeinfrei) (VERLINKEN)
-•	Einfaches Tintenfass aus Ton, ca. 1. Jhdt. n. Chr. (CC BY-SA 4.0, Deutsches Museum Bonn, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
-•	Doppel-Tintenfass aus Bronze, ca. 1. Jhdt. n. Chr. (CC BY-NC-SA, Museum August Kestner, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/)
-•	Gummi Arabicum, Baumharz von afrikanischen Akazienbäumen (CC BY-SA 3.0, Simon A. Eugster, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
-•	Person schreibt auf Papyrus (KI-generiert) (VERLINKEN)
-•	Siegelkapsel zum Verschließen von Papyrusbriefen oder Holztafeln mit Wachs, 2.-3. Jhdt. n. Chr. (CC BY-SA 4.0, Limesmuseum Aalen, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
-•	Video einer Papyrus-Faltung (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
-•	Rückseite (recto) des Papyrus 46 (Röm 16), ca. 300 n. Chr. (The University of Michigan Library, gemeinfrei) (VERLINKEN)
-•	Codex Sinaiticus, ca. 350 n. Chr., Seite 267 (CC BY-SA 3.0, Codex-Sinaiticus-Projekt, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
-•	Codex Vaticanus Graecus (Unzial-Handschrift), ca. 350 n. Chr., Seite 1460 (Bibliotheca Apostolica Vaticana, Link: https://digi.vatlib.it/view/MSS_Vat.gr.1209)
-•	Audiodatei Röm 16,1-7, vorgelesen von Prof.in Silvia Pellegrini (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de) (VERLINKEN)
+•	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
-Literatur
+•	Collage: Paulus-Mosaik mit Fragezeichen, Oratorium S. Andrea, Ravenna, 5. Jhdt. (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+•	Ausgewählte Prezi-Folien (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+•	Römische Holztafel mit Notizen, England, 1. Jhdt. n. Chr. (Daniel Leal-Olivas / AFP, Link: https://u.afp.com/SaUf)
+
+•	Pergamentrolle, erfunden im 2. Jhdt. v. Chr. wegen Exportverbots für Papyrus durch Pharao Ptolemäus Epiphanes (KI-generiert) (VERLINKEN)
+
+•	Wachstafel aus Pompeji, Scavi Pompeji, Inv. 14372 (TH Köln – CICS – Robert Fuchs, Link: https://www.th-koeln.de/kulturwissenschaften/cics---forschungsprojekt---schreiben-auf-wachs-im-alten-rom_99637.php)
+
+•	Porträt einer jungen Frau (sogenannte Sappho), Pompeji, 1 Jhdt. n. Chr. (Museo Archeologico Nazionale di Napoli, gemeinfrei) (VERLINKEN)
+
+•	Ostrakon mit sechs Zeilen griechischer Aufschrift, 2.–3. Jh. n. Chr. (Kunsthistorisches Museum Wien, Ägyptisch-Orientalische Sammlung, Link: https://www.khm.at/kunstwerke/ostrakon-mit-sechs-zeilen-griechischer-aufschrift-323272)
+
+•	Vorderseite (verso) des Papyrus 37 (Mt 26), ca. 300 n. Chr. (gemeinfrei) (VERLINKEN)
+
+•	Standbilder aus der Dokumentation ,,Die letzten Papyrus-Macher Ägyptens erhalten ein 5000 Jahre altes Handwerk am Leben’’ (Business Insider Deutschland, Link: https://youtu.be/fe0-o4ROnq8?si=RD_SwMxmH7hZIzds)
+
+•	Paulus-Fresko, Ephesus, 6. Jhdt. n. Chr. (gemeinfrei) (VERLINKEN)
+
+•	Einfaches Tintenfass aus Ton, ca. 1. Jhdt. n. Chr. (CC BY-SA 4.0, Deutsches Museum Bonn, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+•	Doppel-Tintenfass aus Bronze, ca. 1. Jhdt. n. Chr. (CC BY-NC-SA, Museum August Kestner, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+•	Gummi Arabicum, Baumharz von afrikanischen Akazienbäumen (CC BY-SA 3.0, Simon A. Eugster, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+
+•	Person schreibt auf Papyrus (KI-generiert) (VERLINKEN)
+
+•	Siegelkapsel zum Verschließen von Papyrusbriefen oder Holztafeln mit Wachs, 2.-3. Jhdt. n. Chr. (CC BY-SA 4.0, Limesmuseum Aalen, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+•	Video einer Papyrus-Faltung (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+
+•	Rückseite (recto) des Papyrus 46 (Röm 16), ca. 300 n. Chr. (The University of Michigan Library, gemeinfrei) (VERLINKEN)
+
+•	Codex Sinaiticus, ca. 350 n. Chr., Seite 267 (CC BY-SA 3.0, Codex-Sinaiticus-Projekt, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+
+•	Codex Vaticanus Graecus (Unzial-Handschrift), ca. 350 n. Chr., Seite 1460 (Bibliotheca Apostolica Vaticana, Link: https://digi.vatlib.it/view/MSS_Vat.gr.1209)
+
+•	[Audiodatei Röm 16,1-7](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=R%C3%B6m%2016%2C1-7%20vorgelesen%20von%20Silvia%20Pellegrini.m4a), vorgelesen von Prof.in Silvia Pellegrini (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+## Literatur
+
 •	Aland, Kurt / Aland, Barbara u. a. (Hg.), Nestle-Aland. Novum Testamentum Graece, 27. Auflage, 2. überarbeitete Fassung, Stuttgart 2013 (abrufbar unter: https://www.die-bibel.de/bibel/NA28/ROM.16)
+
 •	Horn, Friedrich (Hg.), Paulus Handbuch (Handbücher Theologie), Tübingen 2013, 409f. (Apostel-begriff); 136-141 (Schreibmaterialien, Entstehung der Briefe und Briefversand)
-•	Jacobi, Christine, Art. Junia, in: WiBiLex (2016), abrufbar unter: https://bibelwissenschaft.de/stichwort/51888/.
+
+•	Jacobi, Christine, Art. Junia, in: WiBiLex (2016), abrufbar unter: https://bibelwissenschaft.de/stichwort/51888/
+
 •	Katholisches Bibelwerk (Hg), Die Bibel. Einheitsübersetzung der Heiligen Schrift. Gesamtausgabe, im Auftrag der Deutschen Bischofskonferenz, der Österreichischen Bischofskonferenz, der Schweizer Bischofskonferenz u. a., Stuttgart 2016.
+
 •	Stiftung Christlicher Medien Rudolf Brockhaus (Hg.), Elberfelder Bibel, 4. Auflage, Witten 2006.
 
-Erstellt von
+### Erstellt von
+
 Mag. theol. Jonas Benedict Breuer und Prof.in Dott. Dr. Silvia Pellegrini
 
-Weiterführende Links
-Institut für Katholische Theologie an der Universität Vechta 
-TheoHub – Netzwerkstelle für Theologische Kommunikation
+### Weiterführende Links
+
+- [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) 
+
+- [TheoHub – Netzwerkstelle für Theologische Kommunikation](https://www.uni-vechta.de/katholische-theologie/theohub)
+
+- [TikTok Kanal theologie.univechta](https://www.tiktok.com/@theologie.univechta?lang=de-DE)
+
+- [Instagram-Kanal @theologie.univechta](https://www.instagram.com/theologie.univechta/) 
 
