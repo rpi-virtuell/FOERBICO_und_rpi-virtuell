@@ -38,7 +38,7 @@ keywords:
 
 Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.
 
-Wir stellen die Materialien unter einer [CC BY-SA 4.0-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) zur Verfügung, damit Lehrkräfte Teile entnehmen, anpassen und für ihre Lerngruppen nutzen können. Open Educational Resources wie diese eröffnen nicht nur die Möglichkeit, Bildungsmaterialien nachhaltig zu nutzen. Sie tragen auch dazu bei, dass wissenschaftliches Arbeiten Eingang in außeruniversitäre Bildungsräume wie Schulen und die religiöse Bildung an Kirchen findet. So wird das Vertrauen in wissenschaftliche Methoden gestärkt und die Hochschullehre lernt, sich zugänglicher zu machen.
+Die Materialien werden unter einer [CC BY-SA 4.0-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) vom Institut für Katholische Theologie Universität Vechta / TheoHub zur Verfügung gestellt, damit Lehrkräfte Teile entnehmen, anpassen und für ihre Lerngruppen nutzen können. Open Educational Resources wie diese eröffnen nicht nur die Möglichkeit, Bildungsmaterialien nachhaltig zu nutzen. Sie tragen auch dazu bei, dass wissenschaftliches Arbeiten Eingang in außeruniversitäre Bildungsräume wie Schulen und die religiöse Bildung an Kirchen findet. So wird das Vertrauen in wissenschaftliche Methoden gestärkt und die Hochschullehre lernt, sich zugänglicher zu machen.
 
 ## 📅 Veranstaltungshinweis
 
@@ -82,7 +82,7 @@ Materialmappe mit...
 
 •	Audiodatei zu Röm 16,1-7, auf Griechisch gelesen
 
-👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf)
+👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/)
 
 Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de), Institut für Katholische Theologie Universität Vechta / TheoHub 
 
@@ -121,7 +121,7 @@ Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Pa
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
-Die SuS erhalten jeweils eine [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen.
+Die SuS erhalten jeweils eine [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen.
 
 ### Aufgaben
 
@@ -177,9 +177,9 @@ Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-
 
 •	Junia und Andronikus waren vermutlich ein Ehepaar und herausragend unter den Aposteln (inklusiv; in der Forschung inzwischen am weitesten verbreitet) oder von den Aposteln (exklusiv) anerkannt; ieser Apostel-Begriff ist paulinisch (weiter Apostel-Begriff), nicht lukanisch (enger Apostel-Begriff) geprägt
 
-## Sämtliches Material zum Download
+## Zum Material
 
-•	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+•	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
 •	[Collage](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Collage.png): Paulus-Mosaik mit Fragezeichen, Oratorium S. Andrea, Ravenna, 5. Jhdt. (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
