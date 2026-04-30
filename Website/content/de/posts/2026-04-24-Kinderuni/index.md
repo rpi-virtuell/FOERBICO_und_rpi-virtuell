@@ -102,7 +102,8 @@ Materialmappe mit...
 
 Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
 
-![](Präsentation Beispiel)
+![Beispielbild der Präsentation](Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 Anschließend wird nach Unterschieden in der Übersetzung gefragt: Während die Elberfelder Bibel mit ,,Junias’’ (maskulin) übersetzt, nennt die Einheitsübersetzung ,,Junia’’ (feminin). 
@@ -114,7 +115,9 @@ Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Pa
 3.	Wer war Paulus und wie entstanden seine Texte?
 4.	Wen hat Paulus wahrscheinlich in Röm 16,7 gemeint – Junia oder Junias?
 
-![]()
+![Beispielbild der Präsentation, Ausschnitt 1](Praesentation-Beispiel-Ausschnitt-1-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+
+Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 Die SuS erhalten jeweils eine [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen.
 
@@ -128,7 +131,7 @@ Schreibunterlagen der griechisch-römischen Antike (Ostrakon, Papyrus, Holz, Wac
 
 Basale biographische Informationen zu Paulus, seinen Texten und ihrer Entstehung werden vorgetragen oder alternativ aus einem Sekundärtext erarbeitet und anschließend gesichert. Anschließend wird die Beschaffenheit der Schreibmaterialien (Rußtinte (flüssig oder getrocknet als Block), Tintenfass, Schreibrohr, Papyrus und Siegelwachs, ggfs. Öllampe) zur Zeit des Paulus vertiefend besprochen und Exemplare herumgereicht; die Technik der Dokumentenfaltung (z. B. für den Briefversand) wird anhand eines Papyrusblattes illustriert oder mit einem Video gezeigt.
 
-(Video Papyrus-Faltung einfügen)
+🎥 Zum [Video der Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4)
 
 #### Schreibübung mit Calamus (Schreibrohr), Rußtinte und Papyrus
 
@@ -138,19 +141,21 @@ Die SuS können ihren eigenen Namen zunächst in lateinischen Buchstaben mit Sch
 
 Der Text Röm 16,1-7 wird auf Griechisch zum Mitlesen vorgetragen. Alternativ kann die in unseren Materialien bereitgestellte Audio-Datei abgespielt werden. Es können Details des Textes, z. B. Ἰουνίαν, gemeinsam gesucht und die Bedeutung einzelner Wörter mithilfe der Einheitsübersetzung erschlossen werden. 
 
-(Player Audiodatei einfügen) 
+🎧 Zum [Audio](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=R%C3%B6m%2016%2C1-7%20vorgelesen%20von%20Silvia%20Pellegrini.m4a) 
 
 #### Griechisch lesen und schreiben
 
 Die in der Materialmappe enthaltenen Lese- und Schreibübungen (S. 1) werden in Einzelarbeit mithilfe der angeführten Erläuterungen und Unterstützung der Lehrkraft durchgeführt und im Plenum kontrolliert. Die dritte Teilaufgabe zielt darauf ab, das Fehlen von Akzenten bei Majuskel-Handschriften einzuführen und die Arbeit mit der Tabelle (S. 3) einzuüben, indem für die Minuskel-Form Iουνιαν die Akzente für beide Genera von den SuS ergänzt werden.
 
-(Datei ,,Präsentation Beispiel Ausschnitt 2’’ einfügen)
+![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+
+Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 #### Wen hat Paulus wahrscheinlich in Röm 16,7 gemeint – Junia oder Junias?
 
 Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-Handschriften von Röm 16,7 aus den ersten drei nachchristlichen Jahrhunderten (S. 4-6) vergleichen. Die markierten Formen ΙΟΥΛΙΑΝ, ΙΟΥΝΙΑΝ und ΙΟΥΝΙΑ werden grammatisch bestimmt, Unterschiede aufgelistet und die Formen übersetzt (S. 3). Die Gruppen sollen eine Hypothese formulieren, wie die Varianten der Namen in den Handschriften entstanden ist. Da es sich um die bis zum Frühmittelalter üblichen Majuskel-Handschriften handelt, fehlen die Akzente über dem Namen ΙΟΥΝΙΑΝ (im Codex Vaticanus sind sie nachträglich hinzugefügt worden) und damit auch Hinweise über das Genus der gemeinten Person, d. h. sowohl Junia (feminin) als auch Junias (maskulin) sind grammatisch möglich. Die SuS tragen ihre Hypothesen vor. Diese werden diskutiert. 
 
-(Datei ,,Präsentation Beispiel Ausschnitt 2’’ einfügen)
+![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
 ### Ergebnisse:
 
@@ -170,43 +175,41 @@ Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-
 
 •	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
-•	Collage: Paulus-Mosaik mit Fragezeichen, Oratorium S. Andrea, Ravenna, 5. Jhdt. (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
-
-•	Ausgewählte Prezi-Folien (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+•	[Collage](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Collage.png): Paulus-Mosaik mit Fragezeichen, Oratorium S. Andrea, Ravenna, 5. Jhdt. (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
 •	Römische Holztafel mit Notizen, England, 1. Jhdt. n. Chr. (Daniel Leal-Olivas / AFP, Link: https://u.afp.com/SaUf)
 
-•	Pergamentrolle, erfunden im 2. Jhdt. v. Chr. wegen Exportverbots für Papyrus durch Pharao Ptolemäus Epiphanes (KI-generiert) (VERLINKEN)
+•	Pergamentrolle, erfunden im 2. Jhdt. v. Chr. wegen Exportverbots für Papyrus durch Pharao Ptolemäus Epiphanes (KI-generiert)
 
 •	Wachstafel aus Pompeji, Scavi Pompeji, Inv. 14372 (TH Köln – CICS – Robert Fuchs, Link: https://www.th-koeln.de/kulturwissenschaften/cics---forschungsprojekt---schreiben-auf-wachs-im-alten-rom_99637.php)
 
-•	Porträt einer jungen Frau (sogenannte Sappho), Pompeji, 1 Jhdt. n. Chr. (Museo Archeologico Nazionale di Napoli, gemeinfrei) (VERLINKEN)
+•	[Porträt einer jungen Frau](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Frau%20mit%20Stilus,%20Pompeji.png) (sogenannte Sappho), Pompeji, 1 Jhdt. n. Chr. (Museo Archeologico Nazionale di Napoli, gemeinfrei)
 
 •	Ostrakon mit sechs Zeilen griechischer Aufschrift, 2.–3. Jh. n. Chr. (Kunsthistorisches Museum Wien, Ägyptisch-Orientalische Sammlung, Link: https://www.khm.at/kunstwerke/ostrakon-mit-sechs-zeilen-griechischer-aufschrift-323272)
 
-•	Vorderseite (verso) des Papyrus 37 (Mt 26), ca. 300 n. Chr. (gemeinfrei) (VERLINKEN)
+•	[Vorderseite (verso) des Papyrus 37 (Mt 26)](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus%2037.png), ca. 300 n. Chr. (gemeinfrei)
 
 •	Standbilder aus der Dokumentation ,,Die letzten Papyrus-Macher Ägyptens erhalten ein 5000 Jahre altes Handwerk am Leben’’ (Business Insider Deutschland, Link: https://youtu.be/fe0-o4ROnq8?si=RD_SwMxmH7hZIzds)
 
-•	Paulus-Fresko, Ephesus, 6. Jhdt. n. Chr. (gemeinfrei) (VERLINKEN)
+•	[Paulus-Fresko](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Paulus-Fresko,%20Ephesus.png), Ephesus, 6. Jhdt. n. Chr. (gemeinfrei)
 
 •	Einfaches Tintenfass aus Ton, ca. 1. Jhdt. n. Chr. (CC BY-SA 4.0, Deutsches Museum Bonn, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
 •	Doppel-Tintenfass aus Bronze, ca. 1. Jhdt. n. Chr. (CC BY-NC-SA, Museum August Kestner, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-•	Gummi Arabicum, Baumharz von afrikanischen Akazienbäumen (CC BY-SA 3.0, Simon A. Eugster, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+•	[Gummi Arabicum](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Gummi%20Arabicum.png), Baumharz von afrikanischen Akazienbäumen (CC BY-SA 3.0, Simon A. Eugster, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
 
-•	Person schreibt auf Papyrus (KI-generiert) (VERLINKEN)
+•	[Person schreibt auf Papyrus](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus%20Beschriftung%20(KI).png) (KI-generiert) 
 
 •	Siegelkapsel zum Verschließen von Papyrusbriefen oder Holztafeln mit Wachs, 2.-3. Jhdt. n. Chr. (CC BY-SA 4.0, Limesmuseum Aalen, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
-•	Video einer Papyrus-Faltung (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+•	[Video einer Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4) (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
 
-•	Rückseite (recto) des Papyrus 46 (Röm 16), ca. 300 n. Chr. (The University of Michigan Library, gemeinfrei) (VERLINKEN)
+•	[Rückseite (recto) des Papyrus 46 (Röm 16)](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus%2046.png), ca. 300 n. Chr. (The University of Michigan Library, gemeinfrei)
 
-•	Codex Sinaiticus, ca. 350 n. Chr., Seite 267 (CC BY-SA 3.0, Codex-Sinaiticus-Projekt, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+•	[Codex Sinaiticus, ca. 350 n. Chr., Seite 267](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Codex%20Sinaiticus%20Seite%20267.png) (CC BY-SA 3.0, Codex-Sinaiticus-Projekt, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
 
-•	Codex Vaticanus Graecus (Unzial-Handschrift), ca. 350 n. Chr., Seite 1460 (Bibliotheca Apostolica Vaticana, Link: https://digi.vatlib.it/view/MSS_Vat.gr.1209)
+•	[Codex Vaticanus Graecus](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Codex%20Sinaiticus%20ganzer%20Codex.png) (Unzial-Handschrift), ca. 350 n. Chr., Seite 1460 (Bibliotheca Apostolica Vaticana, Link: https://digi.vatlib.it/view/MSS_Vat.gr.1209)
 
 •	[Audiodatei Röm 16,1-7](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=R%C3%B6m%2016%2C1-7%20vorgelesen%20von%20Silvia%20Pellegrini.m4a), vorgelesen von Prof.in Silvia Pellegrini (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
