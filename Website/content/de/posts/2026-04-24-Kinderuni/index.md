@@ -7,7 +7,7 @@ name: 'Auf der Suche nach Junia(s)'
 description: >-
   Das Material beschreibt einen Workshop für Schüler:innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/kinderuni
+id: https://oer.community/junia
 creator:
   - givenName: Jonas
     familyName: Breuer
@@ -135,7 +135,7 @@ Basale biographische Informationen zu Paulus, seinen Texten und ihrer Entstehung
 
 🎥 Zum [Video der Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4)
 
-Lizenz: CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+Lizenz: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.de), Jana Dambrogio and Massachusetts Institute of Technology (M.I.T)
 
 #### Schreibübung mit Calamus (Schreibrohr), Rußtinte und Papyrus
 
@@ -211,7 +211,7 @@ Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 •	Siegelkapsel zum Verschließen von Papyrusbriefen oder Holztafeln mit Wachs, 2.-3. Jhdt. n. Chr. (CC BY-SA 4.0, Limesmuseum Aalen, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
-•	[Video einer Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4) (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+•	[Video einer Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4) (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-nc/4.0/deed.de)
 
 •	[Rückseite (recto) des Papyrus 46 (Röm 16)](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus%2046.png), ca. 300 n. Chr. (The University of Michigan Library, gemeinfrei)
 
