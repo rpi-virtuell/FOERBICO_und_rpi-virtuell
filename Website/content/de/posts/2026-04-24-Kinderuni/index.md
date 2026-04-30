@@ -1,8 +1,52 @@
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Auf der Suche nach Junia(s)'
+description: >-
+  Das Material beschreibt einen Workshop für Schüler*innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/geschoepflichkeit-als-massstab-ki
+creator:
+  - givenName: Jonas
+    familyName: Breuer
+    type: Person
+    affiliation:
+      name: Universität Vechta
+      id: https://ror.org/045y6d111
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n544
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+image: https://oer.community/geschoepflichkeit-als-massstab-ki/haende.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-04-30'
+keywords:
+  - OER
+  - Religionspädagogik
+  - Theologie
+  - Didaktik
+  - Religionsunterricht
+  - Bildungsmedien
+
 # Auf der Suche nach Junia(s)
 
-(Titelbild Social-Media-Post einfügen)
+Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.
 
-Einleitung
+Wir stellen die Materialien unter einer CC BY-SA 4.0-Lizenz zur Verfügung, damit Lehrkräfte Teile entnehmen, anpassen und für ihre Lerngruppen nutzen können. Open Educational Resources wie diese eröffnen nicht nur die Möglichkeit, Bildungsmaterialien nachhaltig zu nutzen. Sie tragen auch dazu bei, dass wissenschaftliches Arbeiten Eingang in außeruniversitäre Bildungsräume wie Schulen und die religiöse Bildung an Kirchen findet. So wird das Vertrauen in wissenschaftliche Methoden gestärkt und die Hochschullehre lernt, sich zugänglicher zu machen.
+
+## 📅 Veranstaltungshinweis
+
+Am 12. Mai findet um 17 Uhr im relilab ein Online-Werkstattgespräch zu Projekt und Material statt - herzliche Einladung dabei zu sein!
+
 
 ## Lernziele
 
@@ -42,7 +86,7 @@ Die Schüler*innen kennen
 
 •	Audiodatei zu Röm 16,1-7, auf Griechisch gelesen
 
-👉 Zur Materialmappe
+👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download)
 
 ## Für praktische Übungen zu ergänzendes Material
 
@@ -62,7 +106,7 @@ Die Schüler*innen kennen
 
 Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
 
-(Datei ,,Präsentation Beispiel’’ einfügen)
+![Präsentation Beispiel]()
 
 Anschließend wird nach Unterschieden in der Übersetzung gefragt: Während die Elberfelder Bibel mit ,,Junias’’ (maskulin) übersetzt, nennt die Einheitsübersetzung ,,Junia’’ (feminin). 
 
