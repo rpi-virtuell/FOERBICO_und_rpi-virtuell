@@ -153,7 +153,7 @@ Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 Die in der Materialmappe enthaltenen Lese- und Schreibübungen (S. 1) werden in Einzelarbeit mithilfe der angeführten Erläuterungen und Unterstützung der Lehrkraft durchgeführt und im Plenum kontrolliert. Die dritte Teilaufgabe zielt darauf ab, das Fehlen von Akzenten bei Majuskel-Handschriften einzuführen und die Arbeit mit der Tabelle (S. 3) einzuüben, indem für die Minuskel-Form Iουνιαν die Akzente für beide Genera von den SuS ergänzt werden.
 
-![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -161,7 +161,7 @@ Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-Handschriften von Röm 16,7 aus den ersten drei nachchristlichen Jahrhunderten (S. 4-6) vergleichen. Die markierten Formen ΙΟΥΛΙΑΝ, ΙΟΥΝΙΑΝ und ΙΟΥΝΙΑ werden grammatisch bestimmt, Unterschiede aufgelistet und die Formen übersetzt (S. 3). Die Gruppen sollen eine Hypothese formulieren, wie die Varianten der Namen in den Handschriften entstanden ist. Da es sich um die bis zum Frühmittelalter üblichen Majuskel-Handschriften handelt, fehlen die Akzente über dem Namen ΙΟΥΝΙΑΝ (im Codex Vaticanus sind sie nachträglich hinzugefügt worden) und damit auch Hinweise über das Genus der gemeinten Person, d. h. sowohl Junia (feminin) als auch Junias (maskulin) sind grammatisch möglich. Die SuS tragen ihre Hypothesen vor. Diese werden diskutiert. 
 
-![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
