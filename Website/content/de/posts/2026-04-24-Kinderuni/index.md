@@ -73,7 +73,7 @@ Die Schüler:innen (im Folgenden abgekürzt mit SuS) kennen...
 
 •	Griechisch als Sprache des Neuen Testaments in Grundzügen,
 
-•	die in der neutestamentlichen Forschung häufig diskutierte Frage nach dem Geschlecht der Person ΙΟΥΛΙΑΝ (Röm 16,7), Hypothesen zu ihrer Beantwortung zu formulieren und ihre Relevanz für die Frage von weiblichen Personen in der Ämterhierarchie im Frühchristentum kennen
+•	die in der neutestamentlichen Forschung häufig diskutierte Frage nach dem Geschlecht der Person ΙΟΥΛΙΑΝ (Röm 16,7), Hypothesen zu ihrer Beantwortung zu formulieren und ihre Relevanz für die Frage von weiblichen Personen in der Ämterhierarchie im Frühchristentum 
 
 
 ## Zielgruppe
@@ -215,35 +215,23 @@ Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 ### Materialliste {#material}
 
+#### Material zum [Download](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/)
+
 •	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
 •	[Collage](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Collage.png): Paulus-Mosaik mit Fragezeichen, Oratorium S. Andrea, Ravenna, 5. Jhdt. (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
-•	Römische Holztafel mit Notizen, England, 1. Jhdt. n. Chr. (Daniel Leal-Olivas / AFP, Link: https://u.afp.com/SaUf)
-
 •	Pergamentrolle, erfunden im 2. Jhdt. v. Chr. wegen Exportverbots für Papyrus durch Pharao Ptolemäus Epiphanes (KI-generiert)
-
-•	Wachstafel aus Pompeji, Scavi Pompeji, Inv. 14372 (TH Köln – CICS – Robert Fuchs, Link: https://www.th-koeln.de/kulturwissenschaften/cics---forschungsprojekt---schreiben-auf-wachs-im-alten-rom_99637.php)
 
 •	[Porträt einer jungen Frau](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Frau%20mit%20Stilus,%20Pompeji.png) (sogenannte Sappho), Pompeji, 1 Jhdt. n. Chr. (Museo Archeologico Nazionale di Napoli, gemeinfrei)
 
-•	Ostrakon mit sechs Zeilen griechischer Aufschrift, 2.–3. Jh. n. Chr. (Kunsthistorisches Museum Wien, Ägyptisch-Orientalische Sammlung, Link: https://www.khm.at/kunstwerke/ostrakon-mit-sechs-zeilen-griechischer-aufschrift-323272)
-
 •	[Vorderseite (verso) des Papyrus 37 (Mt 26)](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus%2037.png), ca. 300 n. Chr. (gemeinfrei)
 
-•	Standbilder aus der Dokumentation ,,Die letzten Papyrus-Macher Ägyptens erhalten ein 5000 Jahre altes Handwerk am Leben’’ (Business Insider Deutschland, Link: https://youtu.be/fe0-o4ROnq8?si=RD_SwMxmH7hZIzds)
-
 •	[Paulus-Fresko](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Paulus-Fresko,%20Ephesus.png), Ephesus, 6. Jhdt. n. Chr. (gemeinfrei)
-
-•	Einfaches Tintenfass aus Ton, ca. 1. Jhdt. n. Chr. (CC BY-SA 4.0, Deutsches Museum Bonn, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
-
-•	Doppel-Tintenfass aus Bronze, ca. 1. Jhdt. n. Chr. (CC BY-NC-SA, Museum August Kestner, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 •	[Gummi Arabicum](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Gummi%20Arabicum.png), Baumharz von afrikanischen Akazienbäumen (CC BY-SA 3.0, Simon A. Eugster, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
 
 •	[Person schreibt auf Papyrus](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus%20Beschriftung%20(KI).png) (KI-generiert) 
-
-•	Siegelkapsel zum Verschließen von Papyrusbriefen oder Holztafeln mit Wachs, 2.-3. Jhdt. n. Chr. (CC BY-SA 4.0, Limesmuseum Aalen, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
 •	[Video einer Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4) (CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-nc/4.0/deed.de)
 
@@ -251,9 +239,22 @@ Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 •	[Codex Sinaiticus, ca. 350 n. Chr., Seite 267](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Codex%20Sinaiticus%20Seite%20267.png) (CC BY-SA 3.0, Codex-Sinaiticus-Projekt, Link zu Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
 
-•	[Codex Vaticanus Graecus](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Codex%20Sinaiticus%20ganzer%20Codex.png) (Unzial-Handschrift), ca. 350 n. Chr., Seite 1460 (Bibliotheca Apostolica Vaticana, Link: https://digi.vatlib.it/view/MSS_Vat.gr.1209)
-
 •	[Audiodatei Röm 16,1-7](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=R%C3%B6m%2016%2C1-7%20vorgelesen%20von%20Silvia%20Pellegrini.m4a), vorgelesen von Prof.in Silvia Pellegrini (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
+
+
+#### Externe Materialien mit Links
+
+• Römische Holztafel mit Notizen, England, 1. Jhdt. n. Chr. (Daniel Leal-Olivas / AFP, Link: https://u.afp.com/SaUf)
+
+• Wachstafel aus Pompeji, Scavi Pompeji, Inv. 14372 (TH Köln – CICS – Robert Fuchs, Link: https://www.th-koeln.de/kulturwissenschaften/cics---forschungsprojekt---schreiben-auf-wachs-im-alten-rom_99637.php)
+
+• Ostrakon mit sechs Zeilen griechischer Aufschrift, 2.–3. Jh. n. Chr. (Kunsthistorisches Museum Wien, Ägyptisch-Orientalische Sammlung, Link: https://www.khm.at/kunstwerke/ostrakon-mit-sechs-zeilen-griechischer-aufschrift-323272)
+
+• Standbilder aus der Dokumentation ,,Die letzten Papyrus-Macher Ägyptens erhalten ein 5000 Jahre altes Handwerk am Leben’’ (Business Insider Deutschland, Link: https://youtu.be/fe0-o4ROnq8?si=RD_SwMxmH7hZIzds)
+
+• Codex Vaticanus Graecus (Unzial-Handschrift), ca. 350 n. Chr., Seite 1460 (Bibliotheca Apostolica Vaticana, Link: https://digi.vatlib.it/view/MSS_Vat.gr.1209)
+
+
 
 ## Literatur
 
