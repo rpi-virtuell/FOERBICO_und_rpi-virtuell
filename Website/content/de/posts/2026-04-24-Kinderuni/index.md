@@ -84,6 +84,8 @@ Materialmappe mit...
 
 👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=Materialmappe.pdf)
 
+Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de), Institut für Katholische Theologie Universität Vechta / TheoHub 
+
 ## Für praktische Übungen zu ergänzendes Material
 
 •	Papyrusblätter
@@ -133,6 +135,8 @@ Basale biographische Informationen zu Paulus, seinen Texten und ihrer Entstehung
 
 🎥 Zum [Video der Papyrus-Faltung](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/files_mediaviewer/Papyrus-Faltung.mp4)
 
+Lizenz: CC BY-NC 4.0, Jana Dambrogio and Massachusetts Institute of Technology (M.I.T), Link zur Lizenz: https://creativecommons.org/licenses/by-sa/3.0/)
+
 #### Schreibübung mit Calamus (Schreibrohr), Rußtinte und Papyrus
 
 Die SuS können ihren eigenen Namen zunächst in lateinischen Buchstaben mit Schreibrohrn und Rußtinte auf das Papyrus bringen. Anschließend transkribieren die SuS ihren Namen in das Griechische mittels des in der Materialmappe abgedruckten Alphabets (S. 2) und der Angaben für diejenigen Buchstaben, die im griechischen Alphabet fehlen.
@@ -142,6 +146,8 @@ Die SuS können ihren eigenen Namen zunächst in lateinischen Buchstaben mit Sch
 Der Text Röm 16,1-7 wird auf Griechisch zum Mitlesen vorgetragen. Alternativ kann die in unseren Materialien bereitgestellte Audio-Datei abgespielt werden. Es können Details des Textes, z. B. Ἰουνίαν, gemeinsam gesucht und die Bedeutung einzelner Wörter mithilfe der Einheitsübersetzung erschlossen werden. 
 
 🎧 Zum [Audio](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=R%C3%B6m%2016%2C1-7%20vorgelesen%20von%20Silvia%20Pellegrini.m4a) 
+
+Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de), Institut für Katholische Theologie Universität Vechta / TheoHub
 
 #### Griechisch lesen und schreiben
 
