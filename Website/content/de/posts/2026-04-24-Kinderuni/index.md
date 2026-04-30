@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: 'Auf der Suche nach Junia(s)'
 description: >-
-  Das Material beschreibt einen Workshop für Schüler:innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
+  Das Material beschäftigt sich mit der Frage, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/junia
 creator:
@@ -34,9 +34,26 @@ keywords:
   - Didaktik
   - Religionsunterricht
   - Bildungsmedien
----
 
-# Auf der Suche nach Junia(s)
+# staticSiteGenerator
+author:
+  - Jonas Breuer
+title: 'Auf der Suche nach Junia(s)'
+cover:
+  relative: true
+  image: Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
+  hiddenInSingle: true
+summary: >-
+  Das Material beschreibt einen Workshop für Schüler:innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
+url: junia
+tags:
+  - OER
+  - Religionspädagogik
+  - Theologie
+  - Didaktik
+  - Religionsunterricht
+  - Bildungsmedien
+---
 
 Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.
 
