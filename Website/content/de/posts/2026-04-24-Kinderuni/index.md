@@ -163,6 +163,8 @@ Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-
 
 ![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
+Copyright: Institut für Katholische Theologie an der Universität Vechta
+
 ### Ergebnisse:
 
 •	Wenn Papyrus 46 (S. 4) von ΙΟΥΛΙΑΝ (Akk. Sg. von des Namens Julia) spricht, handelt sich (weniger wahrscheinlich) um einen Fehler beim Abschreiben oder Diktieren oder (am wahrscheinlichsten) aber um eine bewusste Veränderung des Textes und eine Variante des ähnlichen Frauennamens Junia.
@@ -177,7 +179,7 @@ Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-
 
 •	Junia und Andronikus waren vermutlich ein Ehepaar und herausragend unter den Aposteln (inklusiv; in der Forschung inzwischen am weitesten verbreitet) oder von den Aposteln (exklusiv) anerkannt; ieser Apostel-Begriff ist paulinisch (weiter Apostel-Begriff), nicht lukanisch (enger Apostel-Begriff) geprägt
 
-## Zum Material
+### Materialliste
 
 •	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
