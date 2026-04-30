@@ -36,6 +36,8 @@ keywords:
   - Bildungsmedien
 ---
 
+# Auf der Suche nach Junia(s)
+
 Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.
 
 Die Materialien werden unter einer [CC BY-SA 4.0-Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) vom Institut für Katholische Theologie Universität Vechta / TheoHub zur Verfügung gestellt, damit Lehrkräfte Teile entnehmen, anpassen und für ihre Lerngruppen nutzen können. Open Educational Resources wie diese eröffnen nicht nur die Möglichkeit, Bildungsmaterialien nachhaltig zu nutzen. Sie tragen auch dazu bei, dass wissenschaftliches Arbeiten Eingang in außeruniversitäre Bildungsräume wie Schulen und die religiöse Bildung an Kirchen findet. So wird das Vertrauen in wissenschaftliche Methoden gestärkt und die Hochschullehre lernt, sich zugänglicher zu machen.
