@@ -114,11 +114,9 @@ Anschluss für unsere Arbeit: Comenius selbst hat *omnia omnibus omnino* gedacht
 
 Hier liegt ein stabiler evangelischer Anker. Die Reformation hat *coram Deo* (vor Gott) als die Dimension bestimmt, in der der Mensch sich selbst gerade *nicht* verfügt. Die Rechtfertigung *sola gratia* ist die radikalste denkbare Absage an die Selbstoptimierungs-Logik: Der Mensch kann sich nicht selbst herstellen, nicht selbst rechtfertigen, nicht selbst vollenden. Was zählt, ist ihm entzogen und zugleich zugesagt.
 
-Das ist anschlussfähig an Hartmut Rosa, geht aber tiefer: Unverfügbarkeit ist nicht nur soziologisch-phänomenologisch (das Leben entzieht sich uns), sondern theologisch-strukturell - der Mensch ist sich selbst Geheimnis, weil er von einem Anderen her existiert. Bonhoeffers Formel vom „Leben in Verantwortung" setzt genau hier an: Verantwortung ist möglich, *weil* der Mensch sich nicht selbst gehört.
-
 Für religionsbezogene Bildung in KI-Kontexten heißt das: Es gibt eine theologische Pflicht zur Intransparenz. Lernende dürfen sich nicht vollständig vermessen lassen; nicht weil Datenschutz das verbietet (das auch), sondern weil Geschöpflichkeit ein Reservat hat, das jeder Optimierung entzogen bleibt. Das ist ein Argument, das im AI-Act-Diskurs bisher *fehlt* und das evangelische Bildungsarbeit einbringen kann.
 
-Praktisch: Ein KI-Tool, das Lernfortschritt in Echtzeit komplett abbildet, ist nicht nur datenschutzproblematisch, sondern anthropologisch fragwürdig. Das Schweigen, das Stocken, das Nicht-Wissen-Wollen gehört zur Lerngeschichte.
+Praktisch: Ein KI-Tool, das eine Person hinsichtlich ihres Lernfortschritts in Echtzeit vollständig abzubilder versucht und dabei das Zielbild eines *fertig gelernten* und damit *vollständigen* Mensches hinterlegt, ist nicht nur datenschutzproblematisch, sondern anthropologisch fragwürdig. Das Schweigen, das Stocken, das Nicht-Wissen-Wollen gehört zur Lerngeschichte.
 
 ## 3. Scheitern, Schuld und Neuanfang gehören zur menschlichen Existenz - Fehler als Freiheit, nicht als Betriebsstörung
 
