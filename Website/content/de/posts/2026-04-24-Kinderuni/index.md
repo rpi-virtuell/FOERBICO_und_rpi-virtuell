@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: 'Auf der Suche nach Junia(s)'
 description: >-
-  Das Material beschäftigt sich mit der Frage, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
+  Das Material beschäftigt sich mit der textkritischen Frage, welche Person Paulus in Röm 16,7 als Apostel grüßt (eine Frau? einen Mann?) und vermittelt dabei Grundlagen zur antiken Schreibkultur und wissenschaftlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (ab Klasse 8) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/junia
 creator:
@@ -44,7 +44,7 @@ cover:
   image: Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
   hiddenInSingle: true
 summary: >-
-  Das Material beschreibt einen Workshop für Schüler:innen, der sich mit der Frage beschäftigt, ob die in Röm 16,7 erwähnte Person Junia (weiblich) oder Junias (männlich) war, und vermittelt dabei Grundlagen zu antiker Schreibkultur, Paulus und neutestamentlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (8./9. Klasse) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
+  Das Material beschäftigt sich mit der textkritischen Frage, welche Person Paulus in Röm 16,7 als Apostel grüßt (eine Frau? einen Mann?) und vermittelt dabei Grundlagen zur antiken Schreibkultur und wissenschaftlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (ab Klasse 8) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
 url: junia
 tags:
   - OER
@@ -65,7 +65,7 @@ Am 12. Mai findet um 17 Uhr im relilab ein [Online-Werkstattgespräch](https://r
 
 ## Lernziele
 
-Die Schüler:innen kennen
+Die Schüler:innen (im Folgenden abgekürzt mit SuS) kennen...
 
 •	antike Schreibmaterialien und den kulturhistorischen Kontext des Schreibens in der griechisch-römisch-frühjüdischen Antike,
 
@@ -75,9 +75,10 @@ Die Schüler:innen kennen
 
 •	die in der neutestamentlichen Forschung häufig diskutierte Frage nach dem Geschlecht der Person ΙΟΥΛΙΑΝ (Röm 16,7), Hypothesen zu ihrer Beantwortung zu formulieren und ihre Relevanz für die Frage von weiblichen Personen in der Ämterhierarchie im Frühchristentum kennen
 
+
 ## Zielgruppe
 
-8./9. Klasse, Gymnasium
+ab Klasse 8, Gymnasium
 
 ## Dauer
 
@@ -87,47 +88,49 @@ Die Schüler:innen kennen
 
 Materialmappe mit...
 
-•	Lese- und Schreibaufgaben, 
+•	 Lese- und Schreibaufgaben, 
 
-•	dem griechischen Alphabet,
+•	 dem griechischen Alphabet,
 
-•	einem textkritischen Arbeitsauftrag,
+•	 einem textkritischen Arbeitsauftrag,
 
-•	basaler griechischer Grammatik, 
+•	 basaler griechischer Grammatik, 
 
-•	Scans antiker Majuskel-Handschriften von Röm 16,
+•	 Scans antiker Majuskel-Handschriften von Röm 16,
 
-•	Downloadbares Text- und Bildmaterial mit Quellenangaben bzw. Links zur Erstellung eigener Arbeitsblätter, eines Padlets bzw. TaskCards oder einer Präsentation
+•	Text- und Bildmaterial mit Quellenangaben bzw. Links zur Erstellung eigener Arbeitsblätter, eines Padlets bzw. TaskCards oder einer Präsentation
 
-•	Audiodatei zu Röm 16,1-7, auf Griechisch gelesen
+•	Audiodatei zu Röm 16,1-7, auf Griechisch gelesen,
 
-👉 Zur [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/)
+•	Gestaltungsvorschlag einer Präsentation
+
+👉 Zum gesamten [Material](#material)
 
 Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de), Institut für Katholische Theologie Universität Vechta / TheoHub 
 
-## Für praktische Übungen zu ergänzendes Material
+## Ggf. zu ergänzendes Material
 
-•	Papyrusblätter
+- Papyrusblätter
 
-•	Calamus (Schreibrohr)
+- Calamus (Schreibrohr)
 
-•	Rußtinte
+- Rußtinte
 
-•	Siegelwachs und Schnur
+- Siegelwachs
 
-•	Sekundärtext zu Paulus
+- Schnur
 
 ## Gestaltungsvorschlag für eine Lerneinheit
 
 ### Einstieg 
 
-Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
+Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
 
 ![Beispielbild der Präsentation](Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
-Anschließend wird nach Unterschieden in der Übersetzung gefragt: Während die Elberfelder Bibel mit ,,Junias’’ (maskulin) übersetzt, nennt die Einheitsübersetzung ,,Junia’’ (feminin). 
+Anschließend wird gemeinsam nach Unterschieden in den Übersetzungen gesucht: Während die Elberfelder Bibel mit ,,Junias’’ (maskulin) übersetzt, nennt die Einheitsübersetzung ,,Junia’’ (feminin). 
 
 Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Paulus zugeordnet? Der (erweiterte) Apostelbegriff nach Paulus (in Abgrenzung zu Lukas, der den Titel auf die Zwölf als Augenzeugen des irdischen Jesus und des Auferstandenen) wird definiert und Junia(s) Geschlecht in diesem Kontext problematisiert. Vier Leitfragen (die Fragen 2-4 sind aus Frage 1 ableitbar) werden vorgestellt und ihre Relevanz für die Einheit erläutert:
 
@@ -140,9 +143,10 @@ Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Pa
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
-Die SuS erhalten jeweils eine [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen.
+Die SuS erhalten jeweils eine [Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit dem griechischen Alphabet, drei Majuskel-Handschriften inkl. Datierung, Informationen zur Deklination des Namens Ἰουνία (Junia) und einer Aufgabenstellung für die Arbeit in Kleingruppen ausgehändigt.
 
-### Aufgaben
+
+### Arbeitsphase
 
 #### Wie und womit hat man in der griechisch-römischen Antike geschrieben?
 
@@ -158,11 +162,11 @@ Lizenz: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.de), 
 
 #### Schreibübung mit Calamus (Schreibrohr), Rußtinte und Papyrus
 
-Die SuS können ihren eigenen Namen zunächst in lateinischen Buchstaben mit Schreibrohrn und Rußtinte auf das Papyrus bringen. Anschließend transkribieren die SuS ihren Namen in das Griechische mittels des in der Materialmappe abgedruckten Alphabets (S. 2) und der Angaben für diejenigen Buchstaben, die im griechischen Alphabet fehlen.
+Die SuS können ihren eigenen Namen zunächst in lateinischen Buchstaben mit Schreibrohren und Rußtinte auf das Papyrus bringen. Anschließend transkribieren die SuS ihren Namen in das Griechische mittels des in der Materialmappe abgedruckten Alphabets (S. 2) und der Angaben für diejenigen Buchstaben, die im griechischen Alphabet fehlen. Optional können die Papyrusblätter gerollt und mit Schnur und Siegelwachs verschlossen werden.
 
 #### Griechisch – die Sprache des Neuen Testaments
 
-Der Text Röm 16,1-7 wird auf Griechisch zum Mitlesen vorgetragen. Alternativ kann die in unseren Materialien bereitgestellte Audio-Datei abgespielt werden. Es können Details des Textes, z. B. Ἰουνίαν, gemeinsam gesucht und die Bedeutung einzelner Wörter mithilfe der Einheitsübersetzung erschlossen werden. 
+Der Text Röm 16,1-7 wird auf Griechisch zum Mitlesen vorgetragen. Alternativ kann die in unseren Materialien bereitgestellte Audio-Datei abgespielt werden. Es können Details des Textes, z. B. Ἰουνίαν, gemeinsam gesucht und die Bedeutung einzelner Wörter mithilfe der Einheitsübersetzung erschlossen werden. 
 
 🎧 Zum [Audio](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO/download?path=%2FMaterial%20zum%20Download&files=R%C3%B6m%2016%2C1-7%20vorgelesen%20von%20Silvia%20Pellegrini.m4a) 
 
@@ -170,7 +174,7 @@ Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 #### Griechisch lesen und schreiben
 
-Die in der Materialmappe enthaltenen Lese- und Schreibübungen (S. 1) werden in Einzelarbeit mithilfe der angeführten Erläuterungen und Unterstützung der Lehrkraft durchgeführt und im Plenum kontrolliert. Die dritte Teilaufgabe zielt darauf ab, das Fehlen von Akzenten bei Majuskel-Handschriften einzuführen und die Arbeit mit der Tabelle (S. 3) einzuüben, indem für die Minuskel-Form Iουνιαν die Akzente für beide Genera von den SuS ergänzt werden.
+Die in der Materialmappe enthaltenen Lese- und Schreibübungen (S. 1) werden in Einzelarbeit mithilfe der angeführten Erläuterungen durchgeführt und gemeinsam kontrolliert. Die dritte Teilaufgabe zielt darauf ab, das Fehlen von Akzenten bei Majuskel-Handschriften einzuführen und die Arbeit mit der Tabelle (S. 3) einzuüben, indem für die Minuskel-Form Iουνιαν die Akzente für beide Genera von den SuS ergänzt werden.
 
 ![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
@@ -178,7 +182,17 @@ Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 #### Wen hat Paulus wahrscheinlich in Röm 16,7 gemeint – Junia oder Junias?
 
-Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-Handschriften von Röm 16,7 aus den ersten drei nachchristlichen Jahrhunderten (S. 4-6) vergleichen. Die markierten Formen ΙΟΥΛΙΑΝ, ΙΟΥΝΙΑΝ und ΙΟΥΝΙΑ werden grammatisch bestimmt, Unterschiede aufgelistet und die Formen übersetzt (S. 3). Die Gruppen sollen eine Hypothese formulieren, wie die Varianten der Namen in den Handschriften entstanden ist. Da es sich um die bis zum Frühmittelalter üblichen Majuskel-Handschriften handelt, fehlen die Akzente über dem Namen ΙΟΥΝΙΑΝ (im Codex Vaticanus sind sie nachträglich hinzugefügt worden) und damit auch Hinweise über das Genus der gemeinten Person, d. h. sowohl Junia (feminin) als auch Junias (maskulin) sind grammatisch möglich. Die SuS tragen ihre Hypothesen vor. Diese werden diskutiert. 
+Die Klasse wird in Kleingruppen aufgeteilt. Jede Kleingruppe soll drei Majuskel-Handschriften von Röm 16,7 aus den ersten drei nachchristlichen Jahrhunderten (S. 4-6) vergleichen. Da es sich um die bis zum Frühmittelalter üblichen Majuskel-Handschriften handelt, fehlen die Akzente über dem Namen ΙΟΥΝΙΑΝ und damit auch Hinweise über das Genus der gemeinten Person, d. h. sowohl Junia (feminin) als auch Junias (maskulin) sind grammatisch möglich.
+
+Die SuS sollen sie grammatisch bestimmen, Unterschiede auflisten und die Formen übersetzen (mithilfe von S. 3). Die Gruppen sollen dann Hypothesen formulieren, wie die Varianten der Namen in den Handschriften entstanden ist. Die markierten Formen sind 
+
+•	ΙΟΥΛΙΑΝ (eindeutige Namensänderung, aber feminin), 
+
+•	ΙΟΥΝÍΑΝ (im Codex Vaticanus wurde durch den zweiten Korrektor (B²) der Akutakzent auf IΟΥΝÍΑΝ = Ἰουνίαν gesetzt, womit die feminine Form des Namens markiert wird) und
+
+•	 ΙΟΥΝΙΑ(N) (das fehlende „N" wird im Sinaiticus durch die sogenannte linea superposita dargestellt — einen Strich oberhalb des „A" am Zeilenende. Dies ist eine typische Schreibkonvention des Sinaiticus). 
+
+Die SuS tragen ihre Hypothesen vor. Diese werden diskutiert. 
 
 ![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
 
@@ -186,19 +200,20 @@ Copyright: Institut für Katholische Theologie an der Universität Vechta
 
 ### Ergebnisse:
 
-•	Wenn Papyrus 46 (S. 4) von ΙΟΥΛΙΑΝ (Akk. Sg. von des Namens Julia) spricht, handelt sich (weniger wahrscheinlich) um einen Fehler beim Abschreiben oder Diktieren oder (am wahrscheinlichsten) aber um eine bewusste Veränderung des Textes und eine Variante des ähnlichen Frauennamens Junia.
+•	Wenn Papyrus 46 von ΙΟΥΛΙΑΝ (Akkusativ von Julia) spricht, handelt sich (weniger wahrscheinlich) um einen Fehler beim Abschreiben oder Diktieren oder (am wahrscheinlichsten) aber um eine substantielle Veränderung im Text und damit eine Variante des Textes. Diese Variante (Julia/Ἰουλία) in Papyrus 46 entstand wahrscheinlich durch Verwechslung mit der Julia aus Röm 16,15. Die Tatsache, dass es sich um ein Femininum handelt, ist aber bedeutsam: Ein Maskulinum wird schwerlich mit einem Femininum verwechselt!
 
-•	Der Codex Sinaiticus enthält einen Kasus-Fehler (ΙΟΥΝΙΑ statt ΙΟΥΝΙΑΝ).
+•	Der Codex Sinaiticus enthält einen Akkusativ (ΙΟΥΝΙΑΝ) allerdings ohne Akzent: So könnte es Maskulin oder Feminin sein.
 
-•	Der Codes Vaticanus gibt durch die nachträglich hinzugefügten Akzente Hinweise auf die feminine Form.
+•	Der Codex Vaticanus gibt durch den nachträglich hinzugefügten Akzent einen klaren Hinweis auf die feminine Form.
 
-•	Die von Paulus gegrüßte Person ist in allen frühen belegbaren Tradition immer feminin: Für die frühen Kopisten und Leser:innen des Textes war es trotz Majuskeln anscheinend verständlich, dass die gemeinte Person weiblich zu lesen war. Das spiegelt sich in den (fehlerhaften) Varianten wider
+•	Die von Paulus erwähnte Person ist in allen frühen belegbaren Textzeugen immer weiblich.
 
-•	Paulus spricht von einer Apostelin, während spätere Handschriften ab dem 8./9. Jhdt. aus Junia einen Mann (Junias) machten und damit unterschlugen, dass auch Frauen neben Männern Autoritäten in den Gemeinden der frühen Christen waren.
+•	Paulus spricht von einer Apostelin, während spätere Handschriften ab dem 8./9. Jhdt. aus Junia einen Mann (Junias) machten und damit unterschlugen, dass auch Frauen neben Männern Autoritäten in den Gemeinden zur Zeit des Paulus waren.
 
-•	Junia und Andronikus waren vermutlich ein Ehepaar und herausragend unter den Aposteln (inklusiv; in der Forschung inzwischen am weitesten verbreitet) oder von den Aposteln (exklusiv) anerkannt; ieser Apostel-Begriff ist paulinisch (weiter Apostel-Begriff), nicht lukanisch (enger Apostel-Begriff) geprägt
+•	Für die frühen Kopisten und Leser*innen des Textes war es trotz Majuskeln anscheinend verständlich, dass die gemeinte Person weiblich zu lesen war.
 
-### Materialliste
+
+### Materialliste {#material}
 
 •	[Materialmappe](https://sync.academiccloud.de/index.php/s/KiS2oh4LJqxP0cO?path=%2FMaterial%20zum%20Download#/) mit Text- und Bildmaterial sowie Aufgabenstellung (CC BY-SA 4.0, Institut für Katholische Theologie Universität Vechta / TheoHub, Link zur Lizenz: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
