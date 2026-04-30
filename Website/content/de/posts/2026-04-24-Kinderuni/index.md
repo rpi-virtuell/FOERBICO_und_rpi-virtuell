@@ -21,7 +21,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
   - https://w3id.org/kim/hochschulfaechersystematik/n01
-image: https://oer.community/Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
+image: https://oer.community/junia/Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
