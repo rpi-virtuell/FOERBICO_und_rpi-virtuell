@@ -14,7 +14,7 @@ educationalLevel:
 
 # staticSiteGenerator
 title: Conference page
-url: en/conference
+url: /en/conference
 ---
 
 ## OER: Towards a culture of sharing

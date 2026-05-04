@@ -14,7 +14,7 @@ educationalLevel:
 
 # staticSiteGenerator
 title: OER and OEP
-url: en/oer-and-oep
+url: /en/oer-and-oep
 ---
 
 ## What is OER, what is OEP

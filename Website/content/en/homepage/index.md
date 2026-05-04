@@ -14,7 +14,7 @@ educationalLevel:
 
 # staticSiteGenerator
 title: Welcome!
-url: en
+url: /en/
 type: page
 weight: 50
 ---

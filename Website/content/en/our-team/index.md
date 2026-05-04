@@ -14,7 +14,7 @@ educationalLevel:
 
 # staticSiteGenerator
 title: Our team
-url: en/our-team
+url: /en/our-team
 weight: 100
 ---
 
