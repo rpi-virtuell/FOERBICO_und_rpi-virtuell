@@ -1,0 +1,85 @@
+name: Nostr Sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Website/content/**'
+  workflow_dispatch:
+    inputs:
+      force_all:
+        description: 'Publish all posts (--force-all)'
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout content repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: content-repo
+
+      - name: Checkout mdparser
+        uses: actions/checkout@v4
+        with:
+          repository: edufeed-org/mdparser
+          ref: main
+          path: mdparser
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Pre-Flight Check
+        working-directory: mdparser/sync
+        env:
+          BUNKER_URL: ${{ secrets.BUNKER_URL }}
+          AUTHOR_PUBKEY_HEX: ${{ secrets.AUTHOR_PUBKEY_HEX }}
+          CLIENT_SECRET_HEX: ${{ secrets.CLIENT_SECRET_HEX }}
+        run: deno run --allow-env --allow-net --allow-read cli.ts check
+
+      - name: Publish (force-all)
+        if: ${{ github.event.inputs.force_all == 'true' }}
+        working-directory: mdparser/sync
+        env:
+          BUNKER_URL: ${{ secrets.BUNKER_URL }}
+          AUTHOR_PUBKEY_HEX: ${{ secrets.AUTHOR_PUBKEY_HEX }}
+          CLIENT_SECRET_HEX: ${{ secrets.CLIENT_SECRET_HEX }}
+          MIN_RELAY_ACKS: '2'
+          CONTENT_ROOT: ${{ github.workspace }}/content-repo/Website/content
+        run: |
+          deno run \
+            --allow-env --allow-read --allow-write=./logs \
+            --allow-net --allow-run=git \
+            cli.ts publish --force-all
+
+      - name: Publish (diff)
+        if: ${{ github.event.inputs.force_all != 'true' }}
+        working-directory: mdparser/sync
+        env:
+          BUNKER_URL: ${{ secrets.BUNKER_URL }}
+          AUTHOR_PUBKEY_HEX: ${{ secrets.AUTHOR_PUBKEY_HEX }}
+          CLIENT_SECRET_HEX: ${{ secrets.CLIENT_SECRET_HEX }}
+          MIN_RELAY_ACKS: '2'
+          CONTENT_ROOT: ${{ github.workspace }}/content-repo/Website/content
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+        run: |
+          deno run \
+            --allow-env --allow-read --allow-write=./logs \
+            --allow-net --allow-run=git \
+            cli.ts publish
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nostr-sync-log-${{ github.run_id }}
+          path: mdparser/sync/logs/publish-*.json
+          retention-days: 30
+          if-no-files-found: warn
