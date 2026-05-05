@@ -38,7 +38,7 @@ Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE 126 043
 #### [AGB](https://comenius.de/agb/)
 
 Das Comenius-Institut hat einen örtlich Beauftragten für den Datenschutz bestellt.
-Die Kontaktadresse ist hierfür datenschutz@comenius.de. 
+Die Kontaktadresse ist hierfür datenschutz@comenius.de.
 
 #### Nutzungsbedingungen und Urheberrecht
 
