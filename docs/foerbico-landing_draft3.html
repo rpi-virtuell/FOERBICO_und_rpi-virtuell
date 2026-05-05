@@ -77,7 +77,7 @@
     font-size: 26px; font-weight: 600;
     letter-spacing: 0.18em; color: var(--blue);
   }
-  .logo span { color: var(--orange); }
+  .logo .oer { color: var(--orange); }
   .nav-links { display: flex; gap: 36px; list-style: none; }
   .nav-links a {
     text-decoration: none; color: var(--ink);
@@ -601,6 +601,80 @@
     font-size: 10px; color: var(--blue);
     margin-top: 14px; padding-top: 12px;
     border-top: 1px dashed var(--gray-10);
+    overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* COMMUNITIES — Verbundpartner */
+  .communities { padding: 100px 0; border-top: 1px solid var(--gray-10); background: var(--paper); }
+  .partner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .partner-card {
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    transition: var(--ease);
+    display: flex; flex-direction: column;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .partner-card:hover {
+    border-color: var(--blue);
+    transform: translateY(-2px);
+  }
+  .partner-card .partner-logo {
+    height: 56px; margin-bottom: 24px;
+    display: flex; align-items: center;
+  }
+  .partner-card .partner-logo img {
+    max-height: 56px; max-width: 200px;
+    width: auto; height: auto;
+    object-fit: contain;
+  }
+  .partner-card .label {
+    color: var(--orange); margin-bottom: 12px;
+    font-size: 9px; letter-spacing: 0.2em; display: block;
+  }
+  .partner-card h4 {
+    font-size: 22px; font-weight: 500;
+    margin-bottom: 14px; color: var(--ink);
+    text-transform: none; letter-spacing: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.2;
+  }
+  .partner-card .partner-desc {
+    font-size: 13px; line-height: 1.6;
+    color: var(--gray-60); font-weight: 300;
+    margin-bottom: 20px; flex: 1;
+  }
+  .partner-people {
+    border-top: 1px dashed var(--gray-10);
+    padding-top: 16px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .partner-people .label-people {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 9px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--blue); margin-bottom: 6px;
+  }
+  .partner-person {
+    font-size: 13px; color: var(--ink);
+    line-height: 1.4;
+  }
+  .partner-person .role {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--gray-60);
+    display: block; margin-top: 1px;
+  }
+  .partner-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--blue);
+    margin-top: 16px;
     overflow: hidden; text-overflow: ellipsis;
     white-space: nowrap;
   }
@@ -1188,6 +1262,7 @@
     .about-grid { grid-template-columns: 1fr; gap: 48px; }
     .community-grid { grid-template-columns: 1fr; gap: 48px; }
     .communities-grid { grid-template-columns: repeat(2, 1fr); }
+    .partner-grid { grid-template-columns: 1fr; }
     .funding-inner { grid-template-columns: 1fr; gap: 32px; }
   }
   @media (max-width: 640px) {
@@ -1225,7 +1300,7 @@
 <!-- NAV -->
 <nav>
   <div class="container nav-inner">
-    <div class="logo">FOER<span>·</span>BICO</div>
+    <div class="logo">F<span class="oer">OER</span>BICO</div>
     <ul class="nav-links">
       <li><a href="#about">Über</a></li>
       <li><a href="#community">Mitmachen</a></li>
@@ -1376,60 +1451,83 @@
   </div>
 </section>
 
-<!-- COMMUNITIES — Beteiligte / Vernetzte Communities -->
+<!-- COMMUNITIES — Verbundpartner -->
 <section class="communities section-wrap" id="communities">
-  <span class="corner-micro-tl">04 — beteiligte communities</span>
-  <span class="corner-micro-tr">stand · mai 2026</span>
+  <span class="corner-micro-tl">04 — verbundpartner</span>
+  <span class="corner-micro-tr">bmbfsfj-verbund · 2024–2027</span>
 
   <div class="container">
     <div class="section-head">
       <div>
         <div class="label" style="margin-bottom: 24px;">04 — Im Verbund</div>
-        <h2>Wer <span class="accent">mitmacht</span>.</h2>
+        <h2>Wer FOERBICO <span class="accent">trägt</span>.</h2>
       </div>
       <p class="section-head-right">
-        FOERBICO entsteht im Zusammenspiel mehrerer religionsbezogener Initiativen und Plattformen.
-        Die Liste wächst — wenn deine Community fehlt, melde dich.
+        FOERBICO wird als Verbund von drei Institutionen umgesetzt: dem Comenius-Institut als Projektträger
+        und zwei religionspädagogischen Lehrstühlen für die wissenschaftliche Begleitung. Mehr zu den Personen
+        gibt es auf <a href="https://oer.community/unser-team/" target="_blank" rel="noopener" style="color: var(--blue); text-decoration: underline;">der Team-Seite</a>.
       </p>
     </div>
 
-    <div class="communities-grid">
-      <a href="https://rpi-virtuell.de" target="_blank" rel="noopener" class="community-card">
-        <span class="label">Plattform</span>
-        <h4>rpi-virtuell</h4>
-        <p>Religionspädagogisches Portal mit Materialpool, Webinaren und Community-Räumen.</p>
-        <span class="community-link">rpi-virtuell.de</span>
-      </a>
-      <a href="https://relilab.org" target="_blank" rel="noopener" class="community-card">
-        <span class="label">Netzwerk</span>
-        <h4>relilab</h4>
-        <p>Selbstorganisierte Lerncommunity rund um digitale religiöse Bildung.</p>
-        <span class="community-link">relilab.org</span>
-      </a>
-      <a href="https://oer.community" target="_blank" rel="noopener" class="community-card">
-        <span class="label">Hub</span>
-        <h4>oer.community</h4>
-        <p>Zentrale Anlaufstelle für die OER-Community mit Blog, Veranstaltungen und Vernetzung.</p>
-        <span class="community-link">oer.community</span>
-      </a>
-      <a href="https://www.comenius.de" target="_blank" rel="noopener" class="community-card">
-        <span class="label">Träger</span>
+    <div class="partner-grid">
+
+      <a href="https://comenius.de/" target="_blank" rel="noopener" class="partner-card">
+        <div class="partner-logo">
+          <img src="https://oer.community/hello-world/comenius-institut-logo.png" alt="Comenius-Institut" />
+        </div>
+        <span class="label">Projektträger</span>
         <h4>Comenius-Institut</h4>
-        <p>Evangelisches Forschungs­institut für Bildung — fachliche Heimat von FOERBICO.</p>
-        <span class="community-link">comenius.de</span>
+        <p class="partner-desc">
+          Evangelische Arbeitsstätte für Erziehungswissenschaft. Verantwortet FOERBICO,
+          koordiniert Community-Aufbau und technische Umsetzung.
+        </p>
+        <div class="partner-people">
+          <span class="label-people">Team</span>
+          <span class="partner-person">Dr. Jens Dechow<span class="role">Direktor · Projektleitung</span></span>
+          <span class="partner-person">Jörg Lohrer<span class="role">Projektkoordination</span></span>
+          <span class="partner-person">Gina Buchwald-Chassée<span class="role">Community · Öffentlichkeitsarbeit</span></span>
+          <span class="partner-person">Ludger Sicking<span class="role">Technische Umsetzung</span></span>
+        </div>
+        <span class="partner-link">comenius.de</span>
       </a>
-      <a href="https://co-woerk.de" target="_blank" rel="noopener" class="community-card">
-        <span class="label">Partner</span>
-        <h4>CO-WOERK</h4>
-        <p>Wissenstransfer und Begleitung in offenen Bildungspraktiken.</p>
-        <span class="community-link">co-woerk.de</span>
+
+      <a href="https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik" target="_blank" rel="noopener" class="partner-card">
+        <div class="partner-logo">
+          <img src="https://oer.community/hello-world/Goethe-Universitaet_Frankfurt_Logo.png" alt="Goethe-Universität Frankfurt" />
+        </div>
+        <span class="label">Verbundpartner</span>
+        <h4>Goethe-Universität Frankfurt</h4>
+        <p class="partner-desc">
+          Professur für Religionspädagogik und Mediendidaktik. Forschung zu religiöser Bildung
+          und Mediendidaktik, Vernetzung in die Wissenschaft.
+        </p>
+        <div class="partner-people">
+          <span class="label-people">Team</span>
+          <span class="partner-person">Prof. Dr. Viera Pirker<span class="role">Lehrstuhlinhaberin</span></span>
+          <span class="partner-person">Dr. Laura Mößle<span class="role">Wiss. Mitarbeiterin</span></span>
+          <span class="partner-person">Paula Paschke<span class="role">Wiss. Mitarbeiterin (Vertretung)</span></span>
+        </div>
+        <span class="partner-link">uni-frankfurt.de · Professur RPMD</span>
       </a>
-      <a href="https://oersi.org" target="_blank" rel="noopener" class="community-card">
-        <span class="label">Index</span>
-        <h4>OERSI</h4>
-        <p>Open Educational Resources Search Index — der zentrale Sucheinstieg, an den FOERBICO andockt.</p>
-        <span class="community-link">oersi.org</span>
+
+      <a href="https://www.evrel.phil.fau.de/" target="_blank" rel="noopener" class="partner-card">
+        <div class="partner-logo">
+          <img src="https://oer.community/hello-world/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png" alt="FAU Erlangen-Nürnberg" />
+        </div>
+        <span class="label">Verbundpartner</span>
+        <h4>FAU Erlangen-Nürnberg</h4>
+        <p class="partner-desc">
+          Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts.
+          Empirische Begleitforschung des Projekts.
+        </p>
+        <div class="partner-people">
+          <span class="label-people">Team</span>
+          <span class="partner-person">Prof. Dr. Manfred Pirner<span class="role">Lehrstuhlinhaber</span></span>
+          <span class="partner-person">Phillip Angelina<span class="role">Empirische Begleitforschung</span></span>
+        </div>
+        <span class="partner-link">evrel.phil.fau.de</span>
       </a>
+
     </div>
   </div>
 </section>
@@ -1710,36 +1808,36 @@
   <div class="container">
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="logo">FOER<span>·</span>BICO</div>
-        <p>Community of Communities — Vernetzung religionsbezogener Communities für offene Bildungsmaterialien. Ein Projekt des Comenius-Instituts mit rpi-virtuell und CO-WOERK.</p>
+        <div class="logo">F<span class="oer">OER</span>BICO</div>
+        <p>Community of Communities — Vernetzung religionsbezogener Communities für offene Bildungsmaterialien. Verbundprojekt von Comenius-Institut, Goethe-Universität Frankfurt und FAU Erlangen-Nürnberg.</p>
       </div>
       <div class="footer-col">
         <h5>Community</h5>
         <ul>
           <li><a href="https://oer.community" target="_blank" rel="noopener">oer.community</a></li>
           <li><a href="https://matrix.to/#/%23oercommunity:rpi-virtuell.de" target="_blank" rel="noopener">Matrix-Space</a></li>
-          <li><a href="https://oer.community/unser-team/" target="_blank" rel="noopener">Team</a></li>
+          <li><a href="https://oer.community/blog/" target="_blank" rel="noopener">Blog</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h5>Partner</h5>
+        <h5>Verbund</h5>
         <ul>
-          <li><a href="https://www.comenius.de" target="_blank" rel="noopener">Comenius-Institut</a></li>
-          <li><a href="https://rpi-virtuell.de" target="_blank" rel="noopener">rpi-virtuell</a></li>
-          <li><a href="https://co-woerk.de" target="_blank" rel="noopener">CO-WOERK</a></li>
+          <li><a href="https://comenius.de" target="_blank" rel="noopener">Comenius-Institut</a></li>
+          <li><a href="https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik" target="_blank" rel="noopener">Goethe-Uni Frankfurt</a></li>
+          <li><a href="https://www.evrel.phil.fau.de/" target="_blank" rel="noopener">FAU Erlangen-Nürnberg</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h5>Kontakt</h5>
         <ul>
           <li><a href="https://oer.community/unser-team/" target="_blank" rel="noopener">Team</a></li>
-          <li><a href="https://www.comenius.de/impressum/" target="_blank" rel="noopener">Impressum</a></li>
-          <li><a href="https://www.comenius.de/datenschutzerklaerung/" target="_blank" rel="noopener">Datenschutz</a></li>
+          <li><a href="https://oer.community/impressum/" target="_blank" rel="noopener">Impressum</a></li>
+          <li><a href="https://oer.community/datenschutz/" target="_blank" rel="noopener">Datenschutz</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="micro">© 2026 comenius-institut · cc by-sa 4.0 · design system v1</span>
+      <span class="micro">cc by 4.0 · 2024–2026 foerbico · soweit nicht anders angegeben</span>
       <span class="micro">built with markdown · signed with nostr · indexed by oersi</span>
     </div>
   </div>
