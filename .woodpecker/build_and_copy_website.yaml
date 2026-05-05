@@ -26,9 +26,7 @@ steps:
       - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Blog Teamseite"; else echo "Webseite Startseite"; fi
       - echo $?
 
-      # Sanity-Check ausgeklammert 2026-05-05 — schlug nach Hugo-0.152-Update fehl
-      # obwohl Text in Markdown vorhanden. Reaktivieren nach Diagnose.
-      # - grep -E "Du hast sogar schon mal selbst Materialien erstellt oder arbeitest in einer Community" Website/PROD/index.html
+      - grep -E "Du hast sogar schon mal selbst Materialien erstellt" Website/PROD/index.html
 
   - name: copy_to_server
     image: alpine
