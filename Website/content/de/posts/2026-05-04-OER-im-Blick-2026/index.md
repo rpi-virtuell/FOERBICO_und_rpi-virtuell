@@ -78,11 +78,13 @@ Auch am zweiten Konferenztag griff Prof. Stefan Wölwer, Hochschule für angewan
 
 Auch in den Workshops, Vorträgen sowie vorgestellten OE_Space-Pitchprojekten wurden Ansätze, Tools oder Ideen präsentiert, um OER und OEP im Zeitalter von KI zu gestalten und weiterzuentwickeln. 
 
-👉  Wenn ihr auch an dem Thema interessiert seid und euch mit anderen dazu austauschen möchtet, laden wir euch herzlich in unserem offenen Element Raum "[OER + KI](https://matrix.to/#/#oer-ki:rpi-virtuell.de)" ein! Falls ihr noch kein Element habt, erhaltet ihr hier eine [Anleitung](https://rpi-virtuell.de/bei-element-anmelden/).
+👉 Wenn ihr auch an dem Thema interessiert seid und euch mit anderen dazu austauschen möchtet, laden wir euch herzlich in unserem offenen Element Raum "[OER + KI](https://matrix.to/#/#oer-ki:rpi-virtuell.de)" ein! Falls ihr noch kein Element habt, erhaltet ihr hier eine [Anleitung](https://rpi-virtuell.de/bei-element-anmelden/).
 
 ## Ohne Kompass durchs Gestrüpp? – Workshop zu Qualitätskriterien für Orientierung im OER-Dschungel
 
 Open Educational Resources stehen für Offenheit, Vielfalt und Gestaltungsfreiheit, zugleich aber auch für Unübersichtlichkeit, Unsicherheit und Orientierungslosigkeit. Im Workshop stellten Laura und Phillip die im FOERBICO Projekt entwickelten Qualitätskriterien für OER vor und beleuchteten deren Entstehung, Anwendung und Weiterentwicklung. 
+
+![](OER-im-Blick-2026-Workshop.jpg)
 
 Zu Beginn wurden die Teilnehmenden gebeten, eine konkrete Herausforderung bzw. „Stolperstelle“ zu benennen, die ihnen im Umgang mit OER begegnet ist. Nach einer kurzen Sammlung und ersten Einordnung dieser Aspekte führten Phillip und Laura in die OER-Qualitätskriterien ein. Diese umfassen vier Dimensionen – didaktisch-pädagogische, rechtliche, technische sowie religionspädagogische Aspekte – und dienen als strukturierender Orientierungsrahmen für Reflexion und Qualitätsentwicklung.
 Dabei wurde auch auf Expert:inneninterviews Bezug genommen, die im Zuge des Entwicklungsprozesses unterschiedliche Qualitätsverständnisse aus Wissenschaft und Praxis sichtbar machten. Die Qulitätskriterien wurden nicht nur theoretisch besprochen, sondern mit den Teilnehmenden auf ihre jeweilige "Stolperstelle" angewandt. Die Rückmeldungen und Impressionen halfen Chancen und Grenzen dieser aufzuzeigen und zugleich fand eine Anwendung der Qualitätskriterien als „wachsendes Dokument“ innerhalb der Workshopgruppe statt. 
@@ -98,7 +100,7 @@ Die OER-Landschaft ist stark fragmentiert. Der plattformübergreifende Austausch
 
 Im Rahmen von FOERBICO möchten wir darauf aufbauend einen Community-Hub im Sinne einer *Community of Communities* dezentral auf dem Nostr-Protokoll aufbauen. Uns freut daher sehr, dass der Grundgedanke bei den Workshopteilnehmenden aus verschiedenen OER-Communities auf positive Resonanz gestoßen ist!
 
-👉  Jeden Mittwoch findet außerdem von 10:30 bis ca. 11:30 Uhr ein offener Austausch für alle Interessierten unter comenius.de/zoom statt - herzliche Einladung dabei zu sein und auch dem [Edufeed-Elementraum](https://matrix.to/#/#edufeed:rpi-virtuell.de) beizutreten. 
+👉 Jeden Mittwoch findet außerdem von 10:30 bis ca. 11:30 Uhr ein offener Austausch für alle Interessierten unter comenius.de/zoom statt - herzliche Einladung dabei zu sein und auch dem [Edufeed-Elementraum](https://matrix.to/#/#edufeed:rpi-virtuell.de) beizutreten. 
 
 ## OE_COMmunity Forum – Projekte, Perspektiven, Partnerschaften
 
