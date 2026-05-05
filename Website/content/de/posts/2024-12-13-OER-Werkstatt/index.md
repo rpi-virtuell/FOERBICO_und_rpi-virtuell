@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: OEP ist nunmal eine Praxis
-description: >-
-  Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der
-  OER-Werkstatt von digiLL in Bochum.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der OER-Werkstatt von digiLL in Bochum.
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oer-werkstatt-digill-com-projekt
 creator:
   - givenName: Phillip
     familyName: Angelina
@@ -22,11 +21,16 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
+image: https://oer.community/oer-werkstatt-digill-com-projekt/kreativtisch-ausschnitt.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_C
-datePublished: '2025-01-13'
-#staticSiteGenerator:
+datePublished: 2025-01-13
+
+# staticSiteGenerator
 author:
   - Phillip Angelina
 title: OEP ist nunmal eine Praxis
@@ -34,8 +38,7 @@ cover:
   relative: true
   image: kreativtisch-ausschnitt.jpg
   hiddenInSingle: true
-summary: |
-  Vom 10. bis zum 11. Dezember 2024 fand eine OER-Werkstatt eines unserer Partnerprojekte digiLL_COM in Bochum statt. Phillip vom FOERBICO-Team nahm daran teil und berichtet in diesem Beitrag über seine Erfahrungen. Zudem geht er der Frage nach, um was es sich bei Open Educational Practices (OEP) handelt.
+summary: Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der OER-Werkstatt von digiLL in Bochum.
 url: oer-werkstatt-digill-com-projekt
 tags:
   - Open Educational Resources (OER)

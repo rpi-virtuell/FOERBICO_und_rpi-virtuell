@@ -1,13 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'
-description: >-
-  OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: "'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'"
+description: OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/open-ist-eine-haltung
 creator:
   - givenName: Laura
@@ -23,30 +21,30 @@ creator:
     type: Person
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
-      id: 
       type: Organization
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
+image: https://oer.community/open-ist-eine-haltung/we-are-open.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-12'
-#staticSiteGenerator:
+datePublished: 2025-12-12
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Paula Gregorio
-title: 'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'
+title: "'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'"
 cover:
   relative: true
   image: we-are-open.jpg
-  hiddenInSingle: false
-summary: |
-    OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
+  hiddenInSingle: true
+summary: OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
 url: open-ist-eine-haltung
 tags:
   - Open Educational Resources (OER)
@@ -56,7 +54,6 @@ tags:
   - Lizenzen
   - Religionspädagogik
   - Haltung
-  
 ---
 
 # *Open* ist eine Haltung: Wie Lehrkräfte mit OER umgehen  

@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: LearningResource
-id: https://oer.community/luther-influencer
 name: 'Instagram als Lernort: Luther als Influencer'
-description: >-
-  Ausgehend von Luthers Entdeckung der Gnade zeigt der Beitrag, wie Reformation als Kommunikationsereignis im digitalen Zeitalter neu erfahrbar wird – durch die kreative Aufgabe „Luther als Influencer“.
-inLanguage: de
+description: Ausgehend von Luthers Entdeckung der Gnade zeigt der Beitrag, wie Reformation als Kommunikationsereignis im digitalen Zeitalter neu erfahrbar wird – durch die kreative Aufgabe „Luther als Influencer“.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/luther-influencer
 creator:
   - givenName: Corinna
     familyName: Ullmann
@@ -23,12 +22,7 @@ creator:
       name: nt.dortmund
       id: https://ror.org/01k97gp34
       type: Organization
-keywords:
-  - Theologie
-  - Didaktik
-  - Social Media
-  - Religionspädagogik
-  - Open Educational Practices (OEP)
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
 image: https://oer.community/luther-influencer/2.png
@@ -36,8 +30,15 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-10-13'
-#staticSiteGenerator:
+datePublished: 2025-10-13
+keywords:
+  - Theologie
+  - Didaktik
+  - Social Media
+  - Religionspädagogik
+  - Open Educational Practices (OEP)
+
+# staticSiteGenerator
 author:
   - Lara Gotthard
   - Corinna Ullmann
@@ -45,8 +46,8 @@ title: 'Instagram als Lernort: Luther als Influencer'
 cover:
   relative: true
   image: 2.png
-summary: >-
-  Was wäre, wenn Luther Instagram gehabt hätte? Der Beitrag verbindet Reformation, Medienkompetenz und Kreativität – und zeigt, wie Jugendliche heute Haltung zeigen können: analog, digital, reformatorisch.
+  hiddenInSingle: true
+summary: Ausgehend von Luthers Entdeckung der Gnade zeigt der Beitrag, wie Reformation als Kommunikationsereignis im digitalen Zeitalter neu erfahrbar wird – durch die kreative Aufgabe „Luther als Influencer“.
 url: luther-influencer
 tags:
   - Theologie

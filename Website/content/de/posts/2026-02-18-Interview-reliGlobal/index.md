@@ -1,11 +1,10 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-'@type': Text
 creativeWorkStatus: Published
 name: Interview reliGlobal
 description: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir vom FOERBICO-Team Frank Behr aus dem reliGlobal-Team interviewt.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/interview-reliGlobal
 creator:
   - givenName: Frank
@@ -28,10 +27,6 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - OER-Community
 inLanguage:
   - de
 about:
@@ -42,25 +37,31 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-02-18'
-#staticSiteGenerator
+datePublished: 2026-02-18
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+'@type': Text
+
+# staticSiteGenerator
 author:
-  - Frak Behr
+  - Frank Behr
+  - Jens Palkowitsch-Kühl
   - Phillip Angelina
-title: 'Interview reliGlobal'
+title: Interview reliGlobal
 cover:
   relative: true
   hiddenInSingle: true
   image: Titelbild-reliGlobal.png
-summary: |
-  In der Vorbereitung auf die Zwischenfazit-Tagung haben wir vom FOERBICO-Team Frank Behr aus dem reliGlobal-Team interviewt und stellen euch das Projekt vor.
+summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir vom FOERBICO-Team Frank Behr aus dem reliGlobal-Team interviewt.
 url: interview-reliGlobal
 tags:
-  - Tagung
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Religionspädagogik
---- 
+  - OER-Community
+---
+ 
 # Interview reliGlobal
 
 ![reliGlobal-Logo](https://religlobal.org/wp-content/uploads/2024/01/Logo_reliGlobal-pnghq-ohne-bg-1536x1536.png)

@@ -1,16 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: 'SDG-Logos und #OER: Wie darf ich sie verwenden?'
-description: >-
-  Dieser Beitrag untersucht, wie man die SDG-Logos kreativ in OER einbinden
-  kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren
-  Nutzung der Symbole zur Förderung globaler Bildung.
-license: https://creativecommons.org/licenses/by-sa/4.0/deed.de
-id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/Blog/sdg-logos.md
+description: Dieser Beitrag untersucht, wie man die SDG-Logos kreativ in OER einbinden kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren Nutzung der Symbole zur Förderung globaler Bildung.
+license: https://creativecommons.org/licenses/by-sa/4.0/
+id: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden
 creator:
   - givenName: Jörg
     familyName: Lohrer
@@ -19,6 +15,7 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+    id: https://orcid.org/0000-0002-9282-0406
   - givenName: Gina
     familyName: Buchwald-Chassée
     type: Person
@@ -41,6 +38,7 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
+    id: https://orcid.org/0000-0002-6905-5523
 inLanguage:
   - de
 about:
@@ -50,12 +48,14 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n069
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n287
+image: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/cc-by-sa-linzenz-der-sdg-logos.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2024-08-09'
-#staticSiteGenerator:
+datePublished: 2024-08-09
+
+# staticSiteGenerator
 author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
@@ -66,10 +66,7 @@ cover:
   relative: true
   image: cc-by-sa-linzenz-der-sdg-logos.png
   hiddenInSingle: true
-summary: |
-  Dieser Beitrag untersucht, wie man die SDG-Logos kreativ in OER einbinden
-  kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren
-  Nutzung der Symbole zur Förderung globaler Bildung.
+summary: Dieser Beitrag untersucht, wie man die SDG-Logos kreativ in OER einbinden kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren Nutzung der Symbole zur Förderung globaler Bildung.
 url: sdg-logos-und-oer-wie-darf-ich-sie-verwenden
 tags:
   - Sustainable Developtment Goals (SDG)

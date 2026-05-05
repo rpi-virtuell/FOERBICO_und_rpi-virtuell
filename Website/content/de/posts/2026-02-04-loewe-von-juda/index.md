@@ -1,17 +1,12 @@
 ---
+# commonMetadata
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
 name: Wenn der Löwe ruft und die Communities antworten
-description: >-
-  In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der
-  Kinderbibel: "Der Löwe von Juda" auseinander. Er geht dabei auf die
-  theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig
-  Communities für das Auffinden von Fehlern und blinden Flecken für das eigene
-  Schaffen sind.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/L%C3%B6we_von_Juda_Neu/Website/content/de/posts/2026-02-04/index.md
+description: 'In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der Kinderbibel: "Der Löwe von Juda" auseinander. Er geht dabei auf die theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig Communities für das Auffinden von Fehlern und blinden Flecken für das eigene Schaffen sind.'
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/der-loewe-schwierigkeiten
 creator:
   - givenName: Phillip
     familyName: Angelina
@@ -21,40 +16,36 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OER-Communities
-  - Bibel
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Website/content/de/posts/2026-02-04-loewe-von-juda/loewe_von_juda_titelbild.png
+image: https://oer.community/der-loewe-schwierigkeiten/loewe_von_juda_titelbild.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-02-04'
-#staticSiteGenerator:
+datePublished: 2026-02-04
+keywords:
+  - Open Educational Resources (OER)
+  - OER-Communities
+  - Bibel
+
+# staticSiteGenerator
 author:
   - Phillip Angelina
-title: 'Wenn der Löwe ruft und die Communities antworten'
+title: Wenn der Löwe ruft und die Communities antworten
 cover:
   relative: true
   image: loewe_von_juda_titelbild.png
   hidddenInSingle: false
-  alt: 'Der Löwe von Juda'
-summary: >-
-  In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der
-  Kinderbibel - Der Löwe von Juda auseinander. Er geht dabei auf die
-  theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig
-  Communities für das Auffinden von Fehlern und blinden Flecken für das eigene
-  Schaffen sind.
+  alt: Der Löwe von Juda
+  hiddenInSingle: true
+summary: 'In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der Kinderbibel: "Der Löwe von Juda" auseinander. Er geht dabei auf die theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig Communities für das Auffinden von Fehlern und blinden Flecken für das eigene Schaffen sind.'
 url: der-loewe-schwierigkeiten
 tags:
-  - OER
+  - Open Educational Resources (OER)
   - OER-Communities
   - Bibel
 ---

@@ -1,6 +1,18 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/en/conference
+inLanguage:
+  - en
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: Conference page
 url: /en/conference
 ---

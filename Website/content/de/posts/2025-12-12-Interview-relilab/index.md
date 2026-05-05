@@ -1,11 +1,10 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-'@type': Text
 creativeWorkStatus: Published
 name: Interview Relilab
 description: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/interview-relilab
 creator:
   - givenName: Corinna
@@ -23,39 +22,40 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - OER-Community
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: RelilabInterviewTitelpage.png
+image: https://oer.community/interview-relilab/RelilabInterviewTitelpage.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-01-21'
-#staticSiteGenerator
+datePublished: 2026-01-21
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+'@type': Text
+
+# staticSiteGenerator
 author:
   - Corinna Ullmann
   - Phillip Angelina
-title: 'Interview Relilab'
+title: Interview Relilab
 cover:
   relative: true
   hiddenInSingle: true
   image: RelilabInterviewTitelpage.png
-summary: |
-  In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
+summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
 url: interview-relilab
 tags:
-  - Tagung
-  - OER
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Religionspädagogik
---- 
+  - OER-Community
+---
+ 
 
 ![Logo relilab](relilab_logo.png)
 

@@ -1,12 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Gemeinsam gegen Antisemitismus - Wie eine Community antisemitismuskritische Bildung stärken kann
-description: >-
-  Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind.
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+description: Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind.
+license: https://creativecommons.org/publicdomain/zero/1.0/
 id: https://oer.community/gemeinsam-gegen-antisemitismus
 creator:
   - givenName: Gina
@@ -22,17 +21,19 @@ image: https://oer.community/gemeinsam-gegen-antisemitismus/Community-Treffen.PN
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-datePublished: '2024-12-10'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-12-10
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: Gemeinsam gegen Antisemitismus – Wie eine Community antisemitismuskritische Bildung stärken kann
+title: Gemeinsam gegen Antisemitismus - Wie eine Community antisemitismuskritische Bildung stärken kann
 cover:
   relative: true
   image: Community-Treffen.PNG
-  hiddenInSingle: false
-summary: |
-  Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind.
+  hiddenInSingle: true
+summary: Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind.
 url: gemeinsam-gegen-antisemitismus
 tags:
   - Antisemitismuskritik

@@ -3,14 +3,9 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: 'Imaginationen von Offenheit in der Bildung'
-description: >-
-  Markus Deimann untersucht Open Education als pädagogisches Imaginäres und
-  analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von
-  Bildungssystemen und Innovation von Lehr- und Lernpraktiken. Dabei zeigt er,
-  warum die Umsetzung offener Bildung aufgrund widersprüchlicher Imaginarien
-  hinter den Erwartungen zurückbleiben kann.
-license: https://creativecommons.org/licenses/by-sa/4.0/deed.de
+name: Imaginationen von Offenheit in der Bildung
+description: 'Markus Deimann untersucht Open Education als pädagogisches Imaginäres und analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von Bildungssystemen und Innovation von Lehr- und Lernpraktiken. Dabei zeigt er, warum die Umsetzung offener Bildung aufgrund widersprüchlicher Imaginarien hinter den Erwartungen zurückbleiben kann.'
+license: https://creativecommons.org/licenses/by-sa/4.0/
 id: https://oer.community/imaginationen-offenheit-bildung
 creator:
   - givenName: Markus
@@ -39,7 +34,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-03-31'
+datePublished: 2026-03-31
 keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
@@ -48,24 +43,19 @@ keywords:
   - Hochschuldidaktik
   - Digitalisierung
   - KI
- 
+
 # staticSiteGenerator
 author:
   - Markus Deimann
   - Jörg Lohrer
-title: 'Imaginationen von Offenheit in der Bildung'
+title: Imaginationen von Offenheit in der Bildung
 cover:
   relative: true
   image: geo-tueren-offenheit.jpg
-  alt: "Abstrakte Illustration mit drei sich überlappenden geometrischen Formen. Im Hintergrund ein Raster aus offenen und geschlossenen Türen als Textur."
-  caption: "Symbolbild: KI-generiert ([ChatGPT](https://chatgpt.com/s/m_69cb6fb5e73c819198d6a691f709ab20)) | Lizenz: [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
-  hiddenInSingle: false
-summary: >-
-  Markus Deimann untersucht Open Education als pädagogisches Imaginäres und
-  analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von
-  Bildungssystemen und Innovation von Lehr- und Lernpraktiken. Dabei zeigt er,
-  warum die Umsetzung offener Bildung aufgrund widersprüchlicher Imaginarien
-  hinter den Erwartungen zurückbleiben kann.
+  alt: Abstrakte Illustration mit drei sich überlappenden geometrischen Formen. Im Hintergrund ein Raster aus offenen und geschlossenen Türen als Textur.
+  caption: 'Symbolbild: KI-generiert ([ChatGPT](https://chatgpt.com/s/m_69cb6fb5e73c819198d6a691f709ab20)) | Lizenz: [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)'
+  hiddenInSingle: true
+summary: 'Markus Deimann untersucht Open Education als pädagogisches Imaginäres und analysiert drei Visionen von Offenheit: Bildung für alle, Modernisierung von Bildungssystemen und Innovation von Lehr- und Lernpraktiken. Dabei zeigt er, warum die Umsetzung offener Bildung aufgrund widersprüchlicher Imaginarien hinter den Erwartungen zurückbleiben kann.'
 url: imaginationen-offenheit-bildung
 tags:
   - Open Educational Resources (OER)

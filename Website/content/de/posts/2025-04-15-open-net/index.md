@@ -1,17 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/evangelisches-labor
 name: Religionsbezogene Bildung und evangelische Publizistik - Auf dem Weg zu einem offenen Netzwerk als neue Ermöglichungsstruktur
-description: >-
-  Ein Gespräch zwischen Greg Elson (GEP) und Jörg Lohrer (Comenius-Institut)
-  eröffnet Perspektiven auf dezentrale Bildungs- und Medienarchitekturen im
-  protestantischen Raum. Es geht um die Befreiung der Daten, die Ermöglichung
-  partizipativer Infrastrukturen und das gemeinsame Entwerfen eines offenen
-  Netzwerkraums - dem Evangelischen Labor oder eines Open Net.
-inLanguage: de
+description: Ein Gespräch zwischen Greg Elson (GEP) und Jörg Lohrer (Comenius-Institut) eröffnet Perspektiven auf dezentrale Bildungs- und Medienarchitekturen im protestantischen Raum. Es geht um die Befreiung der Daten, die Ermöglichung partizipativer Infrastrukturen und das gemeinsame Entwerfen eines offenen Netzwerkraums - dem Evangelischen Labor oder eines Open Net.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/evangelisches-labor
 creator:
   - givenName: Jörg
     familyName: Lohrer
@@ -27,6 +22,7 @@ creator:
     affiliation:
       name: Gemeinschaftswerk der Evangelischen Publizistik
       type: Organization
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
@@ -36,8 +32,9 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-04-15'
-#staticSiteGenerator:
+datePublished: 2025-04-15
+
+# staticSiteGenerator
 author:
   - Jörg Lohrer
   - Greg Elson
@@ -45,12 +42,9 @@ title: Religionsbezogene Bildung und evangelische Publizistik - Auf dem Weg zu e
 cover:
   relative: true
   image: greg-und-joerg-we-are-open.png
-  caption: "Greg Elson (Gemeinschaftswerk evangelische Publizistik) und Jörg Lohrer (Comenius-Institut) mit Schriftzug 'We are open' - Screenshot Zoom-Videokonferenz)"
-summary: >-
-  Wie könnte ein evangelisches Labor aussehen, das dezentrale digitale Infrastrukturen
-  für Bildung und Publizistik ermöglicht? Ein exploratives Gespräch zwischen Greg Elson (GEP)
-  und Jörg Lohrer (Comenius-Institut) eröffnet Möglichkeitsräume und skizziert das
-  Potenzial vernetzter Zukunft im protestantischen Bildungsraum.
+  caption: Greg Elson (Gemeinschaftswerk evangelische Publizistik) und Jörg Lohrer (Comenius-Institut) mit Schriftzug 'We are open' - Screenshot Zoom-Videokonferenz)
+  hiddenInSingle: true
+summary: Ein Gespräch zwischen Greg Elson (GEP) und Jörg Lohrer (Comenius-Institut) eröffnet Perspektiven auf dezentrale Bildungs- und Medienarchitekturen im protestantischen Raum. Es geht um die Befreiung der Daten, die Ermöglichung partizipativer Infrastrukturen und das gemeinsame Entwerfen eines offenen Netzwerkraums - dem Evangelischen Labor oder eines Open Net.
 url: evangelisches-labor
 tags:
   - Digitalisierung

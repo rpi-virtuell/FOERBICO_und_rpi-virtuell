@@ -1,18 +1,21 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Canva für OER? Eine Entscheidungshilfe für Bildungsakteure
-description: >-
-  Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Gestaltungstool Canva zurück. Der Blogbeitrag soll Bildungsakteuren als Entscheidungshilfe dienen und bietet Infos und Tipps zur Orientierung!
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Gestaltungstool Canva zurück. Der Blogbeitrag soll Bildungsakteuren als Entscheidungshilfe dienen und bietet Infos und Tipps zur Orientierung!
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/canva
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
     type: Person
     organisation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+    affiliation:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
@@ -29,26 +32,20 @@ image: https://oer.community/canva/Canva-OER-KI-generiert.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-datePublished: '2024-12-19'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-12-19
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
   - Corinna Ullmann
-title: 'Canva für OER? Eine Entscheidungshilfe für Bildungsakteure'
+title: Canva für OER? Eine Entscheidungshilfe für Bildungsakteure
 cover:
   relative: true
   image: Canva-OER-KI-generiert.jpg
-  hiddenInSingle: false
-summary: |
-  Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen,
-  zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure
-  greifen auf das Tool [Canva](https://www.canva.com/) zurück, ein beliebtes
-  Design-Tool mit dem Workshop-Handouts, Präsentationen und Social-Media-Posts
-  im Handumdrehen erstellt sind. Doch sind die Designs, Vorlagen, Bilder einfach für OER nutzbar?
-  Ein [Artikel von irights-Info](https://irights.info/artikel/canva-oer/32239) machte uns auf die Problematik aufmerksam,
-  doch die Richtlinien von Canva enthielten dazu keinen eindeutigen Verweis.
-  Also haben wir bei der [Rechtinformationsstelle von ORCA.nrw](https://www.orca.nrw/oer/oer-erstellen/rechtsinformation/) angefragt und
-  hier die wichtigsten Infos und Tipps als Orientierung für euch zusammengefasst!
+  hiddenInSingle: true
+summary: Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Gestaltungstool Canva zurück. Der Blogbeitrag soll Bildungsakteuren als Entscheidungshilfe dienen und bietet Infos und Tipps zur Orientierung!
 url: canva
 tags:
   - Rechtsfragen

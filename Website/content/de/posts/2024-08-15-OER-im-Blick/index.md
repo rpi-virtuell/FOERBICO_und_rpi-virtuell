@@ -1,18 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: 'Rückblick: Auftaktkonferenz „OER im Blick“'
-description: >-
-  Die Konferenzreihe "OER im Blick" präsentiert alle Aktivitäten rund um die
-  Umsetzung der OER-Strategie des Bundes. Dazu kommen einmal im Jahr Beteiligte
-  aus den verschiedenen Projekten, dem Kreis der Gutachtenden, den Gremien zur
-  Fortentwicklung der Strategie und zusätzliche Impulsgeber zum gemeinsamen
-  Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt
-  a.M. mit dabei!
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
-id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/fOERbico/src/branch/main/Blog/2024-08-15-OER-im-Blick.md
+description: Die Konferenzreihe "OER im Blick" präsentiert alle Aktivitäten rund um die Umsetzung der OER-Strategie des Bundes. Dazu kommen einmal im Jahr Beteiligte aus den verschiedenen Projekten, dem Kreis der Gutachtenden, den Gremien zur Fortentwicklung der Strategie und zusätzliche Impulsgeber zum gemeinsamen Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt a.M. mit dabei!
+license: https://creativecommons.org/publicdomain/zero/1.0/
+id: https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -23,10 +16,15 @@ creator:
       type: Organization
 inLanguage:
   - de
-about:
-image: OER-im-Blick.jpg
-datePublished: '2024-08-15'
-#staticSiteGenerator:
+image: https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/OER-im-Blick.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-08-15
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: 'Rückblick: Auftaktkonferenz „OER im Blick“'
@@ -34,13 +32,7 @@ cover:
   relative: true
   image: OER-im-Blick.jpg
   hiddenInSingle: true
-summary: |
-  Die Konferenzreihe "OER im Blick" präsentiert alle Aktivitäten rund um die
-  Umsetzung der OER-Strategie des Bundes. Dazu kommen einmal im Jahr Beteiligte
-  aus den verschiedenen Projekten, dem Kreis der Gutachtenden, den Gremien zur
-  Fortentwicklung der Strategie und zusätzliche Impulsgeber zum gemeinsamen
-  Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt
-  a. M. mit dabei!
+summary: Die Konferenzreihe "OER im Blick" präsentiert alle Aktivitäten rund um die Umsetzung der OER-Strategie des Bundes. Dazu kommen einmal im Jahr Beteiligte aus den verschiedenen Projekten, dem Kreis der Gutachtenden, den Gremien zur Fortentwicklung der Strategie und zusätzliche Impulsgeber zum gemeinsamen Austausch zusammen. Das FOERBICO-Team war am 15. und 16. Mai 2024 in Frankfurt a.M. mit dabei!
 url: rueckblick-auftaktkonferenz-oer-im-blick
 tags:
   - FOERBICO in Kontakt

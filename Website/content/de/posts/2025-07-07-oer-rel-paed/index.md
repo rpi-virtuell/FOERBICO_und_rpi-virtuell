@@ -1,13 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
-description: >-
-    Open Educational Resources (OER) und Open Educational Practices (OEP) haben sich als zentrale Elemente der strategischen Entwicklung digitaler Bildungspraktiken etabliert, bleiben jedoch in der religionspädagogischen Forschung bislang weitgehend unbeachtet. Der vorliegende systematische Literaturbericht untersucht die empirische Evidenz zu OER/OEP hinsichtlich Bildungsgerechtigkeit, Inklusion und Qualität sowie deren Wechselwirkung, insbesondere im Hochschulkontext. Methodisch folgt die Analyse den PRISMA-Leitlinien und kombiniert induktive mit deduktiven Auswertungsansätzen. Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
+description: 'Open Educational Resources (OER) und Open Educational Practices (OEP) haben sich als zentrale Elemente der strategischen Entwicklung digitaler Bildungspraktiken etabliert, bleiben jedoch in der religionspädagogischen Forschung bislang weitgehend unbeachtet. Der vorliegende systematische Literaturbericht untersucht die empirische Evidenz zu OER/OEP hinsichtlich Bildungsgerechtigkeit, Inklusion und Qualität sowie deren Wechselwirkung, insbesondere im Hochschulkontext. Methodisch folgt die Analyse den PRISMA-Leitlinien und kombiniert induktive mit deduktiven Auswertungsansätzen. Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft.'
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-oep-literaturbericht
 creator:
   - givenName: Manfred
@@ -16,6 +14,8 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
+    id: https://orcid.org/0000-0002-6641-4690
+    type: Person
   - givenName: Viera
     familyName: Pirker
     id: https://orcid.org/0000-0002-6971-8905
@@ -35,23 +35,25 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: >-
-  https://oer.community/oer-oep-literaturbericht/theoweb-OER.jpg
+image: https://oer.community/oer-oep-literaturbericht/theoweb-OER.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_B
-datePublished: '2025-08-04'
-#staticSiteGenerator:
+datePublished: 2025-08-04
+
+# staticSiteGenerator
 author:
   - Viera Pirker
   - Manfred Pirner
-title: 'Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont'
+title: Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
 cover:
   relative: true
   image: theoweb-OER.jpg
+  hiddenInSingle: true
+summary: 'Open Educational Resources (OER) und Open Educational Practices (OEP) haben sich als zentrale Elemente der strategischen Entwicklung digitaler Bildungspraktiken etabliert, bleiben jedoch in der religionspädagogischen Forschung bislang weitgehend unbeachtet. Der vorliegende systematische Literaturbericht untersucht die empirische Evidenz zu OER/OEP hinsichtlich Bildungsgerechtigkeit, Inklusion und Qualität sowie deren Wechselwirkung, insbesondere im Hochschulkontext. Methodisch folgt die Analyse den PRISMA-Leitlinien und kombiniert induktive mit deduktiven Auswertungsansätzen. Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft.'
 url: oer-oep-literaturbericht
 tags:
   - Open Educational Resources (OER)
