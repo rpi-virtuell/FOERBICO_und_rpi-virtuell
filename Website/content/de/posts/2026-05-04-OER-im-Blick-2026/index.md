@@ -68,7 +68,7 @@ tags:
   - Community
 ---
 
-Am 28. und 29. April 2026 fand Statuskonferenz „[OER im Blick](https://www.oer-strategie.de/konferenz/)“ der [OER-Strategie](https://www.oer-strategie.de/) des Bundes in Köln statt. Wie bei der Konferenz im vergangenen Jahr in der Imaginata in Jena (siehe [Blogbeitrag](https://oer.community/oer-im-blick-2025/)) und der Auftaktkonferenz 2024 im EXPERIMINTA ScienceCenter in Frankfurt a.M. (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/)) wurde auch dieses Mal ein außergewöhnliches Ambiente gewählt: das smartvillage mit seinem lateinamerikanischen Flair. In inspirierender Umgebung sind wir auf eine gemeinsame Expedition durch das vielfältige OER-Ökosystem gegangen und nehmen euch in diesem Blogbeitrag mit auf die Reise. 
+Am 28. und 29. April 2026 fand die Statuskonferenz „[OER im Blick](https://www.oer-strategie.de/konferenz/)“ der [OER-Strategie](https://www.oer-strategie.de/) des Bundes in Köln statt. Wie bei der letztjährigen Konferenz in der Imaginata in Jena (siehe [Blogbeitrag](https://oer.community/oer-im-blick-2025/)) und der Auftaktkonferenz 2024 im EXPERIMINTA ScienceCenter in Frankfurt a.M. (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/)) wurde auch dieses Mal ein außergewöhnliches Ambiente gewählt: das smartvillage mit seinem lateinamerikanischen Flair. In inspirierender Umgebung sind wir auf eine gemeinsame Expedition durch das vielfältige OER-Ökosystem gegangen und nehmen euch in diesem Blogbeitrag mit auf die Reise. 
 
 ## KI in der Bildung weiterhin zentrales Thema
 
@@ -82,11 +82,9 @@ Auch in den Workshops, Vorträgen sowie vorgestellten OE_Space-Pitchprojekten wu
 
 ## Ohne Kompass durchs Gestrüpp? – Qualitätskriterien für Orientierung im OER-Dschungel
 
-Open Educational Resources stehen für Offenheit, Vielfalt und Gestaltungsfreiheit, zugleich aber auch für Unübersichtlichkeit. Im Vortrag stellten Laura und Phillip die im Projekt FOERBICO entwickelten Qualitätskriterien für OER und beleuchtet deren Entstehung, Anwendung und Weiterentwicklung vor. 
+Open Educational Resources stehen für Offenheit, Vielfalt und Gestaltungsfreiheit, zugleich aber auch für Unübersichtlichkeit, Unsicherheit und Orientierungslosigkeit. Im Vortrag stellten Laura und Phillip die im Projekt FOERBICO entwickelten Qualitätskriterien für OER und beleuchtet deren Entstehung, Anwendung und Weiterentwicklung vor. 
 
-Im Mittelpunkt standen vier Dimensionen (didaktisch-pädagogische, rechtliche, technische und religionspädagogische Aspekte), die als Orientierungsrahmen für Reflexion und Qualitätsentwicklung dienen. Dabei wurde auch auf Experteninterviews Bezug genommen, die im Zuge des Entwicklungsprozesses unterschiedliche Qualitätsverständnisse aus Wissenschaft und Praxis sichtbar machten. Wie die Kriterien in der Praxis genutzt werden, wurde dann anhand der Projekte [TiRU – Tablets im Religionsunterricht](https://oer.community/digitale-offenheit-braucht-tiefe/) und [M@PS – Medienkompetenz erweitern, Persönlichkeit stärken](https://oer.community/oer-beratung-und-qualit%C3%A4tskriterien/) der Goethe-Universität Frankfurt verdeutlicht.
-
-Da sich die Qualitätskriterien als „wachsendes Dokument“ verstehen, wird es auch Raum für Rückmeldungen aus der Community geben. Dabei steht folgende offene Diskussionsfrage im Mittelpunkt: Wie können Qualitätskriterien nachhaltig in OER-Communities und die Bildungspraxis implementiert werden?
+Im Mittelpunkt standen vier Dimensionen (didaktisch-pädagogische, rechtliche, technische und religionspädagogische Aspekte), die als Orientierungsrahmen für Reflexion und Qualitätsentwicklung dienen. Dabei wurde auch auf Experteninterviews Bezug genommen, die im Zuge des Entwicklungsprozesses unterschiedliche Qualitätsverständnisse aus Wissenschaft und Praxis sichtbar machten. Die Qulitätskriterien wurden nicht nur theoretisch besprochen, sondern mit den Teilnehmenden auf ihre jeweiligen Fragestellungen angewandt. Die Rückmeldungen und Impressionen halfen Chancen und Grenzen dieser aufzuzeigen und zugleich fand eine Anwendung der Qualitätskriterien als „wachsendes Dokument“ innerhalb der Workshopgruppe statt. Eine wichtige Frage steht offen im Mittelpunkt: Wie können Qualitätskriterien nachhaltig in OER-Communities und die Bildungspraxis implementiert werden?
 
 -> Hier noch wichtigste Rückmeldungen/Erkenntnisse
 
@@ -110,5 +108,5 @@ Als Rundgang konnten sich die verschiedenen Projekte der Förderrichtlinie OE_CO
 
 ## Fazit - Impulsreich, inspirierend und ein bisschen slOERkig
 
-Wie auch in den vorherigen Jahren haben wir bei der Konferenz viel Neues lernen dürfen, spannende Impulse erhalten und dank [Jöran](https://joeran.de/joeran/) wissen wir jetzt endlich, was slOERken bedeutet (= besserwisserisches Nörgeln von Menschen, die unter Openess-Vorzeichen arbeiten, dass etwas, was offen gemeint ist, nicht offen genug sei) 😉 Mit neuen Ideen und Ansätzen für unsere Weiterarbeit im Gepäck ging es dann für uns zurück in den Alltagsdschungel 🐒
+Wie auch in den vorherigen Jahren haben wir bei der Konferenz viel Neues lernen dürfen, spannende Impulse erhalten und dank [Jöran](https://joeran.de/joeran/) wissen wir jetzt endlich, was slOERken bedeutet (= besserwisserisches Nörgeln von Menschen, die unter Openess-Vorzeichen arbeiten, dass etwas, was offen gemeint ist, nicht offen genug sei) 😉. Zudem hat er uns ermutigt trotz Brüche sowie Inkonsequenz innerhalb von OER aufgrund von Plattformlogiken oder Zugänglichkeiten sowie von Software Offenheit im Sinne von Zugänglichkeit zu verstehen. Mit diesen und neuen Ideen sowie Ansätzen für unsere Weiterarbeit im Gepäck ging es dann für uns zurück in den Alltagsdschungel 🐒
 
