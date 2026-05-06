@@ -109,6 +109,7 @@ Als Rundgang konnten sich die verschiedenen Projekte der Förderrichtlinie OE_CO
 👉 Weitere Einblicke zu den Ergebnissen der Begleitforschung findet ihr im [Blogbeitrag zur FOERBICO-Zwischenfazittagung](https://oer.community/recap-foerbico-tagung-2026/).
 
 ![](OER-im-Blick-2026-Projektvorstellung.jpeg)
+[Austausch mit Co-Woerk](https://www.co-woerk.de/)
 
 ## Fazit - Impulsreich, inspirierend und ein bisschen slOERkig
 
