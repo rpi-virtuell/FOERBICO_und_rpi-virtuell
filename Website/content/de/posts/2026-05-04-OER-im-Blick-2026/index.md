@@ -92,7 +92,7 @@ Dabei wurde auch auf Expert:inneninterviews Bezug genommen, die im Zuge des Entw
 Eine zentrale Frage steht weiterhin im Raum: Wie können Qualitätskriterien nachhaltig in OER-Communities und in der Bildungspraxis verankert werden? Die Gespräche während und im Nachgang des Workshops haben deutlich gemacht, dass die entwickelten Qualitätskriterien als ein tragfähiger Orientierungsanker wahrgenommen werden, der je nach Kontext adaptiert und produktiv genutzt werden kann.
 Die Aufgabe der Communities besteht daher nicht nur darin, diese Kriterien zu verbreiten, sondern sie aktiv in konkrete Praxiszusammenhänge zu übersetzen, d.h. durch Erprobung, kontextsensible Weiterentwicklung und die Integration in bestehende Arbeitsprozesse. Entscheidend ist es, Räume zu schaffen, in denen Qualitätsfragen gemeinsam ausgehandelt und anhand konkreter Materialien erprobt werden können. 
 
-👉 Zu den [Qualitätskriterien](https://oer.community/qualitaet/) und zur [Präsentation]()
+👉 Zu den [Qualitätskriterien](https://oer.community/qualitaet/) und zur [Präsentation](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-oer-im-blick-2026/Website/content/de/posts/2026-05-04-OER-im-Blick-2026/2026_04_28_Ohne%20Kompass%20durchs%20Gestru%CC%88pp%20-%20Qualita%CC%88tskriterien%20fu%CC%88r%20Orientierung%20im%20OER%20-Dschungel.pdf)
 
 ## Dezentrale OER-Vernetzung mit Nostr
 
