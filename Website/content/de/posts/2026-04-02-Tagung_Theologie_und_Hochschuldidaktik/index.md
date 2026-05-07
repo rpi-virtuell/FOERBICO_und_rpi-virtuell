@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: 'Koennen OEP partizipatives Lernen und Demokratiebildung foerdern'
+name: 'Können OEP partizipatives Lernen und Demokratiebildung fördern'
 description: >-
   Unter dem Motto OEP & Demokratiebildung fand sich das Netzwerk Theologie
   und Hochschuldidaktik Ende März 2026 in Münster zusammen. Der Beitrag
@@ -59,7 +59,7 @@ keywords:
 author:
   - Laura Mößle
   - Phillip Angelina
-title: 'Koennen OEP partizipatives Lernen und Demokratiebildung foerdern'
+title: 'Können OEP partizipatives Lernen und Demokratiebildung fördern'
 cover:
   relative: true
   image: educationforall.jpg
@@ -86,8 +86,6 @@ tags:
   - Demokratiebildung
   - KI
 ---
-
-# Können OEP partizipatives Lernen und Demokratiebildung fördern?
 
 Unter dem Motto "OEP & Demokratiebildung" fand sich das Netzwerk [Theologie und Hochschuldidaktik](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) vom 30.-31. März 2026 in Münster zusammen. Damit sollte der gedankliche Faden der letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Unseren Artikel über die letztjährige Tagung könnt ihr [hier](https://oer.community/oer-meets-fachdidaktik/) nachlesen. 
 Das Ziel offener Bildungspraktiken spiegelte sich in der Tagungsorganisation wider, die bei Benedict Schöning (Universität Duisburg-Essen), Ludger Hiepel (Universität Münster) und Laura Mößle vom FOERBICO-Team lag: So waren die Beiträge offen und partizipativ angelegt, ein frei zugängliches [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) führte schon im Vorfeld auf die Tagung hin, während der Tagung durch das Programm und ermutigte auf diese Weise zur offenen Teilhabe.
