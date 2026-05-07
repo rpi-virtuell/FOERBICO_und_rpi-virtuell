@@ -6,12 +6,12 @@ type: LearningResource
 name: 'Koennen OEP partizipatives Lernen und Demokratiebildung foerdern'
 description: >-
   Unter dem Motto OEP & Demokratiebildung fand sich das Netzwerk Theologie
-  und Hochschuldidaktik Ende Maerz 2026 in Muenster zusammen. Der Beitrag
+  und Hochschuldidaktik Ende März 2026 in Münster zusammen. Der Beitrag
   gibt Einblicke in Workshops, Diskussionen und Community-Formate und fragt,
   inwiefern Open Educational Practices (OEP) partizipatives Lernen und
-  demokratische Bildungsprozesse ermoeglichen koennen. Im Fokus stehen
+  demokratische Bildungsprozesse an Hochschulen ermöglichen koennen. Im Fokus stehen
   klassismussensible Hochschulbildung sowie
-  die Frage nach didaktischen und strukturellen Bedingungen fuer eine Kultur
+  die Frage nach didaktischen und strukturellen Bedingungen für eine Kultur
   der Offenheit.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/koennen-oep-partizipatives-lernen-und-demokratiebildung-foerdern
@@ -43,16 +43,17 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-04-30'
+datePublished: '2026-05-10'
 keywords:
   - Open Educational Practices (OEP)
   - Open Educational Resources (OER)
   - Hochschuldidaktik
-  - Event
+  - Tagung
   - Kollaboration
   - Offenheit
   - Qualitätskriterien
-  - Religionspädagogik
+  - Demokratiebildung
+  - KI
 
 # staticSiteGenerator
 author:
@@ -78,60 +79,59 @@ tags:
   - Open Educational Practices (OEP)
   - Open Educational Resources (OER)
   - Hochschuldidaktik
-  - Event
+  - Tagung
   - Kollaboration
   - Offenheit
   - Qualitätskriterien
-  - Religionspädagogik
+  - Demokratiebildung
+  - KI
 ---
 
 # Können OEP partizipatives Lernen und Demokratiebildung fördern?
 
 Unter dem Motto "OEP & Demokratiebildung" fand sich das Netzwerk [Theologie und Hochschuldidaktik](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) vom 30.-31. März 2026 in Münster zusammen. Damit sollte der gedankliche Faden des letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Unseren Artikel über die letztjährige Tagung könnt ihr [hier](https://oer.community/oer-meets-fachdidaktik/) nachlesen. 
-Das Ziel der diesjährigen Tagung spiegelte sich auch in der Tagungsorganisation wieder: So waren die Beiträge offen und partizipativ angelegt, ein frei zugängliches [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) führte schon im Vorfeld auf die Tagung hin, während der Tagung durch das Programm und ermutigte auf diese Weise zur offenen Teilhabe. [> Kam die Idee eigentlich von dir Laura? Ganz grundsätzlich würde ich schon erwähnen, dass du auch mit in der Orga für die Tagung Verantwortung getragen hast!] <!--Das würde ich auch erwähnen! (FM) -->
+Das Ziel offener Bildungspraktiken spiegelte sich in der Tagungsorganisation wieder, die bei Benedict Schöning (Universität Duisburg-Essen), Ludger Hiepel (Universität Münster) und Laura Mößle vom FOERBICO Team lag: So waren die Beiträge offen und partizipativ angelegt, ein frei zugängliches [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) führte schon im Vorfeld auf die Tagung hin, während der Tagung durch das Programm und ermutigte auf diese Weise zur offenen Teilhabe.
 
 
 ## Klassismussensible Hochschulbildung
 
-Das FOERBICO-Team war mit Laura Mößle und Phillip Angelina vertreten und gestaltete einen Workshop zur klassismussensiblen Hochschulbildung durch OEP. Ausgangspunkt war eine Reflexion eigener Lehrerfahrungen, in der Teilhabebarrieren zunächst subjektiv sichtbar gemacht und anschließend im Rückgriff auf theoretische Perspektiven diskutiert wurden. 
-Dabei wurde insbesondere an die von [Alheit (2020)](https://books.google.de/books?hl=de&lr=&id=cHGYEAAAQBAJ&oi=fnd&pg=PA19&dq=Peter+Alheit+ausschluss+universit%C3%A4t&ots=EEGcjwidXo&sig=pceMTheIk257mawLz-D_dZou5OM#v=onepage&q&f=false) beschriebenen Schließungstendenzen von Universitäten angeknüpft, die auf strukturelle Ungleichheiten und habitualisierte Ausschlüsse im Hochschulkontext verweisen. <!-- Als Leser würde ich vielleicht 2-3 Sätze Erklärung zu den Schließungstendenzen nach Alheit benötigen, um besser zu verstehen, was diese sind, vielleicht in Klammer oder praktische Beispiele? (FM) -->
-Vor diesem Hintergrund rückte die Frage in den Fokus, inwiefern OEP dazu beitragen können, solche Barrieren nicht nur zu erkennen, sondern auch produktiv zu irritieren und zu transformieren. 
+Das FOERBICO-Team war durch Laura Mößle und Phillip Angelina vertreten und gestaltete einen Workshop zur klassismussensiblen Hochschulbildung durch OEP. Ausgangspunkt war eine Reflexion der eigenen Lehrerfahrungen, in der die Teilnehmenden Teilhabebarrieren in ihrer eigenen Lehre diskutierten. Im Rückgriff auf [Alheit (2020)](https://books.google.de/books?hl=de&lr=&id=cHGYEAAAQBAJ&oi=fnd&pg=PA19&dq=Peter+Alheit+ausschluss+universit%C3%A4t&ots=EEGcjwidXo&sig=pceMTheIk257mawLz-D_dZou5OM#v=onepage&q&f=false) nahmen wir die Schließungstendenzen von Universitäten zum Anlass, strukturelle Ungleichheiten und habitualisierte Ausschlüsse im Hochschulkontext genauer zu analysieren. Beispiele hierfür sind implizite Erwartungen an den wissenschaftlichen Habitus oder soziale und ökonomische Voraussetzungen. Vor diesem Hintergrund rückte die Frage in den Fokus, inwiefern OEP dazu beitragen können, solche Barrieren nicht nur sichtbar zu machen, sondern auch produktiv zu irritieren und zu transformieren.
 
-Anknüpfend an didaktische und gerechtigkeitsorientierte Überlegungen zu offener Bildung [(vgl. Bali/ Cronin/ Jhangiani](https://doi.org/10.5334/jime.565)) wurde im Workshop herausgearbeitet, dass OEP über den bloßen Zugang zu Materialien hinausgehen: Sie sind als *Praxis* der Öffnung von Lernprozessen, der kollaborativen Wissensproduktion und der Anerkennung vielfältiger Perspektiven zu verstehen.
+Anknüpfend an didaktische und gerechtigkeitsorientierte Überlegungen zu offener Bildung [(vgl. Bali/ Cronin/ Jhangiani](https://doi.org/10.5334/jime.565)) (siehe auch diesen [Blogbeitrag](https://oer.community/inklusives-Lernen-durch-OEP/), arbeiteten die Teilnehmenden im Workshop heraus, dass OEP über den bloßen Zugang zu Materialien hinausgehen: Sie sind als *Praxis* der Öffnung von Lernprozessen, der kollaborativen Wissensproduktion und der Anerkennung vielfältiger Perspektiven zu verstehen.
 OEP besitzen das Potenzial, klassische Machtasymmetrien in der Lehre aufzubrechen und neue Formen der Teilhabe zu ermöglichen. 
-Zugleich wurde im Workshop deutlich, dass Offenheit nicht voraussetzungslos ist: Zeitliche Ressourcen, institutionalisierte Lehr-Lern-Formate sowie normative Vorstellungen von Wissen, Autor:innenschaft und Rollen begrenzen die Umsetzungsmöglichkeiten von OEP in der Hochschullehre.
+Zugleich ist Offenheit nicht voraussetzungslos: Zeitliche Ressourcen, institutionalisierte Lehr-Lern-Formate sowie normative Vorstellungen von Wissen, Autor:innenschaft und Rollen begrenzen die Umsetzungsmöglichkeiten von OEP in der Hochschullehre.
 OEP lassen sich zwar als technisches Instrument nutzen – etwa um Studierenden Teilhabe an der kollaborativen Gestaltung von Lernmaterialien und Wissensbeständen zu ermöglichen –, entfalten ihr inklusives Potenzial jedoch erst als reflexive, machtkritische Praxis, wenn sie bewusst gestaltet und didaktisch gerahmt werden.
 
-Disziplinübergreifend wurde noch in weiteren Workshops ausgelotet, wie offene Bildungspraktiken Demokratiebildung stärken können. Nähere Einblicke in die anderen Workshops könnt ihr auf dem [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) bekommen. 
+Disziplinübergreifend wurde noch in weiteren Workshops ausgelotet, wie offene Bildungspraktiken Demokratiebildung stärken können. Nähere Einblicke in die anderen Workshops könnt ihr auf dem [Miro-Bord](https://miro.com/app/board/uXjVJB_19W8=/?share_link_id=715222657350) erhalten. 
 
 
 ## Community-Abend
 
-Der gemeinsame Community-Abend bot Raum für eine gelebte Praxis von Offenheit und Austausch. In einem offenen Format konnten Teilnehmende eigene OER und Seminarideen einbringen, gemeinsam diskutieren und im Austausch weiterentwickeln.
-Es entstanden auch spontane Arbeitsgruppen, etwa zu Fragen der Selbstorganisation und des Wissensmanagements sowie zur Rolle digitaler Tools in individuellen und kollaborativen Arbeitsprozessen. In diesem Kontext stellte das FOERBICO-Projekt seine Erfahrungen mit offenen Arbeitsweisen vor, insbesondere mit Git und Markdown, und diskutierte, inwiefern diese Praktiken etablierte Formen wissenschaftlicher Zusammenarbeit im institutionellen Hochschulkontext verändern können.
+Der Community-Abend verschob den Fokus bewusst vom theoretischen Sprechen über OEP hin zu offenen Formen gemeinsamer Praxis. In diesem Format konnten die Teilnehmenden eigene OER und Seminarideen einbringen und im Austausch weiterentwickeln.
+Es entstanden auch spontane Arbeitsgruppen, etwa zu Fragen der Selbstorganisation und des Wissensmanagements mit der markdownbasierten Notiz- und Wissensmanagementsoftware [Obsidian](https://obsidian.md/). Hierbei stellte das FOERBICO-Team Erfahrungen mit offenen Arbeitspraktiken bereit. Auch kollaborative Tools wie [Git](https://git.rpi-virtuell.de/) und Pads von [HedgeDoc](https://hedgedoc.org/) wurden erprobt und hinsichtlich ihrer Potenziale reflektiert.
 
-Zugleich wurden die im FOERBICO Projekt erarbeiteten [Qualitätskriterien](https://oer.community/qualitaet/) vorgestellt und gemeinsam diskutiert. Sie dienen als praxisnahe Orientierungsfolie, um die Entwicklung, Überarbeitung und Qualitätssicherung von OER-Materialien zu unterstützen.
-In der Diskussion wurde deutlich, dass Qualitätsfragen nicht ausschließlich technisch oder formal zu verstehen sind, sondern stets auch didaktische, inhaltliche und letztlich auch machtkritische Dimensionen umfassen. Insbesondere mit Blick auf Zugangsvoraussetzungen und technische Barrierefreiheit wurde deutlich, wie zentral diese Aspekte für eine inklusive Gestaltung von OER sind. 
+Auch die im FOERBICO Projekt erarbeiteten [Qualitätskriterien](https://oer.community/qualitaet/) wurden vorgestellt und gemeinsam diskutiert. Sie dienen als praxisnahe Orientierungsfolie, um die Überarbeitung und Qualitätsentwicklung von OER-Materialien zu unterstützen.
+Die Diskussion zeigte, dass sich Qualitätsfragen nicht auf technische oder formale Aspekte reduzieren lassen, sondern immer auch didaktische, inhaltliche und machtkritische Dimensionen umfassen. Besonders die Gespräche über Zugangsvoraussetzungen und technische Barrierefreiheit verdeutlichten, wie zentral diese Aspekte für eine inklusive Gestaltung von OER sind.
 
-Der Community-Abend eröffnete einen Raum gelebter Praxis und ermöglichte damit den Übergang vom Sprechen über OEP hin zum konkreten Handeln. Besonders die Multiperspektivität und der offene Austausch machten deutlich, dass sich OEP nicht allein begrifflich fassen lassen, sondern sich vor allem im gemeinsamen Tun entfalten. Gerade darin zeigt sich, dass – auch wenn [OEP schwierig zu definieren sind](https://oer.community/recap-foerbico-tagung-2026/) ihre Bedeutung primär im Handlungsgeschehen und in kollaborativen Praktiken sichtbar wird. <!-- Bei diesem Absatz weiß ich nicht ganz, was ihr sagen wollt. Beim Lesen dachte ich mir - ja eh, Community Abend, wie das halt so ist bei Tagungen ... Was hat den Abend so besonders gemacht? Wie wurde die Mulitperspektivität und der offene Austausch umgesetzt? -->
+Der Community-Abend machte deutlich, dass sich OEP insbesondere in konkreten Praktiken des Teilens und gemeinsamen Weiterentwickelns entfalten. Weil [OEP nicht leicht zu definieren sind](https://oer.community/recap-foerbico-tagung-2026/), wird ihre Bedeutung am besten im Handlungsgeschehen und in kollaborativen Praktiken erfahrbar.
 
 
 ## Learnings: Etabliete Muster produktiv irritieren
 
 OER und OEP eröffnen mit ihrem Ansatz das Potenzial, bestehenden Ausgrenzungsstrukturen im Bildungssystem entgegenzuwirken. Sie erfordern jedoch technische Infrastrukturen – vom Zugang zu geeigneter Hardware bis hin zu Kompetenzen im Umgang mit digitalen Tools und offenen Arbeitsweisen – als auch entsprechende didaktische und institutionelle Rahmenbedingungen. 
-Eine offene didaktische Haltung kann etablierte Lernmuster irritieren, da viele Studierende primär mit wenigen, oft stark vorstrukturierten Formen der Wissensaneignung vertraut sind. Offene Bildungspraktiken zielen jedoch darauf, diese Routinen aufzubrechen und neue Formen der Partizipation und Wissensproduktion zu ermöglichen. <!-- hättet ihr hier 2-3 praktische Beispiele, an denen man das exemplifizieren könnte? -->
+Eine offene didaktische Haltung kann etablierte Lernmuster irritieren, da viele Studierende vor allem lehrendengesteuerte und stark vorstrukturierte Formen des Lernens kennen. Offene Bildungspraktiken zielen jedoch darauf, diese Routinen aufzubrechen und neue Formen der Partizipation und Wissensproduktion zu ermöglichen. Dies fordert die Hochschuldidaktik heraus: Partizipation von Studierenden erschöpft sich nicht nur in Referaten und Gruppenarbeiten, sondern bedeutet eine echte Beteiligung im gesamten Lehr- und Lernprozess.
 
-Gleichzeitig stehen strukturelle Bedingungen der Umsetzung häufig entgegen, etwa restriktive Lizenzierungsfragen, institutionelle Vorgaben oder begrenzte zeitliche Ressourcen in der Vorbereitung und Durchführung von Lehre. 
-Darüber hinaus impliziert Offenheit ein erhöhtes Maß an Transparenz, wodurch bestehende Machtverhältnisse nicht automatisch aufgehoben, sondern vielmehr sichtbar werden. Gerade darin liegt jedoch ein großes Potenzial: OEP können dazu beitragen, Machtstrukturen reflexiv zu thematisieren und kritisch zu bearbeiten. <!-- wie sieht sowas dann praktisch aus? --> Eine *Kultur der Offenheit* erweist sich als grundlegende Voraussetzung, um langfristig exkludierende Strukturen im Bildungsbereich zu adressieren.
+Offene Bildungspraktiken im Hochschulkontext stehen häufig strukturellen Widerständen entgegen, etwa restriktive Lizenzierungsvorgaben oder begrenzte zeitliche Ressourcen in der Vorbereitung und Durchführung von Lehre. 
+Darüber hinaus impliziert Offenheit ein erhöhtes Maß an Transparenz, wodurch bestehende Machtverhältnisse oft überhaupt erst sichtbar werden. Gerade darin liegt jedoch ein großes Potenzial: OEP können dazu beitragen, die Wissensproduktion partizipativer zu gestalten. Zum Beispiel durch sog. [Open Text Books](https://open.umn.edu/opentextbooks), die mit CC-Lizenzen ausgestattet sind, damit Lernende die Lenrinhalte adaptieren und selbstständig weiterentwickeln können. 
 
-Dabei geht es weniger um die unmittelbare perfekte Umsetzung offener Bildungspraktiken, sondern vielmehr um eine schrittweise Transformation von Lehr- und Lernkulturen und letztlich um eine veränderte [Haltung](https://oer.community/open-ist-eine-haltung/).
-Unterstützend wirkt hier eine Verschiebung der Perspektive – weg von einer reinen Output- bzw. Beitragsorientierung hin zu einer stärkeren *Prozessorientierung*, in der gemeinsames Lernen, Aushandlung und Reflexion von Teilhabemöglichkeiten zentral werden.
+Es geht nicht um die unmittelbar perfekte Umsetzung offener Bildungspraktiken, sondern vielmehr um eine schrittweise Transformation von Lehr- und Lernkulturen und letztlich um eine veränderte [Haltung](https://oer.community/open-ist-eine-haltung/) der Lehrenden und Lernenden.
 
 
 ## OEP und Demokratiebildung - Quo vadis? 
 
-Im Kontext gegenwärtiger Debatten um offene Bildung lässt sich der Fokus auf partizipative Lehr-Lernformate aktuell deutlich beobachten: OEP erscheinen zunehmend als Antwort auf eine von „post-truth“-Dynamiken geprägte Wissensordnung [(vgl. Glassmann/ Tilak/ Kang)](https://doi.org/10.1080/01587919.2023.2267468) Sie verschieben die Rolle von Studierenden grundlegend – weg von der Rezeption hin zur aktiven Mitgestaltung von Wissen. 
-In offenen, kollaborativen Settings kann Lernen damit selbst zu einer demokratischen Praxis werden. Informationen werden nicht nur aufgenommen, sondern gemeinsam geprüft und verantwortungsvoll weiterentwickelt. Das demokratiefördernde Potenzial von OEP liegt  insbesondere darin, dass epistemische Autorität nicht vorausgesetzt wird, sondern im Prozess kooperativer Aushandlung entsteht.
+Der Fokus auf partizipative Lehr-Lernformate lässt sich aktuell angesichts gegenwärtiger Debatten um offene Bildung beobachten. OEP erscheinen dabei zunehmend als Antwort auf eine von „Post-Truth“-Dynamiken geprägte Wissensordnung [(vgl. Glassmann/ Tilak/ Kang)](https://doi.org/10.1080/01587919.2023.2267468). 
+Offene Bildungspraktiken sind ein Baustein für einen produktiven und zugleich kritischen Umgang mit generativer KI. Denn von ihrer Logik her sind OER und OEP auf Transparenz, Veränderbarkeit und Teilhabe ausgelegt, während KI eine Blackbox darstellt, in der weder Input noch Output nachvollziehbar werden. [Otto 2026](https://www.fau.tv/series/mit-oer-zu-einer-kultur-des-teilens-w25/1-aktuelle-herausforderungen-und-perspektiven-fur-oer-und-oep-w25), ging auf diesen Aspekt bei seiner Keynote auf der [FOERBICO-Tagung](https://oer.community/recap-foerbico-tagung-2026/) genauer ein. Er zeigt auf, dass vor allem delegierbare und summative Aufgaben von KI unterstützt gelöst werden können, wohingegen der hochschuldidaktische Fokus auf Prozessorientierung gelegt werden sollte. Somit bilden OER und OEP einen Hebel, um KI-Literacy zu erwerben und dem KI-Fog zu entkommen. 
+OEP verschieben die Rolle von Studierenden grundlegend – weg von der Rezeption hin zur aktiven Mitgestaltung von Wissen.  In offenen, kollaborativen Settings kann Lernen damit selbst zu einer demokratischen Praxis werden. Informationen werden nicht nur aufgenommen, sondern gemeinsam geprüft und verantwortungsvoll weiterentwickelt. Das demokratiefördernde Potenzial von OEP liegt insbesondere darin, dass epistemische Autorität im Prozess kooperativer Aushandlung entsteht.
 
 Zugleich zeigt sich – nicht zuletzt im Rahmen der Tagung –, dass diese Formen der Offenheit eine bewusste didaktische Rahmung sowie den gezielten Aufbau entsprechender Kompetenzen benötigt, um ihr volles Potenzial ausschöpfen zu können. 
 Die Zukunft von OEP wird daher entscheidend davon abhängen, inwiefern es gelingt, diese Prozesse nachhaltig in Lehr- und Lernkulturen zu verankern und in eine gelebte Praxis zu überführen.
