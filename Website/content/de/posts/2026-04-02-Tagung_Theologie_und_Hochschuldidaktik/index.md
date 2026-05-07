@@ -67,7 +67,7 @@ cover:
   hiddenInSingle: true
 summary: >-
   Unter dem Motto OEP & Demokratiebildung fand sich das Netzwerk Theologie
-  und Hochschuldidaktik Ende Maerz 2026 in Muenster zusammen. Der Beitrag
+  und Hochschuldidaktik Ende März 2026 in Münster zusammen. Der Beitrag
   gibt Einblicke in Workshops, Diskussionen und Community-Formate und fragt,
   inwiefern Open Educational Practices (OEP) partizipatives Lernen und
   demokratische Bildungsprozesse ermoeglichen koennen. Im Fokus stehen
