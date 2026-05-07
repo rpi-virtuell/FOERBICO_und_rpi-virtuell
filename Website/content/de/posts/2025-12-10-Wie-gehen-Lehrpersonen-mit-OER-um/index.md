@@ -17,7 +17,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
   - givenName: Paula
-    familyName: Gregorio
+    familyName: Gregorio Rodrigo
     type: Person
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
@@ -38,7 +38,7 @@ datePublished: 2025-12-12
 # staticSiteGenerator
 author:
   - Laura Mößle
-  - Paula Gregorio
+  - Paula Gregorio Rodrigo
 title: "'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'"
 cover:
   relative: true
