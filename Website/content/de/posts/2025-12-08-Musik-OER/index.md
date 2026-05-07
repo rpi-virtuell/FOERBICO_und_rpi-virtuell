@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: LearningResource
-id: https://oer.community/musik-oer
-name: 'Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?'
-description: >-
-  Musik in offen geteilten Weihnachtsmaterialien wirft rechtliche Fragen auf. FOERBICO bietet dazu recherchierte Hinweise und Praxistipps für die rechtssichere OER-Nutzung.
-inLanguage: de
+name: Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?
+description: Musik in offen geteilten Weihnachtsmaterialien wirft rechtliche Fragen auf. FOERBICO bietet dazu recherchierte Hinweise und Praxistipps für die rechtssichere OER-Nutzung.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/musik-oer
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -16,23 +15,25 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: Music-House-Susanlenox-CC0.jpg
+image: https://oer.community/musik-oer/Music-House-Susanlenox-CC0.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-18'
-#staticSiteGenerator:
+datePublished: 2025-12-18
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: 'Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?'
+title: Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?
 cover:
   relative: true
   image: Music-House-Susanlenox-CC0.jpg
-summary: >-
-  Während viele Inhalte rund um Weihnachten frei veröffentlicht werden sollen, wirft Musik rechtliche Fragen auf – etwa zur Nutzung, Offenheit und möglichen GEMA-Rechten. Das FOERBICO-Team hat dazu recherchiert und eine Sammlung von Hinweisen, Ressourcen und Praxistipps zusammengestellt, die helfen sollen, Musik rechtssicher im OER-Kontext zu nutzen.
+  hiddenInSingle: true
+summary: Musik in offen geteilten Weihnachtsmaterialien wirft rechtliche Fragen auf. FOERBICO bietet dazu recherchierte Hinweise und Praxistipps für die rechtssichere OER-Nutzung.
 url: musik-oer
 tags:
   - Open Educational Resources (OER)

@@ -1,14 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Ist die Bibel eigentlich Open?
-description: >-
-  Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist
-  verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses
-  anwendbar ist.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses anwendbar ist.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/ist-die-bibel-eigentlich-open/
 creator:
   - givenName: Laura
@@ -26,6 +23,7 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
+    id: https://orcid.org/0000-0002-6905-5523
 inLanguage:
   - de
 about:
@@ -41,8 +39,9 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2024-11-12'
-#staticSiteGenerator:
+datePublished: 2024-11-12
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Phillip Angelina
@@ -51,10 +50,7 @@ cover:
   relative: true
   image: an-open-bible_Lynn_Greyling_Small.png
   hiddenInSingle: true
-summary: |
-  Laura und Phillip vom FOERBICO Team gehen der Frage nach,
-  ob das meist verkaufte Buch der Welt, die Bibel,
-  eigentlich für Open Educational Resourses anwendbar ist.
+summary: Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
 tags:
   - Open Educational Resources (OER)

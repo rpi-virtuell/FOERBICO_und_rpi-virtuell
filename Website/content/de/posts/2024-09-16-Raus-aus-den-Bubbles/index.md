@@ -1,16 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: Raus aus den Bubbles
-description: >-
-  Raus aus der Bubble, rein ins gemeinsame Machen 💪 - Das ist das Motto unseres
-  vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projektes
-  FOERBICO, bei dem wir gemeinsam mit der Goethe-Universität Frankfurt und der
-  FAU Erlangen-Nürnberg religionsbezogene Communities vernetzen und zusammen
-  offene Bildungspraktiken fördern wollen. 🚀
-license: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
-id: https://reliverse.social/@comenius/112904576729292807
+description: Raus aus der Bubble, rein ins gemeinsame Machen 💪 - Das ist das Motto unseres vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projektes FOERBICO, bei dem wir gemeinsam mit der Goethe-Universität Frankfurt und der FAU Erlangen-Nürnberg religionsbezogene Communities vernetzen und zusammen offene Bildungspraktiken fördern wollen. 🚀
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+id: https://oer.community/raus-aus-den-bubbles
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -21,9 +16,15 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: raus-aus-den-bubbles_vorschau.jpg
-datePublished: '2024-09-16'
-#staticSiteGenerator:
+image: https://oer.community/raus-aus-den-bubbles/raus-aus-den-bubbles_vorschau.jpg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-09-16
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: Raus aus den Bubbles
@@ -31,12 +32,7 @@ cover:
   relative: true
   image: raus-aus-den-bubbles_vorschau.jpg
   hiddenInSingle: true
-summary: |
-  Raus aus der Bubble, rein ins gemeinsame Machen - Das ist das Motto unseres
-  vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projektes
-  FOERBICO, bei dem wir gemeinsam mit der Goethe-Universität Frankfurt und der
-  FAU Erlangen-Nürnberg religionsbezogene Communities vernetzen und zusammen
-  offene Bildungspraktiken fördern wollen. 
+summary: Raus aus der Bubble, rein ins gemeinsame Machen 💪 - Das ist das Motto unseres vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projektes FOERBICO, bei dem wir gemeinsam mit der Goethe-Universität Frankfurt und der FAU Erlangen-Nürnberg religionsbezogene Communities vernetzen und zusammen offene Bildungspraktiken fördern wollen. 🚀
 url: raus-aus-den-bubbles
 tags:
   - Open Educational Resources (OER)

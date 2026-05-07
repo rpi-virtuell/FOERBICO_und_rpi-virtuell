@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: LearningResource
-id: https://oer.community/hackathoern
 name: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen'
-description: >-
-  Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
-inLanguage: de
+description: Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/hackathoern
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -31,15 +30,17 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/hacktahoern/gina-ludger-joerg.jpg
+image: https://oer.community/hackathoern/gina-ludger-joerg.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-05-09'
-#staticSiteGenerator:
+datePublished: 2025-05-09
+
+# staticSiteGenerator
 author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
@@ -48,9 +49,9 @@ title: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-
 cover:
   relative: true
   image: gina-ludger-joerg.jpg
-  caption: "Jörg, Ludger und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen"
-summary: >-
-  Vom 28. bis 30. April 2025 kamen beim ersten HackathOERn von edu-sharing in Göttingen Akteur:innen aus dem OER-Bereich zusammen, um gemeinsam an digitalen Lösungen zur Stärkung von Open Educational Resources (OER) und Open Educational Practices (OEP) zu arbeiten. Im Mittelpunkt standen Vernetzung, Wissenstransfer und die kollaborative Weiterentwicklung eingereichter Projektideen bis hin zu ersten Prototypen.
+  caption: Jörg, Ludger und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen
+  hiddenInSingle: true
+summary: Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
 url: hackathoern
 tags:
   - Vernetzung

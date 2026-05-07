@@ -1,13 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Dezentrale OER-Infrastrukturen: Interoperabilität und Community-Vernetzung im digitalen Bildungsraum
-description: >-
-  Wie können wir offene Bildungsressourcen (OER) nachhaltig und gemeinschaftlich gestalten? Dieser Beitrag beleuchtet die fundamentalen Überlegungen zur Entwicklung dezentraler OER-Infrastrukturen. Matthias, Gina und Jörg haben sich ausgetauscht zu technischen Herausforderungen, nutzerzentrierten Anforderungen und innovativen Konzepte wie "OpenCards", die eine vernetzte und remixbare OER-Landschaft ermöglichen sollen. Einblicke von digLL und dem FOERBICO-Projekt zeigen, wie Interoperabilität und Community-Vernetzung die Zukunft des digitalen Lernens prägen können.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: 'Dezentrale OER-Infrastrukturen: Interoperabilität und Community-Vernetzung im digitalen Bildungsraum'
+description: Wie können wir offene Bildungsressourcen (OER) nachhaltig und gemeinschaftlich gestalten? Dieser Beitrag beleuchtet die fundamentalen Überlegungen zur Entwicklung dezentraler OER-Infrastrukturen. Matthias, Gina und Jörg haben sich ausgetauscht zu technischen Herausforderungen, nutzerzentrierten Anforderungen und innovativen Konzepte wie "OpenCards", die eine vernetzte und remixbare OER-Landschaft ermöglichen sollen. Einblicke von digLL und dem FOERBICO-Projekt zeigen, wie Interoperabilität und Community-Vernetzung die Zukunft des digitalen Lernens prägen können.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/dezentrale-oer-infrastrukturen
 creator:
   - givenName: Jörg
@@ -18,7 +16,7 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-  - creator:
+  - {}
   - givenName: Gina
     familyName: Buchwald-Chassée
     type: Person
@@ -32,23 +30,24 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: >-
-  https://oer.community/dezentrale-oer-infrastrukturen/gina-matthias-joerg.png
+image: https://oer.community/dezentrale-oer-infrastrukturen/gina-matthias-joerg.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-03-24'
-#staticSiteGenerator:
+datePublished: 2025-03-24
+
+# staticSiteGenerator
 author:
   - Jörg Lohrer
   - Gina Buchwald-Chassée
-  - Matthias Kostrzewa
 title: 'Dezentrale OER-Infrastrukturen: Interoperabilität und Community-Vernetzung im digitalen Bildungsraum'
 cover:
   relative: true
   image: gina-matthias-joerg.png
+  hiddenInSingle: true
+summary: Wie können wir offene Bildungsressourcen (OER) nachhaltig und gemeinschaftlich gestalten? Dieser Beitrag beleuchtet die fundamentalen Überlegungen zur Entwicklung dezentraler OER-Infrastrukturen. Matthias, Gina und Jörg haben sich ausgetauscht zu technischen Herausforderungen, nutzerzentrierten Anforderungen und innovativen Konzepte wie "OpenCards", die eine vernetzte und remixbare OER-Landschaft ermöglichen sollen. Einblicke von digLL und dem FOERBICO-Projekt zeigen, wie Interoperabilität und Community-Vernetzung die Zukunft des digitalen Lernens prägen können.
 url: dezentrale-oer-infrastrukturen
 tags:
   - Open Educational Resources (OER)

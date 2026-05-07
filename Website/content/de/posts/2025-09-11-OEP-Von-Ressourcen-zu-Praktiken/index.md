@@ -1,13 +1,11 @@
 ---
-
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: "Open Educational Practices - Von Ressourcen zu Praktiken"
-description: >-
-  Ein Rückblick von Ulf-Daniel Ehlers auf die Entstehung und Entwicklung von Open Educational Practices (OEP). Im Zentrum steht die Verschiebung des Diskurses von Open Educational Resources (OER) hin zu offenen Lehr- und Lernpraktiken, bei denen Partizipation, Ko-Kreation und didaktische Innovation entscheidend sind.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: Open Educational Practices - Von Ressourcen zu Praktiken
+description: Ein Rückblick von Ulf-Daniel Ehlers auf die Entstehung und Entwicklung von Open Educational Practices (OEP). Im Zentrum steht die Verschiebung des Diskurses von Open Educational Resources (OER) hin zu offenen Lehr- und Lernpraktiken, bei denen Partizipation, Ko-Kreation und didaktische Innovation entscheidend sind.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oep-von-ressourcen-zu-praktiken
 creator:
   - givenName: Ehlers
@@ -29,25 +27,23 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-09-11'
+datePublished: 2025-09-11
 
-#staticSiteGenerator:
+# staticSiteGenerator
 author:
-  - Prof. Dr. Ulf-Daniel Ehlers
-title: 'Open Educational Practices - Von Ressourcen zu Praktiken'
+  - Ehlers Ulf-Daniel
+title: Open Educational Practices - Von Ressourcen zu Praktiken
 cover:
   relative: true
   image: oer-cube.jpg
-  caption: "Symbolbild: Der Würfel aus Bildern symbolisiert die Vielfalt offener Bildungsressourcen (OER) und die Vernetzung in Open Educational Practices (OEP) - frei kombinierbar, zugänglich und gemeinschaftlich gestaltbar"
-  alt: "Ein 3D-Bild eines schwarzen Würfels, dessen Flächen aus vielen rechteckigen Screens bestehen. Auf jedem Screen ist ein Foto oder Bild dargestellt, z. B. Landschaften, Architektur, Tiere, Kunstwerke, Symbole und Objekte in kräftigen Farben. Der Würfel ist leicht gedreht im Raum schwebend, mit blauer Hintergrundbeleuchtung, sodass er futuristisch und modern wirkt. Der Stil soll fotorealistisch und detailreich sein, wie eine digitale Collage aus kleinen Monitoren."
+  caption: 'Symbolbild: Der Würfel aus Bildern symbolisiert die Vielfalt offener Bildungsressourcen (OER) und die Vernetzung in Open Educational Practices (OEP) - frei kombinierbar, zugänglich und gemeinschaftlich gestaltbar'
+  alt: Ein 3D-Bild eines schwarzen Würfels, dessen Flächen aus vielen rechteckigen Screens bestehen. Auf jedem Screen ist ein Foto oder Bild dargestellt, z. B. Landschaften, Architektur, Tiere, Kunstwerke, Symbole und Objekte in kräftigen Farben. Der Würfel ist leicht gedreht im Raum schwebend, mit blauer Hintergrundbeleuchtung, sodass er futuristisch und modern wirkt. Der Stil soll fotorealistisch und detailreich sein, wie eine digitale Collage aus kleinen Monitoren.
   hiddenInSingle: true
-summary: |
-  Ein Rückblick von Ulf-Daniel Ehlers auf die Entstehung und Entwicklung von Open Educational Practices (OEP). Im Zentrum steht die Verschiebung des Diskurses von Open Educational Resources (OER) hin zu offenen Lehr- und Lernpraktiken, bei denen Partizipation, Ko-Kreation und didaktische Innovation entscheidend sind.
+summary: Ein Rückblick von Ulf-Daniel Ehlers auf die Entstehung und Entwicklung von Open Educational Practices (OEP). Im Zentrum steht die Verschiebung des Diskurses von Open Educational Resources (OER) hin zu offenen Lehr- und Lernpraktiken, bei denen Partizipation, Ko-Kreation und didaktische Innovation entscheidend sind.
 url: oep-von-ressourcen-zu-praktiken
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-
 ---
 
 CC BY [Prof. Dr. Ulf-Daniel Ehlers (NextEducation)](https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/)

@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: LearningResource
-id: https://oer.community/theologie-memes
 name: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen schaffen'
-description: >-
-  An der Uni Vechta wird vom Institut für Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
-inLanguage: de
+description: An der Uni Vechta wird vom Institut für Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/theologie-memes
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -30,15 +29,17 @@ creator:
       name: Universität Vechta
       id: https://ror.org/045y6d111
       type: Organization
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: Social-Media-Logo-Uni-Vechta.jpg
+image: https://oer.community/theologie-memes/Social-Media-Logo-Uni-Vechta.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-10-06'
-#staticSiteGenerator:
+datePublished: 2025-10-06
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
   - Corinna Ullmann
@@ -47,8 +48,8 @@ title: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen 
 cover:
   relative: true
   image: Social-Media-Logo-Uni-Vechta.jpg
-summary: >-
-  Tanzvideos, Rezepte, Comedy – und jetzt auch Theologie? An der Universität Vechta wird ausprobiert, wie sich akademisch-theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes spielen dabei eine Schlüsselrolle – sie sind nicht nur Unterhaltung, sondern auch didaktisches Werkzeug.
+  hiddenInSingle: true
+summary: An der Uni Vechta wird vom Institut für Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
 url: theologie-memes
 tags:
   - Theologie

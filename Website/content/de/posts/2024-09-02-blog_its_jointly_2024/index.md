@@ -1,43 +1,39 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
-name: "It's Jointly 2024 Rückblick"
-description: >-
-  Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in
-  Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um
-  gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die
-  Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei
-  Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom
-  19.08.-21.08.2024 teil.
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+name: It's Jointly 2024 Rückblick
+description: Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom 19.08.-21.08.2024 teil.
+license: https://creativecommons.org/publicdomain/zero/1.0/
+id: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024
 creator:
   - givenName: Phillip
     familyName: Angelina
     type: Person
+    id: https://orcid.org/0000-0002-6905-5523
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
 inLanguage:
   - de
+image: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/phillip-und-ludger.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2024-09-02'
-#staticSiteGenerator:
+datePublished: 2024-09-02
+
+# staticSiteGenerator
 author:
   - Phillip Angelina
-title: Einblicke zum OER-/IT-Sommercamp "it’s jointly 2024"
+title: It's Jointly 2024 Rückblick
 cover:
   relative: true
   image: phillip-und-ludger.jpg
   hiddenInSingle: true
-summary: >-
-  Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in
-  Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um
-  gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die
-  Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei
-  Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom
-  19.08.-21.08.2024 teil.
+summary: Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom 19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
 tags:
   - FOERBICO in Kontakt

@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/digitale-offenheit-braucht-tiefe
 name: 'Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU'
-description: >-
-  Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird ein Qualitätsentwicklungsprozess vorgestellt, der im Rahmen des FOERBICO-Projekts durch eine Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
-inLanguage: de
+description: Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird ein Qualitätsentwicklungsprozess vorgestellt, der im Rahmen des FOERBICO-Projekts durch eine Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/digitale-offenheit-braucht-tiefe
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -19,17 +18,20 @@ creator:
       type: Organization
   - givenName: Paula
     familyName: Paschke
-    id: 
     type: Person
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: TiRU.png
+inLanguage: de
+image: https://oer.community/digitale-offenheit-braucht-tiefe/TiRU.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-10-17'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-10-17
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Paula Paschke
@@ -38,9 +40,9 @@ cover:
   relative: true
   image: TiRU.png
   hidddenInSingle: false
-  alt: 'TiRU Logo Schriftzug im Tablet'
-summary: >-
- Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird ein Qualitätsentwicklungsprozess vorgestellt, der im Rahmen des FOERBICO-Projekts durch eine Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
+  alt: TiRU Logo Schriftzug im Tablet
+  hiddenInSingle: true
+summary: Die Integration von OER in der Lehrer:innenbildung eröffnet innovative didaktische Gestaltungsspielräume, geht jedoch mit Herausforderungen hinsichtlich der Qualitätsentwicklung einher. Am Beispiel des Projekts TiRU an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt wird ein Qualitätsentwicklungsprozess vorgestellt, der im Rahmen des FOERBICO-Projekts durch eine Beratung zu OER-Qualitätskriterien operationalisiert wurde. Der Beitrag analysiert Gelingensbedingungen qualitätsorientierter OER-Entwicklung und geht der Frage nach, wie Qualitätskriterien nicht nur evaluativ angewendet, sondern konstitutiv in die Materialentwicklung integriert werden können.
 url: digitale-offenheit-braucht-tiefe
 tags:
   - Qualitätskriterien

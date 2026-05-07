@@ -1,21 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre
-  für Religionspädagogik & Theologie: : OER finden & bewerten
-description: >-
-  In Teil 2 der Online-Fortbildungsreihe "OER in der Hochschullehre
-  für Religionspädagogik & Theologie" wurden Strategien zur Recherche
-  und Bewertung von OER vorgestellt und diskutiert. Unter der Leitung
-  von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée
-  (Comenius-Institut) standen u. a. folgende Fragen im Mittelpunkt:
-  Wie sieht es mit (CC-)Lizenzen aus?
-  Wo findet man für die Hochschullehre geeignete offene Materialien?
-  Wie bewertet man die Qualität von OER?
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: 'Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie: : OER finden & bewerten'
+description: 'In Teil 2 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut) standen u. a. folgende Fragen im Mittelpunkt: Wie sieht es mit (CC-)Lizenzen aus? Wo findet man für die Hochschullehre geeignete offene Materialien? Wie bewertet man die Qualität von OER?'
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-fortbildungsreihe-2
 creator:
   - givenName: Laura
@@ -38,28 +28,24 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
+image: https://oer.community/oer-fortbildungsreihe-2/OER-Fortbildungsreihe-2.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-03-31'
-#staticSiteGenerator:
+datePublished: 2025-03-31
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Gina Buchwald-Chassée
-title: 'Rückblick zur OER-Fortbildungsreihe Teil 2: OER finden & bewerten'
+title: 'Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie: : OER finden & bewerten'
 cover:
   relative: true
   image: OER-Fortbildungsreihe-2.jpg
-  hiddenInSingle: false
-summary: |
-  Offene Bildungsressourcen (Open Educational Resources, OER) sind eine
-  wertvolle Bereicherung für die Hochschullehre. Doch
-  wo findet man überhaupt geeignete offene Materialien für die Hochschullehre,
-  wie sieht es eigentlich mit den CC-Lizenzen aus und wie bewertet man die
-  Qualität von OER? Diese Fragen standen im Mittelpunkt des zweiten Teils der
-  OER-Fortbildungsreihe.
+  hiddenInSingle: true
+summary: 'In Teil 2 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut) standen u. a. folgende Fragen im Mittelpunkt: Wie sieht es mit (CC-)Lizenzen aus? Wo findet man für die Hochschullehre geeignete offene Materialien? Wie bewertet man die Qualität von OER?'
 url: oer-fortbildungsreihe-2
 tags:
   - Open Educational Resources (OER)

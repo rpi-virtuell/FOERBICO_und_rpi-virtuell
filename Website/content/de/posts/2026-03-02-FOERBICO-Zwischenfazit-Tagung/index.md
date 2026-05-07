@@ -1,19 +1,12 @@
 ---
 # commonMetadata
 '@context': https://schema.org/
-type: LearningResource
 creativeWorkStatus: Published
+type: LearningResource
+name: Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt
+description: Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/recap-foerbico-tagung-2026
-name: 'Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt'
-description: >-
-  Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur
-  Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und
-  zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung
-  2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis
-  und interaktiven Formaten.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
-inLanguage:
-  - de
 creator:
   - givenName: Jörg
     familyName: Lohrer
@@ -77,17 +70,19 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n02
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
 image: https://oer.community/recap-foerbico-tagung-2026/Team.JPG
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n052
-  - https://w3id.org/kim/hochschulfaechersystematik/n053
-datePublished: '2026-03-16'
+datePublished: 2026-03-16
 keywords:
   - FOERBICO in Kontakt
   - Event
@@ -107,18 +102,13 @@ author:
   - Viera Pirker
   - Ludger Sicking
   - Jens Dechow
-title: 'Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt'
+title: Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt
 cover:
   relative: true
   image: Team.JPG
   hiddenInSingle: true
-  alt: 'FOERBICO-Team (CC BY 4.0)'
-summary: >-
-  Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur
-  Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und
-  zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung
-  2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis
-  und interaktiven Formaten.
+  alt: FOERBICO-Team (CC BY 4.0)
+summary: Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
 url: recap-foerbico-tagung-2026
 tags:
   - FOERBICO in Kontakt
@@ -162,8 +152,8 @@ Die Begrüßung sowie die Ergebnispräsentation zum Nachschauen findet ihr im [S
 
 Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren, die Folien sind frei verfügbar: 
 - [Community Hub](https://s.edufeed.org/hub)
-- [Qualitätskriterien](https://nextcloud.comenius.de/s/LHfAJBjgEgtYANC) 
-- [Community of Praxis](https://nextcloud.comenius.de/s/fbMEmzkrzXeZEck)
+- [Qualitätskriterien](https://nextcloud.comenius.de/s/FBTHaeNA7x8YeA9) 
+- [Community of Praxis](https://nextcloud.comenius.de/s/qfdGHXmM9KQMjzL)
 
 ## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
 
@@ -200,7 +190,7 @@ In verschiedenen Community-Workshops konnten die Teilnehmenden die Communities k
 
 Weitere Informationen zu relilab findet ihr in unserem [Interview](https://oer.community/interview-relilab/) mit Corinna Ullmann.
 
-👉 Die relilab-Folien findet ihr [hier](https://nextcloud.comenius.de/s/gBde64YdXRgSDG9).
+👉 Die relilab-Folien findet ihr [hier](https://nextcloud.comenius.de/s/GZpNpB5syKwqFwd).
     
 ### reliGlobal - Fachstelle für Globales Lernen im Religionsunterricht
 
@@ -210,7 +200,7 @@ Weitere Informationen zu relilab findet ihr in unserem [Interview](https://oer.c
 
 Weitere Informationen zu reliGlobal findet ihr in unserem [Interview](https://oer.community/interview-reliGlobal/) mit Frank Behr und Jens Palkowitsch-Kühl.
 
-👉 Die reliGlobal-Folien findet ihr [hier](https://nextcloud.comenius.de/s/4w75Qd7dfYLeNcf).
+👉 Die reliGlobal-Folien findet ihr [hier](https://nextcloud.comenius.de/s/aJyP8LS9ctjNpec).
     
 ### RELImentar - religionspädagogisches Portal für den Elementarbereich
 
@@ -220,7 +210,7 @@ Weitere Informationen zu reliGlobal findet ihr in unserem [Interview](https://oe
 
 Weitere Informationen zu RELImentar findet ihr in unserem [Interview](https://oer.community/interview-relimentar/) mit Simone Wustrack.
 
-👉 Die RELImentar-Folien findet ihr [hier](https://nextcloud.comenius.de/s/EpZKDqBNdwF9ro2).
+👉 Die RELImentar-Folien findet ihr [hier](https://nextcloud.comenius.de/s/tKNEQ3MBpQC8ec5).
 
 ## Podiumsdiskussion mit Critical Friends
 

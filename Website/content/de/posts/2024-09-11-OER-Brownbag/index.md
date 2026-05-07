@@ -1,13 +1,25 @@
 ---
-#commonMetadata:
-datePublished: '2024-09-11'
-#staticSiteGenerator:
-author:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
+inLanguage:
+  - de
+image: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com/OER-Brownbag.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-09-11
+
+# staticSiteGenerator
 title: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
 cover:
   relative: true
   image: OER-Brownbag.png
-  hiddenInSingle: false
+  hiddenInSingle: true
 summary: |
   Heute kamen die verschiedenen vom Bundesministerium für Bildung und Forschung (BMBF)
   geförderten Projekte der OER-Strategie zu einem gemeinsamen Austausch zusammen.

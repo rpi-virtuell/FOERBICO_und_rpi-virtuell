@@ -1,23 +1,11 @@
 ---
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen
-  Bildungsbereich gestalten!'
-description: >-
-  Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich
-  zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen,
-  ohne den Plattformdschungel zu vergrößern? Dazu kamen die Teams von
-  rpi-virtuell und FOERBICO zu einem Konzeptionstag in der Goethe-Universität in
-  Frankfurt zusammen, um sich intensiv mit der strategischen Weiterentwicklung
-  ihrer digitalen Angebote zur Stärkung religiöser Bildung auseinanderzusetzen.
-  Neben der Verhältnisbestimmung zwischen den beiden Teams und der Entwicklung
-  einer gemeinsamen Vision lag der Fokus auf den Fragen, wie wir bedarfsgerechte
-  Vernetzungs- und Unterstützungsangebote für Bildungsakteure im
-  religionspädagogischen Bereich schaffen können. Wie der Tag lief und zu
-  welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
-license: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+name: "'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!'"
+description: Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen, ohne den Plattformdschungel zu vergrößern? Dazu kamen die Teams von rpi-virtuell und FOERBICO zu einem Konzeptionstag in der Goethe-Universität in Frankfurt zusammen, um sich intensiv mit der strategischen Weiterentwicklung ihrer digitalen Angebote zur Stärkung religiöser Bildung auseinanderzusetzen. Neben der Verhältnisbestimmung zwischen den beiden Teams und der Entwicklung einer gemeinsamen Vision lag der Fokus auf den Fragen, wie wir bedarfsgerechte Vernetzungs- und Unterstützungsangebote für Bildungsakteure im religionspädagogischen Bereich schaffen können. Wie der Tag lief und zu welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
+license: https://creativecommons.org/publicdomain/zero/1.0/
 id: https://oer.community/konzeptionstag
 creator:
   - givenName: Gina
@@ -29,31 +17,24 @@ creator:
       type: Organization
 inLanguage:
   - de
+image: https://oer.community/konzeptionstag/Teamtreffen.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
-datePublished: '2024-12-09'
-# staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-12-09
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: 'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten'
+title: "'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!'"
 cover:
   relative: true
   image: Teamtreffen.jpg
   alt: Das FOERBICO & rpi-virtuell Team
-  caption: 'Das FOERBICO & rpi-virtuell Team'
+  caption: Das FOERBICO & rpi-virtuell Team
   hiddenInSingle: true
-summary: |
-  Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich
-  zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen,
-  ohne den Plattformdschungel zu vergrößern? Dazu kamen die Teams von
-  rpi-virtuell und FOERBICO zu einem Konzeptionstag in der Goethe-Universität in
-  Frankfurt zusammen, um sich intensiv mit der strategischen Weiterentwicklung
-  ihrer digitalen Angebote zur Stärkung religiöser Bildung auseinanderzusetzen.
-  Neben der Verhältnisbestimmung zwischen den beiden Teams und der Entwicklung
-  einer gemeinsamen Vision lag der Fokus auf den Fragen, wie wir bedarfsgerechte
-  Vernetzungs- und Unterstützungsangebote für Bildungsakteure im
-  religionspädagogischen Bereich schaffen können. Wie der Tag lief und zu
-  welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
+summary: Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen, ohne den Plattformdschungel zu vergrößern? Dazu kamen die Teams von rpi-virtuell und FOERBICO zu einem Konzeptionstag in der Goethe-Universität in Frankfurt zusammen, um sich intensiv mit der strategischen Weiterentwicklung ihrer digitalen Angebote zur Stärkung religiöser Bildung auseinanderzusetzen. Neben der Verhältnisbestimmung zwischen den beiden Teams und der Entwicklung einer gemeinsamen Vision lag der Fokus auf den Fragen, wie wir bedarfsgerechte Vernetzungs- und Unterstützungsangebote für Bildungsakteure im religionspädagogischen Bereich schaffen können. Wie der Tag lief und zu welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
 url: konzeptionstag
 tags:
   - Community

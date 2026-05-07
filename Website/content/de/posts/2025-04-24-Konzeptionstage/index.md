@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/recap-konzeptionstage
-name: 'Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO'
-description: >-
-  Im März und April 2025 haben sich rpi-virtuell und FOERBICO erneut in zwei digitalen Konzeptionstagen getroffen, um an der Entwicklung eines Community-Hubs für die religiöse Bildungsarbeit zu arbeiten. Im Mittelpunkt standen die KI-gestützte Unterrichtsplanung, offene Bildungspraktiken, die Verbesserung technischer Infrastrukturen und die Vernetzung von Communities. In Kleingruppen wurden zentrale Themen wie Metadaten-Standards, Qualitätskriterien, Kommunikation und Serverstrukturen vertieft. Ziel ist ein Hub, der Partizipation, Sichtbarkeit und Zusammenarbeit stärkt – ganz im Sinne einer „Community of Communities“. 
-inLanguage: de
+name: Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO
+description: 'Im März und April 2025 haben sich rpi-virtuell und FOERBICO erneut in zwei digitalen Konzeptionstagen getroffen, um an der Entwicklung eines Community-Hubs für die religiöse Bildungsarbeit zu arbeiten. Im Mittelpunkt standen die KI-gestützte Unterrichtsplanung, offene Bildungspraktiken, die Verbesserung technischer Infrastrukturen und die Vernetzung von Communities. In Kleingruppen wurden zentrale Themen wie Metadaten-Standards, Qualitätskriterien, Kommunikation und Serverstrukturen vertieft. Ziel ist ein Hub, der Partizipation, Sichtbarkeit und Zusammenarbeit stärkt – ganz im Sinne einer „Community of Communities“. '
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/recap-konzeptionstage
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -16,19 +15,23 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+inLanguage: de
 image: https://oer.community/recap-konzeptionstage/Weg_zum_Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-04-24'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-04-24
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: 'Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO'
+title: Community-Hub im Fokus – Rückblick auf die Konzeptionstage von rpi-virtuell und FOERBICO
 cover:
   relative: true
   image: Weg_zum_Community-Hub.jpg
-summary: >-
-  Wie gelingt digitale Vernetzung in der religiösen Bildungsarbeit? rpi-virtuell und FOERBICO arbeiten gemeinsam an einem Community-Hub, der Austausch, offene Bildungspraktiken und technische Innovation verbindet. Ein Rückblick auf die Konzeptionstage im März und April 2025 zeigt erste Ansätze, Herausforderungen und Ideen – von KI-gestützter Unterrichtsplanung über Qualitätskriterien bis hin zu Metadatenstandards und Community-Arbeit.
+  hiddenInSingle: true
+summary: 'Im März und April 2025 haben sich rpi-virtuell und FOERBICO erneut in zwei digitalen Konzeptionstagen getroffen, um an der Entwicklung eines Community-Hubs für die religiöse Bildungsarbeit zu arbeiten. Im Mittelpunkt standen die KI-gestützte Unterrichtsplanung, offene Bildungspraktiken, die Verbesserung technischer Infrastrukturen und die Vernetzung von Communities. In Kleingruppen wurden zentrale Themen wie Metadaten-Standards, Qualitätskriterien, Kommunikation und Serverstrukturen vertieft. Ziel ist ein Hub, der Partizipation, Sichtbarkeit und Zusammenarbeit stärkt – ganz im Sinne einer „Community of Communities“. '
 url: recap-konzeptionstage
 tags:
   - FOERBICO in Kontakt

@@ -1,11 +1,21 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/impressum
+inLanguage:
+  - de
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: Impressum
 url: impressum
 weight: 500
-# line break after 76 characters
-#...........3456789012345678901234567890123456789012345678901234567890123456)
 ---
 
 Angaben gemäß § 5 Abs. 1 Telemediengesetz (TMG)
