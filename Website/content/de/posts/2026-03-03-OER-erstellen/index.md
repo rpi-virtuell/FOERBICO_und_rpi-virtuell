@@ -49,17 +49,16 @@ tags:
   
 ---
 
-
-Möchte man mit der Erstellung von OER beginnen, geht das zu Beginn oftmals mit Unsicherheiten einher: Wo beginne ich? Welche Schritte sind sinnvoll? Und wie lassen sich Qualität, Offenheit, rechtliche Sicherheit und fachliche Dimensionen kohärent miteinander verknüpfen?
-Um von Anfang an die Qualität der OER sicherzustellen, ist eine Orientierung an den [Qualitätskriterien](https://oer.community/qualitaet/), die im Projekt FOERBICO entwickelt wurden, hilfreich. Diese sind jedoch sehr ausführlich und können zu Beginn möglicherweise überfordernd sein, doch man muss nicht unmittelbar mit der Erstellung umfangreicher Lernkurse beginnen. Auch ein gut strukturiertes Arbeitsblatt oder eine adaptierte Sammlung bestehender Materialien kann einen Beitrag in der OER-Community darstellen. Der folgende Beitrag bietet eine niedrigschwellige Orientierung und Best-Practice Beispiele, um den Anfang zu erleichtern.
+Möchte man mit der Erstellung von OER beginnen, geht das oft mit Unsicherheiten einher: Wie fange ich an? Welche Schritte sind sinnvoll? Und wie lassen sich Qualität, Offenheit, rechtliche Sicherheit und fachliche Dimensionen kohärent miteinander verknüpfen?
+Um von Anfang an die Qualität der OER sicherzustellen, ist eine Orientierung an [Qualitätskriterien](https://oer.community/qualitaet/). Doch sie sind sehr ausführlich und können möglicherweise überfordernd sein. Doch man muss nicht unmittelbar mit der Erstellung umfangreicher Lernkurse beginnen! Auch ein gut strukturiertes Arbeitsblatt oder eine adaptierte Sammlung bestehender Materialien kann einen Beitrag für die OER-Community darstellen. Hier zeigen wir eine niedrigschwellige Orientierung und Best-Practice Beispiele, um den Anfang zu erleichtern.
 
 ## Themenfeld eingrenzen
 
-Zu Beginn der OER-Erstellung gilt es eine inhaltliche und thematische Eingrenzung vorzunehmen: Zu welchem Thema soll Material entwickelt werden? Hilfreich ist es, das Themenfeld nicht zu breit anzulegen und sich an fachlichen und curricularen Standards zu orientieren, um eine Anschlussfähigkeit für andere Nutzende zu gewährleisten.
+Am Beginn steht eine inhaltliche und thematische Eingrenzung: Zu welchem Thema soll Material entwickelt werden? Hilfreich ist es, das Themenfeld nicht zu breit anzulegen und sich an fachlichen und curricularen Standards zu orientieren, um Anschlussfähigkeit für andere Nutzende zu ermöglichen.
 
 ## Zielgruppe präzisieren
 
-Dann gilt es die anvisierte Zielgruppe einzugrenzen. Eine Orientierung zur Einteilung bieten sogenannte Wertelisten, die unter anderem nach Bildungsstufen differenzieren. Orientieren sich Erstellende bereits zu Beginn an dieser Unterteilung, ist eine spätere Einsortierung auf OER-Plattformen leichter möglich. OER-Plattformen nutzen oftmals standardisierte Metadaten, sodass eine klare Zielgruppenangabe die Auffindbarkeit in Repositorien erhöhen kann.
+Dann gilt es die anvisierte Zielgruppe einzugrenzen. Eine Orientierung zur Einteilung bieten sogenannte Wertelisten, die unter anderem nach Bildungsstufen differenzieren. Orientieren sich Erstellende bereits zu Beginn an dieser Unterteilung, fällt später die Einsortierung auf OER-Plattformen leichter. OER-Plattformen nutzen oftmals standardisierte Metadaten, sodass eine klare Zielgruppenangabe ihre Auffindbarkeit erhöhen kann.
 
 ![](Tabelle.png)
  
@@ -67,73 +66,97 @@ Abbildung 1 Tabelle: Zusammenhänge zwischen Bildungsstufen und Schularten (Oell
 
 ## Inspiration einholen
 
-Bevor eigenes Material konzipiert wird, empfiehlt sich eine explorative Phase. Gerade zu Beginn kann der Anspruch, etwas Eigenes entwickeln zu müssen, überfordernd sein. Eine explorative Sichtung des Feldes kann daher die konzeptionelle Orientierung unterstützen. Hilfreiche Leitfragen können sein:
--	Wie strukturieren andere OER-Erstellende ihre Materialien?
--	Welche methodischen und didaktischen Elemente werden eingesetzt (beispielsweise Reflexionsfragen, Differenzierungsangebote, Interaktionsmöglichkeiten)?
--	Wie werden Lernziele, Kompetenzen und Lizenzangaben eingebettet?
--	Welche Gestaltung gefällt mir/gefällt mir nicht und was entspricht den Vorstellungen, die ich für die eigene Konzeption vor Augen habe?
+Bevor eigenes Material konzipiert wird, empfiehlt sich eine explorative Phase. Gerade zu Beginn kann der Anspruch, etwas Eigenes entwickeln zu wollen, überfordernd sein. Eine Sichtung des Feldes kann daher die konzeptionelle Orientierung unterstützen.
+Hilfreiche Leitfragen:
+
+- Wie strukturieren andere OER-Erstellende ihre Materialien?
+
+- Welche methodischen und didaktischen Elemente werden eingesetzt (beispielsweise Reflexionsfragen, Differenzierungsangebote, Interaktionsmöglichkeiten)?
+
+- Wie werden Lernziele, Kompetenzen und Lizenzangaben eingebettet?
+
+- Welche Gestaltung gefällt mir/gefällt mir nicht und was entspricht den Vorstellungen, die ich für die eigene Konzeption vor Augen habe?
 
 Das bewusste Betrachten gelungener OER kann Unsicherheiten zu Beginn des Konzeptionsprozesses abbauen und bei der Konkretisierung der eigenen Planung und Gestaltung unterstützend wirken.
-Folgendes Vorgehen empfiehlt sich:
--	Nach OER im eigenen Fach suchen (mit spezifischer Zielgruppe)
--	Einzelne Materialien genauer anschauen
--	Kolleg*innen nach bewährten Beispielen oder eigenen Erfahrungen bei der Erstellung von OER fragen.
+
+Empfohlenes Vorgehen:
+
+- Nach OER im eigenen Fach suchen (mit spezifischer Zielgruppe)
+
+- Einzelne Materialien genauer anschauen
+
+- Kolleg:innen nach bewährten Beispielen oder eigenen Erfahrungen bei der Erstellung von OER fragen.
 
 An folgenden Best-Practice Beispielen können sich Erstellende orientieren:
-|---|---|
-|Für den Elementarbereich|[Menzke, Susanne (2026). Impuls zum Fastenmonat Ramadan, CC-0-Lizenz](https://relimentar.de/materialien/impuls-zum-fastenmonat-ramadan/)|
-|Für die Sekundarstufe I|[Schön, Sabrina (2022). M@PS – Medienkompetenz erweitern, Persönlichkeit stärken, CC-BY-SA 4.0-Lizenz](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57)|
-|Für die Hochschullehre|[Xue Paschke, Paula & Pirker, Viera (2025). Fachdidaktik Bibel mit Tablets, CC-BY-4.0-Lizenz](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39)|
 
-Die aufgeführten Best-Practice Beispiele sind umfangreiche Beispiele, die – auch in einzelnen Bestandteilen, wie beispielsweise nur einzelne Aufgaben – als Inspiration dienen können.
+| Zielgruppe | Material |
+|---|---|
+| Für den Elementarbereich | [Menzke, Susanne (2026). Impuls zum Fastenmonat Ramadan, CC-0-Lizenz](https://relimentar.de/materialien/impuls-zum-fastenmonat-ramadan/) |
+| Für die Sekundarstufe I | [Schön, Sabrina (2022). M@PS – Medienkompetenz erweitern, Persönlichkeit stärken, CC-BY-SA 4.0-Lizenz](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=57) |
+| Für die Hochschullehre | [Xue Paschke, Paula & Pirker, Viera (2025). Fachdidaktik Bibel mit Tablets, CC-BY-4.0-Lizenz](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/course/view.php?id=39) |
+
+Die aufgeführten Beispiele sind umfangreiche Materialien, aus – denen auch einzelne Bestandteile, wie beispielsweise einzelne Aufgaben – als Inspiration dienen können.
 
 ## Neu erstellen oder remixen?
 
-Um OER zu erstellen, gibt es verschiedene Möglichkeiten, die auch von den eigenen zeitlichen Ressourcen und dem Themenfeld abhängig sein können. Erstellende sollten daher klären, ob sie:
+Es gibt verschiedene Möglichkeiten, die auch von den eigenen zeitlichen Ressourcen und dem Themenfeld abhängig sein können. Erstellende sollten daher klären, ob sie:
 
--	Vollständig neue OER erstellen wollen
--	Bestehende OER adaptieren (z.B. aktualisieren oder didaktisch umstrukturieren)
--	Mehrere Materialien kombinieren (remixen)
--	Oder vorhandene Ressourcen kuratieren und kontextualisieren
+- Vollständig neue OER erstellen
 
-Diese Entscheidung ist auch davon abhängig, ob und wie viel Material in dem Feld vorhanden ist. Ist dies nicht der Fall, so kann die Erstellung originärer OER notwendig sein.
+- Bestehende OER adaptieren (z.B. aktualisieren oder didaktisch umstrukturieren)
 
-## Didaktische Konzeption
+- Mehrere Materialien kombinieren (remixen)
 
-Nach der Klärung von Zielgruppe und Erstellungsmöglichkeiten ist die Planung der didaktischen Konzeption notwendig. Dies kann sich zwar mit der Zeit entwickeln und weiter konkretisieren, doch sind einige grundlegende Fragen zu Beginn zu klären:
+- Oder vorhandene Ressourcen kuratieren und kontextualisieren
 
--	Welche Art der OER sind vorgesehen? Bereits Arbeitsblätter, Bilder, Grafiken oder Präsentationsfolien können eine niedrigschwellige Form von OER sein. Das Erstellen von interaktiven Lernkursen ist hingegen vergleichsweise umfangreicher.
--	Welches Themenfeld soll bearbeitet werden und in welchem curricularen Zusammenhang steht es?
--	Welche Lernziele sollen erreicht werden? Ist eine Differenzierung vorgesehen?
+Diese Entscheidung ist auch davon abhängig, ob und wie viel Material bereits vorhanden ist. Ist dies nicht der Fall, so kann die Erstellung originärer OER notwendig sein.
+
+## Didaktisch konzipieren
+
+Nach der Klärung von Zielgruppe und Erstellungsmöglichkeiten steht die Planung der didaktischen Konzeption an. Dies kann sich zwar mit der Zeit entwickeln und weiter konkretisieren, doch grundlegende Fragen können helfen:
+
+- Welche Art der OER sind vorgesehen? Bereits einzelne Arbeitsblätter, Bilder, Grafiken oder Präsentationsfolien können eine niedrigschwellige Form von OER sein. Das Erstellen von interaktiven Lernkursen ist hingegen vergleichsweise umfangreicher.
+
+- Welches Themenfeld soll bearbeitet werden und in welchem curricularen Zusammenhang steht es?
+
+- Welche Lernziele sollen erreicht werden? Ist eine Differenzierung vorgesehen?
+
 - Welche Kompetenzen werden adressiert?
--	Welche Methoden können bei dem anvisierten Format der OER berücksichtigt werden? Ein Lernkurs mit H5P Elementen bietet andere Möglichkeiten als ein Video.
 
-Hier empfiehlt es sich, nicht ausschließlich materialzentriert zu denken. Eine Orientierung an Open Educational Practices (OEP) kann eine didaktische „Übersetzung“ von Unterricht- oder Seminarkonzepten ermöglichen.
+- Welche Methoden können bei dem anvisierten Format der OER berücksichtigt werden? Ein Lernkurs mit H5P Elementen bietet andere Möglichkeiten als ein Video.
 
--	Walk & Talk (Lernende gehen mit dem eigenen Handy-Aufnahmegerät oder am Telefon spazieren und tauschen sich über gelernte Inhalte aus)
--	Reflexionsformate, bei denen der Lern- und der Entwicklungsprozess der Lernenden einen Schwerpunkt bildet
--	Peer-Feedback durch offene Feedback- und Austauschmöglichkeiten, beispielsweise in Kommentarfeldern (Achtung: hier ist ggf. eine Moderation des digitalen Raumes notwendig!)
+Hier empfiehlt es sich, nicht ausschließlich materialzentriert zu denken. Eine Orientierung an Open Educational Practices (OEP) kann die didaktische „Übersetzung“ in Unterrichts- oder Seminarkonzepten flankieren.
 
-Auf der Plattform [twillo](https://www.twillo.de/edu-sharing/components/collections?mainnav=true&id=20c80ff4-856d-49a4-8c0f-4b1c2632a7f5
-) stehen didaktische Templates für den Hochschulkontext zur Verfügung, die bei der Erstellung von Lehr- und Lernszenarien entlang didaktischer Lehrkonzepte (Problembasiertes Lernen, Forschendes Lernen, Inverted Classroom) für unterschiedliche Systeme (Moodle, Illias, Stud.IP und LiaSkript) genutzt werden können.
+Walk & Talk (Lernende gehen mit dem eigenen Handy-Aufnahmegerät oder am Telefon spazieren und tauschen sich über gelernte Inhalte aus)
+Reflexionsformate, bei denen der Lern- und der Entwicklungsprozess der Lernenden einen Schwerpunkt bildet
+Peer-Feedback durch offene Feedback- und Austauschmöglichkeiten, beispielsweise in Kommentarfeldern (Achtung: hier ist ggf. eine Moderation des digitalen Raumes notwendig!)
 
-## Rechtliche und lizenzbezogene Überlegungen
+Auf der Plattform [twillo](https://www.twillo.de/edu-sharing/components/collections?mainnav=true&id=20c80ff4-856d-49a4-8c0f-4b1c2632a7f5) stehen didaktische Templates für den Hochschulkontext zur Verfügung, die bei der Erstellung von Lehr- und Lernszenarien entlang didaktischer Lehrkonzepte (Problembasiertes Lernen, Forschendes Lernen, Inverted Classroom) für unterschiedliche Systeme (Moodle, Illias, Stud.IP und LiaSkript) genutzt werden können.
 
-Um Materialien als OER ausweisen zu können, ist eine offene Lizenzierung notwendig. In dieser Hinsicht sind verschiedene Formate möglich; eine Übersicht findet sich ➡️ [hier](https://oer.community/oer-und-oep/)!
+## Recht und Lizenzen bedenken
 
-Es ist sinnvoll die Rechtssicherheit von Anfang an mit zu bedenken, das heißt:
+Um Materialien als OER ausweisen zu können, ist eine offene Lizenzierung notwendig. Hier sind verschiedene Formate möglich; eine Übersicht findet sich ➡️[hier](https://oer.community/oer-und-oep/)!
 
--	Offen-lizensierte Elemente zu nutzen (Bilder, Grafiken, Videos, Schrift, Logos)
--	Nutzungsrechte für geschützte Inhalte einholen
+Es ist sinnvoll, die Rechtssicherheit von Anfang an mit zu bedenken, das heißt:
+
+- Offen lizensierte Elemente nutzen (Bilder, Grafiken, Videos, Schrift, Logos)
+
+- Nutzungsrechte für geschützte Inhalte einholen
+
+- eigene Materialien möglichst offen lizenzieren, um Nachnutzung zu ermöglichen
 
 ## Fazit
+
 Nach der Fertigstellung der ersten OER können sie mit den eingangs genannten Qualitätskriterien abgeglichen werden, bevor sie dann veröffentlicht werden.
 Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem möglichen Projektende können folgende Aspekte die langfristige Zugänglichkeit ermöglichen:
 
--	Eine stabile technische Infrastruktur
--	Langfristig erreichbare Speicherorte
--	Transparente Lizenzierung
--	Editierbare Formate, die Weiterentwicklung ermöglichen
+- Eine stabile technische Infrastruktur
+
+- Langfristig erreichbare Speicherorte
+
+- Transparente Lizenzierung
+
+- Editierbare Formate, die Weiterentwicklung ermöglichen
 
 ![Pfad für OER-Erstellung](oer-erstellung-prozess.png)
 
