@@ -11,7 +11,7 @@ license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/oer-erstellen
 creator:
   - givenName: Paula
-    familyName: Paschke
+    familyName: Xue Paschke
     id: https://orcid.org/0009-0003-1857-2883
     type: Person
     affiliation:
@@ -32,7 +32,7 @@ educationalLevel:
 datePublished: '2026-05-07'
 #staticSiteGenerator:
 author:
-  - Paula Paschke
+  - Paula Xue Paschke
 title: 'OER erstellen – wie fange ich an?'
 cover:
   relative: true
