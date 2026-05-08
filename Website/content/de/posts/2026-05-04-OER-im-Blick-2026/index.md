@@ -98,6 +98,8 @@ Die Aufgabe der Communities besteht daher nicht nur darin, diese Kriterien zu ve
 
 Die OER-Landschaft ist stark fragmentiert. Der plattformübergreifende Austausch von Bildungsmaterialien erfordert hohen technischen Aufwand, wodurch vor allem kleine Bildungsakteure auf Hürden stoßen. Kollaboration und Open Educational Practices (OEP) bleiben aufgrund fehlender technischer Grundvoraussetzungen oft theoretisch. Als Lösung wurde der Ansatz diskutiert, Lernplattformen über das dezentrale Social-Media-Protokoll Nostr miteinander zu vernetzen. Daraus entstanden im Rahmen eines HackathOERns erste Konzepte, aus der dank der Sprint-Förderung die Kalender-App ComCal hervorging, die später zu EduFeed weiterentwickelt wurde. EduFeed ermöglicht neben dem Erstellen von Communities und dem Teilen von Terminen auch das Hochladen, Teilen und Finden von Bildungsmaterialien. Im Workshop probierten Teilnehmende EduFeed direkt aus, gründeten Communities, teilten Termine und Materialien und diskutierten anschließend Potenziale, Grenzen und notwendige Voraussetzungen für die Umsetzung von OEP in der Praxis.
 
+👉 Zu den [Workshop-Folien](https://pad.edufeed.org/p/TUuKEvfBB#/)
+
 Im Rahmen von FOERBICO möchten wir darauf aufbauend einen Community-Hub im Sinne einer *Community of Communities* dezentral auf dem Nostr-Protokoll aufbauen. Uns freut daher sehr, dass der Grundgedanke bei den Workshopteilnehmenden aus verschiedenen OER-Communities auf positive Resonanz gestoßen ist!
 
 👉 Jeden Mittwoch findet außerdem von 10:30 bis ca. 11:30 Uhr ein offener Austausch für alle Interessierten unter comenius.de/zoom statt - herzliche Einladung dabei zu sein und auch dem [Edufeed-Elementraum](https://matrix.to/#/#edufeed:rpi-virtuell.de) beizutreten. 
