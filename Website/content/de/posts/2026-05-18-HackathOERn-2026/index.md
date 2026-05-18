@@ -25,7 +25,7 @@ Wir vom FOERBICO-Team beteiligten uns sowohl an der Editor-Gruppe als auch an de
 
 Zu Beginn stellte sich die Gruppe die grundlegenden Fragen: Was macht OER attraktiv und qualitativ gut? Dazu stellte das Schweizer-Team der die im Forschungsprojekt „[Fostering AI & recognition in Open Education](https://www.zhaw.ch/en/research/project/77303)“ entwickelten Indikation aus einer Literaturrecherche vor:
 
-BILD
+![](https://pad.gwdg.de/uploads/97432f23-433e-47ac-b2b8-4c5f43b6c142.png)
  
 Anschließend wurden die Indikatoren sowie die Fragen gemeinsam diskutiert. Auf Basis der Gruppendiskussion wurden folgende Kernpunkte festgehalten:
 
@@ -39,7 +39,7 @@ Anschließend wurden die Indikatoren sowie die Fragen gemeinsam diskutiert. Auf 
 
 Im Anschluss wurde es kreativ: Mit der „[Crazy-8-Methode](https://kreativitätstechniken.info/methode/crazy-8/)“ wurden Interface-Ideen skizziert. Ziel der Methode war es, in kurzer Zeit möglichst viele unterschiedliche Ansätze zu visualisieren.
 
-BILD
+![](https://pad.gwdg.de/uploads/75a17a02-c212-418d-986c-8d7c37777541.jpeg)
 
 Trotz der Vielfalt zeigten sich einige wiederkehrende Gestaltungsmuster:
 •	chatbasierte Einstiege ähnlich bekannter KI-Interfaces 
