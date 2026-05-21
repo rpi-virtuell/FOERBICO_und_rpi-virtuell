@@ -254,7 +254,7 @@ Für OER brauche ich also entweder:
 
 #### Praxisbeispiele:
 
-Das Lied "[Maria durch ein’ Dornwald ging](https://nun-singet-und-seid-froh.info/24/Maria_durch_ein%27_Dornwald_ging(Distler,_Hugo)-sheet.pdf)" steht unter CC0 und damit gemeinfrei zur Verfügung. Es kann daher kreativ verändert und in Sozialen Medien veröffentlicht werden wie die Reels von [iamyionas](https://www.instagram.com/reel/C2U2OwyseZy/?igsh=MXRuMDN6Zzl0b3Y2aQ%3D%3D) oder [umschimmelswillen](https://www.instagram.com/reel/DSUQcI8jZS4/?igsh=MWt2bGt2bjc0NTc5eA%3D%3D) zeigen, ob das immer den persönlichen Geschmack trifft, ist eine andere Frage 😉
+Das Lied "[Maria durch ein’ Dornwald ging](https://nun-singet-und-seid-froh.info/24/Maria_durch_ein%27_Dornwald_ging(Distler,_Hugo)-sheet.pdf)" steht unter CC0 und damit gemeinfrei zur Verfügung. Es kann daher kreativ verändert und in Sozialen Medien veröffentlicht werden wie die Reels von [iamyionas](https://www.instagram.com/reel/C2U2OwyseZy/?igsh=MXRuMDN6Zzl0b3Y2aQ%3D%3D) oder [umschimmelswillen](https://www.instagram.com/reel/DSUQcI8jZS4/?igsh=MWt2bGt2bjc0NTc5eA%3D%3D) zeigen, ob das immer den persönlichen Geschmack trifft, ist eine andere Frage 😉 Auch unter [https://kinderkirchenlieder.de/](https://kinderkirchenlieder.de/) findet man rechtefreie Lieder.
 
 
 ## Streaming & OER – was ist erlaubt, was nicht?
