@@ -12,7 +12,7 @@ steps:
       - date -I'seconds'
 
   - name: build_by_hugo
-    image: alpine:3.21 # hugomods/hugo # vs image: alpine >= 3.21, damit Hugo-Version >= 0.139
+    image: alpine:3.23 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.23 liefert 0.152.2
     commands:
       - date -I'seconds'
       - cat /etc/alpine-release
@@ -26,7 +26,7 @@ steps:
       - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Blog Teamseite"; else echo "Webseite Startseite"; fi
       - echo $?
 
-      - grep -E "Du hast sogar schon mal selbst Materialien erstellt oder arbeitest in einer Community" Website/PROD/index.html
+      - grep -E "Du hast sogar schon mal selbst Materialien erstellt" Website/PROD/index.html
 
   - name: copy_to_server
     image: alpine

@@ -13,7 +13,6 @@ educationalLevel:
 
 # staticSiteGenerator
 title: Willkommen!
-url: /
 weight: 50
 ---
 

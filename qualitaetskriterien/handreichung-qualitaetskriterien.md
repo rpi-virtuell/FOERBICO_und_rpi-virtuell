@@ -90,7 +90,7 @@ Auch bei KI-generierten Inhalten (z. B. aus Tools wie DALL·E) ist Vorsicht gebo
 
 
 ## Verwendung geschützter Elemente
-- [ ] Das Material ersetzt geschützte Elemente (Bilder, Grafiken, Videos, Karten, Audio, [Schrift](https://https://open-educational-resources.de/texte-und-schriftarten/) oder Logos), sofern möglich, durch offen lizenzierte Alternativen.
+- [ ] Das Material ersetzt geschützte Elemente (Bilder, Grafiken, Videos, Karten, Audio, [Schrift](https://open-educational-resources.de/texte-und-schriftarten/) oder Logos), sofern möglich, durch offen lizenzierte Alternativen.
 - [ ] Das Material enthält notwendige Quellenangaben korrekt und vollständig.
 - [ ] Für die Nutzung urheberrechtlich geschützter Inhalte liegen die erforderlichen Nutzungsrechte vor.
 - [ ] Externe Inhalte im Material, die unter einer CC-Lizenz stehen, sind korrekt, d.h. gemäß der sog. TULLU-Regel gekennzeichnet (siehe [TULLU-Regel](https://https://open-educational-resources.de/oer-tullu-regel/)).
@@ -228,7 +228,7 @@ Wenn Material in Kombination mit geschützten Texten, Bildern, Audios und Videos
 
 ## Design & Lesbarkeit
 - [ ] Wichtige Informationen werden im Material visuell hervorgehoben (z. B. durch größere Schrift, Symbole, Farben).
-- [ ] Eine gut lesbare Schriftart, die unter offener Lizenz steht, wird verwendet (Übersicht offene [Schriftarten](https://https://open-educational-resources.de/texte-und-schriftarten/)).
+- [ ] Eine gut lesbare Schriftart, die unter offener Lizenz steht, wird verwendet (Übersicht offene [Schriftarten](https://open-educational-resources.de/texte-und-schriftarten/)).
 - [ ] Im Material wird eine Mindestschriftgröße von 12–14 pt für Fließtext und größere Schriftgrößen für Überschriften verwendet.
 - [ ] Hoher Kontrast zwischen Text und Hintergrund (z. B. schwarze Schrift auf weißem Hintergrund) wird im Material berücksichtigt. 
 - [ ] Das Material passt sich automatisch an verschiedene Geräte an und ist dort gut lesbar (Smartphones, Tablets, Laptops).
