@@ -23,6 +23,10 @@ Das FOERBICO-Team verteilte sich auf beide großen Stränge: Gina war Teil der E
 
 ## Block A: KI-gestützte OER-Erstellung – Zwischen Editor, Assistenzsystem und Qualitätssicherung
 
+In diesem Strang flossen drei eng verwandte Projektideen zusammen: die Frage nach **Qualitätsmerkmalen guter OER**, die Entwicklung eines **KI-gestützten Editor-Interfaces** sowie die **Dateiorganisation komplexer OER**. Im Folgenden werden diese drei Themen nacheinander vorgestellt.
+
+### Qualitätsmerkmale guter OER
+
 Zu Beginn stellte sich die Gruppe die grundlegenden Fragen: Was macht OER attraktiv und qualitativ gut? Dazu stellte das Schweizer Team der ZHAW die im Forschungsprojekt „[Fostering AI & recognition in Open Education](https://www.zhaw.ch/en/research/project/77303)" entwickelten Indikatoren aus einer Literaturrecherche vor:
 
 ![](https://pad.gwdg.de/uploads/97432f23-433e-47ac-b2b8-4c5f43b6c142.png)
@@ -36,6 +40,8 @@ Anschließend wurden die Indikatoren sowie die Fragen gemeinsam diskutiert. Auf 
 5. **Vertrauen / Qualitätssicherung**: Attraktivität hängt eng mit nachvollziehbarer Qualität und Vertrauen durch Transparenz zusammen (Stichworte: „Human in the Loop", „Circle of Trust" und „Peer Review").
 6. **Übersichtlichkeit & Struktur**: Attraktivität durch Komplexitätsreduktion und ansprechende Aufbereitung.
 7. **Offenheit „closed → open"**: Attraktivität entsteht durch Offenheit, (plattformübergreifende) Anschlussfähigkeit und Wiederverwendbarkeit.
+
+### KI-Interface von Kulla
 
 Im Anschluss wurde es kreativ: Mit der „[Crazy-8-Methode](https://kreativitätstechniken.info/methode/crazy-8/)" wurden Interface-Ideen skizziert. Ziel der Methode war es, in kurzer Zeit möglichst viele unterschiedliche Ansätze zu visualisieren.
 
@@ -54,6 +60,18 @@ Trotz der Vielfalt zeigten sich einige wiederkehrende Gestaltungsmuster:
 Besonders spannend war die Diskussion darüber, wie digitale Werkzeuge kreatives Arbeiten nicht nur funktional unterstützen, sondern auch räumlich und visuell erfahrbar machen könnten. Mehrere Konzepte griffen die Idee eines „digitalen Schreibtischs" auf, bei dem Materialien, Notizen und Entwürfe ähnlich wie auf einem physischen Arbeitsplatz organisiert werden können – ein Gedanke, der gut zum [Reli-Desk-Konzept](https://comenius.de/2026/02/06/ein-digitaler-schreibtisch-fuer-religioese-bildung/) aus dem Comenius-Institut passt.
 
 Auch die Frage nach barrierearmen Zugängen spielte eine wichtige Rolle: Statt klassischer Tastatur-Workflows wurden verstärkt sprachbasierte Interaktionen, Touch-Bedienung und Smartpen-Konzepte diskutiert.
+
+### Dateiorganisation komplexer OER
+
+Im Projekt „Dateiorganisation komplexer OER" widmete sich Ute Rühling vom Institut für Didaktik der Physik der Universität Münster der Frage, wie OER durch eine technische Lösung einen höheren pädagogischen Wert erreichen können.
+
+Den Ausgangspunkt bildet das **Reusability Paradox**: Die Nachnutzbarkeit von OER ist umso geringer, je höher ihr didaktischer Wert ist. Das etwas neuere **Revisability Paradox** trifft eine ähnliche Aussage: Je leichter ein Lernobjekt verändert und angepasst werden kann, desto geringer ist seine pädagogische Wirksamkeit ([Wiley, David: The Revisability Paradox](https://opencontent.org/blog/the-revisability-paradox)). Aus diesem Grund wurden bislang häufig granulare OER veröffentlicht – mit einer ernüchternden Schlussfolgerung: Granulare, theoretisch leicht nachnutzbare OER können nur eine geringe pädagogische Wirksamkeit entfalten.
+
+Eine deutschlandweite Befragung von Physiklehrkräften durch Ute Rühling ergab jedoch, dass sich Lehrkräfte zur Verbesserung ihres Unterrichts und zur Entlastung im Arbeitsalltag OER-Materialpakete mit hohem didaktischem Wert wünschen – etwa komplette Unterrichtsreihen oder Lernbausteine für selbstorganisiertes Lernen.
+
+In diesem HackathOERn wechselte die Gruppe daher die Perspektive und machte aus einem scheinbar unlösbaren Paradox eine technische Herausforderung: Das Nachnutzbarkeitsproblem komplexer Materialpakete wird zu einer Aufgabe für ein anspruchsvolles User-Experience-Design. Gemeinsam mit der Expertise der anwesenden OER-Community, einer UX-Designerin sowie zwei Programmierer:innen entstanden eine Anforderungsbeschreibung, eine Visualisierung und ein klickbarer Prototyp für ein Programm, das die „5R-Freiheiten" (verwahren, verwenden, verarbeiten, vermischen, verbreiten) ([Muuß-Merholz, Jöran: 5 R-Freiheiten nach David Wiley](https://open-educational-resources.de/5rs-auf-deutsch/)) auch von komplexen Materialpaketen für zeitlich stark belastete Lehrkräfte ermöglicht.
+
+Der nächste Schritt besteht darin, den Prototypen entsprechend des Design-Based-Research-Ansatzes den interviewten Physiklehrkräften vorzustellen und auf Grundlage ihres Feedbacks weiterzuentwickeln. Darüber hinaus wurden auf dem HackathOERn bereits drei mögliche Kooperationen für die Umsetzung eines Programms zur Dateiorganisation vereinbart: mit dem Projekt [Relidesk](https://comenius.de/2026/02/06/ein-digitaler-schreibtisch-fuer-religioese-bildung/) der Nordkirche, mit der Plattform [MIKA-Do](https://mika-do.leando.de/) für die berufliche Bildung sowie mit der OER-Plattform [WirLernenOnline](https://wirlernenonline.de/).
 
 ## Block B: Offene Veranstaltungsdaten und OER-Navigation
 
