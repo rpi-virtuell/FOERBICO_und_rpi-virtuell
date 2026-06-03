@@ -1,4 +1,86 @@
-# HackathOERn 2026 in Göttingen – Zwischen KI-Editoren, OER-Navigation und offenen Events
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'HackathOERn 2026 in Göttingen – Zwischen KI-Editoren, OER-Navigation und offenen Events'
+description: >-
+  Vom 11. bis 13. Mai 2026 waren wir mit dem FOERBICO-Team beim HackathOERn in Göttingen dabei, um gemeinsam mit weiteren Open-Education-Akteur:innen an Lösungen für offene Bildungsinfrastrukturen zu tüfteln.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/hackathoern-2026
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Ludger
+    familyName: Sicking
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Steffen
+    familyName: Rörtgen
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Ute
+    familyName: Rühling
+    type: Person
+    affiliation:
+      name: Universität Münster
+      id: https://ror.org/00pd74e08
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://oer.community/hackathoern-2026/Gruppenfoto-HackathOERn.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-06-03'
+keywords:
+  - KI
+  - Open Educational Resources (OER)
+  - FOERBICO in Kontakt
+  - Community
+
+# staticSiteGenerator
+author:
+  - Gina Buchwald-Chassée
+  - Jörg Lohrer
+  - Ludger Sicking
+  - Steffen Rörtgen
+  - Ute Rühling
+title: 'HackathOERn 2026 in Göttingen – Zwischen KI-Editoren, OER-Navigation und offenen Events'
+cover:
+  relative: true
+  image: Gruppenfoto-HackathOERn.png
+  hiddenInSingle: true
+summary: >-
+  Vom 11. bis 13. Mai 2026 trafen sich bei der GWDG in Göttingen Open-Education-Enthusiast:innen, Entwickler:innen, Bildungspraktiker:innen und Forschende im Rahmen des HackathOERns 2026, um gemeinsam Bedarfe, Herausforderungen und Lösungen für offene Bildungsinfrastrukturen rund um OER und OEP zu entwickeln - mit Beteiligung des FOERBICO-Teams in verschiedenen Projektgruppen.
+url: hackathoern-2026
+tags:
+  - KI
+  - Open Educational Resources (OER)
+  - FOERBICO in Kontakt
+  - Community
+---
 
 Vom 11. bis 13. Mai 2026 kamen in den Räumen der [GWDG - Gesellschaft für wissenschaftliche Datenverarbeitung](https://gwdg.de/) in Göttingen zahlreiche Open-Education-Enthusiast:innen, Entwickler:innen, Bildungspraktiker:innen und Forschende zusammen, um im Rahmen des [HackathOERn-Projekts](https://edu-sharing-network.org/projekt-hackathoern/) gemeinsam an offenen Bildungsinfrastrukturen zu tüfteln.
 
