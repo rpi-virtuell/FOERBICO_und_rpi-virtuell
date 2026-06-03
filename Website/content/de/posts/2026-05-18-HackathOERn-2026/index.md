@@ -123,7 +123,7 @@ Anschließend wurden die Indikatoren sowie die Fragen gemeinsam diskutiert. Auf 
 6. **Übersichtlichkeit & Struktur**: Attraktivität durch Komplexitätsreduktion und ansprechende Aufbereitung.
 7. **Offenheit „closed → open"**: Attraktivität entsteht durch Offenheit, (plattformübergreifende) Anschlussfähigkeit und Wiederverwendbarkeit.
 
-### KI-Interface von Kulla
+### KI-Interface
 
 Im Anschluss wurde es kreativ: Mit der „[Crazy-8-Methode](https://kreativitätstechniken.info/methode/crazy-8/)" wurden Interface-Ideen skizziert. Ziel der Methode war es, in kurzer Zeit möglichst viele unterschiedliche Ansätze zu visualisieren.
 
