@@ -67,8 +67,8 @@ tags:
   - Plattformen
   - OER-Ökosystem
   - Metadaten
-  
 ---
+
 Open Educational Resources (OER) und Open Educational Practices (OEP) stehen für das Anliegen, öffentlich finanzierte Bildungsangebote im formalen Bildungssystem breiter zugänglich zu machen und Bildungsprozesse strukturell zu öffnen (vgl. UNESCO 2019, 7). Mit diesem Anspruch verbinden sich zugleich diverse Erwartungen: Offene Bildungsmaterialien sollen nicht nur frei verfügbar, sondern auch rechtlich transparent nutzbar sein. 
 Trotz dieser bildungspolitischen Bedeutung stellt sich in der Praxis häufig eine sehr grundlegende Frage: Wo lassen sich OER überhaupt finden? Gerade für Religionslehrkräfte, Multiplikator:innen und weitere Praktiker:innen ist die Orientierung in der digitalen Materiallandschaft nicht immer einfach.
 Eine zentrale, bislang jedoch vergleichsweise wenig beachtete Rolle spielen dabei die Plattformen, über die OER bereitgestellt, gesucht und verbreitet werden. Im Internet existiert eine Vielzahl solcher Plattformen mit unterschiedlichen technischen Strukturen, Zugangslogiken und Formen der Qualitätssicherung. Nicht alle Materialien sind eindeutig als OER gekennzeichnet, und nicht auf allen Plattformen finden sich Ressourcen mit spezifischer fachlicher Passung für den Religionsunterricht.
