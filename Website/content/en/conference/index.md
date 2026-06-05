@@ -1,21 +1,36 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/en/conference
+inLanguage:
+  - en
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: Conference page
 url: /en/conference
 ---
 
 ## OER: Towards a culture of sharing
 
-The popularity of OER has been slowly growing in recent years. Still, many questions remain unanswered: How do OER communities actually work together? How are OER created collaboratively? What kind of structures, motivation, and challenges shape collaborative work? How can a practice of a culture of sharing be implemented? These questions will be addressed at the FOERBICO Interim Conference 2026 in Nuremberg, featuring insights from research, voices from the communities, and interactive formats.
-Although there are numerous conferences on OER and Open Educational Practices (OEP), the focus is typically on technical issues or the composition of OER. The advantages of OER in educational contexts are also a vital discussion point. These events are crucial for strengthening open educational practices and promoting the production of OER. However, the collaboration of OER communities themselves has hardly been addressed so far.
+### FOERBICO Interim Conference 2026 in Nuremberg
 
-Our FOERBICO team is addressing this gap: we have been researching OER communities in the field of religious education since August 2024, with a particular focus on collaboration, dynamics, and structures within these groups.
+Researchers and practitioners gathered at the Thet FOERBICO Interim Conference 2026 in Nuremberg to discuss a sustainable culture of sharing through Open Educational Resources (OER), particularly collaboration within OER communities.
 
-On 24 and 25 February 2026, we would like to present our findings in Nuremberg and discuss them with you.
+Traditionally, many OER conferences focus on technical aspects, content creation, or the general benefits of open educational practices (OEP). In contrast, this event explored how OER communities work together in practice. The conference examined collaboration, structures, motivations, and challenges shaping these communities.
 
-OER: Towards a culture of sharing  
-This is the title of our conference, where we will not only discuss the results of our empirical study of religious OER-Communities, but also use them as a basis for considering how efforts to further OER can also promote OEP. We cordially invite you to gain an insight into the everyday reality of religious OER communities.
-You can contribute your own experiences or research findings. Headlining Questions will be: How do these communities work together in practice? What different types of communities exist? What role do institutions such as schools or churches play in their development and perpetuation? Together – and with an attitude of openness – we would like to approach these questions and examine the phenomenon of OER communities from different perspectives. We want to give space to the wishes and needs of the communities and consider together how barriers can be broken down. To promote collaborative work on OER even more strongly, and for OEP to form a basis for the communities.
+A central contribution came from the FOERBICO research project, which has been investigating OER communities in religious education since August 2024. The team presented initial findings on community dynamics, collaboration patterns, and institutional influences, offering a research-based foundation for discussion. Participants engaged with key questions such as: What types of OER communities exist? How do they collaborate in everyday practice? What roles do institutions like schools and churches play in their development? And how can barriers to participation be reduced?
 
-For registration please [click here](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+Through a combination of research presentations, community perspectives, and interactive exchange, the conference highlighted the importance of openness, shared responsibility, and active participation. A key takeaway was that strengthening OER requires not only technical infrastructures, but also vibrant, well-supported communities and a strong culture of collaboration.
+
+The event emphasized the need to connect OER more closely with OEP, positioning collaborative practices as a foundation for sustainable community development and future growth. 
+
+A full conference documentation is available online (in German only): https://oer.community/recap-foerbico-tagung-2026/
+
+The FOERBICO project concludes with a final conference in spring 2027 at Goethe University Frankfurt. Those interested in participating or receiving further information are warmly invited to register via our [contact form](https://terminladung.uni-frankfurt.de/).

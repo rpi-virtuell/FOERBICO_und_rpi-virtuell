@@ -1,14 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
 name: 'OER meets Fachdidaktik – Konferenz Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre'
-description: >-
-  Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation
-  in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
-  Hochschuldidaktik im Februar 2025
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: 'Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre. Jahrestagung des Netzwerks Theologie und Hochschuldidaktik im Februar 2025'
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oer-meets-fachdidaktik
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -38,25 +36,24 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
+image: https://oer.community/oer-meets-fachdidaktik/Gruppenarbeit_Tagung.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-03-05'
-#staticSiteGenerator:
+datePublished: 2025-03-05
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Paula Paschke
   - Phillip Angelina
-title: 'OER meets Fachdidaktik – Tagung des Netzwerks "Theologie und Hochschuldidaktik"'
+title: 'OER meets Fachdidaktik – Konferenz Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre'
 cover:
   relative: true
   image: Gruppenarbeit_Tagung.jpg
   hiddenInSingle: true
-summary: |
-  Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation
-  in der Hochschullehre. Jahrestagung des Netzwerks Theologie und
-  Hochschuldidaktik im Februar 2025
+summary: 'Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre. Jahrestagung des Netzwerks Theologie und Hochschuldidaktik im Februar 2025'
 url: oer-meets-fachdidaktik
 tags:
   - Open Educational Resources (OER)

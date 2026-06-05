@@ -1,11 +1,10 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-'@type': LearningResource
 creativeWorkStatus: Published
 name: Instagram als religionspädagogischer Lernort
 description: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/instagram-als-lernort
 creator:
   - givenName: Corinna
@@ -15,36 +14,37 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - OER-Community
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: ima_22a17d4.jpeg 
+image: https://oer.community/instagram-als-lernort/ima_22a17d4.jpeg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-07-31'
-#staticSiteGenerator
+datePublished: 2025-07-31
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+'@type': LearningResource
+
+# staticSiteGenerator
 author:
   - Corinna Ullmann
-title: 'Instagram als religionspädagogischer Lernort'
+title: Instagram als religionspädagogischer Lernort
 cover:
   relative: true
   hiddenInSingle: true
-  image: ima_22a17d4.jpeg 
-summary: |
-  Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+  image: ima_22a17d4.jpeg
+summary: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: instagram-als-lernort
 tags:
-  - Instagram
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Religionspädagogik
+  - OER-Community
 ---
 
 ## Einblicke in den Account @nt.evangelisch_tudortmund und seine Bedeutung für eine zeitgemäße Religionspädagogik

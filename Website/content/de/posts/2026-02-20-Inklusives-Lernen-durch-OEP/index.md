@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/inklusives-Lernen-durch-OEP
-name: 'Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens'
-description: >-
- Wirklich inklusives Lernen entsteht erst, wenn Offenheit über den bloßen Zugang hinausgeht und Lernende selbst zu aktiven Mitgestalter:innen ihres Lernprozesses werden. Der Beitrag zeigt, wie Lehrkräfte und Lernende gemeinsam Lernprozesse schaffen können, in denen Vielfalt nicht nur abgebildet, sondern zur Grundlage des Lernens wird. Offenheit wird hier nicht als technisches Schlagwort verstanden, sondern als Haltung, die Bildung gerechter, kreativer und zukunftsfähiger macht.
-inLanguage: de
+name: Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens
+description: Wirklich inklusives Lernen entsteht erst, wenn Offenheit über den bloßen Zugang hinausgeht und Lernende selbst zu aktiven Mitgestalter:innen ihres Lernprozesses werden. Der Beitrag zeigt, wie Lehrkräfte und Lernende gemeinsam Lernprozesse schaffen können, in denen Vielfalt nicht nur abgebildet, sondern zur Grundlage des Lernens wird. Offenheit wird hier nicht als technisches Schlagwort verstanden, sondern als Haltung, die Bildung gerechter, kreativer und zukunftsfähiger macht.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/inklusives-Lernen-durch-OEP
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -17,21 +16,25 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: you-belong.jpg
+inLanguage: de
+image: https://oer.community/inklusives-Lernen-durch-OEP/you-belong.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2026-02-20'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2026-02-20
+
+# staticSiteGenerator
 author:
   - Laura Mößle
-title: 'Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens'
+title: Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens
 cover:
   relative: true
   image: you-belong.jpg
   hidddenInSingle: false
   alt: 'You belong (Quelle: https://unsplash.com/de/fotos/ein-schild-das-besagt-dass-sie-von-pflanzen-umgeben-sind-pId0KssmHK4, Unsplash-Lizenz)'
-summary: >-
-  Wirklich inklusives Lernen entsteht erst, wenn Offenheit über den bloßen Zugang hinausgeht und Lernende selbst zu aktiven Mitgestalter:innen ihres Lernprozesses werden. Der Beitrag zeigt, wie Lehrkräfte und Lernende gemeinsam Lernprozesse schaffen können, in denen Vielfalt nicht nur abgebildet, sondern zur Grundlage des Lernens wird. Offenheit wird hier nicht als technisches Schlagwort verstanden, sondern als Haltung, die Bildung gerechter, kreativer und zukunftsfähiger macht.
+  hiddenInSingle: true
+summary: Wirklich inklusives Lernen entsteht erst, wenn Offenheit über den bloßen Zugang hinausgeht und Lernende selbst zu aktiven Mitgestalter:innen ihres Lernprozesses werden. Der Beitrag zeigt, wie Lehrkräfte und Lernende gemeinsam Lernprozesse schaffen können, in denen Vielfalt nicht nur abgebildet, sondern zur Grundlage des Lernens wird. Offenheit wird hier nicht als technisches Schlagwort verstanden, sondern als Haltung, die Bildung gerechter, kreativer und zukunftsfähiger macht.
 url: inklusives-Lernen-durch-OEP
 tags:
   - Inklusives Lernen

@@ -1,39 +1,39 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: Sind YouTube-Videos OER-fähig?
 description: ' YouTube trägt durch die Upload-Möglichkeit für alle und somit massenhaft frei zugänglich angebotenem Wissen zu einer „Kultur des Teilens“ bei, wie sie OER- und OEP-Strategien anstreben. Doch sind YouTube-Videos OER-fähig? Auf diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag konkretisiert und differenziert.'
-license: https://creativecommons.org/licenses/by-sa/4.0/deed.de
+license: https://creativecommons.org/licenses/by-sa/4.0/
+id: https://oer.community/sind-youtube-videos-oer-faehig
 creator:
   - givenName: Manfred
     familyName: Pirner
     type: Person
     affiliation:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
-      type: University
+      type: Organization
+    id: https://orcid.org/0000-0002-6641-4690
 inLanguage:
   - de
-image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
+image: https://oer.community/sind-youtube-videos-oer-faehig/Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-datePublished: '2024-09-15'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2024-09-15
+
+# staticSiteGenerator
 author:
   - Manfred Pirner
 title: Sind YouTube-Videos OER-fähig?
 cover:
   relative: true
   image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
-  alt: 'Creative Commons as Youtube logo'
+  alt: Creative Commons as Youtube logo
   caption: 'Creative Commons over Youtube | von: KI-generiert | Lizenz/Rechte: CC0'
-  hiddenInSingle: false
-summary: |
-  YouTube trägt durch die Upload-Möglichkeit für alle und somit massenhaft frei 
-  zugänglich angebotenem Wissen zu einer „Kultur des Teilens“ bei, wie sie 
-  OER- und OEP-Strategien anstreben. Doch sind YouTube-Videos OER-fähig? Auf 
-  diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag 
-  konkretisiert und differenziert.
+  hiddenInSingle: true
+summary: ' YouTube trägt durch die Upload-Möglichkeit für alle und somit massenhaft frei zugänglich angebotenem Wissen zu einer „Kultur des Teilens“ bei, wie sie OER- und OEP-Strategien anstreben. Doch sind YouTube-Videos OER-fähig? Auf diese Frage gibt es eine klare Antwort: Jein! Dieses Jein wird in dem Beitrag konkretisiert und differenziert.'
 url: sind-youtube-videos-oer-faehig
 tags:
   - YouTube

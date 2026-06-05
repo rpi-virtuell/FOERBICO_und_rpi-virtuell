@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/oer-visuelle-qualität
 name: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien'
-description: >-
-  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? 
-inLanguage: de
+description: 'Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? '
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oer-visuelle-qualität
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -19,17 +18,20 @@ creator:
       type: Organization
   - givenName: Paula
     familyName: Paschke
-    id: 
     type: Person
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: pictureframe.jpg
+inLanguage: de
+image: https://oer.community/oer-visuelle-qualität/pictureframe.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-09-22'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-09-22
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Paula Paschke
@@ -39,8 +41,8 @@ cover:
   image: pictureframe.jpg
   hidddenInSingle: false
   alt: 'Pictureframe (Quelle: Unsplash, mk-s-U74OlS8ANGI-unsplash, Unsplash-Lizenz)'
-summary: >-
-  Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*?
+  hiddenInSingle: true
+summary: 'Bildung ist mehr als reine Wissensvermittlung, sie ist immer auch eine Frage der Form. Doch welche Rolle spielt die visuelle Gestaltung offener Bildungsmaterialien? Reicht es, dass Inhalte fachlich korrekt und rechtlich sicher sind? Oder ist das *Wie* ihrer Darstellung ebenso entscheidend wie das *Was*? '
 url: oer-visuelle-qualität
 tags:
   - Ästhetische Bildung

@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/going-deep-er-oerf-tagung-2025
-name: 'Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning'
-description: >-
-  Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning.
-inLanguage: de
+name: Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning
+description: 'Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning.'
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/going-deep-er-oerf-tagung-2025
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -25,21 +24,24 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
+inLanguage: de
 image: https://oer.community/going-deep-er-oerf-tagung-2025/OERF-2025-gruppenfoto.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-07-08'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-07-08
+
+# staticSiteGenerator
 author:
-  - Dr. Laura Mößle
-  - Dr. Florian Mayrhofer
-title: 'Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning'
+  - Laura Mößle
+  - Florian Mayrhofer
+title: Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning
 cover:
   relative: true
   image: OERF-2025-gruppenfoto.jpg
   hiddenInSingle: true
-summary: >-
-  Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
+summary: 'Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning.'
 url: going-deep-er-oerf-tagung-2025
 tags:
   - Community

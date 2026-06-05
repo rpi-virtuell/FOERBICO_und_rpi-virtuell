@@ -1,19 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  Über Infrastrukturen, Communities und digitale Bildungsräume – Einblicke in
-  das Gespräch mit Prof. Michael Kerres
-description: >-
-  Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom
-  Learning Lab an der Uni Duisburg-Essen zum Austausch über digitale
-  Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open
-  Educational Practices, zu Infrastrukturen sowie zum informellen Lernen
-  außerhalb formaler Bildungsinstitutionen.
-inLanguage: de
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: Über Infrastrukturen, Communities und digitale Bildungsräume – Einblicke in das Gespräch mit Prof. Michael Kerres
+description: Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom Learning Lab an der Uni Duisburg-Essen zum Austausch über digitale Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open Educational Practices, zu Infrastrukturen sowie zum informellen Lernen außerhalb formaler Bildungsinstitutionen.
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/austausch-mit-michael-kerres
 creator:
   - givenName: Laura
@@ -23,28 +15,32 @@ creator:
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
-      type: Organizatione
+      type: Organization
+inLanguage: de
 image: https://oer.community/austausch-mit-michael-kerres/Kerres-Moessle2025.png
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-10-15'
-#staticSiteGenerator:
+datePublished: 2025-10-15
+
+# staticSiteGenerator
 author:
   - Laura Mößle
-title: 'Über Infrastrukturen, Communities und digitale Bildungsräume - Einblicke in das Gespräch mit Prof. Michael Kerres'
+title: Über Infrastrukturen, Communities und digitale Bildungsräume – Einblicke in das Gespräch mit Prof. Michael Kerres
 cover:
   relative: true
   image: Kerres-Moessle2025.png
-  hiddenInSingle: false
-summary: >-
-  Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom Learning Lab zum Austausch über digitale Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open Educational Practices, zu Infrastrukturen sowie zum informellen Lernen außerhalb formaler Bildungsinstitutionen.
+  hiddenInSingle: true
+summary: Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom Learning Lab an der Uni Duisburg-Essen zum Austausch über digitale Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open Educational Practices, zu Infrastrukturen sowie zum informellen Lernen außerhalb formaler Bildungsinstitutionen.
 url: austausch-mit-michael-kerres
 tags:
   - Vernetzung
   - Open Educational Practices (OEP)
   - Informelles Lernen
   - Community
-  - Personal Learning Environments 
+  - Personal Learning Environments
 ---
 
 Am 8. Oktober 2025 traf sich Laura vom FOERBICO-Team zu einem anregenden Austausch mit Prof. Dr. Michael Kerres vom [Learning Lab](https://www.learninglab.de/ueber-uns/kerres/) von der Universität Duisburg-Essen. Im Mittelpunkt des Gesprächs standen grundlegende Fragen zur digitalen Transformation im Bildungsbereich. Besondere Aufmerksamkeit galt der Rolle von OEP, den Anforderungen an tragfähige digitale Infrastrukturen sowie dem Potenzial offener Bildung zur Förderung informeller Lernprozesse, wie etwa im Ehrenamt.

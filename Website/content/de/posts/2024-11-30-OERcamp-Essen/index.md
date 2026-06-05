@@ -1,15 +1,11 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: OERcamp & OER-Festival 2024 in Essen
-description: >-
-  Vom 18. bis 20. November 2024 verwandelte sich Essen in das Zentrum für Open
-  Educational Resources (OER) und Open Educational Practices (OEP) 🚀 Mit dem
-  OERcamp und OER-Festival fand eine Veranstaltung voller Inspiration, Austausch
-  und Vernetzung für die Bildungscommunity statt 🤝💡Gina vom FOERBICO-Team war
-  mit dabei und gibt euch hier einige Einblicke!
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+description: Vom 18. bis 20. November 2024 verwandelte sich Essen in das Zentrum für Open Educational Resources (OER) und Open Educational Practices (OEP) 🚀 Mit dem OERcamp und OER-Festival fand eine Veranstaltung voller Inspiration, Austausch und Vernetzung für die Bildungscommunity statt 🤝💡Gina vom FOERBICO-Team war mit dabei und gibt euch hier einige Einblicke!
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oercamp-und-oer-festival-2024-in-essen
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -20,26 +16,23 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: >-
-  https://i0.wp.com/www.oercamp.de/wp-content/uploads/2024/08/20241118-OERcamp-OER-Festival-Essen-%E2%80%93-Website-Kachel-komprimiert-1.png?fit=768%2C432&ssl=1
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-datePublished: '2024-12-02'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+# TODO: Bild "20241118-OERcamp-OER-Festival-Essen-%E2%80%93-Website-Kachel-komprimiert-1.png?fit=768%2C432&ssl=1" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
+datePublished: 2024-12-02
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: OERcamp & OER-Festival 2024 in Essen
 cover:
   relative: true
-  image: OERcamp-OER-Festival-2024-Essen.png
+  image: 20241118-OERcamp-OER-Festival-Essen-%E2%80%93-Website-Kachel-komprimiert-1.png?fit=768%2C432&ssl=1
   alt: '#OERcamp 2024 in Essen vom 18. bis 20. November'
-  hiddenInSingle: false
-summary: |
-  Vom 18. bis 20. November 2024 verwandelte sich Essen in das Zentrum für Open
-  Educational Resources (OER) und Open Educational Practices (OEP) 🚀 Mit dem
-  OERcamp und OER-Festival fand eine Veranstaltung voller Inspiration, Austausch
-  und Vernetzung für die Bildungscommunity statt 🤝💡Gina vom FOERBICO-Team war
-  mit dabei und gibt euch hier einige Einblicke!
+  hiddenInSingle: true
+summary: Vom 18. bis 20. November 2024 verwandelte sich Essen in das Zentrum für Open Educational Resources (OER) und Open Educational Practices (OEP) 🚀 Mit dem OERcamp und OER-Festival fand eine Veranstaltung voller Inspiration, Austausch und Vernetzung für die Bildungscommunity statt 🤝💡Gina vom FOERBICO-Team war mit dabei und gibt euch hier einige Einblicke!
 url: oercamp-und-oer-festival-2024-in-essen
 tags:
   - Open Educational Resources (OER)

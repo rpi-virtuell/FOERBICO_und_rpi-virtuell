@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/autorisierte-schulbuecher-oder-offene-oer
-name: 'Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur'
-description: >-
-  Wie entstehen eigentlich die im Religionsuntericht verwendeten Materialien? Neben institutionell geprüften Religionsschulbüchern kommen auch zunehmend mehr offene Bildungsressourcen, sog. OER, zum Einsatz. Der Beitrag beleuchtet, wie sich institutionelle Verbindlichkeit und partizipative Offenheit von Unterrichtsmedien zueinander verhalten und fragt danach, was dies für eine zukunftsfähige Materialkultur bedeuten kann. 
-inLanguage: de
+name: Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur
+description: 'Wie entstehen eigentlich die im Religionsuntericht verwendeten Materialien? Neben institutionell geprüften Religionsschulbüchern kommen auch zunehmend mehr offene Bildungsressourcen, sog. OER, zum Einsatz. Der Beitrag beleuchtet, wie sich institutionelle Verbindlichkeit und partizipative Offenheit von Unterrichtsmedien zueinander verhalten und fragt danach, was dies für eine zukunftsfähige Materialkultur bedeuten kann. '
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/autorisierte-schulbuecher-oder-offene-oer
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -17,21 +16,25 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: Buecherregal.jpg
+inLanguage: de
+image: https://oer.community/autorisierte-schulbuecher-oder-offene-oer/Buecherregal.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2026-01-26'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2026-01-26
+
+# staticSiteGenerator
 author:
   - Laura Mößle
-title: 'Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur'
+title: Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur
 cover:
   relative: true
   image: Buecherregal.jpg
   hidddenInSingle: false
   alt: 'Bücherregal (Quelle: Unsplash, Foto von Susan Q Yin)'
-summary: >-
-   Wie entstehen eigentlich die im Religionsuntericht verwendeten Materialien? Neben institutionell geprüften Religionsschulbüchern kommen auch zunehmend mehr offene Bildungsressourcen, sog. OER, zum Einsatz. Der Beitrag beleuchtet, wie sich institutionelle Verbindlichkeit und partizipative Offenheit von Unterrichtsmedien zueinander verhalten und fragt danach, was dies für eine zukunftsfähige Materialkultur bedeuten kann
+  hiddenInSingle: true
+summary: 'Wie entstehen eigentlich die im Religionsuntericht verwendeten Materialien? Neben institutionell geprüften Religionsschulbüchern kommen auch zunehmend mehr offene Bildungsressourcen, sog. OER, zum Einsatz. Der Beitrag beleuchtet, wie sich institutionelle Verbindlichkeit und partizipative Offenheit von Unterrichtsmedien zueinander verhalten und fragt danach, was dies für eine zukunftsfähige Materialkultur bedeuten kann. '
 url: autorisierte-schulbuecher-oder-offene-oer
 tags:
   - Schulbücher

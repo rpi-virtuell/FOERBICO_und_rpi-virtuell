@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/offenheit-ist-kein-gegensatz-zu-qualität
 name: Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER
-description: >-
-   OER werden in der Religionspädagogik als zukunftsweisendes Instrument offener Bildungspraktiken gesehen. Immer drängender stellt sich damit die Frage nach ihrer Qualität: Woran lassen sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.
-inLanguage: de
+description: 'OER werden in der Religionspädagogik als zukunftsweisendes Instrument offener Bildungspraktiken gesehen. Immer drängender stellt sich damit die Frage nach ihrer Qualität: Woran lassen sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.'
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/offenheit-ist-kein-gegensatz-zu-qualität
 creator:
   - givenName: Laura
     familyName: Mößle
@@ -17,22 +16,26 @@ creator:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-image: https://oer.community/qualitaetskriterien-checkliste/Quality.jpg
+inLanguage: de
+image: https://oer.community/offenheit-ist-kein-gegensatz-zu-qualität/Quality.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-11-24'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-11-24
+
+# staticSiteGenerator
 author:
   - Laura Mößle
 title: Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER
-url: qualitaetskriterien-checkliste
 cover:
   relative: true
   image: Quality.jpg
   hidddenInSingle: false
   alt: 'Wandkunst mit Text über Qualität und Frische von Adhitya Sibikumar (@adhitya_2505)(Quelle: Unsplash, Unsplash-Lizenz)'
-summary: >-
-  OER werden in der Religionspädagogik als zukunftsweisendes Instrument offener Bildungspraktiken gesehen. Immer drängender stellt sich damit die Frage nach ihrer Qualität: Woran lassen sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.
+  hiddenInSingle: true
+summary: 'OER werden in der Religionspädagogik als zukunftsweisendes Instrument offener Bildungspraktiken gesehen. Immer drängender stellt sich damit die Frage nach ihrer Qualität: Woran lassen sich gute OER erkennen? Um Lehrenden dabei Orientierung zu geben, hat das FOERBICO-Team eine  Handreichung mit OER-Qualitätskriterien erarbeitet, die sowohl bei der Bewertung als auch bei der Erstellung von OER unterstützen kann.'
+url: offenheit-ist-kein-gegensatz-zu-qualität
 tags:
   - Qualitätskriterien
   - Hochschuldidaktik

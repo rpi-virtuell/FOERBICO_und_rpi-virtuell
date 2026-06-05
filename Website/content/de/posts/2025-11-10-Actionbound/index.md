@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: LearningResource
-id: https://oer.community/wertebildung
-name: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
-description: >-
-  Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
-inLanguage: de
+name: Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin
+description: Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/wertebildung
 creator:
   - givenName: Corinna
     familyName: Ullmann
@@ -22,6 +21,7 @@ creator:
     affiliation:
       name: Diözese Rottenburg-Stuttgart
       type: Organization
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
 image: https://oer.community/wertebildung/Titelbild-Martin.png
@@ -29,17 +29,18 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-11-10'
-#staticSiteGenerator:
+datePublished: 2025-11-10
+
+# staticSiteGenerator
 author:
   - Corinna Ullmann
   - Simone Dinse de Salas
-title: 'Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin'
+title: Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin
 cover:
   relative: true
   image: Titelbild-Martin.png
-summary: >-
-  Wertebildung bedeutet mehr als Tugenden zu vermitteln – sie ist ein aktiver Prozess, in dem Lernende sich selbst und die Welt verstehen lernen. In einer digitalen Lebenswelt brauchen Schülerinnen und Schüler Räume, um über Verantwortung, Empathie und Gemeinschaft nachzudenken. Religionspädagog:innen zeigen, dass die Verbindung von Tradition und Digitalität besonders wirksam ist, wenn sie didaktisch gut umgesetzt wird. Ein Beispiel dafür ist das Projekt „Auf Martins Spuren – ein Actionbound zum Thema St. Martin“, das klassische Wertebildung mit digitalen Medien verknüpft.
+  hiddenInSingle: true
+summary: Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
 url: wertebildung
 tags:
   - Open Educational Resources (OER)

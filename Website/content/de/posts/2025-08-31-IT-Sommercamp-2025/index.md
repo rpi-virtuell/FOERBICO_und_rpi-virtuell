@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: LearningResource
-id: https://oer.community/oer-it-sommercamp-2025
-name: 'HackathOERn goes OER/IT-Sommercamp in Weimar'
-description: >-
-  Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.
-inLanguage: de
+name: HackathOERn goes OER/IT-Sommercamp in Weimar
+description: Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oer-it-sommercamp-2025
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -23,6 +22,7 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
 image: https://oer.community/oer-it-sommercamp-2025/IMG_1664.jpg
@@ -30,17 +30,18 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-08-31'
-#staticSiteGenerator:
+datePublished: 2025-08-31
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
   - Ludger Sicking
-title: 'HackathOERn goes OER/IT-Sommercamp in Weimar'
+title: HackathOERn goes OER/IT-Sommercamp in Weimar
 cover:
   relative: true
   image: IMG_1664.jpg
-summary: >-
-  Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in der Goethe-Stadt Weimar gemeinsam mit vielen weiteren IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen, Lösungsansätzen und Konzepten für OER- und OEP-förderliche Infrastrukturen. Bereits letztes Jahr waren wir mit dabei (siehe [Blogbeitrag](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/)) und wollten uns das Event auch dieses Mal nicht entgehen lassen!
+  hiddenInSingle: true
+summary: Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.
 url: oer-it-sommercamp-2025
 tags:
   - Vernetzung

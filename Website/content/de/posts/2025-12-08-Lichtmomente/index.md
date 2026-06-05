@@ -1,11 +1,10 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
-'@type': LearningResource
 creativeWorkStatus: Published
 name: Instagram als religionspädagogischer Lernort
 description: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/lichtmomente
 creator:
   - givenName: Corinna
@@ -23,37 +22,38 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - OER-Community
 inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: Titelbild.jpg 
+image: https://oer.community/lichtmomente/Titelbild.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-08'
-#staticSiteGenerator
+datePublished: 2025-12-08
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - OER-Community
+'@type': LearningResource
+
+# staticSiteGenerator
 author:
   - Corinna Ullmann
   - Phillip Angelina
-title: 'LichtMomente'
+title: Instagram als religionspädagogischer Lernort
 cover:
   relative: true
   hiddenInSingle: true
-  image: Titelbild.jpg 
-summary: |
-  Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+  image: Titelbild.jpg
+summary: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
 url: lichtmomente
 tags:
-  - Instagram
+  - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Religionspädagogik
+  - OER-Community
 ---
 
 

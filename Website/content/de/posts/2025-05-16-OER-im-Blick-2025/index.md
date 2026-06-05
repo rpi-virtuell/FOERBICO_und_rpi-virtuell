@@ -1,13 +1,12 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
+creativeWorkStatus: Published
 type: ScholarlyArticle
-id: https://oer.community/oer-im-blick-2025
 name: 'Rückblick: OER im Blick 2025'
-description: >-
-  Die Veranstaltung "OER im Blick" fand im Mai im Rahmen der OER Strategie des Bundes statt.
-inLanguage: de
+description: Die Veranstaltung "OER im Blick" fand im Mai im Rahmen der OER Strategie des Bundes statt.
 license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/oer-im-blick-2025
 creator:
   - givenName: Gina
     familyName: Buchwald-Chassée
@@ -32,21 +31,25 @@ creator:
       name: Friedrich-Alexander-Universität Erlangen-Nürnberg
       id: https://ror.org/00f7hpc57
       type: Organization
+inLanguage: de
 image: https://oer.community/oer-im-blick-2025/IMG_9713.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-datePublished: '2025-05-21'
-#staticSiteGenerator:
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2025-05-21
+
+# staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-  - Dr. Laura Mößle
+  - Laura Mößle
   - Phillip Angelina
 title: 'Rückblick: OER im Blick 2025'
 cover:
   relative: true
   image: IMG_9713.jpg
-summary: >-
-  Nach der erfolgreichen Auftaktkonferenz in Frankfurt 2024 fand das diesjährige Treffen der OER-Strategie am 13. und 14. Mai 2025 in der Jenaer Imaginata statt. Unter dem Motto "Back to basics" kamen Projekte und Interessierte aus dem Bereich offene Bildung zusammen, um über die Rolle von OER und OEP in aktuellen gesellschaftlichen und bildungspolitischen Kontexten zu diskutieren. Neben Projektupdates standen vor allem Austausch und Vernetzung im Mittelpunkt. FOERBICO war vor Ort und teilt im Blogbeitrag Eindrücke und Highlights der Konferenz.
+  hiddenInSingle: true
+summary: Die Veranstaltung "OER im Blick" fand im Mai im Rahmen der OER Strategie des Bundes statt.
 url: oer-im-blick-2025
 tags:
   - Community

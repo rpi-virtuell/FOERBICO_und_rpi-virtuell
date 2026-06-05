@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FOERBICO — Community of Communities</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;700&family=Alumni+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root {
+    --blue: #203A8F;
+    --blue-deep: #152560;
+    --blue-soft: #2E4CA8;
+    --orange: #FFA500;
+    --white: #FFFFFF;
+    --paper: #FAFAF8;
+    --gray-05: #F2F3F5;
+    --gray-10: #E6E8EC;
+    --gray-30: #BFC3CC;
+    --gray-60: #6B7280;
+    --ink: #14171F;
+    --radius: 4px;
+    --ease: all 160ms ease-out;
+    --max: 1240px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container { max-width: var(--max); margin: 0 auto; padding: 0 40px; }
+
+  h1, h2, h3, h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1;
+  }
+
+  .micro {
+    font-family: 'Alumni Sans SC', sans-serif;
+    font-size: 6px;
+    letter-spacing: 0.25em;
+    color: var(--gray-60);
+    text-transform: uppercase;
+  }
+
+  .label {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--blue);
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+    background: rgba(250, 250, 248, 0.88);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--gray-10);
+  }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+  .logo {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26px; font-weight: 600;
+    letter-spacing: 0.18em; color: var(--blue);
+  }
+  .logo .oer { color: var(--orange); }
+  .nav-links { display: flex; gap: 36px; list-style: none; }
+  .nav-links a {
+    text-decoration: none; color: var(--ink);
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    transition: var(--ease);
+  }
+  .nav-links a:hover { color: var(--blue); }
+
+  .nav-status {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 16px;
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    background: var(--white);
+  }
+  .status-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--gray-30); transition: var(--ease);
+  }
+  .status-dot.connecting { background: var(--orange); animation: pulse 1.2s infinite; }
+  .status-dot.connected  { background: #38A169; }
+  .status-dot.error      { background: #E53E3E; }
+  @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+  .status-text {
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gray-60);
+  }
+
+  /* HERO */
+  .hero { padding: 148px 0 120px; position: relative; }
+  .hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: center; }
+  .hero-eyebrow { display: flex; align-items: center; gap: 14px; margin-bottom: 32px; }
+  .hero-eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--blue); }
+  .hero h1 {
+    font-size: clamp(72px, 9vw, 132px);
+    font-weight: 500; letter-spacing: 0.02em;
+    color: var(--ink); margin-bottom: 36px;
+  }
+  .hero h1 .accent { color: var(--blue); display: block; }
+  .hero h1 .dash { color: var(--orange); }
+  .hero-lead {
+    font-size: 17px; line-height: 1.6;
+    color: var(--gray-60); max-width: 460px;
+    margin-bottom: 44px; font-weight: 300;
+  }
+  .hero-actions { display: flex; gap: 16px; align-items: center; }
+
+  .btn {
+    padding: 14px 30px; border-radius: var(--radius);
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.24em; text-transform: uppercase;
+    cursor: pointer; text-decoration: none;
+    transition: var(--ease);
+    border: 1px solid transparent;
+    display: inline-flex; align-items: center; gap: 10px;
+    background: transparent; font-family: inherit;
+  }
+  .btn-primary { background: var(--blue); color: var(--white); border-color: var(--blue); }
+  .btn-primary:hover { background: var(--blue-deep); border-color: var(--blue-deep); }
+  .btn-ghost { background: transparent; color: var(--ink); border-color: var(--gray-30); }
+  .btn-ghost:hover { border-color: var(--blue); color: var(--blue); }
+
+  .hero-visual {
+    position: relative; aspect-ratio: 4 / 5;
+    border-radius: var(--radius); overflow: hidden;
+    background: var(--blue); border: 1px solid var(--gray-10);
+  }
+  .hero-visual::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 48px, rgba(255,255,255,0.04) 48px, rgba(255,255,255,0.04) 49px),
+      repeating-linear-gradient(90deg, transparent, transparent 48px, rgba(255,255,255,0.04) 48px, rgba(255,255,255,0.04) 49px),
+      linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
+    z-index: 1;
+  }
+  .hero-visual::after {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(circle at 30% 20%, rgba(255,165,0,0.15), transparent 60%);
+    z-index: 2;
+  }
+  .visual-content {
+    position: absolute; inset: 0; z-index: 3;
+    padding: 32px; display: flex; flex-direction: column;
+    justify-content: space-between; color: var(--white);
+  }
+  .visual-top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .visual-badge {
+    width: 44px; height: 44px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: var(--radius);
+    display: grid; place-items: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px; letter-spacing: 0.1em;
+    color: var(--orange);
+  }
+  .visual-meta {
+    text-align: right;
+    font-family: 'Alumni Sans SC', sans-serif;
+    font-size: 6px; letter-spacing: 0.25em;
+    color: rgba(255,255,255,0.6); line-height: 1.8;
+  }
+  .visual-center {
+    position: absolute; inset: 0;
+    display: grid; place-items: center; z-index: 3; padding: 80px;
+  }
+  .visual-logo {
+    max-width: 72%; max-height: 72%;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.96; transition: var(--ease);
+  }
+  .hero-visual:hover .visual-logo { opacity: 1; transform: scale(1.02); }
+  .visual-bottom {
+    display: flex; justify-content: space-between;
+    align-items: flex-end; position: relative; z-index: 3;
+  }
+  .visual-number {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 14px; letter-spacing: 0.3em;
+    color: rgba(255,255,255,0.7);
+  }
+
+  /* FEATURED */
+  .featured { padding: 100px 0 60px; border-top: 1px solid var(--gray-10); }
+  .section-head {
+    display: grid; grid-template-columns: 1fr 2fr;
+    gap: 80px; margin-bottom: 72px; align-items: end;
+  }
+  .section-head h2 {
+    font-size: clamp(44px, 5vw, 68px);
+    font-weight: 500; letter-spacing: 0.02em;
+  }
+  .section-head h2 .accent { color: var(--blue); }
+  .section-head-right {
+    font-size: 15px; color: var(--gray-60);
+    line-height: 1.6; max-width: 520px; font-weight: 300;
+  }
+  .inline-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; background: var(--gray-05);
+    padding: 2px 6px; border-radius: 4px;
+  }
+
+  .featured-card {
+    display: grid; grid-template-columns: 1.2fr 1fr;
+    gap: 0;
+    background: var(--white); border: 1px solid var(--gray-10);
+    border-radius: var(--radius); overflow: hidden;
+    min-height: 440px; cursor: pointer;
+    transition: var(--ease);
+  }
+  .featured-card:hover { border-color: var(--blue); }
+  .featured-image {
+    position: relative; background: var(--blue);
+    min-height: 440px; overflow: hidden;
+  }
+  .featured-image::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 48px, rgba(255,255,255,0.04) 48px, rgba(255,255,255,0.04) 49px),
+      repeating-linear-gradient(90deg, transparent, transparent 48px, rgba(255,255,255,0.04) 48px, rgba(255,255,255,0.04) 49px),
+      linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
+    z-index: 1;
+  }
+  .featured-image img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover; z-index: 2;
+    opacity: 0.85; mix-blend-mode: luminosity;
+    transition: var(--ease);
+  }
+  .featured-card:hover .featured-image img {
+    opacity: 1; mix-blend-mode: normal;
+  }
+  .featured-image-overlay {
+    position: absolute; inset: 0; z-index: 3;
+    padding: 28px;
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+    color: var(--white); pointer-events: none;
+  }
+  .featured-image-overlay .micro { color: rgba(255,255,255,0.7); }
+  .featured-body {
+    padding: 48px;
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+  }
+  .featured-meta { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+  .featured-meta .label-new {
+    padding: 4px 10px; background: var(--orange); color: var(--ink);
+    border-radius: var(--radius); font-size: 10px;
+    font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase;
+  }
+  .featured-card h3 {
+    font-size: clamp(36px, 4vw, 56px);
+    font-weight: 500; letter-spacing: 0.02em;
+    color: var(--ink); margin-bottom: 20px; line-height: 1.05;
+  }
+  .featured-card .summary {
+    font-size: 16px; line-height: 1.6;
+    color: var(--gray-60); font-weight: 300;
+    margin-bottom: 24px;
+    display: -webkit-box; -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .featured-footer {
+    display: flex; justify-content: space-between;
+    align-items: center; padding-top: 20px;
+    border-top: 1px solid var(--gray-10);
+  }
+
+  /* ARTICLES GRID */
+  .articles { padding: 60px 0 120px; }
+  .articles-head {
+    display: flex; justify-content: space-between;
+    align-items: end; margin-bottom: 48px;
+  }
+  .articles-head h2 {
+    font-size: clamp(40px, 4.5vw, 60px);
+    font-weight: 500; letter-spacing: 0.02em;
+  }
+  .articles-head h2 .accent { color: var(--blue); }
+  .articles-count {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 72px; font-weight: 300;
+    color: var(--orange); letter-spacing: 0.02em;
+    line-height: 0.8; text-align: right;
+  }
+  .articles-count small {
+    font-family: 'Alumni Sans SC', sans-serif;
+    font-size: 8px; letter-spacing: 0.3em;
+    color: var(--gray-60); display: block; margin-top: 8px;
+  }
+
+  .filter-bar {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    margin-bottom: 40px; padding-bottom: 24px;
+    border-bottom: 1px solid var(--gray-10);
+  }
+  .filter-chip {
+    padding: 6px 14px; background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gray-60); cursor: pointer;
+    transition: var(--ease);
+  }
+  .filter-chip:hover { border-color: var(--blue); color: var(--blue); }
+  .filter-chip.active { background: var(--blue); color: var(--white); border-color: var(--blue); }
+
+  .articles-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  }
+  .article-card {
+    background: var(--white); border: 1px solid var(--gray-10);
+    border-radius: var(--radius); overflow: hidden;
+    display: flex; flex-direction: column;
+    cursor: pointer; transition: var(--ease);
+    min-height: 420px;
+  }
+  .article-card:hover {
+    border-color: var(--blue); transform: translateY(-2px);
+  }
+  .article-image {
+    position: relative; aspect-ratio: 16 / 10;
+    background: var(--gray-05); overflow: hidden;
+    border-bottom: 1px solid var(--gray-10);
+  }
+  .article-image.placeholder {
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 32px, rgba(32,58,143,0.04) 32px, rgba(32,58,143,0.04) 33px),
+      repeating-linear-gradient(90deg, transparent, transparent 32px, rgba(32,58,143,0.04) 32px, rgba(32,58,143,0.04) 33px),
+      linear-gradient(135deg, var(--gray-05) 0%, #E8EAF0 100%);
+  }
+  .article-image img { width: 100%; height: 100%; object-fit: cover; }
+  .article-image-overlay {
+    position: absolute; inset: 0; padding: 14px;
+    display: flex; justify-content: space-between;
+    align-items: flex-start; pointer-events: none;
+  }
+  .article-num {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 13px; letter-spacing: 0.3em; color: var(--blue);
+  }
+  .article-body {
+    padding: 24px 24px 20px;
+    display: flex; flex-direction: column; flex: 1;
+  }
+  .article-date {
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--blue); margin-bottom: 12px;
+  }
+  .article-card h4 {
+    font-size: 24px; font-weight: 500;
+    margin-bottom: 10px; color: var(--ink);
+    line-height: 1.1;
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .article-card p {
+    font-size: 13px; line-height: 1.55;
+    color: var(--gray-60); font-weight: 300;
+    display: -webkit-box; -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; overflow: hidden;
+    flex: 1; margin-bottom: 16px;
+  }
+  .article-tags {
+    display: flex; gap: 6px; flex-wrap: wrap;
+    padding-top: 14px; border-top: 1px solid var(--gray-10);
+  }
+  .tag {
+    font-size: 9px; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gray-60); padding: 3px 8px;
+    background: var(--gray-05); border-radius: var(--radius);
+  }
+
+  /* ABOUT — Community of Communities */
+  .about { padding: 120px 0 100px; border-top: 1px solid var(--gray-10); background: var(--white); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 100px;
+    align-items: start;
+  }
+  .about-eyebrow {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 64px; font-weight: 400;
+    line-height: 0.9; color: var(--orange);
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+  }
+  .about-eyebrow span { color: var(--blue); display: block; }
+  .about-side {
+    border-left: 2px solid var(--blue);
+    padding-left: 24px;
+  }
+  .about-side .label { margin-bottom: 12px; display: block; }
+  .about-side p {
+    font-size: 13px; color: var(--gray-60);
+    line-height: 1.6; font-weight: 300;
+  }
+  .about-content h3 {
+    font-size: clamp(32px, 3.5vw, 44px);
+    font-weight: 500; letter-spacing: 0.02em;
+    color: var(--ink); margin-bottom: 28px;
+    line-height: 1.1;
+  }
+  .about-content h3 .accent { color: var(--blue); }
+  .about-content p {
+    font-size: 17px; line-height: 1.7;
+    color: var(--ink); font-weight: 300;
+    margin-bottom: 20px;
+  }
+  .about-content p.lead {
+    font-size: 19px; color: var(--ink);
+    font-weight: 400;
+  }
+  .about-content em {
+    font-style: normal; color: var(--blue);
+    font-weight: 500;
+    border-bottom: 2px solid var(--orange);
+    padding-bottom: 1px;
+  }
+  .about-content a {
+    color: var(--blue); text-decoration: underline;
+    text-decoration-color: var(--gray-30);
+    text-underline-offset: 3px; transition: var(--ease);
+    font-weight: 400;
+  }
+  .about-content a:hover { text-decoration-color: var(--blue); }
+
+  /* COMMUNITY — Mitmachen Block */
+  .community {
+    padding: 120px 0;
+    background: var(--blue);
+    color: var(--white);
+    position: relative; overflow: hidden;
+  }
+  .community::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 64px, rgba(255,255,255,0.03) 64px, rgba(255,255,255,0.03) 65px),
+      repeating-linear-gradient(90deg, transparent, transparent 64px, rgba(255,255,255,0.03) 64px, rgba(255,255,255,0.03) 65px);
+    pointer-events: none;
+  }
+  .community .container { position: relative; z-index: 2; }
+  .community-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .community-text .label {
+    color: var(--orange); margin-bottom: 24px; display: block;
+  }
+  .community-text h2 {
+    font-size: clamp(48px, 6vw, 84px);
+    font-weight: 500; letter-spacing: 0.02em;
+    color: var(--white); margin-bottom: 32px;
+    line-height: 1;
+  }
+  .community-text h2 .accent { color: var(--orange); display: block; }
+  .community-text p {
+    font-size: 17px; line-height: 1.6;
+    color: rgba(255,255,255,0.85); font-weight: 300;
+    margin-bottom: 32px; max-width: 540px;
+  }
+
+  .cta-card {
+    background: var(--white);
+    color: var(--ink);
+    border-radius: var(--radius);
+    padding: 40px 36px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .cta-card .label { color: var(--blue); margin-bottom: 16px; display: block; }
+  .cta-card h3 {
+    font-size: 32px; font-weight: 500;
+    margin-bottom: 16px; color: var(--ink);
+    text-transform: none; letter-spacing: 0.01em;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.2;
+  }
+  .cta-card p {
+    font-size: 14px; line-height: 1.6;
+    color: var(--gray-60); font-weight: 300;
+    margin-bottom: 24px;
+  }
+  .cta-element {
+    display: flex; align-items: center; gap: 14px;
+    padding: 16px 20px;
+    background: var(--paper);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: var(--ease);
+    margin-bottom: 12px;
+  }
+  .cta-element:hover {
+    border-color: var(--blue);
+    background: var(--white);
+    transform: translateX(2px);
+  }
+  .cta-element img {
+    width: 32px; height: 32px;
+    flex-shrink: 0;
+  }
+  .cta-element-text {
+    flex: 1; min-width: 0;
+  }
+  .cta-element-name {
+    font-size: 15px; font-weight: 500;
+    color: var(--ink); margin-bottom: 2px;
+  }
+  .cta-element-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--gray-60);
+    overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cta-element-arrow {
+    color: var(--blue); font-size: 18px;
+    flex-shrink: 0;
+  }
+  .cta-team-link {
+    font-size: 13px; color: var(--gray-60);
+    text-align: center; padding-top: 12px;
+    border-top: 1px dashed var(--gray-10); margin-top: 12px;
+  }
+  .cta-team-link a {
+    color: var(--blue); text-decoration: underline;
+    text-decoration-color: var(--gray-30);
+    text-underline-offset: 2px;
+  }
+
+  /* COMMUNITIES — Beteiligte Communities */
+  .communities { padding: 100px 0; border-top: 1px solid var(--gray-10); background: var(--paper); }
+  .communities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .community-card {
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    transition: var(--ease);
+    display: flex; flex-direction: column;
+    min-height: 180px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .community-card:hover {
+    border-color: var(--blue);
+    transform: translateY(-2px);
+  }
+  .community-card .label {
+    color: var(--orange); margin-bottom: 14px;
+    font-size: 9px; letter-spacing: 0.2em;
+  }
+  .community-card h4 {
+    font-size: 22px; font-weight: 500;
+    margin-bottom: 10px; color: var(--ink);
+    text-transform: none; letter-spacing: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.2;
+  }
+  .community-card p {
+    font-size: 13px; line-height: 1.55;
+    color: var(--gray-60); font-weight: 300;
+    flex: 1;
+  }
+  .community-card .community-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--blue);
+    margin-top: 14px; padding-top: 12px;
+    border-top: 1px dashed var(--gray-10);
+    overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* COMMUNITIES — Verbundpartner */
+  .communities { padding: 100px 0; border-top: 1px solid var(--gray-10); background: var(--paper); }
+  .partner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .partner-card {
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    transition: var(--ease);
+    display: flex; flex-direction: column;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .partner-card:hover {
+    border-color: var(--blue);
+    transform: translateY(-2px);
+  }
+  .partner-card .partner-logo {
+    height: 56px; margin-bottom: 24px;
+    display: flex; align-items: center;
+  }
+  .partner-card .partner-logo img {
+    max-height: 56px; max-width: 200px;
+    width: auto; height: auto;
+    object-fit: contain;
+  }
+  .partner-card .label {
+    color: var(--orange); margin-bottom: 12px;
+    font-size: 9px; letter-spacing: 0.2em; display: block;
+  }
+  .partner-card h4 {
+    font-size: 22px; font-weight: 500;
+    margin-bottom: 14px; color: var(--ink);
+    text-transform: none; letter-spacing: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.2;
+  }
+  .partner-card .partner-desc {
+    font-size: 13px; line-height: 1.6;
+    color: var(--gray-60); font-weight: 300;
+    margin-bottom: 20px; flex: 1;
+  }
+  .partner-people {
+    border-top: 1px dashed var(--gray-10);
+    padding-top: 16px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .partner-people .label-people {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 9px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--blue); margin-bottom: 6px;
+  }
+  .partner-person {
+    font-size: 13px; color: var(--ink);
+    line-height: 1.4;
+  }
+  .partner-person .role {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--gray-60);
+    display: block; margin-top: 1px;
+  }
+  .partner-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--blue);
+    margin-top: 16px;
+    overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* TECH — kollabierte Tech-Sektion */
+  .tech-section {
+    padding: 80px 0;
+    border-top: 1px solid var(--gray-10);
+    background: var(--paper);
+  }
+  .tech-toggle {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 32px;
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: var(--ease);
+    user-select: none;
+  }
+  .tech-toggle:hover {
+    border-color: var(--blue);
+  }
+  .tech-toggle-text { display: flex; flex-direction: column; gap: 6px; }
+  .tech-toggle-text h3 {
+    font-size: 28px; font-weight: 500;
+    color: var(--ink); letter-spacing: 0.01em;
+    text-transform: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.1;
+  }
+  .tech-toggle-text p {
+    font-size: 13px; color: var(--gray-60);
+    font-weight: 300;
+  }
+  .tech-toggle-icon {
+    width: 40px; height: 40px;
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    display: grid; place-items: center;
+    background: var(--paper);
+    flex-shrink: 0;
+    transition: var(--ease);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px; color: var(--blue);
+  }
+  .tech-toggle.expanded .tech-toggle-icon {
+    background: var(--blue); color: var(--white);
+    border-color: var(--blue);
+    transform: rotate(45deg);
+  }
+  .tech-content {
+    display: none;
+    padding-top: 48px;
+  }
+  .tech-content.expanded { display: block; }
+  .tech-content > section {
+    padding: 0 0 60px;
+    border: none; background: transparent;
+  }
+  .tech-content > section:last-child { padding-bottom: 0; }
+
+  /* FOOTER — Förderhinweis */
+  .funding {
+    padding: 64px 0;
+    background: var(--white);
+    border-top: 1px solid var(--gray-10);
+  }
+  .funding-inner {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 48px; align-items: center;
+  }
+  .funding-logos {
+    display: flex; align-items: center; gap: 32px;
+    flex-wrap: wrap;
+  }
+  .funding-logos img {
+    max-height: 64px; width: auto;
+  }
+  .funding-text p {
+    font-size: 13px; line-height: 1.7;
+    color: var(--gray-60); font-weight: 300;
+  }
+  .funding-text strong {
+    color: var(--ink); font-weight: 500;
+  }
+  .funding-codes {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--blue);
+    margin-top: 12px;
+    letter-spacing: 0.04em;
+  }
+
+  /* INFRA — Pipeline */
+  .infra { padding: 100px 0; border-top: 1px solid var(--gray-10); background: var(--white); }
+  .pipeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--paper);
+  }
+  .pipeline-step {
+    padding: 36px 28px 32px;
+    border-right: 1px solid var(--gray-10);
+    position: relative;
+    display: flex; flex-direction: column;
+    min-height: 220px;
+    transition: var(--ease);
+  }
+  .pipeline-step:last-child { border-right: none; }
+  .pipeline-step:hover { background: var(--white); }
+  .pipeline-step::before {
+    content: ''; position: absolute;
+    top: 0; left: 0; right: 0; height: 2px;
+    background: var(--blue);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 240ms ease-out;
+  }
+  .pipeline-step:hover::before { transform: scaleX(1); }
+  .pipeline-arrow {
+    position: absolute; right: -8px; top: 50%;
+    transform: translateY(-50%);
+    width: 16px; height: 16px;
+    background: var(--paper);
+    border-top: 1px solid var(--gray-10);
+    border-right: 1px solid var(--gray-10);
+    transform-origin: center;
+    transform: translateY(-50%) rotate(45deg);
+    z-index: 2;
+  }
+  .pipeline-step:last-child .pipeline-arrow { display: none; }
+  .pipeline-num {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 13px; letter-spacing: 0.3em;
+    color: var(--orange); margin-bottom: 16px;
+  }
+  .pipeline-step h4 {
+    font-size: 28px; font-weight: 500;
+    color: var(--ink); margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+  .pipeline-step p {
+    font-size: 13px; color: var(--gray-60);
+    line-height: 1.55; font-weight: 300;
+    margin-bottom: 16px; flex: 1;
+  }
+  .pipeline-tech {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--blue);
+    letter-spacing: 0.04em;
+    border-top: 1px dashed var(--gray-10);
+    padding-top: 12px;
+  }
+
+  /* KINDS — Schema-Karten */
+  .kinds { padding: 100px 0; border-top: 1px solid var(--gray-10); }
+  .kinds-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .kind-card {
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    transition: var(--ease);
+    position: relative;
+    display: flex; flex-direction: column;
+    min-height: 200px;
+  }
+  .kind-card:hover {
+    border-color: var(--blue);
+    transform: translateY(-2px);
+  }
+  .kind-card .kind-num {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 56px; font-weight: 500;
+    line-height: 0.9; color: var(--blue);
+    letter-spacing: 0.01em;
+    margin-bottom: 16px;
+  }
+  .kind-card h4 {
+    font-size: 20px; font-weight: 500;
+    color: var(--ink); margin-bottom: 8px;
+    text-transform: none; letter-spacing: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .kind-card p {
+    font-size: 12px; line-height: 1.55;
+    color: var(--gray-60); font-weight: 300;
+    flex: 1;
+  }
+  .kind-card .kind-nip {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px; letter-spacing: 0.06em;
+    color: var(--orange); text-transform: uppercase;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--gray-10);
+  }
+  .kind-card.primary {
+    background: var(--blue); border-color: var(--blue);
+  }
+  .kind-card.primary .kind-num { color: var(--orange); }
+  .kind-card.primary h4 { color: var(--white); }
+  .kind-card.primary p { color: rgba(255,255,255,0.75); }
+  .kind-card.primary .kind-nip {
+    color: var(--orange);
+    border-top-color: rgba(255,255,255,0.18);
+  }
+
+  /* STATS — Live counter / tag cloud */
+  .stats { padding: 100px 0; border-top: 1px solid var(--gray-10); background: var(--white); }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .stats-numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--paper);
+  }
+  .stat-cell {
+    padding: 36px 32px;
+    border-right: 1px solid var(--gray-10);
+    border-bottom: 1px solid var(--gray-10);
+  }
+  .stat-cell:nth-child(2n) { border-right: none; }
+  .stat-cell:nth-child(n+3) { border-bottom: none; }
+  .stat-value {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 64px; font-weight: 400;
+    line-height: 0.9; letter-spacing: 0.02em;
+    color: var(--blue); margin-bottom: 8px;
+  }
+  .stat-value.orange { color: var(--orange); }
+  .stat-label {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gray-60);
+  }
+  .stat-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--gray-60);
+    margin-top: 6px;
+  }
+  .tag-cloud {
+    padding: 36px 32px;
+    border-left: 1px solid var(--gray-10);
+    background: var(--paper);
+    display: flex; flex-direction: column;
+  }
+  .tag-cloud .label { margin-bottom: 20px; }
+  .tag-cloud-tags {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    flex: 1; align-content: flex-start;
+  }
+  .tag-cloud-tag {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500; letter-spacing: 0.04em;
+    color: var(--blue); cursor: pointer;
+    line-height: 1.2; transition: var(--ease);
+    text-transform: lowercase;
+  }
+  .tag-cloud-tag:hover { color: var(--orange); }
+  .tag-cloud-tag.size-1 { font-size: 13px; }
+  .tag-cloud-tag.size-2 { font-size: 17px; }
+  .tag-cloud-tag.size-3 { font-size: 22px; }
+  .tag-cloud-tag.size-4 { font-size: 28px; }
+  .tag-cloud-tag.size-5 { font-size: 36px; color: var(--orange); }
+
+  /* AMB — Events Liste */
+  .amb { padding: 100px 0; border-top: 1px solid var(--gray-10); }
+  .amb-list {
+    display: flex; flex-direction: column;
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--white);
+  }
+  .amb-row {
+    display: grid;
+    grid-template-columns: 80px 1fr 200px 120px;
+    gap: 24px;
+    padding: 20px 28px;
+    border-bottom: 1px solid var(--gray-10);
+    align-items: center;
+    cursor: pointer;
+    transition: var(--ease);
+  }
+  .amb-row:last-child { border-bottom: none; }
+  .amb-row:hover { background: var(--gray-05); }
+  .amb-row .amb-num {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px; font-weight: 400;
+    color: var(--orange); letter-spacing: 0.18em;
+  }
+  .amb-row .amb-title {
+    font-size: 16px; font-weight: 500;
+    color: var(--ink); line-height: 1.3;
+    overflow: hidden; text-overflow: ellipsis;
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .amb-row .amb-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--gray-60);
+    overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .amb-row .amb-date {
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--blue); text-align: right;
+  }
+  .amb-row .amb-empty {
+    grid-column: 1 / -1;
+    text-align: center; padding: 40px 0;
+    color: var(--gray-60); font-size: 13px;
+  }
+
+  /* Loading / empty states */
+  .loading-state { padding: 80px 0; text-align: center; }
+  .loading-state .label { color: var(--gray-60); margin-bottom: 16px; display: inline-block; }
+  .loading-state h3 {
+    font-size: 32px; font-weight: 300;
+    color: var(--ink); margin-bottom: 12px;
+  }
+  .loading-state p {
+    font-size: 14px; color: var(--gray-60);
+    max-width: 400px; margin: 0 auto;
+  }
+  .loading-state code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; background: var(--gray-05);
+    padding: 2px 6px; border-radius: 4px;
+  }
+
+  .skeleton {
+    background: linear-gradient(90deg, var(--gray-05) 25%, var(--gray-10) 50%, var(--gray-05) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius);
+  }
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+  .skeleton-card {
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: var(--radius);
+    overflow: hidden; min-height: 420px;
+  }
+  .skeleton-card .skeleton-img { aspect-ratio: 16 / 10; }
+  .skeleton-card .skeleton-body { padding: 24px; }
+  .skeleton-card .skeleton-line { height: 14px; margin-bottom: 10px; }
+  .skeleton-card .skeleton-line.short { width: 40%; }
+  .skeleton-card .skeleton-line.title { height: 22px; width: 90%; margin-bottom: 16px; }
+
+  /* MODAL */
+  .modal {
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(20, 23, 31, 0.85);
+    backdrop-filter: blur(8px);
+    display: none; align-items: flex-start;
+    justify-content: center;
+    padding: 40px 20px; overflow-y: auto;
+  }
+  .modal.active { display: flex; }
+  .modal-inner {
+    max-width: 820px; width: 100%;
+    background: var(--paper);
+    border-radius: var(--radius);
+    position: relative;
+    border: 1px solid var(--gray-10);
+    margin-bottom: 40px;
+  }
+  .modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    width: 36px; height: 36px;
+    border-radius: var(--radius);
+    background: var(--white);
+    border: 1px solid var(--gray-10);
+    display: grid; place-items: center;
+    cursor: pointer; z-index: 10;
+    transition: var(--ease);
+    color: var(--ink);
+    font-family: inherit; font-size: 20px; line-height: 1;
+  }
+  .modal-close:hover {
+    background: var(--blue); color: var(--white); border-color: var(--blue);
+  }
+  .modal-hero {
+    position: relative; aspect-ratio: 2 / 1;
+    background: var(--blue); overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .modal-hero::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 48px, rgba(255,255,255,0.04) 48px, rgba(255,255,255,0.04) 49px),
+      repeating-linear-gradient(90deg, transparent, transparent 48px, rgba(255,255,255,0.04) 48px, rgba(255,255,255,0.04) 49px),
+      linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
+    z-index: 1;
+  }
+  .modal-hero img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover; z-index: 2;
+  }
+  .modal-hero-overlay {
+    position: absolute; inset: 0; z-index: 3;
+    padding: 32px;
+    display: flex; flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, transparent 50%, rgba(20,23,31,0.8) 100%);
+  }
+  .modal-hero-overlay h2 {
+    color: var(--white);
+    font-size: clamp(32px, 4vw, 52px);
+    font-weight: 500; letter-spacing: 0.02em;
+    line-height: 1.05; max-width: 680px;
+  }
+  .modal-hero-overlay .label { color: var(--orange); margin-bottom: 12px; display: block; }
+
+  .modal-content { padding: 48px 56px 64px; }
+  .modal-meta {
+    display: flex; justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px; border-bottom: 1px solid var(--gray-10);
+    margin-bottom: 32px;
+    flex-wrap: wrap; gap: 16px;
+  }
+  .modal-body {
+    font-size: 16px; line-height: 1.75;
+    color: var(--ink); font-weight: 400;
+  }
+  .modal-body h1, .modal-body h2, .modal-body h3, .modal-body h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500; letter-spacing: 0.04em;
+    color: var(--blue); margin: 36px 0 16px;
+    text-transform: none; line-height: 1.1;
+  }
+  .modal-body h1 { font-size: 42px; }
+  .modal-body h2 { font-size: 34px; }
+  .modal-body h3 { font-size: 26px; }
+  .modal-body h4 { font-size: 20px; }
+  .modal-body p { margin-bottom: 20px; }
+  .modal-body a {
+    color: var(--blue); text-decoration: underline;
+    text-decoration-color: var(--gray-30);
+    text-underline-offset: 3px; transition: var(--ease);
+  }
+  .modal-body a:hover {
+    text-decoration-color: var(--blue); color: var(--blue-deep);
+  }
+  .modal-body img {
+    max-width: 100%; height: auto;
+    border-radius: var(--radius);
+    margin: 24px 0; border: 1px solid var(--gray-10);
+  }
+  .modal-body blockquote {
+    border-left: 3px solid var(--orange);
+    padding: 8px 0 8px 20px; margin: 24px 0;
+    color: var(--gray-60); font-style: italic;
+  }
+  .modal-body ul, .modal-body ol { margin: 0 0 20px 24px; }
+  .modal-body li { margin-bottom: 8px; }
+  .modal-body code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; background: var(--gray-05);
+    padding: 2px 6px; border-radius: var(--radius);
+    color: var(--blue-deep);
+  }
+  .modal-body pre {
+    background: var(--ink); color: var(--paper);
+    padding: 20px 24px; border-radius: var(--radius);
+    overflow-x: auto; margin: 24px 0;
+  }
+  .modal-body pre code {
+    background: transparent; color: inherit; padding: 0; font-size: 13px;
+  }
+  .modal-body hr {
+    border: none; border-top: 1px solid var(--gray-10); margin: 40px 0;
+  }
+  .modal-footer {
+    padding: 24px 56px;
+    background: var(--white);
+    border-top: 1px solid var(--gray-10);
+    border-radius: 0 0 var(--radius) var(--radius);
+    display: flex; justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; gap: 16px;
+  }
+  .event-id {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--gray-60);
+    letter-spacing: 0.05em;
+    max-width: 60%; overflow: hidden;
+    text-overflow: ellipsis; white-space: nowrap;
+  }
+
+  /* FOOTER */
+  footer {
+    border-top: 1px solid var(--gray-10);
+    padding: 48px 0 32px;
+    background: var(--paper);
+  }
+  .footer-inner {
+    display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 48px; margin-bottom: 48px;
+  }
+  .footer-brand p {
+    font-size: 13px; color: var(--gray-60);
+    font-weight: 300; margin-top: 14px;
+    max-width: 280px; line-height: 1.6;
+  }
+  .footer-col h5 {
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 0.24em; text-transform: uppercase;
+    color: var(--blue); margin-bottom: 16px;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col li { font-size: 13px; margin-bottom: 8px; }
+  .footer-col a {
+    color: var(--ink); text-decoration: none; transition: var(--ease);
+  }
+  .footer-col a:hover { color: var(--blue); }
+  .footer-bottom {
+    display: flex; justify-content: space-between;
+    align-items: center;
+    padding-top: 24px; border-top: 1px solid var(--gray-10);
+  }
+  .footer-bottom .micro { font-size: 7px; }
+
+  /* Utility */
+  .corner-micro-tl, .corner-micro-tr, .corner-micro-bl, .corner-micro-br, .corner-micro-bc {
+    position: absolute;
+    font-family: 'Alumni Sans SC', sans-serif;
+    font-size: 6px; letter-spacing: 0.3em;
+    color: var(--gray-60); text-transform: uppercase;
+    pointer-events: none;
+  }
+  .corner-micro-tl { top: 12px; left: 12px; }
+  .corner-micro-tr { top: 12px; right: 12px; }
+  .corner-micro-bl { bottom: 12px; left: 12px; }
+  .corner-micro-br { bottom: 12px; right: 12px; }
+  .corner-micro-bc { bottom: 12px; left: 50%; transform: translateX(-50%); }
+  .section-wrap { position: relative; }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 48px; }
+    .section-head { grid-template-columns: 1fr; gap: 24px; }
+    .featured-card { grid-template-columns: 1fr; }
+    .featured-body { padding: 32px; }
+    .articles-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .modal-content { padding: 32px 28px; }
+    .modal-footer { padding: 20px 28px; }
+    .pipeline { grid-template-columns: repeat(2, 1fr); }
+    .pipeline-step:nth-child(2) .pipeline-arrow { display: none; }
+    .pipeline-step:nth-child(1), .pipeline-step:nth-child(2) {
+      border-bottom: 1px solid var(--gray-10);
+    }
+    .kinds-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid { grid-template-columns: 1fr; }
+    .tag-cloud { border-left: none; border-top: 1px solid var(--gray-10); }
+    .amb-row { grid-template-columns: 60px 1fr 100px; }
+    .amb-row .amb-meta { display: none; }
+    .about-grid { grid-template-columns: 1fr; gap: 48px; }
+    .community-grid { grid-template-columns: 1fr; gap: 48px; }
+    .communities-grid { grid-template-columns: repeat(2, 1fr); }
+    .partner-grid { grid-template-columns: 1fr; }
+    .funding-inner { grid-template-columns: 1fr; gap: 32px; }
+  }
+  @media (max-width: 640px) {
+    .container { padding: 0 24px; }
+    .nav-links { display: none; }
+    .nav-status { padding: 6px 12px; }
+    .articles-grid { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr; }
+    .footer-bottom { flex-direction: column; gap: 12px; }
+    .articles-head { flex-direction: column; align-items: flex-start; gap: 24px; }
+    .pipeline { grid-template-columns: 1fr; }
+    .pipeline-step { border-right: none; border-bottom: 1px solid var(--gray-10); }
+    .pipeline-step:last-child { border-bottom: none; }
+    .pipeline-arrow { display: none; }
+    .kinds-grid { grid-template-columns: 1fr; }
+    .stats-numbers { grid-template-columns: 1fr; }
+    .stat-cell { border-right: none; border-bottom: 1px solid var(--gray-10); }
+    .stat-cell:last-child { border-bottom: none; }
+    .amb-row {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    .amb-row .amb-date { text-align: left; }
+    .hero h1 { font-size: clamp(56px, 14vw, 80px); }
+    .infra, .kinds, .stats, .amb, .about, .community, .communities { padding: 64px 0; }
+    .communities-grid { grid-template-columns: 1fr; }
+    .cta-card { padding: 28px 24px; }
+    .tech-toggle { padding: 20px 24px; }
+    .tech-toggle-text h3 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container nav-inner">
+    <div class="logo">F<span class="oer">OER</span>BICO</div>
+    <ul class="nav-links">
+      <li><a href="#about">Über</a></li>
+      <li><a href="#community">Mitmachen</a></li>
+      <li><a href="#featured">Beiträge</a></li>
+      <li><a href="#tech">Tech</a></li>
+    </ul>
+    <div class="nav-status" title="Relay-Status">
+      <span class="status-dot connecting" id="status-dot"></span>
+      <span class="status-text" id="status-text">Verbinde</span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero section-wrap">
+  <span class="corner-micro-tl">index · 001 — community of communities</span>
+  <span class="corner-micro-tr">religionsbezogene oer · 2024–2027</span>
+
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="label">Community of Communities</span>
+        </div>
+        <h1>
+          Offen.<br>
+          <span class="accent">Vernetzt.</span>
+          <span class="dash">—</span> Religionsbezogen.
+        </h1>
+        <p class="hero-lead">
+          FOERBICO bringt religionsbezogene Communities zusammen, die offene Bildungsmaterialien (OER)
+          erstellen, teilen und weiterentwickeln. Gemeinsame Qualitätskriterien, gemeinsame Metadaten —
+          damit das, was in einer Community entsteht, auch in den anderen ankommt.
+        </p>
+        <div class="hero-actions">
+          <a href="#community" class="btn btn-primary">Mitmachen →</a>
+          <a href="#about" class="btn btn-ghost">Mehr erfahren</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-content">
+          <div class="visual-top">
+            <div class="visual-badge">FB</div>
+            <div class="visual-meta">
+              lat 49.1508 · lon 9.1628<br>
+              comenius–institut<br>
+              amb · relay · oersi
+            </div>
+          </div>
+          <div class="visual-bottom">
+            <div class="visual-number" id="visual-count">№ ···· / 30023</div>
+            <div class="visual-meta">
+              kind · 30023<br>
+              kind · 30142<br>
+              schema · foerbico
+            </div>
+          </div>
+        </div>
+        <div class="visual-center">
+          <img src="https://oer.community/images/FOERBICO.png" alt="FOERBICO" class="visual-logo" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <span class="corner-micro-bc">scroll — was ist foerbico · mitmachen · beiträge</span>
+</section>
+
+<!-- ABOUT — Was ist FOERBICO -->
+<section class="about section-wrap" id="about">
+  <span class="corner-micro-tl">02 — was ist foerbico</span>
+  <span class="corner-micro-tr">community of communities · religionsbezogen</span>
+
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-side">
+        <span class="label">Förderung offener<br>Bildungspraktiken</span>
+        <p>
+          in religionsbezogenen Communities durch die Entwicklung
+          eines koordinierten OER-Ökosystems.
+        </p>
+        <div class="about-eyebrow" style="margin-top: 32px;">
+          Community<br>
+          <span>of Communities.</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <h3>Vernetzung statt <span class="accent">Vereinzelung</span>.</h3>
+        <p class="lead">
+          Du bist interessiert an offenen Materialien (<a href="https://oer.community/oer-und-oep/" target="_blank" rel="noopener">OER — Open Educational Resources</a>) für das Lernen und Lehren?
+          Du hast sogar schon mal selbst Materialien erstellt oder arbeitest in einer Community oder einem
+          Netzwerk an der Entwicklung von Bildungsmaterialien mit?
+        </p>
+        <p>
+          Dann bist du bei FOERBICO genau richtig. Im Sinne einer <em>Community of Communities</em> zielt
+          FOERBICO auf die Vernetzung und den Austausch von verschiedenen religionsbezogenen Communities,
+          um gemeinsame Qualitätskriterien und Metadatenstandards zu entwickeln.
+        </p>
+        <p>
+          So können die wertvoll erarbeiteten OER in verschiedene Materialpools eingepflegt und
+          anschlussfähig gemacht werden — um weiter verbreitet, weiterentwickelt und von mehr Leuten
+          verwendet zu werden.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY — Mitmachen -->
+<section class="community section-wrap" id="community">
+  <div class="container">
+    <div class="community-grid">
+      <div class="community-text">
+        <span class="label">03 — Mitmachen</span>
+        <h2>
+          Lust auf <span class="accent">OER</span>
+          ins Gespräch?
+        </h2>
+        <p>
+          Werde Teil der Community of Communities. Wir treffen uns in einem offenen Element-Space —
+          niedrigschwellig, dezentral, ohne große Hürden. Komm dazu, hör rein, schreib mit.
+        </p>
+      </div>
+
+      <div class="cta-card">
+        <span class="label">Offener Austausch</span>
+        <h3>OERcommunity Space</h3>
+        <p>
+          Unser Element/Matrix-Space ist offen für alle, die an offenen Bildungsmaterialien
+          im religionsbezogenen Kontext interessiert sind.
+        </p>
+        <a href="https://matrix.to/#/%23oercommunity:rpi-virtuell.de" target="_blank" rel="noopener" class="cta-element">
+          <img src="https://oer.community/images/element-logo.svg" alt="Element" />
+          <div class="cta-element-text">
+            <div class="cta-element-name">Space "OERcommunity"</div>
+            <div class="cta-element-sub">#oercommunity:rpi-virtuell.de</div>
+          </div>
+          <span class="cta-element-arrow">→</span>
+        </a>
+        <div class="cta-team-link">
+          Lieber direkt schreiben? Melde dich beim
+          <a href="https://oer.community/unser-team/" target="_blank" rel="noopener">Team</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITIES — Verbundpartner -->
+<section class="communities section-wrap" id="communities">
+  <span class="corner-micro-tl">04 — verbundpartner</span>
+  <span class="corner-micro-tr">bmbfsfj-verbund · 2024–2027</span>
+
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="label" style="margin-bottom: 24px;">04 — Im Verbund</div>
+        <h2>Wer FOERBICO <span class="accent">trägt</span>.</h2>
+      </div>
+      <p class="section-head-right">
+        FOERBICO wird als Verbund von drei Institutionen umgesetzt: dem Comenius-Institut als Projektträger
+        und zwei religionspädagogischen Lehrstühlen für die wissenschaftliche Begleitung. Mehr zu den Personen
+        gibt es auf <a href="https://oer.community/unser-team/" target="_blank" rel="noopener" style="color: var(--blue); text-decoration: underline;">der Team-Seite</a>.
+      </p>
+    </div>
+
+    <div class="partner-grid">
+
+      <a href="https://comenius.de/" target="_blank" rel="noopener" class="partner-card">
+        <div class="partner-logo">
+          <img src="https://oer.community/hello-world/comenius-institut-logo.png" alt="Comenius-Institut" />
+        </div>
+        <span class="label">Projektträger</span>
+        <h4>Comenius-Institut</h4>
+        <p class="partner-desc">
+          Evangelische Arbeitsstätte für Erziehungswissenschaft. Verantwortet FOERBICO,
+          koordiniert Community-Aufbau und technische Umsetzung.
+        </p>
+        <div class="partner-people">
+          <span class="label-people">Team</span>
+          <span class="partner-person">Dr. Jens Dechow<span class="role">Direktor · Projektleitung</span></span>
+          <span class="partner-person">Jörg Lohrer<span class="role">Projektkoordination</span></span>
+          <span class="partner-person">Gina Buchwald-Chassée<span class="role">Community · Öffentlichkeitsarbeit</span></span>
+          <span class="partner-person">Ludger Sicking<span class="role">Technische Umsetzung</span></span>
+        </div>
+        <span class="partner-link">comenius.de</span>
+      </a>
+
+      <a href="https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik" target="_blank" rel="noopener" class="partner-card">
+        <div class="partner-logo">
+          <img src="https://oer.community/hello-world/Goethe-Universitaet_Frankfurt_Logo.png" alt="Goethe-Universität Frankfurt" />
+        </div>
+        <span class="label">Verbundpartner</span>
+        <h4>Goethe-Universität Frankfurt</h4>
+        <p class="partner-desc">
+          Professur für Religionspädagogik und Mediendidaktik. Forschung zu religiöser Bildung
+          und Mediendidaktik, Vernetzung in die Wissenschaft.
+        </p>
+        <div class="partner-people">
+          <span class="label-people">Team</span>
+          <span class="partner-person">Prof. Dr. Viera Pirker<span class="role">Lehrstuhlinhaberin</span></span>
+          <span class="partner-person">Dr. Laura Mößle<span class="role">Wiss. Mitarbeiterin</span></span>
+          <span class="partner-person">Paula Paschke<span class="role">Wiss. Mitarbeiterin (Vertretung)</span></span>
+        </div>
+        <span class="partner-link">uni-frankfurt.de · Professur RPMD</span>
+      </a>
+
+      <a href="https://www.evrel.phil.fau.de/" target="_blank" rel="noopener" class="partner-card">
+        <div class="partner-logo">
+          <img src="https://oer.community/hello-world/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png" alt="FAU Erlangen-Nürnberg" />
+        </div>
+        <span class="label">Verbundpartner</span>
+        <h4>FAU Erlangen-Nürnberg</h4>
+        <p class="partner-desc">
+          Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts.
+          Empirische Begleitforschung des Projekts.
+        </p>
+        <div class="partner-people">
+          <span class="label-people">Team</span>
+          <span class="partner-person">Prof. Dr. Manfred Pirner<span class="role">Lehrstuhlinhaber</span></span>
+          <span class="partner-person">Phillip Angelina<span class="role">Empirische Begleitforschung</span></span>
+        </div>
+        <span class="partner-link">evrel.phil.fau.de</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED -->
+<section class="featured section-wrap" id="featured">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="label" style="margin-bottom: 24px;">05 — Zuletzt veröffentlicht</div>
+        <h2>Aktueller <span class="accent">Artikel</span>.</h2>
+      </div>
+      <p class="section-head-right">
+        Live aus dem Relay-Netzwerk. Signiert via Nostr, verteilt über
+        <span class="inline-code">relay-rpi.edufeed.org</span> und
+        <span class="inline-code">relay.primal.net</span>.
+        Die folgende Ressource ist die zuletzt veröffentlichte Longform-Note.
+      </p>
+    </div>
+
+    <div id="featured-container">
+      <div class="featured-card skeleton-card" style="grid-template-columns: 1.2fr 1fr;">
+        <div class="skeleton" style="min-height: 440px;"></div>
+        <div class="skeleton-body" style="padding: 48px;">
+          <div class="skeleton skeleton-line short" style="margin-bottom: 24px;"></div>
+          <div class="skeleton skeleton-line title"></div>
+          <div class="skeleton skeleton-line title" style="width: 70%;"></div>
+          <div style="margin-top: 24px;">
+            <div class="skeleton skeleton-line"></div>
+            <div class="skeleton skeleton-line"></div>
+            <div class="skeleton skeleton-line" style="width: 60%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section class="articles section-wrap" id="articles">
+  <div class="container">
+    <div class="articles-head">
+      <div>
+        <div class="label" style="margin-bottom: 20px;">06 — Archiv</div>
+        <h2>Alle <span class="accent">Ressourcen</span>.</h2>
+      </div>
+      <div class="articles-count">
+        <span id="article-count">··</span>
+        <small>kind · 30023</small>
+      </div>
+    </div>
+
+    <div class="filter-bar" id="filter-bar"></div>
+
+    <div class="articles-grid" id="articles-grid">
+      <div class="article-card skeleton-card">
+        <div class="skeleton skeleton-img"></div>
+        <div class="skeleton-body">
+          <div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-line title"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line" style="width: 60%;"></div>
+        </div>
+      </div>
+      <div class="article-card skeleton-card">
+        <div class="skeleton skeleton-img"></div>
+        <div class="skeleton-body">
+          <div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-line title"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line" style="width: 60%;"></div>
+        </div>
+      </div>
+      <div class="article-card skeleton-card">
+        <div class="skeleton skeleton-img"></div>
+        <div class="skeleton-body">
+          <div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-line title"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line" style="width: 60%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH — Aufklappbare Infrastruktur-Details -->
+<section class="tech-section section-wrap" id="tech">
+  <div class="container">
+    <div class="tech-toggle" id="tech-toggle" onclick="toggleTech()" role="button" tabindex="0" aria-expanded="false">
+      <div class="tech-toggle-text">
+        <h3>Wie das technisch funktioniert</h3>
+        <p>Pipeline · Event-Kinds · Live-Statistik aus dem Relay-Netzwerk · für die Neugierigen.</p>
+      </div>
+      <div class="tech-toggle-icon">+</div>
+    </div>
+
+    <div class="tech-content" id="tech-content">
+<!-- INFRA — Pipeline -->
+<section class="infra section-wrap" id="infra">
+  <span class="corner-micro-tl">t·01 — pipeline</span>
+  <span class="corner-micro-tr">stack · sveltekit · nostr · oersi</span>
+
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="label" style="margin-bottom: 24px;">T·01 — Pipeline</div>
+        <h2>Wie eine Ressource <span class="accent">verteilt</span> wird.</h2>
+      </div>
+      <p class="section-head-right">
+        Markdown ist die Quelle. Nostr-Events sind das Transport-Format.
+        Relays cachen, Clients rendern. Der Prozess ist deterministisch,
+        signiert und reproduzierbar — keine Plattform dazwischen.
+      </p>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipeline-step">
+        <div class="pipeline-num">01</div>
+        <h4>Verfassen</h4>
+        <p>Markdown mit YAML-Frontmatter. Dual-Block-Schema für Inhalt & Statik. Gespeichert in Forgejo.</p>
+        <div class="pipeline-tech">.md · #commonMetadata · #staticSiteGenerator</div>
+        <span class="pipeline-arrow"></span>
+      </div>
+      <div class="pipeline-step">
+        <div class="pipeline-num">02</div>
+        <h4>Signieren</h4>
+        <p>NIP-07-Browser-Extension oder <code class="inline-code">nak</code>-CLI. Schlüssel bleiben lokal, der Inhalt wird kryptographisch attestiert.</p>
+        <div class="pipeline-tech">nak event sign · nip-07 · nip-46</div>
+        <span class="pipeline-arrow"></span>
+      </div>
+      <div class="pipeline-step">
+        <div class="pipeline-num">03</div>
+        <h4>Verteilen</h4>
+        <p>Publikation an mehrere Relays gleichzeitig. Kein Single-Point-of-Failure, jedes Relay ist eine vollständige Kopie.</p>
+        <div class="pipeline-tech">wss://relay-rpi · wss://primal · wss://amb-relay</div>
+        <span class="pipeline-arrow"></span>
+      </div>
+      <div class="pipeline-step">
+        <div class="pipeline-num">04</div>
+        <h4>Indexieren</h4>
+        <p>OERSI liest die <code class="inline-code">kind:30142</code>-AMB-Events ab. Diese Seite liest <code class="inline-code">kind:30023</code> live aus dem Relay.</p>
+        <div class="pipeline-tech">oersi · njump · custom client</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KINDS — Schema-Karten -->
+<section class="kinds section-wrap">
+  <span class="corner-micro-tl">t·02 — event kinds</span>
+  <span class="corner-micro-tr">schema · foerbico · 2026</span>
+
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="label" style="margin-bottom: 24px;">T·02 — Kinds</div>
+        <h2>Was eine Ressource <span class="accent">ist</span>.</h2>
+      </div>
+      <p class="section-head-right">
+        Jeder Inhalt bekommt eine maschinenlesbare Form. Vier Event-Kinds
+        bilden das aktive FOERBICO-Vokabular ab — von der Longform-Note bis
+        zum AMB-Metadatensatz.
+      </p>
+    </div>
+
+    <div class="kinds-grid">
+      <div class="kind-card primary">
+        <div class="kind-num">30142</div>
+        <h4>AMB Metadata</h4>
+        <p>Allgemeines Metadatenschema für Bildungsressourcen. FOERBICO-Kernformat.</p>
+        <div class="kind-nip">parameterized replaceable</div>
+      </div>
+      <div class="kind-card">
+        <div class="kind-num">30023</div>
+        <h4>Longform</h4>
+        <p>Markdown-Artikel mit Titel, Summary und Bild. Was du gerade liest.</p>
+        <div class="kind-nip">nip-23 · longform content</div>
+      </div>
+      <div class="kind-card">
+        <div class="kind-num">30818</div>
+        <h4>Wiki</h4>
+        <p>Kollaborativ editierbare Begriffe und Glossarseiten als versionierter Stream.</p>
+        <div class="kind-nip">nip-54 · wiki</div>
+      </div>
+      <div class="kind-card">
+        <div class="kind-num">31923</div>
+        <h4>Termin</h4>
+        <p>Zeitbasierte Veranstaltungen wie Webinare, Tagungen, Sprechstunden.</p>
+        <div class="kind-nip">nip-52 · time-based event</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS — Live counter / tag cloud -->
+<section class="stats section-wrap">
+  <span class="corner-micro-tl">t·03 — live aus dem relay</span>
+  <span class="corner-micro-tr">aggregiert · clientseitig · ohne tracking</span>
+
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="label" style="margin-bottom: 24px;">T·03 — Statistik</div>
+        <h2>Was gerade <span class="accent">da</span> ist.</h2>
+      </div>
+      <p class="section-head-right">
+        Die folgenden Zahlen werden direkt aus den geladenen Events berechnet
+        — kein Server, keine Telemetrie. Wenn du die Seite neu lädst, kommen
+        die Daten frisch aus dem Relay.
+      </p>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stats-numbers">
+        <div class="stat-cell">
+          <div class="stat-value" id="stat-total">··</div>
+          <div class="stat-label">Artikel · gesamt</div>
+          <div class="stat-sub" id="stat-total-sub">kind 30023</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-value orange" id="stat-tags">··</div>
+          <div class="stat-label">Tags · einzigartig</div>
+          <div class="stat-sub">t-tag</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-value" id="stat-first">····</div>
+          <div class="stat-label">Erstveröffentlichung</div>
+          <div class="stat-sub" id="stat-first-sub">—</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-value orange" id="stat-latest">····</div>
+          <div class="stat-label">Letzte Aktualisierung</div>
+          <div class="stat-sub" id="stat-latest-sub">—</div>
+        </div>
+      </div>
+      <div class="tag-cloud">
+        <span class="label">Themen-Cloud</span>
+        <div class="tag-cloud-tags" id="tag-cloud">
+          <span class="tag-cloud-tag size-2">···</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </div>
+</section>
+
+<!-- FUNDING — Förderhinweis -->
+<section class="funding section-wrap">
+  <div class="container">
+    <div class="funding-inner">
+      <div class="funding-logos">
+        <img src="https://oer.community/images/gefoerdert_vom_bmbfsfj.png" alt="Gefördert vom BMBFSFJ" />
+        <a href="https://www.oer-strategie.de/" target="_blank" rel="noopener">
+          <img src="https://oer.community/images/OER_Strategie.png" alt="OER-Strategie des Bundes" />
+        </a>
+      </div>
+      <div class="funding-text">
+        <p>
+          <strong>FOERBICO</strong> wird von Mai 2024 bis Ende April 2027 vom
+          <a href="https://www.bmfsfj.de/" target="_blank" rel="noopener" style="color: var(--blue);">Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ)</a>
+          im Rahmen der <a href="https://www.oer-strategie.de/" target="_blank" rel="noopener" style="color: var(--blue);">OER-Strategie</a> des Bundes gefördert.
+        </p>
+        <div class="funding-codes">FKZ · 01PO23012A · 01PO23012B · 01PO23012C</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="section-wrap">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">F<span class="oer">OER</span>BICO</div>
+        <p>Community of Communities — Vernetzung religionsbezogener Communities für offene Bildungsmaterialien. Verbundprojekt von Comenius-Institut, Goethe-Universität Frankfurt und FAU Erlangen-Nürnberg.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Community</h5>
+        <ul>
+          <li><a href="https://oer.community" target="_blank" rel="noopener">oer.community</a></li>
+          <li><a href="https://matrix.to/#/%23oercommunity:rpi-virtuell.de" target="_blank" rel="noopener">Matrix-Space</a></li>
+          <li><a href="https://oer.community/blog/" target="_blank" rel="noopener">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Verbund</h5>
+        <ul>
+          <li><a href="https://comenius.de" target="_blank" rel="noopener">Comenius-Institut</a></li>
+          <li><a href="https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik" target="_blank" rel="noopener">Goethe-Uni Frankfurt</a></li>
+          <li><a href="https://www.evrel.phil.fau.de/" target="_blank" rel="noopener">FAU Erlangen-Nürnberg</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <ul>
+          <li><a href="https://oer.community/unser-team/" target="_blank" rel="noopener">Team</a></li>
+          <li><a href="https://oer.community/impressum/" target="_blank" rel="noopener">Impressum</a></li>
+          <li><a href="https://oer.community/datenschutz/" target="_blank" rel="noopener">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="micro">cc by 4.0 · 2024–2026 foerbico · soweit nicht anders angegeben</span>
+      <span class="micro">built with markdown · signed with nostr · indexed by oersi</span>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <button class="modal-close" onclick="closeModal()" aria-label="Schließen">×</button>
+    <div class="modal-hero" id="modal-hero">
+      <div class="modal-hero-overlay">
+        <span class="label">Longform · kind 30023</span>
+        <h2 id="modal-title">—</h2>
+      </div>
+    </div>
+    <div class="modal-content">
+      <div class="modal-meta">
+        <span class="label" id="modal-date">—</span>
+        <div id="modal-tags-wrap" style="display: flex; gap: 6px; flex-wrap: wrap;"></div>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+    <div class="modal-footer">
+      <span class="event-id" id="modal-event-id">—</span>
+      <a href="#" id="modal-external" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size: 10px; padding: 8px 16px;">Auf njump öffnen →</a>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ========================================================================
+ * FOERBICO Longform Loader
+ * Liest alle kind:30023 Events eines npub
+ * Relays: relay-rpi.edufeed.org + relay.primal.net
+ * Ohne externe Nostr-Library — reines WebSocket + bech32 decode
+ * ======================================================================== */
+
+const CONFIG = {
+  // Default npub — über ?npub=... in der URL überschreibbar
+  defaultNpub: 'npub1tgftg8kptdrxxg0g3sm3hckuglv3j0uu3way4vylc5qyt0f44m0s3gun6e',
+  relays: [
+    'wss://relay-rpi.edufeed.org',
+    'wss://relay.primal.net'
+  ],
+  queryTimeoutMs: 7000
+};
+
+const urlParams = new URLSearchParams(window.location.search);
+const activeNpub = urlParams.get('npub') || CONFIG.defaultNpub;
+
+// ---- bech32 (NIP-19) ----
+const CHARSET = 'qpzry9x8gf2tvdw0s3jn54khce6mua7l';
+
+function bech32Polymod(values) {
+  const GEN = [0x3b6a57b2, 0x26508e6d, 0x1ea119fa, 0x3d4233dd, 0x2a1462b3];
+  let chk = 1;
+  for (let p = 0; p < values.length; p++) {
+    const top = chk >> 25;
+    chk = (chk & 0x1ffffff) << 5 ^ values[p];
+    for (let i = 0; i < 5; i++) if ((top >> i) & 1) chk ^= GEN[i];
+  }
+  return chk;
+}
+function bech32HrpExpand(hrp) {
+  const ret = [];
+  for (let p = 0; p < hrp.length; p++) ret.push(hrp.charCodeAt(p) >> 5);
+  ret.push(0);
+  for (let p = 0; p < hrp.length; p++) ret.push(hrp.charCodeAt(p) & 31);
+  return ret;
+}
+function bech32VerifyChecksum(hrp, data) {
+  return bech32Polymod(bech32HrpExpand(hrp).concat(data)) === 1;
+}
+function bech32Decode(bechString) {
+  const pos = bechString.lastIndexOf('1');
+  if (pos < 1 || pos + 7 > bechString.length) throw new Error('Invalid bech32');
+  const hrp = bechString.substring(0, pos).toLowerCase();
+  const data = [];
+  for (let p = pos + 1; p < bechString.length; p++) {
+    const d = CHARSET.indexOf(bechString.charAt(p).toLowerCase());
+    if (d === -1) throw new Error('Invalid char');
+    data.push(d);
+  }
+  if (!bech32VerifyChecksum(hrp, data)) throw new Error('Invalid checksum');
+  return { hrp, data: data.slice(0, data.length - 6) };
+}
+function bech32ConvertBits(data, fromBits, toBits, pad = true) {
+  let acc = 0, bits = 0;
+  const ret = [];
+  const maxv = (1 << toBits) - 1;
+  for (let p = 0; p < data.length; p++) {
+    const value = data[p];
+    if (value < 0 || value >> fromBits !== 0) throw new Error('Invalid value');
+    acc = (acc << fromBits) | value;
+    bits += fromBits;
+    while (bits >= toBits) {
+      bits -= toBits;
+      ret.push((acc >> bits) & maxv);
+    }
+  }
+  if (pad && bits > 0) ret.push((acc << (toBits - bits)) & maxv);
+  return ret;
+}
+function bytesToHex(bytes) {
+  return Array.from(bytes).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+function npubToHex(npub) {
+  const { hrp, data } = bech32Decode(npub);
+  if (hrp !== 'npub') throw new Error('Not an npub');
+  return bytesToHex(bech32ConvertBits(data, 5, 8, false));
+}
+
+// ---- State ----
+const state = {
+  events: new Map(),
+  activeFilter: null
+};
+
+const el = {
+  statusDot:     document.getElementById('status-dot'),
+  statusText:    document.getElementById('status-text'),
+  featured:      document.getElementById('featured-container'),
+  grid:          document.getElementById('articles-grid'),
+  count:         document.getElementById('article-count'),
+  visualCount:   document.getElementById('visual-count'),
+  filterBar:     document.getElementById('filter-bar'),
+  modal:         document.getElementById('modal'),
+  modalTitle:    document.getElementById('modal-title'),
+  modalDate:     document.getElementById('modal-date'),
+  modalBody:     document.getElementById('modal-body'),
+  modalHero:     document.getElementById('modal-hero'),
+  modalTags:     document.getElementById('modal-tags-wrap'),
+  modalEventId:  document.getElementById('modal-event-id'),
+  modalExternal: document.getElementById('modal-external'),
+  npubLink:      document.getElementById('npub-link'),
+  // Stats
+  statTotal:     document.getElementById('stat-total'),
+  statTotalSub:  document.getElementById('stat-total-sub'),
+  statTags:      document.getElementById('stat-tags'),
+  statFirst:     document.getElementById('stat-first'),
+  statFirstSub:  document.getElementById('stat-first-sub'),
+  statLatest:    document.getElementById('stat-latest'),
+  statLatestSub: document.getElementById('stat-latest-sub'),
+  tagCloud:      document.getElementById('tag-cloud')
+};
+
+function setStatus(kind, text) {
+  el.statusDot.className = 'status-dot ' + kind;
+  el.statusText.textContent = text;
+}
+
+// ---- Tech-Toggle ----
+function toggleTech() {
+  const toggle = document.getElementById('tech-toggle');
+  const content = document.getElementById('tech-content');
+  const icon = toggle.querySelector('.tech-toggle-icon');
+  const expanded = content.classList.toggle('expanded');
+  toggle.classList.toggle('expanded', expanded);
+  toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  icon.textContent = expanded ? '×' : '+';
+}
+// Keyboard support for tech toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('tech-toggle');
+  if (toggle) {
+    toggle.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleTech();
+      }
+    });
+  }
+});
+
+// ---- Helpers ----
+function escapeHtml(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function formatDate(timestamp) {
+  const d = new Date(timestamp * 1000);
+  return d.toLocaleDateString('de-DE', { year: 'numeric', month: 'short', day: '2-digit' });
+}
+function getTag(event, tagName) {
+  const tag = event.tags.find(t => t[0] === tagName);
+  return tag ? tag[1] : null;
+}
+function getAllTags(event, tagName) {
+  return event.tags.filter(t => t[0] === tagName).map(t => t[1]).filter(Boolean);
+}
+function extractFirstImage(markdown) {
+  if (!markdown) return null;
+  const mdMatch = markdown.match(/!\[[^\]]*\]\(([^)]+)\)/);
+  if (mdMatch) return mdMatch[1];
+  const htmlMatch = markdown.match(/<img[^>]+src=["']([^"']+)["']/i);
+  if (htmlMatch) return htmlMatch[1];
+  return null;
+}
+function extractSummary(event) {
+  const s = getTag(event, 'summary');
+  if (s && s.trim()) return s;
+  const text = (event.content || '')
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[#*_`>]/g, '')
+    .replace(/\n+/g, ' ').trim();
+  return text.slice(0, 220) + (text.length > 220 ? '…' : '');
+}
+function extractTitle(event) {
+  const t = getTag(event, 'title');
+  if (t) return t;
+  const h1 = (event.content || '').match(/^#\s+(.+)$/m);
+  if (h1) return h1[1];
+  const h2 = (event.content || '').match(/^##\s+(.+)$/m);
+  if (h2) return h2[1];
+  return 'Ohne Titel';
+}
+function getPublishTimestamp(event) {
+  // NIP-23: published_at tag is authoritative; created_at is just the signature time
+  const p = getTag(event, 'published_at');
+  if (p) {
+    const n = parseInt(p, 10);
+    if (!isNaN(n) && n > 0) return n;
+  }
+  return event.created_at;
+}
+
+// ---- Rendering ----
+function renderFeatured(event) {
+  const title = extractTitle(event);
+  const summary = extractSummary(event);
+  const image = getTag(event, 'image') || extractFirstImage(event.content);
+  const date = formatDate(getPublishTimestamp(event));
+  const tags = getAllTags(event, 't').slice(0, 4);
+
+  el.featured.innerHTML = `
+    <div class="featured-card" onclick="openArticle('${event.id}')">
+      <div class="featured-image">
+        ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" onerror="this.style.display='none'"/>` : ''}
+        <div class="featured-image-overlay">
+          <span class="micro">featured · latest · signed</span>
+          <span class="micro">event · ${escapeHtml(event.id.slice(0, 16))}···</span>
+        </div>
+      </div>
+      <div class="featured-body">
+        <div>
+          <div class="featured-meta">
+            <span class="label-new">Neu</span>
+            <span class="label" style="color: var(--gray-60);">${date}</span>
+          </div>
+          <h3>${escapeHtml(title)}</h3>
+          <p class="summary">${escapeHtml(summary)}</p>
+          ${tags.length ? `<div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 16px;">${tags.map(t => `<span class="tag">#${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+        </div>
+        <div class="featured-footer">
+          <span class="label">Artikel öffnen →</span>
+          <span class="micro">kind · 30023</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderGrid(events) {
+  if (events.length === 0) {
+    el.grid.innerHTML = `
+      <div class="loading-state" style="grid-column: 1 / -1;">
+        <span class="label">Leer</span>
+        <h3 style="margin-top: 12px;">Keine Artikel in dieser Auswahl</h3>
+        <p>Wechsle den Filter oder entferne ihn, um alle Ressourcen zu sehen.</p>
+      </div>
+    `;
+    return;
+  }
+
+  el.grid.innerHTML = events.map((event, i) => {
+    const title = extractTitle(event);
+    const summary = extractSummary(event);
+    const image = getTag(event, 'image') || extractFirstImage(event.content);
+    const date = formatDate(getPublishTimestamp(event));
+    const tags = getAllTags(event, 't').slice(0, 3);
+    const num = String(i + 1).padStart(3, '0');
+
+    return `
+      <div class="article-card" onclick="openArticle('${event.id}')">
+        <div class="article-image ${image ? '' : 'placeholder'}">
+          ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" onerror="this.parentElement.classList.add('placeholder'); this.remove();"/>` : ''}
+          <div class="article-image-overlay">
+            <span class="article-num">№ ${num}</span>
+            <span class="micro" style="color: var(--blue);">30023</span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-date">${date}</div>
+          <h4>${escapeHtml(title)}</h4>
+          <p>${escapeHtml(summary)}</p>
+          ${tags.length ? `<div class="article-tags">${tags.map(t => `<span class="tag">#${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderFilters() {
+  const tagCounts = {};
+  for (const event of state.events.values()) {
+    getAllTags(event, 't').forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; });
+  }
+  const sorted = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+
+  if (sorted.length === 0) {
+    el.filterBar.style.display = 'none';
+    return;
+  }
+  el.filterBar.style.display = 'flex';
+
+  el.filterBar.innerHTML = `
+    <div class="filter-chip ${state.activeFilter === null ? 'active' : ''}" onclick="setFilter(null)">
+      Alle · ${state.events.size}
+    </div>
+    ${sorted.map(([tag, count]) => `
+      <div class="filter-chip ${state.activeFilter === tag ? 'active' : ''}" onclick="setFilter('${escapeHtml(tag)}')">
+        #${escapeHtml(tag)} · ${count}
+      </div>
+    `).join('')}
+  `;
+}
+
+function setFilter(tag) {
+  state.activeFilter = tag;
+  renderFilters();
+  updateAll();
+}
+
+function renderStats() {
+  const all = Array.from(state.events.values());
+  const total = all.length;
+
+  // Total + sub
+  el.statTotal.textContent = String(total).padStart(2, '0');
+  el.statTotalSub.textContent = total === 1 ? '1 longform · kind 30023' : `${total} longforms · kind 30023`;
+
+  // Tags
+  const tagCounts = {};
+  for (const event of all) {
+    getAllTags(event, 't').forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; });
+  }
+  const uniqueTags = Object.keys(tagCounts).length;
+  el.statTags.textContent = String(uniqueTags).padStart(2, '0');
+
+  // First / Latest
+  if (all.length > 0) {
+    const sorted = all.slice().sort((a, b) => getPublishTimestamp(a) - getPublishTimestamp(b));
+    const first = sorted[0];
+    const latest = sorted[sorted.length - 1];
+    const firstDate = new Date(getPublishTimestamp(first) * 1000);
+    const latestDate = new Date(getPublishTimestamp(latest) * 1000);
+
+    el.statFirst.textContent = firstDate.getFullYear();
+    el.statFirstSub.textContent = firstDate.toLocaleDateString('de-DE', { day: '2-digit', month: 'short' });
+    el.statLatest.textContent = latestDate.getFullYear();
+    el.statLatestSub.textContent = latestDate.toLocaleDateString('de-DE', { day: '2-digit', month: 'short' });
+  }
+
+  // Tag cloud
+  if (uniqueTags === 0) {
+    el.tagCloud.innerHTML = '<span class="tag-cloud-tag size-2" style="color: var(--gray-60);">noch keine tags</span>';
+  } else {
+    const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 30);
+    const max = sortedTags[0][1];
+    const min = sortedTags[sortedTags.length - 1][1];
+    const range = Math.max(1, max - min);
+    el.tagCloud.innerHTML = sortedTags.map(([tag, count]) => {
+      const norm = (count - min) / range; // 0..1
+      const size = Math.min(5, Math.max(1, Math.ceil(norm * 5))) || 1;
+      return `<span class="tag-cloud-tag size-${size}" onclick="setFilter('${escapeHtml(tag)}'); document.getElementById('articles').scrollIntoView({behavior: 'smooth'});" title="${count} ressource${count !== 1 ? 'n' : ''}">#${escapeHtml(tag)}</span>`;
+    }).join('');
+  }
+}
+
+function updateAll() {
+  const all = Array.from(state.events.values())
+    .sort((a, b) => getPublishTimestamp(b) - getPublishTimestamp(a));
+
+  if (all.length > 0) renderFeatured(all[0]);
+
+  const remaining = all.slice(1);
+  const filtered = state.activeFilter
+    ? remaining.filter(e => getAllTags(e, 't').includes(state.activeFilter))
+    : remaining;
+  renderGrid(filtered);
+
+  el.count.textContent = String(all.length).padStart(2, '0');
+  el.visualCount.textContent = `№ ${String(all.length).padStart(4, '0')} / 30023`;
+  renderFilters();
+  renderStats();
+}
+
+// ---- Modal ----
+function openArticle(eventId) {
+  const event = Array.from(state.events.values()).find(e => e.id === eventId);
+  if (!event) return;
+
+  const title = extractTitle(event);
+  const image = getTag(event, 'image') || extractFirstImage(event.content);
+  const date = formatDate(getPublishTimestamp(event));
+  const tags = getAllTags(event, 't');
+
+  el.modalTitle.textContent = title;
+  el.modalDate.textContent = date;
+
+  el.modalHero.innerHTML = `
+    ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" onerror="this.remove();"/>` : ''}
+    <div class="modal-hero-overlay">
+      <span class="label">Longform · kind 30023</span>
+      <h2>${escapeHtml(title)}</h2>
+    </div>
+  `;
+
+  el.modalTags.innerHTML = tags.slice(0, 8).map(t => `<span class="tag">#${escapeHtml(t)}</span>`).join('');
+
+  if (typeof marked !== 'undefined') {
+    marked.setOptions({ breaks: true, gfm: true });
+    el.modalBody.innerHTML = marked.parse(event.content || '');
+  } else {
+    el.modalBody.textContent = event.content || '';
+  }
+
+  el.modalEventId.textContent = event.id;
+  el.modalExternal.href = 'https://njump.me/' + event.id;
+
+  el.modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  el.modal.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+el.modal.addEventListener('click', (e) => {
+  if (e.target === el.modal) closeModal();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeModal();
+});
+
+// ---- Relay Query ----
+function queryRelay(url, pubkeyHex) {
+  return new Promise((resolve) => {
+    let ws;
+    const subId = 'foerbico-' + Math.random().toString(36).slice(2, 10);
+    let settled = false;
+
+    const cleanup = () => {
+      if (settled) return;
+      settled = true;
+      try { ws && ws.close(); } catch (e) {}
+      resolve();
+    };
+
+    try { ws = new WebSocket(url); }
+    catch (e) { console.warn('Relay-Fehler:', url, e); return cleanup(); }
+
+    const timeout = setTimeout(cleanup, CONFIG.queryTimeoutMs);
+
+    ws.onopen = () => {
+      ws.send(JSON.stringify(['REQ', subId, {
+        authors: [pubkeyHex],
+        kinds: [30023],
+        limit: 100
+      }]));
+    };
+
+    ws.onmessage = (msg) => {
+      try {
+        const data = JSON.parse(msg.data);
+        if (data[0] === 'EVENT' && data[1] === subId) {
+          ingestEvent(data[2]);
+        } else if (data[0] === 'EOSE' && data[1] === subId) {
+          clearTimeout(timeout);
+          cleanup();
+        }
+      } catch (e) { console.warn('Parse-Fehler:', e); }
+    };
+
+    ws.onerror = () => { clearTimeout(timeout); cleanup(); };
+    ws.onclose = () => { clearTimeout(timeout); cleanup(); };
+  });
+}
+
+function ingestEvent(event) {
+  // Replaceable events (NIP-33): Key = kind:pubkey:dTag
+  const dTag = getTag(event, 'd') || event.id;
+  const key = `${event.kind}:${event.pubkey}:${dTag}`;
+  const existing = state.events.get(key);
+  if (!existing || event.created_at > existing.created_at) {
+    state.events.set(key, event);
+    if (window._renderTimeout) clearTimeout(window._renderTimeout);
+    window._renderTimeout = setTimeout(updateAll, 150);
+  }
+}
+
+// ---- Init ----
+async function init() {
+  if (el.npubLink) el.npubLink.href = `https://njump.me/${activeNpub}`;
+
+  let pubkeyHex;
+  try {
+    pubkeyHex = npubToHex(activeNpub);
+  } catch (e) {
+    setStatus('error', 'Ungültiger npub');
+    el.featured.innerHTML = `
+      <div class="loading-state">
+        <span class="label">Fehler</span>
+        <h3 style="margin-top: 12px;">Ungültiger npub</h3>
+        <p>Der angegebene npub <code>${escapeHtml(activeNpub)}</code> konnte nicht dekodiert werden. Nutze den URL-Parameter <code>?npub=npub1...</code></p>
+      </div>
+    `;
+    el.grid.innerHTML = '';
+    return;
+  }
+
+  setStatus('connecting', `Verbinde · ${CONFIG.relays.length} relays`);
+
+  await Promise.all(CONFIG.relays.map(url => queryRelay(url, pubkeyHex)));
+
+  if (state.events.size === 0) {
+    setStatus('error', 'Keine Events');
+    el.featured.innerHTML = `
+      <div class="loading-state">
+        <span class="label">Kein Inhalt gefunden</span>
+        <h3 style="margin-top: 12px;">Keine Longform-Notes</h3>
+        <p>Für den npub <code>${escapeHtml(activeNpub.slice(0, 20))}…</code> wurden auf den konfigurierten Relays keine Events vom Typ <code>kind:30023</code> gefunden.</p>
+      </div>
+    `;
+    el.grid.innerHTML = '';
+    el.count.textContent = '00';
+    el.visualCount.textContent = '№ 0000 / 30023';
+  } else {
+    setStatus('connected', `${state.events.size} artikel · live`);
+  }
+}
+
+init();
+</script>
+
+</body>
+</html>

@@ -1,14 +1,12 @@
 ---
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
 name: Interview mit Daniel Otto
-description: >-
-  Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorberteitung
-  unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
-license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/_edit/Interview-Otto/Website/content/posts/2025-12-12-InterviewOtto/index.md
+description: Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorberteitung unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/interview-daniel-otto
 creator:
   - givenName: Phillip
     familyName: Angelina
@@ -24,37 +22,36 @@ creator:
     affiliation:
       name: Comenius-Institut
       type: Organization
-keywords:
-  - OER
-  - OEP
-  - Tagung
-  - KI
 inLanguage:
   - de
-image: >-
-  https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/Interview-Otto/Website/content/posts/2025-12-12-InterviewOtto/FOERBICO_Tagung_Logo.png
+image: https://oer.community/interview-daniel-otto/FOERBICO_Tagung_Logo.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2025-12-17'
-#staticSiteGenerator:
+datePublished: 2025-12-17
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Tagung
+  - KI
+
+# staticSiteGenerator
 author:
   - Phillip Angelina
   - Gina Buchwald-Chassée
-title: 'Interview mit Daniel Otto'
+title: Interview mit Daniel Otto
 cover:
   relative: true
   image: FOERBICO_Tagung_Logo.png
   hidddenInSingle: false
-  alt: 'Interview Otto'
-summary: >-
-  Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorbereitung
-  unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
+  alt: Interview Otto
+  hiddenInSingle: true
+summary: Phillip Angelina und Gina Buchwald-Chassée konnten im Zuge der Vorberteitung unserer Tagung unsere Keynote Prof. Dr. Daniel Otto interviewen.
 url: interview-daniel-otto
 tags:
-  - OER
-  - OEP
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
   - Tagung
   - KI
 ---
