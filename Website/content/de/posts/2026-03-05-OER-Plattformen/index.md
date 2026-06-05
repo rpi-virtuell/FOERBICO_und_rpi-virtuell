@@ -8,7 +8,7 @@ name: >-
 description: >-
   Plattformen spielen eine wichtige, bisher jedoch wenig beachtete Rolle bei der Nutzung und Verbreitung von OER. Im Internet gibt es zahlreiche Plattformen zur Distribution von Materialien, die jedoch nicht immer als OER gekennzeichnet sind und nicht durchgehend Inhalte für das Fach Religion anbieten. Der Beitrag gibt einen exemplarischen Überblick über Plattformen mit religionspädagogischen Bildungsmaterialien und ordnet diese hinsichtlich fachlicher Eignung und Zielgruppen ein.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
-id: https://oer.community/oer-plattformen
+id: https://oer.community/offen-und-doch-wenig-sichtbar-oer-plattformen
 creator:
   - givenName: Paula
     familyName: Xue Paschke
@@ -59,7 +59,7 @@ cover:
   hiddenInSingle: false
 summary: |
     Plattformen sind zentral für die Verbreitung von OER, wurden bisher jedoch wenig beachtet. Der Beitrag gibt einen exemplarischen Überblick über Plattformen mit religionspädagogischen Materialien und bewertet deren fachliche Eignung sowie Zielgruppen.
-url: oer-plattformen
+url: offen-und-doch-wenig-sichtbar-oer-plattformen
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
