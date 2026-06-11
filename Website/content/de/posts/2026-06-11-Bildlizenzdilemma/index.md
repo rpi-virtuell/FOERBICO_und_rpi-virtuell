@@ -56,7 +56,7 @@ Ein Ampelsystem funktioniert sehr gut für Blogs oder Präsentationen, weil es k
 
 - Bilder mit unklarer oder restriktiver Lizenz, z.B. CC BY-NC (nicht-kommerziell → problematisch falls monetärer Kontext) oder CC BY-ND (keine Bearbeitung → ungeeignet für viele OER-Szenarien)
 - gekaufte Bilder von iStock, GettyImages u.v.m. -> sollte ausgewiesen werden, nicht weiterverwendbar
-- Bilder aus Canva-Library, von Bilddatenbanken wie Unsplash, Pixabay & Co. -> stehen meistens unter der Anbieter-Lizenz, diese muss entsprechend ausgewiesen werden
+- Bilder aus Canva-Library, von Bilddatenbanken wie Unsplash, Pixabay & Co. -> stehen meistens unter der Anbieter-Lizenz, diese muss entsprechend ausgewiesen werden. Mehr dazu auch in unserem [Blogbeitrag "Canva für OER? Eine Entscheidungshilfe für Bildungsakteure"](https://oer.community/canva/).
 
 👉 Lizenzbedingungen beachten, Weitergabe oder Anpassung ggf. nicht möglich!
 
