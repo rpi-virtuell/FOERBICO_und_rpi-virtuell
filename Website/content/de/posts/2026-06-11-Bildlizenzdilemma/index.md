@@ -37,6 +37,7 @@ Inzwischen gibt es auch viele **Bilddatenbanken** mit frei verfügbaren Bildern 
 - [Humaans](https://humaaans.com/)
 - [StockSnap.io](https://stocksnap.io/)
 - [Skitterphoto](https://skitterphoto.com)
+- [Openclipart](https://openclipart.org/)
 
 💡 **Tipp**: Auch in Suchmaschinen kann man in der Bildersuche über den Suchfilter nach Creative Commons Lizenzen filtern!
 
