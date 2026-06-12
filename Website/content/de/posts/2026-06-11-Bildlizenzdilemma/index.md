@@ -9,7 +9,13 @@ Ein zentraler Punkt, der häufig übersehen wird: Das Urheberrecht gilt immer, u
 Das bedeutet: Auch klassische Unterrichtsmaterialien ohne CC-Lizenz können urheberrechtlich problematisch sein.
 Auch „normale“ Blogbeiträge, Präsentationen oder Websites können Rechte verletzen, denn die Online-Verfügbarkeit bedeutet nicht automatisch Nutzungsrecht. Ein Bild aus einer Google-Suche oder von einer beliebigen Website zu übernehmen ist also nicht „neutraler“ oder „sicherer“, nur weil es kein OER ist, ganz im Gegenteil: Oft ist unklarer, was erlaubt ist und das Risiko der Verletzung von Bildrechten ist sogar größer.
 
-⚠️ **Achtung**: Auch Coverbilder, Logos, Screenshots o.Ä. stehen unter Copyright und dürfen nicht einfach ohne schriftliche Genehmigung verwendet werden. Auch Marken- und Personenrechte müssen beachtet werden und erfordern ggf. zusätzliche Genehmigungen wie Fotofreigaben. Insbesondere, wenn Minderjährige abgebildet sind, braucht es die Zustimmung der Eltern! Also selbst wenn ihr eigene Fotos verwendet, solltet ihr kritisch prüfen, was oder wer abgebildet ist. Sind Personen nicht erkennbar, dürft ihr das Bild auch ohne Freigabe verwenden! Auch KI-generierte Bilder sind nicht automatisch gemeinfrei und sollten ausgewiesen werden.  
+⚠️ **Achtung**: 
+
+- Auch Coverbilder, Logos, Screenshots o.Ä. stehen unter Copyright und dürfen nicht einfach ohne schriftliche Genehmigung verwendet werden. 
+- Auch Marken- und Personenrechte müssen beachtet werden und erfordern ggf. zusätzliche Genehmigungen wie Fotofreigaben. Insbesondere, wenn Minderjährige abgebildet sind, braucht es die Zustimmung der Eltern! 
+- Selbst wenn ihr eigene Fotos verwendet, solltet ihr kritisch prüfen, was oder wer abgebildet ist. Sind Personen nicht erkennbar, dürft ihr das Bild auch ohne Freigabe verwenden! 
+- Auch KI-generierte Bilder sind nicht automatisch gemeinfrei und sollten ausgewiesen werden. Beachtet immer die Bedingungen der jeweiligen Anbieter!
+- Ausnahme: [Die 15%-Regel aus § 60a für Unterricht und Lehre](https://open-educational-resources.de/ausnahmen-vom-urheberrecht/). Das gilt auch für [Wissenschaft und Forschung](https://www.uni-bremen.de/urheberrecht/wissensplattform/6-sonderfall-wissenschaftliche-forschung). Das heißt ihr dürft z.B. wissenschaftliche Abbildungen verwenden, aber auch diese müssen korrekt ausgewiesen werden! Mehr dazu auch vom [Deutschen Bibliotheksverband](https://www.bibliotheksverband.de/sites/default/files/2024-08/Urheberrecht_Bildung_Wissenschaft_Kultur.pdf) sowie [irights.info](https://irights.info/artikel/cc-lizenz-und-gesetzliche-nutzungserlaubnisse/32561).  
 
 💡 **Tipp**: Alternativen suchen und Bilder ggf. ersetzen, z.B. durch eigene Zeichnungen oder Bilder unter freier Lizenz verwenden oder wenn möglich Link zum Bild statt Bilddatei verwenden!
 
@@ -38,6 +44,8 @@ Inzwischen gibt es auch viele **Bilddatenbanken** mit frei verfügbaren Bildern 
 - [StockSnap.io](https://stocksnap.io/)
 - [Skitterphoto](https://skitterphoto.com)
 - [Openclipart](https://openclipart.org/)
+
+Es gibt auch einige Sammlungen mit offenen Bilddatenbanken, z.B. von [ZUM](https://apps.zum.de/quellen), [ZOERR](https://www.zoerr.de/edu-sharing/components/render/30d941b7-c7b8-4cf0-9941-b7c7b88cf06d) oder [OER.info](https://open-educational-resources.de/oer_materialien/wo-finde-ich-kostenlose-bilder-eine-sammlung-von-quellen-fuer-frei-lizensierte-fotos-und-abbildungen/).
 
 💡 **Tipp**: Auch in Suchmaschinen kann man in der Bildersuche über den Suchfilter nach Creative Commons Lizenzen filtern!
 
