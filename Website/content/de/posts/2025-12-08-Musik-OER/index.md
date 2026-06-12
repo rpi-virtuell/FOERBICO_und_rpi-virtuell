@@ -479,6 +479,8 @@ Ob „Gloria in excelsis Deo“, „In der Weihnachtsbäckerei“ oder „Oh du 
 
 - https://www.medienpaedagogik-praxis.de/kostenlose-medien/freie-musik/
 
+- https://www.mikula-kurt.net/
+
 - https://raw.githubusercontent.com/musikpirat/singen-im-advent.github.io/gh-pages/Singen_im_Advent_-_Auflage_3.pdf
 
 - https://musik.klarmachen-zum-aendern.de/singen-im-advent/
