@@ -79,6 +79,8 @@ Ein Ampelsystem funktioniert sehr gut für Blogs oder Präsentationen, weil es k
 
 -> aus ZOERR-Workshop!
 
+⚠️ **Achtung:** Auch automatisch generierte Vorschaubilder müssen ausgewiesen werden!
+
 💡 **Tipp**: Einige Tools wie der [Lizenzhinweisgenerator](https://lizenzhinweisgenerator.de/), der [CC-Stamper](https://ccstamper.edu-sharing.org/) oder der [Bildmetadatengenerator](https://joerglohrer.github.io/bildmetagenerator/bildlizenzgenerator.html) können euch beim Bildnachweis unterstützen!
 
 ## Fazit
