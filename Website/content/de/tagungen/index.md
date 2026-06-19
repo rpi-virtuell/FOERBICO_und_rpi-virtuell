@@ -17,6 +17,18 @@ title: Tagungen
 url: tagungen
 ---
 
+--- 
+
+## Abschluss-Tagung "Offen. Vernetzt. Zukunft" - Open Education in (religionsbezogenen) Communities am 2. & 3. Februar 2027 an der Goethe-Universität Frankfurt
+
+Die Tagung bringt OER-Communities und Akteur:innen aus Wissenschaft, Bildungspraxis, Kirche und Zivilgesellschaft zusammen, um über die Zukunft von Open Education zu diskutieren. Dabei werden Erfahrungen aus dem FOERBICO-Projekt ebenso aufgegriffen wie Perspektiven aus bestehenden Initiativen und Praxisfeldern. Gemeinsam diskutieren wir, wie offene Bildungsökosysteme wachsen und Open Education nachhaltig wirksam werden können.
+
+Weitere Infos zum Programm folgen!
+ 
+👉 Jetzt **[hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)**  bis zum **22. Januar 2027** anmelden! 
+
+--- 
+
 ## Zwischenfazit-Tagung 2026 in Nürnberg - „Mit OER zu einer Kultur des Teilens“
 
 Die Bekanntheit von OER hat in den letzten Jahren weiter zugenommen und ist zunehmend aus der Nische herausgetreten. Dennoch bleiben zentrale Fragen bestehen: Wie arbeiten OER-Communities eigentlich zusammen? Wie entstehen Materialien tatsächlich kollaborativ? Welche Strukturen, Motivationen und Herausforderungen prägen das gemeinsame Arbeiten? Und wie kann eine Kultur des Teilens konkret gelebt werden?
@@ -33,8 +45,3 @@ Die Tagung machte deutlich, dass die Weiterentwicklung von OER nicht allein eine
 
 👉 Ein ausführlicher Rückblick zur Tagung ist [hier](https://oer.community/recap-foerbico-tagung-2026/) verfügbar!
 
---- 
-
-## Abschluss-Tagung 2027 - Save-the-Date: Frühjahr 2027 an der Goethe-Universität Frankfurt
-
-Weitere Infos folgen, Interessierte sind herzlich eingeladen, sich über das [Kontaktformular](https://terminladung.uni-frankfurt.de/) zu melden!
