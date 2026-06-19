@@ -6,7 +6,7 @@ Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education 
 
 Bei hochsommerlichen Temperaturen von nahezu 40 Grad erwiesen sich die Kellerräume der Professional School of Education der RUB dabei als hervorragende Wahl und boten den passenden Rahmen für einen intensiven Austausch über die Zukunft offener Bildung.
 
-Bild Start
+![Eröffnung-digiLL-Tagung](digiLL-Tagung-Beginn.jpeg)
 
 ## „Raus aus den Bubbles“ – Vernetzung als Herausforderung und Chance
 
@@ -61,21 +61,24 @@ So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische 
 
 Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden: https://oer.community/tagungen/ 
 
-BILD Tauschbörse
+![Tauschtisch-digiLL-Tagung](digiLL-Tagung-Tauschtisch.jpeg)
 
 ## Storytelling, Perspektivenvielfalt und internationale Einblicke
 
-Weitere spannende Impulse kamen aus der Keynote von Celestine, die die Bedeutung von Storytelling für Bildungsprozesse in den Fokus rückte. Besonders interessant war dabei die Frage, wie unterschiedliche Rollenperspektiven und Diversität in Geschichten und Bildungsangeboten berücksichtigt werden können.
+Weitere spannende Impulse kamen aus der Keynote von Celestine, die die Bedeutung von Storytelling für Bildungsprozesse in den Fokus rückte. Besonders interessant war dabei die Frage, wie unterschiedliche Rollenperspektiven und Diversität in Geschichten und Bildungsangeboten berücksichtigt werden können. Gemeinsam offene Geschichte entwickelt...
 
 Ein Satz aus der Keynote blieb dabei besonders hängen:
 „It's a feature and a bug.“
 
 Zwar bezog sich die Aussage ursprünglich auf einen anderen Kontext, doch sie beschreibt auch viele Herausforderungen offener Bildungspraktiken erstaunlich treffend: Offenheit schafft Möglichkeiten, bringt aber zugleich neue Komplexitäten mit sich.
-Darüber hinaus bot die Tagung auch internationale Perspektiven, unter anderem durch einen Beitrag der Qatar University.
+
+Passend dazu Beitrag zu Utopien Matthias: Nicht nur beschweren und Pessimismus, sondern nach Vorne schauen und gemeinsam Zukunft denken. Das scheint das digiLL-Team bereits sehr kreativ und fantasievoll zu tun, wie das Whiteboard im Büro zeigt.
+
+![Whiteboard-digiLL-Tagung](digiLL-Tagung-Kreativwall.jpeg)
 
 ## Fazit
 
-Die Tagung hat eindrucksvoll gezeigt, dass Open Education weit mehr ist als die Bereitstellung offener Materialien. Im Zentrum stehen Menschen, Beziehungen und gemeinsame Lernprozesse. Wer offene Bildung nachhaltig gestalten möchte, muss deshalb nicht nur über Inhalte und Technologien sprechen, sondern auch über Vertrauen, Vernetzung und Gemeinschaft.
+Die Tagung hat eindrucksvoll gezeigt, dass Open Education weit mehr ist als die Bereitstellung offener Materialien. Im Zentrum stehen Menschen, Beziehungen und gemeinsame Lernprozesse. Wer offene Bildung nachhaltig gestalten möchte, muss deshalb nicht nur über Inhalte und Technologien sprechen, sondern auch über Vertrauen, Vernetzung und Gemeinschaft. 
 
 Ein herzliches Dankeschön an das digiLL-Team für die gelungene Organisation und die vielen inspirierenden Gespräche vor Ort und online. Wir freuen uns auf die weitere Zusammenarbeit und den gemeinsamen Weg hin zu einer vernetzten Open-Education-Landschaft.
 
