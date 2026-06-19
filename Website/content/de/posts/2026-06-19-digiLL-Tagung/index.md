@@ -63,7 +63,7 @@ Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der G
 
 ![Tauschtisch-digiLL-Tagung](digiLL-Tagung-Tauschtisch.jpeg)
 
-## Storytelling, Perspektivenvielfalt und internationale Einblicke
+## Storytelling...
 
 Weitere spannende Impulse kamen aus der Keynote von Celestine, die die Bedeutung von Storytelling für Bildungsprozesse in den Fokus rückte. Besonders interessant war dabei die Frage, wie unterschiedliche Rollenperspektiven und Diversität in Geschichten und Bildungsangeboten berücksichtigt werden können. Gemeinsam offene Geschichte entwickelt...
 
