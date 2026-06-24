@@ -59,7 +59,7 @@ Gleichzeitig stehen nicht die Plattformen, sondern die Menschen im Mittelpunkt:
 •	Kollaborative Werkzeuge unterstützen die gemeinsame Arbeit.
 
 So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische Lösungen und soziale Beziehungen zusammengedacht werden. 
-Die gesamte Präsentation findet ihr [hier]()!
+Die gesamte Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-digill-tagung/Website/content/de/posts/2026-06-19-digiLL-Tagung/Raus%20aus%20den%20Bubbles%20Vernetzung%20als%20Herausforderung%20und%20Chance%20f%C3%BCr%20offene%20Bildungspraktiken%20in%20Communities.pdf)!
 
 Besonders gefreut hat uns, dass das im Schwesterprojekt Co-WOERK entwickelte Schichtenmodell unseren eher praxisorientierten Ansatz um wichtige theoretische Perspektiven ergänzen konnte.
 
