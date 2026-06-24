@@ -2,7 +2,7 @@
 
 Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen]( https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.
 
-Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education im Mittelpunkt: das Gemeinsame. Diese Perspektive zog sich durch die vielfältigen Vorträge, Diskussionen und Workshops des Tages und eröffnete spannende Einblicke in die Herausforderungen und Chancen offener Bildungspraktiken.
+Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education im Mittelpunkt: das Gemeinsame. Diese Perspektive zog sich durch die vielfältigen Vorträge, Diskussionen und Workshops des Tages und eröffnete spannende Einblicke in die Herausforderungen und Chancen offener Bildungspraktiken. Die gesamten Beiträge sowie der Live-Stream werden demnächst auf der [digiLL-Communityplattform](https://community.digill.de/) veröffentlicht!
 
 Bei hochsommerlichen Temperaturen von nahezu 40 Grad erwiesen sich die Kellerräume der Professional School of Education der RUB dabei als hervorragende Wahl und boten den passenden Rahmen für einen intensiven Austausch über die Zukunft offener Bildung.
 
@@ -51,28 +51,36 @@ Deshalb wurden im Vortrag Kriterien vorgestellt, die eine zukünftige Infrastruk
 Wie könnte eine solche Infrastruktur aussehen?
 Vorgestellt wurde ein Ansatz auf Basis des dezentralen Social-Media-Protokolls Nostr. Die Idee: Inhalte werden nur einmal angelegt und können anschließend an unterschiedlichen Orten ausgespielt werden. Änderungen werden automatisch übernommen. Dadurch sinkt der Pflegeaufwand erheblich.
 Gleichzeitig stehen nicht die Plattformen, sondern die Menschen im Mittelpunkt:
+
 •	Communities können sich vernetzen und gegenseitig folgen.
 •	Materialien können gemeinsam erstellt und geteilt werden.
 •	Veranstaltungen lassen sich übergreifend sichtbar machen.
 •	Soziale Interaktionen wie Kommentieren, Teilen oder Liken fördern Austausch und Feedback.
 •	Kollaborative Werkzeuge unterstützen die gemeinsame Arbeit.
 
-So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische Lösungen und soziale Beziehungen zusammengedacht werden. Besonders gefreut hat uns, dass das im Schwesterprojekt Co-WOERK entwickelte Schichtenmodell unseren eher praxisorientierten Ansatz um wichtige theoretische Perspektiven ergänzen konnte.
+So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische Lösungen und soziale Beziehungen zusammengedacht werden. 
+Die gesamte Präsentation findet ihr [hier]()!
 
-Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden: https://oer.community/tagungen/ 
+Besonders gefreut hat uns, dass das im Schwesterprojekt Co-WOERK entwickelte Schichtenmodell unseren eher praxisorientierten Ansatz um wichtige theoretische Perspektiven ergänzen konnte.
+
+-> Abbildung Schichtenmodell!
+
+Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)! 
 
 ![Tauschtisch-digiLL-Tagung](digiLL-Tagung-Tauschtisch.jpeg)
 
-## Storytelling...
+## Gemeinsames Storytelling als offene Lehr- und Lernpraxis
 
-Weitere spannende Impulse kamen aus der Keynote von Celestine, die die Bedeutung von Storytelling für Bildungsprozesse in den Fokus rückte. Besonders interessant war dabei die Frage, wie unterschiedliche Rollenperspektiven und Diversität in Geschichten und Bildungsangeboten berücksichtigt werden können. Gemeinsam offene Geschichte entwickelt...
+Weitere spannende Impulse kamen aus der Keynote von Celestine Kleinesper (Deutsche Kinder- und Jugenstiftung), die die Bedeutung von Storytelling für Bildungsprozesse in den Fokus rückte. Geschichten erzählen ist eine der ältesten Form von OEP: wir erzählen sie weiter, verändern und vermischen sie usw. - der Kreativität sind oft keine Grenzen gesetzt!
 
-Ein Satz aus der Keynote blieb dabei besonders hängen:
+Besonders interessant war dabei die Frage, wie unterschiedliche Rollenperspektiven und Diversität in Geschichten und Bildungsangeboten berücksichtigt werden können. Außergewöhnlich für eine Keynote: In einem kleinen Hands-on-Teil entwickelten wir gemeinsam eine offene Geschichte. Anhand von Fragen wurden die Antworten nach Mehrheitsprinzip zum Teil der Geschichte, auf die mit Sicherheit niemand gekommen wäre: Wir waren ein zeitreisendes Gehirn im Jahr 1648 und hatten einen inneren Konflikt, daraufhin haben wir erstmal ein Eis gegessen - letzteres entsprach der Realitiät, danke an das digiLL-Team für die Abkühlung!
+
+Ein Nebensatz aus der Keynote blieb besonders hängen:
 „It's a feature and a bug.“
 
 Zwar bezog sich die Aussage ursprünglich auf einen anderen Kontext, doch sie beschreibt auch viele Herausforderungen offener Bildungspraktiken erstaunlich treffend: Offenheit schafft Möglichkeiten, bringt aber zugleich neue Komplexitäten mit sich.
 
-Passend dazu Beitrag zu Utopien Matthias: Nicht nur beschweren und Pessimismus, sondern nach Vorne schauen und gemeinsam Zukunft denken. Das scheint das digiLL-Team bereits sehr kreativ und fantasievoll zu tun, wie das Whiteboard im Büro zeigt.
+Passend dazu ging Matthias Kostrzewa (Ruhr-Universität Bochum) in seinem Beitrag zu "Eine kleine Geschichte der Offenheit - Narrative Konzeptionen von OEP" auf Zukunftsutopien offener Bildungspraktiken ein. Sein Fazit: Nicht nur beschweren und Pessimismus, sondern nach Vorne schauen und gemeinsam Zukunft denken. Das scheint das digiLL-Team bereits sehr kreativ und fantasievoll zu tun, wie das Whiteboard im Büro zeigt.
 
 ![Whiteboard-digiLL-Tagung](digiLL-Tagung-Kreativwall.jpeg)
 
