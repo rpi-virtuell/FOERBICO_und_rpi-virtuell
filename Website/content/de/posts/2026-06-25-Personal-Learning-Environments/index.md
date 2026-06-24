@@ -100,8 +100,6 @@ tags:
   
 ---
 
-Der vorliegende Beitrag ist zuerst erschienen in: Paschke, P. X./ Mößle, L./ Mayrhofer, F.: Personal Learning Environments in der Hochschulbildung. Nachhaltige Lernräume für eine offene Bildungskultur in der Religionspädagogik, in: Mrohs, L./ Herrmann, C./ Brodel, H./ Franz, J./ Herrmann, D./ Hess, M./ Lindner, K. (Hg.): Räume der Hochschullehre. Bildungsorte für die Zukunft, Bielefeld 2026, S. 207–224. Online verfügbar unter: [https://www.transcript-open.de/doi/10.14361/9783839400432-207](https://www.transcript-open.de/doi/10.14361/9783839400432-207)
-
 
 # Personal Learning Environments in der Hochschulbildung
 
@@ -338,6 +336,6 @@ Wiley, D. & Hilton, J. (2018). Defining OER-Enabled Pedagogy. *International Rev
 
 ---
 
-*Dieser Beitrag ist die Online-Fassung des gleichnamigen Buchkapitels von Paula Xue Paschke, Laura Mößle und Florian Mayrhofer, erschienen in: Räume der Hochschullehre (transcript Verlag, 2026, S. 207–224). Der Text steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).*
+Der Beitrag ist im Original erschienen als: Xue Paschke, P./ Mößle, L./ Mayrhofer, F.: Personal Learning Environments in der Hochschulbildung. Nachhaltige Lernräume für eine offene Bildungskultur in der Religionspädagogik, in: Mrohs, L./ Herrmann, C./ Brodel, H./ Franz, J./ Herrmann, D./ Hess, M./ Lindner, K. (Hg.): Räume der Hochschullehre. Bildungsorte für die Zukunft, Bielefeld 2026, S. 207–224. Online verfügbar unter: [https://www.transcript-open.de/doi/10.14361/9783839400432-207](https://www.transcript-open.de/doi/10.14361/9783839400432-207) Der Text steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
-[^1]: Das vom BMBFSFJ im Rahmen der OER-Strategie des Bundes »OE_COM« geförderte Projekt ist ein Verbundprojekt des Comenius-Instituts Münster, der Goethe-Universität Frankfurt und der Friedrich-Alexander-Universität Erlangen-Nürnberg. Förderkennzeichen: 01PO23012C.
+
