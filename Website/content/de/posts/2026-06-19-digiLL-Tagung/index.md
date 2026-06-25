@@ -8,6 +8,8 @@ Bei hochsommerlichen Temperaturen von nahezu 40 Grad erwiesen sich die Kellerrä
 
 ![Eröffnung-digiLL-Tagung](digiLL-Tagung-Beginn.jpeg)
 
+*Eröffnung von Joana Kadir & Matthias Kostrzewa vom digiLL-Team der Ruhr-Universität Bochum*
+
 ## „Raus aus den Bubbles“ – Vernetzung als Herausforderung und Chance
 
 Auch das FOERBICO-Projekt war vertreten und stellte im Rahmen des Vortrags „Raus aus den Bubbles – Vernetzung als Herausforderung und Chance für offene Bildungspraktiken in Communities“ erste Erkenntnisse und Entwicklungen vor.
@@ -41,9 +43,13 @@ Communities nutzen heute eine Vielzahl unterschiedlicher Tools für Kommunikatio
 Deshalb wurden im Vortrag Kriterien vorgestellt, die eine zukünftige Infrastruktur erfüllen sollte:
 
 •	Niedrigschwelligkeit,
+
 •	Anschlussfähigkeit,
+
 •	Anpassbarkeit,
+
 •	Offenheit,
+
 •	Plattformunabhängigkeit
 
 ### Von der Vision zur Wirklichkeit
@@ -60,10 +66,6 @@ Gleichzeitig stehen nicht die Plattformen, sondern die Menschen im Mittelpunkt:
 
 So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische Lösungen und soziale Beziehungen zusammengedacht werden. 
 Die gesamte Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-digill-tagung/Website/content/de/posts/2026-06-19-digiLL-Tagung/Raus%20aus%20den%20Bubbles%20Vernetzung%20als%20Herausforderung%20und%20Chance%20f%C3%BCr%20offene%20Bildungspraktiken%20in%20Communities.pdf)!
-
-Besonders gefreut hat uns, dass das im Schwesterprojekt Co-WOERK entwickelte Schichtenmodell unseren eher praxisorientierten Ansatz um wichtige theoretische Perspektiven ergänzen konnte.
-
--> Abbildung Schichtenmodell!
 
 Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)! 
 
