@@ -1,6 +1,56 @@
-# Open Education – Gemeinsam gestalten, teilen, lernen: Eindrücke von der digiLL_COM-Tagung
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Open Education – Gemeinsam gestalten, teilen, lernen: Eindrücke von der digiLL_COM-Tagung'
+description: >-
+  Am 18. Juni 2026 waren wir von FOERBICO bei der Tagung "Open Education – Gemeinsam gestalten, teilen, lernen" an der Professional School of Education der Ruhr-Universität Bochum (RUB) dabei, um die aktuellen Entwicklungen zum Community-Hub des FOERBICO-Projekts vorzustellen und mit weiteren Open-Education-Akteur:innen ins Gespräch zu kommen.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/tagung-open-education
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://oer.community/tagung-open-education/digiLL-Tagung-Beginn.jpeg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-07-08'
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - FOERBICO in Kontakt
+  - Community
 
-Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen]( https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.
+# staticSiteGenerator
+author:
+  - Gina Buchwald-Chassée
+title: 'Open Education – Gemeinsam gestalten, teilen, lernen: Eindrücke von der digiLL_COM-Tagung'
+cover:
+  relative: true
+  image: digiLL-Tagung-Beginn.jpeg
+  hiddenInSingle: true
+summary: >-
+  Am 18. Juni 2026 präsentierte FOERBICO auf der Tagung „Open Education – Gemeinsam gestalten, teilen, lernen“ an der Professional School of Education der Ruhr-Universität Bochum die aktuellen Entwicklungen des Community-Hubs. Die Veranstaltung bot zudem die Gelegenheit, sich mit Akteur:innen der Open-Education-Community auszutauschen und neue Impulse für die weitere Projektarbeit zu gewinnen.
+url: tagung-open-education
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - FOERBICO in Kontakt
+  - Community
+---
+
+Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen]( https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden und gemeinsam mit dem Projekt [POET](https://www.oer-strategie.de/projects/poet-projektsteckbrief/) (OE_Struktur-Förderrichtlinie) und der Universität Duisburg-Essen durchgeführt, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.
 
 Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education im Mittelpunkt: das Gemeinsame. Diese Perspektive zog sich durch die vielfältigen Vorträge, Diskussionen und Workshops des Tages und eröffnete spannende Einblicke in die Herausforderungen und Chancen offener Bildungspraktiken. Die gesamten Beiträge sowie der Live-Stream werden demnächst auf der [digiLL-Communityplattform](https://community.digill.de/) veröffentlicht!
 
@@ -64,7 +114,9 @@ Gleichzeitig stehen nicht die Plattformen, sondern die Menschen im Mittelpunkt:
 •	Soziale Interaktionen wie Kommentieren, Teilen oder Liken fördern Austausch und Feedback.
 •	Kollaborative Werkzeuge unterstützen die gemeinsame Arbeit.
 
-So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische Lösungen und soziale Beziehungen zusammengedacht werden. 
+So entsteht schrittweise eine sozio-technische Infrastruktur, in der technische Lösungen und soziale Beziehungen zusammengedacht werden.
+Besonders gefreut hat uns, dass das im Schwesterprojekt [Co-WOERK](https://www.co-woerk.de/) entwickelte [Schichtenmodell](https://media.licdn.com/dms/image/v2/D4E22AQFlpi_du0tdbA/feedshare-shrink_1280/B4EZ9BJcvmIwAM-/0/1783504424325?e=1785369600&v=beta&t=K_32w6YUPKCfMqR2hTu_7vU2RjwW-e7OS4UAyC7NUa0) unseren praxisorientierten Ansatz um wichtige theoretische Perspektiven ergänzen konnte.
+
 Die gesamte Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/add-blogpost-digill-tagung/Website/content/de/posts/2026-06-19-digiLL-Tagung/Raus%20aus%20den%20Bubbles%20Vernetzung%20als%20Herausforderung%20und%20Chance%20f%C3%BCr%20offene%20Bildungspraktiken%20in%20Communities.pdf)!
 
 Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)! 
