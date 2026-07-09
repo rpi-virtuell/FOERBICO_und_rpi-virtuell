@@ -50,7 +50,7 @@ tags:
   - Community
 ---
 
-Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen]( https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden und gemeinsam mit dem Projekt [POET](https://www.oer-strategie.de/projects/poet-projektsteckbrief/) (OE_Struktur-Förderrichtlinie) und der Universität Duisburg-Essen durchgeführt, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.
+Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen](https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden und gemeinsam mit dem Projekt [POET](https://www.oer-strategie.de/projects/poet-projektsteckbrief/) (OE_Struktur-Förderrichtlinie) und der Universität Duisburg-Essen durchgeführt, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.
 
 Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education im Mittelpunkt: das Gemeinsame. Diese Perspektive zog sich durch die vielfältigen Vorträge, Diskussionen und Workshops des Tages und eröffnete spannende Einblicke in die Herausforderungen und Chancen offener Bildungspraktiken. Die gesamten Beiträge sowie der Live-Stream werden demnächst auf der [digiLL-Communityplattform](https://community.digill.de/) veröffentlicht!
 
@@ -65,7 +65,7 @@ Bei hochsommerlichen Temperaturen von nahezu 40 Grad erwiesen sich die Kellerrä
 Auch das FOERBICO-Projekt war vertreten und stellte im Rahmen des Vortrags „Raus aus den Bubbles – Vernetzung als Herausforderung und Chance für offene Bildungspraktiken in Communities“ erste Erkenntnisse und Entwicklungen vor.
 
 Ausgangspunkt war dabei eine scheinbar einfache Frage: Was brauchen OER-Communities eigentlich – und was wollen sie ausdrücklich nicht?
-Die begleitende Forschung der FAU Erlangen-Nürnberg hat gezeigt, dass viele Communities aktuell in voneinander getrennten „Bubbles“ agieren. Zahlreiche Plattformen und Netzwerke leisten wertvolle Arbeit, bleiben jedoch oft isoliert voneinander. Dadurch gehen Synergien verloren, Überschneidungen werden nicht sichtbar und Materialien erreichen häufig nur einen begrenzten Nutzendenkreis.
+Die Erhebung der FAU Erlangen-Nürnberg hat gezeigt, dass viele Communities aktuell in voneinander getrennten „Bubbles“ agieren. Zahlreiche Plattformen und Netzwerke leisten wertvolle Arbeit, bleiben jedoch oft isoliert voneinander. Dadurch gehen Synergien verloren, Überschneidungen werden nicht sichtbar und Materialien erreichen häufig nur einen begrenzten Nutzendenkreis.
 
 ### Keine neuen Plattformsilos, sondern Verbindungen
 
@@ -77,7 +77,7 @@ Stattdessen stehen andere Bedürfnisse im Vordergrund: kuratierte und vertrauens
 Ein weiteres zentrales Thema war der enorme Aufwand, der mit der Verbreitung offener Bildungsressourcen verbunden ist.
 Wer heute ein neues OER-Material veröffentlicht, muss es häufig auf mehreren Plattformen separat eintragen. Änderungen müssen anschließend ebenfalls an verschiedenen Stellen gepflegt werden. Dieser Mehraufwand betrifft nicht nur Materialien, sondern auch Veranstaltungen, Fortbildungen oder Newsbeiträge. In nahezu allen Interviews wurde derselbe Engpass genannt: fehlende Zeit.
 
-Die Erstellung von Materialien kostet Zeit. Die Verbreitung kostet zusätzliche Zeit. Und gerade in Projekten fehlen nach dem Förderzeitraum oft die personellen Ressourcen, um erfolgreiche Ansätze dauerhaft weiterzuführen. Oder wie es eine interviewte Person treffend formulierte:
+Die Erstellung von Materialien kostet Zeit. Die Verbreitung kostet zusätzliche Zeit. Für die Aktualisierung von Materialien bleibt keine Zeit. Und gerade in Projekten fehlen nach dem Förderzeitraum oft die personellen Ressourcen, um erfolgreiche Ansätze dauerhaft weiterzuführen. Oder wie es eine interviewte Person treffend formulierte:
 „Das ist doch schade um die Ergebnisse, die eigentlich da sind und die nutzbar gemacht werden könnten für alle.“
 
 ### Orientierung, Beratung und Qualität
@@ -88,7 +88,7 @@ Genannt wurden insbesondere: Wissensvermittlung rund um OER, Qualitätssicherung
 ### Kollaboration braucht passende Infrastruktur
 
 Eine weitere Erkenntnis aus den Interviews lautet: Kollaboration braucht geeignete Werkzeuge.
-Communities nutzen heute eine Vielzahl unterschiedlicher Tools für Kommunikation, Zusammenarbeit und Veröffentlichung. Gleichzeitig zeigt sich, dass keine einzelne Plattform alle Anforderungen erfüllen kann. Was für die einen gut funktioniert, passt nicht unbedingt zu den Arbeitsweisen anderer.
+Communities nutzen heute eine Vielzahl unterschiedlicher Tools für Kommunikation, Zusammenarbeit und Veröffentlichung. Vieler dieser Tools erlauben keine OER veröffentlichung. Gleichzeitig zeigt sich, dass keine einzelne Plattform alle Anforderungen erfüllen kann. Was für die einen gut funktioniert, passt nicht unbedingt zu den Arbeitsweisen anderer.
 
 Deshalb wurden im Vortrag Kriterien vorgestellt, die eine zukünftige Infrastruktur erfüllen sollte:
 
@@ -130,7 +130,7 @@ Weitere spannende Impulse kamen aus der Keynote von Celestine Kleinesper (Deutsc
 Besonders interessant war dabei die Frage, wie unterschiedliche Rollenperspektiven und Diversität in Geschichten und Bildungsangeboten berücksichtigt werden können. Außergewöhnlich für eine Keynote: In einem kleinen Hands-on-Teil entwickelten wir gemeinsam eine offene Geschichte. Anhand von Fragen wurden die Antworten nach Mehrheitsprinzip zum Teil der Geschichte, auf die mit Sicherheit niemand gekommen wäre: Wir waren ein zeitreisendes Gehirn im Jahr 1648 und hatten einen inneren Konflikt, daraufhin haben wir erstmal ein Eis gegessen - letzteres entsprach der Realitiät, danke an das digiLL-Team für die Abkühlung!
 
 Ein Nebensatz aus der Keynote blieb besonders hängen:
-„It's a feature and a bug.“
+**„It's a feature and a bug.“**
 
 Zwar bezog sich die Aussage ursprünglich auf einen anderen Kontext, doch sie beschreibt auch viele Herausforderungen offener Bildungspraktiken erstaunlich treffend: Offenheit schafft Möglichkeiten, bringt aber zugleich neue Komplexitäten mit sich.
 
