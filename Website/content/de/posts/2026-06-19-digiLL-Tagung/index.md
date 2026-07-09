@@ -88,7 +88,7 @@ Genannt wurden insbesondere: Wissensvermittlung rund um OER, Qualitätssicherung
 ### Kollaboration braucht passende Infrastruktur
 
 Eine weitere Erkenntnis aus den Interviews lautet: Kollaboration braucht geeignete Werkzeuge.
-Communities nutzen heute eine Vielzahl unterschiedlicher Tools für Kommunikation, Zusammenarbeit und Veröffentlichung. Vieler dieser Tools erlauben keine OER veröffentlichung. Gleichzeitig zeigt sich, dass keine einzelne Plattform alle Anforderungen erfüllen kann. Was für die einen gut funktioniert, passt nicht unbedingt zu den Arbeitsweisen anderer.
+Communities nutzen heute eine Vielzahl unterschiedlicher Tools für Kommunikation, Zusammenarbeit und Veröffentlichung. Viele dieser Tools erlauben keine OER-Veröffentlichung. Gleichzeitig zeigt sich, dass keine einzelne Plattform alle Anforderungen erfüllen kann. Was für die einen gut funktioniert, passt nicht unbedingt zu den Arbeitsweisen anderer.
 
 Deshalb wurden im Vortrag Kriterien vorgestellt, die eine zukünftige Infrastruktur erfüllen sollte:
 
