@@ -1,10 +1,9 @@
 ---
-#commonMetadata:
+# commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: >-
-  'Offen und doch schwer auffindbar? OER-Plattformen für religionspädagogische Bildungsmaterialien'
+name: 'Offen und doch schwer auffindbar? OER-Plattformen für religionspädagogische Bildungsmaterialien'
 description: >-
   Wie lassen sich Open Educational Resources finden? Dieser Beitrag erläutert die verschiedenen Plattformtypen der OER-Landschaft – von Suchmaschinen über Repositorien und Referatorien bis hin zu fachspezifischen, religionspädagogischen Angeboten. Dabei wird aufgezeigt, wie Plattformlogiken, Metadaten und Formen der Qualitätssicherung die Auffindbarkeit, Nutzung und Weiterentwicklung offener Bildungsmaterialien beeinflussen und warum interoperable Infrastrukturen für die Zukunft von OER immer wichtiger werden.
 license: https://creativecommons.org/licenses/by/4.0/deed.de
@@ -12,13 +11,12 @@ id: https://oer.community/offen-und-doch-schwer-auffindbar-oer-plattformen
 creator:
   - givenName: Laura
     familyName: Mößle
-    id: 
+    id: https://orcid.org/0000-0001-5255-8063
     type: Person
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
       id: https://ror.org/04cvxnb49
       type: Organization
-creator:
   - givenName: Paula
     familyName: Xue Paschke
     id: https://orcid.org/0009-0003-1857-2883
@@ -30,33 +28,46 @@ creator:
 inLanguage:
   - de
 about:
-  - https://w3id.org/kim/hochschulfaechersystematik/n02
-  - https://w3id.org/kim/hochschulfaechersystematik/n03
+  - https://w3id.org/kim/hochschulfaechersystematik/n053
+  - https://w3id.org/kim/hochschulfaechersystematik/n086
+  - https://w3id.org/kim/hochschulfaechersystematik/n052
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
+image: https://oer.community/offen-und-doch-schwer-auffindbar-oer-plattformen/humaaans-characters.png
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-07-21'
-#staticSiteGenerator:
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Metadaten
+  - interoperabel
+  - Vernetzung
+  - dezentral
+  - Qualitätskriterien
+
+# staticSiteGenerator
 author:
   - Laura Mößle
   - Paula Xue Paschke
 title: 'Offen und doch schwer auffindbar? OER-Plattformen für religionspädagogische Bildungsmaterialien'
 cover:
   relative: true
-  image: 
+  image: humaaans-characters.png
+  alt: 'Illustrierte Personengruppe, die auf unterschiedliche Bildschirme und Materialien blickt (Grafik: Humaaans von Pablo Stanley, CC0)'
   hiddenInSingle: false
-summary: |
-    Wie lassen sich Open Educational Resources finden? Dieser Beitrag erläutert die verschiedenen Plattformtypen der OER-Landschaft – von Suchmaschinen über Repositorien und Referatorien bis hin zu fachspezifischen, religionspädagogischen Angeboten. Dabei wird aufgezeigt, wie Plattformlogiken, Metadaten und Formen der Qualitätssicherung die Auffindbarkeit, Nutzung und Weiterentwicklung offener Bildungsmaterialien beeinflussen und warum interoperable Infrastrukturen für die Zukunft von OER immer wichtiger werden.
-url: offen-und-doch-wenig-sichtbar-oer-plattformen
+summary: >-
+  Wie lassen sich Open Educational Resources finden? Dieser Beitrag erläutert die verschiedenen Plattformtypen der OER-Landschaft – von Suchmaschinen über Repositorien und Referatorien bis hin zu fachspezifischen, religionspädagogischen Angeboten. Dabei wird aufgezeigt, wie Plattformlogiken, Metadaten und Formen der Qualitätssicherung die Auffindbarkeit, Nutzung und Weiterentwicklung offener Bildungsmaterialien beeinflussen und warum interoperable Infrastrukturen für die Zukunft von OER immer wichtiger werden.
+url: offen-und-doch-schwer-auffindbar-oer-plattformen
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
-  - Bildungsmedien
-  - Plattformen
-  - OER-Ökosystem
   - Metadaten
+  - interoperabel
+  - Vernetzung
+  - dezentral
+  - Qualitätskriterien
 ---
 
 Wo lassen sich OER überhaupt finden? Gerade für Religionslehrkräfte, Dozierende, Multiplikator:innen und weitere Praktiker:innen ist die Orientierung in der digitalen Materiallandschaft nicht immer einfach.
@@ -176,4 +187,9 @@ Anders als klassische Repositorien oder Referatorien stellt Edufeed keine weiter
 [Otto,  D./ Kerres, M. (2022).Increasing Sustainability in Open Learning: Prospects of a Distributed Learning Ecosystem for Open Educational Resources. Front. Educ. 7:866917, S. 1-11. doi: 10.3389/feduc.2022.866917](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.866917/full).
 
 [Richter, C., Allert, H. (2025): Plattformisierung und die Modellierung von Bildungsprozessen. In: Hofhues, S., Schütz, J.: Plattformen für Bildun, Bielefeld, S. 323–340. doi: 10.14361/9783839475164-022](https://www.transcript-open.de/doi/10.14361/9783839475164-022)
+
+
+## Bildnachweis
+
+Titelgrafik: [Humaaans](https://blush.design/api/download?shareUri=Ma0lX88Hi50OivYx&c=Bottom_0%7E2b44ff-0.1%7E2b44ff-0.2%7E393f82-0.3%7E342a83_Hair_0%7E4a312c-0.1%7E2c1b18-0.2%7Ee8e1e1-0.3%7Eb58143_Skin_0%7E57331f-0.1%7E57331f-0.2%7Ed4a181-0.3%7Ed4a181_Top_0%7Effa434-0.1%7Eff4133-0.2%7Effa434-0.3%7Ea8e5ba&bg=d2710f&w=800&h=800&fm=png) von Pablo Stanley, lizenziert unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de).
 
