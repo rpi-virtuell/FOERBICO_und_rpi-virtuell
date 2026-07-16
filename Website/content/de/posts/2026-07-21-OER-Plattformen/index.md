@@ -92,7 +92,7 @@ Grundsätzlich lassen sich OER-Plattformen in zwei zentrale Strukturformen unter
 
 ## 2. Allgemeine Suchplattformen: Hohe Reichweite, geringe Strukturierung
 
-Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche (Vgl. Buntins et al., 2024). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
+Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche [(Vgl. Buntins et al., 2024)] (https://www.medienpaed.com/article/view/1768). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
 
 Allerdings handelt es sich bei diesen Plattformen nicht um spezifische OER-Infrastrukturen. Ihre Logik ist nicht auf pädagogische und fachdidaktische Standards oder eine konsistente Lizenzausweisung ausgerichtet, sondern auf Reichweite und Sichtbarkeit. 
 
@@ -105,7 +105,7 @@ Auch für den religionspädagogischen Bereich lassen sich hier schnell einzelne 
 
 Referatorien und OER-Suchmaschinen bündeln frei zugängliche Materialien aus unterschiedlichen Quellen. Dabei reicht das Spektrum von reinen Suchinstrumenten bis hin zu kuratierten Plattformen mit Community-Elementen.
 
-[Openverse](https://openverse.org/de)ist eine Suchmaschine für frei lizenzierte Bilder und Audiodateien. Sie indexiert Werke mit Creative-Commons-Lizenzen und aus dem öffentlichen Domain und referenziert mit Verlinkungen zum Ursprungsort der Quelle. 
+[Openverse](https://openverse.org/de) ist eine Suchmaschine für frei lizenzierte Bilder und Audiodateien. Sie indexiert Werke mit Creative-Commons-Lizenzen und aus dem öffentlichen Domain und referenziert mit Verlinkungen zum Ursprungsort der Quelle. 
 Nutzer:innen können die Suche nach Materialtyp, Lizenz und Gebrauch filtern. Hier finden sich vielfältige OER-lizenzierte Materialien, die auch für den religionspädagogischen Kontext eingesetzt werden können.
 
 [WirLernenOnline](https://www.wirlernenonline.de/) ist ein OER-Referatorium, das die Funktionen einer Suchmaschine für freie Bildungsmaterialien mit einer Community-Plattform verbindet. Über strukturierte Themenseiten werden Materialien entlang von Bildungsbereichen, Fächern und Bildungsstufen übersichtlich erschlossen und recherchierbar gemacht. 
@@ -188,7 +188,7 @@ Anders als klassische Repositorien oder Referatorien stellt Edufeed keine weiter
 
 
 ## Literatur
-[Buntins, K., Daniel D., Klar, M., Rittberger, M., Kerres, M. (2024): Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland. MedienPädagogik (Occasional Papers), S. 1–33. doi: 10.21240/mpaed/00/2024.01.10.X.]
+[Buntins, K., Daniel D., Klar, M., Rittberger, M., Kerres, M. (2024): Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland. MedienPädagogik (Occasional Papers), S. 1–33. doi: 10.21240/mpaed/00/2024.01.10.X.] (https://www.medienpaed.com/article/view/1768)
 
 [Hofhues, S., Schütz, J. (2025): Plattformen für Bildung. Entwurf einer erziehungswissenschaftlichen Perspektive auf den Band. In: Diess. (Hg.): Plattformen für Bildung, Bielefeld, S. 11–22. doi:10.14361/9783839475164.](https://www.transcript-open.de/doi/10.14361/9783839475164-002)
 
