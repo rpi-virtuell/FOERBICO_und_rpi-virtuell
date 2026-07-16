@@ -92,7 +92,7 @@ Grundsätzlich lassen sich OER-Plattformen in zwei zentrale Strukturformen unter
 
 ## 2. Allgemeine Suchplattformen: Hohe Reichweite, geringe Strukturierung
 
-Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche. Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
+Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche (Vgl. Buntins et al., 2024). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
 
 Allerdings handelt es sich bei diesen Plattformen nicht um spezifische OER-Infrastrukturen. Ihre Logik ist nicht auf pädagogische und fachdidaktische Standards oder eine konsistente Lizenzausweisung ausgerichtet, sondern auf Reichweite und Sichtbarkeit. 
 
@@ -188,10 +188,11 @@ Anders als klassische Repositorien oder Referatorien stellt Edufeed keine weiter
 
 
 ## Literatur
+[Buntins, K., Daniel D., Klar, M., Rittberger, M., Kerres, M. (2024): Material teilen? Praktiken der Entwicklung und Nutzung digitaler Unterrichtsmaterialien von Lehrpersonen an Schulen in Deutschland. MedienPädagogik (Occasional Papers), S. 1–33. doi: 10.21240/mpaed/00/2024.01.10.X.]
 
 [Hofhues, S., Schütz, J. (2025): Plattformen für Bildung. Entwurf einer erziehungswissenschaftlichen Perspektive auf den Band. In: Diess. (Hg.): Plattformen für Bildung, Bielefeld, S. 11–22. doi:10.14361/9783839475164.](https://www.transcript-open.de/doi/10.14361/9783839475164-002)
 
-[Leineweber, C., Hofhues, S., Lucke, U., Schütz, J. (2025): Plattform für Bildung? chancen und Grenzen digitaler Technologien in pädagogischen Handlungsfeldern. In: Hofhues, S. & Schütz, J. (Hg.): Plattformen für Bildung, Bielefeld, 23–36, doi:10.14361/9783839475164.](https://www.transcript-open.de/doi/10.14361/9783839475164-003#read-container)
+[Leineweber, C., Hofhues, S., Lucke, U., Schütz, J. (2025): Plattform für Bildung? Chancen und Grenzen digitaler Technologien in pädagogischen Handlungsfeldern. In: Hofhues, S. & Schütz, J. (Hg.): Plattformen für Bildung, Bielefeld, 23–36, doi:10.14361/9783839475164.](https://www.transcript-open.de/doi/10.14361/9783839475164-003#read-container)
 
 [Otto,  D./ Kerres, M. (2022).Increasing Sustainability in Open Learning: Prospects of a Distributed Learning Ecosystem for Open Educational Resources. Front. Educ. 7:866917, S. 1-11. doi: 10.3389/feduc.2022.866917](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.866917/full).
 
