@@ -73,7 +73,7 @@ tags:
 
 ## 1. OER finden: Plattformtypen und ihre Logiken
 
-Wer nach Open Educational Resources sucht, findet schnell eine große Vielfalt unterschiedlicher Plattformen. Die Materialien verteilen sich auf Suchmaschinen, Repositorien und referenzierende Plattformen, die jeweils eigenen Funktionslogiken folgen. Sie unterscheiden sich nicht nur darin, wie Materialien veröffentlicht oder gefunden werden können, sondern auch darin, wie Inhalte erschlossen und qualitätsgesichert werden.
+Wer nach Open Educational Resources sucht, findet schnell eine große Vielfalt unterschiedlicher Plattformen. Die Materialien verteilen sich auf Suchmaschinen, Repositorien und referenzierende Plattformen, die jeweils eigenen Funktionslogiken folgen. Sie unterscheiden sich nicht nur darin, wie Materialien veröffentlicht oder gefunden werden können, sondern auch darin, wie Inhalte erschlossen, qualitätsgesichert und auffindbar werden.
 
 Plattformen sind dabei weit mehr als reine Ablageorte. Sie vermitteln zwischen den Materialanbietenden, und denen, die nach ihnen suchen. Über Kategorien, Metadaten, Suchmasken und Benutzeroberflächen prägen sie maßgeblich, welche Materialien sichtbar werden und wie Nutzer:innen auf diese zugreifen [(vgl. Leineweber/ Hofhues/ Lucke & Schütz 2015, S. 23–26)](https://www.transcript-open.de/doi/10.14361/9783839475164-003#read-container).
 
@@ -96,9 +96,7 @@ Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.goo
 
 Allerdings handelt es sich bei diesen Plattformen nicht um spezifische OER-Infrastrukturen. Ihre Logik ist nicht auf pädagogische und fachdidaktische Standards oder eine konsistente Lizenzausweisung ausgerichtet, sondern auf Reichweite und Sichtbarkeit. 
 
-Hier finden Nutzer:innen in der Regel nicht vollständig ausgearbeitete Unterrichtseinheiten, sondern einzelne Bausteine, zum Beispiel Videos, Bilder oder Arbeitsblätter. Diese können wertvolle Impulse liefern, müssen jedoch häufig didaktisch eingeordnet, ergänzt und in einen größeren Lehr-Lern-Zusammenhang eingebettet werden.
-
-Auch für den religionspädagogischen Bereich lassen sich hier schnell einzelne geeignete Materialien finden, die jedoch selbstständig in größere Lehr-Lernzusammenhänge eingeordnet werden müssen. 
+Hier finden Nutzer:innen in der Regel nicht vollständig ausgearbeitete Unterrichtseinheiten, sondern einzelne Bausteine, zum Beispiel Videos, Bilder oder Arbeitsblätter, auch für die religionspädagogische Anwendung. Diese können wertvolle Impulse liefern, müssen jedoch in der Regel didaktisch eingeordnet, ergänzt und in den intendierten Lehr-Lern-Zusammenhang eingebettet werden.
 
 
 ## 3. Referatorien & OER-Suchmaschinen: Materialien vernetzen und auffindbar machen
@@ -121,7 +119,7 @@ Auch eine recht umfängliche Anzahl religionspädagogische Bildungsmedien sind �
 
 Der Open Educational Resources Search Index [OERSI](https://oersi.org/resources/) ist eine Suchmaschine für offene Bildungsmaterialien im Hochschulbereich und wird seit 2020 gemeinsam vom Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen und der Technischen Informationsbibliothek betrieben. 
 Als Referatorium bündelt die Plattform nationale und internationale OER aus unterschiedlichen Repositorien und macht sie über standardisierte Metadaten zentral recherchierbar. [OERSI](https://oersi.org/resources/) übernimmt damit eine elementare Vernetzungsfunktion innerhalb der deutschsprachigen OER-Infrastruktur.
-Für Lehrinhalte im Fach Theologie bzw. Religionspädagogik ist die Auswahl jedoch noch überschaubar. Hier steht aktuell eine kleine, aber wachsende Auswahl zur Verfügung, wohingegen verwandte Fächer wie Philosophie deutlich stärker vertreten sind. Eine redaktionelle Prüfung der Inhalte erfolgt nicht, für die inhaltliche und didaktische Qualität sind die Herkunftsportale bzw. die jeweiligen Autor:innen verantwortlich.
+Für Lehrinhalte im Fach Theologie bzw. Religionspädagogik ist die Auswahl noch überschaubar. Hier steht aktuell eine kleine, aber wachsende Auswahl zur Verfügung, wohingegen verwandte Fächer wie Philosophie deutlich stärker vertreten sind. Eine redaktionelle Prüfung der Inhalte erfolgt nicht, für die inhaltliche und didaktische Qualität sind die Herkunftsportale bzw. die jeweiligen Autor:innen verantwortlich.
 
 
 ## 4. Repositorien & OER-Plattformen: Bereitstellung und Referenzierbarkeit
@@ -130,7 +128,7 @@ Repositorien sind digitale Materialsammlungen, in denen Bildungsressourcen dauer
 Durch technische und inhaltliche Erschließung werden Lehr- und Lernmaterialien langfristig auffindbar und rechtssicher nutzbar. 
 Repositorien dienen nicht nur als Ablageort für Ressourcen, sondern bilden auch eine zentrale Infrastruktur für die nachhaltige Verfügbarkeit, Bearbeitung und Weiterentwicklung von OER.
 
-Das nierdersächsische OER-Portal [twillo](https://www.twillo.de/) richtet sich insbesondere an Personen an Hochschulen, die offene Bildungsmaterialien erstellen, veröffentlichen oder recherchieren möchten.
+Das niedersächsische OER-Portal [twillo](https://www.twillo.de/) richtet sich insbesondere an Personen an Hochschulen, die offene Bildungsmaterialien erstellen, veröffentlichen oder recherchieren möchten.
 Die Plattform stellt nicht nur OER bereit, sondern unterstützt auch bei deren Entwicklung, beispielsweise durch Informationen zu offenen Lizenzen oder urheberrechtlichen Fragen. Darüber hinaus bietet das Portal praktische Hilfestellungen zur Erstellung und Veröffentlichung offener Bildungsmaterialien.
 [twillo](https://www.twillo.de/) verbindet dabei die Funktionen eines Repositoriums und eines Referatoriums: Materialien können sowohl direkt auf der Plattform veröffentlicht als auch als externe Verlinkungen eingebunden werden. Auch für die theologische Hochschullehre stehen Materialien zur Verfügung, wenn auch bislang nur in begrenztem Umfang.
 
@@ -156,7 +154,7 @@ Für das Fach Religion ist die Auswahl derzeit begrenzt, da sich das Angebot auf
 
 ## 5. Fachspezifische Plattformen für religionspädagogische Materialien 
 
-Neben fachübergreifenden Infrastrukturen gibt Plattformen, die sich gezielt auf die Bereitstellung von OER innerhalb eines bestimmten Faches spezialisieren, so natürlich auch für das Fach Religion bzw. für außerschulische religiöse Bildung. 
+Neben fachübergreifenden Infrastrukturen bestehen Plattformen, die sich gezielt auf die Bereitstellung von OER innerhalb eines bestimmten Faches spezialisieren, so auch für das Fach Religion bzw. für außerschulische religiöse Bildung. 
 
 Im deutschsprachigen Raum nimmt das am Comenius-Institut Münster angesiedelte [rpi-virtuell](https://rpi-virtuell.de/) eine zentrale Rolle bei der Bereitstellung religionspädagogischer Bildungsmaterialien ein. Der dortige Materialpool ist eine referatorische Suchmaschine für Unterrichtsmaterialien, Praxisimpulse, Fachinformationen und Materialien für Kita, Schule, Gemeinde und Hochschule. Die Materialien können nach Schulformen, Themen, Autor:innen und Kontext gefiltert werden. 
 [rpi-virtuell](https://rpi-virtuell.de/) richtet sich insbesondere an pädagogische Fachkräfte, Lehrkräfte, Multiplikator:innen, kirchliche Bildungsakteur:innen und Hochschuldozierende. Ein Teil der Materialien ist offen lizenziert und damit als OER nachnutzbar. Materialhinweise können zur Veröffentlichung bei [rpi-virtuell](https://rpi-virtuell.de/) eingereicht werden. Die Beiträge werden redaktionell gesichtet und verschlagwortet. Eine fachliche und curriculare Prüfung ist weiterhin in der Verantwortung der Nutzenden.
@@ -165,26 +163,26 @@ Auch [rpi-loccum](https://www.rpi-loccum.de/material) stellt über einen eigenen
 
 Aktuell befindet sich die ehemalige Materialseite von [rpp-katholisch](https://www.rpp-katholisch.de/) im Aufbau zur neuen Projektseite [EDUKATH.DE](https://www.rpp-katholisch.de/), die zeitnah online gehen soll. Die Plattform stellt Materialien für die Gestaltung des Religionsunterrichts und die religiöse Bildungsarbeit zur Verfügung. Ein Teil der Materialien soll auch als OER bereitstehen. [EDUKATH.DE](https://www.rpp-katholisch.de/) zielt darüber hinaus auch darauf, Religionspädagog:innen untereinander und mit den religionspädagogischen und katechetischen Einrichtungen in den Diözesen zu vernetzen.
 
+Die Liste ist nicht abgeschlossen. Verschiedene Materialpools und -guides von Landeskirchen und Diözesen sind dem OER-Gedanken wenig verpflichtet und werden hier nicht aufgezählt, ebenso kommerzielle Plattformen.
 
-## 6. Fazit: Es braucht stärkere Vernetzung bestehender Infrastrukturen
 
-Die Übersicht über unterschiedliche OER-Plattformen macht deutlich, dass sich ein vielfältiges Spektrum an Plattformtypen unterscheiden lässt, über die offene Bildungsmaterialien recherchiert und verbreitet werden können. Diese Plattformen verfolgen jeweils unterschiedliche Zielsetzungen und Formen der Qualitätssicherung. 
-Für eine reflektierte Nutzung im religionspädagogischen Kontext ist es daher unerlässlich, die verschiedenen Plattformen und ihre Logiken zu kennen, um ihre Potenziale ebenso wie ihre Grenzen mitzudenken.
+## 6. Fazit: Eine stärkere Vernetzung bestehender Infrastrukturen ist ein wichtiger nächster Schritt
 
-Die nähere Betrachtuung legt ein Strukturproblem der OER-Landschaft offen: Weniger der Mangel an Materialien stellt derzeit die größte Herausforderung dar, als vielmehr  – insbesondere im religionspädagogischen Bereich – ihre fehlende Auffindbarkeit. Das Angebot an offenen Bildungsmaterialien ist in den vergangenen Jahren deutlich gewachsen, dennoch ist die Landschaft noch stark fragmentiert und vielen Lehrenden sowie Praktiker:innen sind die Vielzahl an OER-Plattformen noch immer unbekannt. 
+Die Übersicht der OER-Plattformen macht deutlich, dass sich verschiedene Plattformtypen unterscheiden lassen, über die offene Bildungsmaterialien recherchiert und verbreitet werden können. Diese Plattformen verfolgen jeweils unterschiedliche Zielsetzungen und Formen der Qualitätssicherung. Für eine reflektierte Nutzung im pädagogischen Kontext ist es daher unerlässlich, die verschiedenen Plattformen und ihre Logiken zu kennen, um ihre Potenziale ebenso wie ihre Grenzen mitzudenken.
+
+Die nähere Betrachtuung legt zugleich ein Strukturproblem der OER-Landschaft offen: Weniger der Mangel an Materialien stellt derzeit die größte Herausforderung dar, als vielmehr ihre schwierige Auffindbarkeit. Das Angebot an offenen Bildungsmaterialien ist in den vergangenen Jahren deutlich gewachsen, dennoch erscheint die Landschaft fragmentiert und vielen Lehrenden sowie Praktiker:innen sind die OER-Plattformen noch immer unbekannt. 
 
 Repositorien entstehen häufig dezentral an Hochschulen, in Bundesländern oder in projektförmigen Kontexten. Sie nutzen unterschiedliche Metadatenstandards und sind technisch nur bedingt interoperabel. Dadurch verbleiben viele offen lizenzierte Materialien in isolierten Silos und sind außerhalb ihres jeweiligen Ursprungsökosystems nur schwer auffindbar [(vgl. Otto/Kerres 2022)](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.866917/full).
 
-Offenheit im lizenzrechtlichen Sinne garantiert daher noch keine strukturelle Offenheit im digitalen Raum. Plattformen sind keine neutralen Behälter für Bildungsmedien. Ihre technischen Strukturen und Benutzeroberflächen prägen mit, welche Materialien ausgespielt und sichtbar werden, wie sie kategorisiert sind und welche Formen der Nutzung nahegelegt werden [(vgl. Hofhues/Schütz 2025, S. 11–14)](https://www.transcript-open.de/doi/10.14361/9783839475164-002).
+Offenheit im lizenzrechtlichen Sinne garantiert noch keine strukturelle Offenheit im digitalen Raum. Plattformen sind keine neutralen Behälter für Bildungsmedien. Ihre technischen Strukturen und Benutzeroberflächen prägen mit, welche Materialien ausgespielt, auffindbar und sichtbar werden, wie sie kategorisiert sind und welche Formen der Nutzung nahegelegt werden [(vgl. Hofhues/Schütz 2025, S. 11–14)](https://www.transcript-open.de/doi/10.14361/9783839475164-002).
 
 Fehlende Schnittstellen oder uneinheitliche Metadaten können als Schließmechanismen wirken und die Reichweite der Materialien stark begrenzen, selbst dann, wenn diese formal frei zugänglich sind.
-Für religionspädagogische Bildungsmaterialien zeigt sich darüber hinaus eine besonders heterogene Plattformlandschaft. Zwischen Repositorien und Referatorien, schulischen Mediatheken, inhaltlich spezialisierten Materialpool und hochschulbezogenen Suchmaschinen existieren unterschiedliche Metadatenformulare und Formen der Qualitätssicherung. 
-Für Nutzer:innen bedeutet dies, dass die Auswahl geeigneter OER weiterhin eine deutlich reflektierte Urteilskraft erfordert. Orientierung können hierbei die im FOERBICO-Projekt entwickelten [Qualitätskriterien](https://oer.community/qualitaetskriterien-checkliste/) bieten.
+Für religionspädagogische Bildungsmaterialien zeigt sich darüber hinaus eine besonders heterogene Plattformlandschaft. Zwischen Repositorien und Referatorien, landeskirchlichen und diözesanen Mediatheken, inhaltlich spezialisierten Materialpools und hochschulbezogenen Suchmaschinen existieren unterschiedliche Metadatenformulare und Formen der Qualitätssicherung. 
+Für Nutzer:innen bedeutet dies, dass die Auswahl geeigneter OER weiterhin eine reflektierte Urteilskraft und didaktischen Einordnung für den jeweiligen Bildungszusammenhang erfordert. Orientierung können hierbei die im FOERBICO-Projekt entwickelten [Qualitätskriterien](https://oer.community/qualitaetskriterien-checkliste/) bieten.
 
-Aktuelle Entwicklungen machen deutlich, dass es nicht noch weitere Plattformen bedarf, sondern dass die Weiterentwicklung der OER-Landschaft künftig in der stärkeren Vernetzung bestehender Infrastrukturen liegt.
-Gemeinsame Metadatenstandards und interoperable Schnittstellen könnten dazu beitragen, die Sichtbarkeit, Nachnutzbarkeit und langfristige Verfügbarkeit offener Bildungsmaterialien deutlich zu verbessern. 
-Einen solchen Ansatz verfolgt beispielsweise [Edufeed](https://news.rpi-virtuell.de/2025/10/01/edufeed-dezentral-offen-interoperabel/), eine am Comenius-Institut Münter entwickelte Infrastruktur auf Basis des offenen Nostr-Protokolls, die sich aktuell noch in der Pilotphase befindet.
-Anders als klassische Repositorien oder Referatorien stellt Edufeed keine weitere Materialplattform bereit, sondern zielt darauf, bestehende OER-Angebote plattformübergreifend miteinander zu vernetzen. Qualität soll hier durch die kollaborative Weiterentwicklung und die Vernetzung bestehender Qualitätsstrukturen unterstützt werden. Edufeed verdeutlicht wie interoperable Infrastrukturen dazu beitragen können, das Potenzial offener Bildungsressourcen – auch für die religionspädagogische Praxis – nachhaltiger auszuschöpfen.
+Aktuelle Entwicklungen zeigen, dass es nicht noch weiterer Plattformen bedarf, sondern dass die Weiterentwicklung der OER-Landschaft künftig in der stärkeren Vernetzung bestehender Infrastrukturen liegt. Gemeinsame Metadatenstandards und interoperable Schnittstellen könnten dazu beitragen, die Sichtbarkeit, Nachnutzbarkeit und langfristige Verfügbarkeit offener Bildungsmaterialien deutlich zu verbessern. 
+Einen solchen Ansatz verfolgt [Edufeed](https://news.rpi-virtuell.de/2025/10/01/edufeed-dezentral-offen-interoperabel/), eine am Comenius-Institut Münter entwickelte Infrastruktur auf Basis des offenen Nostr-Protokolls, die sich aktuell in der Pilotphase befindet.
+Anders als klassische Repositorien oder Referatorien stellt Edufeed keine weitere Materialplattform bereit, sondern zielt darauf, bestehende OER-Angebote plattformübergreifend miteinander zu vernetzen. Qualität soll hier durch die kollaborative Weiterentwicklung und die Vernetzung bestehender Qualitätsstrukturen unterstützt werden. Edufeed verdeutlicht, wie interoperable Infrastrukturen dazu beitragen können, das Potenzial offener Bildungsressourcen – auch für die religionspädagogische Praxis – nachhaltiger auszuschöpfen.
 
 
 ## Literatur
