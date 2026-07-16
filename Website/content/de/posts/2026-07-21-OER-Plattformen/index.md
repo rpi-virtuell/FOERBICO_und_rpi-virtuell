@@ -92,7 +92,7 @@ Grundsätzlich lassen sich OER-Plattformen in zwei zentrale Strukturformen unter
 
 ## 2. Allgemeine Suchplattformen: Hohe Reichweite, geringe Strukturierung
 
-Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche [(vgl. Buntins et al., 2024)](https://www.medienpaed.com/article/view/1768). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
+Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche [(vgl. Buntins et al. 2024)](https://www.medienpaed.com/article/view/1768). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
 
 Allerdings handelt es sich bei diesen Plattformen nicht um spezifische OER-Infrastrukturen. Ihre Logik ist nicht auf pädagogische und fachdidaktische Standards oder eine konsistente Lizenzausweisung ausgerichtet, sondern auf Reichweite und Sichtbarkeit. 
 
@@ -114,7 +114,7 @@ Die Qualitätssicherung folgt einem mehrstufigen redaktionellen Prüfprozess. Zu
 In einem zweiten Schritt bewerten Fachredaktionen die fachliche und didaktische Qualität und zeichnen besonders geeignete Materialien mit Siegeln aus.
 Auch für den Religionsunterricht und die außerschulische Bildungsarbeit bietet [WirLernenOnline](https://www.wirlernenonline.de/) eine enorme Vielzahl fachlich kuratierter Materialien, die gezielt nach offen lizenzierten Bildungsressourcen gefiltert werden können. Dadurch eignet sich die Plattform besonders für Lehrende, die bereits qualitätsgesicherte OER recherchieren möchten.
 
-Die Suchmaschine [ELIXIER](https://www.bildungsserver.de/elixier/)ist eine metadatengestützte Infrastruktur für Bildungsmedien und bündelt die Angebote der Landesbildungsserver, des Deutschen Bildungsservers sowie weiterer Partner in einer zentralen Suchoberfläche. Die Materialien werden dabei nicht auf der Plattform selbst gespeichert, sondern im Sinne eines Referatoriums über ihre jeweiligen Originalquellen nachgewiesen und verlinkt.  
+Die Suchmaschine [ELIXIER](https://www.bildungsserver.de/elixier/) ist eine metadatengestützte Infrastruktur für Bildungsmedien und bündelt die Angebote der Landesbildungsserver, des Deutschen Bildungsservers sowie weiterer Partner in einer zentralen Suchoberfläche. Die Materialien werden dabei nicht auf der Plattform selbst gespeichert, sondern im Sinne eines Referatoriums über ihre jeweiligen Originalquellen nachgewiesen und verlinkt.  
 Die Recherche kann nach Fach, Bildungsstufe, Medientyp oder Lizenz gefiltert werden. 
 Die im Ressourcenpool nachgewiesenen Materialien vom Elementarbereich bis zur beruflichen Bildung beruhen auf redaktionellen Prüfprozessen der beteiligten Bildungsserver und Partner. Diese institutionelle Qualitätssicherung ersetzt jedoch nicht die notwendige fachliche, fachdidaktische und curriculare Beurteilung der Materialien.
 Auch eine recht umfängliche Anzahl religionspädagogische Bildungsmedien sind über ELIXIER zugänglich.
@@ -137,7 +137,7 @@ Die Plattform stellt nicht nur OER bereit, sondern unterstützt auch bei deren E
 [ORCA.nrw](https://www.orca.nrw/) ist das Landesportal für Studium und Lehre in NRW und bietet ein Repositorium mit Uploadformular, über das Nutzende eigene OER einstellen können. [ORCA.nrw](https://www.orca.nrw/)ist ein Repositorium und Portal, das über den integrierten OERSI‑Suchindex referatorisch auf weitere Repositorien verweist. 
 Alle eingestellten Materialien durchlaufen vor der Veröffentlichung einen Qualitätssicherungsprozess, in dem insbesondere die Lizenzierung, die technischen Standards und die Barrierefreiheit geprüft werden. Darüber hinaus sind Zuständigkeiten für das Qualitätsmanagement und die Pflege der Inhalte eingerichtet, sodass eine Überprüfung gewährleistet ist.
 Weiteres Beratungs- und Serviceangebote zu rechtlichen Fragen oder zur Qualitätssicherung und OER-Produktion werden auf dem Portal ebenfalls angeboten. 
-Aktuell sind noch wenige Materialien für den religionsbezogenen Bereich bei [ORCA.nrw]https://www.orca.nrw/) zu finden. 
+Aktuell sind noch wenige Materialien für den religionsbezogenen Bereich bei [ORCA.nrw](https://www.orca.nrw/) zu finden. 
 
 Das [ZOERR](https://www.oerbw.de/) ist ein an der Universitätsbibliothek Tübingen sowie weiteren Partnerhochschulen angesiedeltes Repositorium für OER in Baden-Württemberg. Es ermöglicht Nutzenden, Materialien für die Hochschullehre zur Nachnutzung und Weiterentwicklung bereitzustellen.
 Über die Plattform können die eingestellten Materialien versioniert und in Kooperation bearbeitet werden. Vor Veröffentlichung der Materialien, werden sie redaktionell auf technische und rechtliche Eignung geprüft. 
