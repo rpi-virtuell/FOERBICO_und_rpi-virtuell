@@ -92,7 +92,7 @@ Grundsätzlich lassen sich OER-Plattformen in zwei zentrale Strukturformen unter
 
 ## 2. Allgemeine Suchplattformen: Hohe Reichweite, geringe Strukturierung
 
-Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche [(Vgl. Buntins et al., 2024)](https://www.medienpaed.com/article/view/1768). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
+Plattformen wie [YouTube](https://www.youtube.com/) und [Google](https://www.google.com/) sind für viele Lehrende der erste Anlaufpunkt bei der Materialsuche [(vgl. Buntins et al., 2024)](https://www.medienpaed.com/article/view/1768). Sie bieten eine große Vielfalt an Bildungsinhalten und ermöglichen über Creative-Commons-Filter auch die gezielte Suche nach offen lizenzierten Materialien.
 
 Allerdings handelt es sich bei diesen Plattformen nicht um spezifische OER-Infrastrukturen. Ihre Logik ist nicht auf pädagogische und fachdidaktische Standards oder eine konsistente Lizenzausweisung ausgerichtet, sondern auf Reichweite und Sichtbarkeit. 
 
