@@ -81,7 +81,7 @@ Standardisierte Metadaten bilden hierfür eine zentrale Voraussetzung: Sie ermö
 
 Auch die [Qualitätssicherung](https://oer.community/qualitaetskriterien-checkliste/) unterscheidet sich zwischen den Plattformen. 
 Während einige Materialien vor der Veröffentlichung redaktionell prüfen, setzen andere auf Bewertungen und Kuratierung durch ihre Nutzer:innen.
-Wer OER veröffentlichen oder gezielt recherchieren möchte, sollte diese unterschiedlichen Plattformtypen und ihre jeweiligen Funktionsweisen kennen, um ihre Potenziale und Grenzen angemessen einschätzen zu können.
+Wer OER veröffentlichen oder gezielt recherchieren möchte, sollte diese unterschiedlichen Plattformtypen und ihre jeweiligen Funktionsweisen kennen, um ihre Potenziale und Grenzen angemessen einschätzen zu können. <!--hier finde ich ist beim Lesen ein Bruch, weil es so abrupt in die Unterscheidung übergeht. -->
 
 Grundsätzlich lassen sich OER-Plattformen in zwei zentrale Strukturformen unterscheiden:
 
@@ -174,7 +174,7 @@ Die nähere Betrachtuung legt zugleich ein Strukturproblem der OER-Landschaft of
 
 Repositorien entstehen häufig dezentral an Hochschulen, in Bundesländern oder in projektförmigen Kontexten. Sie nutzen unterschiedliche Metadatenstandards und sind technisch nur bedingt interoperabel. Dadurch verbleiben viele offen lizenzierte Materialien in isolierten Silos und sind außerhalb ihres jeweiligen Ursprungsökosystems nur schwer auffindbar [(vgl. Otto/Kerres 2022)](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.866917/full).
 
-Offenheit im lizenzrechtlichen Sinne garantiert noch keine strukturelle Offenheit im digitalen Raum. Plattformen sind keine neutralen Behälter für Bildungsmedien. Ihre technischen Strukturen und Benutzeroberflächen prägen mit, welche Materialien ausgespielt, auffindbar und sichtbar werden, wie sie kategorisiert sind und welche Formen der Nutzung nahegelegt werden [(vgl. Hofhues/Schütz 2025, S. 11–14)](https://www.transcript-open.de/doi/10.14361/9783839475164-002).
+Offenheit im lizenzrechtlichen Sinne garantiert noch keine strukturelle Offenheit im digitalen Raum. Plattformen sind keine neutralen Behälter für Bildungsmedien. Ihre technischen Strukturen und Benutzeroberflächen prägen mit, welche Materialien ausgespielt, auffindbar und sichtbar werden, wie sie kategorisiert sind und welche Formen der Nutzung nahegelegt werden [(vgl. Hofhues/Schütz 2025, S. 11–14)](https://www.transcript-open.de/doi/10.14361/9783839475164-002). <!-- Diesen Absatz vielleich an den Anfang stellen, weil er gut das Problem beschreibt, um das es ja geht -->
 
 Fehlende Schnittstellen oder uneinheitliche Metadaten können als Schließmechanismen wirken und die Reichweite der Materialien stark begrenzen, selbst dann, wenn diese formal frei zugänglich sind.
 Für religionspädagogische Bildungsmaterialien zeigt sich darüber hinaus eine besonders heterogene Plattformlandschaft. Zwischen Repositorien und Referatorien, landeskirchlichen und diözesanen Mediatheken, inhaltlich spezialisierten Materialpools und hochschulbezogenen Suchmaschinen existieren unterschiedliche Metadatenformulare und Formen der Qualitätssicherung. 
