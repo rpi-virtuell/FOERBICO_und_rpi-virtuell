@@ -34,7 +34,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/offen-und-doch-schwer-auffindbar-oer-plattformen/humaaans-characters.png
+image: https://oer.community/offen-und-doch-schwer-auffindbar-oer-plattformen/mohammed-zayan-khan-ack4TTlozAw-unsplash.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-07-21'
@@ -54,8 +54,9 @@ author:
 title: 'Offen und leicht zu finden? OER-Plattformen für religionspädagogische Bildungsmaterialien'
 cover:
   relative: true
-  image: humaaans-characters.png
-  alt: 'Illustrierte Personengruppe, die auf unterschiedliche Bildschirme und Materialien blickt (Grafik: Humaaans von Pablo Stanley, CC0)'
+  image: mohammed-zayan-khan-ack4TTlozAw-unsplash.jpg
+  alt: 'Hängende Lupe, Foto von [Mohammed Zayan Khan](https://unsplash.com/de/@a_zayan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText auf [Unsplash](https://unsplash.com/de/fotos/ein-rot-schwarzer-schlusselanhanger-ack4TTlozAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+      '
   hiddenInSingle: false
 summary: >-
   Wie lassen sich Open Educational Resources finden? Dieser Beitrag erläutert die verschiedenen Plattformtypen der OER-Landschaft: von Suchmaschinen über Repositorien und Referatorien bis hin zu fachspezifischen, religionspädagogischen Angeboten. Es wird aufgezeigt, wie Plattformlogiken, Metadaten und Formen der Qualitätssicherung die Auffindbarkeit, Nutzung und Weiterentwicklung offener Bildungsmaterialien beeinflussen und warum interoperable Infrastrukturen für die Zukunft von OER immer wichtiger werden.
@@ -203,5 +204,6 @@ Edufeed zeigt exemplarisch, wie interoperable Infrastrukturen die Vernetzung, Au
 
 ## Bildnachweis
 
-Titelgrafik: [Humaaans](https://blush.design/api/download?shareUri=Ma0lX88Hi50OivYx&c=Bottom_0%7E2b44ff-0.1%7E2b44ff-0.2%7E393f82-0.3%7E342a83_Hair_0%7E4a312c-0.1%7E2c1b18-0.2%7Ee8e1e1-0.3%7Eb58143_Skin_0%7E57331f-0.1%7E57331f-0.2%7Ed4a181-0.3%7Ed4a181_Top_0%7Effa434-0.1%7Eff4133-0.2%7Effa434-0.3%7Ea8e5ba&bg=d2710f&w=800&h=800&fm=png) von Pablo Stanley, lizenziert unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de).
+Titelgrafik: Foto von [Mohammed Zayan Khan](https://unsplash.com/de/@a_zayan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) auf [Unsplash](https://unsplash.com/de/fotos/ein-rot-schwarzer-schlusselanhanger-ack4TTlozAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash Lizenz)
 
+      
