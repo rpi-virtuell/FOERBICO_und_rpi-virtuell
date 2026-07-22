@@ -59,7 +59,7 @@ cover:
   hiddenInSingle: false
 summary: >-
   Wie lassen sich Open Educational Resources finden? Dieser Beitrag erläutert die verschiedenen Plattformtypen der OER-Landschaft: von Suchmaschinen über Repositorien und Referatorien bis hin zu fachspezifischen, religionspädagogischen Angeboten. Es wird aufgezeigt, wie Plattformlogiken, Metadaten und Formen der Qualitätssicherung die Auffindbarkeit, Nutzung und Weiterentwicklung offener Bildungsmaterialien beeinflussen und warum interoperable Infrastrukturen für die Zukunft von OER immer wichtiger werden.
-url: offen-und-doch-schwer-auffindbar-oer-plattformen
+url: offen-und-leicht-zu-finden-oer-plattformen
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
