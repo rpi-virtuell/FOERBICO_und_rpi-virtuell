@@ -184,7 +184,7 @@ Für Nutzer:innen bedeutet dies, dass die Auswahl geeigneter OER weiterhin eine 
 
 Aktuelle Entwicklungen zeigen, dass es nicht noch weiterer Plattformen bedarf, sondern dass die Weiterentwicklung der OER-Landschaft künftig in der stärkeren Vernetzung bestehender Infrastrukturen liegt. 
 Gemeinsame Metadatenstandards und interoperable Schnittstellen könnten dazu beitragen, die Sichtbarkeit, Nachnutzbarkeit und langfristige Verfügbarkeit offener Bildungsmaterialien deutlich zu verbessern. 
-Einen solchen Ansatz verfolgt [Edufeed](https://news.rpi-virtuell.de/2025/10/01/edufeed-dezentral-offen-interoperabel/), eine am Comenius-Institut Münter entwickelte Infrastruktur auf Basis des offenen Nostr-Protokolls, die sich aktuell in der Pilotphase befindet.
+Einen solchen Ansatz verfolgt Edufeed, eine am Comenius-Institut Münter entwickelte Infrastruktur auf Basis des offenen Nostr-Protokolls, die sich aktuell in der Pilotphase befindet.
 Anders als klassische Repositorien oder Referatorien stellt Edufeed keine weitere Materialplattform bereit, sondern zielt darauf, bestehende OER-Angebote plattformübergreifend miteinander zu vernetzen. 
 Qualität soll hier durch die kollaborative Weiterentwicklung und die Vernetzung bestehender Qualitätsstrukturen unterstützt werden. 
 Edufeed zeigt exemplarisch, wie interoperable Infrastrukturen die Vernetzung, Auffindbarkeit und Weiterentwicklung offener Bildungsressourcen stärken und damit auch die religionspädagogische Praxis unterstützen können.
