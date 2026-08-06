@@ -75,18 +75,18 @@ tags:
 
 ## 1. Was sind Metadaten überhaupt?
 
-„Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten beschreiben digitale Objekte und bilden die Voraussetzung für deren Identifikation, Auffindbarkeit und Nachnutzung. Vorschlag: Metadaten sind wie ein Personalausweis für digitale Objekte und ermöglichen ihre Identifikation, Auffindbarkeit und Nachnutzung. 
+„Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten beschreiben digitale Objekte und bilden die Voraussetzung für deren Identifikation, Auffindbarkeit und Nachnutzung. Vorschlag: Metadaten sind wie ein Personalausweis für digitale Objekte und ermöglichen ihre Identifikation, Auffindbarkeit und Nachnutzung. <!-- den Vorschlag finde ich gut. (FM) -->
 
 Nach Riley (2017) können mindestens drei Metadatentypen voneinander unterschieden werden:
-**deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
-**strukturelle** Metadaten, die den inneren Aufbau und die Beziehungen zwischen digitalen Objekten abbilden, sowie 
-**administrative** Metadaten, die rechtliche, technische und provenienzbezogene Informationen, wie z.B. die Lizenz des Materials festhalten.
+- **deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
+- **strukturelle** Metadaten, die den inneren Aufbau und die Beziehungen zwischen digitalen Objekten abbilden, sowie 
+- **administrative** Metadaten, die rechtliche, technische und provenienzbezogene Informationen, wie z.B. die Lizenz des Materials, festhalten.
 
-Mit Blick auf Open Educational Resources heißt das, dass deskriptive Metadaten wie Titel und Fach beschreiben *was** das Material ist, die strukturellen Metadaten klären, *wie das Material aufgebaut ist* und *in welchem Verbund es steht* – etwa ob es aus mehreren Dateien besteht oder Teil einer größeren Unterrichtsreihe ist –, und die administrativen Metadaten regeln *wie das Material genutzt werden darf* und *in welchem Format* es vorliegt, durch Lizenzangabe und Dateiformat. 
+Mit Blick auf Open Educational Resources heißt das, dass deskriptive Metadaten wie Titel und Fach beschreiben *was* das Material ist, die strukturellen Metadaten klären, *wie das Material aufgebaut ist* und *in welchem Verbund es steht* – etwa ob es aus mehreren Dateien besteht oder Teil einer größeren Unterrichtsreihe ist –, und die administrativen Metadaten regeln *wie das Material genutzt werden darf* und *in welchem Format* es vorliegt – durch Lizenzangabe und Dateiformat. So gesehen wirken Metadaten zunächst wie neutrale Angaben, ähnlich einer universalen Sprache, die von allen verstanden wird.
 
-Metadaten wirken zunächst wie neutrale Angaben, allerdings sind sie interpretationsbedürftige Artefakte. „Metadaten sind mehrfach gedeutete ‚Deuter'" (Krenn & Tiemann, 2020, S. 12). Sie entstehen aus sozialen und technischen Aushandlungsprozessen und benötigen zu ihrer eigenen Interpretation oftmals wiederum Domänenwissen. 
+Allerdings sind sie interpretationsbedürftige Artefakte. „Metadaten sind mehrfach gedeutete ‚Deuter'" (Krenn & Tiemann, 2020, S. 12). Sie entstehen aus sozialen und technischen Aushandlungsprozessen und benötigen zu ihrer eigenen Interpretation oftmals wiederum Domänenwissen. 
 Wer bspw. ein Material mit dem Schlagwort „Grundschule" oder „Erstkommunionkatechese" versieht, trifft damit bereits eine kontextabhängige und institutionell geprägte Deutungsentscheidung. Welches Vorwissen, welche kirchliche Praxis, welches Alter hinter diesen Begriffen steht, prägt bereits die Auswahl und Vergabe der Metadaten.
-> Kommentar: dieser Absatz kommt irgendwie aus dem nichts. Ich überlege mal nach einem guten Übergang von dem einen zum anderen Absatz.
+> Kommentar: dieser Absatz kommt irgendwie aus dem nichts. Ich überlege mal nach einem guten Übergang von dem einen zum anderen Absatz. <!-- wäre mir jetzt beim Lesen gar nicht so krass vorgekommen. Denn nach der Erläuterung könnte man ja wirklich annehmen, es handelt sich um 'neutrale' Angaben, hab den einen Teil mal noch vorne hingestellt und ergänz. Vielleicht so besser? FM-->
 
 ## 2. Warum Metadaten wichtig sind
 
@@ -122,6 +122,7 @@ Hierzu gliedert LOM Metadaten in neun hierarchisierten Kategorien:
 | **8. Annotation** | Kommentare, Bewertungen oder Nutzungserfahrungen, die im Laufe der Verwendung ergänzt werden |
 | **9. Classification** | Fachliche oder systematische Einordnung anhand von Klassifikationen oder Taxonomien |
 
+<!--FM: Beim Lesen habe ich mich gefragt, was mache ich jetzt mit dieser Info; Heißt das, ich muss für alle Kategorien das irgendwo ausfüllen? bedeutet das einfach nur, dass es unterschiedliche Kategorien gibt? Das würde ich mir als Leser wünschen, hier noch etwas mehr Klarheit zu bekommen. Mich würde auch interessieren: Wie sieht das in der Praxis aus? Könnte man das z.B. an einem Beispiel durchspielen? -->
 
 ### Dublin Core Metadate Element Set (DCMES)
 
@@ -171,6 +172,7 @@ AMB bildet unter anderem die Grundlage des Metadatenmodells des [**Open Educatio
 | **license** | Lizenzangabe (maschinenlesbar referenziert) |
 | **isPartOf / hasPart** | Beziehungen zwischen zusammenhängenden Ressourcen |
 
+<!--Vielleicht könnte man ja z.B. die Metadaten dieses Beitrags hier offen legen und daran darstellen, wie so eine Auszeichnung mit Metadaten stattfinden und funktioniert, FM -->
 
 ## 4. Kompetenzen bislang wenig sichtbar
 
@@ -182,7 +184,7 @@ Ferner zeigen Fomin et al. (2026) auf, dass selbst wenn grundlegende Metadaten (
 2. Die Verschlagwortung nach Kompetenzrahmen erfolgt manuell, uneinheitlich bzw. freiwillig
 3. Bestehende LOM-Anpassungen unterscheiden sich je nach Region und politischem Kontext erheblich, was eine übergreifende Integration technisch wie politisch erschwert
 
-Bemerkenswert ist, dass diese Lücke nicht grundsätzlich unlösbar ist. Die österreichische LOM-Anpassung der Universität Innsbruck nutzt das Feld `<classification>` bereits konkret, um Materialien mit den UN-Nachhaltigkeitszielen (SDGs) zu verknüpfen, mitsamt mehrsprachiger Klartext-Bezeichnung und stabiler URI (vgl. Fomin et al., 2026).
+Bemerkenswert ist, dass diese Lücke nicht grundsätzlich unlösbar ist. Die österreichische LOM-Anpassung der Universität Innsbruck nutzt das Feld `<classification>` bereits konkret, um Materialien mit den UN-Nachhaltigkeitszielen (SDGs) zu verknüpfen, mitsamt mehrsprachiger Klartext-Bezeichnung und stabiler URI (vgl. Fomin et al., 2026). <!-- Was ist eine URI? Ich glaube, es ist sinnvoll, das zu erklären - ich weiß auch nicht, was das ist -->
 Die technische Infrastruktur für fachspezifische Taxonomien ist im LOM-Standard also bereits angelegt. Sie wird bislang jedoch kaum gezielt genutzt.
 
 
