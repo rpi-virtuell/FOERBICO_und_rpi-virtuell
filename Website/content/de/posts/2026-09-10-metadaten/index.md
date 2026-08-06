@@ -75,18 +75,18 @@ tags:
 
 ## 1. Was sind Metadaten überhaupt?
 
-„Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten beschreiben digitale Objekte und bilden die Voraussetzung für deren Identifikation, Auffindbarkeit und Nachnutzung.
+„Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten beschreiben digitale Objekte und bilden die Voraussetzung für deren Identifikation, Auffindbarkeit und Nachnutzung. Vorschlag: Metadaten sind wie ein Personalausweis für digitale Objekte und ermöglichen ihre Identifikation, Auffindbarkeit und Nachnutzung. 
 
 Nach Riley (2017) können mindestens drei Metadatentypen voneinander unterschieden werden:
- **deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
+**deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
 **strukturelle** Metadaten, die den inneren Aufbau und die Beziehungen zwischen digitalen Objekten abbilden, sowie 
 **administrative** Metadaten, die rechtliche, technische und provenienzbezogene Informationen, wie z.B. die Lizenz des Materials festhalten.
 
-Mit Blick auf Open Educational Resources heißt das, dass deskriptive Metadaten wie Titel und Fach beschreiben *was** das Material ist, die strukturellen Metadaten klären, *wie das Material aufgebaut ist* und *in welchem Verbund es steht* – etwa ob es aus mehreren Dateien besteht oder Teil einer größeren Unterrichtsreihe ist –, und die administrativen Metadaten regeln *wie das Material genutzt werden darf* und *in welchem Format* es vorliegt, durch Lizenzangabe und Dateiformat.
+Mit Blick auf Open Educational Resources heißt das, dass deskriptive Metadaten wie Titel und Fach beschreiben *was** das Material ist, die strukturellen Metadaten klären, *wie das Material aufgebaut ist* und *in welchem Verbund es steht* – etwa ob es aus mehreren Dateien besteht oder Teil einer größeren Unterrichtsreihe ist –, und die administrativen Metadaten regeln *wie das Material genutzt werden darf* und *in welchem Format* es vorliegt, durch Lizenzangabe und Dateiformat. 
 
 Metadaten wirken zunächst wie neutrale Angaben, allerdings sind sie interpretationsbedürftige Artefakte. „Metadaten sind mehrfach gedeutete ‚Deuter'" (Krenn & Tiemann, 2020, S. 12). Sie entstehen aus sozialen und technischen Aushandlungsprozessen und benötigen zu ihrer eigenen Interpretation oftmals wiederum Domänenwissen. 
 Wer bspw. ein Material mit dem Schlagwort „Grundschule" oder „Erstkommunionkatechese" versieht, trifft damit bereits eine kontextabhängige und institutionell geprägte Deutungsentscheidung. Welches Vorwissen, welche kirchliche Praxis, welches Alter hinter diesen Begriffen steht, prägt bereits die Auswahl und Vergabe der Metadaten.
-
+> Kommentar: dieser Absatz kommt irgendwie aus dem nichts. Ich überlege mal nach einem guten Übergang von dem einen zum anderen Absatz.
 
 ## 2. Warum Metadaten wichtig sind
 
@@ -97,7 +97,7 @@ Erst diese zusätzlichen Informationen ermöglichen es, Materialien zu indexiere
 Für OER-Erstellende bedeutet das, dass ein didaktisch hochwertiges und rechtssicher lizenziertes Arbeitsblatt seinen Nutzen nur dann entfaltet, wenn es auch gefunden werden kann. Fehlen aussagekräftige Angaben zu Titel, Fach, Zielgruppe, Sprache oder Lizenz, bleibt das Material für potenzielle Nachnutzende häufig unsichtbar, selbst wenn es öffentlich zugänglich ist. 
 Umgekehrt erhöhen sorgfältig gepflegte Metadaten die Wahrscheinlichkeit, dass Lehrende das Material bei einer thematischen Suche entdecken, seine Eignung für die eigene Zielgruppe einschätzen und es rechtssicher nachnutzen oder weiterentwickeln können.
 
-Wer Metadaten sorgfältig erfasst, dokumentiert daher nicht nur die Eigenschaften eines Materials, sondern erhöht zugleich dessen Sichtbarkeit und Wiederverwendbarkeit. Metadaten sind eine zentrale Voraussetzung dafür, dass die Potenziale von OER, also das Teilen, Nachnutzen und gemeinsame Weiterentwickeln, in der Praxis tatsächlich wirksam werden.
+Wer Metadaten sorgfältig erfasst, dokumentiert daher nicht nur die Eigenschaften eines Materials, sondern bringt es zur Entfaltung und erhöht zugleich dessen Sichtbarkeit und Wiederverwendbarkeit. Metadaten sind eine zentrale Voraussetzung dafür, dass die Potenziale von OER, also das Teilen, Nachnutzen und gemeinsame Weiterentwickeln, in der Praxis tatsächlich wirksam werden.
 
 
 ## 3. Metadatenschemata und -profile im Überblick: LOM, Dublin Core und AMB
