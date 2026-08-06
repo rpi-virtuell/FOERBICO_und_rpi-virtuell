@@ -172,7 +172,7 @@ AMB bildet unter anderem die Grundlage des Metadatenmodells des [**Open Educatio
 | **isPartOf / hasPart** | Beziehungen zwischen zusammenhängenden Ressourcen |
 
 
-## 4. Kompetenzen bisland wenig sichtbar
+## 4. Kompetenzen bislang wenig sichtbar
 
 Wie weit Anspruch und gelebte Praxis dieser Standards auseinanderfallen können, zeigt eine breit angelegte Studie von Simão de Deus und Barbosa (2020): Von 280 identifizierten Metadatenschlüsseln in acht internationalen OER-Repositorien unterstützten die jeweiligen Suchfunktionen im Schnitt nur 78 – also rund 28 % (Simão de Deus & Barbosa, 2020, S. 127, 129). Selbst bei Lizenzangaben, dem Kernversprechen der Rechtssicherheit, fanden sich neben sauber vergebenen Creative-Commons-Lizenzen (74 %) auch Werte wie „CustomLicense" oder schlicht „0" (vgl. Simão de Deus & Barbosa, 2020, S. 130).
 
