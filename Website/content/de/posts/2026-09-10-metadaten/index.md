@@ -113,7 +113,7 @@ Anders als LOM oder Dublin Core handelt es sich hierbei nicht um ein eigenständ
 Technisch basiert AMB auf JSON-LD und kann dadurch unmittelbar in Webseiten eingebettet werden. Dies erleichtert die maschinelle Verarbeitung von Metadaten durch Suchmaschinen und OER-Infrastrukturen.
 AMB bildet unter anderem die Grundlage des Metadatenmodells des [**Open Educational Resources Search Index (OERSI)**](https://oersi.org). Auch das im Aufbau befindliche Projekt **[Edufeed](https://comenius.de/2025/10/06/edufeed-dezentral-offen-interoperabel/)** – eine dezentrale, auf dem Nostr-Protokoll basierende OER-Infrastruktur des Comenius-Instituts – arbeitet mit AMB als Metadatenstandard zur plattformübergreifenden Abbildung von Bildungsmetadaten. Als Beispiel zeigt die Tabelle die Metadaten dieses folgenden Blogartikels als Anwendungsfall.
 
-| Beispielhafte Felder | Funktion | Anwendungsfall |
+| Felder | Funktion | Anwendungsfall |
 |---|---|---|
 | **name** | Titel der Ressource | Metadaten – die unsichtbare Infrastruktur offener Bildung|
 | **description** | Kurzbeschreibung | Metadaten entscheiden maßgeblich darüber, ob Open Educational Resources gefunden, eingeordnet und nachgenutzt werden können. Dieser Beitrag erläutert, was Metadaten sind, wie die Standards LOM, Dublin Core und das Allgemeine Metadatenprofil für Bildungsressourcen (AMB) die Auffindbarkeit von OER strukturieren und warum selbst gepflegte Metadatensätze Lücken aufweisen, etwa bei der kompetenzbezogenen Erschließung. Da Metadaten keine neutralen, sondern soziotechnisch geprägte Angaben sind, plädiert der Beitrag zudem dafür, ihren Entstehungskontext sichtbar zu machen. Abschließend werden Konsequenzen für den Aufbau eines interoperablen, religionspädagogischen OER-Ökosystems skizziert.|
