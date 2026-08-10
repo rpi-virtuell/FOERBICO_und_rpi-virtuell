@@ -12,7 +12,7 @@ steps:
       - date -I'seconds'
 
   - name: build_by_hugo
-    image: alpine:3.23 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.23 liefert 0.152.2
+    image: alpine:3.24 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.24 liefert 0.160.1
     commands:
       - date -I'seconds'
       - cat /etc/alpine-release
