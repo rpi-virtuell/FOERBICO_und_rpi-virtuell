@@ -1,6 +1,6 @@
 when:
   - branch:
-      include: *
+      include: "*"
       exclude: [main]
     event: manual
     path:
