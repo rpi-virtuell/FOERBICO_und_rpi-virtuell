@@ -19,7 +19,7 @@ steps:
       - mkdir Website/PROD
       - hugo -s Website -d PROD --logLevel debug
       - echo 'curl 1-> '
-      - curl -s http://localhost:1313/de/ | grep -A 5 -B 5 "article\|post\|Post" | head -80)
+      - curl -s http://localhost:1313/de/ | grep -A 5 -B 5 "article\|post\|Post" | head -80
       - echo 'curl 2-> '
       - curl -s http://localhost:1313/de/ 2>/dev/null | grep -o '<article.*</article>' | head -5 | cut -c1-200
       - echo 'curl 3-> '
