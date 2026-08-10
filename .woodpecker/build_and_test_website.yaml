@@ -1,11 +1,5 @@
 when:
-  - branch:
-      include: "*"
-      exclude: [main]
-    event: manual
-    path:
-      include: ['Website/**']
-      on_empty: false
+  - event: manual
 
 steps:
   - name: TEST-log_start_time
