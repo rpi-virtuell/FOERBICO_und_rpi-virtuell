@@ -88,9 +88,10 @@ Was zunächst trocken und technisch klingt, hat für OER eine kaum zu überschä
 
 „Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten funktionieren wie der Katalogeintrag einer Bibliothek: Sie beschreiben ein digitales Objekt, geben an, wo es zu finden ist, und ermöglichen dadurch seine Identifikation, Auffindbarkeit und Nachnutzung.
 
-Nach Riley (2017) können mindestens drei Metadatentypen voneinander unterschieden werden:
+Nach Riley (2017) lassen sich u. a. drei zentrale Arten von Metadaten unterscheiden:
+
 - **deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
-- **strukturelle** Metadaten, die den inneren Aufbau und die Beziehungen zwischen digitalen Objekten abbilden, sowie 
+- **strukturelle** Metadaten zeigen den inneren Aufbau eines Materials, etwa die Abfolge seiner Bestandteile, sowie 
 - **administrative** Metadaten, die rechtliche, technische und provenienzbezogene Informationen, wie z.B. die Lizenz des Materials, festhalten.
 
 Mit Blick auf OER heißt das, dass deskriptive Metadaten wie Titel und Fach beschreiben *was* das Material ist, die strukturellen Metadaten klären, *wie das Material aufgebaut ist* und *in welchem Verbund es steht* – etwa ob es aus mehreren Dateien besteht oder Teil einer größeren Unterrichtsreihe ist –, und die administrativen Metadaten regeln *wie das Material genutzt werden darf* und *in welchem Format* es vorliegt, durch den Vermerk auf Lizenzangabe und Dateiformat.
@@ -211,7 +212,7 @@ Ochoa, X., Klerkx, J., Vandeputte, B., & Duval, E. (2011). On the use of learnin
 
 Pohl, A., Klinger, A., Hartmann, B., Schuurbiers, C., Steeg, F., Kummerländer, M., Oellers, M., Stengel, M., Hoffmann, M., Rörtgen, S., Kulla, S., & Bülte, T. (2023). *Allgemeines Metadatenprofil für Bildungsressourcen (AMB)* [Technische Spezifikation]. DINI AG KIM – Kompetenzzentrum Interoperable Metadaten. https://w3id.org/kim/amb/20231019/
 
-Riley, J. (2017). *Understanding Metadata: What Is Metadata, and What Is It For?* Baltimore: National Information Standards Organization (NISO). 
+Riley, J. (2017). *Understanding Metadata: What Is Metadata, and What Is It For?* Baltimore: National Information Standards Organization (NISO). https://digital.library.unt.edu/ark:/67531/metadc990983/m2/1/high_res_d/understanding_metadata.pdf
 
 Simão de Deus, W., & Barbosa, E. F. (2020). The Use of Metadata in Open Educational Resources Repositories: An Exploratory Study. In *2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)* IEEE, S. 123-132.https://doi.org/10.1109/COMPSAC48688.2020.00025
 
