@@ -12,7 +12,7 @@ steps:
       - date -I'seconds'
 
   - name: build_by_hugo
-    image: alpine:3.23 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.23 liefert 0.152.2
+    image: alpine:3.24 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.24 liefert 0.160.1
     commands:
       - date -I'seconds'
       - cat /etc/alpine-release
@@ -20,12 +20,11 @@ steps:
       - hugo version
 
       - mkdir Website/PROD
-      - hugo -s Website -d PROD --logLevel debug
+      - hugo -s Website -d PROD --logLevel error
       
       - ls -la Website/PROD/index.html
-      - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Blog Teamseite"; else echo "Webseite Startseite"; fi
+      - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Fehlerhafte Startseite! Artikel vorhanden..."; else echo "Startseite OK"; fi
       - echo $?
-
       - grep -E "Du hast sogar schon mal selbst Materialien erstellt" Website/PROD/index.html
 
   - name: copy_to_server

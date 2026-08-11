@@ -1,0 +1,44 @@
+when:
+  - event: manual
+
+steps:
+  - name: TEST-log_start_time
+    image: alpine
+    commands:
+      - date -I'seconds'
+
+  - name: TEST-build_and_test_site
+    image: alpine:3.24 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.24 liefert 0.160.1
+    commands:
+      - date -I'seconds'
+      - cat /etc/alpine-release
+      - apk add --no-cache hugo
+      - hugo version
+      - apk add --no-cache curl
+
+      - mkdir Website/PROD
+      - hugo -s Website -d PROD --logLevel debug
+      - echo 'curl 1-> '
+      - curl -s http://localhost:1313/de/ | grep -A 5 -B 5 "article\|post\|Post" | head -80
+      - echo 'curl 2-> '
+      - curl -s http://localhost:1313/de/ 2>/dev/null | grep -o '<article.*</article>' | head -5 | cut -c1-200
+      - echo 'curl 3-> '
+      - curl -s http://localhost:1313/ | grep -oP '<h[2-3].*?</h[2-3]>' | head -20
+      - echo 'curl 4-> '
+      - curl -s http://localhost:1313/blog/ | grep -i "article\|interview\|reliGlobal\|post-entry" | head -10
+
+      - echo " -- -- -- -- -- **** -- -- -- -- --"
+      - echo "Test auf Artikel (entry) auf Startseite"
+      - echo 'curl 5-> '
+      - curl -s http://localhost:1313/ | grep -A 5 -B 5 -E "class.+entry-" | head -25
+      - echo " -- -- -- -- -- **** -- -- -- -- --"
+
+      - ls -la Website/PROD/index.html
+      - if grep -E "Team vollständig" Website/PROD/index.html | grep -v -E "meta .+:description" ; then echo "Fehlerhafte Startseite! Artikel vorhanden..."; else echo "Startseite OK"; fi
+      - echo $?
+      - grep -E "Du hast sogar schon mal selbst Materialien erstellt" Website/PROD/index.html
+
+  - name: TEST-log_end_time
+    image: alpine
+    commands:
+      - date -I'seconds'
