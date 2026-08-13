@@ -4,31 +4,30 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: 'Just calling it Open is not enough – Hürden öffentlicher Bildungsinfrastrukturen und erste Lösungsansätze mit Nostr'
-description: >-
-  OER sind offen lizenzierte Bildungsmaterialien, die meist unter einer Creative-Commons-Lizenz veröffentlicht werden. Sie lassen sich also nicht nur frei nutzen, sondern auch anpassen, weiterentwickeln und erneut veröffentlichen. Seit Jahren werden deshalb sowohl die Erstellung freier Materialien als auch Plattformen und Repositorien gefördert, die diese Materialien auffindbar machen sollen. Trotzdem lässt sich eine scheinbar simple Frage bis heute nicht eindeutig beantworten: Wo kann ich mein OER-Material veröffentlichen?.
+description: OER sind offen lizenzierte Bildungsmaterialien, die meist unter einer Creative-Commons-Lizenz veröffentlicht werden. Sie lassen sich also nicht nur frei nutzen, sondern auch anpassen, weiterentwickeln und erneut veröffentlichen. Seit Jahren werden deshalb sowohl die Erstellung freier Materialien als auch Plattformen und Repositorien gefördert, die diese Materialien auffindbar machen sollen. Trotzdem lässt sich eine scheinbar simple Frage bis heute nicht eindeutig beantworten: Wo kann ich mein OER-Material veröffentlichen?
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/just-calling-it-open-is-not-enough
 creator:
-    - givenName: Gina
-      familyName: Buchwald-Chassée
-      type: Person
-      affiliation:
-        name: Comenius-Institut
-        id: https://ror.org/025e8aw85
-        type: Organization
-    - givenName: Steffen
-      familyName: Roertgen
-      type: Person
-      affiliation:
-        name: Comenius-Institut
-        id: https://ror.org/025e8aw85
-        type: Organization
-    - givenName: Jannik
-      familyName: Streek
-      type: Person
-      affiliation:
-        name: B310 Digital GmbH
-       type: Organization
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Steffen
+    familyName: Rörtgen
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jannik
+    familyName: Streek
+    type: Person
+    affiliation:
+      name: B310 Digital GmbH
+      type: Organization
 inLanguage:
   - de
 about:
@@ -40,7 +39,7 @@ image: https://open-educational-resources.de/wp-content/uploads/260811_Nostr_Pro
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-08-12'
-keywords:
+tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Metadaten
@@ -62,7 +61,7 @@ cover:
 summary: >-
   OER sind offen lizenzierte Bildungsmaterialien, die meist unter einer Creative-Commons-Lizenz veröffentlicht werden. Sie lassen sich also nicht nur frei nutzen, sondern auch anpassen, weiterentwickeln und erneut veröffentlichen. Seit Jahren werden deshalb sowohl die Erstellung freier Materialien als auch Plattformen und Repositorien gefördert, die diese Materialien auffindbar machen sollen. Trotzdem lässt sich eine scheinbar simple Frage bis heute nicht eindeutig beantworten: Wo kann ich mein OER-Material veröffentlichen?
 url: just-calling-it-open-is-not-enough
-tags:
+keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Metadaten
@@ -70,6 +69,7 @@ tags:
   - Vernetzung
   - dezentral
 ---
+
 
 ## Die Problematik
 
