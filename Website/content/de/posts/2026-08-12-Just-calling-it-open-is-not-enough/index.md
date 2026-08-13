@@ -10,25 +10,25 @@ license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/just-calling-it-open-is-not-enough
 creator:
     - givenName: Gina
-    familyName: Buchwald-Chassée
-    type: Person
-    affiliation:
-      name: Comenius-Institut
-      id: https://ror.org/025e8aw85
-      type: Organization
+      familyName: Buchwald-Chassée
+      type: Person
+      affiliation:
+        name: Comenius-Institut
+        id: https://ror.org/025e8aw85
+        type: Organization
     - givenName: Steffen
-    familyName: Roertgen
-    type: Person
-    affiliation:
-      name: Comenius-Institut
-      id: https://ror.org/025e8aw85
-      type: Organization
+      familyName: Roertgen
+      type: Person
+      affiliation:
+        name: Comenius-Institut
+        id: https://ror.org/025e8aw85
+        type: Organization
     - givenName: Jannik
-    familyName: Streek
-    type: Person
-    affiliation:
-      name: B310 Digital GmbH
-      type: Organization
+      familyName: Streek
+      type: Person
+      affiliation:
+        name: B310 Digital GmbH
+       type: Organization
 inLanguage:
   - de
 about:
