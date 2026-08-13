@@ -140,13 +140,9 @@ Vom Infrastrukturprinzip zur Anwendung – erste Prototypen auf Nostr-Basis
 Der beschriebene Ansatz ist nicht rein theoretisch. Im Rahmen der Förderlinien OE_Space und OE_Sprint des Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) sind bereits erste Anwendungen entstanden, die den Einsatz des Nostr-Protokolls in offenen Bildungsinfrastrukturen praktisch erproben:
 
    - ComCal – ein verteilter Veranstaltungskalender zur Vernetzung von Communities und Terminen,
-
    - ein Onboarding-Tool für niedrigschwellige Zugänge zu Nostr-basierten Bildungsanwendungen,
-
    - ein kollaboratives Kanban-Board für Inhaltsmanagement und Zusammenarbeit,
-
    - ein OER-Finder-Plugin zur plattformübergreifenden Suche offener Bildungsressourcen,
-
    - sowie der Edugraph zur Visualisierung von Inhalts- und Beziehungsnetzwerken.
 
 Die folgenden Beispiele zeigen, wie Anwendungen auf Basis offener, protokollbasierter Bildungsinfrastrukturen aussehen können – Werkzeuge, die nicht in geschlossenen Datensilos operieren, sondern auf einem dezentralen, offenen Fundament aufsetzen. Perspektivisch soll das Nostr-Protokoll auch als infrastrukturelle Grundlage für den im [FOERBICO-Projekt](https://oer.community/) entstehenden Community-Hub dienen, der als „Community of Communities“ unterschiedliche Akteure und Netzwerke offener (religionsbezogener) Bildung verbinden soll.
