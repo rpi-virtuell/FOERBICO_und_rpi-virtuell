@@ -4,7 +4,7 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: 'Just calling it Open is not enough – Hürden öffentlicher Bildungsinfrastrukturen und erste Lösungsansätze mit Nostr'
-description: OER sind offen lizenzierte Bildungsmaterialien, die meist unter einer Creative-Commons-Lizenz veröffentlicht werden. Sie lassen sich also nicht nur frei nutzen, sondern auch anpassen, weiterentwickeln und erneut veröffentlichen. Seit Jahren werden deshalb sowohl die Erstellung freier Materialien als auch Plattformen und Repositorien gefördert, die diese Materialien auffindbar machen sollen. Trotzdem lässt sich eine scheinbar simple Frage bis heute nicht eindeutig beantworten: Wo kann ich mein OER-Material veröffentlichen?
+description: 'OER sind offen lizenzierte Bildungsmaterialien, die meist unter einer Creative-Commons-Lizenz veröffentlicht werden. Sie lassen sich also nicht nur frei nutzen, sondern auch anpassen, weiterentwickeln und erneut veröffentlichen. Seit Jahren werden deshalb sowohl die Erstellung freier Materialien als auch Plattformen und Repositorien gefördert, die diese Materialien auffindbar machen sollen. Trotzdem lässt sich eine scheinbar simple Frage bis heute nicht eindeutig beantworten: Wo kann ich mein OER-Material veröffentlichen?'
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/just-calling-it-open-is-not-enough
 creator:
@@ -38,7 +38,7 @@ learningResourceType:
 image: https://open-educational-resources.de/wp-content/uploads/260811_Nostr_Protokoll.png
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-08-12'
+datePublished: 2026-08-12
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
