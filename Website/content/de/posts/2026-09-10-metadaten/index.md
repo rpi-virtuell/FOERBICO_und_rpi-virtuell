@@ -120,9 +120,9 @@ Metadaten sind damit eine bedeutsame Voraussetzung dafür, dass die Potenziale v
 Für die Beschreibung digitaler Lernressourcen haben sich unterschiedliche Metadatenschemata und -profile etabliert. Sie verfolgen das gemeinsame Ziel, (Bildungs-)Ressourcen standardisiert zu beschreiben und dadurch deren Auffindbarkeit und Nachnutzung zu erleichtern.
 Im Folgenden werden mit dem *IEEE Learning Object Metadata Standard (LOM)*, *Dublin Core (DC)* und dem *Allgemeinen Metadatenprofil für Bildungsressourcen (AMB)* drei für den OER-Kontext besonders relevante Ansätze vorgestellt. 
 
-### IEEE Learning Object Metadata Standard (LOM) & Dublin Core (DC)
-Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht wurde (vgl. Ochoa et al., 2011). 
-Er dient der standardisierten Beschreibung digitaler Lernressourcen und bildet die Grundlage zahlreicher LOM-basierter Anwendungsprofile sowie vieler Bildungsrepositorien. Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d.h. alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
+### IEEE Learning Metadate (LMT) & Dublin Core (DC)
+Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht und mittlerweile LMT weiterentwickelt wurde (vgl. Ochoa et al., 2011; [Oellers & Röertgen, 2024](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31 S-30-32), S. 30ff.). 
+Der LMT dient als Aktualisierung des LOM und erarbeitet neue Metadatenkonzepte, in der auch flüchtige Lernereignisse abgebildet werden können ([Oellers & Röertgen, 2024](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31 S-30-32), S. 30ff.). Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d.h. alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
 
 ### Allgemeines Metadatenprofil für Bildungsressourcen (AMB)
 
@@ -168,8 +168,9 @@ Ferner zeigen Fomin et al. (2026) auf, dass selbst wenn grundlegende Metadaten (
 Unlösbar ist das nicht. Die österreichische LOM-Anpassung der Universität Innsbruck nutzt das Feld `<classification>` bereits, um Materialien mit den UN-Nachhaltigkeitszielen zu verknüpfen. Die technische Infrastruktur für fachspezifische Taxonomien ist in LOM also angelegt, wird aber kaum gezielt genutzt.
 
 An dieser Stelle setzen auch die FOERBICO-[Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) an. 
-Sie schlagen u.a. vor, die angestrebten Lernergebnisse und Kompetenzen zu Beginn des Materials klar auszuweisen und an Bildungsstandards bzw. Lehr- und Bildungsplänen auszurichten.
+Sie schlagen u.a. vor, die angestrebten Lernergebnisse und Kompetenzen zu Beginn des Materials klar auszuweisen und an Bildungsstandards bzw. Lehr- und Bildungsplänen auszurichten. 
 
+Für die Religionspädagogik gibt es eine besonderheit, welche die Auffindbarkeit erschweren kann: **Ein vielfältiges Vokabular**. Dies kann bei der Verschlagwortung von Materialien, zu einer Nicht-Auffindbarkeit führen. Für diese Herausforderung reicht nicht ein Vorsetzen von Schlagwörtern, sondern diese sollten sich aus den Communities heraus bilden. Dieser Bildungsprozess ist jedoch ein stetig wandelnder und nicht geradliniger Prozess.  
 
 ## 6. Was Metadaten nicht leisten können: Entstehungsbedingungen sichtbar machen
 
