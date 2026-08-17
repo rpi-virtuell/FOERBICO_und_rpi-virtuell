@@ -35,7 +35,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://open-educational-resources.de/wp-content/uploads/260811_Nostr_Protokoll.png
+image: https://oer.community/Herausforderung-Bildungsinfrastruktur-KI-generiert.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2026-08-12
@@ -55,7 +55,7 @@ author:
 title: 'Just calling it Open is not enough – Hürden öffentlicher Bildungsinfrastrukturen und erste Lösungsansätze mit Nostr'
 cover:
   relative: true
-  image: https://open-educational-resources.de/wp-content/uploads/260811_Nostr_Protokoll.png
+  image: Herausforderung-Bildungsinfrastruktur-KI-generiert.jpg
   alt: 'Herausforderungen öffentlicher Bildungsinfrastrukturen. Bild: Steffen Rörtgen, Gina Buchwald-Chassée und Jannik Streek, KI-generiert'
   hiddenInSingle: false
 summary: >-
