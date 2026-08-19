@@ -41,11 +41,11 @@ tags:
   - Vernetzung
 ---
 
-![](OER-im-Blick-2.jpeg)
+![](OER-im-Blick-2.jpg)
 
 Die Auftaktkonferenz fand am 15. und 16. Mai 2024 in Frankfurt am Main statt und wir von FOERBICO waren frisch zum Start unseres Projektes im Mai 2024 mit dabei 🚀 Erstmals kamen rund 130 Akteurinnen und Akteure aus allen Bildungsbereichen zusammen und es war eine tolle Gelegenheit sich kennenzulernen, unser Projekt vorzustellen und Einblicke in die Projekte der anderen beim Networking zu erhalten. Auch ein Teil unseres FOERBICO-Teams konnte sich das erste Mal persönlich treffen und wir würden sagen, die Chemie stimmt 😉
 
-![](OER-im-Blick-1.jpeg)
+![](OER-im-Blick-1.jpg)
 
 Einen Rückblick zur Konferenz findet ihr [hier](https://www.oer-strategie.de/konferenz/) oder im [Blogbeitrag](https://ebildungslabor.de/blog/oer-im-blick-ein-buntes-kaleidoskop/) von Nele Hirsch (eBildungslabor). Auch Dr. Manfred Pirner teilte seine Eindrücke bei [Instagram](https://www.instagram.com/p/C7EADFWNrfu/) und [TikTok](https://www.tiktok.com/@mapi_l16/video/7369661151216520480). 
 

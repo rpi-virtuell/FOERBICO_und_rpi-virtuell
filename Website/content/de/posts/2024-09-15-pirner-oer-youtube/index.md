@@ -16,7 +16,7 @@ creator:
     id: https://orcid.org/0000-0002-6641-4690
 inLanguage:
   - de
-image: https://oer.community/sind-youtube-videos-oer-faehig/Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
+image: https://oer.community/sind-youtube-videos-oer-faehig/Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -29,7 +29,7 @@ author:
 title: Sind YouTube-Videos OER-fähig?
 cover:
   relative: true
-  image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.png
+  image: Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.jpg
   alt: Creative Commons as Youtube logo
   caption: 'Creative Commons over Youtube | von: KI-generiert | Lizenz/Rechte: CC0'
   hiddenInSingle: true

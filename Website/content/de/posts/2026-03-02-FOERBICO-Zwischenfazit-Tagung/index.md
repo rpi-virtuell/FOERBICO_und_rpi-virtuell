@@ -76,7 +76,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/recap-foerbico-tagung-2026/Team.JPG
+image: https://oer.community/recap-foerbico-tagung-2026/Team.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -105,7 +105,7 @@ author:
 title: Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt
 cover:
   relative: true
-  image: Team.JPG
+  image: Team.jpg
   hiddenInSingle: true
   alt: FOERBICO-Team (CC BY 4.0)
 summary: Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
@@ -132,7 +132,7 @@ Save-the-Date 🗓️: Die Abschlusstagung findet im Frühling 2027 an der Goeth
 
 „Im OER-Kosmos ist FOERBICO gut vernetzt“ - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend ([BMBFSFJ](https://www.bmbfsfj.bund.de/)) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. In seiner Begrüßung machte Herr Reuter deutlich, dass FOERBICO kreativ, kollaborativ und transparent arbeitet. Dies zeigt sich für ihn durch den Aufbau des innovativen Nostr-Protokolls, da hier mit der klassischen Plattformlogik gebrochen wird hin zu einer offenen, dezentralen und interoperablen Datenstruktur. Zugleich würde FOERBICO auch mit den Communities zusammenarbeiten und professionelle Lerngemeinschaften bzw. Community of Practices unterstützen und fördern. 
 
-![](Forschungsstand.JPG)
+![](Forschungsstand.jpg)
 
 Zu Beginn führten Manfred Pirner ([Professur am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts der FAU Erlangen-Nürnberg](https://www.evrel.phil.fau.de/)) und Viera Pirker ([Professur für für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt](https://www.uni-frankfurt.de/78330411/Religionsp%C3%A4dagogik_und_Mediendidaktik)) in den Forschungsstand zu Open Educational Resources (OER) und Open Educational Practices (OEP) ein und teilten zentrale Einsichten aus ihrem Literaturbericht: [„Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont“](https://oer.community/oer-oep-literaturbericht/). Ihr Fazit: Open Educational Resources und Open Educational Practices gewinnen in Deutschland zunehmend an Bedeutung und weisen großes Potenzial für eine partizipationsorientierte, digitale, pädagogische wie theologisch verantwortete religionspädagogische Bildungslandschaft auf. Dennoch herrscht ein Forschungsdefizit für die Nutzung von OER und die Praxis von OEP in religionspädagogischen Kontexten.  
 
@@ -144,7 +144,7 @@ Seit August 2024 erforscht das FOERBICO-Team OER-Communities im religionsbezogen
 
 Im Anschluss daran stellte Laura Mößle (wiss. Mitarbeiterin der Goethe-Universität) die im Rahmen eines iterativen Prozesses entwickelten [Qualitätskriterien](https://oer.community/qualitaet/) insbesondere mit religionspädagogischem Schwerpunkt vor. Die Qualitätskriterien sollen Orientierung und Unterstützung bieten und zur Selbstreflexion anregen. Sie kommen bereits in Beratungsprozessen, Forschungsprojekten und in der praktischen OER-Materialerstellung bereits zum Einsatz und werden auf Basis der Rückmeldungen stetig weiterentwickelt.
 
-![](Hub-Vorstellung.jpeg)
+![](Hub-Vorstellung.jpg)
 
 Abschließend veranschaulichte das Team des Comenius-Institutes die ersten Schritte auf dem Weg zum Community-Hub als Kommunikations- und Kollaborationsumgebung im Sinne einer Community of Communities. Dabei wurden verschiedene „Schmerzpunkte“ der Communities aufgegriffen, doch anstatt mit Behelfslösungen „Pflaster“ darauf zu kleben, soll nun mit einer dezentralen, kompatiblen und offenen Dateninfrastrukturlösung zu einem nachhaltigen OER-Ökosystem und damit zur "Heilung" beigetragen werden.
 
@@ -157,7 +157,7 @@ Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren,
 
 ## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
 
-![](Keynote.JPG)
+![](Keynote.jpg)
 
 ### Unterscheidung von OER und OEP
 Daniel Otto begann seine Keynote mit der These, dass OEP und OER sich überlappen, aber es sich dennoch um zwei getrennte Konzepte handle. OER rein von Material her zu bestimmen greife zu kurz, denn die Subjekte und eine Praxis sind immer schon mitgedacht. Es geht um ein Arrangement aus Lizensierung, Standards und Infrastruktur, also die *Fähigkeiten* der Ressource und nicht die Ressource an sich. Dies speist sich aus der normativen Idee (vgl. [Angelina & Buchwald-Chasée 2025](https://oer.community/interview-daniel-otto/)), dass Bildung als öffentliches Gut zugänglich, anpassbar und teilbar sein sollte. Leider ist die globale Umsetzung empirisch ernüchternd. OER sind somit nicht neutral und es kann Zielkonflikte geben welche aufgrund von Offenheit und Transparent nach außen getragen werden. OEP ist dagegen definitorisch und analytisch schwer zu greifen und es fehle an theoretischer Unterfütterung (vgl. [Thompson 2023](https://doi.org/10.2139/ssrn.4595912)). Dies decke sich auch mit den Ergebnissen aus dem Literaturbericht von Pircker und Pirner ([2025](https://oer.community/oer-oep-literaturbericht/)). Daraus schließt Otto, dass OEP ein deskriptiver Begriff sei, welches die Nutzung von OER mit einschließt, aber darüber hinaus geht.
@@ -165,7 +165,7 @@ Daniel Otto begann seine Keynote mit der These, dass OEP und OER sich überlappe
 ### KI als eine Herausforderung von OER und OEP
 KI spielt dabei eine Herausforderung für OER, da diese von ihrer Logik her anders aufgebaut ist und funktioniert. Die normative Ideen von OER beispielsweise haben sich in einem Rechtsgerüst der CC-Lizenzen operationalisiert. OER zeichnet sich durch die transparente Angabe von Quellen und Versionierungen aus und ist dabei nachvollziehbar sowie zitierbar. Demgegenüber ist die Anwendung von generativer KI in Rechtsfragen noch unbestimmt zugleich handelt es sich hierbei um eine Blackbox in der weder der Input noch der Output für Nutzende nachvollziehbar sei. Die KI erzeuge, so Otto, eine *eschatologische Spannung* von jetzt schon und noch nicht, also ein Heilsversprechen das auf die Zukunft vertröstet. Trotz dessen wird die KI nicht verworfen, sondern Otto entwickelt durch Gurndsätze der OER-enabled Pedagogy ([Wiley & Hilton III 2018](https://doi.org/10.19173/irrodl.v19i4.3601)) einen konstruktiven Umgang. Je offener und deligierbarer Aufgaben sind, desto eher kann KI eine Unterstützung sein. 
 
-![](OER_KI_Matrix.png)
+![](OER_KI_Matrix.jpg)
 
 Dies führt für die Hochschullehre zu der Ermöglichung von beitragsorientierten Beteiligung, neben der klassischen prüfungsorientierten Abfrage. Der Fokus wird dabei stärker auf dem Lernprozess gelegt, als auf das Endprodukt. 
 
@@ -253,11 +253,11 @@ Mit OER zu einer Kultur des Teilens - unter diesem Motto haben wir nicht nur uns
 
 Wir hoffen alle konnten etwas mitnehmen ❤️ Eine Anleitung zum #hOERz als OER zur Weiterverwendung gibt's unter https://s.edufeed.org/hoerz 
 
-![](hoerz.JPG)
+![](hoerz.jpg)
 
 Lecker Essen, Tierluftballons und OER-Wortspiele durften natürlich auch nicht fehlen 😋
 
-![](Essen.JPG)
+![](Essen.jpg)
 
 Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und natürlich auch nochmal bei unseren fleißigen Hilfskräften, ohne die wir das alles nicht gestemmt bekommen hätten 🙏
 
@@ -265,4 +265,4 @@ Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und 
 
 Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer [Abschlusstagung](https://terminladung.uni-frankfurt.de/registration?step=workshop&institution=69c25342c3008b1e271c4) wieder zu begrüßen! 
 
-![](Team.JPG)
+![](Team.jpg)

@@ -77,7 +77,7 @@ Offene Bildungspraktiken fördern – das haben wir uns als OE_COM-Projekte auf 
 
 4: OEP sind in keinem Fall …
 
-![Ergebnisse Pre-Workshop](IMG_6385.jpeg)
+![Ergebnisse Pre-Workshop](IMG_6385.jpg)
 
 **Wie geht es weiter?**
 
@@ -127,7 +127,7 @@ In dieser Gruppe unterschieden die Teilnehemenden zwischen **analogen Treffen**,
  Sowohl im digitalen als auch im analogen Raum sollte man sich wohlfühlen, einen offenen und einfachen Zugang haben. Zudem braucht es Sichtbarkeit, eine Moderation und ein gemeinsames Interesse und Ziel. Außerdem geht es nicht ohne ein Commitment und es braucht Ressourcen – vor allem zeitlich und monetär. Auch wichtig: Man darf auch etwas kaputt machen! Der offene und einfache Zugang wird durch das große Tor dargestellt. Zusätzlich ist auch eine transparente Einsicht in allem wichtig.
 Im digitalen Raum braucht möglichst offene Tools mit einer einfachen Handhabung. Auch die Bereitschaft, sich in die Karten schauen zu lassen gilt als Grundvoraussetzung. Das hat die Gruppe anhand des Sichtglases dargestellt, durch das gesehen werden kann, wie die Menschen/Community im Hub gemeinsam arbeiten können.
 
-![Gruppenergebnisse Tisch 1](mermaid-diagramm_Tisch1.png)
+![Gruppenergebnisse Tisch 1](mermaid-diagramm_Tisch1.jpg)
 
 #### Tisch 2
 
@@ -138,7 +138,7 @@ OER wurden hier als zarte Pflänzchen dargestellt, um die man sich gemeinsam kü
 Neben der Funktion muss auch die Ästhetik des virtuellen Raums in Betracht gezogen werden. Dieser bedarf auch der Pflege. Ein Hub kann eine Roadmap zur Orientierung bieten. Es sollte auch zusammengearbeitet werden und Wissen aus dem Elfenbeiturm herausgeholt werden und hierarchisches Denken sollte dort bleiben.
 Ein Hub bedarf eine Infrastruktur und Werkzeuge der Zusammenarbeit und muss sich selbst als einen dynamischen Prozess verstehen. Zugleich muss in einem Hub die auf Aktualität geachtet werden. Eine Reinigungsfunktion sollte möglich sein, damit 'Müll' aussortiert werden kann.
 
-![Gruppenergebnisse Tisch 2](mermaid-diagram-Tisch2.png)
+![Gruppenergebnisse Tisch 2](mermaid-diagram-Tisch2.jpg)
 
 #### Tisch 3
 
@@ -146,7 +146,7 @@ Ein Hub bedarf eine Infrastruktur und Werkzeuge der Zusammenarbeit und muss sich
 
 Ein Hub kann als eigene Bildungsinsel mit anderen Bildungsinseln verbunden und vernetzt sein. Zum Datenaustausch bedarf es transparente 'Drehscheiben'. Damit man einsehen kann, was wie auf welcher Basis geschieht. Innerhalb eines Hubs können verschiedene Rollen mit spezifischen Verantwortlichkeiten vergeben werden, darunter beispielsweise eine Technikverantwortlicher, eine Expertin für Finanzierung (unter Einbeziehung der Mitgestaltung durch die Community), eine für digitale Infrastruktur zuständige Person mit einem weitreichenden Netzwerk sowie eine übergeordnete Instanz zur Beobachtung und Steuerung, etwa durch das zuständige Bundesministerium. Der Hub dient darüber hinaus als Plattform für den Austausch zwischen den beteiligten Communities und ermöglicht eine partizipative Aufteilung von Zuständigkeiten.
 
-![Gruppenergebnisse Tisch 3](mermaid-diagram-Tisch3.png)
+![Gruppenergebnisse Tisch 3](mermaid-diagram-Tisch3.jpg)
 
 #### Tisch 4
 
@@ -157,7 +157,7 @@ Hier wurde der Hub als möglichst offener, niederschwelliger Raum konzipiert, de
 *Prinzip „KISS – Keep it Smart and Simple“:*
 Innerhalb der vierten Gruppe wurde die grundlegende Frage diskutiert, ob die Einrichtung eines Hubs überhaupt notwendig ist. Bisher wurden entsprechende Strukturen nicht entwickelt, möglicherweise weil kein unmittelbarer Bedarf bestand. Vor diesem Hintergrund wurde in Erwägung gezogen, ob bestehende Infrastrukturen und Netzwerke nicht effizienter genutzt werden könnten. Zu dieser Fragestellung konnte bislang jedoch keine abschließende Position innerhalb der Gruppe gefunden werden.
 
-![Gruppenergebnisse Tisch 4](mermaid-diagram-Tisch4.png)
+![Gruppenergebnisse Tisch 4](mermaid-diagram-Tisch4.jpg)
 
 ## Fazit
 

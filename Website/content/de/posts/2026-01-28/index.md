@@ -27,7 +27,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/interview-relimentar/RELImentarInterviewTitelpage.png
+image: https://oer.community/interview-relimentar/RELImentarInterviewTitelpage.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -47,7 +47,7 @@ title: Interview RELImentar
 cover:
   relative: true
   hiddenInSingle: true
-  image: RELImentarInterviewTitelpage.png
+  image: RELImentarInterviewTitelpage.jpg
 summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
 url: interview-relimentar
 tags:
@@ -66,7 +66,7 @@ tags:
 
 RELImentar stellt einen qualitätsgeprüften Materialpool mit Praxismaterialien bereit. Die Materialien sind offen lizenziert und mit Metadaten wie beispielsweise Autor:innenschaft und Zielgruppe ausgewiesen. 
 
-![Screenshot-Materialpool](Screenshot_RELImentar.png)
+![Screenshot-Materialpool](Screenshot_RELImentar.jpg)
 
 Ein zentraler Baustein sind die RELImentar-Cafés. Die Cafés sind ein Raum für Fachimpulse, kollegialen Austausch und die gemeinsame Arbeit am Material. Die Teilnehmenden können nicht nur ausgewähltes Material für sich erschließen, sondern auch selbst Hand anlegen. Niedrigschwellig und praxisnah wird das in den Materialien liegende Potenzial sichtbar und nutzbar gemacht, inklusive gemeinsamer Übungen zur Anpassung an die eigene Gruppe und den jeweiligen Kontext.
 
@@ -91,7 +91,7 @@ Wir möchten konkrete Einblicke in die Arbeit mit Qualitätsmerkmalen geben, die
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.png)
+![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:

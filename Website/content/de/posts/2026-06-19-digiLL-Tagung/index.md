@@ -20,7 +20,7 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/tagung-open-education/digiLL-Tagung-Beginn.jpeg
+image: https://oer.community/tagung-open-education/digiLL-Tagung-Beginn.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -38,7 +38,7 @@ author:
 title: 'Open Education – Gemeinsam gestalten, teilen, lernen: Eindrücke von der digiLL_COM-Tagung'
 cover:
   relative: true
-  image: digiLL-Tagung-Beginn.jpeg
+  image: digiLL-Tagung-Beginn.jpg
   hiddenInSingle: true
 summary: >-
   Am 18. Juni 2026 präsentierte FOERBICO auf der Tagung „Open Education – Gemeinsam gestalten, teilen, lernen“ an der Professional School of Education der Ruhr-Universität Bochum die aktuellen Entwicklungen des Community-Hubs. Die Veranstaltung bot zudem die Gelegenheit, sich mit Akteur:innen der Open-Education-Community auszutauschen und neue Impulse für die weitere Projektarbeit zu gewinnen.
@@ -56,7 +56,7 @@ Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education 
 
 Bei hochsommerlichen Temperaturen von nahezu 40 Grad erwiesen sich die Kellerräume der Professional School of Education der RUB dabei als hervorragende Wahl und boten den passenden Rahmen für einen intensiven Austausch über die Zukunft offener Bildung.
 
-![Eröffnung-digiLL-Tagung](digiLL-Tagung-Beginn.jpeg)
+![Eröffnung-digiLL-Tagung](digiLL-Tagung-Beginn.jpg)
 
 *Eröffnung von Joana Kadir & Matthias Kostrzewa vom digiLL-Team der Ruhr-Universität Bochum*
 
@@ -121,7 +121,7 @@ Die gesamte Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius
 
 Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)! 
 
-![Tauschtisch-digiLL-Tagung](digiLL-Tagung-Tauschtisch.jpeg)
+![Tauschtisch-digiLL-Tagung](digiLL-Tagung-Tauschtisch.jpg)
 
 ## Gemeinsames Storytelling als offene Lehr- und Lernpraxis
 
@@ -136,7 +136,7 @@ Zwar bezog sich die Aussage ursprünglich auf einen anderen Kontext, doch sie be
 
 Passend dazu ging Matthias Kostrzewa (Ruhr-Universität Bochum) in seinem Beitrag zu "Eine kleine Geschichte der Offenheit - Narrative Konzeptionen von OEP" auf Zukunftsutopien offener Bildungspraktiken ein. Sein Fazit: Nicht nur beschweren und Pessimismus, sondern nach Vorne schauen und gemeinsam Zukunft denken. Das scheint das digiLL-Team bereits sehr kreativ und fantasievoll zu tun, wie das Whiteboard im Büro zeigt.
 
-![Whiteboard-digiLL-Tagung](digiLL-Tagung-Kreativwall.jpeg)
+![Whiteboard-digiLL-Tagung](digiLL-Tagung-Kreativwall.jpg)
 
 ## Fazit
 

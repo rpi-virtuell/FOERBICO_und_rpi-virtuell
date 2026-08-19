@@ -71,7 +71,7 @@ Unsere gemeinsame Vision: Eine möglichst offene Lehr- und Lernkultur in der rel
 
 Nach ganz viel wichtigem Input wurde es nun etwas spielerischer: Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor? Was daraus entstehen kann, seht ihr hier:
 
-![Lego-Bauwerke](Lego.JPG "Lego-Bauwerke")
+![Lego-Bauwerke](Lego.jpg "Lego-Bauwerke")
 
 ## Ziele formulieren mit der SMART-Methode
 

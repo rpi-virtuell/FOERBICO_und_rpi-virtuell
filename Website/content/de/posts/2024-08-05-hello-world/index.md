@@ -15,7 +15,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/hello-world/FOERBICO-Team.png
+image: https://oer.community/hello-world/FOERBICO-Team.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -29,7 +29,7 @@ author:
 title: Hello World!
 cover:
   relative: true
-  image: FOERBICO-Team.png
+  image: FOERBICO-Team.jpg
   alt: Das FOERBICO Team
   caption: 'Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina'
   hiddenInSingle: true
@@ -52,7 +52,7 @@ FOERBICO ist ein Verbundprojekt des [Comenius-Instituts in Münster](https://com
 
 Unser interdisziplinäres Team ist nun komplett und wir freuen uns, gemeinsam durchzustarten 💪
 
-![Das FOERBICO Team](FOERBICO-Team.png "Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina")
+![Das FOERBICO Team](FOERBICO-Team.jpg "Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina")
 
 Erstes Treffen mit dem gesamten FOERBICO-Team am 5. August 2024 
 
