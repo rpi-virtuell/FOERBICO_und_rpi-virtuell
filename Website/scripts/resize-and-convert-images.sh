@@ -3,6 +3,11 @@
 # long edge <= MAX_DIM px, file size <= MAX_BYTES, in place.
 # Exception: PNGs already under PNG_KEEP_MAX_DIM px and PNG_KEEP_MAX_BYTES
 # bytes are left as PNG, untouched.
+# Exception: paths listed in EXCLUDE_RELATIVE (relative to content-dir) are
+# always left untouched, regardless of size/dimensions.
+# Non-image documents (.docx, .odp, etc.) are never in scope: the file
+# search below only ever matches png/PNG/jpeg/jpg/JPG, so such files are
+# never read or written by this script.
 # Updates filename references in content/**/*.md when a file gets renamed.
 #
 # Usage: scripts/resize-and-convert-images.sh [content-dir] --apply
@@ -21,6 +26,12 @@ PNG_KEEP_MAX_DIM=1600
 PNG_KEEP_MAX_BYTES=204800   # 200 KiB
 DRY_RUN=1
 CONTENT_DIR_SET=0
+
+# Paths relative to content-dir that must never be converted or renamed,
+# no matter their size or dimensions.
+EXCLUDE_RELATIVE=(
+  "de/posts/2024-08-05-hello-world/comenius-institut-logo.png"
+)
 
 usage() {
   echo "Usage: $0 [content-dir] --apply" >&2
@@ -61,14 +72,25 @@ if [ ! -d "$CONTENT_DIR" ]; then
   echo "Error: content dir '$CONTENT_DIR' not found." >&2
   exit 1
 fi
+CONTENT_DIR="${CONTENT_DIR%/}"
+
+is_excluded() {
+  local rel="$1" ex
+  for ex in "${EXCLUDE_RELATIVE[@]}"; do
+    [ "$rel" = "$ex" ] && return 0
+  done
+  return 1
+}
 
 converted=0
 renamed_only=0
 skipped_ok=0
 skipped_png_small=0
+skipped_excluded=0
 skipped_collision=0
 still_too_big=0
 errors=0
+collision_files=()
 
 mapfile -d '' files < <(find "$CONTENT_DIR" -type f \
   \( -name '*.png' -o -name '*.PNG' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.JPG' \) -print0 | sort -z)
@@ -80,10 +102,41 @@ echo
 
 update_refs() {
   # $1 old basename, $2 new basename, $3 directory to search (content root)
+  # Only rewrites the filename when it is a bare local reference or part of
+  # an oer.community URL. Any occurrence inside a URL to a DIFFERENT domain
+  # (e.g. a coincidentally identical WordPress upload filename mirrored on
+  # some unrelated site) is left untouched. Also only matches the filename
+  # as a whole token, so a short name like "2.jpg" can't match inside an
+  # unrelated "22.jpg".
   local old="$1" new="$2" root="$3"
+  local mdfile before after
   grep -rlF -- "$old" "$root" --include='*.md' 2>/dev/null | while IFS= read -r mdfile; do
-    OLD="$old" NEW="$new" perl -i -pe 's/\Q$ENV{OLD}\E/$ENV{NEW}/g' "$mdfile"
-    echo "    updated reference in $mdfile"
+    before=$(md5sum "$mdfile")
+    OLD="$old" NEW="$new" perl -i -pe '
+      # 1) stash every non-oer.community URL, replacing it with a NUL
+      #    placeholder (\x00 = NUL byte, never occurs in real text).
+      #    \x27 = escaped single quote, needed since this whole script
+      #    is itself inside single quotes on the bash side.
+      my @foreign_urls;
+      s{(https?://[^\s()<>"\x27]*)}{
+        my $url = $1;
+        $url =~ /oer\.community/ ? $url
+          : (push(@foreign_urls, $url), "\x00" . $#foreign_urls . "\x00");
+      }ge;
+
+      # 2) rename the old filename as a whole word only (foreign URLs
+      #    are gone now, so this cannot touch them).
+      s/(?<![\w-])\Q$ENV{OLD}\E(?![\w-])/$ENV{NEW}/g;
+
+      # 3) restore the stashed URLs.
+      s{\x00(\d+)\x00}{ $foreign_urls[$1] }ge;
+    ' "$mdfile"
+    after=$(md5sum "$mdfile")
+    if [ "$before" != "$after" ]; then
+      echo "    updated reference in $mdfile"
+    else
+      echo "    left untouched (only non-oer.community reference found) in $mdfile"
+    fi
   done
 }
 
@@ -97,6 +150,13 @@ for src in "${files[@]}"; do
   target="$dir/$stem.jpg"
 
   printf '[%d/%d] %s\n' "$i" "$total" "$src"
+
+  rel="${src#$CONTENT_DIR/}"
+  if is_excluded "$rel"; then
+    echo "  excluded by config, leaving untouched"
+    skipped_excluded=$((skipped_excluded+1))
+    continue
+  fi
 
   fmt=""
   if [ "$ext" = "png" ] || [ "$ext" = "PNG" ]; then
@@ -124,8 +184,9 @@ for src in "${files[@]}"; do
         skipped_ok=$((skipped_ok+1))
       else
         if [ -e "$target" ]; then
-          echo "  COLLISION: target '$target' already exists — skipping, needs manual review" >&2
+          echo "  COLLISION: '$src' -> target '$target' already exists — skipping, needs manual review"
           skipped_collision=$((skipped_collision+1))
+          collision_files+=("$src -> $target (target already exists)")
         elif [ "$DRY_RUN" -eq 1 ]; then
           echo "  would rename (no re-encode needed) -> $target"
         else
@@ -140,8 +201,9 @@ for src in "${files[@]}"; do
   fi
 
   if [ "$target" != "$src" ] && [ -e "$target" ]; then
-    echo "  COLLISION: target '$target' already exists — skipping, needs manual review" >&2
+    echo "  COLLISION: '$src' -> target '$target' already exists — skipping, needs manual review"
     skipped_collision=$((skipped_collision+1))
+    collision_files+=("$src -> $target (target already exists)")
     continue
   fi
 
@@ -208,6 +270,12 @@ echo "  converted (re-encoded): $converted"
 echo "  renamed only (already compliant): $renamed_only"
 echo "  already compliant, untouched: $skipped_ok"
 echo "  small PNGs kept as-is: $skipped_png_small"
+echo "  excluded by config: $skipped_excluded"
 echo "  skipped due to name collision: $skipped_collision"
+if [ "${#collision_files[@]}" -gt 0 ]; then
+  for f in "${collision_files[@]}"; do
+    echo "    - $f"
+  done
+fi
 echo "  still over size limit after max compression: $still_too_big"
 echo "  errors: $errors"
