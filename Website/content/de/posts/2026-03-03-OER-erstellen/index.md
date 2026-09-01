@@ -23,7 +23,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/oer-erstellen/How_to_get_started_OER_Xue_Paschke.png
+image: https://oer.community/oer-erstellen/How_to_get_started_OER_Xue_Paschke.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -36,7 +36,7 @@ author:
 title: 'OER erstellen – wie fange ich an?'
 cover:
   relative: true
-  image: How_to_get_started_OER_Xue_Paschke.png
+  image: How_to_get_started_OER_Xue_Paschke.jpg
   hiddenInSingle: false
 summary: |
     Der Einstieg in die OER-Erstellung ist oft mit Unsicherheiten verbunden. Der Beitrag bietet eine niedrigschwellige Orientierung mit Best-Practice-Beispielen für einen erleichterten Einstieg.
@@ -159,7 +159,7 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 
 - Editierbare Formate, die Weiterentwicklung ermöglichen
 
-![Pfad für OER-Erstellung](How_to_get_started_OER_Xue_Paschke.png)
+![Pfad für OER-Erstellung](How_to_get_started_OER_Xue_Paschke.jpg)
 
 Abbildung 2: Pfad für OER-Erstellung, eigene Darstellung
 

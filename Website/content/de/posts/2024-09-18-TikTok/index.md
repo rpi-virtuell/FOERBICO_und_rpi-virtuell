@@ -45,7 +45,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum/kemnitzer-tiktok.png
+image: https://oer.community/theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum/kemnitzer-tiktok.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -68,7 +68,7 @@ author:
 title: 'Theologie auf TikTok: Religiöse Kommunikation im digitalen Raum'
 cover:
   relative: true
-  image: kemnitzer-tiktok.png
+  image: kemnitzer-tiktok.jpg
   alt: Prof. Konstanze Kemnitzer erklärt Theologie auf TikTok
   hiddenInSingle: true
 summary: Religiöse Themen auf TikTok? Was zunächst widersprüchlich erscheint, ist für Konstanze Kemnitzer, Professorin für Praktische Theologie, gelebte Realität. Sie nutzt seit Mai 2022 ihren Kanal auf TikTok nicht nur für ihre Forschung, sondern auch, um mit jungen Menschen ins Gespräch über Glaubensfragen zu kommen. Wir haben uns zu einem Zoom-Meeting getroffen und wollen euch in diesem Beitrag dokumentieren, welche Möglichkeiten sich dabei für die Theologie und religionsbezogene Bildung über TikTok erschließen.
@@ -81,7 +81,7 @@ tags:
   - Theologie
 ---
 
-![](kemnitzer-tiktok.png)
+![](kemnitzer-tiktok.jpg)
 Untertitel: "Mehr als nur 'cringe'? – Theologie-Professorin Konstanze Kemnitzer über TikTok als  "Imaginationsraum" und "Produkt""
 
 ## Warum TikTok?

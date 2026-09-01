@@ -21,7 +21,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
   - https://w3id.org/kim/hochschulfaechersystematik/n01
-image: https://oer.community/junia/Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
+image: https://oer.community/junia/Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -41,7 +41,7 @@ author:
 title: 'Auf der Suche nach Junia(s)'
 cover:
   relative: true
-  image: Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png
+  image: Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg
   hiddenInSingle: true
 summary: >-
   Das Material beschäftigt sich mit der textkritischen Frage, welche Person Paulus in Röm 16,7 als Apostel grüßt (eine Frau? einen Mann?) und vermittelt dabei Grundlagen zur antiken Schreibkultur und wissenschaftlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (ab Klasse 8) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
@@ -126,7 +126,7 @@ Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
 
-![Beispielbild der Präsentation](Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+![Beispielbild der Präsentation](Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -139,7 +139,7 @@ Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Pa
 3.	Wer war Paulus und wie entstanden seine Texte?
 4.	Wen hat Paulus wahrscheinlich in Röm 16,7 gemeint – Junia oder Junias?
 
-![Beispielbild der Präsentation, Ausschnitt 1](Praesentation-Beispiel-Ausschnitt-1-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+![Beispielbild der Präsentation, Ausschnitt 1](Praesentation-Beispiel-Ausschnitt-1-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -176,7 +176,7 @@ Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 Die in der Materialmappe enthaltenen Lese- und Schreibübungen (S. 1) werden in Einzelarbeit mithilfe der angeführten Erläuterungen durchgeführt und gemeinsam kontrolliert. Die dritte Teilaufgabe zielt darauf ab, das Fehlen von Akzenten bei Majuskel-Handschriften einzuführen und die Arbeit mit der Tabelle (S. 3) einzuüben, indem für die Minuskel-Form Iουνιαν die Akzente für beide Genera von den SuS ergänzt werden.
 
-![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -194,7 +194,7 @@ Die SuS sollen sie grammatisch bestimmen, Unterschiede auflisten und die Formen 
 
 Die SuS tragen ihre Hypothesen vor. Diese werden diskutiert. 
 
-![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.png)
+![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 

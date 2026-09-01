@@ -79,7 +79,7 @@ Besonders hervorzuheben sind drei Prinzipien, die Deeper Learning veranschaulich
 
 - **Kooperative Professionalität**: Lehrkräfte arbeiten kooperativ, designen Unterricht in Teams und geben sich gegenseitig Feedback. Dies ermöglicht eine adaptive Perspektive der Lehrkräfte, welche es ihnen ermöglicht, flexibel und professionell auf unterschiedliche pädagogische Situationen beim Deeper Learning adäquat zu reagieren.
 
-![Präsentation des FOERBICO-Projekts](praesentation-foerbico.jpeg)
+![Präsentation des FOERBICO-Projekts](praesentation-foerbico.jpg)
 
 ## FOERBICO goes ÖRF
 

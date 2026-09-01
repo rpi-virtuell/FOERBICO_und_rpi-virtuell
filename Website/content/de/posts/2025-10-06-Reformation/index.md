@@ -72,7 +72,7 @@ Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder d
 Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](Vorlage%20Instagram-Post.pdf)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 
-![](Toolhinweis.JPG) 
+![](Toolhinweis.jpg) 
 
 Weitere Infos hier in den [Nutzungshinweisen von Zeoob](https://zeoob.com/terms-and-conditions/)
 
@@ -216,7 +216,7 @@ Vorschläge:
 Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botschaft.“
 
 ### Dieser Beitrag illustriert auf Instagram
-[![](1.png)](https://www.instagram.com/p/DPvl4HrjeGp)
+[![](1.jpg)](https://www.instagram.com/p/DPvl4HrjeGp)
 
 (Bildlizenz: Canva - Durch Klicken auf das Bild landest du beim [Beitrag auf Instagram](https://www.instagram.com/p/DPvl4HrjeGp))
 

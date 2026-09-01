@@ -19,7 +19,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/instagram-als-lernort/ima_22a17d4.jpeg
+image: https://oer.community/instagram-als-lernort/ima_22a17d4.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -38,7 +38,7 @@ title: Instagram als religionspädagogischer Lernort
 cover:
   relative: true
   hiddenInSingle: true
-  image: ima_22a17d4.jpeg
+  image: ima_22a17d4.jpg
 summary: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: instagram-als-lernort
 tags:
@@ -59,9 +59,9 @@ Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räum
 
 Der Instagram-Kanal der evangelischen Fachrichtung „Neues Testament“ (NT) an der TU Dortmund verbindet spannende News über aktuelle Forschung, Einblicke in das Theologiestudium und aufbereitete Bibelstellen lehrplanbezogener religionspädagogischer Themen - hier ein Beispiel:
 
-![](ima_2648be8.jpeg)
-![](ima_a6fc6d5.jpeg)
-![](ima_eb6a938.jpeg)
+![](ima_2648be8.jpg)
+![](ima_a6fc6d5.jpg)
+![](ima_eb6a938.jpg)
 
 Bilder und Sprache wirken bewusst niedrigschwellig, gleichzeitig ist die Botschaft klar: Das Evangelium ist anschlussfähig - auch heute. Jedes Visual bringt die Themen auf den Punkt und leitet an, wie es mit Lernenden bearbeitet werden kann.
 
