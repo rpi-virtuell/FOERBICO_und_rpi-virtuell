@@ -1,4 +1,58 @@
-# Zwischen OER, Demokratie und Pirat:innen – Eindrücke vom OERcamp 2026
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Zwischen OER, Demokratie und Pirat:innen – Eindrücke vom OERcamp 2026'
+description: 'Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team war vertreten: Gina war mit dabei und nimmt euch in diesem Blogbeitrag mit auf ihre Eindrücke, Diskussionen und die Fragen, die sie vom Wochenende mitgenommen hat.'
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/OERcamp-2026
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+image: https://oer.community/Gina-OERcamp.jpeg
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: 2026-09-01
+tags:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Barcamp
+  - FOERBICO in Kontakt
+  - OER-Community
+  - OERcamp
+
+# staticSiteGenerator
+author:
+  - Gina Buchwald-Chassée
+title: 'Zwischen OER, Demokratie und hOERoskop – Eindrücke vom OERcamp 2026'
+cover:
+  relative: true
+  image: Gina-OERcamp.jpeg
+  hiddenInSingle: false
+summary: >-
+  Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Als Teil des FOERBICO-Teams war Gina vom Comenius-Institut vor Ort und hat nicht nur an verschiedenen Sessions teilgenommen, sondern auch selbst einen Einblick in das Projekt und die Arbeit an offenen Bildungsinfrastrukturen gegeben. Im Blogbeitrag schildert sie ihre Eindrücke und die Fragen, die sie vom OERcamp mitgenommen hat.
+url: OERcamp-2026
+keywords:
+  - Open Educational Resources (OER)
+  - Open Educational Practices (OEP)
+  - Barcamp
+  - FOERBICO in Kontakt
+  - OER-Community
+  - OERcamp
+---
 
 Ein Wochenende voller Impulse, spannender Diskussionen, neuer Ideen und dazwischen viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team vom Comenius-Institut war vor Ort und brachte eigene Perspektiven auf offene Bildungspraktiken und Bildungsinfrastrukturen mit. Dabei zeigte sich schnell: Beim OERcamp ging es um weit mehr als die Frage, wo gute freie Bildungsmaterialien zu finden sind. Es ging um Beteiligung, Lernkultur, Community, technische Infrastrukturen und um die Frage, welche Rahmenbedingungen es eigentlich braucht, damit Offenheit funktionieren kann.
 
@@ -7,6 +61,8 @@ Ein Wochenende voller Impulse, spannender Diskussionen, neuer Ideen und dazwisch
 Seit 2012 bringen die OERcamps Menschen aus der Welt der Offenen Bildung zusammen. Das Besondere: Ein OERcamp ist kein klassischer Kongress mit fertig geplantem Programm. Es ist ein Barcamp, bei dem die Teilnehmenden gleichzeitig Teilgebende sind und das Programm selbst gestalten. Nach einer kurzen Eröffnung ging es deshalb direkt ans gemeinsame Machen, Diskutieren und Ausprobieren.
 
 ## Mit offenen Bildungspraktiken Demokratiebildung gestalten 💬
+
+![](Demokratiebildung.jpeg)
 
 Wann ist Bildung tatsächlich offen und wann sieht sie nur so aus? Mit dieser Frage beschäftigte sich ein Workshop von [Wikimedia](https://www.wikimedia.de/) und [Aula](https://www.aula.de/) zu Open Educational Practices (OEP) und Demokratiebildung. Im Mittelpunkt standen zwei konkrete Szenarien aus dem Schulalltag und einem Projekttag.
 
@@ -17,6 +73,8 @@ Beim Projekttag zeigte sich ein weiteres Problem: Obwohl OER-Materialien verwend
 **Offenheit auf dem Papier ist eben noch keine echte Beteiligung. Der Einsatz von OER-Materialien allein macht noch keine offene Bildungspraxis.**
 
 ## Community-Konsultation: Was brauchen wir, um OER & OEP langfristig zu verankern? 🤔
+
+![](Community-Konsultation.jpeg)
 
 Was würde passieren, wenn OER-Projekte nicht mehr gefördert werden? Wo würden wir in zehn Jahren stehen? Mit diesen Reflexionsfragen startete die von Anette Kuhn moderierte Community-Konsultation. An verschiedenen Posterwänden wurde darüber diskutiert, was es braucht, damit OER und OEP langfristig Wirkung entfalten können.
 
@@ -31,7 +89,7 @@ Jöran Muuß-Merholz nahm die Teilnehmenden in seinem Vortrag „2500 Jahre Barc
 
 Der Vortrag wurde aufgezeichnet und soll demnächst veröffentlicht werden. Reinschauen lohnt sich!
 
-**Bild Jöran**
+![](Barcamps.jpeg)
 
 ## Nächster Tag: Sessions, Sessions, Sessions 🤯
 
@@ -84,11 +142,13 @@ Damit entstehen allerdings auch neue Fragen: Wie kommen Informationen zu Edufeed
 
 Mehr zum Thema gibt es im [Blogbeitrag auf OERinfo](https://open-educational-resources.de/oeffentliche-bildungsinfrastrukturen-huerden-und-erste-loesungsansaetze-mit-nostr/).
 
-Weitere Informationen zu FOERBICO gibt es unter [oer.community](https://oer.community/). Der Austausch zu Edufeed findet außerdem im offenen Element-Raum statt.
+Weitere Informationen zu FOERBICO gibt es unter [oer.community](https://oer.community/). Der Austausch zu Edufeed findet außerdem im offenen [Element-Raum](https://matrix.to/#/#edufeed:rpi-virtuell.de) statt.
 
 Da es unmöglich ist, bei einem OERcamp alle Sessions gleichzeitig zu besuchen, lohnt sich auch ein Blick in das vollständige [Programm des OERcamp 2026](https://go.oercamp.de/berlin-2026/schedule/).
 
 ## Get together, Networking & Funtime 🎉
+
+![](Bildungszentrum.jpeg)
 
 Bei all den spannenden Diskussionen darf ein entscheidender Teil des OERcamps nicht fehlen: **die Menschen.**
 
@@ -98,9 +158,7 @@ Auch das Team von Jöran & Konsorten hatte wieder allerlei kreative Aktionen vor
 
 So ging es am Ende nicht nur mit neuen Ideen nach Hause, sondern vielleicht auch mit einem selbst bedruckten T-Shirt, einem Button und jeder Menge neuer Kontakte.
 
-**Bild Community-Chinchilla**
-
-**Bild Bildungslücke**
+![](hOERoskop.jpeg)
 
 ## Ausblick: Nächste Veranstaltungen 🗓️
 
