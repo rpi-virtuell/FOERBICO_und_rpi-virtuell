@@ -83,3 +83,13 @@ jobs:
           path: mdparser/sync/logs/publish-*.json
           retention-days: 30
           if-no-files-found: warn
+
+      # Die Zusammenfassung steht als Job-Summary auf der Run-Seite (cli.ts
+      # schreibt sie nach GITHUB_STEP_SUMMARY). Dieser Step macht zusaetzlich
+      # sichtbar, wenn der Publish-Step gar nicht erst lief.
+      - name: Kein Publish gelaufen
+        if: failure()
+        run: |
+          echo "> [!CAUTION]" >> "$GITHUB_STEP_SUMMARY"
+          echo "> Der Sync ist abgebrochen — es wurde **nichts publiziert**." >> "$GITHUB_STEP_SUMMARY"
+          echo "> Haeufigste Ursache: Bunker-Pairing tot (siehe SETUP-GUIDE, Huerde 4)." >> "$GITHUB_STEP_SUMMARY"
