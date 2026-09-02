@@ -55,7 +55,8 @@ jobs:
           CONTENT_ROOT: ${{ github.workspace }}/content-repo/Website/content
         run: |
           deno run \
-            --allow-env --allow-read --allow-write=./logs \
+            --allow-env --allow-read \
+            --allow-write=./logs,"$GITHUB_STEP_SUMMARY" \
             --allow-net --allow-run=git \
             cli.ts publish --force-all
 
@@ -71,7 +72,8 @@ jobs:
           GITHUB_EVENT_BEFORE: ${{ github.event.before }}
         run: |
           deno run \
-            --allow-env --allow-read --allow-write=./logs \
+            --allow-env --allow-read \
+            --allow-write=./logs,"$GITHUB_STEP_SUMMARY" \
             --allow-net --allow-run=git \
             cli.ts publish
 
