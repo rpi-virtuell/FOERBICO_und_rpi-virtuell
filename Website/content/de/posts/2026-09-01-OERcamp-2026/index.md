@@ -164,9 +164,9 @@ So ging es am Ende nicht nur mit neuen Ideen nach Hause, sondern vielleicht auch
 
 Wer jetzt Lust auf mehr OERcamp bekommen hat, kann sich direkt die nächsten Termine vormerken:
 
-* **OERcamp How-to-Barcamp (auch für Schule!)** – 19. September 2026, 9–17 Uhr in Hamburg
-* **OERcamp bei der TUN-Konferenz** – 2. Dezember 2026, 9–16 Uhr in Dortmund
-* **OERcamp.global** – 23. und 24. Februar 2027, online
+* **[OERcamp How-to-Barcamp (auch für Schule!)](https://oercamp.de/veranstaltungen/howto-barcamp-hamburg-2026/)** – 19. September 2026, 9–17 Uhr in Hamburg
+* **[OERcamp bei der TUN-Konferenz](https://oercamp.de/veranstaltungen/dortmund-2026/)** – 2. Dezember 2026, 9–16 Uhr in Dortmund
+* **[OERcamp.global](https://oercamp.de/veranstaltungen/global-2027/)** – 23. und 24. Februar 2027, online
 
 Diese und weitere Veranstaltungen gibt es auf der Seite des [OERcamp](https://oercamp.de/veranstaltungen/). Weitere Informationen zu Offenen Bildungsmaterialien finden sich bei [OERinfo](https://open-educational-resources.de/).
 
