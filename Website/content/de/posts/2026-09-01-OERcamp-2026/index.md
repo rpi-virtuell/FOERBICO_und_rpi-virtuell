@@ -93,7 +93,7 @@ Der Vortrag wurde aufgezeichnet und soll demnächst veröffentlicht werden. Rein
 
 ## Nächster Tag: Sessions, Sessions, Sessions 🤯
 
-Der zweite Tag startete mit Grußworten. Detlev Reuter vom Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) brachte dabei einen Gedanken auf den Punkt, der auch für viele Diskussionen des Tages relevant war:
+Der zweite Tag startete mit Grußworten. Detlef Reuter vom Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) brachte dabei einen Gedanken auf den Punkt, der auch für viele Diskussionen des Tages relevant war:
 
 > „Es geht nicht um mehr Materialien, sondern um eine Veränderung von Lernen und Lehren.“
 
