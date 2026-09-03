@@ -170,7 +170,7 @@ Wer jetzt Lust auf mehr OERcamp bekommen hat, kann sich direkt die nächsten Ter
 
 Diese und weitere Veranstaltungen gibt es auf der Seite des [OERcamp](https://oercamp.de/veranstaltungen/). Weitere Informationen zu Offenen Bildungsmaterialien finden sich bei [OERinfo](https://open-educational-resources.de/).
 
-Weitere Einblicke von Teilnehmenden gibt es unter **#OERcamp**, vor allem auf Mastodon und LinkedIn.
+Weitere Einblicke von Teilnehmenden gibt es unter **#OERcamp**, vor allem auf Mastodon und LinkedIn sowie im [Blogbeitrag vom OERcamp](https://oercamp.de/2026/09/02/drei-tage-offene-bildung-rueckblick-auf-das-oercamp-2026-in-berlin/).
 
 Vielen Dank an das Organisationsteam für ein inspirierendes Wochenende, wir freuen uns schon aufs nächste Mal 💞
 
