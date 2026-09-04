@@ -1,0 +1,33 @@
+# Lizenznachweise je Bild → werden von scripts/md2blossom.mjs zu kind:1063.
+# Pflicht: title, credit, license. Solange auskommentiert, meldet das Skript TODO:LICENSE.
+
+Gina-OERcamp.jpeg:
+  # title:
+  # credit:
+  # license: https://creativecommons.org/licenses/by/4.0/
+  # alt:
+
+Demokratiebildung.jpeg:
+  # title:
+  # credit:
+  # license:
+
+Community-Konsultation.jpeg:
+  # title:
+  # credit:
+  # license:
+
+Barcamps.jpeg:
+  # title:
+  # credit:
+  # license:
+
+Bildungszentrum.jpeg:
+  # title:
+  # credit:
+  # license:
+
+hOERoskop.jpeg:
+  # title:
+  # credit:
+  # license:
