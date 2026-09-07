@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 type: LearningResource
-name: 'Zwischen OER, Demokratie und Pirat:innen – Eindrücke vom OERcamp 2026'
+name: 'Zwischen OER, Demokratie und hOERoskop – Eindrücke vom OERcamp 2026'
 description: 'Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team war vertreten: Gina war mit dabei und nimmt euch in diesem Blogbeitrag mit auf ihre Eindrücke, Diskussionen und die Fragen, die sie vom Wochenende mitgenommen hat.'
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/oercamp-2026
@@ -37,7 +37,7 @@ tags:
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: 'Zwischen OER, Demokratie und Pirat:innen – Eindrücke vom OERcamp 2026'
+title: 'Zwischen OER, Demokratie und hOERoskop – Eindrücke vom OERcamp 2026'
 cover:
   relative: true
   image: Gina-OERcamp.jpeg
