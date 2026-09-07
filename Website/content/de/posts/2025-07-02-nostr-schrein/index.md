@@ -22,7 +22,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/die-kraft-der-gemeinschaft/nosTr-schrein.jpg
+image: https://blossom.edufeed.org/a2a54ea54f386ba0abceb4d28498c4c5c0b66da153bdec04c36bf40a6c32bf5b.jpeg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -35,8 +35,8 @@ author:
   - Jörg Lohrer
 title: 'Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen, sondern in Prozessen'
 cover:
-  relative: true
-  image: nosTr-schrein.jpg
+  relative: false
+  image: https://blossom.edufeed.org/a2a54ea54f386ba0abceb4d28498c4c5c0b66da153bdec04c36bf40a6c32bf5b.jpeg
   caption: 'Symbolbild: Der Ise-Schrein als Metapher für erneuerbare, gemeinschaftsgetragene Bildungsinfrastruktur.'
   alt: Darstellung eines Schreins als Sinnbild zyklischer Erneuerung; übertragen auf offene Bildungsinfrastrukturen (z. B. Nostr).
   hiddenInSingle: true
@@ -49,6 +49,14 @@ tags:
   - FOERBICO
   - Nostr
   - Bildungsinfrastruktur
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+bilder:
+  "https://blossom.edufeed.org/a2a54ea54f386ba0abceb4d28498c4c5c0b66da153bdec04c36bf40a6c32bf5b.jpeg":
+    alt: Darstellung eines Schreins als Sinnbild zyklischer Erneuerung; übertragen auf offene Bildungsinfrastrukturen (z. B. Nostr).
+    title: nosTr-schrein
+    author: Comenius-Institut
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    pubkey: 5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf
 ---
 
 Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle gelingen können. Eine wichtige Erkenntnis, die wir bisher gewinnen konnten: Die  Robustheit eines Systems hängt weniger von seinen organisatorischen oder technischen Strukturen ab, sondern vor allem von der Kontinuität und  Anpassungsfähigkeit seiner zugrunde liegenden Prozesse. Wenn wir mit einer Hub-Entwicklung die Bildungscommunities dabei unterstützen wollen, dass ihre Prozesse der OEP (Open Educational Practice) "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir eine Technik, die die zyklischen Erneuerungsprozesse dieser Communities nachhaltig unterstützt. Lasst uns einen Blick über den Tellerrand wagen und uns Inspiration aus jahrtausendealten Traditionen und Open-Source-Prinzipien schöpfen:
@@ -89,7 +97,8 @@ Hier kannst du mitmachen:
     - Hier ein paar Accounts z.B. von [Jörg](https://njump.me/npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9) oder [Steffen](https://njump.me/npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma)
 - GitHub [Edufeed](https://github.com/edufeed-org): Wo wir gemeinsam an der Zukunft bauen
 
-![](nosTr-schrein.jpg)
+![Darstellung eines Schreins als Sinnbild zyklischer Erneuerung; übertragen auf offene Bildungsinfrastrukturen (z. B. Nostr).](https://blossom.edufeed.org/a2a54ea54f386ba0abceb4d28498c4c5c0b66da153bdec04c36bf40a6c32bf5b.jpeg)
+nosTr-schrein, Comenius-Institut, [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 **Inspirationen:**
 - [Clay Shirky: Love, Internet Style](https://www.youtube.com/watch?v=Xe1TZaElTAs)
