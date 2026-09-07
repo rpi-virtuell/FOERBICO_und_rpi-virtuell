@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beitrag live – Bilder mit Lizenznachweis vom Relay</title>
+<!--
+  Demonstrator: Ein oer.community-Beitrag (kind:30023) direkt von den Relays,
+  jedes Bild mit seinem Lizenznachweis (kind:1063), live per Hash (x-Tag) geholt.
+  Zeigt den Unterschied, den die Spec vom 07.09.2026 festlegt:
+    Caption im Markdown = Eingabe · kind:1063 auf dem Relay = Wahrheit.
+  Aufruf: beitrag-live.html            → oercamp-2026
+          beitrag-live.html?d=<slug>   → anderer Beitrag des FOERBICO-Keys
+  Eine Datei, kein Build. Einzige Abhängigkeit: marked (Markdown → HTML) von cdnjs.
+  Zustände und Texte folgen community-hub/src/lib/models/lizenz.js (ADR-0013/0022).
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.12/marked.min.js"></script>
+<style>
+  :root {
+    --tinte: #1f2933; --grau: #6b7280; --linie: #e5e7eb; --papier: #fafaf9; --karte: #fff;
+    --akzent: #2563eb; --ok: #15803d; --ok-bg: #ecfdf5; --warn: #b45309; --warn-bg: #fffbeb;
+    --fehl: #b91c1c; --fehl-bg: #fef2f2; --eingabe: #6d28d9; --eingabe-bg: #f5f3ff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--tinte); background: var(--papier); line-height: 1.6; }
+  header.leiste { position: sticky; top: 0; z-index: 2; background: var(--karte); border-bottom: 1px solid var(--linie); padding: .6rem 1rem; font-size: .85rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+  header.leiste strong { color: var(--akzent); }
+  .relay { display: inline-flex; align-items: center; gap: .35rem; color: var(--grau); }
+  .relay::before { content: ''; width: .55rem; height: .55rem; border-radius: 50%; background: #d1d5db; }
+  .relay.offen::before { background: var(--ok); }
+  .relay.fehler::before { background: var(--fehl); }
+  main { max-width: 760px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+  .meta { color: var(--grau); font-size: .9rem; }
+  h1.titel { font-size: 1.9rem; line-height: 1.25; margin: .4rem 0 .6rem; }
+  .summary { font-size: 1.05rem; color: #374151; border-left: 3px solid var(--linie); padding-left: .9rem; margin: 1rem 0 1.5rem; }
+  .tags span { display: inline-block; background: #eef2ff; color: #3730a3; border-radius: 999px; padding: .1rem .6rem; font-size: .8rem; margin: 0 .3rem .3rem 0; }
+  .inhalt img, figure.bild img { max-width: 100%; height: auto; display: block; border-radius: 6px; }
+  figure.bild { margin: 1.6rem 0; background: var(--karte); border: 1px solid var(--linie); border-radius: 10px; overflow: hidden; }
+  figure.bild > img { border-radius: 0; }
+  .zeile { padding: .55rem .9rem; font-size: .88rem; border-top: 1px solid var(--linie); }
+  .zeile .label { display: inline-block; font-size: .7rem; text-transform: uppercase; letter-spacing: .04em; font-weight: 600; margin-right: .5rem; padding: .05rem .45rem; border-radius: 4px; }
+  .eingabe { background: var(--eingabe-bg); }
+  .eingabe .label { color: var(--eingabe); background: #ede9fe; }
+  .nachweis { background: var(--karte); }
+  .nachweis.ok .label { color: var(--ok); background: var(--ok-bg); }
+  .nachweis.warn .label { color: var(--warn); background: var(--warn-bg); }
+  .nachweis.fehl .label { color: var(--fehl); background: var(--fehl-bg); }
+  .nachweis .details { color: var(--grau); font-size: .8rem; margin-top: .25rem; }
+  .nachweis code { font-size: .78rem; background: #f3f4f6; padding: 0 .3rem; border-radius: 3px; }
+  details.tags1063 { margin-top: .35rem; font-size: .78rem; }
+  details.tags1063 summary { cursor: pointer; color: var(--grau); }
+  details.tags1063 table { border-collapse: collapse; margin-top: .3rem; }
+  details.tags1063 td { padding: .1rem .5rem .1rem 0; vertical-align: top; word-break: break-all; }
+  details.tags1063 td:first-child { color: var(--grau); white-space: nowrap; }
+  .inhalt h2 { margin-top: 2rem; font-size: 1.35rem; }
+  .inhalt blockquote { border-left: 3px solid var(--akzent); margin: 1rem 0; padding: .2rem 1rem; color: #374151; }
+  .inhalt a, .zeile a { color: var(--akzent); }
+  .hinweis { background: var(--karte); border: 1px solid var(--linie); border-radius: 8px; padding: .8rem 1rem; font-size: .9rem; color: var(--grau); }
+  .fehlerbox { background: var(--fehl-bg); color: var(--fehl); border-radius: 8px; padding: .8rem 1rem; }
+  footer { max-width: 760px; margin: 0 auto; padding: 0 1rem 2rem; color: var(--grau); font-size: .8rem; }
+</style>
+</head>
+<body>
+<header class="leiste">
+  <strong>Beitrag live</strong>
+  <span id="relays"></span>
+  <span id="zaehler" class="meta"></span>
+</header>
+<main id="main"><p class="hinweis">Lade Beitrag …</p></main>
+<footer>
+  Demonstrator aus dem FOERBICO-Repo (<code>docs/beitrag-live.html</code>). Artikel und Nachweise kommen live von den Relays,
+  nichts ist vorgerendert. Konvention: <em>Caption im Markdown ist Eingabe, der kind:1063 auf dem Relay ist Wahrheit.</em>
+</footer>
+
+<script>
+// ---------- Konfiguration ----------
+const FOERBICO_PUBKEY = '5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf';
+const ARTIKEL_RELAYS = ['wss://relay-rpi.edufeed.org/', 'wss://relay.edufeed.org/'];
+const LIZENZ_RELAYS  = ['wss://relay-rpi.edufeed.org/', 'wss://relay.edufeed.org/'];
+const SLUG = new URLSearchParams(location.search).get('d') || 'oercamp-2026';
+const TIMEOUT_MS = 7000;
+
+// Texte wie community-hub/src/lib/models/lizenz.js (GRUND_TEXT)
+const GRUND_TEXT = {
+  'kein-x-tag': 'Am Artikel fehlt das x-Tag — ohne Hash ist kein Nachweis auffindbar.',
+  'kein-nachweis': 'Zu diesem Bild wurde auf keinem Relay ein kind:1063 gefunden.',
+  'pflichtfeld-fehlt': 'Dem Nachweis fehlt die Lizenzangabe, oder er gehört zu einem anderen Bild.',
+  'hash-widerspruch': 'Der Hash des ausgelieferten Bildes passt nicht zum Nachweis.',
+};
+const LIZENZ_KURZ = [
+  [/publicdomain\/zero/, 'CC0'], [/licenses\/by-nc-sa/, 'CC BY-NC-SA 4.0'], [/licenses\/by-nc-nd/, 'CC BY-NC-ND 4.0'],
+  [/licenses\/by-nc/, 'CC BY-NC 4.0'], [/licenses\/by-nd/, 'CC BY-ND 4.0'], [/licenses\/by-sa/, 'CC BY-SA 4.0'], [/licenses\/by/, 'CC BY 4.0'],
+];
+const lizenzKurz = (url) => (LIZENZ_KURZ.find(([re]) => re.test(url)) || [null, url])[1];
+const HASH_IM_PFAD = /\/([0-9a-f]{64})(?:\.[a-z0-9]+)?$/i;
+function hashAusUrl(url) { try { const m = new URL(url).pathname.match(HASH_IM_PFAD); return m ? m[1].toLowerCase() : null; } catch { return null; } }
+const tag = (ev, n) => (ev.tags.find((t) => t[0] === n) || [])[1] ?? null;
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+// ---------- Nostr: eine REQ je Relay, Ergebnis bis EOSE ----------
+const relayStatus = {};
+function zeigeRelays() {
+  document.getElementById('relays').innerHTML = Object.entries(relayStatus)
+    .map(([r, s]) => `<span class="relay ${s}">${esc(new URL(r).host)}</span>`).join(' ');
+}
+function req(relay, filter) {
+  return new Promise((resolve) => {
+    const events = [];
+    const subId = 'q' + Math.random().toString(36).slice(2, 9);
+    let ws; let fertig = false;
+    const ende = () => { if (fertig) return; fertig = true; try { ws.close(); } catch {} resolve(events); };
+    const timer = setTimeout(() => { relayStatus[relay] = relayStatus[relay] || 'fehler'; zeigeRelays(); ende(); }, TIMEOUT_MS);
+    try { ws = new WebSocket(relay); } catch { clearTimeout(timer); relayStatus[relay] = 'fehler'; zeigeRelays(); return resolve(events); }
+    ws.onopen = () => { relayStatus[relay] = 'offen'; zeigeRelays(); ws.send(JSON.stringify(['REQ', subId, filter])); };
+    ws.onmessage = (m) => {
+      let d; try { d = JSON.parse(m.data); } catch { return; }
+      if (d[0] === 'EVENT' && d[1] === subId) events.push(d[2]);
+      if (d[0] === 'EOSE' && d[1] === subId) { clearTimeout(timer); ende(); }
+    };
+    ws.onerror = () => { relayStatus[relay] = 'fehler'; zeigeRelays(); };
+    ws.onclose = () => { clearTimeout(timer); ende(); };
+  });
+}
+async function reqAlle(relays, filter) {
+  const listen = await Promise.all(relays.map((r) => req(r, filter)));
+  const gesehen = new Map();
+  for (const ev of listen.flat()) if (!gesehen.has(ev.id)) gesehen.set(ev.id, ev);
+  return [...gesehen.values()];
+}
+// Neuestes created_at gewinnt, Gleichstand kleinste id (ADR-0010, wie edufeed)
+function neuestes(events) {
+  return [...events].sort((a, b) => (b.created_at - a.created_at) || (a.id < b.id ? -1 : 1))[0] || null;
+}
+
+// ---------- Nachweis (kind:1063) ----------
+const nachweisCache = new Map();
+async function nachweisZuHash(hash) {
+  if (!nachweisCache.has(hash)) {
+    nachweisCache.set(hash, reqAlle(LIZENZ_RELAYS, { kinds: [1063], '#x': [hash], limit: 20 }).then(neuestes));
+  }
+  return nachweisCache.get(hash);
+}
+async function sha256VonUrl(url) {
+  try {
+    const r = await fetch(url, { mode: 'cors', cache: 'force-cache' });
+    if (!r.ok) return { fehler: `HTTP ${r.status}` };
+    const buf = await r.arrayBuffer();
+    const h = await crypto.subtle.digest('SHA-256', buf);
+    return { hash: [...new Uint8Array(h)].map((b) => b.toString(16).padStart(2, '0')).join('') };
+  } catch (e) { return { fehler: 'nicht prüfbar (CORS oder Netz)' }; }
+}
+// Caption nach bildattribution.md: [title](sourceUrl), [author](authorUrl), [licence](licenceUrl), modification
+function captionAusNachweis(ev) {
+  const t = (n) => tag(ev, n);
+  const link = (text, url) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+  const teile = [];
+  if (t('title')) teile.push(link(t('title'), t('source')));
+  if (t('credit')) teile.push(link(t('credit'), t('authorUrl')));
+  teile.push(link(lizenzKurz(t('license')), t('license')));
+  if (t('modification')) teile.push(esc(t('modification')));
+  return teile.join(', ');
+}
+let nNachweise = 0, nBilder = 0;
+function zaehler() { document.getElementById('zaehler').textContent = `${nNachweise} von ${nBilder} Bildern mit Nachweis`; }
+
+async function annotiere(figure, bildUrl) {
+  const box = figure.querySelector('.nachweis');
+  const hash = hashAusUrl(bildUrl);
+  nBilder++; zaehler();
+  if (!hash) {
+    box.className = 'zeile nachweis warn';
+    box.innerHTML = `<span class="label">kein Hash</span> ${esc(GRUND_TEXT['kein-x-tag'])}<div class="details">URL ohne SHA-256 im Pfad: <code>${esc(bildUrl)}</code></div>`;
+    return;
+  }
+  box.innerHTML = `<span class="label">Nachweis</span> suche kind:1063 zu <code>${hash.slice(0, 12)}…</code> …`;
+  const [ev, blob] = await Promise.all([nachweisZuHash(hash), sha256VonUrl(bildUrl)]);
+  if (!ev) {
+    box.className = 'zeile nachweis fehl';
+    box.innerHTML = `<span class="label">kein Nachweis</span> ${esc(GRUND_TEXT['kein-nachweis'])}<div class="details">x = <code>${hash}</code></div>`;
+    return;
+  }
+  if (!tag(ev, 'license') || tag(ev, 'x') !== hash) {
+    box.className = 'zeile nachweis fehl';
+    box.innerHTML = `<span class="label">unvollständig</span> ${esc(GRUND_TEXT['pflichtfeld-fehlt'])}`;
+    return;
+  }
+  const hashOk = blob.hash ? blob.hash === hash : null;
+  if (hashOk === false) {
+    box.className = 'zeile nachweis fehl';
+    box.innerHTML = `<span class="label">Hash-Widerspruch</span> ${esc(GRUND_TEXT['hash-widerspruch'])}<div class="details">Nachweis <code>${hash.slice(0, 12)}…</code>, geliefert <code>${blob.hash.slice(0, 12)}…</code></div>`;
+    return;
+  }
+  nNachweise++; zaehler();
+  const wann = new Date(ev.created_at * 1000).toLocaleString('de-DE', { dateStyle: 'medium', timeStyle: 'short' });
+  const wer = ev.pubkey === FOERBICO_PUBKEY ? 'FOERBICO-Key' : `Key ${ev.pubkey.slice(0, 8)}…`;
+  const zeilen = ev.tags.map((t) => `<tr><td>${esc(t[0])}</td><td>${esc(t.slice(1).join(' · '))}</td></tr>`).join('');
+  box.className = 'zeile nachweis ok';
+  box.innerHTML = `<span class="label">Nachweis vom Relay</span> ${captionAusNachweis(ev)}
+    <div class="details">kind:1063 <a href="https://njump.me/${ev.id}" target="_blank" rel="noopener"><code>${ev.id.slice(0, 12)}…</code></a>
+      · ausgestellt von ${esc(wer)} · ${esc(wann)}
+      · Blob-Hash ${hashOk === true ? 'geprüft ✓' : `<span title="${esc(blob.fehler || '')}">nicht geprüft</span>`}
+      ${tag(ev, 'alt') ? `<br>alt: „${esc(tag(ev, 'alt'))}“` : ''}
+    </div>
+    <details class="tags1063"><summary>alle Tags des Nachweises</summary><table>${zeilen}</table></details>`;
+}
+
+// ---------- Rendern ----------
+function bildFigur(imgEl, eingabeHtml) {
+  const fig = document.createElement('figure');
+  fig.className = 'bild';
+  fig.appendChild(imgEl);
+  if (eingabeHtml && eingabeHtml.trim()) {
+    const e = document.createElement('div');
+    e.className = 'zeile eingabe';
+    e.innerHTML = `<span class="label">Caption im Markdown (Eingabe)</span> ${eingabeHtml}`;
+    fig.appendChild(e);
+  }
+  const n = document.createElement('div');
+  n.className = 'zeile nachweis';
+  fig.appendChild(n);
+  return fig;
+}
+
+async function start() {
+  const main = document.getElementById('main');
+  const events = await reqAlle(ARTIKEL_RELAYS, { kinds: [30023], authors: [FOERBICO_PUBKEY], '#d': [SLUG], limit: 5 });
+  const art = neuestes(events);
+  if (!art) {
+    main.innerHTML = `<div class="fehlerbox">Kein Artikel mit <code>d=${esc(SLUG)}</code> vom FOERBICO-Key auf ${ARTIKEL_RELAYS.map((r) => new URL(r).host).join(', ')} gefunden.</div>`;
+    return;
+  }
+  const titel = tag(art, 'title') || SLUG;
+  const summary = tag(art, 'summary');
+  const cover = tag(art, 'image');
+  const xTags = art.tags.filter((t) => t[0] === 'x').map((t) => t[1]);
+  const datum = tag(art, 'published_at') ? new Date(Number(tag(art, 'published_at')) * 1000).toLocaleDateString('de-DE', { dateStyle: 'long' }) : '';
+  const tags = art.tags.filter((t) => t[0] === 't').map((t) => t[1]);
+  document.title = `${titel} – Beitrag live`;
+
+  main.innerHTML = '';
+  const kopf = document.createElement('div');
+  kopf.innerHTML = `<div class="meta">${esc(datum)} · oer.community/${esc(SLUG)} · kind:30023 <a href="https://njump.me/${art.id}" target="_blank" rel="noopener"><code>${art.id.slice(0, 12)}…</code></a> · ${xTags.length} x-Tag${xTags.length === 1 ? '' : 's'}</div>
+    <h1 class="titel">${esc(titel)}</h1>`;
+  main.appendChild(kopf);
+
+  const figuren = [];
+  if (cover) {
+    const img = document.createElement('img');
+    img.src = cover; img.alt = ''; img.loading = 'eager';
+    const fig = bildFigur(img, `Cover aus dem <code>image</code>-Tag${xTags[0] ? `, erstes <code>x</code> = <code>${esc(xTags[0].slice(0, 12))}…</code>` : ''}`);
+    fig.querySelector('.eingabe .label').textContent = 'Cover (Eingabe)';
+    main.appendChild(fig); figuren.push([fig, cover]);
+  }
+  if (summary) { const p = document.createElement('p'); p.className = 'summary'; p.textContent = summary; main.appendChild(p); }
+  if (tags.length) { const d = document.createElement('div'); d.className = 'tags'; d.innerHTML = tags.map((t) => `<span>${esc(t)}</span>`).join(''); main.appendChild(d); }
+
+  const inhalt = document.createElement('div');
+  inhalt.className = 'inhalt';
+  inhalt.innerHTML = marked.parse(art.content, { gfm: true, breaks: false });
+  // Absätze mit Bild: Bild in eine Figur, der Rest des Absatzes ist die Caption aus dem Markdown
+  for (const img of [...inhalt.querySelectorAll('p > img')]) {
+    const p = img.parentElement;
+    img.remove();
+    const rest = p.innerHTML.replace(/^\s*(<br\s*\/?>)?\s*/, '');
+    const fig = bildFigur(img, rest);
+    p.replaceWith(fig);
+    figuren.push([fig, img.getAttribute('src')]);
+  }
+  for (const a of inhalt.querySelectorAll('a')) { a.target = '_blank'; a.rel = 'noopener'; }
+  main.appendChild(inhalt);
+
+  zaehler();
+  await Promise.all(figuren.map(([fig, url]) => annotiere(fig, url)));
+}
+start().catch((e) => { document.getElementById('main').innerHTML = `<div class="fehlerbox">Fehler: ${esc(e.message || e)}</div>`; });
+</script>
+</body>
+</html>
