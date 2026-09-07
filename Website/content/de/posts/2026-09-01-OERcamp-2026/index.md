@@ -52,6 +52,33 @@ keywords:
   - FOERBICO in Kontakt
   - OER-Community
   - OERcamp
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL · licenceUrl ist Pflicht)
+# Solange die Felder auskommentiert sind, meldet scripts/md2blossom.mjs TODO:LICENSE.
+bilder:
+  Gina-OERcamp.jpeg:
+    # alt:
+    # author:
+    # licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Demokratiebildung.jpeg:
+    # alt:
+    # author:
+    # licenceUrl:
+  Community-Konsultation.jpeg:
+    # alt:
+    # author:
+    # licenceUrl:
+  Barcamps.jpeg:
+    # alt:
+    # author:
+    # licenceUrl:
+  Bildungszentrum.jpeg:
+    # alt:
+    # author:
+    # licenceUrl:
+  hOERoskop.jpeg:
+    # alt:
+    # author:
+    # licenceUrl:
 ---
 
 Ein Wochenende voller Impulse, spannender Diskussionen, neuer Ideen und dazwischen viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team vom Comenius-Institut war vor Ort und brachte eigene Perspektiven auf offene Bildungspraktiken und Bildungsinfrastrukturen mit. Dabei zeigte sich schnell: Beim OERcamp ging es um weit mehr als die Frage, wo gute freie Bildungsmaterialien zu finden sind. Es ging um Beteiligung, Lernkultur, Community, technische Infrastrukturen und um die Frage, welche Rahmenbedingungen es eigentlich braucht, damit Offenheit funktionieren kann.
