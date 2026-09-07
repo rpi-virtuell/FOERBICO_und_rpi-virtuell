@@ -46,3 +46,6 @@ logs
 public
 dist
 .claude/settings.local.json
+
+# md2blossom: unsignierte Nostr-Vorlagen je Post, werden lokal erzeugt
+Website/_nostr/

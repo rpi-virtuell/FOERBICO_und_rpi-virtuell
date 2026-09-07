@@ -22,7 +22,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/oercamp-2026/Gina-OERcamp.jpeg
+image: https://blossom.edufeed.org/20a027ca751e79b5339cdef11fad2a19f145d576e6cfb43b50f78e107de09d0a.jpeg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-09-02'
@@ -39,8 +39,8 @@ author:
   - Gina Buchwald-Chassée
 title: 'Zwischen OER, Demokratie und hOERoskop – Eindrücke vom OERcamp 2026'
 cover:
-  relative: true
-  image: Gina-OERcamp.jpeg
+  relative: false
+  image: https://blossom.edufeed.org/20a027ca751e79b5339cdef11fad2a19f145d576e6cfb43b50f78e107de09d0a.jpeg
   hiddenInSingle: false
 summary: >-
   Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Als Teil des FOERBICO-Teams war Gina vom Comenius-Institut vor Ort und hat nicht nur an verschiedenen Sessions teilgenommen, sondern auch selbst einen Einblick in das Projekt und die Arbeit an offenen Bildungsinfrastrukturen gegeben. Im Blogbeitrag schildert sie ihre Eindrücke und die Fragen, die sie vom OERcamp mitgenommen hat.
@@ -52,33 +52,57 @@ keywords:
   - FOERBICO in Kontakt
   - OER-Community
   - OERcamp
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL · licenceUrl ist Pflicht)
-# Solange die Felder auskommentiert sind, meldet scripts/md2blossom.mjs TODO:LICENSE.
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   Gina-OERcamp.jpeg:
-    # alt:
-    # author:
-    # licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    alt: Gina Buchwald-Chassée sitzt vor der OERcamp-Fotowand mit bunten Icons, hält ein Schild mit der Aufschrift „powOER up“ und zeigt den Daumen hoch; links eine Superheldinnen-Figur aus Pappe.
+    title: Gina beim OERcamp 2026
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
   Demokratiebildung.jpeg:
-    # alt:
-    # author:
-    # licenceUrl:
+    alt: Zwei Referentinnen stehen vor einer Projektion mit dem Titel „Mit offenen Bildungspraktiken Demokratiebildung gestalten“ und den Logos von Wikimedia Deutschland und aula.
+    title: Workshop Demokratiebildung
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
   Community-Konsultation.jpeg:
-    # alt:
-    # author:
-    # licenceUrl:
+    alt: 'Blick aus dem Publikum auf die Bühne: Annette Kuhn eröffnet die Community-Konsultation, auf der Leinwand die Frage „Was brauchen wir, um OER & OEP langfristig zu verankern“.'
+    title: Community-Konsultation
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
   Barcamps.jpeg:
-    # alt:
-    # author:
-    # licenceUrl:
+    alt: Jöran Muuß-Merholz am Rednerpult vor einer Folie mit dem Titel „2500 Jahre Barcamps“, im Vordergrund Zuhörende von hinten.
+    title: 2500 Jahre Barcamps
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
   Bildungszentrum.jpeg:
-    # alt:
-    # author:
-    # licenceUrl:
+    alt: Sonnige Terrasse mit Holzbänken zwischen Bäumen, davor eine Tafel mit der Aufschrift „Terrasse Bildungslücke“.
+    title: Terrasse Bildungslücke
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
   hOERoskop.jpeg:
-    # alt:
-    # author:
-    # licenceUrl:
+    alt: Blauer Umschlag mit dem handgeschriebenen Namen „Gina“ neben einer hOERoskop-Karte „Community-Chinchilla“ mit Charakter, VorhOERsage und Mission.
+    title: hOERoskop Community-Chinchilla
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Ein Wochenende voller Impulse, spannender Diskussionen, neuer Ideen und dazwischen viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team vom Comenius-Institut war vor Ort und brachte eigene Perspektiven auf offene Bildungspraktiken und Bildungsinfrastrukturen mit. Dabei zeigte sich schnell: Beim OERcamp ging es um weit mehr als die Frage, wo gute freie Bildungsmaterialien zu finden sind. Es ging um Beteiligung, Lernkultur, Community, technische Infrastrukturen und um die Frage, welche Rahmenbedingungen es eigentlich braucht, damit Offenheit funktionieren kann.
@@ -89,7 +113,8 @@ Seit 2012 bringen die OERcamps Menschen aus der Welt der Offenen Bildung zusamme
 
 ## Mit offenen Bildungspraktiken Demokratiebildung gestalten 💬
 
-![](Demokratiebildung.jpeg)
+![Zwei Referentinnen stehen vor einer Projektion mit dem Titel „Mit offenen Bildungspraktiken Demokratiebildung gestalten“ und den Logos von Wikimedia Deutschland und aula.](https://blossom.edufeed.org/66d17bb69c9cfd09fd3c8cb8d7d8c85434eed36b6cc2d1a386002245ad98c801.jpeg)
+[Workshop Demokratiebildung](https://oer.community/oercamp-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Wann ist Bildung tatsächlich offen und wann sieht sie nur so aus? Mit dieser Frage beschäftigte sich ein Workshop von [Wikimedia](https://www.wikimedia.de/) und [Aula](https://www.aula.de/) zu Open Educational Practices (OEP) und Demokratiebildung. Im Mittelpunkt standen zwei konkrete Szenarien aus dem Schulalltag und einem Projekttag.
 
@@ -101,7 +126,8 @@ Beim Projekttag zeigte sich ein weiteres Problem: Obwohl OER-Materialien verwend
 
 ## Community-Konsultation: Was brauchen wir, um OER & OEP langfristig zu verankern? 🤔
 
-![](Community-Konsultation.jpeg)
+![Blick aus dem Publikum auf die Bühne: Annette Kuhn eröffnet die Community-Konsultation, auf der Leinwand die Frage „Was brauchen wir, um OER & OEP langfristig zu verankern“.](https://blossom.edufeed.org/b36d72a536018e29abd8076b21bfd331fba68b0f14e189702bab13c7f97e0e99.jpeg)
+[Community-Konsultation](https://oer.community/oercamp-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Was würde passieren, wenn OER-Projekte nicht mehr gefördert werden? Wo würden wir in zehn Jahren stehen? Mit diesen Reflexionsfragen startete die von Anette Kuhn moderierte Community-Konsultation. An verschiedenen Posterwänden wurde darüber diskutiert, was es braucht, damit OER und OEP langfristig Wirkung entfalten können.
 
@@ -116,7 +142,8 @@ Jöran Muuß-Merholz nahm die Teilnehmenden in seinem Vortrag „2500 Jahre Barc
 
 Der Vortrag wurde aufgezeichnet und soll demnächst veröffentlicht werden. Reinschauen lohnt sich!
 
-![](Barcamps.jpeg)
+![Jöran Muuß-Merholz am Rednerpult vor einer Folie mit dem Titel „2500 Jahre Barcamps“, im Vordergrund Zuhörende von hinten.](https://blossom.edufeed.org/ccf2b1be1dd8abc11ad26f22a747f59580cfe0ddc4ec86196ede4fed8771950f.jpeg)
+[2500 Jahre Barcamps](https://oer.community/oercamp-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Nächster Tag: Sessions, Sessions, Sessions 🤯
 
@@ -175,7 +202,8 @@ Da es unmöglich ist, bei einem OERcamp alle Sessions gleichzeitig zu besuchen, 
 
 ## Get together, Networking & Funtime 🎉
 
-![](Bildungszentrum.jpeg)
+![Sonnige Terrasse mit Holzbänken zwischen Bäumen, davor eine Tafel mit der Aufschrift „Terrasse Bildungslücke“.](https://blossom.edufeed.org/182732b8a22fb910256625a6ca2a38868cad900f4fa94901528965c03805c375.jpeg)
+[Terrasse Bildungslücke](https://oer.community/oercamp-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Bei all den spannenden Diskussionen darf ein entscheidender Teil des OERcamps nicht fehlen: **die Menschen.**
 
@@ -185,7 +213,8 @@ Auch das Team von Jöran & Konsorten hatte wieder allerlei kreative Aktionen vor
 
 So ging es am Ende nicht nur mit neuen Ideen nach Hause, sondern vielleicht auch mit einem selbst bedruckten T-Shirt, einem Button und jeder Menge neuer Kontakte.
 
-![](hOERoskop.jpeg)
+![Blauer Umschlag mit dem handgeschriebenen Namen „Gina“ neben einer hOERoskop-Karte „Community-Chinchilla“ mit Charakter, VorhOERsage und Mission.](https://blossom.edufeed.org/e9bf3c4c50876b33c83aca799458b10c9c7b12fe30552609de1b1f4bbbe72d42.jpeg)
+[hOERoskop Community-Chinchilla](https://oer.community/oercamp-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Ausblick: Nächste Veranstaltungen 🗓️
 
