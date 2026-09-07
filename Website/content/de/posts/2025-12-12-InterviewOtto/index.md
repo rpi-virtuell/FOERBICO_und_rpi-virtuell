@@ -24,7 +24,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/interview-daniel-otto/FOERBICO_Tagung_Logo.png
+image: https://oer.community/interview-daniel-otto/FOERBICO_Tagung_Logo.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -43,7 +43,7 @@ author:
 title: Interview mit Daniel Otto
 cover:
   relative: true
-  image: FOERBICO_Tagung_Logo.png
+  image: FOERBICO_Tagung_Logo.jpg
   hidddenInSingle: false
   alt: Interview Otto
   hiddenInSingle: true
@@ -109,7 +109,7 @@ Ihr möchtet diese Keynote auf keinen Fall verpassen? Dann seid am 24. & 25. Feb
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.png)
+![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
 
 Unter diesem Titel steht unsere Tagung. Die bisherigen Ergebnisse aus dem FOERBICO-Projekt sollen dabei nicht nur diskutiert werden, sondern als Ausgangspunkt dienen, um gemeinsam zu reflektieren, wie die Arbeit an OER offene Bildungspraktiken (OEP) stärken kann.
 

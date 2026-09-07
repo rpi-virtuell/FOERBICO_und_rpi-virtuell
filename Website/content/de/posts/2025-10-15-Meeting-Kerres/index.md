@@ -17,7 +17,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/austausch-mit-michael-kerres/Kerres-Moessle2025.png
+image: https://oer.community/austausch-mit-michael-kerres/Kerres-Moessle2025.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -31,7 +31,7 @@ author:
 title: Über Infrastrukturen, Communities und digitale Bildungsräume – Einblicke in das Gespräch mit Prof. Michael Kerres
 cover:
   relative: true
-  image: Kerres-Moessle2025.png
+  image: Kerres-Moessle2025.jpg
   hiddenInSingle: true
 summary: Am 8. Oktober traf Laura aus dem FOERBICO Team Prof. Michael Kerres vom Learning Lab an der Uni Duisburg-Essen zum Austausch über digitale Transformation in der Bildung. Im Mittelpunkt standen Fragen zu Open Educational Practices, zu Infrastrukturen sowie zum informellen Lernen außerhalb formaler Bildungsinstitutionen.
 url: austausch-mit-michael-kerres

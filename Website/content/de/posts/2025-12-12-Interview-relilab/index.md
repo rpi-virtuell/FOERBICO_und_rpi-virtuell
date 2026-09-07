@@ -27,7 +27,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/interview-relilab/RelilabInterviewTitelpage.png
+image: https://oer.community/interview-relilab/RelilabInterviewTitelpage.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -47,7 +47,7 @@ title: Interview Relilab
 cover:
   relative: true
   hiddenInSingle: true
-  image: RelilabInterviewTitelpage.png
+  image: RelilabInterviewTitelpage.jpg
 summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
 url: interview-relilab
 tags:
@@ -93,7 +93,7 @@ Wir können aus unseren Erfahrungen aus der Laborumgebung die Chancen, Möglichk
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.png)
+![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:

@@ -29,7 +29,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n01
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n121
-image: https://oer.community/arbeiten-mit-git-foerbico-meets-ekhn-medienhaus/GitLab-Ein-Blick-hinter-die-Kulissen.png
+image: https://oer.community/arbeiten-mit-git-foerbico-meets-ekhn-medienhaus/GitLab-Ein-Blick-hinter-die-Kulissen.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -44,7 +44,7 @@ author:
 title: 'Arbeiten mit Git: FOERBICO meets EKHN Medienhaus'
 cover:
   relative: true
-  image: GitLab-Ein-Blick-hinter-die-Kulissen.png
+  image: GitLab-Ein-Blick-hinter-die-Kulissen.jpg
   hiddenInSingle: true
 summary: Das Treffen am 16.10.2024 des Teams vom Comenius-Institut mit dem Team vom EKHN-Medienhaus bot spannende Einblicke in die digitale Infrastruktur und die Arbeitsweisen. Hier erfahrt ihr die wichtigsten Punkte rund um den Einsatz von GitLab, Datenschutzanforderungen, agile Workflows und die zukünftige Zusammenarbeit.
 url: arbeiten-mit-git-foerbico-meets-ekhn-medienhaus

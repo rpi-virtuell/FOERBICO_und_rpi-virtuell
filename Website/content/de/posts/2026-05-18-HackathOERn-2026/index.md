@@ -48,7 +48,7 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/hackathoern-2026/Gruppenfoto-HackathOERn.png
+image: https://oer.community/hackathoern-2026/Gruppenfoto-HackathOERn.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -70,7 +70,7 @@ author:
 title: 'HackathOERn 2026 in Göttingen – Zwischen KI-Editoren, OER-Navigation und offenen Events'
 cover:
   relative: true
-  image: Gruppenfoto-HackathOERn.png
+  image: Gruppenfoto-HackathOERn.jpg
   hiddenInSingle: true
 summary: >-
   Vom 11. bis 13. Mai 2026 trafen sich bei der GWDG in Göttingen Open-Education-Enthusiast:innen, Entwickler:innen, Bildungspraktiker:innen und Forschende im Rahmen des HackathOERns 2026, um gemeinsam Bedarfe, Herausforderungen und Lösungen für offene Bildungsinfrastrukturen rund um OER und OEP zu entwickeln - mit Beteiligung des FOERBICO-Teams in verschiedenen Projektgruppen.

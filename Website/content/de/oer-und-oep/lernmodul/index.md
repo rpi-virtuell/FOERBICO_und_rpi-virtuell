@@ -551,7 +551,7 @@ Copyright: [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/onedesign-2/)
 
 **Beispiel Veröffentlichung nur auf eigener Homepage**
 
-![](Single-Veroeffentlichung.JPG)
+![](Single-Veroeffentlichung.jpg)
 
 ✅ Das Material öffentlich zugänglich.
 
@@ -564,7 +564,7 @@ Das Material ist ausschließlich auf der eigenen Homepage verfügbar und daher i
 
 **Beispiel Veröffentlichung auf OER-Plattformen**
 
-![](Multiple-Veroeffentlichung.JPG)
+![](Multiple-Veroeffentlichung.jpg)
 
 ✅ Das Material öffentlich zugänglich.
 

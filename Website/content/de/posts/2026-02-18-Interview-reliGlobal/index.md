@@ -32,7 +32,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/interview-reliGlobal/Titelbild-reliGlobal.png
+image: https://oer.community/interview-reliGlobal/Titelbild-reliGlobal.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -53,7 +53,7 @@ title: Interview reliGlobal
 cover:
   relative: true
   hiddenInSingle: true
-  image: Titelbild-reliGlobal.png
+  image: Titelbild-reliGlobal.jpg
 summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir vom FOERBICO-Team Frank Behr aus dem reliGlobal-Team interviewt.
 url: interview-reliGlobal
 tags:
@@ -100,7 +100,7 @@ Besonders innovativ ist der Community-Ansatz: reliGlobal bietet bis 2026 Beratun
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.png)
+![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:

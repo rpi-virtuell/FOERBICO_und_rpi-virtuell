@@ -19,7 +19,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n086
-image: Save the Date.png
+image: Save the Date.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -39,7 +39,7 @@ author:
   - Phillip Angelina
 title: Save the Date
 cover:
-  image: Save the Date.png
+  image: Save the Date.jpg
   relative: true
   hiddenInSingle: true
 summary: Ein Informationspost über unsere Tagung im Februar 2026

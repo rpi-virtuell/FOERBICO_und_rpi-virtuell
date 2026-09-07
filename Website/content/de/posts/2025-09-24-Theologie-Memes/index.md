@@ -122,9 +122,9 @@ So werden digitale Formate nicht zum Selbstzweck, sondern zu einem Reflexionsins
 
 Hier konkrete Meme-Beispiele aus dem IKT der Universität Vechta, um theologische Inhalte zu vermitteln:
 
-![Psalm 137,9](Meme-1.png)
+![Psalm 137,9](Meme-1.jpg)
 Copyright: Katholische Theologie der Universität Vechta
-![Herodes](Meme-3.png)
+![Herodes](Meme-3.jpg)
 Copyright: Katholische Theologie der Universität Vechta
 
 **Blick nach vorn: Storytelling als didaktisches Labor**

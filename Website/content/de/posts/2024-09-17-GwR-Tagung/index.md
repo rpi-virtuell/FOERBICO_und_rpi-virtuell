@@ -58,7 +58,7 @@ Eines unserer Anliegen war es, das Thema Open Educational Resources (OER) und Op
 
 Nachdem alle Teilnehmenden die von ihnen gewählten Sätze vervollständigt und mit ihrem Sitznachbar:in ausgetauscht hatten, stellten sie sich im Plenum anhand dieser Sätze vor. So hatten wir direkt einen ersten wertvollen Eindruck von der Gruppe.
 
-![](FOERBICO-Workshop-GwR-Tagung-2024.png)
+![](FOERBICO-Workshop-GwR-Tagung-2024.jpg)
 
 ## „5V-Freiheiten“ und der Mehrwert von OER für die Öffentlichkeitsarbeit
 

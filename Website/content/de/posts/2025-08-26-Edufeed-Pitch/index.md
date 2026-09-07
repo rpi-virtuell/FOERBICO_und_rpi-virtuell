@@ -16,7 +16,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 inLanguage: de
-image: https://oer.community/edufeed-pitch/ChatGPT-Plattforminseln.PNG
+image: https://oer.community/edufeed-pitch/ChatGPT-Plattforminseln.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -29,7 +29,7 @@ author:
 title: 'Edufeed: Dezentral. Offen. Interoperabel.'
 cover:
   relative: true
-  image: ChatGPT-Plattforminseln.PNG
+  image: ChatGPT-Plattforminseln.jpg
   hidddenInSingle: true
   alt: Plattform-Inseln, ChatGPT
   hiddenInSingle: true

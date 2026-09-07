@@ -36,7 +36,7 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/oer-im-blick-2026/OER-im-Blick-2026-Titelbild.jpeg
+image: https://oer.community/oer-im-blick-2026/OER-im-Blick-2026-Titelbild.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -56,7 +56,7 @@ author:
 title: 'OER im Blick 2026 - Welcome to the Jungle'
 cover:
   relative: true
-  image: OER-im-Blick-2026-Titelbild.jpeg
+  image: OER-im-Blick-2026-Titelbild.jpg
   hiddenInSingle: true
 summary: >-
   Am 28. und 29. April 2026 fand in Köln die Statuskonferenz „OER im Blick“ im Rahmen der OER-Strategie des Bundes statt. Wie schon in den Vorjahren wurde die Veranstaltung an einem besonderen Ort durchgeführt – diesmal im smartvillage mit lateinamerikanischem Flair. Im Blogbeitrag teilen wir Eindrücke vom FOERBICO-Team mit euch.
@@ -110,7 +110,7 @@ Als Rundgang konnten sich die verschiedenen Projekte der Förderrichtlinie OE_CO
 
 👉 Weitere Einblicke zu den Ergebnissen der Begleitforschung findet ihr im [Blogbeitrag zur FOERBICO-Zwischenfazittagung](https://oer.community/recap-foerbico-tagung-2026/).
 
-![](OER-im-Blick-2026-Projektvorstellung.jpeg)
+![](OER-im-Blick-2026-Projektvorstellung.jpg)
 
 [Austausch mit Co-Woerk](https://www.co-woerk.de/)
 

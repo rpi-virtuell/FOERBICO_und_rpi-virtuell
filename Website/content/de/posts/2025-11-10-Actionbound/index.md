@@ -24,7 +24,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/wertebildung/Titelbild-Martin.png
+image: https://oer.community/wertebildung/Titelbild-Martin.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -38,7 +38,7 @@ author:
 title: Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin
 cover:
   relative: true
-  image: Titelbild-Martin.png
+  image: Titelbild-Martin.jpg
   hiddenInSingle: true
 summary: Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
 url: wertebildung
@@ -99,7 +99,7 @@ Jede Station kombiniert digitale Aufgaben, Reflexion und kreative Umsetzung im R
 6. **Martin, der Bischof – Verantwortung übernehmen**  
    → Auf Gänsefeder schreiben: „Was könnte ich besser machen?“
 
-![](Hinweis-Martin.png)
+![](Hinweis-Martin.jpg)
 
 ---
 

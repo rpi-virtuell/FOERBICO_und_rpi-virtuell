@@ -142,7 +142,7 @@ Mehr dazu 👉 https://go.oercamp.de/24essen/talk/E7FYZ8/
 
 Wie ermächtigen wir Akteure ihre entwickelten Bildungsmaterialien eigenständig bereitzustellen? Dazu hat Steffen Rörtgen (FWU Institut für Film und Bild gGmbH) [edufeed](https://www.edufeed.org/) als Konzept einer sozialen Bildungsinfrastruktur vorgestellt, die es einerseits ermöglicht, Daten zu Bildungsmaterialien zu teilen und andererseits wie bei Mastodon in soziale Interaktion zu treten. Wir finden das klingt nach einem interessanten Konzept und unterstützen Steffen bei der Entwicklung!
 
-![](edufeed.jpeg)
+![](edufeed.jpg)
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/PQHR8U/
 
