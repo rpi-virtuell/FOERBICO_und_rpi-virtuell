@@ -48,6 +48,33 @@ tags:
   - Open Educational Practices (OEP)
   - FOERBICO in Kontakt
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  digiLL-Tagung-Beginn.jpg:
+    alt: 'Joana Kadir begrüßt als Projektkoordinatorin von digiLL_COM die Teilnehmenden der Tagung „Open Education – Gemeinsam gestalten, teilen, lernen“ am 18. Juni 2026 an der Professional School of Education der Ruhr-Universität Bochum.'
+    title: Startschuss der digiLL-Tagung mit Begrüßung der Teilnehmenden
+    sourceUrl: https://oer.community/tagung-open-education/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  digiLL-Tagung-Tauschtisch.jpg:
+    alt: 'Tauschtisch auf der digiLL-Tagung zum Austausch von Materialien wie Flyer, Sticker usw.'
+    title: Tauschtisch auf der digiLL-Tagung
+    sourceUrl: https://oer.community/tagung-open-education/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  digiLL-Tagung-Kreativwall.jpg:
+    alt: 'Whiteboard im Büro vom digiLL-Team mit Comic-Zeichnungen und lustigen Wortspielen zu OER wie "Wo ist WalthOER?", "OERnie & BOERt" oder "der HOER der Ringe"'
+    title: Whiteboard vom digiLL-Team mit kreativen Zeichnungen und OER-Wortspielen
+    sourceUrl: https://oer.community/tagung-open-education/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen](https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden und gemeinsam mit dem Projekt [POET](https://www.oer-strategie.de/projects/poet-projektsteckbrief/) (OE_Struktur-Förderrichtlinie) und der Universität Duisburg-Essen durchgeführt, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.
