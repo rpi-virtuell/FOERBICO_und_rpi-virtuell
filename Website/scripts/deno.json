@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "none",
+  "tasks": {
+    "upload": "deno run -A --env-file=../../../mdparser/.env blossom-bunker.ts upload",
+    "publish": "deno run -A --env-file=../../../mdparser/.env blossom-bunker.ts publish"
+  }
+}

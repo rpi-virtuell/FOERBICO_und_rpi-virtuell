@@ -306,5 +306,5 @@ if (fehlend.length) {
   for (const f of fehlend) console.log(`  ${f}:\n    alt: \n    author: \n    licenceUrl: `);
 }
 console.log(`Ausgabe:   ${OUT}${WRITE ? '  (index.md überschrieben)' : ''}`);
-console.log(`Weiter:    npx amb-convert amb:nostr ${join(OUT, slug + '.amb.json')} -p`);
+console.log(`Weiter:    deno task publish ${OUT}   (blossom-bunker.ts signiert und publiziert die 1063; Blobs vorher mit "deno task upload")`);
 process.exitCode = fehlend.length ? 2 : 0;
