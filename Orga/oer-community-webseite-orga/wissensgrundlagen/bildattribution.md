@@ -69,3 +69,36 @@ Die Caption-Zeile steht **auf der Zeile direkt nach dem Bild** (Zeilenumbruch, k
 [licence](licenceUrl)
 ```
 Die harte Mindestanforderung: **Bild + Lizenz-Link**. Alles andere darf weg, wenn es die Lizenz erlaubt (z. B. CC0).
+
+## Der `# bilder`-Block im Frontmatter
+
+Dieselben Feldnamen stehen als dritter markierter Block im Frontmatter von `index.md`, nach `# commonMetadata` und `# staticSiteGenerator`. Schlüssel ist der Dateiname im Beitragsordner oder, nach der Migration, die Blossom-Hash-URL. Der Block ist **Eingabe zum Prägen**: Aus ihm entsteht je Bild ein Lizenznachweis (`kind:1063`) unter dem FOERBICO-Key; das Event auf dem Relay ist die Wahrheit. Ableitbares (`imageUrl`, SHA-256, MIME, Größe) steht nicht im Block, das rechnet `md2blossom` bzw. `mdparser/sync` aus der Datei.
+
+```yaml
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+bilder:
+  Gina-OERcamp.jpeg:
+    alt: Gina Buchwald-Chassée sitzt vor der OERcamp-Fotowand und zeigt den Daumen hoch.
+    title: Gina beim OERcamp 2026
+    sourceUrl: https://oer.community/oercamp-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+```
+
+Abbildung auf die Tags des `kind:1063` (edufeed-kompatibel, FOERBICO-Zusatzfelder ohne NIP-Standard):
+
+| Block | 1063-Tag | Herkunft |
+|---|---|---|
+| Schlüssel | `url`, `x`, `m`, `size` | aus der Datei berechnet |
+| `title` | `title` | |
+| `author` | `credit` | |
+| `authorUrl` | `authorUrl` | Zusatzfeld |
+| `licenceUrl` | `license` | |
+| `sourceUrl` | `source` | |
+| `alt` | `alt` | |
+| `modification` | `modification` | Zusatzfeld |
+| `pubkey` | `p` | optional |
+
+Im Fließtext schreibt `md2blossom` aus dem Block die Caption-Zeile nach der Konstruktion oben direkt unter das Bild. Eigene Fotos folgen der Footer-Regel von oer.community (CC BY FOERBICO, `sourceUrl` = der Beitrag); fremde Werke tragen Urheber:in, Quelle und deren Lizenz. Was nicht frei lizenziert werden darf, bekommt keinen Eintrag und damit keinen Nachweis.

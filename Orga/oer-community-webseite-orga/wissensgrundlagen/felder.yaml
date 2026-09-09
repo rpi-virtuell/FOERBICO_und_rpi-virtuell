@@ -1,6 +1,12 @@
 # Feldregeln FOERBICO Blog YAML-Frontmatter
 # Definiert Struktur, Pflichtfelder, Standardwerte und Ableitungslogik
-# für beide Blöcke: commonMetadata (OERSI/AMB) und staticSiteGenerator (Hugo).
+# für die drei Blöcke: commonMetadata (OERSI/AMB), staticSiteGenerator (Hugo)
+# und bilder (Bildnachweise, seit 2026-09-07).
+#
+# Bilder: Zielform ist die Blossom-Hash-URL (https://blossom.edufeed.org/<sha256>.<ext>)
+# in commonMetadata.image und staticSiteGenerator.cover.image, mit cover.relative: false.
+# Die lokale Form (Dateiname im Post-Ordner, relative: true, image unter oer.community)
+# bleibt gültig, bis der Beitrag migriert ist. Umschreiben: Website/scripts/md2blossom.mjs.
 
 # ─────────────────────────────────────────────
 # BLOCK 1: commonMetadata
@@ -67,9 +73,11 @@ commonMetadata:
   image:
     feld: image
     pflicht: true
-    muster: "https://oer.community/{url}/{dateiname}"
-    # {url} = staticSiteGenerator.url
-    # {dateiname} = staticSiteGenerator.cover.image
+    muster: "https://blossom.edufeed.org/{sha256}.{ext}"
+    # Zielform: Blossom-Hash-URL, identisch mit staticSiteGenerator.cover.image.
+    # Der Hash ist der SHA-256 der Bilddatei; der Lizenznachweis (kind:1063) hängt daran.
+    muster_lokal: "https://oer.community/{url}/{dateiname}"
+    # Bis zur Migration: {url} = staticSiteGenerator.url, {dateiname} = cover.image
 
   learningResourceType:
     feld: learningResourceType
@@ -144,13 +152,16 @@ staticSiteGenerator:
     unterfelder:
       relative:
         pflicht: true
-        wert: true
-        # true = Bilddatei liegt im Post-Verzeichnis
-        # false = externes Bild (URL), dann cover.image = volle URL
+        erlaubte_werte: [false, true]
+        standard: false
+        # false = Blossom-Hash-URL in cover.image (Zielform), Hugo nutzt die URL unverändert
+        # true  = Bilddatei liegt im Post-Verzeichnis (lokale Form bis zur Migration)
       image:
         pflicht: true
-        format: "dateiname.ext"
-        # Nur Dateiname, kein Pfad – identisch mit letztem Segment von commonMetadata.image
+        format: "https://blossom.edufeed.org/{sha256}.{ext}"
+        # Zielform: identisch mit commonMetadata.image.
+        format_lokal: "dateiname.ext"
+        # Lokale Form: nur Dateiname, kein Pfad – letztes Segment von commonMetadata.image
       alt:
         pflicht: false
         # Bildbeschreibung für Barrierefreiheit, empfohlen
@@ -185,6 +196,48 @@ staticSiteGenerator:
     ableitung: identisch mit commonMetadata.keywords
 
 # ─────────────────────────────────────────────
+# BLOCK 3: bilder  (Konvention: bildattribution.md)
+# ─────────────────────────────────────────────
+# Bildnachweise für Cover und Fließtextbilder. Der Block ist Eingabe zum Prägen:
+# mdparser/sync liest ihn und publiziert je Bild ein kind:1063 auf dem Relay;
+# das Event auf dem Relay ist die Wahrheit. Ableitbares (sha256, MIME, Größe)
+# steht nicht im Block. Markerzeile im Frontmatter:
+#   # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+
+bilder:
+  schluessel:
+    # Dateiname im Post-Ordner (vor der Migration) oder die Blossom-Hash-URL
+    format: "dateiname.ext | https://blossom.edufeed.org/{sha256}.{ext}"
+  unterfelder:
+    alt:
+      pflicht: false
+      # faktisch Pflicht (Barrierefreiheit): was ist zu sehen
+    title:
+      pflicht: false
+    sourceUrl:
+      pflicht: true
+      ausnahme: CC0
+      # URL der Quellseite; eigene Fotos: der Beitrag selbst
+    author:
+      pflicht: true
+      ausnahme: CC0
+      # Footer-Regel oer.community: "FOERBICO", soweit nicht anders angegeben
+    authorUrl:
+      pflicht: false
+    licence:
+      pflicht: false
+      # Kurzform (CC0, CC BY 4.0, CC BY-SA 4.0); sonst aus licenceUrl abgeleitet
+    licenceUrl:
+      pflicht: true
+      # kanonische Lizenz-URL, z. B. https://creativecommons.org/licenses/by/4.0/
+    modification:
+      pflicht: false
+      # Pflicht bei Bearbeitung von CC-BY-Werken (Zuschnitt, Farbe, Kombination)
+    pubkey:
+      pflicht: false
+      # Nostr-Pubkey der Urheber:in (hex) → p-Tag im 1063
+
+# ─────────────────────────────────────────────
 # ABLEITUNGSREGELN (Zusammenfassung)
 # ─────────────────────────────────────────────
 
@@ -193,5 +246,6 @@ ableitungen:
   - commonMetadata.description   == staticSiteGenerator.summary
   - commonMetadata.keywords      == staticSiteGenerator.tags
   - commonMetadata.id            == "https://oer.community/" + staticSiteGenerator.url
-  - commonMetadata.image         == "https://oer.community/" + staticSiteGenerator.url + "/" + staticSiteGenerator.cover.image
+  - commonMetadata.image         == staticSiteGenerator.cover.image                      # Blossom-Form (relative: false)
+  - commonMetadata.image         == "https://oer.community/" + staticSiteGenerator.url + "/" + staticSiteGenerator.cover.image   # lokale Form (relative: true)
   - commonMetadata.creator[].givenName + " " + familyName == staticSiteGenerator.author[]

@@ -26,7 +26,7 @@ image: https://blossom.edufeed.org/20a027ca751e79b5339cdef11fad2a19f145d576e6cfb
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-09-02'
-tags:
+keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Barcamp
@@ -45,7 +45,7 @@ cover:
 summary: >-
   Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Als Teil des FOERBICO-Teams war Gina vom Comenius-Institut vor Ort und hat nicht nur an verschiedenen Sessions teilgenommen, sondern auch selbst einen Einblick in das Projekt und die Arbeit an offenen Bildungsinfrastrukturen gegeben. Im Blogbeitrag schildert sie ihre Eindrücke und die Fragen, die sie vom OERcamp mitgenommen hat.
 url: oercamp-2026
-keywords:
+tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Barcamp
