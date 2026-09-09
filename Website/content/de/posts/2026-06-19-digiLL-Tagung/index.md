@@ -52,9 +52,9 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   digiLL-Tagung-Beginn.jpg:
-    alt: 'Joana Kadir begrüßt als Projektkoordinatorin von digiLL_COM die Teilnehmenden der Tagung „Open Education – Gemeinsam gestalten, teilen, lernen“ am 18. Juni 2026 an der Professional School of Education der Ruhr-Universität Bochum.'
-    title: Startschuss der digiLL-Tagung mit Begrüßung der Teilnehmenden
-    sourceUrl: https://oer.community/tagung-open-education/
+    alt: Joana Kadir spricht mit Mikrofon neben einer Willkommens-Folie der Tagung, im Vordergrund ein Mann am Laptop hinter einem pinken „We are open!“-Banner.
+    title: Eröffnung der Tagung durch Joana Kadir und Matthias Kostrzewa vom digiLL-Team der Ruhr-Universität Bochum
+    sourceUrl: https://oer.community/tagung-open-education
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -62,7 +62,7 @@ bilder:
   digiLL-Tagung-Tauschtisch.jpg:
     alt: 'Tauschtisch auf der digiLL-Tagung zum Austausch von Materialien wie Flyer, Sticker usw.'
     title: Tauschtisch auf der digiLL-Tagung
-    sourceUrl: https://oer.community/tagung-open-education/
+    sourceUrl: https://oer.community/tagung-open-education
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -70,7 +70,7 @@ bilder:
   digiLL-Tagung-Kreativwall.jpg:
     alt: 'Whiteboard im Büro vom digiLL-Team mit Comic-Zeichnungen und lustigen Wortspielen zu OER wie "Wo ist WalthOER?", "OERnie & BOERt" oder "der HOER der Ringe"'
     title: Whiteboard vom digiLL-Team mit kreativen Zeichnungen und OER-Wortspielen
-    sourceUrl: https://oer.community/tagung-open-education/
+    sourceUrl: https://oer.community/tagung-open-education
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -83,10 +83,8 @@ Passend zum Tagungsthema stand dabei eine zentrale Dimension von Open Education 
 
 Bei hochsommerlichen Temperaturen von nahezu 40 Grad erwiesen sich die Kellerräume der Professional School of Education der RUB dabei als hervorragende Wahl und boten den passenden Rahmen für einen intensiven Austausch über die Zukunft offener Bildung.
 
-![Joana Kadir begrüßt als Projektkoordinatorin von digiLL_COM die Teilnehmenden der Tagung „Open Education – Gemeinsam gestalten, teilen, lernen“ am 18. Juni 2026 an der Professional School of Education der Ruhr-Universität Bochum.](https://blossom.edufeed.org/4027d287675624c1fa8133e08bc9aa49cf782acec5f150069382409391d9fcd5.jpg)
-[Startschuss der digiLL-Tagung mit Begrüßung der Teilnehmenden](https://oer.community/tagung-open-education/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-*Eröffnung von Joana Kadir & Matthias Kostrzewa vom digiLL-Team der Ruhr-Universität Bochum*
+![Joana Kadir spricht mit Mikrofon neben einer Willkommens-Folie der Tagung, im Vordergrund ein Mann am Laptop hinter einem pinken „We are open!“-Banner.](https://blossom.edufeed.org/4027d287675624c1fa8133e08bc9aa49cf782acec5f150069382409391d9fcd5.jpg)
+[Eröffnung der Tagung durch Joana Kadir und Matthias Kostrzewa vom digiLL-Team der Ruhr-Universität Bochum](https://oer.community/tagung-open-education), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## „Raus aus den Bubbles“ – Vernetzung als Herausforderung und Chance
 
@@ -150,7 +148,7 @@ Die gesamte Präsentation findet ihr [hier](https://git.rpi-virtuell.de/Comenius
 Der Community-Hub wird bei unserer Abschlusstagung am 2. und 3. Februar an der Goethe-Universität in Frankfurt gelauncht – jetzt anmelden [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)! 
 
 ![Tauschtisch auf der digiLL-Tagung zum Austausch von Materialien wie Flyer, Sticker usw.](https://blossom.edufeed.org/21b0cdcd3b4688142fdd7d5d4e388e85150a6d7c24f43724c8677582707ad245.jpg)
-[Tauschtisch auf der digiLL-Tagung](https://oer.community/tagung-open-education/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+[Tauschtisch auf der digiLL-Tagung](https://oer.community/tagung-open-education), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Gemeinsames Storytelling als offene Lehr- und Lernpraxis
 
@@ -166,7 +164,7 @@ Zwar bezog sich die Aussage ursprünglich auf einen anderen Kontext, doch sie be
 Passend dazu ging Matthias Kostrzewa (Ruhr-Universität Bochum) in seinem Beitrag zu "Eine kleine Geschichte der Offenheit - Narrative Konzeptionen von OEP" auf Zukunftsutopien offener Bildungspraktiken ein. Sein Fazit: Nicht nur beschweren und Pessimismus, sondern nach Vorne schauen und gemeinsam Zukunft denken. Das scheint das digiLL-Team bereits sehr kreativ und fantasievoll zu tun, wie das Whiteboard im Büro zeigt.
 
 ![Whiteboard im Büro vom digiLL-Team mit Comic-Zeichnungen und lustigen Wortspielen zu OER wie "Wo ist WalthOER?", "OERnie & BOERt" oder "der HOER der Ringe"](https://blossom.edufeed.org/5e4d33fa21b1e97b87ca8103c004bf5b5a47066c7d55c6be2ef37ce7feb28964.jpg)
-[Whiteboard vom digiLL-Team mit kreativen Zeichnungen und OER-Wortspielen](https://oer.community/tagung-open-education/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+[Whiteboard vom digiLL-Team mit kreativen Zeichnungen und OER-Wortspielen](https://oer.community/tagung-open-education), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Fazit
 
