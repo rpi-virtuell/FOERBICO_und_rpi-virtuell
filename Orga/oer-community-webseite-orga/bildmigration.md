@@ -1,7 +1,8 @@
 # Bildmigration: Beiträge ohne `# bilder`-Block
 
-Stand 2026-09-09. 83 Beiträge mit zusammen 220 verwendeten Bildern warten auf ihren Block.
-Migriert sind bereits: die-kraft-der-gemeinschaft, oercamp-2026, tagung-open-education.
+Stand 2026-09-10. 70 Beiträge mit zusammen 198 verwendeten Bildern warten auf ihren Block.
+Migriert sind bereits: die-kraft-der-gemeinschaft, oercamp-2026, tagung-open-education, und seit dem 10.09. (Ginas Branch `add-bildlizenzen` plus drei von main): OER-Fachtag-Orca.NRW, OER-erklaert, OERcamp-Hamburg, OER-Brownbag, Raus-aus-den-Bubbles, Git-Treffen-Medienhaus, Austausch-digiLL, Bibel_OER, OER-Werkstatt, Workshop-KlimaOER, Canva, Rechtsfragen-Workshop, IT-Sommercamp-2025 — 24 Bilder auf Blossom mit Nachweis.
+Offen beim OER-Fachtag: das Cover ist eine cdn.midjourney.com-URL ohne Datei im Ordner (Download aus dem Midjourney-Konto nötig, dann `ai: generated`).
 
 ## So geht ein Beitrag
 
@@ -16,7 +17,9 @@ Migriert sind bereits: die-kraft-der-gemeinschaft, oercamp-2026, tagung-open-edu
 4. Commit auf einem Branch, Pull Request. Nach dem Merge lädt die CI die Blobs nach Blossom,
    publiziert die Lizenznachweise (kind:1063) und den Beitrag (kind:30023).
 
-Bis die CI den Bilderschritt hat: Blobs mit `deno task upload`, Nachweise mit `deno task publish` (Website/scripts, braucht den Bunker).
+Die CI hat den Bilderschritt seit dem 09.09. (mdparser `core/bilder.ts`); `deno task upload`/`publish` braucht es nur noch für Sonderfälle.
+Schritt 3 ist der einzige Handschritt, den die CI nicht übernimmt: Ohne md2blossom bleiben die Bilder relative Dateinamen, und die CI findet keine Hash-URL, zu der sie Blob und Nachweis anlegen könnte. Alternativ öffnet der foerbico-editor den Beitrag und macht denselben Schritt im Browser.
+Für Handarbeit im Block: Abschnitt „Stolpersteine“ in `wissensgrundlagen/bildattribution.md` (Doppelpunkt + Leerzeichen → Wert in Anführungszeichen).
 
 ## Beiträge
 
@@ -174,86 +177,6 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ```
 
-### 2024-09-03-OER-Fachtag-Orca.NRW
-
-2 Bild(er) im Beitrag, Cover: `0_0.png`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  Rueckmeldung_OER-Fachtag-2024-1.jpg:
-    alt: 'Was hat Sie vom Einsatz von OER abgealten?'
-    title: # TODO
-    sourceUrl: https://oer.community/oer-fachtag-2024-von-orca-nrw
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Rueckmeldung_OER-Fachtag-2024.jpg:
-    alt: 'Warum haben Sie OER in Ihrer Lehre eingesetzt?'
-    title: # TODO
-    sourceUrl: https://oer.community/oer-fachtag-2024-von-orca-nrw
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-09-04-OER-erklaert
-
-1 Bild(er) im Beitrag, Cover: `Rhabarberbar.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  Rhabarberbar.jpg:
-    alt: 'OER erklärt'
-    title: # TODO
-    sourceUrl: https://oer.community/oer-erklaert-an-der-rhabarberbar
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-09-06-OERcamp-Hamburg
-
-1 Bild(er) im Beitrag, Cover: `accb7c731fbf765f.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  foerbico-projektvorstellung-vorschau.png:
-    alt: 'Projektvorstellung FOERBICO'
-    title: # TODO
-    sourceUrl: https://oer.community/recap-oercamp-im-maerz-2024-in-hamburg
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-09-11-OER-Brownbag
-
-1 Bild(er) im Beitrag, Cover: `OER-Brownbag.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  OER-Brownbag.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
 ### 2024-09-15-pirner-oer-youtube
 
 1 Bild(er) im Beitrag, Cover: `Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.jpg`
@@ -268,24 +191,6 @@ bilder:
     author: # TODO fremdes Logo – Rechteinhaber:in
     sourceUrl: # TODO
     licenceUrl: # TODO (kein CC, wenn nicht freigegeben)
-```
-
-### 2024-09-16-Raus-aus-den-Bubbles
-
-1 Bild(er) im Beitrag, Cover: `raus-aus-den-bubbles_vorschau.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  raus-aus-den-bubbles_vorschau.jpg:
-    alt: 'Raus aus den Bubbles'
-    title: # TODO
-    sourceUrl: https://oer.community/raus-aus-den-bubbles
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ```
 
 ### 2024-09-17-GwR-Tagung
@@ -444,60 +349,6 @@ bilder:
     alt: # TODO Bildbeschreibung
     title: # TODO
     sourceUrl: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-10-21-Git-Treffen-Medienhaus
-
-1 Bild(er) im Beitrag, Cover: `GitLab-Ein-Blick-hinter-die-Kulissen.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  GitLab-Ein-Blick-hinter-die-Kulissen.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/arbeiten-mit-git-foerbico-meets-ekhn-medienhaus
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-10-30-Austausch-digiLL
-
-1 Bild(er) im Beitrag, Cover: `digill_com-videokonferenz.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  digill_com-videokonferenz.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/austausch-mit-digill_com-zum-thema-community-building
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-11-12-Bibel_OER
-
-1 Bild(er) im Beitrag, Cover: `an-open-bible_Lynn_Greyling_Small.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  an-open-bible_Lynn_Greyling_Small.jpg:
-    alt: 'Eine Offene Bibel'
-    title: # TODO
-    sourceUrl: https://oer.community/ist-die-bibel-eigentlich-open
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -760,84 +611,6 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ```
 
-### 2024-12-13-OER-Werkstatt
-
-3 Bild(er) im Beitrag, Cover: `kreativtisch-ausschnitt.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  kreativtisch-ausschnitt.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-werkstatt-digill-com-projekt
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  kreativtisch.jpg:
-    alt: 'Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen'
-    title: # TODO
-    sourceUrl: https://oer.community/oer-werkstatt-digill-com-projekt
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  oer-werkstatt.jpg:
-    alt: 'Unsere OER-Werkstatt'
-    title: # TODO
-    sourceUrl: https://oer.community/oer-werkstatt-digill-com-projekt
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2024-12-16-Canva
-
-2 Bild(er) im Beitrag, Cover: `Canva-OER-KI-generiert.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  Beispiel-Bildlizenz.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/canva
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Canva-OER-KI-generiert.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/canva
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2025-01-02-Rechtsfragen-Workshop
-
-1 Bild(er) im Beitrag, Cover: `copyright-protection-1552941260nrw.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  copyright-protection-1552941260nrw.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-rechtsfragen
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
 ### 2025-01-12-OER-Remix
 
 1 Bild(er) im Beitrag, Cover: `Open_Educational_Resources.png`
@@ -912,24 +685,6 @@ bilder:
     alt: # TODO Bildbeschreibung
     title: # TODO
     sourceUrl: https://oer.community/oer-fortbildungsreihe-1
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2025-03-20-Workshop-KlimaOER
-
-1 Bild(er) im Beitrag, Cover: `Wetterfrosch-CC0.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  Wetterfrosch-CC0.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/markdown-einfuehrung-klimaoer
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -1510,64 +1265,6 @@ bilder:
     alt: # TODO Bildbeschreibung
     title: # TODO
     sourceUrl: https://oer.community/edufeed-pitch
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-```
-
-### 2025-08-31-IT-Sommercamp-2025
-
-6 Bild(er) im Beitrag, Cover: `IMG_1664.jpg`
-
-```yaml
-# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
-# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-bilder:
-  Cat-Content-2.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-it-sommercamp-2025
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Cat-Content-3.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-it-sommercamp-2025
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Edufeed-1.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-it-sommercamp-2025
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Edufeed-2.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-it-sommercamp-2025
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  IMG_1664.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-it-sommercamp-2025
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  IMG_1689.jpg:
-    alt: # TODO Bildbeschreibung
-    title: # TODO
-    sourceUrl: https://oer.community/oer-it-sommercamp-2025
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
