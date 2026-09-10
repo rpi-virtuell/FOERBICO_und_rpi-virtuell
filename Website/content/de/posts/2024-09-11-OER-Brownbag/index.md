@@ -2,8 +2,19 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+type: LearningResource
+name: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
+description: Die vom BMBF geförderten Projekte der OER-Strategie kamen zum ersten OER-Brownbag zusammen. OERinfo hat das monatliche Format initiiert; FOERBICO hat sich vorgestellt, gemeinsame Themen wie hybride Formate, Barrierefreiheit und Rechtsfragen wurden identifiziert.
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
 inLanguage:
   - de
 image: https://blossom.edufeed.org/d1e936d2add304adb02dd816588f9f22ea480bc2199bbb0b79e105f123a7c4ae.jpg
@@ -15,6 +26,8 @@ educationalLevel:
 datePublished: 2024-09-11
 
 # staticSiteGenerator
+author:
+  - Gina Buchwald-Chassée
 title: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
 cover:
   relative: false
