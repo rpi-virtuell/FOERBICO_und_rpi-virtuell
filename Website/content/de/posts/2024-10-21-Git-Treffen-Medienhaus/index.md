@@ -53,6 +53,17 @@ tags:
   - Git
   - Offenheit
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  GitLab-Ein-Blick-hinter-die-Kulissen.jpg:
+    alt: Screenshot vom Videocall am 16.10.2024 mit dem Team vom Comenius-Institut mit dem Team vom EKHN-Medienhaus zum Austausch über Git-basiertes Arbeit.
+    title: Screenshot vom Videocall mit den Teams vom Comenius-Institut und dem EKHN-Medienhaus
+    sourceUrl: https://oer.community/arbeiten-mit-git-foerbico-meets-ekhn-medienhaus
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## GitLab: Ein Blick hinter die Kulissen
