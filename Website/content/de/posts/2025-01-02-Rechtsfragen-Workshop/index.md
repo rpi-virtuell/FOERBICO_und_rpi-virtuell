@@ -44,6 +44,17 @@ tags:
   - Open Educational Resources (OER)
   - Lizenzen
   - Bild
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  copyright-protection-1552941260nrw.jpg:
+    alt: Illustration eines Mannes mit einem Copyright-Symbol und mehreren Schutzschilden als Sinnbild für den Schutz von Urheberrechten.
+    title: Urheberrecht und Schutz geistigen Eigentums
+    sourceUrl: https://pxhere.com/en/photo/1584235
+    author: Mohamed Hassan
+    authorUrl: https://pxhere.com/en/photographer/767067
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
 ---
 
 ## Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️
