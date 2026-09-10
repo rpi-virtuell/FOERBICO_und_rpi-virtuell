@@ -52,6 +52,7 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     sourceUrl: https://example.org/quelle
     modification: beschnitten
+    ai: modified
   Ohne.png:
     # licenceUrl:
 ---
@@ -85,7 +86,7 @@ test('Migration: Frontmatter, Endung, Caption, bilder-Block, TODO', () => {
 
   // Punkt 4: Caption nach bildattribution.md, direkt unter dem Bild, ohne Leerzeile
   assert.ok(md.includes(
-    `![Ein Titelbild](${urlTitel})\n[Titel](https://example.org/quelle), [Jörg Lohrer](https://example.org/joerg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), beschnitten\n`
+    `![Ein Titelbild](${urlTitel})\n[Titel](https://example.org/quelle), [Jörg Lohrer](https://example.org/joerg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), KI-verändert, beschnitten\n`
   ), 'Caption-Zeile:\n' + md);
 
   // Punkt 5: Block bleibt erhalten, kein bilder.yaml nötig; Bild ohne Eintrag → TODO
@@ -108,6 +109,8 @@ test('Migration: Frontmatter, Endung, Caption, bilder-Block, TODO', () => {
   assert.equal(tag('authorUrl'), 'https://example.org/joerg');
   assert.equal(tag('modification'), 'beschnitten');
   assert.equal(tag('alt'), 'Ein Titelbild');
+  // KI-Kennzeichnung (edufeed-Wiki license-events-nope): ai als letzter Tag
+  assert.deepEqual(ev.tags.at(-1), ['ai', 'modified']);
   assert.equal(Object.keys(r.dateien).filter((f) => f.includes('.1063.')).length, 1, 'kein 1063 ohne Lizenz');
 
   // 30023: image + x (Cover zuerst), weitere x je Fließtextbild

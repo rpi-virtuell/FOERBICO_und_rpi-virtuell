@@ -236,6 +236,13 @@ bilder:
     pubkey:
       pflicht: false
       # Nostr-Pubkey der Urheber:in (hex) → p-Tag im 1063
+    ai:
+      pflicht: false
+      werte: [generated, modified]
+      # KI-Beteiligung nach edufeed-Wiki license-events-nope (2026-09-10), Werte nach den
+      # EU-AI-Office-Icons: generated = vollständig KI-generiert, modified = mit KI bearbeitet.
+      # Fehlt = nicht deklariert (nicht "ohne KI"). Anderer Wert → kein ai-Tag, Warnung.
+      # Caption: "KI-generiert" / "KI-verändert" direkt hinter der Lizenz (bildattribution.md, Regel 8).
 
 # ─────────────────────────────────────────────
 # ABLEITUNGSREGELN (Zusammenfassung)

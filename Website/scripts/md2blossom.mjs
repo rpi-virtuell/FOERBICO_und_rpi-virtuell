@@ -37,12 +37,14 @@
  *       sourceUrl: https://…   # Pflicht außer bei CC0
  *       modification: …        # Pflicht bei Bearbeitung von CC-BY-Werken
  *       pubkey: <hex>          # optional, Nostr-Urheber:in → p-Tag
+ *       ai: generated          # optional: generated (KI-generiert) | modified (mit KI bearbeitet)
  *
  * Der Block ist Eingabe zum Prägen; das kind:1063 auf dem Relay ist Wahrheit
  * (Spec 2026-09-07, Teil 3). Abbildung auf das 1063:
  *   title→title · author→credit · authorUrl→authorUrl · licenceUrl→license ·
- *   sourceUrl→source · modification→modification · alt→alt · pubkey→p
- *   url, x, m, size rechnet das Skript aus der Datei.
+ *   sourceUrl→source · modification→modification · alt→alt · pubkey→p · ai→ai
+ *   url, x, m, size rechnet das Skript aus der Datei. Ein ai-Wert außer
+ *   generated/modified ergibt keinen Tag (edufeed-Wiki: Leser ignorieren ihn).
  *
  * Einmalig: cd scripts && npm i     Tests: npm test
  */
@@ -85,6 +87,9 @@ const LICENSE_LABEL = [
   [/licenses\/by/, 'CC BY 4.0'],
 ];
 const licenseLabel = (url) => (LICENSE_LABEL.find(([re]) => re.test(url)) ?? [null, url])[1];
+// KI-Kennzeichnung nach edufeed-Wiki (EU-AI-Office-Icons): nur diese zwei Werte sind bedeutungsvoll.
+const KI_WERTE = { generated: 'KI-generiert', modified: 'KI-verändert' };
+const kiWert = (l) => (typeof l?.ai === 'string' && Object.hasOwn(KI_WERTE, l.ai) ? l.ai : null);
 const HASH_URL = /^https?:\/\/[^/\s]+\/([a-f0-9]{64})(\.[a-z0-9]+)?$/i;
 const hashAusUrl = (u) => (typeof u === 'string' ? HASH_URL.exec(u)?.[1]?.toLowerCase() ?? null : null);
 
@@ -146,8 +151,9 @@ function bestand(url) {
 }
 
 // ---------- Caption nach bildattribution.md ----------
-// [title](sourceUrl), [author](authorUrl), [licence](licenceUrl), modification
+// [title](sourceUrl), [author](authorUrl), [licence](licenceUrl), KI-Kennzeichnung, modification
 // Nur `, ` als Trenner, direkt unter dem Bild. Mindestform: [licence](licenceUrl).
+// Die KI-Kennzeichnung (ai-Tag) steht direkt hinter der Lizenz — wie im Hub.
 function caption(img) {
   const l = img.lic;
   if (!l?.licenceUrl) return '';
@@ -155,6 +161,7 @@ function caption(img) {
   if (l.title) t.push(l.sourceUrl ? `[${l.title}](${l.sourceUrl})` : l.title);
   if (l.author) t.push(l.authorUrl ? `[${l.author}](${l.authorUrl})` : l.author);
   t.push(`[${l.licence || licenseLabel(l.licenceUrl)}](${l.licenceUrl})`);
+  if (kiWert(l)) t.push(KI_WERTE[l.ai]);
   if (l.modification) t.push(l.modification);
   return t.join(', ');
 }
@@ -255,6 +262,8 @@ for (const key of used) {
   if (l.authorUrl) tags.push(['authorUrl', l.authorUrl]);
   if (l.modification) tags.push(['modification', l.modification]);
   if (l.pubkey) tags.push(['p', l.pubkey]);
+  if (kiWert(l)) tags.push(['ai', l.ai]);
+  else if (l.ai) console.warn(`Warnung: ai-Wert „${l.ai}" bei ${key} unbekannt (erlaubt: generated, modified) — kein ai-Tag`);
   writeFileSync(join(OUT, `${slug}.1063.${img.hash.slice(0, 8)}.json`),
     JSON.stringify({ kind: 1063, pubkey: PUBKEY, created_at: now, content: '', tags }, null, 2));
   n1063++;
@@ -303,7 +312,7 @@ if (fehlend.length) {
   console.log('Vorlage für das Frontmatter von index.md (Konvention: bildattribution.md):');
   console.log('# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)');
   console.log('bilder:');
-  for (const f of fehlend) console.log(`  ${f}:\n    alt: \n    author: \n    licenceUrl: `);
+  for (const f of fehlend) console.log(`  ${f}:\n    alt: \n    author: \n    licenceUrl: \n    # ai: generated | modified   (nur bei KI-Beteiligung)`);
 }
 console.log(`Ausgabe:   ${OUT}${WRITE ? '  (index.md überschrieben)' : ''}`);
 console.log(`Weiter:    deno task publish ${OUT}   (blossom-bunker.ts signiert und publiziert die 1063; Blobs vorher mit "deno task upload")`);
