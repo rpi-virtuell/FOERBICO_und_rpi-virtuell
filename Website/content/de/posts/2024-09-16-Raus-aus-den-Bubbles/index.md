@@ -42,6 +42,17 @@ tags:
   - Community
   - Vernetzung
   - FOERBICO in Kontakt
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  raus-aus-den-bubbles_vorschau.jpg:
+    alt: Vorschaubild einer Seifenblase zum Video "Raus aus den Bubbles" zum Aufruf offener und vernetzter Community-Arbeit
+    title: Vorschaubild zum Video "Raus aus den Bubbles"
+    sourceUrl: https://oer.community/raus-aus-den-bubbles
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Bildungs- und Unterrichtsmaterialien bleiben oft isoliert, werden nicht miteinander geteilt und alle basteln vor sich hin - das kostet Zeit, Energie und macht keinen Spaß. Du hast Angst vor Trouble, wenn du dein Material veröffentlichst oder bist unsicher, wie das mit Rechten, Lizenzen und der Qualität aussieht? Damit bist du nicht alleine! Wir nehmen dich mit und begleiten dich raus aus deiner Bubble 🫧 Transparenz, Anschlussfähigkeit und Nachvollziehbarkeit sind unser Ziel 🏁 Vorbei mit dem ganzen Bubbletrouble – wir als OER-Communities wollen unser Wisssen, Erfahrungen und Materialien offen miteinander teilen 🤝 Dazu haben wir zusammen mit unserem FOERBICO-Team und einzelnen Personen aus verschiedenen Communities wie [relilab](https://relilab.org/) oder [reliGlobal](https://religlobal.org/) eine kleine Fun-Aktion gestartet und einen Bubblesong entwickelt 👇
