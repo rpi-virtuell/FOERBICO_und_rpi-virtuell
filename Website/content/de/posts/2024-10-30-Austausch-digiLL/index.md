@@ -40,6 +40,17 @@ tags:
   - Vernetzung
   - Community
   - OE_COM
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  digill_com-videokonferenz.jpg:
+    alt: Screenshot vom Videocall vom Austausch vom FOERBICO-Team mit dem digiLL-Team.
+    title: Screenshot vom Videocall vom Austausch der OE_COM-Projekte FOERBICO und digiLL_COM
+    sourceUrl: https://oer.community/austausch-mit-digill_com-zum-thema-community-building
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Beide Projekte sind in der aktuellen Förderstrategie des Bundes OE_COM,

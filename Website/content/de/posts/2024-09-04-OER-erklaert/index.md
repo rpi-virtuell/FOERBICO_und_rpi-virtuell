@@ -38,6 +38,17 @@ tags:
   - Open Educational Resources (OER)
   - Community
   - Offenheit
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Rhabarberbar.jpg:
+    alt: OER erklärt von Jörg und Corinna im Song "RhabarbOER" als Remix vom Lied Rhabarberbar.
+    title: OER erklärt von Jörg und Corinna an der "Rhabarberbar"
+    sourceUrl: https://oer.community/oer-erklaert-an-der-rhabarberbar
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Was heißt eigentlich OER? Im Bildungsbereich wird das Akronym oft selbstverständlich im Sprachgebrauch verwendet, aber nicht jede:r weiß auf Anhieb, wofür das Kürzel eigentlich steht. 

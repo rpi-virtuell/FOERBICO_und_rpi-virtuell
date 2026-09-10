@@ -44,6 +44,25 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Offenheit
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  oer-werkstatt.jpg:
+    alt: Räumlichkeiten der OER-Werkstatt von digiLL in der Ruhr-Universität Bochum.
+    title: Räumlichkeiten der OER-Werkstatt von digiLL in der Ruhr-Universität Bochum
+    sourceUrl: https://oer.community/oer-werkstatt-digill-com-projekt
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  kreativtisch.jpg:
+    alt: Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen
+    title: Kreativtisch zur Inspiration
+    sourceUrl: https://oer.community/oer-werkstatt-digill-com-projekt
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Werkstatt-Prinzip

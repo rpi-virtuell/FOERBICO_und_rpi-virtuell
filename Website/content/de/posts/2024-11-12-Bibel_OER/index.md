@@ -57,6 +57,17 @@ tags:
   - Bibel
   - Rechtsfragen
   - Offenheit
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  an-open-bible_Lynn_Greyling_Small.jpg:
+    alt: Aufgeklapptes Bibelbuch
+    title: Eine Offene Bibel
+    sourceUrl: https://www.publicdomainpictures.net/de/view-image.php?image=439364&picture=eine-offene-bibel
+    author: Lynn Greyling
+    authorUrl: https://www.publicdomainpictures.net/de/browse-author.php?a=49179
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.

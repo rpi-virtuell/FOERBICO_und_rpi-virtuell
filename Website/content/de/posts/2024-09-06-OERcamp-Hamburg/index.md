@@ -41,6 +41,17 @@ tags:
   - FOERBICO in Kontakt
   - Vernetzung
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  foerbico-projektvorstellung-vorschau.png:
+    alt: Vorschaubild von Jörg Lohrer mit der Projektvorstellung von FOERBICO im Video für das OERcamp 2024.
+    title: FOERBICO - Förderung offener Bildungspraktiken in religionsbezogenen Communities von Agentur J&K – Jöran und Konsorten für das OERcamp 2024
+    sourceUrl: https://oer.community/recap-oercamp-im-maerz-2024-in-hamburg
+    author: Agentur J&K – Jöran und Konsorten
+    authorUrl: https://oercamp.de/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Jörg Lohrer hat für das Frühjahrs-OERcamp die Session ["BottomUp -> MarkDown - 5V-Power für deine OER!"](https://joerg-lohrer.de/2024/03/05/bottomup-markdown.html/) eingereicht. Damit hat er bereits vor dem offiziellen Projektbeginn erste Spuren für unser FOERBICO-Projekt gelegt. Mehr dazu: https://www.oercamp.de/24/

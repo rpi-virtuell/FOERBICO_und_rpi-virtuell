@@ -28,6 +28,17 @@ summary: |
   dienen, jedoch auch der Kommunikation zwischen OERinfo und den Projekten, z.B. was die
   Kommunikation über die Entwicklung ihrer Projekte auf dem Blog und Podcast zugehOERt anbelangt. 
 url: oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  OER-Brownbag.jpg:
+    alt: Screenshot mit den teilnehmenden OE_COM-Projektpartnern vom Videocall zum ersten OER-Brownbag als monatliches Treffen.
+    title: Erster OER-Brownbag der OE_COM-Projekte
+    sourceUrl: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Heute kamen die verschiedenen vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projekte der [OER-Strategie](https://www.oer-strategie.de/) zu einem gemeinsamen Austausch zusammen. Susanne Grimm und Johannes Appel von [OERinfo](https://open-educational-resources.de/) haben das Format "OER-Brownbag" initiiert und moderiert. Die Calls sollen zentral dem regelmäßigen Austausch der [geförderten Projekte](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/) dienen, jedoch auch der Kommunikation zwischen OERinfo und den Projekten, z.B. was die Kommunikation über die Entwicklung ihrer Projekte auf dem Blog und Podcast zugehOERt anbelangt. 

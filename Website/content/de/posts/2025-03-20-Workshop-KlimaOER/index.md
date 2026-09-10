@@ -40,6 +40,17 @@ tags:
   - Open Source
   - Markdown
   - Tools
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Wetterfrosch-CC0.jpg:
+    alt: Grüne Froschfigur mit blau-weiß gestreiftem Schal, die einen roten, weiß gepunkteten Schirm hält
+    title: Frosch mit Regenschirm
+    sourceUrl: https://pixabay.com/photos/weatherman-umbrella-green-isolated-2018540/
+    author: Peggy_Marco
+    authorUrl: https://pixabay.com/users/peggy_marco-1553824/
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.de
 ---
 
 ## Einblicke aus dem KlimaOER-Workshop am 17.03.2025
@@ -68,9 +79,14 @@ z.B. [Hedgedoc](https://hedgedoc.org/):
 
 ![](https://pad.gwdg.de/uploads/543d8c09-ac12-4c91-9c2d-235098bb650a.png)
 
+Screenshot vom Hedgedoc-Dokument, [CC by](https://creativecommons.org/licenses/by/4.0/) FOERBICO
+
 oder [Lia Script](https://liascript.github.io/LiveEditor/):
 
 ![](https://pad.gwdg.de/uploads/2634851d-84a2-4107-939b-5200af1ca644.png)
+
+Screenshot vom LiaScript-Dokument, [CC by](https://creativecommons.org/licenses/by/4.0/) FOERBICO
+
 
 👉 geteilte Ansicht: Beide zeigen links die Markdown-Syntax und rechts die visuelle Ausgabe
 
