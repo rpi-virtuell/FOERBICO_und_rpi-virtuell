@@ -51,6 +51,57 @@ tags:
   - Nostr
   - interoperabel
   - Digitalisierung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  IMG_1664.jpg:
+    alt: Vorstellung des OER/IT-Sommercamps 2025 mit Begrüßung von edu-sharing
+    title: Begrüßung beim OER/IT-Sommercamps 2025 in Weimar durch edu-sharing
+    sourceUrl: https://oer.community/oer-it-sommercamp-2025
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Edufeed-1.jpg:
+    alt: Stellwand mit ersten Gedanken aus der Edufeed-Gruppe zu Pain Points von Lehrenden
+    title: Sammlung der Pain Points von Lehrenden
+    sourceUrl: https://oer.community/oer-it-sommercamp-2025
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Edufeed-2.jpg:
+    alt: Stellwand mit Ideensammlung und Fragen zu Offenheit vs. Geschlossenheit
+    title: Ideensammlung und Fragen zu Offenheit vs. Geschlossenheit
+    sourceUrl: https://oer.community/oer-it-sommercamp-2025
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_1689.jpg:
+    alt: Gina und Ludger vom FOERBICO-Team machen eine Pause auf Sonnen-Liegestühlen im Garten in Weimar.
+    title: Relax-Time
+    sourceUrl: https://oer.community/oer-it-sommercamp-2025
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Cat-Content-2.jpg:
+    alt: Katze spielt mit einem Stift.
+    title: Cat Content - Verspielte Katze
+    sourceUrl: https://oer.community/oer-it-sommercamp-2025
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Cat-Content-3.jpg:
+    alt: Katze liegt bei Gina vom FOERBICO-Team im Schoß und schläft.
+    title: Cat Content - Schmusekatze
+    sourceUrl: https://oer.community/oer-it-sommercamp-2025
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Pre-Event zum OER-/IT-Sommercamp 🤝
