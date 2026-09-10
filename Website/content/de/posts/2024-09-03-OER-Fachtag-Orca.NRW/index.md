@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: OER-Fachtag 2024 von ORCA.nrw
 description: Der OER-Fachtag 2024 am 29. August 2024 von ORCA.nrw diente als Treffpunkt für OER-Interessierte aus dem Hochschulbereich, um sich über Open Educational Resources (OER) auszutauschen. Etwa 100 Personen nahmen teil, darunter auch das FOERBICO-Team. Präsentationen und eine detaillierte Dokumentation werden bald veröffentlicht. Einen Rückblick zum Fachtag gibt es im Blog von oer.community.
-license: https://creativecommons.org/publicdomain/zero/1.0/
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-fachtag-2024-von-orca-nrw
 creator:
   - givenName: Gina
@@ -23,7 +23,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-# TODO: Bild "0_0.png" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
 datePublished: 2024-09-03
 
 # staticSiteGenerator
@@ -32,7 +31,7 @@ author:
 title: OER-Fachtag 2024 von ORCA.nrw
 cover:
   relative: true
-  image: 0_0.png
+  image: https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png
   hiddenInSingle: true
 summary: Der OER-Fachtag 2024 am 29. August 2024 von ORCA.nrw diente als Treffpunkt für OER-Interessierte aus dem Hochschulbereich, um sich über Open Educational Resources (OER) auszutauschen. Etwa 100 Personen nahmen teil, darunter auch das FOERBICO-Team. Präsentationen und eine detaillierte Dokumentation werden bald veröffentlicht. Einen Rückblick zum Fachtag gibt es im Blog von oer.community.
 url: oer-fachtag-2024-von-orca-nrw
@@ -46,6 +45,25 @@ tags:
   - KI
   - Vernetzung
   - Storytelling
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Rueckmeldung_OER-Fachtag-2024.jpg:
+    alt: Wortwolke mit Antworten zur Frage, was Teilnehmende bisher davon abgehalten hat OER in der Lehre einzusetzen.
+    title: Wortwolke zu Hürden beim Einsatz von OER in der Lehre
+    sourceUrl: https://oer.community/oer-fachtag-2024-von-orca-nrw
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Rueckmeldung_OER-Fachtag-2024-1.jpg:
+    alt: Wortwolke mit Antworten zur Frage, was Gründe für den Einsatz von OER in der Lehre waren.
+    title: Wortwolke mit Gründen für den Einsatz von OER in der Lehre
+    sourceUrl: https://oer.community/oer-fachtag-2024-von-orca-nrw
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)
