@@ -34,7 +34,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n136
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/ist-die-bibel-eigentlich-open/an-open-bible_Lynn_Greyling_Small.jpg
+image: https://blossom.edufeed.org/1864e27399c91f803ff4bb3d791c55aa50f1e9aee54a68cc6dce4a1cf87d19fa.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -47,8 +47,8 @@ author:
   - Phillip Angelina
 title: Ist die Bibel eigentlich Open?
 cover:
-  relative: true
-  image: an-open-bible_Lynn_Greyling_Small.jpg
+  relative: false
+  image: https://blossom.edufeed.org/1864e27399c91f803ff4bb3d791c55aa50f1e9aee54a68cc6dce4a1cf87d19fa.jpg
   hiddenInSingle: true
 summary: Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses anwendbar ist.
 url: ist-die-bibel-eigentlich-open
@@ -67,13 +67,14 @@ bilder:
     author: Lynn Greyling
     authorUrl: https://www.publicdomainpictures.net/de/browse-author.php?a=49179
     licence: CC0
-    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.
 Dabei stoßen sie früher oder später auf eine wichtige Frage: Ist die Bibel eigentlich *open*? Können biblische Texte für OER, also für Bildungsmaterial, das unter einer offenen CC-Lizenz steht und mit anderen frei geteilt werden kann, bedenkenlos verwendet werden? 
 
-![Eine Offene Bibel](an-open-bible_Lynn_Greyling_Small.jpg) 
+![Eine Offene Bibel](https://blossom.edufeed.org/1864e27399c91f803ff4bb3d791c55aa50f1e9aee54a68cc6dce4a1cf87d19fa.jpg)
+[Eine Offene Bibel](https://www.publicdomainpictures.net/de/view-image.php?image=439364&picture=eine-offene-bibel), [Lynn Greyling](https://www.publicdomainpictures.net/de/browse-author.php?a=49179), [CC0](https://creativecommons.org/publicdomain/zero/1.0/) 
 
 ["An Open Bible" by Lynn Greyling](https://www.publicdomainpictures.net/de/view-image.php?image=439364&picture=eine-offene-bibel)
 

@@ -21,16 +21,16 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-# TODO: Bild "accb7c731fbf765f.jpg" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
 datePublished: 2024-09-06
 
+image: https://blossom.edufeed.org/ab076fae012dfccbbcb368b7203f67e4cfd012bb3c73e445bbc449b3fd9e0c18.png
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
 title: 'Recap: OERcamp im März 2024 in Hamburg'
 cover:
-  relative: true
-  image: accb7c731fbf765f.jpg
+  relative: false
+  image: https://blossom.edufeed.org/ab076fae012dfccbbcb368b7203f67e4cfd012bb3c73e445bbc449b3fd9e0c18.png
   hiddenInSingle: true
 summary: Das OERcamp ist seit 2012 das Treffen der deutschsprachigen Community rund um Open Educational Resources (OER) und digitale, offene, zeitgemäße Bildung. Bei OERcamps arbeiten und lernen unterschiedliche Akteure voneinander und miteinander, bewusst über die Grenzen der Bildungsbereiche und Fächer hinaus. Das letzte OERcamp fand vom 6. bis 8. März 2024 in Hamburg statt. Jörg Lohrer aus dem FOERBICO-Team war mit dabei und schildert im Blogbeitrag seine Eindrücke.
 url: recap-oercamp-im-maerz-2024-in-hamburg
@@ -47,7 +47,7 @@ bilder:
   foerbico-projektvorstellung-vorschau.png:
     alt: Vorschaubild von Jörg Lohrer mit der Projektvorstellung von FOERBICO im Video für das OERcamp 2024.
     title: FOERBICO - Förderung offener Bildungspraktiken in religionsbezogenen Communities von Agentur J&K – Jöran und Konsorten für das OERcamp 2024
-    sourceUrl: https://oer.community/recap-oercamp-im-maerz-2024-in-hamburg
+    sourceUrl: https://www.oercamp.de/24/video/foerbico/
     author: Agentur J&K – Jöran und Konsorten
     authorUrl: https://oercamp.de/
     licence: CC BY 4.0
@@ -62,7 +62,10 @@ Falls das fOERbico ein Tier ist, welches wäre das? Jörg Lohrer, Mitarbeiter de
 
 [FOERBICO - Förderung offener Bildungspraktiken in religionsbezogenen Communities](https://www.oercamp.de/24/video/foerbico/) von Agentur J&K – Jöran und Konsorten für das OERcamp 2024 | oercamp.de| CC BY 4.0
 
-[![Projektvorstellung FOERBICO](foerbico-projektvorstellung-vorschau.png)](https://youtu.be/cLyYPoLRr3s "„fOERbico“ von Agentur J&K – Jöran und Konsorten für das OERcamp 2024 | oercamp.de| CC BY 4.0")
+![Projektvorstellung FOERBICO](https://blossom.edufeed.org/ab076fae012dfccbbcb368b7203f67e4cfd012bb3c73e445bbc449b3fd9e0c18.png)
+[FOERBICO - Förderung offener Bildungspraktiken in religionsbezogenen Communities von Agentur J&K – Jöran und Konsorten für das OERcamp 2024](https://www.oercamp.de/24/video/foerbico/), [Agentur J&K – Jöran und Konsorten](https://oercamp.de/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+▶ [Projektvorstellung FOERBICO auf YouTube ansehen](https://youtu.be/cLyYPoLRr3s)
 
 ## Ausblick: OERcamp im November 2024 in Essen
 Erstmals seit 2017 findet vom 18. bis 20. November in Essen wieder ein OER-Festival statt, das ein OERcamp, eine Fachtagung und das 10-Jahre-Jubiläum des Bündnisses Freie Bildung miteinander verbindet: https://www.oercamp.de/24/essen/.

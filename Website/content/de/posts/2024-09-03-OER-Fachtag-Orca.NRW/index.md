@@ -80,8 +80,10 @@ Nach einer freundlichen Begrüßung eröffnete Dr. Markus Deimann (Geschäftsfü
 
 Besonders spannend waren die Antworten auf die Fragen, was für oder gegen den Einsatz von OER in der Lehre aus Sicht der Teilnehmenden spricht:
 
-![Warum haben Sie OER in Ihrer Lehre eingesetzt?](Rueckmeldung_OER-Fachtag-2024.jpg)
-![Was hat Sie vom Einsatz von OER abgealten?](Rueckmeldung_OER-Fachtag-2024-1.jpg)
+![Warum haben Sie OER in Ihrer Lehre eingesetzt?](https://blossom.edufeed.org/7c732a66925381ce11272b94638d3f6dd2cbe5d9dc9a3daa226ae4fcdbc99b9e.jpg)
+[Wortwolke zu Hürden beim Einsatz von OER in der Lehre](https://oer.community/oer-fachtag-2024-von-orca-nrw), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Was hat Sie vom Einsatz von OER abgealten?](https://blossom.edufeed.org/38d2e1a2ad15eaf0ed88407f0ae2c1197dab300b166daa064c5f2c23c28e2be6.jpg)
+[Wortwolke mit Gründen für den Einsatz von OER in der Lehre](https://oer.community/oer-fachtag-2024-von-orca-nrw), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Diese Ergebnisse spiegelten sich auch in der anschließenden Keynote „Die Rolle der Communities für die (Weiter-)Entwicklung von OER“ von Prof. Dr. Daniel Otto (EHIP – Europäische Hochschule für Innovation und Perspektive) wider. Die erste Idee von Open Educational Resources und Practices kam erst Anfang der 2000er auf, 2012 fand dann das erste [OER-Camp](https://www.oercamp.de/) statt. Das zeigt: Deutschland beschäftigte sich anfangs schleppend mit dem Thema OER und hat erst seit 2016 Bemühungen in die Richtung intensiviert. Gerade in den letzten Jahren haben OER und OEP aber an Fahrt aufgenommen und an Relevanz gewonnen. Er ging der Frage nach, was OER-Gemeinschaft antreibt und warum sich Leute mit dem Thema beschäftigen, obwohl man sich erstmal ganz schön einarbeiten muss. Seine Erkenntnisse in a nutshell: Weniger die Einstellung, sondern vielfach die mangelnde Verbreitung von OER stellt für viele ein Hindernis dar. Die meisten Gemeinschaften verbindet eine starke Überzeugung der Kernideen von Teilen, Kollaboration etc. und OER als Materialien seien nur ein Vehicle für diese Werte. Das bestätige auch die [Studie](https://www.twillo.de/edu-sharing/components/render/89bad355-8af3-48c3-bf15-aa6163127039) von ORCA.nrw. Für alle Interessierten gibt es dort auch einen [Selbsttest](https://www.orca.nrw/starker-start-ins-studium/fuer-studierende/motivation-und-lernstrategien/moveo/). Zur Frage "Was sollte / kann die Community tun?" nennt er drei Wege:
 

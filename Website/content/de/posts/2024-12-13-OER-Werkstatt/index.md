@@ -21,7 +21,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/oer-werkstatt-digill-com-projekt/kreativtisch-ausschnitt.jpg
+image: https://blossom.edufeed.org/c13a499e6d9605ae6b89ae7c59c8a4522e0a149049da4c1d3c104ff888f3e386.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -35,8 +35,8 @@ author:
   - Phillip Angelina
 title: OEP ist nunmal eine Praxis
 cover:
-  relative: true
-  image: kreativtisch-ausschnitt.jpg
+  relative: false
+  image: https://blossom.edufeed.org/c13a499e6d9605ae6b89ae7c59c8a4522e0a149049da4c1d3c104ff888f3e386.jpg
   hiddenInSingle: true
 summary: Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der OER-Werkstatt von digiLL in Bochum.
 url: oer-werkstatt-digill-com-projekt
@@ -63,13 +63,23 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  kreativtisch-ausschnitt.jpg:
+    alt: Ausschnitt eines kleinen Kreativtischs mit Materialien zur Inspiration
+    title: Kreativtisch zur Inspiration (Ausschnitt)
+    sourceUrl: https://oer.community/oer-werkstatt-digill-com-projekt
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    modification: beschnitten
 ---
 
 ## Werkstatt-Prinzip
 
 Es gab viele kleine Tischgruppen, die an verschiedenen kleineren und größeren OER-Projekten arbeiten konnten. Es ermöglicht Menschen schnell in die Praxis zu kommen und miteinander kollaborativ zu arbeiten. Es gab zu verschiedensten Themen Expert:innen, die auch kurze *lightning-Talks* angeboten haben und sonst als Unterstützung für die Arbeitsgruppen dienten. [digiLL](https://digill.de/) ermöglichte einen Raum, in dem Menschen ins Tun kommen konnten. Teilnehmende waren Studierende, Lehrkräfte, Wissenschaftler:innen und Menschen die in anderen Formen in der Bildungsarbeit tätig sind. 
 
-![Unsere OER-Werkstatt](oer-werkstatt.jpg)
+![Unsere OER-Werkstatt](https://blossom.edufeed.org/33bfd1a071de48359bc39d87b3f6874e5751dfbc997609d4568a8567c2918ce2.jpg)
+[Räumlichkeiten der OER-Werkstatt von digiLL in der Ruhr-Universität Bochum](https://oer.community/oer-werkstatt-digill-com-projekt), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Was ist eigentlich OEP?
 
@@ -102,7 +112,8 @@ Weitere Diskussionen, die sich im Laufe der Tage ereigneten, drehten sich um die
 - Zudem wurde eine Frage aufgebracht, die mich wirklich zum Nachdenken über OER gebracht hat: *Wird in Zukunft nicht eigentlich das Remixen, also das Vermischen immer wichtiger*? Dabei geht es um den wichtigen Aspekt, ob nicht gerade dieser Punkt für OER-User:innen erleichtert werden muss.
 - In einem weiteren Austausch zu OEP kam die Frage auf, ob es den Begriff OEP wirklich brauche, da viele dies in der Praxis anscheinend nicht fehlen würde und digitales Lernen häufig auf dieser Grundlage stattfände. Ein nennenswerter Punkt gegen diesen Einwand war, dass auf struktureller Ebene eine bessere theoretische Fundierung von OEP helfen könne von einer *Prozessorientierung zur Ergebnisorientierung* zu kommen. 
 
-![Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen](kreativtisch.jpg)
+![Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen](https://blossom.edufeed.org/a957b381f32ffcb45dbdee0c8a572cd823a2dce3e5664f416154e81c4567df59.jpg)
+[Kreativtisch zur Inspiration](https://oer.community/oer-werkstatt-digill-com-projekt), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Resümee
 

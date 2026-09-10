@@ -6,7 +6,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com
 inLanguage:
   - de
-image: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com/OER-Brownbag.jpg
+image: https://blossom.edufeed.org/d1e936d2add304adb02dd816588f9f22ea480bc2199bbb0b79e105f123a7c4ae.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -17,8 +17,8 @@ datePublished: 2024-09-11
 # staticSiteGenerator
 title: 'OER-Brownbag: Monatlicher Call der Projekte unter der OER-Strategie (OE_COM)'
 cover:
-  relative: true
-  image: OER-Brownbag.jpg
+  relative: false
+  image: https://blossom.edufeed.org/d1e936d2add304adb02dd816588f9f22ea480bc2199bbb0b79e105f123a7c4ae.jpg
   hiddenInSingle: true
 summary: |
   Heute kamen die verschiedenen vom Bundesministerium für Bildung und Forschung (BMBF)

@@ -17,7 +17,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/markdown-einfuehrung-klimaoer/Wetterfrosch-CC0.jpg
+image: https://blossom.edufeed.org/43099f5dbf3b61f59b207ade0ec0f4b02d73c1dac6508f0c57c650d1dd5fd013.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -30,8 +30,8 @@ author:
   - Gina Buchwald-Chassée
 title: Markdown als Open Source Tool für die OER-Erstellung
 cover:
-  relative: true
-  image: Wetterfrosch-CC0.jpg
+  relative: false
+  image: https://blossom.edufeed.org/43099f5dbf3b61f59b207ade0ec0f4b02d73c1dac6508f0c57c650d1dd5fd013.jpg
   hiddenInSingle: true
 summary: Welche Open Source Tools für die Text-, Bild- und Videobearbeitung gibt es und wie kann ich sie zur Erstellung von OER verwenden? Darum ging es am 17. März 2025 beim Workshop von KlimaOER. Unter dem Programmpunkt "Schreiben" hat Gina Buchwald-Chassée aus dem FOERBICO-Team eine kleine Markdown-Einführung gegeben. Mehr über die Vor- und Nachteile von Markdown und warum es für die OER-Erstellung hilfreich sein kann, erfahrt ihr in diesem Blogbeitrag!
 url: markdown-einfuehrung-klimaoer
@@ -50,7 +50,23 @@ bilder:
     author: Peggy_Marco
     authorUrl: https://pixabay.com/users/peggy_marco-1553824/
     licence: CC0
-    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.de
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+  hedgedoc-screenshot.png:
+    alt: Screenshot eines Hedgedoc-Dokuments mit Markdown-Quelltext links und gerenderter Vorschau rechts.
+    title: Screenshot vom Hedgedoc-Dokument
+    sourceUrl: https://oer.community/markdown-einfuehrung-klimaoer
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  liascript-screenshot.png:
+    alt: Screenshot eines LiaScript-Dokuments im LiveEditor mit Markdown-Quelltext und gerendertem Kurs.
+    title: Screenshot vom LiaScript-Dokument
+    sourceUrl: https://oer.community/markdown-einfuehrung-klimaoer
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Einblicke aus dem KlimaOER-Workshop am 17.03.2025
@@ -77,15 +93,13 @@ Die Syntax als Ausgabesprache muss man sich trotzdem ein bisschen aneignen und j
 
 z.B. [Hedgedoc](https://hedgedoc.org/):
 
-![](https://pad.gwdg.de/uploads/543d8c09-ac12-4c91-9c2d-235098bb650a.png)
-
-Screenshot vom Hedgedoc-Dokument, [CC by](https://creativecommons.org/licenses/by/4.0/) FOERBICO
+![Screenshot eines Hedgedoc-Dokuments mit Markdown-Quelltext links und gerenderter Vorschau rechts.](https://blossom.edufeed.org/4c5a86214f501d2497a9b7757d64268e6b68aadb25d4bf7f8d5eaf2224c5e943.png)
+[Screenshot vom Hedgedoc-Dokument](https://oer.community/markdown-einfuehrung-klimaoer), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 oder [Lia Script](https://liascript.github.io/LiveEditor/):
 
-![](https://pad.gwdg.de/uploads/2634851d-84a2-4107-939b-5200af1ca644.png)
-
-Screenshot vom LiaScript-Dokument, [CC by](https://creativecommons.org/licenses/by/4.0/) FOERBICO
+![Screenshot eines LiaScript-Dokuments im LiveEditor mit Markdown-Quelltext und gerendertem Kurs.](https://blossom.edufeed.org/38a64a39dfbc69431a3b1e0667e977d8c3127f5b9344f4b13474691bb974a9d7.png)
+[Screenshot vom LiaScript-Dokument](https://oer.community/markdown-einfuehrung-klimaoer), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
 👉 geteilte Ansicht: Beide zeigen links die Markdown-Syntax und rechts die visuelle Ausgabe

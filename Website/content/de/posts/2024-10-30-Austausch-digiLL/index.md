@@ -17,7 +17,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/austausch-mit-digill_com-zum-thema-community-building/digill_com-videokonferenz.jpg
+image: https://blossom.edufeed.org/716abd5bdcc12a664524ec173c7d4e22f6166577e1ad30a1c89dd14e20b9b20b.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -29,8 +29,8 @@ author:
   - Gina Buchwald-Chassée
 title: Austausch mit digiLL_COM zum Thema "Community Building"
 cover:
-  relative: true
-  image: digill_com-videokonferenz.jpg
+  relative: false
+  image: https://blossom.edufeed.org/716abd5bdcc12a664524ec173c7d4e22f6166577e1ad30a1c89dd14e20b9b20b.jpg
   hiddenInSingle: true
 summary: Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana, Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das Thema "Community Building" im Kontext von OER (Open Educational Resources) zu  diskutieren und Erfahrungen auszutauschen.
 url: austausch-mit-digill_com-zum-thema-community-building

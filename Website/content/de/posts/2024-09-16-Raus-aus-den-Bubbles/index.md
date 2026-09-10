@@ -16,7 +16,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/raus-aus-den-bubbles/raus-aus-den-bubbles_vorschau.jpg
+image: https://blossom.edufeed.org/a48e4cf70056bb94933ca67196e542fc9ced093c9111b223a841b345ea738367.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -29,8 +29,8 @@ author:
   - Gina Buchwald-Chassée
 title: Raus aus den Bubbles
 cover:
-  relative: true
-  image: raus-aus-den-bubbles_vorschau.jpg
+  relative: false
+  image: https://blossom.edufeed.org/a48e4cf70056bb94933ca67196e542fc9ced093c9111b223a841b345ea738367.jpg
   hiddenInSingle: true
 summary: Raus aus der Bubble, rein ins gemeinsame Machen 💪 - Das ist das Motto unseres vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projektes FOERBICO, bei dem wir gemeinsam mit der Goethe-Universität Frankfurt und der FAU Erlangen-Nürnberg religionsbezogene Communities vernetzen und zusammen offene Bildungspraktiken fördern wollen. 🚀
 url: raus-aus-den-bubbles
@@ -57,7 +57,8 @@ bilder:
 
 Bildungs- und Unterrichtsmaterialien bleiben oft isoliert, werden nicht miteinander geteilt und alle basteln vor sich hin - das kostet Zeit, Energie und macht keinen Spaß. Du hast Angst vor Trouble, wenn du dein Material veröffentlichst oder bist unsicher, wie das mit Rechten, Lizenzen und der Qualität aussieht? Damit bist du nicht alleine! Wir nehmen dich mit und begleiten dich raus aus deiner Bubble 🫧 Transparenz, Anschlussfähigkeit und Nachvollziehbarkeit sind unser Ziel 🏁 Vorbei mit dem ganzen Bubbletrouble – wir als OER-Communities wollen unser Wisssen, Erfahrungen und Materialien offen miteinander teilen 🤝 Dazu haben wir zusammen mit unserem FOERBICO-Team und einzelnen Personen aus verschiedenen Communities wie [relilab](https://relilab.org/) oder [reliGlobal](https://religlobal.org/) eine kleine Fun-Aktion gestartet und einen Bubblesong entwickelt 👇
 
-[![Raus aus den Bubbles](raus-aus-den-bubbles_vorschau.jpg)](https://blossom.primal.net/c126cdf894412efe78fca2cd0f7259b88de8eda67b6880132ad213ada4f4977d.mp4)
+[![Raus aus den Bubbles](https://blossom.edufeed.org/a48e4cf70056bb94933ca67196e542fc9ced093c9111b223a841b345ea738367.jpg)
+[Vorschaubild zum Video "Raus aus den Bubbles"](https://oer.community/raus-aus-den-bubbles), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)](https://blossom.primal.net/c126cdf894412efe78fca2cd0f7259b88de8eda67b6880132ad213ada4f4977d.mp4)
 
 Vielen Dank an Jörg Lohrer, Gina Buchwald-Chassée, Laura Moessle, Phillip Angelina, Corinna Ullmann, Bianca Kappelhoff, David Wakefield und Nele Hirsch fürs Mitmachen ❤️
 

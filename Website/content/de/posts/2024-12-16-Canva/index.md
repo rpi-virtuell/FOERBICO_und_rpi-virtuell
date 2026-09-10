@@ -28,7 +28,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/canva/Canva-OER-KI-generiert.jpg
+image: https://blossom.edufeed.org/5d66f8e6f78695c7c1a3c41251ad09a68fd67f38aaf0de386eb93f02db8475ce.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -42,8 +42,8 @@ author:
   - Corinna Ullmann
 title: Canva für OER? Eine Entscheidungshilfe für Bildungsakteure
 cover:
-  relative: true
-  image: Canva-OER-KI-generiert.jpg
+  relative: false
+  image: https://blossom.edufeed.org/5d66f8e6f78695c7c1a3c41251ad09a68fd67f38aaf0de386eb93f02db8475ce.jpg
   hiddenInSingle: true
 summary: Open Educational Resources (OER) sind eine Möglichkeit Wissen frei zu teilen, zugänglich für alle zu machen und setzen kreative Freiräume. Viele Bildungsakteure greifen auf das Gestaltungstool Canva zurück. Der Blogbeitrag soll Bildungsakteuren als Entscheidungshilfe dienen und bietet Infos und Tipps zur Orientierung!
 url: canva
@@ -88,7 +88,8 @@ Canva ist zwar ein tolles Gestaltungstool, aber die Inhalte, die ihr dort findet
 
 Ihr erstellt mit Canva ein Handout und nutzt ein schönes Stockfoto aus der Bibliothek. Das Foto ist aber nur für eure private oder berufliche Nutzung unter der Canva-Lizenz freigegeben. Weitere Infos zur Erstellung und den verschiedenen Canva-Lizenzen erfahrt ihr auch im [relilab-Lernmodul](https://relilab.org/flyer-und-social-media-postings-mit-canva-im-handumdrehen-erstellen/). Sobald ihr das Handout als OER hochladet und zur freien Nutzung anbietet, verstößt ihr gegen die Nutzungsbedingungen – das Foto ist nämlich immer noch durch das Urheberrecht geschützt!
 
-![](Beispiel-Bildlizenz.jpg) 
+![Dreiteilige Grafik mit drei Varianten eines Arbeitsblatts zur Nutzung von Canva für OER. Links ist ein Canva-Bild ohne Lizenzangabe dargestellt und mit einem roten X als nicht geeignet gekennzeichnet. In der Mitte enthält das Arbeitsblatt ein Canva-Bild mit dem Hinweis „Ausweis: Canva-Lizenz“ und ist als zulässig gekennzeichnet. Rechts besteht das Arbeitsblatt aus einem eigenen oder frei lizenzierten Bild mit dem Hinweis „CC-Lizenz“ und ist mit einem grünen Haken als Best Practice gekennzeichnet.](https://blossom.edufeed.org/200ab2e7c0d5bf6e3db3fe55637e947e17c78a4d12cfe94a62c7ba6c1f471de0.jpg)
+[Canva für OER - Nicht zulässige, zulässige und empfohlene Nutzung](https://oer.community/canva), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 
 
 ### Tipp:
 

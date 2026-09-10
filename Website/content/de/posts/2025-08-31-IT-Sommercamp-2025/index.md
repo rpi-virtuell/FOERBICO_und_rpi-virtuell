@@ -25,7 +25,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/oer-it-sommercamp-2025/IMG_1664.jpg
+image: https://blossom.edufeed.org/e85a10fa78a84f96858450f045df2f3f4f98234613c25595541e836a215ec5fb.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -38,8 +38,8 @@ author:
   - Ludger Sicking
 title: HackathOERn goes OER/IT-Sommercamp in Weimar
 cover:
-  relative: true
-  image: IMG_1664.jpg
+  relative: false
+  image: https://blossom.edufeed.org/e85a10fa78a84f96858450f045df2f3f4f98234613c25595541e836a215ec5fb.jpg
   hiddenInSingle: true
 summary: Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.
 url: oer-it-sommercamp-2025
@@ -136,8 +136,10 @@ Wir vom FOERBICO-Team waren vorwiegend beim Edufeed-Workshop, um mit weiteren In
 
 Darauf aufbauend haben wir überlegt, wie wir mit unseren OER-Plattformen mithalten können oder wollen. Unser Fazit: Da kein Business-Modell dahinter steht, spielen wir vielfach in einer anderen Liga und können in punkto Marketing etc. nicht unbedingt mithalten. Danach sind wir der Frage nachgegangen, was denn die OER-Community stark macht/auszeichnet. Hier die losen Ergebnisse:
 
-![](Edufeed-1.jpg)
-![](Edufeed-2.jpg)
+![Stellwand mit ersten Gedanken aus der Edufeed-Gruppe zu Pain Points von Lehrenden](https://blossom.edufeed.org/580f8bbbe03dfbb18c4391fa0c2a8f6d8e8d8969818db2d48b0367bac4fe59fa.jpg)
+[Sammlung der Pain Points von Lehrenden](https://oer.community/oer-it-sommercamp-2025), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Stellwand mit Ideensammlung und Fragen zu Offenheit vs. Geschlossenheit](https://blossom.edufeed.org/7c836937faa852b138adfc347e3d1de4c74e27b799318c93f3eb2f85f3e45326.jpg)
+[Ideensammlung und Fragen zu Offenheit vs. Geschlossenheit](https://oer.community/oer-it-sommercamp-2025), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Highlights des Abends: Burger-Grillabend und der große Auftritt der OER-Band 🍔🎶
 
@@ -147,7 +149,8 @@ Am nächsten Tag haben wir nach einer ersten Runde Lightning-Talks im Edufeed-Wo
 
 Kreative Denkpausen, Fun-Time und (informeller) Austausch durften daher auch nicht zu kurz kommen!
 
-![](IMG_1689.jpg)
+![Gina und Ludger vom FOERBICO-Team machen eine Pause auf Sonnen-Liegestühlen im Garten in Weimar.](https://blossom.edufeed.org/fcf0f7e80db7371f2301ff8b8e9eca83e953819d70db7d0d7940f59c712d9f43.jpg)
+[Relax-Time](https://oer.community/oer-it-sommercamp-2025), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Finale an Tag 3: Abschlusspräsentationen der Projekte🎤
 
@@ -160,6 +163,8 @@ Drei aufregende Tage gingen damit zu Ende und wir möchten uns riesig beim [Hack
 
 ### Was natürlich nicht fehlen darf: Cat Content 🐈
 
-![](Cat-Content-2.jpg)
-![](Cat-Content-3.jpg)
+![Katze spielt mit einem Stift.](https://blossom.edufeed.org/6461813466b198c3451dfe93e549d8dd6e25a15ad360575ad40a56210819c18f.jpg)
+[Cat Content - Verspielte Katze](https://oer.community/oer-it-sommercamp-2025), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Katze liegt bei Gina vom FOERBICO-Team im Schoß und schläft.](https://blossom.edufeed.org/16eff3ca18abe00ad8c3fe08750ee0433bc524d5a4d974237fd7eb7054b9a6e7.jpg)
+[Cat Content - Schmusekatze](https://oer.community/oer-it-sommercamp-2025), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
