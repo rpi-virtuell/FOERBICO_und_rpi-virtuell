@@ -86,12 +86,12 @@ Was zunächst trocken und technisch klingt, hat für OER eine kaum zu überschä
 
 ## 2. Was sind Metadaten überhaupt?
 
-„Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten funktionieren wie der Katalogeintrag einer Bibliothek: Sie beschreiben ein digitales Objekt, geben an, wo es zu finden ist, und ermöglichen dadurch seine Identifikation, Auffindbarkeit und Nachnutzung.
+„Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann, 2020, S. 4).  Metadaten funktionieren wie der Katalogeintrag einer Bibliothek: Sie beschreiben ein digitales Objekt, geben an, wo es zu finden ist, und ermöglichen dadurch seine Identifikation, Auffindbarkeit und Nachnutzung.
 
-Nach [Riley (2017)](https://www.niso.org/publications/understanding-metadata-2017) lassen sich u. a. drei zentrale Arten von Metadaten unterscheiden:
+Nach [Riley (2017)](https://www.niso.org/publications/understanding-metadata-2017) lassen sich u.a. drei zentrale Arten von Metadaten unterscheiden:
 
 - **deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
-- **strukturelle** Metadaten zeigen den inneren Aufbau eines Materials, etwa die Abfolge seiner Bestandteile, sowie 
+- **strukturelle** Metadaten, die den inneren Aufbau eines Materials zeigen, etwa die Abfolge seiner Bestandteile, sowie 
 - **administrative** Metadaten, die rechtliche, technische und provenienzbezogene Informationen, wie z.B. die Lizenz des Materials, festhalten.
 
 Mit Blick auf OER heißt das, dass deskriptive Metadaten wie Titel und Fach beschreiben *was* das Material ist, die strukturellen Metadaten klären, *wie das Material aufgebaut ist* und *in welchem Verbund es steht* – etwa ob es aus mehreren Dateien besteht oder Teil einer größeren Unterrichtsreihe ist –, und die administrativen Metadaten regeln *wie das Material genutzt werden darf* und *in welchem Format* es vorliegt, durch den Vermerk auf Lizenzangabe und Dateiformat.
@@ -120,8 +120,8 @@ Metadaten sind damit eine bedeutsame Voraussetzung dafür, dass die Potenziale v
 Für die Beschreibung digitaler Lernressourcen haben sich unterschiedliche Metadatenschemata und -profile etabliert. Sie verfolgen das gemeinsame Ziel, (Bildungs-)Ressourcen standardisiert zu beschreiben und dadurch deren Auffindbarkeit und Nachnutzung zu erleichtern.
 Im Folgenden werden mit dem *IEEE Learning Object Metadata Standard (LOM)*, *Dublin Core (DC)* und dem *Allgemeinen Metadatenprofil für Bildungsressourcen (AMB)* drei für den OER-Kontext besonders relevante Ansätze vorgestellt. 
 
-### IEEE Learning Metadate (LMT) & Dublin Core (DC)
-Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht [(vgl. Ochoa et al., 2011)](https://link.springer.com/book/10.1007/978-3-642-23985-4); [Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31)) und mittlerweile zu LMT weiterentwickelt wurde. 
+### IEEE Learning Metadata (LMT) & Dublin Core (DC)
+Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht [(vgl. Ochoa et al., 2011)](https://link.springer.com/book/10.1007/978-3-642-23985-4); [Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31) und mittlerweile zu LMT weiterentwickelt wurde. 
 Der LMT dient als Aktualisierung des LOM und erarbeitet neue Metadatenkonzepte, in der auch flüchtige Lernereignisse abgebildet werden können ([vgl. Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31)).
 
 Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d.h. alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
@@ -143,16 +143,16 @@ Um AMB genauer zu veranschaulichen, zeigt die folgende Tabelle die Metadaten die
 |---|---|---|
 | **name** | Titel der Ressource | Metadaten – die unsichtbare Infrastruktur offener Bildung|
 | **description** | Kurzbeschreibung | Metadaten entscheiden maßgeblich darüber, ob Open Educational Resources gefunden, eingeordnet und nachgenutzt werden können. Dieser Beitrag erläutert, was Metadaten sind, wie die Standards LOM, Dublin Core und das Allgemeine Metadatenprofil für Bildungsressourcen (AMB) die Auffindbarkeit von OER strukturieren und warum selbst gepflegte Metadatensätze Lücken aufweisen, etwa bei der kompetenzbezogenen Erschließung. Da Metadaten keine neutralen, sondern soziotechnisch geprägte Angaben sind, plädiert der Beitrag zudem dafür, ihren Entstehungskontext sichtbar zu machen. Abschließend werden Konsequenzen für den Aufbau eines interoperablen, religionspädagogischen OER-Ökosystems skizziert.|
-| **about** | Fach oder Thema |  https://w3id.org/kim/hochschulfaechersystematik/n053 </br> https://w3id.org/kim/hochschulfaechersystematik/n086, prefLabel: "Evang. Theologie, -Religionslehre"@de</br>https://w3id.org/kim/hochschulfaechersystematik/n052, prefLabel: "Erziehungswissenschaft (Pädagogik)"@de|
+| **about** | Fach oder Thema |  https://w3id.org/kim/hochschulfaechersystematik/n053, prefLabel: "Kath. Theologie, -Religionslehre"@de<br>https://w3id.org/kim/hochschulfaechersystematik/n086, prefLabel: "Evang. Theologie, -Religionslehre"@de<br>https://w3id.org/kim/hochschulfaechersystematik/n052, prefLabel: "Erziehungswissenschaft (Pädagogik)"@de|
 | **keywords** | Schlagwörter |  Open Educational Resources (OER), Metadaten, interoperabel, Vernetzung, dezentral, Qualitätskriterien|
-| **creator** | Urheber:in | Laura Mößle </br> Phillip Angelina|
-| **affiliation** | Institutionelle Zugehörigkeit | name: Johann Wolfgang Goethe-Universität Frankfurt id: https://ror.org/04cvxnb49 type: Organization </br> name: Friedrich-Alexander-Universität Erlangen-Nürnberg, id: https://ror.org/00f7hpc57, type: Organization|
-| **learningResourceType** | Typ der Lernressource (z. B. Arbeitsblatt, Video, Kurs) | https://w3id.org/kim/hcrt/text, prefLabel: "Textdokument"@de </br> https://w3id.org/kim/hcrt/web_page, prefLabel: "Webseite"@de|
-| **audience** | Zielgruppe | https://w3id.org/kim/educationalLevel/level_A </br>https://w3id.org/kim/hcrt/web_page|
+| **creator** | Urheber:in | Laura Mößle <br> Phillip Angelina|
+| **affiliation** | Institutionelle Zugehörigkeit | name: Johann Wolfgang Goethe-Universität Frankfurt id: https://ror.org/04cvxnb49 type: Organization <br> name: Friedrich-Alexander-Universität Erlangen-Nürnberg, id: https://ror.org/00f7hpc57, type: Organization|
+| **learningResourceType** | Typ der Lernressource (z.B. Arbeitsblatt, Video, Kurs) | https://w3id.org/kim/hcrt/text, prefLabel: "Textdokument"@de <br> https://w3id.org/kim/hcrt/web_page, prefLabel: "Webseite"@de|
+| **educationalLevel** | Zielgruppe/Bildungsstufe | https://w3id.org/kim/educationalLevel/level_A|
 | **inLanguage** | Sprache | de|
 | **license** | Lizenzangabe (maschinenlesbar referenziert) | https://creativecommons.org/licenses/by/4.0/deed.de|
 
-Bei Feldern wie *about* oder *learningResourceType* greift AMB auf kontrollierte Vokabulare zurück. Die Werte werden dabei eindeutig über ihre URI identifiziert, etwa https://w3id.org/kim/hochschulfaechersystematik/n053. Ergänzend kann die jeweilige Vorzugsbezeichnung (prefLabel) in einer bestimmten Sprache angegeben werden, um den Wert direkt lesbar zu machen, z. B. "Evang. Theologie, -Religionslehre"@de. 
+Bei Feldern wie *about* oder *learningResourceType* greift AMB auf kontrollierte Vokabulare zurück. Die Werte werden dabei eindeutig über ihre URI identifiziert, etwa https://w3id.org/kim/hochschulfaechersystematik/n053. Ergänzend kann die jeweilige Vorzugsbezeichnung (prefLabel) in einer bestimmten Sprache angegeben werden, um den Wert direkt lesbar zu machen, z.B. "Evang. Theologie, -Religionslehre"@de. 
 
 Um die Erstellung von Metadaten zu erleichtern, bietet der [OERSI-Metadatengenerator](https://oersi.gitlab.io/metadata-form/metadata-generator.html) eine praktische Unterstützung.
 Nutzer:innen werden schrittweise durch die Eingabe der relevanten Angaben geführt. 
@@ -194,13 +194,13 @@ Aus den bisherigen Überlegungen lassen sich Handlungsperspektiven für den Aufb
 
 ### Eine fachspezifische Metadatenlogik entwickeln
 
-Bislang fehlt in der Theologie und Religionspädagogik eine einheitliche fachliche Systematik für die vergabe der Metadaten. Dazu gehören unter anderem auch einheitliche Bezeichnungen für die theologischen Fächergruppen, religionsdidaktische Modelle, überkonfessionelle sowie interreligiöse Vereinheitlichungen, Kompetenzformulierungen sowie religionspädagogische Themenfelder schulischer, außerschulischer und hochschulischer Bildung. 
+Bislang fehlt in der Theologie und Religionspädagogik eine einheitliche fachliche Systematik für die Vergabe der Metadaten. Dazu gehören unter anderem einheitliche Bezeichnungen für die theologischen Fächergruppen, religionsdidaktische Modelle, überkonfessionell sowie interreligiös abgestimmte Kompetenzformulierungen sowie religionspädagogische Themenfelder schulischer, außerschulischer und hochschulischer Bildung. 
 
 Mit dem am Comenius-Institut angesiedelten Projekt **Edufeed** werden hierfür bereits wichtige Grundlagen geschaffen. Aufbauend auf AMB werden plattformübergreifende Metadatenstandards entwickelt und zugleich die im FOERBICO-Projekt erarbeiteten [**Qualitätskriterien**](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) berücksichtigt. Langfristig könnte daraus eine überfachliche Infrastruktur entstehen, die OER deutlich besser auffindbar und miteinander vernetzbar macht.
 
 ### Den Entstehungskontext sichtbar machen
 
-Ebenso wichtig für die Metadaten ist die Dokumentation des Entstehungskontexts der Materialien. Religionspädagogische OER entstehen z.B. in Communitys of Practice oder in Rahmen von Lehrer:innenfortbildungen.
+Ebenso wichtig für die Metadaten ist die Dokumentation des Entstehungskontexts der Materialien. Religionspädagogische OER entstehen z.B. in Communitys of Practice oder im Rahmen von Lehrer:innenfortbildungen.
 Diesen kollaborativen Entwicklungsprozess kann man in Metadaten, z.B. durch ein standardisiertes Metadatenfeld oder eine kurze redaktionelle Kontextbeschreibung sichtbar machen. Erweiterte Kontextangaben erleichtern potenziellen Nachnutzenden die Einschätzung der Zielsetzung und des Einsatzpotenzials für die eigene Lehrpraxis.
 
 
@@ -215,7 +215,7 @@ Diesen kollaborativen Entwicklungsprozess kann man in Metadaten, z.B. durch ein 
 
 [Ochoa, X., Klerkx, J., Vandeputte, B., & Duval, E. (2011). On the use of learning object metadata: The globe experience. In C. D. Kloos, D. Gillet, R. M. Crespo García, F. Wild & M. Wolpers (Hg.), *Towards Ubiquitous Learning*, Berlin, Heidelberg, S. 271-284](https://link.springer.com/book/10.1007/978-3-642-23985-4).
 
-[Oellers, M./ Rörtgen, S. (2024). Kompendium: Didaktische Metadaten](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31%20S-30-32). https://doi.org/10.5281/zenodo.10828758
+[Oellers, M., & Rörtgen, S. (2024). Kompendium: Didaktische Metadaten](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31). https://doi.org/10.5281/zenodo.10828758
 
 [Pohl, A., Klinger, A., Hartmann, B., Schuurbiers, C., Steeg, F., Kummerländer, M., Oellers, M., Stengel, M., Hoffmann, M., Rörtgen, S., Kulla, S., & Bülte, T. (2023). *Allgemeines Metadatenprofil für Bildungsressourcen (AMB)*](https://w3id.org/kim/amb/20231019/)
 
