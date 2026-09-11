@@ -37,7 +37,7 @@ learningResourceType:
 image: https://oer.community/metadaten-die-unsichtbare-infrastruktur-offener-bildung/metadata.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-09-10'
+datePublished: '2026-09-15'
 keywords:
   - Open Educational Resources (OER)
   - Metadaten
