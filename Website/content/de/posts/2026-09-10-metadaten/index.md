@@ -88,7 +88,7 @@ Was zunächst trocken und technisch klingt, hat für OER eine kaum zu überschä
 
 „Einfach ausgedrückt sind Metadaten Daten über Daten" (Krenn & Tiemann 2020, S. 4).  Metadaten funktionieren wie der Katalogeintrag einer Bibliothek: Sie beschreiben ein digitales Objekt, geben an, wo es zu finden ist, und ermöglichen dadurch seine Identifikation, Auffindbarkeit und Nachnutzung.
 
-Nach Riley (2017) lassen sich u. a. drei zentrale Arten von Metadaten unterscheiden:
+Nach [Riley (2017)](https://www.niso.org/publications/understanding-metadata-2017) lassen sich u. a. drei zentrale Arten von Metadaten unterscheiden:
 
 - **deskriptive** Metadaten, die den Inhalt eines Materials beschreiben (Titel, Fach, Sprache),
 - **strukturelle** Metadaten zeigen den inneren Aufbau eines Materials, etwa die Abfolge seiner Bestandteile, sowie 
@@ -105,7 +105,7 @@ Wer bspw. ein Material mit dem Schlagwort „Grundschule" oder „Erstkommunionk
 
 Beim Hochladen eines OER-Materials werden die Metadaten im Hintergrund von Suchmaschinen und OER-Portalen ausgelesen. Geben Suchende Schlagwörter oder Themen in eine Suchmaske ein, gleichen die Suchmaschinen diese Begriffe mit den hinterlegten Metadaten ab und liefern auf dieser Grundlage passgenaue Ergebnisse. Metadaten entscheiden deshalb maßgeblich darüber, ob ein Material beispielsweise bei einer Suche nach „Schöpfung", „Klasse 6" oder „CC BY" überhaupt in den Trefferlisten erscheint.
 
-Erst diese zusätzlichen Informationen ermöglichen es, Materialien zu indexieren, nach bestimmten Kriterien zu filtern, miteinander zu verknüpfen und in Suchergebnissen gezielt anzuzeigen. Metadaten bilden damit die Schnittstelle zwischen einer veröffentlichten Ressource und den Personen, die nach ihr suchen.
+Erst diese zusätzlichen Informationen ermöglichen es, Materialien zu indexieren, nach bestimmten Kriterien zu filtern, miteinander zu verknüpfen und in Suchergebnissen gezielt anzuzeigen. Metadaten bilden die Schnittstelle zwischen einer veröffentlichten Ressource und den Personen, die nach ihr suchen und sie in der Praxis verwenden möchten. 
 
 Für OER-Erstellende bedeutet das, dass ein didaktisch hochwertiges, rechtssicher lizenziertes Arbeitsblatt seinen Nutzen nur dann entfaltet, wenn es auch gefunden werden kann. Fehlen aussagekräftige Angaben zu Titel, Fach, Zielgruppe, Sprache oder Lizenz, bleibt das Material für potenziell Nachnutzende häufig unsichtbar, selbst wenn es öffentlich zugänglich ist.
 
@@ -121,8 +121,10 @@ Für die Beschreibung digitaler Lernressourcen haben sich unterschiedliche Metad
 Im Folgenden werden mit dem *IEEE Learning Object Metadata Standard (LOM)*, *Dublin Core (DC)* und dem *Allgemeinen Metadatenprofil für Bildungsressourcen (AMB)* drei für den OER-Kontext besonders relevante Ansätze vorgestellt. 
 
 ### IEEE Learning Metadate (LMT) & Dublin Core (DC)
-Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht und mittlerweile LMT weiterentwickelt wurde (vgl. Ochoa et al., 2011; [Oellers & Röertgen, 2024](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31 S-30-32), S. 30ff.). 
-Der LMT dient als Aktualisierung des LOM und erarbeitet neue Metadatenkonzepte, in der auch flüchtige Lernereignisse abgebildet werden können ([Oellers & Röertgen, 2024](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31 S-30-32), S. 30ff.). Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d.h. alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
+Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht [(vgl. Ochoa et al., 2011)](https://link.springer.com/book/10.1007/978-3-642-23985-4); [Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31)) und mittlerweile zu LMT weiterentwickelt wurde. 
+Der LMT dient als Aktualisierung des LOM und erarbeitet neue Metadatenkonzepte, in der auch flüchtige Lernereignisse abgebildet werden können ([vgl. Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31)).
+
+Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d.h. alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
 
 ### Allgemeines Metadatenprofil für Bildungsressourcen (AMB)
 
@@ -135,29 +137,31 @@ AMB bildet unter anderem die Grundlage des Metadatenmodells [**Open Educational 
 
 Auch das im Aufbau befindliche Projekt **[Edufeed](https://comenius.de/2025/10/06/edufeed-dezentral-offen-interoperabel/)** – eine dezentrale, auf dem Nostr-Protokoll basierende OER-Infrastruktur des Comenius-Instituts – arbeitet mit AMB als Metadatenstandard zur plattformübergreifenden Abbildung von Bildungsmetadaten.
  
-Um AMB genauer zu veranschaulichen, zeigt die folgende Tabelle die Metadaten dieses Blogartikels als Anwendungsfall.
+Um AMB genauer zu veranschaulichen, zeigt die folgende Tabelle die Metadaten dieses Blogartikels als exemplarischen Anwendungsfall.
 
 | Felder | Funktion | Anwendungsfall |
 |---|---|---|
 | **name** | Titel der Ressource | Metadaten – die unsichtbare Infrastruktur offener Bildung|
 | **description** | Kurzbeschreibung | Metadaten entscheiden maßgeblich darüber, ob Open Educational Resources gefunden, eingeordnet und nachgenutzt werden können. Dieser Beitrag erläutert, was Metadaten sind, wie die Standards LOM, Dublin Core und das Allgemeine Metadatenprofil für Bildungsressourcen (AMB) die Auffindbarkeit von OER strukturieren und warum selbst gepflegte Metadatensätze Lücken aufweisen, etwa bei der kompetenzbezogenen Erschließung. Da Metadaten keine neutralen, sondern soziotechnisch geprägte Angaben sind, plädiert der Beitrag zudem dafür, ihren Entstehungskontext sichtbar zu machen. Abschließend werden Konsequenzen für den Aufbau eines interoperablen, religionspädagogischen OER-Ökosystems skizziert.|
-| **about** | Fach oder Thema |  https://w3id.org/kim/hochschulfaechersystematik/n053 </br>https://w3id.org/kim/hochschulfaechersystematik/n086 </br>https://w3id.org/kim/hochschulfaechersystematik/n052|
+| **about** | Fach oder Thema |  https://w3id.org/kim/hochschulfaechersystematik/n053 </br> https://w3id.org/kim/hochschulfaechersystematik/n086, prefLabel: "Evang. Theologie, -Religionslehre"@de</br>https://w3id.org/kim/hochschulfaechersystematik/n052, prefLabel: "Erziehungswissenschaft (Pädagogik)"@de|
 | **keywords** | Schlagwörter |  Open Educational Resources (OER), Metadaten, interoperabel, Vernetzung, dezentral, Qualitätskriterien|
 | **creator** | Urheber:in | Laura Mößle </br> Phillip Angelina|
 | **affiliation** | Institutionelle Zugehörigkeit | name: Johann Wolfgang Goethe-Universität Frankfurt id: https://ror.org/04cvxnb49 type: Organization </br> name: Friedrich-Alexander-Universität Erlangen-Nürnberg, id: https://ror.org/00f7hpc57, type: Organization|
-| **learningResourceType** | Typ der Lernressource (z. B. Arbeitsblatt, Video, Kurs) | https://w3id.org/kim/hcrt/text, https://w3id.org/kim/hcrt/web_page|
+| **learningResourceType** | Typ der Lernressource (z. B. Arbeitsblatt, Video, Kurs) | https://w3id.org/kim/hcrt/text, prefLabel: "Textdokument"@de </br> https://w3id.org/kim/hcrt/web_page, prefLabel: "Webseite"@de|
 | **audience** | Zielgruppe | https://w3id.org/kim/educationalLevel/level_A </br>https://w3id.org/kim/hcrt/web_page|
 | **inLanguage** | Sprache | de|
 | **license** | Lizenzangabe (maschinenlesbar referenziert) | https://creativecommons.org/licenses/by/4.0/deed.de|
+
+Bei Feldern wie *about* oder *learningResourceType* greift AMB auf kontrollierte Vokabulare zurück. Die Werte werden dabei eindeutig über ihre URI identifiziert, etwa https://w3id.org/kim/hochschulfaechersystematik/n053. Ergänzend kann die jeweilige Vorzugsbezeichnung (prefLabel) in einer bestimmten Sprache angegeben werden, um den Wert direkt lesbar zu machen, z. B. "Evang. Theologie, -Religionslehre"@de. 
 
 Um die Erstellung von Metadaten zu erleichtern, bietet der [OERSI-Metadatengenerator](https://oersi.gitlab.io/metadata-form/metadata-generator.html) eine praktische Unterstützung.
 Nutzer:innen werden schrittweise durch die Eingabe der relevanten Angaben geführt. 
 Anschließend generiert das Tool daraus einen maschinenlesbaren Metadatensatz, der direkt kopiert und weiterverwendet werden kann.
 
 
-## 5. Metadaten in der Praxis sind meist inkonsistent und kompetenzblind
+## 5. Metadaten in der Praxis sind meist inkonsistent und achten wenig auf Kompetenzen
 
-Wie weit Anspruch und gelebte Praxis auseinanderfallen, zeigt eine Studie von Simão de Deus und Barbosa (2020): Von 280 identifizierten Metadatenschlüsseln in acht OER-Repositorien unterstützten die Suchfunktionen im Schnitt nur 78, also rund 28 % (Simão de Deus & Barbosa, 2020, S. 127, 129). Selbst Lizenzangaben, eigentlich das Kernversprechen der Rechtssicherheit, waren neben sauber vergebenen CC-Lizenzen (74 %) auch mit Werten wie „CustomLicense" oder schlicht „0" belegt (Simão de Deus & Barbosa, 2020, S. 130).
+Wie weit Anspruch und gelebte Praxis auseinanderfallen, zeigt eine Studie von [Simão de Deus und Barbosa (2020)](https://ieeexplore.ieee.org/document/9202802): Von 280 identifizierten Metadatenschlüsseln in acht OER-Repositorien unterstützten die Suchfunktionen im Schnitt nur 78, also rund 28 %. Selbst Lizenzangaben, eigentlich das Kernversprechen der Rechtssicherheit, waren neben sauber vergebenen CC-Lizenzen (74 %) auch mit Werten wie „CustomLicense" oder schlicht „0" belegt [(Simão de Deus & Barbosa, 2020)](https://ieeexplore.ieee.org/document/9202802).
 
 Ferner zeigen Fomin et al. (2026) auf, dass selbst wenn grundlegende Metadaten (Fach, Stufe, Lizenz) sauber in Materialien vergeben sind, eine strukturelle Lücke bei der fachlich-kompetenzbezogenen Erschließung offen bleibt. Die Studie identifiziert hierfür drei Ursachen:
 
@@ -170,7 +174,7 @@ Unlösbar ist das nicht. Die österreichische LOM-Anpassung der Universität Inn
 An dieser Stelle setzen auch die FOERBICO-[Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) an. 
 Sie schlagen u.a. vor, die angestrebten Lernergebnisse und Kompetenzen zu Beginn des Materials klar auszuweisen und an Bildungsstandards bzw. Lehr- und Bildungsplänen auszurichten. 
 
-Für die Religionspädagogik gibt es eine besonderheit, welche die Auffindbarkeit erschweren kann: **Ein vielfältiges Vokabular**. Dies kann bei der Verschlagwortung von Materialien, zu einer Nicht-Auffindbarkeit führen. Für diese Herausforderung reicht nicht ein Vorsetzen von Schlagwörtern, sondern diese sollten sich aus den Communities heraus bilden. Dieser Bildungsprozess ist jedoch ein stetig wandelnder und nicht geradliniger Prozess.  
+Für die Religionspädagogik kommt eine Besonderheit hinzu, die die Auffindbarkeit zusätzlich erschwert, nämlich ein vielfältiges, uneinheitliches Vokabular. Das kann bei der Verschlagwortung von Materialien dazu führen, dass diese trotz sorgfältiger Beschreibung nicht gefunden werden. Dieser Herausforderung lässt sich nicht allein durch von außen vorgegebene Schlagwörter begegnen. Ein solches Vokabular muss sich vielmehr aus den jeweiligen Communitys heraus entwickeln. Dieser Entstehungsprozess verläuft jedoch kontinuierlich und selten geradlinig. 
 
 ## 6. Was Metadaten nicht leisten können: Entstehungsbedingungen sichtbar machen
 
@@ -203,17 +207,19 @@ Diesen kollaborativen Entwicklungsprozess kann man in Metadaten, z.B. durch ein 
 
 ## Literatur
 
-Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien. https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md
+[Angelina, P., Buchwald-Chassée, G., Gregorio Rodrigo, P., Mößle, L., & Ullmann, C. (2025). Open Educational Resources in der Religionspädagogik erstellen: Rechtliche, technische, pädagogisch-didaktische und religionspädagogische Qualitätskriterien.](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md)
 
-Fomin, V. V., Kuzmuk, O., Mosakas, K., Raunig, M., Granitzer, M., & Dennerlein, S. (2026). *Metadata Gaps and Interoperability Failures in OER Retrieval: A Competence-Based Search Experiment.* Beitrag zur 30th EURAS Standardisation Conference, Graz, 24.–26. Juni 2026. https://www.researchgate.net/publication/405282300_Metadata_Gaps_and_Interoperability_Failures_in_OER_Retrieval_A_Competence-Based_Search_Experiment 
+[Fomin, V. V., Kuzmuk, O., Mosakas, K., Raunig, M., Granitzer, M., & Dennerlein, S. (2026). *Metadata Gaps and Interoperability Failures in OER Retrieval: A Competence-Based Search Experiment.* Beitrag zur 30th EURAS Standardisation Conference, Graz, 24.–26. Juni 2026](https://www.researchgate.net/publication/405282300_Metadata_Gaps_and_Interoperability_Failures_in_OER_Retrieval_A_Competence-Based_Search_Experiment). 
 
-Krenn, K., & Tiemann, J. (2020). Metadaten im Kontext. Warum wir eine neue Datenkunde brauchen. In P. Klimczak, C. Petersen & S. Schilling (Hg.), *Maschinen der Kommunikation. Interdisziplinäre Perspektiven auf Technik und Gesellschaft im digitalen Zeitalter* (ars digitalis), Wiesbaden, S. 3-28. https://doi.org/10.1007/978-3-658-27852-6_1
+[Krenn, K., & Tiemann, J. (2020). Metadaten im Kontext. Warum wir eine neue Datenkunde brauchen. In P. Klimczak, C. Petersen & S. Schilling (Hg.), *Maschinen der Kommunikation. Interdisziplinäre Perspektiven auf Technik und Gesellschaft im digitalen Zeitalter* (ars digitalis), Wiesbaden, S. 3-28](https://link.springer.com/chapter/10.1007/978-3-658-27852-6_1). https://doi.org/10.1007/978-3-658-27852-6_1
 
-Ochoa, X., Klerkx, J., Vandeputte, B., & Duval, E. (2011). On the use of learning object metadata: The globe experience. In C. D. Kloos, D. Gillet, R. M. Crespo García, F. Wild & M. Wolpers (Hg.), *Towards Ubiquitous Learning*, Berlin, Heidelberg, S. 271-284.
+[Ochoa, X., Klerkx, J., Vandeputte, B., & Duval, E. (2011). On the use of learning object metadata: The globe experience. In C. D. Kloos, D. Gillet, R. M. Crespo García, F. Wild & M. Wolpers (Hg.), *Towards Ubiquitous Learning*, Berlin, Heidelberg, S. 271-284](https://link.springer.com/book/10.1007/978-3-642-23985-4).
 
-Pohl, A., Klinger, A., Hartmann, B., Schuurbiers, C., Steeg, F., Kummerländer, M., Oellers, M., Stengel, M., Hoffmann, M., Rörtgen, S., Kulla, S., & Bülte, T. (2023). *Allgemeines Metadatenprofil für Bildungsressourcen (AMB)* [Technische Spezifikation]. DINI AG KIM – Kompetenzzentrum Interoperable Metadaten. https://w3id.org/kim/amb/20231019/
+[Oellers, M./ Rörtgen, S. (2024). Kompendium: Didaktische Metadaten](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31%20S-30-32). https://doi.org/10.5281/zenodo.10828758
 
-Riley, J. (2017). *Understanding Metadata: What Is Metadata, and What Is It For?* Baltimore: National Information Standards Organization (NISO). https://digital.library.unt.edu/ark:/67531/metadc990983/m2/1/high_res_d/understanding_metadata.pdf
+[Pohl, A., Klinger, A., Hartmann, B., Schuurbiers, C., Steeg, F., Kummerländer, M., Oellers, M., Stengel, M., Hoffmann, M., Rörtgen, S., Kulla, S., & Bülte, T. (2023). *Allgemeines Metadatenprofil für Bildungsressourcen (AMB)*](https://w3id.org/kim/amb/20231019/)
 
-Simão de Deus, W., & Barbosa, E. F. (2020). The Use of Metadata in Open Educational Resources Repositories: An Exploratory Study. In *2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)* IEEE, S. 123-132.https://doi.org/10.1109/COMPSAC48688.2020.00025
+[Riley, J. (2017). *Understanding Metadata: What Is Metadata, and What Is It For?* Baltimore: National Information Standards Organization (NISO)](https://www.niso.org/publications/understanding-metadata-2017).
+
+[Simão de Deus, W., & Barbosa, E. F. (2020). The Use of Metadata in Open Educational Resources Repositories: An Exploratory Study. In *2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)* IEEE, S. 123-132](https://ieeexplore.ieee.org/document/9202802). https://doi.org/10.1109/COMPSAC48688.2020.00025
 
