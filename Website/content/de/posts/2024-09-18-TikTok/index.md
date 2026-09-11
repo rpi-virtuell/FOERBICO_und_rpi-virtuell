@@ -79,6 +79,17 @@ tags:
   - Wissenschaftskommunikation
   - Social Media
   - Theologie
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  kemnitzer-tiktok.jpg:
+    alt: Screenshot vom Videocall vom FOERBICO-Team mit Theologie-Professorin Konstanze Kemnitzer über TikTok als  "Imaginationsraum" und "Produkt".
+    title: Prof. Konstanze Kemnitzer erklärt Theologie auf TikTok
+    sourceUrl: https://oer.community/theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ![](kemnitzer-tiktok.jpg)
@@ -175,7 +186,7 @@ Live-Streams bieten die Möglichkeit, direkt mit den Nutzer*innen zu interagiere
 
 6. Welche Rolle spielt das Thema "Produkt" bei der Theologie auf TikTok?
 
-TikTok ist eine kommerziell geprägte Plattform, auf der Nutzer*innen nach Inhalten suchen, die ihnen einen Mehrwert bieten. Daher ist es wichtig, die Relevanz theologischer Themen für die Lebenswelt der Nutzer*innen herauszuarbeiten und sie als "Produkt" mit konkreten Problemlösungen zu präsentieren.
+TikTok ist eine kommerziell geprägte Plattform, auf der Nutzer:innen nach Inhalten suchen, die ihnen einen Mehrwert bieten. Daher ist es wichtig, die Relevanz theologischer Themen für die Lebenswelt der Nutzer*innen herauszuarbeiten und sie als "Produkt" mit konkreten Problemlösungen zu präsentieren.
 
 7. Wie kann man sich als Theologin oder Theologe vor Anfeindungen auf TikTok schützen?
 
