@@ -1,13 +1,10 @@
 <!--
 Spec zum Neuaufbau des Markdown-zu-Nostr-Publishings.
-Stand: 2026-09-14. Entstanden in einer Claude-Code-Sitzung; alle Messwerte
-(98 Posts, Schlagwort- und Bildverteilung) wurden gegen den damaligen
-Repo-Stand und die produktiven Relays erhoben.
+Stand: 2026-09-14. Messwerte gegen den damaligen Repo-Stand und die
+produktiven Relays erhoben.
 
 Arbeitsplan mit Umsetzungsreihenfolge:
 docs/superpowers/plans/2026-09-14-md-to-nostr-sync-neu-plan.md
-Vorgaenger-Spec im mdparser-Repo:
-docs/superpowers/specs/2026-03-30-md-to-nostr-sync-design.md
 -->
 
 # Markdown → Nostr Publishing neu aufsetzen (Greenfield)
@@ -220,7 +217,10 @@ kind : pubkey : d-Wert          z.B.  30023:5a12b41e…aedf:just-calling-it-open
   Event. In unseren Events existiert er nur als Querverweis 30023 <-> 30142 mit den
   edufeed-eigenen Markern `amb-metadata` / `content`.
 - Ein neues Event mit demselben Tupel **ersetzt** das alte; das Relay behält nur das jüngste.
-- Der `d`-Wert ist das letzte Pfadsegment von `commonMetadata.id`. **Damit ist das `id`-Feld
+- Der `d`-Wert ist der **Pfad** von `commonMetadata.id` ohne fuehrenden und abschliessenden
+  Schraegstrich (`extractSlug`: `pathname.replace(/^\//,'').replace(/\/$/,'')`) — innere
+  Schraegstriche bleiben erhalten, aus `https://oer.community/en/our-team` wird also
+  `en/our-team`, **nicht** `our-team`. **Damit ist das `id`-Feld
   der Identitätsanker.** Wird es geändert, entsteht ein neues Event und das alte bleibt als
   Waise auf dem Relay.
 
@@ -231,6 +231,70 @@ verglichen werden, sonst sammeln sich Duplikate.
 
 Die Event-`id` ist global eindeutig, ändert sich aber bei jedem Republish — als
 Wiedererkennung für „derselbe Post" unbrauchbar.
+
+## Risiko: drei Implementierungen derselben Konventionen
+
+`md2blossom.mjs` baut bereits vollstaendige 30023- und 1063-Events, `mdparser/sync` baut
+dieselben Events noch einmal, und `events.py` waere die dritte Implementierung. Die beiden
+**bestehenden** stimmen schon heute nicht ueberein — aus derselben Datei entstehen
+unterschiedliche Events:
+
+| Aspekt | `md2blossom.mjs` | `mdparser/sync` |
+|---|---|---|
+| Frontmatter | `YAML.parse(fm[1])` — **das ganze Dokument**, alle Bloecke flach zusammen (die `#`-Marker sind nur YAML-Kommentare) | schneidet am naechsten Marker ab, nur `commonMetadata` |
+| Schlagworte | `meta.keywords ?? meta.tags` — **faellt auf `tags` zurueck** | nur `metadata.keywords` |
+| `t`-Werte | `String(k).toLowerCase()` — **kleingeschrieben** | unveraendert uebernommen |
+| `title` | `meta.title \|\| meta.name` — nimmt den **Hugo-Titel** zuerst | `metadata.name` (AMB) |
+| `slug` (`d`-Tag!) | `meta.url \|\| Ordnername ohne Datumspraefix` — **woertlich**, inkl. fuehrendem Schraegstrich | Pfad von `commonMetadata.id` ohne Rand-Schraegstriche |
+
+Die letzte Zeile ist die gefaehrlichste: Weichen `meta.url` und `commonMetadata.id`
+voneinander ab, adressieren die beiden Werkzeuge **verschiedene Events**.
+
+Praktisch ist bisher wenig passiert, weil die 30023-Vorlage von `md2blossom` unter
+`Website/_nostr/` liegt (gitignored) und nicht publiziert wird — die CI baut ihr eigenes
+Event. Die **1063-Vorlagen** werden dagegen von `blossom-bunker.ts publish` tatsaechlich
+signiert und publiziert.
+
+### Gemessene Divergenz (2026-09-14, 95 Posts mit Frontmatter)
+
+| Aspekt | Betroffen | Bewertung |
+|---|---|---|
+| `d`-Tag weicht ab | **3 Posts** — `md2blossom` nimmt `meta.url` woertlich (`/en/conference`, **mit** fuehrendem Schraegstrich), `mdparser` strippt ihn (`en/conference`) | echte Divergenz, aber alle drei sind Seiten unter `Website/content/en/`, keine Posts, und ihnen fehlen Pflichtfelder — auf dem Relay existiert zu keiner Variante ein Event |
+| `id` mehrsegmentig | 4 Posts (`oer-und-oep/lernmodul`, `en/conference`, `en/oer-and-oep`, `en/our-team`) | keiner davon ist publiziert; die Slug-Regel ist in Produktion also noch nie getestet worden |
+| `title`-Tag weicht ab | 1 Post (`2026-03-03-OER-erstellen`) | Hugo-`title` != AMB-`name` |
+| `t`-Werte weichen ab | **alle 23 Posts mit Schlagworten** | `md2blossom` kleinschreibt konsequent, `mdparser` nicht — betrifft also jeden Post, der ueberhaupt Schlagworte hat |
+
+**Entscheidender Befund:** In den **publizierten** Daten gibt es bislang keine Divergenz.
+Der Grund: `md2blossom` erzeugt `<slug>.30023.json` und `<slug>.amb.json`, aber
+**niemand konsumiert sie** — `blossom-bunker.ts publish` signiert ausschliesslich die
+`1063`-Vorlagen, und der eigene Kopfkommentar sagt es ausdruecklich: *„Den 30023 publiziert
+die CI (mdparser/sync) nach dem Merge auf main."* Die Divergenz ist also latent: Sie wuerde
+erst schaden, wenn jemand diese Vorlagen doch einmal publiziert.
+
+Bei den 1063-Vorlagen gibt es keine Divergenz — die Tag-Abbildung ist in beiden Werkzeugen
+zeichengleich.
+
+Zahlen zu den 1063-Events unseres Pubkeys auf `relay-rpi.edufeed.org`: **40 Stueck**, alle
+zwischen 2026-09-03 und 2026-09-10 (2 / 2 / 6 / 6 / 24). Die 24 vom 10.09. decken sich exakt
+mit `bildmigration.md` (*„24 Bilder auf Blossom mit Nachweis"*). Die 10 Events vor dem
+09.09. entstanden noch ueber `blossom-bunker publish`, weil die CI den Bilderschritt erst
+seit dem 09.09. hat. Nach Inhalt unterscheidbar sind die Herkuenfte nicht — gleicher Pubkey,
+gleiche Tag-Form.
+
+**Festzulegen vor der Umsetzung von `events.py`:** eine einzige Quelle der Wahrheit fuer den
+Eventbau. Zwei gangbare Wege:
+
+- **(a) Ungenutzte Ausgaben streichen (Empfehlung nach der Messung).** `md2blossom` erzeugt
+  `<slug>.30023.json` und `<slug>.amb.json`, die nachweislich niemand konsumiert. Fallen sie
+  weg, existiert der 30023-Bau nur noch **einmal** — in `events.py`. `md2blossom` behaelt
+  seine eigentliche Leistung (Hashen, Markdown und Frontmatter umschreiben) plus die
+  1063-Vorlagen, die `blossom-bunker publish` braucht. Risiko minimal, weil nur toter Output
+  entfaellt.
+- **(b) Abgleichtest fuer die 1063-Abbildung.** Fuer die verbleibende Doppelung (1063 in
+  `md2blossom` und in `events.py`) ein Test, der fuer denselben Beitrag beide Varianten baut
+  und die Tag-Saetze vergleicht. Faengt kuenftiges Auseinanderlaufen sofort.
+- **(c) Nichts tun.** Vertretbar, solange die Vorlagen unpubliziert bleiben — aber die
+  Divergenz waechst dann unbemerkt weiter.
 
 ## Architektur
 
@@ -394,7 +458,7 @@ Nicht den Code portieren, aber diese Regeln sind hart erarbeitet und müssen erh
 
 | Quelle | Zu übernehmende Regel |
 |---|---|
-| `core/parser.ts` | Block-Marker-Logik, `extractSlug` (Slug = letztes Pfadsegment von `id`) |
+| `core/parser.ts` | Block-Marker-Logik, `extractSlug` (Slug = ganzer Pfad von `id` ohne Rand-Schraegstriche, innere bleiben) |
 | `events/article.ts` | `hashAusUrl` (SHA-256 aus Blossom-URL); Cover-`x` zuerst, direkt nach `image`; Fließtextbilder dedupliziert; **kein** `x` bei URL ohne Hash im Pfad |
 | `events/amb.ts` | Reihenfolge und Namen der `creator:*`-Tags; `license:id`, `about:id`, `learningResourceType:id`, `educationalLevel:id` |
 | `core/bilder.ts` | `nachweisEvent`-Tag-Mapping (`title`/`license`/`credit`/`alt`/`source`/`authorUrl`/`modification`/`p`/`ai`); `licenceUrl` ist Pflicht; KI-Werte nur `generated`/`modified` |
@@ -502,10 +566,37 @@ Vorgehen:
 4. Erst danach publiziert der Sync `x`-Tags und kind:1063 — als normale Änderung, die der
    Idempotenz-Check von selbst erkennt.
 
-Hinweis: In `mdparser/sync/core/bilder.ts` wird ein Werkzeug `md2blossom` erwähnt, das
-dieselbe Bild-Regex und Tag-Form verwendet. Falls es existiert, ist es der natürliche
-Ausgangspunkt für Schritt 3 — Fundort ist noch zu klären (unter `edufeed-org` öffentlich
-nicht auffindbar).
+**Korrektur (2026-09-14):** Das Werkzeug existiert bereits in **diesem** Repo, samt Tests
+und einem Gegenstueck mit Schluesselzugriff:
+
+| Datei | Rolle |
+|---|---|
+| `Website/scripts/md2blossom.mjs` | Node-Skript: hasht die Bilddateien, schreibt relative Pfade im Markdown auf Blossom-Hash-URLs um, setzt Captions nach `bildattribution.md`, korrigiert `image` / `cover.relative` / `cover.image` im Frontmatter. Legt unsignierte Event-Vorlagen unter `Website/_nostr/<post>/` ab. **Laedt nicht hoch, signiert nicht, publiziert nicht.** Meldet Bilder ohne `# bilder`-Eintrag als `TODO:LICENSE` (Exit 2) und druckt eine Blockvorlage |
+| `Website/scripts/blossom-bunker.ts` | Deno-Gegenstueck mit dem FOERBICO-Key ueber den NIP-46-Bunker: `upload <post-dir>` (BUD-01) und `publish <_nostr-dir>` (1063 signieren und publizieren) |
+| `Website/scripts/test/md2blossom.test.mjs` | Tests dazu |
+| `Orga/oer-community-webseite-orga/bildmigration.md` | Die Arbeitsliste: Stand 2026-09-10 warten **70 Beitraege mit 198 Bildern** auf ihren `# bilder`-Block, samt fertig vorbereiteter YAML-Vorlage je Beitrag |
+| `Orga/oer-community-webseite-orga/wissensgrundlagen/bildattribution.md` | Feldkonvention des `# bilder`-Blocks inkl. Stolpersteine |
+
+Die Migration laeuft also bereits redaktionell. Meine Messung deckt sich damit: 16 Posts mit
+Block, 197 relative Fliesstextbilder — die Arbeitsliste nennt 70 offene Beitraege mit 198
+Bildern.
+
+**Der Ablauf je Beitrag ist dort dokumentiert:**
+
+1. `# bilder`-Block aus `bildmigration.md` ins Frontmatter uebernehmen, Lizenzangaben pruefen
+2. `alt` und `title` ausfuellen
+3. `cd Website/scripts && node md2blossom.mjs ../content/de/posts/<ordner> --write`
+   — **der einzige Handschritt, den die CI nicht uebernimmt.** Ohne ihn bleiben relative
+   Dateinamen stehen, und die CI findet keine Hash-URL, zu der sie Blob und Nachweis anlegen
+   koennte. Alternativ macht der `foerbico-editor` denselben Schritt im Browser.
+4. Commit, PR, Merge — danach erledigt die CI Upload, 1063 und 30023
+
+Fuer Ausbaustufe 3 bleibt damit **kein Werkzeugbau uebrig**, sondern nur: die Migration
+weiterfuehren und den Handschritt aus Punkt 3 perspektivisch in die CI ziehen.
+
+**Offene Kopplung:** `blossom-bunker.ts` liest seine `.env` aus `../../../mdparser/` — es
+setzt also voraus, dass das mdparser-Repo als Geschwisterordner ausgecheckt ist. Wenn der
+Workflow mdparser loswird, sollte diese Abhaengigkeit mit umziehen.
 
 ## Verifikation
 
