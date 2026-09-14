@@ -2,6 +2,13 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: OER und OEP
+description: "Was Open Educational Resources und Open Educational Practices sind, warum offene Materialien Zusammenarbeit möglich machen, und ein Selbstlernmodul zum Einstieg."
+datePublished: 2025-11-12
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-und-oep
 inLanguage:

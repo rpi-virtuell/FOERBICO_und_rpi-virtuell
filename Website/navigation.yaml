@@ -1,0 +1,13 @@
+# Menü und Fußzeile des Community-Hubs — publiziert als kind:30004 durch
+# `mdparser sync navigation` (community-hub ADR-0027). Einträge sind die
+# d-Kennungen von Seiten (letztes Segment von commonMetadata.id). Der Hub
+# beschriftet mit dem Seitentitel; die Startseite (d = startseite) gehört nicht
+# ins Menü, das Logo verlinkt dorthin.
+navigation:
+  - tagungen
+  - oer-und-oep
+  - qualitaet
+  - unser-team
+fusszeile:
+  - impressum
+  - datenschutz

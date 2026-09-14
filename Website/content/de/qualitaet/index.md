@@ -2,6 +2,13 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: Qualität
+description: "Qualität als Prinzip offener religiöser Bildung: was allgemeine OER-Qualitätsmodelle leisten und welche religionspädagogischen Kriterien dazukommen."
+datePublished: 2026-01-19
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/qualitaet
 inLanguage:

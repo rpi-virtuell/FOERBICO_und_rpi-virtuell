@@ -2,6 +2,13 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: Tagungen
+description: "Die Tagungen des Projekts FOERBICO: die Abschlusstagung „Offen. Vernetzt. Zukunft“ 2027 in Frankfurt und die Zwischenfazit-Tagung 2026 in Nürnberg."
+datePublished: 2026-01-19
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/tagungen
 inLanguage:
