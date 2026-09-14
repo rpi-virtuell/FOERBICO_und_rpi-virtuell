@@ -3,8 +3,7 @@ Spec zum Neuaufbau des Markdown-zu-Nostr-Publishings.
 Stand: 2026-09-14. Messwerte gegen den damaligen Repo-Stand und die
 produktiven Relays erhoben.
 
-Arbeitsplan mit Umsetzungsreihenfolge:
-docs/superpowers/plans/2026-09-14-md-to-nostr-sync-neu-plan.md
+Umsetzungsreihenfolge der Module: scripts/nostr-sync/README.md
 -->
 
 # Markdown → Nostr Publishing neu aufsetzen (Greenfield)
@@ -68,6 +67,7 @@ Code hat, idempotent ist (grün heißt: nachweislich publiziert) und Datenproble
 | Publisher | **Immer unser Pubkey** (`AUTHOR_PUBKEY_HEX` via Bunker). Events fremder Pubkeys werden nie angefasst, nie ersetzt, nur gemeldet |
 | Bilder | **Verhalten unverändert.** Blossom-Upload und kind:1063 nur für Hash-URLs. Relative Pfade und Nicht-Hash-URLs werden **protokolliert** (siehe unten) |
 | Glue-Sprache | **Python 3 + Pydantic** (entschieden), `pytest` für Tests, `requirements.txt` im CI |
+| Dopplung mit `md2blossom` | **Eingefroren, dann entfernt.** `md2blossom.mjs` wird jetzt nicht angefasst, damit sich sein Ergebnis nicht als Nebenwirkung der Umstellung ändert. Pflicht bis dahin: `kind:1063` zeichengleich zu `md2blossom` (Vergleichstest als Abnahmekriterium). Entfernt wird es, sobald der Sync produktiv ist und keine exklusive Ausgabe mehr übrig bleibt |
 
 ### Sprachentscheidung: Python 3 + Pydantic
 
@@ -281,20 +281,87 @@ mit `bildmigration.md` (*„24 Bilder auf Blossom mit Nachweis"*). Die 10 Events
 seit dem 09.09. hat. Nach Inhalt unterscheidbar sind die Herkuenfte nicht — gleicher Pubkey,
 gleiche Tag-Form.
 
-**Festzulegen vor der Umsetzung von `events.py`:** eine einzige Quelle der Wahrheit fuer den
-Eventbau. Zwei gangbare Wege:
+### Entscheidung: `md2blossom` friert ein und wird danach entfernt
 
-- **(a) Ungenutzte Ausgaben streichen (Empfehlung nach der Messung).** `md2blossom` erzeugt
-  `<slug>.30023.json` und `<slug>.amb.json`, die nachweislich niemand konsumiert. Fallen sie
-  weg, existiert der 30023-Bau nur noch **einmal** — in `events.py`. `md2blossom` behaelt
-  seine eigentliche Leistung (Hashen, Markdown und Frontmatter umschreiben) plus die
-  1063-Vorlagen, die `blossom-bunker publish` braucht. Risiko minimal, weil nur toter Output
-  entfaellt.
-- **(b) Abgleichtest fuer die 1063-Abbildung.** Fuer die verbleibende Doppelung (1063 in
-  `md2blossom` und in `events.py`) ein Test, der fuer denselben Beitrag beide Varianten baut
-  und die Tag-Saetze vergleicht. Faengt kuenftiges Auseinanderlaufen sofort.
-- **(c) Nichts tun.** Vertretbar, solange die Vorlagen unpubliziert bleiben — aber die
-  Divergenz waechst dann unbemerkt weiter.
+**Jetzt nicht anfassen.** Keine Zeile in `md2blossom.mjs` wird geaendert, solange unser Sync
+nicht getestet und lauffaehig ist. Grund ist nicht, dass die Dopplung wuenschenswert waere,
+sondern: Das Werkzeug ist im redaktionellen Einsatz, und sein Ergebnis darf sich nicht als
+**Nebenwirkung** unserer Umstellung veraendern. Erst laeuft der Neubau, dann wird aufgeraeumt.
+
+**Harte Anforderung: keine doppelten, nicht unterscheidbaren Ausgaben.**
+
+Hier liegt eine konkrete Gefahr, die aus der Dopplung entstehen kann. `kind:1063` ist ein
+*regular event* — nicht ersetzbar, Nachweise **akkumulieren** auf dem Relay. Beide Wege
+publizieren unter demselben Pubkey und mit derselben Tag-Form, sind also nach Inhalt nicht
+auseinanderzuhalten. Bauen `events.py` und `md2blossom` fuer dasselbe Bild auch nur minimal
+unterschiedliche Tags, dann gilt:
+
+1. `blossom-bunker publish` legt Variante A ab
+2. der Sync liest A, vergleicht mit seiner Variante B, sieht eine Abweichung und publiziert B
+3. der naechste manuelle Lauf legt wieder A ab — und so weiter
+
+Ergebnis: ein Pingpong doppelter Lizenznachweise, die niemand mehr einer Quelle zuordnen kann.
+
+Daraus folgt eine **Pflicht, keine Option**: Solange beide Werkzeuge existieren, muss
+`events.py` fuer `kind:1063` zeichengleiche Tags liefern wie `md2blossom.mjs`. Abgesichert
+durch einen Vergleichstest, der fuer denselben Beitrag beide Ausgaben baut und die Tag-Saetze
+gegeneinander prueft. Dieser Test ist **Abnahmekriterium**, nicht Kuer. Er darf erst
+wegfallen, wenn `md2blossom` entfernt ist.
+
+Fuer `kind:30023` besteht diese Pflicht nicht, weil die Vorlage von `md2blossom` nie
+publiziert wird — dort bleiben die gemessenen Abweichungen bestehen und werden nur
+dokumentiert.
+
+**Kopfkommentar fuer `events.py`:**
+
+```python
+"""Baut die Nostr-Events aus den Frontmatter-Metadaten.
+
+UEBERGANGSZUSTAND — zweite Implementierung derselben Konventionen:
+Website/scripts/md2blossom.mjs baut ebenfalls kind:30023 und kind:1063.
+Das Werkzeug wird bewusst nicht angepasst, solange dieser Sync nicht
+getestet und produktiv ist; danach wird es entfernt.
+
+PFLICHT bis dahin: Die kind:1063-Tags dieses Moduls muessen zeichengleich
+zu md2blossom.mjs bleiben. 1063 ist nicht ersetzbar — weichen die beiden
+ab, publizieren sie sich wechselseitig ueber und die Nachweise
+akkumulieren, ohne einer Quelle zuordenbar zu sein.
+Abgesichert durch test_events.py::test_1063_zeichengleich_zu_md2blossom.
+
+Bekannte Abweichungen bei kind:30023 (gemessen 2026-09-14) — unkritisch,
+weil md2blossoms 30023-Vorlage nie publiziert wird:
+
+  Aspekt         md2blossom.mjs                  dieses Modul
+  ------------   -----------------------------   ------------------------------
+  Frontmatter    ganzes Dokument flach           nur der commonMetadata-Block
+  Schlagworte    keywords ?? tags                nur keywords
+  t-Werte        .toLowerCase()                  unveraendert
+  title-Tag      Hugo-title vor AMB-name         AMB-name
+  d-Tag/Slug     meta.url woertlich              id-Pfad ohne Rand-Schraegstriche
+
+Hintergrund: docs/superpowers/specs/2026-09-14-md-to-nostr-sync-neu-design.md
+"""
+```
+
+**Abbaupfad: `md2blossom` entfernen.** Sobald beides zutrifft:
+
+1. Der neue Sync ist getestet und produktiv im Einsatz, und
+2. `md2blossom` erzeugt keine Ausgabe mehr, die sonst niemand erzeugt.
+
+**Achtung, Abhaengigkeit fuer Punkt 2:** Eine Leistung von `md2blossom` deckt unser Plan
+ausdruecklich **nicht** ab — das Umschreiben relativer Bildpfade auf Blossom-Hash-URLs im
+Markdown. Fuer Bilder ist festgelegt: nur protokollieren, nichts veraendern. `md2blossom`
+kann also erst verschwinden, wenn die Bildmigration durch ist (Stand 2026-09-10: 70 Beitraege
+offen) **oder** dieser Schritt in den Sync gewandert ist (Ausbaustufe 3). Wird es vorher
+entfernt, verlieren die restlichen Beitraege ihren Migrationsweg.
+
+Mit `md2blossom` entfallen dann auch `blossom-bunker.ts` (dessen `publish` nur dessen
+Vorlagen verarbeitet) und der Vergleichstest.
+
+**Offene Frage vor dem Abbau:** `md2blossom` schreibt `<slug>.amb.json` erklaertermaßen fuer
+das externe Werkzeug `amb-convert amb:nostr`. Im Repo gibt es dazu keinen Task, keinen
+Workflow und keine weitere Erwaehnung — ob das jemand von Hand nutzt, ist von aussen nicht
+feststellbar. Vor dem Entfernen zu klaeren, sonst faellt still ein Arbeitsschritt weg.
 
 ## Architektur
 
@@ -318,25 +385,56 @@ gegen einen echten lokalen Relay.
 
 ### Datenfluss
 
+```mermaid
+flowchart TD
+    P["Push auf main<br/>PR-Merge oder Direkt-Commit"] --> G{"Dateien unter<br/>Website/content/** geaendert?"}
+    G -->|nein| X0(["Workflow startet nicht"])
+    G -->|ja| S["nostr-sync.yml<br/>Checkout fetch-depth 0 ·<br/>nak-Binary gepinnt + Checksum ·<br/>Python + requirements.txt"]
+
+    S --> D{"github.event.before<br/>brauchbar?"}
+    D -->|ja| D1["git diff --name-only<br/>before..sha -- Website/content"]
+    D -->|"nein / 0000…"| D2["Fallback --all<br/>alle index.md"]
+    D1 --> FM
+    D2 --> FM
+
+    FM["frontmatter.py<br/>Bloecke trennen · Pydantic-Schema ·<br/>alle Werte zu Strings normalisieren"] --> V{"Schema- und Spec-Checks<br/>NIP-01 / 23 / 94"}
+    V -->|Verstoss| ERR["FEHLER<br/>Event wird NICHT publiziert ·<br/>Post gilt als fehlgeschlagen"]
+    V -->|ok| EV["events.py<br/>kind:30023<br/>+ kind:30142 wenn LearningResource"]
+
+    EV --> RQ["nak req -k 30023 -a unser-pubkey -d slug<br/>das Relay ist die Wahrheit"]
+    RQ --> RE{"Relay erreichbar?"}
+    RE -->|nein| ERR
+    RE -->|ja| EQ{"Tag-Saetze identisch?"}
+    EQ -->|ja| UNCH(["unchanged<br/>nichts publizieren"])
+    EQ -->|nein| PUB["nak event --sec bunker://…<br/>ein Aufruf je Relay"]
+    PUB --> AK{"acks >= MIN_RELAY_ACKS?"}
+    AK -->|nein| ERR
+    AK -->|ja| OKP(["publiziert"])
+
+    UNCH --> IMG["images.py — je Bild mit Blossom-Hash-URL<br/>nak blossom check → ggf. upload BUD-01 ·<br/>kind:1063 bauen, mit juengstem Nachweis vergleichen,<br/>nur bei Abweichung publizieren"]
+    OKP --> IMG
+    IMG --> W["Protokoll sammeln<br/>Schlagworte im falschen Block ·<br/>relative Bildpfade · fremde Pubkeys<br/>Warnung, kein Abbruch"]
+
+    W --> SUM["summary.py<br/>GITHUB_STEP_SUMMARY + Log-Artefakt"]
+    ERR --> SUM
+    SUM --> EX{"jeder Post publiziert oder<br/>nachweislich unveraendert?"}
+    EX -->|ja| Z0(["Exit 0 — Job gruen"])
+    EX -->|nein| Z1(["Exit != 0 — Job rot"])
+
+    classDef fehler fill:#fde8e8,stroke:#c0392b,color:#7b1b12
+    classDef gut fill:#e8f6ec,stroke:#2e7d4f,color:#14512f
+    classDef neutral fill:#eef2f7,stroke:#5b6b7f,color:#22303f
+    class ERR,Z1 fehler
+    class OKP,UNCH,Z0 gut
+    class X0 neutral
 ```
-Workflow-YAML
-  ├─ push:   git diff --name-only <before>..<sha> -- Website/content  → geänderte index.md
-  └─ manual: --all                                                    → alle index.md
-       ↓ Pfade als Argumente
-sync
-  pro Post:
-    1. frontmatter  →  { metadata, bilder, content } + Schema-Validierung
-                       + Schlagwort-Abweichungen protokollieren (ohne Wirkung auf das Event)
-    2. events       →  30023  [+ 30142 wenn type == LearningResource]
-    3. nak req      →  bestehendes Event vom Relay holen
-    4. tags_equal   →  identisch? → skip "unchanged"
-    5. nak event    →  signieren + publishen, EIN Aufruf pro Relay (ein Exit-Code pro Relay)
-    6. images       →  pro Bild: nak blossom check → ggf. upload
-                       → 1063 bauen, gegen jüngsten Nachweis vergleichen, ggf. publishen
-    7. Ergebnis sammeln
-  → summary → GITHUB_STEP_SUMMARY
-  → Exit-Code ≠ 0, wenn ein ausgewählter Post nicht nachweislich auf den Relays liegt
-```
+
+Die Schleife laeuft je Post. Ein einzelner fehlgeschlagener Post bricht den Lauf **nicht** ab
+— die uebrigen werden weiter abgearbeitet, der Exit-Code steht erst am Ende fest.
+
+Der Git-Diff ist dabei nur **Vorfilter** fuer die Geschwindigkeit, nicht der Mechanismus fuer
+Korrektheit: Ob publiziert wird, entscheidet allein der Vergleich mit dem Relay. Ein Lauf mit
+`--all` muss deshalb zum selben Ergebnis fuehren wie ein Lauf mit Diff.
 
 Der Git-Diff ist damit nur **Performance-Vorfilter**, nicht Korrektheits-Mechanismus. Ein
 Lauf mit `--all` muss zum selben Ergebnis führen.
@@ -479,6 +577,12 @@ Nicht den Code portieren, aber diese Regeln sind hart erarbeitet und müssen erh
    zweiter Lauf muss „unchanged" ergeben. Kein Mocking, kein DI-Gerüst nötig.
 4. **Schema-Validierung:** Fehlplatzierte oder unbekannte Felder erzeugen einen klaren,
    benannten Hinweis in der Summary statt still zu verschwinden.
+5. **Vergleichstest gegen `md2blossom` — Abnahmekriterium.**
+   `test_events.py::test_1063_zeichengleich_zu_md2blossom` baut fuer denselben Beitrag den
+   `kind:1063` beider Implementierungen und vergleicht die Tag-Saetze zeichengenau. Schlaegt
+   er fehl, darf nicht ausgeliefert werden: 1063 ist nicht ersetzbar, abweichende Varianten
+   wuerden sich wechselseitig ueberpublizieren und als nicht zuordenbare Duplikate
+   akkumulieren. Der Test faellt erst mit `md2blossom` selbst weg.
 
 ## Was wegfällt
 
@@ -517,7 +621,13 @@ Nicht den Code portieren, aber diese Regeln sind hart erarbeitet und müssen erh
    Abweichung ist verdächtig und einzeln zu prüfen. Zusätzlich erwartet: 61
    Schlagwort-Protokolleinträge (60× Fall B, 1× Fall C) sowie die Bild-Protokolle
    (197 relative Pfade, 64 Nicht-Hash-Cover).
-3. Erst wenn die Abweichungsliste leer bzw. erklärt ist, die Workflow-YAML umstellen.
+3. Vergleichstest gegen `md2blossom` (Teststrategie Punkt 5) muss gruen sein — sonst drohen
+   nicht zuordenbare 1063-Duplikate.
+4. Erst wenn die Abweichungsliste leer bzw. erklaert ist, die Workflow-YAML umstellen.
+5. `md2blossom.mjs` bleibt bis hierher **unangetastet**. Sein Abbau ist eine eigene, spaetere
+   Etappe und an die zwei Bedingungen im Abschnitt *Entscheidung: `md2blossom` friert ein*
+   gebunden — insbesondere daran, dass die Bildmigration durch ist oder ihr Handschritt im
+   Sync steckt.
 
 ## Später: Ausbaustufe 2 — Schlagwort-Übernahme mit Glossar-Abgleich
 
