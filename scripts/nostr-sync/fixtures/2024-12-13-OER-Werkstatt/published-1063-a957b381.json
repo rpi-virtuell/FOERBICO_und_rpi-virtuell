@@ -1,0 +1,50 @@
+{
+  "content": "",
+  "created_at": 1789058534,
+  "id": "52c03d3c7452f925fafad79d15d739163ce7ea6b2173117719234427f64a8306",
+  "kind": 1063,
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "sig": "b779ceffc9087ac3415927e42a0d1eb0714fb50132d510636f7197f1f2531caa2e83d5192c6539c4f140896f6256ecfac890475676ce1b71617ef1d8e07a021d",
+  "tags": [
+    [
+      "url",
+      "https://blossom.edufeed.org/a957b381f32ffcb45dbdee0c8a572cd823a2dce3e5664f416154e81c4567df59.jpg"
+    ],
+    [
+      "x",
+      "a957b381f32ffcb45dbdee0c8a572cd823a2dce3e5664f416154e81c4567df59"
+    ],
+    [
+      "m",
+      "image/jpeg"
+    ],
+    [
+      "size",
+      "297494"
+    ],
+    [
+      "title",
+      "Kreativtisch zur Inspiration"
+    ],
+    [
+      "license",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "credit",
+      "FOERBICO"
+    ],
+    [
+      "alt",
+      "Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen"
+    ],
+    [
+      "source",
+      "https://oer.community/oer-werkstatt-digill-com-projekt"
+    ],
+    [
+      "authorUrl",
+      "https://oer.community"
+    ]
+  ]
+}

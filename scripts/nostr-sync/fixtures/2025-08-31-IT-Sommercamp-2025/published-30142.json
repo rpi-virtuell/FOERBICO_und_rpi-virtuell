@@ -1,0 +1,96 @@
+{
+  "kind": 30142,
+  "id": "c4928739ef3f679bb4518b04522b2ec28c356f3fd24c591a8dcafcd7cbbc7a62",
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "created_at": 1789058611,
+  "tags": [
+    [
+      "d",
+      "oer-it-sommercamp-2025"
+    ],
+    [
+      "type",
+      "LearningResource"
+    ],
+    [
+      "name",
+      "HackathOERn goes OER/IT-Sommercamp in Weimar"
+    ],
+    [
+      "description",
+      "Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen."
+    ],
+    [
+      "license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "creator:name",
+      "Gina Buchwald-Chassée"
+    ],
+    [
+      "creator:type",
+      "Person"
+    ],
+    [
+      "creator:affiliation:name",
+      "Comenius-Institut"
+    ],
+    [
+      "creator:affiliation:id",
+      "https://ror.org/025e8aw85"
+    ],
+    [
+      "creator:name",
+      "Ludger Sicking"
+    ],
+    [
+      "creator:type",
+      "Person"
+    ],
+    [
+      "creator:affiliation:name",
+      "Comenius-Institut"
+    ],
+    [
+      "creator:affiliation:id",
+      "https://ror.org/025e8aw85"
+    ],
+    [
+      "inLanguage",
+      "d"
+    ],
+    [
+      "inLanguage",
+      "e"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/hochschulfaechersystematik/n0"
+    ],
+    [
+      "learningResourceType:id",
+      "https://w3id.org/kim/hcrt/text"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_A"
+    ],
+    [
+      "datePublished",
+      "2025-08-31"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/e85a10fa78a84f96858450f045df2f3f4f98234613c25595541e836a215ec5fb.jpg"
+    ],
+    [
+      "a",
+      "30023:5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf:oer-it-sommercamp-2025",
+      "wss://relay-rpi.edufeed.org/",
+      "content"
+    ]
+  ],
+  "content": "Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.",
+  "sig": "49c4702e5239b5cd37c9bc31955f9101824907be92a28a13c4a9ee4f0ea47df73e8f238464d38a1276a85f990aef6311f1367504951f9a0bd64f6485b367008e"
+}

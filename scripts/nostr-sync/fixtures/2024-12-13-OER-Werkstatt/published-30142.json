@@ -1,0 +1,92 @@
+{
+  "kind": 30142,
+  "id": "926c85fbb567308e386128dacff0e4fe3564d6c999f8b230eaec329f785611ab",
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "created_at": 1789058537,
+  "tags": [
+    [
+      "d",
+      "oer-werkstatt-digill-com-projekt"
+    ],
+    [
+      "type",
+      "LearningResource"
+    ],
+    [
+      "name",
+      "OEP ist nunmal eine Praxis"
+    ],
+    [
+      "description",
+      "Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der OER-Werkstatt von digiLL in Bochum."
+    ],
+    [
+      "license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "creator:name",
+      "Phillip Angelina"
+    ],
+    [
+      "creator:type",
+      "Person"
+    ],
+    [
+      "creator:id",
+      "https://orcid.org/0000-0002-6905-5523"
+    ],
+    [
+      "creator:affiliation:name",
+      "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+    ],
+    [
+      "creator:affiliation:id",
+      "https://ror.org/00f7hpc57"
+    ],
+    [
+      "inLanguage",
+      "de"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/hochschulfaechersystematik/n544"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/hochschulfaechersystematik/n545"
+    ],
+    [
+      "learningResourceType:id",
+      "https://w3id.org/kim/hcrt/text"
+    ],
+    [
+      "learningResourceType:id",
+      "https://w3id.org/kim/hcrt/web_page"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_A"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "datePublished",
+      "2025-01-13"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/c13a499e6d9605ae6b89ae7c59c8a4522e0a149049da4c1d3c104ff888f3e386.jpg"
+    ],
+    [
+      "a",
+      "30023:5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf:oer-werkstatt-digill-com-projekt",
+      "wss://relay-rpi.edufeed.org/",
+      "content"
+    ]
+  ],
+  "content": "Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der OER-Werkstatt von digiLL in Bochum.",
+  "sig": "1ef0a3eaa0c810a00dacec55de8f3ba165a53e3af1c3618cf4f799a4b3a495fe75ab7c2ca35e2d200569611f7f52e38b91bb8f57bebd67f435e1b9f64b471f4d"
+}

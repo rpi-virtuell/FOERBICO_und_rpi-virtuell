@@ -180,6 +180,41 @@ sichtbar machen, dann in einer eigenen Ausbaustufe beheben. Protokolliert wird p
 
 Auch hier gilt: **kein Fehler, kein Abbruch** — ein Datenqualitäts-Signal für die Redaktion.
 
+## Ein dritter Erzeuger von Lizenznachweisen: der Edufeed-Editor
+
+Beim Einfrieren der Golden-Fixtures aufgefallen (2026-09-15): **4 der 40** kind:1063-Events
+stammen weder aus der CI noch aus `md2blossom`, sondern aus dem **Edufeed-Browser-Editor**.
+Sie tragen `["client", "Edufeed"]` und sind die aeltesten (3. und 4. September) — aus der
+Zeit vor dem 09.09., als die CI den Bilderschritt uebernahm.
+
+Die Form unterscheidet sich strukturell, nicht nur um ein Zusatz-Tag:
+
+| Erzeuger | Tags |
+|---|---|
+| CI / `md2blossom` | `url x m size title license credit` **`alt`** `source` **`authorUrl`** |
+| Edufeed-Editor | `url x m size title license credit source p` **`client`** |
+
+Dem Editor fehlen `alt` und `authorUrl`.
+
+**Heute beruehrt uns das nicht** — nachgemessen an allen vier:
+
+| Nachweis | Warum der Sync ihn nie anfasst |
+|---|---|
+| Flickr „Stroh Traktor" | keine Hash-URL → faellt aus der Pipeline |
+| Unsplash-Foto (`utm_source=edufeed_oer_finder`) | keine Hash-URL → faellt aus der Pipeline |
+| SDG 17 (Blossom) | in keinem Beitrag referenziert |
+| nosTr-schrein (Blossom) | referenziert, aber die lokale Datei passt nicht zum attestierten Hash → greift die Regel oben |
+
+**Die Bedingung, unter der es gefaehrlich wird:** Attestiert jemand kuenftig ueber den Editor
+ein Bild, das *auch* im Repo liegt und dessen Datei zum Hash passt, sieht der Sync eine
+Abweichung (ihm fehlen `alt` und `authorUrl`, dafuer hat er `client`) und publiziert neu.
+Der naechste Editor-Lauf kehrt das um — der Pingpong, den es zu vermeiden gilt, nur mit
+einem dritten Beteiligten.
+
+**Vorsorge:** Der Sync meldet jeden vorhandenen Nachweis, der Tags traegt, die er selbst nie
+erzeugt (`client`), als Warnung — und laesst ihn unangetastet. So entsteht kein Duplikat, und
+die Konstellation wird sichtbar, bevor sie schadet.
+
 ## Bilder, deren lokale Datei nicht mehr zum Nachweis passt
 
 Beim Golden-Abgleich der 1063-Nachweise aufgefallen (2026-09-15): 33 von 34 sind
