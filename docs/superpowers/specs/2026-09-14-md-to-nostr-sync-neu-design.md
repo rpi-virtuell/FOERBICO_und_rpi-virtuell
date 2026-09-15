@@ -496,7 +496,9 @@ flowchart TD
     D1 --> FM
     D2 --> FM
 
-    FM["frontmatter.py + models.py<br/>Bloecke trennen · Schema ·<br/>Werte normalisieren"] --> V{"error_checks.py<br/>NIP-01 / 23 / 94"}
+    FM["frontmatter.py + models.py<br/>Bloecke trennen · Schema ·<br/>Werte normalisieren"] --> SK{"AMB-Pflichtfelder<br/>vollstaendig?"}
+    SK -->|nein| SKIP(["uebersprungen<br/>Grund benannt · Job bleibt gruen"])
+    SK -->|ja| V{"error_checks.py<br/>NIP-01 / 23 / 94"}
     V -->|Verstoss| ERR["FEHLER<br/>Event wird NICHT publiziert ·<br/>Post gilt als fehlgeschlagen"]
     V -->|ok| EV["events.py<br/>kind:30023<br/>+ kind:30142 wenn LearningResource"]
 
@@ -525,6 +527,7 @@ flowchart TD
     classDef neutral fill:#eef2f7,stroke:#5b6b7f,color:#22303f
     class ERR,Z1 fehler
     class OKP,UNCH,Z0 gut
+    class SKIP neutral
     class X0 neutral
 ```
 
@@ -555,7 +558,8 @@ Zwei Stufen, getrennt nach der Folge — blockiert es oder nicht. Die Herkunft d
 | Stufe | Ausloeser | Verhalten |
 |---|---|---|
 | **FEHLER** | **Spezifikationsverletzung** (NIP/BUD) oder Betriebsfehler | Event wird **nicht publiziert**. Post gilt als fehlgeschlagen. Job-Exit != 0. In der Summary ganz oben als `> [!CAUTION]`-Block mit Datei, Feld und verletzter Regel |
-| **WARNUNG** | Verletzung **unserer eigenen** Konventionen | Wird publiziert, aber mit eigenem, sichtbarem Abschnitt in der Job-Summary (`> [!WARNING]`) |
+| **WARNUNG** | Verletzung **unserer eigenen** Konventionen, oder ein unbekanntes Feld im Frontmatter | Wird publiziert, aber mit eigenem, sichtbarem Abschnitt in der Job-Summary (`> [!WARNING]`) |
+| **UEBERSPRUNGEN** | Pflichtfelder des AMB-Schemas fehlen — der Beitrag ist (noch) nicht fuer Nostr vorgesehen | Wird **nicht** publiziert, erscheint mit Grund in der Summary, **Job bleibt gruen**. Wie `mdparser` es heute haelt (`skip-missing-fields`) |
 
 **Warum eine Spezifikationsverletzung nicht publiziert werden darf:** 30023 und 30142 sind
 *replaceable*. Ein fehlerhaftes Event **ersetzt die bisher funktionierende Version** auf dem
@@ -645,6 +649,42 @@ bevor dort Aufwand entsteht. Zu beheben sind also real **4 Beitraege**.
 weichen voneinander ab, relative Bildpfade, Bild-URL ohne Blossom-Hash, Hash-URL ohne
 `# bilder`-Eintrag oder ohne `licenceUrl`, Slug existiert zusaetzlich unter fremdem Pubkey.
 
+### Beim Bauen gefunden: 19 Events tragen live den falschen Sprach-Tag
+
+`inLanguage: de` steht in **19 Beitraegen** als Skalar statt als Liste. `mdparser` nimmt dort
+`metadata.inLanguage?.[0]` — und indiziert damit den **String**. Auf dem Relay steht bei
+diesen Beitraegen `["inLanguage", "d"]` und `["summary", "…", "d"]`: der Buchstabe statt der
+Sprache. Nachgeprueft am Live-Event von `hackathoern`.
+
+`mdparser/sync/core/validation.ts` konnte das nicht sehen, weil es nur auf **Praesenz** prueft
+(`isEmpty`), nicht auf den Typ. Ein nicht-leerer String besteht diese Pruefung.
+
+**Entscheidung:** Das Pydantic-Schema liest den Skalar als einelementige Liste und repariert
+die 19 Events beim ersten Lauf. Bewusst eng begrenzt auf `inLanguage` — `about`, `keywords`,
+`learningResourceType`, `educationalLevel` und `creator` sind in allen 95 Beitraegen echte
+Listen, dort waere eine Umwandlung spekulativ.
+
+**Folge fuer den Cutover:** Die Erwartung „unchanged fuer alle Posts" gilt nicht mehr. Erwartet
+werden **19 benannte Aenderungen** (Sprach-Tag korrigiert) und sonst nichts.
+
+### Schema-Strenge: unbekannte Felder melden, nicht blockieren
+
+Gemessen: **8 von 95 Beitraegen** haben Felder, die das AMB-Schema nicht kennt — 6x `@type`,
+dazu `tags`, `url`, `author`, `cover`, `summary`, `title`. Das Schema laesst sie zu
+(`extra="allow"`) und bewahrt sie auf; `unknown_fields()` liefert die Namen, `warning_checks`
+macht daraus eine sichtbare Meldung mit Datei und Feldnamen. Begruendung: Ein Zusatzfeld
+beschaedigt kein Event, es wird nur nicht in Tags uebersetzt.
+
+Nach dieser Regel bleiben **13 Beitraege uebersprungen**: 10 Seiten ohne AMB-Metadaten
+(Impressum, Datenschutz, Team — nie fuer Nostr gedacht) und **3 Beitraege mit echten
+Datenfehlern**, die redaktionell zu beheben sind:
+
+| Beitrag | Problem |
+|---|---|
+| `2025-03-04-dezentrale-oep-oer` | dritter Creator: `affiliation` ist kein Mapping |
+| ein Beitrag mit unvollstaendigem Creator | `givenName` und `familyName` fehlen |
+| `2025-06-26-Save_the_Date` | `id` fehlt im commonMetadata-Block |
+
 ### Drei Fallstricke, empirisch bestaetigt
 
 Alle drei wuerden heute unbemerkt durchgehen — sie sind der Grund fuer die Spec-Checks oben:
@@ -699,9 +739,14 @@ lediglich, dass die Adresse fehlt. Ein Darstellungsdetail darf keinen gruenen La
 
 ### Fehlerbehandlung — der „silent no-op"-Fix
 
-Kernregel: **Jeder ausgewählte Post muss in genau einem von zwei Zuständen enden** —
-„publiziert (mit ≥ `MIN_RELAY_ACKS` Bestätigungen)" oder „nachweislich unverändert auf dem
-Relay". Alles andere ist ein harter Fehler mit Exit-Code ≠ 0.
+Kernregel: **Jeder ausgewählte Post muss in genau einem von drei benannten Zuständen enden** —
+„publiziert (mit ≥ `MIN_RELAY_ACKS` Bestätigungen)", „nachweislich unverändert auf dem Relay"
+oder „übersprungen, Grund benannt". Alles andere ist ein harter Fehler mit Exit-Code ≠ 0.
+
+Der Unterschied zwischen *übersprungen* und *Fehler* ist der Ort der Ursache: Fehlen die
+AMB-Pflichtfelder, war der Beitrag nie für Nostr gedacht — das ist kein Defekt, sondern eine
+Aussage. Bricht dagegen das Publizieren ab oder verletzt ein gebautes Event die Spezifikation,
+ist etwas kaputt.
 
 - `nak`-Exit-Code ≠ 0 pro Relay → wird gezählt; `acks < MIN_RELAY_ACKS` (2) → Post gilt als
   fehlgeschlagen.
@@ -829,9 +874,11 @@ Befunde, alle eingearbeitet:
 ## Cutover
 
 1. Neues Skript mit `--dry-run --all` über alle 98 Posts laufen lassen.
-2. **Erwartung: „unchanged" für alle Posts.** Das Publikationsergebnis ist identisch zur
-   heutigen Lösung — die Schlagwort-Regel wurde absichtlich *nicht* geändert. Jede
-   Abweichung ist verdächtig und einzeln zu prüfen. Zusätzlich erwartet: 61
+2. **Erwartung: „unchanged" bis auf 19 benannte Aenderungen.** Die Schlagwort-Regel wurde
+   absichtlich *nicht* geaendert; geaendert wird nur der kaputte Sprach-Tag in den 19
+   Beitraegen mit skalarem `inLanguage`. Dazu **13 uebersprungene** (10 Seiten, 3 mit
+   Datenfehlern) und **1 ohne Frontmatter** (`2026-01-27-pilgern-im-ru`, 0 Byte). Jede
+   *andere* Abweichung ist verdaechtig und einzeln zu pruefen. Zusätzlich erwartet: 61
    Schlagwort-Protokolleinträge (60× Fall B, 1× Fall C) sowie die Bild-Protokolle
    (197 relative Pfade, 64 Nicht-Hash-Cover).
 3. Vergleichstest gegen `md2blossom` (Teststrategie Punkt 5) muss gruen sein — sonst drohen
