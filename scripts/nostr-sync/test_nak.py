@@ -1,3 +1,5 @@
+import hashlib
+
 import pytest
 
 import nak
@@ -84,3 +86,40 @@ def test_an_unreachable_relay_raises_when_asked_for_state(throwaway_key):
     """
     with pytest.raises(nak.NakFailed):
         nak.fetch_event(kind=30023, pubkey="a" * 64, relay="ws://127.0.0.1:9", identifier=SLUG)
+
+
+MINI_PNG = bytes.fromhex(
+    "89504e470d0a1a0a0000000d49484452000000010000000108060000001f15c4890000000d4944415478"
+    "9c6364f8cf500f000501010018dd8db10000000049454e44ae426082"
+)
+
+
+def test_an_unknown_blob_is_reported_as_missing(local_blossom):
+    unbekannt = "b" * 64
+
+    assert not nak.blossom_has(unbekannt, server=local_blossom)
+
+
+def test_an_uploaded_blob_is_found_afterwards(local_blossom, throwaway_key, tmp_path):
+    bild = tmp_path / "testbild.png"
+    bild.write_bytes(MINI_PNG)
+    erwarteter_hash = hashlib.sha256(MINI_PNG).hexdigest()
+
+    beschreibung = nak.blossom_upload(bild, server=local_blossom, signer=throwaway_key)
+
+    assert beschreibung["sha256"] == erwarteter_hash
+    assert nak.blossom_has(erwarteter_hash, server=local_blossom)
+
+
+def test_encode_naddr_produces_a_shareable_address():
+    adresse = nak.encode_naddr(
+        kind=30023, pubkey="a" * 64, identifier="ein-beitrag",
+        relay="wss://relay-rpi.edufeed.org",
+    )
+
+    assert adresse.startswith("naddr1")
+
+
+def test_a_failing_naddr_encoding_gives_none_instead_of_raising():
+    """Nicht fatal: Ein Darstellungsdetail darf keinen gruenen Lauf rot faerben."""
+    assert nak.encode_naddr(kind=30023, pubkey="kein-hex", identifier="x", relay="wss://x") is None

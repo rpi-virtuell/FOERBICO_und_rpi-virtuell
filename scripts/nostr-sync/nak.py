@@ -88,3 +88,47 @@ def _run(args: list[str], stdin: str | None = None) -> subprocess.CompletedProce
     return subprocess.run(
         [NAK, *args], input=stdin, capture_output=True, text=True, check=False
     )
+
+
+def blossom_has(image_hash: str, server: str) -> bool:
+    """Liegt der Blob schon auf dem Mediaserver?
+
+    `nak blossom check` beantwortet das ueber den Exit-Code: 0 gefunden,
+    sonst nicht. Ein fehlender Blob ist kein Fehler, sondern der Normalfall
+    vor dem ersten Upload.
+    """
+    return _run(["blossom", "-s", server, "check", image_hash]).returncode == 0
+
+
+def blossom_upload(path, server: str, signer: str) -> dict:
+    """Laedt eine Datei per BUD-01 hoch und gibt die Blob-Beschreibung zurueck.
+
+    `nak` erledigt dabei das signierte kind:24242-Auth-Event. Schlaegt der Upload
+    fehl, ist das ein echter Fehler — ohne Blob zeigt die Bild-URL im Beitrag ins
+    Leere.
+
+    Achtung: `-s` und `--sec` gehoeren an das Elternkommando `blossom`, vor das
+    Unterkommando.
+    """
+    result = _run(["blossom", "-s", server, "--sec", signer, "upload", str(path)])
+    if result.returncode != 0:
+        raise NakFailed(f"Upload von {path} fehlgeschlagen: {result.stderr.strip()}")
+    return json.loads(result.stdout.strip().splitlines()[0])
+
+
+def encode_naddr(kind: int, pubkey: str, identifier: str, relay: str) -> str | None:
+    """Die NIP-19-Adresse des Beitrags, zum Teilen und Nachsehen.
+
+    Bewusst **nicht fatal**: Schlaegt das Encoding fehl, bleibt der Publish
+    gueltig und die Summary vermerkt nur, dass die Adresse fehlt.
+
+    `--relay` steht nicht in `nak encode naddr --help`, funktioniert aber und
+    legt den Relay-Hinweis in den Code (gegen v0.17.3 geprueft). Bei einem
+    Versionssprung erneut pruefen.
+    """
+    result = _run([
+        "encode", "naddr", "-k", str(kind), "-p", pubkey, "-d", identifier, "--relay", relay
+    ])
+    if result.returncode != 0:
+        return None
+    return result.stdout.strip() or None

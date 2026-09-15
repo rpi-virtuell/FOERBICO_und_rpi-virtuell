@@ -896,6 +896,23 @@ Befunde, alle eingearbeitet:
    (wie in jedem Skript-Subprozess), hält es das für eine Pipe und bricht ab:
    `do not pass arguments when piping from stdin` (Exit 1). Also: Event-JSON für `nak event`,
    `/dev/null` für alle anderen Aufrufe.
+
+   **Beim Bauen ist eine zweite, stillere Variante aufgetreten (2026-09-15):** In Python ist
+   `subprocess.run(..., input="")` **nicht** dasselbe wie keine Eingabe. Der leere String
+   erzeugt eine Pipe; `nak req` liest daraus einen leeren Filter und liefert dann
+   **nichts zurueck — mit Exit 0**. Kein Fehler, keine Meldung. Im Idempotenz-Check heisst
+   „nichts gefunden" aber „noch nicht publiziert": Der Sync haette bei **jedem** Lauf alle
+   Beitraege neu publiziert, ohne dass irgendetwas angeschlagen haette. Richtig ist
+   `stdin=subprocess.DEVNULL`. Der Fallstrick war in dieser Spec bereits beschrieben — und
+   trotzdem passiert, weil `input=""` aussieht wie „keine Eingabe". Die Begruendung steht
+   deshalb jetzt direkt an der Codestelle in `nak.py:_run`.
+
+   Nebenwirkung derselben Falle beim Messen: Eine Zwischendiagnose lautete, `nak serve`
+   speichere publizierte Events nicht — und stellte die ganze Teststrategie infrage. Die
+   Messung war vom selben Fehler verfaelscht. Eine Gegenprobe mit einem unabhaengigen
+   WebSocket-Skript zeigte, dass der Relay korrekt ausliefert. **Lehre:** Wenn ein Werkzeug
+   sich unerwartet verhaelt, erst mit einem zweiten, unabhaengigen Weg nachmessen, bevor
+   daraus eine Festlegung wird.
 2. **`-s/--server` und `--sec` gehören an das Elternkommando `nak blossom`**, vor das
    Unterkommando: `nak blossom -s <url> --sec <key> upload <datei>`.
 

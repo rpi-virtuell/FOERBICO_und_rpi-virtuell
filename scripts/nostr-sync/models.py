@@ -30,6 +30,21 @@ class Severity(Enum):
     WARNING = "WARNUNG"
 
 
+class Outcome(Enum):
+    """Wie ein Beitrag in einem Lauf geendet ist.
+
+    Vier benannte Ausgaenge statt „ging gut / ging schief": Der Unterschied
+    zwischen *uebersprungen* und *fehlgeschlagen* ist der Ort der Ursache.
+    Fehlen die AMB-Pflichtfelder, war der Beitrag nie fuer Nostr gedacht — das
+    ist kein Defekt. Bricht das Publizieren ab, ist etwas kaputt.
+    """
+
+    PUBLISHED = "publiziert"
+    UNCHANGED = "unveraendert"
+    SKIPPED = "uebersprungen"
+    FAILED = "fehlgeschlagen"
+
+
 @dataclass(frozen=True)
 class Finding:
     """Ein benannter Befund zu einem Beitrag.
@@ -114,3 +129,18 @@ class CommonMetadata(BaseModel):
     def unknown_fields(self) -> list[str]:
         """Feldnamen, die das Schema nicht kennt — Eingabe fuer warning_checks."""
         return sorted(self.model_extra or {})
+
+
+@dataclass
+class PostResult:
+    """Was ein Lauf ueber einen Beitrag herausgefunden hat."""
+
+    path: str
+    outcome: Outcome
+    slug: str | None = None
+    reason: str = ""
+    findings: list[Finding] = field(default_factory=list)
+    article: dict | None = None
+    """Das gebaute kind:30023 — fuer den Vergleich im naechsten Lauf und fuer Tests."""
+    naddr: str | None = None
+    acks: int = 0
