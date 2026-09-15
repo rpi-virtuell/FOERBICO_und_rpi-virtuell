@@ -11,6 +11,8 @@ creator:
     id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/tagungen
+workTranslation:
+  - https://oer.community/en/conference
 inLanguage:
   - de
 learningResourceType:

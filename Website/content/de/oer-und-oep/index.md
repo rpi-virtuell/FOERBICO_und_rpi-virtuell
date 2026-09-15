@@ -11,6 +11,8 @@ creator:
     id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-und-oep
+workTranslation:
+  - https://oer.community/en/oer-and-oep
 inLanguage:
   - de
 learningResourceType:

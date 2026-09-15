@@ -4,6 +4,8 @@
 creativeWorkStatus: Published
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/startseite
+workTranslation:
+  - https://oer.community/en/startseite
 name: FOERBICO
 description: "FOERBICO vernetzt religionsbezogene OER-Communities zu einer Community of Communities und entwickelt mit ihnen gemeinsame Qualitätskriterien und Metadatenstandards."
 datePublished: 2026-09-14
