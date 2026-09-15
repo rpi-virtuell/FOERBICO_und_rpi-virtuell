@@ -60,6 +60,8 @@ class Creator(BaseModel):
 
     givenName: str
     familyName: str
+    id: str | None = None
+    """Meist eine ORCID — kommt in 54 Beitraegen vor und wird als `creator:id` publiziert."""
     type: str | None = None
     affiliation: Affiliation | None = None
 
