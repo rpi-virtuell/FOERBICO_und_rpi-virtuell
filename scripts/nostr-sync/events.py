@@ -127,3 +127,62 @@ def _creator_tags(creator) -> list[list[str]]:
         if creator.affiliation.id:
             tags.append(["creator:affiliation:id", creator.affiliation.id])
     return tags
+
+
+FILE_METADATA = 1063
+
+# Nur diese zwei Werte sind laut edufeed-Wiki bedeutungstragend; jeder andere gilt
+# als „nicht deklariert" und erzeugt deshalb keinen Tag.
+AI_VALUES = ("generated", "modified")
+
+
+def build_attestation(
+    url: str,
+    image_hash: str,
+    entry: dict,
+    mime: str | None = None,
+    size: int | None = None,
+) -> dict:
+    """kind:1063 — der Lizenznachweis zu einem Bild.
+
+    Die Tag-Folge ist **zeichengleich zu md2blossom.mjs zu halten**, solange beide
+    Werkzeuge existieren: 1063 ist nicht ersetzbar, Nachweise akkumulieren. Weichen
+    die beiden ab, publizieren sie sich wechselseitig ueber und die Duplikate sind
+    hinterher keiner Quelle mehr zuzuordnen.
+
+    `entry` ist ein Eintrag aus dem `# bilder`-Block (Feldnamen nach
+    bildattribution.md), `mime` und `size` stammen aus der Bilddatei.
+    """
+    tags = [["url", url], ["x", image_hash]]
+    if mime:
+        tags.append(["m", mime])
+    if size is not None:
+        tags.append(["size", str(size)])
+
+    title = entry.get("title") or ""
+    tags.extend([
+        ["title", title],
+        ["license", entry.get("licenceUrl") or ""],
+        ["credit", entry.get("author") or ""],
+        ["alt", entry.get("alt") or title],
+    ])
+
+    for field, tag in (("sourceUrl", "source"), ("authorUrl", "authorUrl"),
+                       ("modification", "modification"), ("pubkey", "p")):
+        if entry.get(field):
+            tags.append([tag, entry[field]])
+
+    if entry.get("ai") in AI_VALUES:
+        tags.append(["ai", entry["ai"]])
+
+    return {"kind": FILE_METADATA, "tags": tags, "content": ""}
+
+
+def tags_equal(one: dict, other: dict) -> bool:
+    """Sind zwei Events inhaltlich dasselbe?
+
+    Verglichen werden nur Tags und `content`. `created_at`, `id`, `sig` und
+    `pubkey` aendern sich bei jedem Republish und wuerden sonst jeden Lauf als
+    Aenderung erscheinen lassen.
+    """
+    return one["tags"] == other["tags"] and one.get("content", "") == other.get("content", "")

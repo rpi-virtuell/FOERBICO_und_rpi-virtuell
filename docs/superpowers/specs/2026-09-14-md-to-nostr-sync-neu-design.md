@@ -180,6 +180,28 @@ sichtbar machen, dann in einer eigenen Ausbaustufe beheben. Protokolliert wird p
 
 Auch hier gilt: **kein Fehler, kein Abbruch** — ein Datenqualitäts-Signal für die Redaktion.
 
+## Bilder, deren lokale Datei nicht mehr zum Nachweis passt
+
+Beim Golden-Abgleich der 1063-Nachweise aufgefallen (2026-09-15): 33 von 34 sind
+zeichengleich, einer weicht ab — `2025-07-02-nostr-schrein`. Die lokale Datei
+`nosTr-schrein.jpg` hasht zu `27ad98ea…` bei 146795 Bytes, referenziert und attestiert ist
+aber `a2a54ea5…` mit 146385 Bytes. Die Datei wurde nach dem Attestieren neu kodiert.
+
+Der Builder verhaelt sich dabei richtig: Ohne passende Datei kennt er die Groesse nicht und
+schreibt **kein** `size`-Tag statt einer falschen Zahl — so verlangt es auch mdparsers
+eigener Test (*„Groesse unbekannt → kein size-Tag statt falscher Zahl"*, mit exakt diesem
+Hash als Fixture).
+
+**Daraus folgt eine Regel fuer `publish.py`:** Findet sich im Beitragsordner **keine Datei
+mit dem attestierten Hash**, wird der vorhandene Nachweis **nicht neu gebaut**. Begruendung:
+Wir haetten strikt weniger Information als der bestehende Nachweis (`size` fehlt), und
+kind:1063 ist nicht ersetzbar — ein Republish erzeugt ein Duplikat, das niemand mehr
+zuordnen kann. Der bestehende Nachweis bleibt unangetastet, der Fall wird als Warnung
+gemeldet.
+
+Ohne diese Regel entstuende bei jedem Lauf ein weiteres Duplikat zu diesem Bild. Das gilt
+auch fuer die heutige Loesung — dort ist die Situation bislang nur nicht aufgefallen.
+
 ## Fremde Pubkeys: nur melden, nichts ändern
 
 Zum Slug `rueckblick-auftaktkonferenz-oer-im-blick` liegen zwei 30023-Events von zwei

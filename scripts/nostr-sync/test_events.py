@@ -1,4 +1,4 @@
-from events import build_amb, build_article
+from events import build_amb, build_article, build_attestation, tags_equal
 from models import CommonMetadata
 
 PUBKEY = "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf"
@@ -160,3 +160,102 @@ def test_amb_uses_the_kim_id_suffix_for_vocabulary_fields():
 def test_amb_writes_the_date_as_given_not_as_timestamp():
     """Anders als published_at im 30023 — dort Epochensekunden, hier das Datum."""
     assert tags(amb(), "datePublished") == [["datePublished", "2026-08-12"]]
+
+
+# Der Eintrag aus dem `# bilder`-Block, Feldnamen nach bildattribution.md
+EINTRAG = {
+    "title": "Erster OER-Brownbag der OE_COM-Projekte",
+    "alt": "Screenshot mit den teilnehmenden OE_COM-Projektpartnern.",
+    "author": "FOERBICO",
+    "authorUrl": "https://oer.community",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://oer.community/oer-brownbag",
+}
+
+
+def test_the_attestation_reproduces_the_live_tag_order():
+    """Vorlage ist ein echtes Live-Event; die Reihenfolge ist Pflicht.
+
+    kind:1063 ist nicht ersetzbar. Weicht die Tag-Folge von md2blossom ab,
+    publizieren sich beide Werkzeuge wechselseitig ueber.
+    """
+    event = build_attestation(
+        url=f"{BLOSSOM}/{HASH}.jpg", image_hash=HASH,
+        entry=EINTRAG, mime="image/jpeg", size=99545,
+    )
+
+    assert event["kind"] == 1063
+    assert event["content"] == ""
+    assert [t[0] for t in event["tags"]] == [
+        "url", "x", "m", "size", "title", "license", "credit", "alt", "source", "authorUrl",
+    ]
+
+
+def test_missing_optional_fields_become_empty_strings_not_missing_tags():
+    """title, license, credit und alt stehen immer da — so haelt es md2blossom."""
+    event = build_attestation(
+        url=f"{BLOSSOM}/{HASH}.jpg", image_hash=HASH,
+        entry={"licenceUrl": "https://creativecommons.org/licenses/by/4.0/"},
+        mime="image/jpeg",
+    )
+
+    paare = {t[0]: t[1] for t in event["tags"]}
+    assert paare["title"] == ""
+    assert paare["credit"] == ""
+    assert "size" not in paare
+
+
+def test_alt_falls_back_to_the_title():
+    event = build_attestation(
+        url=f"{BLOSSOM}/{HASH}.jpg", image_hash=HASH,
+        entry={"title": "Ein Titel", "licenceUrl": "https://x"}, mime="image/jpeg",
+    )
+
+    assert ["alt", "Ein Titel"] in event["tags"]
+
+
+def test_only_the_two_documented_ai_values_produce_a_tag():
+    """edufeed-Wiki: generated | modified. Alles andere ist „nicht deklariert"."""
+    gueltig = build_attestation(
+        url=f"{BLOSSOM}/{HASH}.jpg", image_hash=HASH,
+        entry=EINTRAG | {"ai": "generated"}, mime="image/jpeg",
+    )
+    unsinn = build_attestation(
+        url=f"{BLOSSOM}/{HASH}.jpg", image_hash=HASH,
+        entry=EINTRAG | {"ai": "vielleicht"}, mime="image/jpeg",
+    )
+
+    assert ["ai", "generated"] in gueltig["tags"]
+    assert [t for t in unsinn["tags"] if t[0] == "ai"] == []
+
+
+def test_the_ai_tag_comes_last():
+    event = build_attestation(
+        url=f"{BLOSSOM}/{HASH}.jpg", image_hash=HASH,
+        entry=EINTRAG | {"ai": "modified", "pubkey": "a" * 64}, mime="image/jpeg",
+    )
+
+    assert event["tags"][-1] == ["ai", "modified"]
+
+
+def test_two_events_with_the_same_tags_count_as_equal():
+    """Grundlage der Idempotenz: created_at, id, sig und pubkey zaehlen nicht."""
+    a = {"kind": 30023, "tags": [["d", "x"]], "content": "Text"}
+    b = {"kind": 30023, "tags": [["d", "x"]], "content": "Text",
+         "created_at": 1789, "id": "abc", "sig": "def", "pubkey": "a" * 64}
+
+    assert tags_equal(a, b)
+
+
+def test_a_different_tag_value_makes_them_unequal():
+    a = {"kind": 30023, "tags": [["d", "x"]], "content": "Text"}
+    b = {"kind": 30023, "tags": [["d", "y"]], "content": "Text"}
+
+    assert not tags_equal(a, b)
+
+
+def test_a_different_content_makes_them_unequal():
+    a = {"kind": 30023, "tags": [["d", "x"]], "content": "Text"}
+    b = {"kind": 30023, "tags": [["d", "x"]], "content": "Anderer Text"}
+
+    assert not tags_equal(a, b)
