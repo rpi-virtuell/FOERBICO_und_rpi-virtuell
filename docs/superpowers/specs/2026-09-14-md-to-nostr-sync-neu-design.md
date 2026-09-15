@@ -621,29 +621,35 @@ Codebloecken (``` ``` ```). Codebloecke sind ausgenommen, dort ist HTML legitime
 - naechste Zeile beginnt klein oder mit einem oeffnenden Anfuehrungszeichen (Satzfortsetzung)
 - keine der beiden Zeilen beginnt einen Block (`#` `-` `*` `>` `|` `!` `[` ``` ``` ``` , Nummerierung)
 - die Zeile endet nicht auf zwei Leerzeichen (= gewollter Markdown-Umbruch)
-- keine der Zeilen ist eine Adresszeile (E-Mail, `http`, PLZ, `Tel`/`Fax`) — sonst melden
-  Impressum und Datenschutz ihre Anschriftenblöcke
+
+**Verworfen bei der Umsetzung: die Ausnahme fuer Adresszeilen.** Geplant war, Zeilen mit
+E-Mail, `http`, PLZ oder `Tel` auszunehmen, damit Impressum und Datenschutz ihre
+Anschriftenbloecke nicht melden. Gemessen aendert diese Ausnahme die Menge betroffener
+**Dateien** nicht (3 Beitraege, 3 Seiten mit wie ohne) — sie unterdrueckt nur Treffer
+innerhalb ohnehin betroffener Dateien. Und diese Treffer sind echt: Markdown verschmilzt
+aufeinanderfolgende Zeilen zu einem Absatz, aus der Anschrift wird
+„Marco Tessendorf procado Consulting 10243 Berlin". Der Block braucht eine Liste oder
+gewollte Umbrueche. Die Ausnahme haette also richtige Befunde versteckt, ohne etwas zu
+entscheiden — deshalb gibt es sie nicht.
 
 **Fallstrick, der zuerst naheliegt und nicht funktioniert:** Ein Laengenkriterium
 („drei Zeilen zwischen 60 und 90 Zeichen") produziert Fehlalarme bei absichtlich
 zeilenweise gesetztem Text. Nicht verwenden.
 
-**Arbeitsliste vor dem Cutover** (gemessen 2026-09-15). Solange diese Stellen offen sind,
-wuerden die betroffenen Beitraege nicht mehr aktualisiert:
+**Arbeitsliste vor dem Cutover.** Mit der fertigen Implementierung nachgemessen
+(2026-09-15): Genau **4 Beitraege** werden blockiert. Solange diese Stellen offen sind,
+werden sie nicht mehr aktualisiert.
 
-| Datei | HTML | harte Umbrueche | Art |
-|---|---|---|---|
-| `de/posts/2026-02-04-loewe-von-juda` | 8 Zeilen (`<br>`, `</br>`) | — | Beitrag |
-| `de/posts/2024-10-30-Austausch-digiLL` | — | 14 | Beitrag |
-| `de/posts/2025-08-26-Edufeed-Pitch` | — | 3 | Beitrag |
-| `de/posts/2025-12-08-Lichtmomente` | — | 2 | Beitrag |
-| `de/unser-team` | — | 19 | Seite |
-| `de/impressum` | — | 7 | Seite |
-| `de/datenschutz` | — | 1 | Seite |
+| Beitrag | Befund | Zeilen |
+|---|---|---|
+| `de/posts/2026-02-04-loewe-von-juda` | HTML im content (`<br>`, `</br>`) | 8 |
+| `de/posts/2024-10-30-Austausch-digiLL` | harte Absatzumbrueche | 18 |
+| `de/posts/2025-08-26-Edufeed-Pitch` | harte Absatzumbrueche | 3 |
+| `de/posts/2025-12-08-Lichtmomente` | harte Absatzumbrueche | 2 |
 
-Die drei Seiten (`unser-team`, `impressum`, `datenschutz`) haben keine vollstaendigen
-Pflichtfelder und werden vermutlich ohnehin nicht publiziert — im ersten Dry-Run verifizieren,
-bevor dort Aufwand entsteht. Zu beheben sind also real **4 Beitraege**.
+Die Seiten `unser-team`, `impressum` und `datenschutz` haben ebenfalls harte Umbrueche,
+erreichen die NIP-Pruefung aber nie: Ihnen fehlen die AMB-Pflichtfelder, sie werden vorher
+uebersprungen. Die Reihenfolge *erst ueberspringen, dann pruefen* ist damit belegt.
 
 **Konventions-Checks (Verstoss = WARNUNG):** Schlagworte im falschen Block, Schlagwort-Felder
 weichen voneinander ab, relative Bildpfade, Bild-URL ohne Blossom-Hash, Hash-URL ohne
