@@ -1,8 +1,10 @@
 <!--
 Spec zum Neuaufbau des Markdown-zu-Nostr-Publishings.
-Stand: 2026-09-14. Messwerte gegen den damaligen Repo-Stand und die
+Stand: 2026-09-15. Messwerte gegen den damaligen Repo-Stand und die
 produktiven Relays erhoben.
 
+Diese Datei ist die Quelle der Wahrheit. Sie wird hier im Repo gepflegt
+und nicht mehr aus einer externen Planungsdatei erzeugt.
 Umsetzungsreihenfolge der Module: scripts/nostr-sync/README.md
 -->
 
@@ -138,7 +140,7 @@ Vorab-Check bestaetigt, dass `nak` die Tags unveraendert durchreicht.
 **Risikonotiz:** Der `x`-Tag ist in einem 30023 nicht standardisiert — nostrbook kennt keine
 `x`-Tag-Doku; `x` ist in NIP-94 als SHA-256 einer Datei **im kind:1063** definiert. Die
 Verwendung im Artikel-Event ist eine edufeed-Absprache vom 07.09.2026. Robuster waere die von
-NIP-94 fuer den `image`-Tag bereits vorgesehene Form `["image", <url>, <hash>]`. Aenderbar ist
+NIP-94 fuer den `image`-Tag bereits vorgesehene Form `["image", <url>, <hash>]` — oder der **NIP-92-`imeta`-Tag**, den andere Implementierungen dafuer nutzen (`["imeta", "url …", "m …", "alt …", "dim …"]`). Aenderbar ist
 das nur gemeinsam mit edufeed, da ArticleView und Hub auf der jetzigen Form aufsetzen.
 
 ### NIP-94-Abweichungen unserer 1063-Events
@@ -326,7 +328,7 @@ PFLICHT bis dahin: Die kind:1063-Tags dieses Moduls muessen zeichengleich
 zu md2blossom.mjs bleiben. 1063 ist nicht ersetzbar — weichen die beiden
 ab, publizieren sie sich wechselseitig ueber und die Nachweise
 akkumulieren, ohne einer Quelle zuordenbar zu sein.
-Abgesichert durch test_events.py::test_1063_zeichengleich_zu_md2blossom.
+Abgesichert durch test_events.py::test_1063_byte_identical_to_md2blossom.
 
 Bekannte Abweichungen bei kind:30023 (gemessen 2026-09-14) — unkritisch,
 weil md2blossoms 30023-Vorlage nie publiziert wird:
@@ -363,25 +365,122 @@ das externe Werkzeug `amb-convert amb:nostr`. Im Repo gibt es dazu keinen Task, 
 Workflow und keine weitere Erwaehnung — ob das jemand von Hand nutzt, ist von aussen nicht
 feststellbar. Vor dem Entfernen zu klaeren, sonst faellt still ein Arbeitsschritt weg.
 
+## Erkenntnisse aus verwandten Projekten
+
+Drei fremde Werkzeuge geprueft (2026-09-15). Ergebnis in einem Satz: Eines bestaetigt unsere
+Architektur unabhaengig und liefert vier konkrete Anleihen, zwei sind fuer uns ohne Nutzen.
+
+### `941design/emacs-nostr-publish` — Python, NIP-23 + NIP-46, GPL-3.0
+
+Loest dieselbe Aufgabe in derselben Sprache und ist **unabhaengig bei derselben Architektur
+gelandet**: Python-Wrapper plus `nak` als Protokoll-Engine, ohne jede Nostr-Bibliothek
+(Abhaengigkeiten: nur `PyYAML` und `Pillow`). Der eigene Architekturtext nennt das
+*Composition Over Reimplementation*: „Delegates cryptography to nak — no direct NIP-46 or
+signing implementation." Auch die Modulaufteilung deckt sich fast deckungsgleich mit unserer
+(`frontmatter` · `validator` · `event` · `nak`), ebenso *Fail-Fast Validation* mit
+Zurueckweisung unbekannter Felder und deterministische Tag-Reihenfolge.
+
+Vier Dinge sind uebernehmenswert:
+
+1. **`nak encode naddr` fuer die Artikeladresse.** Nach dem Publizieren wird die NIP-19-Adresse
+   erzeugt und ausgegeben — mit `nak` selbst, ohne zusaetzliche Abhaengigkeit, und
+   ausdruecklich **nicht fatal**: schlaegt das Encoding fehl, bleibt der Publish gueltig.
+   Fuer uns: je publiziertem Beitrag ein `naddr1…` in der Job-Summary, damit die Redaktion den
+   Beitrag direkt in einem Client oeffnen kann. Fehlt in unserem Entwurf bisher komplett.
+2. **EXIF-Strippen vor dem Blossom-Upload — dort ein MUST mit Abbruch.** Wir laden Bilddateien
+   heute unveraendert hoch. Bei einem oeffentlich finanzierten Projekt mit oeffentlichem
+   Mediaserver ist das datenschutzrelevant: GPS-Koordinaten, Kameraseriennummern und
+   Urheberfelder wandern ungeprueft mit. Siehe Ausbaustufe 3.
+3. **NIP-92 `imeta`** ist der *standardisierte* Weg, Bildmetadaten am Event zu fuehren
+   (`["imeta", "url …", "m …", "alt …", "dim …"]`). Das ist der Gegenentwurf zur
+   edufeed-eigenen `x`-Tag-Konvention und gehoert als Kontext in die dortige Risikonotiz:
+   Es gibt einen Standard, andere Implementierungen nutzen ihn.
+4. **Relays kommen nie aus dem Inhalt.** Dort dient die CLI als Allowlist gegen die
+   Frontmatter-Angaben — „prevents accidentally publishing to wrong relays". Bei uns stehen
+   die Relays ohnehin in der Konfiguration; das Prinzip gehoert trotzdem festgehalten.
+
+**Lizenzhinweis:** GPL-3.0. Ideen und Architektur sind frei uebernehmbar, **Code nicht** —
+kopierte Zeilen wuerden unser Repo unter die GPL zwingen. Alles oben ist deshalb
+nachzubauen, nicht zu uebernehmen.
+
+### `novospes/shoutstr` — JavaScript, MIT
+
+Chrome-Erweiterung zum Cross-Posting nach Medium, Substack und Nostr, mit eigenem Editor.
+Anderes Problem (Autorenwerkzeug statt CI-Strecke), und zwei Entscheidungen laufen unseren
+zuwider: der `nsec` liegt im Local Storage des Browsers, Bilder gehen nach `nostr.build`.
+Nichts zu uebernehmen.
+
+### `talvasconcelos/postr` — Svelte, ohne Lizenz
+
+Browser-Editor von 2023, Stand NIP-33, seit drei Jahren unveraendert, README 78 Byte, **keine
+Lizenzdatei**. Ohne Lizenz ist selbst das Kopieren einzelner Zeilen rechtlich nicht gedeckt.
+Nichts zu uebernehmen.
+
 ## Architektur
 
-Sechs Module unter `scripts/nostr-sync/`, jedes mit einem Zweck, je ein `test_*.py` daneben.
+Zehn Module unter `scripts/nostr-sync/`, je ein `test_*.py` daneben. Zugeschnitten nach
+**Verantwortlichkeit**, nicht nach dem Ablauf der Verarbeitung: Jede Datei beantwortet genau
+eine Frage, und die Frage steht im Modul-Docstring.
 
-| Modul | Zweck | Seiteneffekte |
-|---|---|---|
-| `sync.py` | Einstieg/CLI: Argumente, Orchestrierung, Exit-Code | ruft die anderen |
-| `frontmatter.py` | Markdown lesen, Blöcke zerlegen, **Pydantic-Schema validieren**, Schlagwort-Abweichungen erkennen | keine (rein) |
-| `events.py` | Metadaten → Event-Dicts für die drei Kinds; `tags_equal()`; Spec-Checks | keine (rein) |
-| `images.py` | Bild-Hashes aus Frontmatter+Content sammeln, Blossom-Schritt orchestrieren | via `nak.py` |
-| `nak.py` | **Die einzige Stelle mit `subprocess`-Aufrufen** — die austauschbare Grenze | ja |
-| `summary.py` | GitHub-Step-Summary-Markdown rendern (inkl. Protokolle) | keine (rein) |
+| Modul | Die eine Aufgabe | Seiteneffekte | ~Zeilen |
+|---|---|---|---|
+| `models.py` | Beschreiben, wie die Daten aussehen: Pydantic-Schemas plus `Finding` (Schweregrad **und** Herkunft) und `PostResult` | keine | 170 |
+| `frontmatter.py` | Das Drei-Block-Format lesen und Werte normalisieren | keine | 160 |
+| `references.py` | Aus Inhalt und Metadaten Bezeichner und Medienverweise ableiten: Slug, SHA-256 aus Blossom-URL, `a`-Koordinate, Bildliste in Reihenfolge | keine | 170 |
+| `error_checks.py` | Prüfungen, die **blockieren** | keine | 140 |
+| `warning_checks.py` | Prüfungen, die nur **melden** | keine | 120 |
+| `events.py` | Events bauen (30023, 30142, 1063) und vergleichen | keine | 210 |
+| `nak.py` | **Die einzige Subprozess-Grenze**: Relays, Blossom, `naddr` | ja | 220 |
+| `publish.py` | Pro Beitrag entscheiden: publizieren, überspringen, scheitern. Bekommt die `nak`-Operationen als **Funktionsparameter** hineingereicht — kein Framework, keine Interfaces, nur Argumente — damit jede Entscheidungs-Verzweigung ohne Relay testbar ist | via `nak.py` | 150 |
+| `report.py` | Ergebnisse in Markdown gießen — entscheidet nichts. Die Exit-Code-Regel liegt in `publish.py` (`exit_code(results)`), `cli.py` ruft sie nur auf | keine | 180 |
+| `cli.py` | Einstieg: Argumente, Verdrahtung, Exit-Code | ruft die anderen | 80 |
 
-**Warum `nak` gekapselt wird:** Fällt `nak` weg oder ändert Flags, tauscht man dieses eine
-Modul gegen eine Bibliothek (`nostr-tools`/`nostr-sdk`) — ein Tagewerk, kein Rewrite. Die
-Domänenlogik (Frontmatter → Nostr-Tags), der einzige projektspezifische Teil, bleibt
-unberührt. Keine weiteren Abstraktionsschichten: insbesondere **kein**
-Dependency-Injection-Gerüst wie `BilderDeps`/`standardDeps` im heutigen Code — Tests laufen
-gegen einen echten lokalen Relay.
+**Abhängigkeiten zeigen in eine Richtung.** `models` ← reine Module (`frontmatter`,
+`references`, `events`, `*_checks`) ← Adapter (`nak`) ← `publish` ← `cli`; `report` kennt nur
+`models`. Die eine Regel, die das absichert und als Test prüfbar ist: **kein reines Modul
+importiert `nak`.** Bricht die Schichtung, wird der Test rot statt dass es jemandem auffallen
+muss.
+
+**Regeln nach Schweregrad getrennt, Herkunft im Befund.** `error_checks` und `warning_checks`
+trennen nach der Folge — blockiert es oder nicht —, weil das die Frage ist, die beim Lesen
+der Job-Summary zählt. Woher eine Regel stammt, steht nicht im Dateinamen, sondern im
+`Finding` selbst und damit in jeder Logzeile: `NIP-23`, `NIP-94` oder
+`FOERBICO-Konvention (schlagworte.yaml)`.
+
+**Bewusst nicht weiter zerlegt.** Drei Trennungen habe ich erwogen und verworfen, weil sie
+das Nachvollziehen erschweren statt es zu erleichtern: Vergleichen bleibt bei `events.py`
+(es ist dieselbe Datenform, nur andere Richtung); `kind:1063` bleibt bei den anderen Events
+(alle drei sind Nostr-Events aus demselben Beitrag); und `nak.py` bleibt eine Datei, weil
+„wir rufen genau ein fremdes Werkzeug auf" die Grenze ist, die man verstehen muss — nicht,
+welche zwei Serverarten dahinter stehen.
+
+### Code-Stil: Lesbarkeit vor Kürze
+
+Python wurde gewählt, weil der Code überwiegend **gelesen** wird. Daraus folgen verbindliche
+Grenzen und ein paar Regeln, die das absichern:
+
+| Grenze | Wert |
+|---|---|
+| Funktion | Obergrenze 100 Zeilen — die meisten werden 10–30 Zeilen lang |
+| Datei | bis 300, im Ausnahmefall 400 Zeilen. Kleiner ist besser, aber nicht immer sinnvoller: eine kohärente lange Datei schlägt zwei künstlich getrennte |
+
+Nähert sich eine Funktion der Obergrenze, ist das kein Anlass zum Verdichten, sondern das
+Signal, dass sie mehrere Schritte erledigt.
+
+**Wie der Code geschrieben wird:**
+
+- Sprechende Namen statt Kommentare. Kommentare nur dort, wo das *Warum* nicht im Code steht —
+  eine Protokollregel, ein Fallstrick, eine bewusste Abweichung.
+- Keine verdichteten Einzeiler, keine verschachtelten Comprehensions über mehrere Ebenen.
+  Eine Schleife, die man laut vorlesen kann, schlägt einen cleveren Ausdruck.
+- Flache Verschachtelung: früh zurückkehren statt `else`-Treppen.
+- Jedes Modul beginnt mit einem kurzen Docstring: welche **eine** Frage es beantwortet und was
+  es ausdrücklich *nicht* tut.
+- Typannotationen an allen öffentlichen Funktionen — hier Dokumentation, nicht Zierde.
+
+**Bezeichner auf Englisch**: `extract_slug`, `tags_equal`, `image_urls`, `check_html`.
+Protokollbegriffe ohnehin: `kind`, `tags`, `pubkey`, `naddr`. Deutsch bleibt den Texten
+vorbehalten — Docstrings, Logmeldungen und die Job-Summary richten sich an die Redaktion.
 
 ### Datenfluss
 
@@ -397,7 +496,7 @@ flowchart TD
     D1 --> FM
     D2 --> FM
 
-    FM["frontmatter.py<br/>Bloecke trennen · Pydantic-Schema ·<br/>alle Werte zu Strings normalisieren"] --> V{"Schema- und Spec-Checks<br/>NIP-01 / 23 / 94"}
+    FM["frontmatter.py + models.py<br/>Bloecke trennen · Schema ·<br/>Werte normalisieren"] --> V{"error_checks.py<br/>NIP-01 / 23 / 94"}
     V -->|Verstoss| ERR["FEHLER<br/>Event wird NICHT publiziert ·<br/>Post gilt als fehlgeschlagen"]
     V -->|ok| EV["events.py<br/>kind:30023<br/>+ kind:30142 wenn LearningResource"]
 
@@ -411,11 +510,11 @@ flowchart TD
     AK -->|nein| ERR
     AK -->|ja| OKP(["publiziert"])
 
-    UNCH --> IMG["images.py — je Bild mit Blossom-Hash-URL<br/>nak blossom check → ggf. upload BUD-01 ·<br/>kind:1063 bauen, mit juengstem Nachweis vergleichen,<br/>nur bei Abweichung publizieren"]
+    UNCH --> IMG["publish.py + references.py — je Bild mit Hash-URL<br/>nak blossom check → ggf. upload BUD-01 ·<br/>kind:1063 bauen, mit juengstem Nachweis vergleichen,<br/>nur bei Abweichung publizieren"]
     OKP --> IMG
     IMG --> W["Protokoll sammeln<br/>Schlagworte im falschen Block ·<br/>relative Bildpfade · fremde Pubkeys<br/>Warnung, kein Abbruch"]
 
-    W --> SUM["summary.py<br/>GITHUB_STEP_SUMMARY + Log-Artefakt"]
+    W --> SUM["report.py<br/>GITHUB_STEP_SUMMARY + Log-Artefakt"]
     ERR --> SUM
     SUM --> EX{"jeder Post publiziert oder<br/>nachweislich unveraendert?"}
     EX -->|ja| Z0(["Exit 0 — Job gruen"])
@@ -436,9 +535,6 @@ Der Git-Diff ist dabei nur **Vorfilter** fuer die Geschwindigkeit, nicht der Mec
 Korrektheit: Ob publiziert wird, entscheidet allein der Vergleich mit dem Relay. Ein Lauf mit
 `--all` muss deshalb zum selben Ergebnis fuehren wie ein Lauf mit Diff.
 
-Der Git-Diff ist damit nur **Performance-Vorfilter**, nicht Korrektheits-Mechanismus. Ein
-Lauf mit `--all` muss zum selben Ergebnis führen.
-
 ### Idempotenz je Event-Typ
 
 | Kind | Abfrage | Regel |
@@ -453,13 +549,13 @@ alle Kinds verallgemeinert.
 
 ## Schweregrade: Spezifikationsverletzungen brechen ab
 
-Drei Stufen, klar getrennt nach *wer* die Regel aufgestellt hat:
+Zwei Stufen, getrennt nach der Folge — blockiert es oder nicht. Die Herkunft der Regel
+(NIP oder eigene Konvention) steht in jedem Befund, nicht in der Stufe:
 
 | Stufe | Ausloeser | Verhalten |
 |---|---|---|
 | **FEHLER** | **Spezifikationsverletzung** (NIP/BUD) oder Betriebsfehler | Event wird **nicht publiziert**. Post gilt als fehlgeschlagen. Job-Exit != 0. In der Summary ganz oben als `> [!CAUTION]`-Block mit Datei, Feld und verletzter Regel |
 | **WARNUNG** | Verletzung **unserer eigenen** Konventionen | Wird publiziert, aber mit eigenem, sichtbarem Abschnitt in der Job-Summary (`> [!WARNING]`) |
-| **HINWEIS** | Datenqualitaet, informativ | Zeile im Log-Artefakt |
 
 **Warum eine Spezifikationsverletzung nicht publiziert werden darf:** 30023 und 30142 sind
 *replaceable*. Ein fehlerhaftes Event **ersetzt die bisher funktionierende Version** auf dem
@@ -484,6 +580,66 @@ nachfolgenden.
 | `x` ist genau 64 Hex-Zeichen in Kleinschreibung | NIP-94 |
 | `a`-Tag-Wert hat die Form `kind:pubkey:d` | NIP-01 |
 | `content` ist ein String | NIP-01 |
+| `content` enthaelt **kein HTML** | NIP-23 (*MUST NOT support adding HTML to Markdown*) |
+| `content` hat **keine harten Absatzumbrueche** | NIP-23 (*MUST NOT hard line-break paragraphs*) |
+
+### NIP-23-Inhaltsregeln: beides FEHLER, mit handlungsfaehiger Meldung
+
+Beide `content`-Regeln aus NIP-23 blockieren die Veroeffentlichung des betroffenen Beitrags.
+Damit das nicht in eine Sackgasse fuehrt, muss die Meldung so konkret sein, dass die
+Redaktion sie ohne Rueckfrage beheben kann — Datei, Zeilen, Fundstelle, Regel, Fix:
+
+```
+FEHLER  NIP-23: HTML im content
+  Datei:    Website/content/de/posts/2026-02-04-loewe-von-juda/index.md
+  Zeilen:   70, 92, 93, 104, 111, 118, 154, 157
+  Gefunden: <br>, </br>
+  Regel:    NIP-23 — "MUST NOT support adding HTML to Markdown"
+  Fix:      <br> durch eine Leerzeile ersetzen (= neuer Absatz).
+            </br> ist ausserdem kein gueltiges HTML.
+  Folge:    Beitrag wird nicht publiziert, bis das behoben ist.
+```
+
+**Erkennungsregeln — bewusst genau festgelegt, weil ein Fehlalarm eine korrekte
+Veroeffentlichung aufhaelt.** Beim Entwerfen sind mir drei Fehlerquellen begegnet, die in der
+Implementierung zu beachten sind:
+
+*HTML (exakt, keine Heuristik):* Tag-artige Muster im `content`, **ausserhalb** von
+Codebloecken (``` ``` ```). Codebloecke sind ausgenommen, dort ist HTML legitimer Inhalt.
+
+*Harte Absatzumbrueche (heuristisch, deshalb streng eingegrenzt):* Eine Fliesstextzeile endet
+**mitten im Satz** und die naechste setzt ihn fort. Konkret alle Bedingungen zugleich:
+
+- Zeile endet **nicht** auf Satzzeichen — die Liste muss die deutschen Schlusszeichen
+  enthalten: `. ! ? : ; » « “ ” ’ " ' ) ]`. **Fallstrick:** Deutsch schliesst mit `“`
+  (U+201C), nicht mit `”` (U+201D). Fehlt U+201C in der Liste, meldet der Check
+  `2025-10-06-Reformation` falsch, wo zwei vollstaendige Zitatfragen auf eigenen Zeilen stehen.
+- naechste Zeile beginnt klein oder mit einem oeffnenden Anfuehrungszeichen (Satzfortsetzung)
+- keine der beiden Zeilen beginnt einen Block (`#` `-` `*` `>` `|` `!` `[` ``` ``` ``` , Nummerierung)
+- die Zeile endet nicht auf zwei Leerzeichen (= gewollter Markdown-Umbruch)
+- keine der Zeilen ist eine Adresszeile (E-Mail, `http`, PLZ, `Tel`/`Fax`) — sonst melden
+  Impressum und Datenschutz ihre Anschriftenblöcke
+
+**Fallstrick, der zuerst naheliegt und nicht funktioniert:** Ein Laengenkriterium
+(„drei Zeilen zwischen 60 und 90 Zeichen") produziert Fehlalarme bei absichtlich
+zeilenweise gesetztem Text. Nicht verwenden.
+
+**Arbeitsliste vor dem Cutover** (gemessen 2026-09-15). Solange diese Stellen offen sind,
+wuerden die betroffenen Beitraege nicht mehr aktualisiert:
+
+| Datei | HTML | harte Umbrueche | Art |
+|---|---|---|---|
+| `de/posts/2026-02-04-loewe-von-juda` | 8 Zeilen (`<br>`, `</br>`) | — | Beitrag |
+| `de/posts/2024-10-30-Austausch-digiLL` | — | 14 | Beitrag |
+| `de/posts/2025-08-26-Edufeed-Pitch` | — | 3 | Beitrag |
+| `de/posts/2025-12-08-Lichtmomente` | — | 2 | Beitrag |
+| `de/unser-team` | — | 19 | Seite |
+| `de/impressum` | — | 7 | Seite |
+| `de/datenschutz` | — | 1 | Seite |
+
+Die drei Seiten (`unser-team`, `impressum`, `datenschutz`) haben keine vollstaendigen
+Pflichtfelder und werden vermutlich ohnehin nicht publiziert — im ersten Dry-Run verifizieren,
+bevor dort Aufwand entsteht. Zu beheben sind also real **4 Beitraege**.
 
 **Konventions-Checks (Verstoss = WARNUNG):** Schlagworte im falschen Block, Schlagwort-Felder
 weichen voneinander ab, relative Bildpfade, Bild-URL ohne Blossom-Hash, Hash-URL ohne
@@ -502,10 +658,44 @@ Alle drei wuerden heute unbemerkt durchgehen — sie sind der Grund fuer die Spe
    Werte explizit zu Strings normalisieren und nicht-konvertierbare ablehnen.
 2. **Zahlen in Listen bleiben Zahlen.** `keywords: [2026, Bibel]` ergibt `[2026, "Bibel"]` —
    ein numerischer Tag-Wert verletzt NIP-01.
-3. **`Date.parse` raet stillschweigend falsch.** `Date.parse("12.08.2026")` — gemeint als
+3. **NIP-23 verbietet HTML und harte Absatzumbrueche im `content` — beides kommt vor.**
+   Das Original-NIP formuliert zwei **MUST NOT**, die in keiner bisherigen Pruefliste standen.
+   Gemessen ueber 95 Beitraege: **1 Beitrag mit HTML** —
+   `2026-02-04-loewe-von-juda` (Slug `der-loewe-schwierigkeiten`) nutzt zehnmal `<br>` bzw.
+   `</br>` als Absatztrenner und Bildunterschrift, publiziert und live. **4 Beitraege** mit
+   hart umbrochenen Absaetzen. Immerhin: **kein einziger Hugo-Shortcode** im Fliesstext, dort
+   drohte der groessere Schaden.
+4. **`Date.parse` raet stillschweigend falsch.** `Date.parse("12.08.2026")` — gemeint als
    12. August — ergibt den **7./8. Dezember 2026**. Vier Monate daneben, ohne jede Meldung.
    `Date.parse("")` ergibt `NaN`, und `String(NaN/1000)` schreibt woertlich `"NaN"` in den
    `published_at`-Tag. Deshalb: striktes `YYYY-MM-DD`-Parsing, kein `Date.parse` als Fallback.
+
+### naddr-Ausgabe je publiziertem Beitrag
+
+Nach jedem erfolgreichen Publish erzeugt `report.py` die NIP-19-Adresse des Beitrags und
+stellt sie mit Client-Links in die Job-Summary — damit die Redaktion das Ergebnis direkt
+oeffnen und ansehen kann, statt es auf einem Relay suchen zu muessen.
+
+Erzeugt wird sie mit `nak` selbst, ohne zusaetzliche Abhaengigkeit:
+
+```bash
+nak encode naddr -k 30023 -p <pubkey> -d <slug> --relay wss://relay-rpi.edufeed.org
+```
+
+Gegen nak v0.17.3 verifiziert: Der Relay-Hinweis landet tatsaechlich im Code (mit
+`nak decode` geprueft). **Zwei Fallstricke:** `--relay` ist in `nak encode naddr --help`
+**nicht dokumentiert**, funktioniert aber — bei einem Versionssprung erneut pruefen. Und wie
+bei jedem `nak`-Aufruf muss stdin explizit gesetzt werden, sonst bricht das Kommando ab.
+
+Client-Links in der Form, die `mdparser/sync/publish-single.ts` bereits verwendet:
+
+| Client | URL |
+|---|---|
+| Habla | `https://habla.news/a/<naddr>` |
+| Yakihonne | `https://yakihonne.com/article/<naddr>` |
+
+**Nicht fatal.** Schlaegt das Encoding fehl, bleibt der Publish gueltig; die Summary vermerkt
+lediglich, dass die Adresse fehlt. Ein Darstellungsdetail darf keinen gruenen Lauf rot faerben.
 
 ### Fehlerbehandlung — der „silent no-op"-Fix
 
@@ -527,8 +717,8 @@ Damit wird der Fall, den `summary.ts` heute nachträglich meldet, strukturell un
 ## Kritische Dateien
 
 **Neu:**
-- `scripts/nostr-sync/` — die sechs Module oben plus Tests
-- optional `docs/superpowers/specs/2026-09-14-md-to-nostr-neu-design.md` (Design im Repo)
+- `scripts/nostr-sync/` — die zehn Module oben, je ein `test_*.py` daneben, Fixtures unter
+  `scripts/nostr-sync/fixtures/`
 
 **Umbauen:**
 - `.github/workflows/nostr-sync.yml` — externes `mdparser`-Checkout entfernen; `nak`-Binary
@@ -570,19 +760,42 @@ Nicht den Code portieren, aber diese Regeln sind hart erarbeitet und müssen erh
    (Fälle A–D); Event-Builder (Tag-Reihenfolge, `x`-Tags dedupliziert und Cover zuerst,
    kein 30142 ohne `LearningResource`); `tags_equal`; Summary-Rendering.
 2. **Golden-Fixture-Regression:** Aus dem Referenz-Post die Events bauen und gegen die
-   Live-Tag-Sets aus `docs/nostr-events/` vergleichen (`created_at`/`id`/`sig` ausgenommen).
-   Muss **Byte-gleiche Tag-Sets** ergeben — das Publikationsergebnis ändert sich nicht.
-3. **Integration, offline:** `nak serve --blossom --port 10547` starten, mit Wegwerf-Key
-   (`nak key generate`) gegen `ws://localhost:10547` publishen, mit `nak req` verifizieren;
-   zweiter Lauf muss „unchanged" ergeben. Kein Mocking, kein DI-Gerüst nötig.
+   Live-Events vergleichen (`created_at`/`id`/`sig` ausgenommen). Muss **Byte-gleiche
+   Tag-Sets** ergeben. Die Fixtures liegen als **vollständige JSON-Dateien** unter
+   `scripts/nostr-sync/fixtures/`, direkt mit `nak req` vom Relay geholt — **nicht** die
+   Beispiele in `docs/nostr-events/`: dort sind `summary` und `content` zur Lesbarkeit mit
+   `[…]` gekürzt und taugen nicht für einen Byte-Vergleich.
+3. **Integration, offline, isoliert:** Ein pytest-Fixture startet `nak serve --blossom` auf
+   einem **freien, zufälligen Port** (kein fest verdrahteter 10547 in Tests) und räumt ihn am
+   Ende ab. Jeder Test signiert mit einem **eigenen Wegwerf-Key** (`nak key generate`), damit
+   Events verschiedener Tests nicht kollidieren — sonst sind die Tests nicht unabhängig und
+   die Reihenfolge entscheidet über grün oder rot. Kein Mocking; die reale `nak`-Strecke wird
+   durchlaufen. Zweiter Lauf desselben Beitrags muss „unchanged" ergeben.
 4. **Schema-Validierung:** Fehlplatzierte oder unbekannte Felder erzeugen einen klaren,
    benannten Hinweis in der Summary statt still zu verschwinden.
 5. **Vergleichstest gegen `md2blossom` — Abnahmekriterium.**
-   `test_events.py::test_1063_zeichengleich_zu_md2blossom` baut fuer denselben Beitrag den
-   `kind:1063` beider Implementierungen und vergleicht die Tag-Saetze zeichengenau. Schlaegt
-   er fehl, darf nicht ausgeliefert werden: 1063 ist nicht ersetzbar, abweichende Varianten
-   wuerden sich wechselseitig ueberpublizieren und als nicht zuordenbare Duplikate
-   akkumulieren. Der Test faellt erst mit `md2blossom` selbst weg.
+   `test_events.py::test_1063_byte_identical_to_md2blossom` baut für denselben Beitrag den
+   `kind:1063` beider Implementierungen und vergleicht die Tag-Sätze zeichengenau. Schlägt er
+   fehl, darf nicht ausgeliefert werden: 1063 ist nicht ersetzbar, abweichende Varianten
+   würden sich wechselseitig überpublizieren und als nicht zuordenbare Duplikate akkumulieren.
+   Weil er `node` und die Abhängigkeiten von `md2blossom.mjs` braucht, trägt er den Marker
+   `@pytest.mark.md2blossom`: lokal wird er **übersprungen**, wenn `node` fehlt, damit die
+   Kernsuite schnell und umgebungsunabhängig bleibt — **in der CI ist er Pflicht** und darf
+   nicht übersprungen werden. Er fällt erst mit `md2blossom` selbst weg.
+
+## Prüfung gegen `dev-principles` (2026-09-15)
+
+Der Plan wurde gegen die Prinzipien TDD/FIRST, KISS, YAGNI, DRY, SOLID, SoC geprüft. Sechs
+Befunde, alle eingearbeitet:
+
+| Prinzip | Befund | Korrektur |
+|---|---|---|
+| Verifikation | Die Golden Fixtures in `docs/nostr-events/` sind mit `[…]` gekürzt — ein „Byte-Vergleich" dagegen hätte nie funktioniert | Vollständige JSON-Fixtures unter `tests/fixtures/`, per `nak req` geholt |
+| FIRST · Independent | Integrationstests teilten sich einen Relay auf festem Port; Events eines Tests wären im nächsten sichtbar | Zufälliger Port je Session, eigener Key je Test |
+| FIRST · Fast | Der `md2blossom`-Vergleich zieht `node` in die Python-Suite | Marker, lokal überspringbar, in CI Pflicht |
+| DIP | „Kein DI" war zu absolut: `publish.py` wäre nur mit laufendem Relay testbar gewesen | `nak`-Operationen als Funktionsparameter, kein Framework |
+| YAGNI | Stufe HINWEIS hatte keine einzige Regel | Gestrichen; zwei Stufen, bis eine dritte gebraucht wird |
+| DRY · eine Wahrheit | Die Spec wurde aus dem lokalen Plan regeneriert; Änderungen im Repo wären überschrieben worden | **Ab jetzt ist die Spec im Repo die Quelle**, der lokale Plan ist Arbeitsnotiz |
 
 ## Was wegfällt
 
@@ -623,8 +836,10 @@ Nicht den Code portieren, aber diese Regeln sind hart erarbeitet und müssen erh
    (197 relative Pfade, 64 Nicht-Hash-Cover).
 3. Vergleichstest gegen `md2blossom` (Teststrategie Punkt 5) muss gruen sein — sonst drohen
    nicht zuordenbare 1063-Duplikate.
-4. Erst wenn die Abweichungsliste leer bzw. erklaert ist, die Workflow-YAML umstellen.
-5. `md2blossom.mjs` bleibt bis hierher **unangetastet**. Sein Abbau ist eine eigene, spaetere
+4. Die NIP-23-Inhaltsverstoesse aus der Arbeitsliste beheben (4 Beitraege). Sie sind jetzt
+   FEHLER — unbehoben wuerden diese Beitraege nach der Umstellung nicht mehr aktualisiert.
+5. Erst wenn die Abweichungsliste leer bzw. erklaert ist, die Workflow-YAML umstellen.
+6. `md2blossom.mjs` bleibt bis hierher **unangetastet**. Sein Abbau ist eine eigene, spaetere
    Etappe und an die zwei Bedingungen im Abschnitt *Entscheidung: `md2blossom` friert ein*
    gebunden — insbesondere daran, dass die Bildmigration durch ist oder ihr Handschritt im
    Sync steckt.
@@ -671,9 +886,15 @@ Vorgehen:
 2. Lizenzdaten erfassen — hier hilft das bereits vorhandene `docs/bildlizenzgenerator.html`
    („OER Bildlizenzgenerator – TULLU+B"), das genau die Felder produziert, die der
    `# bilder`-Block braucht (Titel, Urheber, Lizenz, Link, Ursprungsort, Bearbeitung).
-3. Blobs nach Blossom hochladen (`nak blossom upload`), Markdown-Referenzen und
+3. **EXIF strippen, bevor ein Bild auf Blossom landet.** Heute werden Dateien unveraendert
+   hochgeladen — GPS-Koordinaten, Kameraseriennummern und Urheberfelder inklusive, auf einen
+   oeffentlichen Mediaserver. `emacs-nostr-publish` behandelt das als MUST und bricht ab, wenn
+   das Strippen scheitert; fuer ein oeffentlich finanziertes Projekt ist das die richtige
+   Strenge. Achtung: Strippen aendert den Dateiinhalt und damit den SHA-256 — es muss also
+   **vor** der Hash-Bildung passieren, sonst zeigen bestehende Hash-URLs ins Leere.
+4. Blobs nach Blossom hochladen (`nak blossom upload`), Markdown-Referenzen und
    `commonMetadata.image` auf die Hash-URLs umschreiben.
-4. Erst danach publiziert der Sync `x`-Tags und kind:1063 — als normale Änderung, die der
+5. Erst danach publiziert der Sync `x`-Tags und kind:1063 — als normale Änderung, die der
    Idempotenz-Check von selbst erkennt.
 
 **Korrektur (2026-09-14):** Das Werkzeug existiert bereits in **diesem** Repo, samt Tests
@@ -714,10 +935,8 @@ Workflow mdparser loswird, sollte diese Abhaengigkeit mit umziehen.
 # Unit- und Golden-Fixture-Tests
 cd scripts/nostr-sync && .venv/bin/python -m pytest -q
 
-# Integrationstest offline
-nak serve --blossom --port 10547 &
-#   Skript gegen ws://localhost:10547 mit Wegwerf-Key laufen lassen
-nak req -k 30023 -d just-calling-it-open-is-not-enough ws://localhost:10547 | jq
+# Integrationstests (starten den Relay selbst, freier Port, eigener Key je Test)
+cd scripts/nostr-sync && .venv/bin/python -m pytest -q -k integration
 
 # Dry-Run gegen echte Daten, ohne zu publizieren
 #   Skript mit --dry-run --all → erwartet: ausschließlich "unchanged"
