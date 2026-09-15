@@ -1,0 +1,75 @@
+from textwrap import dedent
+
+import pytest
+
+from cli import discover_posts, main
+
+VOLLSTAENDIG = dedent("""\
+    ---
+    # commonMetadata
+    id: https://oer.community/{slug}
+    name: Ein Beitrag
+    description: Eine Zusammenfassung.
+    license: https://creativecommons.org/licenses/by/4.0/
+    creator:
+      - givenName: Gina
+        familyName: Buchwald-Chassée
+    inLanguage:
+      - de
+    datePublished: '2026-08-12'
+    ---
+    Ein Absatz.
+    """)
+
+
+@pytest.fixture
+def content(tmp_path):
+    """Ein kleiner Content-Baum, damit der Test nichts Echtes anfasst."""
+    for slug in ("erster", "zweiter"):
+        ordner = tmp_path / "de" / "posts" / slug
+        ordner.mkdir(parents=True)
+        (ordner / "index.md").write_text(VOLLSTAENDIG.format(slug=slug), encoding="utf-8")
+    (tmp_path / "de" / "posts" / "erster" / "beiwerk.md").write_text("kein Beitrag", encoding="utf-8")
+    return tmp_path
+
+
+def test_discovery_finds_every_index_md_and_nothing_else(content):
+    gefunden = discover_posts(content)
+
+    assert [p.parent.name for p in gefunden] == ["erster", "zweiter"]
+
+
+def test_a_dry_run_needs_no_signer_and_changes_nothing(content, capsys):
+    code = main([
+        "--all", "--dry-run", "--content-root", str(content),
+        "--pubkey", "a" * 64, "--relay", "ws://127.0.0.1:9",
+    ])
+
+    assert code != 0, "ein unerreichbares Relay muss auffallen"
+    assert "Nostr-Sync" in capsys.readouterr().out
+
+
+def test_a_failing_post_makes_the_run_red(content, capsys, monkeypatch):
+    import cli
+
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=True))
+
+    assert main(["--all", "--dry-run", "--content-root", str(content), "--pubkey", "a" * 64]) == 1
+
+
+def test_a_clean_run_is_green(content, capsys, monkeypatch):
+    import cli
+
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=False))
+
+    assert main(["--all", "--dry-run", "--content-root", str(content), "--pubkey", "a" * 64]) == 0
+
+
+def _ergebnis_fabrik(*, fehlschlag: bool):
+    from models import Outcome, PostResult
+
+    def erzeuge(raw, *, path, **kwargs):
+        ausgang = Outcome.FAILED if fehlschlag else Outcome.PUBLISHED
+        return PostResult(path=path, outcome=ausgang, slug="x", reason="Test")
+
+    return erzeuge
