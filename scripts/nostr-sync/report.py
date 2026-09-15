@@ -117,14 +117,40 @@ def _published(published: list[PostResult]) -> list[str]:
         return []
     zeilen = ["### Publiziert", ""]
     for result in published:
-        if result.naddr:
-            zeilen.append(
-                f"- `{result.slug}` — [Habla]({HABLA}{result.naddr}) · "
-                f"[Yakihonne]({YAKIHONNE}{result.naddr}) · `{result.naddr}`"
-            )
-        else:
-            zeilen.append(f"- `{result.slug}`")
-    return zeilen + [""]
+        zeilen.append(f"**`{result.slug}`**" + _links(result))
+        zeilen += _changes(result)
+        zeilen.append("")
+    return zeilen
+
+
+def _links(result: PostResult) -> str:
+    if not result.naddr:
+        return ""
+    return (f" — [Habla]({HABLA}{result.naddr}) · "
+            f"[Yakihonne]({YAKIHONNE}{result.naddr}) · `{result.naddr}`")
+
+
+def _changes(result: PostResult) -> list[str]:
+    """Zeigt, was sich gegenueber dem Relay aendern wuerde.
+
+    Ohne das laesst sich die Cutover-Vorgabe „jede Abweichung einzeln pruefen"
+    nur mit einem eigenen Skript erfuellen — also gar nicht.
+    """
+    if result.existing is None:
+        return ["- neu auf dem Relay (bisher kein Event zu diesem Slug)"]
+    if result.article is None:
+        return []
+
+    neu, bisher = result.article["tags"], result.existing["tags"]
+    zeilen = []
+    for a, b in zip(neu, bisher):
+        if a != b:
+            zeilen.append(f"- `{a[0]}`: neu {a[1:]} · bisher {b[1:]}")
+    if len(neu) != len(bisher):
+        zeilen.append(f"- Tag-Anzahl: neu {len(neu)} · bisher {len(bisher)}")
+    if result.article.get("content") != result.existing.get("content"):
+        zeilen.append("- der Fliesstext hat sich geaendert")
+    return zeilen or ["- nur `created_at` — inhaltlich gleich"]
 
 
 def _skipped(skipped: list[PostResult]) -> list[str]:

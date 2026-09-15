@@ -79,7 +79,7 @@ def publish_post(
     if dry_run:
         return PostResult(
             path=path, outcome=Outcome.PUBLISHED, slug=slug, article=article,
-            reason="dry-run — nichts gesendet",
+            existing=existing, reason="dry-run — nichts gesendet",
         )
 
     acks = sum(send(event=article, relay=relay, signer=signer) for relay in relays)
@@ -90,7 +90,8 @@ def publish_post(
         )
 
     return PostResult(
-        path=path, outcome=Outcome.PUBLISHED, slug=slug, article=article, acks=acks
+        path=path, outcome=Outcome.PUBLISHED, slug=slug, article=article,
+        existing=existing, acks=acks,
     )
 
 

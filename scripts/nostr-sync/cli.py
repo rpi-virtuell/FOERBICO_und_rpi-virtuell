@@ -46,8 +46,15 @@ def main(argv: list[str] | None = None) -> int:
                 file=sys.stderr,
             )
             return 2
-    else:
+    elif args.paths:
         posts = [Path(p) for p in args.paths]
+    else:
+        print(
+            "Kein Auftrag: weder --all noch Pfade angegeben. "
+            "Beispiel: cli.py --all --dry-run",
+            file=sys.stderr,
+        )
+        return 2
 
     pubkey = args.pubkey or os.environ.get("AUTHOR_PUBKEY_HEX", "")
     signer = os.environ.get("BUNKER_URL", "")

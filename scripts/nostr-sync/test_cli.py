@@ -95,3 +95,15 @@ def test_asking_for_all_posts_but_finding_none_is_an_error(tmp_path, capsys):
 
     assert code != 0
     assert "keine" in capsys.readouterr().err.lower()
+
+
+def test_calling_without_any_work_is_a_usage_error(capsys):
+    """Ohne --all und ohne Pfade gibt es keinen Auftrag.
+
+    Dritte Variante derselben Falle: „nichts zu tun" mit Exit 0 sieht aus wie
+    Erfolg. Wer das Werkzeug ohne Argumente ruft, hat sich vertippt.
+    """
+    code = main(["--dry-run", "--pubkey", "a" * 64])
+
+    assert code == 2
+    assert "--all" in capsys.readouterr().err

@@ -83,3 +83,25 @@ def test_a_run_that_published_nothing_despite_candidates_is_called_out():
 
 def test_an_empty_run_says_so_plainly():
     assert "Keine Beitraege" in render_summary([])
+
+
+def test_a_dry_run_shows_which_tags_would_change():
+    """Damit „jede Abweichung einzeln pruefen" mit dem Werkzeug selbst geht."""
+    neu = {"kind": 30023, "tags": [["d", "x"], ["inLanguage", "de"]], "content": "Text"}
+    live = {"kind": 30023, "tags": [["d", "x"], ["inLanguage", "d"]], "content": "Text"}
+
+    text = render_summary([
+        ergebnis(Outcome.PUBLISHED, slug="x", article=neu, existing=live)
+    ])
+
+    assert "inLanguage" in text
+    assert '"de"' in text or "'de'" in text
+    assert "neu" in text.lower() and "bisher" in text.lower()
+
+
+def test_a_post_without_a_live_event_is_named_as_new():
+    neu = {"kind": 30023, "tags": [["d", "x"]], "content": "Text"}
+
+    text = render_summary([ergebnis(Outcome.PUBLISHED, slug="x", article=neu, existing=None)])
+
+    assert "neu" in text.lower()

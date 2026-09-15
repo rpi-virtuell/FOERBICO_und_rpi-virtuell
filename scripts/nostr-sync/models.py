@@ -142,5 +142,8 @@ class PostResult:
     findings: list[Finding] = field(default_factory=list)
     article: dict | None = None
     """Das gebaute kind:30023 — fuer den Vergleich im naechsten Lauf und fuer Tests."""
+    existing: dict | None = None
+    """Das Event, das bisher auf dem Relay lag — damit der Bericht zeigen kann, was
+    sich aendern wuerde. `None` heisst: es gibt den Beitrag dort noch nicht."""
     naddr: str | None = None
     acks: int = 0
