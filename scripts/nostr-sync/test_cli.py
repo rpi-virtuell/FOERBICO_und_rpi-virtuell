@@ -73,3 +73,25 @@ def _ergebnis_fabrik(*, fehlschlag: bool):
         return PostResult(path=path, outcome=ausgang, slug="x", reason="Test")
 
     return erzeuge
+
+
+def test_the_default_content_root_does_not_depend_on_the_working_directory():
+    """Ein relativer Vorgabepfad findet nur aus einem Verzeichnis etwas."""
+    from cli import DEFAULT_CONTENT_ROOT
+
+    assert DEFAULT_CONTENT_ROOT.is_absolute()
+
+
+def test_asking_for_all_posts_but_finding_none_is_an_error(tmp_path, capsys):
+    """Ein gruener Lauf, der nichts getan hat, ist die gefaehrlichste Ausgabe.
+
+    Genau dieser Fall — Dateien erwartet, nichts bearbeitet, Job gruen — ist der
+    Grund fuer diesen Umbau. Er darf im eigenen Werkzeug nicht auftreten.
+    """
+    leer = tmp_path / "leer"
+    leer.mkdir()
+
+    code = main(["--all", "--dry-run", "--content-root", str(leer), "--pubkey", "a" * 64])
+
+    assert code != 0
+    assert "keine" in capsys.readouterr().err.lower()

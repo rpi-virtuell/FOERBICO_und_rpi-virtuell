@@ -22,7 +22,9 @@ from report import render_summary
 
 ARTICLE_RELAYS = ["wss://relay-rpi.edufeed.org/"]
 AMB_RELAY = "wss://amb-relay.edufeed.org/"
-DEFAULT_CONTENT_ROOT = Path("../../Website/content")
+# Relativ zum Skript, nicht zum Arbeitsverzeichnis: Ein relativer Vorgabepfad
+# findet nur aus einem Verzeichnis etwas und laeuft sonst still ins Leere.
+DEFAULT_CONTENT_ROOT = (Path(__file__).resolve().parent / ".." / ".." / "Website" / "content").resolve()
 
 
 def discover_posts(root: Path) -> list[Path]:
@@ -34,7 +36,16 @@ def main(argv: list[str] | None = None) -> int:
     args = _parse_args(argv)
 
     if args.all:
-        posts = discover_posts(Path(args.content_root))
+        wurzel = Path(args.content_root)
+        posts = discover_posts(wurzel)
+        if not posts:
+            print(
+                f"Keine index.md unter {wurzel} gefunden. Mit --all ist das ein Fehler: "
+                "Ein gruener Lauf, der nichts bearbeitet hat, verdeckt genau die "
+                "Stoerung, die er melden soll.",
+                file=sys.stderr,
+            )
+            return 2
     else:
         posts = [Path(p) for p in args.paths]
 
