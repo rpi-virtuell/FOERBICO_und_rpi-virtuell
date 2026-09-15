@@ -107,3 +107,51 @@ def test_calling_without_any_work_is_a_usage_error(capsys):
 
     assert code == 2
     assert "--all" in capsys.readouterr().err
+
+
+def test_show_events_prints_the_built_event_as_json(content, capsys, monkeypatch):
+    """Damit nachsehbar ist, was das Werkzeug tatsaechlich senden wuerde."""
+    import cli
+    from models import Outcome, PostResult
+
+    ereignis = {"kind": 30023, "tags": [["d", "erster"]], "content": "Ein Absatz.\n"}
+    monkeypatch.setattr(
+        cli, "publish_post",
+        lambda raw, *, path, **kw: PostResult(
+            path=path, outcome=Outcome.PUBLISHED, slug="erster", article=ereignis
+        ),
+    )
+
+    main(["--all", "--dry-run", "--show-events", "--content-root", str(content),
+          "--pubkey", "a" * 64])
+
+    ausgabe = capsys.readouterr().out
+    assert '"kind": 30023' in ausgabe
+    assert '"d"' in ausgabe
+
+
+def test_a_log_file_records_every_post_machine_readable(content, tmp_path, monkeypatch):
+    """Das Log-Artefakt der CI: vollstaendig, auch was die Summary kuerzt."""
+    import json
+
+    import cli
+    from models import Finding, Outcome, PostResult, Severity
+
+    befund = Finding(severity=Severity.ERROR, origin="NIP-23", message="HTML im content",
+                     lines=[70], found=["<br>"])
+    monkeypatch.setattr(
+        cli, "publish_post",
+        lambda raw, *, path, **kw: PostResult(
+            path=path, outcome=Outcome.FAILED, slug="x", reason="kaputt", findings=[befund]
+        ),
+    )
+    log = tmp_path / "lauf.json"
+
+    main(["--all", "--dry-run", "--log", str(log), "--content-root", str(content),
+          "--pubkey", "a" * 64])
+
+    eintraege = json.loads(log.read_text(encoding="utf-8"))
+    assert len(eintraege) == 2
+    assert eintraege[0]["outcome"] == "fehlgeschlagen"
+    assert eintraege[0]["findings"][0]["lines"] == [70]
+    assert eintraege[0]["findings"][0]["origin"] == "NIP-23"

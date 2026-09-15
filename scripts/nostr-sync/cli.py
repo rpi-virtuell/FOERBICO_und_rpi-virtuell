@@ -12,6 +12,8 @@ Aufruf:
 """
 
 import argparse
+import dataclasses
+import json
 import os
 import sys
 from pathlib import Path
@@ -79,9 +81,15 @@ def main(argv: list[str] | None = None) -> int:
         for path in posts
     ]
 
+    if args.show_events:
+        _print_events(results)
+
     summary = render_summary(results)
     print(summary)
     _write_step_summary(summary)
+
+    if args.log:
+        _write_log(results, Path(args.log))
 
     return 1 if any(r.outcome is Outcome.FAILED for r in results) else 0
 
@@ -95,7 +103,46 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument("--pubkey", default="", help="sonst aus AUTHOR_PUBKEY_HEX")
     parser.add_argument("--relay", action="append", help="mehrfach angebbar")
     parser.add_argument("--amb-relay", default=AMB_RELAY)
+    parser.add_argument(
+        "--show-events", action="store_true",
+        help="die gebauten Events als JSON ausgeben — zeigt, was gesendet wuerde",
+    )
+    parser.add_argument(
+        "--log", default="",
+        help="Ergebnisse maschinenlesbar in diese JSON-Datei schreiben (CI-Artefakt)",
+    )
     return parser.parse_args(argv)
+
+
+def _print_events(results: list) -> None:
+    """Gibt jedes gebaute Event aus, damit nachsehbar ist, was gesendet wuerde."""
+    for result in results:
+        if result.article is None:
+            continue
+        print(f"─── {result.path} — {result.outcome.value} ───")
+        print(json.dumps(result.article, ensure_ascii=False, indent=2))
+        print()
+
+
+def _write_log(results: list, ziel: Path) -> None:
+    """Das vollstaendige Ergebnis als JSON — auch was die Summary kuerzt.
+
+    Bewusst maschinenlesbar und komplett: Die Summary ist fuer Menschen gemacht
+    und laesst weg, das Log soll hinterher jede Frage beantworten koennen.
+    """
+    ziel.parent.mkdir(parents=True, exist_ok=True)
+    ziel.write_text(
+        json.dumps([_als_dict(r) for r in results], ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def _als_dict(result) -> dict:
+    eintrag = dataclasses.asdict(result)
+    eintrag["outcome"] = result.outcome.value
+    for befund, roh in zip(eintrag["findings"], result.findings):
+        befund["severity"] = roh.severity.value
+    return eintrag
 
 
 def _write_step_summary(summary: str) -> None:
