@@ -12,7 +12,39 @@ fremden Dokumentformats — wer es gegen das AMB-Schema oder eine index.md
 vergleicht, soll dieselben Woerter sehen und nicht uebersetzen muessen.
 """
 
+from dataclasses import dataclass, field
+from enum import Enum
+
 from pydantic import BaseModel, ConfigDict, Field, field_validator
+
+
+class Severity(Enum):
+    """Was ein Befund fuer den Beitrag bedeutet.
+
+    Getrennt nach der **Folge**, nicht nach der Herkunft der Regel — beim Lesen
+    der Job-Summary ist „blockiert es?" die Frage. Woher die Regel stammt, sagt
+    `Finding.origin`.
+    """
+
+    ERROR = "FEHLER"
+    WARNING = "WARNUNG"
+
+
+@dataclass(frozen=True)
+class Finding:
+    """Ein benannter Befund zu einem Beitrag.
+
+    Traegt genug, um ihn ohne Rueckfrage zu beheben: was gefunden wurde, wo,
+    nach welcher Regel und was zu tun ist.
+    """
+
+    severity: Severity
+    origin: str
+    message: str
+    rule: str = ""
+    fix: str = ""
+    lines: list[int] = field(default_factory=list)
+    found: list[str] = field(default_factory=list)
 
 
 class Affiliation(BaseModel):

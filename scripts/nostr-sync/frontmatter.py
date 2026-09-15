@@ -26,6 +26,9 @@ class ParsedPost:
     metadata: dict
     images: dict
     content: str
+    content_line: int
+    """Dateizeile, in der der Fliesstext beginnt — fuer Befunde mit brauchbaren
+    Zeilennummern."""
 
 
 def parse_post(raw: str) -> ParsedPost:
@@ -38,6 +41,7 @@ def parse_post(raw: str) -> ParsedPost:
         metadata=_common_metadata(front),
         images=_images(front),
         content=body,
+        content_line=raw[: match.start(2)].count("\n") + 1,
     )
 
 

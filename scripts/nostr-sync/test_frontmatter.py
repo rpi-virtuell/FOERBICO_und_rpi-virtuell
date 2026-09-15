@@ -158,3 +158,18 @@ def test_empty_file_raises_a_named_error():
 def test_file_without_delimiters_raises_the_same_error():
     with pytest.raises(NoFrontmatter):
         parse_post("Nur Fließtext, keine drei Striche.\n")
+
+
+def test_parsed_post_knows_where_the_body_starts_in_the_file():
+    """Damit Befunde Zeilennummern melden koennen, die im Editor stimmen."""
+    raw = dedent("""\
+        ---
+        # commonMetadata
+        name: Titel
+        ---
+        Erste Textzeile
+        """)
+
+    post = parse_post(raw)
+
+    assert post.content_line == 5
