@@ -17,10 +17,6 @@ creator:
 inLanguage:
   - de
 image: https://oer.community/sind-youtube-videos-oer-faehig/Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-15
 
 # staticSiteGenerator
@@ -41,6 +37,18 @@ tags:
   - Rechtsfragen
   - Open Educational Resources (OER)
   - Video
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Prompt-the-Youtube-Logo-but-not-wit-You-and-Tube-instead-with-Creative-and-Commons.jpg:
+    alt: 'Creative Commons als Youtube-Logo.'
+    title: Creative Commons over Youtube
+    sourceUrl: https://oer.community/sind-youtube-videos-oer-faehig/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!
