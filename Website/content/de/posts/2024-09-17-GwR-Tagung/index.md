@@ -23,7 +23,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-# TODO: Bild "IMG_3850-scaled.jpg" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
 datePublished: 2024-09-17
 
 # staticSiteGenerator
@@ -32,7 +31,7 @@ author:
 title: 'Sichtbarkeit und Netzwerk durch OER stärken: FOERBICO auf der GwR-Tagung in Würzburg zum Thema Öffentlichkeitsarbeit '
 cover:
   relative: true
-  image: IMG_3850-scaled.jpg
+  image: FOERBICO-Workshop-GwR-Tagung-2024.jpg
   hiddenInSingle: true
 summary: Unter dem spannenden Motto „...hier sollte eigentlich ein Titel stehen“ fand die diesjährige GwR-Tagung vom 13. bis 15. September 2024 in Würzburg statt und widmete sich dem Thema „Wissenschaftskommunikation in der Religionspädagogik“. Die Tagung bot eine Vielzahl bereichernder Vorträge, die aktuelle Trends in der Wissenschaftskommunikation, Erfahrungsberichte von universitären Akteur*innen, Aspekte der öffentlichen Theologie sowie wirksame Formen der Wissenschaftskommunikation beleuchteten. Auch Themen wie Internationalisierungsbestrebungen in der wissenschaftlichen Religionspädagogik fanden ihren Platz im Programm.
 url: sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit
@@ -44,6 +43,25 @@ tags:
   - Theologie
   - Öffentlichkeitsarbeit
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  FOERBICO-Workshop-GwR-Tagung-2024.jpg:
+    alt: 'Vorstellung des FOERBICO-Projektes durch die Goethe-Universität Frankfurt a.M. auf GwR-Tagung 2024 in Würzburg.'
+    title: FOERBICO-Workshop bei GwR-Tagung
+    sourceUrl: https://oer.community/sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY NC SA 4.0
+    licenceUrl: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  Vorteile-von-OER-flipchart.jpg:
+    alt: 'Aussagen zu OER-Vorteilen auf einem Flipchart.'
+    title: Aussagen zu OER-Vorteilen
+    sourceUrl: https://oer.community/sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY NC SA 4.0
+    licenceUrl: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 Auch wir, Viera und Laura vom FOERBICO-Team Frankfurt trugen mit einem eigenen Workshop zur Veranstaltung bei. Unser Ziel war es, ein ansprechendes und interaktives 60-minütiges Workshop-Programm zu entwickeln, das sowohl der Zielgruppe der wissenschaftlichen evangelischen Religionspädagogik als auch dem Tagungsmotto der Wissenschaftskommunikation gerecht wird. Im Mittelpunkt stand die Vorstellung unseres Projekts zur Förderung offener Bildungspraktiken in religionsbezogenen Communities. Gleichzeitig legten wir Wert darauf, aktivierende Elemente einzubauen, um einen Austausch zwischen den Teilnehmenden zu ermöglichen. 
