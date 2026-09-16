@@ -49,10 +49,6 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n287
 image: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/cc-by-sa-linzenz-der-sdg-logos.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-08-09
 
 # staticSiteGenerator
