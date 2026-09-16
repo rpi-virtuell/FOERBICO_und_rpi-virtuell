@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Sichtbarkeit und Netzwerk durch OER stärken: FOERBICO auf der GwR-Tagung in Würzburg zum Thema Öffentlichkeitsarbeit '
 description: Unter dem spannenden Motto „...hier sollte eigentlich ein Titel stehen“ fand die diesjährige GwR-Tagung vom 13. bis 15. September 2024 in Würzburg statt und widmete sich dem Thema „Wissenschaftskommunikation in der Religionspädagogik“. Die Tagung bot eine Vielzahl bereichernder Vorträge, die aktuelle Trends in der Wissenschaftskommunikation, Erfahrungsberichte von universitären Akteur*innen, Aspekte der öffentlichen Theologie sowie wirksame Formen der Wissenschaftskommunikation beleuchteten. Auch Themen wie Internationalisierungsbestrebungen in der wissenschaftlichen Religionspädagogik fanden ihren Platz im Programm.
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
