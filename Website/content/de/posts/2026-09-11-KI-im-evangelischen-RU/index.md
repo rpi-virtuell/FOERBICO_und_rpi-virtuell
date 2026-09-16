@@ -45,8 +45,8 @@ author:
 title: 'Künstliche Intelligenz im evangelischen Religionsunterricht: Zwischen Effizienzversprechen, ethischer Urteilsbildung und theologischer Verantwortung'
 cover:
   relative: true
-  image: TODO-titelbild.jpg
-  alt: 'TODO – Alt-Text des Titelbilds'
+  image: KI-im-RU-Klassengespraech-KI-generiert.jpg
+  alt: "Zwei Jugendliche und eine Lehrerin sitzen im Klassenraum um ein Tablet, auf dem ein Chatbot-Dialog zu sehen ist; daneben liegt eine aufgeschlagene Bibel, an der Wand hängt ein Kreuz."
   hiddenInSingle: false
 summary: >-
   Warum ist das zentrale evangelische Kriterium für KI im Religionsunterricht nicht Effizienz, sondern Freiheit und die Fähigkeit zum eigenen Urteil? Olav Richter vom RPI Karlsruhe prüft generative KI auf Bias und Ausschlüsse, bestimmt ethische Urteilsbildung und theologische Deutung als nicht delegierbar, diskutiert die Simulation von Nähe kritisch und skizziert eine KI-Didaktik für tiefere Urteilsprozesse. Wiederveröffentlichung aus den Badischen Pfarrvereinsblättern 7/2026 als OER.
@@ -62,11 +62,19 @@ tags:
   - Community
 # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
-# TODO: Titelbild mit Olav Richter klären (eigenes Motiv, Lizenz, ggf. ai: generated) und Eintrag ergänzen.
-bilder: {}
+bilder:
+  KI-im-RU-Klassengespraech-KI-generiert.jpg:
+    alt: "Zwei Jugendliche und eine Lehrerin sitzen im Klassenraum um ein Tablet, auf dem ein Chatbot-Dialog zu sehen ist; daneben liegt eine aufgeschlagene Bibel, an der Wand hängt ein Kreuz."
+    title: "Urteilsbildung im Gespräch: Chatbot, Bibel und Klassenraum"
+    sourceUrl: https://oer.community/ki-im-evangelischen-religionsunterricht
+    author: Olav Richter mit ChatGPT (OpenAI), 13.09.2026
+    authorUrl: https://www.rpi-baden.de
+    licence: CC0 1.0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    ai: generated
 ---
 
-> **Hinweis zur Wiederveröffentlichung.** Dieser Beitrag von *Olav Richter, Studienleitung Medienpädagogik, RPI Karlsruhe* erschien zuerst in: Badische Pfarrvereinsblätter 7/2026, S. 217–227 (21–31), <https://epv-baden.de/wordpress/?p=1656>. Mit freundlicher Genehmigung des Autors und der Redaktion (Dr. Kunath) veröffentlichen wir ihn hier als Open Educational Resource unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de), damit er über Baden hinaus zugänglich, nachnutzbar und weiterentwickelbar ist.
+> **Hinweis zur Wiederveröffentlichung.** Dieser Beitrag von *Olav Richter, Studienleitung Medienpädagogik, RPI Karlsruhe* erschien zuerst in: Badische Pfarrvereinsblätter 7/2026, S. 217–227 (21–31), <https://epv-baden.de/wordpress/?p=1656>. Mit freundlicher Genehmigung des Autors und der Redaktion veröffentlichen wir ihn hier als Open Educational Resource unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de), damit er über Baden hinaus zugänglich, nachnutzbar und weiterentwickelbar ist.
 
 „Die Schule ist der Ort, an dem die neuen Generationen lernen können, die Wahrheit zu suchen und zu lieben...“[^1] Mit diesem Satz kennzeichnet Leo XIV. in *Magnifica Humanitas* die Aufgabe von Schule im Zeitalter der Künstlichen Intelligenz. Die Enzyklika behandelt KI nicht nur als technisches Hilfsmittel, sondern als Teil eines Epochenwandels, der Lernen, Kommunikation und gesellschaftliche Orientierung verändert. Künstliche Intelligenz gehört für Kinder und Jugendliche zur alltäglichen Lern- und Lebenswelt. Im Bildungsbereich wird sie inzwischen vielfach selbstverständlich genutzt: 74 % verwenden sie für Hausaufgaben oder zum Lernen, 70 % zur Informationssuche und 52 % direkt im Unterricht.[^2] Dadurch verändert sich nicht nur der Zugang zu Wissen, sondern auch die Weise, in der Schülerinnen und Schüler lernen und sich zur Welt verhalten. Der evangelische Religionsunterricht steht damit vor der Aufgabe, religiöse Bildung unter KI-Bedingungen so zu gestalten, dass sie Urteilskraft stärkt, anstatt Denkprozesse auszulagern.
 
