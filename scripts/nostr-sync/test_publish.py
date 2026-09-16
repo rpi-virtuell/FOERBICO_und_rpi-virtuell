@@ -186,3 +186,36 @@ def test_a_post_counts_as_published_only_when_both_events_are_through():
 
     assert ergebnis.outcome is Outcome.FAILED
     assert "30142" in ergebnis.reason or "AMB" in ergebnis.reason
+
+
+def test_image_findings_land_in_the_result_without_changing_the_outcome():
+    """Der Bilder-Schritt blockiert den Artikel nie.
+
+    Git ist die Wahrheit, die Bild-URL steht schon im Beitrag — was am Bild
+    fehlt, wird gemeldet, nicht bestraft.
+    """
+    from models import Finding, Severity
+    from images import ImageResult
+
+    warnung = Finding(severity=Severity.WARNING, origin="FOERBICO-Konvention",
+                      message="kein Eintrag im `# bilder`-Block")
+
+    ergebnis, _ = lauf(sync_images=lambda *a, **kw: ImageResult(findings=[warnung]))
+
+    assert ergebnis.outcome is Outcome.PUBLISHED
+    assert warnung in ergebnis.findings
+
+
+def test_the_image_step_gets_the_folder_of_the_post():
+    """Die Bilddateien liegen neben der index.md."""
+    gesehen = {}
+
+    def merken(references, entries, post_dir, **kwargs):
+        from images import ImageResult
+
+        gesehen["ordner"] = post_dir
+        return ImageResult()
+
+    lauf(sync_images=merken)
+
+    assert gesehen["ordner"].name == "pfad"

@@ -11,17 +11,20 @@ Tut ausdruecklich NICHT: Events bauen, Regeln formulieren, Berichte schreiben.
 """
 
 from dataclasses import dataclass
+from pathlib import Path
 
+import images
 import nak
 from error_checks import check_hard_line_breaks, check_html
 from events import build_amb, build_article, tags_equal
 from frontmatter import NoFrontmatter, parse_post
 from models import CommonMetadata, Outcome, PostResult
 from pydantic import ValidationError
-from references import extract_slug
+from references import extract_slug, image_references
 
 ARTICLE = 30023
 AMB = 30142
+BLOSSOM = "https://blossom.edufeed.org"
 
 
 @dataclass
@@ -43,6 +46,8 @@ def publish_post(
     amb_relay: str,
     fetch=nak.fetch_event,
     send=nak.publish,
+    sync_images=images.sync_images,
+    blossom: str = BLOSSOM,
     min_acks: int = 2,
     dry_run: bool = False,
 ) -> PostResult:
@@ -95,9 +100,15 @@ def publish_post(
                 existing=abgleiche[0][1].existing, reason=f"kind:{kind} — {abgleich.error}",
             )
 
+    bilder = sync_images(
+        image_references(metadata.image, post.content), post.images, Path(path).parent,
+        pubkey=pubkey, signer=signer, relays=relays, blossom=blossom, dry_run=dry_run,
+    )
+
     geaendert = any(a.changed for _, a in abgleiche)
     gemeinsam = dict(
-        path=path, slug=slug, article=article, amb=amb, existing=abgleiche[0][1].existing
+        path=path, slug=slug, article=article, amb=amb,
+        existing=abgleiche[0][1].existing, findings=list(bilder.findings),
     )
     if not geaendert:
         return PostResult(outcome=Outcome.UNCHANGED, **gemeinsam)
