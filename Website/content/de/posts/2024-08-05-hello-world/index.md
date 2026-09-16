@@ -41,7 +41,7 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   FOERBICO-Team.jpg:
-    alt: Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina
+    alt: 'Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina'
     title: Das FOERBICO-Team
     sourceUrl: https://oer.community/hello-world/
     author: FOERBICO
@@ -54,23 +54,23 @@ bilder:
     sourceUrl: https://oer.community/hello-world/
     author: Comenius-Institut
     authorUrl: https://comenius.de/
-    licence: Copyright
+    licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
   Goethe-Universitaet_Frankfurt_Logo.png:
     alt: Logo der Goethe-Universität Frankfurt am Main
     title: Logo Goethe-Universität
     sourceUrl: https://oer.community/hello-world/
-    author: Goethe-Universität Frankfurt a.M. 
+    author: Goethe-Universität Frankfurt a.M.
     authorUrl: https://www.uni-frankfurt.de/de
-    licence: Copyright
+    licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
   Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png:
-    alt: Logo der Friedrich-Alexander-Üniversität Erlangen-Nürnberg
-    title: Logo Friedrich-Alexander-Üniversität Erlangen-Nürnberg
+    alt: Logo der Friedrich-Alexander-Universität Erlangen-Nürnberg
+    title: Logo Friedrich-Alexander-Universität Erlangen-Nürnberg
     sourceUrl: https://oer.community/hello-world/
-    author: Friedrich-Alexander-Üniversität Erlangen-Nürnberg
+    author: Friedrich-Alexander-Universität Erlangen-Nürnberg
     authorUrl: https://www.fau.de/
-    licence: Copyright
+    licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
