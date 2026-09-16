@@ -74,6 +74,33 @@ tags:
   - Creative Commons
   - Lizenzen
   - Rechtsfragen
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  cc-by-sa-linzenz-der-sdg-logos.jpg:
+    alt: 'Screenshot von der Webseite der Deutschen UNESCO-Kommission zur Verwendung der SDG-Logos in Bildungskontexten abgerufen am 2. August 2024'
+    title: Screenshot der SDG-Logos von der Webseite der Deutschen UNESCO-Kommission
+    sourceUrl: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/
+    author: Deutsche UNESCO-Kommission
+    authorUrl: https://www.unesco.de/
+    licence: CC BY SA 3.0
+    licenceUrl: https://creativecommons.org/licenses/by-sa/3.0/de/deed.de
+  uno-urheberrecht-grundprinzipien.png:
+    alt: 'Auszug der grundlegenden Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht.'
+    title: Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht
+    sourceUrl: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  SDG-inklusion-OER-Video_Vorschau.png:
+    alt: 'Vorschaubild zum Video "Trilemma der Inklusion...weitergedacht als Experiment inklusiver Bildung in Richtung SDG (Sustainable Development Goals) und OER (Open Educational Resources)"'
+    title: Video "Trilemma der Inklusion...weitergedacht als Experiment inklusiver Bildung in Richtung SDG (Sustainable Development Goals) und OER (Open Educational Resources)"
+    sourceUrl: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/content-license-agreement/
 ---
 
 Im Kontext des Projektes [reliGlobal](https://religlobal.org/) kam bei der Erstellung eines OER-Materials zu den 17 [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) als Ziele für nachhaltige Entwicklung die Frage auf, ob die Logos der einzelnen Ziele im Material verwendet werden dürfen oder welche Rechteangabe gemacht werden muss?
