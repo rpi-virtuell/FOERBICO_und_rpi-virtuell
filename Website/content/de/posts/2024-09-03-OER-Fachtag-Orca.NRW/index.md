@@ -19,10 +19,6 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-03
 
 # staticSiteGenerator
