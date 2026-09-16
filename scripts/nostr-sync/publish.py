@@ -10,15 +10,27 @@ Framework, keine Interfaces, nur Argumente. Voreingestellt sind die echten
 Tut ausdruecklich NICHT: Events bauen, Regeln formulieren, Berichte schreiben.
 """
 
+from dataclasses import dataclass
+
 import nak
 from error_checks import check_hard_line_breaks, check_html
-from events import build_article, tags_equal
+from events import build_amb, build_article, tags_equal
 from frontmatter import NoFrontmatter, parse_post
 from models import CommonMetadata, Outcome, PostResult
 from pydantic import ValidationError
 from references import extract_slug
 
 ARTICLE = 30023
+AMB = 30142
+
+
+@dataclass
+class _Abgleich:
+    """Ergebnis fuer ein einzelnes Event: lag es schon so da, und ging es raus?"""
+
+    existing: dict | None = None
+    changed: bool = False
+    error: str = ""
 
 
 def publish_post(
@@ -64,35 +76,65 @@ def publish_post(
         )
 
     article = build_article(metadata, post.content, pubkey, amb_relay)
+    amb = build_amb(metadata, pubkey, relays[0]) if metadata.type == "LearningResource" else None
 
-    try:
-        existing = fetch(kind=ARTICLE, pubkey=pubkey, relay=relays[0], identifier=slug)
-    except nak.NakFailed as nicht_erreichbar:
-        return PostResult(
-            path=path, outcome=Outcome.FAILED, slug=slug, article=article,
-            reason=f"Relay nicht abfragbar: {nicht_erreichbar}",
+    ziele = [(article, ARTICLE, relays)]
+    if amb is not None:
+        ziele.append((amb, AMB, [amb_relay]))
+
+    abgleiche = []
+    for event, kind, event_relays in ziele:
+        abgleich = _sync_event(
+            event, kind=kind, pubkey=pubkey, slug=slug, relays=event_relays,
+            signer=signer, fetch=fetch, send=send, min_acks=min_acks, dry_run=dry_run,
         )
+        abgleiche.append((kind, abgleich))
+        if abgleich.error:
+            return PostResult(
+                path=path, outcome=Outcome.FAILED, slug=slug, article=article, amb=amb,
+                existing=abgleiche[0][1].existing, reason=f"kind:{kind} — {abgleich.error}",
+            )
 
-    if existing is not None and tags_equal(article, existing):
-        return PostResult(path=path, outcome=Outcome.UNCHANGED, slug=slug, article=article)
+    geaendert = any(a.changed for _, a in abgleiche)
+    gemeinsam = dict(
+        path=path, slug=slug, article=article, amb=amb, existing=abgleiche[0][1].existing
+    )
+    if not geaendert:
+        return PostResult(outcome=Outcome.UNCHANGED, **gemeinsam)
+    return PostResult(
+        outcome=Outcome.PUBLISHED,
+        reason="dry-run — nichts gesendet" if dry_run else "",
+        **gemeinsam,
+    )
+
+
+def _sync_event(
+    event: dict, *, kind: int, pubkey: str, slug: str, relays: list[str],
+    signer: str, fetch, send, min_acks: int, dry_run: bool,
+) -> _Abgleich:
+    """Holt den Relay-Stand, vergleicht und sendet nur bei Abweichung.
+
+    Das Relay entscheidet, nicht die Git-Historie — deshalb ist ein nicht
+    abfragbares Relay ein Fehler und kein „dann eben neu publizieren".
+    """
+    try:
+        existing = fetch(kind=kind, pubkey=pubkey, relay=relays[0], identifier=slug)
+    except nak.NakFailed as nicht_erreichbar:
+        return _Abgleich(error=f"Relay nicht abfragbar: {nicht_erreichbar}")
+
+    if existing is not None and tags_equal(event, existing):
+        return _Abgleich(existing=existing, changed=False)
 
     if dry_run:
-        return PostResult(
-            path=path, outcome=Outcome.PUBLISHED, slug=slug, article=article,
-            existing=existing, reason="dry-run — nichts gesendet",
-        )
+        return _Abgleich(existing=existing, changed=True)
 
-    acks = sum(send(event=article, relay=relay, signer=signer) for relay in relays)
-    if acks < min_acks:
-        return PostResult(
-            path=path, outcome=Outcome.FAILED, slug=slug, article=article, acks=acks,
-            reason=f"nur {acks} von {min_acks} noetigen Bestaetigungen",
+    acks = sum(send(event=event, relay=relay, signer=signer) for relay in relays)
+    if acks < min(min_acks, len(relays)):
+        return _Abgleich(
+            existing=existing,
+            error=f"nur {acks} von {min(min_acks, len(relays))} noetigen Bestaetigungen",
         )
-
-    return PostResult(
-        path=path, outcome=Outcome.PUBLISHED, slug=slug, article=article,
-        existing=existing, acks=acks,
-    )
+    return _Abgleich(existing=existing, changed=True)
 
 
 def _missing_fields(error: ValidationError) -> str:

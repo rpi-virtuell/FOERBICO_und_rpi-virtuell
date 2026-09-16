@@ -26,11 +26,16 @@ VOLLSTAENDIG = dedent("""\
     """)
 
 
-def lauf(raw=VOLLSTAENDIG, *, vorhanden=None, acks=2, **kwargs):
-    """Fuehrt publish_post mit erfundener Aussenwelt aus."""
+def lauf(raw=VOLLSTAENDIG, *, vorhanden=None, acks=99, **kwargs):
+    """Fuehrt publish_post mit erfundener Aussenwelt aus.
+
+    `vorhanden` ist entweder ein Event (fuer jede Abfrage) oder ein Dict je Kind.
+    """
     gesendet = []
 
     def fetch(kind, pubkey, relay, identifier=None, image_hash=None):
+        if isinstance(vorhanden, dict) and "kind" not in vorhanden:
+            return vorhanden.get(kind)
         return vorhanden
 
     def send(event, relay, signer):
@@ -121,3 +126,63 @@ def test_a_dry_run_decides_but_sends_nothing():
 
     assert ergebnis.outcome is Outcome.PUBLISHED
     assert gesendet == []
+
+
+def test_a_learning_resource_also_publishes_its_amb_event():
+    lernressource = VOLLSTAENDIG.replace(
+        "# commonMetadata\n", "# commonMetadata\ntype: LearningResource\n"
+    )
+
+    ergebnis, gesendet = lauf(lernressource)
+
+    kinds = [e["kind"] for e, _ in gesendet]
+    assert 30023 in kinds and 30142 in kinds
+    assert ergebnis.amb is not None
+
+
+def test_the_amb_event_goes_to_its_own_relay():
+    lernressource = VOLLSTAENDIG.replace(
+        "# commonMetadata\n", "# commonMetadata\ntype: LearningResource\n"
+    )
+
+    _, gesendet = lauf(lernressource)
+
+    ziel = {e["kind"]: relay for e, relay in gesendet}
+    assert ziel[30142] == AMB_RELAY
+    assert ziel[30023] in RELAYS
+
+
+def test_without_learning_resource_no_amb_event_is_built():
+    ergebnis, gesendet = lauf()
+
+    assert ergebnis.amb is None
+    assert [e["kind"] for e, _ in gesendet] == [30023] * len(RELAYS)
+
+
+def test_an_unchanged_amb_event_is_not_republished():
+    lernressource = VOLLSTAENDIG.replace(
+        "# commonMetadata\n", "# commonMetadata\ntype: LearningResource\n"
+    )
+    erster, _ = lauf(lernressource)
+
+    ergebnis, gesendet = lauf(lernressource, vorhanden={30023: erster.article, 30142: erster.amb})
+
+    assert ergebnis.outcome is Outcome.UNCHANGED
+    assert gesendet == []
+
+
+def test_a_post_counts_as_published_only_when_both_events_are_through():
+    """Halb publiziert ist nicht publiziert.
+
+    Geht der Artikel durch und das AMB-Event nicht, faellt der Beitrag durch.
+    Der naechste Lauf sieht den Artikel als unveraendert und holt das AMB-Event
+    nach — die Strecke heilt sich selbst.
+    """
+    lernressource = VOLLSTAENDIG.replace(
+        "# commonMetadata\n", "# commonMetadata\ntype: LearningResource\n"
+    )
+
+    ergebnis, _ = lauf(lernressource, acks=len(RELAYS), min_acks=1)
+
+    assert ergebnis.outcome is Outcome.FAILED
+    assert "30142" in ergebnis.reason or "AMB" in ergebnis.reason
