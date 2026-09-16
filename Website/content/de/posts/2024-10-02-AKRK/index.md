@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Welche Impulse setzt OER für die Religionsdidaktik? Ein Einblick in die AKRK-Tagung in Leitershofen von 19.-21.9.2024
 description: Vom 19. bis 21. September traf sich die AKRK (Arbeitsgemeinschaft Katholische Religionspädagogik und Katechese) zu ihrer Jahrestagung in Leitershofen bei Augsburg – ein Event, das auch für FOERBICO von besonderem Interesse war. Unter dem übergreifenden Thema „Religionsdidaktik in ihren Spannungsfeldern“ ergaben sich anregende Anknüpfungspunkte, z.B. wie verändern Open Educational Resources die Religionsdidaktik? Wie können KI-generierte OER in der Religionspädagogik eingesetzt werden und was gilt es dabei zu beachten? Welche Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem Blogbeitrag lesen!
 license: https://creativecommons.org/licenses/by/4.0/
@@ -47,6 +46,41 @@ tags:
   - KI
   - Open Educational Resources (OER)
   - Religionspädagogik
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  AKRK-Tagung_laura-und-viera.jpg:
+    alt: 'Laura und Viera von der Goethe-Universität Frankfurt a.M. auf der AKRK-Tagung 2024 in Leitershofen.'
+    title: Laura und Viera bei der AKRK-Tagung
+    sourceUrl: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  AKRK-Tagung_OER-OEP-workshop.jpg:
+    alt: 'Viera von der Goethe-Universität Frankfurt a.M. mit Tablet in der Hand zum FOERBICO-Workshop zu OER und OEP auf der AKRK-Tagung 2024 in Leitershofen.'
+    title: FOERBICO-Workshop zu OER und OEP auf der AKRK-Tagung
+    sourceUrl: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  AKRK-Tagung_OER-und-ihre-didaktik.jpg:
+    alt: 'Ergebnisse der Gruppenarbeit zu OER/OEP und ihre Didaktik'
+    title: Ergebnisse zu OER/OEP und ihre Didaktik
+    sourceUrl: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  AKRK-Tagung_Vortrag.jpg:
+    alt: 'Vortrag von Viera der Goethe-Universität Frankfurt a.M. mit Einblicken zu OER und OEP'
+    title: Vortrag zu OER und OEP
+    sourceUrl: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Religionsdidaktik im Verhältnis
