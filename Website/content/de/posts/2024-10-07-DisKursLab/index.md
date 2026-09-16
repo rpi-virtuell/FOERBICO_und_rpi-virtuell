@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'OER zum Thema Antisemitismus: Gemeinsam Bildungsmaterialien gestalten'
 description: Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
 license: https://creativecommons.org/licenses/by/4.0/
@@ -21,8 +20,6 @@ image: https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmate
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-10-08
 
 # staticSiteGenerator
@@ -41,6 +38,17 @@ tags:
   - Community
   - Open Educational Resources (OER)
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  videokonferenz_diskurslab-rpi-foerbico.jpg:
+    alt: 'Screenshot von der Videokonferenz mit den Teams von FOERBICO und vom DiskursLab/narrt zum Thema offene Bildungsmaterialien zu Antisemitismus.'
+    title: Austausch zum Thema offene Bildungsmaterialien zu Antisemitismus 
+    sourceUrl: https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Die Gesellschaft verändert sich. Die Bildungslandschaft muss auf die Veränderungen reagieren und immer mehr Schulen, Lehrkräfte und Pädagog:innen entdecken die Potenziale der Zusammenarbeit bei herausfordernden Themen mit Expert*innen. Das [DisKursLab](https://diskurslab.eaberlin.de/) hat sich als Modellprojekt der [Evangelischen Akademie zu Berlin](https://www.eaberlin.de/) in Zusammenarbeit mit der [Evangelischen Kirche Berlin-Brandenburg-schlesische Oberlausitz (EKBO)](https://www.ekbo.de/) intensiv mit dem Thema Antisemitismus auseinandergesetzt und Materialien entwickelt, die dieses komplexe gesellschaftliche Thema aufgreifen. Es versteht den digitalen Wandel nicht nur als technische, sondern vor allem als soziale Herausforderung und stellt nicht nur OER-Ressourcen zur Verfügung stellt, sondern nutzt die digitale Welt als Chance für Bildungsformate. Mit innovativen Bildungsformaten, insbesondere im Bereich Theologie und Religionspädagogik, verknüpft das Projekt Themen wie Diskriminierungssensibilität, Digitalität und Demokratisierung. Seit 2020 werden dabei auch frei verfügbare Lehr- und Lernmaterialien entwickelt, wie der  "[Christliche Meme Generator](https://diskurslab.eaberlin.de/hopespeech-workshop/mememe-editor/)" oder der digitale "[VerLernKurs](https://diskurslab.eaberlin.de/verlernkurs/)". 
