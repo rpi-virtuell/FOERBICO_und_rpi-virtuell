@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: '#OER erklärt an der Rhabarberbar'
 description: 'Jörg und Corinna erklären euch an der "Rhabarberbar", was sich hinter dem Akronym OER verbirgt und nehmen euch mit in die Welt der Open Educational Resources (OER). Wir wollen euch zeigen, dass OER und offene Bildungspraktiken Spaß machen können und laden euch ein, die Vorteile von freien Lehr- und Lernmaterialien zu entdecken und anzuwenden. '
 license: https://creativecommons.org/licenses/by/4.0/
