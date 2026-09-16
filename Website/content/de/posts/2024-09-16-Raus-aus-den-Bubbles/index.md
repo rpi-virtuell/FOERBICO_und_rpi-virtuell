@@ -17,11 +17,6 @@ creator:
 inLanguage:
   - de
 image: https://oer.community/raus-aus-den-bubbles/raus-aus-den-bubbles_vorschau.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-16
 
 # staticSiteGenerator
