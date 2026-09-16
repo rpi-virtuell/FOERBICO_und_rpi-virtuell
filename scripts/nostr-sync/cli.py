@@ -94,15 +94,24 @@ def main(argv: list[str] | None = None) -> int:
     return 1 if any(r.outcome is Outcome.FAILED for r in results) else 0
 
 
-def _parse_args(argv: list[str] | None) -> argparse.Namespace:
+def build_parser() -> argparse.ArgumentParser:
+    """Die Kommandozeile an einer Stelle — auch fuer Tests und `--help`."""
     parser = argparse.ArgumentParser(description="Publiziert Markdown-Beitraege nach Nostr.")
     parser.add_argument("paths", nargs="*", help="einzelne index.md-Dateien")
     parser.add_argument("--all", action="store_true", help="alle Beitraege unter --content-root")
     parser.add_argument("--dry-run", action="store_true", help="entscheiden, aber nichts senden")
-    parser.add_argument("--content-root", default=str(DEFAULT_CONTENT_ROOT))
+    parser.add_argument(
+        "--content-root", default=str(DEFAULT_CONTENT_ROOT),
+        help="Wurzel der Beitraege fuer --all (Vorgabe: Website/content im Repo)",
+    )
     parser.add_argument("--pubkey", default="", help="sonst aus AUTHOR_PUBKEY_HEX")
-    parser.add_argument("--relay", action="append", help="mehrfach angebbar")
-    parser.add_argument("--amb-relay", default=AMB_RELAY)
+    parser.add_argument(
+        "--relay", action="append",
+        help="Relay fuer kind:30023, mehrfach angebbar (Vorgabe: relay-rpi.edufeed.org)",
+    )
+    parser.add_argument(
+        "--amb-relay", default=AMB_RELAY, help="Relay fuer die AMB-Metadaten (kind:30142)",
+    )
     parser.add_argument(
         "--show-events", action="store_true",
         help="die gebauten Events als JSON ausgeben — zeigt, was gesendet wuerde",
@@ -111,7 +120,11 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
         "--log", default="",
         help="Ergebnisse maschinenlesbar in diese JSON-Datei schreiben (CI-Artefakt)",
     )
-    return parser.parse_args(argv)
+    return parser
+
+
+def _parse_args(argv: list[str] | None) -> argparse.Namespace:
+    return build_parser().parse_args(argv)
 
 
 def _print_events(results: list) -> None:

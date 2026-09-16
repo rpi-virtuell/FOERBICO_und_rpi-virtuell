@@ -73,14 +73,72 @@ auf einem freien Port, jeder Test signiert mit einem eigenen Wegwerf-Schlüssel.
 Der Vergleichstest gegen `md2blossom` braucht zusätzlich `node`; ohne `node` wird er lokal
 übersprungen (`-m "not md2blossom"` schließt ihn auch bewusst aus). In der CI ist er Pflicht.
 
-## Dry-Run gegen die echten Inhalte
+## Aufrufen
 
 ```bash
-.venv/bin/python cli.py --dry-run --all
+scripts/nostr-sync/.venv/bin/python scripts/nostr-sync/cli.py [Optionen] [Pfade…]
 ```
 
-Baut alle Events und vergleicht sie mit dem Live-Zustand der Relays, ohne etwas zu
-publizieren oder zu signieren.
+Das Arbeitsverzeichnis ist egal. Entweder `--all` **oder** einzelne `index.md`-Pfade angeben —
+ohne beides gibt es keinen Auftrag und der Aufruf endet mit Exit 2.
+
+### Optionen
+
+| Option | Bedeutung |
+|---|---|
+| `--all` | alle Beiträge unter `--content-root` |
+| `--dry-run` | entscheiden und berichten, aber **nichts senden**. Braucht keinen Signer |
+| `--show-events` | die gebauten Events als JSON ausgeben — zeigt, was gesendet würde |
+| `--log DATEI` | vollständiges Ergebnis maschinenlesbar als JSON (das CI-Artefakt) |
+| `--content-root PFAD` | Wurzel der Beiträge für `--all`. Vorgabe: `Website/content` im Repo |
+| `--pubkey HEX` | unser Pubkey. Sonst aus `AUTHOR_PUBKEY_HEX` |
+| `--relay URL` | Relay für kind:30023, mehrfach angebbar. Vorgabe: `relay-rpi.edufeed.org` |
+| `--amb-relay URL` | Relay für die AMB-Metadaten (kind:30142) |
+| `--help` | alle Optionen mit Hilfetext |
+
+### Umgebungsvariablen
+
+| Variable | Wofür | Pflicht |
+|---|---|---|
+| `AUTHOR_PUBKEY_HEX` | unser Pubkey; ohne ihn ist der Idempotenz-Check blind | immer (oder `--pubkey`) |
+| `BUNKER_URL` | NIP-46-Signer | nur ohne `--dry-run` |
+| `GITHUB_STEP_SUMMARY` | setzt die CI; dorthin geht die Zusammenfassung zusätzlich | nein |
+
+### Exit-Codes
+
+| Code | Bedeutung |
+|---|---|
+| 0 | alle Beiträge publiziert, unverändert oder erklärt übersprungen |
+| 1 | mindestens ein Beitrag blockiert (Spezifikationsverletzung, zu wenige Bestätigungen, Relay nicht abfragbar) |
+| 2 | Bedienung oder Konfiguration: kein Auftrag, `--all` ohne Fundstellen, fehlender Pubkey oder Signer |
+
+`--all` ohne gefundene Beiträge ist mit Absicht ein Fehler und kein stiller Erfolg: Ein grüner
+Lauf, der nichts bearbeitet hat, verdeckt genau die Störung, die er melden soll.
+
+## Typische Aufrufe
+
+```bash
+export AUTHOR_PUBKEY_HEX=5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf
+
+# Alles ansehen, nichts senden
+… cli.py --all --dry-run
+
+# Einen Beitrag ansehen, mit dem Event im Klartext
+… cli.py --dry-run --show-events Website/content/de/posts/<ordner>/index.md
+
+# Mit vollständigem Protokoll zum Nachlesen
+… cli.py --all --dry-run --log /tmp/nostr-lauf.json
+```
+
+Zum gefahrlosen Ausprobieren: eine Kopie nach `/tmp` legen und dort ändern. Der `d`-Tag kommt
+aus `commonMetadata.id`, nicht aus dem Ordnernamen — die Kopie wird also gegen dasselbe
+Live-Event verglichen wie das Original.
+
+```bash
+cp -r Website/content/de/posts/<ordner> /tmp/probe
+# in /tmp/probe/index.md etwas ändern
+… cli.py --dry-run /tmp/probe/index.md
+```
 
 ## Secrets des Workflows
 

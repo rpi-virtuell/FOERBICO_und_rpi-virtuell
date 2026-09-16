@@ -155,3 +155,16 @@ def test_a_log_file_records_every_post_machine_readable(content, tmp_path, monke
     assert eintraege[0]["outcome"] == "fehlgeschlagen"
     assert eintraege[0]["findings"][0]["lines"] == [70]
     assert eintraege[0]["findings"][0]["origin"] == "NIP-23"
+
+
+def test_every_option_explains_itself_in_the_help():
+    """`--help` ist die Dokumentation, die immer mitkommt — ohne Luecken."""
+    from cli import build_parser
+
+    ohne_hilfe = [
+        aktion.option_strings
+        for aktion in build_parser()._actions
+        if not aktion.help and aktion.option_strings
+    ]
+
+    assert ohne_hilfe == [], f"Optionen ohne Hilfetext: {ohne_hilfe}"
