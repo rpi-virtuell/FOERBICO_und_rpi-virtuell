@@ -17,11 +17,6 @@ creator:
       type: Organization
 inLanguage:
   - de
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
-# TODO: Bild "accb7c731fbf765f.jpg" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
 datePublished: 2024-09-06
 
 # staticSiteGenerator
@@ -30,7 +25,7 @@ author:
 title: 'Recap: OERcamp im März 2024 in Hamburg'
 cover:
   relative: true
-  image: accb7c731fbf765f.jpg
+  image: foerbico-projektvorstellung-vorschau.png
   hiddenInSingle: true
 summary: Das OERcamp ist seit 2012 das Treffen der deutschsprachigen Community rund um Open Educational Resources (OER) und digitale, offene, zeitgemäße Bildung. Bei OERcamps arbeiten und lernen unterschiedliche Akteure voneinander und miteinander, bewusst über die Grenzen der Bildungsbereiche und Fächer hinaus. Das letzte OERcamp fand vom 6. bis 8. März 2024 in Hamburg statt. Jörg Lohrer aus dem FOERBICO-Team war mit dabei und schildert im Blogbeitrag seine Eindrücke.
 url: recap-oercamp-im-maerz-2024-in-hamburg
