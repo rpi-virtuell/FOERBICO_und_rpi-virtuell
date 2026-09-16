@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: OER-Fachtag 2024 von ORCA.nrw
 description: Der OER-Fachtag 2024 am 29. August 2024 von ORCA.nrw diente als Treffpunkt für OER-Interessierte aus dem Hochschulbereich, um sich über Open Educational Resources (OER) auszutauschen. Etwa 100 Personen nahmen teil, darunter auch das FOERBICO-Team. Präsentationen und eine detaillierte Dokumentation werden bald veröffentlicht. Einen Rückblick zum Fachtag gibt es im Blog von oer.community.
 license: https://creativecommons.org/licenses/by/4.0/
