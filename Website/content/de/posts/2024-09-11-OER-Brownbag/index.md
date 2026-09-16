@@ -7,11 +7,6 @@ id: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-o
 inLanguage:
   - de
 image: https://oer.community/oer-brownbag-monatlicher-call-der-projekte-unter-der-oer-strategie-oe_com/OER-Brownbag.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-11
 
 # staticSiteGenerator
