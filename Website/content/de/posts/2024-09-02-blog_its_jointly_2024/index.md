@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: It's Jointly 2024 Rückblick
 description: Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom 19.08.-21.08.2024 teil.
-license: https://creativecommons.org/publicdomain/zero/1.0/
+license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024
 creator:
   - givenName: Phillip
@@ -19,10 +19,6 @@ creator:
 inLanguage:
   - de
 image: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/phillip-und-ludger.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-02
 
 # staticSiteGenerator
@@ -42,6 +38,33 @@ tags:
   - Open Educational Resources (OER)
   - Vernetzung
   - Sommercamp
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  phillip-und-ludger.jpg:
+    alt: 'Foto von Phillip und Ludger vom FOERBICO-Team beim OER-/IT-Sommercamp "It´s jointly" 2024 in Weimar.'
+    title: Ludger und Phillip beim It´s jointly OER-/IT-Sommercamp 2024
+    sourceUrl: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  brainstorming.jpg:
+    alt: 'Ideensammlung auf Karten und Papier beim It´s jointly OER-/IT-Sommercamp 2024 in Weimar'
+    title: Brainstorming beim it´s jointly OER-/IT-Sommercamp 2024 in Weimar
+    sourceUrl: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  empoert.jpg:
+    alt: 'Phillip vom FOERBICO-Team hält einen Zettel in der Hand mit der Aufschrift "empOERt".'
+    title: Phillip ist empOERt
+    sourceUrl: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ![Viele gute Ideen wurden gesammelt](brainstorming.jpg)
