@@ -16,11 +16,6 @@ creator:
 inLanguage:
   - de
 image: https://oer.community/hello-world/FOERBICO-Team.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-08-05
 
 # staticSiteGenerator
@@ -42,6 +37,41 @@ tags:
   - Open Educational Practices (OEP)
   - Qualitätskriterien
   - Religionspädagogik
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  FOERBICO-Team.jpg:
+    alt: Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina
+    title: Das FOERBICO-Team
+    sourceUrl: https://oer.community/hello-world/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  comenius-institut-logo.png:
+    alt: Logo des Comenius-Institutes - Evangelische Arbeitsstätte für Erziehungswissenschaft e.V. Münster
+    title: Logo Comenius-Institut
+    sourceUrl: https://oer.community/hello-world/
+    author: Comenius-Institut
+    authorUrl: https://comenius.de/
+    licence: Copyright
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Goethe-Universitaet_Frankfurt_Logo.png:
+    alt: Logo der Goethe-Universität Frankfurt am Main
+    title: Logo Goethe-Universität
+    sourceUrl: https://oer.community/hello-world/
+    author: Goethe-Universität Frankfurt a.M. 
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: Copyright
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png:
+    alt: Logo der Friedrich-Alexander-Üniversität Erlangen-Nürnberg
+    title: Logo Friedrich-Alexander-Üniversität Erlangen-Nürnberg
+    sourceUrl: https://oer.community/hello-world/
+    author: Friedrich-Alexander-Üniversität Erlangen-Nürnberg
+    authorUrl: https://www.fau.de/
+    licence: Copyright
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋
