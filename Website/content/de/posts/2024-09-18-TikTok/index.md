@@ -46,11 +46,6 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
 image: https://oer.community/theologie-auf-tiktok-religioese-kommunikation-im-digitalen-raum/kemnitzer-tiktok.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-18
 keywords:
   - TikTok
