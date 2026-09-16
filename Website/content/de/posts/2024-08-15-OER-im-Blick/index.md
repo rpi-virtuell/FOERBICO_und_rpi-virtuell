@@ -17,11 +17,6 @@ creator:
 inLanguage:
   - de
 image: https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/OER-im-Blick.jpg
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-08-15
 
 # staticSiteGenerator
@@ -39,6 +34,33 @@ tags:
   - Event
   - OER-Strategie
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  OER-im-Blick.jpg:
+    alt: 'Jörg und Corinna vor Banner der Auftaktkonferenz "OER im Blick"'
+    title: Auftaktkonferenz "OER im Blick"
+    sourceUrl: https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  OER-im-Blick-1.jpg:
+    alt: 'Teamfoto mit den Partnern der FAU Erlangen-Nürnberg, der Goethe-Universität Frankfurt a.M. und dem Comenius-Institut auf der Auftaktkonferenz "OER im Blick" sitzend.'
+    title: Teamfoto sitzend
+    sourceUrl: https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  OER-im-Blick-2.jpg:
+    alt: 'Teamfoto mit den Partnern der FAU Erlangen-Nürnberg, der Goethe-Universität Frankfurt a.M. und dem Comenius-Institut auf der Auftaktkonferenz "OER im Blick" im Porträt.'
+    title: Teamfoto im Porträt
+    sourceUrl: https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ![](OER-im-Blick-2.jpg)
