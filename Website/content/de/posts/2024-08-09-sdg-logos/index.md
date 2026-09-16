@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'SDG-Logos und #OER: Wie darf ich sie verwenden?'
 description: Dieser Beitrag untersucht, wie man die SDG-Logos kreativ in OER einbinden kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren Nutzung der Symbole zur Förderung globaler Bildung.
 license: https://creativecommons.org/licenses/by-sa/4.0/
