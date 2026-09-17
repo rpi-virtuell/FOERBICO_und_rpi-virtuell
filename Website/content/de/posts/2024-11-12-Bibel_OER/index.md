@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Ist die Bibel eigentlich Open?
 description: Laura und Philipp vom FOERBICO Team gehen der Frage nach, ob das meist verkaufte Buch der Welt, die Bibel, eigentlich für Open Educational Resourses anwendbar ist.
 license: https://creativecommons.org/licenses/by/4.0/
