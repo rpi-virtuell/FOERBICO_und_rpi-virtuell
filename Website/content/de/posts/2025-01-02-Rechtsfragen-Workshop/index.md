@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'OER-Rechtsfragen: Kostenloses Workshop-Angebot von twillo'
 description: In einer zunehmend digitalen Bildungslandschaft stehen Pädagog:innen, Bildungsmultiplikator:innen und OER-Interessierte vor einer Reihe komplexer rechtlicher Herausforderungen. Dazu bietet twillo als Portal für OER in der Hochschullehre regelmäßig Workshops zu Rechtsfragen für Open Educational Resources an, um wichtige rechtliche Grundlagen und aktuelle Entwicklungen im Umgang mit OER zu diskutieren!
 license: https://creativecommons.org/licenses/by/4.0/
