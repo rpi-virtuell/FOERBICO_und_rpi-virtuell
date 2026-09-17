@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: OEP ist nunmal eine Praxis
 description: Im Dezember 2024 war Phillip Angelina aus dem FOERBICO Team zu Besuch bei der OER-Werkstatt von digiLL in Bochum.
 license: https://creativecommons.org/licenses/by/4.0/
