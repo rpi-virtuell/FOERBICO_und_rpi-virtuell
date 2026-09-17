@@ -1,0 +1,191 @@
+{
+  "kind": 31923,
+  "content": "Die digitale Lernplattform Arolsen School vermittelt die Ereignisgeschichte des Nationalsozialismus auf zeitgemäße, spannende Weise und setzt zugleich Impulse für eine aktive Erinnerungskultur.\n\nSie fördert das Geschichtsbewusstsein junger Menschen und befähigt sie, in der Auseinandersetzung mit Geschichte eine Haltung zu gesellschaftlichen Fragen zu entwickeln. In unserem Workshop zeigen wir Ihnen, wie sie Jugendliche spannende Anzeize bieten können, sich multimedial, spielerisch und aus unterschiedlichen Perspektiven mit aktuellen Fragen zu Geschichte und Gegenwart zu beschäftigen und wir stellen Ihnen die pädagogischen Handreichungen für Schule und Bildung vor.\n\n· Digitale Lernmodule der Arolsen School kennenlernen\n\n· NS-Geschichte und Erinnerungskultur multimedial erschließen\n\n· Geschichtsbewusstsein und Demokratiebildung fördern\n\n· Aktuelle Fragen aus unterschiedlichen Perspektiven bearbeiten\n\n· Pädagogische Handreichungen für den Unterricht nutzen",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2026-11-24-arolsen-school"
+    ],
+    [
+      "title",
+      "Digitale Demokratiebildung – Die Lernmodule von Arolsen School"
+    ],
+    [
+      "summary",
+      "Migration und Zugehörigkeit: Digitale Lernmodule für Perspektivwechsel im Unterricht kennenlernen."
+    ],
+    [
+      "start",
+      "1795532400"
+    ],
+    [
+      "end",
+      "1795536000"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4149",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 26EA890012)"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "Anmeldung Saarland (RPZ St. Ingbert)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Alle übrigen Länder"
+    ],
+    [
+      "registrationDeadline",
+      "1795474740"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "26EA890012"
+    ],
+    [
+      "performer:name",
+      "Dr. Stefan Boberg"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "Arolsen Archives"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "image:creator:name",
+      "relilab-impuls"
+    ],
+    [
+      "image:description",
+      "Logo der Fortbildungsreihe relilab Impuls"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_2"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe I"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/digitale-demokratiebildung-die-lernmodule-von-arolsen-school"
+    ],
+    [
+      "r",
+      "https://relilab.org/digitale-demokratiebildung-die-lernmodule-von-arolsen-school/"
+    ],
+    [
+      "t",
+      "Demokratiebildung"
+    ],
+    [
+      "t",
+      "Erinnerungskultur"
+    ],
+    [
+      "t",
+      "Nationalsozialismus"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

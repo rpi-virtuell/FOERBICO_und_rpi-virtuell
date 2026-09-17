@@ -1,0 +1,187 @@
+{
+  "kind": 31923,
+  "content": "Teil 1: Frühzeit und Mittelalter\n\nDer Südwesten Deutschlands, die heutigen Regionen Baden, Pfalz und Elsass, haben eine lange gemeinsame Geschichte. Im römischen Reich kam das Christentum an den Rhein, Klöster und Territorien wie das Kloster Lorsch, die Kurpfalz oder das Bistum Speyer haben über den Rhein hinweg Einheiten geschaffen, die sich auch auf das kirchliche Leben auswirkten. Vieles von heute wirkt von damals nach. Einen Überblick über die Kirchengeschichte und die Kirchengeschichten der Region bietet Michael Landgraf, RPZ Neustadt, in drei Teilen.",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2026-09-24-kirchengeschichte-suedwesten-1"
+    ],
+    [
+      "title",
+      "Kirchengeschichte im Südwesten, Teil 1: Frühzeit und Mittelalter"
+    ],
+    [
+      "summary",
+      "Christliche Spuren am Rhein entdecken und für religiöses Lernen vor Ort nutzen."
+    ],
+    [
+      "start",
+      "1790258400"
+    ],
+    [
+      "end",
+      "1790262000"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4145",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 26EA890008)"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "Anmeldung Saarland (RPZ St. Ingbert)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Alle übrigen Länder"
+    ],
+    [
+      "registrationDeadline",
+      "1790200740"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "26EA890008"
+    ],
+    [
+      "performer:name",
+      "Michael Landgraf"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "Leiter des RPZ Neustadt"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "image:creator:name",
+      "relilab-impuls"
+    ],
+    [
+      "image:description",
+      "Logo der Fortbildungsreihe relilab Impuls"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_2"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe I"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/kirchengeschichte-im-suedwesten-i"
+    ],
+    [
+      "t",
+      "Kirchengeschichte"
+    ],
+    [
+      "t",
+      "Mittelalter"
+    ],
+    [
+      "t",
+      "Regionalgeschichte"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

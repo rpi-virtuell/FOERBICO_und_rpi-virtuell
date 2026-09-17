@@ -1,0 +1,195 @@
+{
+  "kind": 31923,
+  "content": "In der Fortbildung wird zunächst grundlegendes Wissen zu dem Themenkomplex Verschwörungserzählungen und -ideologien vermittelt. Wie verbreiten sich Verschwörungserzählungen? Welche psychosozialen Funktionen haben sie? Wie sind Verschwörungserzählungen aufgebaut?\n\nAnschließend daran wird ein Einblick in die Szene gegeben und aktuelle Verschwörungserzählungen thematisiert. Hier wird besonders Social Media als Raum der Verbreitung betrachtet.\n\nIm letzten Teil der Fortbildung werden Methoden zur präventiven pädagogischen Arbeit vorgestellt und Interventionsmöglichkeiten im pädagogischen Alltag besprochen.\n\n· Verschwörungserzählungen und -ideologien als Herausforderung für Schule und Religionsunterricht einordnen\n\n· Psychosoziale Funktionen, Verbreitungswege und typische Argumentationsmuster von Verschwörungserzählungen verstehen\n\n· Präventive und intervenierende Handlungsmöglichkeiten für die pädagogische Praxis entwickeln",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2027-03-05-verschwoerungserzaehlungen"
+    ],
+    [
+      "title",
+      "Verschwörungserzählungen im Netz"
+    ],
+    [
+      "summary",
+      "Von Social Media bis Klassenzimmer: Verschwörungsdenken verstehen und pädagogisch handeln."
+    ],
+    [
+      "start",
+      "1804258800"
+    ],
+    [
+      "end",
+      "1804262400"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4152",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 27EA890003)"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "Anmeldung Saarland (RPZ St. Ingbert)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Alle übrigen Länder"
+    ],
+    [
+      "registrationDeadline",
+      "1804201140"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "27EA890003"
+    ],
+    [
+      "performer:name",
+      "Timon Strnad"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "Digitale Pfade, Berlin"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "image",
+      "https://relilab.org/wp-content/uploads/2026/06/Verschwoerungserzaehlungen-neu-a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    [
+      "image:creator:name",
+      "Olav Richter mit ChatGPT, 31.05.2026"
+    ],
+    [
+      "image:description",
+      "TODO Alt-Text"
+    ],
+    [
+      "image:ai",
+      "generated"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_2"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe I"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/verschwoerungserzaehlungen-im-netz"
+    ],
+    [
+      "r",
+      "https://relilab.org/verschwoerungserzaehlungen-im-netz/"
+    ],
+    [
+      "t",
+      "Verschwörungserzählungen"
+    ],
+    [
+      "t",
+      "Medienbildung"
+    ],
+    [
+      "t",
+      "Demokratie"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

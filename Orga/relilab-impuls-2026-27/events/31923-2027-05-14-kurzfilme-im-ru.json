@@ -1,0 +1,187 @@
+{
+  "kind": 31923,
+  "content": "Thomas Altmayer ist Medienpädagoge und leitet den Medienladen Saarbrücken.\n\nEr stellt Neuigkeiten aus dem elsässichen Filmfestival Augenblick vor, die für den Religionsunterricht interessant sind.",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2027-05-14-kurzfilme-im-ru"
+    ],
+    [
+      "title",
+      "Kurzfilme im RU"
+    ],
+    [
+      "summary",
+      "Neues vom elsässischen Filmfestival Augenblick für den Religionsunterricht."
+    ],
+    [
+      "start",
+      "1810303200"
+    ],
+    [
+      "end",
+      "1810306800"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4155",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 27EA890005)"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "Anmeldung Saarland (RPZ St. Ingbert)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Alle übrigen Länder"
+    ],
+    [
+      "registrationDeadline",
+      "1810245540"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "27EA890005"
+    ],
+    [
+      "performer:name",
+      "Thomas Altmayer"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "Medienpädagoge, Leiter des Medienladens Saarbrücken"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "image:creator:name",
+      "relilab-impuls"
+    ],
+    [
+      "image:description",
+      "Logo der Fortbildungsreihe relilab Impuls"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_2"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe I"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/kurzfilme-im-ru"
+    ],
+    [
+      "t",
+      "Film"
+    ],
+    [
+      "t",
+      "Medienbildung"
+    ],
+    [
+      "t",
+      "Kurzfilm"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}
