@@ -39,13 +39,14 @@ keywords:
   - FOERBICO in Kontakt
   - Community
 
+image: https://blossom.edufeed.org/bb3dfcb3815161763ed2e6250c11446c95934f0f1bed60c5c6dca80148867d7b.jpg
 # staticSiteGenerator
 author:
   - Olav Richter
 title: 'Künstliche Intelligenz im evangelischen Religionsunterricht: Zwischen Effizienzversprechen, ethischer Urteilsbildung und theologischer Verantwortung'
 cover:
-  relative: true
-  image: KI-im-RU-Klassengespraech-KI-generiert.jpg
+  relative: false
+  image: https://blossom.edufeed.org/bb3dfcb3815161763ed2e6250c11446c95934f0f1bed60c5c6dca80148867d7b.jpg
   alt: "Zwei Jugendliche und eine Lehrerin sitzen im Klassenraum um ein Tablet, auf dem ein Chatbot-Dialog zu sehen ist; daneben liegt eine aufgeschlagene Bibel, an der Wand hängt ein Kreuz."
   hiddenInSingle: false
 summary: >-
