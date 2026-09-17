@@ -25,7 +25,7 @@ educationalLevel:
 # Hugo baut sie nicht als eigene Seite — die Hugo-Startseite bleibt _index.md mit demselben Text.
 title: FOERBICO
 url: en/startseite
-_build:
+build:
   render: never
   list: never
 ---
