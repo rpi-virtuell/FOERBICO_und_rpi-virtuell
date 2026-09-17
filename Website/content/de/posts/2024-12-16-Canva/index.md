@@ -57,7 +57,7 @@ tags:
 bilder:
   Beispiel-Bildlizenz.jpg:
     alt: 'Infografik mit drei Beispielen für die Lizenzierung eines Arbeitsblatts: Links wird ein Arbeitsblatt mit Canva-Bild unter CC-Lizenz als unzulässig gekennzeichnet. In der Mitte darf nur der Text eines Arbeitsblatts mit Canva-Bild unter CC-Lizenz weiterverwendet werden. Rechts ist ein Arbeitsblatt mit eigenem oder frei lizenziertem Bild vollständig unter CC-Lizenz weiterverwendbar.'
-    title: CC-Lizenz und Canva-Bilder: Was ist erlaubt?
+    title: CC-Lizenz und Canva-Bilder - Was ist erlaubt?
     sourceUrl: https://oer.community/canva
     author: FOERBICO
     authorUrl: https://oer.community
