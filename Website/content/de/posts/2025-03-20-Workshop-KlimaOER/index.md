@@ -23,6 +23,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
+  - https://w3id.org/kim/educationalLevel/level_C
 datePublished: 2025-03-20
 
 # staticSiteGenerator
