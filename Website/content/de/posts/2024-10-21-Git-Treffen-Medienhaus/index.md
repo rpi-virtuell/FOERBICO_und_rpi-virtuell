@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Arbeiten mit Git: FOERBICO meets EKHN Medienhaus'
 description: Das Treffen am 16.10.2024 des Teams vom Comenius-Institut mit dem Team vom EKHN-Medienhaus bot spannende Einblicke in die digitale Infrastruktur und die Arbeitsweisen. Hier erfahrt ihr die wichtigsten Punkte rund um den Einsatz von GitLab, Datenschutzanforderungen, agile Workflows und die zukünftige Zusammenarbeit.
 license: https://creativecommons.org/licenses/by/4.0/
