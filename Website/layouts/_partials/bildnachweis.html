@@ -1,0 +1,57 @@
+{{- /*
+  Lizenzpille fuer ein Bild aus dem `bilder`-Block (Konvention: bildattribution.md).
+  Aufruf: {{ partial "bildnachweis.html" (dict "page" $page "key" $key) }}
+  `key` ist der Schluessel im Block (Dateiname oder Hash-URL); fehlt er oder der
+  Eintrag, rendert das Partial nichts.
+*/ -}}
+{{- $page := .page -}}
+{{- $key := .key -}}
+{{- $lic := "" -}}
+{{- with $page.Params.bilder -}}
+  {{- $lic = index . $key -}}
+  {{- if not $lic -}}
+    {{- /* Schluessel kann Dateiname ODER Hash-URL sein: erst ueber den Basenamen suchen. */ -}}
+    {{- $base := path.Base $key -}}
+    {{- range $k, $v := . -}}
+      {{- if eq (path.Base $k) $base -}}{{- $lic = $v -}}{{- end -}}
+    {{- end -}}
+    {{- /* md2blossom schreibt cover.image auf die Hash-URL um, laesst den Schluessel
+           im Block aber beim Dateinamen. Bei genau einem Bild ist die Zuordnung
+           eindeutig; bei mehreren Bildern braucht der Block die Hash-URL als
+           Schluessel (siehe bildattribution.md), sonst bleibt der Nachweis leer. */ -}}
+    {{- if and (not $lic) (eq (len .) 1) -}}
+      {{- range $k, $v := . -}}{{- $lic = $v -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $lic -}}
+{{- $ai := .ai | default "" -}}
+<div class="bildnachweis">
+  {{- if or (eq $ai "generated") (eq $ai "modified") }}
+  <span class="bn-ai" title="{{ if eq $ai "generated" }}Vollstaendig KI-generiert{{ else }}Mit KI bearbeitet{{ end }}">
+    <span class="bn-ai-mark" aria-hidden="true">AI</span>
+    <span>{{ if eq $ai "generated" }}KI-generiert{{ else }}KI-bearbeitet{{ end }}</span>
+  </span>
+  <span class="bn-sep" aria-hidden="true">·</span>
+  {{- end }}
+  {{- with .licence }}
+  <span class="bn-lic">
+    {{- with $lic.licenceUrl -}}
+      <a href="{{ . }}" rel="license noopener noreferrer" target="_blank">{{ $lic.licence }}</a>
+    {{- else -}}
+      {{ . }}
+    {{- end -}}
+  </span>
+  {{- end }}
+  {{- with .author }}
+  <span class="bn-sep" aria-hidden="true">·</span>
+  <span class="bn-author">
+    {{- with $lic.authorUrl -}}
+      <a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ $lic.author }}</a>
+    {{- else -}}
+      {{ . }}
+    {{- end -}}
+  </span>
+  {{- end }}
+</div>
+{{- end -}}
