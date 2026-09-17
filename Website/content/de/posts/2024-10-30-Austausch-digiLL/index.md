@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Austausch mit digiLL_COM zum Thema "Community Building"
 description: Am 29. Oktober 2024 kamen Laura, Gina und Phillip vom FOERBICO-Team mit Joana, Lea, Rüya und Matthias von digiLL_COM für ein Online-Treffen zusammen, um das Thema "Community Building" im Kontext von OER (Open Educational Resources) zu  diskutieren und Erfahrungen auszutauschen.
 license: https://creativecommons.org/licenses/by/4.0/
