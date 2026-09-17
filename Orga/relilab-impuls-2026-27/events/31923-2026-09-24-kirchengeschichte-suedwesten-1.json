@@ -53,27 +53,27 @@
     ],
     [
       "registrationUrl",
-      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4145",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4145&m=dbca6173-a3b5-11e9-8e0c-0050569784c7&ev_workflow2_guid=34ef7572-1074-11ec-9e02-1287f4009885",
       "DE-RP",
       "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 26EA890008)"
     ],
     [
       "registrationUrl",
-      "https://bildungsportal.ekiba.de/",
+      "https://ekiba.bildungskirche.com/RPI",
       "DE-BW",
-      "Anmeldung Baden (Ekiba-Bildungsportal)"
+      "Fortbildungen RPI Baden (Anmeldung dort suchen)"
     ],
     [
       "registrationUrl",
       "https://www.rpz-igb.de/",
       "DE-SL",
-      "Anmeldung Saarland (RPZ St. Ingbert)"
+      "RPZ St. Ingbert (Anmeldung dort suchen)"
     ],
     [
       "registrationUrl",
       "https://relilab.org/relilab-impuls/",
       "",
-      "Alle übrigen Länder"
+      "Übersicht der Reihe"
     ],
     [
       "registrationDeadline",

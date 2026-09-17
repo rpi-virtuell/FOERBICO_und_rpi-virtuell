@@ -61,6 +61,12 @@ den Landessystemen meist nur im Fließtext, nicht als Datenfeld.
   „donnerstags oder freitags“. Gegen die bestehenden Bot-Events geprüft: die
   Zeitstempel stimmen überein, die Abweichung ist real.
 - **Ostern (19.02.2027)** hat keinen eVEWA-Eintrag, daher keinen RLP-Anmeldelink.
+- **Anmeldewege Baden und Saarland** sind bisher nur Einstiegsseiten
+  (`ekiba.bildungskirche.com/RPI`, `rpz-igb.de`), keine Direktlinks zum jeweiligen
+  Termin — die Beschriftung sagt das ("Anmeldung dort suchen"). Nur die
+  eVEWA-Links fuehren direkt ins Anmeldeformular; sie brauchen neben `va_id`
+  auch die Parameter `m` und `ev_workflow2_guid`, sonst antwortet eVEWA mit
+  "Fehlerhafte Parameter uebergeben".
 - **Bot-Ablösung**: Der `relilab-Termine-Bot` publiziert dieselben Termine gecrawlt
   aus WordPress. Solange beide im Roster stehen, erscheinen sie doppelt. Entfernt man
   den Bot aus `kind 39002`, verschwinden seine Events aus der Community-Ansicht,
