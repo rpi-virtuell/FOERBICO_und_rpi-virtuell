@@ -1,7 +1,7 @@
 ---
 # commonMetadata
 '@context': https://schema.org/
-creativeWorkStatus: Draft
+creativeWorkStatus: Published
 type: LearningResource
 name: 'Künstliche Intelligenz im evangelischen Religionsunterricht: Zwischen Effizienzversprechen, ethischer Urteilsbildung und theologischer Verantwortung'
 description: >-
@@ -72,6 +72,15 @@ bilder:
     licence: CC0 1.0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
     ai: generated
+    aiModel: "ChatGPT/Codex (OpenAI, GPT Image), Modellversion nicht ausgewiesen"
+    prompt: |
+      Fotorealistisches horizontales Beitragsbild im Seitenverhältnis 16:9 für einen wissenschaftlich orientierten Artikel über Künstliche Intelligenz im christlichen Religionsunterricht.
+      In einem hellen, modernen Klassenraum sitzen genau drei Personen gemeinsam an einem Tisch und führen ein lebendiges, konzentriertes Gespräch: ein schwarzes Mädchen im Teenageralter, ein weißer europäischer Junge im Teenageralter und eine Lehrerin mit nahöstlichem familiärem Hintergrund. Die kulturelle Vielfalt wirkt selbstverständlich und wird ohne stereotype Kleidung oder kulturelle Kennzeichen dargestellt.
+      Beide Jugendlichen beteiligen sich aktiv: Das Mädchen lehnt sich leicht vor und zeigt auf die KI-Anwendung. Der Junge erläutert seinen Gedanken mit einer natürlichen, offenen Handbewegung. Die Lehrerin hört aufmerksam zu und reagiert mit einer zurückhaltenden, zugewandten Geste. Die Szene soll wie ein echter fachlicher Austausch wirken, nicht wie ein gestelltes Werbefoto.
+      Zwischen den Personen steht ein gut sichtbares Tablet. Auf seinem Bildschirm ist eindeutig eine neutrale KI-Chatoberfläche erkennbar: ein abstraktes Netzwerk- oder Funkensymbol, eine menschliche Frage in einer Sprechblase, eine davon deutlich unterschiedene KI-Antwort sowie ein Eingabefeld mit Senden-Symbol. Keine lesbaren Wörter und keine Markenlogos. Die KI-Anwendung muss auch in einer kleinen Bildvorschau klar erkennbar sein.
+      Neben dem Tablet liegt eine geöffnete Bibel. An der Wand im Hintergrund befindet sich ein schlichtes Kreuz als dezenter Hinweis auf den christlichen Religionsunterricht. Kein Kreuz und keine weiteren religiösen Gegenstände auf dem Tisch.
+      Hochwertige fotorealistische Editorial-Fotografie, natürliche Hautstrukturen, glaubwürdige Hände und Blickrichtungen, weiches Tageslicht, ruhige Blau-, Grau- und Holztöne, sachliche und reflektierte Atmosphäre. Die Personen und ihr gemeinsames Gespräch bilden den visuellen Mittelpunkt; Tablet und Bibel bleiben klar erkennbar, dominieren die Szene aber nicht.
+      Vermeiden: passive oder posierende Personen, übertriebene Begeisterung, kulturelle Stereotype, zusätzliche Personen, Roboter, Roboterhände, leuchtende Gehirne, Hologramme, Science-Fiction-Ästhetik, Neonlicht, lesbarer oder fehlerhafter Text, Logos, Wasserzeichen, religiöse Überfrachtung und ein Kreuz auf dem Tisch.
 ---
 
 > **Hinweis zur Wiederveröffentlichung.** Dieser Beitrag von *Olav Richter, Studienleitung Medienpädagogik, RPI Karlsruhe* erschien zuerst in: Badische Pfarrvereinsblätter 7/2026, S. 217–227 (21–31), <https://epv-baden.de/wordpress/?p=1656>. Mit freundlicher Genehmigung des Autors und der Redaktion veröffentlichen wir ihn hier als Open Educational Resource unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de), damit er über Baden hinaus zugänglich, nachnutzbar und weiterentwickelbar ist.
