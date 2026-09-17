@@ -2,10 +2,9 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.social
 description: Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
-license: https://creativecommons.org/publicdomain/zero/1.0/
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/libori-social
 creator:
   - givenName: Gina
@@ -39,7 +38,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
   - https://w3id.org/kim/educationalLevel/level_C
 datePublished: 2024-12-10
 
@@ -59,6 +57,25 @@ tags:
   - Mastodon
   - Codeberg
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  liboriSocial_postcard.jpg:
+    alt: 'Vorstellung der Mastodon-Instanz libori.social als pastorles Netzwerk im Erzbistum Paderborn, Pfau stammt aus der Google-Schriftart Noto-Emojie, die unter der Open Font License steht.'
+    title: Vorstellung der Mastodon-Instanz libori.social als pastorles Netzwerk im Erzbistum Paderborn
+    sourceUrl: https://oer.community/libori-social/
+    author: Alexander Müller, Erzbistum Paderborn
+    authorUrl: https://www.erzbistum-paderborn.de/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  startodon-reliverse.jpg:
+    alt: 'Screenshot der Willkommensseite der Mastodon-Instanz reliverse.social, Hintergrundbild unter [Unsplash-Lizenz](https://unsplash.com/de/fotos/ein-paar-handys-bQRqXz7mZe4).'
+    title: Screenshot der Willkommensseite der Mastodon-Instanz reliverse.social (abgerufen am 08.12.2024)
+    sourceUrl: https://oer.community/libori-social/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Gina und Jörg im Gespräch mit Alexander, der die Mastodon-Instanz libori.social mit dem Ziel aufgebaut hat, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
