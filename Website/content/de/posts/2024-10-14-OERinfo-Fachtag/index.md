@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'OERinfo-Fachtag am 7.10.2024 in Frankfurt: "How to build a Community?!"'
 description: Mit dem jährlich stattfindenden OERinfo-Fachtag als Format zum Austausch und zur Vernetzung der wachsenden OER-Community sollen Wissenschaft und Praxis, etablierte und neue OER-Initiativen sowie OER-Befürworter*innen und Interessierte zusammenkommen. Der OERinfo-Fachtag fand am 07.10.2024 am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 license: https://creativecommons.org/licenses/by/4.0/
@@ -40,6 +39,49 @@ tags:
   - Open Educational Resources (OER)
   - OER-Strategie
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  OERinfo-Fachtag-FOERBICO-Team.jpg:
+    alt: 'Foto von Laura, Gina und Jörg vom FOERBICO-Team vor Banner beim OERinfo-Fachtag 2024 in Frankfurt a.M.'
+    title: FOERBICO-Team beim OERinfo-Fachtag 2024 in Frankfurt a.M.
+    sourceUrl: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  DIPF-Gebaeude.jpg:
+    alt: 'Außenansicht des DIPF-Gebäudes vor dem Eingang.'
+    title: DIPF-Gebäude
+    sourceUrl: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  OERinfo-Fachtag-Begruessung.jpg:
+    alt: 'Begrüßung von Katja Stamm (BMBFSFJ) und Steffi Widera (Geschäftsführerin der Virtuellen Hochschule Bayern) beim OERinfo-Fachtag 2024 in Frankfurt a.M.'
+    title: Begrüßung beim OERinfo-Fachtag
+    sourceUrl: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Kurzvorstellung-FOERBICO-vorschau.png:
+    alt: 'Screenshot zum Video mit FOERBICO-Vorstellung von Jörg Lohrer beim OERinfo-Fachtag 2024 in Frankfurt.'
+    title: FOERBICO-Vorstellung beim OERinfo-Fachtag 2024
+    sourceUrl: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Community-Staerkung-Erweiterung.jpg:
+    alt: 'Stehtisch der OER-Communities KlimaOER, ProOER und FOERBICO beim OERinfo-Fachtag 2024.'
+    title: Thementisch zur Community-Stärkung und -Erweiterung beim OERinfo-Fachtag 2024
+    sourceUrl: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ![](DIPF-Gebaeude.jpg)
