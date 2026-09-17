@@ -1,0 +1,187 @@
+{
+  "kind": 31923,
+  "content": "Bedroht KI die Welt? Wo stehen wir? Müssen wir jetzt alle panisch aufschreien?\n\nDie großen Tech-Konzerne liefern sich derzeit ein ebenso ruinöses wie rasantes Wettrennen, bei dem in atemberaubenden Tempo immer \"schlauere\" und gefährlichere KI-Modelle auf den Markt geworfen (oder nur für einige Global Player zugänglich gemacht) werden. Dabei tun sich facettenartig die unterschiedlichsten Probleme, aber auch Möglichkeiten auf, mit denen wir konfrontiert werden, zB.:\n\nder ökologische Impact der KI-Nutzung\n\nMissbrauch von KI für menschenfeindliche Zwecke\n\nDie Entmachtung des Menschen durch eine Kultur der                überfürsorglichen KI\n\nKI im Unterricht: Lernhelfer oder Lern-Verhinderer\n\nKI als menschlicher Arbeitssklave – und die Reaktion darauf  -  - KI-Schwächen\n\nIn dieser Fortbildung werden diese und andere Aspekte sehr genau und nüchtern betrachtet und bewertet.\n\nChristian Günther bietet uns einen ruhigen, aktuellen, sehr sorgfältigen Blick auf die aktuellen Vorgänge und Perspektiven.",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2026-12-11-philemon-prinzip"
+    ],
+    [
+      "title",
+      "Aktuelle KI-Entwicklungen und das Philemon-Prinzip"
+    ],
+    [
+      "summary",
+      "KI jenseits von Panik: aktuelle Entwicklungen einordnen und religiöse Urteilsbildung anregen."
+    ],
+    [
+      "start",
+      "1797001200"
+    ],
+    [
+      "end",
+      "1797004800"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4148",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 26EA890011)"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "Anmeldung Saarland (RPZ St. Ingbert)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Alle übrigen Länder"
+    ],
+    [
+      "registrationDeadline",
+      "1796943540"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "26EA890011"
+    ],
+    [
+      "performer:name",
+      "Christian Günther"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "RPZ Zweibrücken"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "image:creator:name",
+      "relilab-impuls"
+    ],
+    [
+      "image:description",
+      "Logo der Fortbildungsreihe relilab Impuls"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_3"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe II"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/aktuelle-ki-entwicklungen-und-das-philemon-prinzip"
+    ],
+    [
+      "t",
+      "KI"
+    ],
+    [
+      "t",
+      "Ethik"
+    ],
+    [
+      "t",
+      "Urteilsbildung"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

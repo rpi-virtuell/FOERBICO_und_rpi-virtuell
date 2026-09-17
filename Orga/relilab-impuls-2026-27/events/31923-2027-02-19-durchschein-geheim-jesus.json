@@ -1,0 +1,185 @@
+{
+  "kind": 31923,
+  "content": "Die Unterrichtseinheit, die wir euch vorstellen, versucht die Kinder und Jugendlichen nicht mit theologischen Erklärungen zu überfordern, sondern sie „sehen“ zu lassen. Dabei geht es um eine tiefere Wahrnehmung. Es ist ein behutsames Herantasten:\n\n· Wo haben Menschen in Jesus vielleicht mehr gespürt als nur einen Menschen?\n\n· Wo scheint etwas von seinem göttlichen Licht auf?\n\nOstern wird dabei zum Schlüssel, denn an Ostern wird die Doppelnatur Jesu am deutlichsten: Er ist ganz Mensch – verletzlich bis in den Tod. Aber das ist nicht das Ende. Etwas Geheimnisvolles geschieht mit ihm. Um dieses Mysterium im Unterricht erfahrbar zu machen, ohne es zu entzaubern, hilft uns der „Durchschein-Geheim-Jesus“. Wir machen uns auf den Weg. Mit Jesus. Schritt für Schritt gehen wir mit Jesus mit. Und nach Ostern? Ist Jesus mit uns auf dem Weg. Schritt für Schritt geht Jesus unsern Weg von da an mit. Mit unserer Unterrichtseinheit wollen wir die Neugierde der Lernenden wecken und sie dazu ermutigen, im Alltag mit offenen Augen und Ohren, Armen und Herzen Ausschau nach „mehr“ zu halten.\n\nZiel der Veranstaltung\n\nDie Fortbildung zeigt, wie zentrale christologische Fragen rund um Ostern im Religionsunterricht altersgemäß aufgegriffen werden können. Im Mittelpunkt steht ein Zugang, der Kinder und Jugendliche zum Wahrnehmen, Fragen und Deuten anregt, ohne das Geheimnis der Auferstehung vorschnell aufzulösen. Die Teilnehmenden gewinnen Sicherheit darin, die Spannung von Menschsein, Göttlichkeit, Kreuz und Auferstehung Jesu didaktisch verantwortet zu bearbeiten.\n\nInhaltsschwerpunkte\n\n·         Theologische Grundfragen der Osterbotschaft klären\n\n·         Kinderfragen zu Tod, Auferstehung und Jesus aufnehmen\n\n·         Die vorgestellte Unterrichtseinheit praxisnah kennenlernen\n\n·         Mit dem Motiv des „Durchschein-Geheim-Jesus“ arbeiten\n\n·         Alltagserfahrungen der Lernenden mit christologischen Deutungen verbinden",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2027-02-19-durchschein-geheim-jesus"
+    ],
+    [
+      "title",
+      "Ostern mit dem „Durchschein-Geheim-Jesus“"
+    ],
+    [
+      "summary",
+      "Ostern mit Kindern entdecken: zwischen Staunen, Fragen und vorsichtigen Antworten."
+    ],
+    [
+      "start",
+      "1803049200"
+    ],
+    [
+      "end",
+      "1803052800"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "Anmeldung Saarland (RPZ St. Ingbert)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Alle übrigen Länder"
+    ],
+    [
+      "registrationDeadline",
+      "1802991540"
+    ],
+    [
+      "performer:name",
+      "Nadine Glage"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "RPZ Kaiserslautern"
+    ],
+    [
+      "performer:name",
+      "Sandra Stolz-Kipper"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "RPZ Kusel"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "image:creator:name",
+      "relilab-impuls"
+    ],
+    [
+      "image:description",
+      "Logo der Fortbildungsreihe relilab Impuls"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_1"
+    ],
+    [
+      "about:prefLabel:de",
+      "Primarstufe"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://www.ekiba.de/detail/termin/id/1040827-ostern-mit-dem-durchschein-geheim-jesus/"
+    ],
+    [
+      "t",
+      "Ostern"
+    ],
+    [
+      "t",
+      "Christologie"
+    ],
+    [
+      "t",
+      "Grundschule"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}
