@@ -16,9 +16,21 @@
       {{- if eq (path.Base $k) $base -}}{{- $lic = $v -}}{{- end -}}
     {{- end -}}
     {{- /* md2blossom schreibt cover.image auf die Hash-URL um, laesst den Schluessel
-           im Block aber beim Dateinamen. Bei genau einem Bild ist die Zuordnung
-           eindeutig; bei mehreren Bildern braucht der Block die Hash-URL als
-           Schluessel (siehe bildattribution.md), sonst bleibt der Nachweis leer. */ -}}
+           im Block aber beim Dateinamen. Blossom adressiert Blobs ueber den
+           SHA-256 der Datei -- denselben Hash rechnet Hugo aus der Bilddatei im
+           Page-Bundle aus. So findet auch ein Beitrag mit mehreren Bildern den
+           richtigen Eintrag. */ -}}
+    {{- if not $lic -}}
+      {{- $hash := replaceRE "\\.[^.]+$" "" (path.Base $key) -}}
+      {{- range $k, $v := . -}}
+        {{- if not $lic -}}
+          {{- with $page.Resources.GetMatch $k -}}
+            {{- if eq (sha256 .Content) $hash -}}{{- $lic = $v -}}{{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- /* Letzter Ausweg: genau ein Bild im Block -- die Zuordnung ist eindeutig. */ -}}
     {{- if and (not $lic) (eq (len .) 1) -}}
       {{- range $k, $v := . -}}{{- $lic = $v -}}{{- end -}}
     {{- end -}}
