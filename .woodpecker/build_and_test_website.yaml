@@ -8,11 +8,13 @@ steps:
       - date -I'seconds'
 
   - name: TEST-build_and_test_site
-    image: alpine:3.24 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; alpine:3.24 liefert 0.160.1
+    image: alpine:3.24 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; Hugo-Version unten gepinnt
     commands:
       - date -I'seconds'
       - cat /etc/alpine-release
-      - apk add --no-cache hugo
+      # Version pinnen: alpine:3.24 fuehrt genau eine Hugo-Version. Ein Alpine-Update
+      # wechselt sie sonst unangekuendigt und kann den Build brechen (siehe #848).
+      - apk add --no-cache hugo=0.160.1-r2
       - hugo version
       - apk add --no-cache curl
 
