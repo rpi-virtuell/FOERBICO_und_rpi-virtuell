@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
 description: Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
 license: https://creativecommons.org/licenses/by/4.0/
@@ -36,7 +35,7 @@ title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
 cover:
   relative: true
   image: rpt25.jpg
-  caption: Von Daniel Ritter und von David Wakefield) bearbeitetes Midjourney-Bild CC0
+  caption: Von Daniel Ritter und von David Wakefield bearbeitetes Midjourney-Bild CC0
   alt: Ein junges Mädchen sitzt an einem Tisch und trägt ein großes Virtual-Reality-Headset. Aus dem Headset scheinen leuchtende Funken und Lichtpartikel zu strömen, die eine magische, traumartige Atmosphäre erzeugen. Der Hintergrund ist unscharf und dunkel, wodurch das Leuchten besonders hervorsticht.
   hiddenInSingle: true
 summary: Künstliche Intelligenz (KI) ist längst Teil unserer Gegenwart – auch im Bildungsbereich. In diesem Vortrag wird KI als kulturelles und ethisches Phänomen in der Religionspädagogik reflektiert. Themen sind technologische Entwicklungen, Menschenbilder, theologische Perspektiven und neue Aufgaben für die Religionspädagogik im digitalen Wandel.
@@ -48,6 +47,17 @@ tags:
   - Ethik
   - Bildungstechnologie
   - Theologie
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  rpt25.jpg:
+    alt: Ein junges Mädchen sitzt an einem Tisch und trägt ein großes Virtual-Reality-Headset. Aus dem Headset scheinen leuchtende Funken und Lichtpartikel zu strömen, die eine magische, traumartige Atmosphäre erzeugen. Der Hintergrund ist unscharf und dunkel, wodurch das Leuchten besonders hervorsticht.
+    title: Von Daniel Ritter und von David Wakefield bearbeitetes Midjourney-Bild CC0
+    sourceUrl: https://oer.community/ki-und-religionspaedagogik/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
 ---
 
 
