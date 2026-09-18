@@ -25,7 +25,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/going-deep-er-oerf-tagung-2025/OERF-2025-gruppenfoto.jpg
+image: https://oer.community/going-deep-er-oerf-tagung-2025/praesentation-foerbico.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -39,7 +39,7 @@ author:
 title: Going deep(er)! FOERBICO auf der ÖRF-Tagung zu Deeper Learning
 cover:
   relative: true
-  image: OERF-2025-gruppenfoto.jpg
+  image: praesentation-foerbico.jpg
   hiddenInSingle: true
 summary: 'Vom 12. bis 13. Juni 2025 versammelte sich in St. Pölten das Österreichische Religionspädagogische Forum (ÖRF) zu seiner diesjährigen Jahrestagung. Im Mittelpunkt stand ein Thema, das aktueller kaum sein könnte: Deeper Learning.'
 url: going-deep-er-oerf-tagung-2025
@@ -48,6 +48,17 @@ tags:
   - Event
   - Vernetzung
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  praesentation-foerbico.jpg:
+    alt: 'Laura und Florian von der Goethe-Universität Frankfurt a.M. stellen das FOERBICO-Projekt auf der ÖRF-Jahrestagung 2025 vor.'
+    title: 'Präsentation des FOERBICO-Projekts bei ÖRF-Jahrestagung 2025'
+    sourceUrl: https://oer.community/going-deep-er-oerf-tagung-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Das [Österreichische Religionspädagogische Forum (ÖRF)](https://oerf.eu/) führte vom 12. bis 13. Juni 2025 die diesjährige Jahrestagung durch. Im Mittelpunkt stand ein höchst aktuelles Thema: *Deeper Learning*. Dieser pädagogische Ansatz setzt sich zum Ziel, Lernprozesse so zu gestalten, dass sie nicht nur Wissen vermitteln, sondern tatsächliche Relevanz für Lernende ermöglichen und zur aktiven Teilhabe ermutigen. Damit soll die Nachhaltigkeit von Lernprozessen gewährleistet werden.
@@ -57,8 +68,6 @@ Das [Österreichische Religionspädagogische Forum (ÖRF)](https://oerf.eu/) fü
 Prof. Andrea Lehner-Hartmann von der Universität Wien eröffnete die Tagung mit einer Einführung in das Konzept des Deeper Learning, basierend auf den Arbeiten von [Sliwka und Klopsch (2022)](https://www.beltz.de/fachmedien/paedagogik/produkte/details/42827-deeper-learning-in-der-schule.html). In ihren Ausführungen wurde deutlich, dass Deeper Learning eine Antwort auf die Herausforderungen des digitalen Bildungszeitalters sucht. 
 
 Statt eines lehrer:innenzentrierten Modells, das Lernende auf passive Wissensaufnahme reduziert, fördert Deeper Learning eigenverantwortliches, forschendes und partizipatives Lernen - ganz im Sinne des "Teach less - learn more." Schüler:innen und Studierende sollen befähigt werden, ihren Lernweg aktiv mitzugestalten, eigene Fragen zu entwickeln und kreative Lösungen zu verfolgen. In diesem Zusammenhang wurde auch die Anschlussfähigkeit des Ansatzes an die Prinzipien der Open Pedagogy und offener Bildungsressourcen (OER) deutlich. Beide Konzepte basieren auf der Vorstellung von Bildung als ko-konstruktivem Prozess: Lernen wird als aktives Handeln verstanden, das Reflexion, Selbstbestimmung und Verantwortungsübernahme in den Mittelpunkt rückt.
-
-![Gruppenfoto OERF 2025](OERF-2025-gruppenfoto.jpg)
 
 ## Deeper Learning - Lernen in Phasen
 
