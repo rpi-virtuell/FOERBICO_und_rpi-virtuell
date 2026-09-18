@@ -59,9 +59,9 @@
     ],
     [
       "registrationUrl",
-      "https://ekiba.bildungskirche.com/RPI",
+      "https://bildungsportal.ekiba.de/ibt/go/public/to?product=154223027/58168027/59442027/1918985027/1921742429",
       "DE-BW",
-      "Fortbildungen RPI Baden (Anmeldung dort suchen)"
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
     ],
     [
       "registrationUrl",
@@ -86,6 +86,14 @@
     [
       "identifier:value",
       "26EA890009"
+    ],
+    [
+      "identifier:propertyID",
+      "ekiba-termin"
+    ],
+    [
+      "identifier:value",
+      "1031671"
     ],
     [
       "performer:name",
@@ -198,6 +206,10 @@
     [
       "r",
       "https://relilab.org/haltung-zeigen-populistische-parolen-erwidern/"
+    ],
+    [
+      "r",
+      "https://www.ekiba.de/detail/termin/id/1031671-haltung-zeigen-populistische-parolen-erwidern/?cb-id=110043"
     ],
     [
       "t",
