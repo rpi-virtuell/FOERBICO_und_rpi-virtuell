@@ -78,9 +78,9 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
-   hackerboys.jpg:
+  hackerboys.jpg:
     alt: 'Gruppe von Entwicklern sitzen beim HackathOERn 2025 in Göttingen zusammen mit ihren Laptops und hacken gemeinsam.'
-    title: Hackerteam
+    title: 'Hackerteam'
     sourceUrl: https://oer.community/hackathoern
     author: FOERBICO
     authorUrl: https://oer.community
