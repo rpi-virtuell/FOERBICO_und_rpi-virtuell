@@ -50,6 +50,20 @@ einer anderen Quelle (siehe `quellen-volltexte.json`):
 Fünf der zehn Termine haben auf relilab.org keine Seite. Referent:innen stehen in
 den Landessystemen meist nur im Fließtext, nicht als Datenfeld.
 
+## Leitung der Reihe
+
+Die Reihe wird gemeinsam geleitet; alle drei stehen als `contributor` mit Rolle
+"Leitung" an jedem Termin:
+
+| Person | Haus |
+|---|---|
+| Olav Richter | RPI Karlsruhe |
+| Christian Günther | RPZ Zweibrücken |
+| Tobias Christmann | RPZ Speyer (Gesamtleitung pfaelzische Seite seit 2026) |
+
+Wer an einem Termin selbst referiert, steht dort nur als `performer` — beim
+Philemon-Termin also Günther, ohne zusaetzlichen Leitungseintrag.
+
 ## Offene Punkte
 
 - **Alt-Texte**: alle Events tragen `image:description: "TODO Alt-Text"`.
