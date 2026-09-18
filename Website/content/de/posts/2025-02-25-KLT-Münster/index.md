@@ -60,6 +60,25 @@ tags:
   - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Gruppenarbeit_Tagung.jpg:
+    alt: 'Ideensammlung aus der Gruppenarbeit auf der Jahrestagung des Netzwerkes Theologie und Hochschuldidaktik im Februar 2025 zum Mehrwert haben OER für die theologische Hochschullehre.'
+    title: Ergebnisse Gruppenarbeit zum Mehrwert von OER für die theologische Hochschullehre
+    sourceUrl: https://oer.community/oer-meets-fachdidaktik
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Markdown_Tagung.jpg:
+    alt: 'Notizen und Dokumentation zur Tagung Jahrestagung des Netzwerkes Theologie und Hochschuldidaktik im Februar 2025 mit Markdown.'
+    title: Tagungsnotizen mit Markdown
+    sourceUrl: https://oer.community/oer-meets-fachdidaktik
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025
