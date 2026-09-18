@@ -5,7 +5,7 @@ creativeWorkStatus: Published
 type: LearningResource
 name: 'OER-Materialien: Welche Lizenz nehme ich?'
 description: Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
-license: https://creativecommons.org/publicdomain/zero/1.0/
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-remix
 creator:
   - givenName: Corinna
@@ -31,8 +31,7 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
-# TODO: Bild "Open_Educational_Resources.png" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
+  - https://w3id.org/kim/educationalLevel/level_C
 datePublished: 2025-01-12
 
 # staticSiteGenerator
@@ -43,7 +42,7 @@ author:
 title: 'OER-Materialien: Welche Lizenz nehme ich?'
 cover:
   relative: true
-  image: Open_Educational_Resources.png
+  image: CC_License_Compatibility_Chart.jpg
   hiddenInSingle: true
 summary: Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
 url: oer-remix
@@ -52,6 +51,17 @@ tags:
   - Creative Commons
   - Lizenzen
   - Rechtsfragen
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  CC_License_Compatibility_Chart.jpg:
+    alt: 'Übersicht zur Vereinbarkeit von verschiedenen CC Lizenzen.'
+    title: Vereinbarkeit von CC Lizenzen
+    sourceUrl: https://oer.community/oer-remix
+    author: Kennisland
+    authorUrl: https://wiki.creativecommons.org/wiki/File:CC_License_Compatibility_Chart.png
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/ 
 ---
 
 Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. Die Konsequenz: Andere können das Material nicht rechtssicher weiterverwenden oder verbreiten! Wenn ihr also eure Materialien mit anderen teilen wollt, geht noch den letzten Schritt und veröffentlicht das Material mit einer offenen Lizenz, damit andere wissen, wie sie das Material nutzen können (z.B. nur unter Namensnennung, für nicht-kommerzielle Zwecke usw.).
