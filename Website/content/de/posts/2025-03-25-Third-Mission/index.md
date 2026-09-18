@@ -52,6 +52,17 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Theologie
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  clemens-van-lay-ppJjSjpaw58-unsplash.jpg:
+    alt: 'Eine rote Flagge am Strand mit dem Aufdruck "Open".'
+    title: Open-Flagge
+    sourceUrl: https://unsplash.com/de/fotos/eine-rote-offene-flagge-an-einem-strand-am-meer-ppJjSjpaw58
+    author: Clemens van Lay
+    authorUrl: https://unsplash.com/de/@clemensvanlay
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 ![Eine rote Flagge am Strand mit dem Aufdruck "Open"](clemens-van-lay-ppJjSjpaw58-unsplash.jpg)
