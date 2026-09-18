@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen'
 description: Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
 license: https://creativecommons.org/licenses/by/4.0/
@@ -36,8 +35,6 @@ about:
 image: https://oer.community/hackathoern/gina-ludger-joerg.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-05-09
 
 # staticSiteGenerator
@@ -62,6 +59,58 @@ tags:
   - interoperabel
   - FOERBICO in Kontakt
   - Digitalisierung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  gina-ludger-joerg.jpg:
+    alt: 'Jörg, Ludger und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn 2025 in Göttingen.'
+    title: FOERBICO-Team beim HackathOERn 2025
+    sourceUrl: https://oer.community/hackathoern
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  praesentation.jpg:
+    alt: 'Präsentation in den Räumen der GWDG in Göttingen mit Folie über Ziele vom HackathOERn.'
+    title: Erster HackathOERn 2025
+    sourceUrl: https://oer.community/hackathoern
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+   hackerboys.jpg:
+    alt: 'Gruppe von Entwicklern sitzen beim HackathOERn 2025 in Göttingen zusammen mit ihren Laptops und hacken gemeinsam.'
+    title: Hackerteam
+    sourceUrl: https://oer.community/hackathoern
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  hacking-in-nature.jpg:
+    alt: 'Gina und Steffen sitzen beim HackathOERn 2025 in Göttingen draußen mit ihren Laptops.'
+    title: Hacking in the nature
+    sourceUrl: https://oer.community/hackathoern
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  plattformen-als-inseln.jpg:
+    alt: 'OER-Plattformen wie OERSI, Mundo etc. werden als isolierte Inseln auf dem Meer gezeigt. Mit ChatGPT erstellt.'
+    title: Isolierte Plattforminseln
+    sourceUrl: https://oer.community/hackathoern
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
+  hackathoern-teilnehmer-innen.jpg:
+    alt: 'Gruppenfoto der Teilnehmenden des HackathOERns 2025 vor den Räumlichkeiten der GWDG.'
+    title: Gruppenfoto HackathOERn 2025
+    sourceUrl: https://oer.community/hackathoern
+    author: edu-sharing
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Wie können wir digitale Infrastrukturen stärken, um Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland voranzubringen? Mit dieser zentralen Frage im Gepäck kamen vom 28. bis 30. April 2025 Expert:innen, Entwickler:innen und OER-Interessierte beim ersten [HackathOERn von edu-sharing](https://edu-sharing-network.org/projekt-hackathoern/) in den inspirierenden Räumen der [Gesellschaft für wissenschaftliche Datenverarbeitung mbH (GWDG)](https://gwdg.de/) in Göttingen zusammen.
