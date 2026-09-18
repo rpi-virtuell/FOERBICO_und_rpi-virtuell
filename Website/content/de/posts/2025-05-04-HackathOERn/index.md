@@ -64,7 +64,7 @@ tags:
 bilder:
   gina-ludger-joerg.jpg:
     alt: 'Jörg, Ludger und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn 2025 in Göttingen.'
-    title: FOERBICO-Team beim HackathOERn 2025
+    title: 'FOERBICO-Team beim HackathOERn 2025'
     sourceUrl: https://oer.community/hackathoern
     author: FOERBICO
     authorUrl: https://oer.community
@@ -72,7 +72,7 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
   praesentation.jpg:
     alt: 'Präsentation in den Räumen der GWDG in Göttingen mit Folie über Ziele vom HackathOERn.'
-    title: Erster HackathOERn 2025
+    title: 'Erster HackathOERn 2025'
     sourceUrl: https://oer.community/hackathoern
     author: FOERBICO
     authorUrl: https://oer.community
@@ -105,7 +105,7 @@ bilder:
     ai: generated
   hackathoern-teilnehmer-innen.jpg:
     alt: 'Gruppenfoto der Teilnehmenden des HackathOERns 2025 vor den Räumlichkeiten der GWDG.'
-    title: Gruppenfoto HackathOERn 2025
+    title: 'Gruppenfoto HackathOERn 2025'
     sourceUrl: https://oer.community/hackathoern
     author: edu-sharing
     authorUrl: https://oer.community
