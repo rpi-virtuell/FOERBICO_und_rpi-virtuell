@@ -80,7 +80,15 @@ Philemon-Termin also Günther, ohne zusaetzlichen Leitungseintrag.
   steht als `identifier`. Fuer die uebrigen Termine sind die Ekiba-IDs noch nicht
   erhoben — die Ekiba-Seite nennt sieben Termine der Reihe, aber nur als Text ohne
   Links. Die IDs muessten einzeln gesucht oder bei RPI Baden erfragt werden.
-- **Anmeldewege Saarland** und die uebrigen Baden-Termine sind bisher nur Einstiegsseiten
+- **Saarland**: Fuer "Haltung zeigen" ist der Anmeldeweg ueber
+  `termine.ekir.de` belegt, dazu die EKiS-Nummer als `identifier`. Quelle ist
+  `schulreferat.saarland` — eine fuenfte Quelle, die weder Pfalz noch Baden noch
+  relilab kennen. Das Saarland gehoert kirchlich zur EKiR, nicht zur Pfalz.
+- **Wuerttemberg fuehrt keinen Termin.** Frauke Liebenehm (ptz Stuttgart) bietet
+  das Thema dort als *Abrufangebot* an (Friedens- und Demokratiebildung), nicht als
+  Termin der Reihe. Wuerttemberger Lehrkraefte finden den Termin, an dem ihre eigene
+  Referentin mitwirkt, in keinem Landessystem.
+- **Anmeldewege** der uebrigen Termine sind ausserhalb von RLP bisher nur Einstiegsseiten
   (`ekiba.bildungskirche.com/RPI`, `rpz-igb.de`), keine Direktlinks zum jeweiligen
   Termin — die Beschriftung sagt das ("Anmeldung dort suchen"). Nur die
   eVEWA-Links fuehren direkt ins Anmeldeformular; sie brauchen neben `va_id`

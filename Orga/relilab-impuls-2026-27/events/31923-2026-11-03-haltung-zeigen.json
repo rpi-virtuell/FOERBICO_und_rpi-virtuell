@@ -65,9 +65,9 @@
     ],
     [
       "registrationUrl",
-      "https://www.rpz-igb.de/",
+      "https://termine.ekir.de/d-1052072",
       "DE-SL",
-      "RPZ St. Ingbert (Anmeldung dort suchen)"
+      "Anmeldung Saarland (EKiS 26/27-007)"
     ],
     [
       "registrationUrl",
@@ -94,6 +94,14 @@
     [
       "identifier:value",
       "1031671"
+    ],
+    [
+      "identifier:propertyID",
+      "EKiS"
+    ],
+    [
+      "identifier:value",
+      "EKiS 26/27-007"
     ],
     [
       "performer:name",
@@ -210,6 +218,10 @@
     [
       "r",
       "https://www.ekiba.de/detail/termin/id/1031671-haltung-zeigen-populistische-parolen-erwidern/?cb-id=110043"
+    ],
+    [
+      "r",
+      "https://schulreferat.saarland/03-11-relilab-impuls-haltung-zeigen/"
     ],
     [
       "t",
