@@ -57,6 +57,18 @@ tags:
   - Lizenzen
   - Religionspädagogik
   - Qualitätskriterien
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  OER-Fortbildungsreihe-2.jpg:
+    alt: 'Gina Buchwald-Chassée sitzt vor der OERcamp-Fotowand mit bunten Icons, hält ein Schild mit der Aufschrift „powOER up“ und zeigt den Daumen hoch; links eine Superheldinnen-Figur aus Pappe. Das Bild wurde mit ChatGPT erstellt.'
+    title: Einladung zu Online-Fortbildungsreihe OER in der Hochschullehre für Religionspädagogik & Theologie zum Thema OER-Recherche und -Bewertung
+    sourceUrl: https://oer.community/oer-fortbildungsreihe-2
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. Im [ersten Teil](https://oer.community/oer-fortbildungsreihe-1/) unserer OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind.
