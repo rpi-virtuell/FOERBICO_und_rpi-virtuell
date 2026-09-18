@@ -58,6 +58,18 @@ tags:
   - Lizenzen
   - Religionspädagogik
   - Qualitätskriterien
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  classroom.jpg:
+    alt: 'Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" zur OER-Erstellung. Generiert mit ChatGPT.'
+    title: Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" zur OER-Erstellung
+    sourceUrl: https://oer.community/oer-fortbildungsreihe-3
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 ## Grundlagen zur Erstellung von OER
