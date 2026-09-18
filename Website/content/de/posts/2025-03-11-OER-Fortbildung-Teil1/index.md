@@ -53,6 +53,18 @@ tags:
   - Open Educational Practices (OEP)
   - Hochschuldidaktik
   - Theologie
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  OER-Fortbildungsreihe-1.jpg:
+    alt: 'Einladungsflyer zur Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik Teil 1 mit Grundlagen zu OER. Das Hintergrundbild wurde mit ChatGPT erstellt.'
+    title: Einladung Online-Fortbildung zum Thema OER in der Hochschullehre für Theologie und Religionspädagogik Teil 1 
+    sourceUrl: https://oer.community/oer-fortbildungsreihe-1
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 ## Wir legen endlich los!
