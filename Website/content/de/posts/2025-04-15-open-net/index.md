@@ -59,7 +59,7 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   greg-und-joerg-we-are-open.jpg:
-    alt: 'Screenshot vom Videocall von Greg Elson (GEP) mit Jörg Lohrer (CI) zu dezentralen Bildungs- und Medienarchitekturen im protestantischen Raum mit der Aufschrift "We are open".'
+    alt: 'Screenshot vom Videocall von Greg Elson (GEP) mit Jörg Lohrer (CI) zu dezentralen Bildungs- und Medienarchitekturen im protestantischen Raum mit der Aufschrift "We are open". Schriftzug KI-generiert'
     title: We are open - Greg Elson (GEP) und Jörg Lohrer (FOERBICO)
     sourceUrl: https://oer.community/evangelisches-labor/
     author: FOERBICO
