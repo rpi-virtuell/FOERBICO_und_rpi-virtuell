@@ -22,16 +22,12 @@ about:
 image: Save the Date.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-09-26
 keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
   - Community Forschung
-  - ''
-'@type': LearningResource
 url: save-the-date
 
 # staticSiteGenerator
@@ -48,13 +44,21 @@ tags:
   - Open Educational Practices (OEP)
   - OER-Community
   - Community Forschung
-  - ''
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Save the Date.jpg:
+    alt: 'Einladungsflyer als Save-the-Date zur FOERBICO-Zwischenfazittagung im Februar 2026 in Nürnberg.'
+    title: Save-the-Date FOERBICO-Zwischenfazittagung
+    sourceUrl: https://oer.community/save-the-date
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 
 # Save the Date: „Mit OER zu einer Kultur des Teilens“ - Jetzt mit Anmeldung
-
-[![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 ## Tagung am 24.–25. Februar 2026 in Nürnberg
 
