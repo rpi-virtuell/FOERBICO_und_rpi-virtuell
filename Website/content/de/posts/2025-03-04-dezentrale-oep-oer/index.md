@@ -59,7 +59,7 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   dezentrale-oep-oer.jpg:
-    alt: 'Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu Nostr (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig.'
+    alt: 'Ein in den Sand gezeichneter Strauß mit den Buchstaben OER als Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu Nostr als dezentralisiertes Kommunikationsprotokoll liegt nahe: Nostr klingt wie ein Teil von Ostrich, Englisch für Strauß. So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen frei, unabhängig und widerstandsfähig teilt.'
     title: 'OER-Strauß als Zeichen für offene Bildung und freien Wissensaustausch mit dem Nostr-Protokoll'
     sourceUrl: https://oer.community/dezentrale-oep-oer/
     author: FOERBICO
