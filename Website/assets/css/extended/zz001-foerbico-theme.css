@@ -65,22 +65,22 @@ a:hover {
     border-radius: var(--radius);
 }
 
-.dark {
+:root[data-theme="dark"] {
     --primary: #F0F8FF; /* Headline color in dark mode */
     --content: #cccccc; /* Text color in dark mode */
     --theme: #222222; /* Background for dark mode */
     --border: #F0F8FF;
 }
-.dark img {
+:root[data-theme="dark"] img {
     background-color: #cccccc;
 }
-.dark .header {
+:root[data-theme="dark"] .header {
     background-color: var(--heading-bg-dark);
 }
-.dark .entry-cover {
+:root[data-theme="dark"] .entry-cover {
     background-color: #333333;
 }
-.dark .footer {
+:root[data-theme="dark"] .footer {
     background-color: var(--entry);
 }
 
