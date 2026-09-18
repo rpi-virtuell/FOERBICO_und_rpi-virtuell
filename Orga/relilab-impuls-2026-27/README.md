@@ -75,7 +75,12 @@ Philemon-Termin also Günther, ohne zusaetzlichen Leitungseintrag.
   „donnerstags oder freitags“. Gegen die bestehenden Bot-Events geprüft: die
   Zeitstempel stimmen überein, die Abweichung ist real.
 - **Ostern (19.02.2027)** hat keinen eVEWA-Eintrag, daher keinen RLP-Anmeldelink.
-- **Anmeldewege Baden und Saarland** sind bisher nur Einstiegsseiten
+- **Ekiba-Direktlinks**: Fuer "Haltung zeigen" ist der Baden-Anmeldelink bekannt
+  (Bildungsportal mit Produkt-ID) und als `DE-BW` hinterlegt; die Ekiba-Termin-ID
+  steht als `identifier`. Fuer die uebrigen Termine sind die Ekiba-IDs noch nicht
+  erhoben — die Ekiba-Seite nennt sieben Termine der Reihe, aber nur als Text ohne
+  Links. Die IDs muessten einzeln gesucht oder bei RPI Baden erfragt werden.
+- **Anmeldewege Saarland** und die uebrigen Baden-Termine sind bisher nur Einstiegsseiten
   (`ekiba.bildungskirche.com/RPI`, `rpz-igb.de`), keine Direktlinks zum jeweiligen
   Termin — die Beschriftung sagt das ("Anmeldung dort suchen"). Nur die
   eVEWA-Links fuehren direkt ins Anmeldeformular; sie brauchen neben `va_id`
