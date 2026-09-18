@@ -33,8 +33,6 @@ image: https://oer.community/lizenz-irrtum-oer/nadel-im-heuhaufen.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-06-11
 
 # staticSiteGenerator
@@ -50,6 +48,18 @@ cover:
   hiddenInSingle: true
 summary: Was tun, wenn ein OER-Material versehentlich falsch lizenziert wurde? Anhand eines konkreten Falls mit den SDG-Symbolen der UN zeigen wir, wie schnell rechtliche Unsicherheiten entstehen können und wie man damit umgehen sollte. Wir erklären, wer Lizenzen vergeben darf und was bei rückwirkenden Änderungen gilt. Dabei bleibt der Beitrag praxisnah und ermutigt zur weiteren Nutzung freier Lizenzen, mit einem geschärften Blick für rechtliche Details.
 url: lizenz-irrtum-oer
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  nadel-im-heuhaufen.jpg:
+    alt: Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh.
+    title: Eine Nadel im Heuhaufen: ein seltener Fall mit (gültiger?) CC-Lizenz
+    sourceUrl: https://oer.community/lizenz-irrtum-oer/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+    ai: generated
 ---
 
 ## Eine Fallbeschreibung
