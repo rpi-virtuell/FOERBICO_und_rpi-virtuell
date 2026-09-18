@@ -52,8 +52,8 @@ url: lizenz-irrtum-oer
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   nadel-im-heuhaufen.jpg:
-    alt: Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh.
-    title: Eine Nadel im Heuhaufen: ein seltener Fall mit (gültiger?) CC-Lizenz
+    alt: 'Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh.'
+    title: 'Eine Nadel im Heuhaufen: ein seltener Fall mit (gültiger?) CC-Lizenz'
     sourceUrl: https://oer.community/lizenz-irrtum-oer/
     author: FOERBICO
     authorUrl: https://oer.community
