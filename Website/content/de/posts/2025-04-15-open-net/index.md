@@ -30,8 +30,6 @@ about:
 image: https://oer.community/evangelisches-labor/greg-und-joerg-we-are-open.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-04-15
 
 # staticSiteGenerator
@@ -57,6 +55,17 @@ tags:
   - Evangelisches Labor
   - interoperabel
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  greg-und-joerg-we-are-open.jpg:
+    alt: 'Screenshot vom Videocall von Greg Elson (GEP) mit Jörg Lohrer (CI) zu dezentralen Bildungs- und Medienarchitekturen im protestantischen Raum mit der Aufschrift "We are open".'
+    title: We are open - Greg Elson (GEP) und Jörg Lohrer (FOERBICO)
+    sourceUrl: https://oer.community/evangelisches-labor/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Vom Gemeindebrief zur Protokollarchitektur: Wie sich Bildungsräume vernetzen lassen
