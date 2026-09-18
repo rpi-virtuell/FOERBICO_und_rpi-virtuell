@@ -64,8 +64,8 @@ bilder:
     alt: 'Vorstellung der Mastodon-Instanz libori.social als pastorles Netzwerk im Erzbistum Paderborn, Pfau stammt aus der Google-Schriftart Noto-Emojie, die unter der Open Font License steht.'
     title: Vorstellung der Mastodon-Instanz libori.social als pastorles Netzwerk im Erzbistum Paderborn
     sourceUrl: https://oer.community/libori-social/
-    author: Alexander Müller, Erzbistum Paderborn
-    authorUrl: https://www.erzbistum-paderborn.de/
+    author: Alexander Müller, libori.social
+    authorUrl: https://libori.social
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
   startodon-reliverse.jpg:
