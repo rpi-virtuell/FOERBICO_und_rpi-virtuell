@@ -189,9 +189,11 @@ function personen(ev){
   for (const rolle of ["performer","contributor"]){
     const namen = tags(ev, rolle + ":name").map(t => t[1]);
     const orte  = tags(ev, rolle + ":affiliation:name").map(t => t[1]);
+    // Die Rollen stehen parallel zu den Namen: je Person die eigene, nicht die erste.
+    const rollen = tags(ev, rolle + ":role").map(t => t[1]);
     namen.forEach((n,i) => {
       const label = rolle === "performer" ? "Referent:in"
-                  : (tag1(ev,"contributor:role") || "Mitwirkung");
+                  : (rollen[i] || "Mitwirkung");
       raus.push(`<span class="person"><span class="rolle">${esc(label)}</span>${esc(n)}${
         orte[i] ? " <span style='color:var(--rl-text-leise)'>· " + esc(orte[i]) + "</span>" : ""}</span>`);
     });
