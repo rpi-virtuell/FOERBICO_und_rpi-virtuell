@@ -61,6 +61,34 @@ tags:
   - Kollaboration
   - Git
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  foerbildfunktion.jpg:
+    alt: Logo FOERbild-Funktion mit Leiterbahn-Symbol auf hellblauem Hintergrund.
+    title: Logo FOERbild-Funktion mit Leiterbahn-Symbol
+    sourceUrl: https://oer.community/so-arbeiten-wir/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
+  Redaktionsprozess.png:
+    alt: 'Abbildung vom Workflow im Rahmen des FOERBICO-Projektes.'
+    title: Redaktionsprozess des FOERBICO-Teams
+    sourceUrl: https://oer.community/so-arbeiten-wir/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Grafik-1.jpg:
+    alt: 'Ziele des offenen redaktionellen Prozesses vom FOERBICO-Team'
+    title: Ziele des offenen redaktionellen Prozesses vom FOERBICO-Team
+    sourceUrl: https://oer.community/so-arbeiten-wir/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Vorweg: Offene Projektkultur im Kontext von FOERBICO
