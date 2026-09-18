@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'OER meets Fachdidaktik – Konferenz Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre'
 description: 'Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre. Jahrestagung des Netzwerks Theologie und Hochschuldidaktik im Februar 2025'
 license: https://creativecommons.org/licenses/by/4.0/
