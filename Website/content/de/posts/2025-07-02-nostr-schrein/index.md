@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Die Kraft der Gemeinschaft: Wahre Stärke liegt nicht in Strukturen, sondern in Prozessen'
 description: 'Im FOERBICO-Projekt zeigen wir: Nicht starre Strukturen machen Systeme dauerhaft robust, sondern die Kontinuität und Anpassungsfähigkeit ihrer Prozesse. Am Ise-Schrein und Open-Source-Prinzipien wird deutlich, wie Bildungsinfrastrukturen gemeinschaftsgetragen, erneuerbar und offen gestaltet werden können – jenseits geschlossener Plattformen hin zu atmenden Protokoll-Ökosystemen (z. B. Nostr).'
 license: https://creativecommons.org/licenses/by/4.0/
