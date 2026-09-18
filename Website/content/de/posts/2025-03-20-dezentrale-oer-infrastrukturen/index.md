@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Dezentrale OER-Infrastrukturen: Interoperabilität und Community-Vernetzung im digitalen Bildungsraum'
 description: Wie können wir offene Bildungsressourcen (OER) nachhaltig und gemeinschaftlich gestalten? Dieser Beitrag beleuchtet die fundamentalen Überlegungen zur Entwicklung dezentraler OER-Infrastrukturen. Matthias, Gina und Jörg haben sich ausgetauscht zu technischen Herausforderungen, nutzerzentrierten Anforderungen und innovativen Konzepte wie "OpenCards", die eine vernetzte und remixbare OER-Landschaft ermöglichen sollen. Einblicke von digLL und dem FOERBICO-Projekt zeigen, wie Interoperabilität und Community-Vernetzung die Zukunft des digitalen Lernens prägen können.
 license: https://creativecommons.org/licenses/by/4.0/
