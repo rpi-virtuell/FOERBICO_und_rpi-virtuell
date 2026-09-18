@@ -62,6 +62,25 @@ tags:
   - Theologie
   - Medienpädagogik
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  check-306411_1280.png:
+    alt: 'Weißes Blatt Papier als Checkliste mit Text und Checkboxen mit Haken oder X vor hellgrünem Hintergrund.' 
+    title: Checkliste
+    sourceUrl: https://pixabay.com/de/vectors/pr%C3%BCfen-auff%C3%BChren-papier-hinweis-306411/
+    author: Clker-Free-Vector-Images
+    authorUrl: https://pixabay.com/de/users/clker-free-vector-images-3736/
+    licence: CC0
+    licenceUrl: https://pixabay.com/de/service/terms/
+  MaPS-Logo-17.10-rounded.png:
+    alt: 'Logo von einem Laptop mit Aufschrift M@ps im Screen und einer Kompass-Nadel.' 
+    title: M@ps-Logo
+    sourceUrl: https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/pluginfile.php/5604/mod_label/intro/M%40PS-Logo-17.10-rounded.png
+    author: Goethe-Universität Frankfurt am Main
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: © 
+    licenceUrl: https://www.dpma.de/service/schutzrechte_kurz_erklaert/urheberrecht/index.html
 ---
 
 Wodurch zeichnen sich gute Open Educational Resources (OER) aus? Wie lassen sich Bildungsmaterialien mit einem Kriterienkatalog begutachten und welche Faktoren spielen eine wichtige Rolle? Damit OER nicht nur gemäß der [5V-Freiheiten](https://open-educational-resources.de/5rs-auf-deutsch/) verwahrt, verwendet, verarbeitet, vermischt und verbreitet werden können, sondern auch auf pädagogischer-didaktischer und religionspädagogischer Ebene hohe Qualität aufweisen, braucht es verschiedene Elemente.
