@@ -68,6 +68,18 @@ keywords:
   - interoperabel
   - Vernetzung
   - dezentral
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Herausforderung-Bildungsinfrastruktur-KI-generiert.jpg:
+    alt: 'Illustration eines jungen Mannes, der in einem Getreidefeld vor einem Landhaus eine große Landkarte betrachtet und den Weg sucht.'
+    title: Herausforderungen öffentlicher Bildungsinfrastrukturen
+    sourceUrl: https://oer.community/just-calling-it-open-is-not-enough
+    author: Steffen Rörtgen
+    authorUrl: https://oer.community
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    ai: generated
 ---
 
 
