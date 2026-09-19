@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Open Education – Gemeinsam gestalten, teilen, lernen: Eindrücke von der digiLL_COM-Tagung'
 description: >-
   Am 18. Juni 2026 waren wir von FOERBICO bei der Tagung "Open Education – Gemeinsam gestalten, teilen, lernen" an der Professional School of Education der Ruhr-Universität Bochum (RUB) dabei, um die aktuellen Entwicklungen zum Community-Hub des FOERBICO-Projekts vorzustellen und mit weiteren Open-Education-Akteur:innen ins Gespräch zu kommen.
