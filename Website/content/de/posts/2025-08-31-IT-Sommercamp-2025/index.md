@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: HackathOERn goes OER/IT-Sommercamp in Weimar
 description: Vom 25.–27. August 2025 tüftelten Ludger & Gina vom FOERBICO-Team beim OER/IT-Sommercamp in Weimar gemeinsam mit IT-Profis, OER-Enthusiasten und Gestalter:innen an Ideen für OER- und OEP-förderliche Infrastrukturen.
 license: https://creativecommons.org/licenses/by/4.0/
