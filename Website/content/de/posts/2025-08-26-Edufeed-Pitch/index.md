@@ -41,6 +41,18 @@ tags:
   - Nostr
   - Open Educational Resources (OER)
   - Offenheit
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  ChatGPT-Plattforminseln.jpg:
+    alt: 'OER-Plattformen wie OERSI, Mundo etc. werden als isolierte Inseln auf dem Meer gezeigt. Mit ChatGPT erstellt.'
+    title: Isolierte Plattforminseln
+    sourceUrl: https://oer.community/edufeed-pitch
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 Edufeed ist unsere Vision einer dezentralen Infrastruktur für den Bildungsbereich, die auf dem offenen Social-Media-Protokoll Nostr basiert. Unser Ziel ist es, OER-Materialien plattformübergreifend auffindbar, teilbar und nutzbar zu machen – unabhängig von zentralen Plattformen oder proprietären Systemen. Dies sichert die Sichtbarkeit, Wiederverwendbarkeit und Langzeitverfügbarkeit von OER nachhaltig, regt zu offener Bildungspraxis an und hat auch unser Pitch-Team institutionsübergreifend zu einer Entwicklungscommunity zusammengebracht, die erweiterte Beteiligung initialisiert. Dazu haben wir bei einem Pitch unsere Idee zur Weiterentwicklung von Edufeed vorgestellt, um eine Sprint-Förderung in Höhe von 50.000€ zu erhalten.
