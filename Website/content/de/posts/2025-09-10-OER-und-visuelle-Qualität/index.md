@@ -51,6 +51,17 @@ tags:
   - Theologie
   - Bildungsmedien
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  pictureframe.jpg:
+    alt: Eine Frau steht vor einem Gemälde an einer Wand mit einem Holzrahmen und schwarzem Bildinhalt.
+    title: Eine Frau betrachtet ein Gemälde an einer Wand
+    sourceUrl: https://unsplash.com/de/fotos/eine-frau-betrachtet-ein-gemalde-an-einer-wand-U74OlS8ANGI
+    author: mk. s
+    authorUrl: https://unsplash.com/de/@mk__s
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle in der Lehre. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen. Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.
