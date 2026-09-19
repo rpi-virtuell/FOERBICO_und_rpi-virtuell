@@ -50,6 +50,17 @@ tags:
   - Religionspädagogik
   - Theologie
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  TiRU.png:
+    alt: 'Logo vom Projekt "Tablets im Religionsunterricht (TiRU)" mit einem Tablet und Stift, im Screen steht "TiRU" sowie drei farbige Kreise.'
+    title: 'Logo vom Projekt "Tablets im Religionsunterricht (TiRU)"'
+    sourceUrl: https://oer.community/digitale-offenheit-braucht-tiefe/
+    author: Goethe-Universität Frankfurt am Main
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 
