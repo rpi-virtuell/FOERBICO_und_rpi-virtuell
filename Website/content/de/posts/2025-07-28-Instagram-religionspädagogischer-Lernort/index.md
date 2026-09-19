@@ -22,14 +22,11 @@ about:
 image: https://oer.community/instagram-als-lernort/ima_22a17d4.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-07-31
 keywords:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
-'@type': LearningResource
 
 # staticSiteGenerator
 author:
@@ -45,6 +42,41 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  ima_22a17d4.jpg:
+    alt: 'Logo vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit einem geöffneten Buch mit schwarzer Aufschrift "Neues Testament" und grünem "TU" auf weißer Buchseite.' 
+    title: 'Logo vom Instagram-Account @nt.evangelisch_tudortmund'
+    sourceUrl: https://oer.community/instagram-als-lernort/
+    author: Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund
+    authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  ima_2648be8.jpg:
+    alt: 'Visual  mit Comic-Figur und Glühbirne vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Elia erklärt: Die "Dürre-Komposition" (1Kön 17-18) - perfekt für den Religionsunterricht.' 
+    title: 'Beispiel-Visual "Elia erklärt: Die "Dürre-Komposition" (1Kön 17-18)" vom Instagram-Account @nt.evangelisch_tudortmund'
+    sourceUrl: https://oer.community/instagram-als-lernort/
+    author: Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund
+    authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  ima_a6fc6d5.jpg:
+    alt: 'Visual  mit Schultafel mit glücklicher Figur links und trauriger Figur rechts, die jeweils eine Münze mit einer 1 in der Hand halten vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Teaching Justice: Das Gleichnis von den Arbeitern im Weinberg (Mt, 20, 1-16)".' 
+    title: 'Beispiel-Visual ""Teaching Justice: Das Gleichnis von den Arbeitern im Weinberg (Mt, 20, 1-16)" vom Instagram-Account @nt.evangelisch_tudortmund'
+    sourceUrl: https://oer.community/instagram-als-lernort/
+    author: Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund
+    authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  ima_eb6a938.jpg:
+    alt: 'Visual  mit Comic-Herzfigur, das eine Bibel in die Höhe hält vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Liebe im Religionsunterricht? Neutestamentliche Perspektiven".' 
+    title: 'Beispiel-Visual "Liebe im Religionsunterricht? Neutestamentliche Perspektiven" vom Instagram-Account @nt.evangelisch_tudortmund'
+    sourceUrl: https://oer.community/instagram-als-lernort/
+    author: Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund
+    authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 ## Einblicke in den Account @nt.evangelisch_tudortmund und seine Bedeutung für eine zeitgemäße Religionspädagogik
