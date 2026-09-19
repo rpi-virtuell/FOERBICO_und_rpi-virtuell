@@ -55,7 +55,7 @@ title: 'Offen und leicht zu finden? OER-Plattformen für religionspädagogische 
 cover:
   relative: true
   image: mohammed-zayan-khan-ack4TTlozAw-unsplash.jpg
-  alt: 'Hängende Lupe, Foto von [Mohammed Zayan Khan](https://unsplash.com/de/@a_zayan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText auf [Unsplash](https://unsplash.com/de/fotos/ein-rot-schwarzer-schlusselanhanger-ack4TTlozAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  alt: 'Hängende Lupe, Foto von [Mohammed Zayan Khan](https://unsplash.com/de/@a_zayan auf [Unsplash](https://unsplash.com/de/fotos/ein-rot-schwarzer-schlusselanhanger-ack4TTlozAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       '
   hiddenInSingle: false
 summary: >-
@@ -69,6 +69,17 @@ tags:
   - Vernetzung
   - dezentral
   - Qualitätskriterien
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  mohammed-zayan-khan-ack4TTlozAw-unsplash.jpg:
+    alt: Rote Handlupe an einer Schnur vor einer grauen Wand
+    title: Hängende Lupe
+    sourceUrl: https://unsplash.com/de/fotos/ein-rot-schwarzer-schlusselanhanger-ack4TTlozAw
+    author: Mohammed Zayan Khan
+    authorUrl: https://unsplash.com/de/@a_zayan
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 
