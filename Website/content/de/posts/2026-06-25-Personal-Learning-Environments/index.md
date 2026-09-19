@@ -97,7 +97,17 @@ tags:
   - Lifelong Learning
   - Offene Lernkulturen
   - Mediendidaktik
-  
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Wortwolke.jpg:
+    alt: 'Wortwolke aus den seminarbegleitenden Evaluationen mit wiederkehrend genannten Stärken der Seminarkonzeption, u.a. Methodenvielfalt, Lernatmosphäre, Praxisnähe und die Verknüpfung von Fachwissenschaft und Fachdidaktik.'
+    title: 'Auszug aus seminarbegleitenden Evaluationen im Zeitraum WiSe 2022/23–SoSe 2025, in denen Studierende die Stärken der Seminarkonzeption nennen (eigene Darstellung)'
+    sourceUrl: https://oer.community/personal-learning-environments-in-der-hochschulbildung
+    author: Goethe-Universität Frankfurt am Main
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 
