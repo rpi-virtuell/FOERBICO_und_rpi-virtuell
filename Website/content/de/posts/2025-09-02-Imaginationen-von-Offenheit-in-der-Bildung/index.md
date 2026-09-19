@@ -65,6 +65,18 @@ tags:
   - Hochschuldidaktik
   - Digitalisierung
   - KI
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  geo-tueren-offenheit.jpg:
+    alt: Abstrakte Illustration mit drei sich überlappenden geometrischen Formen. Im Hintergrund ein Raster aus offenen und geschlossenen Türen als Textur.
+    title: Symbolbild
+    sourceUrl: https://oer.community/imaginationen-offenheit-bildung/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    ai: generated
 ---
  
 Markus Deimann veröffentlichte seinen Aufsatz „Imaginaries of Openness in Education" 2025 in der ersten Ausgabe des DILeMa-Journals, einer Zeitschrift des europäischen Netzwerks [DIGI-Europe](https://digi-europe.org/dilema-journal.html) für digitale Kompetenz in der Bildung. Die Zeitschriftenwebsite [dilema-journal.de](https://www.dilema-journal.de) ist immer wieder von Serverausfällen betroffen - ein Symptom der Fragilität projektfinanzierter Infrastruktur, auf der ein Großteil offener Bildungspublikationen aufsetzt.
