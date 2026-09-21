@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'HackathOERn 2026 in Göttingen – Zwischen KI-Editoren, OER-Navigation und offenen Events'
 description: >-
   Vom 11. bis 13. Mai 2026 waren wir mit dem FOERBICO-Team beim HackathOERn in Göttingen dabei, um gemeinsam mit weiteren Open-Education-Akteur:innen an Lösungen für offene Bildungsinfrastrukturen zu tüfteln.
@@ -51,8 +50,6 @@ about:
 image: https://oer.community/hackathoern-2026/Gruppenfoto-HackathOERn.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-06-03'
 keywords:
   - KI
@@ -80,6 +77,41 @@ tags:
   - Open Educational Resources (OER)
   - FOERBICO in Kontakt
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Gruppenfoto-HackathOERn.jpg:
+    alt: 'Teilnehende vom HackathOERn 2026 stehend und sitzend mit HackathOERn-Logo im Hintergrund.'
+    title: Gruppenfoto der Teilnehmenden vom HackathOERn 2026
+    sourceUrl: https://oer.community/hackathoern-2026
+    author: GWDG | edu-sharing e.V.
+    authorUrl: https://edu-sharing-network.org/projekt-hackathoern/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  5.jpg:
+    alt: 'Abbildung vom Ökosystem: Inhalt kommt von WordPress, Drupal oder HTML zu Icon Termi in Form eines Kalenders, Inhalte werden zu Nostr bzw. OERSI konvertiert und können so vom NavigatOER in Form eines Krokodils gefunden werden.'
+    title: 'Das Ökosystem: WordPress/Drupal/HTML5 → Termi → OERSI + Nostr → NavigatOER'
+    sourceUrl: https://oer.community/hackathoern-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  2.jpg:
+    alt: 'Das Termi-Team am Whiteboard: Ludger, Steffen, Gina und Jörg vom FOERBICO-Team mit Toby (GWDG) und Maskottchen „Termi"'
+    title: 'Das Termi-Team'
+    sourceUrl: https://oer.community/hackathoern-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  11.jpg:
+    alt: 'Die NavigatOER- und Termi-Crew vor der Ökosystem-Folie – „See you later, NavigatOER"'
+    title: 'Die NavigatOER- und Termi-Crew'
+    sourceUrl: https://oer.community/hackathoern-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Vom 11. bis 13. Mai 2026 kamen in den Räumen der [GWDG - Gesellschaft für wissenschaftliche Datenverarbeitung](https://gwdg.de/) in Göttingen zahlreiche Open-Education-Enthusiast:innen, Entwickler:innen, Bildungspraktiker:innen und Forschende zusammen, um im Rahmen des [HackathOERn-Projekts](https://edu-sharing-network.org/projekt-hackathoern/) gemeinsam an offenen Bildungsinfrastrukturen zu tüfteln.
