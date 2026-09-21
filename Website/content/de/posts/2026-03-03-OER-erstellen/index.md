@@ -47,7 +47,25 @@ tags:
   - Creative Commons
   - Rechtsfragen
   - Lizenzen
-  
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  How_to_get_started_OER_Xue_Paschke.jpg:
+    alt: 'Flussdiagramm zur Entwicklung eines Bildungsangebots mit den Schritten Themenwahl, Zielgruppenbestimmung, Entscheidung zwischen Remixen und Neuerstellung, didaktische Konzeption, rechtliche und lizenzbezogene Prüfung sowie Qualitätsprüfung.'
+    title: Flussdiagramm zur OER-Erstellung
+    sourceUrl: https://oer.community/oer-erstellen
+    author: Paula Xue Paschke
+    authorUrl: https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/mitarbeitende/paula-xue-paschke
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Tabelle.png:
+    alt: 'Tabelle zur Zuordnung von Schularten zu Bildungsstufen. Quelle der Zuordnung: DINI-AG KIM (2022), Zuordnung nach Bildungsberichterstattung (2022, S. XII); atypische Mehrfachzuordnungen wurden bereinigt.'
+    title: Tabelle zur Zuordnung von Schularten zu Bildungsstufen
+    sourceUrl: https://oer.community/oer-erstellen
+    author: Paula Xue Paschke
+    authorUrl: https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/mitarbeitende/paula-xue-paschke
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Möchte man mit der Erstellung von OER beginnen, geht das oft mit Unsicherheiten einher: Wie fange ich an? Welche Schritte sind sinnvoll? Und wie lassen sich Qualität, Offenheit, rechtliche Sicherheit und fachliche Dimensionen kohärent miteinander verknüpfen?
