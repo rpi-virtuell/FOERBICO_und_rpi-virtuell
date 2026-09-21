@@ -25,8 +25,6 @@ image: https://oer.community/hoerz/cover.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2026-04-17
 keywords:
   - FOERBICO in Kontakt
@@ -54,6 +52,25 @@ tags:
   - Open Educational Resources (OER)
   - Gamification
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  cover.jpg:
+    alt: 'hOERz – Holzherzen mit NFC-Chips auf der FOERBICO-Tagung'
+    title: Teile dein hOERz
+    sourceUrl: https://oer.community/hoerz
+    author: Franco Rau
+    authorUrl: https://orcid.org/0000-0003-0327-4704
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  foerbico-herz.png:
+    alt: 'SDG17-Logo der Deutschen UNESCO-Kommission mit orangem Herz in der Mitte'
+    title: SDG17-Herz, Deutsche UNESCO-Kommission mit hOERz-Ergänzung durch FOERBICO
+    sourceUrl: https://oer.community/hoerz
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY-SA 4.0
+    licenceUrl: https://creativecommons.org/licenses/by-sa/3.0/
 ---
 
 ![hOERz-Logo: SDG17-Logo mit orangem Herz](foerbico-herz.png)
