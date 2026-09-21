@@ -174,6 +174,10 @@ Der Bericht hat zwei Stufen. **Knapp ist die Vorgabe:**
 Die Kurzfassung wächst nur im Umfang des Problems: rund 11 Zeilen, wenn nichts schiefgeht,
 plus rund 8 je blockiertem Beitrag.
 
+**Ein Probelauf ist unverkennbar.** Mit `--dry-run` steht „PROBELAUF" im Titel des
+Berichts, als eigener Hinweisblock darüber und als erste Zeile im Log. Ohne das sähe ein
+Probelauf in der Kurzfassung genauso aus wie ein echter Lauf — beide melden „publiziert 19".
+
 **Über den Umfang entscheidet allein `--verbose`.** `GITHUB_STEP_SUMMARY` beeinflusst den
 Inhalt nicht — es ist nur ein zusätzlicher Ausgabeort und existiert ausschließlich innerhalb
 von GitHub Actions.

@@ -21,10 +21,11 @@ import dataclasses
 import json
 import os
 import sys
+import traceback
 from pathlib import Path
 
 import nak
-from models import Outcome
+from models import Outcome, PostResult
 from publish import ARTICLE, publish_post
 from report import progress_line, render_brief, render_summary
 
@@ -85,6 +86,9 @@ def main(argv: list[str] | None = None) -> int:
         print("BUNKER_URL fehlt — ohne Signer kann nichts publiziert werden.", file=sys.stderr)
         return 2
 
+    if args.dry_run:
+        print("PROBELAUF (--dry-run) — es wird nichts gesendet", flush=True)
+
     relays = args.relay or ARTICLE_RELAYS
     results = _work_through(posts, pubkey=pubkey, signer=signer, relays=relays, args=args)
 
@@ -93,7 +97,8 @@ def main(argv: list[str] | None = None) -> int:
     if args.show_events:
         _print_events(results)
 
-    bericht = render_summary(results) if args.verbose else render_brief(results)
+    stufe = render_summary if args.verbose else render_brief
+    bericht = stufe(results, dry_run=args.dry_run)
     print(bericht)
     _write_step_summary(bericht)
 
@@ -116,18 +121,45 @@ def _work_through(posts: list[Path], *, pubkey: str, signer: str, relays: list[s
     """
     results = []
     for path in posts:
-        result = publish_post(
-            path.read_text(encoding="utf-8", errors="replace"),
-            path=shorten(path),
-            pubkey=pubkey,
-            signer=signer,
-            relays=relays,
-            amb_relay=args.amb_relay,
-            dry_run=args.dry_run,
-        )
+        try:
+            result = publish_post(
+                path.read_text(encoding="utf-8", errors="replace"),
+                path=shorten(path),
+                pubkey=pubkey,
+                signer=signer,
+                relays=relays,
+                amb_relay=args.amb_relay,
+                dry_run=args.dry_run,
+            )
+        except Exception as abbruch:
+            results.append(_abbruch(path, abbruch))
+            print(progress_line(results[-1]), flush=True)
+            break
         results.append(result)
         print(progress_line(result), flush=True)
     return results
+
+
+def _abbruch(path: Path, fehler: Exception) -> PostResult:
+    """Macht aus einem unerwarteten Fehler ein Ergebnis und haelt an.
+
+    Ohne das faellt die Ausnahme durch `main()` durch, und es gibt **weder
+    Bericht noch Protokoll** — in der CI laeuft der Artefakt-Schritt dann in
+    `if-no-files-found: warn`, es bleibt ein Stacktrace und sonst nichts.
+
+    Angehalten wird bewusst (`break` beim Aufrufer): Ein unerwarteter Fehler
+    heisst, dass eine Annahme nicht stimmt. Die uebrigen Beitraege unter dieser
+    Annahme zu publizieren waere schlechter als anzuhalten.
+
+    Der Stacktrace geht nach stderr — im Bericht steht die Art des Fehlers,
+    fuer die Entwicklung braucht es die Zeilen.
+    """
+    traceback.print_exc(file=sys.stderr)
+    return PostResult(
+        path=shorten(path),
+        outcome=Outcome.FAILED,
+        reason=f"unerwarteter Abbruch: {type(fehler).__name__}: {fehler}",
+    )
 
 
 def _add_addresses(results: list, *, pubkey: str, relay: str) -> None:

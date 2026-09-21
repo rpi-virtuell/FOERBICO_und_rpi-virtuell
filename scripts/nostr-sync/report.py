@@ -24,7 +24,9 @@ HABLA = "https://habla.news/a/"
 YAKIHONNE = "https://yakihonne.com/article/"
 
 
-LEERER_LAUF = "## Nostr-Sync\n\nKeine Beitraege zu bearbeiten.\n"
+TITEL = "## Nostr-Sync"
+PROBELAUF_TITEL = f"{TITEL} — PROBELAUF"
+LEERER_LAUF = "\n\nKeine Beitraege zu bearbeiten.\n"
 
 
 def progress_line(result: PostResult) -> str:
@@ -36,14 +38,22 @@ def progress_line(result: PostResult) -> str:
     Das Label ist auf 15 Zeichen gepolstert (`fehlgeschlagen` ist mit 14 der
     laengste Ausgang), damit Pfad und Slug eine lesbare Spalte bilden. Der Slug
     fehlt bei uebersprungenen Beitraegen — sie kamen nie so weit.
+
+    Fehlgeschlagene Beitraege tragen ihren Grund mit, damit die Zeile an ihrer
+    Stelle selbsterklaerend ist — sonst steht im Log nur „fehlgeschlagen
+    <pfad>", und das Warum findet man erst im Bericht. Publizierte tragen ihn
+    nicht: Dort steht „dry-run — nichts gesendet", und das sagt schon die
+    Kopfzeile des Berichts.
     """
     zeile = f"{result.outcome.value:<15}{result.path}"
     if result.slug:
         zeile += f"  {result.slug}"
+    if result.reason and result.outcome is Outcome.FAILED:
+        zeile += f" — {result.reason}"
     return zeile
 
 
-def render_brief(results: list[PostResult]) -> str:
+def render_brief(results: list[PostResult], *, dry_run: bool = False) -> str:
     """Die Kurzfassung fuer einen CI-Lauf: Zaehler, Probleme, sonst nichts.
 
     Bewusst weggelassen: publizierte und unveraenderte Beitraege, deren
@@ -55,10 +65,10 @@ def render_brief(results: list[PostResult]) -> str:
     Wer alles braucht: `--verbose` oder das Protokoll (`--log`).
     """
     if not results:
-        return LEERER_LAUF
+        return _titel(dry_run) + LEERER_LAUF
 
     nach_ausgang = _by_outcome(results)
-    teile = _head(results, nach_ausgang)
+    teile = _head(results, nach_ausgang, dry_run=dry_run)
     teile += _warning_count(results)
     teile += _failures(nach_ausgang[Outcome.FAILED], only_errors=True)
     return "\n".join(teile)
@@ -68,14 +78,16 @@ def _by_outcome(results: list[PostResult]) -> dict:
     return {ausgang: [r for r in results if r.outcome is ausgang] for ausgang in Outcome}
 
 
-def _head(results: list[PostResult], nach_ausgang: dict) -> list[str]:
+def _head(results: list[PostResult], nach_ausgang: dict, *, dry_run: bool) -> list[str]:
     """Was beide Stufen gemeinsam haben — und in derselben Reihenfolge.
 
     Gemeinsam, damit die Reihenfolge nicht zwischen den Stufen auseinanderlaeuft:
     Was blockiert, steht immer vor den Zahlen, und die Zahlen vor jeder
-    Einzelheit.
+    Einzelheit. Der Probelauf-Hinweis steht noch davor — er deutet alles
+    darunter um.
     """
-    teile = ["## Nostr-Sync\n"]
+    teile = [_titel(dry_run) + "\n"]
+    teile += _dry_run_alert(dry_run)
     teile += _caution(nach_ausgang[Outcome.FAILED])
     teile += _silent_noop_warning(results, nach_ausgang)
     teile += _counts(nach_ausgang)
@@ -103,20 +115,47 @@ def _warning_count(results: list[PostResult]) -> list[str]:
     ]
 
 
-def render_summary(results: list[PostResult]) -> str:
+def render_summary(results: list[PostResult], *, dry_run: bool = False) -> str:
     """Die ausfuehrliche Stufe: erst was blockiert, dann die Zahlen, dann alles."""
     if not results:
-        return LEERER_LAUF
+        return _titel(dry_run) + LEERER_LAUF
 
     nach_ausgang = _by_outcome(results)
 
-    teile = _head(results, nach_ausgang)
+    teile = _head(results, nach_ausgang, dry_run=dry_run)
     teile += _failures(nach_ausgang[Outcome.FAILED])
     teile += _warnings(results)
     teile += _published(nach_ausgang[Outcome.PUBLISHED])
     teile += _unchanged(nach_ausgang[Outcome.UNCHANGED])
     teile += _skipped(nach_ausgang[Outcome.SKIPPED])
     return "\n".join(teile)
+
+
+def _titel(dry_run: bool) -> str:
+    return PROBELAUF_TITEL if dry_run else TITEL
+
+
+def _dry_run_alert(dry_run: bool) -> list[str]:
+    """Kennzeichnet den Probelauf — an drei Stellen, nicht nur fett.
+
+    Ohne ihn ist ein Probelauf von einem echten Lauf **nicht zu unterscheiden**:
+    In der Kurzfassung gibt es den Abschnitt der publizierten Beitraege nicht,
+    und nur dort stand „dry-run — nichts gesendet". Beide Laeufe melden
+    „publiziert 19"; bei einem davon ist nichts passiert. Genau der stille
+    Erfolg, den CLAUDE.md verbietet.
+
+    `IMPORTANT` und nicht `WARNING` oder `CAUTION`: Die beiden sind belegt —
+    rot heisst blockiert, gelb heisst Datenqualitaet. Ein Probelauf ist etwas
+    Drittes und bekommt eine dritte Farbe.
+    """
+    if not dry_run:
+        return []
+    return [
+        "> [!IMPORTANT]",
+        "> **Probelauf (`--dry-run`): Es wurde NICHTS gesendet und NICHTS bestaetigt.**",
+        "> Die Zahlen unten sagen, was ein echter Lauf tun wuerde.",
+        "",
+    ]
 
 
 def _caution(failed: list[PostResult]) -> list[str]:

@@ -668,6 +668,19 @@ innerhalb von GitHub Actions.
 Die Kurzfassung waechst **nur im Umfang des Problems**: ~11 Zeilen, wenn nichts
 schiefgeht, plus ~8 je blockiertem Beitrag.
 
+**Der Probelauf wird dreifach gekennzeichnet (2026-09-21).** Der Hinweis
+„dry-run — nichts gesendet" hing an jedem publizierten Beitrag und erschien im Abschnitt
+*Publiziert* — genau dem, den die Kurzfassung weglaesst. Ein Probelauf und ein echter Lauf
+melden damit beide „publiziert 19"; bei einem davon ist nichts passiert. Das ist der stille
+Erfolg, den `CLAUDE.md` verbietet. Sichtbar gemacht an drei Stellen:
+
+1. im Titel: `## Nostr-Sync — PROBELAUF`
+2. als `> [!IMPORTANT]`-Block, **vor** dem `[!CAUTION]`-Block — er deutet alles darunter um
+3. als erste Zeile im Schritt-Log, noch vor dem Fortschritt
+
+`IMPORTANT` und nicht `WARNING`/`CAUTION`: Die Farbstufen sind belegt — rot heisst
+blockiert, gelb heisst Datenqualitaet. Ein Probelauf ist etwas Drittes.
+
 Zwei Fallstricke, die beim Bauen auffielen:
 
 1. `publish.py` haengt einem blockierten Beitrag auch seine Konventionswarnungen an (damit
@@ -890,6 +903,23 @@ ist etwas kaputt.
 - Schema- und Spezifikationsverletzungen → Post wird nicht publiziert, Grund als
   `> [!CAUTION]`-Block in der Summary, Exit-Code != 0.
 - Konventionsverletzungen (Schlagworte, Bilder) → **sichtbare Warnung**, aber publiziert.
+- **Unerwarteter Fehler** (keine `NakFailed`, sondern z. B. ein Programmierfehler) → Abbruch
+  benennen, Teil-Ergebnis retten, anhalten. Siehe unten.
+
+**Unerwartete Abbrueche (2026-09-21).** Bis dahin fiel eine Ausnahme, die nicht `NakFailed`
+war, durch `main()` durch — es gab **weder Bericht noch Job-Summary noch Protokoll**. In der
+CI laeuft der Artefakt-Schritt dann in `if-no-files-found: warn`: Der Lauf ist rot, und
+niemand kann nachsehen, wie weit er kam.
+
+Jetzt wird der Fehler zu einem Ergebnis: ein `PostResult` mit `outcome=FAILED` und
+`reason="unerwarteter Abbruch: <Typ>: <Text>"`. Danach laufen Bericht, `--log` und Exit 1
+normal durch, der Stacktrace geht nach stderr.
+
+**Angehalten wird bewusst** (`break`, nicht weitermachen): Ein unerwarteter Fehler heisst,
+dass eine Annahme nicht stimmt. Die uebrigen Beitraege unter dieser Annahme zu publizieren
+waere schlechter als anzuhalten. Gegengeprueft mit einem `nak`, das bei `req` Unsinn mit
+Exit 0 liefert (erzeugt einen `JSONDecodeError` in `fetch_event`): 4 Beitraege im
+Teil-Protokoll, der fuenfte als Abbruch benannt, Exit 1.
 
 Damit wird der Fall, den `summary.ts` heute nachträglich meldet, strukturell unmöglich.
 

@@ -10,7 +10,7 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Stand: 2026-09-21
 
-- Tests: **229 grün**, 4 übersprungen, Laufzeit ~10 s
+- Tests: **241 grün**, 4 übersprungen, Laufzeit ~19 s
 - CI-Ausgabe knapp: Bericht **45 statt ~500 Zeilen**, dazu Fortschritt je Beitrag
 - Workflow umgebaut: kein `mdparser`-Checkout mehr, `nak` gepinnt mit Prüfsumme
 - Dry-Run **nachweislich trocken**: 284 `nak`-Aufrufe, 0 Schreibversuche (siehe Verlauf)
@@ -34,8 +34,8 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 | `nak.py` | 134 | 12 | fertig |
 | `images.py` | 177 | 10 | fertig |
 | `publish.py` | 174 | 20 | fertig |
-| `report.py` | 346 | 29 | fertig, Ausnahme bei der Dateigröße |
-| `cli.py` | 230 | 18 | fertig |
+| `report.py` | 388 | 36 | fertig, Ausnahme bei der Dateigröße |
+| `cli.py` | 262 | 23 | fertig |
 | Golden-Fixtures | — | 24 | fertig |
 | Architektur-Tests | — | 13 | fertig |
 | `md2blossom`-Vergleich | — | 18 | fertig, braucht `node` |
@@ -59,7 +59,7 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Bekannte Lücken
 
-- `report.py` hat **346 Zeilen** und reißt damit die Zielgröße von 300 (`CLAUDE.md` erlaubt
+- `report.py` hat **388 Zeilen** und reißt damit die Zielgröße von 300 (`CLAUDE.md` erlaubt
   bis 400 im Ausnahmefall). Der Code selbst sind 198 Zeilen; die Differenz sind 95 Zeilen
   Docstrings mit Messwerten und Fallstricken. Ein Aufteilen nach Ausgabestufe wäre die dort
   ausdrücklich verworfene künstliche Trennung — eine kohärente Datei beantwortet weiter die
@@ -112,6 +112,39 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-21 — Probelauf kenntlich, Abstürze abgefangen
+
+Zwei der fünf offenen Punkte aus dem Umbau der CI-Ausgabe.
+
+- **Der Probelauf war nicht von einem echten Lauf zu unterscheiden.** „dry-run — nichts
+  gesendet" hing an jedem publizierten Beitrag und erschien nur im Abschnitt *Publiziert* —
+  genau dem, den die Kurzfassung weglässt. Beide Läufe meldeten „publiziert 19"; bei einem
+  davon ist nichts passiert.
+  Jetzt dreifach sichtbar: im Titel (`## Nostr-Sync — PROBELAUF`), als `[!IMPORTANT]`-Block
+  **vor** dem `[!CAUTION]`-Block, und als erste Zeile im Schritt-Log. `IMPORTANT`, weil die
+  Farben belegt sind: rot = blockiert, gelb = Datenqualität, violett = Probelauf.
+- **Ein unerwarteter Fehler löschte alles.** Eine Ausnahme, die nicht `NakFailed` war, fiel
+  durch `main()` durch — kein Bericht, keine Summary, **kein Protokoll**, und der
+  Artefakt-Schritt lief in `if-no-files-found: warn`. Jetzt wird der Abbruch zu einem
+  Ergebnis (`FAILED` mit Grund), das Teil-Protokoll ist gesichert, der Stacktrace geht nach
+  stderr.
+- **Angehalten wird bewusst**, nicht weitergemacht: Ein unerwarteter Fehler heißt, dass eine
+  Annahme nicht stimmt. Die übrigen 90 Beiträge unter dieser Annahme zu publizieren wäre
+  schlechter als anzuhalten.
+- Nachgezogen: Fehlgeschlagene Beiträge tragen ihren Grund in der Fortschrittszeile, sonst
+  stand an der Abbruchstelle nur „fehlgeschlagen <pfad>". Übersprungene bleiben davon
+  unberührt — das ist Punkt 8 und weiter zurückgestellt.
+- **Gegengeprüft mit einem echten Fehler**, nicht nur im Test: ein `nak`, das bei `req`
+  Unsinn mit Exit 0 liefert, erzeugt einen `JSONDecodeError` tief in `fetch_event`.
+  Ergebnis: 4 Beiträge im Teil-Protokoll, der fünfte als Abbruch benannt, Stacktrace auf
+  stderr, Exit 1, Lauf angehalten.
+- Voller Dry-Run unverändert: 19 publiziert · 60 unverändert · 16 übersprungen · 4 blockiert.
+  Bericht 49 statt 45 Zeilen (der Hinweisblock).
+
+**Weiter zurückgestellt:** Punkt 8 (Gründe übersprungener Beiträge in der Fortschrittszeile),
+Punkt 6 (Bericht in genau eine Senke) und Punkt 9 (Testisolation gegen
+`GITHUB_STEP_SUMMARY`, nur mit Punkt 6 nötig).
 
 ### 2026-09-21 — CI-Ausgabe knapp, Fortschritt sichtbar
 

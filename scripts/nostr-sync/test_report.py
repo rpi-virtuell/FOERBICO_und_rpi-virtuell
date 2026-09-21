@@ -345,3 +345,70 @@ def test_the_brief_report_puts_the_numbers_before_the_details():
     text = render_brief([kaputt])
 
     assert text.index("Hinweis(e) zur Datenqualitaet") < text.index("### Nicht publiziert")
+
+
+# --- Punkt 7: der Probelauf muss sofort ins Auge fallen --------------------
+
+def test_a_dry_run_is_named_in_the_title_and_as_an_alert():
+    """Sonst sieht ein Probelauf zeichengleich aus wie ein echter Lauf.
+
+    „dry-run — nichts gesendet" stand bisher nur an den publizierten Beitraegen,
+    also in dem Abschnitt, den die Kurzfassung streicht. Beide Laeufe melden
+    „publiziert 19" — bei einem davon ist nichts passiert.
+    """
+    text = render_brief([ergebnis(Outcome.PUBLISHED, slug="x")], dry_run=True)
+
+    assert "## Nostr-Sync — PROBELAUF" in text, "im Titel, fuer den Blick von oben"
+    assert "[!IMPORTANT]" in text, "eigene Farbstufe, nicht dieselbe wie Fehler"
+    assert "NICHTS gesendet" in text
+
+
+def test_a_real_run_is_not_called_a_dry_run():
+    text = render_brief([ergebnis(Outcome.PUBLISHED, slug="x")])
+
+    assert "PROBELAUF" not in text
+    assert "[!IMPORTANT]" not in text
+    assert text.startswith("## Nostr-Sync\n")
+
+
+def test_the_dry_run_alert_comes_before_the_errors():
+    """Er deutet alles darunter um — auch die Zahl der publizierten Beitraege."""
+    text = render_brief([fehlschlag()], dry_run=True)
+
+    assert text.index("[!IMPORTANT]") < text.index("[!CAUTION]")
+
+
+def test_both_report_levels_name_the_dry_run():
+    """Sonst verhalten sich die Stufen unterschiedlich."""
+    ergebnisse = [ergebnis(Outcome.PUBLISHED, slug="x")]
+
+    for stufe in (render_brief, render_summary):
+        assert "PROBELAUF" in stufe(ergebnisse, dry_run=True), stufe.__name__
+
+
+def test_an_empty_dry_run_is_still_marked():
+    assert "PROBELAUF" in render_brief([], dry_run=True)
+
+
+def test_a_failed_post_carries_its_reason_in_the_progress_line():
+    """Die Abbruchzeile muss an ihrer Stelle selbsterklaerend sein.
+
+    Sonst steht im Log nur „fehlgeschlagen <pfad>", und das Warum findet man
+    erst, wenn man zum Bericht scrollt. Uebersprungene Beitraege bleiben davon
+    unberuehrt — das ist Punkt 8 und zurueckgestellt.
+    """
+    zeile = progress_line(ergebnis(
+        Outcome.FAILED, slug="kaputt",
+        reason="unerwarteter Abbruch: JSONDecodeError: Expecting value",
+    ))
+
+    assert "JSONDecodeError" in zeile
+
+
+def test_a_published_post_does_not_repeat_its_reason():
+    """Dort stand „dry-run — nichts gesendet" — das sagt schon die Kopfzeile."""
+    zeile = progress_line(ergebnis(
+        Outcome.PUBLISHED, slug="x", reason="dry-run — nichts gesendet",
+    ))
+
+    assert "dry-run" not in zeile

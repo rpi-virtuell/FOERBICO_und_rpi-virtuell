@@ -255,8 +255,8 @@ def test_every_post_gets_a_progress_line_before_the_report(content, capsys, monk
 def test_a_progress_line_names_path_and_slug(content, capsys, monkeypatch):
     lauf_mit([], content, monkeypatch)
 
-    erste = capsys.readouterr().out.splitlines()[0]
-    assert "index.md" in erste and erste.endswith("x")
+    zeilen = [z for z in capsys.readouterr().out.splitlines() if z.startswith("publiziert ")]
+    assert "index.md" in zeilen[0] and zeilen[0].endswith("x")
 
 
 def test_the_brief_report_still_names_a_failure(content, capsys, monkeypatch):
@@ -267,3 +267,88 @@ def test_the_brief_report_still_names_a_failure(content, capsys, monkeypatch):
     assert code == 1
     assert "[!CAUTION]" in ausgabe
     assert "fehlgeschlagen " in ausgabe, "auch der Fortschritt muss es zeigen"
+
+
+# --- Punkt 7: der Probelauf auch im Schritt-Log ----------------------------
+
+def test_a_dry_run_announces_itself_before_the_first_post(content, capsys, monkeypatch):
+    """Wer zusieht, soll es sofort wissen — nicht erst am Ende im Bericht."""
+    lauf_mit([], content, monkeypatch)
+
+    zeilen = capsys.readouterr().out.splitlines()
+    assert "PROBELAUF" in zeilen[0]
+    assert "nichts gesendet" in zeilen[0]
+
+
+def test_the_dry_run_reaches_the_report(content, capsys, monkeypatch):
+    lauf_mit([], content, monkeypatch)
+
+    assert "## Nostr-Sync — PROBELAUF" in capsys.readouterr().out
+
+
+def test_a_real_run_announces_nothing(content, capsys, monkeypatch):
+    import cli
+
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=False))
+    monkeypatch.setenv("BUNKER_URL", "bunker://erfunden")
+    main(["--all", "--content-root", str(content), "--pubkey", "a" * 64])
+
+    assert "PROBELAUF" not in capsys.readouterr().out
+
+
+# --- Punkt 10: unerwartete Abbrueche --------------------------------------
+
+def test_an_unexpected_crash_still_produces_a_report_and_a_log(
+    content, tmp_path, capsys, monkeypatch
+):
+    """Ohne Behandlung bleibt nur ein Stacktrace — kein Bericht, kein Protokoll.
+
+    In der CI laeuft der Artefakt-Schritt dann in `if-no-files-found: warn`:
+    Der Lauf ist rot, und niemand kann nachsehen, wie weit er kam.
+    """
+    import cli
+    from models import Outcome, PostResult
+
+    gesehen = []
+
+    def erst_gut_dann_kaputt(raw, *, path, **kwargs):
+        gesehen.append(path)
+        if len(gesehen) == 1:
+            return PostResult(path=path, outcome=Outcome.PUBLISHED, slug="erster")
+        raise RuntimeError("etwas voellig Unerwartetes")
+
+    monkeypatch.setattr(cli, "publish_post", erst_gut_dann_kaputt)
+    protokoll = tmp_path / "lauf.json"
+
+    code = main([
+        "--all", "--dry-run", "--content-root", str(content),
+        "--pubkey", "a" * 64, "--log", str(protokoll),
+    ])
+    ausgabe = capsys.readouterr()
+
+    assert code == 1
+    assert "erster" in ausgabe.out, "der erste Beitrag muss sichtbar bleiben"
+    assert "unerwarteter Abbruch" in ausgabe.out
+    assert "RuntimeError" in ausgabe.out
+    assert "Traceback" in ausgabe.err, "der Stacktrace bleibt fuer die Entwicklung"
+    assert protokoll.exists(), "das Teil-Protokoll muss geschrieben werden"
+
+
+def test_a_crash_stops_the_run_instead_of_carrying_on(content, capsys, monkeypatch):
+    """Ein unerwarteter Fehler heisst, dass eine Annahme nicht stimmt.
+
+    Die uebrigen Beitraege unter dieser Annahme zu publizieren waere schlechter,
+    als anzuhalten.
+    """
+    import cli
+
+    versuche = []
+
+    def immer_kaputt(raw, *, path, **kwargs):
+        versuche.append(path)
+        raise RuntimeError("kaputt")
+
+    monkeypatch.setattr(cli, "publish_post", immer_kaputt)
+    main(["--all", "--dry-run", "--content-root", str(content), "--pubkey", "a" * 64])
+
+    assert len(versuche) == 1, "nach dem ersten Abbruch wird nicht weitergemacht"
