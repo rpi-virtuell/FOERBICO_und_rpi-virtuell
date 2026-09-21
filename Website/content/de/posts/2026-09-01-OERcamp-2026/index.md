@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Zwischen OER, Demokratie und hOERoskop – Eindrücke vom OERcamp 2026'
 description: 'Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team war vertreten: Gina war mit dabei und nimmt euch in diesem Blogbeitrag mit auf ihre Eindrücke, Diskussionen und die Fragen, die sie vom Wochenende mitgenommen hat.'
 license: https://creativecommons.org/licenses/by/4.0/deed.de
@@ -23,8 +22,6 @@ learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
 image: https://blossom.edufeed.org/20a027ca751e79b5339cdef11fad2a19f145d576e6cfb43b50f78e107de09d0a.jpeg
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-09-02'
 keywords:
   - Open Educational Resources (OER)
