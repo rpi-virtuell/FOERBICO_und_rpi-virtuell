@@ -8,9 +8,10 @@ in der [README](README.md).
 in place ändern, unten im Verlauf einen datierten Eintrag anfügen — jeder mit *was* und *warum*.
 Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
-## Stand: 2026-09-16
+## Stand: 2026-09-21
 
-- Tests: **180 grün**, 4 übersprungen (brauchen `node`), Laufzeit ~4 s
+- Tests: **200 grün**, 4 übersprungen, Laufzeit ~6 s (Kernsuite ohne `node`: 182 in ~4,5 s)
+- Abnahmekriterium erfüllt: **33 von 33 Bildern zeichengleich zu `md2blossom.mjs`**
 - Dry-Run über alle 96 Beiträge: 19 publiziert · 59 unverändert · 14 übersprungen · 4 blockiert
 - Jede der 19 Änderungen ist begründet: 15 Sprachreparatur, 4 ohne Live-Event
 - Datenqualität sichtbar: 167 Warnungen in 6 Gruppen (Schlagworte, Bilder, Felder)
@@ -33,20 +34,17 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 | `report.py` | 196 | 12 | fertig |
 | `cli.py` | 171 | 10 | fertig |
 | Golden-Fixtures | — | 24 | fertig |
-| Architektur-Tests | — | 11 | fertig |
+| Architektur-Tests | — | 13 | fertig |
+| `md2blossom`-Vergleich | — | 18 | fertig, braucht `node` |
 
 ## Was als Nächstes ansteht
 
-1. **Abnahmekriterium `test_1063_byte_identical_to_md2blossom`** — Vergleich gegen
-   `Website/scripts/md2blossom.mjs`, Marker `@pytest.mark.md2blossom`, in CI Pflicht.
-   *Warum:* kind:1063 ist nicht ersetzbar; weichen die beiden ab, publizieren sie sich
-   wechselseitig über. Setzt den fertigen Bilder-Pfad voraus — der steht jetzt.
-2. **`.github/workflows/nostr-sync.yml` umbauen** — `mdparser`-Checkout raus, `nak` gepinnt
+1. **`.github/workflows/nostr-sync.yml` umbauen** — `mdparser`-Checkout raus, `nak` gepinnt
    mit Checksum rein, `git diff` als Vorfilter, `--log` als Artefakt.
    *Warum zuletzt:* Erst wenn alles andere läuft.
-3. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
+2. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
    nicht mehr aktualisiert. Liste in der Spec unter *Arbeitsliste vor dem Cutover*.
-4. **Fremder Pubkey am selben Slug** — der letzte offene Punkt der Warnliste.
+3. **Fremder Pubkey am selben Slug** — der letzte offene Punkt der Warnliste.
    *Warum zurückgestellt:* Er braucht eine zweite Relay-Abfrage je Beitrag (ohne `-a`) und
    gehört damit in `publish.py`, nicht in das reine `warning_checks.py`. Rein informativ —
    bekannt ist genau ein Fall (`rueckblick-auftaktkonferenz-oer-im-blick`).
@@ -58,6 +56,9 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 - Übersprungene Beiträge bekommen keine Konventionswarnungen: 2 der 60 Schlagwort-Fälle
   tauchen deshalb im Bericht nicht auf (beiden fehlt `creator`). Bewusst so — von einem
   Beitrag, der gar nicht publiziert wird, erreichen auch die Schlagworte Nostr nicht.
+- Der `md2blossom`-Vergleich braucht `Website/scripts/node_modules` (`npm ci`). Fehlt es,
+  überspringt er sich — in der CI muss er deshalb **ohne** Skip laufen, sonst ist das
+  Abnahmekriterium nur scheinbar erfüllt.
 - Ohne `--dry-run` ist nichts erprobt. Vor dem ersten echten Lauf: einzelnen Beitrag gegen
   einen lokalen `nak serve` publizieren, nicht gegen die produktiven Relays.
 - `--relay` nimmt mehrere Relays, `MIN_RELAY_ACKS` ist aber auf 2 vorbelegt, während die
@@ -83,6 +84,24 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-21 — Abnahmekriterium: kind:1063 gegen `md2blossom`
+
+- `test_md2blossom.py` vergleicht für alle 16 Beiträge mit `# bilder`-Block die 1063-Tags
+  beider Werkzeuge. Ergebnis: **33 von 33 Bildern zeichengleich.**
+- Eigene Datei statt `test_events.py` (so stand es im Plan): Er braucht `node`, npm-Pakete
+  und echte Bilddateien. `test_events.py` bleibt hermetisch und schnell.
+- Unsere Seite läuft über `sync_images` statt direkt über `build_attestation` — so wird
+  dieselbe Strecke geprüft wie im Betrieb, samt der Entscheidung, *ob* ein Nachweis entsteht.
+- Drei Zusicherungen statt einer: gleiche Tags · genug verglichene Bilder · wir lassen einen
+  Nachweis nur aus, wenn die Datei fehlt. Die zweite fängt den stillen Fall ab, dass eine
+  Seite nichts mehr baut und der Vergleich trotzdem grün ist.
+- Einzige Abweichung ist `2025-07-02-nostr-schrein`, und nur in der Menge: `md2blossom` baut
+  dort einen Nachweis ohne `size`, wir bauen keinen. Bekannt und im dritten Test festgehalten.
+- Gegengeprüft, dass der Test anschlägt: `.upper()` auf `credit` färbt 4 Beiträge rot,
+  ein unterdrückter Nachweisbau lässt Test 2 und 3 fallen.
+- `Website/scripts/node_modules` war nicht installiert (`npm ci`), der Test hätte sich
+  stillschweigend übersprungen. In der README als Voraussetzung ergänzt.
 
 ### 2026-09-16 — `warning_checks.py`: sichtbar machen, was verlorengeht
 

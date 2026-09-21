@@ -398,7 +398,7 @@ PFLICHT bis dahin: Die kind:1063-Tags dieses Moduls muessen zeichengleich
 zu md2blossom.mjs bleiben. 1063 ist nicht ersetzbar — weichen die beiden
 ab, publizieren sie sich wechselseitig ueber und die Nachweise
 akkumulieren, ohne einer Quelle zuordenbar zu sein.
-Abgesichert durch test_events.py::test_1063_byte_identical_to_md2blossom.
+Abgesichert durch test_md2blossom.py::test_1063_byte_identical_to_md2blossom.
 
 Bekannte Abweichungen bei kind:30023 (gemessen 2026-09-14) — unkritisch,
 weil md2blossoms 30023-Vorlage nie publiziert wird:
@@ -902,15 +902,37 @@ Nicht den Code portieren, aber diese Regeln sind hart erarbeitet und müssen erh
    durchlaufen. Zweiter Lauf desselben Beitrags muss „unchanged" ergeben.
 4. **Schema-Validierung:** Fehlplatzierte oder unbekannte Felder erzeugen einen klaren,
    benannten Hinweis in der Summary statt still zu verschwinden.
-5. **Vergleichstest gegen `md2blossom` — Abnahmekriterium.**
-   `test_events.py::test_1063_byte_identical_to_md2blossom` baut für denselben Beitrag den
+5. **Vergleichstest gegen `md2blossom` — Abnahmekriterium.** *(umgesetzt 2026-09-21)*
+   `test_md2blossom.py` baut für **jeden** der 16 Beiträge mit `# bilder`-Block den
    `kind:1063` beider Implementierungen und vergleicht die Tag-Sätze zeichengenau. Schlägt er
    fehl, darf nicht ausgeliefert werden: 1063 ist nicht ersetzbar, abweichende Varianten
    würden sich wechselseitig überpublizieren und als nicht zuordenbare Duplikate akkumulieren.
    Weil er `node` und die Abhängigkeiten von `md2blossom.mjs` braucht, trägt er den Marker
-   `@pytest.mark.md2blossom`: lokal wird er **übersprungen**, wenn `node` fehlt, damit die
-   Kernsuite schnell und umgebungsunabhängig bleibt — **in der CI ist er Pflicht** und darf
-   nicht übersprungen werden. Er fällt erst mit `md2blossom` selbst weg.
+   `@pytest.mark.md2blossom`: lokal wird er **übersprungen**, wenn `node` oder
+   `Website/scripts/node_modules` fehlen, damit die Kernsuite schnell und
+   umgebungsunabhängig bleibt — **in der CI ist er Pflicht** und darf nicht übersprungen
+   werden. Er fällt erst mit `md2blossom` selbst weg.
+
+   **Eigene Datei statt `test_events.py`** (Abweichung vom ursprünglichen Plan): Er braucht
+   `node`, npm-Abhängigkeiten und die echten Bilddateien. `test_events.py` bleibt hermetisch.
+
+   **Drei Zusicherungen statt einer**, weil eine allein zu wenig beweist:
+
+   | Test | Fängt ab |
+   |---|---|
+   | `test_1063_byte_identical_to_md2blossom` | unterschiedliche Tags für dasselbe Bild |
+   | `test_the_comparison_covers_enough_images` | eine Seite baut gar nichts mehr — der Vergleich wäre leer und trotzdem grün |
+   | `test_we_skip_an_attestation_only_without_a_matching_local_file` | wir lassen einen Nachweis aus, obwohl die Datei vorliegt |
+
+   **Ergebnis (2026-09-21): 33 von 33 Bildern zeichengleich.** Genau eine Abweichung, und
+   zwar in der *Menge*, nicht in der Form: Bei `2025-07-02-nostr-schrein` baut `md2blossom`
+   einen Nachweis (ohne `size`, weil es die Datei nicht findet), wir bauen keinen. Die lokale
+   Datei wurde nach dem Attestieren neu kodiert; ein Neuaufbau wäre ein Duplikat mit weniger
+   Angaben. Der dritte Test hält fest, dass dies der einzige erlaubte Unterschied ist.
+
+   **Verifiziert, dass der Test anschlägt:** Ein eingeschleustes `.upper()` auf dem
+   `credit`-Tag färbt 4 Beiträge rot; ein unterdrückter Nachweisbau lässt Test 2 und 3
+   fallen.
 
 ## Prüfung gegen `dev-principles` (2026-09-15)
 

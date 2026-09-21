@@ -70,8 +70,17 @@ Zusätzlich wird das [`nak`](https://github.com/fiatjaf/nak)-Binary gebraucht
 Die Integrationstests brauchen keinen Netzzugang: Ein Fixture startet `nak serve --blossom`
 auf einem freien Port, jeder Test signiert mit einem eigenen Wegwerf-Schlüssel.
 
-Der Vergleichstest gegen `md2blossom` braucht zusätzlich `node`; ohne `node` wird er lokal
-übersprungen (`-m "not md2blossom"` schließt ihn auch bewusst aus). In der CI ist er Pflicht.
+Der Vergleichstest gegen `md2blossom` braucht zusätzlich `node` und dessen
+npm-Abhängigkeiten — einmalig:
+
+```bash
+cd Website/scripts && npm ci
+```
+
+Fehlt eines von beidem, wird er lokal übersprungen; `-m "not md2blossom"` schließt ihn auch
+bewusst aus. **In der CI ist er Pflicht** — er sichert, dass unsere `kind:1063` zeichengleich
+zu `md2blossom.mjs` bleiben. Wären sie es nicht, würden sich beide Werkzeuge wechselseitig
+überpublizieren: 1063 ist nicht ersetzbar, die Nachweise häufen sich an.
 
 ## Aufrufen
 

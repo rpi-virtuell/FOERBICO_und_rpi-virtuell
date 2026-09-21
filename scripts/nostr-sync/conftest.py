@@ -65,3 +65,12 @@ def throwaway_key() -> str:
     entschiede ueber gruen oder rot.
     """
     return nak.generate_key()
+
+
+def pytest_configure(config):
+    """Marker anmelden, damit die CI gezielt darauf bestehen kann."""
+    config.addinivalue_line(
+        "markers",
+        "md2blossom: Vergleich gegen Website/scripts/md2blossom.mjs; braucht node "
+        "und die npm-Abhaengigkeiten. Lokal ueberspringbar, in der CI Pflicht.",
+    )
