@@ -53,6 +53,49 @@ tags:
   - Didaktik
   - Religionsunterricht
   - Bildungsmedien
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
+    alt: 'Instagram-Visual mit der Aufschrift "Auf der Suche nach Junia(s) im Neuen Testament" als Open Educational Resource.'
+    title: 'Auf der Suche nach Junia(s) im Neuen Testament'
+    sourceUrl: https://oer.community/junia
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
+    alt: 'Einstieg Lernmodul zu "Auf der Suche nach Junia(s) im Neuen Testament - Spurensuche in der antiken Schreibstube und im Römerbrief des Apostels Paulus".'
+    title: 'Einstieg Lernmodul "Auf der Suche nach Junia(s) im Neuen Testament - Spurensuche in der antiken Schreibstube und im Römerbrief des Apostels Paulus"'
+    sourceUrl: https://oer.community/junia
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Praesentation-Beispiel-Ausschnitt-1-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
+    alt: 'Ausschnitt Lernmodul zu "5 Fragen, die wir auf der Suche nach Junia(s) beantworten wollen".'
+    title: 'Beispiel aus Lernmodul "5 Fragen, die wir auf der Suche nach Junia(s) beantworten wollen"'
+    sourceUrl: https://oer.community/junia
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
+    alt: 'Ausschnitt Lernmodul zu "Wer war Paulus und wie entstanden seine Texte?".'
+    title: 'Beispiel aus Lernmodul "Wer war Paulus und wie entstanden seine Texte?"'
+    sourceUrl: https://oer.community/junia
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
+    alt: 'Ausschnitt Lernmodul mit Forschungsaufgabe "Wer ist wahrscheinlich in Röm 16,7 gemeint?".'
+    title: 'Beispiel aus Lernmodul - Forschungsaufgabe "Wer ist wahrscheinlich in Röm 16,7 gemeint?"'
+    sourceUrl: https://oer.community/junia
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.
