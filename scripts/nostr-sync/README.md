@@ -150,6 +150,19 @@ cp -r Website/content/de/posts/<ordner> /tmp/probe
 … cli.py --dry-run /tmp/probe/index.md
 ```
 
+## Zwei Ausgaben: Bericht und Protokoll
+
+| | Job-Summary (`GITHUB_STEP_SUMMARY`, stdout) | Protokoll (`--log`, CI-Artefakt) |
+|---|---|---|
+| Adressat | Redaktion | Nachforschung |
+| Form | Markdown, gruppiert, einklappbar | JSON, ein Eintrag je Beitrag |
+| Enthält | jeden Beitrag: blockiert, publiziert, unverändert, übersprungen — mit Adresse, Links, Bestätigungen, Befunden samt Zeilen und Fundstellen | zusätzlich die **vollständigen Events** (gebaut und der Relay-Stand) |
+
+Beide nennen jeden Beitrag. Der einzige Unterschied: Ändert sich ein Tag, zeigt der Bericht
+**nur den abweichenden Wert**, nicht den ganzen Tag. Sonst stünden für eine Sprachreparatur
+1400 Zeichen Zusammenfassungstext da, um einen einzigen Buchstaben zu zeigen. Das
+vollständige Event steht im Protokoll.
+
 ## Secrets des Workflows
 
 | Variable | Zweck |

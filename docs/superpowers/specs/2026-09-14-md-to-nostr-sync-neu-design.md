@@ -59,6 +59,7 @@ Code hat, idempotent ist (grün heißt: nachweislich publiziert) und Datenproble
 | Thema | Entscheidung |
 |---|---|
 | Ort | **Dieses Repo**, `scripts/nostr-sync/` — kein externes Repo-Checkout mehr |
+| CI-Plattform | **GitHub Actions**, vorerst. Das Repo lebt auf Forgejo (`git.rpi-virtuell.de`) und bleibt dort; von dort wird nach GitHub gespiegelt, und dort laufen der Sync und die Secrets. Ein Umzug nach Woodpecker ist vorgesehen, aber **später** — siehe *Ausbaustufe 4* |
 | Umfang | **Volle Parität**: kind:30023, kind:30142, kind:1063 + Blossom, Änderungserkennung, Job-Summary |
 | Signing | **NIP-46 Bunker beibehalten** → Publisher-Identität (Pubkey) bleibt unverändert |
 | Protokoll-Engine | **`nak`** (Version gepinnt), gekapselt in **genau einem** Modul |
@@ -1042,6 +1043,27 @@ Befunde, alle eingearbeitet:
    Etappe und an die zwei Bedingungen im Abschnitt *Entscheidung: `md2blossom` friert ein*
    gebunden — insbesondere daran, dass die Bildmigration durch ist oder ihr Handschritt im
    Sync steckt.
+
+## Später: Ausbaustufe 4 — Umzug der CI nach Woodpecker
+
+Heute läuft dreierlei nebeneinander: Forgejo auf `git.rpi-virtuell.de` ist das Zuhause des
+Repos, Woodpecker baut von dort die Website (`.woodpecker/`), und der Nostr-Sync läuft nach
+einer Spiegelung auf GitHub — dort liegen auch seine Secrets. Das ist **bewusst so belassen**,
+damit der Umbau des Syncs nicht gleichzeitig ein Plattformwechsel ist.
+
+Beim späteren Umzug zu beachten:
+
+- **Das Format ist ein anderes.** Woodpecker kennt keine Composite Actions; aus
+  `.github/actions/install-nak/` würde ein Schritt mit denselben drei Befehlen (laden,
+  Prüfsumme prüfen, installieren). `secrets.X` wird zu `from_secret`.
+- **`select-posts.sh` zieht mit um, unverändert.** Es ist bewusst ein eigenständiges
+  Shell-Skript und hängt an keiner GitHub-Variablen außer `GITHUB_OUTPUT` und
+  `GITHUB_STEP_SUMMARY` — beide über Vorgabewerte abgesichert (`:-/dev/stdout`).
+- **Kein `GITHUB_STEP_SUMMARY`.** Woodpecker hat keine Job-Summary. Der Bericht müsste in
+  das Log und in das Artefakt wandern; `cli.py` schreibt ihn ohnehin schon auf die
+  Standardausgabe, die Summary ist nur eine zusätzliche Senke (`_write_step_summary`).
+- **Die Secrets müssen nach Woodpecker umziehen** und auf GitHub anschließend gelöscht
+  werden, sonst laufen beide Strecken parallel und publizieren doppelt.
 
 ## Später: Ausbaustufe 2 — Schlagwort-Übernahme mit Glossar-Abgleich
 

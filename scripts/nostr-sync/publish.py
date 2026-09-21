@@ -35,6 +35,9 @@ class _Abgleich:
     existing: dict | None = None
     changed: bool = False
     error: str = ""
+    acks: int = 0
+    """Wie viele Relays den Empfang bestaetigt haben. Im Dry-Run 0 — es wurde
+    nichts gesendet, und eine erfundene Zahl waere schlimmer als keine."""
 
 
 def publish_post(
@@ -112,6 +115,7 @@ def publish_post(
     gemeinsam = dict(
         path=path, slug=slug, article=article, amb=amb,
         existing=abgleiche[0][1].existing, findings=konventionen + bilder.findings,
+        acks=sum(abgleich.acks for _, abgleich in abgleiche),
     )
     if not geaendert:
         return PostResult(outcome=Outcome.UNCHANGED, **gemeinsam)
@@ -161,7 +165,7 @@ def _sync_event(
             existing=existing,
             error=f"nur {acks} von {min(min_acks, len(relays))} noetigen Bestaetigungen",
         )
-    return _Abgleich(existing=existing, changed=True)
+    return _Abgleich(existing=existing, changed=True, acks=acks)
 
 
 def _missing_fields(error: ValidationError) -> str:

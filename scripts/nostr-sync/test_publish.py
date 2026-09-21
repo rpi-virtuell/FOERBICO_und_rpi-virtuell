@@ -246,3 +246,33 @@ def test_a_blocked_post_still_shows_what_else_is_wrong():
     herkunft = {f.origin for f in ergebnis.findings}
     assert "NIP-23" in herkunft
     assert any("schlagworte.yaml" in h for h in herkunft)
+
+
+def test_a_published_post_records_how_many_relays_confirmed():
+    """„Nachweislich publiziert" braucht die Zahl, nicht nur ein Haekchen."""
+    ergebnis, _ = lauf()
+
+    assert ergebnis.acks == len(RELAYS)
+
+
+def test_an_unchanged_post_has_no_acknowledgements():
+    erster, _ = lauf()
+
+    ergebnis, _ = lauf(vorhanden=erster.article)
+
+    assert ergebnis.acks == 0
+
+
+def test_the_image_step_learns_about_the_dry_run():
+    """Sonst laedt der Bilderschritt hoch, waehrend der Rest nur probt."""
+    gesehen = {}
+
+    def merken(*args, **kwargs):
+        from images import ImageResult
+
+        gesehen["dry_run"] = kwargs["dry_run"]
+        return ImageResult()
+
+    lauf(dry_run=True, sync_images=merken)
+
+    assert gesehen["dry_run"] is True

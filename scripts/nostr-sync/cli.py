@@ -18,8 +18,9 @@ import os
 import sys
 from pathlib import Path
 
+import nak
 from models import Outcome
-from publish import publish_post
+from publish import ARTICLE, publish_post
 from report import render_summary
 
 ARTICLE_RELAYS = ["wss://relay-rpi.edufeed.org/"]
@@ -32,6 +33,18 @@ DEFAULT_CONTENT_ROOT = (Path(__file__).resolve().parent / ".." / ".." / "Website
 def discover_posts(root: Path) -> list[Path]:
     """Alle `index.md` unterhalb von `root`, in stabiler Reihenfolge."""
     return sorted(root.rglob("index.md"))
+
+
+def shorten(path: Path) -> str:
+    """Der Pfad relativ zum Arbeitsverzeichnis, wenn er darunter liegt.
+
+    Sonst stuende in jeder Berichtszeile der Laufpfad der CI
+    (`/home/runner/work/…`) — dreimal so lang und fuer niemanden von Nutzen.
+    """
+    try:
+        return str(path.resolve().relative_to(Path.cwd()))
+    except ValueError:
+        return str(path)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -71,7 +84,7 @@ def main(argv: list[str] | None = None) -> int:
     results = [
         publish_post(
             path.read_text(encoding="utf-8", errors="replace"),
-            path=str(path),
+            path=shorten(path),
             pubkey=pubkey,
             signer=signer,
             relays=relays,
@@ -80,6 +93,8 @@ def main(argv: list[str] | None = None) -> int:
         )
         for path in posts
     ]
+
+    _add_addresses(results, pubkey=pubkey, relay=relays[0])
 
     if args.show_events:
         _print_events(results)
@@ -92,6 +107,24 @@ def main(argv: list[str] | None = None) -> int:
         _write_log(results, Path(args.log))
 
     return 1 if any(r.outcome is Outcome.FAILED for r in results) else 0
+
+
+def _add_addresses(results: list, *, pubkey: str, relay: str) -> None:
+    """Ergaenzt je Beitrag die NIP-19-Adresse fuer die Links im Bericht.
+
+    Auch im Dry-Run: Die Adresse ist eine reine Umrechnung aus Kind, Pubkey und
+    Slug — kein Netz, keine Wirkung. Gerade beim Probelauf ist sie das, womit
+    sich nachsehen laesst, welches Event gemeint ist.
+
+    Schlaegt das Encoding fehl, bleibt `naddr` leer und der Lauf gueltig: Ein
+    Darstellungsdetail darf keinen gruenen Lauf rot faerben.
+    """
+    for result in results:
+        if result.slug is None:
+            continue
+        result.naddr = nak.encode_naddr(
+            kind=ARTICLE, pubkey=pubkey, identifier=result.slug, relay=relay
+        )
 
 
 def build_parser() -> argparse.ArgumentParser:

@@ -168,3 +168,39 @@ def test_every_option_explains_itself_in_the_help():
     ]
 
     assert ohne_hilfe == [], f"Optionen ohne Hilfetext: {ohne_hilfe}"
+
+
+def test_a_published_post_gets_its_nostr_address(content, capsys, monkeypatch):
+    """Ohne naddr bleibt die Job-Summary ohne Links — gebaut, aber nie verdrahtet."""
+    import cli
+
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=False))
+    monkeypatch.setattr(cli.nak, "encode_naddr", lambda **kwargs: "naddr1testadresse")
+
+    main(["--all", "--dry-run", "--content-root", str(content), "--pubkey", "a" * 64])
+
+    ausgabe = capsys.readouterr().out
+    assert "naddr1testadresse" in ausgabe
+    assert "habla.news/a/naddr1testadresse" in ausgabe
+
+
+def test_a_failing_address_encoding_does_not_break_the_run(content, capsys, monkeypatch):
+    """Ein Darstellungsdetail darf keinen gruenen Lauf rot faerben."""
+    import cli
+
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=False))
+    monkeypatch.setattr(cli.nak, "encode_naddr", lambda **kwargs: None)
+
+    assert main(["--all", "--dry-run", "--content-root", str(content), "--pubkey", "a" * 64]) == 0
+
+
+def test_paths_in_the_report_stay_relative_to_the_repository(content, capsys, monkeypatch):
+    """In der CI stuende sonst /home/runner/work/... in jeder Zeile."""
+    import cli
+
+    monkeypatch.chdir(content.parent)
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=True))
+
+    main(["--all", "--content-root", str(content), "--pubkey", "a" * 64, "--dry-run"])
+
+    assert str(content) not in capsys.readouterr().out

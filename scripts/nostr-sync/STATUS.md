@@ -10,8 +10,9 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Stand: 2026-09-21
 
-- Tests: **200 grün**, 4 übersprungen, Laufzeit ~6 s (Kernsuite ohne `node`: 182 in ~4,5 s)
+- Tests: **212 grün**, 4 übersprungen, Laufzeit ~9 s (Kernsuite ohne `node`: 194)
 - Workflow umgebaut: kein `mdparser`-Checkout mehr, `nak` gepinnt mit Prüfsumme
+- Dry-Run **nachweislich trocken**: 284 `nak`-Aufrufe, 0 Schreibversuche (siehe Verlauf)
 - Abnahmekriterium erfüllt: **33 von 33 Bildern zeichengleich zu `md2blossom.mjs`**
 - Dry-Run über alle 96 Beiträge: 19 publiziert · 59 unverändert · 14 übersprungen · 4 blockiert
 - Jede der 19 Änderungen ist begründet: 15 Sprachreparatur, 4 ohne Live-Event
@@ -31,29 +32,23 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 | `events.py` | 188 | 26 | fertig |
 | `nak.py` | 134 | 12 | fertig |
 | `images.py` | 177 | 10 | fertig |
-| `publish.py` | 170 | 17 | fertig |
-| `report.py` | 196 | 12 | fertig |
-| `cli.py` | 171 | 10 | fertig |
+| `publish.py` | 174 | 20 | fertig |
+| `report.py` | 258 | 16 | fertig |
+| `cli.py` | 204 | 13 | fertig |
 | Golden-Fixtures | — | 24 | fertig |
 | Architektur-Tests | — | 13 | fertig |
 | `md2blossom`-Vergleich | — | 18 | fertig, braucht `node` |
 
 ## Was als Nächstes ansteht
 
-1. **Zwei Entscheidungen, die noch offen sind** — beide blockieren den ersten echten Lauf:
-
-   a) **Wo läuft der Workflow?** `origin` ist ein Gitea/Forgejo auf `git.rpi-virtuell.de`,
-   GitHub ist nur die Kopie `l-sicking/foerbico-copy`, und die Website baut Woodpecker
-   (`.woodpecker/`). Der Sync liegt im GitHub-Actions-Format vor und hat eine echte
-   Pflegehistorie (`checkout` v6, `upload-artifact` v7) — welcher Runner ihn ausführt und wo
-   die Secrets liegen, ist von hier aus nicht feststellbar. Bei Woodpecker wäre das Format
-   falsch und der Ablauf neu zu bauen.
-
-   b) **Wie groß der erste Schritt ohne `--dry-run`?** Die Strecke ist durch nichts
-   abgedeckt. Kleinster Schritt wäre ein Lauf gegen ein lokales `nak serve` mit
-   Wegwerf-Schlüssel — dafür fehlt `cli.py` eine `--blossom`-Option, sonst spricht der
-   Bilderschritt den produktiven Mediaserver an. Ein einzelner Beitrag produktiv bräuchte
-   eine `paths`-Eingabe im Workflow.
+1. **Den ersten Lauf in der CI starten — vollständig als Dry-Run.** Von Hand über
+   *Run workflow* mit beiden Schaltern: *alle* und *dry-run*.
+   *Vorbedingung:* Der Stand muss auf dem main-Branch der GitHub-Spiegelung liegen, dort
+   läuft der Sync und dort liegen die Secrets.
+   *Erwartung:* 19 publiziert · 59 unverändert · 14 übersprungen · 4 blockiert, Exit 1 wegen
+   der vier NIP-23-Beiträge. Zu prüfen ist vor allem, was lokal nicht prüfbar war: ob der
+   Bunker den Client-Schlüssel annimmt (Schritt *Signierstrecke prüfen* — läuft im Dry-Run
+   allerdings **nicht**, siehe Bekannte Lücken).
 2. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
    nicht mehr aktualisiert. Liste in der Spec unter *Arbeitsliste vor dem Cutover*.
 3. **Fremder Pubkey am selben Slug** — der letzte offene Punkt der Warnliste.
@@ -73,11 +68,13 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   Zugangsdaten** — keine `.env` im Repo, und der Geschwisterordner `../mdparser/`, aus dem
   `blossom-bunker.ts` seine `.env` liest, existiert auf diesem Rechner nicht. Die Secrets
   liegen ausschließlich in der CI.
-- `cli.py` hat **keine `--blossom`-Option**. Ein lokaler Lauf ohne `--dry-run` spräche
-  deshalb den produktiven Mediaserver an — und lüde bei fehlendem Blob sogar dorthin hoch.
-- `PostResult.naddr` und `PostResult.acks` werden **nie gefüllt**. `nak.encode_naddr` ist
-  gebaut und getestet, `report.py` rendert die Habla-/Yakihonne-Links — nur setzt sie
-  niemand. In der Job-Summary fehlen die Links deshalb bislang.
+- **Der Dry-Run testet die Signierstrecke nicht.** Der Schritt *Signierstrecke prüfen* ist
+  auf `inputs.dry_run != true` bedingt. Ein Dry-Run in der CI beweist also alles außer dem
+  Bunker. Soll er das mitprüfen, muss die Bedingung fallen — dann braucht auch ein Dry-Run
+  die Secrets.
+- `cli.py` hat **keine `--blossom`-Option**. Für den Dry-Run ohne Belang (es wird nichts
+  hochgeladen), aber ein Lauf ohne `--dry-run` spräche immer den produktiven Mediaserver an.
+- Ein Lauf ohne `--dry-run` ist weiterhin durch nichts abgedeckt.
 - Die Action-Versionen (`setup-python@v7`, `setup-node@v7`) sind neu im Repo; `checkout@v6`
   und `upload-artifact@v7` bleiben, wie sie vorher schon liefen.
 - Der `md2blossom`-Vergleich braucht `Website/scripts/node_modules` (`npm ci`). Fehlt es,
@@ -108,6 +105,35 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-21 — Erster Lauf vorbereitet: trocken, vollständig, lesbar
+
+Festgelegt: Das Repo bleibt auf Forgejo und wird nach GitHub gespiegelt, **der Sync läuft
+vorerst auf GitHub Actions**, dort liegen auch die Secrets. Der Umzug nach Woodpecker kommt
+später und steht als *Ausbaustufe 4* in der Spec.
+
+- **Nachgewiesen, dass der Dry-Run trocken ist** — auch beim Blossom-Teil. Dafür ein `nak`
+  im PATH, das jede schreibende Operation (`event <relay>`, `blossom upload`) protokolliert
+  und mit Exit 99 verweigert. Voller Lauf über alle 96 Beiträge: **284 Aufrufe,
+  0 Schreibversuche** (169 `req`, 82 `encode`, 33 `blossom check`).
+- Neuer Test hält die Verdrahtung fest: `publish_post` reicht `dry_run` an den Bilderschritt
+  durch. Vorher war das nur durch Lesen belegt.
+- **`naddr` und `acks` wurden nie gefüllt.** `nak.encode_naddr` war gebaut und getestet,
+  `report.py` rendert die Habla-/Yakihonne-Links — nur setzte sie niemand. Damit fehlten in
+  jeder Job-Summary die Links, und „publiziert" hieß nur „wir haben es versucht".
+  `cli.py` setzt jetzt die Adresse, `publish.py` reicht die Bestätigungen durch.
+- Bericht vervollständigt: **unveränderte Beiträge werden aufgelistet** (eingeklappt, vorher
+  nur gezählt), Warnungen tragen **Zeilennummern und Fundstellen**, publizierte Beiträge
+  nennen die Zahl der Relay-Bestätigungen — im Dry-Run stattdessen den Grund, denn
+  „0 Bestätigungen" sähe aus wie ein Fehlschlag.
+- Bericht lesbar gemacht: Bei einer Tag-Änderung steht jetzt **nur der abweichende Wert** da.
+  Vorher wurden für eine Sprachreparatur 1400 Zeichen Zusammenfassungstext ausgegeben, um
+  einen einzigen Buchstaben zu zeigen — aus `- summary: neu ['700 Zeichen…', 'de'] · bisher
+  ['700 Zeichen…', 'd']` wird `- summary: Wert 2: neu 'de' · bisher 'd'`.
+- Pfade im Bericht sind **relativ zum Arbeitsverzeichnis**. Sonst stünde in jeder Zeile der
+  CI-Laufpfad `/home/runner/work/…`.
+- Gegenprobe nach allen Änderungen: dieselben 19/59/14/4, weiterhin 0 Schreibversuche,
+  Bericht 498 Zeilen, Log 2,3 MB mit allen 96 Beiträgen und 171 Befunden.
 
 ### 2026-09-21 — Dokumente auf den gemessenen Stand gebracht
 

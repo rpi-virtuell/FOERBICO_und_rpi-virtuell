@@ -159,3 +159,68 @@ def test_the_warning_section_names_rule_and_fix_once_per_group():
 
     assert text.count("Nach `keywords` uebernehmen.") == 1
     assert "2 Beitraege" in text
+
+
+def test_unchanged_posts_are_listed_not_only_counted():
+    """Sonst steht im Bericht nur eine Zahl, und das Log muesste die Frage beantworten."""
+    text = render_summary([
+        ergebnis(Outcome.UNCHANGED, path="posts/eins/index.md", slug="eins"),
+        ergebnis(Outcome.UNCHANGED, path="posts/zwei/index.md", slug="zwei"),
+    ])
+
+    assert "eins" in text and "zwei" in text
+
+
+def test_a_published_post_shows_how_many_relays_confirmed():
+    """Gruen heisst „nachweislich publiziert" — die Zahl gehoert dazu."""
+    text = render_summary([ergebnis(Outcome.PUBLISHED, slug="x", acks=2)])
+
+    assert "2 Relay" in text
+
+
+def test_a_dry_run_does_not_claim_confirmations():
+    text = render_summary([
+        ergebnis(Outcome.PUBLISHED, slug="x", acks=0, reason="dry-run — nichts gesendet")
+    ])
+
+    assert "0 Relay" not in text
+    assert "dry-run" in text
+
+
+def test_a_warning_carries_its_line_numbers_into_the_report():
+    """Ohne Zeilennummer muss die Redaktion die Stelle selbst suchen."""
+    befund = Finding(
+        severity=Severity.WARNING, origin="FOERBICO-Konvention (bildattribution.md)",
+        message="2 relative Bildpfade — im Nostr-Event nicht aufloesbar",
+        rule="Bilder brauchen eine Hash-URL.", lines=[12, 16],
+        found=["bild.jpg", "zwei.png"],
+    )
+
+    text = render_summary([ergebnis(Outcome.UNCHANGED, slug="x", findings=[befund])])
+
+    assert "12, 16" in text
+    assert "bild.jpg" in text
+
+
+def test_only_the_differing_part_of_a_tag_is_shown():
+    """Realfall Sprachreparatur: Der summary-Tag traegt 700 Zeichen Text und die
+    Sprache als letztes Element. Beides auszugeben, um einen Buchstaben zu
+    zeigen, macht den Bericht unlesbar.
+    """
+    lang = "L" * 700
+    neu = {"kind": 30023, "tags": [["summary", lang, "de"]], "content": ""}
+    alt = {"kind": 30023, "tags": [["summary", lang, "d"]], "content": ""}
+
+    text = render_summary([ergebnis(Outcome.PUBLISHED, slug="x", article=neu, existing=alt)])
+
+    assert "'de'" in text and "'d'" in text
+    assert lang not in text, "der unveraenderte Teil gehoert nicht in den Bericht"
+
+
+def test_a_completely_new_tag_value_is_shown_whole():
+    neu = {"kind": 30023, "tags": [["title", "Neuer Titel"]], "content": ""}
+    alt = {"kind": 30023, "tags": [["title", "Alter Titel"]], "content": ""}
+
+    text = render_summary([ergebnis(Outcome.PUBLISHED, slug="x", article=neu, existing=alt)])
+
+    assert "Neuer Titel" in text and "Alter Titel" in text

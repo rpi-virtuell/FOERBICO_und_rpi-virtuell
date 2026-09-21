@@ -32,6 +32,7 @@ def render_summary(results: list[PostResult]) -> str:
     teile += _failures(nach_ausgang[Outcome.FAILED])
     teile += _warnings(results)
     teile += _published(nach_ausgang[Outcome.PUBLISHED])
+    teile += _unchanged(nach_ausgang[Outcome.UNCHANGED])
     teile += _skipped(nach_ausgang[Outcome.SKIPPED])
     return "\n".join(teile)
 
@@ -139,8 +140,19 @@ def _warning_group(origin: str, rule: str, fix: str, eintraege: list) -> list[st
     if fix:
         zeilen.append(f"- Fix: {fix}")
     zeilen += ["", "<details><summary>Betroffene Beitraege</summary>", ""]
-    zeilen += [f"- `{result.path}` — {finding.message}" for result, finding in eintraege]
+    for result, finding in eintraege:
+        zeilen.append(f"- `{result.path}` — {finding.message}{_fundstelle(finding)}")
     return zeilen + ["", "</details>", ""]
+
+
+def _fundstelle(finding) -> str:
+    """Zeilen und Fundstellen an die Meldung — sonst bleibt das Suchen bei der Redaktion."""
+    teile = []
+    if finding.lines:
+        teile.append("Zeilen " + ", ".join(str(n) for n in finding.lines))
+    if finding.found:
+        teile.append(", ".join(finding.found))
+    return f" ({' · '.join(teile)})" if teile else ""
 
 
 def _beitraege(anzahl: int) -> str:
@@ -154,15 +166,47 @@ def _published(published: list[PostResult]) -> list[str]:
     for result in published:
         zeilen.append(f"**`{result.slug}`**" + _links(result))
         zeilen += _changes(result)
+        if result.naddr:
+            zeilen.append(f"- `{result.naddr}`")
+        zeilen.append(f"- {_bestaetigungen(result)}")
         zeilen.append("")
     return zeilen
+
+
+def _bestaetigungen(result: PostResult) -> str:
+    """Was das Relay bestaetigt hat — oder warum nichts zu bestaetigen war.
+
+    Ohne diese Zeile heisst „publiziert" nur „wir haben es versucht". Im Dry-Run
+    steht hier der Grund statt einer Null, denn 0 Bestaetigungen saehen aus wie
+    ein Fehlschlag.
+    """
+    if result.acks:
+        return f"{result.acks} Relay-Bestaetigung(en)"
+    return result.reason or "keine Bestaetigung"
+
+
+def _unchanged(unchanged: list[PostResult]) -> list[str]:
+    """Die unveraenderten beim Namen nennen, nicht nur zaehlen.
+
+    „59 unveraendert" ist keine Aussage darueber, *welche* — und genau das ist
+    beim Abnehmen eines Laufs die Frage. Eingeklappt, damit es den Bericht nicht
+    dominiert.
+    """
+    if not unchanged:
+        return []
+    zeilen = [
+        "### Unveraendert", "",
+        f"<details><summary>{_beitraege(len(unchanged))} lagen bereits so auf dem Relay</summary>",
+        "",
+    ]
+    zeilen += [f"- `{r.slug or r.path}`{_links(r)}" for r in unchanged]
+    return zeilen + ["", "</details>", ""]
 
 
 def _links(result: PostResult) -> str:
     if not result.naddr:
         return ""
-    return (f" — [Habla]({HABLA}{result.naddr}) · "
-            f"[Yakihonne]({YAKIHONNE}{result.naddr}) · `{result.naddr}`")
+    return f" — [Habla]({HABLA}{result.naddr}) · [Yakihonne]({YAKIHONNE}{result.naddr})"
 
 
 def _changes(result: PostResult) -> list[str]:
@@ -180,12 +224,30 @@ def _changes(result: PostResult) -> list[str]:
     zeilen = []
     for a, b in zip(neu, bisher):
         if a != b:
-            zeilen.append(f"- `{a[0]}`: neu {a[1:]} · bisher {b[1:]}")
+            zeilen.append(f"- `{a[0]}`: {_tag_unterschied(a, b)}")
     if len(neu) != len(bisher):
         zeilen.append(f"- Tag-Anzahl: neu {len(neu)} · bisher {len(bisher)}")
     if result.article.get("content") != result.existing.get("content"):
         zeilen.append("- der Fliesstext hat sich geaendert")
     return zeilen or ["- nur `created_at` — inhaltlich gleich"]
+
+
+def _tag_unterschied(neu: list, bisher: list) -> str:
+    """Nur die Stellen, an denen sich zwei Tags unterscheiden.
+
+    Der `summary`-Tag traegt 700 Zeichen Text und die Sprache als letztes
+    Element. Beides auszugeben, um einen Buchstaben zu zeigen, verdeckt genau
+    die Aenderung, die gemeldet werden soll. Das vollstaendige Event steht im
+    Log-Artefakt (`--log`).
+    """
+    if len(neu) != len(bisher):
+        return f"neu {neu[1:]} · bisher {bisher[1:]}"
+
+    teile = []
+    for stelle, (a, b) in enumerate(zip(neu, bisher)):
+        if a != b:
+            teile.append(f"Wert {stelle}: neu {a!r} · bisher {b!r}")
+    return " · ".join(teile)
 
 
 def _skipped(skipped: list[PostResult]) -> list[str]:
