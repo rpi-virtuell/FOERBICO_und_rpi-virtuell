@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>relilab Impuls 2026/27 – Termine aus dem offenen Datenraum</title>
+<meta name="description" content="Die Fortbildungsreihe relilab Impuls, direkt aus signierten Nostr-Kalender-Events (kind 31923) geladen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;500;700&family=Yanone+Kaffeesatz:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --relilab:#34b2f6; --relilab-tief:#1a8fd0;
+  --rl-blau:var(--relilab); --rl-blau-dunkel:var(--relilab-tief);
+  --rl-dunkel:#04316a; --rl-flaeche:#f6f7fb; --rl-linie:#e6e9f2;
+  --rl-text:#1a1e2e; --rl-text-leise:#5a6178; --rl-weiss:#fff;
+  --rl-container:1180px;
+  --schrift-text:Roboto,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --schrift-label:"Roboto Condensed",Roboto,system-ui,sans-serif;
+  --schrift-ueber:"Yanone Kaffeesatz",Roboto,system-ui,sans-serif;
+  --schatten:0 1px 3px rgba(4,49,106,.08),0 4px 16px rgba(4,49,106,.06);
+  --schatten-hover:0 4px 12px rgba(4,49,106,.12),0 12px 32px rgba(4,49,106,.10);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--schrift-text);color:var(--rl-text);background:var(--rl-flaeche);line-height:1.6}
+.wrap{max-width:var(--rl-container);margin:0 auto;padding:0 20px}
+header.top{background:linear-gradient(135deg,var(--rl-dunkel),var(--rl-blau-dunkel));color:#fff;padding:52px 0 44px}
+header.top h1{font-family:var(--schrift-ueber);font-weight:600;font-size:clamp(2rem,5vw,3.1rem);margin:0 0 10px;line-height:1.08}
+header.top p{margin:0;max-width:62ch;opacity:.93;font-size:1.05rem}
+.meta-zeile{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);
+  padding:5px 13px;border-radius:999px;font-family:var(--schrift-label);font-size:.85rem;letter-spacing:.01em}
+main{padding:36px 0 64px}
+.status{padding:14px 18px;border-radius:10px;background:var(--rl-weiss);border:1px solid var(--rl-linie);
+  font-family:var(--schrift-label);color:var(--rl-text-leise);box-shadow:var(--schatten);margin-bottom:26px}
+.status b{color:var(--rl-text)}
+.status.fehler{border-color:#e4b4b4;background:#fdf5f5;color:#8a2f2f}
+.liste{display:grid;gap:20px}
+.karte{background:var(--rl-weiss);border:1px solid var(--rl-linie);border-radius:14px;overflow:hidden;
+  box-shadow:var(--schatten);transition:box-shadow .18s,transform .18s;display:grid;grid-template-columns:230px 1fr}
+.karte:hover{box-shadow:var(--schatten-hover);transform:translateY(-2px)}
+.bild{position:relative;background:var(--rl-flaeche);min-height:190px}
+.bild img{width:100%;height:100%;object-fit:cover;display:block}
+/* Das Reihen-Logo ist eine Grafik, kein Foto: vollstaendig zeigen statt beschneiden. */
+.bild.logo{background:#f0f3fa;display:flex;align-items:center;justify-content:center;padding:18px}
+.bild.logo img{object-fit:contain;width:auto;max-width:100%;max-height:150px}
+.lizenz{position:absolute;left:8px;right:8px;bottom:8px;display:flex;flex-wrap:wrap;align-items:center;gap:5px;
+  background:rgba(255,255,255,.94);border-radius:999px;padding:4px 10px;font-size:.7rem;
+  font-family:var(--schrift-label);color:var(--rl-text-leise);line-height:1.35}
+.lizenz a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
+.ai-mark{display:inline-flex;align-items:center;justify-content:center;min-width:16px;height:16px;padding:0 4px;
+  border-radius:50%;background:var(--rl-dunkel);color:#fff;font-size:.6rem;font-weight:700}
+.inhalt{padding:20px 22px 22px;min-width:0}
+.datum{font-family:var(--schrift-label);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--rl-blau-dunkel);font-weight:500;margin-bottom:5px}
+.karte h2{font-family:var(--schrift-ueber);font-weight:600;font-size:1.5rem;line-height:1.16;margin:0 0 8px}
+.zusammenfassung{margin:0 0 12px;color:var(--rl-text-leise)}
+.volltext{margin:0 0 12px;display:none;white-space:pre-line}
+.karte.offen .volltext{display:block}
+.karte.offen .zusammenfassung{display:none}
+.mehr{background:none;border:0;padding:0;font-family:var(--schrift-label);font-size:.85rem;
+  color:var(--rl-blau-dunkel);cursor:pointer;border-bottom:1px solid currentColor;margin-bottom:14px}
+.personen{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.person{background:var(--rl-flaeche);border:1px solid var(--rl-linie);border-radius:8px;padding:4px 10px;font-size:.84rem}
+.person .rolle{font-family:var(--schrift-label);font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--rl-text-leise);display:block}
+.anmeldung{border-top:1px solid var(--rl-linie);padding-top:12px;margin-top:4px}
+.anmeldung .titel{font-family:var(--schrift-label);font-size:.76rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--rl-text-leise);margin-bottom:7px}
+.wege{display:flex;flex-wrap:wrap;gap:7px}
+.weg{display:inline-flex;align-items:center;gap:6px;background:var(--rl-blau);color:#fff;text-decoration:none;
+  padding:6px 13px;border-radius:999px;font-family:var(--schrift-label);font-size:.83rem;transition:background .15s}
+.weg:hover{background:var(--rl-blau-dunkel)}
+.weg .region{background:rgba(255,255,255,.26);border-radius:4px;padding:1px 5px;font-size:.7rem;font-weight:600}
+.fuss{margin-top:12px;padding-top:10px;border-top:1px dashed var(--rl-linie);
+  font-size:.76rem;color:var(--rl-text-leise);font-family:var(--schrift-label);
+  display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.fuss a{color:inherit}
+.kennung{background:var(--rl-flaeche);border-radius:5px;padding:1px 7px}
+footer.unten{background:var(--rl-dunkel);color:rgba(255,255,255,.82);padding:30px 0;font-size:.88rem}
+footer.unten a{color:#9fd6fb}
+@media(max-width:720px){
+  .karte{grid-template-columns:1fr}
+  .bild{min-height:170px;max-height:220px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1>relilab Impuls 2026/27</h1>
+    <p>Kurze, praxisnahe Impulse für den Religionsunterricht in Grundschule, Sekundarstufe I und II.
+       Eine Kooperation der religionspädagogischen Institute aus <strong>Baden</strong>, der <strong>Pfalz</strong>
+       und dem <strong>Saarland</strong>. Donnerstags oder freitags ab 16 Uhr, maximal eine Zeitstunde.</p>
+    <div class="meta-zeile">
+      <span class="chip">Kostenfrei</span>
+      <span class="chip">Online über relilab.org/live</span>
+      <span class="chip">Anmeldung je nach Bundesland</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="status" id="status">Termine werden aus dem offenen Datenraum geladen …</div>
+  <div class="liste" id="liste"></div>
+</main>
+
+<footer class="unten">
+  <div class="wrap">
+    <p style="margin:0 0 6px">Die Termine werden live als signierte Nostr-Kalender-Events
+      (<code>kind&nbsp;31923</code>) von <code>relay.edufeed.org</code> geladen — nicht aus dieser Seite heraus gepflegt.
+      Herausgeberin ist die Reihe selbst; jede Änderung am Original erscheint hier automatisch.</p>
+    <p style="margin:0">Ein Baustein von <a href="https://oer.community/">FOERBICO</a> und
+      <a href="https://relilab.org/">relilab</a>.</p>
+  </div>
+</footer>
+
+<script>
+const RELAYS = ["wss://relay.edufeed.org","wss://amb-relay.edufeed.org"];
+const AUTOR  = "fb72f8d4a788bffbaa77cd4ff5e9e0d063dd7e069bd057f33bba1e57ea5098b3";
+const LOGO   = "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png";
+const REGION = {"DE-RP":"RLP","DE-BW":"BW","DE-SL":"SL","DE-BY":"BY","DE-HE":"HE"};
+
+const statusEl = document.getElementById("status");
+const listeEl  = document.getElementById("liste");
+
+function tags(ev, name){ return ev.tags.filter(t => t[0] === name); }
+function tag1(ev, name){ const t = tags(ev, name)[0]; return t ? t[1] : ""; }
+
+function ladeVonRelay(url){
+  return new Promise(resolve => {
+    const gefunden = [];
+    let ws;
+    const fertig = () => { try{ ws && ws.close(); }catch(e){} resolve(gefunden); };
+    const timer = setTimeout(fertig, 6000);
+    try { ws = new WebSocket(url); } catch(e){ clearTimeout(timer); return resolve([]); }
+    ws.onopen = () => ws.send(JSON.stringify(["REQ","kal",{authors:[AUTOR],kinds:[31923],limit:200}]));
+    ws.onmessage = e => {
+      let m; try { m = JSON.parse(e.data); } catch(err){ return; }
+      if (m[0] === "EVENT") gefunden.push(m[2]);
+      else if (m[0] === "EOSE"){ clearTimeout(timer); fertig(); }
+    };
+    ws.onerror = () => { clearTimeout(timer); fertig(); };
+  });
+}
+
+function neuesteJeSlug(events){
+  const m = new Map();
+  for (const ev of events){
+    const d = tag1(ev, "d");
+    const vorhanden = m.get(d);
+    if (!vorhanden || ev.created_at > vorhanden.created_at) m.set(d, ev);
+  }
+  return [...m.values()];
+}
+
+function datumText(ev){
+  const start = Number(tag1(ev,"start")) * 1000;
+  const ende  = Number(tag1(ev,"end")) * 1000;
+  const opt = {weekday:"long", day:"2-digit", month:"long", year:"numeric", timeZone:"Europe/Berlin"};
+  const zeit = {hour:"2-digit", minute:"2-digit", timeZone:"Europe/Berlin"};
+  const d = new Date(start).toLocaleDateString("de-DE", opt);
+  const a = new Date(start).toLocaleTimeString("de-DE", zeit);
+  const b = ende ? new Date(ende).toLocaleTimeString("de-DE", zeit) : "";
+  return b ? `${d} · ${a}–${b} Uhr` : `${d} · ${a} Uhr`;
+}
+
+function esc(s){ const d = document.createElement("div"); d.textContent = s || ""; return d.innerHTML; }
+
+function lizenzZeile(ev){
+  const url = tag1(ev,"image:license:id");
+  if (!url) return "";
+  const kurz = url.includes("publicdomain/zero") ? "CC0 1.0"
+             : url.includes("licenses/by-sa") ? "CC BY-SA"
+             : url.includes("licenses/by") ? "CC BY 4.0" : "Lizenz";
+  const wer = tag1(ev,"image:creator:name");
+  const ai  = tag1(ev,"image:ai");
+  let s = "";
+  if (ai === "generated" || ai === "modified")
+    s += `<span class="ai-mark" aria-hidden="true">AI</span><span>${ai === "generated" ? "KI-generiert" : "KI-bearbeitet"}</span><span aria-hidden="true">·</span>`;
+  s += `<a href="${esc(url)}" target="_blank" rel="license noopener"><strong>${kurz}</strong></a>`;
+  if (wer) s += `<span aria-hidden="true">·</span><span>${esc(wer)}</span>`;
+  return `<div class="lizenz">${s}</div>`;
+}
+
+function personen(ev){
+  const raus = [];
+  for (const rolle of ["performer","contributor"]){
+    const namen = tags(ev, rolle + ":name").map(t => t[1]);
+    const orte  = tags(ev, rolle + ":affiliation:name").map(t => t[1]);
+    // Die Rollen stehen parallel zu den Namen: je Person die eigene, nicht die erste.
+    const rollen = tags(ev, rolle + ":role").map(t => t[1]);
+    namen.forEach((n,i) => {
+      const label = rolle === "performer" ? "Referent:in"
+                  : (rollen[i] || "Mitwirkung");
+      raus.push(`<span class="person"><span class="rolle">${esc(label)}</span>${esc(n)}${
+        orte[i] ? " <span style='color:var(--rl-text-leise)'>· " + esc(orte[i]) + "</span>" : ""}</span>`);
+    });
+  }
+  return raus.length ? `<div class="personen">${raus.join("")}</div>` : "";
+}
+
+function anmeldung(ev){
+  const wege = tags(ev,"registrationUrl");
+  if (!wege.length) return "";
+  const links = wege.map(t => {
+    const [, url, region, label] = t;
+    const kurz = REGION[region] || (region ? region.replace("DE-","") : "");
+    return `<a class="weg" href="${esc(url)}" target="_blank" rel="noopener">${
+      kurz ? `<span class="region">${esc(kurz)}</span>` : ""}${esc(label || "Anmeldung")}</a>`;
+  }).join("");
+  const frist = tag1(ev,"registrationDeadline");
+  const fristText = frist
+    ? `<div style="margin-top:8px;font-size:.78rem;color:var(--rl-text-leise);font-family:var(--schrift-label)">Anmeldeschluss: ${
+        new Date(Number(frist)*1000).toLocaleDateString("de-DE",{day:"2-digit",month:"2-digit",year:"numeric",timeZone:"Europe/Berlin"})}</div>`
+    : "";
+  return `<div class="anmeldung"><div class="titel">Anmeldung nach Bundesland</div><div class="wege">${links}</div>${fristText}</div>`;
+}
+
+function fusszeile(ev){
+  const teile = [];
+  const kennungen = tags(ev,"identifier:value").map(t => t[1]);
+  const art = tags(ev,"identifier:propertyID").map(t => t[1]);
+  kennungen.forEach((v,i) => teile.push(`<span class="kennung">${esc(art[i] || "ID")} ${esc(v)}</span>`));
+  const stufe = tag1(ev,"about:prefLabel:de");
+  if (stufe) teile.push(`<span>${esc(stufe)}</span>`);
+  tags(ev,"r").slice(0,2).forEach(t => {
+    let host; try { host = new URL(t[1]).hostname.replace(/^www\./,""); } catch(e){ return; }
+    teile.push(`<a href="${esc(t[1])}" target="_blank" rel="noopener">${esc(host)}</a>`);
+  });
+  return teile.length ? `<div class="fuss">${teile.join("")}</div>` : "";
+}
+
+function karte(ev){
+  const bild = tag1(ev,"image") || LOGO;
+  const titel = tag1(ev,"title");
+  const kurz = tag1(ev,"summary");
+  const lang = (ev.content || "").trim();
+  const zeigtMehr = lang && lang !== kurz;
+  const el = document.createElement("article");
+  el.className = "karte";
+  const istLogo = bild === LOGO;
+  el.innerHTML = `
+    <div class="bild${istLogo ? " logo" : ""}">
+      <img src="${esc(bild)}" alt="${esc(tag1(ev,"image:description") || titel)}" loading="lazy">
+      ${lizenzZeile(ev)}
+    </div>
+    <div class="inhalt">
+      <div class="datum">${esc(datumText(ev))}</div>
+      <h2>${esc(titel)}</h2>
+      ${kurz ? `<p class="zusammenfassung">${esc(kurz)}</p>` : ""}
+      ${zeigtMehr ? `<p class="volltext">${esc(lang)}</p>` : ""}
+      ${zeigtMehr ? `<button class="mehr" type="button">Beschreibung anzeigen</button>` : ""}
+      ${personen(ev)}
+      ${anmeldung(ev)}
+      ${fusszeile(ev)}
+    </div>`;
+  const knopf = el.querySelector(".mehr");
+  if (knopf) knopf.addEventListener("click", () => {
+    const offen = el.classList.toggle("offen");
+    knopf.textContent = offen ? "Beschreibung einklappen" : "Beschreibung anzeigen";
+  });
+  return el;
+}
+
+(async function(){
+  const ergebnisse = await Promise.all(RELAYS.map(ladeVonRelay));
+  const alle = neuesteJeSlug(ergebnisse.flat());
+  if (!alle.length){
+    statusEl.className = "status fehler";
+    statusEl.innerHTML = "<b>Keine Termine geladen.</b> Die Relays waren nicht erreichbar — bitte später erneut versuchen.";
+    return;
+  }
+  const jetzt = Date.now()/1000;
+  alle.sort((a,b) => Number(tag1(a,"start")) - Number(tag1(b,"start")));
+  const kommend = alle.filter(e => Number(tag1(e,"end") || tag1(e,"start")) >= jetzt);
+  const zeigen = kommend.length ? kommend : alle;
+  zeigen.forEach(ev => listeEl.appendChild(karte(ev)));
+  const vergangen = alle.length - zeigen.length;
+  statusEl.innerHTML = `<b>${zeigen.length} Termine</b> live geladen aus dem offenen Datenraum${
+    vergangen > 0 ? ` · ${vergangen} bereits vergangen` : ""} · Stand ${
+    new Date().toLocaleString("de-DE",{dateStyle:"medium",timeStyle:"short"})}`;
+})();
+</script>
+</body>
+</html>

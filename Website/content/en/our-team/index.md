@@ -2,8 +2,16 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: Our team
+description: "The FOERBICO team at three sites: Comenius Institute Münster, Goethe University Frankfurt and Friedrich-Alexander University Erlangen-Nuremberg."
+datePublished: 2025-11-12
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/en/our-team
+translationOfWork: https://oer.community/unser-team
 inLanguage:
   - en
 learningResourceType:

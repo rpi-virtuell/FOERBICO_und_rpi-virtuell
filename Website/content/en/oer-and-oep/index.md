@@ -2,8 +2,16 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: OER and OEP
+description: "What Open Educational Resources and Open Educational Practices are, following David Wiley's definition, and why open materials make collaboration possible."
+datePublished: 2025-11-12
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/en/oer-and-oep
+translationOfWork: https://oer.community/oer-und-oep
 inLanguage:
   - en
 learningResourceType:

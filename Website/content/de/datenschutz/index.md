@@ -2,6 +2,13 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: Datenschutzinformationen
+description: "Datenschutzinformationen für oer.community nach dem Datenschutzgesetz der EKD: verantwortliche Stelle, Datenschutzbeauftragter und Rechte der Betroffenen."
+datePublished: 2025-11-12
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/datenschutz
 inLanguage:

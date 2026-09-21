@@ -1,0 +1,227 @@
+{
+  "kind": 31923,
+  "content": "In der Fortbildung werden erprobte Unterrichtsmaterialien für die Thematisierung und die Diskussion von Wehrdienst vorgestellt. Schüler:innen erhalten Einblick in theologische und politische Debatten und aktuelle Stellungnahmen. Die Fortbildung liefert darüber hinaus auch Material für die grundlegende Auseinandersetzung mit „Krieg und Frieden“ aus christlicher Perspektive und bietet damit Anregungen für die Umsetzung der inhaltsbezogenen Kompetenz: „Die Schüler:innen können eine wiederkehrende Herausforderung für die Kirche (z. B. Frage nach Macht, Verhältnis zum Staat, Armut und Reichtum, Krieg und Frieden, Mission) anhand kirchengeschichtlicher Stationen untersuchen.“\n\nZiel der Veranstaltung:\nUnterrichtsmaterialien zur aktuellen Wehrdienstdebatte religionspädagogisch erschließen\nTheologische, politische und ethische Perspektiven auf Wehrdienst, Krieg und Frieden einordnen\nAnregungen für die kompetenzorientierte Bearbeitung kirchlicher Herausforderungen im Religionsunterricht entwickeln",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2027-04-29-wehrpflicht"
+    ],
+    [
+      "title",
+      "Wehrpflicht in der Diskussion – Unterrichtsmaterialien"
+    ],
+    [
+      "summary",
+      "Wehrdienst, Gewissen und Verantwortung: aktuelle Materialien für die Diskussion im Religionsunterricht."
+    ],
+    [
+      "start",
+      "1809007200"
+    ],
+    [
+      "end",
+      "1809010800"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4153&m=dbca6173-a3b5-11e9-8e0c-0050569784c7&ev_workflow2_guid=34ef7572-1074-11ec-9e02-1287f4009885",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 27EA890004)"
+    ],
+    [
+      "registrationUrl",
+      "https://ekiba.bildungskirche.com/RPI",
+      "DE-BW",
+      "Fortbildungen RPI Baden (Anmeldung dort suchen)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "RPZ St. Ingbert (Anmeldung dort suchen)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Übersicht der Reihe"
+    ],
+    [
+      "registrationDeadline",
+      "1808949540"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "27EA890004"
+    ],
+    [
+      "performer:name",
+      "Juliane Kleibert"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "contributor:name",
+      "Christian Günther"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPZ Zweibrücken"
+    ],
+    [
+      "contributor:name",
+      "Tobias Christmann"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPZ Speyer"
+    ],
+    [
+      "image",
+      "https://relilab.org/wp-content/uploads/2026/06/Wehrdienst-in-der-Diskussion-neu-a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    [
+      "image:creator:name",
+      "Olav Richter mit ChatGPT, 31.05.2026"
+    ],
+    [
+      "image:description",
+      "TODO Alt-Text"
+    ],
+    [
+      "image:ai",
+      "generated"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_2"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe I"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/wehrdienst-in-der-diskussion-unterrichtsmaterialien-fuer-klasse-9-10"
+    ],
+    [
+      "r",
+      "https://relilab.org/wehrdienst-in-der-diskussion/"
+    ],
+    [
+      "t",
+      "Krieg und Frieden"
+    ],
+    [
+      "t",
+      "Friedensethik"
+    ],
+    [
+      "t",
+      "Wehrdienst"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

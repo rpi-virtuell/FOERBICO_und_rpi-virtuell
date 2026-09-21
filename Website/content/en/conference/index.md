@@ -2,8 +2,16 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: Conferences
+description: "The FOERBICO Interim Conference 2026 in Nuremberg: how OER communities collaborate in practice, and what a sustainable culture of sharing needs."
+datePublished: 2026-01-19
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/en/conference
+translationOfWork: https://oer.community/tagungen
 inLanguage:
   - en
 learningResourceType:

@@ -2,6 +2,13 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
+name: Impressum
+description: "Impressum von oer.community: Anbieter ist das Comenius-Institut, Evangelische Arbeitsstätte für Erziehungswissenschaft e.V. in Münster."
+datePublished: 2025-11-12
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/impressum
 inLanguage:
