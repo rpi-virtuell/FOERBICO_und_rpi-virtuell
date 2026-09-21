@@ -19,8 +19,6 @@ inLanguage: de
 image: https://oer.community/recap-konzeptionstage/Weg_zum_Community-Hub.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-04-24
 
 # staticSiteGenerator
@@ -38,6 +36,17 @@ tags:
   - Vernetzung
   - Metadaten
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Weg_zum_Community-Hub.jpg:
+    alt: Roadmap der Konzeptionstage mit eingezeichneten Meilensteinen. Unten Start mit Bild von Wandergruppe, die sich auf dem Weg macht und in die Berglandschaft schaut. Symbol von Kletterer und Berg im Hintergrund. Oben befindet sich ein Bild mit Gipfelkreuz. Erstellt in Canva.
+    title: Auf dem Weg zum Community-Hub
+    sourceUrl: https://oer.community/recap-konzeptionstage
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
 ---
 
 Nach dem [ersten Konzeptionstag im Oktober 2024](https://oer.community/konzeptionstag/) an der Goethe-Universität in Frankfurt, bei dem erste Ideen und Visionen für zukünftige Entwicklungen in der religiösen Bildungsarbeit gesammelt wurden, ging es nun an die Konkretisierung: In zwei Online-Konzeptionstagen am 19. März und am 7. April 2025 kamen die Teams von rpi-virtuell und FOERBICO erneut zusammen, um sich intensiv mit einem gemeinsamen Vorhaben zu beschäftigen: der Entwicklung eines Community-Hubs, der religionsbezogene Akteur:innen vernetzt und offene Bildungspraktiken im religiösen Kontext stärkt.
