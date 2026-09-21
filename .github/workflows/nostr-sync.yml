@@ -1,3 +1,13 @@
+# Publiziert die Beitraege aus Website/content nach Nostr.
+#
+# Ablauf: Tests als Tor, dann publizieren. Der Git-Diff waehlt nur aus, *welche*
+# Beitraege angesehen werden — ob publiziert wird, entscheidet allein der
+# Vergleich mit dem Relay. Ein Lauf mit „alle" muss deshalb zum selben Ergebnis
+# fuehren wie einer mit Diff.
+#
+# Hintergrund: docs/superpowers/specs/2026-09-14-md-to-nostr-sync-neu-design.md
+# Bedienung:   scripts/nostr-sync/README.md
+
 name: Nostr Sync
 
 on:
@@ -5,93 +15,205 @@ on:
     branches: [main]
     paths:
       - 'Website/content/**'
+      - 'scripts/nostr-sync/**'
+      - '.github/workflows/nostr-sync.yml'
+      - '.github/scripts/select-posts.sh'
+      - '.github/actions/install-nak/**'
   workflow_dispatch:
     inputs:
-      force_all:
-        description: 'Publish all posts (--force-all)'
+      all:
+        description: 'Alle Beitraege ansehen statt nur die geaenderten'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Nur entscheiden, nichts publizieren'
         type: boolean
         default: false
 
+permissions:
+  contents: read
+
+# Zwei gleichzeitige Laeufe wuerden dieselben Beitraege doppelt publizieren.
+# kind:1063 ist nicht ersetzbar — solche Duplikate bleiben dauerhaft liegen.
+concurrency:
+  group: nostr-sync
+  cancel-in-progress: false
+
+env:
+  NAK_VERSION: v0.17.3
+  # SHA-256 von nak-v0.17.3-linux-amd64, gebildet und geprueft am 2026-09-21.
+  # Bei einem Versionssprung neu bilden:
+  #   curl -sL <asset-url> | sha256sum
+  NAK_SHA256: dfece226b2c7f182837298f765fdb14600806ca77b16d93d4300669592109598
+  PYTHON_VERSION: '3.13'
+  NODE_VERSION: '22'
+
 jobs:
-  sync:
+  # ---------------------------------------------------------------- Tor ------
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: Website/scripts/package-lock.json
+
+      - name: Python-Abhaengigkeiten
+        run: pip install -r scripts/nostr-sync/requirements.txt
+
+      - name: nak installieren
+        uses: ./.github/actions/install-nak
+        with:
+          version: ${{ env.NAK_VERSION }}
+          sha256: ${{ env.NAK_SHA256 }}
+
+      - name: npm-Abhaengigkeiten fuer md2blossom
+        working-directory: Website/scripts
+        run: npm ci
+
+      # Die Integrationstests starten sich ihren Relay selbst (nak serve auf
+      # freiem Port) — kein Netzzugang, keine Schluessel.
+      - name: Kernsuite
+        working-directory: scripts/nostr-sync
+        run: python -m pytest -q -rs --strict-markers -m 'not md2blossom'
+
+      # Der Vergleich gegen md2blossom ueberspringt sich, wenn node oder die
+      # npm-Pakete fehlen. Ein uebersprungener Test ist hier aber kein Erfolg:
+      # Er ist das Abnahmekriterium dafuer, dass unsere kind:1063 zeichengleich
+      # bleiben. Deshalb eigener Lauf — und ein Skip laesst den Job fallen.
+      - name: Abnahmekriterium kind:1063 (darf nicht uebersprungen werden)
+        working-directory: scripts/nostr-sync
+        shell: bash
+        run: |
+          set -o pipefail
+          python -m pytest -m md2blossom -q -rs --strict-markers | tee ergebnis.txt
+          if grep -qE 'skipped|no tests ran' ergebnis.txt; then
+            {
+              echo '> [!CAUTION]'
+              echo '> **Der Vergleich gegen `md2blossom` wurde uebersprungen.**'
+              echo '> Damit ist ungeprueft, ob unsere `kind:1063` zeichengleich sind —'
+              echo '> weichen sie ab, publizieren beide Werkzeuge sich wechselseitig ueber.'
+              echo '> Ursache ist fast immer ein fehlendes `npm ci` in `Website/scripts`.'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+  # ----------------------------------------------------------- Publizieren --
+  publish:
+    name: Publizieren
+    needs: tests
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
-      - name: Checkout content repo
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
         with:
+          # Fuer den Diff gegen den Vorgaengercommit.
           fetch-depth: 0
-          path: content-repo
 
-      - name: Checkout mdparser
-        uses: actions/checkout@v6
+      - uses: actions/setup-python@v7
         with:
-          repository: edufeed-org/mdparser
-          ref: main
-          path: mdparser
+          python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Python-Abhaengigkeiten
+        run: pip install -r scripts/nostr-sync/requirements.txt
+
+      - name: nak installieren
+        uses: ./.github/actions/install-nak
         with:
-          deno-version: v2.x
+          version: ${{ env.NAK_VERSION }}
+          sha256: ${{ env.NAK_SHA256 }}
 
-      - name: Pre-Flight Check
-        working-directory: mdparser/sync
+      - name: Welche Beitraege
+        id: auswahl
+        shell: bash
         env:
-          BUNKER_URL: ${{ secrets.BUNKER_URL }}
-          AUTHOR_PUBKEY_HEX: ${{ secrets.AUTHOR_PUBKEY_HEX }}
-          CLIENT_SECRET_HEX: ${{ secrets.CLIENT_SECRET_HEX }}
-        run: deno run --allow-env --allow-net --allow-read cli.ts check
+          ALLE: ${{ github.event_name == 'workflow_dispatch' && inputs.all || 'false' }}
+          VORHER: ${{ github.event.before }}
+          JETZT: ${{ github.sha }}
+        run: bash .github/scripts/select-posts.sh
 
-      - name: Publish (force-all)
-        if: ${{ github.event.inputs.force_all == 'true' }}
-        working-directory: mdparser/sync
+      # Beweist vor dem ersten Relay-Zugriff, dass signiert werden kann: Das
+      # Event wird signiert, aber ohne Relay-Argument nicht publiziert. Ohne
+      # diesen Schritt scheitert erst der halbe Lauf — haeufigste Ursache ist
+      # ein totes Bunker-Pairing (SETUP-GUIDE, Huerde 4).
+      #
+      # Ein leerer CLIENT_SECRET_HEX faellt hier nicht von selbst auf: nak nimmt
+      # dann einen zufaelligen Client-Schluessel, und der Bunker verweigert mit
+      # einer Meldung, die nicht auf die Ursache zeigt. Deshalb vorher benennen.
+      - name: Signierstrecke pruefen
+        if: ${{ steps.auswahl.outputs.modus != 'nichts' && inputs.dry_run != true }}
+        shell: bash
         env:
-          BUNKER_URL: ${{ secrets.BUNKER_URL }}
           AUTHOR_PUBKEY_HEX: ${{ secrets.AUTHOR_PUBKEY_HEX }}
-          CLIENT_SECRET_HEX: ${{ secrets.CLIENT_SECRET_HEX }}
-          MIN_RELAY_ACKS: '2'
-          CONTENT_ROOT: ${{ github.workspace }}/content-repo/Website/content
+          NOSTR_SECRET_KEY: ${{ secrets.BUNKER_URL }}
+          NOSTR_CLIENT_KEY: ${{ secrets.CLIENT_SECRET_HEX }}
         run: |
-          deno run \
-            --allow-env --allow-read \
-            --allow-write=./logs,"$GITHUB_STEP_SUMMARY" \
-            --allow-net --allow-run=git \
-            cli.ts publish --force-all
+          set -euo pipefail
+          for name in AUTHOR_PUBKEY_HEX NOSTR_SECRET_KEY NOSTR_CLIENT_KEY; do
+            if [ -z "${!name}" ]; then
+              echo "Secret fuer $name ist leer — siehe README, Abschnitt Secrets." >&2
+              exit 1
+            fi
+          done
+          nak event -c "preflight ${{ github.run_id }}" > /dev/null < /dev/null
 
-      - name: Publish (diff)
-        if: ${{ github.event.inputs.force_all != 'true' }}
-        working-directory: mdparser/sync
+      - name: Publizieren
+        if: ${{ steps.auswahl.outputs.modus != 'nichts' }}
+        shell: bash
         env:
-          BUNKER_URL: ${{ secrets.BUNKER_URL }}
           AUTHOR_PUBKEY_HEX: ${{ secrets.AUTHOR_PUBKEY_HEX }}
-          CLIENT_SECRET_HEX: ${{ secrets.CLIENT_SECRET_HEX }}
-          MIN_RELAY_ACKS: '2'
-          CONTENT_ROOT: ${{ github.workspace }}/content-repo/Website/content
-          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+          BUNKER_URL: ${{ secrets.BUNKER_URL }}
+          # nak liest den Client-Schluessel selbst aus dieser Variablen
+          # (`--connect-as`). Ohne ihn erzeugt jeder Lauf einen neuen
+          # Client-Schluessel, und der Bunker verlangt eine neue Freigabe.
+          NOSTR_CLIENT_KEY: ${{ secrets.CLIENT_SECRET_HEX }}
+          MODUS: ${{ steps.auswahl.outputs.modus }}
+          TROCKEN: ${{ inputs.dry_run }}
         run: |
-          deno run \
-            --allow-env --allow-read \
-            --allow-write=./logs,"$GITHUB_STEP_SUMMARY" \
-            --allow-net --allow-run=git \
-            cli.ts publish
+          set -euo pipefail
+          argumente=(--log "scripts/nostr-sync/logs/lauf-${{ github.run_id }}.json")
+          if [ "${TROCKEN:-false}" = "true" ]; then
+            argumente+=(--dry-run)
+          fi
 
-      - name: Upload run log
+          if [ "$MODUS" = "alle" ]; then
+            python scripts/nostr-sync/cli.py --all "${argumente[@]}"
+          else
+            # Zeilenweise aus der Datei, nicht als Wortliste: Ein Beitragspfad
+            # enthaelt ein Leerzeichen („2025-10-10 Offenheit braucht Tiefe …"),
+            # und eine interpolierte Argumentliste zerlegte ihn in fuenf
+            # nicht existierende Pfade.
+            xargs -a posts.txt -d '\n' python scripts/nostr-sync/cli.py "${argumente[@]}"
+          fi
+
+      - name: Protokoll sichern
         if: always()
         uses: actions/upload-artifact@v7
         with:
           name: nostr-sync-log-${{ github.run_id }}
-          path: mdparser/sync/logs/publish-*.json
+          path: scripts/nostr-sync/logs/lauf-*.json
           retention-days: 30
           if-no-files-found: warn
 
-      # Die Zusammenfassung steht als Job-Summary auf der Run-Seite (cli.ts
-      # schreibt sie nach GITHUB_STEP_SUMMARY). Dieser Step macht zusaetzlich
-      # sichtbar, wenn der Publish-Step gar nicht erst lief.
-      - name: Kein Publish gelaufen
+      # Die Zusammenfassung schreibt cli.py selbst nach GITHUB_STEP_SUMMARY.
+      # Dieser Schritt macht zusaetzlich sichtbar, wenn es gar nicht so weit kam.
+      - name: Abbruch benennen
         if: failure()
         run: |
-          echo "> [!CAUTION]" >> "$GITHUB_STEP_SUMMARY"
-          echo "> Der Sync ist abgebrochen — es wurde **nichts publiziert**." >> "$GITHUB_STEP_SUMMARY"
-          echo "> Haeufigste Ursache: Bunker-Pairing tot (siehe SETUP-GUIDE, Huerde 4)." >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo '> [!CAUTION]'
+            echo '> **Der Sync ist abgebrochen.** Was vorher lief, steht oben; alles danach'
+            echo '> wurde **nicht** publiziert.'
+            echo '>'
+            echo '> Ein erneuter Lauf ist gefahrlos und holt es nach: Das Relay entscheidet,'
+            echo '> nicht die Git-Historie.'
+          } >> "$GITHUB_STEP_SUMMARY"

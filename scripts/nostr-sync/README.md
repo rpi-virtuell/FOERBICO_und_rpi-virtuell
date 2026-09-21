@@ -111,6 +111,7 @@ ohne beides gibt es keinen Auftrag und der Aufruf endet mit Exit 2.
 |---|---|---|
 | `AUTHOR_PUBKEY_HEX` | unser Pubkey; ohne ihn ist der Idempotenz-Check blind | immer (oder `--pubkey`) |
 | `BUNKER_URL` | NIP-46-Signer | nur ohne `--dry-run` |
+| `NOSTR_CLIENT_KEY` | liest **`nak` selbst** (`--connect-as`): der feste Client-Schlüssel der Bunker-Verbindung. Fehlt er, nimmt `nak` jedes Mal einen neuen, und der Bunker verlangt eine neue Freigabe | in der CI |
 | `GITHUB_STEP_SUMMARY` | setzt die CI; dorthin geht die Zusammenfassung zusätzlich | nein |
 
 ### Exit-Codes
@@ -155,7 +156,36 @@ cp -r Website/content/de/posts/<ordner> /tmp/probe
 |---|---|
 | `BUNKER_URL` | NIP-46-Verbindung zum Signer (`nak --sec`) |
 | `AUTHOR_PUBKEY_HEX` | Unser Pubkey — für `a`-Tags und für die Idempotenz-Abfragen (`nak req -a`) |
-| `CLIENT_SECRET_HEX` | Client-Schlüssel der Bunker-Verbindung (`nak --connect-as`) |
+| `CLIENT_SECRET_HEX` | Client-Schlüssel der Bunker-Verbindung; der Workflow reicht ihn als `NOSTR_CLIENT_KEY` durch, `nak` liest ihn von dort |
 
 Der Sync publiziert ausschließlich unter diesem Pubkey. Events anderer Pubkeys werden nie
 verändert, sondern nur gemeldet, wenn sie denselben Slug belegen.
+
+## Was der Workflow tut
+
+`.github/workflows/nostr-sync.yml`, zwei Jobs:
+
+1. **Tests** — die gesamte Suite, danach der Vergleich gegen `md2blossom` in einem eigenen
+   Lauf. Wird er übersprungen, fällt der Job: Ein Skip wäre hier kein Erfolg, sondern ein
+   ungeprüftes Abnahmekriterium.
+2. **Publizieren** — läuft nur, wenn die Tests grün sind.
+
+Zwei Hilfsteile, weil beide Jobs bzw. mehrere Fälle sie brauchen:
+
+| Datei | Aufgabe |
+|---|---|
+| `.github/actions/install-nak/` | `nak` in gepinnter Version installieren und die SHA-256 prüfen |
+| `.github/scripts/select-posts.sh` | aus dem Git-Diff die betroffenen `index.md` ermitteln |
+
+**Der Git-Diff ist nur ein Vorfilter für die Laufzeit.** Ob publiziert wird, entscheidet der
+Vergleich mit dem Relay — ein Lauf mit *alle* muss zum selben Ergebnis führen wie einer mit
+Diff. Die Auswahl geht deshalb im Zweifel zu weit statt zu kurz:
+
+- Ein geändertes **Bild** wählt seinen Beitrag mit aus (Blob und Lizenznachweis hängen daran).
+- Ist der Vorgängercommit nicht auswertbar (neuer Branch, Force-Push, erneuter Lauf), werden
+  **alle** Beiträge angesehen — mit sichtbarem Hinweis, nicht stillschweigend.
+- Gehört zu keiner Änderung eine `index.md`, wird nichts publiziert; auch das steht als
+  Hinweis in der Zusammenfassung.
+
+Von Hand starten (*Run workflow*) mit zwei Schaltern: **alle** Beiträge ansehen und
+**dry-run** (entscheiden, nichts senden). Für den ersten Einsatz beides zusammen.

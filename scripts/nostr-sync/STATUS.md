@@ -11,6 +11,7 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 ## Stand: 2026-09-21
 
 - Tests: **200 grün**, 4 übersprungen, Laufzeit ~6 s (Kernsuite ohne `node`: 182 in ~4,5 s)
+- Workflow umgebaut: kein `mdparser`-Checkout mehr, `nak` gepinnt mit Prüfsumme
 - Abnahmekriterium erfüllt: **33 von 33 Bildern zeichengleich zu `md2blossom.mjs`**
 - Dry-Run über alle 96 Beiträge: 19 publiziert · 59 unverändert · 14 übersprungen · 4 blockiert
 - Jede der 19 Änderungen ist begründet: 15 Sprachreparatur, 4 ohne Live-Event
@@ -39,9 +40,11 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Was als Nächstes ansteht
 
-1. **`.github/workflows/nostr-sync.yml` umbauen** — `mdparser`-Checkout raus, `nak` gepinnt
-   mit Checksum rein, `git diff` als Vorfilter, `--log` als Artefakt.
-   *Warum zuletzt:* Erst wenn alles andere läuft.
+1. **Ersten echten Lauf wagen** — von Hand mit *alle* + *dry-run* starten, dann einen
+   einzelnen Beitrag ohne `--dry-run`.
+   *Warum jetzt:* Der Bunker-Pfad (`NOSTR_CLIENT_KEY` → `nak --connect-as`) ist der einzige
+   Teil, der lokal nicht prüfbar war. Er scheitert sichtbar im Schritt *Signierstrecke
+   prüfen*, bevor irgendetwas publiziert wird.
 2. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
    nicht mehr aktualisiert. Liste in der Spec unter *Arbeitsliste vor dem Cutover*.
 3. **Fremder Pubkey am selben Slug** — der letzte offene Punkt der Warnliste.
@@ -56,6 +59,10 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 - Übersprungene Beiträge bekommen keine Konventionswarnungen: 2 der 60 Schlagwort-Fälle
   tauchen deshalb im Bericht nicht auf (beiden fehlt `creator`). Bewusst so — von einem
   Beitrag, der gar nicht publiziert wird, erreichen auch die Schlagworte Nostr nicht.
+- Der Bunker-Pfad ist **ungetestet**: Ob der Bunker den Client-Schlüssel aus
+  `NOSTR_CLIENT_KEY` akzeptiert, zeigt erst ein echter CI-Lauf. Lokal gibt es keinen Bunker.
+- Die Action-Versionen (`setup-python@v7`, `setup-node@v7`) sind neu im Repo; `checkout@v6`
+  und `upload-artifact@v7` bleiben, wie sie vorher schon liefen.
 - Der `md2blossom`-Vergleich braucht `Website/scripts/node_modules` (`npm ci`). Fehlt es,
   überspringt er sich — in der CI muss er deshalb **ohne** Skip laufen, sonst ist das
   Abnahmekriterium nur scheinbar erfüllt.
@@ -84,6 +91,27 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-21 — Workflow umgebaut
+
+- `mdparser`-Checkout und Deno sind raus. Der Workflow hat jetzt zwei Jobs: **Tests als Tor**,
+  dann Publizieren. Ohne grüne Tests wird nichts publiziert.
+- `nak` kommt gepinnt (v0.17.3) **mit SHA-256-Prüfung** — sonst würde ein ausgetauschtes
+  Binary unsere Events signieren. Prüfsumme selbst gebildet, das Release hat keine.
+- Eigene Composite-Action `install-nak`, weil beide Jobs sie brauchen und eine Kopie
+  auseinanderläuft.
+- `select-posts.sh` bildet den Git-Diff auf Beiträge ab. Gegengeprüft an echten Commits und
+  fünf Sonderfällen: geändertes Bild wählt seinen Beitrag · Pfad mit Leerzeichen ·
+  nur `_index.md` · gelöschter Beitrag · mehrere Dateien desselben Beitrags.
+- Gefunden: **ein Beitragspfad enthält Leerzeichen** (`2025-10-10 Offenheit braucht Tiefe
+  TiRU Projekt`). Eine interpolierte Argumentliste hätte ihn in fünf nicht existierende
+  Pfade zerlegt. Übergabe läuft deshalb zeilenweise über `posts.txt` und `xargs -d '\n'` —
+  das schließt zugleich Template-Injection aus.
+- Gefunden: `nak` liest den Client-Schlüssel selbst aus `$NOSTR_CLIENT_KEY`. Damit bleibt
+  `nak.py` unverändert; der Workflow reicht `CLIENT_SECRET_HEX` unter diesem Namen durch.
+- Neuer Schritt *Signierstrecke prüfen*: signiert ein Event **ohne Relay**, bevor irgendetwas
+  publiziert wird. Leere Secrets werden vorher beim Namen genannt.
+- `concurrency: nostr-sync` — zwei gleichzeitige Läufe würden doppelte kind:1063 hinterlassen.
 
 ### 2026-09-21 — Abnahmekriterium: kind:1063 gegen `md2blossom`
 

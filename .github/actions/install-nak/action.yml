@@ -1,0 +1,40 @@
+# Laedt das gepinnte nak-Binary und prueft seine Pruefsumme.
+#
+# Eigene Action, weil zwei Jobs sie brauchen (Tests und Publizieren) und eine
+# Kopie irgendwann auseinanderlaeuft. Version und Pruefsumme kommen als Eingabe
+# herein, damit an der Aufrufstelle steht, worauf festgelegt wurde.
+
+name: nak installieren
+description: Installiert nak in gepinnter Version und prueft die SHA-256.
+
+inputs:
+  version:
+    description: 'nak-Version, z. B. v0.17.3'
+    required: true
+  sha256:
+    description: 'SHA-256 des linux-amd64-Binaries'
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      env:
+        VERSION: ${{ inputs.version }}
+        SHA256: ${{ inputs.sha256 }}
+      run: |
+        set -euo pipefail
+        url="https://github.com/fiatjaf/nak/releases/download/${VERSION}/nak-${VERSION}-linux-amd64"
+        curl -sSfL -o /tmp/nak "$url"
+
+        # Ohne diese Pruefung wuerde ein ausgetauschtes Binary unsere Events
+        # signieren und publizieren. `--strict` laesst auch formal falsche
+        # Pruefsummenzeilen fehlschlagen statt sie zu ueberspringen.
+        echo "${SHA256}  /tmp/nak" | sha256sum --check --strict
+
+        sudo install -m 0755 /tmp/nak /usr/local/bin/nak
+        nak --version
+        nak --version | grep -Fq "$VERSION" || {
+          echo "nak meldet eine andere Version als $VERSION" >&2
+          exit 1
+        }
