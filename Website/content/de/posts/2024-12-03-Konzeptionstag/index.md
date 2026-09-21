@@ -52,8 +52,8 @@ bilder:
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
   Lego.jpg:
-    alt: 'Ergebnisse "Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor?" aus Lego®-Bausteinen und Schlumpf-Figuren'
-    title: 'Lego®-Bauwerke'
+    alt: 'Ergebnisse "Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor?" aus Bausteinen und Figuren'
+    title: 'Bauwerke vom Konzeptionstag'
     sourceUrl: https://oer.community/konzeptionstag
     author: FOERBICO
     authorUrl: https://oer.community
