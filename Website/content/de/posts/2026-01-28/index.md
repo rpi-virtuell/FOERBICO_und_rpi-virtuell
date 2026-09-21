@@ -54,6 +54,42 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  RELImentarInterviewTitelpage.jpg:
+    alt: Logo von RELImentar auf einem Laptop-Screen. Hintergrundbild KI-generiert mit Whiteboard und Notizen zu OER-Communities. Erstellt in Canva.
+    title: Interview mit RELImentar
+    sourceUrl: https://oer.community/interview-relimentar
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  logo-relimentar-final-2.png:
+    alt: Logo von RELImentar
+    title: RELImentar-Logo
+    sourceUrl: https://relimentar.de/
+    author: RELImentar
+    authorUrl: https://relimentar.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  FOERBICO_Tagung_Logo.jpg:
+    alt: Abbildung von orangenem Außenkreis mit der Aufschrift OEP mit drehendem Pfeil und einem blauen Innenkreis mit der Auschrift OER auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.
+    title: Logo zur Zwischenfazit-Tagung von FOERBICO
+    sourceUrl: https://oer.community/interview-relimentar
+    author: relilab
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
+  Screenshot_RELImentar.jpg:
+    alt: Screenshot der Webseite relimentar.de vom Materialpool von RELImentar.
+    title: Screenshot-Materialpool
+    sourceUrl: https://relimentar.de/
+    author: RELImentar
+    authorUrl: https://relimentar.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
  
 # Interview RELImentar
@@ -98,7 +134,5 @@ Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Comm
 Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Communities existieren? Und welche Rolle spielen Institutionen wie Schulen oder Kirchen bei ihrer Entwicklung und Verstetigung?
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
-
-Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de.
