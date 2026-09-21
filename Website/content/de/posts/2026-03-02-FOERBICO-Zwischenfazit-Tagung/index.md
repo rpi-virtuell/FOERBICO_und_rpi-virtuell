@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt
 description: Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
 license: https://creativecommons.org/licenses/by/4.0/
@@ -80,8 +79,6 @@ image: https://oer.community/recap-foerbico-tagung-2026/Team.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2026-03-16
 keywords:
   - FOERBICO in Kontakt
@@ -118,6 +115,129 @@ tags:
   - Open Educational Practices (OEP)
   - Open Educational Resources (OER)
   - Vernetzung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Team.jpg:
+    alt: Foto des jubelnden FOERBICO-Teams bei der Zwischenfazit-Tagung 2026 in Nürnberg
+    title: FOERBICO-Team
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Grusswort-Reuter.jpg:
+    alt: Video mit Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) mit Online-Begrüßung bei FOERBICO-Zwischenfazit-Tagung 2026 in Nürnberg
+    title: 'Online-Grußwort von Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ)'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Forschungsstand.jpg:
+    alt: 'Manfred Pirner der FAU Erlangen-Nürnberg steht am Rednerpult und stellt den Literaturbericht.'
+    title: 'Vorstellung Forschungsstand von Manfred Pirner'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Begleitforschung.jpg:
+    alt: 'Phillip der FAU Erlangen-Nürnberg stellt dem Publikum die Ergebnisse der Begleitforschung im Rahmen des FOERBICO-Projektes vor.'
+    title: 'Vorstellung der Ergebnisse der Begleitforschung im FOERBICO-Projekt'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Qualitaet.jpg:
+    alt: 'Laura von der Goethe-Universität Frankfurt a.M. präsentiert die im FOERBICO-Projekt entwickelten Qualitätskriterien vor.'
+    title: 'Vorstellung der im FOERBICO-Projekt entwickelten Qualitätskriterien'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  Hub-Vorstellung.jpg:
+    alt: 'Das Team vom Comenius-Institut stellt die aktuellen Entwicklungen des im FOERBICO-Projektes geplanten Community-Hubs vor.'
+    title: 'Vorstellung der aktuellen Entwicklungen vom Community-Hub'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  Keynote.jpg:
+    alt: 'Prof. Dr. Daniel Otto steht auf der Bühne und präsentiert aktuelle Herausforderungen und Perspektiven für OER und OEP.'
+    title: 'Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  OER_KI_Matrix.jpg:
+    alt: 'Folie aus Präsentation von Prof. Daniel Otto zu aktuelle Herausforderungen und Perspektiven für OER und OEP mit Matrix zu Kompetenzen im digitalen Zeitalter: Delegierbarkeit x Offenheit. Eigene Darstellung unter Nutzung von ChatGPT 5.'
+    title: 'Matrix zu Kompetenzen im digitalen Zeitalter: Delegierbarkeit x Offenheit'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: Daniel Otto
+    authorUrl: https://www.researchgate.net/profile/Daniel-Otto-7
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  relilab.jpg:
+    alt: 'Logo mit Aufschrift relilab in blau-lila-pinken Farbverlauf als Schieberegler.'
+    title: 'Logo relilab'
+    sourceUrl: https://relilab.org/
+    author: relilab
+    authorUrl: https://relilab.org/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/ 
+  reliGlobal.jpg:
+    alt: 'Logo mit verschiedenfarbigen Figuren in Form einer Weltkugel.'
+    title: 'Logo reliGlobal'
+    sourceUrl: https://religlobal.org/
+    author: reliGlobal
+    authorUrl: https://religlobal.org/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/ 
+  RELImentar.jpg:
+    alt: 'Logo mit grünem Schriftzug RELImentar mit pinkem e auf dem i.'
+    title: 'Logo RELImentar'
+    sourceUrl: https://relimentar.de/
+    author: RELImentar
+    authorUrl: https://relimentar.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/ 
+  CriticalFriends.jpg:
+    alt: 'Vier Critical Friends aus verschiedenen Intsitutionen sitzen im Halbkreis auf der Bühne und diskutieren moderiert von Manfred Pirner.'
+    title: 'Podiumsdiskussion mit Critical Friends'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  hoerz.jpg:
+    alt: 'Plakat mit Anleitung zu "Teile dein hOERz" für die Teilnehmenden im Rahmen der Zwischenfazit-Tagung.'
+    title: 'hOERz-Aktion bei der Zwischenfazit-Tagung'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  Essen.jpg:
+    alt: 'Teilnehmende der Tagung am Essensbuffet.'
+    title: 'Leckeres Essen und Begegnung'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+  Hilfskraefte.jpg:
+    alt: 'Team der Hilfskräfte der Zwischenfazit-Tagung mit Tier-Luftballons.'
+    title: 'Team der Tagungshilfskräfte'
+    sourceUrl: https://oer.community/recap-foerbico-tagung-2026
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
 ---
 
 Offene Bildungsressourcen (OER) und offene Bildungspraktiken (OEP) gewinnen mit der fortschreitenden Digitalisierung der Bildung und dem Ziel größerer Chancengleichheit zunehmend an Bedeutung. Mit seiner OER-Strategie fördert der Bund daher Projekte, die Antworten auf zentrale offene Fragen entwickeln, u.a. wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt.
