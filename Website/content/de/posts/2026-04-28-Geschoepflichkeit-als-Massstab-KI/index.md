@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Geschöpflichkeit als Maßstab - vier Bestimmungen für eine evangelische Position zu KI in der Bildung'
 description: >-
   Ergebnisse einer Arbeitsgruppe am Comenius-Institut: Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit und KI-Entwicklung als Berufung – vier Bestimmungen, die das Menschsein im KI-Zeitalter evangelisch profilieren.
@@ -48,8 +47,6 @@ image: https://oer.community/geschoepflichkeit-als-massstab-ki/haende.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-04-29'
 keywords:
   - KI
@@ -81,6 +78,26 @@ tags:
   - Didaktik
   - FOERBICO in Kontakt
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  haende.jpg:
+    alt: 'Vier Hände der Arbeitsgruppe mit Miriam, Simone, Jörg und Steffen vom CI auf der Terrasse des Instituts.'
+    title: Vier Hände statt KI-Bild 
+    sourceUrl: https://oer.community/geschoepflichkeit-als-massstab-ki
+    author: Jörg Lohrer
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  geschoepf-ki-banana2.jpg:
+    alt: 'KI-generierte Symbolbild für Geschöpflichkeit als Maßstab für KI mit einer Hand und einem neuronales Netz in Form eines Gehirns.'
+    title: KI-generierte Symbolbild für Geschöpflichkeit
+    sourceUrl: https://oer.community/geschoepflichkeit-als-massstab-ki
+    author: Jörg Lohrer
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 > **TL;DR** – In einer Arbeitsgruppe am Comenius-Institut haben wir uns gefragt, was religionsbezogene Bildung gegenüber KI eigentlich Eigenes einzubringen hat. Den Anstoß gaben Anregungen von Prof. Dr. Birte Platow, die uns vier Punkte zum Weiterdenken mitgegeben hatte. Herausgekommen sind vier Bestimmungen des Menschseins, die KI strukturell *nicht* leisten kann: **Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit, KI-Entwicklung als Berufung**. Sie machen Geschöpflichkeit als Maßstab evangelischer Bildung im KI-Zeitalter konkret.
