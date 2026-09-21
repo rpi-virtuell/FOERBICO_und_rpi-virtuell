@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen schaffen'
 description: An der Uni Vechta wird vom Institut für Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
 license: https://creativecommons.org/licenses/by/4.0/
@@ -56,6 +55,33 @@ tags:
   - TikTok
   - Hochschuldidaktik
   - Hochschulen
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Social-Media-Logo-Uni-Vechta.jpg:
+    alt: 'Social-Media-Logo vom Institut für Katholische Theologie der Universität Vechta mit rotem Hintergrund'
+    title: 'Social-Media-Logo vom Institut für Katholische Theologie der Universität Vechta'
+    sourceUrl: https://oer.community/theologie-memes
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Meme-1.jpg:
+    alt: 'Mann im schwarzen Gewand mit Heiligenschein (Ich) schaut in Buch (Psalm 137,9) und reißt die Augen weit auf.'
+    title: 'Beispiel-Meme Psalm 137,9'
+    sourceUrl: https://oer.community/theologie-memes
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Meme-3.jpg:
+    alt: 'Geteilten Bild von Mann im Holzstock und goldenem Spiegel in der Hand links mit Aufschrift "Herodes heiratet...", rechts mit Aufschrift "...wen?!""".'
+    title: 'Beispiel-Meme Herodes'
+    sourceUrl: https://oer.community/theologie-memes
+    author: Institut für Katholische Theologie an der Universität Vechta
+    authorUrl: https://www.uni-vechta.de/katholische-theologie
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 Wer durch TikTok scrollt, denkt vermutlich nicht sofort an Glaubensfragen. Doch genau das wagt das Institut für Katholische Theologie an der Universität Vechta (IKT): Es bringt theologische Inhalte aus dem Seminarraum und vom Schreibtisch in die sozialen Medien – auf TikTok, Instagram und YouTube.
@@ -79,7 +105,7 @@ Herzstück vieler Clips sind Memes. Mit bekannten Bildern aus der Internetkultur
 
 ## Memes als didaktisches Werkzeug
 
-Memes in ihrer Bildsprache sind mehr als Beiwerk: Sie können didaktisch eingesetzt werden. Sie komprimieren komplexe Inhalte in ein leicht zugängliches Format, sie erzeugen Humor und Resonanz – und verknüpfen theologische Sprache mit Alltagskultur.
+Memes in ihrer Bildsprache sind mehr als Beiwerk: Sie können didaktisch eingesetzt werden. Sie komprimieren komplexe Inhalte in ein leicht zugängliches Format, sie erzeugen Humor und Resonanz und verknüpfen theologische Sprache mit Alltagskultur.
 So entsteht ein digitales Storytelling, das Emotionen weckt, Neugier erzeugt und den Zugang zu abstrakten Fragen erleichtert, ohne die Sachebene aufzugeben.
 
 ## TikTok: Herausforderungen & Chancen für Institutionen
