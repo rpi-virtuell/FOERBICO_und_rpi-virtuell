@@ -44,6 +44,26 @@ url: oep-von-ressourcen-zu-praktiken
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  oer-cube.jpg:
+    alt: Ein 3D-Bild eines schwarzen Würfels, dessen Flächen aus vielen rechteckigen Screens bestehen. Auf jedem Screen ist ein Foto oder Bild dargestellt, z. B. Landschaften, Architektur, Tiere, Kunstwerke, Symbole und Objekte in kräftigen Farben. Der Würfel ist leicht gedreht im Raum schwebend, mit blauer Hintergrundbeleuchtung, sodass er futuristisch und modern wirkt. Der Stil soll fotorealistisch und detailreich sein, wie eine digitale Collage aus kleinen Monitoren.
+    title: 'Symbolbild: Der Würfel aus Bildern symbolisiert die Vielfalt offener Bildungsressourcen (OER) und die Vernetzung in Open Educational Practices (OEP) - frei kombinierbar, zugänglich und gemeinschaftlich gestaltbar'
+    sourceUrl: https://oer.community/oep-von-ressourcen-zu-praktiken
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
+  constitutive-elements-of-OEP-Ehlers-2011.jpg:
+    alt: Matrix Learning Architecture x OER-Usage.
+    title: 'Matrix 1. Constitutive Elements of OEP'
+    sourceUrl: https://oer.community/oep-von-ressourcen-zu-praktiken
+    author: Prof. Dr. Ulf-Daniel Ehlers
+    authorUrl: https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 CC BY [Prof. Dr. Ulf-Daniel Ehlers (NextEducation)](https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/)
