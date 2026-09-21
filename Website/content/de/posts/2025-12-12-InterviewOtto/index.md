@@ -54,6 +54,15 @@ tags:
   - Open Educational Practices (OEP)
   - Tagung
   - KI
+  FOERBICO_Tagung_Logo.jpg:
+    alt: Abbildung von orangenem Außenkreis mit der Aufschrift OEP mit drehendem Pfeil und einem blauen Innenkreis mit der Auschrift OER auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.
+    title: Logo zur Zwischenfazit-Tagung von FOERBICO
+    sourceUrl: https://oer.community/interview-daniel-otto/
+    author: relilab
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 # Interview mit Prof. Dr. Daniel Otto
 
