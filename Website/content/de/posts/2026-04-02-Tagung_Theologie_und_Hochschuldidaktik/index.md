@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Können OEP partizipatives Lernen und Demokratiebildung fördern'
 description: >-
   Unter dem Motto OEP & Demokratiebildung fand sich das Netzwerk Theologie
@@ -85,6 +84,17 @@ tags:
   - Qualitätskriterien
   - Demokratiebildung
   - KI
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  educationforall.jpg:
+    alt: Pappschild mit Aufschrift Education for all
+    title: Education for all
+    sourceUrl: https://unsplash.com/de/fotos/eine-person-die-ein-schild-halt-auf-dem-bildung-fur-alle-steht-wgS7Iz0Chtg
+    author: Nk Ni
+    authorUrl: https://unsplash.com/de/@nkhasebe
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 Unter dem Motto "OEP & Demokratiebildung" fand sich das Netzwerk [Theologie und Hochschuldidaktik](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) vom 30.-31. März 2026 in Münster zusammen. Damit sollte der gedankliche Faden der letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Unseren Artikel über die letztjährige Tagung könnt ihr [hier](https://oer.community/oer-meets-fachdidaktik/) nachlesen. 
