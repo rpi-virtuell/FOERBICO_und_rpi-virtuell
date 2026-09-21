@@ -100,6 +100,13 @@ class CommonMetadata(BaseModel):
     inLanguage: list[str]
     datePublished: str
 
+    # JSON-LD-Schluessel aus AMB. Bekannt, damit sie nicht als unbekanntes Feld
+    # gemeldet werden — `@context` steht in 82 Beitraegen und wuerde jede echte
+    # Meldung zudecken. Publiziert wird aus beiden nichts.
+    context: str | None = Field(default=None, alias="@context")
+    jsonld_type: str | None = Field(default=None, alias="@type")
+    """Nicht zu verwechseln mit `type`: **nur** das treibt das AMB-Event."""
+
     # Optional
     type: str | None = None
     about: list[str] = Field(default_factory=list)

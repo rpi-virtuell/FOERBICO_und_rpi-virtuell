@@ -18,9 +18,10 @@ import nak
 from error_checks import check_hard_line_breaks, check_html
 from events import build_amb, build_article, tags_equal
 from frontmatter import NoFrontmatter, parse_post
-from models import CommonMetadata, Outcome, PostResult
+from models import CommonMetadata, Finding, Outcome, PostResult
 from pydantic import ValidationError
 from references import extract_slug, image_references
+from warning_checks import check_images, check_keywords, check_unknown_fields
 
 ARTICLE = 30023
 AMB = 30142
@@ -71,12 +72,14 @@ def publish_post(
         )
 
     slug = extract_slug(metadata.id)
+    konventionen = _conventions(post, metadata)
     findings = check_html(post.content, post.content_line) + check_hard_line_breaks(
         post.content, post.content_line
     )
     if findings:
         return PostResult(
-            path=path, outcome=Outcome.FAILED, slug=slug, findings=findings,
+            path=path, outcome=Outcome.FAILED, slug=slug,
+            findings=findings + konventionen,
             reason="Spezifikationsverletzung — nicht publiziert",
         )
 
@@ -108,7 +111,7 @@ def publish_post(
     geaendert = any(a.changed for _, a in abgleiche)
     gemeinsam = dict(
         path=path, slug=slug, article=article, amb=amb,
-        existing=abgleiche[0][1].existing, findings=list(bilder.findings),
+        existing=abgleiche[0][1].existing, findings=konventionen + bilder.findings,
     )
     if not geaendert:
         return PostResult(outcome=Outcome.UNCHANGED, **gemeinsam)
@@ -116,6 +119,19 @@ def publish_post(
         outcome=Outcome.PUBLISHED,
         reason="dry-run — nichts gesendet" if dry_run else "",
         **gemeinsam,
+    )
+
+
+def _conventions(post, metadata: CommonMetadata) -> list[Finding]:
+    """Die Konventionsbefunde eines Beitrags — sie blockieren nie.
+
+    Erst ab hier, weil ein Beitrag ohne Pflichtfelder gar nicht nach Nostr geht:
+    Dort ist „die Schlagworte erreichen Nostr nicht" keine Information.
+    """
+    return (
+        check_keywords(post.metadata, post.site_generator)
+        + check_images(metadata.image, post.content, post.content_line)
+        + check_unknown_fields(metadata)
     )
 
 

@@ -10,50 +10,54 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Stand: 2026-09-16
 
-- Tests: **156 grün**, 4 übersprungen (brauchen `node`), Laufzeit ~4 s
+- Tests: **180 grün**, 4 übersprungen (brauchen `node`), Laufzeit ~4 s
 - Dry-Run über alle 96 Beiträge: 19 publiziert · 59 unverändert · 14 übersprungen · 4 blockiert
 - Jede der 19 Änderungen ist begründet: 15 Sprachreparatur, 4 ohne Live-Event
-- Längste Funktion: 81 Zeilen (`publish.py:publish_post`), längste Datei: 188 (`events.py`)
+- Datenqualität sichtbar: 167 Warnungen in 6 Gruppen (Schlagworte, Bilder, Felder)
+- Längste Funktion: 83 Zeilen (`publish.py:publish_post`), längste Datei: 204 (`warning_checks.py`)
 - Ohne `--dry-run` **nicht erprobt** — es wurde noch nie etwas publiziert
 
 ## Module
 
 | Modul | Zeilen | Tests | Zustand |
 |---|---|---|---|
-| `models.py` | 151 | 5 | fertig |
-| `frontmatter.py` | 100 | 11 | fertig |
+| `models.py` | 158 | 6 | fertig |
+| `frontmatter.py` | 114 | 13 | fertig |
 | `references.py` | 73 | 13 | fertig |
 | `error_checks.py` | 126 | 14 | fertig |
+| `warning_checks.py` | 204 | 16 | fertig, ohne Pubkey-Prüfung |
 | `events.py` | 188 | 26 | fertig |
 | `nak.py` | 134 | 12 | fertig |
 | `images.py` | 177 | 10 | fertig |
-| `publish.py` | 154 | 15 | fertig |
-| `report.py` | 161 | 9 | fertig |
-| `cli.py` | 141 | 10 | fertig |
-| `warning_checks.py` | — | — | **fehlt** |
+| `publish.py` | 170 | 17 | fertig |
+| `report.py` | 196 | 12 | fertig |
+| `cli.py` | 171 | 10 | fertig |
 | Golden-Fixtures | — | 24 | fertig |
 | Architektur-Tests | — | 11 | fertig |
 
 ## Was als Nächstes ansteht
 
-1. **`warning_checks.py`** — Schlagworte im falschen Block (60 Beiträge), relative Bildpfade
-   (197), unbekannte Frontmatter-Felder (8), fremder Pubkey am selben Slug.
-   *Warum jetzt:* Das ist die halbe Daseinsberechtigung des Umbaus — sichtbar machen, was
-   heute stillschweigend verlorengeht. Blockiert nichts, deshalb nach der laufenden Strecke.
-2. **Abnahmekriterium `test_1063_byte_identical_to_md2blossom`** — Vergleich gegen
+1. **Abnahmekriterium `test_1063_byte_identical_to_md2blossom`** — Vergleich gegen
    `Website/scripts/md2blossom.mjs`, Marker `@pytest.mark.md2blossom`, in CI Pflicht.
    *Warum:* kind:1063 ist nicht ersetzbar; weichen die beiden ab, publizieren sie sich
    wechselseitig über. Setzt den fertigen Bilder-Pfad voraus — der steht jetzt.
-3. **`.github/workflows/nostr-sync.yml` umbauen** — `mdparser`-Checkout raus, `nak` gepinnt
+2. **`.github/workflows/nostr-sync.yml` umbauen** — `mdparser`-Checkout raus, `nak` gepinnt
    mit Checksum rein, `git diff` als Vorfilter, `--log` als Artefakt.
    *Warum zuletzt:* Erst wenn alles andere läuft.
-4. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
+3. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
    nicht mehr aktualisiert. Liste in der Spec unter *Arbeitsliste vor dem Cutover*.
+4. **Fremder Pubkey am selben Slug** — der letzte offene Punkt der Warnliste.
+   *Warum zurückgestellt:* Er braucht eine zweite Relay-Abfrage je Beitrag (ohne `-a`) und
+   gehört damit in `publish.py`, nicht in das reine `warning_checks.py`. Rein informativ —
+   bekannt ist genau ein Fall (`rueckblick-auftaktkonferenz-oer-im-blick`).
 
 ## Bekannte Lücken
 
-- `publish.py:publish_post` hat 81 Zeilen und nähert sich der Grenze von 100. Kommt noch
+- `publish.py:publish_post` hat 83 Zeilen und nähert sich der Grenze von 100. Kommt noch
   etwas hinzu, ist das das Signal zum Teilen.
+- Übersprungene Beiträge bekommen keine Konventionswarnungen: 2 der 60 Schlagwort-Fälle
+  tauchen deshalb im Bericht nicht auf (beiden fehlt `creator`). Bewusst so — von einem
+  Beitrag, der gar nicht publiziert wird, erreichen auch die Schlagworte Nostr nicht.
 - Ohne `--dry-run` ist nichts erprobt. Vor dem ersten echten Lauf: einzelnen Beitrag gegen
   einen lokalen `nak serve` publizieren, nicht gegen die produktiven Relays.
 - `--relay` nimmt mehrere Relays, `MIN_RELAY_ACKS` ist aber auf 2 vorbelegt, während die
@@ -73,8 +77,28 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 - Passt die lokale Bilddatei nicht zum attestierten Hash → Nachweis unangetastet lassen.
 - Nachweis mit `client`-Tag stammt aus dem Edufeed-Editor → unangetastet lassen.
 - `md2blossom.mjs` wird nicht angefasst, bis dieser Sync läuft.
+- `@context` und `@type` sind **bekannte** Felder. Sie werden nicht publiziert, aber
+  `@context` steht in 82 Beiträgen — als Warnung würde es jede echte Meldung zudecken.
+- Konventionswarnungen werden im Bericht nach Regel und Fix gebündelt, nicht je Beitrag
+  aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-16 — `warning_checks.py`: sichtbar machen, was verlorengeht
+
+- Neues Modul mit drei Prüfungen: Schlagworte im falschen Block, Bilder ohne auflösbare
+  URL, unbekannte Frontmatter-Felder. Keine blockiert.
+- `frontmatter.py` gibt jetzt den `# staticSiteGenerator`-Block heraus (`site_generator`).
+  Ohne ihn war der Schlagwort-Vergleich nicht möglich; in ein Event wandert er weiterhin nicht.
+  Die Blockzerlegung steckt dabei in `_block`, weil sie zweimal gebraucht wird.
+- Gefunden: **`@context` steht in 82 Beiträgen** und wurde als unbekanntes Feld gemeldet —
+  82 Warnungen, die die 7 echten zugedeckt hätten. Beide JSON-LD-Schlüssel sind jetzt bekannt.
+- `report.py` bündelt Warnungen nach Regel und Fix. Vorher: eine Liste je Beitrag, 602 Zeilen
+  Job-Summary. Jetzt 394, mit 6 Gruppen und aufklappbarer Pfadliste.
+- Gegengeprüft: 58 + 1 Schlagwort-Befunde statt der gemessenen 60 + 1. Die Differenz sind
+  genau zwei übersprungene Beiträge ohne `creator` — kein Fehler in der Prüfung.
+- Der Abschnitt *Publiziert* ist vor und nach dem Umbau **zeichengleich**: Die Warnungen
+  ändern nichts daran, was publiziert wird.
 
 ### 2026-09-16 — AMB-Event und Bilder-Schritt verdrahtet
 

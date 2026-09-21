@@ -14,6 +14,8 @@ import yaml
 STATIC_SITE_GENERATOR = "# staticSiteGenerator"
 IMAGES = "# bilder"
 
+MARKERS = (STATIC_SITE_GENERATOR, IMAGES)
+
 FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", re.DOTALL)
 
 
@@ -25,6 +27,9 @@ class NoFrontmatter(Exception):
 class ParsedPost:
     metadata: dict
     images: dict
+    site_generator: dict
+    """Der `# staticSiteGenerator`-Block. Wandert in kein Event — er dient allein
+    dem Vergleich in warning_checks, weil die Schlagworte faktisch dort leben."""
     content: str
     content_line: int
     """Dateizeile, in der der Fliesstext beginnt — fuer Befunde mit brauchbaren
@@ -40,6 +45,7 @@ def parse_post(raw: str) -> ParsedPost:
     return ParsedPost(
         metadata=_common_metadata(front),
         images=_images(front),
+        site_generator=_block(front, STATIC_SITE_GENERATOR),
         content=body,
         content_line=raw[: match.start(2)].count("\n") + 1,
     )
@@ -49,16 +55,24 @@ def _images(front: str) -> dict:
     """Der `# bilder`-Block, falls vorhanden — sonst leer.
 
     Unter dem Marker steht der eigentliche YAML-Schluessel `bilder`; der Marker
-    selbst ist nur ein Kommentar. Der Block endet am `# staticSiteGenerator`,
-    falls dieser dahinter steht — dieselbe Regel wie in mdparser.
+    selbst ist nur ein Kommentar.
     """
-    start = front.find(IMAGES)
+    return _block(front, IMAGES).get("bilder") or {}
+
+
+def _block(front: str, marker: str) -> dict:
+    """Der YAML-Block ab `marker` bis zum naechsten anderen Marker.
+
+    Der Marker selbst bleibt stehen: YAML liest ihn als Kommentar. Dieselbe
+    Abschneideregel wie in mdparser/sync/core/parser.ts.
+    """
+    start = front.find(marker)
     if start < 0:
         return {}
-    end = front.find(STATIC_SITE_GENERATOR, start)
-    body = front[start:end] if end >= 0 else front[start:]
-    block = yaml.safe_load(body) or {}
-    return _normalize(block.get("bilder") or {})
+    weitere = [front.find(m, start + len(marker)) for m in MARKERS if m != marker]
+    ends = [i for i in weitere if i >= 0]
+    body = front[start : min(ends)] if ends else front[start:]
+    return _normalize(yaml.safe_load(body) or {})
 
 
 def _common_metadata(front: str) -> dict:

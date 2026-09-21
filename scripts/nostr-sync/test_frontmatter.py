@@ -173,3 +173,29 @@ def test_parsed_post_knows_where_the_body_starts_in_the_file():
     post = parse_post(raw)
 
     assert post.content_line == 5
+
+
+def test_the_hugo_block_is_kept_for_comparison():
+    """Er wandert in kein Event — aber warning_checks vergleicht Schlagworte damit."""
+    raw = dedent("""\
+        ---
+        # commonMetadata
+        name: AMB-Titel
+        # staticSiteGenerator
+        title: Hugo-Titel
+        tags:
+          - Metadaten
+        ---
+        Fließtext
+        """)
+
+    post = parse_post(raw)
+
+    assert post.site_generator["title"] == "Hugo-Titel"
+    assert post.site_generator["tags"] == ["Metadaten"]
+
+
+def test_without_a_hugo_block_the_mapping_is_empty():
+    raw = "---\n# commonMetadata\nname: Titel\n---\nText\n"
+
+    assert parse_post(raw).site_generator == {}

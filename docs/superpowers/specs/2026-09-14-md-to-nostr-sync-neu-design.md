@@ -94,12 +94,25 @@ widersprechen:
 
 | Fall | Meldung | Erwartete Menge |
 |---|---|---|
-| `commonMetadata.keywords` leer, aber Schlagworte in `commonMetadata.tags` / `staticSiteGenerator.keywords` / `staticSiteGenerator.tags` | „Schlagworte vorhanden, erreichen Nostr aber nicht" | 60 Posts |
+| `commonMetadata.keywords` leer, aber Schlagworte in `commonMetadata.tags` / `staticSiteGenerator.keywords` / `staticSiteGenerator.tags` | „Schlagworte vorhanden, erreichen Nostr aber nicht" | 60 Posts, davon **58 gemeldet** |
 | Beide gefüllt, Inhalte weichen ab | „Felder weichen voneinander ab" + Differenzmenge in beide Richtungen | 1 Post (`2026-06-25-Personal-Learning-Environments`) |
 
-Das Protokoll gehört in die Job-Summary (kompakte Zähler + betroffene Slugs) und vollständig
-in das Run-Log-Artefakt. **Es blockiert das Publizieren nicht** — es ist ein Datenqualitäts-
-Signal für die Redaktion, kein Fehler.
+**Warum 58 und nicht 60** (gemessen 2026-09-16, umgesetzt): Konventionsbefunde entstehen erst
+*nach* der Schema-Prüfung. Zwei der 60 Beiträge (`2025-03-04-dezentrale-oep-oer`,
+`2025-03-20-dezentrale-oer-infrastrukturen`) haben kein `creator` und werden übersprungen —
+von einem Beitrag, der gar nicht publiziert wird, erreichen auch die Schlagworte Nostr nicht.
+Die Meldung wäre dort irreführend.
+
+Das Protokoll gehört in die Job-Summary und vollständig in das Run-Log-Artefakt.
+**Es blockiert das Publizieren nicht** — es ist ein Datenqualitäts-Signal für die Redaktion,
+kein Fehler.
+
+**Form in der Job-Summary: nach Regel gebündelt, nicht nach Beitrag.** Bei 58 betroffenen
+Beiträgen verdrängt eine Liste je Beitrag alles andere — gemessen 602 Zeilen Summary, in der
+die vier blockierten Beiträge untergehen. Gebündelt nach Herkunft, Regel und Fix sind es
+6 Gruppen: Zähler und Fix stehen einmal, die Pfade aufklappbar darunter. Der Fix gehört mit
+in den Schlüssel, weil fehlende und abweichende Schlagworte dieselbe Regel verletzen, aber
+verschieden zu beheben sind.
 
 ## Bilder: was genau passiert
 
@@ -732,11 +745,19 @@ werden **19 benannte Aenderungen** (Sprach-Tag korrigiert) und sonst nichts.
 
 ### Schema-Strenge: unbekannte Felder melden, nicht blockieren
 
-Gemessen: **8 von 95 Beitraegen** haben Felder, die das AMB-Schema nicht kennt — 6x `@type`,
-dazu `tags`, `url`, `author`, `cover`, `summary`, `title`. Das Schema laesst sie zu
+Gemessen: **8 von 95 Beitraegen** haben Felder, die das AMB-Schema nicht kennt — 2x `tags`,
+dazu `url`, `author`, `cover`, `summary`, `title`. Das Schema laesst sie zu
 (`extra="allow"`) und bewahrt sie auf; `unknown_fields()` liefert die Namen, `warning_checks`
 macht daraus eine sichtbare Meldung mit Datei und Feldnamen. Begruendung: Ein Zusatzfeld
 beschaedigt kein Event, es wird nur nicht in Tags uebersetzt.
+
+**Korrektur 2026-09-16 — `@context` und `@type` sind bekannte Felder.** Die erste Umsetzung
+meldete beide als unbekannt und erzeugte damit **82 Warnungen**: `@context: https://schema.org/`
+steht in 82 der 96 Beitraege, `@type` (`Text` oder `LearningResource`) in 6. Beides sind
+JSON-LD-Schluessel des AMB-Profils und gehoeren dorthin. Als Warnung haetten sie genau die
+7 echten Meldungen zugedeckt — das Gegenteil des Zwecks. Sie stehen deshalb als bekannte,
+nicht publizierte Felder im Schema. **Nicht zu verwechseln:** `@type` treibt nichts; allein
+`type: LearningResource` entscheidet ueber das AMB-Event.
 
 Nach dieser Regel bleiben **13 Beitraege uebersprungen**: 10 Seiten ohne AMB-Metadaten
 (Impressum, Datenschutz, Team — nie fuer Nostr gedacht) und **3 Beitraege mit echten
@@ -1065,9 +1086,10 @@ cd scripts/nostr-sync && .venv/bin/python -m pytest -q
 # Integrationstests (starten den Relay selbst, freier Port, eigener Key je Test)
 cd scripts/nostr-sync && .venv/bin/python -m pytest -q -k integration
 
-# Dry-Run gegen echte Daten, ohne zu publizieren
-#   Skript mit --dry-run --all → erwartet: ausschließlich "unchanged"
-#                                 + 61 Schlagwort-Protokolleinträge
+# Dry-Run gegen echte Daten, ohne zu publizieren (AUTHOR_PUBKEY_HEX noetig)
+#   --dry-run --all → erwartet: 19 publiziert · 59 unveraendert · 14 uebersprungen
+#                               · 4 blockiert, jede Aenderung benannt
+#                               + 59 Schlagwort-Befunde (58 Fall B, 1 Fall C)
 
 # Live-Zustand zum Vergleich
 nak req -k 30023 -d just-calling-it-open-is-not-enough wss://relay-rpi.edufeed.org | jq '.tags'

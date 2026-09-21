@@ -219,3 +219,30 @@ def test_the_image_step_gets_the_folder_of_the_post():
     lauf(sync_images=merken)
 
     assert gesehen["ordner"].name == "pfad"
+
+
+def test_convention_findings_are_reported_without_blocking():
+    """Schlagworte im Hugo-Block: gemeldet, aber der Beitrag geht raus."""
+    mit_hugo_tags = VOLLSTAENDIG.replace(
+        "---\nEin Absatz.", "# staticSiteGenerator\ntags:\n  - OER\n---\nEin Absatz."
+    )
+
+    ergebnis, gesendet = lauf(mit_hugo_tags)
+
+    assert ergebnis.outcome is Outcome.PUBLISHED
+    assert gesendet != []
+    assert any("erreichen Nostr nicht" in f.message for f in ergebnis.findings)
+
+
+def test_a_blocked_post_still_shows_what_else_is_wrong():
+    """Wer die Datei ohnehin anfasst, soll alles auf einmal sehen."""
+    kaputt = VOLLSTAENDIG.replace(
+        "---\nEin Absatz.", "# staticSiteGenerator\ntags:\n  - OER\n---\nEin Absatz <br>."
+    )
+
+    ergebnis, _ = lauf(kaputt)
+
+    assert ergebnis.outcome is Outcome.FAILED
+    herkunft = {f.origin for f in ergebnis.findings}
+    assert "NIP-23" in herkunft
+    assert any("schlagworte.yaml" in h for h in herkunft)

@@ -91,25 +91,60 @@ def _finding_lines(finding) -> list[str]:
 
 
 def _warnings(results: list[PostResult]) -> list[str]:
-    mit_warnung = [
-        (r, [f for f in r.findings if f.severity is Severity.WARNING]) for r in results
-    ]
-    mit_warnung = [(r, f) for r, f in mit_warnung if f]
-    if not mit_warnung:
+    """Die Datenqualitaets-Hinweise, nach Regel gebuendelt.
+
+    Nach Regel und nicht nach Beitrag, weil dieselbe Konvention 60 Beitraege
+    betrifft: eine Liste je Beitrag wuerde alles andere aus der Summary
+    draengen. Die vollstaendigen Befunde stehen im Log-Artefakt (`--log`).
+    """
+    gruppen = _by_rule(results)
+    if not gruppen:
         return []
 
+    betroffen = {r.path for eintraege in gruppen.values() for r, _ in eintraege}
     zeilen = [
         "> [!WARNING]",
-        f"> **{len(mit_warnung)} Beitrag(e) mit Hinweisen zur Datenqualitaet.** Publiziert wurde trotzdem.",
+        f"> **{_beitraege(len(betroffen))} mit Hinweisen zur Datenqualitaet.** "
+        "Publiziert wurde trotzdem.",
         "",
         "### Zur Nacharbeit",
         "",
     ]
-    for result, findings in mit_warnung:
-        zeilen.append(f"**{result.path}**")
-        zeilen += [f"- {f.origin}: {f.message}" for f in findings]
-        zeilen.append("")
+    for (origin, rule, fix), eintraege in gruppen.items():
+        zeilen += _warning_group(origin, rule, fix, eintraege)
     return zeilen
+
+
+def _by_rule(results: list[PostResult]) -> dict:
+    """Warnungen nach Herkunft, Regel und Fix — alles, was eine Nacharbeit ausmacht.
+
+    Der Fix gehoert in den Schluessel: Fehlende und abweichende Schlagworte
+    verletzen dieselbe Regel, sind aber verschieden zu beheben.
+    """
+    gruppen: dict = {}
+    for result in results:
+        for finding in result.findings:
+            if finding.severity is not Severity.WARNING:
+                continue
+            schluessel = (finding.origin, finding.rule, finding.fix)
+            gruppen.setdefault(schluessel, []).append((result, finding))
+    return gruppen
+
+
+def _warning_group(origin: str, rule: str, fix: str, eintraege: list) -> list[str]:
+    betroffen = {result.path for result, _ in eintraege}
+    zeilen = [f"**{_beitraege(len(betroffen))}** — {origin}"]
+    if rule:
+        zeilen.append(f"- Regel: {rule}")
+    if fix:
+        zeilen.append(f"- Fix: {fix}")
+    zeilen += ["", "<details><summary>Betroffene Beitraege</summary>", ""]
+    zeilen += [f"- `{result.path}` — {finding.message}" for result, finding in eintraege]
+    return zeilen + ["", "</details>", ""]
+
+
+def _beitraege(anzahl: int) -> str:
+    return f"{anzahl} Beitrag" if anzahl == 1 else f"{anzahl} Beitraege"
 
 
 def _published(published: list[PostResult]) -> list[str]:

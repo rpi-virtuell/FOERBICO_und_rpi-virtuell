@@ -44,11 +44,11 @@ def test_unknown_field_is_kept_and_nameable():
 
     Entscheidung: kein Fehler, aber meldbar — warning_checks braucht die Namen.
     """
-    mit_fremdfeld = VOLLSTAENDIG | {"url": "save-the-date", "@type": "Article"}
+    mit_fremdfeld = VOLLSTAENDIG | {"url": "save-the-date", "cover": "bild.jpg"}
 
     meta = CommonMetadata.model_validate(mit_fremdfeld)
 
-    assert set(meta.unknown_fields()) == {"url", "@type"}
+    assert set(meta.unknown_fields()) == {"url", "cover"}
 
 
 def test_inlanguage_as_plain_string_becomes_a_one_item_list():
@@ -67,3 +67,15 @@ def test_only_inlanguage_is_coerced_not_the_other_list_fields():
     """Waechter fuer den engen Zuschnitt: Nur inLanguage kommt real als Skalar vor."""
     with pytest.raises(ValidationError):
         CommonMetadata.model_validate(VOLLSTAENDIG | {"about": "https://w3id.org/kim/x"})
+
+
+def test_jsonld_keys_are_known_fields():
+    """`@context` steht in 82 Beitraegen — als Warnung wuerde es die echten zudecken.
+
+    Beide Schluessel gehoeren zu AMB, werden aber in keinen Tag uebersetzt.
+    """
+    metadata = CommonMetadata(
+        **VOLLSTAENDIG, **{"@context": "https://schema.org/", "@type": "Article"}
+    )
+
+    assert metadata.unknown_fields() == []

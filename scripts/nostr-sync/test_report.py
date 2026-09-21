@@ -105,3 +105,57 @@ def test_a_post_without_a_live_event_is_named_as_new():
     text = render_summary([ergebnis(Outcome.PUBLISHED, slug="x", article=neu, existing=None)])
 
     assert "neu" in text.lower()
+
+
+def warnung(message, rule="Schlagworte gehoeren nach `commonMetadata.keywords`.", **kwargs):
+    return Finding(
+        severity=Severity.WARNING, origin="FOERBICO-Konvention (schlagworte.yaml)",
+        message=message, rule=rule, **kwargs
+    )
+
+
+def test_warnings_of_the_same_rule_are_counted_not_repeated():
+    """Bei 60 betroffenen Beitraegen darf nicht 60-mal dieselbe Regel dastehen.
+
+    Ein Zaehler, die Regel einmal, darunter die Pfade — je Pfad die eigene
+    Meldung, weil sie das betroffene Feld bzw. die Anzahl nennt. Die
+    vollstaendigen Befunde stehen im Log-Artefakt (`--log`).
+    """
+    ergebnisse = [
+        ergebnis(Outcome.UNCHANGED, path=f"posts/{i}/index.md", slug=str(i),
+                 findings=[warnung("Schlagworte erreichen Nostr nicht")])
+        for i in range(60)
+    ]
+
+    text = render_summary(ergebnisse)
+
+    assert "60 Beitraege" in text
+    assert text.count("Schlagworte gehoeren nach `commonMetadata.keywords`.") == 1
+    assert all(f"posts/{i}/index.md" in text for i in range(60))
+
+
+def test_different_rules_stay_apart():
+    """Sonst steht unter einem Fix die Nacharbeit fuer eine andere Regel."""
+    text = render_summary([
+        ergebnis(Outcome.UNCHANGED, slug="a", findings=[
+            warnung("1 relativer Bildpfad", rule="Bilder brauchen eine Hash-URL."),
+            warnung("Schlagworte erreichen Nostr nicht"),
+        ]),
+    ])
+
+    assert "Bilder brauchen eine Hash-URL." in text
+    assert "Schlagworte gehoeren nach `commonMetadata.keywords`." in text
+
+
+def test_the_warning_section_names_rule_and_fix_once_per_group():
+    text = render_summary([
+        ergebnis(Outcome.UNCHANGED, slug="a", findings=[
+            warnung("Schlagworte erreichen Nostr nicht", fix="Nach `keywords` uebernehmen.")
+        ]),
+        ergebnis(Outcome.UNCHANGED, path="posts/zwei/index.md", slug="b", findings=[
+            warnung("Schlagworte erreichen Nostr nicht", fix="Nach `keywords` uebernehmen.")
+        ]),
+    ])
+
+    assert text.count("Nach `keywords` uebernehmen.") == 1
+    assert "2 Beitraege" in text

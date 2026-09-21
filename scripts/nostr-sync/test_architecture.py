@@ -8,7 +8,9 @@ import pytest
 # Module ohne Seiteneffekte. Sie duerfen die Subprozess-Grenze nicht kennen —
 # sonst waeren sie nur noch mit laufendem Relay testbar, und die Grenze waere
 # nicht mehr an einer Stelle austauschbar.
-PURE_MODULES = ("models", "frontmatter", "references", "events", "error_checks")
+PURE_MODULES = (
+    "models", "frontmatter", "references", "events", "error_checks", "warning_checks",
+)
 
 
 def imported_names(module: str) -> set[str]:
