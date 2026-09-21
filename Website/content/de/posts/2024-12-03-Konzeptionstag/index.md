@@ -2,7 +2,7 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-name: "'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!'"
+name: "Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!"
 description: Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen, ohne den Plattformdschungel zu vergrößern? Dazu kamen die Teams von rpi-virtuell und FOERBICO zu einem Konzeptionstag in der Goethe-Universität in Frankfurt zusammen, um sich intensiv mit der strategischen Weiterentwicklung ihrer digitalen Angebote zur Stärkung religiöser Bildung auseinanderzusetzen. Neben der Verhältnisbestimmung zwischen den beiden Teams und der Entwicklung einer gemeinsamen Vision lag der Fokus auf den Fragen, wie wir bedarfsgerechte Vernetzungs- und Unterstützungsangebote für Bildungsakteure im religionspädagogischen Bereich schaffen können. Wie der Tag lief und zu welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/konzeptionstag
@@ -24,7 +24,7 @@ datePublished: 2024-12-09
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: "'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!'"
+title: "Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!"
 cover:
   relative: true
   image: Teamtreffen.jpg
@@ -44,8 +44,8 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   Teamtreffen.jpg:
-    alt: 'Team von rpi-virtuell und FOERBICO beim gemeinsamen Konzeptionstag 2014 an der Goethe-Universität in Frankfurt am Main, alle halten ihre Baustein-Ergebnisse in die Höhe'
-    title: 'rpi-virtuell und FOERBICO beim gemeinsame Konezptionstag 2024'
+    alt: 'Team von rpi-virtuell und FOERBICO beim gemeinsamen Konzeptionstag 2024 an der Goethe-Universität in Frankfurt am Main, alle halten ihre Baustein-Ergebnisse in die Höhe'
+    title: 'rpi-virtuell und FOERBICO beim gemeinsamen Konzeptionstag 2024'
     sourceUrl: https://oer.community/konzeptionstag
     author: FOERBICO
     authorUrl: https://oer.community
@@ -68,14 +68,6 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
   Kleingruppe-1.jpg:
-    alt: 'Mindmap zu Bedarfen religionsbezogener Communities anhand einer qualitativen Befragung'
-    title: 'Mindmap: Bedarfe religionsbezogener Communities'
-    sourceUrl: https://oer.community/konzeptionstag
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Kleingruppe-1.jpg:
     alt: 'Whiteboard mit Ergebnissen und Ideen, was es für die Vernetzung und Zusammenarbeit in Communities braucht'
     title: 'Ergebnisse der Kleingruppe zu Communities'
     sourceUrl: https://oer.community/konzeptionstag
@@ -83,7 +75,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  Kleingruppe-2.jpg
+  Kleingruppe-2.jpg:
     alt: 'Whiteboard mit Ergebnissen und Ideen, welche Technik es für Communities braucht'
     title: 'Ergebnisse der Kleingruppe zu Technik'
     sourceUrl: https://oer.community/konzeptionstag
