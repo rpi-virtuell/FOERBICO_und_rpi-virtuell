@@ -54,6 +54,9 @@ tags:
   - Open Educational Practices (OEP)
   - Tagung
   - KI
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
   FOERBICO_Tagung_Logo.jpg:
     alt: Abbildung von orangenem Außenkreis mit der Aufschrift OEP mit drehendem Pfeil und einem blauen Innenkreis mit der Auschrift OER auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.
     title: Logo zur Zwischenfazit-Tagung von FOERBICO
