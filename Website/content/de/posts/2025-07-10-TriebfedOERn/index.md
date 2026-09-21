@@ -50,6 +50,42 @@ tags:
   - Community
   - FOERBICO in Kontakt
   - OE_COM
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  einhorn-sonja-silvia-joerg.jpg:
+    alt: 'Jörg, Silvia und Sonja stehen vor OER-Banner der DHBW Mosbach mit Einhorn-Luftballon.'
+    title: 'Austausch beim TriebfedOERn-Barcamp 2025'
+    sourceUrl: https://oer.community/triebfedoern
+    author: Nadja, Judith, Kristina, Aniko, Veronica, Erika, Laura, Bernd, Rebecca, Alice, Myriam, Saskia, Jörg, Verena, Katja, Jorge, Silvia, Sonja, Pia 
+    authorUrl: https://www.mosbach.dhbw.de/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  sessionplan-triebfedoern-barcamp.jpg:
+    alt: 'Stellwand mit Zetteln zur Sessionplanung beim TriebfedOERn-Barcamp 2025.'
+    title: 'Sessionplan beim TriebfedOERn-Barcamp 2025'
+    sourceUrl: https://oer.community/triebfedoern
+    author: FOERBICO 
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  deputat-fuer-OER.jpg:
+    alt: 'Stellwand mit Ergebnissen aus der Diskussion der Barcampsession zu Deputatsreduktion für OER.'
+    title: 'Deputatsermäßigung für OER - Ja oder Nein?'
+    sourceUrl: https://oer.community/triebfedoern
+    author: Erika, Bernd, Rebecca, Sonja, Pia, Gerhard
+    authorUrl: https://www.mosbach.dhbw.de/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  oer-wimmelbild-cc-mixer.jpg:
+    alt: 'Kleines chatGPT 4o experiment zum OER-Mixer-Wimmelbild.'
+    title: 'OER-Wimmelbild'
+    sourceUrl: https://oer.community/triebfedoern
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    ai: generated
 ---
 
 
