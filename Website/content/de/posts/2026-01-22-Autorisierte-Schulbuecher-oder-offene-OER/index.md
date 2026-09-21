@@ -45,6 +45,17 @@ tags:
   - Pluralität
   - Open Educational Resources (OER)
   - Kollaboration
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Buecherregal.jpg:
+    alt: Bücher im braunen Holzregal der Stadsbiblioteket, Stockholm, Sweden
+    title: Bücherregal der Stadsbiblioteket, Stockholm, Sweden
+    sourceUrl: https://unsplash.com/de/fotos/bucher-auf-braunem-holzregal-2JIvboGLeho
+    author: Susan Q Yin
+    authorUrl: https://unsplash.com/de/@syinq
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 Die Realität der religionspädagogischen Materialentwicklung lässt sich in einem markanten Kontrastbild beschreiben:
