@@ -2,10 +2,9 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: "'Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!'"
 description: Wie können wir verschiedene Bildungsakteure aus dem Religionsbereich zusammenbringen und niedrigschwellige Zugänge für die Zusammenarbeit schaffen, ohne den Plattformdschungel zu vergrößern? Dazu kamen die Teams von rpi-virtuell und FOERBICO zu einem Konzeptionstag in der Goethe-Universität in Frankfurt zusammen, um sich intensiv mit der strategischen Weiterentwicklung ihrer digitalen Angebote zur Stärkung religiöser Bildung auseinanderzusetzen. Neben der Verhältnisbestimmung zwischen den beiden Teams und der Entwicklung einer gemeinsamen Vision lag der Fokus auf den Fragen, wie wir bedarfsgerechte Vernetzungs- und Unterstützungsangebote für Bildungsakteure im religionspädagogischen Bereich schaffen können. Wie der Tag lief und zu welchen Ergebnissen wir gekommen sind, erfahrt ihr im Blogbeitrag!
-license: https://creativecommons.org/publicdomain/zero/1.0/
+license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/konzeptionstag
 creator:
   - givenName: Gina
@@ -20,8 +19,6 @@ inLanguage:
 image: https://oer.community/konzeptionstag/Teamtreffen.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-12-09
 
 # staticSiteGenerator
@@ -43,6 +40,57 @@ tags:
   - Open Educational Practices (OEP)
   - Qualitätskriterien
   - Religionspädagogik
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Teamtreffen.jpg:
+    alt: 'Team von rpi-virtuell und FOERBICO beim gemeinsamen Konzeptionstag 2014 an der Goethe-Universität in Frankfurt am Main, alle halten ihre Baustein-Ergebnisse in die Höhe'
+    title: rpi-virtuell und FOERBICO beim gemeinsame Konezptionstag 2024
+    sourceUrl: https://oer.community/konzeptionstag
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Lego.jpg:
+    alt: 'Ergebnisse "Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor?" aus Lego®-Bausteinen und Schlumpf-Figuren'
+    title: 'Lego®-Bauwerke'
+    sourceUrl: https://oer.community/konzeptionstag
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  mindmap-bedarfe.jpg:
+    alt: 'Mindmap zu Bedarfen religionsbezogener Communities anhand einer qualitativen Befragung'
+    title: 'Mindmap: Bedarfe religionsbezogener Communities'
+    sourceUrl: https://oer.community/konzeptionstag
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Kleingruppe-1.jpg:
+    alt: 'Mindmap zu Bedarfen religionsbezogener Communities anhand einer qualitativen Befragung'
+    title: 'Mindmap: Bedarfe religionsbezogener Communities'
+    sourceUrl: https://oer.community/konzeptionstag
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Kleingruppe-1.jpg:
+    alt: 'Whiteboard mit Ergebnissen und Ideen, was es für die Vernetzung und Zusammenarbeit in Communities braucht'
+    title: 'Ergebnisse der Kleingruppe zu Communities'
+    sourceUrl: https://oer.community/konzeptionstag
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Kleingruppe-2.jpg
+    alt: 'Whiteboard mit Ergebnissen und Ideen, welche Technik es für Communities braucht'
+    title: 'Ergebnisse der Kleingruppe zu Technik'
+    sourceUrl: https://oer.community/konzeptionstag
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 ## Vorstellung rpi-virtuell – digitale Plattform für religionspädagogische Bildung 
@@ -71,7 +119,7 @@ Unsere gemeinsame Vision: Eine möglichst offene Lehr- und Lernkultur in der rel
 
 Nach ganz viel wichtigem Input wurde es nun etwas spielerischer: Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor? Was daraus entstehen kann, seht ihr hier:
 
-![Lego-Bauwerke](Lego.jpg "Lego-Bauwerke")
+![Lego-Bauwerke](Lego.jpg "Lego®-Bauwerke")
 
 ## Ziele formulieren mit der SMART-Methode
 
@@ -133,7 +181,7 @@ Allerdings bestehen deutliche Hürden:
 
 Ein zentraler Bedarf ist daher die Bereitstellung von Tools und Unterstützungsangeboten zur Erstellung von OER. Weitere Ideen:
 
-![Minmap "Bedarfe"](mindmap-bedarfe.jpg "Minmap: Bedarfe religionsbezogener Communities")
+![Mindmap "Bedarfe"](mindmap-bedarfe.jpg "Mindmap: Bedarfe religionsbezogener Communities")
 
 Die Befragungsergebnisse konnten wir während der Mittagspause sacken lassen! Danach ging es in Kleingruppen zu Community & Netzwerk sowie Technik & Werkzeuge weiter:
 
