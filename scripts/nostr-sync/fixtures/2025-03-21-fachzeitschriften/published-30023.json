@@ -1,0 +1,73 @@
+{
+  "content": "Auf Einladung von FOERBICO fand eine digitale Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System [OERSI](https://oersi.org/resources/pages/de/) statt. Teilgenommen haben Vertreter:innen des [WiReLex](https://wirelex.de), der [RpB](https://rpb-journal.de/index.php/rpb), des [ÖRF](https://oerf-journal.eu/index.php/oerf) und des [Theo-Webs](https://www.theo-web.de) sowie Verantwortliche der Bibliotheken, der Deutschen Bibelgesellschaft und von OERSI. Als ein zentraler Punkt der Diskussion stellte sich die Frage heraus, wie der Begriff OER im Rahmen der Hochschullehre gefasst wird - inwieweit sind wissenschaftliche Lexikon- oder Zeitschriftenartikel, die unter CC-Lizenz veröffentlicht sind, OER? Ein weiterer Aspekt bezog sich auf die Spannung zwischen der wissenschaftlichen Reputation einer Zeitschrift und der Kategorisierung ihrer Artikel als Lernmaterial. Darüber hinaus wurden verschiedene technische und konzeptionelle Fragen aufgeworfen.\n\n## Was sind OER im Hochschulbereich?\n\nObwohl Dozierende in der Hochschullehre und Studierende in Seminaren häufig mit Zeitschriften- oder Lexikon-Artikeln arbeiten, gelten diese nicht per se als \"Bildungsmaterialien\" im herkömmlichen Sinn - und tauchen deshalb nicht in einer entsprechenden OER-Suchmaschine wie OERSI auf. Möglicherweise passt das Sammlungsprofil von OERSI nicht optimal zu den Inhalten wissenschaftlich-religionspädagogischer Zeitschriften, da diese als Forschungsliteratur nicht primär für den direkten Einsatz in der Hochschullehre konzipiert sind. Andererseits ist die Zugänglichkeit dieser Literatur für die Hochschullehre durch die Orientierung an Open-Access-Standards offen und zugleich niederschwellig möglich.\n\n## Technische Möglichkeiten und Metadaten-Integration\n\nDie technischen Voraussetzungen für eine Integration religionspädagogischer Fachzeitschriften in OER-Plattformen scheinen grundsätzlich gegeben zu sein. Die Verantwortlichen von OERSI zeigten sich flexibel bezüglich der Schnittstellen und akzeptieren verschiedene Formate wie OAI-PMH, JSON-API oder sogar HTML-Strukturen. Wichtig ist, dass strukturierte Metadaten vorhanden sind, wobei die Anforderungen an deren Qualität nicht übermäßig hoch sind. Beispielsweise verfügt die [RpB](https://rpb-journal.de/index.php/rpb/index) bereits über eine OAI-Schnittstelle, die problemlos angebunden werden könnte.\n\n## Das Spannungsfeld zwischen OER und Wissenschaft\n\nEin zentrales Thema der Diskussion äußert sich in einer Sorge, dass die Kategorisierung fachwissenschaftlicher Zeitschriften als OER deren wissenschaftliche Reputation beeinträchtigen könnte. So wurden Bedenken geäußert, dass sich der Eindruck verstärken könnte, Religionspädagogik sei lediglich eine Anwendungswissenschaft, die Unterrichtsmaterial produziert. Dies könnte dem Bestreben religionspädagogischer Zeitschriften entgegenstehen, als hochrangige wissenschaftliche Journale (A-, B-, C-Journals) anerkannt zu werden.\n\nIn diesem Spannungsfeld gilt es weiter zu evaluieren, wie sich das Verhältnis wissenschaftlicher Open-Access-Regeln und hochschulbezogener Bildungsmaterialien ausgestaltet.\n\n## Chancen und Differenzierungsmöglichkeiten\n\nTrotz der genannten Bedenken wurden auch Chancen einer Integration gesehen. Die Sichtbarkeit fachwissenschaftlicher Artikel auf OER-Plattformen könnte erhöht werden, insbesondere wenn sie unter CC-Lizenzen stehen, was die rechtssichere Verwendung in verschiedenen Lehr- und Lernkontexten erleichtern würde.\n\nFerner wurde die Möglichkeit diskutiert, Differenzierungen durch die Autor:innen vor der Publikation vorzunehmen, etwa bezüglich des Niveaus eines Textes (z.B. vorrangig geeignet für Hochschullehre oder Verwendbarkeit für die gymnasiale Oberstufe) oder des Verwendungskontexts. Dadurch könnte die Nutzung der publizierten Texte gefördert werden, ohne deren wissenschaftlichen Charakter in Frage zu stellen. \n\n## Impulse und Empfehlungen\n\nAus der Diskussion lassen sich folgende konkrete Lösungsansätze ableiten:\n\n1. **Selektive Kennzeichnung**: Statt gesamte Zeitschriften als OER zu deklarieren, könnten einzelne Beiträge gezielt als OER-geeignet gekennzeichnet werden. Dies würde Lehrenden helfen, geeignetes Material zu identifizieren, ohne den wissenschaftlichen Charakter der Gesamtpublikation zu kompromittieren.\n\n2. **Metadaten-Differenzierung**: Durch spezifische Metadaten könnte kenntlich gemacht werden, für welche Bildungskontexte und Niveaustufen Artikel geeignet sind, ohne deren primäre Zuordnung zur wissenschaftlichen Fachliteratur aufzugeben.\n\n3. **Grundausrichtung beibehalten**: Außer Frage steht, dass die grundsätzliche Ausrichtung der Zeitschriften nicht verändert werden soll, nur um in Sammlungsschemata zu passen. Wissenschaftliche Integrität und öffentliche Erschließbarkeit stehen jedoch nicht im Widerspruch, sondern sind komplementär weiterzuentwickeln.\n\n4. **Arbeitsgruppe?**: Die Einrichtung einer Arbeitsgruppe mit interessierten Personen könnte helfen, konkretere Vorschläge zu erarbeiten und die verschiedenen Optionen detaillierter zu analysieren. Eine erweiterte Terminkoordination und ein erneutes Treffen sollen hier zeitnah diese Option koordinieren.\n\n## Fazit und nächste Schritte\n\nDie Integration religionspädagogischer Open-Access-Fachzeitschriften in OER-Plattformen birgt Chancen für eine erhöhte Sichtbarkeit und Nutzbarkeit in Bildungskontexten. Gleichzeitig muss geklärt werden, wie sich der primäre wissenschaftliche Charakter der Fachzeitschriften zur Charakterisierung seiner Artikel als OER-Materialien verhält. Dazu legt sich eine genauere Exploration des internationalen Diskussionsstands ebenso nahe wie die Analyse deutschlandspezifischer Regelungen. In praktischer Hinsicht wären die tatsächlichen Auswirkungen einer OER-Kategorisierung auf die wissenschaftliche Indexierung zu klären und parallel die technischen Möglichkeiten einer differenzierten Integration zu explorieren. \n\nDa die diskutierten Fragen sorgfältig bedacht werden müssen, wurde vereinbart, dass sich die Verantwortungsträger:innen der Zeitschriften und Lexika sowie der OER-Plattformen zunächst intern weiter über ihre spezifischen Ziele und Prioritäten verständigen, um dann in einem Follow-up-Treffen im Herbst das weitere Vorgehen zu besprechen - eventuell unter Einbeziehung weiterer interessierter Gesprächspartner:innen. Bei einer grundsätzlichen Einigung über die verstärkte Vernetzung der Open-Access-Zeitschriften und der OER-Plattformen könnte dann eine Arbeitsgruppe die noch offenen Fragen klären und konkrete Handlungsempfehlungen entwickeln.\n",
+  "created_at": 1788773744,
+  "id": "bafd8b80d70b7500b913676c4bde84102988f8dc4bc941d7200960821acefc02",
+  "kind": 30023,
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "sig": "60fdbd14af055a8393c88d5a67ffc82aadb6e458e19239961db01edef5cded9f309f3e755d5de2dea06524f29cbcf52819bcab6d83ad0995f95b969581c8fba6",
+  "tags": [
+    [
+      "d",
+      "oer-zeitschriften-religionspaedagogik"
+    ],
+    [
+      "title",
+      "Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?"
+    ],
+    [
+      "summary",
+      "Wie lassen sich religionspädagogische Open-Access-Zeitschriften in OER-Plattformen wie OERSI integrieren? In einer digitalen Fachdiskussion auf Einladung von FOERBICO diskutierten Vertreter:innen aus Redaktionen, Bibliotheken, Fachgesellschaften und Plattform-Entwicklung über technische Möglichkeiten, metadatenbasierte Differenzierungen und das Spannungsfeld zwischen wissenschaftlicher Reputation und OER-Kategorisierung. Die Ergebnisse bieten Impulse für eine differenzierte Zugänglichmachung religionspädagogischer Fachliteratur im digitalen Bildungsraum.",
+      "de"
+    ],
+    [
+      "published_at",
+      "1743638400"
+    ],
+    [
+      "inLanguage",
+      "de"
+    ],
+    [
+      "image",
+      "https://oer.community/oer-zeitschriften-religionspaedagogik/fachzeitschriften.jpg"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n02"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n03"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n052"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n053"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n079"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n086"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n544"
+    ],
+    [
+      "about",
+      "https://w3id.org/kim/hochschulfaechersystematik/n545"
+    ],
+    [
+      "a",
+      "30142:5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf:oer-zeitschriften-religionspaedagogik",
+      "wss://amb-relay.edufeed.org/",
+      "amb-metadata"
+    ]
+  ]
+}

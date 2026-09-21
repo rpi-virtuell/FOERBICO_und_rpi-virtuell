@@ -1,0 +1,50 @@
+{
+  "content": "",
+  "created_at": 1789058609,
+  "id": "3ac61af88fab81ccf1ddf98dd747532cc737320ed05985f671df53ad3b202ee4",
+  "kind": 1063,
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "sig": "635971542c9ec11fd734a6ddd220cd29a00f98623ada2bf09eeeb59e48b2e25c3fe73b902284a54025a28082d3576cd76b540e28bb07b6d0a648ffbfd3241e21",
+  "tags": [
+    [
+      "url",
+      "https://blossom.edufeed.org/16eff3ca18abe00ad8c3fe08750ee0433bc524d5a4d974237fd7eb7054b9a6e7.jpg"
+    ],
+    [
+      "x",
+      "16eff3ca18abe00ad8c3fe08750ee0433bc524d5a4d974237fd7eb7054b9a6e7"
+    ],
+    [
+      "m",
+      "image/jpeg"
+    ],
+    [
+      "size",
+      "147943"
+    ],
+    [
+      "title",
+      "Cat Content - Schmusekatze"
+    ],
+    [
+      "license",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "credit",
+      "FOERBICO"
+    ],
+    [
+      "alt",
+      "Katze liegt bei Gina vom FOERBICO-Team im Schoß und schläft."
+    ],
+    [
+      "source",
+      "https://oer.community/oer-it-sommercamp-2025"
+    ],
+    [
+      "authorUrl",
+      "https://oer.community"
+    ]
+  ]
+}

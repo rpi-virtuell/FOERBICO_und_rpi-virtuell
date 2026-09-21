@@ -1,0 +1,50 @@
+{
+  "content": "",
+  "created_at": 1789058589,
+  "id": "89769822996e4adcf855af1f764ad83bc319a2d9f6a6f0da93caa602e52b0dd3",
+  "kind": 1063,
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "sig": "fcaef8d7583c9ed0f8c07707c7f8348acad4ae91d62b6a87f07dbbcf8b5c58dd8011c08f266ad18e2a095d851553ded739c0a319d955e7a1208e17cd07a0aa74",
+  "tags": [
+    [
+      "url",
+      "https://blossom.edufeed.org/580f8bbbe03dfbb18c4391fa0c2a8f6d8e8d8969818db2d48b0367bac4fe59fa.jpg"
+    ],
+    [
+      "x",
+      "580f8bbbe03dfbb18c4391fa0c2a8f6d8e8d8969818db2d48b0367bac4fe59fa"
+    ],
+    [
+      "m",
+      "image/jpeg"
+    ],
+    [
+      "size",
+      "242932"
+    ],
+    [
+      "title",
+      "Sammlung der Pain Points von Lehrenden"
+    ],
+    [
+      "license",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "credit",
+      "FOERBICO"
+    ],
+    [
+      "alt",
+      "Stellwand mit ersten Gedanken aus der Edufeed-Gruppe zu Pain Points von Lehrenden"
+    ],
+    [
+      "source",
+      "https://oer.community/oer-it-sommercamp-2025"
+    ],
+    [
+      "authorUrl",
+      "https://oer.community"
+    ]
+  ]
+}

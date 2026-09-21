@@ -1,0 +1,54 @@
+{
+  "content": "",
+  "created_at": 1789058525,
+  "id": "413cb19e7ad08209c682afab8fe173b7dd2a2cfb35c179d4cf22700c1ccc6bcf",
+  "kind": 1063,
+  "pubkey": "5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf",
+  "sig": "1f0c166e4aab14468b80bedc741e5ed6c6e89b3ed78c518b1e8e55256a96406449b50aaedfc5cbf8379fd62ee2927414089b876af3b240653a1cc58928524ec4",
+  "tags": [
+    [
+      "url",
+      "https://blossom.edufeed.org/c13a499e6d9605ae6b89ae7c59c8a4522e0a149049da4c1d3c104ff888f3e386.jpg"
+    ],
+    [
+      "x",
+      "c13a499e6d9605ae6b89ae7c59c8a4522e0a149049da4c1d3c104ff888f3e386"
+    ],
+    [
+      "m",
+      "image/jpeg"
+    ],
+    [
+      "size",
+      "140403"
+    ],
+    [
+      "title",
+      "Kreativtisch zur Inspiration (Ausschnitt)"
+    ],
+    [
+      "license",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "credit",
+      "FOERBICO"
+    ],
+    [
+      "alt",
+      "Ausschnitt eines kleinen Kreativtischs mit Materialien zur Inspiration"
+    ],
+    [
+      "source",
+      "https://oer.community/oer-werkstatt-digill-com-projekt"
+    ],
+    [
+      "authorUrl",
+      "https://oer.community"
+    ],
+    [
+      "modification",
+      "beschnitten"
+    ]
+  ]
+}

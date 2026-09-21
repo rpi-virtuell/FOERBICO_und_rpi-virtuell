@@ -1,0 +1,202 @@
+<title>Was nach einem Push auf main passiert</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground:#f6f8fa; --surface:#ffffff; --ink:#18212b; --muted:#5a6a7b;
+    --accent:#2f5d8a; --good:#2e7d4f; --bad:#c0392b; --rule:#dde3ea;
+    --plate:#ffffff; --plate-rule:#d6dee7;
+    --sans:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#131920; --surface:#1b232c; --ink:#e4eaf1; --muted:#93a2b3;
+      --accent:#7fb0dd; --good:#62b887; --bad:#e8796d; --rule:#2a353f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#131920; --surface:#1b232c; --ink:#e4eaf1; --muted:#93a2b3;
+    --accent:#7fb0dd; --good:#62b887; --bad:#e8796d; --rule:#2a353f;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:var(--sans); font-size:16px; line-height:1.6;
+    padding:clamp(20px,4vw,48px) max(16px,4vw); padding-block:clamp(24px,5vw,56px);
+  }
+  main { max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:32px; }
+  header { display:flex; flex-direction:column; gap:10px; max-width:64ch; }
+  .eyebrow {
+    font-family:var(--mono); font-size:12px; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--accent); margin:0;
+  }
+  h1 { margin:0; font-size:clamp(26px,4.2vw,38px); font-weight:600; letter-spacing:-.02em; text-wrap:balance; }
+  .lede { margin:0; color:var(--muted); font-size:17px; }
+  figure { margin:0; display:flex; flex-direction:column; gap:12px; }
+  .plate {
+    background:var(--plate); border:1px solid var(--plate-rule); border-radius:4px;
+    padding:20px; overflow-x:auto;
+  }
+  .plate pre { margin:0; }
+  figcaption { color:var(--muted); font-size:14px; }
+  h2 { margin:0 0 4px; font-size:19px; font-weight:600; letter-spacing:-.01em; }
+  section { display:flex; flex-direction:column; gap:14px; }
+  .outcomes { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+  .outcome {
+    background:var(--surface); border:1px solid var(--rule); border-radius:4px;
+    padding:14px 16px; display:flex; flex-direction:column; gap:6px;
+  }
+  .outcome.ok { border-left:3px solid var(--good); }
+  .outcome.same { border-left:3px solid var(--accent); }
+  .outcome.err { border-left:3px solid var(--bad); }
+  .outcome h3 { margin:0; font-family:var(--mono); font-size:13px; font-weight:500; letter-spacing:.04em; text-transform:uppercase; }
+  .outcome.ok h3 { color:var(--good); }
+  .outcome.same h3 { color:var(--accent); }
+  .outcome.err h3 { color:var(--bad); }
+  .outcome p { margin:0; font-size:14px; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  caption { text-align:left; color:var(--muted); font-size:14px; padding-bottom:8px; }
+  th, td { text-align:left; padding:8px 12px 8px 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  th { font-family:var(--mono); font-size:12px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+  td code, p code, li code { font-family:var(--mono); font-size:.88em; }
+  .wrap { overflow-x:auto; }
+  p, li { max-width:68ch; }
+  ul { margin:0; padding-left:20px; display:flex; flex-direction:column; gap:7px; }
+  footer {
+    border-top:1px solid var(--rule); padding-top:16px; color:var(--muted); font-size:13px;
+    display:flex; flex-direction:column; gap:4px;
+  }
+  footer code { font-family:var(--mono); }
+  @media (prefers-reduced-motion:reduce) { * { animation:none !important; transition:none !important; } }
+</style>
+
+<main>
+  <header>
+    <p class="eyebrow">oer.community · nostr-sync</p>
+    <h1>Was nach einem Push auf main passiert</h1>
+    <p class="lede">
+      Der Ablauf des neuen Sync-Skripts: vom Merge bis zum Exit-Code. Das Relay entscheidet,
+      ob publiziert wird &mdash; nicht die Git-Historie.
+    </p>
+  </header>
+
+  <figure>
+    <div class="plate">
+      <pre class="mermaid">%%{init: {'theme':'base','themeVariables':{'fontFamily':'IBM Plex Sans, system-ui, sans-serif','fontSize':'14px','primaryColor':'#ffffff','primaryTextColor':'#18212b','primaryBorderColor':'#93a7bb','lineColor':'#5a6a7b','secondaryColor':'#eef2f7','tertiaryColor':'#f6f8fa'}}}%%
+flowchart TD
+    P["Push auf main&lt;br/&gt;PR-Merge oder Direkt-Commit"] --&gt; G{"Dateien unter&lt;br/&gt;Website/content/** geaendert?"}
+    G --&gt;|nein| X0(["Workflow startet nicht"])
+    G --&gt;|ja| S["nostr-sync.yml&lt;br/&gt;Checkout fetch-depth 0 ·&lt;br/&gt;nak-Binary gepinnt + Checksum ·&lt;br/&gt;Python + requirements.txt"]
+
+    S --&gt; D{"github.event.before&lt;br/&gt;brauchbar?"}
+    D --&gt;|ja| D1["git diff --name-only&lt;br/&gt;before..sha -- Website/content"]
+    D --&gt;|"nein / 0000…"| D2["Fallback --all&lt;br/&gt;alle index.md"]
+    D1 --&gt; FM
+    D2 --&gt; FM
+
+    FM["&lt;b&gt;frontmatter.py&lt;/b&gt;&lt;br/&gt;Bloecke trennen · Pydantic-Schema ·&lt;br/&gt;alle Werte zu Strings normalisieren"] --&gt; V{"Schema- und Spec-Checks&lt;br/&gt;NIP-01 / 23 / 94"}
+    V --&gt;|Verstoss| ERR["&lt;b&gt;FEHLER&lt;/b&gt;&lt;br/&gt;Event wird NICHT publiziert ·&lt;br/&gt;Post gilt als fehlgeschlagen"]
+    V --&gt;|ok| EV["&lt;b&gt;events.py&lt;/b&gt;&lt;br/&gt;kind:30023&lt;br/&gt;+ kind:30142 wenn LearningResource"]
+
+    EV --&gt; RQ["&lt;b&gt;nak req&lt;/b&gt; -k 30023 &lt;b&gt;-a unser-pubkey&lt;/b&gt; -d slug&lt;br/&gt;das Relay ist die Wahrheit"]
+    RQ --&gt; RE{"Relay erreichbar?"}
+    RE --&gt;|nein| ERR
+    RE --&gt;|ja| EQ{"Tag-Saetze identisch?"}
+    EQ --&gt;|ja| UNCH(["&lt;b&gt;unchanged&lt;/b&gt;&lt;br/&gt;nichts publizieren"])
+    EQ --&gt;|nein| PUB["&lt;b&gt;nak event&lt;/b&gt; --sec bunker://…&lt;br/&gt;ein Aufruf je Relay"]
+    PUB --&gt; AK{"acks &gt;= MIN_RELAY_ACKS?"}
+    AK --&gt;|nein| ERR
+    AK --&gt;|ja| OKP(["&lt;b&gt;publiziert&lt;/b&gt;"])
+
+    UNCH --&gt; IMG["&lt;b&gt;images.py&lt;/b&gt; — je Bild mit Blossom-Hash-URL&lt;br/&gt;nak blossom check → ggf. upload BUD-01 ·&lt;br/&gt;kind:1063 bauen, mit juengstem Nachweis vergleichen,&lt;br/&gt;nur bei Abweichung publizieren"]
+    OKP --&gt; IMG
+    IMG --&gt; W["Protokoll sammeln&lt;br/&gt;Schlagworte im falschen Block ·&lt;br/&gt;relative Bildpfade · fremde Pubkeys&lt;br/&gt;&lt;i&gt;Warnung, kein Abbruch&lt;/i&gt;"]
+
+    W --&gt; SUM["&lt;b&gt;summary.py&lt;/b&gt;&lt;br/&gt;GITHUB_STEP_SUMMARY + Log-Artefakt"]
+    ERR --&gt; SUM
+    SUM --&gt; EX{"jeder Post publiziert oder&lt;br/&gt;nachweislich unveraendert?"}
+    EX --&gt;|ja| Z0(["Exit 0 — Job gruen"])
+    EX --&gt;|nein| Z1(["Exit != 0 — Job rot"])
+
+    classDef fehler fill:#fde8e8,stroke:#c0392b,color:#7b1b12
+    classDef gut fill:#e8f6ec,stroke:#2e7d4f,color:#14512f
+    classDef neutral fill:#eef2f7,stroke:#5b6b7f,color:#22303f
+    class ERR,Z1 fehler
+    class OKP,UNCH,Z0 gut
+    class X0 neutral</pre>
+    </div>
+    <figcaption>
+      Ablauf je ge&auml;ndertem Beitrag. Ein fehlgeschlagener Beitrag bricht den Lauf nicht ab &mdash;
+      die &uuml;brigen werden weiter abgearbeitet, der Exit-Code steht erst am Ende fest.
+    </figcaption>
+  </figure>
+
+  <section>
+    <h2>Drei m&ouml;gliche Ausg&auml;nge je Beitrag</h2>
+    <div class="outcomes">
+      <div class="outcome ok">
+        <h3>publiziert</h3>
+        <p>Die Tags weichen vom Relay-Stand ab, und mindestens <code>MIN_RELAY_ACKS</code> (2)
+        Relays haben das signierte Event best&auml;tigt.</p>
+      </div>
+      <div class="outcome same">
+        <h3>unchanged</h3>
+        <p>Das Relay tr&auml;gt bereits genau diese Tags. Es wird nichts gesendet &mdash; kein neuer
+        <code>created_at</code>, keine Event-ID, kein Rauschen f&uuml;r Abonnent*innen.</p>
+      </div>
+      <div class="outcome err">
+        <h3>Fehler</h3>
+        <p>Spezifikationsverletzung, unerreichbares Relay oder zu wenige Best&auml;tigungen. Das Event
+        wird <strong>nicht</strong> publiziert, der Job endet rot.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Warum der Git-Diff nur ein Vorfilter ist</h2>
+    <ul>
+      <li>Der Diff bestimmt nur, <em>welche</em> Beitr&auml;ge angesehen werden &mdash; er entscheidet nie,
+        <em>ob</em> publiziert wird. Das tut allein der Vergleich mit dem Relay.</li>
+      <li>Deshalb liefert ein Lauf mit <code>--all</code> dasselbe Ergebnis wie ein Lauf mit Diff:
+        Squash-Merges, Force-Pushes und manuelle Re-Runs k&ouml;nnen nichts verschlucken.</li>
+      <li>Die Idempotenz-Abfrage gibt immer <code>-a &lt;unser-pubkey&gt;</code> mit. Ohne das k&ouml;nnte ein
+        fremdes Event zum selben Slug als &bdquo;schon publiziert&ldquo; durchgehen.</li>
+      <li>Ein unerreichbares Relay ist ein harter Fehler &mdash; nicht &bdquo;sicherheitshalber publizieren&ldquo;
+        (Spam) und nicht &bdquo;unver&auml;ndert annehmen&ldquo; (stiller Verlust).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Wohin welches Event geht</h2>
+    <div class="wrap">
+      <table>
+        <caption>Ein <code>nak</code>-Aufruf pro Relay &mdash; ein Exit-Code pro Relay, daher ist die Ack-Z&auml;hlung trivial.</caption>
+        <thead>
+          <tr><th>Kind</th><th>Was</th><th>Relay</th><th>Wiedererkennung</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>30023</code></td><td>Artikel mit Volltext</td>
+            <td><code>relay-rpi.edufeed.org</code></td>
+            <td><code>kind:pubkey:d</code> &mdash; ersetzbar</td>
+          </tr>
+          <tr>
+            <td><code>30142</code></td><td>AMB-Metadaten, nur bei <code>LearningResource</code></td>
+            <td><code>amb-relay.edufeed.org</code></td>
+            <td><code>kind:pubkey:d</code> &mdash; ersetzbar</td>
+          </tr>
+          <tr>
+            <td><code>1063</code></td><td>Bild-Lizenznachweis je Bild</td>
+            <td><code>relay-rpi</code> + <code>relay.edufeed.org</code></td>
+            <td><code>pubkey</code> + <code>x</code>-Hash, j&uuml;ngster gewinnt</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <div>Vollst&auml;ndige Spec: <code>docs/superpowers/specs/2026-09-14-md-to-nostr-sync-neu-design.md</code></div>
+    <div>Event-Felder im Detail: <code>docs/nostr-events/</code> &middot; Skript: <code>scripts/nostr-sync/</code></div>
+  </footer>
+</main>
