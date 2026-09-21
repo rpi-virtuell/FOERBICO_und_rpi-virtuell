@@ -43,6 +43,17 @@ tags:
   - Theologie
   - Medienpädagogik
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Quality.jpg:
+    alt: Wandkunst mit Text über Qualität und Frische von Adhitya Sibikumar
+    title: Wandkunst mit Text zu Qualität
+    sourceUrl: https://unsplash.com/de/fotos/wandkunst-mit-text-uber-qualitat-und-frische-U00WNN7gTJw
+    author: Adhitya Sibikumar
+    authorUrl: https://unsplash.com/de/@adhitya_2505
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 
