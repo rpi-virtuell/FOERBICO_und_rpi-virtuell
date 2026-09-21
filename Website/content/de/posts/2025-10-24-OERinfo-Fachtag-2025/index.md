@@ -50,6 +50,33 @@ tags:
   - Community
   - Vernetzung
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  20251024_150726-min.jpg:
+    alt: Gina und Florian mit FOERBICO-Flyern in der Hand beim OERinfo-Fachtag 2025 beim DIPF in Frankfurt am Main.
+    title: Gina und Florian beim OERinfo-Fachtag 2025
+    sourceUrl: https://oer.community/oerinfo-fachtag-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  OERinfo-Fachtag-2025-min.jpg:
+    alt: 'Präsentationsfolie mit Aufschrift "Herzlich willkommen zum OERinfo-Fachtag 2025. Bildungsinfrastrukturen, digital und offen - usOER, researchOER und providOER im Trialog" am 24. Oktober 2025 im DIPF Frankfurt am Main.'
+    title: Eröffnung vom OERinfo-Fachtag 2025
+    sourceUrl: https://oer.community/oerinfo-fachtag-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  20251024_100342-min.jpg:
+    alt: 'Johannes vom DIPF mit Mikrofon in der Hand als Moderator beim Trialog von usOER, researchOER und providOER beim OERinfo-Fachtag 2025.'
+    title: usOER, researchOER und providOER im Trialog beim OERinfo-Fachtag 2025
+    sourceUrl: https://oer.community/oerinfo-fachtag-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Am 24. Oktober 2025 fand am [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/de/startseite) in Frankfurt am Main der zweite [OERinfo-Fachtag](https://open-educational-resources.de/oerinfo-fachtag-2/) statt – diesmal unter dem Motto „Gemeinsam für mehr Offenheit“. Das Schwerpunktthema: „Bildungsinfrastrukturen, digital und offen – usOER, researchOER und providOER im Trialog“.
