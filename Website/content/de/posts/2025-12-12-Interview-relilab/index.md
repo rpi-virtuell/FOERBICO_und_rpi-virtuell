@@ -54,6 +54,34 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  RelilabInterviewTitelpage.jpg:
+    alt: Logo vom relilab auf einem Laptop-Screen. Hintergrundbild KI-generiert mit Whiteboard und Notizen zu OER-Communities. Erstellt in Canva.
+    title: Interview mit dem relilab
+    sourceUrl: https://oer.community/interview-relilab/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  relilab_logo.png:
+    alt: Logo vom relilab
+    title: Logo relilab
+    sourceUrl: https://relilab.org/
+    author: relilab
+    authorUrl: https://relilab.org/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  FOERBICO_Tagung_Logo.jpg:
+    alt: Abbildung von orangenem Außenkreis mit der Aufschrift OEP mit drehendem Pfeil und einem blauen Innenkreis mit der Auschrift OER auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.
+    title: Logo zur Zwischenfazit-Tagung von FOERBICO
+    sourceUrl: https://oer.community/interview-relilab/
+    author: relilab
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
  
 
