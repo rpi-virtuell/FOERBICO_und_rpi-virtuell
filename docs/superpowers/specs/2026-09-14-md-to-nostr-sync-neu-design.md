@@ -633,7 +633,7 @@ Zwei Stufen, getrennt nach der Folge — blockiert es oder nicht. Die Herkunft d
 | Stufe | Ausloeser | Verhalten |
 |---|---|---|
 | **FEHLER** | **Spezifikationsverletzung** (NIP/BUD) oder Betriebsfehler | Event wird **nicht publiziert**. Post gilt als fehlgeschlagen. Job-Exit != 0. In der Summary ganz oben als `> [!CAUTION]`-Block mit Datei, Feld und verletzter Regel |
-| **WARNUNG** | Verletzung **unserer eigenen** Konventionen, oder ein unbekanntes Feld im Frontmatter | Wird publiziert, aber mit eigenem, sichtbarem Abschnitt in der Job-Summary (`> [!WARNING]`) |
+| **WARNUNG** | Verletzung **unserer eigenen** Konventionen, oder ein unbekanntes Feld im Frontmatter | Wird publiziert. In der Kurzfassung als **Zähler** sichtbar, mit `--verbose` und im Protokoll als eigener Abschnitt (`> [!WARNING]`) |
 | **UEBERSPRUNGEN** | Pflichtfelder des AMB-Schemas fehlen — der Beitrag ist (noch) nicht fuer Nostr vorgesehen | Wird **nicht** publiziert, erscheint mit Grund in der Summary, **Job bleibt gruen**. Wie `mdparser` es heute haelt (`skip-missing-fields`) |
 
 **Warum eine Spezifikationsverletzung nicht publiziert werden darf:** 30023 und 30142 sind
@@ -644,6 +644,39 @@ gar nichts zu tun — es zerstoert einen guten Stand.
 **Kein Abbruch des ganzen Laufs:** Der betroffene Post wird uebersprungen, die uebrigen laufen
 weiter, am Ende steht der Exit-Code != 0. Sonst blockiert ein einziger kaputter Post alle
 nachfolgenden.
+
+### Ausgabestufen: knapp ist die Vorgabe (2026-09-21)
+
+Der Bericht hatte am produktiven Dry-Run **rund 500 Zeilen**. Zwischen sechs
+Warnungsgruppen, 19 publizierten und 60 unveraenderten Beitraegen gingen die vier
+blockierten unter — genau das, was in einem CI-Lauf zaehlt, war am schwersten zu finden.
+Dazu gab der Lauf **waehrend** der Arbeit nichts aus: minutenlang keine Zeile, obwohl fuer
+jeden Beitrag die Relays abgefragt werden.
+
+Deshalb drei getrennte Ausgaben:
+
+| Ausgabe | Inhalt | Umfang gemessen |
+|---|---|---|
+| Fortschritt, waehrend des Laufs | je Beitrag eine Zeile: Ausgang, Pfad, Slug | 99 Zeilen |
+| Kurzfassung (Vorgabe) | Kopf, Zaehler, **ein** Warnungszaehler, die blockierten Beitraege mit Datei/Zeilen/Regel/Fix | 45 Zeilen |
+| Ausfuehrlich (`--verbose`) | alle Abschnitte wie bisher | ~500 Zeilen |
+
+**Ueber den Umfang entscheidet allein `--verbose`, nie die Umgebung.**
+`GITHUB_STEP_SUMMARY` bestimmt nichts am Inhalt — es ist ein Ausgabeort und existiert nur
+innerhalb von GitHub Actions.
+
+Die Kurzfassung waechst **nur im Umfang des Problems**: ~11 Zeilen, wenn nichts
+schiefgeht, plus ~8 je blockiertem Beitrag.
+
+Zwei Fallstricke, die beim Bauen auffielen:
+
+1. `publish.py` haengt einem blockierten Beitrag auch seine Konventionswarnungen an (damit
+   die Redaktion beim Oeffnen der Datei alles auf einmal sieht). Gibt die Kurzfassung sie
+   mit aus, ist sie bei vier blockierten Beitraegen wieder ~90 Zeilen lang. Sie filtert
+   deshalb auf `Severity.ERROR`.
+2. Die Fortschrittszeilen brauchen `flush=True`. In der CI ist die Standardausgabe kein
+   Terminal; Python puffert dann 8 KB, und der ganze „Fortschritt" erscheint erst am
+   Prozessende — also gar keiner.
 
 ### Prueflisten
 

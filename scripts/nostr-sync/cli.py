@@ -6,8 +6,13 @@ ging es aus?
 Tut ausdruecklich NICHT: entscheiden (das ist `publish`), Events bauen,
 berichten (das ist `report`).
 
+Die Ausgabe ist knapp gehalten — fuer einen CI-Lauf zaehlen Zaehler und
+Probleme. `--verbose` schaltet den ausfuehrlichen Bericht ein. Ueber den Umfang
+entscheidet allein dieses Flag, nie die Umgebung.
+
 Aufruf:
     python cli.py --all --dry-run
+    python cli.py --all --dry-run --verbose
     python cli.py Website/content/de/posts/ein-beitrag/index.md
 """
 
@@ -21,7 +26,7 @@ from pathlib import Path
 import nak
 from models import Outcome
 from publish import ARTICLE, publish_post
-from report import render_summary
+from report import progress_line, render_brief, render_summary
 
 ARTICLE_RELAYS = ["wss://relay-rpi.edufeed.org/"]
 AMB_RELAY = "wss://amb-relay.edufeed.org/"
@@ -81,8 +86,37 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     relays = args.relay or ARTICLE_RELAYS
-    results = [
-        publish_post(
+    results = _work_through(posts, pubkey=pubkey, signer=signer, relays=relays, args=args)
+
+    _add_addresses(results, pubkey=pubkey, relay=relays[0])
+
+    if args.show_events:
+        _print_events(results)
+
+    bericht = render_summary(results) if args.verbose else render_brief(results)
+    print(bericht)
+    _write_step_summary(bericht)
+
+    if args.log:
+        _write_log(results, Path(args.log))
+
+    return 1 if any(r.outcome is Outcome.FAILED for r in results) else 0
+
+
+def _work_through(posts: list[Path], *, pubkey: str, signer: str, relays: list[str], args) -> list:
+    """Arbeitet die Beitraege ab und meldet jeden sofort.
+
+    Die Ausgabe erfolgt **waehrend** der Arbeit, nicht danach: Ein Lauf ueber 96
+    Beitraege fragt fuer jeden die Relays ab und braucht Minuten. Ohne Zeile je
+    Beitrag liesse sich nicht unterscheiden, ob er arbeitet oder haengt.
+
+    `flush=True` ist dabei keine Zier: In der CI ist die Standardausgabe kein
+    Terminal, Python puffert dann 8 KB — der ganze „Fortschritt" erschiene erst
+    am Prozessende.
+    """
+    results = []
+    for path in posts:
+        result = publish_post(
             path.read_text(encoding="utf-8", errors="replace"),
             path=shorten(path),
             pubkey=pubkey,
@@ -91,22 +125,9 @@ def main(argv: list[str] | None = None) -> int:
             amb_relay=args.amb_relay,
             dry_run=args.dry_run,
         )
-        for path in posts
-    ]
-
-    _add_addresses(results, pubkey=pubkey, relay=relays[0])
-
-    if args.show_events:
-        _print_events(results)
-
-    summary = render_summary(results)
-    print(summary)
-    _write_step_summary(summary)
-
-    if args.log:
-        _write_log(results, Path(args.log))
-
-    return 1 if any(r.outcome is Outcome.FAILED for r in results) else 0
+        results.append(result)
+        print(progress_line(result), flush=True)
+    return results
 
 
 def _add_addresses(results: list, *, pubkey: str, relay: str) -> None:
@@ -133,6 +154,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("paths", nargs="*", help="einzelne index.md-Dateien")
     parser.add_argument("--all", action="store_true", help="alle Beitraege unter --content-root")
     parser.add_argument("--dry-run", action="store_true", help="entscheiden, aber nichts senden")
+    parser.add_argument(
+        "--verbose", action="store_true",
+        help="ausfuehrlicher Bericht statt Kurzfassung (publizierte Beitraege, "
+             "Adressen, Aenderungen, Warnungen im Einzelnen)",
+    )
     parser.add_argument(
         "--content-root", default=str(DEFAULT_CONTENT_ROOT),
         help="Wurzel der Beitraege fuer --all (Vorgabe: Website/content im Repo)",

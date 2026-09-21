@@ -6,6 +6,14 @@ Adressat ist die Redaktion, nicht die Entwicklung — deshalb Deutsch, deshalb
 Datei und Zeile statt Stacktrace, und deshalb steht bei jedem Fehler, was zu tun
 ist.
 
+Zwei Stufen, weil zwei Leserschaften: `render_brief` fuer einen CI-Lauf — nur
+Zaehler und Probleme, damit ein Fehler nicht zwischen 90 Beitraegen untergeht.
+`render_summary` fuer den Blick von Hand, mit allen Abschnitten. Welche Stufe,
+entscheidet allein `--verbose`; die Umgebung entscheidet nie mit.
+
+`progress_line` ist keine Stufe, sondern die laufende Ausgabe waehrend der
+Arbeit: eine Zeile je fertigem Beitrag.
+
 Tut ausdruecklich NICHT: entscheiden, publizieren, den Exit-Code bestimmen.
 Der Exit-Code gehoert zu `publish`, hier wird nur berichtet.
 """
@@ -16,19 +24,93 @@ HABLA = "https://habla.news/a/"
 YAKIHONNE = "https://yakihonne.com/article/"
 
 
-def render_summary(results: list[PostResult]) -> str:
-    """Die Job-Summary: erst was blockiert, dann die Zahlen, dann die Einzelheiten."""
+LEERER_LAUF = "## Nostr-Sync\n\nKeine Beitraege zu bearbeiten.\n"
+
+
+def progress_line(result: PostResult) -> str:
+    """Eine Zeile je fertig bearbeitetem Beitrag: Ausgang, Pfad, Slug.
+
+    Ohne sie schweigt ein Lauf ueber 96 Beitraege minutenlang, und niemand kann
+    unterscheiden, ob er arbeitet oder haengt.
+
+    Das Label ist auf 15 Zeichen gepolstert (`fehlgeschlagen` ist mit 14 der
+    laengste Ausgang), damit Pfad und Slug eine lesbare Spalte bilden. Der Slug
+    fehlt bei uebersprungenen Beitraegen — sie kamen nie so weit.
+    """
+    zeile = f"{result.outcome.value:<15}{result.path}"
+    if result.slug:
+        zeile += f"  {result.slug}"
+    return zeile
+
+
+def render_brief(results: list[PostResult]) -> str:
+    """Die Kurzfassung fuer einen CI-Lauf: Zaehler, Probleme, sonst nichts.
+
+    Bewusst weggelassen: publizierte und unveraenderte Beitraege, deren
+    Adressen und Links, die geaenderten Tags und die Warnungen im Einzelnen.
+    Gemessen waren das 498 Zeilen, in denen die vier blockierten Beitraege
+    untergingen. Hier bleiben ~11 Zeilen, plus ~8 je blockiertem Beitrag — der
+    Bericht waechst also nur im Umfang des Problems.
+
+    Wer alles braucht: `--verbose` oder das Protokoll (`--log`).
+    """
     if not results:
-        return "## Nostr-Sync\n\nKeine Beitraege zu bearbeiten.\n"
+        return LEERER_LAUF
 
-    nach_ausgang = {
-        ausgang: [r for r in results if r.outcome is ausgang] for ausgang in Outcome
-    }
+    nach_ausgang = _by_outcome(results)
+    teile = _head(results, nach_ausgang)
+    teile += _warning_count(results)
+    teile += _failures(nach_ausgang[Outcome.FAILED], only_errors=True)
+    return "\n".join(teile)
 
+
+def _by_outcome(results: list[PostResult]) -> dict:
+    return {ausgang: [r for r in results if r.outcome is ausgang] for ausgang in Outcome}
+
+
+def _head(results: list[PostResult], nach_ausgang: dict) -> list[str]:
+    """Was beide Stufen gemeinsam haben — und in derselben Reihenfolge.
+
+    Gemeinsam, damit die Reihenfolge nicht zwischen den Stufen auseinanderlaeuft:
+    Was blockiert, steht immer vor den Zahlen, und die Zahlen vor jeder
+    Einzelheit.
+    """
     teile = ["## Nostr-Sync\n"]
     teile += _caution(nach_ausgang[Outcome.FAILED])
     teile += _silent_noop_warning(results, nach_ausgang)
     teile += _counts(nach_ausgang)
+    return teile
+
+
+def _warning_count(results: list[PostResult]) -> list[str]:
+    """Die Warnungen als eine Zahl, mit dem Weg zu den Einzelheiten.
+
+    Bewusst ohne den Satz „Publiziert wurde trotzdem" aus der ausfuehrlichen
+    Stufe: Auch fehlgeschlagene Beitraege tragen ihre Konventionsbefunde, dort
+    waere die Aussage falsch.
+    """
+    warnungen = [f for r in results for f in r.findings if f.severity is Severity.WARNING]
+    if not warnungen:
+        return []
+    betroffen = {r.path for r in results if any(
+        f.severity is Severity.WARNING for f in r.findings
+    )}
+    return [
+        f"{len(warnungen)} Hinweis(e) zur Datenqualitaet, "
+        f"{_beitraege(len(betroffen))} betroffen — vollstaendig mit `--verbose` "
+        "oder im Protokoll (`--log`)",
+        "",
+    ]
+
+
+def render_summary(results: list[PostResult]) -> str:
+    """Die ausfuehrliche Stufe: erst was blockiert, dann die Zahlen, dann alles."""
+    if not results:
+        return LEERER_LAUF
+
+    nach_ausgang = _by_outcome(results)
+
+    teile = _head(results, nach_ausgang)
     teile += _failures(nach_ausgang[Outcome.FAILED])
     teile += _warnings(results)
     teile += _published(nach_ausgang[Outcome.PUBLISHED])
@@ -65,15 +147,24 @@ def _counts(nach_ausgang: dict) -> list[str]:
     return zeilen + [""]
 
 
-def _failures(failed: list[PostResult]) -> list[str]:
+def _failures(failed: list[PostResult], *, only_errors: bool = False) -> list[str]:
+    """Die blockierten Beitraege mit allem, was zum Beheben noetig ist.
+
+    `only_errors` fuer die knappe Stufe: `publish.py` haengt einem blockierten
+    Beitrag auch seine Konventionswarnungen an (damit die Redaktion beim Oeffnen
+    der Datei alles auf einmal sieht). Alle auszugeben brachte den knappen
+    Bericht bei vier blockierten Beitraegen zurueck auf ~90 Zeilen.
+    """
     if not failed:
         return []
     zeilen = ["### Nicht publiziert", ""]
     for result in failed:
+        befunde = [f for f in result.findings
+                   if not only_errors or f.severity is Severity.ERROR]
         zeilen.append(f"**{result.path}**")
         if result.reason:
             zeilen.append(f"- {result.reason}")
-        zeilen += [f"- {zeile}" for f in result.findings for zeile in _finding_lines(f)]
+        zeilen += [f"- {zeile}" for f in befunde for zeile in _finding_lines(f)]
         zeilen.append("")
     return zeilen
 

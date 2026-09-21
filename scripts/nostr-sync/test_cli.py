@@ -171,13 +171,20 @@ def test_every_option_explains_itself_in_the_help():
 
 
 def test_a_published_post_gets_its_nostr_address(content, capsys, monkeypatch):
-    """Ohne naddr bleibt die Job-Summary ohne Links — gebaut, aber nie verdrahtet."""
+    """Ohne naddr bleibt der Bericht ohne Links — gebaut, aber nie verdrahtet.
+
+    Die Links stehen nur im ausfuehrlichen Bericht; der knappe nennt publizierte
+    Beitraege gar nicht.
+    """
     import cli
 
     monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=False))
     monkeypatch.setattr(cli.nak, "encode_naddr", lambda **kwargs: "naddr1testadresse")
 
-    main(["--all", "--dry-run", "--content-root", str(content), "--pubkey", "a" * 64])
+    main([
+        "--all", "--dry-run", "--verbose",
+        "--content-root", str(content), "--pubkey", "a" * 64,
+    ])
 
     ausgabe = capsys.readouterr().out
     assert "naddr1testadresse" in ausgabe
@@ -204,3 +211,59 @@ def test_paths_in_the_report_stay_relative_to_the_repository(content, capsys, mo
     main(["--all", "--content-root", str(content), "--pubkey", "a" * 64, "--dry-run"])
 
     assert str(content) not in capsys.readouterr().out
+
+
+# --- Punkt 5: knapp ist die Vorgabe, --verbose macht es ausfuehrlich -------
+
+def lauf_mit(args, content, monkeypatch, *, fehlschlag=False):
+    import cli
+
+    monkeypatch.setattr(cli, "publish_post", _ergebnis_fabrik(fehlschlag=fehlschlag))
+    monkeypatch.setattr(cli.nak, "encode_naddr", lambda **kwargs: "naddr1testadresse")
+    return main(["--all", "--dry-run", "--content-root", str(content),
+                 "--pubkey", "a" * 64, *args])
+
+
+def test_the_default_report_is_brief(content, capsys, monkeypatch):
+    """In der CI soll nur eine Uebersicht stehen, keine 500 Zeilen."""
+    lauf_mit([], content, monkeypatch)
+
+    ausgabe = capsys.readouterr().out
+    assert "| publiziert | 2 |" in ausgabe
+    assert "### Publiziert" not in ausgabe
+    assert "naddr1testadresse" not in ausgabe
+
+
+def test_verbose_gives_the_full_report(content, capsys, monkeypatch):
+    lauf_mit(["--verbose"], content, monkeypatch)
+
+    ausgabe = capsys.readouterr().out
+    assert "### Publiziert" in ausgabe
+    assert "naddr1testadresse" in ausgabe
+
+
+def test_every_post_gets_a_progress_line_before_the_report(content, capsys, monkeypatch):
+    """Der Fortschritt muss waehrend der Arbeit erscheinen, nicht danach."""
+    lauf_mit([], content, monkeypatch)
+
+    ausgabe = capsys.readouterr().out
+    fortschritt = [z for z in ausgabe.splitlines() if z.startswith("publiziert ")]
+    assert len(fortschritt) == 2
+    assert ausgabe.index("publiziert ") < ausgabe.index("## Nostr-Sync")
+
+
+def test_a_progress_line_names_path_and_slug(content, capsys, monkeypatch):
+    lauf_mit([], content, monkeypatch)
+
+    erste = capsys.readouterr().out.splitlines()[0]
+    assert "index.md" in erste and erste.endswith("x")
+
+
+def test_the_brief_report_still_names_a_failure(content, capsys, monkeypatch):
+    """Knapp heisst nicht, Probleme zu verschweigen."""
+    code = lauf_mit([], content, monkeypatch, fehlschlag=True)
+
+    ausgabe = capsys.readouterr().out
+    assert code == 1
+    assert "[!CAUTION]" in ausgabe
+    assert "fehlgeschlagen " in ausgabe, "auch der Fortschritt muss es zeigen"

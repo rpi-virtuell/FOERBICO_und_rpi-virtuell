@@ -10,7 +10,8 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Stand: 2026-09-21
 
-- Tests: **212 grün**, 4 übersprungen, Laufzeit ~9 s (Kernsuite ohne `node`: 194)
+- Tests: **229 grün**, 4 übersprungen, Laufzeit ~10 s
+- CI-Ausgabe knapp: Bericht **45 statt ~500 Zeilen**, dazu Fortschritt je Beitrag
 - Workflow umgebaut: kein `mdparser`-Checkout mehr, `nak` gepinnt mit Prüfsumme
 - Dry-Run **nachweislich trocken**: 284 `nak`-Aufrufe, 0 Schreibversuche (siehe Verlauf)
 - Abnahmekriterium erfüllt: **33 von 33 Bildern zeichengleich zu `md2blossom.mjs`**
@@ -33,8 +34,8 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 | `nak.py` | 134 | 12 | fertig |
 | `images.py` | 177 | 10 | fertig |
 | `publish.py` | 174 | 20 | fertig |
-| `report.py` | 258 | 16 | fertig |
-| `cli.py` | 204 | 13 | fertig |
+| `report.py` | 346 | 29 | fertig, Ausnahme bei der Dateigröße |
+| `cli.py` | 230 | 18 | fertig |
 | Golden-Fixtures | — | 24 | fertig |
 | Architektur-Tests | — | 13 | fertig |
 | `md2blossom`-Vergleich | — | 18 | fertig, braucht `node` |
@@ -57,6 +58,12 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
    bekannt ist genau ein Fall (`rueckblick-auftaktkonferenz-oer-im-blick`).
 
 ## Bekannte Lücken
+
+- `report.py` hat **346 Zeilen** und reißt damit die Zielgröße von 300 (`CLAUDE.md` erlaubt
+  bis 400 im Ausnahmefall). Der Code selbst sind 198 Zeilen; die Differenz sind 95 Zeilen
+  Docstrings mit Messwerten und Fallstricken. Ein Aufteilen nach Ausgabestufe wäre die dort
+  ausdrücklich verworfene künstliche Trennung — eine kohärente Datei beantwortet weiter die
+  eine Frage „Was ist in diesem Lauf passiert?". Beim nächsten Zuwachs neu bewerten.
 
 - `publish.py:publish_post` hat 83 Zeilen und nähert sich der Grenze von 100. Kommt noch
   etwas hinzu, ist das das Signal zum Teilen.
@@ -105,6 +112,38 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-21 — CI-Ausgabe knapp, Fortschritt sichtbar
+
+Auslöser: Der Bericht war für einen CI-Lauf unbrauchbar. Vorgabe des Nutzers — im CI nur
+eine kurze Übersicht der laufenden Prozesse, Einzelheiten nur bei Problemen; lokal die
+ausführliche Form über ein Flag.
+
+- **Fortschritt je Beitrag**, sofort ausgegeben: Ausgang, Pfad, Slug. Vorher arbeitete eine
+  stumme Listen-Comprehension alle 99 Beiträge ab — minutenlang keine Zeile, und niemand
+  konnte unterscheiden, ob der Lauf arbeitet oder hängt. `flush=True` ist dabei Pflicht:
+  In der CI ist stdout kein Terminal, Python puffert sonst 8 KB.
+- **`render_brief`**: Kopf, Zähler, ein Warnungszähler, die blockierten Beiträge mit Datei,
+  Zeilen, Regel und Fix. Gemessen **45 statt ~500 Zeilen**. Sie wächst nur im Umfang des
+  Problems: ~11 Zeilen ohne Fehler, ~8 je blockiertem Beitrag.
+- **`--verbose`** schaltet den vollen Bericht ein. Über den Umfang entscheidet allein das
+  Flag — die Umgebung nie. `GITHUB_STEP_SUMMARY` bleibt ein reiner Ausgabeort.
+- Gefunden: `publish.py` hängt einem blockierten Beitrag auch seine Konventionswarnungen an.
+  Gibt die Kurzfassung sie mit aus, ist sie bei vier blockierten Beiträgen wieder ~90 Zeilen
+  lang. `_failures` filtert deshalb auf `Severity.ERROR`.
+- Beim Gegenlesen des eigenen Ergebnisses korrigiert: Der Warnungszähler stand **hinter** den
+  Fehler-Einzelheiten, also 30 Zeilen weiter unten. Jetzt stehen alle Zahlen beieinander,
+  bevor die erste Einzelheit kommt. Und „in 80 Beitraege" war der falsche Kasus.
+- Beide Renderer teilen `_head`, damit die Reihenfolge nicht zwischen den Stufen
+  auseinanderläuft.
+- Nebenbefund: `.venv` und `Website/scripts/node_modules` waren verschwunden und wurden
+  wiederhergestellt — ohne das zweite überspringt sich das Abnahmekriterium stillschweigend.
+- Zahlen verschoben sich, weil Inhalte hinzukamen: **99 Beiträge** (vorher 96),
+  60 unverändert, 16 übersprungen. Publiziert und blockiert unverändert 19 und 4.
+
+**Zurückgestellt** (Punkte 6–10 des Plans, in dieser Reihenfolge): Probelauf in der
+Kurzfassung kennzeichnen · unerwartete Abbrüche abfangen · Gründe übersprungener Beiträge ·
+Tests von `GITHUB_STEP_SUMMARY` isolieren · Bericht in genau eine Senke.
 
 ### 2026-09-21 — Erster Lauf vorbereitet: trocken, vollständig, lesbar
 

@@ -1,5 +1,5 @@
 from models import Finding, Outcome, PostResult, Severity
-from report import render_summary
+from report import progress_line, render_brief, render_summary
 
 
 def ergebnis(outcome, **kwargs):
@@ -224,3 +224,124 @@ def test_a_completely_new_tag_value_is_shown_whole():
     text = render_summary([ergebnis(Outcome.PUBLISHED, slug="x", article=neu, existing=alt)])
 
     assert "Neuer Titel" in text and "Alter Titel" in text
+
+
+# --- Punkt 3: Fortschritt waehrend des Laufs -------------------------------
+
+def test_the_progress_line_shows_label_path_and_slug():
+    """Ohne Fortschritt schweigt der Lauf minutenlang — man sieht nicht, ob er haengt."""
+    zeile = progress_line(ergebnis(
+        Outcome.UNCHANGED, path="Website/content/de/posts/OER-Werkstatt/index.md",
+        slug="oer-werkstatt",
+    ))
+
+    assert zeile.startswith("unveraendert")
+    assert "Website/content/de/posts/OER-Werkstatt/index.md" in zeile
+    assert zeile.endswith("oer-werkstatt")
+
+
+def test_a_progress_line_without_a_slug_shows_only_the_path():
+    """Uebersprungene Beitraege haben keinen Slug — dort darf nicht „None" stehen."""
+    zeile = progress_line(ergebnis(Outcome.SKIPPED, path="Website/content/de/impressum/index.md"))
+
+    assert "None" not in zeile
+    assert zeile.endswith("index.md")
+
+
+def test_all_progress_labels_have_the_same_width():
+    """Sonst ist die Spalte im Log nicht lesbar."""
+    zeilen = [progress_line(ergebnis(ausgang, path="X", slug="s")) for ausgang in Outcome]
+
+    assert len({zeile.index("X") for zeile in zeilen}) == 1
+
+
+# --- Punkt 4: der knappe Bericht -------------------------------------------
+
+def fehlschlag(**kwargs):
+    befund = Finding(
+        severity=Severity.ERROR, origin="NIP-23", message="HTML im content",
+        rule='NIP-23 — "MUST NOT support adding HTML to Markdown"',
+        fix="Tag entfernen; fuer einen Absatz eine Leerzeile setzen.",
+        lines=[70, 92], found=["<br>"],
+    )
+    return ergebnis(Outcome.FAILED, slug="kaputt", findings=[befund], **kwargs)
+
+
+def test_the_brief_report_counts_and_names_every_error():
+    text = render_brief([fehlschlag(), ergebnis(Outcome.PUBLISHED, slug="gut")])
+
+    assert "[!CAUTION]" in text
+    assert "| fehlgeschlagen | 1 |" in text
+    for stelle in ("HTML im content", "70, 92", "MUST NOT", "Leerzeile"):
+        assert stelle in text, stelle
+
+
+def test_the_brief_report_leaves_out_published_and_unchanged_posts():
+    text = render_brief([
+        ergebnis(Outcome.PUBLISHED, slug="publizierter-slug", naddr="naddr1xyz"),
+        ergebnis(Outcome.UNCHANGED, slug="unveraenderter-slug"),
+    ])
+
+    assert "publizierter-slug" not in text
+    assert "unveraenderter-slug" not in text
+    assert "naddr1xyz" not in text and "habla" not in text
+
+
+def test_the_brief_report_mentions_warnings_only_as_a_number():
+    text = render_brief([
+        ergebnis(Outcome.UNCHANGED, slug="a", findings=[warnung("Schlagworte fehlen")]),
+        ergebnis(Outcome.UNCHANGED, path="posts/zwei/index.md", slug="b",
+                 findings=[warnung("Schlagworte fehlen")]),
+    ])
+
+    assert "2 Hinweis" in text
+    assert "--log" in text
+    assert "Schlagworte gehoeren nach" not in text, "die Regel gehoert nicht in den knappen Bericht"
+    assert "Publiziert wurde trotzdem" not in text, "gilt fuer fehlgeschlagene Beitraege nicht"
+
+
+def test_the_brief_report_shows_only_the_errors_of_a_failed_post():
+    """publish.py haengt einem blockierten Beitrag auch seine Warnungen an.
+
+    Alle auszugeben brachte den knappen Bericht bei vier blockierten Beitraegen
+    zurueck auf ~90 Zeilen.
+    """
+    kaputt = fehlschlag()
+    kaputt.findings.append(warnung("Schlagworte erreichen Nostr nicht"))
+
+    text = render_brief([kaputt])
+
+    assert "HTML im content" in text
+    assert "Schlagworte erreichen Nostr nicht" not in text
+
+
+def test_the_brief_report_stays_short_without_errors():
+    """Messbare Obergrenze statt Gefuehl."""
+    viele = [
+        ergebnis(Outcome.UNCHANGED, path=f"posts/{i}/index.md", slug=str(i),
+                 findings=[warnung("irgendein Hinweis")])
+        for i in range(90)
+    ]
+
+    assert len(render_brief(viele).splitlines()) < 15
+
+
+def test_the_brief_report_keeps_the_nothing_published_warning():
+    """„Kein stiller Erfolg" gilt auch im knappen Bericht."""
+    text = render_brief([ergebnis(Outcome.SKIPPED, reason="Pflichtfelder fehlen")])
+
+    assert "[!WARNING]" in text
+
+
+def test_the_brief_report_names_an_empty_run():
+    assert "Keine Beitraege" in render_brief([])
+
+
+def test_the_brief_report_puts_the_numbers_before_the_details():
+    """Ein Zaehler hinter 30 Zeilen Fehlertext ist keine Uebersicht."""
+    kaputt = fehlschlag()
+    kaputt.findings.append(warnung("ein Hinweis"))
+
+    text = render_brief([kaputt])
+
+    assert text.index("Hinweis(e) zur Datenqualitaet") < text.index("### Nicht publiziert")

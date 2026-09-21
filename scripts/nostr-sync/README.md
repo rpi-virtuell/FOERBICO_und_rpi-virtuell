@@ -97,6 +97,7 @@ ohne beides gibt es keinen Auftrag und der Aufruf endet mit Exit 2.
 |---|---|
 | `--all` | alle Beiträge unter `--content-root` |
 | `--dry-run` | entscheiden und berichten, aber **nichts senden**. Braucht keinen Signer |
+| `--verbose` | ausführlicher Bericht statt Kurzfassung. Vorgabe ist knapp |
 | `--show-events` | die gebauten Events als JSON ausgeben — zeigt, was gesendet würde |
 | `--log DATEI` | vollständiges Ergebnis maschinenlesbar als JSON (das CI-Artefakt) |
 | `--content-root PFAD` | Wurzel der Beiträge für `--all`. Vorgabe: `Website/content` im Repo |
@@ -150,18 +151,37 @@ cp -r Website/content/de/posts/<ordner> /tmp/probe
 … cli.py --dry-run /tmp/probe/index.md
 ```
 
-## Zwei Ausgaben: Bericht und Protokoll
+## Drei Ausgaben
 
-| | Job-Summary (`GITHUB_STEP_SUMMARY`, stdout) | Protokoll (`--log`, CI-Artefakt) |
+| | Fortschritt | Bericht | Protokoll (`--log`) |
+|---|---|---|---|
+| wohin | Standardausgabe, **während** des Laufs | Standardausgabe und, in der CI, die Job-Summary | JSON-Datei, CI-Artefakt |
+| Adressat | wer zusieht | Redaktion | Nachforschung |
+| Inhalt | je Beitrag eine Zeile: Ausgang, Pfad, Slug | siehe unten | jeder Beitrag mit den **vollständigen Events** |
+
+Der Bericht hat zwei Stufen. **Knapp ist die Vorgabe:**
+
+| | knapp (Vorgabe) | ausführlich (`--verbose`) |
 |---|---|---|
-| Adressat | Redaktion | Nachforschung |
-| Form | Markdown, gruppiert, einklappbar | JSON, ein Eintrag je Beitrag |
-| Enthält | jeden Beitrag: blockiert, publiziert, unverändert, übersprungen — mit Adresse, Links, Bestätigungen, Befunden samt Zeilen und Fundstellen | zusätzlich die **vollständigen Events** (gebaut und der Relay-Stand) |
+| Zähler je Ausgang | ✅ | ✅ |
+| blockierte Beiträge mit Datei, Zeilen, Regel, Fix | ✅ | ✅ |
+| Warnungen | eine Zähler-Zeile | nach Regel gebündelt, mit Pfaden |
+| publizierte Beiträge, Adressen, Links | — | ✅ |
+| was sich geändert hat | — | ✅ |
+| unveränderte und übersprungene Beiträge | nur als Zahl | mit Slug bzw. Grund |
+| gemessen am vollen Lauf | **45 Zeilen** | ~500 Zeilen |
 
-Beide nennen jeden Beitrag. Der einzige Unterschied: Ändert sich ein Tag, zeigt der Bericht
-**nur den abweichenden Wert**, nicht den ganzen Tag. Sonst stünden für eine Sprachreparatur
-1400 Zeichen Zusammenfassungstext da, um einen einzigen Buchstaben zu zeigen. Das
-vollständige Event steht im Protokoll.
+Die Kurzfassung wächst nur im Umfang des Problems: rund 11 Zeilen, wenn nichts schiefgeht,
+plus rund 8 je blockiertem Beitrag.
+
+**Über den Umfang entscheidet allein `--verbose`.** `GITHUB_STEP_SUMMARY` beeinflusst den
+Inhalt nicht — es ist nur ein zusätzlicher Ausgabeort und existiert ausschließlich innerhalb
+von GitHub Actions.
+
+Im ausführlichen Bericht gilt außerdem: Ändert sich ein Tag, steht dort **nur der
+abweichende Wert**. Sonst stünden für eine Sprachreparatur 1400 Zeichen
+Zusammenfassungstext da, um einen einzigen Buchstaben zu zeigen. Das vollständige Event
+steht im Protokoll.
 
 ## Secrets des Workflows
 
