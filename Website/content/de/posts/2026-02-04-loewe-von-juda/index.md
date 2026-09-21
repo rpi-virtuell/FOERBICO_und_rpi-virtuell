@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Wenn der Löwe ruft und die Communities antworten
 description: 'In diesem Artikel setzt sich Phillip Angelina mit der Depublikation der Kinderbibel: "Der Löwe von Juda" auseinander. Er geht dabei auf die theologischen Schwierigkeiten ein und macht darauf Aufmerksam wie wichtig Communities für das Auffinden von Fehlern und blinden Flecken für das eigene Schaffen sind.'
 license: https://creativecommons.org/licenses/by/4.0/
@@ -48,6 +47,34 @@ tags:
   - Open Educational Resources (OER)
   - OER-Communities
   - Bibel
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  loewe_von_juda_titelbild.jpg:
+    alt: 'Abbildung von Biber mit einer Axt (links), winkendem Löwen im Gewand mit Holzstock (Mitte) und einem brüllendem Nilpferd mit einem Holzschwert (rechts) auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.'
+    title: Der Löwe von Juda
+    sourceUrl: https://oer.community/der-loewe-schwierigkeiten
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
+  loewe_von_juda_04.jpg:
+    alt: 'Screenshot von Instagram-Beitrag der Deutschen Bibelgesellschaft mit der Aufschrift: "Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden."'
+    title: Der Löwe von Juda, Screenshot Instagramseite der Deutschen Bibelgesellschaft
+    sourceUrl: https://www.instagram.com/p/DQB3hZZjKqV/
+    author: Deutsche Bibelgesellschaft
+    authorUrl: https://www.die-bibel.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  loewe_von_juda_03.jpg:
+    alt: 'Screenshot von Instagram-Beitrag der Deutschen Bibelgesellschaft mit der Aufschrift: Noah ein Biber, Josef ein Ochse, Josua ein Wolf: Eine Welt voller Tiere!'
+    title: Screenshot der männlichen Charaktere, Instagramseite der Deutschen Bibelgesellschaft
+    sourceUrl: https://www.instagram.com/p/DQB3hZZjKqV/
+    author: Deutsche Bibelgesellschaft
+    authorUrl: https://www.die-bibel.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 Es ist kurz vor Weihnachten, als ein Verlag ein Buch entdeckt, dass eine vielversprechende Idee bietet und auf ein profitables Unterfangen hoffen lässt. Es handelt sich um eine Kinderbibel, die im Stil von Disneyfilmen illustriert ist. Tiere nehmen darin die Rollen von biblischen Personen ein. Der Verlag entscheidet sich dazu, das innovative Projekt auch in Deutschland auf den Markt zu bringen. Die Promotion auf verschiedenen Websites, Social Media sowie auf Messen ist in vollem Gange, doch von verschiedenen Seiten kommen kritische Stimmen auf. Die Folge: Der Verlag sieht sich gezwungen, das Werk zu depublizieren.
