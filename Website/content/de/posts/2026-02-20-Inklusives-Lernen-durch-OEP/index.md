@@ -42,6 +42,17 @@ tags:
   - Didaktik
   - Open Educational Practices (OEP)
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  you-belong.jpg:
+    alt: 'Ein Schild mit der Aufrschrift "You belong", das besagt, dass Sie von Pflanzen umgeben sind.'
+    title: Ein Schild, das besagt, dass Sie von Pflanzen umgeben sind
+    sourceUrl: https://unsplash.com/de/fotos/ein-schild-das-besagt-dass-sie-von-pflanzen-umgeben-sind-pId0KssmHK4
+    author: Tim Mossholder
+    authorUrl: https://unsplash.com/de/@timmossholder
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
 ---
 
 
