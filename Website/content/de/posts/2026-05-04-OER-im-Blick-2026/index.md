@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'OER im Blick 2026 - Welcome to the Jungle'
 description: >-
   Am 28. und 29. April 2026 fand in Köln die Statuskonferenz „OER im Blick“ im Rahmen der OER-Strategie des Bundes statt. Wie in den Vorjahren wurde sie an einem besonderen Ort veranstaltet – diesmal im smartvillage mit lateinamerikanischem Flair.
@@ -39,8 +38,6 @@ about:
 image: https://oer.community/oer-im-blick-2026/OER-im-Blick-2026-Titelbild.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-05-05'
 keywords:
   - KI
@@ -66,6 +63,33 @@ tags:
   - OER-Strategie
   - FOERBICO in Kontakt
   - Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  OER-im-Blick-2026-Titelbild.jpg:
+    alt: Bild von einem goldenen Affen mit Blumenkette neben Banner zur Tagung OER im Blick 2026
+    title: OER im Blick 2026 - Welcome to the jungle
+    sourceUrl: https://oer.community/oer-im-blick-2026/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  OER-im-Blick-2026-Workshop.jpg:
+    alt: 'Teilnehmende des Workshops bei der OER im Blick 2026 sitzen auf Tribüne, während Phillip unten steht und das FOERBICO-Projekt präsentiert.'
+    title: FOERBICO-Workshop bei der OER im Blick 2026
+    sourceUrl: https://oer.community/oer-im-blick-2026/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  OER-im-Blick-2026-Projektvorstellung.jpg:
+    alt: 'Austausch am Stehtisch von Laura und Phillip vom FOERBICO-Projekt mit Matthias von Co-Woerk während Postersession bei der Tagung OER im Blick 2026.'
+    title: Austausch mit Co-Woerk beim FOERBICO-Projektstand
+    sourceUrl: https://oer.community/oer-im-blick-2026/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Am 28. und 29. April 2026 fand die Statuskonferenz „[OER im Blick](https://www.oer-strategie.de/konferenz/)“ der [OER-Strategie](https://www.oer-strategie.de/) des Bundes in Köln statt. Wie bei der letztjährigen Konferenz in der Imaginata in Jena (siehe [Blogbeitrag](https://oer.community/oer-im-blick-2025/)) und der Auftaktkonferenz 2024 im EXPERIMINTA ScienceCenter in Frankfurt a.M. (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/)) wurde auch dieses Mal ein außergewöhnliches Ambiente gewählt: das smartvillage mit seinem lateinamerikanischen Flair. In inspirierender Umgebung sind wir auf eine gemeinsame Expedition durch das vielfältige OER-Ökosystem gegangen und nehmen euch in diesem Blogbeitrag mit auf die Reise. 
