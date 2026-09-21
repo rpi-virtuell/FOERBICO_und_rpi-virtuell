@@ -45,7 +45,7 @@ tags:
 bilder:
   Teamtreffen.jpg:
     alt: 'Team von rpi-virtuell und FOERBICO beim gemeinsamen Konzeptionstag 2014 an der Goethe-Universität in Frankfurt am Main, alle halten ihre Baustein-Ergebnisse in die Höhe'
-    title: rpi-virtuell und FOERBICO beim gemeinsame Konezptionstag 2024
+    title: 'rpi-virtuell und FOERBICO beim gemeinsame Konezptionstag 2024'
     sourceUrl: https://oer.community/konzeptionstag
     author: FOERBICO
     authorUrl: https://oer.community
