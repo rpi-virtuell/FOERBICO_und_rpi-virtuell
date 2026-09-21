@@ -144,7 +144,8 @@ jobs:
       # Beweist vor dem ersten Relay-Zugriff, dass signiert werden kann: Das
       # Event wird signiert, aber ohne Relay-Argument nicht publiziert. Ohne
       # diesen Schritt scheitert erst der halbe Lauf — haeufigste Ursache ist
-      # ein totes Bunker-Pairing (SETUP-GUIDE, Huerde 4).
+      # ein totes Bunker-Pairing. Welche Secrets wozu dienen, steht in
+      # scripts/nostr-sync/README.md, Abschnitt „Secrets des Workflows".
       #
       # Ein leerer CLIENT_SECRET_HEX faellt hier nicht von selbst auf: nak nimmt
       # dann einen zufaelligen Client-Schluessel, und der Bunker verweigert mit

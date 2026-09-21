@@ -165,14 +165,18 @@ Datei fehlt, sonst den Nachweis gar nicht erst schreiben. Nicht standardisiert (
 sind zusaetzlich `title`, `license`, `credit`, `authorUrl`, `modification`, `ai`; `alt` und
 `summary` sind NIP-94-konform.
 
-### Datenlage (alle 98 Posts gemessen)
+### Datenlage (nachgemessen 2026-09-21)
 
 | | Anzahl |
 |---|---|
 | Posts mit `# bilder`-Block | 16 |
 | Posts mit mindestens einer Blossom-Hash-URL | **16** — nur hier tut der Blossom-Schritt überhaupt etwas |
-| Cover-Bilder (`commonMetadata.image`) | 80 — davon 15 Blossom, 64 andere URLs (65× `oer.community`), 1 relativ |
-| Fließtextbilder | 236 — davon 25 Blossom, **197 relative Pfade** |
+| Cover-Bilder (`commonMetadata.image`) | 80 — davon 15 Blossom, 64 andere URLs, 1 relativ |
+| Fließtextbilder | 228 — davon 25 Blossom, 14 andere URLs, **189 relative Pfade** |
+
+**Diese Zahlen bewegen sich.** Die erste Messung (2026-09-14) ergab 236 Fließtextbilder mit
+197 relativen Pfaden; die Bildmigration läuft redaktionell weiter und arbeitet den Rest ab.
+Wer sie neu braucht, misst neu — jede Zahl in dieser Spec trägt deshalb ihr Datum.
 
 Live-Beleg: Der Publisher `5a12b41e…` hat am 07.09.2026 das Event
 `rueckblick-auftaktkonferenz-oer-im-blick` publiziert, dessen Inhalt `![…](OER-im-Blick-2.jpg)`
@@ -766,8 +770,20 @@ Datenfehlern**, die redaktionell zu beheben sind:
 | Beitrag | Problem |
 |---|---|
 | `2025-03-04-dezentrale-oep-oer` | dritter Creator: `affiliation` ist kein Mapping |
-| ein Beitrag mit unvollstaendigem Creator | `givenName` und `familyName` fehlen |
+| `2025-03-20-dezentrale-oer-infrastrukturen` | Creator unvollstaendig (`givenName`/`familyName`) |
 | `2025-06-26-Save_the_Date` | `id` fehlt im commonMetadata-Block |
+
+Aufgeschluesselt sind die **14 uebersprungenen** damit: 1 ohne Frontmatter
+(`2026-01-27-pilgern-im-ru`, 0 Byte), 10 Seiten ohne AMB-Pflichtfelder (`datenschutz`,
+`impressum`, `oer-und-oep`, `oer-und-oep/lernmodul`, `qualitaet`, `tagungen`, `unser-team`,
+`en/conference`, `en/oer-and-oep`, `en/our-team`) und die 3 Beitraege oben.
+
+**Nebenwirkung, die beim Messen sichtbar wurde:** Weil die Schema-Pruefung *vor* den
+Konventions-Pruefungen greift, bekommen diese 14 auch keine Schlagwort- oder Bildwarnung.
+Bei zweien faellt das auf (`2025-03-04-dezentrale-oep-oer`,
+`2025-03-20-dezentrale-oer-infrastrukturen`): Sie gehoeren zu den 60 Fall-B-Beitraegen,
+gemeldet werden aber nur 58. Bewusst so — von einem Beitrag, der gar nicht publiziert wird,
+erreichen auch die Schlagworte Nostr nicht.
 
 ### Drei Fallstricke, empirisch bestaetigt
 
@@ -996,14 +1012,27 @@ Befunde, alle eingearbeitet:
 
 ## Cutover
 
-1. Neues Skript mit `--dry-run --all` über alle 98 Posts laufen lassen.
-2. **Erwartung: „unchanged" bis auf 19 benannte Aenderungen.** Die Schlagwort-Regel wurde
-   absichtlich *nicht* geaendert; geaendert wird nur der kaputte Sprach-Tag in den 19
-   Beitraegen mit skalarem `inLanguage`. Dazu **13 uebersprungene** (10 Seiten, 3 mit
-   Datenfehlern) und **1 ohne Frontmatter** (`2026-01-27-pilgern-im-ru`, 0 Byte). Jede
-   *andere* Abweichung ist verdaechtig und einzeln zu pruefen. Zusätzlich erwartet: 61
-   Schlagwort-Protokolleinträge (60× Fall B, 1× Fall C) sowie die Bild-Protokolle
-   (197 relative Pfade, 64 Nicht-Hash-Cover).
+1. Neues Skript mit `--dry-run --all` über alle Beiträge laufen lassen.
+2. **Erwartung, gemessen am 2026-09-21: 19 publiziert · 59 unveraendert · 14 uebersprungen ·
+   4 blockiert.** Die Schlagwort-Regel wurde absichtlich *nicht* geaendert; geaendert wird
+   nur der kaputte Sprach-Tag. Jede *andere* Abweichung ist verdaechtig und einzeln zu
+   pruefen.
+
+   | Posten | Erwartet | Erklaerung |
+   |---|---|---|
+   | publiziert | 19 | 15 Sprachreparatur + 4 ohne Live-Event |
+   | unveraendert | 59 | Relay-Stand und gebautes Event sind gleich |
+   | uebersprungen | 14 | 1 ohne Frontmatter, 10 Seiten, 3 mit Datenfehlern |
+   | blockiert | 4 | die NIP-23-Arbeitsliste |
+   | Schlagwort-Befunde | 59 | 58 Fall B + 1 Fall C (2 Fall-B-Beitraege sind uebersprungen) |
+   | Bild-Befunde | 105 | 42 Beitraege mit relativen Pfaden, 63 ohne Blossom-Hash |
+   | unbekannte Felder | 2 | die uebrigen 6 stecken in uebersprungenen Beitraegen |
+
+   Die Bildzahlen sind **Beitraege, nicht Bilder**: Der Bericht zaehlt je Beitrag, die
+   Datenlage-Tabelle oben zaehlt Bilder (189 relative Pfade in 42 Beitraegen).
+
+   **Die 15 Sprachreparaturen aendern je zwei Tags**, nicht einen: Die Sprache steht auch als
+   drittes Element im `summary`-Tag (`["summary", "…", "d"]`). Beides dieselbe Ursache.
 3. Vergleichstest gegen `md2blossom` (Teststrategie Punkt 5) muss gruen sein — sonst drohen
    nicht zuordenbare 1063-Duplikate.
 4. Die NIP-23-Inhaltsverstoesse aus der Arbeitsliste beheben (4 Beitraege). Sie sind jetzt
@@ -1042,8 +1071,8 @@ Erst wenn das gelaufen ist, publiziert der Sync die zusätzlichen `t`-Tags — a
 
 ## Später: Ausbaustufe 3 — Bilder nach Blossom überführen
 
-Separates Vorhaben, eigener PR, **nicht** Teil dieses Umbaus. Ziel: die 197 relativen
-Bildpfade und 64 Nicht-Hash-Cover auflösbar und lizenzbelegt machen.
+Separates Vorhaben, eigener PR, **nicht** Teil dieses Umbaus. Ziel: die 189 relativen
+Bildpfade und 64 Nicht-Hash-Cover auflösbar und lizenzbelegt machen (Stand 2026-09-21).
 
 Der eigentliche Engpass ist nicht die Technik, sondern die **Lizenzdaten**: ein `# bilder`-
 Eintrag mit `licenceUrl` existiert erst für 16 von 98 Posts. Ohne ihn darf kein kind:1063
@@ -1078,9 +1107,9 @@ und einem Gegenstueck mit Schluesselzugriff:
 | `Orga/oer-community-webseite-orga/bildmigration.md` | Die Arbeitsliste: Stand 2026-09-10 warten **70 Beitraege mit 198 Bildern** auf ihren `# bilder`-Block, samt fertig vorbereiteter YAML-Vorlage je Beitrag |
 | `Orga/oer-community-webseite-orga/wissensgrundlagen/bildattribution.md` | Feldkonvention des `# bilder`-Blocks inkl. Stolpersteine |
 
-Die Migration laeuft also bereits redaktionell. Meine Messung deckt sich damit: 16 Posts mit
-Block, 197 relative Fliesstextbilder — die Arbeitsliste nennt 70 offene Beitraege mit 198
-Bildern.
+Die Migration laeuft also bereits redaktionell und kommt voran: 16 Posts mit Block, und die
+relativen Fliesstextbilder sind zwischen dem 14. und dem 21.09.2026 von 197 auf **189**
+gesunken. Die Arbeitsliste (Stand 2026-09-10) nennt 70 offene Beitraege mit 198 Bildern.
 
 **Der Ablauf je Beitrag ist dort dokumentiert:**
 

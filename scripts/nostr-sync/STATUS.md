@@ -40,11 +40,20 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Was als Nächstes ansteht
 
-1. **Ersten echten Lauf wagen** — von Hand mit *alle* + *dry-run* starten, dann einen
-   einzelnen Beitrag ohne `--dry-run`.
-   *Warum jetzt:* Der Bunker-Pfad (`NOSTR_CLIENT_KEY` → `nak --connect-as`) ist der einzige
-   Teil, der lokal nicht prüfbar war. Er scheitert sichtbar im Schritt *Signierstrecke
-   prüfen*, bevor irgendetwas publiziert wird.
+1. **Zwei Entscheidungen, die noch offen sind** — beide blockieren den ersten echten Lauf:
+
+   a) **Wo läuft der Workflow?** `origin` ist ein Gitea/Forgejo auf `git.rpi-virtuell.de`,
+   GitHub ist nur die Kopie `l-sicking/foerbico-copy`, und die Website baut Woodpecker
+   (`.woodpecker/`). Der Sync liegt im GitHub-Actions-Format vor und hat eine echte
+   Pflegehistorie (`checkout` v6, `upload-artifact` v7) — welcher Runner ihn ausführt und wo
+   die Secrets liegen, ist von hier aus nicht feststellbar. Bei Woodpecker wäre das Format
+   falsch und der Ablauf neu zu bauen.
+
+   b) **Wie groß der erste Schritt ohne `--dry-run`?** Die Strecke ist durch nichts
+   abgedeckt. Kleinster Schritt wäre ein Lauf gegen ein lokales `nak serve` mit
+   Wegwerf-Schlüssel — dafür fehlt `cli.py` eine `--blossom`-Option, sonst spricht der
+   Bilderschritt den produktiven Mediaserver an. Ein einzelner Beitrag produktiv bräuchte
+   eine `paths`-Eingabe im Workflow.
 2. **Vier Beiträge redaktionell bereinigen** (NIP-23) — sonst werden sie nach der Umstellung
    nicht mehr aktualisiert. Liste in der Spec unter *Arbeitsliste vor dem Cutover*.
 3. **Fremder Pubkey am selben Slug** — der letzte offene Punkt der Warnliste.
@@ -60,7 +69,15 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   tauchen deshalb im Bericht nicht auf (beiden fehlt `creator`). Bewusst so — von einem
   Beitrag, der gar nicht publiziert wird, erreichen auch die Schlagworte Nostr nicht.
 - Der Bunker-Pfad ist **ungetestet**: Ob der Bunker den Client-Schlüssel aus
-  `NOSTR_CLIENT_KEY` akzeptiert, zeigt erst ein echter CI-Lauf. Lokal gibt es keinen Bunker.
+  `NOSTR_CLIENT_KEY` akzeptiert, zeigt erst ein echter CI-Lauf. **Lokal gibt es keine
+  Zugangsdaten** — keine `.env` im Repo, und der Geschwisterordner `../mdparser/`, aus dem
+  `blossom-bunker.ts` seine `.env` liest, existiert auf diesem Rechner nicht. Die Secrets
+  liegen ausschließlich in der CI.
+- `cli.py` hat **keine `--blossom`-Option**. Ein lokaler Lauf ohne `--dry-run` spräche
+  deshalb den produktiven Mediaserver an — und lüde bei fehlendem Blob sogar dorthin hoch.
+- `PostResult.naddr` und `PostResult.acks` werden **nie gefüllt**. `nak.encode_naddr` ist
+  gebaut und getestet, `report.py` rendert die Habla-/Yakihonne-Links — nur setzt sie
+  niemand. In der Job-Summary fehlen die Links deshalb bislang.
 - Die Action-Versionen (`setup-python@v7`, `setup-node@v7`) sind neu im Repo; `checkout@v6`
   und `upload-artifact@v7` bleiben, wie sie vorher schon liefen.
 - Der `md2blossom`-Vergleich braucht `Website/scripts/node_modules` (`npm ci`). Fehlt es,
@@ -91,6 +108,25 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-21 — Dokumente auf den gemessenen Stand gebracht
+
+- Spec, Planfile und Event-Doku trugen Zahlen aus der ersten Erhebung. Nachgemessen und
+  korrigiert: **189 statt 197 relative Fließtextbilder** (228 statt 236 insgesamt) — die
+  Bildmigration arbeitet den Rest ab; **59 statt 61 Schlagwort-Befunde**; die Cutover-
+  Erwartung „unchanged für alle" ist durch die tatsächlichen 19/59/14/4 ersetzt.
+- Im Planfile standen zudem zu niedrige Zahlen für die NIP-23-Stellen (digiLL 14→**18**,
+  impressum 7→**10**, datenschutz 1→**2**). Ursache: Sie stammten von vor dem Verwerfen der
+  Adress-Ausnahme. Die Spec war hier schon richtig.
+- Die 14 übersprungenen Beiträge sind jetzt namentlich aufgeschlüsselt (1 ohne Frontmatter,
+  10 Seiten, 3 mit Datenfehlern); der bislang namenlose dritte Datenfehler ist
+  `2025-03-20-dezentrale-oer-infrastrukturen`.
+- Gefunden: Der Verweis auf einen `SETUP-GUIDE` mit „Hürde 4" im Workflow-Kommentar ging ins
+  Leere — **das Dokument existiert nicht**, auch nicht in der Git-Historie. Aus dem alten
+  Workflow übernommen. Zeigt jetzt auf den README-Abschnitt *Secrets des Workflows*.
+- `docs/nostr-events/README.md` beschrieb noch den `mdparser/sync`-Weg als den aktuellen.
+- Das Planfile trägt jetzt einen Kopf, der sagt, was es noch ist: Entstehungsgeschichte,
+  nicht Quelle. Verbindlich sind Spec und diese Datei.
 
 ### 2026-09-21 — Workflow umgebaut
 
