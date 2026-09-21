@@ -60,6 +60,17 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Titelbild-reliGlobal.jpg:
+    alt: Logo von reliGlobal auf einem Laptop-Screen. Hintergrundbild KI-generiert mit Whiteboard und Notizen zu OER-Communities. Erstellt in Canva.
+    title: Interview mit reliGlobal
+    sourceUrl: https://oer.community/interview-reliGlobal
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
  
 # Interview reliGlobal
