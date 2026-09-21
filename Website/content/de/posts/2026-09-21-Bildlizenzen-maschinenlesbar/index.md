@@ -89,7 +89,7 @@ Das klingt nach einer Kleinigkeit. Es ist der Unterschied zwischen einem Bildnac
 
 ## Das Problem, das jede OER-Autorin kennt
 
-Wer offene Bildungsmaterialien erstellt, kennt die Regel: Titel, Urheber:in, Lizenz, Link, Ursprungsort. Die OER-Community hat dafür seit Jahren eine Merkhilfe, die TULLU-Regel, und wer sie befolgt, macht es richtig. Das ist der Gold-Standard.
+Wer offene Bildungsmaterialien erstellt, kennt die Regel: Titel, Urheber:in, Lizenz, Link, Ursprungsort. Die OER-Community hat dafür seit Jahren eine Merkhilfe, die [TULLU-Regel](https://open-educational-resources.de/oer-tullu-regel/), und wer sie befolgt, macht es richtig. Das ist der [Gold-Standard](https://open-educational-resources.de/gold-standard/).
 
 Nur: Der Nachweis ist Text. Er steht in einer Bildunterschrift, in einem Impressum, in einer Fußnote. Sobald das Bild kopiert wird, in eine Präsentation wandert, auf einer anderen Website erscheint, in einem Kalender-Eintrag auftaucht, ist der Nachweis weg. Nicht aus Böswilligkeit, sondern weil er nie am Bild hing, sondern daneben stand.
 
@@ -105,9 +105,9 @@ Alle drei haben dieselbe Ursache. Es gibt keinen Ort, an dem der Nachweis *am Bi
 
 Wir hängen die Lizenz an das Bild selbst. Nicht an die Datei im Sinne einer eingebetteten Notiz, die beim nächsten Speichern verloren geht, sondern an ihren **Fingerabdruck**.
 
-Jede Datei hat einen: eine lange Zeichenfolge, die sich aus ihrem Inhalt berechnet (technisch: der SHA-256-Hash). Ändert sich ein einziges Pixel, ändert sich der Fingerabdruck. Zwei identische Kopien haben denselben. Das ist der Trick: **Wer die Bytes hat, hat den Fingerabdruck. Wer den Fingerabdruck hat, findet den Nachweis.**
+Jede Datei hat einen: eine lange Zeichenfolge, die sich aus ihrem Inhalt berechnet (technisch: der [SHA-256-Hash](https://de.wikipedia.org/wiki/SHA-2)). Ändert sich ein einziges Pixel, ändert sich der Fingerabdruck. Zwei identische Kopien haben denselben. Das ist der Trick: **Wer die Bytes hat, hat den Fingerabdruck. Wer den Fingerabdruck hat, findet den Nachweis.**
 
-Der Nachweis selbst ist ein kleiner, digital signierter Zettel im offenen Datenraum von edufeed. Er sagt: *Zu dem Bild mit diesem Fingerabdruck gehört diese Lizenz, diese Urheberin, diese Quelle, dieser Alt-Text, und es wurde so und so mit KI erzeugt.* Signiert von der Person oder Institution, die das bestätigt.
+Der Nachweis selbst ist ein kleiner, digital signierter Zettel im offenen Datenraum von [edufeed](https://edufeed.org/). Er sagt: *Zu dem Bild mit diesem Fingerabdruck gehört diese Lizenz, diese Urheberin, diese Quelle, dieser Alt-Text, und es wurde so und so mit KI erzeugt.* Signiert von der Person oder Institution, die das bestätigt.
 
 Wo das Bild liegt, ist dabei zweitrangig. Es kann auf unserem Bildserver liegen, auf dem einer Landeskirche, auf einer WordPress-Seite. Eine Adresse benennt einen Ort. Ein Fingerabdruck benennt den Inhalt. Ein Bild, das umzieht, behält seine Lizenz.
 
@@ -119,7 +119,7 @@ Der Gold-Standard sagt: Die Angaben sind vollständig. Wir gehen drei Schritte w
 
 **Signiert.** Der Nachweis trägt eine kryptografische Unterschrift. Man sieht, wer die Angabe gemacht hat, und dass sie seitdem nicht verändert wurde. Wer ein Bild nachnutzt, kann sich darauf berufen.
 
-**Weiterverwendbar in einem Klick.** Im edufeed-Client steht am Bild das Lizenz-Badge, bei KI-Bildern mit der KI-Marke nach den Icons des EU AI Office. Wer das Bild in ein eigenes Material übernimmt, kopiert den vollständigen Lizenztext mit einem Klick, korrekt formatiert, mit allen Links. Die TULLU-Regel wird nicht mehr von Hand angewendet, sie wird ausgeliefert.
+**Weiterverwendbar in einem Klick.** Im [edufeed-Client](https://edufeed.org/) steht am Bild das Lizenz-Badge, bei KI-Bildern mit der KI-Marke nach den Icons des EU AI Office, die die [Transparenzpflicht des EU AI Act](https://artificialintelligenceact.eu/article/50/) umsetzen. Wer das Bild in ein eigenes Material übernimmt, kopiert den vollständigen Lizenztext mit einem Klick, korrekt formatiert, mit allen Links. Die TULLU-Regel wird nicht mehr von Hand angewendet, sie wird ausgeliefert.
 
 Und der Nachweis reist mit. Ein Bild, das aus einem Blogbeitrag in einen Kalendertermin wandert, in eine Materialsammlung, in einen Flyer, der aus dem Datenraum erzeugt wird: überall dieselbe Lizenzzeile, aus derselben Quelle.
 
@@ -135,7 +135,7 @@ bilder:
     author: Olav Richter mit ChatGPT, 13.09.2026
     authorUrl: https://www.rpi-baden.de
     licence: CC0 1.0
-    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.de
     ai: generated
 ```
 
@@ -149,7 +149,7 @@ Drei Regeln haben sich dabei als die wichtigsten herausgestellt:
 
 ## Für Entwickler:innen: wie es unter der Haube aussieht
 
-Der Datenraum von edufeed basiert auf dem Nostr-Protokoll. Der Lizenznachweis ist ein Event vom Typ `kind 1063`, das die Spezifikation [NIP-94](https://github.com/nostr-protocol/nips/blob/master/94.md) für Datei-Metadaten definiert, erweitert um Lizenz-Felder. Das echte Event zum Titelbild aus dem ersten Absatz:
+Der Datenraum von edufeed basiert auf dem [Nostr-Protokoll](https://nostr.com/). Der Lizenznachweis ist ein Event vom Typ `kind 1063`, das die Spezifikation [NIP-94](https://github.com/nostr-protocol/nips/blob/master/94.md) für Datei-Metadaten definiert, erweitert um Lizenz-Felder. Das echte Event zum Titelbild aus dem ersten Absatz:
 
 ```json
 {
@@ -173,7 +173,7 @@ Das `x`-Tag ist der Fingerabdruck. Jeder Client, der ein Bild anzeigen will, fra
 
 Der Inhalt, der das Bild nutzt, etwa ein Blogbeitrag (`kind 30023`) oder ein Kalendertermin (`kind 31923`), trägt denselben Hash in einem eigenen `x`-Tag. So löst der Client den Nachweis auf, ohne die Bild-URL zu kennen, und so bleibt die Verbindung erhalten, wenn das Bild gespiegelt wird.
 
-Die vollständige Konvention steht im edufeed-Wiki unter *License events for uploaded files*; die Autor:innen-Seite in unserer [Bildattributions-Konvention](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Orga/oer-community-webseite-orga/wissensgrundlagen/bildattribution.md). Beides ist offen und darf nachgebaut werden.
+Die vollständige Konvention steht im edufeed-Wiki unter [*License events for uploaded files*](https://edufeed.org/c/npub1hhpplya3ut9h2cyvant6pgq2w7thnkfk0hyhnz7e7gflqmy4h3yqp2p4pk/wiki/naddr1qvzqqqrcvgpzp0wzr7fmrcktw4sgemxh5zsq5auh08vnvlwf0x9anusn7pkft0zgqyv8wumn8ghj7un9d3shjtn9v36kvet9vshx7un89uqsuamnwvaz7tmwdaejumr0dshsqymvd93k2mnnv5kk2an9de68xttwdacx2txs053); die Autor:innen-Seite in unserer [Bildattributions-Konvention](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Orga/oer-community-webseite-orga/wissensgrundlagen/bildattribution.md). Beides ist offen und darf nachgebaut werden.
 
 ## Was noch nicht fertig ist
 
