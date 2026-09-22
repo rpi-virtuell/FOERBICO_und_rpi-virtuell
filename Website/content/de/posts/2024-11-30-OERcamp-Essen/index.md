@@ -18,8 +18,6 @@ inLanguage:
   - de
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 # TODO: Bild "20241118-OERcamp-OER-Festival-Essen-%E2%80%93-Website-Kachel-komprimiert-1.png?fit=768%2C432&ssl=1" nicht im Verzeichnis vorhanden — redaktionelle Prüfung nötig
 datePublished: 2024-12-02
 
@@ -40,6 +38,49 @@ tags:
   - OERcamp
   - Vernetzung
   - Event
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  edufeed.jpg:
+    alt: 'Handgezeichnetes Architekturdiagramm auf weißem Papier. Oben steht „WLO, OERSI und mundo.schule“ als Plattformen, darunter führen mehrere Pfeile zu verschiedenen Kästen und Symbolen. Im unteren Bereich befindet sich ein großer Kasten mit der Beschriftung „gemeinsamer Datenraum“, der mit weiteren Kästen und einer „Social Media Protocol“-Notiz verbunden ist. Die Skizze stellt verschiedene Systeme bzw. Datenquellen und deren Verbindungen dar.'
+    title: Skizze zur dezentralen Idee von Edufeed
+    sourceUrl: https://oer.community/oercamp-und-oer-festival-2024-in-essen
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Unperfekthaus-1.jpg:
+    alt: 'Außenfassade vom Unperfekthaus in Essen mit verschiedenen Bildern, Lichterkette und bunten Lampen.'
+    title: Unperfekthaus in Essen
+    sourceUrl: https://oer.community/oercamp-und-oer-festival-2024-in-essen
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  Unperfekthaus-2.jpg:
+    alt: 'Bunte Treppenstufen beleuchtet mit Neonlicht und der Aufschrift #Unperfekthaus.'
+    title: Bunte Treppe im Unperfekthaus in Essen
+    sourceUrl: https://oer.community/oercamp-und-oer-festival-2024-in-essen
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  KI-1.jpg:
+    alt: 'Stehtisch mit verschiedenen Materialien wie Stifte, Zettel und Stecknadeln. Darauf liegend Postkarte mit Abbildung von Zauberstab und Aufschrift "Offenheit ist ein WundOERelexier für bessere KI".'
+    title: WundOERelexier für bessere KI
+    sourceUrl: https://oer.community/oercamp-und-oer-festival-2024-in-essen
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  KI-2.jpg:
+    alt: 'Rückseite Postkarte mit QR-Code und Link zu den Ergebnissen der Community-Beratschlagung zum Thema KI beim OERcamp 2024 in Essen".'
+    title: Ergebnisse Community-Beratschlagung zum Thema KI - Spread the WOERld
+    sourceUrl: https://oer.community/oercamp-und-oer-festival-2024-in-essen
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Hinweis: Eine ausführliche Dokumentation des OERcamps ist unter https://go.oercamp.de/24essen/ verfügbar, Registrierung bzw. Anmeldung erforderlich!
@@ -54,12 +95,7 @@ Nach einer Begrüßung von Dr. Markus Deimann (ORCA.nrw) und Grußworten von Dr.
 
 ### 1. [Sinnvolle KI-Nutzung für OER: Von der Suche zur Kurserstellung](https://www.orca.nrw/wp-content/uploads/2024/11/OER-KI-Assistent.pdf) – Alexander Mikasch und Bastian Schmidt-Kuhl (Ruhr-Universität Bochum)
 
-Das Team der Ruhr-Universität Bochum (RUB) entwickelt für Moodle.nrw einen OER-KI-Assistenten, um OER schnell und einfach zu finden (momentan stellt OERSI die API für die OER-Suche bereit) sowie auf Basis von OER-Materialien eigene Kurse und Inhalte zu erstellen. Dabei werden auch die Lizenzbedingungen (CC-Lizenzen) berücksichtigt und die Nutzer:innen erhalten Anweisungen, wie diese einzuhalten sind. So können Lehrende sich ihre Kurse Schritt-für-Schritt selbst zusammenbasteln. Die erstellten Kurse und Inhalte werden dann wiederum über Moodle bereitgestellt und so mit anderen geteilt. Dazu wurde auch am nächsten Tag im Barcamp eine Session angeboten! Wir finden, der Assistent klingt spannend und hat großes Potential, um Lehrende zu entlasten und animiert gleichzeitig mühelos selbst OER zu produzieren!
-
-![](OER-Assistent-1.jpg)
-![](OER-Assistent-2.jpg)
-![](OER-Assistent-3.jpg)
-![](OER-Assistent-4.jpg)
+Das Team der Ruhr-Universität Bochum (RUB) entwickelt für Moodle.nrw einen OER-KI-Assistenten, um OER schnell und einfach zu finden (momentan stellt OERSI die API für die OER-Suche bereit) sowie auf Basis von OER-Materialien eigene Kurse und Inhalte zu erstellen. Dabei werden auch die Lizenzbedingungen (CC-Lizenzen) berücksichtigt und die Nutzer:innen erhalten Anweisungen, wie diese einzuhalten sind. So können Lehrende sich ihre Kurse Schritt-für-Schritt selbst zusammenbasteln. Die erstellten Kurse und Inhalte werden dann wiederum über Moodle bereitgestellt und so mit anderen geteilt. Dazu wurde auch am nächsten Tag im Barcamp eine Session angeboten. Wir finden, der Assistent klingt spannend und hat großes Potential, um Lehrende zu entlasten und animiert gleichzeitig mühelos selbst OER zu produzieren!
 
 Ausblick:
 
@@ -74,8 +110,6 @@ Für uns wäre interessant, inwieweit auch Metadaten automatisiert generiert wer
 
 Das Thema KI ist wenig überraschend hoch im Kurs! Auch bei ABBA, einer App zur automatisierten Erstellung von Lehrbüchern und weiteren Bildungsmedien. Auch hierbei ist das Ziel, Lehrende zu entlasten, indem neben der Inhaltserstellung auch Antworten von Lernenden ausgewertet werden können und sie direktes Feedback erhalten. Das Niveau kann angepasst werden, um eine Binnendifferenzierung innerhalb von Lerngruppen zu ermöglichen. Momentan ist die Anwendung noch geschlossen und soll im nächsten Semester erprobt werden. Von den Veranstaltungsteilnehmenden wurde unter dem Stichwort „Türschwellendidaktik“ mehr Begleitforschung zur Motivation und Akzeptanz von Lernenden bei KI-generierten Inhalten gefordert.
 
-![](ABBA-1.jpg)
-![](ABBA-2.jpg)
 
 ### 3. [A Young Lady’s Illustrated Primer – OER als Utopie](https://www.orca.nrw/wp-content/uploads/2024/11/A-Young-Lady%C2%B4s-Illustrated-Primer.pdf) – Gunnar Sandkühler (Ruhr-Universität Bochum)
 
@@ -85,16 +119,9 @@ Ein deutlicher Bruch zu den vorherigen technischen Beiträgen bot das 1995 in De
 
 Mitte 2021 startete das Projekt zu Forschungsdatenmanagement (FDM) in Studium und Lehre mit dem Ziel, die bisherige Zielgruppe von Schulungs- und Unterstützungsmaßnahmen zum FDM bestehend aus Promivierenden, PostDocs und arrivierten Wissenschaftler:innen um Studierende zu erweitern. Dazu wurden didaktisch aufbereitete Bildungsressourcen zur Vermittlung von Grundlagen im Forschungsdatenmanagement für ein Selbststudium und zur Nachnutzung durch Lehrende entwickelt.
 
-![](FDM-2.jpg)
-
 ### 5. STACK.nrw: Git-basierter Aufgabenpool für STACK-Aufgaben – Dr. Benjamin H. Schulz-Rosenberger und Dr. Michael Kallweit (Ruhr-Universität Bochum)
 
 Git-basiertes Arbeiten - da schlägt unser FOERBICO-Herz doch gleich höher, denn auch wir versuchen unsere Arbeit über Git als Open Source Versionsverwaltungssystem anschlüssfähig, nachhaltig und transparent zu gestalten (schaut gerne in unser [Repo](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/) rein 😉). Das Projekt [STACK.nrw](https://www.ruhr-uni-bochum.de/stack-nrw/) hat anders als wir allerdings keinen Religionsbezug, sondern legt den Fokus auf den mathematischen Bereich. Sie möchten eine zentrale und dezentrale Infrastruktur schaffen, um einen qualitätsgesicherten OER-Matheaufgabenpool, die mit [STACK](https://stack-assessment.org/) erstellt wurden, aufzubauen. Darüber hinaus zielen sie auch auf Vernetzung und Wissensaustausch von Lehrenden bzw. Hochschulen in NRW.
-
-![](Stack.nrw-1.jpg)
-![](Stack.nrw-2.jpg)
-![](Stack.nrw-3.jpg)
-![](Stack.nrw-4.jpg)
 
 ### 6. [Vorstellung und Evaluation des Projekts „DigStat – Digitale Lerneinheiten in der Statistik“](https://www.orca.nrw/wp-content/uploads/2024/11/OER_Tagung_Razeghpour_Mueller.pdf) – Farhad Razeghpour (Ruhr-Universität Bochum) und Christian Müller (Universität Düssseldorf)
 
@@ -103,8 +130,6 @@ Mathematisch und auch mit STACK ging es weiter: Wie kann man Studierende und Leh
 Der erste Teil brachte bereits viel neuen Input! Nach der Mittagspause wurden vier parallele Sessions angeboten. Gina entschied sich für den Slot „OER in der Lehrkräftebildung“ von unserem Co-Projekt [digiLL_COM](https://digill.de/) aus der [OE_COM-Förderrichtlinie](https://www.oer-strategie.de/foerdern/foerderrichtlinien/):
 
 Welche OER-Angebote gibt es im Bereich der Lehrkräftebildung? Wie setze ich OER sinnvoll in die eigene Lehre ein und wie kann ich eigene Inhalte als OER bereitstellen? Mit diesen Fragen beschäftigt sich das Projekt digiLL und möchte bereits in der Ausbildung von Lehrkräften ansetzen, um offene Bildungspraktiken zu vermitteln. Dabei werden verschiedene Hochschulstandorte miteinander vernetzt und im Bereich der Hochschullehre ein Wahlpflichtkurs entwickelt sowie [Lernmodule](https://digill.de/lernmodule/) zur Verfügung gestellt. Ihr Ansatz: Lernende bzw. Lehramtsstudierende als Produzierende einbeziehen!
-
-![](digiLL.jpg)
 
 Mit dem Abendprogramm „10 Jahre [Bündnis Freie Bildung](https://buendnis-freie-bildung.de/): Feiern & Zukunft gestalten!“ endete der erste Tag voll spannender Impluse und netten Gesprächen!
 
@@ -123,8 +148,6 @@ Mehr dazu 👉 https://go.oercamp.de/24essen/talk/FRBH3E/
 ### Mit OER bessere Zukünfte möglich machen - ein Einstieg ins Design Futuring!
 
 Design Futuring ist ein kreativer Ansatz, um Zukünfte zu entwerfen und zu verhandeln sowie um heutige Entscheidungen zu beeinflussen und aktiv zu werden. Nele Hirsch (ebildungslabor) hat in der Session drei Methoden vorgestellt, die wir gemeinsam erkunden und in Kleingruppen anhand konkreter Ideenentwicklungen ausprobieren konnten.
-
-![](DesignFuturing.jpg)
 
 Die Slides dazu findet ihr hier:
 https://ebildungslabor.de/slides/designfuturing.pdf
