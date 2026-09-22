@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/luther-influencer
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -28,8 +28,6 @@ about:
 image: https://oer.community/luther-influencer/2.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-10-13
 keywords:
   - Theologie
@@ -55,6 +53,33 @@ tags:
   - Social Media
   - Religionspädagogik
   - Open Educational Practices (OEP)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  2.png:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell mit Figur als Luther in einem Smartphone.'
+    title: Instagram-Visual Martin Luther als Influencer seiner Zeit?
+    sourceUrl: https://oer.community/luther-influencer
+    author: Lara Gotthard & Corinna Link
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  Toolhinweis.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell mit Vorstellung von Zeoob als Tool für Social Media Posts.'
+    title: Toolhinweis Zeoob
+    sourceUrl: https://oer.community/luther-influencer
+    author: Lara Gotthard & Corinna Link
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  1.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell als kreativer Impuls für den Religionsunterricht, in der Mitte Smartphone mit der Aufschrift "Martin Luther als Influencer seiner Zeit?" im Screen, neben dem Smartphone sind Icons mit Sprechblase und Herz.'
+    title: Instagram-Post von @nt.evangelisch_tudortmund + @rpivirtuell - Martin Luther als Influencer seiner Zeit? Ein kreativer Impuls für den Religionsunterricht
+    sourceUrl: https://oer.community/luther-influencer
+    author: Lara Gotthard & Corinna Link
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
 ---
 
 ## Wenn Thesen viral gehen
