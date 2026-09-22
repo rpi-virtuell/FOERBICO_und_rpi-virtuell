@@ -20,7 +20,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     organisation:
       name: Comenius-Institut
@@ -37,7 +37,7 @@ datePublished: 2024-12-19
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-  - Corinna Ullmann
+  - Corinna Link
 title: Canva für OER? Eine Entscheidungshilfe für Bildungsakteure
 cover:
   relative: true
