@@ -21,8 +21,6 @@ about:
 image: https://oer.community/musik-oer/Music-House-Susanlenox-CC0.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-12-18
 
 # staticSiteGenerator
@@ -39,6 +37,17 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - Rechtsfragen
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Music-House-Susanlenox-CC0.jpg:
+    alt: 'Engel mit Trompete in lila Gewand mit schwarzen Sternen.'
+    title: Engel mit Trompete
+    sourceUrl: https://oer.community/musik-oer
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
 ---
 
 „Gloria in excelsis Deo“, „In der Weihnachtsbäckerei“ oder „Oh du fröhliche“ – oder lieber doch nicht?
