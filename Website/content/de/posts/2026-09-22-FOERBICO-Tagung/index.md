@@ -117,7 +117,7 @@ In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkre
 13:00 Uhr – Tagungsabschluss
 13:15 Uhr – Imbiss
 
-Mehr dazu in unserem [Tagungsflyer]
+Mehr dazu in unserem [Tagungsflyer](Offen.Vernetzt.Zukunft_ Tagung_2027.pdf)
 
 Gerne weitersagen und Interessierte einladen - wir freuen uns auf Euch!
 
