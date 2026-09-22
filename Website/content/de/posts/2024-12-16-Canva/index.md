@@ -63,7 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
-Canva-OER-KI-generiert.jpg:
+  Canva-OER-KI-generiert.jpg:
     alt: "Illustration eines Laptops über einem aufgeschlagenen Buch, umgeben von Symbolen zu OER. KI-generiert mit ChatGPT."
     title: Canva als Tool für OER?
     sourceUrl: https://oer.community/canva

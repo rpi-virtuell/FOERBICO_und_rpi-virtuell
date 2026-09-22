@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: Instagram als religionspädagogischer Lernort
-description: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+description: Erkenntnisse aus dem Gespräch von Corinna Link (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/instagram-als-lernort
 creator:
@@ -36,7 +36,7 @@ cover:
   relative: true
   hiddenInSingle: true
   image: ima_22a17d4.jpg
-summary: Erkenntnisse aus dem Gespräch von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
+summary: Erkenntnisse aus dem Gespräch von Corinna Link (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: instagram-als-lernort
 tags:
   - Open Educational Resources (OER)

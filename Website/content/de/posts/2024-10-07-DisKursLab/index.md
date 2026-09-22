@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: 'OER zum Thema Antisemitismus: Gemeinsam Bildungsmaterialien gestalten'
-description: Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
+description: Am 30. September 2024 trafen sich Corinna Link, Jörg Lohrer und Gina Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten
 creator:
@@ -30,7 +30,7 @@ cover:
   relative: true
   image: videokonferenz_diskurslab-rpi-foerbico.jpg
   hiddenInSingle: true
-summary: Am 30. September 2024 trafen sich Corinna Ullmann, Jörg Lohrer und Gina Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
+summary: Am 30. September 2024 trafen sich Corinna Link, Jörg Lohrer und Gina Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
 url: oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten
 tags:
   - Antisemitismuskritik

@@ -4,7 +4,7 @@
 creativeWorkStatus: Published
 type: LearningResource
 name: 'Rückblick auf Teil 3 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie: : OER selbst erstellen und teilen'
-description: 'In Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Grundlagen für die Erstellung und Verwendung von OER, technische Tools und Veröffentlichungsmöglichkeiten vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt), Corinna Ullmann und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum: Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und veröffentlicht werden?'
+description: 'In Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Grundlagen für die Erstellung und Verwendung von OER, technische Tools und Veröffentlichungsmöglichkeiten vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt), Corinna Link und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum: Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und veröffentlicht werden?'
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-fortbildungsreihe-3
 creator:
@@ -46,7 +46,7 @@ cover:
   relative: true
   image: classroom.jpg
   hiddenInSingle: true
-summary: 'In Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Grundlagen für die Erstellung und Verwendung von OER, technische Tools und Veröffentlichungsmöglichkeiten vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt), Corinna Ullmann und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum: Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und veröffentlicht werden?'
+summary: 'In Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Grundlagen für die Erstellung und Verwendung von OER, technische Tools und Veröffentlichungsmöglichkeiten vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt), Corinna Link und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum: Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und veröffentlicht werden?'
 url: oer-fortbildungsreihe-3
 tags:
   - Open Educational Resources (OER)

@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: Instagram als religionspädagogischer Lernort
-description: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
+description: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Link (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
 license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/lichtmomente
 creator:
@@ -46,7 +46,7 @@ cover:
   relative: true
   hiddenInSingle: true
   image: Titelbild.jpg
-summary: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Ullmann (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
+summary: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Link (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
 url: lichtmomente
 tags:
   - Open Educational Resources (OER)

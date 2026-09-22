@@ -39,7 +39,7 @@ keywords:
 # staticSiteGenerator
 author:
   - Lara Gotthard
-  - Corinna Ullmann
+  - Corinna Link
 title: 'Instagram als Lernort: Luther als Influencer'
 cover:
   relative: true

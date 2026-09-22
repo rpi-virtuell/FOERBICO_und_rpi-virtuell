@@ -92,7 +92,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  mermaid-diagramm_Tisch2.jpg:
+  mermaid-diagram-Tisch2.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 2
     sourceUrl: https://oer.community/oer-im-blick-2025/
@@ -100,7 +100,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  mermaid-diagramm_Tisch3.jpg:
+  mermaid-diagram-Tisch3.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 3
     sourceUrl: https://oer.community/oer-im-blick-2025/
@@ -108,7 +108,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
-  mermaid-diagramm_Tisch4.jpg:
+  mermaid-diagram-Tisch4.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 4
     sourceUrl: https://oer.community/oer-im-blick-2025/
