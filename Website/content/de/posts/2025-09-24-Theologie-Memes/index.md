@@ -15,7 +15,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -41,7 +41,7 @@ datePublished: 2025-10-06
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-  - Corinna Ullmann
+  - Corinna Link
   - Jonas Breuer
 title: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen schaffen'
 cover:
