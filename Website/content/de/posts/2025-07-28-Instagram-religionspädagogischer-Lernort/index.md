@@ -8,7 +8,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/instagram-als-lernort
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -30,7 +30,7 @@ keywords:
 
 # staticSiteGenerator
 author:
-  - Corinna Ullmann
+  - Corinna Link
 title: Instagram als religionspädagogischer Lernort
 cover:
   relative: true
