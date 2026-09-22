@@ -57,6 +57,65 @@ tags:
   - Workshop
   - Vernetzung
   - Open Educational Resources (OER)
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  IMG_9713.jpg:
+    alt: 'Die Teilnehmenden der Konferenz OER im Blick 2025 werden von Moderatorin begrüßt.'
+    title: 'Begrüßung OER im Blick 2025'
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_6385.jpg:
+    alt: 'Ergebnissammlung mit Zetteln vom Pre-Workshop bei OER im Blick 2025 zu OEP auf Papierstellwand.'
+    title: Ergebnisse Pre-Workshop
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_9725.jpg:
+    alt: 'Keynote: „OER in Zeiten der Disruption: Why Ideas Do Not Float Freely“ von Prof. Dr. Daniel Otto, Europäische Hochschule für Innovation und Perspektive bei OER im Blick 2025'
+    title: Vortrag Prof. Dr. Otto
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  mermaid-diagramm_Tisch1.jpg:
+    alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
+    title: Ergebnisse Gruppenarbeit Community-Hub Tisch 1
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  mermaid-diagramm_Tisch2.jpg:
+    alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
+    title: Ergebnisse Gruppenarbeit Community-Hub Tisch 2
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  mermaid-diagramm_Tisch3.jpg:
+    alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
+    title: Ergebnisse Gruppenarbeit Community-Hub Tisch 3
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  mermaid-diagramm_Tisch4.jpg:
+    alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
+    title: Ergebnisse Gruppenarbeit Community-Hub Tisch 4
+    sourceUrl: https://oer.community/oer-im-blick-2025/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 Nach der Auftaktkonferenz letztes Jahr in Frankfurt am Main (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/))
@@ -121,8 +180,6 @@ Neben den eindrücklichen plastischen Ergebnissen, hielten die Teilnehmenden die
 
 #### Tisch 1
 
-![Gruppenarbeit Community-Hub Tisch 1](tisch1.jpg)
-
 In dieser Gruppe unterschieden die Teilnehemenden zwischen **analogen Treffen**, **digitalen Treffen** und Aspekte, die für **beide** gelten sollten. In diesem Hub hat jede:r einen unterschiedlichen Verantwortungsbereich, dieser kann aber fluide wechseln. Die Teilnehmenden sind miteinander verbunden, was durch die Kette symbolisiert wird. Ein Hub sollte zudem den Raum bieten, um gemeinsam zu experimentieren (siehe die zwei Figuren am unteren rechten Rand des Hubs). Im analogen sollte gutes Essen, stabiles WLAN, schöne Räumlichkeiten vorhabenden sein, eine niedrigschwellige Anmeldung sowie generell Barrierefreiheit und diverse Gruppen sind ebenfalls wünschenswert.
  Sowohl im digitalen als auch im analogen Raum sollte man sich wohlfühlen, einen offenen und einfachen Zugang haben. Zudem braucht es Sichtbarkeit, eine Moderation und ein gemeinsames Interesse und Ziel. Außerdem geht es nicht ohne ein Commitment und es braucht Ressourcen – vor allem zeitlich und monetär. Auch wichtig: Man darf auch etwas kaputt machen! Der offene und einfache Zugang wird durch das große Tor dargestellt. Zusätzlich ist auch eine transparente Einsicht in allem wichtig.
 Im digitalen Raum braucht möglichst offene Tools mit einer einfachen Handhabung. Auch die Bereitschaft, sich in die Karten schauen zu lassen gilt als Grundvoraussetzung. Das hat die Gruppe anhand des Sichtglases dargestellt, durch das gesehen werden kann, wie die Menschen/Community im Hub gemeinsam arbeiten können.
@@ -130,8 +187,6 @@ Im digitalen Raum braucht möglichst offene Tools mit einer einfachen Handhabung
 ![Gruppenergebnisse Tisch 1](mermaid-diagramm_Tisch1.jpg)
 
 #### Tisch 2
-
-![Gruppenarbeit Community-Hub Tisch 2](tisch2a.jpg)
 
 Auch hier wurde ein digitaler und analoger Raum vorgeschlagen, die sich aufeinander zu bewegen. Der Hub sollte ein Raum sollte explorativ sein, indem auch die Barrieren klein gemacht und ein barrierefreier Zugang ermöglicht werden.
 OER wurden hier als zarte Pflänzchen dargestellt, um die man sich gemeinsam kümmert, damit sie wachsen. Es muss jedoch auch Menschen geben, die den Hut aufhaben. Außerdem braucht es feste Termine für Treffen und einen strukturieren Rahmen, den der Hub bieten sollte.
@@ -142,15 +197,11 @@ Ein Hub bedarf eine Infrastruktur und Werkzeuge der Zusammenarbeit und muss sich
 
 #### Tisch 3
 
-![Gruppenarbeit Community-Hub Tisch 3](tisch3b.jpg)
-
 Ein Hub kann als eigene Bildungsinsel mit anderen Bildungsinseln verbunden und vernetzt sein. Zum Datenaustausch bedarf es transparente 'Drehscheiben'. Damit man einsehen kann, was wie auf welcher Basis geschieht. Innerhalb eines Hubs können verschiedene Rollen mit spezifischen Verantwortlichkeiten vergeben werden, darunter beispielsweise eine Technikverantwortlicher, eine Expertin für Finanzierung (unter Einbeziehung der Mitgestaltung durch die Community), eine für digitale Infrastruktur zuständige Person mit einem weitreichenden Netzwerk sowie eine übergeordnete Instanz zur Beobachtung und Steuerung, etwa durch das zuständige Bundesministerium. Der Hub dient darüber hinaus als Plattform für den Austausch zwischen den beteiligten Communities und ermöglicht eine partizipative Aufteilung von Zuständigkeiten.
 
 ![Gruppenergebnisse Tisch 3](mermaid-diagram-Tisch3.jpg)
 
 #### Tisch 4
-
-![Gruppenarbeit Community-Hub Tisch 4](tisch4.jpg)
 
 Hier wurde der Hub als möglichst offener, niederschwelliger Raum konzipiert, der den Erstkontakt erleichtert und den Austausch sowie die Entwicklung von Ideen fördert. Der Zugang zu diesem Raum sollte vielfältig gestaltet sein, um unterschiedliche Akteursgruppen einzubinden und partizipative Prozesse zu ermöglichen.
 
