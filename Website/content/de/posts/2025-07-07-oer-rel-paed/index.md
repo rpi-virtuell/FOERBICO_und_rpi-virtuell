@@ -2,7 +2,7 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
+type: ScholarlyArticle
 name: Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
 description: 'Open Educational Resources (OER) und Open Educational Practices (OEP) haben sich als zentrale Elemente der strategischen Entwicklung digitaler Bildungspraktiken etabliert, bleiben jedoch in der religionspädagogischen Forschung bislang weitgehend unbeachtet. Der vorliegende systematische Literaturbericht untersucht die empirische Evidenz zu OER/OEP hinsichtlich Bildungsgerechtigkeit, Inklusion und Qualität sowie deren Wechselwirkung, insbesondere im Hochschulkontext. Methodisch folgt die Analyse den PRISMA-Leitlinien und kombiniert induktive mit deduktiven Auswertungsansätzen. Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft.'
 license: https://creativecommons.org/licenses/by/4.0/
@@ -60,6 +60,17 @@ tags:
   - Open Educational Practices (OEP)
   - Open Access
   - Religionspädagogik
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  theoweb-OER.jpg:
+    alt: 'Screenshot von Titelseite mit Aufschrift "Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont" von Viera Pirker und Manfred L. Pirner.'
+    title: Literaturbericht TheoWeb
+    sourceUrl: https://oer.community/oer-oep-literaturbericht/
+    author: Viera Pirker & Manfred Pirner
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
 # Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
