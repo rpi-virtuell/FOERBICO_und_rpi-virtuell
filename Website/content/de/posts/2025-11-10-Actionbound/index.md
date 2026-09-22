@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/wertebildung
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -27,13 +27,11 @@ about:
 image: https://oer.community/wertebildung/Titelbild-Martin.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-11-10
 
 # staticSiteGenerator
 author:
-  - Corinna Ullmann
+  - Corinna Link
   - Simone Dinse de Salas
 title: Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin
 cover:
@@ -47,6 +45,42 @@ tags:
   - Open Educational Practices (OEP)
   - Religionspädagogik
   - Bildungsmedien
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Titelbild-Martin.jpg:
+    alt: 'Instagram-Visual mit lila Hintergrund und einem Smartphone in der Mitte mit Text "Actionbound" im oberen Teil des Screens und "Auf Martins Spuren - Mission Pausenhof" im unteren Teil des Screens, mittig ein Bild von einem Schwert, das eine Schriftfeder zerteilt. Unter dem Smartphone-Icon goldene gebogener Schriftzug "Wertebildung im digitalen Zeitalter".'
+    title: Titelbild Instagram-Post "Auf den Spuren von Martin"
+    sourceUrl: https://oer.community/wertebildung/
+    author: Simone Dinse de Salas & Corinna Link
+    authorUrl: https://rpi-virtuell.de/
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  Hinweis-Actionbound.png:
+    alt: 'Instagram-Visual mit Vorstellung von Actionbound als Lernraum für Werte.'
+    title: Instagram-Visual zu Actionbound
+    sourceUrl: https://oer.community/wertebildung/
+    author: Simone Dinse de Salas & Corinna Link
+    authorUrl: https://rpi-virtuell.de/
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  Hinweis-Martin.jpg:
+    alt: 'Instagram-Visual mit Vorstellung von Martin von Tours mit Comic-Zeichnung.'
+    title: Instagram-Visual zu Martin von Tours
+    sourceUrl: https://oer.community/wertebildung/
+    author: Simone Dinse de Salas & Corinna Link
+    authorUrl: https://rpi-virtuell.de/
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  Actionbound-Übersicht.png:
+    alt: 'Übersicht über die Nutzungsmöglichkeiten von Actionbound je nach Kontotyp bzw. Lizenz. Generiert mit ChatGPT.'
+    title: Übersicht über Nutzungsmöglichkeiten von Actionbound
+    sourceUrl: https://oer.community/wertebildung/
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC0
+    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    ai: generated
 ---
 
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  
