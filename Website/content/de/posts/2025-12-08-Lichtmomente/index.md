@@ -8,7 +8,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/lichtmomente
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -30,8 +30,6 @@ about:
 image: https://oer.community/lichtmomente/Titelbild.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2025-12-08
 keywords:
   - Open Educational Resources (OER)
@@ -41,7 +39,7 @@ keywords:
 
 # staticSiteGenerator
 author:
-  - Corinna Ullmann
+  - Corinna Link
   - Phillip Angelina
 title: Instagram als religionspädagogischer Lernort
 cover:
@@ -54,6 +52,73 @@ tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
   - OER-Community
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  Titelbild.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Theologisch fundiert. Didaktisch aktuell. Unterrichtsideen für dich! In der Mitte drei Bilder: Links Bild von Teelicht unter dem Titel "Dunkelheit und Licht", mittig Bild von geöffnetem Buch mit Lupe auf Sternschnuppe auf rechter Buchseite unter dem Titel "Bibel-Spurensuche", rechts Bild von Weltkarte unter dem Titel "Weihnachten global entdecken".'
+    title: Instagram-Post Lichtmomente
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  10.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente mit Bild von Teelicht unter dem Titel "Dunkelheit und Licht".'
+    title: Instagram-Visual Lichtmomente - Dunkelheit und Licht
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  1.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente mit Bild von geöffnetem Buch mit Lupe auf Sternschnuppe auf rechter Buchseite unter dem Titel "Bibel-Spurensuche".'
+    title: Instagram-Visual Lichtmomente - Bibel-Spurensuche
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  Weihnachtenglobal.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente mit Bild von Weltkarte unter dem Titel "Weihnachten global entdecken".'
+    title: Instagram-Visual Lichtmomente - Weihnachten global entdecken
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  17.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Bibeltext in leichter Sprache mit Auszug von Lesetext Jesaja.'
+    title: Instagram-Visual Lichtmomente - Bibeltext in leichter Sprache
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  2.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Gehe mit deinen Schüler:innen auf Bibel-Spurensuche mit Lupe und Sternschnuppe, erstellt von Lara Gotthard (ETH - TU Dortmund).'
+    title: 'Instagram-Visual Lichtmomente - Gehe mit Schüler:innen auf Bibel-Spurensuche'
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  6.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Erarbeitung Auf Spurensuche! mit Auszug der Lichtpur-Karte als Arbeitsblatt für Schüler:innen.'
+    title: 'Instagram-Visual Lichtmomente - Arbeitsblatt'
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+  GlobalesLernen.jpg:
+    alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Weihnachten: Lernraum für globale Perspetiven mit Erläuterung.'
+    title: 'Instagram-Visual Lichtmomente - Weihnachten: Lernraum für globale Perspetiven'
+    sourceUrl: https://oer.community/lichtmomente
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: Canva-Lizenz
+    licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
 ---
 
 
