@@ -1,0 +1,251 @@
+{
+  "kind": 31923,
+  "content": "„An allem Unfug, der passiert, sind nicht etwa nur die schuld, die ihn tun, sondern auch die, die ihn nicht verhindern.“ (Erich Kästner) Argumente und Fakten sind nicht die beste Strategie um Stammtischparolen und plakativen Behauptungen zu begegnen. Auch im Kontext Schule gilt es, Haltung zu zeigen gegen menschenverachtende Aussagen. Möglichkeiten von Gegenrede werden aufgezeigt und ausprobiert.\n\n· Demokratiebildung im schulischen Kontext stärken\n\n· Argumentationstraining für schwierige Gesprächssituationen erproben\n\n· Eine klare pädagogische Haltung entwickeln\n\n· Menschenwürde und Demokratie als Grundlage religiöser Bildung erkennen.\n\n· Praktische Formen der Gegenrede einüben",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2026-11-03-haltung-zeigen"
+    ],
+    [
+      "title",
+      "Haltung zeigen – populistische Parolen erwidern"
+    ],
+    [
+      "summary",
+      "Nicht sprachlos bleiben: Strategien gegen abwertende und menschenverachtende Aussagen erproben."
+    ],
+    [
+      "start",
+      "1793718000"
+    ],
+    [
+      "end",
+      "1793721600"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4146&m=dbca6173-a3b5-11e9-8e0c-0050569784c7&ev_workflow2_guid=34ef7572-1074-11ec-9e02-1287f4009885",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 26EA890009)"
+    ],
+    [
+      "registrationUrl",
+      "https://bildungsportal.ekiba.de/ibt/go/public/to?product=154223027/58168027/59442027/1918985027/1921742429",
+      "DE-BW",
+      "Anmeldung Baden (Ekiba-Bildungsportal)"
+    ],
+    [
+      "registrationUrl",
+      "https://termine.ekir.de/d-1052072",
+      "DE-SL",
+      "Anmeldung Saarland (EKiS 26/27-007)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Übersicht der Reihe"
+    ],
+    [
+      "registrationDeadline",
+      "1793660340"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "26EA890009"
+    ],
+    [
+      "identifier:propertyID",
+      "ekiba-termin"
+    ],
+    [
+      "identifier:value",
+      "1031671"
+    ],
+    [
+      "identifier:propertyID",
+      "EKiS"
+    ],
+    [
+      "identifier:value",
+      "EKiS 26/27-007"
+    ],
+    [
+      "performer:name",
+      "Frauke Liebenehm"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "ptz Stuttgart"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "contributor:name",
+      "Christian Günther"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPZ Zweibrücken"
+    ],
+    [
+      "contributor:name",
+      "Tobias Christmann"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPZ Speyer"
+    ],
+    [
+      "image",
+      "https://relilab.org/wp-content/uploads/2026/06/Haltung-zeigen-neu-a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    [
+      "image:creator:name",
+      "Olav Richter mit ChatGPT, 31.05.2026"
+    ],
+    [
+      "image:description",
+      "TODO Alt-Text"
+    ],
+    [
+      "image:ai",
+      "generated"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_2"
+    ],
+    [
+      "about:prefLabel:de",
+      "Sekundarstufe I"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/haltung-zeigen-populistische-parolen-erwidern"
+    ],
+    [
+      "r",
+      "https://relilab.org/haltung-zeigen-populistische-parolen-erwidern/"
+    ],
+    [
+      "r",
+      "https://www.ekiba.de/detail/termin/id/1031671-haltung-zeigen-populistische-parolen-erwidern/?cb-id=110043"
+    ],
+    [
+      "r",
+      "https://schulreferat.saarland/03-11-relilab-impuls-haltung-zeigen/"
+    ],
+    [
+      "t",
+      "Demokratie"
+    ],
+    [
+      "t",
+      "Populismus"
+    ],
+    [
+      "t",
+      "Gegenrede"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

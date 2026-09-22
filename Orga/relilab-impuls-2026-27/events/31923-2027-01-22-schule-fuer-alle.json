@@ -1,0 +1,215 @@
+{
+  "kind": 31923,
+  "content": "Die neuen Schulordnungen in Rheinland-Pfalz, die zum Schuljahr 2024/2025 stufenweise in Kraft getreten sind, schreiben inklusive Bildung mit großer Klarheit und Verbindlichkeit fest.\n\nSchulen aller Schularten erhalten den Auftrag, ihre pädagogischen Konzepte inklusiv auszurichten. Doch was bedeutet das konkret für den (Religions)Unterricht an Grundschulen, RSplus, IGS und BBS?\n\nDieser Relilab-Impuls möchte über die Inhalte der neuen Schulordnungen und deren Auswirkungen auf die jeweiligen Systeme informieren und erste Ideen, Impulse und Ansätze für einen differenzsensiblen Religionsunterricht in den Blick nehmen.",
+  "tags": [
+    [
+      "d",
+      "relilab-impuls-2027-01-22-schule-fuer-alle"
+    ],
+    [
+      "title",
+      "Auf dem Weg … zu einer Schule für alle"
+    ],
+    [
+      "summary",
+      "Inklusive Bildung in den neuen Schulordnungen: was das für den Religionsunterricht bedeutet."
+    ],
+    [
+      "start",
+      "1800630000"
+    ],
+    [
+      "end",
+      "1800633600"
+    ],
+    [
+      "start_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "end_tzid",
+      "Europe/Berlin"
+    ],
+    [
+      "location",
+      "https://relilab.org/live"
+    ],
+    [
+      "eventAttendanceMode",
+      "https://schema.org/OnlineEventAttendanceMode"
+    ],
+    [
+      "eventStatus",
+      "https://schema.org/EventScheduled"
+    ],
+    [
+      "price",
+      "0",
+      "EUR"
+    ],
+    [
+      "registrationRequired",
+      "true"
+    ],
+    [
+      "registrationUrl",
+      "https://evewa.bildung-rp.de/workflow?id=0&va_id=4150&m=dbca6173-a3b5-11e9-8e0c-0050569784c7&ev_workflow2_guid=34ef7572-1074-11ec-9e02-1287f4009885",
+      "DE-RP",
+      "Anmeldung Rheinland-Pfalz (eVEWA, EFWI 27EA890001)"
+    ],
+    [
+      "registrationUrl",
+      "https://ekiba.bildungskirche.com/RPI",
+      "DE-BW",
+      "Fortbildungen RPI Baden (Anmeldung dort suchen)"
+    ],
+    [
+      "registrationUrl",
+      "https://www.rpz-igb.de/",
+      "DE-SL",
+      "RPZ St. Ingbert (Anmeldung dort suchen)"
+    ],
+    [
+      "registrationUrl",
+      "https://relilab.org/relilab-impuls/",
+      "",
+      "Übersicht der Reihe"
+    ],
+    [
+      "registrationDeadline",
+      "1800572340"
+    ],
+    [
+      "identifier:propertyID",
+      "eVEWA"
+    ],
+    [
+      "identifier:value",
+      "27EA890001"
+    ],
+    [
+      "performer:name",
+      "Sandra Stolz-Kipper"
+    ],
+    [
+      "performer:type",
+      "Person"
+    ],
+    [
+      "performer:affiliation:name",
+      "RPZ Kusel"
+    ],
+    [
+      "contributor:name",
+      "Olav Richter"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPI Karlsruhe"
+    ],
+    [
+      "contributor:name",
+      "Christian Günther"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPZ Zweibrücken"
+    ],
+    [
+      "contributor:name",
+      "Tobias Christmann"
+    ],
+    [
+      "contributor:type",
+      "Person"
+    ],
+    [
+      "contributor:role",
+      "Leitung"
+    ],
+    [
+      "contributor:affiliation:name",
+      "RPZ Speyer"
+    ],
+    [
+      "image",
+      "https://blossom.edufeed.org/be71ae4df353996d0edce89ef8b3a542ceae8261e512de3d109a694fbd8a0c1a.png"
+    ],
+    [
+      "image:license:id",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "image:creator:name",
+      "relilab-impuls"
+    ],
+    [
+      "image:description",
+      "Logo der Fortbildungsreihe relilab Impuls"
+    ],
+    [
+      "educationalLevel:id",
+      "https://w3id.org/kim/educationalLevel/level_C"
+    ],
+    [
+      "educationalLevel:prefLabel:de",
+      "Fortbildung"
+    ],
+    [
+      "about:id",
+      "https://w3id.org/kim/educationalLevel/level_1"
+    ],
+    [
+      "about:prefLabel:de",
+      "Primarstufe"
+    ],
+    [
+      "audience:id",
+      "http://purl.org/dcx/lrmi-vocabs/intendedEndUserRole/teacher"
+    ],
+    [
+      "audience:prefLabel:de",
+      "Lehrende"
+    ],
+    [
+      "r",
+      "https://religionsunterricht-pfalz.de/fortbildungen/details/auf-dem-weg-zu-einer-schule-fuer-alle"
+    ],
+    [
+      "t",
+      "Inklusion"
+    ],
+    [
+      "t",
+      "Schulentwicklung"
+    ],
+    [
+      "t",
+      "relilab"
+    ],
+    [
+      "t",
+      "relilab Impuls"
+    ],
+    [
+      "h",
+      "48706e894e64be57a250d3cd1f4c8a0f69ca900937936f8bd11a1329cd3c97e3"
+    ]
+  ]
+}

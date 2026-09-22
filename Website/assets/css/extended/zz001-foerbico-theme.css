@@ -65,25 +65,105 @@ a:hover {
     border-radius: var(--radius);
 }
 
-.dark {
+:root[data-theme="dark"] {
     --primary: #F0F8FF; /* Headline color in dark mode */
     --content: #cccccc; /* Text color in dark mode */
     --theme: #222222; /* Background for dark mode */
     --border: #F0F8FF;
 }
-.dark img {
+:root[data-theme="dark"] img {
     background-color: #cccccc;
 }
-.dark .header {
+:root[data-theme="dark"] .header {
     background-color: var(--heading-bg-dark);
 }
-.dark .entry-cover {
+:root[data-theme="dark"] .entry-cover {
     background-color: #333333;
 }
-.dark .footer {
+:root[data-theme="dark"] .footer {
     background-color: var(--entry);
 }
 
 body {
     font-family: var(--font-family);
+}
+
+/* ---------------------------------------------------------------------------
+   Lizenzpille am Titelbild (Partial: layouts/partials/bildnachweis.html)
+   Daten kommen aus dem `bilder`-Block, Konvention: bildattribution.md.
+   Die Pille liegt unten rechts ueber dem Bild; auf schmalen Schirmen rutscht
+   sie unter das Bild, damit sie das Motiv nicht verdeckt.
+--------------------------------------------------------------------------- */
+
+.entry-cover {
+    position: relative;
+}
+
+.bildnachweis {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    max-width: calc(100% - 24px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--theme);
+    color: var(--secondary);
+    font-size: 13px;
+    line-height: 1.5;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+}
+
+.bildnachweis a {
+    color: inherit;
+    box-shadow: 0 1px 0 var(--secondary);
+}
+
+.bildnachweis a:hover {
+    color: var(--primary);
+}
+
+.bn-lic {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.bn-sep {
+    opacity: .5;
+}
+
+.bn-ai {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Markierung nach den Icons des EU AI Office (EU AI Act, Transparenz) */
+.bn-ai-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 4px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--theme);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .02em;
+}
+
+/* Schmale Schirme: Pille unter das Bild, damit nichts verdeckt wird. */
+@media (max-width: 500px) {
+    .bildnachweis {
+        position: static;
+        max-width: 100%;
+        margin-top: 8px;
+        border-radius: 8px;
+        box-shadow: none;
+    }
 }

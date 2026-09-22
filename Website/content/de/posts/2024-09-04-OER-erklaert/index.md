@@ -16,7 +16,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/oer-erklaert-an-der-rhabarberbar/Rhabarberbar.jpg
+image: https://blossom.edufeed.org/cd0e02ad82df55e07b0b28712ec526f68e84e80db00ea21fc9bfdfe15bbcee16.jpg
 datePublished: 2024-09-04
 
 # staticSiteGenerator
@@ -24,8 +24,8 @@ author:
   - Gina Buchwald-Chassée
 title: '#OER erklärt an der Rhabarberbar'
 cover:
-  relative: true
-  image: Rhabarberbar.jpg
+  relative: false
+  image: https://blossom.edufeed.org/cd0e02ad82df55e07b0b28712ec526f68e84e80db00ea21fc9bfdfe15bbcee16.jpg
   hiddenInSingle: true
 summary: 'Jörg und Corinna erklären euch an der "Rhabarberbar", was sich hinter dem Akronym OER verbirgt und nehmen euch mit in die Welt der Open Educational Resources (OER). Wir wollen euch zeigen, dass OER und offene Bildungspraktiken Spaß machen können und laden euch ein, die Vorteile von freien Lehr- und Lernmaterialien zu entdecken und anzuwenden. '
 url: oer-erklaert-an-der-rhabarberbar
@@ -54,4 +54,5 @@ Open Eductational Resources meint freie Bildungsmaterialien, die veröffentlicht
 
 Besuche Corinna Ullmann und Jörg Lohrer an der RhababOERbar und erfahre, was hinter OER steckt und entdecke deine Möglichkeiten Materialien für die religionsbezogene Bildung zu teilen!
 
-[![OER erklärt](Rhabarberbar.jpg)](RhabarbOER-Video-Corinna-und-Joerg.mp4)
+[![OER erklärt](https://blossom.edufeed.org/cd0e02ad82df55e07b0b28712ec526f68e84e80db00ea21fc9bfdfe15bbcee16.jpg)
+[OER erklärt von Jörg und Corinna an der "Rhabarberbar"](https://oer.community/oer-erklaert-an-der-rhabarberbar), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)](RhabarbOER-Video-Corinna-und-Joerg.mp4)
