@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?
 description: Wie lassen sich religionspädagogische Open-Access-Zeitschriften in OER-Plattformen wie OERSI integrieren? In einer digitalen Fachdiskussion auf Einladung von FOERBICO diskutierten Vertreter:innen aus Redaktionen, Bibliotheken, Fachgesellschaften und Plattform-Entwicklung über technische Möglichkeiten, metadatenbasierte Differenzierungen und das Spannungsfeld zwischen wissenschaftlicher Reputation und OER-Kategorisierung. Die Ergebnisse bieten Impulse für eine differenzierte Zugänglichmachung religionspädagogischer Fachliteratur im digitalen Bildungsraum.
 license: https://creativecommons.org/licenses/by/4.0/
@@ -114,6 +113,18 @@ tags:
   - Wissenschaftskommunikation
   - Metadaten
   - OERSI
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  fachzeitschriften.jpg:
+    alt: 'Bild mit mehreren Zeitschriften mit der Aufschrift "Journal" und geöffnetem orangefarbenem Schloss als Symbol.'
+    title: Fachzeitschriften
+    sourceUrl: https://oer.community/oer-zeitschriften-religionspaedagogik
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    ai: generated
 ---
 
 Auf Einladung von FOERBICO fand eine digitale Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System [OERSI](https://oersi.org/resources/pages/de/) statt. Teilgenommen haben Vertreter:innen des [WiReLex](https://wirelex.de), der [RpB](https://rpb-journal.de/index.php/rpb), des [ÖRF](https://oerf-journal.eu/index.php/oerf) und des [Theo-Webs](https://www.theo-web.de) sowie Verantwortliche der Bibliotheken, der Deutschen Bibelgesellschaft und von OERSI. Als ein zentraler Punkt der Diskussion stellte sich die Frage heraus, wie der Begriff OER im Rahmen der Hochschullehre gefasst wird - inwieweit sind wissenschaftliche Lexikon- oder Zeitschriftenartikel, die unter CC-Lizenz veröffentlicht sind, OER? Ein weiterer Aspekt bezog sich auf die Spannung zwischen der wissenschaftlichen Reputation einer Zeitschrift und der Kategorisierung ihrer Artikel als Lernmaterial. Darüber hinaus wurden verschiedene technische und konzeptionelle Fragen aufgeworfen.
