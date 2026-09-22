@@ -8,7 +8,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/interview-relilab
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -41,14 +41,14 @@ keywords:
 
 # staticSiteGenerator
 author:
-  - Corinna Ullmann
+  - Corinna Link
   - Phillip Angelina
 title: Interview Relilab
 cover:
   relative: true
   hiddenInSingle: true
   image: RelilabInterviewTitelpage.jpg
-summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Ullmann aus dem relilab getroffen.
+summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Link aus dem relilab getroffen.
 url: interview-relilab
 tags:
   - Open Educational Resources (OER)
