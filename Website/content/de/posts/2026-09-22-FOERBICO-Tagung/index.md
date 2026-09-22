@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: 'Offen. Vernetzt. Zukunft. – Tagung zu Open Education in (religionsbezogenen) Communitys'
-description: 'Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team war vertreten: Gina war mit dabei und nimmt euch in diesem Blogbeitrag mit auf ihre Eindrücke, Diskussionen und die Fragen, die sie vom Wochenende mitgenommen hat.'
+description: 'Wie kann Open Education nachhaltig und vernetzt gestaltet werden? Die Tagung „Offen. Vernetzt. Zukunft.“ am 2. und 3. Februar 2027 in Frankfurt bringt OER-Communitys und Bildungsakteur zusammen, um Perspektiven, Erfahrungen und neue Wege für offenes Lernen zu diskutieren.'
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/foerbico-tagung-2027
 creator:
@@ -21,7 +21,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: 
+image: https://oer.community/foerbico-tagung-2027/Screenshot-FOERBICO-Tagungsflyer.png
 datePublished: '2026-09-22'
 keywords:
   - Open Educational Resources (OER)
@@ -34,13 +34,13 @@ keywords:
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
-title: 'Zwischen OER, Demokratie und hOERoskop – Eindrücke vom OERcamp 2026'
-cover:
+title: 'Offen. Vernetzt. Zukunft. – Tagung zu Open Education in (religionsbezogenen) Communitys'
+cover: Screenshot-FOERBICO-Tagungsflyer.png
   relative: false
   image: 
   hiddenInSingle: false
 summary: >-
-  Ein Wochenende voller Impulse, Diskussionen und neuer Ideen und dazwischen ganz viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Als Teil des FOERBICO-Teams war Gina vom Comenius-Institut vor Ort und hat nicht nur an verschiedenen Sessions teilgenommen, sondern auch selbst einen Einblick in das Projekt und die Arbeit an offenen Bildungsinfrastrukturen gegeben. Im Blogbeitrag schildert sie ihre Eindrücke und die Fragen, die sie vom OERcamp mitgenommen hat.
+  Wie können lebendige und nachhaltige Ökosysteme für offenes Lernen entstehen? Die Tagung „Offen. Vernetzt. Zukunft.“ am 2. und 3. Februar 2027 an der Goethe-Universität Frankfurt bringt OER-Communitys und Akteur aus Wissenschaft, Bildungspraxis, Kirche und Zivilgesellschaft zusammen. Im Mittelpunkt stehen Erfahrungen, neue Perspektiven und konkrete Wege für die Zukunft von Open Education – mit Keynotes, Zukunftswerkstätten, einem Abschlusspodium und dem Launch des Community-Hubs.
 url: foerbico-tagung-2027
 tags:
   - Open Educational Resources (OER)
@@ -50,10 +50,10 @@ tags:
 # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
-  Gina-OERcamp.jpeg:
-    alt: Gina Buchwald-Chassée sitzt vor der OERcamp-Fotowand mit bunten Icons, hält ein Schild mit der Aufschrift „powOER up“ und zeigt den Daumen hoch; links eine Superheldinnen-Figur aus Pappe.
-    title: Gina beim OERcamp 2026
-    sourceUrl: https://oer.community/oercamp-2026
+  Screenshot-FOERBICO-Tagungsflyer.png:
+    alt: 'Orange-farbener Hintergrund mit blauer Aufschrift "Offen.Vernetzt.Zukunft. Open Education in (religionsbezogenen) Communitys".'
+    title: 'FOERBICO-Tagung "Offen. Vernetzt. Zukunft."'
+    sourceUrl: https://oer.community/foerbico-tagung-2027
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -117,7 +117,7 @@ In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkre
 13:00 Uhr – Tagungsabschluss
 13:15 Uhr – Imbiss
 
-Mehr dazu in unserem [Tagungsflyer] 
+Mehr dazu in unserem [Tagungsflyer]
 
 Gerne weitersagen und Interessierte einladen - wir freuen uns auf Euch!
 
