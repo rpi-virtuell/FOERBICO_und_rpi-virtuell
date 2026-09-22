@@ -8,7 +8,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/ki-und-religionspaedagogik/
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -30,7 +30,7 @@ datePublished: 2025-08-11
 
 # staticSiteGenerator
 author:
-  - Corinna Ullmann
+  - Corinna Link
 title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
 cover:
   relative: true
