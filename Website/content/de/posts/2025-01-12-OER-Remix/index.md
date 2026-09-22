@@ -9,7 +9,7 @@ license: https://creativecommons.org/licenses/by/4.0/
 id: https://oer.community/oer-remix
 creator:
   - givenName: Corinna
-    familyName: Ullmann
+    familyName: Link
     type: Person
     affiliation:
       name: Comenius-Institut
@@ -36,7 +36,7 @@ datePublished: 2025-01-12
 
 # staticSiteGenerator
 author:
-  - Corinna Ullmann
+  - Corinna Link
   - Gina Buchwald-Chassée
   - Niels Winkelmann
 title: 'OER-Materialien: Welche Lizenz nehme ich?'
