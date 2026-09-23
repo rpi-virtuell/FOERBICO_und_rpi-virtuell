@@ -128,12 +128,34 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   wäre eine eigene Änderung.
 - Betrifft nur `--verbose`; die Kurzfassung hat diese Abschnitte nicht.
 
-**Offener Befund:** Der Dry-Run meldet jetzt **54 statt 19** Änderungen. Ursache ist nicht
-der Code — die Live-Events wurden am 22.09. um 14:35 neu publiziert, **ohne `a`-Tag**
-(Querverweis auf das AMB-Event, den `events.py:65` bei `type: LearningResource` setzt; das
-betrifft 63 Beiträge). Wer da publiziert hat, ist ungeklärt — die alte CI mit `mdparser`
-läuft noch. **Vor dem ersten echten Lauf zu klären**, sonst publizieren zwei Strecken
-gegeneinander.
+**Geklärt: Warum der Dry-Run 54 statt 19 Änderungen meldet.** Die Ursache ist kein Fehler —
+weder bei uns noch bei der alten Strecke:
+
+`a`-Tag und AMB-Event entstehen **nur** bei `type: LearningResource` (`events.py:65`,
+`publish.py:90`; dieselbe Regel in `mdparser`, siehe `docs/nostr-events/kind-30023.md:31`).
+
+| Branch | Beiträge mit `type: LearningResource` |
+|---|---|
+| `origin/main` | **24** |
+| `feat/md-to-nostr` (unser Branch) | **63** |
+
+Auf `main` wurden die Felder bei 39 Beiträgen **absichtlich entfernt** — Merge-Commit
+`040e4bc` vom 22.09. 13:58: *„Lernressourcen-Felder bleiben entfernt … `learningResourceType`
+und `educationalLevel` wie auf dem Branch entfernt."* Der Workflow-Lauf um 14:35 gehört zu
+diesem Commit und hat folgerichtig 24 AMB-Events und 24 Artikel mit `a`-Tag erzeugt. Exakte
+Übereinstimmung mit dem Live-Stand.
+
+**Die Konsequenz ist redaktionell, nicht technisch.** Unser Branch trägt die
+Lernressourcen-Felder noch. Wird er nach `main` gemerged, kämen sie zurück, und der Sync
+stellt 39 AMB-Events und 39 `a`-Tags wieder her — er macht damit eine bewusste Entscheidung
+rückgängig. Genau das sind die 54 Änderungen im Dry-Run.
+
+**Vor dem Cutover zu klären: Sollen diese 39 Beiträge Lernressourcen sein oder nicht?**
+
+*Lehre aus der Fehlmessung:* Der erste Befund an dieser Stelle war falsch — er behauptete,
+das Frontmatter sei „unangetastet", weil auf **unserem Branch** gemessen wurde. `main` und
+`feat/md-to-nostr` laufen im Content auseinander. **Zahlen aus `Website/content/` ohne
+Angabe des Branches sind hier wertlos.**
 
 ### 2026-09-21 — Probelauf kenntlich, Abstürze abgefangen
 

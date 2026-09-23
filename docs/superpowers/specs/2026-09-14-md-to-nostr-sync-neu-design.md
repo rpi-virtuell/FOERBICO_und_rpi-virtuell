@@ -1111,10 +1111,24 @@ Befunde, alle eingearbeitet:
    drittes Element im `summary`-Tag (`["summary", "…", "d"]`). Beides dieselbe Ursache.
 3. Vergleichstest gegen `md2blossom` (Teststrategie Punkt 5) muss gruen sein — sonst drohen
    nicht zuordenbare 1063-Duplikate.
-4. Die NIP-23-Inhaltsverstoesse aus der Arbeitsliste beheben (4 Beitraege). Sie sind jetzt
+4. **Den Frontmatter-Stand zwischen Branch und `main` abgleichen** (neu, 2026-09-23).
+   Gemessen tragen auf `main` **24** Beitraege `type: LearningResource`, auf
+   `feat/md-to-nostr` **63**: Auf `main` wurden die Lernressourcen-Felder am 22.09.
+   absichtlich entfernt (Merge `040e4bc`, *„Lernressourcen-Felder bleiben entfernt"*).
+
+   Weil `a`-Tag und kind:30142 **nur** bei `type: LearningResource` entstehen
+   (`events.py:65`, `publish.py:90`), wuerde ein Merge unseres Branches 39 AMB-Events und
+   39 `a`-Tags wiederherstellen — und damit eine redaktionelle Entscheidung rueckgaengig
+   machen. Das erklaert, warum der Dry-Run am 23.09. **54** statt 19 Aenderungen meldet.
+   **Redaktionell zu entscheiden, bevor publiziert wird.**
+
+   **Merke fuer jede Messung an diesem Vorhaben:** `main` und `feat/md-to-nostr` laufen im
+   Content auseinander. Eine Zahl aus `Website/content/` ohne Angabe des Branches ist
+   wertlos — ein erster Befund dazu war genau deshalb falsch.
+5. Die NIP-23-Inhaltsverstoesse aus der Arbeitsliste beheben (4 Beitraege). Sie sind jetzt
    FEHLER — unbehoben wuerden diese Beitraege nach der Umstellung nicht mehr aktualisiert.
-5. Erst wenn die Abweichungsliste leer bzw. erklaert ist, die Workflow-YAML umstellen.
-6. `md2blossom.mjs` bleibt bis hierher **unangetastet**. Sein Abbau ist eine eigene, spaetere
+6. Erst wenn die Abweichungsliste leer bzw. erklaert ist, die Workflow-YAML umstellen.
+7. `md2blossom.mjs` bleibt bis hierher **unangetastet**. Sein Abbau ist eine eigene, spaetere
    Etappe und an die zwei Bedingungen im Abschnitt *Entscheidung: `md2blossom` friert ein*
    gebunden — insbesondere daran, dass die Bildmigration durch ist oder ihr Handschritt im
    Sync steckt.
