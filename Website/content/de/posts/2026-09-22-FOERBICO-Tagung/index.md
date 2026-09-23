@@ -35,9 +35,9 @@ keywords:
 author:
   - Gina Buchwald-Chassée
 title: 'Offen. Vernetzt. Zukunft. – Tagung zu Open Education in (religionsbezogenen) Communitys'
-cover: Screenshot-FOERBICO-Tagungsflyer.png
+cover:
+  image: Screenshot-FOERBICO-Tagungsflyer.png
   relative: false
-  image: 
   hiddenInSingle: false
 summary: >-
   Wie können lebendige und nachhaltige Ökosysteme für offenes Lernen entstehen? Die Tagung „Offen. Vernetzt. Zukunft.“ am 2. und 3. Februar 2027 an der Goethe-Universität Frankfurt bringt OER-Communitys und Akteur aus Wissenschaft, Bildungspraxis, Kirche und Zivilgesellschaft zusammen. Im Mittelpunkt stehen Erfahrungen, neue Perspektiven und konkrete Wege für die Zukunft von Open Education – mit Keynotes, Zukunftswerkstätten, einem Abschlusspodium und dem Launch des Community-Hubs.
