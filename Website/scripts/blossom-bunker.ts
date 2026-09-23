@@ -9,6 +9,10 @@
  *   upload  <post-dir>     Bilddateien per BUD-01 (kind:24242) nach Blossom,
  *                          Hash der Antwort wird gegen die Datei geprüft;
  *                          vorhandene Blobs werden übersprungen.
+ *     --nur-referenziert   nur Dateien, deren Hash-URL in index.md steht
+ *     --pause <ms>         Wartezeit vor jeder Anfrage an Blossom — die
+ *                          edufeed-Hosts sperren eine IP nach ~20 schnellen
+ *                          Requests komplett (403), siehe 23.09.2026
  *   publish <_nostr-dir>   <slug>.1063.<hash8>.json signieren, auf die
  *                          Lizenz-Relays publizieren, .signed.json daneben ablegen.
  *
@@ -44,9 +48,13 @@ type Signed = Unsigned & { id: string; sig: string }
 
 const [cmd, dir] = Deno.args
 if (!['upload', 'publish'].includes(cmd) || !dir) {
-  console.error('Aufruf: blossom-bunker.ts upload <post-dir> | publish <_nostr-dir>')
+  console.error('Aufruf: blossom-bunker.ts upload <post-dir> [--nur-referenziert] [--pause <ms>] | publish <_nostr-dir>')
   Deno.exit(2)
 }
+const NUR_REFERENZIERT = Deno.args.includes('--nur-referenziert')
+const pauseIdx = Deno.args.indexOf('--pause')
+const PAUSE_MS = pauseIdx > -1 ? Number(Deno.args[pauseIdx + 1]) || 0 : 0
+const pause = () => new Promise((r) => setTimeout(r, PAUSE_MS))
 
 // ---------- Bunker (wie mdparser/sync/core/signer.ts) ----------
 const bunkerUrl = Deno.env.get('BUNKER_URL')
@@ -109,11 +117,17 @@ function anRelay(url: string, ev: Signed, ms = 10_000): Promise<{ url: string; o
 // ---------- upload ----------
 if (cmd === 'upload') {
   let n = 0
+  const indexMd = NUR_REFERENZIERT ? await Deno.readTextFile(join(dir, 'index.md')) : ''
   for await (const e of Deno.readDir(dir)) {
     const ext = extname(e.name).toLowerCase()
     if (!e.isFile || !MIME[ext]) continue
     const buf = await Deno.readFile(join(dir, e.name))
     const hash = encodeHex(await crypto.subtle.digest('SHA-256', buf))
+    if (NUR_REFERENZIERT && !indexMd.includes(hash)) {
+      console.log(`unreferenziert ${hash.slice(0, 8)}…  ${e.name} — übersprungen`)
+      continue
+    }
+    await pause()
     if ((await fetch(`${BLOSSOM}/${hash}`, { method: 'HEAD' })).ok) {
       console.log(`vorhanden    ${hash.slice(0, 8)}…  ${e.name}`)
       continue
@@ -122,6 +136,7 @@ if (cmd === 'upload') {
       kind: 24242, pubkey, created_at: jetzt(), content: `Upload ${e.name}`,
       tags: [['t', 'upload'], ['x', hash], ['expiration', String(jetzt() + 600)]],
     })
+    await pause()
     const r = await fetch(`${BLOSSOM}/upload`, {
       method: 'PUT',
       headers: { Authorization: 'Nostr ' + btoa(JSON.stringify(auth)), 'Content-Type': MIME[ext] },
