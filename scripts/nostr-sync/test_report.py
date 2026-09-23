@@ -412,3 +412,56 @@ def test_a_published_post_does_not_repeat_its_reason():
     ))
 
     assert "dry-run" not in zeile
+
+
+# --- Alle vier Abschnitte aufklappbar --------------------------------------
+
+MENUE = "<details><summary>Betroffene Beiträge</summary>"
+
+
+def vier_abschnitte() -> list:
+    """Ein Ergebnissatz, der alle vier langen Abschnitte fuellt."""
+    return [
+        ergebnis(Outcome.PUBLISHED, slug="publizierter", naddr="naddr1abc"),
+        ergebnis(Outcome.UNCHANGED, path="posts/zwei/index.md", slug="unveraenderter"),
+        ergebnis(Outcome.SKIPPED, path="de/impressum/index.md",
+                 reason="Pflichtfelder fehlen: creator, name"),
+        ergebnis(Outcome.UNCHANGED, path="posts/drei/index.md", slug="mit-hinweis",
+                 findings=[warnung("Schlagworte fehlen")]),
+    ]
+
+
+def test_all_four_long_sections_are_collapsible():
+    """Publiziert und Uebersprungen klappten nicht auf — gerade die laengsten.
+
+    Bei 54 publizierten Beitraegen mit je vier Zeilen sind das ~280 Zeilen, die
+    den Bericht offen fuellen.
+    """
+    text = render_summary(vier_abschnitte())
+
+    assert text.count(MENUE) == 4
+    assert text.count("</details>") == 4
+
+
+def test_the_content_of_every_section_survives_the_folding():
+    """Zugeklappt heisst nicht weg."""
+    text = render_summary(vier_abschnitte())
+
+    for inhalt in ("publizierter", "unveraenderter", "mit-hinweis",
+                   "de/impressum/index.md", "Pflichtfelder fehlen: creator, name"):
+        assert inhalt in text, inhalt
+
+
+def test_the_unchanged_section_no_longer_builds_a_sentence_around_the_count():
+    """„1 Beitrag lagen bereits so auf dem Relay" war grammatisch falsch."""
+    text = render_summary([ergebnis(Outcome.UNCHANGED, slug="x")])
+
+    assert "lagen bereits" not in text
+    assert MENUE in text
+
+
+def test_the_brief_report_has_no_collapsible_sections():
+    """Die Kurzfassung hat diese Abschnitte gar nicht — sie bleibt unberuehrt."""
+    text = render_brief(vier_abschnitte())
+
+    assert "<details>" not in text

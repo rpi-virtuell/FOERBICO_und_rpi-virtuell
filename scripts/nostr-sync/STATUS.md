@@ -10,7 +10,7 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Stand: 2026-09-21
 
-- Tests: **241 grün**, 4 übersprungen, Laufzeit ~19 s
+- Tests: **245 grün**, 4 übersprungen, Laufzeit ~8 s
 - CI-Ausgabe knapp: Bericht **45 statt ~500 Zeilen**, dazu Fortschritt je Beitrag
 - Workflow umgebaut: kein `mdparser`-Checkout mehr, `nak` gepinnt mit Prüfsumme
 - Dry-Run **nachweislich trocken**: 284 `nak`-Aufrufe, 0 Schreibversuche (siehe Verlauf)
@@ -112,6 +112,28 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-23 — Alle langen Abschnitte klappen auf
+
+- Vorher klappten nur *Zur Nacharbeit* und *Unverändert* auf — ausgerechnet nicht die beiden
+  längsten. 54 publizierte Beiträge mit je vier Zeilen füllten den Bericht mit ~280 offenen
+  Zeilen. Jetzt klappen alle vier auf, einheitlich beschriftet mit „Betroffene Beiträge".
+  Offen bleibt allein *Nicht publiziert*.
+- Die vier `<details>`-Zeilen stehen nur noch **einmal** im Code (`_aufklappbar`), vorher
+  zweimal kopiert. Gegengeprüft am vollen Lauf: 9 Menüs geöffnet, 9 geschlossen.
+- Nebenbei behoben: „**1 Beitrag lagen** bereits so auf dem Relay" — der Satz um die Zahl
+  herum entfällt mit der einheitlichen Beschriftung.
+- Die Beschriftung ist die einzige Stelle im Ausgabetext mit Umlaut; der Rest benutzt
+  ASCII-Umschrift. So gewünscht, aber ein Stilbruch — eine Umstellung des ganzen Textes
+  wäre eine eigene Änderung.
+- Betrifft nur `--verbose`; die Kurzfassung hat diese Abschnitte nicht.
+
+**Offener Befund:** Der Dry-Run meldet jetzt **54 statt 19** Änderungen. Ursache ist nicht
+der Code — die Live-Events wurden am 22.09. um 14:35 neu publiziert, **ohne `a`-Tag**
+(Querverweis auf das AMB-Event, den `events.py:65` bei `type: LearningResource` setzt; das
+betrifft 63 Beiträge). Wer da publiziert hat, ist ungeklärt — die alte CI mit `mdparser`
+läuft noch. **Vor dem ersten echten Lauf zu klären**, sonst publizieren zwei Strecken
+gegeneinander.
 
 ### 2026-09-21 — Probelauf kenntlich, Abstürze abgefangen
 

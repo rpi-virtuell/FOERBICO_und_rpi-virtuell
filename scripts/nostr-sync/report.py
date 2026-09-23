@@ -269,10 +269,9 @@ def _warning_group(origin: str, rule: str, fix: str, eintraege: list) -> list[st
         zeilen.append(f"- Regel: {rule}")
     if fix:
         zeilen.append(f"- Fix: {fix}")
-    zeilen += ["", "<details><summary>Betroffene Beitraege</summary>", ""]
-    for result, finding in eintraege:
-        zeilen.append(f"- `{result.path}` — {finding.message}{_fundstelle(finding)}")
-    return zeilen + ["", "</details>", ""]
+    pfade = [f"- `{result.path}` — {finding.message}{_fundstelle(finding)}"
+             for result, finding in eintraege]
+    return zeilen + [""] + _aufklappbar(pfade)
 
 
 def _fundstelle(finding) -> str:
@@ -285,6 +284,20 @@ def _fundstelle(finding) -> str:
     return f" ({' · '.join(teile)})" if teile else ""
 
 
+def _aufklappbar(zeilen: list[str]) -> list[str]:
+    """Legt einen Abschnitt in ein aufklappbares Menue.
+
+    Die langen Abschnitte — 54 publizierte, 25 unveraenderte, 16 uebersprungene —
+    wuerden den Bericht sonst so fuellen, dass die blockierten Beitraege darin
+    untergehen. Zugeklappt bleibt jede Zeile erhalten und ist einen Klick weit
+    entfernt.
+
+    Die Leerzeilen um den Inhalt sind Pflicht: Ohne sie rendert GitHub das
+    Markdown innerhalb von `<details>` nicht.
+    """
+    return ["<details><summary>Betroffene Beiträge</summary>", "", *zeilen, "", "</details>", ""]
+
+
 def _beitraege(anzahl: int) -> str:
     return f"{anzahl} Beitrag" if anzahl == 1 else f"{anzahl} Beitraege"
 
@@ -292,15 +305,15 @@ def _beitraege(anzahl: int) -> str:
 def _published(published: list[PostResult]) -> list[str]:
     if not published:
         return []
-    zeilen = ["### Publiziert", ""]
+    eintraege = []
     for result in published:
-        zeilen.append(f"**`{result.slug}`**" + _links(result))
-        zeilen += _changes(result)
+        eintraege.append(f"**`{result.slug}`**" + _links(result))
+        eintraege += _changes(result)
         if result.naddr:
-            zeilen.append(f"- `{result.naddr}`")
-        zeilen.append(f"- {_bestaetigungen(result)}")
-        zeilen.append("")
-    return zeilen
+            eintraege.append(f"- `{result.naddr}`")
+        eintraege.append(f"- {_bestaetigungen(result)}")
+        eintraege.append("")
+    return ["### Publiziert", ""] + _aufklappbar(eintraege)
 
 
 def _bestaetigungen(result: PostResult) -> str:
@@ -324,13 +337,8 @@ def _unchanged(unchanged: list[PostResult]) -> list[str]:
     """
     if not unchanged:
         return []
-    zeilen = [
-        "### Unveraendert", "",
-        f"<details><summary>{_beitraege(len(unchanged))} lagen bereits so auf dem Relay</summary>",
-        "",
-    ]
-    zeilen += [f"- `{r.slug or r.path}`{_links(r)}" for r in unchanged]
-    return zeilen + ["", "</details>", ""]
+    eintraege = [f"- `{r.slug or r.path}`{_links(r)}" for r in unchanged]
+    return ["### Unveraendert", ""] + _aufklappbar(eintraege)
 
 
 def _links(result: PostResult) -> str:
@@ -383,6 +391,5 @@ def _tag_unterschied(neu: list, bisher: list) -> str:
 def _skipped(skipped: list[PostResult]) -> list[str]:
     if not skipped:
         return []
-    zeilen = ["### Uebersprungen", ""]
-    zeilen += [f"- `{r.path}` — {r.reason}" for r in skipped]
-    return zeilen + [""]
+    eintraege = [f"- `{r.path}` — {r.reason}" for r in skipped]
+    return ["### Uebersprungen", ""] + _aufklappbar(eintraege)

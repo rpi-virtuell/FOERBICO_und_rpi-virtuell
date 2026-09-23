@@ -668,6 +668,18 @@ innerhalb von GitHub Actions.
 Die Kurzfassung waechst **nur im Umfang des Problems**: ~11 Zeilen, wenn nichts
 schiefgeht, plus ~8 je blockiertem Beitrag.
 
+**Jeder lange Abschnitt klappt auf (2026-09-23).** *Zur Nacharbeit*, *Publiziert*,
+*Unveraendert* und *Uebersprungen* stehen in einem `<details>`-Menue mit der einheitlichen
+Beschriftung „Betroffene Beiträge". Offen bleibt allein *Nicht publiziert* — das ist der
+Abschnitt, der gesehen werden muss. Vorher klappten nur zwei der vier auf, ausgerechnet
+nicht die beiden laengsten: 54 publizierte Beitraege mit je vier Zeilen fuellten den Bericht
+mit ~280 offenen Zeilen.
+
+Die Beschriftung traegt als einzige im Ausgabetext einen Umlaut; der uebrige Text benutzt
+ASCII-Umschrift (`Uebersprungen`, `Beitraege`). So gewuenscht — eine Umstellung des gesamten
+Textes auf echte Umlaute waere eine eigene Aenderung und betraefe auch die `Outcome`-Werte
+in der Zaehler-Tabelle und in jeder Fortschrittszeile.
+
 **Der Probelauf wird dreifach gekennzeichnet (2026-09-21).** Der Hinweis
 „dry-run — nichts gesendet" hing an jedem publizierten Beitrag und erschien im Abschnitt
 *Publiziert* — genau dem, den die Kurzfassung weglaesst. Ein Probelauf und ein echter Lauf
