@@ -10,7 +10,7 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
 
 ## Stand: 2026-09-21
 
-- Tests: **245 grün**, 4 übersprungen, Laufzeit ~8 s
+- Tests: **246 grün**, 4 übersprungen, Laufzeit ~8 s
 - CI-Ausgabe knapp: Bericht **45 statt ~500 Zeilen**, dazu Fortschritt je Beitrag
 - Workflow umgebaut: kein `mdparser`-Checkout mehr, `nak` gepinnt mit Prüfsumme
 - Dry-Run **nachweislich trocken**: 284 `nak`-Aufrufe, 0 Schreibversuche (siehe Verlauf)
@@ -93,6 +93,25 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   Vorgabe nur ein Relay enthält. Wirkt heute nicht, weil `min(min_acks, len(relays))` greift —
   beim Hinzufügen eines zweiten Relays prüfen.
 
+## Bewusst nicht gemacht
+
+**Der Bericht geht weiterhin an zwei Orte** (`cli.py:102-103`): auf die Standardausgabe und,
+in der CI, zusätzlich in die Job-Summary. Der Plan sah vor, ihn auf **eine** Senke zu
+reduzieren. Verworfen am 2026-09-23, aus zwei Gründen:
+
+- Der Vorschlag entstand, als der Bericht **500 Zeilen** hatte. Seit der Kurzfassung sind es
+  **45** — die Voraussetzung ist um 90 % geschrumpft, der Nutzen entsprechend.
+- Der Preis wäre höher als der Gewinn: Das Verhalten hinge dann an einer Umgebungsvariablen,
+  was eine Testisolation gegen `GITHUB_STEP_SUMMARY` nötig macht (sonst ist die Suite lokal
+  grün und in der CI rot). Und die Fehler stünden **nicht mehr im Schritt-Log** — wer den
+  Lauf über `gh run view` ansieht, müsste die Job-Summary-Seite öffnen.
+
+Damit entfällt auch die Testisolation: Sie wird erst gebraucht, *wenn* das Verhalten von der
+Umgebung abhängt. Heute findet jeder Test den Bericht überall auf stdout.
+
+**Wieder aufgreifen, falls** der Bericht wieder wächst oder das doppelte Markdown im
+Schritt-Log stört.
+
 ## Entscheidungen, die den Code binden
 
 Ändert sich eine davon, gehört die Begründung in die Spec und der Verweis hierher.
@@ -112,6 +131,20 @@ Eine Aussage pro Zeile, damit Diffs klein und lesbar bleiben.
   aufgelistet. Die vollständigen Befunde stehen im Log-Artefakt (`--log`).
 
 ## Verlauf
+
+### 2026-09-23 — Gründe übersprungener Beiträge, und zwei Punkte verworfen
+
+- **Punkt 8 umgesetzt:** Übersprungene Beiträge tragen ihren Grund in der Fortschrittszeile.
+  Vorher stand er in der CI **nirgends** — die Kurzfassung hat den Abschnitt *Übersprungen*
+  nicht, und „16 übersprungen" beantwortet nicht „warum ist mein Beitrag nicht auf Nostr".
+  Am vollen Lauf geprüft: `uebersprungen  …/impressum/index.md — Pflichtfelder fehlen …`.
+- **Punkte 6 und 9 verworfen**, Begründung unter *Bewusst nicht gemacht*. Kurz: Der Gewinn
+  ist seit der Kurzfassung von 500 auf 45 Zeilen geschrumpft, der Preis wäre
+  umgebungsabhängiges Verhalten und Fehler, die nicht mehr im Schritt-Log stehen.
+
+Damit ist die Zehn-Punkte-Liste zum Umbau der CI-Ausgabe abgeschlossen: 3, 4, 5, 7, 8 und 10
+umgesetzt; 6 und 9 begründet verworfen. **Der nächste offene Punkt ist der Cutover selbst**,
+blockiert durch die Lernressourcen-Frage und die vier NIP-23-Beiträge.
 
 ### 2026-09-23 — Alle langen Abschnitte klappen auf
 

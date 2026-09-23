@@ -465,3 +465,21 @@ def test_the_brief_report_has_no_collapsible_sections():
     text = render_brief(vier_abschnitte())
 
     assert "<details>" not in text
+
+
+# --- Punkt 8: warum ein Beitrag uebersprungen wurde ------------------------
+
+def test_a_skipped_post_carries_its_reason_in_the_progress_line():
+    """In der Kurzfassung steht nur „16 uebersprungen" — ohne jedes Warum.
+
+    Der Abschnitt *Uebersprungen* gibt es dort nicht, und die Warnung „nichts
+    publiziert" greift nicht, solange irgendetwas publiziert wurde. Ohne diese
+    Zeile ist „warum ist mein Beitrag nicht auf Nostr" in der CI unbeantwortbar.
+    """
+    zeile = progress_line(ergebnis(
+        Outcome.SKIPPED, path="Website/content/de/impressum/index.md",
+        reason="Pflichtfelder fehlen oder haben den falschen Typ: creator, name",
+    ))
+
+    assert zeile.endswith("— Pflichtfelder fehlen oder haben den falschen Typ: creator, name")
+    assert "None" not in zeile, "uebersprungene Beitraege haben keinen Slug"

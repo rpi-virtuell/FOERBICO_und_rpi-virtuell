@@ -39,16 +39,19 @@ def progress_line(result: PostResult) -> str:
     laengste Ausgang), damit Pfad und Slug eine lesbare Spalte bilden. Der Slug
     fehlt bei uebersprungenen Beitraegen — sie kamen nie so weit.
 
-    Fehlgeschlagene Beitraege tragen ihren Grund mit, damit die Zeile an ihrer
-    Stelle selbsterklaerend ist — sonst steht im Log nur „fehlgeschlagen
-    <pfad>", und das Warum findet man erst im Bericht. Publizierte tragen ihn
-    nicht: Dort steht „dry-run — nichts gesendet", und das sagt schon die
-    Kopfzeile des Berichts.
+    Fehlgeschlagene und uebersprungene Beitraege tragen ihren Grund mit. Sonst
+    ist er in der Kurzfassung **nirgends** zu finden: Den Abschnitt
+    *Uebersprungen* gibt es dort nicht, und „16 uebersprungen" beantwortet nicht
+    „warum ist mein Beitrag nicht auf Nostr". Bei fehlgeschlagenen macht der
+    Grund ausserdem die Abbruchstelle selbsterklaerend.
+
+    Publizierte tragen ihn nicht: Dort steht „dry-run — nichts gesendet", und
+    das sagt schon die Kopfzeile des Berichts.
     """
     zeile = f"{result.outcome.value:<15}{result.path}"
     if result.slug:
         zeile += f"  {result.slug}"
-    if result.reason and result.outcome is Outcome.FAILED:
+    if result.reason and result.outcome in (Outcome.FAILED, Outcome.SKIPPED):
         zeile += f" — {result.reason}"
     return zeile
 
