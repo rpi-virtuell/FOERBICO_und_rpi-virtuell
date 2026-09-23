@@ -33,6 +33,7 @@
 import { NostrConnectSigner, SimpleSigner } from 'npm:applesauce-signers@^2.0.0'
 import { RelayPool } from 'npm:applesauce-relay@^2.0.0'
 import { encodeHex } from 'jsr:@std/encoding@^1.0.5/hex'
+import { encodeBase64 } from 'jsr:@std/encoding@^1.0.5/base64'
 import { extname, join } from 'jsr:@std/path@^1.0.8'
 
 const BLOSSOM = 'https://blossom.edufeed.org'
@@ -139,7 +140,8 @@ if (cmd === 'upload') {
     await pause()
     const r = await fetch(`${BLOSSOM}/upload`, {
       method: 'PUT',
-      headers: { Authorization: 'Nostr ' + btoa(JSON.stringify(auth)), 'Content-Type': MIME[ext] },
+      // Base64 über UTF-8-Bytes: btoa kodiert Latin-1, Umlaute im Dateinamen machten die Signatur ungültig
+      headers: { Authorization: 'Nostr ' + encodeBase64(new TextEncoder().encode(JSON.stringify(auth))), 'Content-Type': MIME[ext] },
       body: buf,
     })
     const text = await r.text()
