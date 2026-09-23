@@ -146,10 +146,13 @@ SHA-256 im Pfad** (`https://blossom.edufeed.org/<64-hex>.jpg`):
 2. danach je ein `x` pro Fließtextbild mit Hash-URL, in Auftretensreihenfolge, dedupliziert
    (zeigt der Text das Cover erneut, gibt es trotzdem nur ein `x`)
 
-Es gibt kein Label und keinen Marker — die Bedeutung entsteht **allein aus der Position**.
-edufeeds ArticleView und der Hub lesen das erste `x` als Cover. Wird die Tag-Reihenfolge
-irgendwo sortiert oder umgruppiert, ist still ein anderes Bild das Cover. Deshalb ist im
-Vorab-Check bestaetigt, dass `nak` die Tags unveraendert durchreicht.
+Am `x`-Tag selbst steht nur der Hash, kein Label. edufeeds ArticleView und der Hub lesen das
+**erste** `x` als Cover; wird die Tag-Reihenfolge sortiert oder umgruppiert, ist fuer diese
+Leser still ein anderes Bild das Cover.
+
+Die Zuordnung Hash → Bild geht dabei allerdings **nicht** verloren: Sie steckt redundant in
+den URLs. Einzelheiten und die Ablösung durch NIP-92 in
+[`2026-09-23-imeta-statt-x-tags.md`](2026-09-23-imeta-statt-x-tags.md).
 
 **Risikonotiz:** Der `x`-Tag ist in einem 30023 nicht standardisiert — nostrbook kennt keine
 `x`-Tag-Doku; `x` ist in NIP-94 als SHA-256 einer Datei **im kind:1063** definiert. Die
