@@ -62,7 +62,7 @@ bilder:
 
 Wie können lebendige und nachhaltige Ökosysteme für offenes Lernen entstehen? Mit dieser Frage beschäftigt sich die Tagung „*Offen. Vernetzt. Zukunft.*“ am **2. und 3. Februar 2027** an der [Goethe-Universität Frankfurt am Main](https://www.uni-frankfurt.de/de).
 
-Die Veranstaltung bringt OER-Communities sowie Akteur:innen aus Wissenschaft, Bildungspraxis, Kirche und Zivilgesellschaft zusammen. Gemeinsam soll darüber diskutiert werden, wie Open Education weiterentwickelt werden kann, welche Rolle Communities dabei spielen und wie nachhaltige Strukturen für offenes Lernen entstehen können.
+Die Veranstaltung bringt OER-Communitys sowie Akteur:innen aus Wissenschaft, Bildungspraxis, Kirche und Zivilgesellschaft zusammen. Gemeinsam soll darüber diskutiert werden, wie Open Education weiterentwickelt werden kann, welche Rolle Communitys dabei spielen und wie nachhaltige Strukturen für offenes Lernen entstehen können.
 
 **Veranstaltungsort:**
 Goethe-Universität Frankfurt
@@ -75,28 +75,26 @@ Die Anmeldung ist bis zum **22. Januar 2027** möglich.
 Weitere Informationen und die Anmeldung:
 *https://tinygu.de/foerbico2027*
 
-Bei Fragen zur Tagung wenden Sie sich gerne an:
+Bei Fragen zur Tagung wendet euch gerne an:
 *foerbico-tagung2027@em.uni-frankfurt.de*
 
 ## Open Education gemeinsam weiterdenken
 
-Offene Bildungspraktiken leben von Austausch, Zusammenarbeit und Vernetzung. Genau hier setzt die Tagung an: Erfahrungen und Erwartungen aus bestehenden Communitys und Praxisfeldern treffen auf Erkenntnisse aus dem Projekt FOERBICO zur Förderung offener Bildungspraktiken in (religionsbezogenen) Communities.
+Offene Bildungspraktiken leben von Austausch, Zusammenarbeit und Vernetzung. Die Tagung "Offen.Vernetzt.Zukunft" rückt deshalb folgende Fragen in den Mittelpunkt: Wie können Communiys im Bereich Open Education langfristig zusammenarbeiten? Welche Strukturen brauchen offene Bildungsökosysteme? Und wie lassen sich die Erfahrungen aus dem FOERBICO-Projekt nutzen, um neue Perspektiven für Open Education zu entwickeln?
 
-Im Mittelpunkt stehen Fragen wie: Wie können Communities langfristig zusammenarbeiten? Welche Strukturen brauchen offene Bildungsökosysteme? Und wie lassen sich bestehende Erfahrungen nutzen, um neue Perspektiven für Open Education zu entwickeln?
-
-Ein besonderes Highlight ist der Launch des Community-Hubs als interoperable Infrastruktur, um die Vernetzung von Communities zu unterstützen und damit einen Beitrag zu einem nachhaltigen und resilienten Bildungsökosystem leisten.
+Ein Highlight der Tagung ist der Launch des Community-Hubs als interoperable Infrastruktur, um die Vernetzung von Communitys zu unterstützen und damit einen Beitrag zu einem nachhaltigen und resilienten Bildungsökosystem leisten.
 
 ## Zwei Tage voller Impulse, Austausch und Vernetzung
 
-Zum Auftakt am 2. Februar stehen zunächst Erfahrungen und Potenziale offener Bildung im religionsbezogenen Kontext im Mittelpunkt. Nach der Tagungseröffnung um 13:30 Uhr folgt der Vortrag „*Offene Bildung im religionsbezogenen Kontext: Erfahrungen, Erkenntnisse und Potenziale*“.
+Zum Auftakt am 2. Februar stehen zunächst Erfahrungen, Erkenntnisse und Potenziale offener Bildung im religionsbezogenen Kontext im Mittelpunkt. Nach der Eröffnung der Tagung um 13:30 Uhr gibt ein Statimpuls unter dem Titel „Offene Bildung im religionsbezogenen Kontext: Erfahrungen, Erkenntnisse und Potenziale“ erste Einblicke und Anregungen für die Tagung. 
 
 Um 16:00 Uhr erwartet die Teilnehmenden eine **Keynote von [Jöran Muuß-Merholz](https://joeran.de/)**, Diplom-Pädagoge, Autor und Berater sowie ein prägender Akteur im deutschsprachigen Diskurs zu Open Education.
 
-Anschließend geht es mit dem **Launch des Community-Hubs** um die konkrete Zukunft der Vernetzung. Der Tag klingt mit einem gemeinsamen Abendessen und dem **Open Education Marktplatz** aus. Dort können Communities, Projekte und Ressourcen entdeckt und Kontakte geknüpft werden.
+Anschließend geht es mit dem **Launch des Community-Hubs** um die konkrete Zukunft der Vernetzung. Der Tag klingt mit einem gemeinsamen Abendessen und dem **Open Education Marktplatz** aus. Dort können Communitys, Projekte und Ressourcen entdeckt und Kontakte geknüpft werden.
 
-Der zweite Tag beginnt mit einer **Keynote von [Sandra Schön](https://sansch.wordpress.com/)**, Erziehungswissenschaftlerin an der TU Graz und Expertin für technologiegestütztes Lehren und Lernen, Open Education und Künstliche Intelligenz.
+Am 3. Februar erwartet die Teilnehmenden eine **Keynote von [Sandra Schön](https://sansch.wordpress.com/)**, Erziehungswissenschaftlerin an der TU Graz und Expertin für technologiegestütztes Lehren und Lernen, Open Education und Künstliche Intelligenz.
 
-In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkreter Themen gemeinsam weitergedacht und diskutiert. Den Abschluss bildet das **Podium „Offen. Vernetzt. Zukunft. – Wege für offene Bildung“** mit Birgit Sendler-Koschel (EKD), Tanja Gojny (Universität Wuppertal), Jan Woppowa (Universität Osnabrück), Markus Deimann (ORCA.nrw), Jens Dechow (Comenius-Institut) und weiteren Gästen.
+In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkreter Themen rund um die Themen KI, Bildungspolitik, Community und Praxis gemeinsam weitergedacht und diskutiert. Den Abschluss bildet das **Podium „Offen. Vernetzt. Zukunft. – Wege für offene Bildung“** mit Birgit Sendler-Koschel (EKD), Tanja Gojny (Universität Wuppertal), Jan Woppowa (Universität Osnabrück), Markus Deimann (ORCA.nrw), Jens Dechow (Comenius-Institut).
 
 ## Das Programm im Überblick
 
@@ -119,5 +117,5 @@ In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkre
 
 Mehr dazu in unserem [Tagungsflyer](Offen.Vernetzt.Zukunft_ Tagung_2027.pdf)
 
-Gerne weitersagen und Interessierte einladen - wir freuen uns auf Euch!
+Wir freuen uns auf eure Anmeldungen!
 
