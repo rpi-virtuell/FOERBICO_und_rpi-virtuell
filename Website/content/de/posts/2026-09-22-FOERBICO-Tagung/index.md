@@ -115,7 +115,7 @@ In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkre
 13:00 Uhr – Tagungsabschluss
 13:15 Uhr – Imbiss
 
-Mehr dazu in unserem ![Tagungsflyer](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Website/content/de/posts/2026-09-22-FOERBICO-Tagung/Offen.Vernetzt.Zukunft_%20Tagung_2027.pdf)
+Mehr dazu in unserem ![Tagungsflyer](Offen.Vernetzt.Zukunft_ Tagung_2027.pdf)
 
 Wir freuen uns auf eure Anmeldungen!
 
