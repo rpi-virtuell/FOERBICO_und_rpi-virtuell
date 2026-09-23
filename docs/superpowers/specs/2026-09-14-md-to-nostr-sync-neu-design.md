@@ -157,6 +157,12 @@ Verwendung im Artikel-Event ist eine edufeed-Absprache vom 07.09.2026. Robuster 
 NIP-94 fuer den `image`-Tag bereits vorgesehene Form `["image", <url>, <hash>]` — oder der **NIP-92-`imeta`-Tag**, den andere Implementierungen dafuer nutzen (`["imeta", "url …", "m …", "alt …", "dim …"]`). Aenderbar ist
 das nur gemeinsam mit edufeed, da ArticleView und Hub auf der jetzigen Form aufsetzen.
 
+**Ausgearbeitet am 2026-09-23** in
+[`2026-09-23-imeta-statt-x-tags.md`](2026-09-23-imeta-statt-x-tags.md) — mit dem
+entscheidenden Befund, dass **64 von 81 Titelbildern** eine URL ohne Hash haben und ihr
+SHA-256 deshalb heute gar nicht uebertragbar ist. `imeta` traegt den Hash am Tag statt
+in der Adresse und loest genau das.
+
 ### NIP-94-Abweichungen unserer 1063-Events
 
 NIP-94 fuehrt `url`, `m` und `x` als **required**. `bilder.ts` setzt `m` und `size` aber nur,
