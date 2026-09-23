@@ -36,7 +36,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/koennen-oep-partizipatives-lernen-und-demokratiebildung-foerdern/educationforall.jpg
+image: https://blossom.edufeed.org/5f15f6174f79c2aec1d4b7e95d0ae4725ef4b60633ee677ac4fe04aa19d308cf.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -60,8 +60,8 @@ author:
   - Phillip Angelina
 title: 'Können OEP partizipatives Lernen und Demokratiebildung fördern'
 cover:
-  relative: true
-  image: educationforall.jpg
+  relative: false
+  image: https://blossom.edufeed.org/5f15f6174f79c2aec1d4b7e95d0ae4725ef4b60633ee677ac4fe04aa19d308cf.jpg
   alt: Workshop-Situation mit Teilnehmenden bei einer Tagung zu OEP und Demokratiebildung
   hiddenInSingle: true
 summary: >-

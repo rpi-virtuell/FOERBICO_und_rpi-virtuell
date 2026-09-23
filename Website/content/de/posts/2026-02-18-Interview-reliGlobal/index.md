@@ -32,7 +32,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/interview-reliGlobal/Titelbild-reliGlobal.jpg
+image: https://blossom.edufeed.org/167d9c6fb8858e9c408457fe5449915d176037a0163a7bdb3e6023a84652cb5a.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -51,9 +51,9 @@ author:
   - Phillip Angelina
 title: Interview reliGlobal
 cover:
-  relative: true
+  relative: false
   hiddenInSingle: true
-  image: Titelbild-reliGlobal.jpg
+  image: https://blossom.edufeed.org/167d9c6fb8858e9c408457fe5449915d176037a0163a7bdb3e6023a84652cb5a.jpg
 summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir vom FOERBICO-Team Frank Behr aus dem reliGlobal-Team interviewt.
 url: interview-reliGlobal
 tags:

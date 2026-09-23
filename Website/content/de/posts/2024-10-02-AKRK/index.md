@@ -24,7 +24,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/AKRK-Tagung_OER-standards.jpg
+image: https://blossom.edufeed.org/627fc2723ea46aff0949746aa87ac66c8614157a4c50157d1d30d0e6647d8d9e.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -36,8 +36,8 @@ author:
   - Laura Mößle
 title: Welche Impulse setzt OER für die Religionsdidaktik? Ein Einblick in die AKRK-Tagung in Leitershofen von 19.-21.9.2024
 cover:
-  relative: true
-  image: AKRK-Tagung_OER-standards.jpg
+  relative: false
+  image: https://blossom.edufeed.org/627fc2723ea46aff0949746aa87ac66c8614157a4c50157d1d30d0e6647d8d9e.jpg
   hiddenInSingle: true
 summary: Vom 19. bis 21. September traf sich die AKRK (Arbeitsgemeinschaft Katholische Religionspädagogik und Katechese) zu ihrer Jahrestagung in Leitershofen bei Augsburg – ein Event, das auch für FOERBICO von besonderem Interesse war. Unter dem übergreifenden Thema „Religionsdidaktik in ihren Spannungsfeldern“ ergaben sich anregende Anknüpfungspunkte, z.B. wie verändern Open Educational Resources die Religionsdidaktik? Wie können KI-generierte OER in der Religionspädagogik eingesetzt werden und was gilt es dabei zu beachten? Welche Antworten und weiterführenden Debatten wir gefunden haben, könnt ihr in diesem Blogbeitrag lesen!
 url: welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024
@@ -91,7 +91,8 @@ Zum Verhältnis von Religionspädagogik und Religionsdidaktik“ auf den Grund.
 Auch die Frage, in welchem Verhältnis die Pastoraltheologie und die Religionspädagogik zueinander stehen, haben wir im Rahmen der [AKRK](https://www.akrk.eu)-Tagung diskutiert.. 
 Neben Impulsen aus der allgemeinen Fachdidaktik und internationalen Einblicken aus Finnland zum Thema „Worldview education“ gab es auch Workshop Angebote, in denen sich Viera und Laura vom Frankfurter FOERBICO-Team beteiligten.
 
-![](AKRK-Tagung_laura-und-viera.jpg)
+![Laura und Viera von der Goethe-Universität Frankfurt a.M. auf der AKRK-Tagung 2024 in Leitershofen.](https://blossom.edufeed.org/3e8bf74ad472a2be051f0b6b47c1d732f09207cfda1fe1f676961448eecb0ba9.jpg)
+[Laura und Viera bei der AKRK-Tagung](https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## OER in der Religionspädagogik: Austausch und Impulse beim Themenspeed-Dating
 
@@ -104,7 +105,8 @@ Diese sollte den Lehrenden direkt aufzeigen, wie und in welchem Kontext die Mate
 Ein weiteres Thema war die Qualitätssicherung. Diese sollte am besten durch die Community mit Hilfe von Peer-Feedback erfolgen. 
 Darüber hinaus befassten sich die Teilnehmenden mit Richtlinien für die Erstellung und Verbreitung von OER. Dabei standen neben der fachlichen und pädagogischen Qualität auch die praktische Nutzbarkeit und die kritische Reflexion der Materialien im Vordergrund.
 
-![](AKRK-Tagung_OER-OEP-workshop.jpg)
+![Viera von der Goethe-Universität Frankfurt a.M. mit Tablet in der Hand zum FOERBICO-Workshop zu OER und OEP auf der AKRK-Tagung 2024 in Leitershofen.](https://blossom.edufeed.org/97629767a63ba9d01067abbb2c8150379d604a8463d4f60dba26addbd6ee8e83.jpg)
+[FOERBICO-Workshop zu OER und OEP auf der AKRK-Tagung](https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Bedarfe und Hürden bei der Erstellung von OER
 
@@ -115,7 +117,8 @@ Auch klare Roadmaps und Checklisten sind hilfreich, um den Prozess der Erstellun
 Darüber hinaus nannten die Teilnehmenden auch KI-basierte Tools zur Qualitätsprüfung, eine kollegiale Feedbackkultur und leicht verständliche Lizenzierungsoptionen, um die Erstellung und Nutzung von OER in der Hochschullehre zu erleichtern. 
 Die Teilnehmenden sprachen aber auch Hindernisse an: Vor allem rechtliche Unsicherheiten und der zusätzliche Arbeitsaufwand wurden als Einwände gegen OER genannt und damit der Bedarf in der Hochschullandschaft aufgezeigt.
 
-![](AKRK-Tagung_OER-und-ihre-didaktik.jpg)
+![Ergebnisse der Gruppenarbeit zu OER/OEP und ihre Didaktik](https://blossom.edufeed.org/e2153b9277e50ce86b006eaaaa6baee19fe2adbdde82780bc6117c70a306f3a8.jpg)
+[Ergebnisse zu OER/OEP und ihre Didaktik](https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Didaktik neu denken: Chancen von OER, OEP und KI in der Religionsdidaktik
 
@@ -133,7 +136,8 @@ Auch im FOERBICO-Workshop auf der AKRK-Tagung wurden interessante Überlegungen 
 Einige Teilnehmende wiesen darauf hin, dass vielen Bildern in OER die ästhetische Tiefe fehle - eine wesentliche Anforderung an religionsdidaktische Materialien. In der Diskussion stand die Frage im Mittelpunkt, welche Bilder in OER und OEP verwendet werden sollten. Die Religionspädagogik hat eine Bilddidaktik entwickelt, die sich stark am kunstwissenschaftlichen Diskurs orientiert und komplexe, theologisch fundierte Medien voraussetzt. Diese Tiefe können KI-generierte Bilder nicht bieten, so dass sie in diesem Kontext nur bedingt einsetzbar sind. Zudem erschweren enge Lizenzbedingungen die Verfügbarkeit dieser Bilder in OER.
 Darüber hinaus erreichen Digitalisate nicht die Tiefe von gemalten Werken. Aus religionsdidaktischer Sicht berührt das Thema zentrale Anliegen der Bilddidaktik: Verlangsamung, Vertiefung und theologische Tiefe. Es bleibt eine spannende Herausforderung, wie OER und KI eingesetzt werden können, ohne diese religionsdidaktischen Prozesse zu verkürzen.
 
-![](AKRK-Tagung_Vortrag.jpg)
+![Vortrag von Viera der Goethe-Universität Frankfurt a.M. mit Einblicken zu OER und OEP](https://blossom.edufeed.org/7ce16dda3f0ee0e40364a25d3f7a06d9b5241c36aa2a22a6fc8489a4e516980a.jpg)
+[Vortrag zu OER und OEP](https://oer.community/welche-impulse-setzt-oer-fuer-die-religionsdidaktik-ein-einblick-in-die-akrk-tagung-in-leitershofen-von-19-21-9-2024/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## OER und offene Pädagogik: Lernende als aktive Mitgestalter:innen
 

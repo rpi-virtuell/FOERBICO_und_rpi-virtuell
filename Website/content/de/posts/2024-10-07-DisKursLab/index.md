@@ -16,7 +16,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten/videokonferenz_diskurslab-rpi-foerbico.jpg
+image: https://blossom.edufeed.org/b6ca82cff93bca28322d2aeb944584bd2793aa159c25e6ac4695d453d34a1e6c.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -27,8 +27,8 @@ author:
   - Gina Buchwald-Chassée
 title: 'OER zum Thema Antisemitismus: Gemeinsam Bildungsmaterialien gestalten'
 cover:
-  relative: true
-  image: videokonferenz_diskurslab-rpi-foerbico.jpg
+  relative: false
+  image: https://blossom.edufeed.org/b6ca82cff93bca28322d2aeb944584bd2793aa159c25e6ac4695d453d34a1e6c.jpg
   hiddenInSingle: true
 summary: Am 30. September 2024 trafen sich Corinna Link, Jörg Lohrer und Gina Buchwald-Chassée vom Comenius-Institut mit Kristina Herbst und Dr. Christian Staffa von der Ev. Akademie zu Berlin zu einem Austausch über Open Educational Resources (OER) und deren Entwicklung in Bildungsprojekten am Beispiel des DisKursLab. Neben dem Kennenlernen stand der Erfahrungsaustausch rund um die Entwicklung von OER im Vordergrund und es entstand die Idee des Aufbaus einer Antisemitismus-Community. Mehr dazu erfahrt ihr in diesem Blogbeitrag!
 url: oer-zum-thema-antisemitismus-gemeinsam-bildungsmaterialien-gestalten

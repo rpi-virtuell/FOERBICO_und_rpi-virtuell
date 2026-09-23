@@ -21,7 +21,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
   - https://w3id.org/kim/hochschulfaechersystematik/n01
-image: https://oer.community/junia/Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg
+image: https://blossom.edufeed.org/b1e923f698b92960c74ea8960f84e5752041f4211ab3343b30699267106d5e99.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -40,8 +40,8 @@ author:
   - Jonas Breuer
 title: 'Auf der Suche nach Junia(s)'
 cover:
-  relative: true
-  image: Titelbild-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg
+  relative: false
+  image: https://blossom.edufeed.org/b1e923f698b92960c74ea8960f84e5752041f4211ab3343b30699267106d5e99.jpg
   hiddenInSingle: true
 summary: >-
   Das Material beschäftigt sich mit der textkritischen Frage, welche Person Paulus in Röm 16,7 als Apostel grüßt (eine Frau? einen Mann?) und vermittelt dabei Grundlagen zur antiken Schreibkultur und wissenschaftlicher Textarbeit. Das Material wurde für einen 90-minütigen Workshop (ab Klasse 8) vom Institut für Katholische Theologie an der Universität Vechta entwickelt und kann im Religionsunterricht zu den Themen Nachfolge oder Ämter im Frühchristentum eingesetzt werden. Es steht als frei nutzbares Lehrmaterial (OER) zur Verfügung.
@@ -169,7 +169,8 @@ Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 Zum Einstieg kann Röm 16,7 in zwei Übersetzungen gelesen werden, z. B. die Elberfelder Bibel und die Einheitsübersetzung. 
 
-![Beispielbild der Präsentation](Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
+![Beispielbild der Präsentation](https://blossom.edufeed.org/3835e4ec41cda01861243b230acf881dea3b78af822b1078961fb85842719bd2.jpg)
+[Einstieg Lernmodul "Auf der Suche nach Junia(s) im Neuen Testament - Spurensuche in der antiken Schreibstube und im Römerbrief des Apostels Paulus"](https://oer.community/junia), [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie), [©](https://www.gesetze-im-internet.de/urhg/)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -182,7 +183,8 @@ Der Kontext von Vers 7 wird fokussiert: Welcher Personengruppe wird Junia von Pa
 3.	Wer war Paulus und wie entstanden seine Texte?
 4.	Wen hat Paulus wahrscheinlich in Röm 16,7 gemeint – Junia oder Junias?
 
-![Beispielbild der Präsentation, Ausschnitt 1](Praesentation-Beispiel-Ausschnitt-1-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
+![Beispielbild der Präsentation, Ausschnitt 1](https://blossom.edufeed.org/a08e038c0ba998810df3c6b3a6c4299e7ce939ff7530a16888384282e53eee8b.jpg)
+[Beispiel aus Lernmodul "5 Fragen, die wir auf der Suche nach Junia(s) beantworten wollen"](https://oer.community/junia), [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie), [©](https://www.gesetze-im-internet.de/urhg/)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -219,7 +221,8 @@ Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
 
 Die in der Materialmappe enthaltenen Lese- und Schreibübungen (S. 1) werden in Einzelarbeit mithilfe der angeführten Erläuterungen durchgeführt und gemeinsam kontrolliert. Die dritte Teilaufgabe zielt darauf ab, das Fehlen von Akzenten bei Majuskel-Handschriften einzuführen und die Arbeit mit der Tabelle (S. 3) einzuüben, indem für die Minuskel-Form Iουνιαν die Akzente für beide Genera von den SuS ergänzt werden.
 
-![Beispielbild der Präsentation, Ausschnitt 2](Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
+![Beispielbild der Präsentation, Ausschnitt 2](https://blossom.edufeed.org/613096042aa255b7e4884ee689499fb9fd0336bedfa96001a86c530a39b262a4.jpg)
+[Beispiel aus Lernmodul "Wer war Paulus und wie entstanden seine Texte?"](https://oer.community/junia), [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie), [©](https://www.gesetze-im-internet.de/urhg/)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 
@@ -237,7 +240,8 @@ Die SuS sollen sie grammatisch bestimmen, Unterschiede auflisten und die Formen 
 
 Die SuS tragen ihre Hypothesen vor. Diese werden diskutiert. 
 
-![Beispielbild der Präsentation, Ausschnitt 3](Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg)
+![Beispielbild der Präsentation, Ausschnitt 3](https://blossom.edufeed.org/5f7c3d8a609425cd2da53094311e3094796ffcc4ed144f36002ea207f302c90b.jpg)
+[Beispiel aus Lernmodul - Forschungsaufgabe "Wer ist wahrscheinlich in Röm 16,7 gemeint?"](https://oer.community/junia), [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie), [©](https://www.gesetze-im-internet.de/urhg/)
 
 Copyright: Institut für Katholische Theologie an der Universität Vechta
 

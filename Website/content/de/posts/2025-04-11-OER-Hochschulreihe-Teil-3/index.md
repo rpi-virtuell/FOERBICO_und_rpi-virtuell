@@ -29,7 +29,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/oer-fortbildungsreihe-3/classroom.jpg
+image: https://blossom.edufeed.org/33c37d1ba30293bd2dd1d2259d0c17e8135bdf4db8d01392f9e4c3b11499221d.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -43,8 +43,8 @@ author:
   - Jörg Lohrer
 title: 'Rückblick auf Teil 3 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie: : OER selbst erstellen und teilen'
 cover:
-  relative: true
-  image: classroom.jpg
+  relative: false
+  image: https://blossom.edufeed.org/33c37d1ba30293bd2dd1d2259d0c17e8135bdf4db8d01392f9e4c3b11499221d.jpg
   hiddenInSingle: true
 summary: 'In Teil 3 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Grundlagen für die Erstellung und Verwendung von OER, technische Tools und Veröffentlichungsmöglichkeiten vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt), Corinna Link und Jörg Lohrer (beide Comenius-Institut) ging es verstärkt darum: Was gilt es zu beachten, wenn OER an der Hochschule entwickelt und veröffentlicht werden?'
 url: oer-fortbildungsreihe-3

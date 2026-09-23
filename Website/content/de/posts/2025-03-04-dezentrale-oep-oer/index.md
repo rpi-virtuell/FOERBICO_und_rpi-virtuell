@@ -29,7 +29,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/dezentrale-oep-oer/dezentrale-oep-oer.jpg
+image: https://blossom.edufeed.org/cdda41f0a59b7d2a36bf8a586c33d7a3fbc229776144da800eea9b1351077f73.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -42,8 +42,8 @@ author:
   - Bastian Granas
 title: 'Gemeinsam die Bildungszukunft gestalten: Dezentrale OEP und OER als Wegbereiter'
 cover:
-  relative: true
-  image: dezentrale-oep-oer.jpg
+  relative: false
+  image: https://blossom.edufeed.org/cdda41f0a59b7d2a36bf8a586c33d7a3fbc229776144da800eea9b1351077f73.jpg
   caption: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
   alt: "Ein in den Sand gezeichneter Strauß mit den Buchstaben 'OER' – ein Sinnbild für offene Bildung und freien Wissensaustausch. Die Wortspiel-Verbindung zu 'Nostr' (das dezentralisierte Kommunikationsprotokoll) liegt nahe: 'Nostr' klingt wie ein Teil von 'Ostrich' (Englisch für Strauß). So wie der Ichthys-Fisch einst als geheimes Erkennungszeichen diente, steht dieses Symbol für eine Gemeinschaft, die Wissen offen teilt – frei, unabhängig und widerstandsfähig."
   hiddenInSingle: true

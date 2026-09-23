@@ -35,7 +35,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/oer-oep-literaturbericht/theoweb-OER.jpg
+image: https://blossom.edufeed.org/a07d1afb6ec82347347f3c57802e0663772b8e1e4be61d2ca2d7e93ff195ab93.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -50,8 +50,8 @@ author:
   - Manfred Pirner
 title: Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
 cover:
-  relative: true
-  image: theoweb-OER.jpg
+  relative: false
+  image: https://blossom.edufeed.org/a07d1afb6ec82347347f3c57802e0663772b8e1e4be61d2ca2d7e93ff195ab93.jpg
   hiddenInSingle: true
 summary: 'Open Educational Resources (OER) und Open Educational Practices (OEP) haben sich als zentrale Elemente der strategischen Entwicklung digitaler Bildungspraktiken etabliert, bleiben jedoch in der religionspädagogischen Forschung bislang weitgehend unbeachtet. Der vorliegende systematische Literaturbericht untersucht die empirische Evidenz zu OER/OEP hinsichtlich Bildungsgerechtigkeit, Inklusion und Qualität sowie deren Wechselwirkung, insbesondere im Hochschulkontext. Methodisch folgt die Analyse den PRISMA-Leitlinien und kombiniert induktive mit deduktiven Auswertungsansätzen. Die Ergebnisse zeigen ambivalente Befunde: Sie weisen auf strategische, infrastrukturelle und kulturelle Herausforderungen hin, unterstreichen aber das perspektivische Potenzial von OER/OEP für eine partizipationsorientierte, digitale und pädagogisch wie theologisch verantwortete religionspädagogische Bildungslandschaft.'
 url: oer-oep-literaturbericht
@@ -129,7 +129,9 @@ Diese Forschungsfragen weisen unseren Literaturbericht auch als spezifisch gegen
 Für die Recherche sind wir von den Datenbanken Scopus, ERIC, Google Scholar und dem Fachportal Pädagogik des DIPF ausgegangen. Zu a) (allgemeiner Überblick) haben wir uns auf die erwähnten bereits (zahlreich) vorhandenen Literaturberichte („systematic reviews“) zu „open educational resources“ bzw. „OER“ (im Titel) konzentriert; OEP wurde nicht als eigene Suchkategorie abgefragt, da wir davon ausgehen konnten – und dies auch noch einmal überprüft haben –, dass Publikationen zu OEP immer auch Bezüge zu OER enthalten. Der hohen Dynamik des Themenfeldes entsprechend haben wir die Suche eingeschränkt auf die (englisch- und deutschsprachige) Literatur der letzten fünf Jahre (2019–2024/2025). Diese Suche ergab in Scopus 8 Titel, in ERIC 14, in Google Scholar 12 und im Fachportal Pädagogik 5 Treffer. Nach dem Ausscheiden von Dubletten, thematisch unpassenden oder sehr speziellen Artikeln (z.B. zu OER im Bereich „Nursing“ oder zum engen regionalen Bezug auf China, Thailand oder Afrika) verblieben 15 Publikationen; durch die Auswertung von cross-references wurden weitere 4 Reviews ausfindig gemacht, sodass insgesamt 19 Reviews ausführlich analysiert wurden. Einen Überblick über den Sondierungs- und Auswahlprozess gibt Abbildung 1; eine Auflistung der für den vorliegenden Literaturbericht ausgewählten Publikationen findet sich am Ende des Artikels vor dem Gesamt-Literaturverzeichnis.
 
 
-![Überblick Prismma](Abbildung-1.jpg)
+![Überblick Prismma](https://blossom.edufeed.org/33d228f30d2c90dcc2aa6511de6c00f5e343d5611ee0a96bf7113adadb55f7ff.jpg)
+
+<!-- TODO:LICENSE Abbildung-1.jpg -->
 Abb. 1: Überblick über den Recherche- und Auswahlprozess, orientiert an PRISMA, adaptiert von Page, McKenzie, Bossuyt, Boutron, Hoffman, Mulrow & Moher (2021)
 
 In den Reviews genannte besonders wichtige Studien wurden eigens gesichtet. Anzumerken ist, dass die Ǫualität der gesichteten Reviews recht unterschiedlich ist, was sich natürlich auf ihre Gewichtung für den vorliegenden Literaturbericht auswirkt. Einige Reviews beschränken sich weitgehend auf den Ausweis quantitativer Daten und sind wenig aussagekräftig (z.B. Fulgencio & Asino, 2021; Sandoussi, Hnida, Daoudi & Ajhoun, 2022; Sousa, Pedro & Santos, 2023). Andere bleiben inhaltlich blass oder unscharf und unterscheiden teilweise nicht deutlich genug zwischen empirisch validierten Forschungsergebnissen und thetischen Aussagen (z.B. Aksoy, Kurşun & Zawacki\-Richter, 2025; Swain & Pathak, 2024); was soll man etwa mit der Aussage anfangen, „social media are also considered good examples of OERs“ (Swain & Pathak, 2024)? Generell kann im Hinblick auf die in den Reviews analysierten Studien mit Thompson (2023, S. 42) festgestellt werden: „much of the field lacks theoretical grounding or statistical power.“
@@ -210,7 +212,9 @@ Im „OER-Whitepaper Weiterbildung“ haben Blees, Deimann, Seipel, Hirschmann u
 
 Eine weitere Studie zu Instrumenten der Ǫualitätssicherung von OER wurde von Mayrberger und Zawacki-Richter (2017) vorgelegt, die Ansätze zur Ǫualitätssicherung und -entwicklung von OER im deutschsprachigen Raum systematisierten. Auf dieser Basis entwickelten sie einen eigenen Vorschlag zur Erstellung eines Ǫualitätssicherungsinstruments (Mayrberger, Zawacki-Richter & Müskens, 2018; siehe Abb. 2). Sie unterscheiden dabei zwischen pädagogisch-didaktischen Kriterien (Inhalt und didaktische Konzeption) und technischen Kriterien (Zugänglichkeit und Usability).
 
-![Adaptiertes Qualitätsmodell](Abbildung-2.jpg)
+![Adaptiertes Qualitätsmodell](https://blossom.edufeed.org/0a87f9e584474d81776328540cb172674b4cb596f6af394f72f241c9c88ff284.jpg)
+
+<!-- TODO:LICENSE Abbildung-2.jpg -->
 Abb. 2: Vorschlag für [Ǫualitätskriterien von OER von Mayrberger, Zawacki-Richter & Müskens, 2018, S. 29](https://www.synergie.uni-hamburg.de/media/sonderbaende/qualitaetsentwicklung-von-oer-2018.pdf#page=29)
 
 

@@ -47,7 +47,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n069
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n287
-image: https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/cc-by-sa-linzenz-der-sdg-logos.jpg
+image: https://blossom.edufeed.org/46e7ac1dfaffcc67d07945005c19147e1c16e8292a8f68bf114122ac83c12f91.jpg
 datePublished: 2024-08-09
 
 # staticSiteGenerator
@@ -58,8 +58,8 @@ author:
   - Phillip Angelina
 title: 'SDG-Logos und #OER: Wie darf ich sie verwenden?'
 cover:
-  relative: true
-  image: cc-by-sa-linzenz-der-sdg-logos.jpg
+  relative: false
+  image: https://blossom.edufeed.org/46e7ac1dfaffcc67d07945005c19147e1c16e8292a8f68bf114122ac83c12f91.jpg
   hiddenInSingle: true
 summary: Dieser Beitrag untersucht, wie man die SDG-Logos kreativ in OER einbinden kann, hinterfragt dabei das Urheberrecht und experimentiert mit einer freieren Nutzung der Symbole zur Förderung globaler Bildung.
 url: sdg-logos-und-oer-wie-darf-ich-sie-verwenden
@@ -104,7 +104,8 @@ Da wir ebenfalls unser FOERBICO-Logo in den Kontext von SDG 17 "[Partnerschaften
 
 ## Kein Urheberrecht um weite Verbreitung zu erleichtern
 Die **grundlegende Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht**, die in der Verwaltungsanweisung [ST/AI/189/Add.9/Rev.1 vom 26. März 1985](https://en.wikisource.org/wiki/Administrative_Instruction_ST/AI/189/Add.9/Rev.1) dargelegt wurde, besteht darin, **kein Urheberrecht anzustreben**, um auf diese Weise **die möglichst weite Verbreitung der Ideen** in den Veröffentlichungen der Vereinten Nationen zu erleichtern.
-![](uno-urheberrecht-grundprinzipien.png)
+![Auszug der grundlegenden Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht.](https://blossom.edufeed.org/a46eef7c282706d65e20e944f3c873463eca0c96a4089316f3f6f1405afd1e11.png)
+[Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht](https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## SDGs unter Copyright?
 In den [SDG-Guidelines](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/01/SDG_Guidelines_AUG_2019_Final.pdf) der UN sah diese zunächst für die SDGs keine Möglichkeiten zur Verbreitung durch Gemeinfreiheit oder Creative-Commons-Lizenzen vor, sondern beschrieb zahlreiche Auflagen und Einschränkungen zur Verwendung der Nachhaltigkeitsziele in Bildungsressourcen unter Copyright:
@@ -118,7 +119,8 @@ Dabei sind wir als Denkmodell auf das Trilemma der Inklusion aufmerksam geworden
 
 ## Das Trilemma der Inklusion für #OER
 
-[![Die SDG Logos in OER](SDG-inklusion-OER-Video_Vorschau.png)](SDG-inklusion-OER-Video.mp4)
+[![Die SDG Logos in OER](https://blossom.edufeed.org/ce45bc856963170105cbaad2b73168a3f6948718fd4dd96ec2fa52845080697c.png)](SDG-inklusion-OER-Video.mp4)
+[Video "Trilemma der Inklusion...weitergedacht als Experiment inklusiver Bildung in Richtung SDG (Sustainable Development Goals) und OER (Open Educational Resources)"](https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/content-license-agreement/)
 
 Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/index.php/inklusion-online/article/view/413/317) kann also experimentell hier auf das Thema Copyright/Urheberrecht und die Verwendung der SDG-Symbole (Sustainable Development Goals) im Kontext von Openness und Open Educational Resources (OER) angewendet werden. Dabei lassen sich die drei Aspekte des Trilemmas – Empowerment, Normalisierung und Dekonstruktion – entsprechend übertragen:
 
@@ -140,7 +142,8 @@ Das [Trilemma der Inklusion von Mai-Anh Boger](https://www.inklusion-online.net/
 ### Konsequenzen - ein konkreter Nutzungsvorschlag
 Für [reliGlobal](https://religlobal.org/) wünschen wir uns rechtliche Klarheit seitens der UN, damit Empowerment und Normalisierung miteinander Hand in Hand gehen können. Zumindest eine Weiternutzung unter Creative-Commons-Lizenz sollte in den Richtlinien und Guidelines beschrieben und ermöglicht werden, damit Bildungsmaterialien zur Erreichung der Ziele als Open Educational Resources zur Anwendung kommen und Verbreitung und Weiterentwicklng erfahren können.
 Und wir sind glücklicherweise bei der [Deutschen UNESCO-Kommission](https://www.unesco.de/bildung/agenda-bildung-2030/bildung-und-die-sdgs) fündig geworden, denn hier sind alle 17 Logos einzeln jeweils explizit mit der [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) Lizenz zur Verwahrung, Verwendung, Verarbeitung, Vermischung und Verbreitung ([Die 5-V Freiheiten von Offenheit](https://open-educational-resources.de/5rs-auf-deutsch/)) freigegeben:
-![](cc-by-sa-linzenz-der-sdg-logos.jpg)
+![Screenshot von der Webseite der Deutschen UNESCO-Kommission zur Verwendung der SDG-Logos in Bildungskontexten abgerufen am 2. August 2024](https://blossom.edufeed.org/46e7ac1dfaffcc67d07945005c19147e1c16e8292a8f68bf114122ac83c12f91.jpg)
+[Screenshot der SDG-Logos von der Webseite der Deutschen UNESCO-Kommission](https://oer.community/sdg-logos-und-oer-wie-darf-ich-sie-verwenden/), [Deutsche UNESCO-Kommission](https://www.unesco.de/), [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/de/deed.de)
 
 Im Blick auf unser FOERBICO-Projekt sehen wir unsere Rolle sowohl in der Unterstützung und Stärkung von #OER-Communities als auch in der Neukonstruktion künftiger Praxis. Daher verwenden wir das SDG-Symbol 17, wie von der UN intendiert zu Informationszwecken für nicht-kommerzielle Zwecke und setzen auch einen Link zur [Website der Vereinten Nationen für nachhaltige Entwicklung ](https://www.un.org/sustainabledevelopment)(https://www.un.org/sustainabledevelopment) und den Hinweis:
 "The content of this publication has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States".

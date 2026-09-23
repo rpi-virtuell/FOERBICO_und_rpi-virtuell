@@ -35,7 +35,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/Herausforderung-Bildungsinfrastruktur-KI-generiert.jpg
+image: https://blossom.edufeed.org/9a94966c945f5ef16503c454aa20a7768c2c608be839159bcf824ea806d74be6.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2026-08-12
@@ -54,8 +54,8 @@ author:
   - Jannik Streek
 title: 'Just calling it Open is not enough – Hürden öffentlicher Bildungsinfrastrukturen und erste Lösungsansätze mit Nostr'
 cover:
-  relative: true
-  image: Herausforderung-Bildungsinfrastruktur-KI-generiert.jpg
+  relative: false
+  image: https://blossom.edufeed.org/9a94966c945f5ef16503c454aa20a7768c2c608be839159bcf824ea806d74be6.jpg
   alt: 'Herausforderungen öffentlicher Bildungsinfrastrukturen. Bild: Steffen Rörtgen, Gina Buchwald-Chassée und Jannik Streek, KI-generiert'
   hiddenInSingle: false
 summary: >-

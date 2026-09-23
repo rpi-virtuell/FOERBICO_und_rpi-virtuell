@@ -16,7 +16,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/konzeptionstag/Teamtreffen.jpg
+image: https://blossom.edufeed.org/41f5497792ef1cd00e9d75f1542632ef944ba0a7415e6b6c5ab46cf617180ff4.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: 2024-12-09
@@ -26,8 +26,8 @@ author:
   - Gina Buchwald-Chassée
 title: "Konzeptionstag von rpi-virtuell & FOERBICO: Gemeinsam neue Wege im religiösen Bildungsbereich gestalten!"
 cover:
-  relative: true
-  image: Teamtreffen.jpg
+  relative: false
+  image: https://blossom.edufeed.org/41f5497792ef1cd00e9d75f1542632ef944ba0a7415e6b6c5ab46cf617180ff4.jpg
   alt: Das FOERBICO & rpi-virtuell Team
   caption: Das FOERBICO & rpi-virtuell Team
   hiddenInSingle: true
@@ -111,7 +111,8 @@ Unsere gemeinsame Vision: Eine möglichst offene Lehr- und Lernkultur in der rel
 
 Nach ganz viel wichtigem Input wurde es nun etwas spielerischer: Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor? Was daraus entstehen kann, seht ihr hier:
 
-![Lego-Bauwerke](Lego.jpg "Lego®-Bauwerke")
+![Lego-Bauwerke](https://blossom.edufeed.org/50a54ecabc6c352fd20235ccf9d8e26abd4ca49a978b1389fb1f2db54cfdc25c.jpg "Lego®-Bauwerke")
+[Bauwerke vom Konzeptionstag](https://oer.community/konzeptionstag), [FOERBICO](https://oer.community), [©](https://www.gesetze-im-internet.de/urhg/)
 
 ## Ziele formulieren mit der SMART-Methode
 
@@ -173,12 +174,15 @@ Allerdings bestehen deutliche Hürden:
 
 Ein zentraler Bedarf ist daher die Bereitstellung von Tools und Unterstützungsangeboten zur Erstellung von OER. Weitere Ideen:
 
-![Mindmap "Bedarfe"](mindmap-bedarfe.jpg "Mindmap: Bedarfe religionsbezogener Communities")
+![Mindmap "Bedarfe"](https://blossom.edufeed.org/cfc9c6f71d0c22ce79d91fabfcfeaeb12a1e7f02998de606c430e33ac65cc6ec.jpg "Mindmap: Bedarfe religionsbezogener Communities")
+[Mindmap: Bedarfe religionsbezogener Communities](https://oer.community/konzeptionstag), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Die Befragungsergebnisse konnten wir während der Mittagspause sacken lassen! Danach ging es in Kleingruppen zu Community & Netzwerk sowie Technik & Werkzeuge weiter:
 
-![Community](Kleingruppe-1.jpg "Community")
-![Technik](Kleingruppe-2.jpg "Technik")
+![Community](https://blossom.edufeed.org/95afdd0b90e377d09589844bda4d3701ccf476b6f34a0e3895e07b25348a3ee2.jpg "Community")
+[Ergebnisse der Kleingruppe zu Communities](https://oer.community/konzeptionstag), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Technik](https://blossom.edufeed.org/3f1b77563f76fd26e6c4603da286207bb11b41df67414ed3a69100266efb41b8.jpg "Technik")
+[Ergebnisse der Kleingruppe zu Technik](https://oer.community/konzeptionstag), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Und dann war der Tag auch schon vorbei! Auch Rom wurde nicht an einem Tag erbaut und so arbeiten wir weiter zusammen hin zu einem Community-Hub – nun erstmal wieder digital, aber der persönliche Austausch hat uns allen gutgetan :-)
 

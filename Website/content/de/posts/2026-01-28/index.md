@@ -27,7 +27,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/interview-relimentar/RELImentarInterviewTitelpage.jpg
+image: https://blossom.edufeed.org/a5cb78bcacffea7f2bba49078c244aa110e2e3163695f315b8eeabc81dfd8c73.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -45,9 +45,9 @@ author:
   - Phillip Angelina
 title: Interview RELImentar
 cover:
-  relative: true
+  relative: false
   hiddenInSingle: true
-  image: RELImentarInterviewTitelpage.jpg
+  image: https://blossom.edufeed.org/a5cb78bcacffea7f2bba49078c244aa110e2e3163695f315b8eeabc81dfd8c73.jpg
 summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Simone Wustrack aus dem RELImentar-Team getroffen.
 url: interview-relimentar
 tags:
@@ -94,7 +94,8 @@ bilder:
  
 # Interview RELImentar
 
-![RELImentar-Logo](logo-relimentar-final-2.png)
+![RELImentar-Logo](https://blossom.edufeed.org/c5fecd69a8e100c3d35ab2b66dcd05cc982cacab4cf1ef31955f1253b3002000.png)
+[RELImentar-Logo](https://relimentar.de/), [RELImentar](https://relimentar.de/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 ## Steckbrief
 [RELImentar](https://relimentar.de/) ist eine Community, die religionsbezogene Bildung im Elementar- und Primarbereich stärkt. Auf ihrer Website steht:
@@ -102,7 +103,8 @@ bilder:
 
 RELImentar stellt einen qualitätsgeprüften Materialpool mit Praxismaterialien bereit. Die Materialien sind offen lizenziert und mit Metadaten wie beispielsweise Autor:innenschaft und Zielgruppe ausgewiesen. 
 
-![Screenshot-Materialpool](Screenshot_RELImentar.jpg)
+![Screenshot-Materialpool](https://blossom.edufeed.org/60d9ea33d20db04eda8a6dbe90d2dc8d03fa978bf759107736f8fc1c8f6bd43d.jpg)
+[Screenshot-Materialpool](https://relimentar.de/), [RELImentar](https://relimentar.de/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 Ein zentraler Baustein sind die RELImentar-Cafés. Die Cafés sind ein Raum für Fachimpulse, kollegialen Austausch und die gemeinsame Arbeit am Material. Die Teilnehmenden können nicht nur ausgewähltes Material für sich erschließen, sondern auch selbst Hand anlegen. Niedrigschwellig und praxisnah wird das in den Materialien liegende Potenzial sichtbar und nutzbar gemacht, inklusive gemeinsamer Übungen zur Anpassung an die eigene Gruppe und den jeweiligen Kontext.
 
@@ -127,7 +129,8 @@ Wir möchten konkrete Einblicke in die Arbeit mit Qualitätsmerkmalen geben, die
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
+![Tagungslogo](https://blossom.edufeed.org/1d433e3ed4ec2ff1dc0541fadc2f5b60db0603d6d9c78fcb1cc5e75030daeb76.jpg)
+[Logo zur Zwischenfazit-Tagung von FOERBICO](https://oer.community/interview-relimentar), [relilab](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), KI-generiert
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:

@@ -80,7 +80,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n086
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/oer-zeitschriften-religionspaedagogik/fachzeitschriften.jpg
+image: https://blossom.edufeed.org/de86d0192a11b368d80f39cf659fd108a92d450fe09a7f8b5299cb6cd062e313.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -101,8 +101,8 @@ author:
   - Ludger Sicking
 title: Wie steht es um die Integration religionspädagogischer Open-Access-Zeitschriften in OER-Plattformen?
 cover:
-  relative: true
-  image: fachzeitschriften.jpg
+  relative: false
+  image: https://blossom.edufeed.org/de86d0192a11b368d80f39cf659fd108a92d450fe09a7f8b5299cb6cd062e313.jpg
   hiddenInSingle: true
 summary: Wie lassen sich religionspädagogische Open-Access-Zeitschriften in OER-Plattformen wie OERSI integrieren? In einer digitalen Fachdiskussion auf Einladung von FOERBICO diskutierten Vertreter:innen aus Redaktionen, Bibliotheken, Fachgesellschaften und Plattform-Entwicklung über technische Möglichkeiten, metadatenbasierte Differenzierungen und das Spannungsfeld zwischen wissenschaftlicher Reputation und OER-Kategorisierung. Die Ergebnisse bieten Impulse für eine differenzierte Zugänglichmachung religionspädagogischer Fachliteratur im digitalen Bildungsraum.
 url: oer-zeitschriften-religionspaedagogik

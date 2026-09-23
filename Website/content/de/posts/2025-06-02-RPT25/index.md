@@ -20,7 +20,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n031
-image: https://oer.community/ki-und-religionspaedagogik/rpt25.jpg
+image: https://blossom.edufeed.org/2a90f5f2232fa26f17bb59239146061467f425a71c5f8b6309ebb8c5cc0c6e67.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -33,8 +33,8 @@ author:
   - Corinna Link
 title: 'Zwischen Utopie und Dystopie: KI und Religionspädagogik'
 cover:
-  relative: true
-  image: rpt25.jpg
+  relative: false
+  image: https://blossom.edufeed.org/2a90f5f2232fa26f17bb59239146061467f425a71c5f8b6309ebb8c5cc0c6e67.jpg
   caption: Von Daniel Ritter und von David Wakefield bearbeitetes Midjourney-Bild CC0
   alt: Ein junges Mädchen sitzt an einem Tisch und trägt ein großes Virtual-Reality-Headset. Aus dem Headset scheinen leuchtende Funken und Lichtpartikel zu strömen, die eine magische, traumartige Atmosphäre erzeugen. Der Hintergrund ist unscharf und dunkel, wodurch das Leuchten besonders hervorsticht.
   hiddenInSingle: true

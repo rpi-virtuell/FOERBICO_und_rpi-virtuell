@@ -21,7 +21,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/hoerz/cover.jpg
+image: https://blossom.edufeed.org/ede0a2bd9478564d7103e880f6ec7a9003ef3afc2c0f12c095f424913d275f29.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -39,8 +39,8 @@ author:
   - Jörg Lohrer
 title: 'Teile dein #hOERz'
 cover:
-  relative: true
-  image: cover.jpg
+  relative: false
+  image: https://blossom.edufeed.org/ede0a2bd9478564d7103e880f6ec7a9003ef3afc2c0f12c095f424913d275f29.jpg
   hiddenInSingle: true
   alt: hOERz – Holzherzen mit NFC-Chips auf der FOERBICO-Tagung (CC BY 4.0)
 summary: Rückblick auf die hOERz-Aktion bei der FOERBICO-Zwischenfazit-Tagung 2026 in Nürnberg. Holzherzen mit NFC-Chips, die ausgelesen, überschrieben und weitergegeben werden – und eine Einladung, das Format nachzunutzen.
@@ -73,7 +73,8 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by-sa/3.0/
 ---
 
-![hOERz-Logo: SDG17-Logo mit orangem Herz](foerbico-herz.png)
+![hOERz-Logo: SDG17-Logo mit orangem Herz](https://blossom.edufeed.org/9b95aea1a7a6377080dfd3dd4d02e19bc86ee275cbc8c41c2ed4901e04345bf6.png)
+[SDG17-Herz, Deutsche UNESCO-Kommission mit hOERz-Ergänzung durch FOERBICO](https://oer.community/hoerz), [FOERBICO](https://oer.community), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/3.0/)
 [SDG17-Herz](https://oer.community/hoerz), [Deutsche Unesco-Kommision](https://www.unesco.de/themen/bildung/globale-bildungsagenda/bildung-und-die-sdgs/), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/3.0/), mit hOERz-Ergänzung durch FOERBICO
 
 > **TL;DR** – Auf der FOERBICO-Zwischenfazit-Tagung haben wir ein kleines Experiment gewagt: Holzherzen mit NFC-Chips, die ausgelesen, überschrieben und weitergegeben werden. Aus einem Gimmick wurde ein Format, das OEP nicht erklärt, sondern fühlbar macht. Und: Du kannst es nachmachen. Alles offen, alles CC BY.
@@ -88,7 +89,8 @@ Was dann passierte, hat uns selbst überrascht.
 
 Schon in der ersten Kaffeepause standen Menschen vor dem Brett, hielten ihre Handys an die Herzen, zeigten sich gegenseitig, was auftauchte. Ein H5P zur Bibeldidaktik. Ein Etherpad mit einer Methodensammlung. Ein OERSI-Fund, den jemand seit Wochen teilen wollte. Bis zum Nachmittag hatten sich erste Teilnehmende getraut, ein Herz **mitzunehmen**, zu überschreiben und zurückzuhängen. Bis zum Abend war die Pinnwand ein Ort offener Bildungspraxis geworden: Herzen kamen, Herzen gingen, und keiner wusste mehr so genau, welcher Link jetzt wo hing. Genau so war es gedacht.
 
-![hOERz – Holzherzen mit NFC-Chips auf der FOERBICO-Tagung](cover.jpg)
+![hOERz – Holzherzen mit NFC-Chips auf der FOERBICO-Tagung](https://blossom.edufeed.org/ede0a2bd9478564d7103e880f6ec7a9003ef3afc2c0f12c095f424913d275f29.jpg)
+[Teile dein hOERz](https://oer.community/hoerz), [Franco Rau](https://orcid.org/0000-0003-0327-4704), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 [hOERz-Aktion auf der FOERBICO-Tagung](https://oer.community/hoerz), [Franco Rau](https://orcid.org/0000-0003-0327-4704), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Was da eigentlich passiert ist

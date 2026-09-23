@@ -16,7 +16,7 @@ creator:
       id: https://ror.org/025e8aw85
       type: Organization
 inLanguage: de
-image: https://oer.community/edufeed-pitch/ChatGPT-Plattforminseln.jpg
+image: https://blossom.edufeed.org/1a9b5a8dc1a0dac56bfafc0637a02db752960337be96d36e236e0a71aac03d5e.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -28,8 +28,8 @@ author:
   - Gina Buchwald-Chassée
 title: 'Edufeed: Dezentral. Offen. Interoperabel.'
 cover:
-  relative: true
-  image: ChatGPT-Plattforminseln.jpg
+  relative: false
+  image: https://blossom.edufeed.org/1a9b5a8dc1a0dac56bfafc0637a02db752960337be96d36e236e0a71aac03d5e.jpg
   hidddenInSingle: true
   alt: Plattform-Inseln, ChatGPT
   hiddenInSingle: true
@@ -90,5 +90,7 @@ Unser Pitch war erfolgreich und unser Antrag wurde bewilligt - es kann losgehen 
 
 Hier findet ihr unseren [Edufeed-Pitch](https://cloud.rpi-virtuell.de/s/wzGPY563q6TrARM) zum Anschauen 🎬
 
-[![Edufeed-Pitch](edufeed-pitch-vorschaubild.jpg)](https://peertube.katholisch.social/w/mR9eE4AqJEGFfWM6KvVpbd)
+[![Edufeed-Pitch](https://blossom.edufeed.org/50c452cb6037b3e3d2a12d6d72a1d51f521fd73495727ac7a7d80f108b12c8a1.jpg)](https://peertube.katholisch.social/w/mR9eE4AqJEGFfWM6KvVpbd)
+
+<!-- TODO:LICENSE edufeed-pitch-vorschaubild.jpg -->
 

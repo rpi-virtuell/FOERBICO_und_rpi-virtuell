@@ -24,7 +24,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/oerinfo-fachtag-2025/20251024_150726-min.jpg
+image: https://blossom.edufeed.org/35e1d6cbd459aa8cdbd22bf40deba3fcc62a446dcc4b8f248e4e701da545a1a3.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -37,8 +37,8 @@ author:
   - Gina Buchwald-Chassée
 title: Gemeinsam für mehr Offenheit – Eindrücke vom OERinfo-Fachtag 2025 in Frankfurt
 cover:
-  relative: true
-  image: 20251024_150726-min.jpg
+  relative: false
+  image: https://blossom.edufeed.org/35e1d6cbd459aa8cdbd22bf40deba3fcc62a446dcc4b8f248e4e701da545a1a3.jpg
   hidddenInSingle: false
   alt: OERinfo-Fachtag
   hiddenInSingle: true
@@ -83,7 +83,8 @@ Am 24. Oktober 2025 fand am [DIPF | Leibniz-Institut für Bildungsforschung und 
 
 Mit dabei waren Florian Mayrhofer ([Goethe-Universität Frankfurt, Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Religionsp%C3%A4dagogik_und_Mediendidaktik)) und Gina Buchwald-Chassée ([Comenius-Institut Münster](https://comenius.de/)) vom FOERBICO-Team, die hier ihre Einblicke mit euch teilen.
 
-![](OERinfo-Fachtag-2025-min.jpg)
+![Präsentationsfolie mit Aufschrift "Herzlich willkommen zum OERinfo-Fachtag 2025. Bildungsinfrastrukturen, digital und offen - usOER, researchOER und providOER im Trialog" am 24. Oktober 2025 im DIPF Frankfurt am Main.](https://blossom.edufeed.org/4ff55a7fc8045f9ddda4dd47fee8038695579065ff3c4ab546c38cc5ac616a3c.jpg)
+[Eröffnung vom OERinfo-Fachtag 2025](https://oer.community/oerinfo-fachtag-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Austausch zwischen Nutzer:innen, Forschung und Entwicklung
 
@@ -103,7 +104,8 @@ Die Gesprächsrunde, begleitet von intensiven Beiträgen aus der Community, orie
 - Viele Projekte bleiben in kleinen Bubbles. Wie lassen sich Brücken schlagen? 
 - Wie könnte eine ideale, zukunftsfeste OER-Infrastruktur aussehen?
 
-![](20251024_100342-min.jpg)
+![Johannes vom DIPF mit Mikrofon in der Hand als Moderator beim Trialog von usOER, researchOER und providOER beim OERinfo-Fachtag 2025.](https://blossom.edufeed.org/e4ea703de8ee9cc591258de93da1712803cbe06cafd217c1bfe13e9d3bcf151a.jpg)
+[usOER, researchOER und providOER im Trialog beim OERinfo-Fachtag 2025](https://oer.community/oerinfo-fachtag-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Workshops: OER-Infrastrukturen zum Mitmachen
 

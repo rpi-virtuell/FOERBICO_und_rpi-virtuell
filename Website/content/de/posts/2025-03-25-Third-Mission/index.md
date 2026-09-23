@@ -28,7 +28,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/third-mission/clemens-van-lay-ppJjSjpaw58-unsplash.jpg
+image: https://blossom.edufeed.org/7fa0b0e9414cdf81867eaa23453c3e7419b55d80aed6426c0bb6d820b5d07367.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -42,8 +42,8 @@ author:
   - Phillip Angelina
 title: 'Fürchtet euch nicht - OER und Third Mission '
 cover:
-  relative: true
-  image: clemens-van-lay-ppJjSjpaw58-unsplash.jpg
+  relative: false
+  image: https://blossom.edufeed.org/7fa0b0e9414cdf81867eaa23453c3e7419b55d80aed6426c0bb6d820b5d07367.jpg
   hiddenInSingle: true
 summary: Was sind Open Educational Resources? Wofür steht die Third Mission? Und was hat das mit Theologie zu tun? Phillip Angelina und Laura Mößle geben Einblick in die vielfältige Welt des „open“
 url: third-mission
@@ -64,7 +64,8 @@ bilder:
     licenceUrl: https://unsplash.com/de/lizenz
 ---
 
-![Eine rote Flagge am Strand mit dem Aufdruck "Open"](clemens-van-lay-ppJjSjpaw58-unsplash.jpg)
+![Eine rote Flagge am Strand mit dem Aufdruck "Open"](https://blossom.edufeed.org/7fa0b0e9414cdf81867eaa23453c3e7419b55d80aed6426c0bb6d820b5d07367.jpg)
+[Open-Flagge](https://unsplash.com/de/fotos/eine-rote-offene-flagge-an-einem-strand-am-meer-ppJjSjpaw58), [Clemens van Lay](https://unsplash.com/de/@clemensvanlay), [Unsplash-Lizenz](https://unsplash.com/de/lizenz)
 © [unsplash](https://unsplash.com/de/fotos/eine-rote-offene-flagge-an-einem-strand-am-meer-ppJjSjpaw58)
 
 Dieser Beitrag von Laura und Phillip aus dem FOERBICO Team erschien zuerst auf dem Theologie-Blog [y-nachten](https://y-nachten.de/2025/03/oer-und-die-third-mission/).

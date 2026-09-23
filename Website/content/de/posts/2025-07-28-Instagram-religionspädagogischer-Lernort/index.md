@@ -19,7 +19,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/instagram-als-lernort/ima_22a17d4.jpg
+image: https://blossom.edufeed.org/378b3b32f9a7debdcf460b2b9c9ea2a335c58c13a2f0053d8876e98fb1acae99.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: 2025-07-31
@@ -33,9 +33,9 @@ author:
   - Corinna Link
 title: Instagram als religionspädagogischer Lernort
 cover:
-  relative: true
+  relative: false
   hiddenInSingle: true
-  image: ima_22a17d4.jpg
+  image: https://blossom.edufeed.org/378b3b32f9a7debdcf460b2b9c9ea2a335c58c13a2f0053d8876e98fb1acae99.jpg
 summary: Erkenntnisse aus dem Gespräch von Corinna Link (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) über religiöse Kommunikation in digitalen Räumen.
 url: instagram-als-lernort
 tags:
@@ -91,9 +91,12 @@ Gerade in der Religionspädagogik stellt sich die Frage: Wie können diese Räum
 
 Der Instagram-Kanal der evangelischen Fachrichtung „Neues Testament“ (NT) an der TU Dortmund verbindet spannende News über aktuelle Forschung, Einblicke in das Theologiestudium und aufbereitete Bibelstellen lehrplanbezogener religionspädagogischer Themen - hier ein Beispiel:
 
-![](ima_2648be8.jpg)
-![](ima_a6fc6d5.jpg)
-![](ima_eb6a938.jpg)
+![Visual  mit Comic-Figur und Glühbirne vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Elia erklärt: Die "Dürre-Komposition" (1Kön 17-18) - perfekt für den Religionsunterricht.](https://blossom.edufeed.org/563ac2edb468aaa774a7cfda33982f98cbc21a489a277ac36877ba3b7ccc9527.jpg)
+[Beispiel-Visual "Elia erklärt: Die "Dürre-Komposition" (1Kön 17-18)" vom Instagram-Account @nt.evangelisch_tudortmund](https://oer.community/instagram-als-lernort/), [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund](https://eth.ht.tu-dortmund.de/professuren/neues-testament/), [©](https://www.gesetze-im-internet.de/urhg/)
+![Visual  mit Schultafel mit glücklicher Figur links und trauriger Figur rechts, die jeweils eine Münze mit einer 1 in der Hand halten vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Teaching Justice: Das Gleichnis von den Arbeitern im Weinberg (Mt, 20, 1-16)".](https://blossom.edufeed.org/464e191d7fb25ce6347042d100498e0493efc2a6bfd65e92aaa6f9c1b26849db.jpg)
+[Beispiel-Visual ""Teaching Justice: Das Gleichnis von den Arbeitern im Weinberg (Mt, 20, 1-16)" vom Instagram-Account @nt.evangelisch_tudortmund](https://oer.community/instagram-als-lernort/), [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund](https://eth.ht.tu-dortmund.de/professuren/neues-testament/), [©](https://www.gesetze-im-internet.de/urhg/)
+![Visual  mit Comic-Herzfigur, das eine Bibel in die Höhe hält vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Liebe im Religionsunterricht? Neutestamentliche Perspektiven".](https://blossom.edufeed.org/9b876a8810d6f591dccc8b2c49f437b74ac95473f89cae35b74976ad948c130a.jpg)
+[Beispiel-Visual "Liebe im Religionsunterricht? Neutestamentliche Perspektiven" vom Instagram-Account @nt.evangelisch_tudortmund](https://oer.community/instagram-als-lernort/), [Lehrstuhl für Neues Testament am Institut für Evangelische Theologie der TU Dortmund](https://eth.ht.tu-dortmund.de/professuren/neues-testament/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 Bilder und Sprache wirken bewusst niedrigschwellig, gleichzeitig ist die Botschaft klar: Das Evangelium ist anschlussfähig - auch heute. Jedes Visual bringt die Themen auf den Punkt und leitet an, wie es mit Lernenden bearbeitet werden kann.
 

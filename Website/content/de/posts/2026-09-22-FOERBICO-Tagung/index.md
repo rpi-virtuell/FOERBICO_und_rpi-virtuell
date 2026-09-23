@@ -21,7 +21,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/foerbico-tagung-2027/Screenshot-FOERBICO-Tagungsflyer.png
+image: https://blossom.edufeed.org/fe6099cdb93b9bf7c2ca1162a8de550902efa1a0b0d2a677f30cba8578382757.png
 datePublished: '2026-09-22'
 keywords:
   - Open Educational Resources (OER)
@@ -36,7 +36,7 @@ author:
   - Gina Buchwald-Chassée
 title: 'Offen. Vernetzt. Zukunft. – Tagung zu Open Education in (religionsbezogenen) Communitys'
 cover:
-  image: Screenshot-FOERBICO-Tagungsflyer.png
+  image: https://blossom.edufeed.org/fe6099cdb93b9bf7c2ca1162a8de550902efa1a0b0d2a677f30cba8578382757.png
   relative: false
   hiddenInSingle: false
 summary: >-

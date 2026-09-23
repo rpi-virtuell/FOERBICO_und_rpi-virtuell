@@ -24,7 +24,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/oer-visuelle-qualität/pictureframe.jpg
+image: https://blossom.edufeed.org/3d81bbfcdd611c7f0957fd7a8af6951eb3f2f01200156181423f6b1a3b9c363b.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -37,8 +37,8 @@ author:
   - Paula Paschke
 title: 'OER und visuelle Qualität: Eine kritische Reflexion offener Bildungsmaterialien'
 cover:
-  relative: true
-  image: pictureframe.jpg
+  relative: false
+  image: https://blossom.edufeed.org/3d81bbfcdd611c7f0957fd7a8af6951eb3f2f01200156181423f6b1a3b9c363b.jpg
   hidddenInSingle: false
   alt: 'Pictureframe (Quelle: Unsplash, mk-s-U74OlS8ANGI-unsplash, Unsplash-Lizenz)'
   hiddenInSingle: true

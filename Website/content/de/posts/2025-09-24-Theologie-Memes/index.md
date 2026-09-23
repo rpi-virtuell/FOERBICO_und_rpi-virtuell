@@ -31,7 +31,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/theologie-memes/Social-Media-Logo-Uni-Vechta.jpg
+image: https://blossom.edufeed.org/04f78d57e36c9f8b6d288918b94d20d3c67e897bfbd3bd23d4d1bf31b9401801.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -45,8 +45,8 @@ author:
   - Jonas Breuer
 title: 'Theologie trifft TikTok: Wie Memes eine neue Stimme für Glaubensfragen schaffen'
 cover:
-  relative: true
-  image: Social-Media-Logo-Uni-Vechta.jpg
+  relative: false
+  image: https://blossom.edufeed.org/04f78d57e36c9f8b6d288918b94d20d3c67e897bfbd3bd23d4d1bf31b9401801.jpg
   hiddenInSingle: true
 summary: An der Uni Vechta wird vom Institut für Katholische Theologie erprobt, wie sich theologische Inhalte auf TikTok kreativ und humorvoll vermitteln lassen. Memes dienen dabei nicht nur zur Unterhaltung, sondern auch als didaktisches Werkzeug.
 url: theologie-memes
@@ -148,9 +148,11 @@ So werden digitale Formate nicht zum Selbstzweck, sondern zu einem Reflexionsins
 
 Hier konkrete Meme-Beispiele aus dem IKT der Universität Vechta, um theologische Inhalte zu vermitteln:
 
-![Psalm 137,9](Meme-1.jpg)
+![Psalm 137,9](https://blossom.edufeed.org/09d2dd653e36021780ebe099865a1f30790eb260ad1b676c1ca320e079327e62.jpg)
+[Beispiel-Meme Psalm 137,9](https://oer.community/theologie-memes), [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie), [©](https://www.gesetze-im-internet.de/urhg/)
 Copyright: Katholische Theologie der Universität Vechta
-![Herodes](Meme-3.jpg)
+![Herodes](https://blossom.edufeed.org/d17f3d8affac6cac2fe49f05b7227fcca50df98f6b011cf1fba6fe19b3af03e7.jpg)
+[Beispiel-Meme Herodes](https://oer.community/theologie-memes), [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie), [©](https://www.gesetze-im-internet.de/urhg/)
 Copyright: Katholische Theologie der Universität Vechta
 
 **Blick nach vorn: Storytelling als didaktisches Labor**

@@ -32,7 +32,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/hackathoern/gina-ludger-joerg.jpg
+image: https://blossom.edufeed.org/e1efe94bf4f94af61c0cffa28782430f94687179e4aaae2524f4d65cf91ab816.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: 2025-05-09
@@ -44,8 +44,8 @@ author:
   - Ludger Sicking
 title: 'Rückblick auf den HackathOERn in Göttingen: Gemeinsam für starke OER-Infrastrukturen'
 cover:
-  relative: true
-  image: gina-ludger-joerg.jpg
+  relative: false
+  image: https://blossom.edufeed.org/e1efe94bf4f94af61c0cffa28782430f94687179e4aaae2524f4d65cf91ab816.jpg
   caption: Jörg, Ludger und Gina vom Comenius-Institut für das FOERBICO-Team beim HackathOERn in Göttingen
   hiddenInSingle: true
 summary: Beim ersten HackathOERn von edu-sharing diskutierten und entwickelten Expert:innen, Entwickler:innen und OER-Interessierte vom 28. bis 30. April 2025 in Göttingen, wie digitale Infrastrukturen für Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland gestärkt werden können.
@@ -117,7 +117,8 @@ Wie können wir digitale Infrastrukturen stärken, um Open Educational Resources
 
 Im Fokus standen: Vernetzung, Wissenstransfer und das gemeinsame Tüfteln an digitalen Lösungen und ersten Prototypen. Bereits im Vorfeld wurden Projektideen eingereicht, die beim HackathOERn kollaborativ weiterentwickelt wurden.
 
-![](praesentation.jpg)
+![Präsentation in den Räumen der GWDG in Göttingen mit Folie über Ziele vom HackathOERn.](https://blossom.edufeed.org/f3aa199c2cd34bc631898bd5f90098bfbc94646ecbebfc34e453c91e0c9e8a14.jpg)
+[Erster HackathOERn 2025](https://oer.community/hackathoern), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Die Projektideen im Überblick
 
@@ -167,9 +168,11 @@ Bereits letztes Jahr beim [IT-Sommercamp in Weimar](https://oer.community/einbli
 
 Beim HackathOERn wollten wir zum einen Use-Cases in den Blick nehmen (z.B. OpenCards als „Task-Card-Klon“ oder die Erweiterung um soziale Komponenten wie Likes und Kommentare) und zum anderen die komplexe und sehr technische Idee im Sinne eines „Letter to Grandma“ auch Personen vermitteln, die nicht aus dem IT-Bereich kommen. Kein leichtes Unterfangen! Doch da unsere Gruppe sehr interdisziplinär zusammengesetzt war und vielfältige Perspektiven einbringen konnte, wurde in zwei Tagen ordentlich getüftelt und einiges auf die Beine gestellt!
 
-![Die Hackerboys](hackerboys.jpg)
+![Die Hackerboys](https://blossom.edufeed.org/8b56466659604dfcf0ac126ecfb3d4c6f2e2725a6aad2eeac6d043389ed655a1.jpg)
+[Hackerteam](https://oer.community/hackathoern), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-![Hacking in Nature](hacking-in-nature.jpg)
+![Hacking in Nature](https://blossom.edufeed.org/6738f0ee1ba44bd563fc775bb4e52305d3ae067fcf5fefdec9174e942da6071d.jpg)
+[Hacking in the nature](https://oer.community/hackathoern), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Pitch Perfect: Hackathon-Ergebnisse auf der Bühne
 
@@ -177,7 +180,8 @@ Stolz präsentierten wir unsere Vision vom [Edufeed](https://www.edufeed.org/) a
 
 Stellt euch vor, jede Bildungsplattform in Deutschland wäre eine eigene Insel. Und von diesen Inseln gibt es nicht nur ein paar, sondern über 16.000, verteilt im weiten Meer des deutschen Bildungssystems. Das Problem: Diese Inseln sind größtenteils voneinander isoliert. Es gibt zwar hin und wieder kleine Brücken, die zwei Plattformen miteinander verbinden – etwa Metadatenbrücken zwischen Serlo und anderen Plattformen – doch um auf die ZUM-Insel zu gelangen, braucht es eine ganz andere Inhaltsbrücke. Jede neue Verbindung muss mühsam gebaut werden. Der Aufwand ist enorm und oft nicht nachhaltig.
 
-![Plattformem als Inseln (ein KI generiertes Bild)](plattformen-als-inseln.jpg)
+![Plattformem als Inseln (ein KI generiertes Bild)](https://blossom.edufeed.org/9c5861ac53f36e9e4e3ae9c12c7ff4e82d1dc8a8e5cc045c8ebd27402fc04da3.jpg)
+[Isolierte Plattforminseln](https://oer.community/hackathoern), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), KI-generiert
 
 Ein Beispiel zur Veranschaulichung:
 
@@ -202,4 +206,5 @@ Ansonsten wird der **2. HackathOERn vom 25.-27.08.2025 in Weimar** stattfinden, 
 Update vom 08.07.2025
 Die [Dokumentation vom HackathOERn 28.-30. April 2025, Göttingen](https://drive.google.com/file/d/18buhPrpPzSUxkCiIy8QZManpXmwVCA3q/view) von edu-sharing ist online.
 
-![](hackathoern-teilnehmer-innen.jpg)
+![Gruppenfoto der Teilnehmenden des HackathOERns 2025 vor den Räumlichkeiten der GWDG.](https://blossom.edufeed.org/c67403647ecd06b736869c2be7e45e90f29da197f4fe7bae08a608aae4f00883.jpg)
+[Gruppenfoto HackathOERn 2025](https://oer.community/hackathoern), [edu-sharing](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

@@ -18,7 +18,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/musik-oer/Music-House-Susanlenox-CC0.jpg
+image: https://blossom.edufeed.org/f6cc33bec1dc3a8816511b73411283a13c031378a549a18b18c0e7f3ffa9d62e.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: 2025-12-18
@@ -28,8 +28,8 @@ author:
   - Gina Buchwald-Chassée
 title: Weihnachtslieder, Kirchenmusik und Adventssongs - kompatibel mit OER?
 cover:
-  relative: true
-  image: Music-House-Susanlenox-CC0.jpg
+  relative: false
+  image: https://blossom.edufeed.org/f6cc33bec1dc3a8816511b73411283a13c031378a549a18b18c0e7f3ffa9d62e.jpg
   hiddenInSingle: true
 summary: Musik in offen geteilten Weihnachtsmaterialien wirft rechtliche Fragen auf. FOERBICO bietet dazu recherchierte Hinweise und Praxistipps für die rechtssichere OER-Nutzung.
 url: musik-oer

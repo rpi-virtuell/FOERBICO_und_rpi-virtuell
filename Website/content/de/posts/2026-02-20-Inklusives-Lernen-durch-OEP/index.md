@@ -17,7 +17,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/inklusives-Lernen-durch-OEP/you-belong.jpg
+image: https://blossom.edufeed.org/016e101d44bdd4524c876f37484a17b1ad3b9f93b59feac3512b2af7616db1e2.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -29,8 +29,8 @@ author:
   - Laura Mößle
 title: Offenheit bedeutet mehr als Zugang – OER, OEP und die Zukunft inklusiven Lernens
 cover:
-  relative: true
-  image: you-belong.jpg
+  relative: false
+  image: https://blossom.edufeed.org/016e101d44bdd4524c876f37484a17b1ad3b9f93b59feac3512b2af7616db1e2.jpg
   hidddenInSingle: false
   alt: 'You belong (Quelle: https://unsplash.com/de/fotos/ein-schild-das-besagt-dass-sie-von-pflanzen-umgeben-sind-pId0KssmHK4, Unsplash-Lizenz)'
   hiddenInSingle: true

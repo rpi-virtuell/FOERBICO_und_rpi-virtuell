@@ -35,7 +35,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/oer-meets-fachdidaktik/Gruppenarbeit_Tagung.jpg
+image: https://blossom.edufeed.org/3d2115e2b11da283865195b20830e0c63cb2395130292c37e7e94fa7a37527ea.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -49,8 +49,8 @@ author:
   - Phillip Angelina
 title: 'OER meets Fachdidaktik – Konferenz Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre'
 cover:
-  relative: true
-  image: Gruppenarbeit_Tagung.jpg
+  relative: false
+  image: https://blossom.edufeed.org/3d2115e2b11da283865195b20830e0c63cb2395130292c37e7e94fa7a37527ea.jpg
   hiddenInSingle: true
 summary: 'Tagungsbericht: Theologie im offenen Raum: OER als Katalysator für Innovation in der Hochschullehre. Jahrestagung des Netzwerks Theologie und Hochschuldidaktik im Februar 2025'
 url: oer-meets-fachdidaktik
@@ -84,7 +84,8 @@ bilder:
 
 In der Fahrradstadt, in der die Glocken läuten und es fast immer regnet (Münster), kamen Laura Mößle aus dem Projekt FOERBICO (GU-Frankfurt), Paula Paschke aus dem Projekt [TiRU](https://www.uni-frankfurt.de/133803251/Forschungsprojekte_Religionsp%C3%A4dagogik#a_0d817d3d-60a14121) (GU-Frankfurt) und Phillip Angelina aus dem Projekt FOERBICO (FAU Erlangen-Nürnberg) zusammen, um gemeinsam an der Jahrestagung des Netzwerks *Theologie und Hochschuldidaktik* vom 24. bis 25. Februar 2025 teilzunehmen. Grundidee der Veranstaltung war es, mit Fachdidaktiker:innen verschiedener theologischer Disziplinen über die Themen OER und OEP aus hochschuldidaktischer Perspektive zu diskutieren.
 Das Spektrum an Vorkenntnissen zu OER der Tagungsteilnehmer:innen war breit: Von OER-Ersteller:innen bis hin zu OER-Neulingen waren Fachdidaktiker:innen verschiedener theologischer Disziplinen aus ganz Deutschland und Österreich angereist.
-![Notizen mit Markdown](Markdown_Tagung.jpg)
+![Notizen mit Markdown](https://blossom.edufeed.org/c34c3b8a65efda66633a1e6791c9e6acff8271f9fef2b811cd7986292f3bad34.jpg)
+[Tagungsnotizen mit Markdown](https://oer.community/oer-meets-fachdidaktik), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Die Tagungsgestaltung reichte von einer Einführung in die OER/OEP-Thematik ([ORCA.nrw](https://www.orca.nrw/)), Projektvorstellungen, ([KodiLL](https://www.uni-augsburg.de/de/forschung/projekte/kodill/),[Diskursives Lehren – nachhaltiges Lernen](https://www.ktf.uni-bonn.de/faecher/alt-neues-testament-alt/aktuelles/aktuelles-ressourcen/diskursives-lehren-nachhaltiges-lernen), [TiRu](https://www.uni-frankfurt.de/133803251/Forschungsprojekte_Religionsp%C3%A4dagogik#a_0d817d3d-60a14121), [FOERBICO](https://oer.community)), inhaltlichen Fragestellungen aus der OER-Praxis bis hin zu intensiven Gruppenarbeitselementen, in denen unterschiedliche Zugänge, Perspektiven und Fragen zu OER und OEP zur Sprache kamen.
 
@@ -93,7 +94,8 @@ Die Tagungsgestaltung reichte von einer Einführung in die OER/OEP-Thematik ([OR
 Auch wir durften einen Beitrag mit dem Titel *OER und visuelle Qualität: Eine kritische Reflexion von Open Educational Resources in der theologischen Hochschullehre* präsentieren. Dabei haben wir Fragen aufgeworfen, die sich in unseren Projekten TiRU und FOERBICO ergeben haben und die insbesondere im Hinblick auf die theologische Auseinandersetzung mit Bildkulturen diskutiert werden sollten. Unser Anliegen war: Wie kann eine kritische Auseinandersetzung mit bildbasierten OER in der theologischen Hochschullehre gelingen?
 Unsere Erkenntnisse aus den Projekten FOERBICO und TiRU sind, dass digitale Bildkulturen neue Herausforderungen für die ästhetische Bildung im Kontext von OER darstellen. Enge Lizenzbedingungen für die Erstellung von OER verleiten dazu, auf KI-generierte Bilder oder Stockfotografie zurückzugreifen. Zentrales Anliegen einer neuen Bilddidaktik, die sich an diesen digitalen Transformationsprozessen orientiert, sollte die Entdeckung von Mehrdeutigkeit und Raum für theologische Tiefe ermöglichen. Welche Impulse die theologischen Disziplinen für die Erweiterung einer solchen Bilddidaktik geben können, ist auch in Zukunft noch auszuloten.
 Des Weiteren wurde im weiteren Verlauf der Tagung insbesondere mit Blick auf die Hochschullehre diskutiert, ob Kosten-Nutzen von OER-Erstellung in Relation stehen und die Erwartungen mit Blick auf Bildungsverständnis und -gerechtigkeit an OER erfüllt werden können. Immer wieder kehrten wir zu der Kernfrage zurück: *Welchen didaktischen Mehrwert haben OER für die theologische Hochschullehre?*
-![Gruppenarbeits Ergebnisse](Gruppenarbeit_Tagung.jpg)
+![Gruppenarbeits Ergebnisse](https://blossom.edufeed.org/3d2115e2b11da283865195b20830e0c63cb2395130292c37e7e94fa7a37527ea.jpg)
+[Ergebnisse Gruppenarbeit zum Mehrwert von OER für die theologische Hochschullehre](https://oer.community/oer-meets-fachdidaktik), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Impulse zur Weiterarbeit
 

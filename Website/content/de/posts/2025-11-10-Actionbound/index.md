@@ -24,7 +24,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/wertebildung/Titelbild-Martin.jpg
+image: https://blossom.edufeed.org/59369c789adb915fffcc7e7d7a0c8255f76946c489977f0a7a1ec0c8be77b836.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: 2025-11-10
@@ -35,8 +35,8 @@ author:
   - Simone Dinse de Salas
 title: Wertebildung im digitalen Zeitalter - Auf den Spuren von Martin
 cover:
-  relative: true
-  image: Titelbild-Martin.jpg
+  relative: false
+  image: https://blossom.edufeed.org/59369c789adb915fffcc7e7d7a0c8255f76946c489977f0a7a1ec0c8be77b836.jpg
   hiddenInSingle: true
 summary: Wertebildung ist ein Prozess der Selbst- und Welterschließung, der in der digitalen Lebenswelt Räume für Verantwortung und Empathie eröffnet. Das Projekt „Auf Martins Spuren“ zeigt, wie sich Tradition und Digitalität wirksam verbinden lassen.
 url: wertebildung
@@ -111,7 +111,8 @@ Lernende werden so nicht nur zu Konsument:innen, sondern zu **aktiv Beteiligten 
 Im Bound *„[Auf Martins Spuren](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)“* gehen Schülerinnen und Schüler mit **Smartphone, Herz und Verstand** auf eine Reise durch die Geschichte des heiligen Martin.  
 Sie lösen Rätsel, diskutieren moralische Dilemmata und gestalten eigene Beiträge – etwa, indem sie das Wort *Frieden* mit Steinen legen oder einen *Ort der Stille* fotografieren.
 
-![](Hinweis-Actionbound.png)
+![Instagram-Visual mit Vorstellung von Actionbound als Lernraum für Werte.](https://blossom.edufeed.org/294215127a964c71de00918889df7b01a6cd87dbc240e600dcfcf8e064f307e1.png)
+[Instagram-Visual zu Actionbound](https://oer.community/wertebildung/), [Simone Dinse de Salas & Corinna Link](https://rpi-virtuell.de/), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)
 
 ---
 
@@ -133,7 +134,8 @@ Jede Station kombiniert digitale Aufgaben, Reflexion und kreative Umsetzung im R
 6. **Martin, der Bischof – Verantwortung übernehmen**  
    → Auf Gänsefeder schreiben: „Was könnte ich besser machen?“
 
-![](Hinweis-Martin.jpg)
+![Instagram-Visual mit Vorstellung von Martin von Tours mit Comic-Zeichnung.](https://blossom.edufeed.org/eb72c24cfeb68317726b6d67d6a9da60933a07f5db8707083d86eb93905959cf.jpg)
+[Instagram-Visual zu Martin von Tours](https://oer.community/wertebildung/), [Simone Dinse de Salas & Corinna Link](https://rpi-virtuell.de/), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)
 
 ---
 
@@ -268,7 +270,8 @@ Offen gestaltete Materialien (Aufgaben, Texte, Objekte) sind als **OER adaptierb
 → Arbeitsaufträge, Reflexionsfragen und Bound-Struktur können frei weiterentwickelt werden.
 Es kommt allerdings auf die jeweilige Actionbound-Lizenz an, hier ein Überblick:
 
-![](Actionbound-Übersicht.png)
+![Übersicht über die Nutzungsmöglichkeiten von Actionbound je nach Kontotyp bzw. Lizenz. Generiert mit ChatGPT.](https://blossom.edufeed.org/b63af4614d6d8a5cd35a74acb908c4b35dde6d882cb20a5d5ecee8286a342a94.png)
+[Übersicht über Nutzungsmöglichkeiten von Actionbound](https://oer.community/wertebildung/), [FOERBICO](https://oer.community), [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed), KI-generiert
 
 Zum [Bound](https://de.actionbound.com/bound/mission-pausenhof---goldene-feder-und-zerbrochenes-schwert)
 

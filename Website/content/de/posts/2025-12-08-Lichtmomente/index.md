@@ -27,7 +27,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/lichtmomente/Titelbild.jpg
+image: https://blossom.edufeed.org/99da4db3f643735d8a46fd19959453219791b3dbf57bb0b7e3e7d3fbe0b2df43.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: 2025-12-08
@@ -43,9 +43,9 @@ author:
   - Phillip Angelina
 title: Instagram als religionspädagogischer Lernort
 cover:
-  relative: true
+  relative: false
   hiddenInSingle: true
-  image: Titelbild.jpg
+  image: https://blossom.edufeed.org/99da4db3f643735d8a46fd19959453219791b3dbf57bb0b7e3e7d3fbe0b2df43.jpg
 summary: Lichtmomente im Advent- Digitale Erfahrungsräume als Schnittstelle von Religionspädagogik, Wissenschaft und Praxis gestaltet von Corinna Link (Comenius-Institut) und Lara Gotthard (ETH - TU Dortmund) im Instagramformat.
 url: lichtmomente
 tags:
@@ -155,15 +155,18 @@ Jeder Post funktioniert als Story-Starter:
 ein Element, das Funken schlägt — und das Kinder, Jugendliche oder auch Erwachsene weiterdenken, remixen, kommentieren oder im Unterricht aufgreifen können.
 Die Reihe umfasst drei Impulse:
 1. einen Poetry-Slam zu [Jes 9,1–6](https://www.die-bibel.de/bibel/LU12/ISA.9)
-![Dunkelheit](10.jpg)  
+![Dunkelheit](https://blossom.edufeed.org/a1bc1084d251bf5a11338a86999e6e9444f2b6948fd08f87a7df7a411ba1324c.jpg)
+[Instagram-Visual Lichtmomente - Dunkelheit und Licht](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 2. eine Bibel-Spurensuche in [Mt 2](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2](https://www.die-bibel.de/bibel/LU12/LUK.2)
-![Lupe](1.jpg)  
+![Lupe](https://blossom.edufeed.org/d7aea3a6d78e985b0db66e6db4d18a807ca13741a334fae4cfbfb28346d183cd.jpg)
+[Instagram-Visual Lichtmomente - Bibel-Spurensuche](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 3. einen globalen Weihnachtsimpuls zu [Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)
-![Weihnachten](Weihnachtenglobal.jpg)  
+![Weihnachten](https://blossom.edufeed.org/1a3896f9b99fc3f1bf09274bf8c4fb6899662a8dbfb199be87eed97bef66cbc3.jpg)
+[Instagram-Visual Lichtmomente - Weihnachten global entdecken](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 ## **Lichtmoment 1**: Jesaja 9,1–6 – Wenn Dunkel spricht, schweigt Gott nicht
@@ -172,7 +175,8 @@ Der erste Impuls beginnt mit einem für die Adventszeit zentralen Text: [Jes 9,1
 Der Prophet spricht in eine Zeit politischer Unsicherheit, sozialer Spannungen und kollektiver Angst hinein. Die Menschen, an die er sich richtet, „wandeln im Finstern“.
 Aus diesem Grund entfaltet seine Verheißung eine besondere Kraft:
 „Das Volk, das im Finstern wandelt, sieht ein helles Licht.“
-![Bibeltext](17.jpg)  
+![Bibeltext](https://blossom.edufeed.org/55e38634e55db4e99f9db2d9626eff6d65ac20a27c21f84c968653d7cae07717.jpg)
+[Instagram-Visual Lichtmomente - Bibeltext in leichter Sprache](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 Diese Zusage ist kein Vertröstungsversprechen, sondern eine theologische Gegenrede zur Erfahrung von Bedrängnis. Sie markiert den Beginn einer Hoffnung, die nicht von stabilen äußeren Bedingungen ausgeht, sondern von Gottes Zuwendung.
@@ -185,7 +189,8 @@ Schau dir den ganzen Stundenentwurf auf Instagram an bei rpi-virtuell an [Dunkel
 
 ## **Lichtmoment 2**: Bibel-Spurensuche – Dem Licht auf der Spur in [Mt 2,1-12](https://www.die-bibel.de/bibel/LU12/MAT.2) und [Lk 2,1-20](https://www.die-bibel.de/bibel/LU12/LUK.2)
 
-![Zielgruppe](2.jpg)  
+![Zielgruppe](https://blossom.edufeed.org/b137539f83390be93d2a329575a80960e89614b1299521979f1a84858876d361.jpg)
+[Instagram-Visual Lichtmomente - Gehe mit Schüler:innen auf Bibel-Spurensuche](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 Im zweiten Impuls begeben sich die Lernenden bewusst auf Spurensuche: Wo taucht Licht in den Weihnachtsgeschichten auf – und welche Funktion hat es dort? 
@@ -199,14 +204,16 @@ Anschließend füllen sie in Partnerarbeit die LICHTSPUR-KARTE als [PDF-Datei](L
   - Welche Rolle spielt das Licht heute?
 
 Es erfolgt ein weiterer Austausch zwischen einem Pärchen aus Gruppe A und einem Pärchen aus Gruppe B.
-![Arbeitsblatt](6.jpg)  
+![Arbeitsblatt](https://blossom.edufeed.org/6ee73c0a393e040dda2d7702b259e35226355e4d5027be9398823a77c49aed65.jpg)
+[Instagram-Visual Lichtmomente - Arbeitsblatt](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 Schau dir den ganzen Stundenentwurf auf Instagram an bei nt.evangelisch_tudortmund [Spurensuche](https://www.instagram.com/p/DR_5C55jVfB/?igsh=MW1mNGV6aWV4OWU4cw%3D%3D).
 
 ## **Lichtmoment 3**:„Ich bin das Licht der Welt“ – Weihnachten global denken (Joh 8,12)
 
-![GlobalesLernen](GlobalesLernen.jpg)  
+![GlobalesLernen](https://blossom.edufeed.org/4e403be8ea12c11fe6fb2ac490046a7a93565562f3203817cf3a42c0ed3441a1.jpg)
+[Instagram-Visual Lichtmomente - Weihnachten: Lernraum für globale Perspetiven](https://oer.community/lichtmomente), [FOERBICO](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)  
 *mit Canva erstellt*
 
 Der dritte Impuls „Ich bin das Licht der Welt.“ ([Joh 8,12](https://www.die-bibel.de/bibel/LU12/JHN.8)) soll den Lernenden verdeutlichen, Weihnachten ist kein lokales Ereignis, sondern ein globales Lichtgeschehen.

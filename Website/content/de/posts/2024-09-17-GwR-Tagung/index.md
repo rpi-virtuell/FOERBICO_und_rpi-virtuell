@@ -24,13 +24,14 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: 2024-09-17
 
+image: https://blossom.edufeed.org/b15b2c79d81feca46ff81630627b0859c025f01c1e4462f014f24b53366ea373.jpg
 # staticSiteGenerator
 author:
   - Laura Mößle
 title: 'Sichtbarkeit und Netzwerk durch OER stärken: FOERBICO auf der GwR-Tagung in Würzburg zum Thema Öffentlichkeitsarbeit '
 cover:
-  relative: true
-  image: FOERBICO-Workshop-GwR-Tagung-2024.jpg
+  relative: false
+  image: https://blossom.edufeed.org/b15b2c79d81feca46ff81630627b0859c025f01c1e4462f014f24b53366ea373.jpg
   hiddenInSingle: true
 summary: Unter dem spannenden Motto „...hier sollte eigentlich ein Titel stehen“ fand die diesjährige GwR-Tagung vom 13. bis 15. September 2024 in Würzburg statt und widmete sich dem Thema „Wissenschaftskommunikation in der Religionspädagogik“. Die Tagung bot eine Vielzahl bereichernder Vorträge, die aktuelle Trends in der Wissenschaftskommunikation, Erfahrungsberichte von universitären Akteur*innen, Aspekte der öffentlichen Theologie sowie wirksame Formen der Wissenschaftskommunikation beleuchteten. Auch Themen wie Internationalisierungsbestrebungen in der wissenschaftlichen Religionspädagogik fanden ihren Platz im Programm.
 url: sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit
@@ -75,7 +76,8 @@ Eines unserer Anliegen war es, das Thema Open Educational Resources (OER) und Op
 
 Nachdem alle Teilnehmenden die von ihnen gewählten Sätze vervollständigt und mit ihrem Sitznachbar:in ausgetauscht hatten, stellten sie sich im Plenum anhand dieser Sätze vor. So hatten wir direkt einen ersten wertvollen Eindruck von der Gruppe.
 
-![](FOERBICO-Workshop-GwR-Tagung-2024.jpg)
+![Vorstellung des FOERBICO-Projektes durch die Goethe-Universität Frankfurt a.M. auf GwR-Tagung 2024 in Würzburg.](https://blossom.edufeed.org/b15b2c79d81feca46ff81630627b0859c025f01c1e4462f014f24b53366ea373.jpg)
+[FOERBICO-Workshop bei GwR-Tagung](https://oer.community/sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit), [FOERBICO](https://oer.community), [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## „5V-Freiheiten“ und der Mehrwert von OER für die Öffentlichkeitsarbeit
 
@@ -91,7 +93,8 @@ Im Rahmen dieser OER-Förderstrategie konnte das Projekt FOERBICO in der ersten 
 
 Aber was genau ist eigentlich FOERBICO? Und wie lässt sich dieses Projekt der wissenschaftlichen Community der evangelischen Religionspädagog:innen auf ansprechende und verständliche Weise vermitteln? Ein Vorteil unseres Workshops war, dass die Teilnehmenden bereits mit den zentralen OER-Akteuren in der religiösen Bildung vertraut waren. Plattformen wie rpi-virtuell, reliGlobal, relilab, narrt und schule-evangelisch-digital sind vielen bekannt. Auf dieser Basis konnten wir die Ziele von FOERBICO verdeutlichen: Es geht um die Vernetzung dieser Akteure, sowohl innerhalb der wissenschaftlichen Religionspädagogik und Theologie als auch darüber hinaus mit anderen OER-Communities wie OERinfo oder WLO.
 
-![Aussagen zu OER-Vorteilen auf einem Flipchart](Vorteile-von-OER-flipchart.jpg)
+![Aussagen zu OER-Vorteilen auf einem Flipchart](https://blossom.edufeed.org/16bfab497aa0b600562c0b03769a3c843ba19b7d0913cb07d1d0ed0fb5a0994b.jpg)
+[Aussagen zu OER-Vorteilen](https://oer.community/sichtbarkeit-und-netzwerk-durch-oer-staerken-foerbico-auf-der-gwr-tagung-in-wuerzburg-zum-thema-oeffentlichkeitsarbeit), [FOERBICO](https://oer.community), [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Themen-Speed-Dating: Impulse für OER-Standards, Bedarfe und Wissenschaftskommunikation
 

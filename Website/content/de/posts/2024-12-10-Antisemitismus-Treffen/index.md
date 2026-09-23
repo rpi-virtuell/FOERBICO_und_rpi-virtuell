@@ -16,7 +16,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/gemeinsam-gegen-antisemitismus/Community-Treffen.jpg
+image: https://blossom.edufeed.org/92c38e4fd991150d854ac61ad13df8551b1e06d3b8ae8277e365fe0891c37e7f.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -27,8 +27,8 @@ author:
   - Gina Buchwald-Chassée
 title: Gemeinsam gegen Antisemitismus - Wie eine Community antisemitismuskritische Bildung stärken kann
 cover:
-  relative: true
-  image: Community-Treffen.jpg
+  relative: false
+  image: https://blossom.edufeed.org/92c38e4fd991150d854ac61ad13df8551b1e06d3b8ae8277e365fe0891c37e7f.jpg
   hiddenInSingle: true
 summary: Wie können wir vernetzen, um Antisemitismuskritik in der Bildung zu fördern? Darum ging es beim offenen Online-Treffen am 28.11.2024 von 11 - 12:30 Uhr, bei dem rund 20 Bildungsakteure aus verschiedenen Netzwerken zusammengekommen sind.
 url: gemeinsam-gegen-antisemitismus

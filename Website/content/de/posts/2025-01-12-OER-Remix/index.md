@@ -34,6 +34,7 @@ educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_C
 datePublished: 2025-01-12
 
+image: https://blossom.edufeed.org/506a6efe81f0f8bf16681db5a154e3d8e4bfd0ff779b0bb745d642f7b75a550e.jpg
 # staticSiteGenerator
 author:
   - Corinna Link
@@ -41,8 +42,8 @@ author:
   - Niels Winkelmann
 title: 'OER-Materialien: Welche Lizenz nehme ich?'
 cover:
-  relative: true
-  image: CC_License_Compatibility_Chart.jpg
+  relative: false
+  image: https://blossom.edufeed.org/506a6efe81f0f8bf16681db5a154e3d8e4bfd0ff779b0bb745d642f7b75a550e.jpg
   hiddenInSingle: true
 summary: Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. In diesem Blogbeitrag wollen wir euch einen Überblick über die verschiedenen CC-Lizenzen geben und zeigen, wie ihr sie auch beim Remix von OER-Materialien einsetzen könnt.
 url: oer-remix
@@ -98,7 +99,8 @@ Doch du kannst nicht alle Früchte miteinander kombinieren, um bei dem Smoothie-
 
 **Hier eine Übersicht:**
 
-![Vereinbarkeit von CC Lizenzen](CC_License_Compatibility_Chart.jpg)  
+![Vereinbarkeit von CC Lizenzen](https://blossom.edufeed.org/506a6efe81f0f8bf16681db5a154e3d8e4bfd0ff779b0bb745d642f7b75a550e.jpg)
+[Vereinbarkeit von CC Lizenzen](https://oer.community/oer-remix), [Kennisland](https://wiki.creativecommons.org/wiki/File:CC_License_Compatibility_Chart.png), [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  
 Created by Kennisland published under a CC0 license, vgl. https://wiki.creativecommons.org/wiki/Wiki/cc_license_compatibility
 
 **Hier sind Beispiele, wie du CC-Lizenzen beim Remix berücksichtigen kannst:**

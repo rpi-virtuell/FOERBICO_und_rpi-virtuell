@@ -27,7 +27,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/evangelisches-labor/greg-und-joerg-we-are-open.jpg
+image: https://blossom.edufeed.org/1b1d3fca83fb2a55ea30861f35a80bb4be236dc185d82b44c1260a9907a06276.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 datePublished: 2025-04-15
@@ -38,8 +38,8 @@ author:
   - Greg Elson
 title: Religionsbezogene Bildung und evangelische Publizistik - Auf dem Weg zu einem offenen Netzwerk als neue Ermöglichungsstruktur
 cover:
-  relative: true
-  image: greg-und-joerg-we-are-open.jpg
+  relative: false
+  image: https://blossom.edufeed.org/1b1d3fca83fb2a55ea30861f35a80bb4be236dc185d82b44c1260a9907a06276.jpg
   caption: Greg Elson (Gemeinschaftswerk evangelische Publizistik) und Jörg Lohrer (Comenius-Institut) mit Schriftzug 'We are open' - Screenshot Zoom-Videokonferenz)
   hiddenInSingle: true
 summary: Ein Gespräch zwischen Greg Elson (GEP) und Jörg Lohrer (Comenius-Institut) eröffnet Perspektiven auf dezentrale Bildungs- und Medienarchitekturen im protestantischen Raum. Es geht um die Befreiung der Daten, die Ermöglichung partizipativer Infrastrukturen und das gemeinsame Entwerfen eines offenen Netzwerkraums - dem Evangelischen Labor oder eines Open Net.

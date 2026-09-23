@@ -21,7 +21,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
-image: https://oer.community/oep-von-ressourcen-zu-praktiken/oer-cube.jpg
+image: https://blossom.edufeed.org/8d82bed2623f3e752c447fa4fbb50de9d46caf7b941fab4abddcdb0335dce04f.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -34,8 +34,8 @@ author:
   - Ehlers Ulf-Daniel
 title: Open Educational Practices - Von Ressourcen zu Praktiken
 cover:
-  relative: true
-  image: oer-cube.jpg
+  relative: false
+  image: https://blossom.edufeed.org/8d82bed2623f3e752c447fa4fbb50de9d46caf7b941fab4abddcdb0335dce04f.jpg
   caption: 'Symbolbild: Der Würfel aus Bildern symbolisiert die Vielfalt offener Bildungsressourcen (OER) und die Vernetzung in Open Educational Practices (OEP) - frei kombinierbar, zugänglich und gemeinschaftlich gestaltbar'
   alt: Ein 3D-Bild eines schwarzen Würfels, dessen Flächen aus vielen rechteckigen Screens bestehen. Auf jedem Screen ist ein Foto oder Bild dargestellt, z. B. Landschaften, Architektur, Tiere, Kunstwerke, Symbole und Objekte in kräftigen Farben. Der Würfel ist leicht gedreht im Raum schwebend, mit blauer Hintergrundbeleuchtung, sodass er futuristisch und modern wirkt. Der Stil soll fotorealistisch und detailreich sein, wie eine digitale Collage aus kleinen Monitoren.
   hiddenInSingle: true
@@ -101,7 +101,8 @@ OEP ist also nicht nur eine didaktische Technik, sondern ein **ganzheitlicher An
 
   
 
-![Figure 2: Matrix 1 . Constitutive Elements of OEP (Ehlers 2011)](constitutive-elements-of-OEP-Ehlers-2011.jpg)
+![Figure 2: Matrix 1 . Constitutive Elements of OEP (Ehlers 2011)](https://blossom.edufeed.org/036b527da27888ec5d70e4128c4fce4358de2dcc8d1666d543b0c5b53bf24eb0.jpg)
+[Matrix 1. Constitutive Elements of OEP](https://oer.community/oep-von-ressourcen-zu-praktiken), [Prof. Dr. Ulf-Daniel Ehlers](https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Vergleichende Modelle: Cronin, Hegarty, UNESCO
 

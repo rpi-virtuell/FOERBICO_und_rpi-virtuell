@@ -33,7 +33,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n121
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n545
-image: https://oer.community/libori-social/liboriSocial_postcard.jpg
+image: https://blossom.edufeed.org/3f1b0f88fcd2ba347ceb81aa1de41e89e268c8ee9ef2e84ab6a5be06ee13ac9b.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -47,8 +47,8 @@ author:
   - Jörg Lohrer
 title: Ein Starterkit für Mastodon-Instanzen vom pastoralen Netzwerk libori.social
 cover:
-  relative: true
-  image: liboriSocial_postcard.jpg
+  relative: false
+  image: https://blossom.edufeed.org/3f1b0f88fcd2ba347ceb81aa1de41e89e268c8ee9ef2e84ab6a5be06ee13ac9b.jpg
   hiddenInSingle: true
 summary: Alexander hat die Mastodon-Instanz libori.social mit dem Ziel aufgebaut, katholische und pastorale Akteure im Erzbistum Paderborn zu vernetzen.
 url: libori-social
@@ -93,7 +93,8 @@ Die Idee einer Einstiegsseite für Mastodon entstand aus dem Bedürfnis heraus, 
 
 >  "Ich bin mir natürlich auch bewusst, dass Mastodon einfach eine Plattform ist, die erst mal noch sehr in der Nische ist. Aber in meinen Augen bietet sie den Vorteil, dass, sie erst mal eine offene Bubble darstellt. Man kann einfach verlinken und es erst mal niederschwellig zur Verfügung stellen. Soweit man Lust hat, sich da mal reinzuklicken, geht's dann weiter."
 
-[![](liboriSocial_postcard.jpg)](https://start.libori.social)
+[![Vorstellung der Mastodon-Instanz libori.social als pastorles Netzwerk im Erzbistum Paderborn, Pfau stammt aus der Google-Schriftart Noto-Emojie, die unter der Open Font License steht.](https://blossom.edufeed.org/3f1b0f88fcd2ba347ceb81aa1de41e89e268c8ee9ef2e84ab6a5be06ee13ac9b.jpg)](https://start.libori.social)
+[Vorstellung der Mastodon-Instanz libori.social als pastorles Netzwerk im Erzbistum Paderborn](https://oer.community/libori-social/), [Alexander Müller, libori.social](https://libori.social), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Die libori.social-[Einstiegsseite](https://start.libori.social/):
 
@@ -138,7 +139,8 @@ Um diese Idee zu verwirklichen, schlägt Alexander folgende konkrete Schritte vo
 Die Initiative von libori.social zeigt, wie aus einer einfachen Idee ein bedeutendes Projekt entstehen kann. Die Vision eines größeren kirchlichen Mastodon-Netzwerks ist ambitioniert, aber realistisch. Durch Zusammenarbeit, Offenheit und Engagement kann dieses Netzwerk zu einem lebendigen und wertvollen Ort für kirchliche Gemeinschaft, religionsbezogene Bildung und den überkonfessionellen Austausch werden.
 
 Wir haben uns von Alexander inspirieren lassen, sein Starterpaket als Einstiegsseite für unseren Mastodon-Server anzupassen und gemeinsam an der Weiterentwicklung zu arbeiten.
-[![](startodon-reliverse.jpg)](https://startodon.oer.community)
+[![Screenshot der Willkommensseite der Mastodon-Instanz reliverse.social, Hintergrundbild unter [Unsplash-Lizenz](https://unsplash.com/de/fotos/ein-paar-handys-bQRqXz7mZe4).](https://blossom.edufeed.org/caa5ec2a51de9354cee2f1486c66e04a7d0b09b6099ed771254cf573727fe267.jpg)](https://startodon.oer.community)
+[Screenshot der Willkommensseite der Mastodon-Instanz reliverse.social (abgerufen am 08.12.2024)](https://oer.community/libori-social/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Unter https://startodon.oer.community gibt es einen Einstieg mit Empfehlungen zur religionsbezogenen Bildung und die herzliche Einladung an Religionslehrkräfte, Ehrenamtliche oder Fortbildende sich auf https://reliverse.social zu registrieren, anzumelden und mit uns in den offenen Austausch zu kommen.
 

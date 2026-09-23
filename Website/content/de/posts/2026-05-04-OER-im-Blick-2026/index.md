@@ -35,7 +35,7 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/oer-im-blick-2026/OER-im-Blick-2026-Titelbild.jpg
+image: https://blossom.edufeed.org/943ce6e608b0d3b004935444043c7e070bbb2d1dbac48c78cb8e6c2842e27999.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2026-05-05'
@@ -52,8 +52,8 @@ author:
   - Phillip Angelina
 title: 'OER im Blick 2026 - Welcome to the Jungle'
 cover:
-  relative: true
-  image: OER-im-Blick-2026-Titelbild.jpg
+  relative: false
+  image: https://blossom.edufeed.org/943ce6e608b0d3b004935444043c7e070bbb2d1dbac48c78cb8e6c2842e27999.jpg
   hiddenInSingle: true
 summary: >-
   Am 28. und 29. April 2026 fand in Köln die Statuskonferenz „OER im Blick“ im Rahmen der OER-Strategie des Bundes statt. Wie schon in den Vorjahren wurde die Veranstaltung an einem besonderen Ort durchgeführt – diesmal im smartvillage mit lateinamerikanischem Flair. Im Blogbeitrag teilen wir Eindrücke vom FOERBICO-Team mit euch.
@@ -108,7 +108,8 @@ Auch in den Workshops, Vorträgen sowie vorgestellten OE_Space-Pitchprojekten wu
 
 Open Educational Resources stehen für Offenheit, Vielfalt und Gestaltungsfreiheit, zugleich aber auch für Unübersichtlichkeit, Unsicherheit und Orientierungslosigkeit. Im Workshop stellten Laura und Phillip die im FOERBICO Projekt entwickelten Qualitätskriterien für OER vor und beleuchteten deren Entstehung, Anwendung und Weiterentwicklung. 
 
-![](OER-im-Blick-2026-Workshop.jpg)
+![Teilnehmende des Workshops bei der OER im Blick 2026 sitzen auf Tribüne, während Phillip unten steht und das FOERBICO-Projekt präsentiert.](https://blossom.edufeed.org/f2f6f3a4e0f840f51383aa18f95aa1ca8ebde9270d380b8f9f89902facb781fb.jpg)
+[FOERBICO-Workshop bei der OER im Blick 2026](https://oer.community/oer-im-blick-2026/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Zu Beginn wurden die Teilnehmenden gebeten, eine konkrete Herausforderung bzw. „Stolperstelle“ zu benennen, die ihnen im Umgang mit OER begegnet ist. Nach einer kurzen Sammlung und ersten Einordnung dieser Aspekte führten Phillip und Laura in die OER-Qualitätskriterien ein. Diese umfassen vier Dimensionen – didaktisch-pädagogische, rechtliche, technische sowie religionspädagogische Aspekte – und dienen als strukturierender Orientierungsrahmen für Reflexion und Qualitätsentwicklung.
 Dabei wurde auch auf Expert:inneninterviews Bezug genommen, die im Zuge des Entwicklungsprozesses unterschiedliche Qualitätsverständnisse aus Wissenschaft und Praxis sichtbar machten. Die Qulitätskriterien wurden nicht nur theoretisch besprochen, sondern mit den Teilnehmenden auf ihre jeweilige "Stolperstelle" angewandt. Die Rückmeldungen und Impressionen halfen Chancen und Grenzen dieser aufzuzeigen und zugleich fand eine Anwendung der Qualitätskriterien als „wachsendes Dokument“ innerhalb der Workshopgruppe statt. 
@@ -134,7 +135,8 @@ Als Rundgang konnten sich die verschiedenen Projekte der Förderrichtlinie OE_CO
 
 👉 Weitere Einblicke zu den Ergebnissen der Begleitforschung findet ihr im [Blogbeitrag zur FOERBICO-Zwischenfazittagung](https://oer.community/recap-foerbico-tagung-2026/).
 
-![](OER-im-Blick-2026-Projektvorstellung.jpg)
+![Austausch am Stehtisch von Laura und Phillip vom FOERBICO-Projekt mit Matthias von Co-Woerk während Postersession bei der Tagung OER im Blick 2026.](https://blossom.edufeed.org/1071427372972b9ed29f9ad16ea91cbdefdf97e4dc44d890b71f1d587201de66.jpg)
+[Austausch mit Co-Woerk beim FOERBICO-Projektstand](https://oer.community/oer-im-blick-2026/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 [Austausch mit Co-Woerk](https://www.co-woerk.de/)
 

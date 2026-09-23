@@ -28,7 +28,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/oer-fortbildungsreihe-1/OER-Fortbildungsreihe-1.jpg
+image: https://blossom.edufeed.org/ea602678d11a8950cad1edba2f166c232031d5a52fbc9f03c8bb72b89aad8de4.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -42,8 +42,8 @@ author:
   - Phillip Angelina
 title: Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie
 cover:
-  relative: true
-  image: OER-Fortbildungsreihe-1.jpg
+  relative: false
+  image: https://blossom.edufeed.org/ea602678d11a8950cad1edba2f166c232031d5a52fbc9f03c8bb72b89aad8de4.jpg
   hiddenInSingle: true
 summary: 'Bericht: Unsere erste kleine OER-Werkstatt fand am 11.03.2025 statt. In diesem Bericht geben Laura Mößle und Phillip Angelina einen Einblick in die besprochenen Themen, die Diskussionsrunden sowie Best Practice Beispiele. '
 url: oer-fortbildungsreihe-1

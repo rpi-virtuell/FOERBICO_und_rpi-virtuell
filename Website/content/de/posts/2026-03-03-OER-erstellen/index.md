@@ -23,7 +23,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/oer-erstellen/How_to_get_started_OER_Xue_Paschke.jpg
+image: https://blossom.edufeed.org/e17626338390cbfdd721d2129736c9f5a0e46ef79752937ccbc980eb45c17312.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -35,8 +35,8 @@ author:
   - Paula Xue Paschke
 title: 'OER erstellen – wie fange ich an?'
 cover:
-  relative: true
-  image: How_to_get_started_OER_Xue_Paschke.jpg
+  relative: false
+  image: https://blossom.edufeed.org/e17626338390cbfdd721d2129736c9f5a0e46ef79752937ccbc980eb45c17312.jpg
   hiddenInSingle: false
 summary: |
     Der Einstieg in die OER-Erstellung ist oft mit Unsicherheiten verbunden. Der Beitrag bietet eine niedrigschwellige Orientierung mit Best-Practice-Beispielen für einen erleichterten Einstieg.
@@ -79,7 +79,8 @@ Am Beginn steht eine inhaltliche und thematische Eingrenzung: Zu welchem Thema s
 
 Dann gilt es die anvisierte Zielgruppe einzugrenzen. Eine Orientierung zur Einteilung bieten sogenannte Wertelisten, die unter anderem nach Bildungsstufen differenzieren. Orientieren sich Erstellende bereits zu Beginn an dieser Unterteilung, fällt später die Einsortierung auf OER-Plattformen leichter. OER-Plattformen nutzen oftmals standardisierte Metadaten, sodass eine klare Zielgruppenangabe ihre Auffindbarkeit erhöhen kann.
 
-![](Tabelle.png)
+![Tabelle zur Zuordnung von Schularten zu Bildungsstufen. Quelle der Zuordnung: DINI-AG KIM (2022), Zuordnung nach Bildungsberichterstattung (2022, S. XII); atypische Mehrfachzuordnungen wurden bereinigt.](https://blossom.edufeed.org/bcab78a32835973bf3c8ebfdc8cabe1fdeecde9e2cd8af97476845e1c2bd4cbb.png)
+[Tabelle zur Zuordnung von Schularten zu Bildungsstufen](https://oer.community/oer-erstellen), [Paula Xue Paschke](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/mitarbeitende/paula-xue-paschke), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
  
 Abbildung 1 Tabelle: Zusammenhänge zwischen Bildungsstufen und Schularten (Oellers & Rötgen, 2024, S. 88), CC-BY 4.0
 
@@ -177,7 +178,8 @@ Hierfür spielt auch der Aspekt der Nachhaltigkeit eine Rolle. Nach einem mögli
 
 - Editierbare Formate, die Weiterentwicklung ermöglichen
 
-![Pfad für OER-Erstellung](How_to_get_started_OER_Xue_Paschke.jpg)
+![Pfad für OER-Erstellung](https://blossom.edufeed.org/e17626338390cbfdd721d2129736c9f5a0e46ef79752937ccbc980eb45c17312.jpg)
+[Flussdiagramm zur OER-Erstellung](https://oer.community/oer-erstellen), [Paula Xue Paschke](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/mitarbeitende/paula-xue-paschke), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Abbildung 2: Pfad für OER-Erstellung, eigene Darstellung
 

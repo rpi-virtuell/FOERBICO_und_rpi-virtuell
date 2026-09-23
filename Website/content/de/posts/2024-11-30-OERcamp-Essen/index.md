@@ -165,7 +165,8 @@ Mehr dazu 👉 https://go.oercamp.de/24essen/talk/E7FYZ8/
 
 Wie ermächtigen wir Akteure ihre entwickelten Bildungsmaterialien eigenständig bereitzustellen? Dazu hat Steffen Rörtgen (FWU Institut für Film und Bild gGmbH) [edufeed](https://www.edufeed.org/) als Konzept einer sozialen Bildungsinfrastruktur vorgestellt, die es einerseits ermöglicht, Daten zu Bildungsmaterialien zu teilen und andererseits wie bei Mastodon in soziale Interaktion zu treten. Wir finden das klingt nach einem interessanten Konzept und unterstützen Steffen bei der Entwicklung!
 
-![](edufeed.jpg)
+![Handgezeichnetes Architekturdiagramm auf weißem Papier. Oben steht „WLO, OERSI und mundo.schule“ als Plattformen, darunter führen mehrere Pfeile zu verschiedenen Kästen und Symbolen. Im unteren Bereich befindet sich ein großer Kasten mit der Beschriftung „gemeinsamer Datenraum“, der mit weiteren Kästen und einer „Social Media Protocol“-Notiz verbunden ist. Die Skizze stellt verschiedene Systeme bzw. Datenquellen und deren Verbindungen dar.](https://blossom.edufeed.org/bed0f99a1ba2dc9a4054612b236921d51e877a7e637abf88a5e6f55d37343b85.jpg)
+[Skizze zur dezentralen Idee von Edufeed](https://oer.community/oercamp-und-oer-festival-2024-in-essen), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/PQHR8U/
 
@@ -179,8 +180,10 @@ Ein Highlight noch zum Schluss „Dubai Calling“: Bei der [3rd OER World Congr
 
 ## Beratschlagung zum Thema „OER im Kontext generativer Künstlicher Intelligenz (KI)“ (Schwerpunkt beim 3rd World Congress in Dubai)
 
-![](Unperfekthaus-1.jpg)
-![](Unperfekthaus-2.jpg)
+![Außenfassade vom Unperfekthaus in Essen mit verschiedenen Bildern, Lichterkette und bunten Lampen.](https://blossom.edufeed.org/f8aee3aab812a9ef2c0b28759c0eef691acb76dd92e854fc7c0242cbcac1bc66.jpg)
+[Unperfekthaus in Essen](https://oer.community/oercamp-und-oer-festival-2024-in-essen), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Bunte Treppenstufen beleuchtet mit Neonlicht und der Aufschrift #Unperfekthaus.](https://blossom.edufeed.org/27b6d34f939a674bbc23eb37808317df236d61360c5cab743055f5cae6b2d657.jpg)
+[Bunte Treppe im Unperfekthaus in Essen](https://oer.community/oercamp-und-oer-festival-2024-in-essen), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Der letzte Tag startete im Unperfekthaus in Essen mit drei XXL-Sessions im Barcamp-Format. Gina entschied sich für die Session moderiert von Frank Homp und Nele Hirsch zu Community-Beratschlagung zum Thema „OER im Kontext generativer Künstlicher Intelligenz (KI)“. Dabei wurde in Kleingruppen anhand folgender Leitfragen gebrainstormt:
 
@@ -190,14 +193,18 @@ Der letzte Tag startete im Unperfekthaus in Essen mit drei XXL-Sessions im Barca
 
 Die Ergebnisse findet ihr unter https://www.oercamp.de/24/offene-ki/
 
-![](KI-1.jpg)
-![](KI-2.jpg)
+![Stehtisch mit verschiedenen Materialien wie Stifte, Zettel und Stecknadeln. Darauf liegend Postkarte mit Abbildung von Zauberstab und Aufschrift "Offenheit ist ein WundOERelexier für bessere KI".](https://blossom.edufeed.org/c5c9655517778ebc909186fd5de50bfbe075e61e68148ea8cd9ed15b3c856ee0.jpg)
+[WundOERelexier für bessere KI](https://oer.community/oercamp-und-oer-festival-2024-in-essen), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Rückseite Postkarte mit QR-Code und Link zu den Ergebnissen der Community-Beratschlagung zum Thema KI beim OERcamp 2024 in Essen".](https://blossom.edufeed.org/f7783ee9d0c1d17ecc7d80dc74ba8c237eabbdf7e311f8b226169f9d528aca2f.jpg)
+[Ergebnisse Community-Beratschlagung zum Thema KI - Spread the WOERld](https://oer.community/oercamp-und-oer-festival-2024-in-essen), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Zum Abschluss des OERcamps fanden noch drei Workshops des Bündnisses Freie Bildung zu Organisationsentwicklung, Offenheitskompetenzen und zukunftsweisende Bildungspolitik statt. Gina nahm am Workshop „Organisationsentwicklung“ von Celestine Kleinesper (Bündnis freie Bildung) & Matthias Kostrzewa (digiLL) teil.
 
 Worum es ging, erfahrt ihr hier 🎥
 
-[![Video auf YouTube](workshop-organisationsentwicklung.jpg)](https://www.youtube.com/watch?v=gnNOrjSEwdk)
+[![Video auf YouTube](https://blossom.edufeed.org/1d7441e53a75cc8d12121a728b10a1bb0032f5c89460fd71aa023bba8a9a6c88.jpg)](https://www.youtube.com/watch?v=gnNOrjSEwdk)
+
+<!-- TODO:LICENSE workshop-organisationsentwicklung.jpg -->
 
 Mehr dazu 👉 https://go.oercamp.de/24essen/talk/DYGB3F/ 
 

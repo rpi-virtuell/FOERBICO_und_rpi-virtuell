@@ -15,7 +15,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/hello-world/FOERBICO-Team.jpg
+image: https://blossom.edufeed.org/d7e9f53f0036890f3af865aeb461b79f3c1e24d3765e6d7dfc7649a1dc5ce4a5.jpg
 datePublished: 2024-08-05
 
 # staticSiteGenerator
@@ -23,8 +23,8 @@ author:
   - Gina Buchwald-Chassée
 title: Hello World!
 cover:
-  relative: true
-  image: FOERBICO-Team.jpg
+  relative: false
+  image: https://blossom.edufeed.org/d7e9f53f0036890f3af865aeb461b79f3c1e24d3765e6d7dfc7649a1dc5ce4a5.jpg
   alt: Das FOERBICO Team
   caption: 'Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina'
   hiddenInSingle: true
@@ -82,13 +82,15 @@ FOERBICO ist ein Verbundprojekt des [Comenius-Instituts in Münster](https://com
 
 Unser interdisziplinäres Team ist nun komplett und wir freuen uns, gemeinsam durchzustarten 💪
 
-![Das FOERBICO Team](FOERBICO-Team.jpg "Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina")
+![Das FOERBICO Team](https://blossom.edufeed.org/d7e9f53f0036890f3af865aeb461b79f3c1e24d3765e6d7dfc7649a1dc5ce4a5.jpg "Das FOERBICO Team: Phillip, Jörg, Ludger, Laura und Gina")
+[Das FOERBICO-Team](https://oer.community/hello-world/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Erstes Treffen mit dem gesamten FOERBICO-Team am 5. August 2024 
 
 ## Mit dabei:
 
-![](comenius-institut-logo.png)
+![Logo des Comenius-Institutes - Evangelische Arbeitsstätte für Erziehungswissenschaft e.V. Münster](https://blossom.edufeed.org/da702b1b67fccce9b403d9a168a6340e042485981f356ac0250ec8349054706e.png)
+[Logo Comenius-Institut](https://oer.community/hello-world/), [Comenius-Institut](https://comenius.de/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 ![](/unser-team/JoergLohrer.jpg)
 
@@ -109,7 +111,8 @@ Gina unterstützt das Projekt im Community-Management und ist für die Öffentli
 Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softwareentwickler im Automobilbereich. Im FOERBICO Projekt
  unterstützt er bei der technischen Umsetzung.
 
-![](Goethe-Universitaet_Frankfurt_Logo.png)
+![Logo der Goethe-Universität Frankfurt am Main](https://blossom.edufeed.org/7f278dde237afb8837ba59efa949c02b2ff64a572c0c58f82f6b559c3116c5eb.png)
+[Logo Goethe-Universität](https://oer.community/hello-world/), [Goethe-Universität Frankfurt a.M.](https://www.uni-frankfurt.de/de), [©](https://www.gesetze-im-internet.de/urhg/)
 
 ![](/unser-team/LauraMoessle.jpg)
 
@@ -117,7 +120,8 @@ Ludger hat Mathematik und Sonderpädagogik studiert und arbeitet u. a. als Softw
 
 Laura ist promovierte Religonspädagogin und ist als wissenschaftliche Mitarbeiterin bei Prof. Dr. Viera Pirker an der Professur für Religionspädagogik und Mediendidaktik am Fachbereich Katholische Theologie an der Goethe-Universität tätig. Sie unterstützt FOERBICO bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
 
-![](Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png)
+![Logo der Friedrich-Alexander-Universität Erlangen-Nürnberg](https://blossom.edufeed.org/07db78541ae3d11fc75d2e8ca8a721e224ac3073e3d655d455c64477bbe123a3.png)
+[Logo Friedrich-Alexander-Universität Erlangen-Nürnberg](https://oer.community/hello-world/), [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://www.fau.de/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 ![](/unser-team/PhillipAngelina.jpg)
 

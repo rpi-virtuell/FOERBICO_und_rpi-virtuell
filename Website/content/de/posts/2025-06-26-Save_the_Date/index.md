@@ -19,7 +19,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n086
-image: Save the Date.jpg
+image: https://blossom.edufeed.org/7c91361eb97f1634730eab11d68784cf555aaa75ba656519a8002033d9f320d4.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 datePublished: 2025-09-26
@@ -35,8 +35,8 @@ author:
   - Phillip Angelina
 title: Save the Date
 cover:
-  image: Save the Date.jpg
-  relative: true
+  image: https://blossom.edufeed.org/7c91361eb97f1634730eab11d68784cf555aaa75ba656519a8002033d9f320d4.jpg
+  relative: false
   hiddenInSingle: true
 summary: Ein Informationspost über unsere Tagung im Februar 2026
 tags:
@@ -129,6 +129,8 @@ Wie wird dort konkret zusammengearbeitet? Welche unterschiedlichen Formen von Co
 
 Gemeinsam – und mit einer Haltung der Offenheit – möchten wir uns diesen Fragen nähern und das Phänomen OER-Community aus unterschiedlichen Blickwinkeln beleuchten. Wir wollen den Wünschen und Bedürfnissen der Communities Raum geben und gemeinsam überlegen, wie Hürden abgebaut werden können. Damit eine kollaborative Arbeit an OER noch stärker gefördert wird und OEP eine Grundlage für die Communities bildet.  
 
-Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](anmeldebutton.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+Anmeldemöglichkeit und das vorläufige Programm finden Sie hier: [![Anmeldebutton](https://blossom.edufeed.org/e92ea57fef510c8339e612713f248ea625d9450f2bad9b4ba62db5c045f23161.png)](https://www.evrel.phil.fau.de/foerbico-tagung-2026/)
+
+<!-- TODO:LICENSE anmeldebutton.png -->
 
 Für Rückfragen wenden Sie sich gerne an Phillip Angelina: tagung-foerbico2026@fau.de. 

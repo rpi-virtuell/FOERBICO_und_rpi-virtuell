@@ -28,7 +28,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/imaginationen-offenheit-bildung/geo-tueren-offenheit.jpg
+image: https://blossom.edufeed.org/d7d36746b656ac1d66175bec39f24a1b19e2177d00df05d8fbadb2fd10b29893.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -50,8 +50,8 @@ author:
   - Jörg Lohrer
 title: Imaginationen von Offenheit in der Bildung
 cover:
-  relative: true
-  image: geo-tueren-offenheit.jpg
+  relative: false
+  image: https://blossom.edufeed.org/d7d36746b656ac1d66175bec39f24a1b19e2177d00df05d8fbadb2fd10b29893.jpg
   alt: Abstrakte Illustration mit drei sich überlappenden geometrischen Formen. Im Hintergrund ein Raster aus offenen und geschlossenen Türen als Textur.
   caption: 'Symbolbild: KI-generiert ([ChatGPT](https://chatgpt.com/s/m_69cb6fb5e73c819198d6a691f709ab20)) | Lizenz: [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.de)'
   hiddenInSingle: true

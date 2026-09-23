@@ -34,7 +34,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/offen-und-doch-schwer-auffindbar-oer-plattformen/mohammed-zayan-khan-ack4TTlozAw-unsplash.jpg
+image: https://blossom.edufeed.org/6f777ecb44a41440668b29d06bb7ab96c55b40178724a8942fc772b4e9f428d5.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-07-21'
@@ -53,8 +53,8 @@ author:
   - Paula Xue Paschke
 title: 'Offen und leicht zu finden? OER-Plattformen für religionspädagogische Bildungsmaterialien'
 cover:
-  relative: true
-  image: mohammed-zayan-khan-ack4TTlozAw-unsplash.jpg
+  relative: false
+  image: https://blossom.edufeed.org/6f777ecb44a41440668b29d06bb7ab96c55b40178724a8942fc772b4e9f428d5.jpg
   alt: 'Hängende Lupe, Foto von [Mohammed Zayan Khan](https://unsplash.com/de/@a_zayan auf [Unsplash](https://unsplash.com/de/fotos/ein-rot-schwarzer-schlusselanhanger-ack4TTlozAw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       '
   hiddenInSingle: false

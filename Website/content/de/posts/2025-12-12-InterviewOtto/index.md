@@ -24,7 +24,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/interview-daniel-otto/FOERBICO_Tagung_Logo.jpg
+image: https://blossom.edufeed.org/1d433e3ed4ec2ff1dc0541fadc2f5b60db0603d6d9c78fcb1cc5e75030daeb76.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -42,8 +42,8 @@ author:
   - Gina Buchwald-Chassée
 title: Interview mit Daniel Otto
 cover:
-  relative: true
-  image: FOERBICO_Tagung_Logo.jpg
+  relative: false
+  image: https://blossom.edufeed.org/1d433e3ed4ec2ff1dc0541fadc2f5b60db0603d6d9c78fcb1cc5e75030daeb76.jpg
   hidddenInSingle: false
   alt: Interview Otto
   hiddenInSingle: true
@@ -121,7 +121,8 @@ Ihr möchtet diese Keynote auf keinen Fall verpassen? Dann seid am 24. & 25. Feb
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
+![Tagungslogo](https://blossom.edufeed.org/1d433e3ed4ec2ff1dc0541fadc2f5b60db0603d6d9c78fcb1cc5e75030daeb76.jpg)
+[Logo zur Zwischenfazit-Tagung von FOERBICO](https://oer.community/interview-daniel-otto/), [relilab](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), KI-generiert
 
 Unter diesem Titel steht unsere Tagung. Die bisherigen Ergebnisse aus dem FOERBICO-Projekt sollen dabei nicht nur diskutiert werden, sondern als Ausgangspunkt dienen, um gemeinsam zu reflektieren, wie die Arbeit an OER offene Bildungspraktiken (OEP) stärken kann.
 

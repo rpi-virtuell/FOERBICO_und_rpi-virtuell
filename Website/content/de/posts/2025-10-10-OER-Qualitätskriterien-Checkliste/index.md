@@ -17,7 +17,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/offenheit-ist-kein-gegensatz-zu-qualität/Quality.jpg
+image: https://blossom.edufeed.org/30b162a394023344f4dd3c83e7f81cdc4d7c7f1e7f1be3be4fff50d091240b38.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -29,8 +29,8 @@ author:
   - Laura Mößle
 title: Offenheit ist kein Gegensatz zu Qualität. Religionspädagogische Qualitätskriterien für OER
 cover:
-  relative: true
-  image: Quality.jpg
+  relative: false
+  image: https://blossom.edufeed.org/30b162a394023344f4dd3c83e7f81cdc4d7c7f1e7f1be3be4fff50d091240b38.jpg
   hidddenInSingle: false
   alt: 'Wandkunst mit Text über Qualität und Frische von Adhitya Sibikumar (@adhitya_2505)(Quelle: Unsplash, Unsplash-Lizenz)'
   hiddenInSingle: true

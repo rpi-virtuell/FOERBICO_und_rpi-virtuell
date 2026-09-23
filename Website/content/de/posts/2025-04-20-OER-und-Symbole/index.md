@@ -29,7 +29,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n287
-image: https://oer.community/lizenz-irrtum-oer/nadel-im-heuhaufen.jpg
+image: https://blossom.edufeed.org/a106a8d58517e42a5e9b5e8f1ff26a7c64a7c26fc0814bb5d8e6aa51d77f23da.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -41,8 +41,8 @@ author:
   - Jens Dechow
 title: Was passiert, wenn eine OER-Lizenz fälschlicherweise vergeben und verwendet wird?
 cover:
-  relative: true
-  image: nadel-im-heuhaufen.jpg
+  relative: false
+  image: https://blossom.edufeed.org/a106a8d58517e42a5e9b5e8f1ff26a7c64a7c26fc0814bb5d8e6aa51d77f23da.jpg
   caption: 'Eine Nadel im Heuhaufen: ein seltener Fall mit (gültiger?) CC-Lizenz'
   alt: Eine Nadel, deren kreisförmiger Kopf ein Symbol der CC-Lizenz zeigt. Sie steckt in einem Haufen aus Stroh.
   hiddenInSingle: true

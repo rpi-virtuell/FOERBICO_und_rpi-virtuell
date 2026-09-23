@@ -47,7 +47,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n545
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n052
-image: https://oer.community/personal-learning-environments-in-der-hochschulbildung/Wortwolke.jpg
+image: https://blossom.edufeed.org/47acef762cc6b2a7e2c635b8777f754d93650ecb717b7cec3ffa1124d1ec8850.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -72,8 +72,8 @@ author:
   - Florian Mayrhofer
 title: 'Personal Learning Environments in der Hochschulbildung – Nachhaltige Lernräume für eine offene Bildungskultur in der Religionspädagogik'
 cover:
-  relative: true
-  image: Wortwolke.jpg
+  relative: false
+  image: https://blossom.edufeed.org/47acef762cc6b2a7e2c635b8777f754d93650ecb717b7cec3ffa1124d1ec8850.jpg
   alt: Wortwolke aus den seminarbegleitenden Evaluationen mit wiederkehrend genannten Stärken der Seminarkonzeption, u.a. Methodenvielfalt, Lernatmosphäre, Praxisnähe und die Verknüpfung von Fachwissenschaft und Fachdidaktik
   hiddenInSingle: true
 summary: >-
@@ -184,7 +184,8 @@ Das Seminar zielt darauf ab, eine zyklische Bewegung zwischen Hochschulbildung u
 
 Ein Auszug aus der Auswertung der seminarbegleitenden Evaluationen im Zeitraum von Wintersemester 2022/2023 bis Sommersemester 2025 zeigt, dass die Studierenden insbesondere die Verknüpfung von Fachdidaktik und Fachwissenschaft, die praxisnahe Gestaltung, den Erprobungs- und Experimentierraum für mediendidaktische Methoden und Tools sowie die Individualisierung und Flexibilisierung durch die e-Portfolioarbeit als wertvolle Elemente der Lehrveranstaltung schätzen.
 
-![Wortwolke aus den seminarbegleitenden Evaluationen mit wiederkehrend genannten Stärken der Seminarkonzeption, u.a. Methodenvielfalt, Lernatmosphäre, Praxisnähe und die Verknüpfung von Fachwissenschaft und Fachdidaktik](Wortwolke.jpg)
+![Wortwolke aus den seminarbegleitenden Evaluationen mit wiederkehrend genannten Stärken der Seminarkonzeption, u.a. Methodenvielfalt, Lernatmosphäre, Praxisnähe und die Verknüpfung von Fachwissenschaft und Fachdidaktik](https://blossom.edufeed.org/47acef762cc6b2a7e2c635b8777f754d93650ecb717b7cec3ffa1124d1ec8850.jpg)
+[Auszug aus seminarbegleitenden Evaluationen im Zeitraum WiSe 2022/23–SoSe 2025, in denen Studierende die Stärken der Seminarkonzeption nennen (eigene Darstellung)](https://oer.community/personal-learning-environments-in-der-hochschulbildung), [Goethe-Universität Frankfurt am Main](https://www.uni-frankfurt.de/de), [©](https://www.gesetze-im-internet.de/urhg/)
 
 *Abbildung 1: Auszug aus seminarbegleitenden Evaluationen im Zeitraum WiSe 2022/23–SoSe 2025, in denen Studierende die Stärken der Seminarkonzeption nennen (eigene Darstellung).*
 

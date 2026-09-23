@@ -29,7 +29,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n121
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/so-arbeiten-wir/foerbildfunktion.jpg
+image: https://blossom.edufeed.org/d69cefe0f76176a91982f2a91873ba796718a14d165a82dd623e814ff034550b.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -49,8 +49,8 @@ author:
   - Gina Buchwald-Chassée
 title: 'So arbeiten wir in der oer.community: Offen, transparent, kollaborativ'
 cover:
-  relative: true
-  image: foerbildfunktion.jpg
+  relative: false
+  image: https://blossom.edufeed.org/d69cefe0f76176a91982f2a91873ba796718a14d165a82dd623e814ff034550b.jpg
   alt: Visualisierung der offenen Arbeitskultur im FOERBICO-Projekt
   hiddenInSingle: true
 summary: Wie organisiert man ein OER-Projekt offen und gemeinschaftlich? Dieser Beitrag gibt einen praxisnahen Einblick in die Arbeitskultur und die digitalen Workflows im Projekt FOERBICO. Offene Repositorien, Git-gestützte Zusammenarbeit, transparente Aufgabenverwaltung und kollaborative Texterstellung prägen den Projektalltag und machen nachvollziehbar, wie Open Educational Practices (OEP) gelebt werden.
@@ -154,7 +154,8 @@ Zusammenfassend garantiert der Git-Workflow mit Feature-Branches, Reviews und CI
 
 Die Erstellung von Texten und Bildungsinhalten im Projekt folgt ebenfalls einem strukturierten, offenen Prozess, der sich eng an Software-Entwicklungsworkflows anlehnt. **Redaktionelle Beiträge (z.B. Blogartikel, Handreichungen, Lehrmodule)** entstehen in Kollaboration über Git:
 
-![](Redaktionsprozess.png)
+![Abbildung vom Workflow im Rahmen des FOERBICO-Projektes.](https://blossom.edufeed.org/b2ab7ba9e3f2293ab476428543eba0e76d3d1ee768e3ccd54b78645ecc498753.png)
+[Redaktionsprozess des FOERBICO-Teams](https://oer.community/so-arbeiten-wir/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 - **Ideenfindung und Planung:** Neue Inhalte starten häufig als *Issue*. Hat jemand z.B. die Idee für einen Blogbeitrag über ein Projektthema, wird ein Issue mit einem sprechenden Titel erstellt (z.B. der Issue [*"Blogbeitrag Workflow/Selbstmanagement darstellen"*](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO/issues/329), der zu diesem Artikel geführt hat. In der Beschreibung können bereits Stichpunkte oder ein grober Umriss festgehalten werden. Das Issue wird typischerweise dem Board *Blogposts Redaktion* zugeordnet und mit Label *Blog* markiert. So ist von Anfang an klar, dass es sich um eine redaktionelle Aufgabe handelt. Oft werden in der frühen Phase im Issue schon **Rollen verteilt** – etwa wer den ersten Entwurf schreibt und wer später gegenliest – und **Material gesammelt** (Quellen, Links, Abbildungen).
 
@@ -174,7 +175,8 @@ Ergänzend zu Git nutzen wir für die redaktionelle Zusammenarbeit auch Kommunik
 
 Unsere Arbeitsweise verkörpert **Open Educational Practices** auf mehreren Ebenen. OEP bedeutet, dass nicht nur die Endprodukte offen sind, sondern der gesamte Prozess auf Offenheit, Partizipation und kontinuierlichem Lernen ausgelegt ist. Im Projekt FOERBICO setzen wir dies folgendermaßen um:
 
-![](Grafik-1.jpg)
+![Ziele des offenen redaktionellen Prozesses vom FOERBICO-Team](https://blossom.edufeed.org/7f1dac1c72680acb87d8b24efe29a6928f7ded534d928bbceb261200f5b40a00.jpg)
+[Ziele des offenen redaktionellen Prozesses vom FOERBICO-Team](https://oer.community/so-arbeiten-wir/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 - **Transparenz der Prozesse:** Alle Projektaktivitäten werden offen sichtbar gemacht. Das Issue-Tracking ist – abgesehen von eventuell sensiblen Einträgen – öffentlich einsehbar. Externe können nachvollziehen, woran das Team arbeitet, welche Probleme diskutiert und wie Lösungen gefunden werden. Diese *Working-out-loud*-Philosophie fördert Vertrauen und lässt Stakeholder am Fortschritt teilhaben, ohne dass wir für Berichte extra geschlossene Kreisläufe brauchen. Selbst unsere Zeitplanung (Meilensteine) und Dokumentation sind als Dateien öffentlich versioniert, nicht in internen Ordnern versteckt. Das erhöht auch die *Verbindlichkeit*: Was einmal im Issue festgehalten ist, wird nicht übersehen.
 

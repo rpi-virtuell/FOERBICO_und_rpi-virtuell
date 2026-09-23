@@ -27,7 +27,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n08
-image: https://oer.community/interview-relilab/RelilabInterviewTitelpage.jpg
+image: https://blossom.edufeed.org/7e76bbf0792b1b28101289afa3780db4061864a53fb0c91d320afa365c5102d1.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/web_page
 educationalLevel:
@@ -45,9 +45,9 @@ author:
   - Phillip Angelina
 title: Interview Relilab
 cover:
-  relative: true
+  relative: false
   hiddenInSingle: true
-  image: RelilabInterviewTitelpage.jpg
+  image: https://blossom.edufeed.org/7e76bbf0792b1b28101289afa3780db4061864a53fb0c91d320afa365c5102d1.jpg
 summary: In der Vorbereitung auf die Zwischenfazit-Tagung haben wir uns vom FOERBICO-Team mit Corinna Link aus dem relilab getroffen.
 url: interview-relilab
 tags:
@@ -85,7 +85,8 @@ bilder:
 ---
  
 
-![Logo relilab](relilab_logo.png)
+![Logo relilab](https://blossom.edufeed.org/75deb5602850a0cfb45c3d73a4d0857e0374905b34170ff2a7967bd5d5318cdb.png)
+[Logo relilab](https://relilab.org/), [relilab](https://relilab.org/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 # Steckbrief
 Das [relilab](https://relilab.org/) ist eine Community, die religionsbezogene Bildung ermöglicht. Dabei ist sie heterarchisch strukturiert und lädt alle Menschen zum teilnehmen ein. Als Community wird selbstgesteuertes Lernen unterstützt und die Erstellung sowie Verbreitung freier Bildungsmaterialien. Ein wichtiger Baustein der Community sind die Fortbildungen, welche vom relilab selbst oder von externen Anbietern über das relilab-Zoom stattfinden.
@@ -121,7 +122,8 @@ Wir können aus unseren Erfahrungen aus der Laborumgebung die Chancen, Möglichk
 
 ## Mit OER zu einer Kultur des Teilens
 
-![Tagungslogo](FOERBICO_Tagung_Logo.jpg)
+![Tagungslogo](https://blossom.edufeed.org/1d433e3ed4ec2ff1dc0541fadc2f5b60db0603d6d9c78fcb1cc5e75030daeb76.jpg)
+[Logo zur Zwischenfazit-Tagung von FOERBICO](https://oer.community/interview-relilab/), [relilab](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), KI-generiert
 
 Unter diesem Titel steht unsere Tagung und darin sollen die Ergebnisse nicht nur diskutiert, sondern auf deren Grundlage dieser Überlegungen angestellt werden, wie die Arbeit an OER OEP fördern kann.
 Wir laden herzlich dazu ein, einen Einblick in die Alltagsrealität von OER-Communities zu gewinnen und gegebenenfalls eigene Erfahrungen oder Forschungsbefunde beizusteuern:

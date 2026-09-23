@@ -25,7 +25,7 @@ creator:
 inLanguage: de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/luther-influencer/2.png
+image: https://blossom.edufeed.org/a15dfce59504918a00bc0f05358c5717d49b20875fe8bd8335f7863658f06693.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: 2025-10-13
@@ -42,8 +42,8 @@ author:
   - Corinna Link
 title: 'Instagram als Lernort: Luther als Influencer'
 cover:
-  relative: true
-  image: 2.png
+  relative: false
+  image: https://blossom.edufeed.org/a15dfce59504918a00bc0f05358c5717d49b20875fe8bd8335f7863658f06693.png
   hiddenInSingle: true
 summary: Ausgehend von Luthers Entdeckung der Gnade zeigt der Beitrag, wie Reformation als Kommunikationsereignis im digitalen Zeitalter neu erfahrbar wird – durch die kreative Aufgabe „Luther als Influencer“.
 url: luther-influencer
@@ -97,7 +97,8 @@ Lehrkräfte können die Aufgabe analog mit vorbereiteten Arbeitsblättern oder d
 Mit [Zeoob](https://zeoob.com) lassen sich analoge [PDF](Vorlage%20Instagram-Post.pdf)
 ganz einfach in interaktive, digitale Lernräume verwandeln. So können Schülerinnen und Schüler ihre Ideen direkt online umsetzen, Kommentare austauschen und kreative Posts gestalten – ein Lernprozess, der historische Inhalte lebendig macht und Medienreflexion fördert.
 
-![](Toolhinweis.jpg) 
+![Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell mit Vorstellung von Zeoob als Tool für Social Media Posts.](https://blossom.edufeed.org/6bceefbe86434c406d92deb2c4bf7d6e3299cb0a85eefea94dadaeca700cb1b0.jpg)
+[Toolhinweis Zeoob](https://oer.community/luther-influencer), [Lara Gotthard & Corinna Link](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/) 
 
 Weitere Infos hier in den [Nutzungshinweisen von Zeoob](https://zeoob.com/terms-and-conditions/)
 
@@ -241,7 +242,8 @@ Vorschläge:
 Er verändert den Blick auf die Welt - mit Mut, Gefühl und einer klaren Botschaft.“
 
 ### Dieser Beitrag illustriert auf Instagram
-[![](1.jpg)](https://www.instagram.com/p/DPvl4HrjeGp)
+[![Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell als kreativer Impuls für den Religionsunterricht, in der Mitte Smartphone mit der Aufschrift "Martin Luther als Influencer seiner Zeit?" im Screen, neben dem Smartphone sind Icons mit Sprechblase und Herz.](https://blossom.edufeed.org/b9985aa1875fff9b057ef03b90e63f1cdbd118e668a7e412a53fdec333c2d61b.jpg)](https://www.instagram.com/p/DPvl4HrjeGp)
+[Instagram-Post von @nt.evangelisch_tudortmund + @rpivirtuell - Martin Luther als Influencer seiner Zeit? Ein kreativer Impuls für den Religionsunterricht](https://oer.community/luther-influencer), [Lara Gotthard & Corinna Link](https://oer.community), [Canva-Lizenz](https://www.canva.com/de_de/richtlinien/terms-of-use/)
 
 (Bildlizenz: Canva - Durch Klicken auf das Bild landest du beim [Beitrag auf Instagram](https://www.instagram.com/p/DPvl4HrjeGp))
 

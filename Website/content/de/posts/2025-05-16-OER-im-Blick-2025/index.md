@@ -32,7 +32,7 @@ creator:
       id: https://ror.org/00f7hpc57
       type: Organization
 inLanguage: de
-image: https://oer.community/oer-im-blick-2025/IMG_9713.jpg
+image: https://blossom.edufeed.org/06f7a5605b483140abbb0cdfc43d41571915fa37cb71a22311110c6b17ca4cdd.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -46,8 +46,8 @@ author:
   - Phillip Angelina
 title: 'Rückblick: OER im Blick 2025'
 cover:
-  relative: true
-  image: IMG_9713.jpg
+  relative: false
+  image: https://blossom.edufeed.org/06f7a5605b483140abbb0cdfc43d41571915fa37cb71a22311110c6b17ca4cdd.jpg
   hiddenInSingle: true
 summary: Die Veranstaltung "OER im Blick" fand im Mai im Rahmen der OER Strategie des Bundes statt.
 url: oer-im-blick-2025
@@ -136,7 +136,8 @@ Offene Bildungspraktiken fördern – das haben wir uns als OE_COM-Projekte auf 
 
 4: OEP sind in keinem Fall …
 
-![Ergebnisse Pre-Workshop](IMG_6385.jpg)
+![Ergebnisse Pre-Workshop](https://blossom.edufeed.org/707654b93dad9faba51f7f58052e65f0adbea25ae445ea0d27d3fdbf3a484069.jpg)
+[Ergebnisse Pre-Workshop](https://oer.community/oer-im-blick-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 **Wie geht es weiter?**
 
@@ -150,7 +151,8 @@ Alle, die Lust haben an einem Arbeitspapier weiterzuarbeiten sind herzlich einge
 
 ## Keynote: „OER in Zeiten der Disruption: Why Ideas Do Not Float Freely“ von Prof. Dr. Daniel Otto, Europäische Hochschule für Innovation und Perspektive
 
-![Vortrag Prof. Dr. Otto](IMG_9725.jpg)
+![Vortrag Prof. Dr. Otto](https://blossom.edufeed.org/e04ef18115b430ef2ba61ee35e24bd0f15b0f1b51d602876510c87ef663f8cb1.jpg)
+[Vortrag Prof. Dr. Otto](https://oer.community/oer-im-blick-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Ausgehend aus allgemeinen gesellschaftlichen Entwicklungen seit den 1990ern hält Otto fest, dass wir in Zeiten von Disruption leben. Von den sogenannten Sicherheiten der frühen 1990er Jahre wie Fukuyama es unter dem Schlagwort „Ende der Geschichte“ titelte, ist heute nicht viel übrig geblieben. Er arbeitet heraus, warum Menschen sich trotz dieser Unsicherheiten in Communities engagieren. Entscheidend für das Engagement und den Zusammenhalt von OER-Communities ist die affektive Komponente. Denn wenn aus dem Engagement Verbundenheit entsteht, dann bildet sich dies nicht nur in der Struktur ab, sondern verbindet die Mitglieder untereinander.
 
@@ -184,7 +186,8 @@ In dieser Gruppe unterschieden die Teilnehemenden zwischen **analogen Treffen**,
  Sowohl im digitalen als auch im analogen Raum sollte man sich wohlfühlen, einen offenen und einfachen Zugang haben. Zudem braucht es Sichtbarkeit, eine Moderation und ein gemeinsames Interesse und Ziel. Außerdem geht es nicht ohne ein Commitment und es braucht Ressourcen – vor allem zeitlich und monetär. Auch wichtig: Man darf auch etwas kaputt machen! Der offene und einfache Zugang wird durch das große Tor dargestellt. Zusätzlich ist auch eine transparente Einsicht in allem wichtig.
 Im digitalen Raum braucht möglichst offene Tools mit einer einfachen Handhabung. Auch die Bereitschaft, sich in die Karten schauen zu lassen gilt als Grundvoraussetzung. Das hat die Gruppe anhand des Sichtglases dargestellt, durch das gesehen werden kann, wie die Menschen/Community im Hub gemeinsam arbeiten können.
 
-![Gruppenergebnisse Tisch 1](mermaid-diagramm_Tisch1.jpg)
+![Gruppenergebnisse Tisch 1](https://blossom.edufeed.org/dcc4d541ed5f067fbac99bbd887998cac6a68243ceea233d4909abb1aeb3ee28.jpg)
+[Ergebnisse Gruppenarbeit Community-Hub Tisch 1](https://oer.community/oer-im-blick-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 #### Tisch 2
 
@@ -193,13 +196,15 @@ OER wurden hier als zarte Pflänzchen dargestellt, um die man sich gemeinsam kü
 Neben der Funktion muss auch die Ästhetik des virtuellen Raums in Betracht gezogen werden. Dieser bedarf auch der Pflege. Ein Hub kann eine Roadmap zur Orientierung bieten. Es sollte auch zusammengearbeitet werden und Wissen aus dem Elfenbeiturm herausgeholt werden und hierarchisches Denken sollte dort bleiben.
 Ein Hub bedarf eine Infrastruktur und Werkzeuge der Zusammenarbeit und muss sich selbst als einen dynamischen Prozess verstehen. Zugleich muss in einem Hub die auf Aktualität geachtet werden. Eine Reinigungsfunktion sollte möglich sein, damit 'Müll' aussortiert werden kann.
 
-![Gruppenergebnisse Tisch 2](mermaid-diagram-Tisch2.jpg)
+![Gruppenergebnisse Tisch 2](https://blossom.edufeed.org/d695a05c6cbd89a198803103ac5c71d3e63d9bd85cf9dbd33a479ed3148e136c.jpg)
+[Ergebnisse Gruppenarbeit Community-Hub Tisch 2](https://oer.community/oer-im-blick-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 #### Tisch 3
 
 Ein Hub kann als eigene Bildungsinsel mit anderen Bildungsinseln verbunden und vernetzt sein. Zum Datenaustausch bedarf es transparente 'Drehscheiben'. Damit man einsehen kann, was wie auf welcher Basis geschieht. Innerhalb eines Hubs können verschiedene Rollen mit spezifischen Verantwortlichkeiten vergeben werden, darunter beispielsweise eine Technikverantwortlicher, eine Expertin für Finanzierung (unter Einbeziehung der Mitgestaltung durch die Community), eine für digitale Infrastruktur zuständige Person mit einem weitreichenden Netzwerk sowie eine übergeordnete Instanz zur Beobachtung und Steuerung, etwa durch das zuständige Bundesministerium. Der Hub dient darüber hinaus als Plattform für den Austausch zwischen den beteiligten Communities und ermöglicht eine partizipative Aufteilung von Zuständigkeiten.
 
-![Gruppenergebnisse Tisch 3](mermaid-diagram-Tisch3.jpg)
+![Gruppenergebnisse Tisch 3](https://blossom.edufeed.org/b15a78c81ba3cafc06910a2d603861b27394d357f0171b97e9e25a859ed36e1a.jpg)
+[Ergebnisse Gruppenarbeit Community-Hub Tisch 3](https://oer.community/oer-im-blick-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 #### Tisch 4
 
@@ -208,7 +213,8 @@ Hier wurde der Hub als möglichst offener, niederschwelliger Raum konzipiert, de
 *Prinzip „KISS – Keep it Smart and Simple“:*
 Innerhalb der vierten Gruppe wurde die grundlegende Frage diskutiert, ob die Einrichtung eines Hubs überhaupt notwendig ist. Bisher wurden entsprechende Strukturen nicht entwickelt, möglicherweise weil kein unmittelbarer Bedarf bestand. Vor diesem Hintergrund wurde in Erwägung gezogen, ob bestehende Infrastrukturen und Netzwerke nicht effizienter genutzt werden könnten. Zu dieser Fragestellung konnte bislang jedoch keine abschließende Position innerhalb der Gruppe gefunden werden.
 
-![Gruppenergebnisse Tisch 4](mermaid-diagram-Tisch4.jpg)
+![Gruppenergebnisse Tisch 4](https://blossom.edufeed.org/4b2aefc67660ec0c5837bbaccf7f34b43375a875d97f913520a55977204e1360.jpg)
+[Ergebnisse Gruppenarbeit Community-Hub Tisch 4](https://oer.community/oer-im-blick-2025/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Fazit
 

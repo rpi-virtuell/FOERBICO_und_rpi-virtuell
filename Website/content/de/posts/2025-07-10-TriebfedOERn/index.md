@@ -22,7 +22,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n079
   - https://w3id.org/kim/hochschulfaechersystematik/n544
-image: https://oer.community/triebfedoern/einhorn-sonja-silvia-joerg.jpg
+image: https://blossom.edufeed.org/d26190fe5550a40d7962cf71cd8a105b660c8b7e2168cce40d3370420a268603.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -35,8 +35,8 @@ author:
   - Jörg Lohrer
 title: 'TriebfedOERn Barcamp: OER, KI und Vernetzung gemeinsam denken'
 cover:
-  relative: true
-  image: einhorn-sonja-silvia-joerg.jpg
+  relative: false
+  image: https://blossom.edufeed.org/d26190fe5550a40d7962cf71cd8a105b660c8b7e2168cce40d3370420a268603.jpg
   caption: 'Gruppenbild vom TriebfedOERn Barcamp: Einhorn-Maskottchen mit Sonja, Silvia und Jörg als Symbol für kreative Zusammenarbeit in der OER-Community.'
   alt: 'Gruppenbild vom TriebfedOERn Barcamp in Heilbronn: Einhorn-Maskottchen mit Silvia, Sonja und Jörg als Symbol für vernetzte Zusammenarbeit in der OER-Community.'
   hiddenInSingle: true
@@ -91,7 +91,8 @@ bilder:
 
 Das [TriebfedOERn-Barcamp](https://www.mosbach.dhbw.de/triebfedoern2/#anchor-main-content) war ein Tag voller inspirierender Diskussionen und intensiven Austauschs rund um die Themen Open Educational Resources (OER), Künstliche Intelligenz (KI), Forschungsdatenmanagement und Vernetzung.
 
-![](sessionplan-triebfedoern-barcamp.jpg)
+![Stellwand mit Zetteln zur Sessionplanung beim TriebfedOERn-Barcamp 2025.](https://blossom.edufeed.org/b51b916d9ab23c8c0decebb9d0451096199ad134f200b04ca79f5f7f9c19a010.jpg)
+[Sessionplan beim TriebfedOERn-Barcamp 2025](https://oer.community/triebfedoern), [FOERBICO](https://oer.community/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
 ### KI in der Lehre und Urheberrecht
@@ -110,12 +111,15 @@ Praktische Einblicke bot die Session zu „OER-Video und Best-Practice Nennung O
 
 Ein Austausch um die „Deputatsreduktion für OER“ war ebenfalls ein Thema einer Workshop-Session auf dem Barcamp. Es wurde die Frage aufgeworfen, ob eine Reduktion der Lehrverpflichtung einen **Anreiz zur Erstellung von OER** darstellen könnte und ob dies überhaupt umsetzbar ist. Konsens herrschte darüber, dass Deputatsreduktion als **„harte Währung und Wertschätzung“** für die Erstellung von OER wahrgenommen wird. Auch die **Qualitätssicherung bei OER** wurde im Vergleich zum Peer-Review-Prozess in der Forschung beleuchtet und ein **möglicher, noch zu erstellender OER-Kodex als Leitlinie und Selbstkontrolle** diskutiert. Es wurde angemerkt, dass es für OER keinen etablierten Qualitätssicherungsprozess wie das Peer-Review in der Forschung gibt.
 
-![](deputat-fuer-OER.jpg)
+![Stellwand mit Ergebnissen aus der Diskussion der Barcampsession zu Deputatsreduktion für OER.](https://blossom.edufeed.org/4c5a22140b95e7b4b18d454b65a15848b2419b57c933bad49cd1d324a925f047.jpg)
+[Deputatsermäßigung für OER - Ja oder Nein?](https://oer.community/triebfedoern), [Erika, Bernd, Rebecca, Sonja, Pia, Gerhard](https://www.mosbach.dhbw.de/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
 Die Sessions „Moodle meets Metadaten“ und „Rein Raus“ konzentrierten sich auf die **technische Infrastruktur und die Vernetzung**. Für Moodle wurde ein **„Wizard für Schlagworte“** angedacht, der die Eingabe von Metadaten wie „zuletzt benutze Metadaten“ oder „didaktische Metadaten“ erleichtern soll, um die Auffindbarkeit zu verbessern und Autor:innen Anerkennung zu geben. Die Diskussion „Rein Raus“ beleuchtete die **Herausforderungen der Kommunikation zwischen offenen und geschlossenen Systemen**. Es wurde festgestellt, dass das **Prestige des „eigenen Repositoriums“ oft der „Nachnutzung“ entgegensteht**. Eine Stärkung der dezentralen Kommunikation, beispielsweise über Matrix/Element, und **gemeinsame Veranstaltungen** könnten die Zusammenarbeit fördern. 
 
-![](moodle-zoerr.jpg)
+![](https://blossom.edufeed.org/59c32ed1645c38a1fcc38eb542312f8c6d8d47500798b52d6a911f48cfbf48ba.jpg)
+
+<!-- TODO:LICENSE moodle-zoerr.jpg -->
 
 
 #### Ressourcen und Links zum Weiterdenken und Vernetzen 🌐
@@ -132,13 +136,15 @@ Die Sessions „Moodle meets Metadaten“ und „Rein Raus“ konzentrierten sic
 
 Eine besonders kreative Session war das „Wimmelcamp“, bei dem die Idee eines **„Wimmelbildes“ zur spielerischen Vermittlung von OER- und CC-Konzepten** entwickelt wurde. Es wurden Vorschläge gemacht, wie man **KI im Spielverlauf einbinden** könnte, etwa als Chatbot oder Side-Quests. Das Bild soll Charaktere und ein Narrativ enthalten, um die Komplexität der Materialvielfalt bei OER und der Vermischung von Lizenzen greifbar zu machen. Ideen für Easter-Eggs und Aufgaben, wie das Finden von CC-Symbolen, wurden ebenfalls gesammelt. Ein Anstoß aus dem Teilnehmendenkreis waren auch die "Horror-Szenarien" im Forschungsdaten-Bereich, die man unter **[https://forschungsdaten-thueringen.de/fdm-scarytales](https://forschungsdaten-thueringen.de/fdm-scarytales)** findet.
 
-![](oer-wimmelbild-cc-mixer.jpg)
+![Kleines chatGPT 4o experiment zum OER-Mixer-Wimmelbild.](https://blossom.edufeed.org/e8a3045503fb702f63920674cab5a6fa9c3276170e9182934e97423b7697cf39.jpg)
+[OER-Wimmelbild](https://oer.community/triebfedoern), [FOERBICO](https://oer.community/), [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed), KI-generiert
 (Kleines chatGPT 4o experiment zum OER-Mixer-Wimmelbild (CC0))
 
 ### Bilanz und Ausblick
 Das TriebfedOERn-Barcamp hat gezeigt, dass die **OER-Community lebendig und voller Ideen ist**. Die Diskussionen reichten von grundlegenden ethischen Fragen der KI über praktische Umsetzungshilfen bis hin zu strategischen Überlegungen zur Förderung von Offenheit und Zusammenarbeit in der Bildung. Die Energie und das Engagement der Teilnehmenden stimmen optimistisch für die Weiterentwicklung von OER und OEP und sowohl Ort als auch Tagungsorga ließen keine Wünsche offen. 
 Vielen herzlichen Dank und: to be continued!
 
-![](einhorn-sonja-silvia-joerg.jpg)
+![Jörg, Silvia und Sonja stehen vor OER-Banner der DHBW Mosbach mit Einhorn-Luftballon.](https://blossom.edufeed.org/d26190fe5550a40d7962cf71cd8a105b660c8b7e2168cce40d3370420a268603.jpg)
+[Austausch beim TriebfedOERn-Barcamp 2025](https://oer.community/triebfedoern), [Nadja, Judith, Kristina, Aniko, Veronica, Erika, Laura, Bernd, Rebecca, Alice, Myriam, Saskia, Jörg, Verena, Katja, Jorge, Silvia, Sonja, Pia](https://www.mosbach.dhbw.de/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 CC BY Nadja, Judith, Kristina, Aniko, Veronica, Erika, Laura, Bernd, Rebecca, Alice, Myriam, Saskia, Jörg, Verena, Katja, Jorge, Silvia, Sonja, Pia, 

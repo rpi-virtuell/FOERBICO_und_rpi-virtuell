@@ -28,7 +28,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/oer-fortbildungsreihe-2/OER-Fortbildungsreihe-2.jpg
+image: https://blossom.edufeed.org/1dff9d74822a5fcd9b8d58e36af726a026d81ad608429470d7306712c380763a.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -42,8 +42,8 @@ author:
   - Gina Buchwald-Chassée
 title: 'Rückblick auf Teil 2 der Online-Fortbildungsreihe zu OER in der Hochschullehre für Religionspädagogik & Theologie: : OER finden & bewerten'
 cover:
-  relative: true
-  image: OER-Fortbildungsreihe-2.jpg
+  relative: false
+  image: https://blossom.edufeed.org/1dff9d74822a5fcd9b8d58e36af726a026d81ad608429470d7306712c380763a.jpg
   hiddenInSingle: true
 summary: 'In Teil 2 der Online-Fortbildungsreihe "OER in der Hochschullehre für Religionspädagogik & Theologie" wurden Strategien zur Recherche und Bewertung von OER vorgestellt und diskutiert. Unter der Leitung von Dr. Laura Mößle (Goethe-Universität Frankfurt) und Gina Buchwald-Chassée (Comenius-Institut) standen u. a. folgende Fragen im Mittelpunkt: Wie sieht es mit (CC-)Lizenzen aus? Wo findet man für die Hochschullehre geeignete offene Materialien? Wie bewertet man die Qualität von OER?'
 url: oer-fortbildungsreihe-2

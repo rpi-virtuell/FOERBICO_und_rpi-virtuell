@@ -33,7 +33,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/oer-beratung-und-qualitätskriterien/check-306411_1280.png
+image: https://blossom.edufeed.org/f717ec5aa716f8c18347c6f3a7488a86ffce6ed3f4d608d8f571ba0a5cf8ade5.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -47,8 +47,8 @@ author:
   - Viera Pirker
 title: 'Qualitätsgeleitete Beratung für OER: Ein Blick in das Projekt M@ps'
 cover:
-  relative: true
-  image: check-306411_1280.png
+  relative: false
+  image: https://blossom.edufeed.org/f717ec5aa716f8c18347c6f3a7488a86ffce6ed3f4d608d8f571ba0a5cf8ade5.png
   hidddenInSingle: false
   alt: 'Checkliste (Quelle: Clker-Free-Vector-Images, Pixabay-Lizenz)'
   hiddenInSingle: true
@@ -112,7 +112,8 @@ Um die Qualitätskriterien auf ihre Praxistauglichkeit zu testen, wurden sie jet
 
 Im Zuge der hessischen Bildungsinitiative **[Löwenstark – Der BildungsKICK](https://kultus.hessen.de/programme-und-projekte/loewenstark/ein-jahr-loewenstark)** hat die Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt ein innovatives Workshop-Format entwickelt, das die Herausforderungen der digitalen Transformation im schulischen Bildungsbereich in den Blick nimmt: **[M@PS – Medienkompetenz erweitern, Persönlichkeit stärken](https://www.uni-frankfurt.de/137528359.pdf)**. 
 
-![M@ps Logo](MaPS-Logo-17.10-rounded.png)
+![M@ps Logo](https://blossom.edufeed.org/135c67f66a854b14be399eb1394d7ac7b9996431375fa1b98cf7c852b470c029.png)
+[M@ps-Logo](https://moodle-connect.s.studiumdigitale.uni-frankfurt.de/moodle/pluginfile.php/5604/mod_label/intro/M%40PS-Logo-17.10-rounded.png), [Goethe-Universität Frankfurt am Main](https://www.uni-frankfurt.de/de), [©](https://www.dpma.de/service/schutzrechte_kurz_erklaert/urheberrecht/index.html)
 
 Angesichts des rasant fortschreitenden technologischen Wandels steht das Bildungssystem vor der Aufgabe, Schüler:innen technisch zu schulen, und sie zu befähigen, ihre digitale Umwelt kritisch zu reflektieren und mündig mitzugestalten.
 

@@ -47,7 +47,7 @@ inLanguage:
   - de
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n0
-image: https://oer.community/hackathoern-2026/Gruppenfoto-HackathOERn.jpg
+image: https://blossom.edufeed.org/0ef86c4ace94cf0e0622446589055f366f002f1c1228aec61bf4af56f3e7e07b.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 datePublished: '2026-06-03'
@@ -66,8 +66,8 @@ author:
   - Ute Rühling
 title: 'HackathOERn 2026 in Göttingen – Zwischen KI-Editoren, OER-Navigation und offenen Events'
 cover:
-  relative: true
-  image: Gruppenfoto-HackathOERn.jpg
+  relative: false
+  image: https://blossom.edufeed.org/0ef86c4ace94cf0e0622446589055f366f002f1c1228aec61bf4af56f3e7e07b.jpg
   hiddenInSingle: true
 summary: >-
   Vom 11. bis 13. Mai 2026 trafen sich bei der GWDG in Göttingen Open-Education-Enthusiast:innen, Entwickler:innen, Bildungspraktiker:innen und Forschende im Rahmen des HackathOERns 2026, um gemeinsam Bedarfe, Herausforderungen und Lösungen für offene Bildungsinfrastrukturen rund um OER und OEP zu entwickeln - mit Beteiligung des FOERBICO-Teams in verschiedenen Projektgruppen.
@@ -193,7 +193,8 @@ Der zweite Strang verband zwei eng verwandte Projektideen: „Meine Termine mit 
 
 Ausgangspunkt war die Beobachtung, dass viele Bildungsangebote zwar öffentlich zugänglich sind, ihre Informationen jedoch häufig in schwer weiterverarbeitbaren Webseiten oder PDFs „eingesperrt" bleiben. Die Vision dahinter: ein offenes Ökosystem, in dem klassische Web-Quellen über offene Protokolle in standardisierte, weiterverwendbare Strukturen überführt werden.
 
-![Das Ökosystem: WordPress/Drupal/HTML5 → Termi → OERSI + Nostr → NavigatOER](5.jpg)
+![Das Ökosystem: WordPress/Drupal/HTML5 → Termi → OERSI + Nostr → NavigatOER](https://blossom.edufeed.org/95865537a374770b99c8fa58a232bfd6b560d5f375f8cddc6559aef9281cb519.jpg)
+[Das Ökosystem: WordPress/Drupal/HTML5 → Termi → OERSI + Nostr → NavigatOER](https://oer.community/hackathoern-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Termi – Termine aus Webseiten befreien
 
@@ -210,7 +211,8 @@ Der Workflow gliedert sich in sechs Schritte:
 
 Technisch baut Termi auf dem Chatbot-Frontend [nope-chatbot](https://github.com/edufeed-org/nope-chatbot) auf und nutzt zwei MCP-Server in klar getrennten Rollen: [nostrbook.dev/mcp](https://nostrbook.dev/mcp) als Protokoll-Wissensquelle (NIP-/Kind-/Tag-Spezifikationen) sowie [amb-mcp](https://git.edufeed.org/edufeed/amb-mcp) für Bildungsmetadaten und das Publish-Handling. Als Modelle wurden u.a. die GWDG-eigenen [Chat-AI-Modelle](https://docs.hpc.gwdg.de/services/ai-services/chat-ai/models/index.html) (GLM-4.7, Qwen) verwendet – ein gutes Beispiel dafür, wie offene Bildungsinfrastruktur und souveräne KI-Dienste zusammenspielen können.
 
-![Das Termi-Team am Whiteboard: Ludger, Steffen, Gina und Jörg vom FOERBICO-Team mit Toby (GWDG) und Maskottchen „Termi"](2.jpg)
+![Das Termi-Team am Whiteboard: Ludger, Steffen, Gina und Jörg vom FOERBICO-Team mit Toby (GWDG) und Maskottchen „Termi"](https://blossom.edufeed.org/f3a1cd251cfd0f739f46be1a371c4d15db7faabbc21590cd95df6dea66e59ff2.jpg)
+[Das Termi-Team](https://oer.community/hackathoern-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### NavigatOER – Kontextbasiert OER finden
 
@@ -240,7 +242,8 @@ Eine erste Demo der Suche samt Cards, Filtern und Graph-Exploration ist unter [j
 
 Im gemeinsamen Ökosystem-Bild wird der Zusammenhang deutlich: Termi überführt Veranstaltungsseiten aus WordPress, Drupal oder reinem HTML in offene Nostr-Events. NavigatOER greift sowohl auf klassische OER-Daten (über [OERSI](https://oersi.org)) als auch auf diese Nostr-Events zu und stellt sie zusammen mit Personen, Communities und Materialien in einer kontextbasierten Suche dar. So entstand am Ende des Hackathons das Bild einer offenen, sozialen Bildungsinfrastruktur, in der OER, Communities und Veranstaltungen stärker miteinander verbunden werden.
 
-![Die NavigatOER- und Termi-Crew vor der Ökosystem-Folie – „See you later, NavigatOER"](11.jpg)
+![Die NavigatOER- und Termi-Crew vor der Ökosystem-Folie – „See you later, NavigatOER"](https://blossom.edufeed.org/9033900053fe8adbd89957ff203ce725b5bae731f8aa67f4e8094da87de6bdb1.jpg)
+[Die NavigatOER- und Termi-Crew](https://oer.community/hackathoern-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Das große Finale – die Ergebnispräsentationen
 

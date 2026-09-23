@@ -43,7 +43,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n544
   - https://w3id.org/kim/hochschulfaechersystematik/n053
   - https://w3id.org/kim/hochschulfaechersystematik/n052
-image: https://oer.community/geschoepflichkeit-als-massstab-ki/haende.jpg
+image: https://blossom.edufeed.org/0a316b7f88e4ef5b428c110fbe329356d1f6cb24741d640fecc90b9573e58ead.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -64,8 +64,8 @@ author:
   - Steffen Kleint
 title: 'Geschöpflichkeit als Maßstab - vier Bestimmungen für eine evangelische Position zu KI in der Bildung'
 cover:
-  relative: true
-  image: haende.jpg
+  relative: false
+  image: https://blossom.edufeed.org/0a316b7f88e4ef5b428c110fbe329356d1f6cb24741d640fecc90b9573e58ead.jpg
   alt: Vier Hände der Arbeitsgruppe – Miriam, Simone, Jörg und Steffen – auf einem Tisch zusammen
   hiddenInSingle: true
 summary: >-
@@ -102,7 +102,8 @@ bilder:
 
 > **TL;DR** – In einer Arbeitsgruppe am Comenius-Institut haben wir uns gefragt, was religionsbezogene Bildung gegenüber KI eigentlich Eigenes einzubringen hat. Den Anstoß gaben Anregungen von Prof. Dr. Birte Platow, die uns vier Punkte zum Weiterdenken mitgegeben hatte. Herausgekommen sind vier Bestimmungen des Menschseins, die KI strukturell *nicht* leisten kann: **Berufung zur Mündigkeit, Unverfügbarkeit, Fehler als Freiheit, KI-Entwicklung als Berufung**. Sie machen Geschöpflichkeit als Maßstab evangelischer Bildung im KI-Zeitalter konkret.
 
-![Vier Hände der Arbeitsgruppe - Miriam, Simone, Jörg und Steffen - auf der Terrasse des Instituts](haende.jpg)
+![Vier Hände der Arbeitsgruppe - Miriam, Simone, Jörg und Steffen - auf der Terrasse des Instituts](https://blossom.edufeed.org/0a316b7f88e4ef5b428c110fbe329356d1f6cb24741d640fecc90b9573e58ead.jpg)
+[Vier Hände statt KI-Bild](https://oer.community/geschoepflichkeit-als-massstab-ki), [Jörg Lohrer](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 *Unsere vier Hände aus der Arbeitsgruppe. Wir haben das [ursprünglich KI-generierte Symbolbild](geschoepf-ki-banana2.jpg) bewusst durch dieses Foto ersetzt - Geschöpflichkeit zeigt sich eben nicht in synthetischen Stockmotiven, sondern in konkreten Personen, die gemeinsam denken. Das passt kongruenter zum Inhalt. Foto: Jörg Lohrer, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)*
 
 ---

@@ -17,7 +17,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/autorisierte-schulbuecher-oder-offene-oer/Buecherregal.jpg
+image: https://blossom.edufeed.org/58f2d98a03d0890ef25a501d2077a2c0ea1c8f3d125afcfaab455ac393f322cb.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -29,8 +29,8 @@ author:
   - Laura Mößle
 title: Autorisierte Schulbücher oder offene OER? Eine Frage der Materialkultur
 cover:
-  relative: true
-  image: Buecherregal.jpg
+  relative: false
+  image: https://blossom.edufeed.org/58f2d98a03d0890ef25a501d2077a2c0ea1c8f3d125afcfaab455ac393f322cb.jpg
   hidddenInSingle: false
   alt: 'Bücherregal (Quelle: Unsplash, Foto von Susan Q Yin)'
   hiddenInSingle: true

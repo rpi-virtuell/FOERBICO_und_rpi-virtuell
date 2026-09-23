@@ -24,7 +24,7 @@ creator:
       id: https://ror.org/04cvxnb49
       type: Organization
 inLanguage: de
-image: https://oer.community/digitale-offenheit-braucht-tiefe/TiRU.png
+image: https://blossom.edufeed.org/5b3a0df48575f532cf5fc6b55f5d7f561fd9834b2ac443614e19236981607818.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/article
 educationalLevel:
@@ -37,8 +37,8 @@ author:
   - Paula Paschke
 title: 'Digitale Offenheit braucht fachwissenschaftliche Tiefe: OER-Qualität im Projekt TiRU'
 cover:
-  relative: true
-  image: TiRU.png
+  relative: false
+  image: https://blossom.edufeed.org/5b3a0df48575f532cf5fc6b55f5d7f561fd9834b2ac443614e19236981607818.png
   hidddenInSingle: false
   alt: TiRU Logo Schriftzug im Tablet
   hiddenInSingle: true

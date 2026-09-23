@@ -17,7 +17,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/phillip-und-ludger.jpg
+image: https://blossom.edufeed.org/37ab189440e8b51277b3f201ca951991f39cfce490e44b88c76ad94e347fb112.jpg
 datePublished: 2024-09-02
 
 # staticSiteGenerator
@@ -25,8 +25,8 @@ author:
   - Phillip Angelina
 title: It's Jointly 2024 Rückblick
 cover:
-  relative: true
-  image: phillip-und-ludger.jpg
+  relative: false
+  image: https://blossom.edufeed.org/37ab189440e8b51277b3f201ca951991f39cfce490e44b88c76ad94e347fb112.jpg
   hiddenInSingle: true
 summary: Das OER-/IT-Sommercamp "it's jointly 2024" fand zum neunten Mal in Folge in Weimar statt. Hier trafen sich ExpertInnen aus Bildung und der IT um gemeinsam an Strategien, Konzepten und Formaten zu arbeiten. Dabei wurde die Konferenz in einen Hackathon sowie ein Netzwerktreffen aufgeteilt. Zwei Mitglieder des FOERBICO Teams nahmen an den jeweiligen Campteilen vom 19.08.-21.08.2024 teil.
 url: einblicke-zum-oer-it-sommercamp-its-jointly-2024
@@ -66,14 +66,16 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
-![Viele gute Ideen wurden gesammelt](brainstorming.jpg)
+![Viele gute Ideen wurden gesammelt](https://blossom.edufeed.org/94a6ec676b746fff0c30a48b91a5c012074376c539a868c1e7e09a461e4714b4.jpg)
+[Brainstorming beim it´s jointly OER-/IT-Sommercamp 2024 in Weimar](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Beim Campteil "Netzwerktreffen" wurden verschiedene Projekte und Ideen vorgestellt, wie mit *KI* in der Lehre umzugehen ist. Das seit Oktober 2022 neue Schlagwort KI wurde aus verschiedenen Perspektiven beleuchtet, um diese für verschiedene Bildungssektoren habhaft zu machen. *KI als ein Werkzeug* ist eine wichtige Erkenntnis aus der Tagung. 
 Zusätzlich führten wichtige Themen wie Redaktionsnetzwerke, OER in der (Aus-)Bildung und Metadaten zu abendfüllenden Gesprächen.
 
 Im Campteil "Hackathon" ging es auch um KI. Z. B. befasste sich ein Workshop damit, ob und wie sich mithilfe von Sprachmodellen aus (beschreibenden) Texten Metadaten erzeugen lassen. Diese sollen dann beim Erfassen und (Wieder-)Finden der Dokumente helfen. In einem anderen Workshop ging es um die Frage, wie sich Metadaten unabhängig von einer Plattform veröffentlichen und wiederverwenden lassen. An vielen weiteren Ideen und Konzepten wurde in den drei Tagen gehackt. Die TeilnehmerInnen suchten für verschiedenste Projekte nach neuen Antworten für aktuelle Probleme in der Digitalen Bildung.
 
-![jOERn sucht nach neuen Netzwerken](empoert.jpg)
+![jOERn sucht nach neuen Netzwerken](https://blossom.edufeed.org/b1b684d6686c5a077b1fe9c9f84d8012398be732c0cae60bb0838877b130252d.jpg)
+[Phillip ist empOERt](https://oer.community/einblicke-zum-oer-it-sommercamp-its-jointly-2024/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Zum Abschluss wurden die Ergebnisse der einzelnen Workshops vor allen präsentiert. In einem internen (nicht ganz ernst gemeinten) "Wettbewerb" wurden die Beiträge prämiert. Sowohl im erstplatzierten als auch im zweitplatzierten Workshop waren wir mit dabei. Yeah! \o/
 

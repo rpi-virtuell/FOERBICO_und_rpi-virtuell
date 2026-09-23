@@ -20,7 +20,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n03
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/der-loewe-schwierigkeiten/loewe_von_juda_titelbild.jpg
+image: https://blossom.edufeed.org/fd3d6591a2f5e80098c637cc48c7e4550c98cfbdfbbe0196740b93fc4afab98c.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -36,8 +36,8 @@ author:
   - Phillip Angelina
 title: Wenn der Löwe ruft und die Communities antworten
 cover:
-  relative: true
-  image: loewe_von_juda_titelbild.jpg
+  relative: false
+  image: https://blossom.edufeed.org/fd3d6591a2f5e80098c637cc48c7e4550c98cfbdfbbe0196740b93fc4afab98c.jpg
   hidddenInSingle: false
   alt: Der Löwe von Juda
   hiddenInSingle: true
@@ -94,7 +94,8 @@ Die folgende, in den theologischen Diskurs gestellte Erörterung bezieht sich im
 - Gewalt wird in „der Löwe von Juda” durchgehend in einen heroischen Kontext gestellt. Die ‚guten‘ Männer Gottes kämpfen kriegerisch gegen die Feinde der Hebräer bzw. Gottes. Dabei wird die kritische Auseinandersetzung mit Gewalt innerhalb der hebräischen Bibel nicht erwähnt.
 
 ## Bei der Veröffentlichung
-![»Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden.«](loewe_von_juda_04.jpg) <br>Screenshot von Instagram</br>
+![»Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden.«](https://blossom.edufeed.org/5d7c5e2b77ed4cf7f1a0379c22983e0f8b761ca6641b663ce920424eee78b810.jpg)
+[Der Löwe von Juda, Screenshot Instagramseite der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/), [Deutsche Bibelgesellschaft](https://www.die-bibel.de/), [©](https://www.gesetze-im-internet.de/urhg/) <br>Screenshot von Instagram</br>
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 
@@ -135,7 +136,8 @@ Die männlichen Charaktere erinnern stärker an Superhelden als an die Urväter 
 
 ## Kritikpunkt 3: Gewalt
 
-![Männliche Charaktere](loewe_von_juda_03.jpg) <br>Screenshot von Instagram</br>
+![Männliche Charaktere](https://blossom.edufeed.org/a99c7517fbc63158aa574005b322aa111d38c8dbaf9bdc505a45986965da0faf.jpg)
+[Screenshot der männlichen Charaktere, Instagramseite der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/), [Deutsche Bibelgesellschaft](https://www.die-bibel.de/), [©](https://www.gesetze-im-internet.de/urhg/) <br>Screenshot von Instagram</br>
 
 [Zum Instagram-Beitrag der Deutschen Bibelgesellschaft](https://www.instagram.com/p/DQB3hZZjKqV/)
 

@@ -16,7 +16,7 @@ creator:
       type: Organization
 inLanguage:
   - de
-image: https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/OERinfo-Fachtag-FOERBICO-Team.jpg
+image: https://blossom.edufeed.org/32bce6db9f501efa05bd85b93d772773ac6564691c7c7bbbefa3605dd49ab15c.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
 educationalLevel:
@@ -28,8 +28,8 @@ author:
   - Gina Buchwald-Chassée
 title: 'OERinfo-Fachtag am 7.10.2024 in Frankfurt: "How to build a Community?!"'
 cover:
-  relative: true
-  image: OERinfo-Fachtag-FOERBICO-Team.jpg
+  relative: false
+  image: https://blossom.edufeed.org/32bce6db9f501efa05bd85b93d772773ac6564691c7c7bbbefa3605dd49ab15c.jpg
   hiddenInSingle: true
 summary: Mit dem jährlich stattfindenden OERinfo-Fachtag als Format zum Austausch und zur Vernetzung der wachsenden OER-Community sollen Wissenschaft und Praxis, etablierte und neue OER-Initiativen sowie OER-Befürworter*innen und Interessierte zusammenkommen. Der OERinfo-Fachtag fand am 07.10.2024 am DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation in Frankfurt am Main statt. Unser FOERBICO-Team war mit dabei und hat das Projekt vorgestellt.
 url: oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community
@@ -84,13 +84,15 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
-![](DIPF-Gebaeude.jpg)
+![Außenansicht des DIPF-Gebäudes vor dem Eingang.](https://blossom.edufeed.org/508965fa6dc2f930780bc43738b8a673c55a193e59ae2210146e8d5ac3ff2399.jpg)
+[DIPF-Gebäude](https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Gemeinsam die Community stärken!
 
 So lautete das Motto des [OERinfo-Fachtages 2024](https://open-educational-resources.de/oerinfo-fachtag/) mit dem Schwerpunktthema "Community Buliding". Im Fokus standen Erfahrungsaustausch und Vernetzung der Projekte der [OE_COM Förderrichtlinie](https://www.oer-strategie.de/foerdern/foerderrichtlinien/) untereinander sowie mit weiteren etablierten Initiativen aktiver Communities.
 
-![](OERinfo-Fachtag-Begruessung.jpg)
+![Begrüßung von Katja Stamm (BMBFSFJ) und Steffi Widera (Geschäftsführerin der Virtuellen Hochschule Bayern) beim OERinfo-Fachtag 2024 in Frankfurt a.M.](https://blossom.edufeed.org/9766198f0f4f66a027b378e7415e9e1ab447eb7ec17b0198ec1edc165080e24c.jpg)
+[Begrüßung beim OERinfo-Fachtag](https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Nach einer Begrüßung von Prof. Dr. Marc Rittberger (Direktor des Informationszentrums Bildung am DIPF) sowie von Katja Stamm (BMBF) und Dr. Steffi Widera (Geschäftsführerin der Virtuellen Hochschule Bayern) als Vertreterinnen von Bund und Länder erfolgte eine Kurzvorstellung der geförderten [Projekte](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/):
 
@@ -116,11 +118,13 @@ Nach einer Begrüßung von Prof. Dr. Marc Rittberger (Direktor des Informationsz
 
 Und natürlich unser Projekt **FOERBICO** zur Förderung offener Bildungspraktiken in religionsbezogenen Communities, hier für euch zum Nachschauen 📹😉
 
-[![FOERBICO kurz vorgestellt von Jörg](Kurzvorstellung-FOERBICO-vorschau.png)](Joerg-stellt-FOERBICO-vor.mp4 "Jörg stellt FOERBICO vor - kurz und knapp")
+[![FOERBICO kurz vorgestellt von Jörg](https://blossom.edufeed.org/05e99828171d1ef5469627db88f4f21c646072102c345ec83d388d40e85ea978.png)](Joerg-stellt-FOERBICO-vor.mp4 "Jörg stellt FOERBICO vor - kurz und knapp")
+[FOERBICO-Vorstellung beim OERinfo-Fachtag 2024](https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Im Anschluss fanden weitere Gespräche an Thementischen zu den Projekten statt. Außerdem wurden noch die Plattformen Plattform [ComPleTT](https://complett.bildungsserver.de/) und [HubbS](https://hubbs.schule/) präsentiert. 
 
-![](Community-Staerkung-Erweiterung.jpg)
+![Stehtisch der OER-Communities KlimaOER, ProOER und FOERBICO beim OERinfo-Fachtag 2024.](https://blossom.edufeed.org/8dd883dc1b6b95dc12ccc816dc8a3c736d5bf03e3332b8bfd8eb213fd5aa321d.jpg)
+[Thementisch zur Community-Stärkung und -Erweiterung beim OERinfo-Fachtag 2024](https://oer.community/oerinfo-fachtag-am-7-10-2024-in-frankfurt-how-to-build-a-community/), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Parallele Workshops zu Strategien, Konzepten und Erfolgsfaktoren
 

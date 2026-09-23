@@ -75,7 +75,7 @@ about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n052
   - https://w3id.org/kim/hochschulfaechersystematik/n053
-image: https://oer.community/recap-foerbico-tagung-2026/Team.jpg
+image: https://blossom.edufeed.org/34a6e3ee0d080a685fc1539a9b366d621b4b55fe66e2c12228d92797b43d3720.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -101,8 +101,8 @@ author:
   - Jens Dechow
 title: Mit OER zu einer Kultur des Teilens – Zwischenfazit-Tagung vom FOERBICO-Projekt
 cover:
-  relative: true
-  image: Team.jpg
+  relative: false
+  image: https://blossom.edufeed.org/34a6e3ee0d080a685fc1539a9b366d621b4b55fe66e2c12228d92797b43d3720.jpg
   hiddenInSingle: true
   alt: FOERBICO-Team (CC BY 4.0)
 summary: Die Bekanntheit von OER ist in den letzten Jahren gestiegen, doch Fragen zur Zusammenarbeit von OER-Communities, zur kollaborativen Materialentwicklung und zu einer gelebten Kultur des Teilens bleiben. Die FOERBICO Zwischenfazit-Tagung 2026 in Nürnberg widmete sich diesen Themen mit Impulsen aus Forschung, Praxis und interaktiven Formaten.
@@ -248,23 +248,28 @@ Save-the-Date 🗓️: Die Abschlusstagung findet im Frühling 2027 an der Goeth
 
 ## Begrüßung & Vorstellung der Zwischenergebnisse aus FOERBICO
 
-![](Grusswort-Reuter.jpg)
+![Video mit Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) mit Online-Begrüßung bei FOERBICO-Zwischenfazit-Tagung 2026 in Nürnberg](https://blossom.edufeed.org/70823c6a14921c0557950327663a8c03279e3e338b3179848a0a77d09a29ba35.jpg)
+[Online-Grußwort von Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ)](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 „Im OER-Kosmos ist FOERBICO gut vernetzt“ - mit diesen freundlichen Worten begrüßte uns Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend ([BMBFSFJ](https://www.bmbfsfj.bund.de/)) und gab Einblicke in die [OER-Strategie](https://www.oer-strategie.de/) des Bundes. In seiner Begrüßung machte Herr Reuter deutlich, dass FOERBICO kreativ, kollaborativ und transparent arbeitet. Dies zeigt sich für ihn durch den Aufbau des innovativen Nostr-Protokolls, da hier mit der klassischen Plattformlogik gebrochen wird hin zu einer offenen, dezentralen und interoperablen Datenstruktur. Zugleich würde FOERBICO auch mit den Communities zusammenarbeiten und professionelle Lerngemeinschaften bzw. Community of Practices unterstützen und fördern. 
 
-![](Forschungsstand.jpg)
+![Manfred Pirner der FAU Erlangen-Nürnberg steht am Rednerpult und stellt den Literaturbericht.](https://blossom.edufeed.org/ab6ce53bbbc34e3065ab553a45ae0d5ea3a8fbf4a756fd25d7beeb8fec9e435a.jpg)
+[Vorstellung Forschungsstand von Manfred Pirner](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Zu Beginn führten Manfred Pirner ([Professur am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts der FAU Erlangen-Nürnberg](https://www.evrel.phil.fau.de/)) und Viera Pirker ([Professur für für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt](https://www.uni-frankfurt.de/78330411/Religionsp%C3%A4dagogik_und_Mediendidaktik)) in den Forschungsstand zu Open Educational Resources (OER) und Open Educational Practices (OEP) ein und teilten zentrale Einsichten aus ihrem Literaturbericht: [„Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont“](https://oer.community/oer-oep-literaturbericht/). Ihr Fazit: Open Educational Resources und Open Educational Practices gewinnen in Deutschland zunehmend an Bedeutung und weisen großes Potenzial für eine partizipationsorientierte, digitale, pädagogische wie theologisch verantwortete religionspädagogische Bildungslandschaft auf. Dennoch herrscht ein Forschungsdefizit für die Nutzung von OER und die Praxis von OEP in religionspädagogischen Kontexten.  
 
-![](Begleitforschung.jpg)
+![Phillip der FAU Erlangen-Nürnberg stellt dem Publikum die Ergebnisse der Begleitforschung im Rahmen des FOERBICO-Projektes vor.](https://blossom.edufeed.org/2f64c6b96f5bcd8e5d61c0dadb7dc9fe8aa249892a183dc743930b5b141c8377.jpg)
+[Vorstellung der Ergebnisse der Begleitforschung im FOERBICO-Projekt](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Seit August 2024 erforscht das FOERBICO-Team OER-Communities im religionsbezogenen Bildungsbereich, insbesondere ihre Strukturen, Dynamiken und Formen der Zusammenarbeit. Auf der Tagung präsentierte Phillip Angelina (wiss. Mitarbeiter an der FAU Erlangen-Nürnberg) die Ergebnisse aus Interviewbefragungen mit verschiedenen religionsbezogenen Communities. Grundlegend konstatiert er, dass Open Educational Resources bekannt sind, die Erstellung allerdings insbesondere aufgrund rechtlicher Hürden und fehlender zeitlicher Ressourcen für die Communities oft herausfordernd ist. Open Educational Practices ist als Begriff hingegen weniger geläufig, obwohl alle Communities offene Bildungspraktiken umsetzen.
 
-![](Qualitaet.jpg)
+![Laura von der Goethe-Universität Frankfurt a.M. präsentiert die im FOERBICO-Projekt entwickelten Qualitätskriterien vor.](https://blossom.edufeed.org/6e390a630a11296ac1ffa4db8ada6cd25c71b0d985327c5c08feacbf59df0c61.jpg)
+[Vorstellung der im FOERBICO-Projekt entwickelten Qualitätskriterien](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Im Anschluss daran stellte Laura Mößle (wiss. Mitarbeiterin der Goethe-Universität) die im Rahmen eines iterativen Prozesses entwickelten [Qualitätskriterien](https://oer.community/qualitaet/) insbesondere mit religionspädagogischem Schwerpunkt vor. Die Qualitätskriterien sollen Orientierung und Unterstützung bieten und zur Selbstreflexion anregen. Sie kommen bereits in Beratungsprozessen, Forschungsprojekten und in der praktischen OER-Materialerstellung bereits zum Einsatz und werden auf Basis der Rückmeldungen stetig weiterentwickelt.
 
-![](Hub-Vorstellung.jpg)
+![Das Team vom Comenius-Institut stellt die aktuellen Entwicklungen des im FOERBICO-Projektes geplanten Community-Hubs vor.](https://blossom.edufeed.org/88cdfff2fc2c9997549211a6099d29a78e04c04dd4113b50b664c59ab9935544.jpg)
+[Vorstellung der aktuellen Entwicklungen vom Community-Hub](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Abschließend veranschaulichte das Team des Comenius-Institutes die ersten Schritte auf dem Weg zum Community-Hub als Kommunikations- und Kollaborationsumgebung im Sinne einer Community of Communities. Dabei wurden verschiedene „Schmerzpunkte“ der Communities aufgegriffen, doch anstatt mit Behelfslösungen „Pflaster“ darauf zu kleben, soll nun mit einer dezentralen, kompatiblen und offenen Dateninfrastrukturlösung zu einem nachhaltigen OER-Ökosystem und damit zur "Heilung" beigetragen werden.
 
@@ -277,7 +282,8 @@ Passend dazu gab es auch thematische Workshops zum Austauschen und Ausprobieren,
 
 ## Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP
 
-![](Keynote.jpg)
+![Prof. Dr. Daniel Otto steht auf der Bühne und präsentiert aktuelle Herausforderungen und Perspektiven für OER und OEP.](https://blossom.edufeed.org/ef99e24f13b9518783ccdab09524e29824d4070d053f67c0b29bc5fd3eadfa75.jpg)
+[Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Unterscheidung von OER und OEP
 Daniel Otto begann seine Keynote mit der These, dass OEP und OER sich überlappen, aber es sich dennoch um zwei getrennte Konzepte handle. OER rein von Material her zu bestimmen greife zu kurz, denn die Subjekte und eine Praxis sind immer schon mitgedacht. Es geht um ein Arrangement aus Lizensierung, Standards und Infrastruktur, also die *Fähigkeiten* der Ressource und nicht die Ressource an sich. Dies speist sich aus der normativen Idee (vgl. [Angelina & Buchwald-Chasée 2025](https://oer.community/interview-daniel-otto/)), dass Bildung als öffentliches Gut zugänglich, anpassbar und teilbar sein sollte. Leider ist die globale Umsetzung empirisch ernüchternd. OER sind somit nicht neutral und es kann Zielkonflikte geben welche aufgrund von Offenheit und Transparent nach außen getragen werden. OEP ist dagegen definitorisch und analytisch schwer zu greifen und es fehle an theoretischer Unterfütterung (vgl. [Thompson 2023](https://doi.org/10.2139/ssrn.4595912)). Dies decke sich auch mit den Ergebnissen aus dem Literaturbericht von Pircker und Pirner ([2025](https://oer.community/oer-oep-literaturbericht/)). Daraus schließt Otto, dass OEP ein deskriptiver Begriff sei, welches die Nutzung von OER mit einschließt, aber darüber hinaus geht.
@@ -285,7 +291,8 @@ Daniel Otto begann seine Keynote mit der These, dass OEP und OER sich überlappe
 ### KI als eine Herausforderung von OER und OEP
 KI spielt dabei eine Herausforderung für OER, da diese von ihrer Logik her anders aufgebaut ist und funktioniert. Die normative Ideen von OER beispielsweise haben sich in einem Rechtsgerüst der CC-Lizenzen operationalisiert. OER zeichnet sich durch die transparente Angabe von Quellen und Versionierungen aus und ist dabei nachvollziehbar sowie zitierbar. Demgegenüber ist die Anwendung von generativer KI in Rechtsfragen noch unbestimmt zugleich handelt es sich hierbei um eine Blackbox in der weder der Input noch der Output für Nutzende nachvollziehbar sei. Die KI erzeuge, so Otto, eine *eschatologische Spannung* von jetzt schon und noch nicht, also ein Heilsversprechen das auf die Zukunft vertröstet. Trotz dessen wird die KI nicht verworfen, sondern Otto entwickelt durch Gurndsätze der OER-enabled Pedagogy ([Wiley & Hilton III 2018](https://doi.org/10.19173/irrodl.v19i4.3601)) einen konstruktiven Umgang. Je offener und deligierbarer Aufgaben sind, desto eher kann KI eine Unterstützung sein. 
 
-![](OER_KI_Matrix.jpg)
+![Folie aus Präsentation von Prof. Daniel Otto zu aktuelle Herausforderungen und Perspektiven für OER und OEP mit Matrix zu Kompetenzen im digitalen Zeitalter: Delegierbarkeit x Offenheit. Eigene Darstellung unter Nutzung von ChatGPT 5.](https://blossom.edufeed.org/1f68c02aaff3569619d4824c2ddaf73b7558dce84047ebef636b23ba2af1dd3b.jpg)
+[Matrix zu Kompetenzen im digitalen Zeitalter: Delegierbarkeit x Offenheit](https://oer.community/recap-foerbico-tagung-2026), [Daniel Otto](https://www.researchgate.net/profile/Daniel-Otto-7), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Dies führt für die Hochschullehre zu der Ermöglichung von beitragsorientierten Beteiligung, neben der klassischen prüfungsorientierten Abfrage. Der Fokus wird dabei stärker auf dem Lernprozess gelegt, als auf das Endprodukt. 
 
@@ -304,7 +311,8 @@ In verschiedenen Community-Workshops konnten die Teilnehmenden die Communities k
 
 ### relilab - Gemeinsam religionsbezogene Bildung ermöglichen
 
-![](relilab.jpg)
+![Logo mit Aufschrift relilab in blau-lila-pinken Farbverlauf als Schieberegler.](https://blossom.edufeed.org/3b0c28d35e784304e5152ec99e1de5f31860b64c0bf2357777dff21360ef0f45.jpg)
+[Logo relilab](https://relilab.org/), [relilab](https://relilab.org/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 [relilab](https://relilab.org/) ist kein klassisches Projekt, mit festen Laufzeiten. Es ist eine Community mit einer heterarchischen Netzwerkstruktur und besteht aus Einzelpersonen, Teams und Institutionen, die sich flexibel einbringen können - je nach Talenten und Interessen. relilab verbindet Akteur:innen über Konfessionen, Institutionen und Ländergrenzen hinweg, schafft Austauschräume und regt Kooperation an - offen für Lehrkräfte, Fortbildende, Studierende, Forschende und Praktizierende. Corinna Ullmann (Mitarbeiterin vom Comenius-Institut) und Olav Richter (Studienleiter Medienpädagogik der Ev. Landeskirche in Baden) diskutierten gemeinsam mit den Teilnehmenden, wie Communityarbeit in einem fluiden Netzwerk gelingen kann und wie man Communities mit offenen Fortbildungsangeboten stärken kann.
 
@@ -314,7 +322,8 @@ Weitere Informationen zu relilab findet ihr in unserem [Interview](https://oer.c
     
 ### reliGlobal - Fachstelle für Globales Lernen im Religionsunterricht
 
-![](reliGlobal.jpg)
+![Logo mit verschiedenfarbigen Figuren in Form einer Weltkugel.](https://blossom.edufeed.org/b7691e0c049e325f349cfe0d06439632e728ab1a83cddfef76d2b5eea7027962.jpg)
+[Logo reliGlobal](https://religlobal.org/), [reliGlobal](https://religlobal.org/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 [reliGlobal](https://religlobal.org/) ist eine gemeinsame Fachstelle der ALPIKA (Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter) mit dem Ziel, Globales Lernen nachhaltig im evangelischen Religionsunterricht zu verankern. Das Projekt wird seit September 2023 vom Comenius-Institut und weiteren pädagogisch-theologischen Instituten getragen und von Brot für die Welt gefördert. Jens Palkowitsch-Kühl brachte den Teilnehmenden insbesondere die Arbeitsweise in Sprint-Teams und den didaktischen Dreischritt bestehend aus Erkennen, Begreifen und Handeln näher.
 
@@ -324,7 +333,8 @@ Weitere Informationen zu reliGlobal findet ihr in unserem [Interview](https://oe
     
 ### RELImentar - religionspädagogisches Portal für den Elementarbereich
 
-![](RELImentar.jpg)
+![Logo mit grünem Schriftzug RELImentar mit pinkem e auf dem i.](https://blossom.edufeed.org/f6b64e516d1eeb6ae0c7338054a49d02d15ff6d4848c56d60fa575d7f954097f.jpg)
+[Logo RELImentar](https://relimentar.de/), [RELImentar](https://relimentar.de/), [©](https://www.gesetze-im-internet.de/urhg/)
 
 [RELImentar](https://relimentar.de/) ist eine digitale Plattform und ein fachliches Netzwerk für religionsbezogene Bildung in früher Kindheit und Familie. Sie stellt qualitätsgeprüfte Praxisideen und Materialien bereit, die auf einer theologisch reflektierten und wissenschaftlich fundierten Grundlage beruhen. Simone Wustrack (Mitarbeiterin des Comenius-Institutes) und Frank Ritthaler (Dozent für Religionspädagogik im Elementarbereich beim PTZ Stuttgart) stellten das Netzwerk vor: vom Entstehungskonzept, über den Aufbau von Fortbildungsformaten und Community-Building bis hin zur (Weiter-)Entwicklung der [Qualitätsmerkmale](https://relimentar.de/qualitaetskriterien-2025/) speziell für den religionspädagogischen Elementarbereich vor.
 
@@ -334,7 +344,8 @@ Weitere Informationen zu RELImentar findet ihr in unserem [Interview](https://oe
 
 ## Podiumsdiskussion mit Critical Friends
 
-![](CriticalFriends.jpg)
+![Vier Critical Friends aus verschiedenen Intsitutionen sitzen im Halbkreis auf der Bühne und diskutieren moderiert von Manfred Pirner.](https://blossom.edufeed.org/ba4d35527f7f21c6705ea91091955b3c6dd3d3373a85eb4a80b1c730c1e9b5c4.jpg)
+[Podiumsdiskussion mit Critical Friends](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Zum Abschluss der Tagung gab es eine Podiumsdiskussion mit Critical Friends moderiert von Manfred Pirner. Die FOERBICO-Ergebnisse dienten als Grundlage und es wurde aus verschiedenen Perspektiven überlegt, welche weiteren Forschungsmöglichkeiten auf Grundlage der Ergebnisse möglich wären.
 
@@ -373,16 +384,20 @@ Mit OER zu einer Kultur des Teilens - unter diesem Motto haben wir nicht nur uns
 
 Wir hoffen alle konnten etwas mitnehmen ❤️ Eine Anleitung zum #hOERz als OER zur Weiterverwendung gibt's unter https://s.edufeed.org/hoerz 
 
-![](hoerz.jpg)
+![Plakat mit Anleitung zu "Teile dein hOERz" für die Teilnehmenden im Rahmen der Zwischenfazit-Tagung.](https://blossom.edufeed.org/5a5cd0455527fbb8cc7593205d99534babbcdab4151e907062b2471551a37090.jpg)
+[hOERz-Aktion bei der Zwischenfazit-Tagung](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Lecker Essen, Tierluftballons und OER-Wortspiele durften natürlich auch nicht fehlen 😋
 
-![](Essen.jpg)
+![Teilnehmende der Tagung am Essensbuffet.](https://blossom.edufeed.org/ada8c5480a0aa6db1889ffa664d9ce6f84fa55045f0ca97222a3b7e69478cd5f.jpg)
+[Leckeres Essen und Begegnung](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Wir bedanken uns bei allen für die Teilnahme, den inspirierenden Austausch und natürlich auch nochmal bei unseren fleißigen Hilfskräften, ohne die wir das alles nicht gestemmt bekommen hätten 🙏
 
-![](Hilfskraefte.jpg)
+![Team der Hilfskräfte der Zwischenfazit-Tagung mit Tier-Luftballons.](https://blossom.edufeed.org/ae5610c62218fea013375af2ab3ef40ded08b77d6e1bf5b1838988d003262292.jpg)
+[Team der Tagungshilfskräfte](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Wir hoffen, ihr hattet alle so viel Spaß wie wir und wir freuen uns, euch nächstes Jahr in Frankfurt zu unserer [Abschlusstagung](https://terminladung.uni-frankfurt.de/registration?step=workshop&institution=69c25342c3008b1e271c4) wieder zu begrüßen! 
 
-![](Team.jpg)
+![Foto des jubelnden FOERBICO-Teams bei der Zwischenfazit-Tagung 2026 in Nürnberg](https://blossom.edufeed.org/34a6e3ee0d080a685fc1539a9b366d621b4b55fe66e2c12228d92797b43d3720.jpg)
+[FOERBICO-Team](https://oer.community/recap-foerbico-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
