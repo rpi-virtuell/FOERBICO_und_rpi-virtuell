@@ -115,7 +115,7 @@ In den anschließenden **Zukunftswerkstätten** wird anhand verschiedener konkre
 13:00 Uhr – Tagungsabschluss
 13:15 Uhr – Imbiss
 
-Mehr dazu in unserem ![Tagungsflyer](Offen.Vernetzt.Zukunft_ Tagung_2027.pdf)
+Mehr dazu in unserem [Tagungsflyer](https://assets.uni-frankfurt.de/dam/faculty-7/religionspaedagogik-mediendidaktik/Dokumente-zum-Download/Offen.Vernetzt.Zukunft_-Tagung_2027.pdf)
 
 Wir freuen uns auf eure Anmeldungen!
 
