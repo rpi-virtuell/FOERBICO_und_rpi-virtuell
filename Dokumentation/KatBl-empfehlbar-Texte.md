@@ -56,3 +56,18 @@ Für die Katechese ist das relilab deshalb doppelt interessant: als Fundort für
 *Jörg Lohrer, Wissenschaftlicher Mitarbeiter, Comenius-Institut Münster*
 
 [Postanschrift: Comenius-Institut, Schreiberstraße 12, 48149 Münster, Deutschland]
+
+### Text 5 - Gina
+
+SELBSTLERNMODUL FÜR LEHRPERSONEN
+OER für die religionspädagogische Praxis - offen teilen, gemeinsam weiterentwickeln
+(https://oer.community/oer-und-oep, kostenfrei)
+
+Gute religionspädagogische Materialien entstehen oft mit viel Zeit und Kreativität – warum sie also nicht mit anderen teilen und gemeinsam weiterentwickeln? Open Educational Resources (OER) sind Lehr- und Lernmaterialien, die unter offenen Lizenzen veröffentlicht werden und somit rechtssicher unter den jeweiligen Bedingungen von anderen genutzt werden können. Gerade für die religionspädagogische Praxis eröffnet das neue Möglichkeiten: Materialien lassen sich an unterschiedliche Lerngruppen, Kontexte und Bedürfnisse anpassen und müssen nicht immer wieder neu entwickelt werden. Aber was braucht es, damit ein Material "open" wird?
+
+Der Einstieg kann einfacher sein, als man denkt: Schon ein einzelner Baustein wie ein Arbeitsblatt, eine Grafik oder eine Aufgabensammlung kann als OER veröffentlicht werden. Wichtig sind vor allem eine offene Lizenz und der Blick auf die Nutzungsrechte verwendeter Inhalte. 
+
+Wer sich Schritt für Schritt mit OER vertraut machen möchte, findet auf oer.community praktische Hilfen: Das „OER-Selbstlernmodul“ unter https://oer.community/oer-und-oep/lernmodul/ erklärt die Grundlagen und führt durch den Prozess der OER-Erstellung. Das Handout „CC-Lizenz – So einfach geht’s“ unter https://oer.community/oer-und-oep/handout-cc-lizenzen.pdf erklärt die verschiedenen Creative-Commons-Lizenzen und unterstützt bei der Auswahl der passenden Lizenz. Der Beitrag „OER erstellen – wie fange ich an?“ unter https://oer.community/oer-erstellen/ gibt konkrete Tipps für den Einstieg. Und wer gerne mit Canva arbeitet, findet in „Canva für OER?“ unter https://oer.community/canva/ eine Entscheidungshilfe zu Lizenzen und Nutzungsrechten.
+
+
+
