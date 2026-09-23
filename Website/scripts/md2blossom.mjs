@@ -169,17 +169,29 @@ function caption(img) {
 // ---------- Markdown umschreiben ----------
 const used = new Set();
 const missing = [];
-body = body.replace(/!\[([^\]]*)\]\(([^)\s]+)(\s+"[^"]*")?\)/g, (m, alt, src, title) => {
-  if (hashAusUrl(src)) { used.add(bestand(src).key); return m; } // schon Blossom: unverändert
+/** Ein Bild umschreiben: neue Bildzeile plus Caption (oder TODO), oder null, wenn nichts zu tun ist. */
+function bildUmschreiben(alt, src, title) {
+  if (hashAusUrl(src)) { used.add(bestand(src).key); return null; } // schon Blossom: unverändert
   const file = decodeURIComponent(src.replace(/^\.\//, ''));
   const img = images[file];
-  if (!img) return m; // externe URL oder unbekannte Datei: unverändert
+  if (!img) return null; // externe URL oder unbekannte Datei: unverändert
   used.add(file);
   const a = alt || img.lic?.alt || img.lic?.title || '';
   const line = `![${a}](${img.url}${title ?? ''})`;
   const cap = caption(img);
-  if (!cap) { missing.push(file); return `${line}\n\n<!-- TODO:LICENSE ${file} -->`; }
-  return `${line}\n${cap}`;
+  if (!cap) { missing.push(file); return { line, nachsatz: `\n\n<!-- TODO:LICENSE ${file} -->` }; }
+  return { line, nachsatz: `\n${cap}` };
+}
+const BILD = /!\[([^\]]*)\]\(([^)\s]+)(\s+"[^"]*")?\)/g;
+// Verlinkte Bilder [![alt](bild)](ziel) zuerst: die Caption gehört hinter den schließenden Link,
+// sonst landet sie im Linktext und der Link zerbricht.
+body = body.replace(/\[!\[([^\]]*)\]\(([^)\s]+)(\s+"[^"]*")?\)\]\(([^)]+)\)/g, (m, alt, src, title, ziel) => {
+  const u = bildUmschreiben(alt, src, title);
+  return u ? `[${u.line}](${ziel})${u.nachsatz}` : m;
+});
+body = body.replace(BILD, (m, alt, src, title) => {
+  const u = bildUmschreiben(alt, src, title);
+  return u ? `${u.line}${u.nachsatz}` : m;
 });
 
 // Cover: bestehende Hash-URL hat Vorrang (nicht neu hashen), sonst Datei im Bundle

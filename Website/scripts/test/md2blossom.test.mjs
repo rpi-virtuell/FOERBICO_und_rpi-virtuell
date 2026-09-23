@@ -195,3 +195,16 @@ bilder:
   assert.ok(md.includes(`![](${url})\n[CC0](https://creativecommons.org/publicdomain/zero/1.0/)`), 'Mindestform der Caption');
   assert.equal(r.code, 0);
 });
+
+const FM_VERLINKT = FM_MIGRATION.replace('![](Titel.jpeg)', '[![Vorschau](Titel.jpeg)](Video.mp4)');
+
+test('Verlinktes Bild [![alt](bild)](ziel): Caption erst nach dem schließenden Link', () => {
+  const titel = Buffer.from('titelbild-bytes');
+  const { dir, out } = post('2026-09-02-verlinkt', FM_VERLINKT, { 'Titel.jpeg': titel, 'Ohne.png': Buffer.from('x') });
+  const r = lauf(dir, out);
+  const md = r.dateien['test.md'];
+  const urlTitel = `https://blossom.edufeed.org/${sha(titel)}.jpeg`;
+  assert.ok(md.includes(
+    `[![Vorschau](${urlTitel})](Video.mp4)\n[Titel](https://example.org/quelle), [Jörg Lohrer](https://example.org/joerg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), KI-verändert, beschnitten\n`
+  ), 'Link bleibt geschlossen, Caption darunter:\n' + md);
+});
