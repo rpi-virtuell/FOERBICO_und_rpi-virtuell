@@ -21,7 +21,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: 
+image: https://oer.community/alpika-tagung-2026/IMG_3549.jpg
 datePublished: '2026-09-28'
 keywords:
   - Kollaboration
@@ -34,12 +34,12 @@ author:
   - Gina Buchwald-Chassée
 title: 'ALPIKA-Leitendentagung - (Komplementäre) Kooperationen, aber wie?'
 cover:
-  image: 
+  image: IMG_3549.jpg
   relative: false
   hiddenInSingle: false
 summary: >-
   Wie kann Kooperation zwischen kirchlichen Bildungseinrichtungen gelingen, ohne regionale Vielfalt und Eigenständigkeit aufzugeben? Bei der ALPIKA-Leitendentagung in Hofgeismar ging es um komplementäre Zusammenarbeit, gemeinsame digitale Infrastrukturen, Materialien, Veranstaltungen und thematische Netzwerke. Im Mittelpunkt stand die Idee: Was nicht notwendigerweise getrennt gestaltet werden muss, wird gemeinsam entwickelt und verantwortet.
-url: foerbico-tagung-2027
+url: alpika-tagung-2026
 tags:
   - Kollaboration
   - Open Educational Practices (OEP)
@@ -48,17 +48,61 @@ tags:
 # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
-  Screenshot-FOERBICO-Tagungsflyer.png:
-    alt: 'Orange-farbener Hintergrund mit blauer Aufschrift "Offen.Vernetzt.Zukunft. Open Education in (religionsbezogenen) Communitys".'
-    title: 'FOERBICO-Tagung "Offen. Vernetzt. Zukunft."'
-    sourceUrl: https://oer.community/foerbico-tagung-2027
+  IMG_3549.jpg:
+    alt: 'Eingang des Gästehauses der Ev. Tagesstätte Hofgeismar, gelb-weißes Gebäude.'
+    title: 'Evangelischen Tagungsstätte Hofgeismar'
+    sourceUrl: https://oer.community/alpika-tagung-2027
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_3550.jpg:
+    alt: 'Pavillon auf dem Gelände des Gästehauses der Ev. Tagesstätte Hofgeismar.'
+    title: 'Pavillon - Evangelischen Tagungsstätte Hofgeismar'
+    sourceUrl: https://oer.community/alpika-tagung-2027
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_3551.jpg:
+    alt: 'Brunnenkirche auf dem Gelände des Gästehauses der Ev. Tagesstätte Hofgeismar.'
+    title: 'Brunnenkirche Hofgeismar'
+    sourceUrl: https://oer.community/alpika-tagung-2027
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_3552.jpg:
+    alt: 'Schwanenteich auf dem Gelände des Gästehauses der Ev. Tagesstätte Hofgeismar.'
+    title: 'Schwanenteich Hofgeismar'
+    sourceUrl: https://oer.community/alpika-tagung-2027
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_3554.jpg:
+    alt: 'Stellwand mit Ergebnissen der Kleingruppen Material und Veranstaltungen .'
+    title: 'Ergebnisse der Kleingruppen Material und Veranstaltungen'
+    sourceUrl: https://oer.community/alpika-tagung-2027
+    author: FOERBICO
+    authorUrl: https://oer.community
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/
+  IMG_3556.jpg:
+    alt: 'Stellwand mit Ergebnissen der Kleingruppe Themen zu "Das wollen wir" auf grüner Karte mit Plus-Symbol, "Das sind Herausforderungen" auf weißer Karte mit Fragezeichen-Symbol und "Das ist problematisch" auf roter Karte mit Minus-Symbol.'
+    title: 'Ergebnisse der Kleingruppe Themen'
+    sourceUrl: https://oer.community/alpika-tagung-2027
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
 ---
 
-Was können wir gemeinsam entwickeln, ohne das aufzugeben, was uns regional und institutionell ausmacht? Diese Frage stand im Zentrum der diesjährigen ALPIKA-Leitendentagung Ende September in der Evangelischen Tagungsstätte Hofgeismar.
+Was können wir gemeinsam entwickeln, ohne das aufzugeben, was uns regional und institutionell ausmacht? Diese Frage stand im Zentrum der diesjährigen ALPIKA-Leitendentagung Ende September in der Evangelischen Tagungsstätte Hofgeismar - ein schöner Ort, der zum Verweilen und Nachdenken einlud.
+
+![Pavillon](IMG_3550.jpg)
+![Brunnenkirche Hofgeismar](IMG_3551.jpg)
+![Schwanenteich Hofgeismar](IMG_3552.jpg)
 
 Die evangelischen Kirchen nehmen mit ihren religionspädagogischen und pädagogisch-theologischen Instituten und Zentren sowie den Ämtern für Religionsunterricht und Religionspädagogik ihre Bildungsverantwortung wahr. Seit 1969 sind diese Einrichtungen in der [Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter (ALPIKA)](https://alpika.de/) miteinander verbunden. In verschiedenen Arbeitsgruppen und einem Geschäftsführenden Ausschuss bearbeitet das Kompetenznetzwerk gesamtkirchliche Aufgaben im Bildungswesen.
 
@@ -128,6 +172,8 @@ In Kleingruppen wurde anschließend konkreter diskutiert: Wie könnte eine solch
 
 Bei Materialien wurde schnell deutlich, dass die Frage nach Kooperation auch eine Frage nach Rollen ist. Geht es um eine Dienstleistung, bei der ein Institut etwas für andere bereitstellt? Oder um eine komplementäre Kooperation, bei der mehrere Einrichtungen gemeinsam Verantwortung übernehmen? Eine besondere Herausforderung bleibt dabei die Redaktion und Qualitätssicherung. Wenn Materialien dezentral entstehen und veröffentlicht werden, braucht es transparente Verfahren, damit Qualität sichtbar und nachvollziehbar bleibt.
 
+![Kleingruppenergebnisse-Material-Veranstaltungen](IMG_3554.jpg)
+
 ### Veranstaltungen: Gemeinsam sichtbar werden
 
 Für Veranstaltungen bestand der Wunsch nach einem gemeinsamen Kalender, der die Angebote der verschiedenen Institute sichtbarer macht.
@@ -136,6 +182,8 @@ Im Idealfall könnten Veranstaltungen direkt in bestehende Kalendersysteme der N
 ### Themen: Eine „Spontan-ALPIKA-Arbeitsgruppe“
 
 Besonders viel Potenzial wurde in einer thematisch vertiefenden und flexiblen Zusammenarbeit gesehen. Für konkrete Fragestellungen könnten sich zeitlich begrenzte Arbeitsgruppen aus drei oder vier Instituten zusammenfinden – je nachdem, wo Interesse und Expertise vorhanden sind. Bei Bedarf könnten auch Gäste aus der evangelischen Bildungslandschaft einbezogen werden. So entsteht Zusammenarbeit dort, wo sie gerade gebraucht wird, ohne dauerhaft neue Strukturen zu schaffen. Dabei soll auch die Perspektive kleinerer Institute mit ihren spezifischen Prägungen und Erfahrungen Raum finden. Offen bleibt, wie mit Themen umgegangen wird, für die sich zunächst keine Gruppe findet. Ebenso stellt sich die Frage nach einer geeigneten dezentralen technischen Infrastruktur. Ein nächster möglicher Schritt wäre daher ein Austausch der IT-Verantwortlichen der verschiedenen Institute. Qualitätssicherung und Datensicherheit müssen dabei von Anfang an mitgedacht werden.
+
+![Kleingruppenergebnisse-Themen](IMG_3556.jpg)
 
 ## Strategische Entwicklung: Vernetztes Arbeiten als gemeinsamer Weg
 
