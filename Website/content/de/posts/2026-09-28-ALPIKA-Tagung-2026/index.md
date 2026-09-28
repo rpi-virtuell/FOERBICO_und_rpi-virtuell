@@ -172,7 +172,7 @@ In Kleingruppen wurde anschließend konkreter diskutiert: Wie könnte eine solch
 
 Bei Materialien wurde schnell deutlich, dass die Frage nach Kooperation auch eine Frage nach Rollen ist. Geht es um eine Dienstleistung, bei der ein Institut etwas für andere bereitstellt? Oder um eine komplementäre Kooperation, bei der mehrere Einrichtungen gemeinsam Verantwortung übernehmen? Eine besondere Herausforderung bleibt dabei die Redaktion und Qualitätssicherung. Wenn Materialien dezentral entstehen und veröffentlicht werden, braucht es transparente Verfahren, damit Qualität sichtbar und nachvollziehbar bleibt.
 
-![Kleingruppenergebnisse-Material-Veranstaltungen](IMG_3554.jpg)
+![Kleingruppenergebnisse-Material-Veranstaltungen](IMG_3556.jpg)
 
 ### Veranstaltungen: Gemeinsam sichtbar werden
 
@@ -183,7 +183,7 @@ Im Idealfall könnten Veranstaltungen direkt in bestehende Kalendersysteme der N
 
 Besonders viel Potenzial wurde in einer thematisch vertiefenden und flexiblen Zusammenarbeit gesehen. Für konkrete Fragestellungen könnten sich zeitlich begrenzte Arbeitsgruppen aus drei oder vier Instituten zusammenfinden – je nachdem, wo Interesse und Expertise vorhanden sind. Bei Bedarf könnten auch Gäste aus der evangelischen Bildungslandschaft einbezogen werden. So entsteht Zusammenarbeit dort, wo sie gerade gebraucht wird, ohne dauerhaft neue Strukturen zu schaffen. Dabei soll auch die Perspektive kleinerer Institute mit ihren spezifischen Prägungen und Erfahrungen Raum finden. Offen bleibt, wie mit Themen umgegangen wird, für die sich zunächst keine Gruppe findet. Ebenso stellt sich die Frage nach einer geeigneten dezentralen technischen Infrastruktur. Ein nächster möglicher Schritt wäre daher ein Austausch der IT-Verantwortlichen der verschiedenen Institute. Qualitätssicherung und Datensicherheit müssen dabei von Anfang an mitgedacht werden.
 
-![Kleingruppenergebnisse-Themen](IMG_3556.jpg)
+![Kleingruppenergebnisse-Themen](IMG_3554.jpg)
 
 ## Strategische Entwicklung: Vernetztes Arbeiten als gemeinsamer Weg
 
