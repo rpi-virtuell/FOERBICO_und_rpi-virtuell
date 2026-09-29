@@ -37,7 +37,7 @@ learningResourceType:
 image: https://oer.community/metadaten-die-unsichtbare-infrastruktur-offener-bildung/metadata.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
-datePublished: '2026-09-15'
+datePublished: '2026-09-30'
 keywords:
   - Open Educational Resources (OER)
   - Metadaten
@@ -111,20 +111,17 @@ Für OER-Erstellende bedeutet das, dass ein didaktisch hochwertiges, rechtssiche
 
 Sorgfältig gepflegte Metadaten erhöhen also die Wahrscheinlichkeit, dass Personen das Material bei einer thematischen Suche entdecken, die Eignung für die eigene Zielgruppe rasch einschätzen und es rechtssicher nachnutzen oder weiterentwickeln können.
 
-Wer Metadaten sorgfältig erfasst, dokumentiert also nicht nur die Eigenschaften eines Materials, sondern macht es überhaupt erst sicht- und nutzbar. 
+Zunehmend werden Materialien auch über allgemeine Suchmaschinen und KI-Chatbots gesucht. Metadaten spielen dabei zwar eine Rolle, ihre Reichweite ist jedoch begrenzt. Suchmaschinen können strukturierte Angaben zwar auslesen, ob und wie sie diese gewichten, bestimmen die Anbieter aber selbst. 
+
+KI-Chatbots wiederum stützen sich auf Trainingsdaten oder eine Websuche und erfassen ein Material daher nur, wenn es für Crawler frei zugänglich ist. Hinzu kommt, dass viele OER-Suchdienste ausschließlich mit Metadaten arbeiten. Der Open Educational Resources Search Index (OERSI) etwa speichert nicht die Materialien selbst, sondern lediglich deren Beschreibungen und verweist auf den Ursprungsort. Was dort nicht verzeichnet ist, kann nicht gefunden werden.  Ob zusätzlich der Inhalt erschlossen wird, hängt vom Format ab. Frei zugängliche Webseiten und PDFs lassen sich in der Regel indexieren, interaktive Formate wie H5P oder Materialien hinter einem Login hingegen kaum. Umso mehr kommt es auf aussagekräftige Metadaten an.
+
+Wer also Metadaten sorgfältig erfasst, dokumentiert nicht nur die Eigenschaften eines Materials, sondern macht es überhaupt erst sicht- und nutzbar. 
 Metadaten sind damit eine bedeutsame Voraussetzung dafür, dass die Potenziale von OER, also Teilen, Nachnutzen und gemeinsames Weiterentwickeln von Materialien, in der Praxis tatsächlich wirksam werden.
 
 
 ## 4. Metadatenschemata und -profile im Überblick: LOM, Dublin Core und AMB
 
-Für die Beschreibung digitaler Lernressourcen haben sich unterschiedliche Metadatenschemata und -profile etabliert. Sie verfolgen das gemeinsame Ziel, (Bildungs-)Ressourcen standardisiert zu beschreiben und dadurch deren Auffindbarkeit und Nachnutzung zu erleichtern.
-Im Folgenden werden mit dem *IEEE Learning Object Metadata Standard (LOM)*, *Dublin Core (DC)* und dem *Allgemeinen Metadatenprofil für Bildungsressourcen (AMB)* drei für den OER-Kontext besonders relevante Ansätze vorgestellt. 
-
-### IEEE Learning Metadata (LMT) & Dublin Core (DC)
-Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)*, der 2002 als internationaler Standard veröffentlicht [(vgl. Ochoa et al., 2011)](https://link.springer.com/book/10.1007/978-3-642-23985-4); [Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31) und mittlerweile zu LMT weiterentwickelt wurde. 
-Der LMT dient als Aktualisierung des LOM und erarbeitet neue Metadatenkonzepte, in der auch flüchtige Lernereignisse abgebildet werden können ([vgl. Oellers & Rörtgen, 2024, S. 30-32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31)).
-
-Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d.h. alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
+Für die Beschreibung digitaler Lernressourcen haben sich unterschiedliche Metadatenschemata und -profile etabliert. Sie verfolgen das gemeinsame Ziel, (Bildungs-)Ressourcen standardisiert zu beschreiben und dadurch deren Auffindbarkeit und Nachnutzung zu erleichtern. Im Folgenden steht zunächst das für den deutschsprachigen Raum zentrale *Allgemeine Metadatenprofil für Bildungsressourcen (AMB)* im Mittelpunkt. Anschließend werden mit LOM und Dublin Core zwei internationale Standards vorgestellt, die in vielen Repositorien weiterhin im Einsatz sind.
 
 ### Allgemeines Metadatenprofil für Bildungsressourcen (AMB)
 
@@ -158,23 +155,31 @@ Um die Erstellung von Metadaten zu erleichtern, bietet der [OERSI-Metadatengener
 Nutzer:innen werden schrittweise durch die Eingabe der relevanten Angaben geführt. 
 Anschließend generiert das Tool daraus einen maschinenlesbaren Metadatensatz, der direkt kopiert und weiterverwendet werden kann.
 
+### Internationale Standards: IEEE LOM & Dublin Core
+Einer der einflussreichsten Metadatenstandards für digitale Lernressourcen ist der *IEEE Learning Object Metadata Standard (LOM)* von 2002. Er beschreibt Materialien in hierarchisch gegliederten Kategorien, etwa zu technischen, pädagogischen und rechtlichen Aspekten, und lässt sich über sogenannte Applikationsprofile an eigene Bedürfnisse anpassen [(vgl. Ochoa et al., 2011](https://link.springer.com/book/10.1007/978-3-642-23985-4); [Oellers & Rörtgen, 2024, S. 30)](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31). 
+Da LOM inzwischen selbst von der IEEE als veraltet eingestuft wird, entsteht derzeit unter dem Namen *Learning Metadata (LMT)* ein Nachfolger, der auf aktuelle Webstandards wie [schema.org](https://schema.org) zurückgreift und auch flüchtige Lernereignisse abbilden kann ([vgl. Oellers & Rörtgen, 2024, S. 31–32](https://www.pedocs.de/volltexte/2024/29235/pdf/Oellers_Roertgen_2024_Kompendium_Didaktische_Metadaten.pdf#page=31)).
+
+Der einfacher strukturierte *Dublin Core (DC)* verfolgt demgegenüber einen generischeren Ansatz und wurde ursprünglich für die Beschreibung beliebiger digitaler Ressourcen entwickelt. Er definiert 15 grundlegende Metadatenelemente, legt jedoch nicht verbindlich fest, wie die zugehörigen Werte zu formatieren oder zu kontrollieren sind (vgl. Simão de Deus & Barbosa, 2020, S. 123 f.). Anders als LOM verzichtet Dublin Core auf eine hierarchische Kategorienstruktur, d. h., alle Elemente stehen gleichrangig nebeneinander und können unabhängig voneinander verwendet werden.
+
+
 
 ## 5. Metadaten in der Praxis sind meist inkonsistent und achten wenig auf Kompetenzen
 
 Wie weit Anspruch und gelebte Praxis auseinanderfallen, zeigt eine Studie von [Simão de Deus und Barbosa (2020)](https://ieeexplore.ieee.org/document/9202802): Von 280 identifizierten Metadatenschlüsseln in acht OER-Repositorien unterstützten die Suchfunktionen im Schnitt nur 78, also rund 28 %. Selbst Lizenzangaben, eigentlich das Kernversprechen der Rechtssicherheit, waren neben sauber vergebenen CC-Lizenzen (74 %) auch mit Werten wie „CustomLicense" oder schlicht „0" belegt [(Simão de Deus & Barbosa, 2020)](https://ieeexplore.ieee.org/document/9202802).
 
-Ferner zeigen Fomin et al. (2026) auf, dass selbst wenn grundlegende Metadaten (Fach, Stufe, Lizenz) sauber in Materialien vergeben sind, eine strukturelle Lücke bei der fachlich-kompetenzbezogenen Erschließung offen bleibt. Die Studie identifiziert hierfür drei Ursachen:
+Ferner zeigen [Fomin et al. (2026)](https://www.researchgate.net/publication/405282300_Metadata_Gaps_and_Interoperability_Failures_in_OER_Retrieval_A_Competence-Based_Search_Experiment) in einem Suchexperiment auf OER-Plattformen für die Hochschullehre, dass sich Materialien zwar nach Fach, Materialtyp, Sprache und Lizenz finden lassen, bei der kompetenzbezogenen Erschließung jedoch eine strukturelle Lücke offen bleibt. Die Studie identifiziert hierfür drei Ursachen:
 
-1. Es existiert kein allgemein anerkannter Metadatenstandard zur Verschlagwortung von Kompetenzen
-2. Die Verschlagwortung nach Kompetenzrahmen erfolgt manuell, uneinheitlich bzw. freiwillig
-3. Bestehende LOM-Anpassungen unterscheiden sich je nach Region und politischem Kontext erheblich, was eine übergreifende Integration technisch wie politisch erschwert
+- Es existiert kein allgemein anerkannter Metadatenstandard zur Verschlagwortung von Kompetenzen
+- Die Verschlagwortung nach Kompetenzrahmen erfolgt manuell, uneinheitlich und freiwillig
+- Bestehende LOM-Anpassungen unterscheiden sich je nach Region und politischem Kontext erheblich, was eine übergreifende Integration technisch wie politisch erschwert
 
-Unlösbar ist das nicht. Die österreichische LOM-Anpassung der Universität Innsbruck nutzt das Feld `<classification>` bereits, um Materialien mit den UN-Nachhaltigkeitszielen zu verknüpfen. Die technische Infrastruktur für fachspezifische Taxonomien ist in LOM also angelegt, wird aber kaum gezielt genutzt.
-
-An dieser Stelle setzen auch die FOERBICO-[Qualitätskriterien](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) an. 
+Unlösbar ist das nicht. Die österreichische LOM-Anpassung der Universität Innsbruck nutzt das Feld `<classification>` bereits, um Materialien in ihrem OER-Repositorium der österreichischen Wissenschaftszweig-Systematik (ÖFOS 2012) und den UN-Nachhaltigkeitszielen zuzuordnen, und zwar über kontrollierte Vokabulare mit eindeutigen URIs. Die technische Infrastruktur für Klassifikationen ist in LOM also angelegt, wird aber kaum gezielt genutzt, obwohl sich auf dieselbe Weise auch Kompetenzrahmen referenzieren ließen.
+An dieser Stelle setzen auch die  im FOERBICO-Projekt erarbeiteten [**Qualitätskriterien**]](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) an. 
 Sie schlagen u.a. vor, die angestrebten Lernergebnisse und Kompetenzen zu Beginn des Materials klar auszuweisen und an Bildungsstandards bzw. Lehr- und Bildungsplänen auszurichten. 
 
 Für die Religionspädagogik kommt eine Besonderheit hinzu, die die Auffindbarkeit zusätzlich erschwert, nämlich ein vielfältiges, uneinheitliches Vokabular. Das kann bei der Verschlagwortung von Materialien dazu führen, dass diese trotz sorgfältiger Beschreibung nicht gefunden werden. Dieser Herausforderung lässt sich nicht allein durch von außen vorgegebene Schlagwörter begegnen. Ein solches Vokabular muss sich vielmehr aus den jeweiligen Communitys heraus entwickeln. Dieser Entstehungsprozess verläuft jedoch kontinuierlich und selten geradlinig. 
+
+
 
 ## 6. Was Metadaten nicht leisten können: Entstehungsbedingungen sichtbar machen
 
@@ -188,13 +193,15 @@ Für die Nachnutzung ist daher nicht allein relevant, was ein Material beschreib
 Ergänzend zu standardisierten Metadaten können daher kontextbezogene Angaben sinnvoll sein. Dazu zählen bspw. Entstehungsort und -anlass, die didaktische Zielsetzung, die ursprünglich adressierte Lerngruppe oder der Rahmen, in dem das Material entwickelt wurde, wie z.B. auf einer Lehrer:innenfortbildung, in einem universitären Seminar oder einer OER-Community-Werkstatt. Solche Informationen unterstützen potenziell Nachnutzende dabei, die Eignung eines Materials für den eigenen Kontext einzuschätzen, und können damit wesentlich zur tatsächlichen Nachnutzung beitragen.
 
 
+
 ## 7. Konsequenzen für ein religionspädagogisches OER-Ökosystem
 
 Aus den bisherigen Überlegungen lassen sich Handlungsperspektiven für den Aufbau eines religionspädagogischen OER-Ökosystems ableiten.
 
 ### Eine fachspezifische Metadatenlogik entwickeln
 
-Bislang fehlt in der Theologie und Religionspädagogik eine einheitliche fachliche Systematik für die Vergabe der Metadaten. Dazu gehören unter anderem einheitliche Bezeichnungen für die theologischen Fächergruppen, religionsdidaktische Modelle, überkonfessionell sowie interreligiös abgestimmte Kompetenzformulierungen sowie religionspädagogische Themenfelder schulischer, außerschulischer und hochschulischer Bildung. 
+Eine fachliche Systematik existiert in Ansätzen bereits. Die [Regensburger Verbundklassifikation (RVK)](https://rvk.uni-regensburg.de), mit der viele wissenschaftliche Bibliotheken ihre Bestände ordnen, enthält eine ausgearbeitete [Systematik für Theologie und Religionswissenschaft](https://rvk.uni-regensburg.de/pdf/current/rvk_B.pdf) sowie ein fortlaufend gepflegtes [Register](https://rvk.uni-regensburg.de/RVK-Register_for_all/RVK-Register.php). 
+Für die Erschließung religionspädagogischer OER reicht sie jedoch nicht aus. Religionspädagogik und Katechetik sind darin kaum ausdifferenziert, und die Gliederung spiegelt in Teilen ältere fachliche Ordnungen wider. Zudem ist die RVK für wissenschaftliche Literatur konzipiert und nicht für Unterrichtsmaterialien oder außerschulische Bildungsangebote. Es fehlt bislang eine Systematik, die gezielt auf religionspädagogische Bildungsmaterialien zugeschnitten ist. Dazu gehören unter anderem einheitliche Bezeichnungen für die theologischen Fächergruppen, religionsdidaktische Modelle, überkonfessionell und interreligiös abgestimmte Kompetenzformulierungen sowie religionspädagogische Themenfelder schulischer, außerschulischer und hochschulischer Bildung.
 
 Mit dem am Comenius-Institut angesiedelten Projekt **Edufeed** werden hierfür bereits wichtige Grundlagen geschaffen. Aufbauend auf AMB werden plattformübergreifende Metadatenstandards entwickelt und zugleich die im FOERBICO-Projekt erarbeiteten [**Qualitätskriterien**](https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/qualitaetskriterien/handreichung-qualitaetskriterien.md) berücksichtigt. Langfristig könnte daraus eine überfachliche Infrastruktur entstehen, die OER deutlich besser auffindbar und miteinander vernetzbar macht.
 
