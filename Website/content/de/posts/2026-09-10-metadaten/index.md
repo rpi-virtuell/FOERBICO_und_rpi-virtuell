@@ -185,7 +185,7 @@ Kategorien und Schlagwörter können für den Erstellenden zwar eindeutig ersche
 Diese Einsicht deckt sich mit den Erkenntnissen aus der empirischen Begleitforschung des FOERBICO-Projekts. Standardisierte Metadaten erhöhen zwar die Sichtbarkeit von OER, können deren Entstehungskontext jedoch nur begrenzt abbilden. 
 Für die Nachnutzung ist daher nicht allein relevant, was ein Material beschreibt, sondern auch warum, für wen und in welchem Kontext es entstanden ist.
 
-Ergänzend zu standardisierten Metadaten können daher kontextbezogene Angaben sinnvoll sein. Dazu zählen bspw. Entstehungsort und -anlass, die didaktische Zielsetzung, die ursprünglich adressierte Lerngruppe oder der Rahmen, in dem das Material entwickelt wurde, wie z.B. auf einer Lehrer:innenfortbildung, in einem universitärer Seminar oder einer OER-Community Werkstatt. Solche Informationen unterstützen potenziell Nachnutzende dabei, die Eignung eines Materials für den eigenen Kontext einzuschätzen, und können damit wesentlich zur tatsächlichen Nachnutzung beitragen.
+Ergänzend zu standardisierten Metadaten können daher kontextbezogene Angaben sinnvoll sein. Dazu zählen bspw. Entstehungsort und -anlass, die didaktische Zielsetzung, die ursprünglich adressierte Lerngruppe oder der Rahmen, in dem das Material entwickelt wurde, wie z.B. auf einer Lehrer:innenfortbildung, in einem universitären Seminar oder einer OER-Community-Werkstatt. Solche Informationen unterstützen potenziell Nachnutzende dabei, die Eignung eines Materials für den eigenen Kontext einzuschätzen, und können damit wesentlich zur tatsächlichen Nachnutzung beitragen.
 
 
 ## 7. Konsequenzen für ein religionspädagogisches OER-Ökosystem
