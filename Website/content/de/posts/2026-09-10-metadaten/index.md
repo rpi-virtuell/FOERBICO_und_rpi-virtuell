@@ -71,8 +71,8 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   metadata.jpg:
-    alt: "Holzbausteine, die das Wort „Metadaten" bilden"
-    title: "Metadaten"
+    alt: '"Holzbausteine, die das Wort „Metadaten" bilden"'
+    title: Metadaten
     sourceUrl: https://unsplash.com/de/fotos/ein-holzklotz-mit-der-aufschrift-metadaten-der-auf-einem-tisch-liegt-9DZsVF-qLaY
     author: Markus Winkler
     authorUrl: https://unsplash.com/de/@markuswinkler
