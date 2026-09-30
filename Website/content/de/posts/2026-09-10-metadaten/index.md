@@ -34,7 +34,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/metadaten-die-unsichtbare-infrastruktur-offener-bildung/metadata.jpg
+image: https://blossom.edufeed.org/0e857e7892b60f5786bd00327d2e21f7de4c49e9575dc5d14ac59144761f0854.jpg
 educationalLevel:
   - https://w3id.org/kim/educationalLevel/level_A
 datePublished: '2026-09-29'
@@ -52,8 +52,8 @@ author:
   - Phillip Angelina
 title: 'Metadaten – die unsichtbare Infrastruktur offener Bildung'
 cover:
-  relative: true
-  image: metadata.jpg
+  relative: false
+  image: https://blossom.edufeed.org/0e857e7892b60f5786bd00327d2e21f7de4c49e9575dc5d14ac59144761f0854.jpg
   alt: 'Holzbausteine, die das Wort „Metadaten" bilden, Foto von [Markus Winkler](https://unsplash.com/de/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
       auf [Unsplash](https://unsplash.com/de/fotos/ein-holzklotz-mit-der-aufschrift-metadaten-der-auf-einem-tisch-liegt-9DZsVF-qLaY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)'
   hiddenInSingle: false
@@ -71,7 +71,7 @@ tags:
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
   metadata.jpg:
-    alt: '"Holzbausteine, die das Wort „Metadaten" bilden"'
+    alt: 'Holzbausteine, die das Wort „Metadaten" bilden'
     title: Metadaten
     sourceUrl: https://unsplash.com/de/fotos/ein-holzklotz-mit-der-aufschrift-metadaten-der-auf-einem-tisch-liegt-9DZsVF-qLaY
     author: Markus Winkler
