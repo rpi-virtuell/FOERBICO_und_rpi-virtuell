@@ -67,6 +67,22 @@ Dr. Laura Mößle holds a doctorate in Religious Education and serves as a resea
 
 Contact: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
+![Portrait Florian Mayrhofer](../../unser-team/Florian.png)
+
+**Dr. Florian Mayrhofer**
+
+Florian is the research coordinator for the Chair of Religious Education and Media Didactics at Goethe University Frankfurt. He conducts research and teaches in the areas of religious education, gender, and media education and didactics. He focuses particularly on the question of how religion can be learned in a world shaped by digital technology and media. In addition to FOERBICO, Florian oversees other research projects at the chair.
+
+Contact: [f.mayrhofer@em.uni-frankfurt.de](mailto:f.mayrhofer@em.uni-frankfurt.de)
+
+![Portrait Paula Gregorio Rodrigo](../../unser-team/Paula-G.png)
+
+**Paula Gregorio Rodrigo**
+
+Paula works as a research assistant at the Chair of Religious Education and Media Didactics at Goethe University Frankfurt. Her research focuses on digital media education in schools. She supports FOERBICO with networking within the academic community and with the planning of the 2027 closing conference.
+
+Contact: [gregoriorodrigo@em.uni-frankfurt.de](gregoriorodrigo@em.uni-frankfurt.de)
+
 ## Friedrich-Alexander-Universität Erlangen-Nuremberg
 
 ![Logo der Friedrich-Alexander-Universität Erlangen-Nürnberg](/hello-world/Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png)
