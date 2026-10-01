@@ -51,7 +51,7 @@ Contact: [sicking@comenius.de](mailto:sicking@comenius.de)
 
 The Professorship for Religious Education and Media Didactics from the Goethe University Frankfurt is dedicated to researching and teaching religious education in schools and other educational institutions. It combines traditional approaches to religious education with modern media didactics to improve the teaching of religious content in a digitalized world. The focus is on developing new didactic concepts and promoting reflective media use in the context of religious education.
 
-Further information: [Chair of Religious Education and Media Didactics](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) at the Goethe University
+Further information: [Chair of Religious Education and Media Didactics](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik) at the Goethe University
 
 ![Portrait Viera Pirker](../../unser-team/VieraPirker.jpg)
 
