@@ -65,6 +65,22 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  ManfredPirner.jpg:
+    alt: 'Bild von Manfred Pirner, Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU Erlangen-Nürnberg'
+    title: Portrait Manfred Pirner
+    sourceUrl: https://oer.community/unser-team/
+    author: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    authorUrl: https://www.fau.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  PhillipAngelina.jpg:
+    alt: 'Bild von Phillip Angelina, wissenschaftlicher Mitarbeiter am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU Erlangen-Nürnberg'
+    title: Portrait Phillip Angelina
+    sourceUrl: https://oer.community/unser-team/
+    author: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    authorUrl: https://www.fau.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 ## Comenius-Institut
