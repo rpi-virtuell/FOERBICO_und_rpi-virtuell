@@ -65,6 +65,14 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  LauraMoessle.jpg:
+    alt: 'Bild von Laura Mößle, wissenschaftliche Mitarbeiterin an der Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt a.M.'
+    title: Portrait Laura Mößle
+    sourceUrl: https://oer.community/unser-team/
+    author: Goethe-Universität Frankfurt a.M.
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
   ManfredPirner.jpg:
     alt: 'Bild von Manfred Pirner, Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU Erlangen-Nürnberg'
     title: Portrait Manfred Pirner
