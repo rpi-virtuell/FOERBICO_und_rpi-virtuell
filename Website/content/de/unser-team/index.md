@@ -177,6 +177,9 @@ bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
 
 Kontakt: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
+**Hinweis**: Seit 1.10.2026 hat Laura die Professur für Religionspädagogik an der KH Freiburg. Sie ist jedoch bis Projektende weiterhin unter der Mailadresse erreichbar!
+
+
 ![Portrait Florian Mayrhofer](Florian.png)
 
 **Dr. Florian Mayrhofer**
