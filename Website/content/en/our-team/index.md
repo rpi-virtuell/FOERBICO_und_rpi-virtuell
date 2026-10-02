@@ -67,6 +67,8 @@ Dr. Laura Mößle holds a doctorate in Religious Education and serves as a resea
 
 Contact: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
+**Note**: As of October 1, 2026, Laura has held the professorship in Religious Education at the KH Freiburg. However, she can still be reached at this email address until the end of the project!
+
 ![Portrait Florian Mayrhofer](../../unser-team/Florian.png)
 
 **Dr. Florian Mayrhofer**
