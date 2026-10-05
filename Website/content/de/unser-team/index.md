@@ -1,30 +1,92 @@
 ---
-# commonMetadata
-'@context': https://schema.org/
-creativeWorkStatus: Published
-name: Unser Team
-description: "Das FOERBICO-Team an drei Standorten: Comenius-Institut Münster, Goethe-Universität Frankfurt und Friedrich-Alexander-Universität Erlangen-Nürnberg."
-datePublished: 2025-11-12
-creator:
-  - type: Organization
-    name: FOERBICO
-    id: https://oer.community
-license: https://creativecommons.org/licenses/by/4.0/
-id: https://oer.community/unser-team
-workTranslation:
-  - https://oer.community/en/our-team
-inLanguage:
-  - de
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
-
-# staticSiteGenerator
+#commonMetadata:
+#staticSiteGenerator:
 title: Unser Team
 url: unser-team
 weight: 100
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  JensDechow.jpg:
+    alt: 'Bild von Dr. Jens Dechow, Direktor des Comenius-Institutes'
+    title: 'Portrait Jens Dechow'
+    sourceUrl: https://oer.community/unser-team/
+    author: Comenius-Institut
+    authorUrl: https://comenius.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  JoergLohrer.jpg:
+    alt: 'Bild von Jörg Lohrer, Mitarbeiter des Comenius-Institutes'
+    title: 'Portrait Jörg Lohrer'
+    sourceUrl: https://oer.community/unser-team/
+    author: Comenius-Institut
+    authorUrl: https://comenius.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  GinaBuchwaldChassee.jpg:
+    alt: 'Bild von Gina Buchwald-Chassée, Mitarbeiterin des Comenius-Institutes'
+    title: 'Portrait Gina Buchwald-Chassée'
+    sourceUrl: https://oer.community/unser-team/
+    author: Comenius-Institut
+    authorUrl: https://comenius.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  LudgerSicking.jpg:
+    alt: 'Bild von Ludger Sicking, Mitarbeiter des Comenius-Institutes'
+    title: 'Portrait Ludger Sicking'
+    sourceUrl: https://oer.community/unser-team/
+    author: Comenius-Institut
+    authorUrl: https://comenius.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  VieraPirker.jpg:
+    alt: 'Bild von Viera Pirker, Professorin für Religionspädagogik und Mediendidaktik und Vizepräsidentin für Studium und Lehre an der Goethe-Universität Frankfurt'
+    title: 'Portrait Ludger Sicking'
+    sourceUrl: https://oer.community/unser-team/
+    author: Goethe-Universität Frankfurt a.M.
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Florian.png:
+    alt: 'Bild von Florian Mayrhofer, wissenschaftlicher Koordinator an der Professur für Religionspädagogik und Mediendidaktik der Goethe-Universität Frankfurt a.M.'
+    title: Portrait Florian Mayrhofer
+    sourceUrl: https://oer.community/unser-team/
+    author: Goethe-Universität Frankfurt a.M.
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  Paula-G.png:
+    alt: 'Bild von Paula Gregorio Rodrigo, wissenschaftliche Mitarbeiterin an der Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt a.M.'
+    title: Portrait Paula Gregorio Rodrigo
+    sourceUrl: https://oer.community/unser-team/
+    author: Goethe-Universität Frankfurt a.M.
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  LauraMoessle.jpg:
+    alt: 'Bild von Laura Mößle, wissenschaftliche Mitarbeiterin an der Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt a.M.'
+    title: Portrait Laura Mößle
+    sourceUrl: https://oer.community/unser-team/
+    author: Goethe-Universität Frankfurt a.M.
+    authorUrl: https://www.uni-frankfurt.de/de
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  ManfredPirner.jpg:
+    alt: 'Bild von Manfred Pirner, Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU Erlangen-Nürnberg'
+    title: Portrait Manfred Pirner
+    sourceUrl: https://oer.community/unser-team/
+    author: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    authorUrl: https://www.fau.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
+  PhillipAngelina.jpg:
+    alt: 'Bild von Phillip Angelina, wissenschaftlicher Mitarbeiter am Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU Erlangen-Nürnberg'
+    title: Portrait Phillip Angelina
+    sourceUrl: https://oer.community/unser-team/
+    author: Friedrich-Alexander-Universität Erlangen-Nürnberg
+    authorUrl: https://www.fau.de/
+    licence: ©
+    licenceUrl: https://www.gesetze-im-internet.de/urhg/
 ---
 
 ## Comenius-Institut
@@ -89,7 +151,7 @@ Inhalte in einer digitalisierten Welt zu verbessern. Schwerpunkte liegen auf der
 Entwicklung neuer didaktischer Konzepte und der Förderung einer reflektierten Mediennutzung
 im Kontext der religiösen Bildung.
 
-Weitere Infos: [Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) an der Goethe-Universität
+Weitere Infos: [Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik) an der Goethe-Universität
 
 ![Portrait Viera Pirker](VieraPirker.jpg)
 
@@ -113,6 +175,23 @@ bei der Vernetzung und im Community-Aufbau in der Wissenschaft.
 
 Kontakt: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
+**Hinweis**: Seit 1.10.2026 hat Laura die Professur für Religionspädagogik an der KH Freiburg. Sie ist jedoch bis Projektende weiterhin unter der Mailadresse erreichbar!
+
+![Portrait Florian Mayrhofer](Florian.png)
+
+**Dr. Florian Mayrhofer**
+
+Florian ist der wissenschaftliche Koordinator der Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt. Er forscht und lehrt in den Bereichen religiöse Bildung, Gender sowie Medienbildung und -didaktik. Er beschäftigt sich besonders mit der Frage, wie Religion in einer digital und medial geprägten Welt gelernt werden kann. Florian begleitet neben FOERBICO noch weitere Forschungsprojekte an der Professur.
+
+Kontakt: [f.mayrhofer@em.uni-frankfurt.de](mailto:f.mayrhofer@em.uni-frankfurt.de)
+
+![Portrait Paula Gregorio Rodrigo](Paula-G.png)
+
+**Paula Gregorio Rodrigo**
+
+Paula ist als wissenschaftliche Mitarbeiterin an der Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt tätig. Ihr Forschungsschwerpunkt liegt im Bereich der digitalen Medienbildung an Schulen. Sie unterstützt FOERBICO bei der Vernetzung in der Wissenschaft und in der Planung der Abschlusstagung 2027.
+
+Kontakt: [gregoriorodrigo@em.uni-frankfurt.de](gregoriorodrigo@em.uni-frankfurt.de)
 
 ## Friedrich-Alexander-Universität Erlangen-Nürnberg
 

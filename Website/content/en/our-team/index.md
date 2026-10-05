@@ -1,26 +1,7 @@
 ---
-# commonMetadata
-'@context': https://schema.org/
-creativeWorkStatus: Published
-name: Our team
-description: "The FOERBICO team at three sites: Comenius Institute Münster, Goethe University Frankfurt and Friedrich-Alexander University Erlangen-Nuremberg."
-datePublished: 2025-11-12
-creator:
-  - type: Organization
-    name: FOERBICO
-    id: https://oer.community
-license: https://creativecommons.org/licenses/by/4.0/
-id: https://oer.community/en/our-team
-translationOfWork: https://oer.community/unser-team
-inLanguage:
-  - en
-learningResourceType:
-  - https://w3id.org/kim/hcrt/text
-  - https://w3id.org/kim/hcrt/web_page
-educationalLevel:
-  - https://w3id.org/kim/educationalLevel/level_A
+#commonMetadata:
 
-# staticSiteGenerator
+#staticSiteGenerator:
 title: Our team
 url: /en/our-team
 weight: 100
@@ -71,7 +52,7 @@ Contact: [sicking@comenius.de](mailto:sicking@comenius.de)
 
 The Professorship for Religious Education and Media Didactics from the Goethe University Frankfurt is dedicated to researching and teaching religious education in schools and other educational institutions. It combines traditional approaches to religious education with modern media didactics to improve the teaching of religious content in a digitalized world. The focus is on developing new didactic concepts and promoting reflective media use in the context of religious education.
 
-Further information: [Chair of Religious Education and Media Didactics](https://www.uni-frankfurt.de/78330411/Professur_f%C3%BCr_Religionsp%C3%A4dagogik_und_Mediendidaktik) at the Goethe University
+Further information: [Chair of Religious Education and Media Didactics](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik) at the Goethe University
 
 ![Portrait Viera Pirker](../../unser-team/VieraPirker.jpg)
 
@@ -86,6 +67,24 @@ Prof. Dr. Viera Pirker researches, teaches, and heads the Professorship for Reli
 Dr. Laura Mößle holds a doctorate in Religious Education and serves as a research assistant to Prof. Dr. Viera Pirker at the Professorship for Religious Education and Media Didactics, focusing on the fields of religious education, interfaith learning, media education, and media didactics at Goethe University Frankfurt. Her focus in FOERBICO is networking and implementing OER within the scientific community.
 
 Contact: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
+
+**Note**: As of October 1, 2026, Laura has held the professorship in Religious Education at the KH Freiburg. However, she can still be reached at this email address until the end of the project!
+
+![Portrait Florian Mayrhofer](../../unser-team/Florian.png)
+
+**Dr. Florian Mayrhofer**
+
+Florian is the research coordinator for the Chair of Religious Education and Media Didactics at Goethe University Frankfurt. He conducts research and teaches in the areas of religious education, gender, and media education and didactics. He focuses particularly on the question of how religion can be learned in a world shaped by digital technology and media. In addition to FOERBICO, Florian oversees other research projects at the chair.
+
+Contact: [f.mayrhofer@em.uni-frankfurt.de](mailto:f.mayrhofer@em.uni-frankfurt.de)
+
+![Portrait Paula Gregorio Rodrigo](../../unser-team/Paula-G.png)
+
+**Paula Gregorio Rodrigo**
+
+Paula works as a research assistant at the Chair of Religious Education and Media Didactics at Goethe University Frankfurt. Her research focuses on digital media education in schools. She supports FOERBICO with networking within the academic community and with the planning of the 2027 closing conference.
+
+Contact: [gregoriorodrigo@em.uni-frankfurt.de](gregoriorodrigo@em.uni-frankfurt.de)
 
 ## Friedrich-Alexander-Universität Erlangen-Nuremberg
 
