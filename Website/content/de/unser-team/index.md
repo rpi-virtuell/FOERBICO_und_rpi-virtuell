@@ -1,6 +1,27 @@
 ---
-#commonMetadata:
-#staticSiteGenerator:
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+name: Unser Team
+description: "Das FOERBICO-Team an drei Standorten: Comenius-Institut Münster, Goethe-Universität Frankfurt und Friedrich-Alexander-Universität Erlangen-Nürnberg."
+datePublished: 2025-11-12
+creator:
+  - type: Organization
+    name: FOERBICO
+    id: https://oer.community
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://oer.community/unser-team
+workTranslation:
+  - https://oer.community/en/our-team
+inLanguage:
+  - de
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+
+# staticSiteGenerator
 title: Unser Team
 url: unser-team
 weight: 100
@@ -179,7 +200,6 @@ Kontakt: [moessle@em.uni-frankfurt.de](mailto:moessle@em.uni-frankfurt.de)
 
 **Hinweis**: Seit 1.10.2026 hat Laura die Professur für Religionspädagogik an der KH Freiburg. Sie ist jedoch bis Projektende weiterhin unter der Mailadresse erreichbar!
 
-
 ![Portrait Florian Mayrhofer](Florian.png)
 
 **Dr. Florian Mayrhofer**
@@ -195,7 +215,6 @@ Kontakt: [f.mayrhofer@em.uni-frankfurt.de](mailto:f.mayrhofer@em.uni-frankfurt.d
 Paula ist als wissenschaftliche Mitarbeiterin an der Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt tätig. Ihr Forschungsschwerpunkt liegt im Bereich der digitalen Medienbildung an Schulen. Sie unterstützt FOERBICO bei der Vernetzung in der Wissenschaft und in der Planung der Abschlusstagung 2027.
 
 Kontakt: [gregoriorodrigo@em.uni-frankfurt.de](gregoriorodrigo@em.uni-frankfurt.de)
-
 
 ## Friedrich-Alexander-Universität Erlangen-Nürnberg
 
