@@ -22,8 +22,11 @@ steps:
       - echo "*** Testing port 22"
       - nc -zv $SSH_HOST 22
       - echo "*** Testing SSH header"
-      - timeout 5 bash -c 'echo | nc -w 5 $SSH_HOST 22' || echo "No SSH header"
+      - timeout 5 sh -c 'echo | nc -w 5 $SSH_HOST 22' || echo "No SSH header"
       - echo "*** Testing connection"
+      # Curl
+      - apk add --no-cache curl
+      - curl -s ifconfig.me # ci ip
       # SSH
       - apk add --no-cache openssh
       - mkdir -p ~/.ssh
@@ -31,8 +34,10 @@ steps:
       - chmod 600 ~/.ssh/deployKey
       - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
       - chmod 600 ~/.ssh/known_hosts
+      - echo "*** SSH 0"
+      - ssh -vvv -o ConnectTimeout=10 -o BatchMode=yes -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "echo connected" 2>&1
       - echo "*** SSH 1"
-      - ssh -vvv -o ConnectTimeout=10 -o BatchMode=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "echo 'SSH connection successful'"
+      - ssh -vvv -o ConnectTimeout=10 -o BatchMode=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "echo 'SSH connection successful'" 2>&1
       - echo "*** SSH 2"
       - ssh -vvv -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
       - echo "*** SSH 3 / SCP"

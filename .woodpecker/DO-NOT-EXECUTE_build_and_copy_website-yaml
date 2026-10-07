@@ -1,3 +1,10 @@
+when:
+  - branch: [main]
+    event: push
+    path:
+      include: ['Website/**']
+      on_empty: false
+
 steps:
   - name: log_start_time
     image: alpine
