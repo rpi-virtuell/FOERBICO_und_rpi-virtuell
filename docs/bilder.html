@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOERBICO Bilder</title>
+<meta name="description" content="Mini-Client: durchsucht die kind:1063-Lizenznachweise auf den edufeed-Relays und zeigt die Bilder mit Lizenz, Urheber:in und Schlagworten.">
+<style>
+  :root {
+    --bg: #f7f6f2; --fg: #1d1d1b; --muted: #6b6a66; --card: #ffffff; --line: #e2e0d9;
+    --accent: #1f4e9c; --accent-fg: #ffffff; --chip: #ecebe6; --chip-on: #1f4e9c; --chip-on-fg: #fff;
+    --ok: #2d7a3a; --warn: #b4581a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15161a; --fg: #ecebe6; --muted: #a09f99; --card: #1f2127; --line: #2f323a;
+      --accent: #7fa6e6; --accent-fg: #0e1b33; --chip: #2a2d35; --chip-on: #7fa6e6; --chip-on-fg: #0e1b33;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15161a; --fg: #ecebe6; --muted: #a09f99; --card: #1f2127; --line: #2f323a;
+    --accent: #7fa6e6; --accent-fg: #0e1b33; --chip: #2a2d35; --chip-on: #7fa6e6; --chip-on-fg: #0e1b33;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  header { padding: 20px 16px 8px; max-width: 1400px; margin: 0 auto; }
+  h1 { font-size: 1.35rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: .9rem; margin: 0; }
+  .controls { max-width: 1400px; margin: 0 auto; padding: 8px 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .controls input[type=search] { flex: 1 1 260px; min-width: 200px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); font-size: 1rem; }
+  .controls select, .controls label.chk { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); font-size: .9rem; }
+  .controls label.chk { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  .status { max-width: 1400px; margin: 0 auto; padding: 0 16px; color: var(--muted); font-size: .85rem; display: flex; gap: 12px; flex-wrap: wrap; }
+  .status .relay { white-space: nowrap; }
+  .status .relay::before { content: "●"; margin-right: 4px; color: var(--muted); }
+  .status .relay.ok::before { color: var(--ok); }
+  .status .relay.err::before { color: var(--warn); }
+  .tags { max-width: 1400px; margin: 0 auto; padding: 8px 16px 4px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 0; background: var(--chip); color: var(--fg); border-radius: 999px; padding: 4px 10px; font-size: .82rem; cursor: pointer; line-height: 1.2; }
+  .chip small { color: var(--muted); margin-left: 4px; }
+  .chip.on { background: var(--chip-on); color: var(--chip-on-fg); }
+  .chip.on small { color: inherit; opacity: .8; }
+  .chip.more { background: transparent; border: 1px dashed var(--line); }
+  main { max-width: 1400px; margin: 0 auto; padding: 8px 16px 40px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; cursor: pointer; display: flex; flex-direction: column; transition: transform .08s; }
+  .card:hover { transform: translateY(-2px); }
+  .card .img { aspect-ratio: 4 / 3; background: var(--chip); display: grid; place-items: center; overflow: hidden; }
+  .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card .body { padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 4px; }
+  .card .title { font-weight: 600; font-size: .92rem; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .meta { color: var(--muted); font-size: .8rem; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .badge { display: inline-block; padding: 1px 7px; border-radius: 6px; font-size: .75rem; background: var(--chip); color: var(--fg); white-space: nowrap; }
+  .badge.open { background: #dff3e3; color: #1d5b29; }
+  .badge.ai { background: #f6e3cf; color: #7a3d0b; }
+  :root[data-theme="dark"] .badge.open, :root:not([data-theme="light"]) .badge.open { background: #214a2a; color: #cdeed4; }
+  :root[data-theme="dark"] .badge.ai, :root:not([data-theme="light"]) .badge.ai { background: #5a3611; color: #f6dcc3; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .badge.open { background: #dff3e3; color: #1d5b29; } :root:not([data-theme="dark"]) .badge.ai { background: #f6e3cf; color: #7a3d0b; } }
+  .card .t { font-size: .76rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+  dialog { border: 0; border-radius: 12px; padding: 0; max-width: min(1100px, 96vw); width: 100%; background: var(--card); color: var(--fg); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+  dialog::backdrop { background: rgba(0,0,0,.55); }
+  .detail { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr); gap: 0; }
+  .detail .pic { background: #000; display: grid; place-items: center; min-height: 240px; }
+  .detail .pic img { max-width: 100%; max-height: 80vh; display: block; }
+  .detail .info { padding: 16px 18px 18px; overflow: auto; max-height: 85vh; font-size: .9rem; }
+  .detail h2 { font-size: 1.1rem; margin: 0 28px 6px 0; }
+  .detail dl { display: grid; grid-template-columns: max-content 1fr; gap: 3px 10px; margin: 10px 0; }
+  .detail dt { color: var(--muted); }
+  .detail dd { margin: 0; overflow-wrap: anywhere; }
+  .detail textarea { width: 100%; min-height: 80px; font: .8rem/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 8px; padding: 8px; resize: vertical; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 10px; }
+  button.btn { border: 1px solid var(--line); background: var(--chip); color: var(--fg); border-radius: 8px; padding: 6px 10px; cursor: pointer; font-size: .85rem; }
+  button.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: transparent; }
+  .close { position: absolute; top: 8px; right: 10px; border: 0; background: transparent; color: var(--fg); font-size: 1.5rem; cursor: pointer; line-height: 1; }
+  .detail .info { position: relative; }
+  @media (max-width: 760px) { .detail { grid-template-columns: 1fr; } .detail .pic img { max-height: 50vh; } .detail .info { max-height: none; } }
+  footer { max-width: 1400px; margin: 0 auto; padding: 0 16px 30px; color: var(--muted); font-size: .8rem; }
+  footer code { font-size: .78rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>FOERBICO Bilder</h1>
+  <p class="sub">Lizenznachweise (kind 1063) von den edufeed-Relays, durchsuchbar nach Schlagworten, Titel, Alt-Text, Urheber:in und Lizenz. Testseite.</p>
+</header>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Suchen: z. B. flipchart, barcamp, illustration …" autocomplete="off">
+  <select id="lic"><option value="">Alle Lizenzen</option></select>
+  <select id="ai">
+    <option value="">KI: egal</option>
+    <option value="ja">nur KI-Bilder</option>
+    <option value="nein">ohne KI-Kennzeichnung</option>
+  </select>
+  <select id="sort">
+    <option value="neu">Neueste zuerst</option>
+    <option value="alt">Älteste zuerst</option>
+    <option value="titel">Titel A–Z</option>
+  </select>
+  <label class="chk"><input id="open" type="checkbox"> nur offene Lizenzen</label>
+</div>
+<div class="status" id="status"></div>
+<div class="tags" id="tags"></div>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>Keine Bilder gefunden.</div>
+</main>
+
+<dialog id="dlg"></dialog>
+
+<footer>
+  Quelle: Nostr-Events kind 1063 mit <code>license</code>- und <code>credit</code>-Tag; Schlagworte aus <code>t</code>-Tags. Je Datei-Hash gilt das neueste Event.
+  Parameter: <code>?author=&lt;hex&gt;</code> (Komma-Liste), <code>?all=1</code> (alle Autor:innen), <code>?relays=wss://…,wss://…</code>.
+  Signaturen werden hier nicht geprüft.
+</footer>
+
+<script>
+(() => {
+  const FOERBICO = '5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf';
+  const DEFAULT_RELAYS = ['wss://relay-rpi.edufeed.org', 'wss://relay.edufeed.org', 'wss://amb-relay.edufeed.org'];
+  const PAGE = 500;
+  const params = new URLSearchParams(location.search);
+  const authors = params.get('all') ? null : (params.get('author') || FOERBICO).split(',').map(s => s.trim()).filter(Boolean);
+  const relays = (params.get('relays') || '').split(',').map(s => s.trim()).filter(Boolean);
+  const RELAYS = relays.length ? relays : DEFAULT_RELAYS;
+
+  const $ = (id) => document.getElementById(id);
+  const events = new Map();      // id -> event
+  const relayState = new Map();  // url -> {state, n}
+  let items = [];                // dedupliziert, nur Bilder
+  let activeTags = new Set();
+  let showAllTags = false;
+
+  // ---------- Relay ----------
+  function fetchRelay(url) {
+    return new Promise((resolve) => {
+      relayState.set(url, { state: 'verbinde', n: 0 });
+      renderStatus();
+      let ws, until = undefined, got = 0, pageCount = 0, timer;
+      const finish = (state) => { clearTimeout(timer); relayState.set(url, { state, n: got }); renderStatus(); try { ws && ws.close(); } catch {} resolve(); };
+      const sub = () => {
+        pageCount = 0;
+        const f = { kinds: [1063], limit: PAGE };
+        if (authors) f.authors = authors;
+        if (until) f.until = until;
+        ws.send(JSON.stringify(['REQ', 'bilder', f]));
+        clearTimeout(timer); timer = setTimeout(() => finish('timeout'), 20000);
+      };
+      try { ws = new WebSocket(url); } catch { return finish('fehler'); }
+      ws.onopen = sub;
+      ws.onerror = () => finish('fehler');
+      ws.onclose = () => { if (relayState.get(url)?.state === 'verbinde' || relayState.get(url)?.state === 'lädt') finish('getrennt'); };
+      ws.onmessage = (m) => {
+        let msg; try { msg = JSON.parse(m.data); } catch { return; }
+        if (msg[0] === 'EVENT' && msg[1] === 'bilder') {
+          const ev = msg[2];
+          if (!events.has(ev.id)) { events.set(ev.id, ev); got++; }
+          pageCount++;
+          until = until === undefined ? ev.created_at : Math.min(until, ev.created_at);
+          relayState.set(url, { state: 'lädt', n: got }); renderStatus();
+        } else if (msg[0] === 'EOSE') {
+          ws.send(JSON.stringify(['CLOSE', 'bilder']));
+          if (pageCount >= PAGE && until > 0) { until = until - 1; rebuild(); sub(); }
+          else finish('ok');
+        } else if (msg[0] === 'CLOSED' || msg[0] === 'NOTICE') {
+          if (msg[0] === 'CLOSED') finish('abgelehnt');
+        }
+      };
+    });
+  }
+
+  // ---------- Modell ----------
+  const tag = (ev, k) => { const t = ev.tags.find(t => t[0] === k); return t ? t[1] : undefined; };
+  const tagsAll = (ev, k) => ev.tags.filter(t => t[0] === k).map(t => t[1]);
+  const isImage = (ev) => {
+    const m = tag(ev, 'm') || '';
+    if (m.startsWith('image/')) return true;
+    return /\.(jpe?g|png|gif|webp|avif|svg)(\?|$)/i.test(tag(ev, 'url') || '');
+  };
+  function licenseInfo(url) {
+    if (!url) return { label: 'keine Lizenz', open: false };
+    const u = url.toLowerCase();
+    let m;
+    if (u.includes('creativecommons.org/publicdomain/zero')) return { label: 'CC0 1.0', open: true };
+    if (u.includes('creativecommons.org/publicdomain/mark')) return { label: 'Public Domain Mark', open: true };
+    if ((m = u.match(/creativecommons\.org\/licenses\/([a-z-]+)\/([0-9.]+)/))) {
+      const kind = m[1].toUpperCase();
+      return { label: 'CC ' + kind + ' ' + m[2], open: ['BY', 'BY-SA'].includes(kind) };
+    }
+    if (u.includes('unsplash.com')) return { label: 'Unsplash-Lizenz', open: false };
+    if (u.includes('pixabay.com')) return { label: 'Pixabay-Lizenz', open: false };
+    if (u.includes('pexels.com')) return { label: 'Pexels-Lizenz', open: false };
+    if (u.includes('gesetze-im-internet.de/urhg')) return { label: '© geschützt', open: false };
+    if (u.includes('opensource.org/licenses/mit') || u.endsWith('/mit')) return { label: 'MIT', open: true };
+    try { return { label: new URL(url).hostname.replace(/^www\./, ''), open: false }; } catch { return { label: url, open: false }; }
+  }
+  function rebuild() {
+    const byX = new Map();
+    for (const ev of events.values()) {
+      const x = tag(ev, 'x'); if (!x) continue;
+      const cur = byX.get(x);
+      if (!cur || ev.created_at > cur.created_at || (ev.created_at === cur.created_at && ev.id < cur.id)) byX.set(x, ev);
+    }
+    items = [];
+    for (const ev of byX.values()) {
+      if (!isImage(ev)) continue;
+      const lic = licenseInfo(tag(ev, 'license'));
+      const t = [...new Set(tagsAll(ev, 't').map(s => s.trim().toLowerCase()).filter(Boolean))];
+      const it = {
+        ev, x: tag(ev, 'x'), url: tag(ev, 'url'), thumb: tag(ev, 'thumb') || tag(ev, 'image') || tag(ev, 'url'),
+        title: tag(ev, 'title') || '', alt: tag(ev, 'alt') || '', credit: tag(ev, 'credit') || '',
+        authorUrl: tag(ev, 'authorUrl') || '', source: tag(ev, 'source') || '', licenseUrl: tag(ev, 'license') || '',
+        lic, ai: tag(ev, 'ai') || '', aiTool: ev.tags.find(t => t[0] === 'ai-tool'), modification: tag(ev, 'modification') || '',
+        mime: tag(ev, 'm') || '', size: tag(ev, 'size') || '', dim: tag(ev, 'dim') || '', tags: t,
+        created: ev.created_at, author: ev.pubkey,
+      };
+      it.hay = [it.title, it.alt, it.credit, it.lic.label, it.source, ...t].join(' ').toLowerCase();
+      items.push(it);
+    }
+    renderLicenseOptions();
+    renderTags();
+    render();
+  }
+
+  // ---------- Filter ----------
+  function filtered() {
+    const q = $('q').value.trim().toLowerCase();
+    const words = q.split(/\s+/).filter(Boolean);
+    const lic = $('lic').value, ai = $('ai').value, open = $('open').checked, sort = $('sort').value;
+    let out = items.filter(it => {
+      if (open && !it.lic.open) return false;
+      if (lic && it.lic.label !== lic) return false;
+      if (ai === 'ja' && !it.ai) return false;
+      if (ai === 'nein' && it.ai) return false;
+      for (const t of activeTags) if (!it.tags.includes(t)) return false;
+      for (const w of words) if (!it.hay.includes(w)) return false;
+      return true;
+    });
+    if (sort === 'neu') out.sort((a, b) => b.created - a.created);
+    else if (sort === 'alt') out.sort((a, b) => a.created - b.created);
+    else out.sort((a, b) => (a.title || a.alt).localeCompare(b.title || b.alt, 'de'));
+    return out;
+  }
+
+  // ---------- Rendern ----------
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  function renderStatus() {
+    const parts = [];
+    for (const [url, st] of relayState) {
+      const cls = st.state === 'ok' ? 'ok' : (['fehler', 'timeout', 'getrennt', 'abgelehnt'].includes(st.state) ? 'err' : '');
+      parts.push(`<span class="relay ${cls}" title="${esc(url)}">${esc(url.replace('wss://', ''))} · ${st.state} · ${st.n}</span>`);
+    }
+    $('status').innerHTML = parts.join('') + `<span>${events.size} Events, ${items.length} Bilder</span>`;
+  }
+  function renderLicenseOptions() {
+    const sel = $('lic'); const cur = sel.value;
+    const counts = new Map();
+    for (const it of items) counts.set(it.lic.label, (counts.get(it.lic.label) || 0) + 1);
+    const opts = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+    sel.innerHTML = '<option value="">Alle Lizenzen</option>' + opts.map(([l, n]) => `<option value="${esc(l)}">${esc(l)} (${n})</option>`).join('');
+    sel.value = cur;
+  }
+  function renderTags() {
+    const counts = new Map();
+    const base = filteredWithoutTags();
+    for (const it of base) for (const t of it.tags) counts.set(t, (counts.get(t) || 0) + 1);
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'de'));
+    const limit = showAllTags ? sorted.length : 40;
+    const html = [];
+    for (const t of activeTags) if (!counts.has(t)) html.push(`<button class="chip on" data-t="${esc(t)}">${esc(t)}<small>0</small></button>`);
+    for (const [t, n] of sorted.slice(0, limit)) html.push(`<button class="chip ${activeTags.has(t) ? 'on' : ''}" data-t="${esc(t)}">${esc(t)}<small>${n}</small></button>`);
+    if (sorted.length > 40) html.push(`<button class="chip more" data-more="1">${showAllTags ? 'weniger' : 'alle ' + sorted.length + ' Schlagworte'}</button>`);
+    $('tags').innerHTML = html.join('');
+  }
+  function filteredWithoutTags() {
+    const save = activeTags; activeTags = new Set(); const out = filtered(); activeTags = save; return out;
+  }
+  function render() {
+    const list = filtered();
+    $('grid').innerHTML = list.map((it, i) => `
+      <article class="card" data-i="${items.indexOf(it)}" title="${esc(it.alt || it.title)}">
+        <div class="img"><img loading="lazy" decoding="async" src="${esc(it.thumb)}" alt="${esc(it.alt || it.title)}"></div>
+        <div class="body">
+          <div class="title">${esc(it.title || it.alt || '(ohne Titel)')}</div>
+          <div class="meta"><span class="badge ${it.lic.open ? 'open' : ''}">${esc(it.lic.label)}</span>${it.ai ? '<span class="badge ai">KI ' + esc(it.ai) + '</span>' : ''}<span>${esc(it.credit)}</span></div>
+          <div class="t">${esc(it.tags.slice(0, 8).join(' · '))}</div>
+        </div>
+      </article>`).join('');
+    $('empty').hidden = list.length > 0;
+    renderStatus();
+    document.title = `FOERBICO Bilder (${list.length}/${items.length})`;
+  }
+
+  // ---------- Detail ----------
+  function caption(it) {
+    const parts = [];
+    parts.push(it.source ? `[${it.title || 'Bild'}](${it.source})` : (it.title || ''));
+    if (it.credit) parts.push(it.authorUrl ? `[${it.credit}](${it.authorUrl})` : it.credit);
+    if (it.licenseUrl) parts.push(`[${it.lic.label}](${it.licenseUrl})`);
+    if (it.ai === 'generated') parts.push('KI-generiert'); else if (it.ai === 'modified') parts.push('KI-verändert');
+    if (it.modification) parts.push(it.modification);
+    return `![${it.alt}](${it.url})\n` + parts.filter(Boolean).join(', ');
+  }
+  function captionHtml(it) {
+    const a = (txt, href) => href ? `<a href="${esc(href)}">${esc(txt)}</a>` : esc(txt);
+    const parts = [a(it.title || 'Bild', it.source)];
+    if (it.credit) parts.push(a(it.credit, it.authorUrl));
+    if (it.licenseUrl) parts.push(a(it.lic.label, it.licenseUrl));
+    if (it.ai === 'generated') parts.push('KI-generiert'); else if (it.ai === 'modified') parts.push('KI-verändert');
+    if (it.modification) parts.push(esc(it.modification));
+    return `<figure>\n  <img src="${esc(it.url)}" alt="${esc(it.alt)}">\n  <figcaption>${parts.join(', ')}</figcaption>\n</figure>`;
+  }
+  // NIP-19 note1… (bech32) für den Link zum Event
+  const B32 = 'qpzry9x8gf2tvdw0s3jn54khce6mua7l';
+  function bech32(hrp, bytes) {
+    const polymod = (v) => { const G = [0x3b6a57b2, 0x26508e6d, 0x1ea119fa, 0x3d4233dd, 0x2a1462b3]; let c = 1; for (const x of v) { const b = c >> 25; c = ((c & 0x1ffffff) << 5) ^ x; for (let i = 0; i < 5; i++) if ((b >> i) & 1) c ^= G[i]; } return c; };
+    const hrpExp = [...hrp].map(c => c.charCodeAt(0) >> 5).concat([0], [...hrp].map(c => c.charCodeAt(0) & 31));
+    const data = []; let acc = 0, bits = 0;
+    for (const b of bytes) { acc = (acc << 8) | b; bits += 8; while (bits >= 5) { bits -= 5; data.push((acc >> bits) & 31); } }
+    if (bits) data.push((acc << (5 - bits)) & 31);
+    const pm = polymod(hrpExp.concat(data, [0, 0, 0, 0, 0, 0])) ^ 1;
+    const chk = []; for (let i = 0; i < 6; i++) chk.push((pm >> (5 * (5 - i))) & 31);
+    return hrp + '1' + data.concat(chk).map(d => B32[d]).join('');
+  }
+  const hexBytes = (h) => Uint8Array.from(h.match(/../g).map(b => parseInt(b, 16)));
+  function openDetail(it) {
+    const note = bech32('note', hexBytes(it.ev.id));
+    const dlg = $('dlg');
+    dlg.innerHTML = `
+      <div class="detail">
+        <div class="pic"><img src="${esc(it.url)}" alt="${esc(it.alt)}"></div>
+        <div class="info">
+          <button class="close" aria-label="Schließen" data-close>×</button>
+          <h2>${esc(it.title || '(ohne Titel)')}</h2>
+          <div class="row"><span class="badge ${it.lic.open ? 'open' : ''}">${esc(it.lic.label)}</span>${it.ai ? '<span class="badge ai">KI ' + esc(it.ai) + '</span>' : ''}</div>
+          <dl>
+            ${it.alt ? `<dt>Alt-Text</dt><dd>${esc(it.alt)}</dd>` : ''}
+            <dt>Urheber:in</dt><dd>${it.authorUrl ? `<a href="${esc(it.authorUrl)}" target="_blank" rel="noopener">${esc(it.credit || it.authorUrl)}</a>` : esc(it.credit || '–')}</dd>
+            <dt>Lizenz</dt><dd>${it.licenseUrl ? `<a href="${esc(it.licenseUrl)}" target="_blank" rel="noopener">${esc(it.licenseUrl)}</a>` : '–'}</dd>
+            ${it.source ? `<dt>Quelle</dt><dd><a href="${esc(it.source)}" target="_blank" rel="noopener">${esc(it.source)}</a></dd>` : ''}
+            ${it.modification ? `<dt>Bearbeitung</dt><dd>${esc(it.modification)}</dd>` : ''}
+            ${it.aiTool ? `<dt>KI-Werkzeug</dt><dd>${esc(it.aiTool[1])}${it.aiTool[2] ? ' <small>(' + esc(it.aiTool[2]) + ')</small>' : ''}</dd>` : ''}
+            <dt>Datei</dt><dd>${esc(it.mime || '?')}${it.dim ? ', ' + esc(it.dim) + ' px' : ''}${it.size ? ', ' + Math.round(+it.size / 1024) + ' KB' : ''} · <a href="${esc(it.url)}" target="_blank" rel="noopener">öffnen</a></dd>
+            <dt>SHA-256</dt><dd><code>${esc(it.x)}</code></dd>
+            <dt>Event</dt><dd><a href="https://njump.me/${note}" target="_blank" rel="noopener">${note.slice(0, 16)}…</a> · ${new Date(it.created * 1000).toLocaleString('de-DE')} · <code>${esc(it.author.slice(0, 8))}…</code></dd>
+          </dl>
+          <div class="row">${it.tags.map(t => `<button class="chip ${activeTags.has(t) ? 'on' : ''}" data-t="${esc(t)}">${esc(t)}</button>`).join('') || '<span style="color:var(--muted)">keine Schlagworte</span>'}</div>
+          <label>Attribution als Markdown (Konvention bildattribution.md)</label>
+          <textarea id="cap-md" readonly>${esc(caption(it))}</textarea>
+          <div class="row">
+            <button class="btn primary" data-copy="cap-md">Markdown kopieren</button>
+            <button class="btn" data-copy-text="${esc(captionHtml(it))}">HTML kopieren</button>
+            <button class="btn" data-copy-text="${esc(it.url)}">URL kopieren</button>
+            <button class="btn" data-copy-text="${esc(it.x)}">Hash kopieren</button>
+          </div>
+        </div>
+      </div>`;
+    dlg.showModal();
+  }
+
+  // ---------- Interaktion ----------
+  let debounce;
+  $('q').addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => { renderTags(); render(); }, 120); });
+  for (const id of ['lic', 'ai', 'sort', 'open']) $(id).addEventListener('change', () => { renderTags(); render(); });
+  document.addEventListener('click', async (e) => {
+    const chip = e.target.closest('.chip');
+    if (chip) {
+      if (chip.dataset.more) { showAllTags = !showAllTags; renderTags(); return; }
+      const t = chip.dataset.t;
+      if (activeTags.has(t)) activeTags.delete(t); else activeTags.add(t);
+      if (e.target.closest('dialog')) $('dlg').close();
+      renderTags(); render(); return;
+    }
+    const card = e.target.closest('.card');
+    if (card) { openDetail(items[+card.dataset.i]); return; }
+    if (e.target.closest('[data-close]')) { $('dlg').close(); return; }
+    const cp = e.target.closest('[data-copy],[data-copy-text]');
+    if (cp) {
+      const text = cp.dataset.copyText ?? $(cp.dataset.copy).value;
+      try { await navigator.clipboard.writeText(text); const old = cp.textContent; cp.textContent = 'kopiert ✓'; setTimeout(() => cp.textContent = old, 1200); }
+      catch { alert('Kopieren nicht möglich, bitte markieren und kopieren.'); }
+      return;
+    }
+    if (e.target === $('dlg')) $('dlg').close();
+  });
+
+  // ---------- Start ----------
+  const initialQ = params.get('q'); if (initialQ) $('q').value = initialQ;
+  const initialT = params.get('t'); if (initialT) activeTags = new Set(initialT.split(',').map(s => s.trim().toLowerCase()).filter(Boolean));
+  renderStatus();
+  Promise.all(RELAYS.map(fetchRelay)).then(() => { rebuild(); });
+  // Zwischenstände anzeigen, sobald das erste Relay fertig ist
+  const tick = setInterval(() => { if ([...relayState.values()].some(s => s.state === 'ok')) { rebuild(); } if ([...relayState.values()].every(s => !['verbinde', 'lädt'].includes(s.state))) clearInterval(tick); }, 1500);
+})();
+</script>
+</body>
+</html>
