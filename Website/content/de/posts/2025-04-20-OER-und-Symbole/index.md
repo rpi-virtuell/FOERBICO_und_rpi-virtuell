@@ -60,6 +60,7 @@ bilder:
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.en
     ai: generated
+    keywords: ['foto', 'nadel', 'heuhaufen', 'cc-symbol', 'creative commons', 'stroh', 'feld', 'gelb', 'symbolbild', 'redewendung', 'ki-generiert', 'photo', 'needle', 'haystack', 'cc symbol', 'straw', 'field', 'yellow', 'symbolic image', 'idiom', 'ai generated']
 ---
 
 ## Eine Fallbeschreibung

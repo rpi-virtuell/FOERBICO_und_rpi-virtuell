@@ -73,6 +73,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['logo', 'wortmarke', 'foerbild-funktion', 'leiterbahn', 'blau', 'lila', 'hellblau', 'farbverlauf', 'ki-generiert', 'wordmark', 'circuit', 'blue', 'purple', 'light blue', 'gradient', 'ai generated']
   Redaktionsprozess.png:
     alt: 'Abbildung vom Workflow im Rahmen des FOERBICO-Projektes.'
     title: Redaktionsprozess des FOERBICO-Teams
@@ -81,6 +82,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['infografik', 'schaubild', 'puzzle', 'workflow', 'redaktionsprozess', 'vier schritte', 'git', 'pull request', 'review', 'publikation', 'foerbico', 'infographic', 'diagram', 'editorial process', 'four steps', 'publication']
   Grafik-1.jpg:
     alt: 'Ziele des offenen redaktionellen Prozesses vom FOERBICO-Team'
     title: Ziele des offenen redaktionellen Prozesses vom FOERBICO-Team
@@ -89,6 +91,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['infografik', 'icons', 'transparenz', 'offener zugang', 'kollaboration', 'qualität', 'working out loud', 'redaktion', 'blau', 'orange', 'ziele', 'infographic', 'transparency', 'open access', 'collaboration', 'quality', 'editorial', 'blue', 'goals']
 ---
 
 ## Vorweg: Offene Projektkultur im Kontext von FOERBICO

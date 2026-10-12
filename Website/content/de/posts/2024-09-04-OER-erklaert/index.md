@@ -44,6 +44,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['videovorschau', 'musikvideo', 'song', 'rhabarber', 'greenscreen', 'mikrofon', 'kopfhörer', 'oer erklärt', 'cc by', 'bmbf', 'zwei personen', 'hochformat', 'video thumbnail', 'music video', 'rhubarb', 'green screen', 'microphone', 'headphones', 'oer explained', 'two people', 'portrait format']
 ---
 
 Was heißt eigentlich OER? Im Bildungsbereich wird das Akronym oft selbstverständlich im Sprachgebrauch verwendet, aber nicht jede:r weiß auf Anhieb, wofür das Kürzel eigentlich steht. 

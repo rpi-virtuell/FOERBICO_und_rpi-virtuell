@@ -71,6 +71,7 @@ bilder:
     authorUrl: https://oer.community
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['grafik', 'laptop', 'logo', 'religlobal', 'whiteboard', 'haftnotizen', 'interview', 'oer-communities', 'ki-generiert', 'hochformat', 'graphic', 'sticky notes', 'oer communities', 'ai generated', 'portrait format']
 ---
  
 # Interview reliGlobal

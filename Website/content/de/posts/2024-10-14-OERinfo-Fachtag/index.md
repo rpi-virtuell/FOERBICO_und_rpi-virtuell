@@ -50,6 +50,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'selfie', 'drei personen', 'flyer', 'oerinfo', 'banner', 'foerbico', 'fachtag', 'lächeln', 'photo', 'three people', 'flyers', 'oer info', 'conference', 'smiling']
   DIPF-Gebaeude.jpg:
     alt: 'Außenansicht des DIPF-Gebäudes vor dem Eingang.'
     title: DIPF-Gebäude
@@ -58,6 +59,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'gebäude', 'fassade', 'eingang', 'dipf', 'leibniz-institut', 'frankfurt', 'architektur', 'abend', 'regen', 'photo', 'building', 'facade', 'entrance', 'leibniz institute', 'architecture', 'evening', 'rain']
   OERinfo-Fachtag-Begruessung.jpg:
     alt: 'Begrüßung von Katja Stamm (BMBFSFJ) und Steffi Widera (Geschäftsführerin der Virtuellen Hochschule Bayern) beim OERinfo-Fachtag 2024 in Frankfurt a.M.'
     title: Begrüßung beim OERinfo-Fachtag
@@ -66,6 +68,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'begrüßung', 'vortrag', 'publikum', 'leinwand', 'oerinfo', 'fachtag', 'mikrofon', 'seminarraum', 'photo', 'welcome', 'talk', 'audience', 'screen', 'oer info', 'conference', 'microphone', 'seminar room']
   Kurzvorstellung-FOERBICO-vorschau.png:
     alt: 'Screenshot zum Video mit FOERBICO-Vorstellung von Jörg Lohrer beim OERinfo-Fachtag 2024 in Frankfurt.'
     title: FOERBICO-Vorstellung beim OERinfo-Fachtag 2024
@@ -74,6 +77,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'video', 'hochformat', 'podium', 'vortrag', 'publikum', 'digill', 'projektvorstellung', 'oerinfo-fachtag', 'portrait format', 'panel', 'talk', 'audience', 'project presentation', 'oer info conference']
   Community-Staerkung-Erweiterung.jpg:
     alt: 'Stehtisch der OER-Communities KlimaOER, ProOER und FOERBICO beim OERinfo-Fachtag 2024.'
     title: Thementisch zur Community-Stärkung und -Erweiterung beim OERinfo-Fachtag 2024
@@ -82,6 +86,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'stehtisch', 'thementisch', 'flyer', 'sticker', 'kugelschreiber', 'community', 'oerinfo-fachtag', 'foerbico', 'klimaoer', 'prooer', 'photo', 'high table', 'topic table', 'flyers', 'stickers', 'pens', 'oer info conference']
 ---
 
 ![Außenansicht des DIPF-Gebäudes vor dem Eingang.](https://blossom.edufeed.org/508965fa6dc2f930780bc43738b8a673c55a193e59ae2210146e8d5ac3ff2399.jpg)

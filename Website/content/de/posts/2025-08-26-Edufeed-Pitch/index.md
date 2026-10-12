@@ -53,6 +53,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'inseln', 'plattformen', 'oersi', 'mundo', 'wirlernenonline', 'serlo', 'zum', 'rpi-virtuell', 'isoliert', 'meer', 'ki-generiert', 'islands', 'platforms', 'isolated', 'sea', 'oer platforms', 'silos', 'ai generated']
 ---
 
 Edufeed ist unsere Vision einer dezentralen Infrastruktur für den Bildungsbereich, die auf dem offenen Social-Media-Protokoll Nostr basiert. Unser Ziel ist es, OER-Materialien plattformübergreifend auffindbar, teilbar und nutzbar zu machen – unabhängig von zentralen Plattformen oder proprietären Systemen. Dies sichert die Sichtbarkeit, Wiederverwendbarkeit und Langzeitverfügbarkeit von OER nachhaltig, regt zu offener Bildungspraxis an und hat auch unser Pitch-Team institutionsübergreifend zu einer Entwicklungscommunity zusammengebracht, die erweiterte Beteiligung initialisiert. Dazu haben wir bei einem Pitch unsere Idee zur Weiterentwicklung von Edufeed vorgestellt, um eine Sprint-Förderung in Höhe von 50.000€ zu erhalten.

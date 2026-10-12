@@ -47,6 +47,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['grafik', 'roadmap', 'berg', 'wegmarken', 'konzeptionstage', 'community-hub', 'meilensteine', 'kletterer', 'orange', 'hochformat', 'graphic', 'mountain', 'waypoints', 'concept days', 'community hub', 'milestones', 'climber', 'portrait format']
 ---
 
 Nach dem [ersten Konzeptionstag im Oktober 2024](https://oer.community/konzeptionstag/) an der Goethe-Universität in Frankfurt, bei dem erste Ideen und Visionen für zukünftige Entwicklungen in der religiösen Bildungsarbeit gesammelt wurden, ging es nun an die Konkretisierung: In zwei Online-Konzeptionstagen am 19. März und am 7. April 2025 kamen die Teams von rpi-virtuell und FOERBICO erneut zusammen, um sich intensiv mit einem gemeinsamen Vorhaben zu beschäftigen: der Entwicklung eines Community-Hubs, der religionsbezogene Akteur:innen vernetzt und offene Bildungspraktiken im religiösen Kontext stärkt.

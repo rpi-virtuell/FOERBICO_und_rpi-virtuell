@@ -89,6 +89,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'hände', 'vier hände', 'holz', 'zusammenarbeit', 'arbeitsgruppe', 'geschöpflichkeit', 'menschlich', 'ringe', 'symbolbild', 'photo', 'hands', 'four hands', 'wood', 'collaboration', 'working group', 'createdness', 'human', 'rings', 'symbolic image']
   geschoepf-ki-banana2.jpg:
     alt: 'KI-generierte Symbolbild für Geschöpflichkeit als Maßstab für KI mit einer Hand und einem neuronales Netz in Form eines Gehirns.'
     title: KI-generierte Symbolbild für Geschöpflichkeit

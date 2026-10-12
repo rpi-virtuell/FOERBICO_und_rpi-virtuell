@@ -63,6 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['infografik', 'schaubild', 'canva', 'cc-lizenz', 'arbeitsblatt', 'lizenzierung', 'urheberrecht', 'vergleich', 'drei beispiele', 'oer', 'infographic', 'diagram', 'cc license', 'worksheet', 'licensing', 'copyright', 'comparison', 'three examples']
   Canva-OER-KI-generiert.jpg:
     alt: "Illustration eines Laptops über einem aufgeschlagenen Buch, umgeben von Symbolen zu OER. KI-generiert mit ChatGPT."
     title: Canva als Tool für OER?
@@ -72,6 +73,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'ki-generiert', 'laptop', 'buch', 'canva', 'creative commons', 'oer', 'symbole', 'orange', 'blau', 'ai generated', 'book', 'icons', 'blue']
 ---
 
 ## Sind die Designs, Vorlagen, Bilder von [Canva](https://www.canva.com/) einfach für OER nutzbar?

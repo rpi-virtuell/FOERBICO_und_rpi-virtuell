@@ -54,6 +54,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'raum', 'werkstatt', 'stühle', 'tische', 'rucksäcke', 'industriedecke', 'lernraum', 'ruhr-universität bochum', 'photo', 'room', 'workshop space', 'chairs', 'tables', 'backpacks', 'industrial ceiling', 'learning space', 'university']
   kreativtisch.jpg:
     alt: Ein kleiner Kreativtisch um sich Inspiration zu holen und den Gedanken ihren freien Lauf zu lassen
     title: Kreativtisch zur Inspiration
@@ -62,6 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'kreativtisch', 'bastelmaterial', 'buttonmaschine', 'sticker', 'schere', 'werkstatt', 'fenster', 'oer-werkstatt', 'photo', 'craft table', 'craft supplies', 'button maker', 'stickers', 'scissors', 'workshop', 'window', 'makerspace']
   kreativtisch-ausschnitt.jpg:
     alt: Ausschnitt eines kleinen Kreativtischs mit Materialien zur Inspiration
     title: Kreativtisch zur Inspiration (Ausschnitt)
@@ -71,6 +73,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     modification: beschnitten
+    keywords: ['foto', 'kreativtisch', 'buttonmaschine', 'sticker', 'bastelmaterial', 'stifte', 'ausschnitt', 'werkstatt', 'photo', 'craft table', 'button maker', 'stickers', 'craft supplies', 'pens', 'detail', 'makerspace']
 ---
 
 ## Werkstatt-Prinzip

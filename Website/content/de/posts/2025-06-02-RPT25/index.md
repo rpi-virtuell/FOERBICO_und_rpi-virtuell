@@ -58,6 +58,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    keywords: ['illustration', 'kind', 'vr-brille', 'virtual reality', 'sterne', 'klassenzimmer', 'zukunft', 'digital', 'blau', 'ki-generiert', 'hochformat', 'child', 'vr headset', 'stars', 'classroom', 'future', 'blue', 'ai generated', 'portrait format']
 ---
 
 

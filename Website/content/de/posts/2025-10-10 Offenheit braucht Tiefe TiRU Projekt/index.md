@@ -61,6 +61,7 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'tiru', 'tablet', 'stift', 'religionsunterricht', 'ellvis', 'kreise', 'blau', 'orange', 'projektlogo', 'stylus', 'religious education', 'circles', 'blue', 'project logo']
 ---
 
 

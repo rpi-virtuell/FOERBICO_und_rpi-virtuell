@@ -58,6 +58,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'schriftzug', 'offen vernetzt zukunft', 'orange', 'blau', 'tagung', 'open education', 'communitys', 'foerbico', 'ankündigung', 'graphic', 'lettering', 'open connected future', 'blue', 'conference', 'communities', 'announcement']
 ---
 
 Wie können lebendige und nachhaltige Ökosysteme für offenes Lernen entstehen? Mit dieser Frage beschäftigt sich die Tagung „*Offen. Vernetzt. Zukunft.*“ am **2. und 3. Februar 2027** an der [Goethe-Universität Frankfurt am Main](https://www.uni-frankfurt.de/de).

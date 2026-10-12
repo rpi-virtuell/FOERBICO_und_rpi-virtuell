@@ -125,6 +125,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'zeitschriften', 'journal', 'offenes schloss', 'open access', 'fachzeitschriften', 'blau', 'orange', 'ki-generiert', 'symbolbild', 'magazines', 'open padlock', 'academic journals', 'blue', 'ai generated', 'symbolic image']
 ---
 
 Auf Einladung von FOERBICO fand eine digitale Fachdiskussion über die CC-Lizenzierung von Open-Access-Zeitschriften sowie die mögliche Integration religionspädagogischer Fachzeitschriften in OER-Plattformen, insbesondere in das System [OERSI](https://oersi.org/resources/pages/de/) statt. Teilgenommen haben Vertreter:innen des [WiReLex](https://wirelex.de), der [RpB](https://rpb-journal.de/index.php/rpb), des [ÖRF](https://oerf-journal.eu/index.php/oerf) und des [Theo-Webs](https://www.theo-web.de) sowie Verantwortliche der Bibliotheken, der Deutschen Bibelgesellschaft und von OERSI. Als ein zentraler Punkt der Diskussion stellte sich die Frage heraus, wie der Begriff OER im Rahmen der Hochschullehre gefasst wird - inwieweit sind wissenschaftliche Lexikon- oder Zeitschriftenartikel, die unter CC-Lizenz veröffentlicht sind, OER? Ein weiterer Aspekt bezog sich auf die Spannung zwischen der wissenschaftlichen Reputation einer Zeitschrift und der Kategorisierung ihrer Artikel als Lernmaterial. Darüber hinaus wurden verschiedene technische und konzeptionelle Fragen aufgeworfen.

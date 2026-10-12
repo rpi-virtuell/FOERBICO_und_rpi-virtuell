@@ -66,6 +66,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'zwei personen', 'we''re open', 'open education', 'international', 'interview', 'blau', 'orange', 'hochformat', 'video call', 'two people', 'blue', 'portrait format']
 ---
 
 ## Vom Gemeindebrief zur Protokollarchitektur: Wie sich Bildungsräume vernetzen lassen

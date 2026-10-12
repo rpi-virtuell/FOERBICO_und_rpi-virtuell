@@ -78,6 +78,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@markuswinkler
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'metadaten', 'holzbausteine', 'buchstaben', 'scrabble', 'schriftzug', 'pflanze', 'unschärfe', 'symbolbild', 'photo', 'metadata', 'wooden blocks', 'letters', 'lettering', 'plant', 'bokeh', 'symbolic image']
 ---
 
 

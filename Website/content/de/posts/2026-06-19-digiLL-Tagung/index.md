@@ -58,6 +58,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'eröffnung', 'begrüßung', 'mikrofon', 'bildschirm', 'willkommensfolie', 'banner', 'we are open', 'open education', 'tagung', 'digill', 'photo', 'opening', 'welcome', 'microphone', 'screen', 'welcome slide', 'conference']
   digiLL-Tagung-Tauschtisch.jpg:
     alt: 'Tauschtisch auf der digiLL-Tagung zum Austausch von Materialien wie Flyer, Sticker usw.'
     title: Tauschtisch auf der digiLL-Tagung
@@ -66,6 +67,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'tauschtisch', 'flyer', 'broschüren', 'regal', 'materialien', 'foerbico', 'digill', 'open education', 'tagung', 'photo', 'exchange table', 'flyers', 'brochures', 'shelf', 'materials', 'conference']
   digiLL-Tagung-Kreativwall.jpg:
     alt: 'Whiteboard im Büro vom digiLL-Team mit Comic-Zeichnungen und lustigen Wortspielen zu OER wie "Wo ist WalthOER?", "OERnie & BOERt" oder "der HOER der Ringe"'
     title: Whiteboard vom digiLL-Team mit kreativen Zeichnungen und OER-Wortspielen
@@ -74,6 +76,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'whiteboard', 'zeichnungen', 'comic', 'wortspiel', 'oer', 'büro', 'humor', 'marker', 'herr der ringe', 'photo', 'drawings', 'pun', 'office', 'markers', 'lord of the rings']
 ---
 
 Am 18. Juni 2026 fand an der Ruhr-Universität Bochum (RUB) sowie online die Tagung „[Open Education – Gemeinsam: gestalten, teilen, lernen](https://digill.de/tagung-open-education-gemeinsam/)“ statt. Aus der digiLL_COM-Community heraus entstanden und gemeinsam mit dem Projekt [POET](https://www.oer-strategie.de/projects/poet-projektsteckbrief/) (OE_Struktur-Förderrichtlinie) und der Universität Duisburg-Essen durchgeführt, brachte die Veranstaltung Vertreter:innen der OE_COM- und OE_Struktur-Förderrichtlinien, Hochschule, Lehrkräfte, Studierende, Schulträger sowie weitere Akteur:innen aus Forschung, Praxis und Bildungsadministration zusammen.

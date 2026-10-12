@@ -74,6 +74,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'gorilla', 'goldener affe', 'blumenkette', 'roll-up', 'oer im blick', 'willkommen', 'dschungel', 'humor', 'hochformat', 'photo', 'golden ape', 'flower garland', 'roll-up banner', 'welcome', 'jungle', 'portrait format']
   OER-im-Blick-2026-Workshop.jpg:
     alt: 'Teilnehmende des Workshops bei der OER im Blick 2026 sitzen auf Tribüne, während Phillip unten steht und das FOERBICO-Projekt präsentiert.'
     title: FOERBICO-Workshop bei der OER im Blick 2026
@@ -82,6 +83,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'workshop', 'halle', 'sitzstufen', 'teilnehmende', 'stehtische', 'grün', 'oer im blick', 'veranstaltungsort', 'bildschirm', 'photo', 'hall', 'tiered seating', 'participants', 'high tables', 'green', 'venue', 'screen']
   OER-im-Blick-2026-Projektvorstellung.jpg:
     alt: 'Austausch am Stehtisch von Laura und Phillip vom FOERBICO-Projekt mit Matthias von Co-Woerk während Postersession bei der Tagung OER im Blick 2026.'
     title: Austausch mit Co-Woerk beim FOERBICO-Projektstand
@@ -90,6 +92,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'stehtisch', 'poster', 'foerbico', 'flyer', 'drei personen', 'laptop', 'austausch', 'oer im blick', 'projektstand', 'photo', 'high table', 'flyers', 'three people', 'exchange', 'project booth']
 ---
 
 Am 28. und 29. April 2026 fand die Statuskonferenz „[OER im Blick](https://www.oer-strategie.de/konferenz/)“ der [OER-Strategie](https://www.oer-strategie.de/) des Bundes in Köln statt. Wie bei der letztjährigen Konferenz in der Imaginata in Jena (siehe [Blogbeitrag](https://oer.community/oer-im-blick-2025/)) und der Auftaktkonferenz 2024 im EXPERIMINTA ScienceCenter in Frankfurt a.M. (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/)) wurde auch dieses Mal ein außergewöhnliches Ambiente gewählt: das smartvillage mit seinem lateinamerikanischen Flair. In inspirierender Umgebung sind wir auf eine gemeinsame Expedition durch das vielfältige OER-Ökosystem gegangen und nehmen euch in diesem Blogbeitrag mit auf die Reise. 

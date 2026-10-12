@@ -53,6 +53,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@timmossholder
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'schild', 'you belong', 'zugehörigkeit', 'inklusion', 'bunt', 'dreiecke', 'pflanzen', 'garten', 'hochformat', 'photo', 'sign', 'belonging', 'inclusion', 'colorful', 'triangles', 'plants', 'garden', 'portrait format']
 ---
 
 

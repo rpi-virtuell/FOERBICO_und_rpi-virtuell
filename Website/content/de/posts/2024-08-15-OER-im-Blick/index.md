@@ -45,6 +45,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'selfie', 'banner', 'beachflag', 'oer im blick', 'auftaktkonferenz', 'konferenz', 'zwei personen', 'treppe', 'photo', 'feather flag', 'kickoff conference', 'conference', 'two people', 'stairs']
   OER-im-Blick-1.jpg:
     alt: 'Teamfoto mit den Partnern der FAU Erlangen-Nürnberg, der Goethe-Universität Frankfurt a.M. und dem Comenius-Institut auf der Auftaktkonferenz "OER im Blick" sitzend.'
     title: Teamfoto sitzend
@@ -53,6 +54,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'teamfoto', 'gruppenfoto', 'foerbico', 'projektteam', 'personen', 'freigestellt', 'lächeln', 'photo', 'team photo', 'group photo', 'project team', 'people', 'cutout', 'smiling']
   OER-im-Blick-2.jpg:
     alt: 'Teamfoto mit den Partnern der FAU Erlangen-Nürnberg, der Goethe-Universität Frankfurt a.M. und dem Comenius-Institut auf der Auftaktkonferenz "OER im Blick" im Porträt.'
     title: Teamfoto im Porträt
@@ -61,6 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'teamfoto', 'gruppenfoto', 'foerbico', 'projektteam', 'sitzend', 'freigestellt', 'namensschilder', 'photo', 'team photo', 'group photo', 'project team', 'seated', 'cutout', 'name badges']
 ---
 
 ![Teamfoto mit den Partnern der FAU Erlangen-Nürnberg, der Goethe-Universität Frankfurt a.M. und dem Comenius-Institut auf der Auftaktkonferenz "OER im Blick" im Porträt.](https://blossom.edufeed.org/9b65f3d036dfe7318f7e38f2f14104a0024eee374584fc3d8e797fc283f39d2a.jpg)

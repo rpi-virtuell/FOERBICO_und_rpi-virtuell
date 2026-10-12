@@ -52,6 +52,7 @@ bilder:
     authorUrl: https://pixabay.com/users/peggy_marco-1553824/
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    keywords: ['foto', 'frosch', 'figur', 'spielzeug', 'fliegenpilz', 'regenschirm', 'schal', 'wetter', 'grün', 'rot', 'photo', 'frog', 'figurine', 'toy', 'toadstool', 'umbrella', 'scarf', 'weather', 'green', 'red']
   hedgedoc-screenshot.png:
     alt: Screenshot eines Hedgedoc-Dokuments mit Markdown-Quelltext links und gerenderter Vorschau rechts.
     title: Screenshot vom Hedgedoc-Dokument
@@ -60,6 +61,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'hedgedoc', 'gwdg', 'editor', 'markdown', 'pad', 'vorschau', 'frosch', 'kollaboratives schreiben', 'preview', 'frog', 'collaborative writing']
   liascript-screenshot.png:
     alt: Screenshot eines LiaScript-Dokuments im LiveEditor mit Markdown-Quelltext und gerendertem Kurs.
     title: Screenshot vom LiaScript-Dokument
@@ -68,6 +70,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'liascript', 'liaedit', 'editor', 'markdown', 'quelltext', 'vorschau', 'frosch', 'oer-werkzeug', 'source code', 'preview', 'frog', 'oer tool']
 ---
 
 ## Einblicke aus dem KlimaOER-Workshop am 17.03.2025

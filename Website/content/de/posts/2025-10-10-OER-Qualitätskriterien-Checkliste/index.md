@@ -54,6 +54,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@adhitya_2505
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'wandkunst', 'schriftzug', 'qualität', 'frische', 'fliesen', 'lorbeerkranz', 'rot', 'schwarz', 'symbolbild', 'photo', 'wall art', 'lettering', 'quality', 'freshness', 'tiles', 'laurel wreath', 'red', 'black', 'symbolic image']
 ---
 
 

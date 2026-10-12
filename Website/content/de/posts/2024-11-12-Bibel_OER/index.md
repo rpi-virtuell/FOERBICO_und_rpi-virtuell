@@ -67,6 +67,7 @@ bilder:
     authorUrl: https://www.publicdomainpictures.net/de/browse-author.php?a=49179
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    keywords: ['foto', 'bibel', 'buch', 'aufgeschlagen', 'alt', 'seiten', 'nahaufnahme', 'lesen', 'teppich', 'photo', 'bible', 'book', 'open book', 'old', 'pages', 'close-up', 'reading', 'carpet']
 ---
 
 Es ist November. Bald beginnt die Adventszeit und Lehrpersonen oder pädagogische Fachkräfte greifen gerne auf biblische Texte aus dem Alten und Neuen Testament zurück, um die Adventszeit in ihrer Schule oder Kita zu gestalten. Die Bibel gehört zum Grundelement religiöser Bildungsprozesse und viele Didaktiker:innen entwickeln spannendes Material dazu, wie man mit der Bibel zielgruppenorientiert arbeiten kann.

@@ -51,6 +51,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'wortwolke', 'mentimeter', 'umfrage', 'oer', 'hürden', 'urheberrecht', 'zeit', 'lehre', 'hochschule', 'word cloud', 'survey', 'barriers', 'copyright', 'time', 'teaching', 'higher education']
   Rueckmeldung_OER-Fachtag-2024-1.jpg:
     alt: Wortwolke mit Antworten zur Frage, was Gründe für den Einsatz von OER in der Lehre waren.
     title: Wortwolke mit Gründen für den Einsatz von OER in der Lehre
@@ -59,6 +60,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'wortwolke', 'mentimeter', 'umfrage', 'oer', 'gründe', 'lehre', 'kultur des teilens', 'hochschule', 'word cloud', 'survey', 'reasons', 'teaching', 'culture of sharing', 'higher education']
 ---
 
 ![](https://cdn.midjourney.com/ca6cf8d4-56c4-46fe-8667-605bdd799cfc/0_0.png)

@@ -68,6 +68,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'begrüßung', 'bühne', 'leinwand', 'oer im blick', 'programmkonferenz', 'publikum', 'bmbf', 'rednerin', '2025', 'photo', 'welcome', 'stage', 'screen', 'program conference', 'audience', 'speaker']
   IMG_6385.jpg:
     alt: 'Ergebnissammlung mit Zetteln vom Pre-Workshop bei OER im Blick 2025 zu OEP auf Papierstellwand.'
     title: Ergebnisse Pre-Workshop
@@ -76,6 +77,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'flipchart', 'moderationskarten', 'haftnotizen', 'handschrift', 'oep', 'praktiken', 'lehr-lernhaltung', 'pre-workshop', 'ergebnisse', 'photo', 'moderation cards', 'sticky notes', 'handwriting', 'practices', 'teaching attitude', 'results']
   IMG_9725.jpg:
     alt: 'Keynote: „OER in Zeiten der Disruption: Why Ideas Do Not Float Freely“ von Prof. Dr. Daniel Otto, Europäische Hochschule für Innovation und Perspektive bei OER im Blick 2025'
     title: Vortrag Prof. Dr. Otto
@@ -84,6 +86,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'keynote', 'vortrag', 'bühne', 'folie', 'oer ist die antwort', 'oer im blick', 'publikum', 'bmbf', 'programmkonferenz', 'photo', 'talk', 'stage', 'slide', 'oer is the answer', 'audience', 'program conference']
   mermaid-diagramm_Tisch1.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 1
@@ -92,6 +95,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'mindmap', 'analog', 'digital', 'location', 'offene tools', 'moderation', 'wohlfühlen', 'tisch eins', 'gelb', 'lila', 'workshop-ergebnis', 'graphic', 'mind map', 'open tools', 'wellbeing', 'table one', 'yellow', 'purple', 'workshop result']
   mermaid-diagram-Tisch2.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 2
@@ -100,6 +104,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'mindmap', 'community-raum', 'community-management', 'vernetzung', 'design', 'betreuung', 'tisch zwei', 'lila', 'gelb', 'workshop-ergebnis', 'graphic', 'mind map', 'community space', 'community management', 'networking', 'support', 'table two', 'purple', 'yellow', 'workshop result']
   mermaid-diagram-Tisch3.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 3
@@ -108,6 +113,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'mindmap', 'grundfunktionen', 'technische voraussetzungen', 'rollen', 'wizard', 'transparente daten', 'tisch drei', 'gelb', 'grün', 'workshop-ergebnis', 'graphic', 'mind map', 'basic functions', 'technical requirements', 'roles', 'transparent data', 'table three', 'yellow', 'green', 'workshop result']
   mermaid-diagram-Tisch4.jpg:
     alt: 'Ergebnisse einer Gruppe im Rahmen des FOERBOCO-Workshops zum Community-Hub bei OER im Blick 2025 in Form eines Mermaid-Diagramms.'
     title: Ergebnisse Gruppenarbeit Community-Hub Tisch 4
@@ -116,6 +122,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'mindmap', 'community-plattform', 'vernetzung', 'kiss', 'hub', 'tisch vier', 'gelb', 'lila', 'workshop-ergebnis', 'graphic', 'mind map', 'community platform', 'networking', 'table four', 'yellow', 'purple', 'workshop result']
 ---
 
 Nach der Auftaktkonferenz letztes Jahr in Frankfurt am Main (siehe [Blogbeitrag](https://oer.community/rueckblick-auftaktkonferenz-oer-im-blick/))

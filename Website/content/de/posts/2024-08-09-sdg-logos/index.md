@@ -80,6 +80,7 @@ bilder:
     authorUrl: https://www.unesco.de/
     licence: CC BY SA 3.0
     licenceUrl: https://creativecommons.org/licenses/by-sa/3.0/de/deed.de
+    keywords: ['screenshot', 'webseite', 'unesco', 'deutsche unesco-kommission', 'sdg', 'nachhaltigkeitsziele', 'sdg 16', 'sdg 17', 'cc by-sa', 'lizenzhinweis', 'website', 'sustainable development goals', 'license notice']
   uno-urheberrecht-grundprinzipien.png:
     alt: 'Auszug der grundlegenden Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht.'
     title: Richtlinie der Vereinten Nationen in Bezug auf das Urheberrecht
@@ -88,6 +89,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['dokument', 'scan', 'vereinte nationen', 'urheberrecht', 'richtlinie', 'schreibmaschinentext', 'lizenz', 'public domain', 'document', 'united nations', 'copyright', 'policy', 'typewriter text']
   SDG-inklusion-OER-Video_Vorschau.png:
     alt: 'Vorschaubild zum Video "Trilemma der Inklusion...weitergedacht als Experiment inklusiver Bildung in Richtung SDG (Sustainable Development Goals) und OER (Open Educational Resources)"'
     title: Video "Trilemma der Inklusion...weitergedacht als Experiment inklusiver Bildung in Richtung SDG (Sustainable Development Goals) und OER (Open Educational Resources)"
@@ -96,6 +98,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/content-license-agreement/
+    keywords: ['grafik', 'trilemma', 'inklusion', 'sdg', 'nachhaltigkeitsziele', 'dreieck', 'empowerment', 'dekonstruktion', 'normalisierung', 'videovorschau', 'graphic', 'inclusion', 'sustainable development goals', 'triangle', 'video thumbnail']
 ---
 
 Im Kontext des Projektes [reliGlobal](https://religlobal.org/) kam bei der Erstellung eines OER-Materials zu den 17 [Sustainable Development Goals (SDGs)](https://sdgs.un.org/goals) als Ziele für nachhaltige Entwicklung die Frage auf, ob die Logos der einzelnen Ziele im Material verwendet werden dürfen oder welche Rechteangabe gemacht werden muss?

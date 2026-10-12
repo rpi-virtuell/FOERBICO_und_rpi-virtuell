@@ -73,6 +73,7 @@ bilder:
     authorUrl: https://pixabay.com/de/users/clker-free-vector-images-3736/
     licence: CC0
     licenceUrl: https://pixabay.com/de/service/terms/
+    keywords: ['grafik', 'checkliste', 'icon', 'häkchen', 'kreuz', 'papier', 'grün', 'flat design', 'symbolbild', 'graphic', 'checklist', 'checkmark', 'cross', 'paper', 'green', 'symbolic image']
   MaPS-Logo-17.10-rounded.png:
     alt: 'Logo von einem Laptop mit Aufschrift M@ps im Screen und einer Kompass-Nadel.' 
     title: M@ps-Logo
@@ -81,6 +82,7 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de
     licence: © 
     licenceUrl: https://www.dpma.de/service/schutzrechte_kurz_erklaert/urheberrecht/index.html
+    keywords: ['logo', 'm@ps', 'laptop', 'medienkompetenz', 'persönlichkeit', 'blau', 'gelb', 'blitz', 'schule', 'media literacy', 'personality', 'blue', 'yellow', 'lightning', 'school']
 ---
 
 Wodurch zeichnen sich gute Open Educational Resources (OER) aus? Wie lassen sich Bildungsmaterialien mit einem Kriterienkatalog begutachten und welche Faktoren spielen eine wichtige Rolle? Damit OER nicht nur gemäß der [5V-Freiheiten](https://open-educational-resources.de/5rs-auf-deutsch/) verwahrt, verwendet, verarbeitet, vermischt und verbreitet werden können, sondern auch auf pädagogischer-didaktischer und religionspädagogischer Ebene hohe Qualität aufweisen, braucht es verschiedene Elemente.

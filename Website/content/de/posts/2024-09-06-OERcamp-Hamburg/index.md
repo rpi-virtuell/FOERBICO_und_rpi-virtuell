@@ -47,6 +47,7 @@ bilder:
     authorUrl: https://oercamp.de/
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'youtube', 'videovorschau', 'projektvorstellung', 'foerbico', 'oercamp', 'porträt', 'hoodie', 'video thumbnail', 'project presentation', 'portrait']
 ---
 
 Jörg Lohrer hat für das Frühjahrs-OERcamp die Session ["BottomUp -> MarkDown - 5V-Power für deine OER!"](https://joerg-lohrer.de/2024/03/05/bottomup-markdown.html/) eingereicht. Damit hat er bereits vor dem offiziellen Projektbeginn erste Spuren für unser FOERBICO-Projekt gelegt. Mehr dazu: https://www.oercamp.de/24/

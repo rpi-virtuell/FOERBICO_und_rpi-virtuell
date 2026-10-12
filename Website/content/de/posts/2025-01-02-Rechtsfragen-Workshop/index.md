@@ -54,6 +54,7 @@ bilder:
     authorUrl: https://pxhere.com/en/photographer/767067
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    keywords: ['illustration', 'flat design', 'urheberrecht', 'copyright-symbol', 'mann im anzug', 'jonglieren', 'schutzschilde', 'geistiges eigentum', 'türkis', 'copyright', 'copyright symbol', 'man in suit', 'juggling', 'shields', 'intellectual property', 'teal']
 ---
 
 ## Rechtliche Herausforderungen bei OER-Materialien 🧑‍⚖️

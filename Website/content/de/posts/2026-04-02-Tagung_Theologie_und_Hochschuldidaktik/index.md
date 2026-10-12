@@ -95,6 +95,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@nkhasebe
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'pappschild', 'education for all', 'demonstration', 'handschrift', 'protest', 'bildung für alle', 'handschuh', 'symbolbild', 'photo', 'cardboard sign', 'handwriting', 'glove', 'symbolic image']
 ---
 
 Unter dem Motto "OEP & Demokratiebildung" fand sich das Netzwerk [Theologie und Hochschuldidaktik](https://www.dghd.de/community/netzwerke/netzwerk-theologie-und-hochschuldidaktik/) vom 30.-31. März 2026 in Münster zusammen. Damit sollte der gedankliche Faden der letztjährigen Tagung mit dem Fokus auf OER aufgenommen, aber im größeren Kontext der offenen Bildungspraktiken verortet werden. Unseren Artikel über die letztjährige Tagung könnt ihr [hier](https://oer.community/oer-meets-fachdidaktik/) nachlesen. 

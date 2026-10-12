@@ -59,6 +59,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['grafik', 'laptop', 'löwe von juda', 'biber', 'löwe', 'tierfiguren', 'kinderbibel', 'whiteboard', 'haftnotizen', 'interview', 'ki-generiert', 'hochformat', 'graphic', 'lion of judah', 'beaver', 'lion', 'animal characters', 'children''s bible', 'sticky notes', 'ai generated', 'portrait format']
   loewe_von_juda_04.jpg:
     alt: 'Screenshot von Instagram-Beitrag der Deutschen Bibelgesellschaft mit der Aufschrift: "Mit der Löwe von Juda schaffen wir einen neuen Zugang: liebevoll illustriert, verständlich erzählt, einzigartig gestaltet und zugleich bibeltheologisch verantwortet. Die Tierfiguren sind dabei mehr als ein gestalterisches Mittel: Sie sind Brücken zwischen der Welt der Kinder und der Welt der Bibel. Diese Darstellungen sind nicht willkürlich, sondern symbolisch aufgeladen und medienpädagogisch fundiert. Sie ermöglichen Kindern, sich mit den Figuren zu identifizieren, ohne durch kulturelle und soziale Merkmale ausgeschlossen zu werden."'
     title: Der Löwe von Juda, Screenshot Instagramseite der Deutschen Bibelgesellschaft
@@ -67,6 +68,7 @@ bilder:
     authorUrl: https://www.die-bibel.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'instagram', 'text', 'löwe von juda', 'kinderbibel', 'tierfiguren', 'medienpädagogik', 'deutsche bibelgesellschaft', 'lion of judah', 'children''s bible', 'animal characters', 'media education', 'german bible society']
   loewe_von_juda_03.jpg:
     alt: 'Screenshot von Instagram-Beitrag der Deutschen Bibelgesellschaft mit der Aufschrift: Noah ein Biber, Josef ein Ochse, Josua ein Wolf: Eine Welt voller Tiere!'
     title: Screenshot der männlichen Charaktere, Instagramseite der Deutschen Bibelgesellschaft
@@ -75,6 +77,7 @@ bilder:
     authorUrl: https://www.die-bibel.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'instagram', 'kinderbibel', 'löwe von juda', 'tiere', 'biber', 'ochse', 'wolf', 'illustration', 'deutsche bibelgesellschaft', 'hochformat', 'children''s bible', 'lion of judah', 'animals', 'beaver', 'ox', 'german bible society', 'portrait format']
 ---
 
 Es ist kurz vor Weihnachten, als ein Verlag ein Buch entdeckt, dass eine vielversprechende Idee bietet und auf ein profitables Unterfangen hoffen lässt. Es handelt sich um eine Kinderbibel, die im Stil von Disneyfilmen illustriert ist. Tiere nehmen darin die Rollen von biblischen Personen ein. Der Verlag entscheidet sich dazu, das innovative Projekt auch in Deutschland auf den Markt zu bringen. Die Promotion auf verschiedenen Websites, Social Media sowie auf Messen ist in vollem Gange, doch von verschiedenen Seiten kommen kritische Stimmen auf. Die Folge: Der Verlag sieht sich gezwungen, das Werk zu depublizieren.

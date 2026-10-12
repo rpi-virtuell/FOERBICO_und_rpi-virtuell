@@ -108,6 +108,7 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['wortwolke', 'evaluation', 'seminar', 'praxisnähe', 'methodenvielfalt', 'lehramt', 'bunt', 'schlagworte', 'hochschullehre', 'word cloud', 'practical relevance', 'variety of methods', 'teacher training', 'colorful', 'keywords', 'higher education teaching']
 ---
 
 

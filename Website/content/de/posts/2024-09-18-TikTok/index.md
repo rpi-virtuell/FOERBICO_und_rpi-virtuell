@@ -89,6 +89,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'online-meeting', 'kacheln', 'gruppe', 'fünf personen', 'interview', 'tiktok', 'video call', 'online meeting', 'tiles', 'group', 'five people']
 ---
 
 ![Screenshot vom Videocall vom FOERBICO-Team mit Theologie-Professorin Konstanze Kemnitzer über TikTok als  "Imaginationsraum" und "Produkt".](https://blossom.edufeed.org/d4daf4a2b899921f116ef5c1c382c426201245916f6e9896b614b3211553e6a7.jpg)

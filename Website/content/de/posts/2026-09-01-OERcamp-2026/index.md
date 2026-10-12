@@ -60,6 +60,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'fotowand', 'icons', 'oercamp', 'superheldin', 'daumen hoch', 'schild', 'sitzend', 'roter teppich', 'porträt', 'photo', 'photo wall', 'superhero', 'thumbs up', 'shield', 'seated', 'red carpet', 'portrait']
   Demokratiebildung.jpeg:
     alt: Zwei Referentinnen stehen vor einer Projektion mit dem Titel „Mit offenen Bildungspraktiken Demokratiebildung gestalten“ und den Logos von Wikimedia Deutschland und aula.
     title: Workshop Demokratiebildung
@@ -68,6 +69,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'workshop', 'zwei referentinnen', 'seminarraum', 'beamer', 'demokratiebildung', 'wikimedia', 'aula', 'offene bildungspraktiken', 'oercamp', 'photo', 'two speakers', 'seminar room', 'projector', 'democracy education', 'open educational practices']
   Community-Konsultation.jpeg:
     alt: 'Blick aus dem Publikum auf die Bühne: Annette Kuhn eröffnet die Community-Konsultation, auf der Leinwand die Frage „Was brauchen wir, um OER & OEP langfristig zu verankern“.'
     title: Community-Konsultation
@@ -76,6 +78,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'bühne', 'vortrag', 'community-konsultation', 'oer', 'oep', 'publikum', 'oercamp', 'leinwand', 'bildungsdossier', 'photo', 'stage', 'talk', 'community consultation', 'audience', 'screen']
   Barcamps.jpeg:
     alt: Jöran Muuß-Merholz am Rednerpult vor einer Folie mit dem Titel „2500 Jahre Barcamps“, im Vordergrund Zuhörende von hinten.
     title: 2500 Jahre Barcamps
@@ -84,6 +87,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'vortrag', 'bühne', 'rednerpult', 'leinwand', 'barcamp', 'publikum', 'oercamp', 'keynote', '2500 jahre barcamps', 'photo', 'talk', 'stage', 'lectern', 'screen', 'audience']
   Bildungszentrum.jpeg:
     alt: Sonnige Terrasse mit Holzbänken zwischen Bäumen, davor eine Tafel mit der Aufschrift „Terrasse Bildungslücke“.
     title: Terrasse Bildungslücke
@@ -92,6 +96,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'terrasse', 'biergarten', 'holzbänke', 'bäume', 'schild', 'bildungslücke', 'wortspiel', 'sommer', 'oercamp', 'photo', 'terrace', 'beer garden', 'wooden benches', 'trees', 'sign', 'education gap', 'pun', 'summer']
   hOERoskop.jpeg:
     alt: Blauer Umschlag mit dem handgeschriebenen Namen „Gina“ neben einer hOERoskop-Karte „Community-Chinchilla“ mit Charakter, VorhOERsage und Mission.
     title: hOERoskop Community-Chinchilla
@@ -100,6 +105,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'umschlag', 'karte', 'hoeroskop', 'chinchilla', 'community', 'wortspiel', 'handschrift', 'blau', 'oercamp', 'photo', 'envelope', 'card', 'horoscope', 'pun', 'handwriting', 'blue']
 ---
 
 Ein Wochenende voller Impulse, spannender Diskussionen, neuer Ideen und dazwischen viel schöne Natur: Das OERcamp 2026 in Erkner hatte einiges zu bieten. Auch das FOERBICO-Team vom Comenius-Institut war vor Ort und brachte eigene Perspektiven auf offene Bildungspraktiken und Bildungsinfrastrukturen mit. Dabei zeigte sich schnell: Beim OERcamp ging es um weit mehr als die Frage, wo gute freie Bildungsmaterialien zu finden sind. Es ging um Beteiligung, Lernkultur, Community, technische Infrastrukturen und um die Frage, welche Rahmenbedingungen es eigentlich braucht, damit Offenheit funktionieren kann.

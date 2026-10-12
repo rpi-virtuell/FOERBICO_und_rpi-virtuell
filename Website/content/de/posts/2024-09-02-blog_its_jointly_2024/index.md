@@ -48,6 +48,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'selfie', 'zwei personen', 'garten', 'sommercamp', 'abend', 'villa', 'lächeln', 'photo', 'two people', 'garden', 'summer camp', 'evening', 'smiling']
   brainstorming.jpg:
     alt: 'Ideensammlung auf Karten und Papier beim It´s jointly OER-/IT-Sommercamp 2024 in Weimar'
     title: Brainstorming beim it´s jointly OER-/IT-Sommercamp 2024 in Weimar
@@ -56,6 +57,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'brainstorming', 'ideensammlung', 'moderationskarten', 'flipchart-papier', 'tisch', 'workshop', 'sommercamp', 'barcamp', 'photo', 'idea collection', 'moderation cards', 'flipchart paper', 'table', 'summer camp']
   empoert.jpg:
     alt: 'Phillip vom FOERBICO-Team hält einen Zettel in der Hand mit der Aufschrift "empOERt".'
     title: Phillip ist empOERt
@@ -64,6 +66,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'selfie', 'zettel', 'wortspiel', 'empört', 'oer', 'sonnenbrille', 'hecke', 'humor', 'photo', 'note', 'pun', 'sunglasses', 'hedge']
 ---
 
 ![Viele gute Ideen wurden gesammelt](https://blossom.edufeed.org/94a6ec676b746fff0c30a48b91a5c012074376c539a868c1e7e09a461e4714b4.jpg)

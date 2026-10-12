@@ -62,6 +62,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@mk__s
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'museum', 'gemälde', 'leerer rahmen', 'schwarzes bild', 'betrachterin', 'wand', 'kunst', 'qualität', 'symbolbild', 'photo', 'painting', 'empty frame', 'black canvas', 'viewer', 'wall', 'art', 'quality', 'symbolic image']
 ---
 
 Die visuelle Gestaltung von Bildungsmedien spielt eine zentrale Rolle in der Lehre. In der theologischen Hochschuldidaktik wird die visuelle Qualität von OER jedoch bislang wenig thematisiert, obwohl Bildmedien didaktisch zentral sind. Häufig werden Stockfotos oder KI-Bilder aus Gründen der Zugänglichkeit und vermeintlichen Rechtssicherheit genutzt. Unter Stockfotografie versteht man dabei vorproduzierte Bilder aus kommerziellen oder frei zugänglichen Bilddatenbanken, die für vielfältige Zwecke verwendet werden können. Stockfotos oder KI-Bilder wirken auf den ersten Blick neutral und praktisch, transportieren jedoch oftmals stereotype Darstellungen und kulturelle Vorannahmen. Dies wirft bildethische Fragen auf: Welche Stereotype und Normen werden in den Materialien (re-)produziert? Woher stammen die KI-Trainingsdaten? Besonders im theologischen Kontext ist eine kritische Reflexion der Bildverwendung unerlässlich.

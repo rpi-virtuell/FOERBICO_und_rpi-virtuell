@@ -49,6 +49,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['skizze', 'handzeichnung', 'architekturdiagramm', 'edufeed', 'datenraum', 'dezentral', 'oersi', 'mundo', 'wlo', 'infrastruktur', 'sketch', 'hand drawing', 'architecture diagram', 'data space', 'decentralized', 'infrastructure']
   Unperfekthaus-1.jpg:
     alt: 'Außenfassade vom Unperfekthaus in Essen mit verschiedenen Bildern, Lichterkette und bunten Lampen.'
     title: Unperfekthaus in Essen
@@ -57,6 +58,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'fassade', 'unperfekthaus', 'essen', 'gebäude', 'lichterkette', 'porträts', 'kunst', 'rote bank', 'hochformat', 'photo', 'facade', 'building', 'fairy lights', 'portraits', 'art', 'red bench', 'portrait format']
   Unperfekthaus-2.jpg:
     alt: 'Bunte Treppenstufen beleuchtet mit Neonlicht und der Aufschrift #Unperfekthaus.'
     title: Bunte Treppe im Unperfekthaus in Essen
@@ -65,6 +67,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'treppe', 'neonlicht', 'bunt', 'unperfekthaus', 'essen', 'hochformat', 'lichtinstallation', 'hashtag', 'photo', 'stairs', 'neon light', 'colorful', 'portrait format', 'light installation']
   KI-1.jpg:
     alt: 'Stehtisch mit verschiedenen Materialien wie Stifte, Zettel und Stecknadeln. Darauf liegend Postkarte mit Abbildung von Zauberstab und Aufschrift "Offenheit ist ein WundOERelexier für bessere KI".'
     title: WundOERelexier für bessere KI
@@ -73,6 +76,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'stehtisch', 'moderationskarten', 'stifte', 'pinnnadeln', 'postkarte', 'wundoerelixier', 'ki', 'offenheit', 'oercamp', 'wortspiel', 'photo', 'high table', 'moderation cards', 'pens', 'pins', 'postcard', 'ai', 'openness', 'pun']
   KI-2.jpg:
     alt: 'Rückseite Postkarte mit QR-Code und Link zu den Ergebnissen der Community-Beratschlagung zum Thema KI beim OERcamp 2024 in Essen".'
     title: Ergebnisse Community-Beratschlagung zum Thema KI - Spread the WOERld
@@ -81,6 +85,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'postkarte', 'qr-code', 'text', 'oercamp', 'ki', 'community-beratschlagung', 'spread the woerd', 'wortspiel', 'photo', 'postcard', 'qr code', 'ai', 'community consultation', 'pun']
 ---
 
 Hinweis: Eine ausführliche Dokumentation des OERcamps ist unter https://go.oercamp.de/24essen/ verfügbar, Registrierung bzw. Anmeldung erforderlich!

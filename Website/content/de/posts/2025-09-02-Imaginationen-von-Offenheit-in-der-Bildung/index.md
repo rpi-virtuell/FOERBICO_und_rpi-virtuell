@@ -77,6 +77,7 @@ bilder:
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
     ai: generated
+    keywords: ['illustration', 'abstrakt', 'geometrische formen', 'kreis', 'dreieck', 'quadrat', 'türen', 'offenheit', 'imagination', 'symbolbild', 'pastell', 'abstract', 'geometric shapes', 'circle', 'triangle', 'square', 'doors', 'openness', 'symbolic image', 'pastel']
 ---
  
 Markus Deimann veröffentlichte seinen Aufsatz „Imaginaries of Openness in Education" 2025 in der ersten Ausgabe des DILeMa-Journals, einer Zeitschrift des europäischen Netzwerks [DIGI-Europe](https://digi-europe.org/dilema-journal.html) für digitale Kompetenz in der Bildung. Die Zeitschriftenwebsite [dilema-journal.de](https://www.dilema-journal.de) ist immer wieder von Serverausfällen betroffen - ein Symptom der Fragilität projektfinanzierter Infrastruktur, auf der ein Großteil offener Bildungspublikationen aufsetzt.

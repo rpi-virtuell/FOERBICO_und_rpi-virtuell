@@ -56,6 +56,7 @@ bilder:
     author: Comenius-Institut
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
     pubkey: 5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf
+    keywords: ['illustration', 'nostr', 'schrein', 'torii', 'schriftzug', 'lila', 'logo', 'protokoll', 'dezentral', 'shrine', 'lettering', 'purple', 'protocol', 'decentralized']
 ---
 
 Zur Entwicklung unseres Community-Hubs untersuchen wir im FOERBICO-Projekt, wie langfristig erfolgreiche Kooperationsmodelle gelingen können. Eine wichtige Erkenntnis, die wir bisher gewinnen konnten: Die  Robustheit eines Systems hängt weniger von seinen organisatorischen oder technischen Strukturen ab, sondern vor allem von der Kontinuität und  Anpassungsfähigkeit seiner zugrunde liegenden Prozesse. Wenn wir mit einer Hub-Entwicklung die Bildungscommunities dabei unterstützen wollen, dass ihre Prozesse der OEP (Open Educational Practice) "[alles tragen, allem standhalten und niemals zu Fall kommen](https://offene-bibel.de/wiki/1_Korinther_13#l7)", brauchen wir eine Technik, die die zyklischen Erneuerungsprozesse dieser Communities nachhaltig unterstützt. Lasst uns einen Blick über den Tellerrand wagen und uns Inspiration aus jahrtausendealten Traditionen und Open-Source-Prinzipien schöpfen:

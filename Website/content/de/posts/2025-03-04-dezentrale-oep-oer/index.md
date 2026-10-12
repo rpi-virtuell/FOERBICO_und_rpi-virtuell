@@ -67,6 +67,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['foto', 'strand', 'sand', 'sandzeichnung', 'strauß', 'oer', 'meer', 'wellen', 'ki-generiert', 'symbolbild', 'photo', 'beach', 'sand drawing', 'ostrich', 'sea', 'waves', 'ai generated', 'symbolic image']
 ---
 
 ## Warum wir eine neue Perspektive brauchen

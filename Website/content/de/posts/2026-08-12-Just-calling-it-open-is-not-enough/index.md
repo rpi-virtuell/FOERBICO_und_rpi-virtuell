@@ -80,6 +80,7 @@ bilder:
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
     ai: generated
+    keywords: ['illustration', 'mann', 'landkarte', 'getreidefeld', 'landschaft', 'haus', 'orientierung', 'bildungsinfrastruktur', 'ki-generiert', 'symbolbild', 'man', 'map', 'grain field', 'landscape', 'house', 'orientation', 'education infrastructure', 'ai generated', 'symbolic image']
 ---
 
 

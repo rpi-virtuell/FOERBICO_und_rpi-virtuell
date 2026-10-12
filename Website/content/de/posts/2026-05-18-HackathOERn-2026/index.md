@@ -88,6 +88,7 @@ bilder:
     authorUrl: https://edu-sharing-network.org/projekt-hackathoern/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['foto', 'gruppenfoto', 'teilnehmende', 'hackathoern', 'leinwand', 'logo', 'hackathon', '2026', 'schafe', 'maskottchen', 'photo', 'group photo', 'participants', 'screen', 'sheep', 'mascot']
   5.jpg:
     alt: 'Abbildung vom Ökosystem: Inhalt kommt von WordPress, Drupal oder HTML zu Icon Termi in Form eines Kalenders, Inhalte werden zu Nostr bzw. OERSI konvertiert und können so vom NavigatOER in Form eines Krokodils gefunden werden.'
     title: 'Das Ökosystem: WordPress/Drupal/HTML5 → Termi → OERSI + Nostr → NavigatOER'
@@ -96,6 +97,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'schaubild', 'ökosystem', 'wordpress', 'drupal', 'html5', 'oersi', 'nostr', 'navigatoer', 'termi', 'pfeile', 'architektur', 'graphic', 'diagram', 'ecosystem', 'arrows', 'architecture']
   2.jpg:
     alt: 'Das Termi-Team am Whiteboard: Ludger, Steffen, Gina und Jörg vom FOERBICO-Team mit Toby (GWDG) und Maskottchen „Termi"'
     title: 'Das Termi-Team'
@@ -104,6 +106,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'collage', 'team', 'vier personen', 'whiteboard', 'termi', 'maskottchen', 'kalender', 'nip-52', 'hackathoern', 'hackathon', 'photo', 'four people', 'mascot', 'calendar']
   11.jpg:
     alt: 'Die NavigatOER- und Termi-Crew vor der Ökosystem-Folie – „See you later, NavigatOER"'
     title: 'Die NavigatOER- und Termi-Crew'
@@ -112,6 +115,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'gruppenfoto', 'team', 'bildschirm', 'ökosystem', 'navigatoer', 'krokodil', 'maskottchen', 'hackathoern', 'hackathon', 'whiteboard', 'photo', 'group photo', 'screen', 'ecosystem', 'crocodile', 'mascot']
 ---
 
 Vom 11. bis 13. Mai 2026 kamen in den Räumen der [GWDG - Gesellschaft für wissenschaftliche Datenverarbeitung](https://gwdg.de/) in Göttingen zahlreiche Open-Education-Enthusiast:innen, Entwickler:innen, Bildungspraktiker:innen und Forschende zusammen, um im Rahmen des [HackathOERn-Projekts](https://edu-sharing-network.org/projekt-hackathoern/) gemeinsam an offenen Bildungsinfrastrukturen zu tüfteln.

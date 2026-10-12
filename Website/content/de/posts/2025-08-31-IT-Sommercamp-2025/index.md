@@ -61,6 +61,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'zelt', 'vortrag', 'begrüßung', 'leinwand', 'beamer', 'lampions', 'sommercamp', 'weimar', 'hackathoern', 'photo', 'tent', 'talk', 'welcome', 'screen', 'projector', 'lanterns', 'summer camp', 'hackathon']
   Edufeed-1.jpg:
     alt: Stellwand mit ersten Gedanken aus der Edufeed-Gruppe zu Pain Points von Lehrenden
     title: Sammlung der Pain Points von Lehrenden
@@ -69,6 +70,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'flipchart', 'handschrift', 'pain points', 'lehrende', 'edufeed', 'oer', 'badges', 'teilen', 'sommercamp', 'photo', 'handwriting', 'teachers', 'sharing', 'summer camp']
   Edufeed-2.jpg:
     alt: Stellwand mit Ideensammlung und Fragen zu Offenheit vs. Geschlossenheit
     title: Ideensammlung und Fragen zu Offenheit vs. Geschlossenheit
@@ -77,6 +79,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'flipchart', 'handschrift', 'ideensammlung', 'offenheit', 'geschlossenheit', 'plattformen', 'oer', 'oep', 'sommercamp', 'photo', 'handwriting', 'idea collection', 'openness', 'closedness', 'platforms', 'summer camp']
   IMG_1689.jpg:
     alt: Gina und Ludger vom FOERBICO-Team machen eine Pause auf Sonnen-Liegestühlen im Garten in Weimar.
     title: Relax-Time
@@ -85,6 +88,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'liegestühle', 'pause', 'zwei personen', 'garten', 'entspannung', 'sommercamp', 'sonne', 'photo', 'deck chairs', 'break', 'two people', 'garden', 'relaxation', 'summer camp', 'sunshine']
   Cat-Content-2.jpg:
     alt: Katze spielt mit einem Stift.
     title: Cat Content - Verspielte Katze
@@ -93,6 +97,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'katze', 'spielende katze', 'stift', 'flipchart-papier', 'notizen', 'draußen', 'sommercamp', 'humor', 'photo', 'cat', 'playing cat', 'pencil', 'flipchart paper', 'notes', 'outdoors', 'summer camp']
   Cat-Content-3.jpg:
     alt: Katze liegt bei Gina vom FOERBICO-Team im Schoß und schläft.
     title: Cat Content - Schmusekatze
@@ -101,6 +106,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'katze', 'schlafende katze', 'porträt', 'garten', 'liegestuhl', 'lächeln', 'sommercamp', 'haustier', 'photo', 'cat', 'sleeping cat', 'portrait', 'garden', 'deck chair', 'smiling', 'summer camp', 'pet']
 ---
 
 ## Pre-Event zum OER-/IT-Sommercamp 🤝

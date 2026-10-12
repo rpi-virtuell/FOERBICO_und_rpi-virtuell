@@ -64,6 +64,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['instagram-visual', 'junia', 'neues testament', 'mosaik', 'fragezeichen', 'lila', 'pink', 'oer', 'kinderuni', 'hochformat', 'instagram visual', 'new testament', 'mosaic', 'question mark', 'purple', 'children''s university', 'portrait format']
   Praesentation-Beispiel-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
     alt: 'Einstieg Lernmodul zu "Auf der Suche nach Junia(s) im Neuen Testament - Spurensuche in der antiken Schreibstube und im Römerbrief des Apostels Paulus".'
     title: 'Einstieg Lernmodul "Auf der Suche nach Junia(s) im Neuen Testament - Spurensuche in der antiken Schreibstube und im Römerbrief des Apostels Paulus"'
@@ -72,6 +73,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'lernmodul', 'einstieg', 'junia', 'paulus', 'mosaik', 'ravenna', 'fragezeichen', 'römerbrief', 'kinderuni', 'übersicht', 'learning module', 'introduction', 'paul', 'mosaic', 'question mark', 'letter to the romans', 'children''s university', 'overview']
   Praesentation-Beispiel-Ausschnitt-1-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
     alt: 'Ausschnitt Lernmodul zu "5 Fragen, die wir auf der Suche nach Junia(s) beantworten wollen".'
     title: 'Beispiel aus Lernmodul "5 Fragen, die wir auf der Suche nach Junia(s) beantworten wollen"'
@@ -80,6 +82,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'lernmodul', 'fünf fragen', 'junia', 'fragezeichen', 'mosaik', 'porträt', 'kinderuni', 'neues testament', 'rosa', 'learning module', 'five questions', 'question mark', 'mosaic', 'portrait', 'children''s university', 'new testament', 'pink']
   Praesentation-Beispiel-Ausschnitt-2-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
     alt: 'Ausschnitt Lernmodul zu "Wer war Paulus und wie entstanden seine Texte?".'
     title: 'Beispiel aus Lernmodul "Wer war Paulus und wie entstanden seine Texte?"'
@@ -88,6 +91,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'lernmodul', 'paulus', 'briefe', 'griechisch', 'mosaik', 'antike', 'kinderuni', 'neues testament', 'blau', 'gold', 'learning module', 'paul', 'letters', 'greek', 'mosaic', 'antiquity', 'children''s university', 'new testament', 'blue']
   Praesentation-Beispiel-Ausschnitt-3-Copyright-Institut-Katholische-Theologie-Uni-Vechta.jpg:
     alt: 'Ausschnitt Lernmodul mit Forschungsaufgabe "Wer ist wahrscheinlich in Röm 16,7 gemeint?".'
     title: 'Beispiel aus Lernmodul - Forschungsaufgabe "Wer ist wahrscheinlich in Röm 16,7 gemeint?"'
@@ -96,6 +100,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'lernmodul', 'forschungsaufgabe', 'junia', 'römer 16', 'paulus', 'mosaik', 'arbeitsschritte', 'kinderuni', 'neues testament', 'learning module', 'research task', 'romans 16', 'paul', 'mosaic', 'work steps', 'children''s university', 'new testament']
 ---
 
 Das Material für den Workshop „Auf der Suche nach Junia(s)“ wurde für ein Kinder-Uni-Programm am [Institut für Katholische Theologie an der Universität Vechta](https://www.uni-vechta.de/katholische-theologie) zusammengestellt, an dem Studierende des Seminars ,,Einführung in die Methoden der neutestamentlichen Wissenschaft‘‘ teilgenommen haben. Denkbar ist ein Einsatz im Religionsunterricht im Themenbereich ,,Christologie‘‘ unter dem Stichwort ,,Nachfolge‘‘ oder im Themenbereich ,,Ekklesiologie‘‘ unter dem Stichwort ,,Ämter‘‘.

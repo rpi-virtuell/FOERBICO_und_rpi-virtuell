@@ -70,6 +70,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'selfie', 'drei personen', 'team', 'foerbico', 'namensschilder', 'weinglas', 'hackathoern', 'lächeln', 'hackathon', 'photo', 'three people', 'name badges', 'wine glass', 'smiling']
   praesentation.jpg:
     alt: 'Präsentation in den Räumen der GWDG in Göttingen mit Folie über Ziele vom HackathOERn.'
     title: 'Erster HackathOERn 2025'
@@ -78,6 +79,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'präsentation', 'folie', 'hörsaal', 'hackathoern', 'göttingen', 'gwdg', 'oer-strategie', 'oe_com', 'hackathon', 'photo', 'presentation', 'slide', 'lecture hall', 'oer strategy']
   hackerboys.jpg:
     alt: 'Gruppe von Entwicklern sitzen beim HackathOERn 2025 in Göttingen zusammen mit ihren Laptops und hacken gemeinsam.'
     title: 'Hackerteam'
@@ -86,6 +88,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'vier personen', 'laptops', 'sofa', 'lounge', 'entwickler', 'programmieren', 'hackathoern', 'hackathon', 'hochformat', 'photo', 'four people', 'developers', 'coding', 'portrait format']
   hacking-in-nature.jpg:
     alt: 'Gina und Steffen sitzen beim HackathOERn 2025 in Göttingen draußen mit ihren Laptops.'
     title: Hacking in the nature
@@ -94,6 +97,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'zwei personen', 'laptops', 'draußen', 'wald', 'biertisch', 'arbeiten', 'hackathoern', 'sticker', 'hackathon', 'photo', 'two people', 'outdoors', 'forest', 'beer table', 'working', 'stickers']
   plattformen-als-inseln.jpg:
     alt: 'OER-Plattformen wie OERSI, Mundo etc. werden als isolierte Inseln auf dem Meer gezeigt. Mit ChatGPT erstellt.'
     title: Isolierte Plattforminseln
@@ -103,6 +107,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'inseln', 'plattformen', 'oersi', 'mundo', 'wirlernenonline', 'serlo', 'zum', 'rpi-virtuell', 'isoliert', 'meer', 'ki-generiert', 'islands', 'platforms', 'isolated', 'sea', 'oer platforms', 'silos', 'ai generated']
   hackathoern-teilnehmer-innen.jpg:
     alt: 'Gruppenfoto der Teilnehmenden des HackathOERns 2025 vor den Räumlichkeiten der GWDG.'
     title: 'Gruppenfoto HackathOERn 2025'
@@ -111,6 +116,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'gruppenfoto', 'teilnehmende', 'hackathoern', 'göttingen', 'beachflag', 'jubel', 'wiese', 'gebäude', 'hackathon', 'photo', 'group photo', 'participants', 'feather flag', 'cheering', 'lawn', 'building']
 ---
 
 Wie können wir digitale Infrastrukturen stärken, um Open Educational Resources (OER) und Open Educational Practices (OEP) in Deutschland voranzubringen? Mit dieser zentralen Frage im Gepäck kamen vom 28. bis 30. April 2025 Expert:innen, Entwickler:innen und OER-Interessierte beim ersten [HackathOERn von edu-sharing](https://edu-sharing-network.org/projekt-hackathoern/) in den inspirierenden Räumen der [Gesellschaft für wissenschaftliche Datenverarbeitung mbH (GWDG)](https://gwdg.de/) in Göttingen zusammen.

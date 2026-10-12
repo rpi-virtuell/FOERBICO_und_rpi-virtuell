@@ -51,6 +51,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'zwei personen', 'interview', 'büro', 'lächeln', 'querformat', 'gespräch', 'video call', 'two people', 'office', 'smiling', 'landscape format', 'conversation']
 ---
 
 Am 8. Oktober 2025 traf sich Laura vom FOERBICO-Team zu einem anregenden Austausch mit Prof. Dr. Michael Kerres vom [Learning Lab](https://www.learninglab.de/ueber-uns/kerres/) von der Universität Duisburg-Essen. Im Mittelpunkt des Gesprächs standen grundlegende Fragen zur digitalen Transformation im Bildungsbereich. Besondere Aufmerksamkeit galt der Rolle von OEP, den Anforderungen an tragfähige digitale Infrastrukturen sowie dem Potenzial offener Bildung zur Förderung informeller Lernprozesse, wie etwa im Ehrenamt.

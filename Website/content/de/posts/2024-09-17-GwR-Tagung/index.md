@@ -54,6 +54,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY NC SA 4.0
     licenceUrl: https://creativecommons.org/licenses/by-nc-sa/4.0/
+    keywords: ['foto', 'vortrag', 'seminarraum', 'beamer', 'präsentation', 'stuckdecke', 'foerbico', 'publikum', 'tagung', 'photo', 'talk', 'seminar room', 'projector', 'presentation', 'stucco ceiling', 'audience', 'conference']
   Vorteile-von-OER-flipchart.jpg:
     alt: 'Aussagen zu OER-Vorteilen auf einem Flipchart.'
     title: Aussagen zu OER-Vorteilen
@@ -62,6 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY NC SA 4.0
     licenceUrl: https://creativecommons.org/licenses/by-nc-sa/4.0/
+    keywords: ['foto', 'flipchart', 'handschrift', 'haftnotizen', 'workshop', 'oer', 'oep', 'öffentlichkeitsarbeit', 'mehrwert', 'tagung', 'photo', 'handwriting', 'sticky notes', 'public relations', 'added value', 'conference']
 ---
 
 Auch wir, Viera und Laura vom FOERBICO-Team Frankfurt trugen mit einem eigenen Workshop zur Veranstaltung bei. Unser Ziel war es, ein ansprechendes und interaktives 60-minütiges Workshop-Programm zu entwickeln, das sowohl der Zielgruppe der wissenschaftlichen evangelischen Religionspädagogik als auch dem Tagungsmotto der Wissenschaftskommunikation gerecht wird. Im Mittelpunkt stand die Vorstellung unseres Projekts zur Förderung offener Bildungspraktiken in religionsbezogenen Communities. Gleichzeitig legten wir Wert darauf, aktivierende Elemente einzubauen, um einen Austausch zwischen den Teilnehmenden zu ermöglichen. 

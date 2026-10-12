@@ -48,6 +48,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'online-meeting', 'team', 'foerbico', 'gruppe', 'porträts', 'kacheln', 'video call', 'online meeting', 'group', 'portraits']
   comenius-institut-logo.png:
     alt: Logo des Comenius-Institutes - Evangelische Arbeitsstätte für Erziehungswissenschaft e.V. Münster
     title: Logo Comenius-Institut
@@ -56,6 +57,7 @@ bilder:
     authorUrl: https://comenius.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'wortmarke', 'comenius-institut', 'evangelisch', 'erziehungswissenschaft', 'münster', 'wordmark', 'comenius institute', 'protestant', 'educational research']
   Goethe-Universitaet_Frankfurt_Logo.png:
     alt: Logo der Goethe-Universität Frankfurt am Main
     title: Logo Goethe-Universität
@@ -64,6 +66,7 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'goethe-universität frankfurt', 'universität', 'hochschule', 'porträt', 'frankfurt am main', 'university', 'frankfurt', 'portrait', 'goethe']
   Friedrich-Alexander-Universitaet_Erlangen-Nuernberg_Logo.png:
     alt: Logo der Friedrich-Alexander-Universität Erlangen-Nürnberg
     title: Logo Friedrich-Alexander-Universität Erlangen-Nürnberg
@@ -72,6 +75,7 @@ bilder:
     authorUrl: https://www.fau.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'wortmarke', 'fau', 'friedrich-alexander-universität erlangen-nürnberg', 'universität', 'hochschule', 'wordmark', 'university', 'erlangen', 'nuremberg']
 ---
 
 Wir stellen uns vor, wir sind das Team von FOERBICO 👋

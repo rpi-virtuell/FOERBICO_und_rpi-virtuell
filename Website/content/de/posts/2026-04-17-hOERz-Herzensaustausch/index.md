@@ -63,6 +63,7 @@ bilder:
     authorUrl: https://orcid.org/0000-0003-0327-4704
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'plakat', 'hoerz', 'holzherzen', 'nfc', 'anleitung', 'teile dein hoerz', 'foerbico', 'nahaufnahme', 'quadratisch', 'photo', 'poster', 'wooden hearts', 'instructions', 'share your heart', 'close-up', 'square']
   foerbico-herz.png:
     alt: 'SDG17-Logo der Deutschen UNESCO-Kommission mit orangem Herz in der Mitte'
     title: SDG17-Herz, Deutsche UNESCO-Kommission mit hOERz-Ergänzung durch FOERBICO
@@ -71,6 +72,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY-SA 4.0
     licenceUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    keywords: ['logo', 'sdg 17', 'herz', 'partnerschaften', 'unesco', 'blau', 'orange', 'kreise', 'hoerz', 'quadratisch', 'heart', 'partnerships', 'blue', 'circles', 'square']
 ---
 
 ![hOERz-Logo: SDG17-Logo mit orangem Herz](https://blossom.edufeed.org/9b95aea1a7a6377080dfd3dd4d02e19bc86ee275cbc8c41c2ed4901e04345bf6.png)

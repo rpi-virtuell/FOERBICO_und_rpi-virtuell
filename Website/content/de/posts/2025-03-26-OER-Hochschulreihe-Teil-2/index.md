@@ -69,6 +69,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'lupe', 'suche', 'sterne', 'bewertung', 'digital', 'menschen', 'futuristisch', 'ki-generiert', 'oer', 'hochschulreihe', 'magnifying glass', 'search', 'stars', 'rating', 'people', 'futuristic', 'ai generated']
 ---
 
 Offene Bildungsressourcen (Open Educational Resources, OER) sind eine wertvolle Bereicherung für die Hochschullehre. Im [ersten Teil](https://oer.community/oer-fortbildungsreihe-1/) unserer OER-Fortbildungsreihe für theologische und religionspädagogische Hochschullehrende haben wir den Teilnehmenden einen Einblick in die Welt von OER gegeben und geklärt, was offene Lehr- und Lernmaterialien sind.

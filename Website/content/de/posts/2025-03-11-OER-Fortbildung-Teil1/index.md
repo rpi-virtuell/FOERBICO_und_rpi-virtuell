@@ -64,6 +64,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['flyer', 'einladung', 'online-fortbildung', 'oer', 'hochschullehre', 'religionspädagogik', 'theologie', 'foerbico', 'orange', 'oer-werkstatt', 'qr-code', 'invitation', 'online training', 'higher education teaching', 'religious education', 'theology', 'qr code']
 ---
 
 ## Wir legen endlich los!

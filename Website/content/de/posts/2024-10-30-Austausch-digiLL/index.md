@@ -50,6 +50,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'online-meeting', 'kacheln', 'sechs personen', 'digill', 'austausch', 'projektpartner', 'video call', 'online meeting', 'tiles', 'six people', 'exchange', 'project partners']
 ---
 
 Beide Projekte sind in der aktuellen Förderstrategie des Bundes OE_COM,

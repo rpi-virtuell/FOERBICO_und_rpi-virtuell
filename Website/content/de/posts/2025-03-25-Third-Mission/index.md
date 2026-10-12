@@ -62,6 +62,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@clemensvanlay
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'flagge', 'open', 'strand', 'meer', 'himmel', 'rot', 'blau', 'strandkörbe', 'symbolbild', 'offenheit', 'photo', 'flag', 'beach', 'sea', 'sky', 'red', 'blue', 'beach chairs', 'symbolic image', 'openness']
 ---
 
 ![Eine rote Flagge am Strand mit dem Aufdruck "Open"](https://blossom.edufeed.org/7fa0b0e9414cdf81867eaa23453c3e7419b55d80aed6426c0bb6d820b5d07367.jpg)

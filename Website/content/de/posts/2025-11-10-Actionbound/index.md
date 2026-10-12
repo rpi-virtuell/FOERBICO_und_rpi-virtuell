@@ -56,6 +56,7 @@ bilder:
     authorUrl: https://rpi-virtuell.de/
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'smartphone', 'actionbound', 'feder', 'schwert', 'martin', 'mission pausenhof', 'wertebildung', 'lila', 'gold', 'sterne', 'hochformat', 'instagram visual', 'feather', 'sword', 'values education', 'purple', 'stars', 'portrait format']
   Hinweis-Actionbound.png:
     alt: 'Instagram-Visual mit Vorstellung von Actionbound als Lernraum für Werte.'
     title: Instagram-Visual zu Actionbound
@@ -64,6 +65,7 @@ bilder:
     authorUrl: https://rpi-virtuell.de/
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'actionbound', 'text', 'lernraum', 'werte', 'teilhabe', 'storytelling', 'blau', 'gold', 'hochformat', 'instagram visual', 'learning space', 'values', 'participation', 'blue', 'portrait format']
   Hinweis-Martin.jpg:
     alt: 'Instagram-Visual mit Vorstellung von Martin von Tours mit Comic-Zeichnung.'
     title: Instagram-Visual zu Martin von Tours
@@ -72,6 +74,7 @@ bilder:
     authorUrl: https://rpi-virtuell.de/
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'martin von tours', 'comic', 'römischer soldat', 'kind', 'antike', 'heiliger martin', 'rpi-virtuell', 'sterne', 'hochformat', 'ki-generiert', 'instagram visual', 'martin of tours', 'roman soldier', 'child', 'antiquity', 'saint martin', 'stars', 'portrait format', 'ai generated']
   Actionbound-Übersicht.png:
     alt: 'Übersicht über die Nutzungsmöglichkeiten von Actionbound je nach Kontotyp bzw. Lizenz. Generiert mit ChatGPT.'
     title: Übersicht über Nutzungsmöglichkeiten von Actionbound
@@ -81,6 +84,7 @@ bilder:
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
     ai: generated
+    keywords: ['tabelle', 'screenshot', 'actionbound', 'lizenzen', 'kontotypen', 'nutzungsmöglichkeiten', 'häkchen', 'kreuz', 'übersicht', 'edu-lizenz', 'table', 'licenses', 'account types', 'usage options', 'checkmark', 'cross', 'overview', 'edu license']
 ---
 
 Wertebildung ist mehr als das Vermitteln von Tugenden – sie ist ein **Prozess der Selbst- und Welterschließung**.  

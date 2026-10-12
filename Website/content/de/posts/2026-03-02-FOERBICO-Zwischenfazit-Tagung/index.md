@@ -126,6 +126,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'gruppenfoto', 'team', 'foerbico', 'jubel', 'herz', 'bühne', 'tagung', 'zwischenfazit', 'hochformat', 'photo', 'group photo', 'cheering', 'heart', 'stage', 'conference', 'portrait format']
   Grusswort-Reuter.jpg:
     alt: Video mit Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) mit Online-Begrüßung bei FOERBICO-Zwischenfazit-Tagung 2026 in Nürnberg
     title: 'Online-Grußwort von Detlef Reuter vom Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ)'
@@ -134,6 +135,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'grußwort', 'videokonferenz', 'leinwand', 'online', 'poster', 'blumen', 'bmbfsfj', 'tagung', 'mikrofon', 'photo', 'greeting', 'video call', 'screen', 'flowers', 'ministry', 'conference', 'microphone']
   Forschungsstand.jpg:
     alt: 'Manfred Pirner der FAU Erlangen-Nürnberg steht am Rednerpult und stellt den Literaturbericht.'
     title: 'Vorstellung Forschungsstand von Manfred Pirner'
@@ -142,6 +144,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'vortrag', 'rednerpult', 'laptop', 'forschungsstand', 'zentrale ergebnisse', 'publikum', 'rückenansicht', 'tagung', 'quadratisch', 'photo', 'talk', 'lectern', 'state of research', 'key findings', 'audience', 'back view', 'conference', 'square']
   Begleitforschung.jpg:
     alt: 'Phillip der FAU Erlangen-Nürnberg stellt dem Publikum die Ergebnisse der Begleitforschung im Rahmen des FOERBICO-Projektes vor.'
     title: 'Vorstellung der Ergebnisse der Begleitforschung im FOERBICO-Projekt'
@@ -150,6 +153,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'vortrag', 'begleitforschung', 'ergebnisse', 'videokamera', 'rednerpult', 'folie', 'livestream', 'tagung', 'hochformat', 'photo', 'talk', 'accompanying research', 'results', 'video camera', 'lectern', 'slide', 'conference', 'portrait format']
   Qualitaet.jpg:
     alt: 'Laura von der Goethe-Universität Frankfurt a.M. präsentiert die im FOERBICO-Projekt entwickelten Qualitätskriterien vor.'
     title: 'Vorstellung der im FOERBICO-Projekt entwickelten Qualitätskriterien'
@@ -158,6 +162,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'vortrag', 'folie', 'qualitätssicherung', 'qualitätskriterien', 'oer', 'rednerpult', 'poster', 'blumen', 'tagung', 'quadratisch', 'photo', 'talk', 'slide', 'quality assurance', 'quality criteria', 'lectern', 'flowers', 'conference', 'square']
   Hub-Vorstellung.jpg:
     alt: 'Das Team vom Comenius-Institut stellt die aktuellen Entwicklungen des im FOERBICO-Projektes geplanten Community-Hubs vor.'
     title: 'Vorstellung der aktuellen Entwicklungen vom Community-Hub'
@@ -166,6 +171,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'vortrag', 'folie', 'plattform-lock-in', 'community-hub', 'rednerpult', 'poster', 'blumen', 'kamera', 'tagung', 'quadratisch', 'photo', 'talk', 'slide', 'platform lock-in', 'community hub', 'lectern', 'flowers', 'camera', 'conference', 'square']
   Keynote.jpg:
     alt: 'Prof. Dr. Daniel Otto steht auf der Bühne und präsentiert aktuelle Herausforderungen und Perspektiven für OER und OEP.'
     title: 'Keynote von Daniel Otto: Aktuelle Herausforderungen und Perspektiven für OER und OEP'
@@ -174,6 +180,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'keynote', 'vortrag', 'leinwand', 'oer vs. generative ki', 'publikum', 'luftballons', 'tagung', 'zwischenfazit', 'hochformat', 'photo', 'talk', 'screen', 'oer vs generative ai', 'audience', 'balloons', 'conference', 'portrait format']
   OER_KI_Matrix.jpg:
     alt: 'Folie aus Präsentation von Prof. Daniel Otto zu aktuelle Herausforderungen und Perspektiven für OER und OEP mit Matrix zu Kompetenzen im digitalen Zeitalter: Delegierbarkeit x Offenheit. Eigene Darstellung unter Nutzung von ChatGPT 5.'
     title: 'Matrix zu Kompetenzen im digitalen Zeitalter: Delegierbarkeit x Offenheit'
@@ -182,6 +189,7 @@ bilder:
     authorUrl: https://www.researchgate.net/profile/Daniel-Otto-7
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['grafik', 'matrix', 'schaubild', 'kompetenzen', 'ki', 'delegierbarkeit', 'offenheit', 'oer', 'oep', 'assessment', 'ki-generiert', 'graphic', 'diagram', 'competencies', 'ai', 'delegability', 'openness', 'ai generated']
   relilab.jpg:
     alt: 'Logo mit Aufschrift relilab in blau-lila-pinken Farbverlauf als Schieberegler.'
     title: 'Logo relilab'
@@ -190,6 +198,7 @@ bilder:
     authorUrl: https://relilab.org/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/ 
+    keywords: ['foto', 'seminarraum', 'stuckdecke', 'workshop', 'bildschirm', 'whiteboard', 'teilnehmende', 'historischer raum', 'tagung', 'quadratisch', 'photo', 'seminar room', 'stucco ceiling', 'screen', 'participants', 'historic room', 'conference', 'square']
   reliGlobal.jpg:
     alt: 'Logo mit verschiedenfarbigen Figuren in Form einer Weltkugel.'
     title: 'Logo reliGlobal'
@@ -198,6 +207,7 @@ bilder:
     authorUrl: https://religlobal.org/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/ 
+    keywords: ['foto', 'seminarraum', 'vortrag', 'sdg', 'folie', 'tafel', 'laptops', 'drei personen', 'fenster', 'tagung', 'photo', 'seminar room', 'talk', 'slide', 'blackboard', 'three people', 'window', 'conference']
   RELImentar.jpg:
     alt: 'Logo mit grünem Schriftzug RELImentar mit pinkem e auf dem i.'
     title: 'Logo RELImentar'
@@ -206,6 +216,7 @@ bilder:
     authorUrl: https://relimentar.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/ 
+    keywords: ['foto', 'seminarraum', 'workshop', 'u-form', 'beamer', 'wandmosaik', 'teilnehmende', 'laptops', 'tagung', 'photo', 'seminar room', 'u-shape', 'projector', 'wall mosaic', 'participants', 'conference']
   CriticalFriends.jpg:
     alt: 'Vier Critical Friends aus verschiedenen Intsitutionen sitzen im Halbkreis auf der Bühne und diskutieren moderiert von Manfred Pirner.'
     title: 'Podiumsdiskussion mit Critical Friends'
@@ -214,6 +225,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'podiumsdiskussion', 'bühne', 'fünf personen', 'critical friends', 'folie', 'stühle', 'tagung', 'zwischenfazit', 'quadratisch', 'photo', 'panel discussion', 'stage', 'five people', 'slide', 'chairs', 'conference', 'square']
   hoerz.jpg:
     alt: 'Plakat mit Anleitung zu "Teile dein hOERz" für die Teilnehmenden im Rahmen der Zwischenfazit-Tagung.'
     title: 'hOERz-Aktion bei der Zwischenfazit-Tagung'
@@ -222,6 +234,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'poster', 'plakat', 'hoerz', 'holzherzen', 'nfc', 'foerbico', 'pinnwand', 'anleitung', 'tagung', 'hochformat', 'photo', 'wooden hearts', 'pinboard', 'instructions', 'conference', 'portrait format']
   Essen.jpg:
     alt: 'Teilnehmende der Tagung am Essensbuffet.'
     title: 'Leckeres Essen und Begegnung'
@@ -230,6 +243,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'buffet', 'essen', 'gläser', 'zwei personen', 'lächeln', 'begegnung', 'catering', 'tagung', 'hochformat', 'photo', 'food', 'jars', 'two people', 'smiling', 'encounter', 'conference', 'portrait format']
   Hilfskraefte.jpg:
     alt: 'Team der Hilfskräfte der Zwischenfazit-Tagung mit Tier-Luftballons.'
     title: 'Team der Tagungshilfskräfte'
@@ -238,6 +252,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/ 
+    keywords: ['foto', 'gruppenfoto', 'fünf personen', 'luftballons', 'tiere', 'hilfskräfte', 'team', 'tagung', 'zwischenfazit', 'hochformat', 'photo', 'group photo', 'five people', 'balloons', 'animals', 'assistants', 'conference', 'portrait format']
 ---
 
 Offene Bildungsressourcen (OER) und offene Bildungspraktiken (OEP) gewinnen mit der fortschreitenden Digitalisierung der Bildung und dem Ziel größerer Chancengleichheit zunehmend an Bedeutung. Mit seiner OER-Strategie fördert der Bund daher Projekte, die Antworten auf zentrale offene Fragen entwickeln, u.a. wie arbeiten OER-Communities zusammen? Wie entstehen Materialien wirklich kollaborativ? Und wie kann eine Kultur des Teilens gelebt werden? Diesen Fragen widmete sich die FOERBICO Zwischenfazit Tagung 2026 in Nürnberg. Mit Impulsen aus der Forschung, Stimmen aus der Praxis und interaktiven Formaten wurde die Zusammenarbeit von OER-Communities – bislang ein selten beleuchtetes Thema – in den Fokus gerückt.

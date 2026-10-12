@@ -80,6 +80,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@a_zayan
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'lupe', 'rot', 'schnur', 'wand', 'grau', 'licht', 'schatten', 'suche', 'symbolbild', 'hochformat', 'photo', 'magnifying glass', 'red', 'string', 'wall', 'grey', 'light', 'shadow', 'search', 'symbolic image', 'portrait format']
 ---
 
 

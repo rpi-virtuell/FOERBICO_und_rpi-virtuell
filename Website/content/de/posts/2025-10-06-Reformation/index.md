@@ -64,6 +64,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'illustration', 'smartphone', 'reformationsphone', 'martin luther', 'influencer', 'reformation', 'playmobil', 'religionsunterricht', 'hochformat', 'instagram visual', 'religious education', 'portrait format']
   Toolhinweis.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell mit Vorstellung von Zeoob als Tool für Social Media Posts.'
     title: Toolhinweis Zeoob
@@ -72,6 +73,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'zeoob', 'tool', 'fake news', 'social media', 'dsgvo', 'datenschutz', 'tabelle', 'medienbildung', 'hochformat', 'instagram visual', 'gdpr', 'data protection', 'table', 'media education', 'portrait format']
   1.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund und @rpivirtuell als kreativer Impuls für den Religionsunterricht, in der Mitte Smartphone mit der Aufschrift "Martin Luther als Influencer seiner Zeit?" im Screen, neben dem Smartphone sind Icons mit Sprechblase und Herz.'
     title: Instagram-Post von @nt.evangelisch_tudortmund + @rpivirtuell - Martin Luther als Influencer seiner Zeit? Ein kreativer Impuls für den Religionsunterricht
@@ -80,6 +82,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'illustration', 'smartphone', 'martin luther', 'influencer', 'reformation', 'religionsunterricht', 'impuls', 'pastell', 'hochformat', 'instagram visual', 'religious education', 'impulse', 'pastel', 'portrait format']
 ---
 
 ## Wenn Thesen viral gehen

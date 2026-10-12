@@ -58,6 +58,7 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/mitarbeitende/paula-xue-paschke
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['flussdiagramm', 'schaubild', 'oer-erstellung', 'zielgruppe', 'remix', 'didaktische konzeption', 'lizenz', 'qualitätsprüfung', 'orange', 'prozess', 'flowchart', 'diagram', 'oer creation', 'target group', 'didactic design', 'license', 'quality check', 'process']
   Tabelle.png:
     alt: 'Tabelle zur Zuordnung von Schularten zu Bildungsstufen. Quelle der Zuordnung: DINI-AG KIM (2022), Zuordnung nach Bildungsberichterstattung (2022, S. XII); atypische Mehrfachzuordnungen wurden bereinigt.'
     title: Tabelle zur Zuordnung von Schularten zu Bildungsstufen
@@ -66,6 +67,7 @@ bilder:
     authorUrl: https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/mitarbeitende/paula-xue-paschke
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['tabelle', 'bildungsstufe', 'schularten', 'zuordnung', 'kim', 'elementarbereich', 'primarbereich', 'sekundarbereich', 'metadaten', 'grau', 'table', 'educational level', 'school types', 'mapping', 'elementary', 'primary', 'secondary', 'metadata', 'grey']
 ---
 
 Möchte man mit der Erstellung von OER beginnen, geht das oft mit Unsicherheiten einher: Wie fange ich an? Welche Schritte sind sinnvoll? Und wie lassen sich Qualität, Offenheit, rechtliche Sicherheit und fachliche Dimensionen kohärent miteinander verknüpfen?

@@ -63,6 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'lichtmomente', 'übersicht', 'drei bilder', 'unterrichtsideen', 'advent', 'weihnachten', 'religionsunterricht', 'beige', 'hochformat', 'instagram visual', 'moments of light', 'overview', 'three images', 'teaching ideas', 'christmas', 'religious education', 'portrait format']
   10.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente mit Bild von Teelicht unter dem Titel "Dunkelheit und Licht".'
     title: Instagram-Visual Lichtmomente - Dunkelheit und Licht
@@ -71,6 +72,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'lichtmomente', 'teelicht', 'kerze', 'dunkelheit und licht', 'jesaja 9', 'poetry-slam', 'advent', 'grau', 'hochformat', 'instagram visual', 'moments of light', 'tea light', 'candle', 'darkness and light', 'isaiah 9', 'poetry slam', 'grey', 'portrait format']
   1.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente mit Bild von geöffnetem Buch mit Lupe auf Sternschnuppe auf rechter Buchseite unter dem Titel "Bibel-Spurensuche".'
     title: Instagram-Visual Lichtmomente - Bibel-Spurensuche
@@ -79,7 +81,8 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
-  Weihnachtenglobal.jpg:
+    keywords: ['instagram-visual', 'lichtmomente', 'bibel-spurensuche', 'buch', 'lupe', 'sternschnuppe', 'weihnachtsgeschichte', 'jahrgangsstufen 5-7', 'religionsunterricht', 'beige', 'hochformat', 'instagram visual', 'moments of light', 'bible search', 'book', 'magnifying glass', 'shooting star', 'christmas story', 'grades 5-7', 'religious education', 'portrait format']
+  'Weihnachten global.jpg':
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente mit Bild von Weltkarte unter dem Titel "Weihnachten global entdecken".'
     title: Instagram-Visual Lichtmomente - Weihnachten global entdecken
     sourceUrl: https://oer.community/lichtmomente
@@ -87,6 +90,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'weltkarte', 'weihnachten', 'global', 'lichtmomente', 'advent', 'bibelvers', 'johannes', 'religlobal', 'rpi-virtuell', 'grün', 'instagram visual', 'world map', 'christmas', 'moments of light', 'bible verse', 'john', 'green']
   17.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Bibeltext in leichter Sprache mit Auszug von Lesetext Jesaja.'
     title: Instagram-Visual Lichtmomente - Bibeltext in leichter Sprache
@@ -95,6 +99,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'lichtmomente', 'bibeltext', 'leichte sprache', 'jesaja', 'lesetext', 'poetry-slam', 'religionsunterricht', 'grau', 'hochformat', 'instagram visual', 'moments of light', 'bible text', 'easy language', 'isaiah', 'reading text', 'poetry slam', 'religious education', 'grey', 'portrait format']
   2.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Gehe mit deinen Schüler:innen auf Bibel-Spurensuche mit Lupe und Sternschnuppe, erstellt von Lara Gotthard (ETH - TU Dortmund).'
     title: 'Instagram-Visual Lichtmomente - Gehe mit Schüler:innen auf Bibel-Spurensuche'
@@ -103,6 +108,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'lichtmomente', 'lupe', 'sternschnuppe', 'bibel-spurensuche', 'weihnachtsgeschichte', 'klassen 5-7', 'religionsunterricht', 'beige', 'hochformat', 'instagram visual', 'moments of light', 'magnifying glass', 'shooting star', 'bible search', 'christmas story', 'grades 5-7', 'religious education', 'portrait format']
   6.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Erarbeitung Auf Spurensuche! mit Auszug der Lichtpur-Karte als Arbeitsblatt für Schüler:innen.'
     title: 'Instagram-Visual Lichtmomente - Arbeitsblatt'
@@ -111,6 +117,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'lichtmomente', 'arbeitsblatt', 'lichtspur-karte', 'erarbeitung', 'partnerarbeit', 'religionsunterricht', 'beige', 'hochformat', 'instagram visual', 'moments of light', 'worksheet', 'light trail card', 'elaboration', 'pair work', 'religious education', 'portrait format']
   GlobalesLernen.jpg:
     alt: 'Instagram-Visual von @nt.evangelisch_tudortmund, @religlobal und @rpivirtuell mit der Aufschrift #Lichtmomente - Weihnachten: Lernraum für globale Perspetiven mit Erläuterung.'
     title: 'Instagram-Visual Lichtmomente - Weihnachten: Lernraum für globale Perspetiven'
@@ -119,6 +126,7 @@ bilder:
     authorUrl: https://oer.community
     licence: Canva-Lizenz
     licenceUrl: https://www.canva.com/de_de/richtlinien/terms-of-use/
+    keywords: ['instagram-visual', 'lichtmomente', 'weihnachten', 'global', 'text', 'advent', 'religionsunterricht', 'johannes 8', 'grün', 'hochformat', 'instagram visual', 'moments of light', 'christmas', 'religious education', 'john 8', 'green', 'portrait format']
 ---
 
 

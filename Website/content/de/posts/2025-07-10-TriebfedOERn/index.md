@@ -61,6 +61,7 @@ bilder:
     authorUrl: https://www.mosbach.dhbw.de/
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'drei personen', 'einhorn', 'luftballon', 'roll-up', 'dhbw mosbach', 'oer', 'barcamp', 'humor', 'hochformat', 'photo', 'three people', 'unicorn', 'balloon', 'roll-up banner', 'portrait format']
   sessionplan-triebfedoern-barcamp.jpg:
     alt: 'Stellwand mit Zetteln zur Sessionplanung beim TriebfedOERn-Barcamp 2025.'
     title: 'Sessionplan beim TriebfedOERn-Barcamp 2025'
@@ -69,6 +70,7 @@ bilder:
     authorUrl: https://oer.community/
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'sessionplan', 'stellwand', 'moderationskarten', 'barcamp', 'zeitplan', 'räume', 'triebfedoern', 'oer', 'handschrift', 'photo', 'session plan', 'pinboard', 'moderation cards', 'schedule', 'rooms', 'handwriting']
   deputat-fuer-OER.jpg:
     alt: 'Stellwand mit Ergebnissen aus der Diskussion der Barcampsession zu Deputatsreduktion für OER.'
     title: 'Deputatsermäßigung für OER - Ja oder Nein?'
@@ -77,6 +79,7 @@ bilder:
     authorUrl: https://www.mosbach.dhbw.de/
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'flipchart', 'handschrift', 'deputatsermäßigung', 'oer', 'barcamp-session', 'diskussion', 'hochschule', 'cc by', 'triebfedoern', 'photo', 'handwriting', 'teaching load reduction', 'barcamp session', 'discussion', 'higher education']
   oer-wimmelbild-cc-mixer.jpg:
     alt: 'Kleines chatGPT 4o experiment zum OER-Mixer-Wimmelbild.'
     title: 'OER-Wimmelbild'
@@ -86,6 +89,7 @@ bilder:
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
     ai: generated
+    keywords: ['illustration', 'wimmelbild', 'schwarzweiß', 'strichzeichnung', 'oer', 'cc', 'mixer', 'menschen', 'teilen', 'remix', 'ki-generiert', 'quadratisch', 'hidden picture', 'black and white', 'line drawing', 'people', 'sharing', 'ai generated', 'square']
 ---
 
 

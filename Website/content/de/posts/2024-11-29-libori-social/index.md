@@ -68,6 +68,7 @@ bilder:
     authorUrl: https://libori.social
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'pfau', 'illustration', 'libori.social', 'mastodon', 'fediverse', 'pastorales netzwerk', 'erzbistum paderborn', 'rot', 'grün', 'graphic', 'peacock', 'pastoral network', 'archdiocese paderborn', 'red', 'green']
   startodon-reliverse.jpg:
     alt: 'Screenshot der Willkommensseite der Mastodon-Instanz reliverse.social, Hintergrundbild unter [Unsplash-Lizenz](https://unsplash.com/de/fotos/ein-paar-handys-bQRqXz7mZe4).'
     title: Screenshot der Willkommensseite der Mastodon-Instanz reliverse.social (abgerufen am 08.12.2024)

@@ -56,6 +56,7 @@ bilder:
     authorUrl: https://unsplash.com/de/@syinq
     licence: Unsplash-Lizenz
     licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'bibliothek', 'bücherregal', 'bücher', 'stockholm', 'stadsbiblioteket', 'rund', 'bunt', 'wissen', 'symbolbild', 'photo', 'library', 'bookshelf', 'books', 'public library', 'round', 'colorful', 'knowledge', 'symbolic image']
 ---
 
 Die Realität der religionspädagogischen Materialentwicklung lässt sich in einem markanten Kontrastbild beschreiben:

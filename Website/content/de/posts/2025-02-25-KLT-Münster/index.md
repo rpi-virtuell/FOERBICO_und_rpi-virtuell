@@ -70,6 +70,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'moderationskarten', 'handschrift', 'gruppenarbeit', 'oer', 'hochschuldidaktik', 'ideensammlung', 'tisch', 'tagung', 'photo', 'moderation cards', 'handwriting', 'group work', 'higher education didactics', 'idea collection', 'table', 'conference']
   Markdown_Tagung.jpg:
     alt: 'Notizen und Dokumentation zur Tagung Jahrestagung des Netzwerkes Theologie und Hochschuldidaktik im Februar 2025 mit Markdown.'
     title: Tagungsnotizen mit Markdown
@@ -78,6 +79,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'laptop', 'macbook', 'markdown', 'editor', 'notizen', 'tagungsdokumentation', 'kaffee', 'tastatur', 'photo', 'notes', 'conference notes', 'coffee', 'keyboard']
 ---
 
 ## Jahrestagung des Netzwerks [Theologie und Hochschuldidaktik](https://www.uni-muenster.de/FB2/aktuelles/OER_Tagung_Netzwerk_Theologie_und_Hochschuldidaktik_2025.html) am 24. und 25. Februar 2025

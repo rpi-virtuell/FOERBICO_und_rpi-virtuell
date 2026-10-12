@@ -56,6 +56,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'würfel', '3d', 'bilder', 'mosaik', 'kunstwerke', 'kacheln', 'blau', 'ki-generiert', 'symbolbild', 'cube', 'images', 'mosaic', 'artworks', 'tiles', 'blue', 'ai generated', 'symbolic image']
   constitutive-elements-of-OEP-Ehlers-2011.jpg:
     alt: Matrix Learning Architecture x OER-Usage.
     title: 'Matrix 1. Constitutive Elements of OEP'
@@ -64,6 +65,7 @@ bilder:
     authorUrl: https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'matrix', 'tabelle', 'oep', 'oer usage', 'learning architecture', 'ehlers', 'modell', 'schaubild', 'englisch', 'graphic', 'table', 'model', 'diagram']
 ---
 
 CC BY [Prof. Dr. Ulf-Daniel Ehlers (NextEducation)](https://next-education.org/de/team/meet-the-team/prof-dr-ulf-daniel-ehlers/)

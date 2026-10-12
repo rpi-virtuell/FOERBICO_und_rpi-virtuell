@@ -66,6 +66,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'profilbild', 'mosaik', 'christus', 'ikone', 'rot', 'katholische theologie', 'social media', 'quadratisch', 'profile picture', 'mosaic', 'christ', 'icon', 'red', 'catholic theology', 'square']
   Meme-1.jpg:
     alt: 'Mann im schwarzen Gewand mit Heiligenschein (Ich) schaut in Buch (Psalm 137,9) und reißt die Augen weit auf.'
     title: 'Beispiel-Meme Psalm 137,9'
@@ -74,6 +75,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['meme', 'fresko', 'mönch', 'heiligenschein', 'buch', 'psalm 137', 'schock', 'humor', 'theologie', 'religionsunterricht', 'fresco', 'monk', 'halo', 'book', 'shock', 'theology', 'religious education']
   Meme-3.jpg:
     alt: 'Geteilten Bild von Mann im Holzstock und goldenem Spiegel in der Hand links mit Aufschrift "Herodes heiratet...", rechts mit Aufschrift "...wen?!""".'
     title: 'Beispiel-Meme Herodes'
@@ -82,6 +84,7 @@ bilder:
     authorUrl: https://www.uni-vechta.de/katholische-theologie
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['meme', 'heiligenfigur', 'statue', 'herodes', 'bibel', 'humor', 'religionsunterricht', 'theologie', 'zwei bilder', 'text', 'saint figure', 'herod', 'bible', 'religious education', 'theology', 'two panels']
 ---
 
 Wer durch TikTok scrollt, denkt vermutlich nicht sofort an Glaubensfragen. Doch genau das wagt das Institut für Katholische Theologie an der Universität Vechta (IKT): Es bringt theologische Inhalte aus dem Seminarraum und vom Schreibtisch in die sozialen Medien – auf TikTok, Instagram und YouTube.

@@ -65,6 +65,7 @@ bilder:
     authorUrl: https://oer.community
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['grafik', 'laptop', 'logo', 'relilab', 'whiteboard', 'haftnotizen', 'interview', 'oer-communities', 'ki-generiert', 'hochformat', 'graphic', 'sticky notes', 'oer communities', 'ai generated', 'portrait format']
   relilab_logo.png:
     alt: Logo vom relilab
     title: Logo relilab
@@ -73,6 +74,7 @@ bilder:
     authorUrl: https://relilab.org/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'relilab', 'schriftzug', 'farbverlauf', 'pink', 'orange', 'lila', 'blau', 'schalter', 'lettering', 'gradient', 'purple', 'blue', 'toggle']
   FOERBICO_Tagung_Logo.jpg:
     alt: Abbildung von orangenem Außenkreis mit der Aufschrift OEP mit drehendem Pfeil und einem blauen Innenkreis mit der Auschrift OER auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.
     title: Logo zur Zwischenfazit-Tagung von FOERBICO
@@ -82,6 +84,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['grafik', 'logo', 'oer', 'oep', 'kreis', 'laptop', 'whiteboard', 'haftnotizen', 'communities', 'zwischenfazit', 'tagung', 'ki-generiert', 'graphic', 'circle', 'sticky notes', 'interim conclusion', 'conference', 'ai generated']
 ---
  
 

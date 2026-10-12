@@ -63,6 +63,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'online-meeting', 'kacheln', 'sechs personen', 'headsets', 'medienhaus', 'git-treffen', 'video call', 'online meeting', 'tiles', 'six people', 'media house']
 ---
 
 ## GitLab: Ein Blick hinter die Kulissen

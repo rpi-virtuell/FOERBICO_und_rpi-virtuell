@@ -53,6 +53,7 @@ bilder:
     authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'profilbild', 'instagram', 'buch', 'neues testament', 'tu dortmund', 'grün', 'rund', 'profile picture', 'book', 'new testament', 'green', 'round']
   ima_2648be8.jpg:
     alt: 'Visual  mit Comic-Figur und Glühbirne vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Elia erklärt: Die "Dürre-Komposition" (1Kön 17-18) - perfekt für den Religionsunterricht.' 
     title: 'Beispiel-Visual "Elia erklärt: Die "Dürre-Komposition" (1Kön 17-18)" vom Instagram-Account @nt.evangelisch_tudortmund'
@@ -61,6 +62,7 @@ bilder:
     authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['instagram-visual', 'illustration', 'elia', 'prophet', 'glühbirne', 'dürre', 'könige', 'altes testament', 'religionsunterricht', 'quadratisch', 'instagram visual', 'elijah', 'light bulb', 'drought', 'kings', 'old testament', 'religious education', 'square']
   ima_a6fc6d5.jpg:
     alt: 'Visual  mit Schultafel mit glücklicher Figur links und trauriger Figur rechts, die jeweils eine Münze mit einer 1 in der Hand halten vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Teaching Justice: Das Gleichnis von den Arbeitern im Weinberg (Mt, 20, 1-16)".' 
     title: 'Beispiel-Visual ""Teaching Justice: Das Gleichnis von den Arbeitern im Weinberg (Mt, 20, 1-16)" vom Instagram-Account @nt.evangelisch_tudortmund'
@@ -69,6 +71,7 @@ bilder:
     authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['instagram-visual', 'illustration', 'schultafel', 'gleichnis', 'arbeiter im weinberg', 'gerechtigkeit', 'münzen', 'piktogramme', 'religionsunterricht', 'quadratisch', 'instagram visual', 'blackboard', 'parable', 'workers in the vineyard', 'justice', 'coins', 'pictograms', 'religious education', 'square']
   ima_eb6a938.jpg:
     alt: 'Visual  mit Comic-Herzfigur, das eine Bibel in die Höhe hält vom Instagram-Account des Lehrstuhls für Neues Testament am Institut für Evangelische Theologie der TU Dortmund mit Aufschrift "Liebe im Religionsunterricht? Neutestamentliche Perspektiven".' 
     title: 'Beispiel-Visual "Liebe im Religionsunterricht? Neutestamentliche Perspektiven" vom Instagram-Account @nt.evangelisch_tudortmund'
@@ -77,6 +80,7 @@ bilder:
     authorUrl: https://eth.ht.tu-dortmund.de/professuren/neues-testament/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['instagram-visual', 'illustration', 'comic-herz', 'bibel', 'kreuz', 'liebe', 'religionsunterricht', 'neues testament', 'rosa', 'quadratisch', 'instagram visual', 'cartoon heart', 'bible', 'cross', 'love', 'religious education', 'new testament', 'pink', 'square']
 ---
 
 ## Einblicke in den Account @nt.evangelisch_tudortmund und seine Bedeutung für eine zeitgemäße Religionspädagogik

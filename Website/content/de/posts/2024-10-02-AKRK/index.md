@@ -57,6 +57,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'zwei personen', 'porträt', 'namensschilder', 'tagung', 'lächeln', 'kolleginnen', 'photo', 'two people', 'portrait', 'name badges', 'conference', 'smiling', 'colleagues']
   AKRK-Tagung_OER-OEP-workshop.jpg:
     alt: 'Viera von der Goethe-Universität Frankfurt a.M. mit Tablet in der Hand zum FOERBICO-Workshop zu OER und OEP auf der AKRK-Tagung 2024 in Leitershofen.'
     title: FOERBICO-Workshop zu OER und OEP auf der AKRK-Tagung
@@ -65,6 +66,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'tablet', 'stift', 'handschrift', 'workshop', 'referentin', 'lächeln', 'namensschild', 'tagung', 'photo', 'stylus', 'handwriting', 'speaker', 'smiling', 'name badge', 'conference']
   AKRK-Tagung_OER-und-ihre-didaktik.jpg:
     alt: 'Ergebnisse der Gruppenarbeit zu OER/OEP und ihre Didaktik'
     title: Ergebnisse zu OER/OEP und ihre Didaktik
@@ -73,6 +75,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'flipchart', 'handschrift', 'haftnotizen', 'gruppenarbeit', 'oer', 'oep', 'didaktik', 'religionspädagogik', 'tagung', 'photo', 'handwriting', 'sticky notes', 'group work', 'didactics', 'religious education', 'conference']
   AKRK-Tagung_Vortrag.jpg:
     alt: 'Vortrag von Viera der Goethe-Universität Frankfurt a.M. mit Einblicken zu OER und OEP'
     title: Vortrag zu OER und OEP
@@ -81,6 +84,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'vortrag', 'referentin', 'präsentation', 'folie', 'oer', 'oep', 'publikum', 'tagung', 'gestik', 'photo', 'talk', 'speaker', 'presentation', 'slide', 'audience', 'conference', 'gesture']
 ---
 
 ## Religionsdidaktik im Verhältnis

@@ -63,6 +63,7 @@ bilder:
     authorUrl: https://wiki.creativecommons.org/wiki/File:CC_License_Compatibility_Chart.png
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/ 
+    keywords: ['grafik', 'tabelle', 'matrix', 'cc-lizenzen', 'creative commons', 'kompatibilität', 'remix', 'lizenzkombination', 'grün', 'haken', 'kreuz', 'graphic', 'table', 'cc licenses', 'compatibility', 'license combination', 'green', 'checkmark', 'cross']
 ---
 
 Bei der OER-Erstellung ist die Wahl der passenden CC-Lizenz ein komplexes Unterfangen und schreckt leider viele davor ab, ihre Materialien mit freien Lizenzen zu versehen. Die Konsequenz: Andere können das Material nicht rechtssicher weiterverwenden oder verbreiten! Wenn ihr also eure Materialien mit anderen teilen wollt, geht noch den letzten Schritt und veröffentlicht das Material mit einer offenen Lizenz, damit andere wissen, wie sie das Material nutzen können (z.B. nur unter Namensnennung, für nicht-kommerzielle Zwecke usw.).

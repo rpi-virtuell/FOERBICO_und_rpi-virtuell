@@ -70,6 +70,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'seminarraum', 'laptops', 'oer', 'studierende', 'unterricht', 'hochschule', 'ki-generiert', 'orange', 'oer-werkstatt', 'seminar room', 'students', 'teaching', 'university', 'ai generated']
 ---
 
 ## Grundlagen zur Erstellung von OER

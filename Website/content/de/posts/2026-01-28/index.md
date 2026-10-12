@@ -65,6 +65,7 @@ bilder:
     authorUrl: https://oer.community
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['grafik', 'laptop', 'logo', 'relimentar', 'whiteboard', 'haftnotizen', 'interview', 'oer-communities', 'ki-generiert', 'hochformat', 'graphic', 'sticky notes', 'oer communities', 'ai generated', 'portrait format']
   logo-relimentar-final-2.png:
     alt: Logo von RELImentar
     title: RELImentar-Logo
@@ -73,6 +74,7 @@ bilder:
     authorUrl: https://relimentar.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['logo', 'relimentar', 'schriftzug', 'grün', 'pink', 'handschrift', 'quadratisch', 'lettering', 'green', 'handwriting', 'square']
   FOERBICO_Tagung_Logo.jpg:
     alt: Abbildung von orangenem Außenkreis mit der Aufschrift OEP mit drehendem Pfeil und einem blauen Innenkreis mit der Auschrift OER auf einem Laptop-Screen. Hintergrundbild mit Whiteboard und Notizen zu OER-Communities.
     title: Logo zur Zwischenfazit-Tagung von FOERBICO
@@ -82,6 +84,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['grafik', 'logo', 'oer', 'oep', 'kreis', 'laptop', 'whiteboard', 'haftnotizen', 'communities', 'zwischenfazit', 'tagung', 'ki-generiert', 'graphic', 'circle', 'sticky notes', 'interim conclusion', 'conference', 'ai generated']
   Screenshot_RELImentar.jpg:
     alt: Screenshot der Webseite relimentar.de vom Materialpool von RELImentar.
     title: Screenshot-Materialpool
@@ -90,6 +93,7 @@ bilder:
     authorUrl: https://relimentar.de/
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['screenshot', 'webseite', 'materialpool', 'relimentar', 'suche', 'materialien', 'jahreslosung', 'grün', 'kacheln', 'website', 'material pool', 'search', 'materials', 'green', 'tiles']
 ---
  
 # Interview RELImentar

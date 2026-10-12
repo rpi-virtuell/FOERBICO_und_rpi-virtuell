@@ -47,6 +47,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'videokonferenz', 'online-meeting', 'kacheln', 'oer-brownbag', 'oe_com', 'projektpartner', 'netzwerk', 'gruppe', 'video call', 'online meeting', 'tiles', 'brown bag', 'project partners', 'network', 'group']
 ---
 
 Heute kamen die verschiedenen vom Bundesministerium für Bildung und Forschung (BMBF) geförderten Projekte der [OER-Strategie](https://www.oer-strategie.de/) zu einem gemeinsamen Austausch zusammen. Susanne Grimm und Johannes Appel von [OERinfo](https://open-educational-resources.de/) haben das Format "OER-Brownbag" initiiert und moderiert. Die Calls sollen zentral dem regelmäßigen Austausch der [geförderten Projekte](https://www.oer-strategie.de/foerdern/gefoerderte-projekte/) dienen, jedoch auch der Kommunikation zwischen OERinfo und den Projekten, z.B. was die Kommunikation über die Entwicklung ihrer Projekte auf dem Blog und Podcast zugehOERt anbelangt. 

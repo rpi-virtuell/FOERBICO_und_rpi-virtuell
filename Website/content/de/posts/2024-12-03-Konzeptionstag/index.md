@@ -51,6 +51,7 @@ bilder:
     authorUrl: https://oer.community
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['foto', 'gruppenfoto', 'team', 'lego', 'bausteine', 'jubel', 'draußen', 'konzeptionstag', 'rpi-virtuell', 'foerbico', 'photo', 'group photo', 'building blocks', 'cheering', 'outdoors', 'concept day']
   Lego.jpg:
     alt: 'Ergebnisse "Wie stellen wir uns rpi-virtuell und FOERBICO zusammen vor?" aus Bausteinen und Figuren'
     title: 'Bauwerke vom Konzeptionstag'
@@ -59,6 +60,7 @@ bilder:
     authorUrl: https://oer.community
     licence: ©
     licenceUrl: https://www.gesetze-im-internet.de/urhg/
+    keywords: ['foto', 'lego', 'bausteine', 'schlümpfe', 'figuren', 'bauwerke', 'bunt', 'kreativ', 'konzeptionstag', 'spielerisch', 'photo', 'building blocks', 'smurfs', 'figurines', 'structures', 'colorful', 'creative', 'concept day', 'playful']
   mindmap-bedarfe.jpg:
     alt: 'Mindmap zu Bedarfen religionsbezogener Communities anhand einer qualitativen Befragung'
     title: 'Mindmap: Bedarfe religionsbezogener Communities'
@@ -67,6 +69,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['grafik', 'mindmap', 'bedarfe', 'communities', 'infrastruktur', 'datenbanken', 'oer-toolbox', 'institutionelle unterstützung', 'grau', 'schaubild', 'graphic', 'mind map', 'needs', 'infrastructure', 'databases', 'oer toolbox', 'institutional support', 'grey', 'diagram']
   Kleingruppe-1.jpg:
     alt: 'Whiteboard mit Ergebnissen und Ideen, was es für die Vernetzung und Zusammenarbeit in Communities braucht'
     title: 'Ergebnisse der Kleingruppe zu Communities'
@@ -75,6 +78,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'whiteboard', 'handschrift', 'community', 'themen', 'rechtsfragen', 'ki', 'bne', 'offenheit', 'konzeptionstag', 'photo', 'handwriting', 'topics', 'legal questions', 'ai', 'sustainability', 'openness', 'concept day']
   Kleingruppe-2.jpg:
     alt: 'Whiteboard mit Ergebnissen und Ideen, welche Technik es für Communities braucht'
     title: 'Ergebnisse der Kleingruppe zu Technik'
@@ -83,6 +87,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'whiteboard', 'haftnotizen', 'handschrift', 'bilddatenbank', 'ki', 'liascript', 'technik', 'konzeptionstag', 'ergebnisse', 'photo', 'sticky notes', 'handwriting', 'image database', 'ai', 'technology', 'concept day', 'results']
 ---
 
 ## Vorstellung rpi-virtuell – digitale Plattform für religionspädagogische Bildung 

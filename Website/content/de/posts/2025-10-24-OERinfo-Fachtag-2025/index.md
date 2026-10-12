@@ -61,6 +61,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'zwei personen', 'flyer', 'foerbico', 'atrium', 'lächeln', 'oerinfo-fachtag', 'orange', 'hochformat', 'photo', 'two people', 'flyers', 'smiling', 'oer info conference', 'portrait format']
   OERinfo-Fachtag-2025-min.jpg:
     alt: 'Präsentationsfolie mit Aufschrift "Herzlich willkommen zum OERinfo-Fachtag 2025. Bildungsinfrastrukturen, digital und offen - usOER, researchOER und providOER im Trialog" am 24. Oktober 2025 im DIPF Frankfurt am Main.'
     title: Eröffnung vom OERinfo-Fachtag 2025
@@ -69,6 +70,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'leinwand', 'folie', 'herzlich willkommen', 'oerinfo-fachtag', 'eröffnung', 'gelb', 'beamer', 'fenster', 'hochformat', 'photo', 'screen', 'slide', 'welcome', 'oer info conference', 'opening', 'yellow', 'projector', 'window', 'portrait format']
   20251024_100342-min.jpg:
     alt: 'Johannes vom DIPF mit Mikrofon in der Hand als Moderator beim Trialog von usOER, researchOER und providOER beim OERinfo-Fachtag 2025.'
     title: usOER, researchOER und providOER im Trialog beim OERinfo-Fachtag 2025
@@ -77,6 +79,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['foto', 'moderator', 'mikrofon', 'publikum', 'stuhlreihen', 'triolog', 'oerinfo-fachtag', 'diskussion', 'hochformat', 'dipf', 'photo', 'microphone', 'audience', 'rows of chairs', 'oer info conference', 'discussion', 'portrait format']
 ---
 
 Am 24. Oktober 2025 fand am [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/de/startseite) in Frankfurt am Main der zweite [OERinfo-Fachtag](https://open-educational-resources.de/oerinfo-fachtag-2/) statt – diesmal unter dem Motto „Gemeinsam für mehr Offenheit“. Das Schwerpunktthema: „Bildungsinfrastrukturen, digital und offen – usOER, researchOER und providOER im Trialog“.

@@ -49,6 +49,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['illustration', 'aquarell', 'creative commons', 'youtube-logo', 'rot', 'schriftzug', 'farbspritzer', 'lizenz', 'watercolor', 'youtube logo', 'red', 'lettering', 'paint splatter', 'license']
 ---
 
 ## YouTube – ein Beitrag zu einer Kultur des Teilens und zur Bildungsgerechtigkeit!

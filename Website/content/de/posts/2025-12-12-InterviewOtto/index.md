@@ -66,6 +66,7 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     ai: generated
+    keywords: ['grafik', 'logo', 'oer', 'oep', 'kreis', 'laptop', 'whiteboard', 'haftnotizen', 'communities', 'zwischenfazit', 'tagung', 'ki-generiert', 'graphic', 'circle', 'sticky notes', 'interim conclusion', 'conference', 'ai generated']
 ---
 # Interview mit Prof. Dr. Daniel Otto
 

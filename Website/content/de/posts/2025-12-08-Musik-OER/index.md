@@ -48,6 +48,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC0
     licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/deed
+    keywords: ['illustration', 'engel', 'trompete', 'weihnachten', 'sterne', 'blau', 'gelb', 'schriftzug', 'vintage', 'musik', 'lila gewand', 'angel', 'trumpet', 'christmas', 'stars', 'blue', 'yellow', 'lettering', 'music', 'purple robe']
 ---
 
 „Gloria in excelsis Deo“, „In der Weihnachtsbäckerei“ oder „Oh du fröhliche“ – oder lieber doch nicht?

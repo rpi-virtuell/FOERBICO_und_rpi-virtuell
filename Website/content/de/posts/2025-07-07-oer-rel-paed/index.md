@@ -71,6 +71,7 @@ bilder:
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
+    keywords: ['screenshot', 'titelseite', 'theoweb', 'zeitschrift', 'literaturbericht', 'oer', 'oep', 'religionspädagogik', 'publikation', 'quadratisch', 'title page', 'journal', 'literature review', 'religious education', 'publication', 'square']
 ---
 
 # Open Educational Resources und Open Educational Practices – ein systematischer Literaturbericht im religionspädagogischen Horizont
