@@ -104,7 +104,7 @@ Was können wir gemeinsam entwickeln, ohne das aufzugeben, was uns regional und 
 ![Brunnenkirche Hofgeismar](IMG_3551.jpg)
 ![Schwanenteich Hofgeismar](IMG_3552.jpg)
 
-Die evangelischen Kirchen nehmen mit ihren religionspädagogischen und pädagogisch-theologischen Instituten und Zentren sowie den Ämtern für Religionsunterricht und Religionspädagogik ihre Bildungsverantwortung wahr. Seit 1969 sind diese Einrichtungen in der [Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter (ALPIKA)](https://alpika.de/) miteinander verbunden. In verschiedenen Arbeitsgruppen und einem Geschäftsführenden Ausschuss bearbeitet das Kompetenznetzwerk gesamtkirchliche Aufgaben im Bildungswesen.
+Die evangelischen Kirchen nehmen mit ihren religionspädagogischen und pädagogisch-theologischen Instituten und Zentren sowie den Ämtern für Religionsunterricht und Religionspädagogik ihre Bildungsverantwortung wahr. Seit 1969 sind diese Einrichtungen in der [Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter (ALPIKA)](https://alpika.de/) miteinander verbunden. In verschiedenen Arbeitsgruppen und einem Geschäftsführenden Ausschuss bearbeitet das Netzwerk gesamtkirchliche Aufgaben im Bildungswesen.
 
 Einmal im Jahr kommen die Leitenden der beteiligten Institute zusammen, um aktuelle Entwicklungen zu diskutieren und gemeinsam über die zukünftige Ausrichtung nachzudenken. In diesem Jahr stand dabei ein Thema besonders im Mittelpunkt: Kooperation – und zwar nicht als Zentralisierung, sondern als komplementäre, dezentrale Zusammenarbeit.
 
@@ -148,7 +148,7 @@ Das Ziel: Materialien müssen nicht an einem einzigen zentralen Ort liegen, um g
 
 ### Digitale Fortbildungen gemeinsam denken
 
-Auch bei digitalen Fortbildungen bietet sich eine komplementäre Kooperation an. Eine mögliche Struktur könnte so aussehen:
+Auch bei digitalen Fortbildungen, sofern sie nicht eingeschränkt auf einen spezifisch regionalen Bildungskontext zugeschnitten sind,   bietet sich eine komplementäre Kooperation an. Eine mögliche Struktur könnte so aussehen:
 
 Eine Veranstaltung wird dezentral gemeinsam ausgeschrieben.
 Die Anmeldung bleibt mit den jeweiligen landeskirchlichen Anforderungen kompatibel.
@@ -156,7 +156,7 @@ Die digitale Veranstaltung findet zentral statt.
 Der Teilnahmenachweis funktioniert bundeslandkompatibel.
 Die regionale Teilnahmebescheinigung wird weiterhin durch die jeweils zuständige Einrichtung ausgestellt.
 
-So könnten gemeinsame digitale Angebote entstehen, ohne die regionalen Zuständigkeiten und Anforderungen aufzugeben.
+So könnten gemeinsame digitale Angebote entstehen, ohne die regionalen Zuständigkeiten und Anforderungen aufzugeben. Auch hier ist ein passender digitaler Workflow zu entwickeln, der dezentral gemeinsam nutzbar ist.
 
 ### Themen gemeinsam bearbeiten
 
@@ -181,7 +181,7 @@ Im Idealfall könnten Veranstaltungen direkt in bestehende Kalendersysteme der N
 
 ### Themen: Eine „Spontan-ALPIKA-Arbeitsgruppe“
 
-Besonders viel Potenzial wurde in einer thematisch vertiefenden und flexiblen Zusammenarbeit gesehen. Für konkrete Fragestellungen könnten sich zeitlich begrenzte Arbeitsgruppen aus drei oder vier Instituten zusammenfinden – je nachdem, wo Interesse und Expertise vorhanden sind. Bei Bedarf könnten auch Gäste aus der evangelischen Bildungslandschaft einbezogen werden. So entsteht Zusammenarbeit dort, wo sie gerade gebraucht wird, ohne dauerhaft neue Strukturen zu schaffen. Dabei soll auch die Perspektive kleinerer Institute mit ihren spezifischen Prägungen und Erfahrungen Raum finden. Offen bleibt, wie mit Themen umgegangen wird, für die sich zunächst keine Gruppe findet. Ebenso stellt sich die Frage nach einer geeigneten dezentralen technischen Infrastruktur. Ein nächster möglicher Schritt wäre daher ein Austausch der IT-Verantwortlichen der verschiedenen Institute. Qualitätssicherung und Datensicherheit müssen dabei von Anfang an mitgedacht werden.
+Besonders viel Potenzial wurde in einer thematisch vertiefenden und flexiblen Zusammenarbeit gesehen. Für konkrete Fragestellungen könnten sich zeitlich begrenzte Arbeitsgruppen aus drei oder vier Instituten zusammenfinden – je nachdem, wo Interesse und Expertise vorhanden sind. Bei Bedarf könnten auch Gäste aus der weiteren evangelischen Bildungslandschaft einbezogen werden. So entsteht Zusammenarbeit dort, wo sie gerade gebraucht wird, ohne dauerhaft neue Strukturen zu schaffen. Dabei soll auch die Perspektive kleinerer Institute mit ihren spezifischen Prägungen und Erfahrungen Raum finden. Offen bleibt, wie mit Themen umgegangen wird, für die sich zunächst keine Gruppe findet. Ebenso stellt sich die Frage nach einer geeigneten dezentralen technischen Infrastruktur. Ein nächster möglicher Schritt wäre daher ein Austausch der IT-Verantwortlichen der verschiedenen Institute. Qualitätssicherung und Datensicherheit müssen dabei von Anfang an mitgedacht werden.
 
 ![Kleingruppenergebnisse-Themen](IMG_3554.jpg)
 
