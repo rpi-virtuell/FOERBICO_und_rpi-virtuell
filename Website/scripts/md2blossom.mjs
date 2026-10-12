@@ -41,6 +41,7 @@
  *
  * Der Block ist Eingabe zum Prägen; das kind:1063 auf dem Relay ist Wahrheit
  * (Spec 2026-09-07, Teil 3). Abbildung auf das 1063:
+ *   keywords→t (je Schlagwort, lowercase) ·
  *   title→title · author→credit · authorUrl→authorUrl · licenceUrl→license ·
  *   sourceUrl→source · modification→modification · alt→alt · pubkey→p · ai→ai
  *   url, x, m, size rechnet das Skript aus der Datei. Ein ai-Wert außer
@@ -257,6 +258,20 @@ if (meta.license) tags30023.push(['license', meta.license]);
 const ev30023 = { kind: 30023, pubkey: PUBKEY, created_at: now, content: body.trim() + '\n', tags: tags30023 };
 writeFileSync(join(OUT, `${slug}.30023.json`), JSON.stringify(ev30023, null, 2));
 
+// Schlagworte aus dem Block als t-Tag-Werte (wie mdparser/sync/core/bilder.ts schlagworte):
+// getrimmt, lowercase (NIP-24), ohne führendes #, ohne Leere und Dubletten; deutsch und
+// englisch ohne Sprachmarker nebeneinander. Ein einzelner String ist ein Schlagwort.
+function schlagworte(w) {
+  const liste = Array.isArray(w) ? w : typeof w === 'string' ? [w] : [];
+  const out = [];
+  for (const k of liste) {
+    if (typeof k !== 'string') continue;
+    const v = k.trim().replace(/^#+/, '').toLowerCase();
+    if (v && !out.includes(v)) out.push(v);
+  }
+  return out;
+}
+
 // 1063 je genutztem Bild mit Eintrag — Tag-Form wie foerbico-editor (bilder.js, nachweisEvent)
 let n1063 = 0;
 for (const key of used) {
@@ -274,6 +289,7 @@ for (const key of used) {
   if (l.authorUrl) tags.push(['authorUrl', l.authorUrl]);
   if (l.modification) tags.push(['modification', l.modification]);
   if (l.pubkey) tags.push(['p', l.pubkey]);
+  for (const k of schlagworte(l.keywords)) tags.push(['t', k]);
   if (kiWert(l)) tags.push(['ai', l.ai]);
   else if (l.ai) console.warn(`Warnung: ai-Wert „${l.ai}" bei ${key} unbekannt (erlaubt: generated, modified) — kein ai-Tag`);
   writeFileSync(join(OUT, `${slug}.1063.${img.hash.slice(0, 8)}.json`),

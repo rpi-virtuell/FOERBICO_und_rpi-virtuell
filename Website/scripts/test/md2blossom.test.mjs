@@ -52,6 +52,7 @@ bilder:
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
     sourceUrl: https://example.org/quelle
     modification: beschnitten
+    keywords: [Titelbild, 'Cover Image', titelbild, '']
     ai: modified
   Ohne.png:
     # licenceUrl:
@@ -109,6 +110,8 @@ test('Migration: Frontmatter, Endung, Caption, bilder-Block, TODO', () => {
   assert.equal(tag('authorUrl'), 'https://example.org/joerg');
   assert.equal(tag('modification'), 'beschnitten');
   assert.equal(tag('alt'), 'Ein Titelbild');
+  // Schlagworte (keywords) → t-Tags lowercase, ohne Dubletten und Leere, vor ai
+  assert.deepEqual(ev.tags.filter((t) => t[0] === 't'), [['t', 'titelbild'], ['t', 'cover image']]);
   // KI-Kennzeichnung (edufeed-Wiki license-events-nope): ai als letzter Tag
   assert.deepEqual(ev.tags.at(-1), ['ai', 'modified']);
   assert.equal(Object.keys(r.dateien).filter((f) => f.includes('.1063.')).length, 1, 'kein 1063 ohne Lizenz');

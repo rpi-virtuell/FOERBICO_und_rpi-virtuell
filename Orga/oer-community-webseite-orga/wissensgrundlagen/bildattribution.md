@@ -33,7 +33,7 @@
 Die Caption-Zeile steht **auf der Zeile direkt nach dem Bild** (Zeilenumbruch, kein Leerzeichen dazwischen). Die KI-Kennzeichnung (`KI-generiert` oder `KI-verändert`, aus dem Feld `ai`) steht nur, wenn KI beteiligt war, und dann direkt hinter der Lizenz.
 
 ## Regeln
-1. **Reihenfolge der Felder:** `alt`, `imageUrl`, `title`, `sourceUrl`, `author`, `authorUrl`, `licence`, `licenceUrl`, `modification`, `ai`. Die Reihenfolge ist **normativ**, damit Parser sich darauf verlassen können. In der Caption steht die KI-Kennzeichnung aus `ai` **vor** `modification`, direkt hinter der Lizenz (edufeed-Wiki: „AI-Marke neben dem Lizenz-Badge“).
+1. **Reihenfolge der Felder:** `alt`, `imageUrl`, `title`, `sourceUrl`, `author`, `authorUrl`, `licence`, `licenceUrl`, `modification`, `ai`, `keywords`. Die Reihenfolge ist **normativ**, damit Parser sich darauf verlassen können. In der Caption steht die KI-Kennzeichnung aus `ai` **vor** `modification`, direkt hinter der Lizenz (edufeed-Wiki: „AI-Marke neben dem Lizenz-Badge“).
 2. **Trenner:** Komma + Leerzeichen (`, `) zwischen den Caption-Feldern. Einheitlich, kein Mix aus „von", „Autor", „Lizenz", usw.
 3. **Verlinkungen:**
    - `title` → `sourceUrl`
@@ -44,6 +44,7 @@ Die Caption-Zeile steht **auf der Zeile direkt nach dem Bild** (Zeilenumbruch, k
 6. **Bearbeitungen:** Bei CC-BY-Lizenzen ist die Änderung anzugeben, sobald das Werk verändert wurde (Zuschnitt, Farbe, Skalierung, Kombination usw.). Bei CC0 optional.
 7. **Barrierefreiheit:** `alt` ist formal optional, aber für WCAG/BITV-Konformität faktisch Pflicht. Leere eckige Klammern `![]` nur bei rein dekorativen Bildern.
 8. **KI-Beteiligung:** `ai: generated` für vollständig KI-generierte Bilder (menschlich ist nur der Prompt), `ai: modified` für bestehende, von Menschen gemachte Bilder, die mit KI teilweise verändert wurden. Genau diese zwei Werte, höchstens einmal je Bild; sie folgen den Icons des EU AI Office für die Kennzeichnung nach EU AI Act (edufeed-Wiki `license-events-nope`, Fassung 2026-09-10). Kein `ai` heißt „nicht deklariert“, **nicht** „ohne KI“. Die Kennzeichnung ersetzt weder Lizenz noch Urheber:in: `author` nennt, wer geprompt oder bearbeitet hat.
+10. **Schlagworte:** `keywords` ist eine YAML-Liste (`keywords: [kirche, church, barcamp]`), nicht Teil der Caption. Sie beschreibt, *was zu sehen ist* und *wofür das Bild taugt*, nicht den Beitrag, in dem es steht (dafür gibt es `tags` im Hugo-Frontmatter). Deutsch und Englisch stehen ohne Sprachmarker nebeneinander, je Begriff ein Eintrag; die Werkzeuge schreiben sie als `t`-Tags in lowercase. Faustregel 3 bis 8 Begriffe je Sprache: Motiv, Bildart (`foto`, `illustration`, `screenshot`, `logo`), Kontext. Schlagworte sind vom Lizenznachweis unabhängig; wer sie ergänzt, prägt ein neues `kind:1063` mit demselben Hash, das neueste gilt.
 9. **Geschützte Logos und Marken:** Logos von Institutionen sind urheberrechtlich und meist markenrechtlich geschützt und werden nicht frei lizenziert. Sie bekommen trotzdem einen Eintrag im Block, sonst fehlt der Nachweis und die Werkzeuge melden `TODO:LICENSE`: `licence: ©`, `licenceUrl: https://www.gesetze-im-internet.de/urhg/`, `author` = die Institution, `authorUrl` = deren Homepage, `sourceUrl` = der Beitrag, in dem das Logo steht. Die Caption lautet dann `[title](sourceUrl), [Institution](authorUrl), [©](licenceUrl)`. Präzedenzfall: Beitrag hello-world (16.09.2026) mit den Logos von Comenius-Institut, Goethe-Universität Frankfurt und FAU Erlangen-Nürnberg.
 
 ## (Pflicht)-Felder
@@ -60,6 +61,7 @@ Die Caption-Zeile steht **auf der Zeile direkt nach dem Bild** (Zeilenumbruch, k
 | `title` | optional | Titel des Werks |
 | `alt` | optional (faktisch Pflicht für Accessibility) | Screen-Reader-Beschreibung |
 | `ai` | optional (Pflicht bei KI-Beteiligung) | `generated` oder `modified`, sonst weglassen (Regel 8) |
+| `keywords` | optional | Liste von Schlagworten zur Erschließung, deutsch und englisch nebeneinander (Regel 10) |
 
 
 ### Minimale Beispieldarstellung
@@ -113,6 +115,7 @@ Abbildung auf die Tags des `kind:1063` (edufeed-kompatibel, FOERBICO-Zusatzfelde
 | `modification` | `modification` | Zusatzfeld |
 | `pubkey` | `p` | optional |
 | `ai` | `ai` | `generated` \| `modified`; anderer Wert → kein Tag (edufeed-Wiki 2026-09-10) |
+| `keywords` | `t` (je Schlagwort) | lowercase nach NIP-24, getrimmt, ohne `#`, Dubletten entfallen; vor `ai` (Issue kind-1063-Schlagworte, 2026-10-12) |
 
 Im Fließtext schreibt `md2blossom` aus dem Block die Caption-Zeile nach der Konstruktion oben direkt unter das Bild. Eigene Fotos folgen der Footer-Regel von oer.community (CC BY FOERBICO, `sourceUrl` = der Beitrag); fremde Werke tragen Urheber:in, Quelle und deren Lizenz. Was nicht frei lizenziert werden darf, bekommt keinen Eintrag und damit keinen Nachweis.
 
