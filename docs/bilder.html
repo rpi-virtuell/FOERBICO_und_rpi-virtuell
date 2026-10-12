@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FOERBICO Bilder</title>
 <meta name="description" content="Mini-Client: durchsucht die kind:1063-Lizenznachweise auf den edufeed-Relays und zeigt die Bilder mit Lizenz, Urheber:in und Schlagworten.">
+<link rel="preconnect" href="https://edufeed.org">
+<link rel="preconnect" href="https://blossom.edufeed.org">
 <style>
   :root {
     --bg: #f7f6f2; --fg: #1d1d1b; --muted: #6b6a66; --card: #ffffff; --line: #e2e0d9;
@@ -114,7 +116,7 @@
 <footer>
   Quelle: Nostr-Events kind 1063 mit <code>license</code>- und <code>credit</code>-Tag; Schlagworte aus <code>t</code>-Tags. Je Datei-Hash gilt das neueste Event.
   Parameter: <code>?author=&lt;hex&gt;</code> (Komma-Liste), <code>?all=1</code> (alle Autor:innen), <code>?relays=wss://…,wss://…</code>.
-  Signaturen werden hier nicht geprüft.
+  Vorschaubilder kommen verkleinert über den Bild-Proxy von edufeed (<code>edufeed.org/api/image</code>), <code>?proxy=0</code> lädt die Originale. Signaturen werden hier nicht geprüft.
 </footer>
 
 <script>
@@ -122,10 +124,16 @@
   const FOERBICO = '5a12b41ec15b466321e88c371be2dc47d9193f9c8bba4ab09fc50045bd35aedf';
   const DEFAULT_RELAYS = ['wss://relay-rpi.edufeed.org', 'wss://relay.edufeed.org', 'wss://amb-relay.edufeed.org'];
   const PAGE = 500;
+  // Bild-Proxy von edufeed-app (sharp → WebP, Cache 1 Tag): ?url=…&w=…&h=…&q=…&fit=cover|inside&fmt=webp|jpeg|png.
+  // Thumbnails ~5 KB statt ~1 MB Original. Abschaltbar mit ?proxy=0; bei Fehler fällt <img> aufs Original zurück.
+  const PROXY = 'https://edufeed.org/api/image';
   const params = new URLSearchParams(location.search);
   const authors = params.get('all') ? null : (params.get('author') || FOERBICO).split(',').map(s => s.trim()).filter(Boolean);
   const relays = (params.get('relays') || '').split(',').map(s => s.trim()).filter(Boolean);
   const RELAYS = relays.length ? relays : DEFAULT_RELAYS;
+  const useProxy = params.get('proxy') !== '0';
+  const proxied = (url, w, h, fit = 'cover') => useProxy ? `${PROXY}?url=${encodeURIComponent(url)}&w=${w}${h ? '&h=' + h : ''}&q=75&fit=${fit}` : url;
+  const thumbSrcset = (url) => useProxy ? `${proxied(url, 400, 300)} 400w, ${proxied(url, 800, 600)} 800w` : '';
 
   const $ = (id) => document.getElementById(id);
   const events = new Map();      // id -> event
@@ -282,7 +290,7 @@
     const list = filtered();
     $('grid').innerHTML = list.map((it, i) => `
       <article class="card" data-i="${items.indexOf(it)}" title="${esc(it.alt || it.title)}">
-        <div class="img"><img loading="lazy" decoding="async" src="${esc(it.thumb)}" alt="${esc(it.alt || it.title)}"></div>
+        <div class="img"><img loading="lazy" decoding="async" src="${esc(proxied(it.thumb, 400, 300))}" srcset="${esc(thumbSrcset(it.thumb))}" sizes="(max-width: 480px) 50vw, 240px" data-orig="${esc(it.thumb)}" alt="${esc(it.alt || it.title)}"></div>
         <div class="body">
           <div class="title">${esc(it.title || it.alt || '(ohne Titel)')}</div>
           <div class="meta"><span class="badge ${it.lic.open ? 'open' : ''}">${esc(it.lic.label)}</span>${it.ai ? '<span class="badge ai">KI ' + esc(it.ai) + '</span>' : ''}<span>${esc(it.credit)}</span></div>
@@ -331,7 +339,7 @@
     const dlg = $('dlg');
     dlg.innerHTML = `
       <div class="detail">
-        <div class="pic"><img src="${esc(it.url)}" alt="${esc(it.alt)}"></div>
+        <div class="pic"><img src="${esc(proxied(it.url, 1600, 1080, 'inside'))}" data-orig="${esc(it.url)}" alt="${esc(it.alt)}"></div>
         <div class="info">
           <button class="close" aria-label="Schließen" data-close>×</button>
           <h2>${esc(it.title || '(ohne Titel)')}</h2>
@@ -362,6 +370,10 @@
   }
 
   // ---------- Interaktion ----------
+  document.addEventListener('error', (e) => {
+    const img = e.target;
+    if (img && img.tagName === 'IMG' && img.dataset.orig && img.src !== img.dataset.orig) { img.removeAttribute('srcset'); img.src = img.dataset.orig; }
+  }, true);
   let debounce;
   $('q').addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => { renderTags(); render(); }, 120); });
   for (const id of ['lic', 'ai', 'sort', 'open']) $(id).addEventListener('change', () => { renderTags(); render(); });
