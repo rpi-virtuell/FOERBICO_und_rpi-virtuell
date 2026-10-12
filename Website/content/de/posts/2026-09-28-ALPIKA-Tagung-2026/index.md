@@ -3,7 +3,7 @@
 '@context': https://schema.org/
 creativeWorkStatus: Published
 name: 'ALPIKA-Leitendentagung - (Komplementäre) Kooperationen, aber wie?'
-description: 'Wie kann kirchliche Bildungsarbeit gemeinsam und zugleich dezentral gestaltet werden? Die ALPIKA-Leitendentagung widmete sich neuen Wegen komplementärer Kooperation – von Materialien und Veranstaltungen bis hin zu digitalen Infrastrukturen.'
+description: 'Wie kann kirchliche Bildungsarbeit gemeinsam und zugleich dezentral gestaltet werden? Die ALPIKA-Leitendentagung widmete sich neuen Wegen komplementärer Kooperation - von Materialien und Veranstaltungen bis hin zu digitalen Infrastrukturen.'
 license: https://creativecommons.org/licenses/by/4.0/deed.de
 id: https://oer.community/alpika-tagung-2026
 creator:
@@ -106,29 +106,13 @@ Was können wir gemeinsam entwickeln, ohne das aufzugeben, was uns regional und 
 
 Die evangelischen Kirchen nehmen mit ihren religionspädagogischen und pädagogisch-theologischen Instituten und Zentren sowie den Ämtern für Religionsunterricht und Religionspädagogik ihre Bildungsverantwortung wahr. Seit 1969 sind diese Einrichtungen in der [Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter (ALPIKA)](https://alpika.de/) miteinander verbunden. In verschiedenen Arbeitsgruppen und einem Geschäftsführenden Ausschuss bearbeitet das Netzwerk gesamtkirchliche Aufgaben im Bildungswesen.
 
-Einmal im Jahr kommen die Leitenden der beteiligten Institute zusammen, um aktuelle Entwicklungen zu diskutieren und gemeinsam über die zukünftige Ausrichtung nachzudenken. In diesem Jahr stand dabei ein Thema besonders im Mittelpunkt: Kooperation – und zwar nicht als Zentralisierung, sondern als komplementäre, dezentrale Zusammenarbeit.
+Einmal im Jahr kommen die Leitenden der beteiligten Institute zusammen, um aktuelle Entwicklungen zu diskutieren und gemeinsam über die zukünftige Ausrichtung nachzudenken. In diesem Jahr stand dabei ein Thema besonders im Mittelpunkt: Kooperation und zwar nicht als Zentralisierung, sondern als komplementäre, dezentrale Zusammenarbeit.
 
 ## Was passiert, wenn wir nicht mehr weitermachen können wie bisher?
 
-Einen wichtigen Impuls gab Bischöfin Dr. Beate Hofmann. Im Gespräch ging es zunächst um Transformationsprozesse in den Kirchen und die Frage, was passiert, wenn Einsparungen in Größenordnungen von 30, 50 oder sogar 70 Prozent notwendig werden.
+Im Gespräch ging es um Transformationsprozesse in den Kirchen und die Frage, wie sich kirchliche Arbeit verändert, wenn Einsparungen in Größenordnungen von 30, 50 oder sogar 70 Prozent notwendig werden. Das drastischste Szenario machte deutlich: Bei Einsparungen von 70 Prozent reicht es nicht, innerhalb bestehender Strukturen einfach weniger zu tun. Es braucht einen grundlegenden Strukturwechsel und die Bereitschaft, neue Wege zu gehen. Wie Kooperationen dabei entstehen können, zeigte Hofmann anhand verschiedener Beispiele, etwa die Zusammenarbeit von evangelischer und katholischer Kirche bei gemeinsamen Veranstaltungen oder Kooperationen im Hochschulbereich. Sie verdeutlichten, dass Zusammenarbeit nicht immer aus einem fertigen Konzept entsteht, sondern oft aus der Erkenntnis, dass sich Herausforderungen gemeinsam besser bewältigen lassen und neue Wege auch neue Perspektiven eröffnen.
 
-Der Ausgangspunkt war bewusst das drastischste Szenario: **70 Prozent Einsparungen**. Denn bei einer solchen Größenordnung wird deutlich, dass es nicht mehr genügt, innerhalb bestehender Strukturen einfach weniger zu tun. Es braucht einen Strukturwechsel.
-
-### Wie Kooperationen dabei entstehen können, zeigte Hofmann anhand verschiedener Beispiele.
-
-Beim Hessentag etwa hatten evangelische und katholische Kirche zunächst versucht, jeweils eigene Angebote zu gestalten. Das Ergebnis: mäßiger Erfolg und die Erkenntnis, dass ein gemeinsames Vorgehen notwendig ist. Im darauffolgenden Jahr änderte sich die Haltung: Egal was, Hauptsache zusammen.
-
-Aus dieser Entscheidung entwickelte sich ein gemeinsamer Flow. Die Zusammenarbeit wurde nachhaltiger. Und damit veränderte sich auch die Fragestellung: Nicht mehr „*Warum sollen wir das gemeinsam machen?*“, sondern zunehmend „*Warum eigentlich nicht zusammen?*“
-
-Ein ähnlicher Prozess zeigte sich bei der Zusammenlegung von Hochschulen. Auch hier war lange unklar, wie eine gemeinsame Zukunft aussehen könnte. Irgendwann stand die Erkenntnis im Raum: *Wir müssen es gemeinsam schaffen, sonst sterben wir beide.*
-
-Kooperation entsteht damit nicht immer aus einem fertigen Konzept. Manchmal entsteht sie aus der Notwendigkeit, neue Wege zu gehen – und daraus, dass Menschen bereit sind, sich auf diesen gemeinsamen Weg einzulassen.
-
-### Kirche in Veränderung: Demokratiebildung und ländlicher Raum
-
-Ein weiterer Schwerpunkt des Gesprächs war die Demokratiebildung. Gerade im ländlichen Raum stellt sich angesichts von Strukturveränderungen und des Erstarkens rechtspopulistischer Kräfte die Frage: Wie bleiben kirchliche Bildungsangebote für Menschen erreichbar, wenn sich die Kirche aus Regionen zurückziehen muss? Dabei geht es auch um eine neue Perspektive auf kirchliche Räume. Wie können Kirchengebäude anders genutzt werden? Wie können sie Orte gesellschaftlicher Begegnung und demokratischer Bildung bleiben?
-
-Projekte wie „[Dorfkirche mon amour](https://dorfkirchemonamour.de/)“ zeigen, dass kirchliche Räume auch jenseits klassischer Gemeindeangebote neu gedacht werden können. Auch ein Code of Conduct für den Umgang mit Rechtspopulismus kann dabei Orientierung geben: Wie positionieren wir uns? Wie gestalten wir Gespräche? Und wie können kirchliche Bildungseinrichtungen ihre Verantwortung für demokratische Kultur wahrnehmen?
+Ein weiterer Schwerpunkt des Gesprächs war die Demokratiebildung. Gerade im ländlichen Raum stellt sich angesichts struktureller Veränderungen und des Erstarkens rechtspopulistischer Kräfte die Frage, wie kirchliche Bildungsangebote für Menschen erreichbar bleiben, wenn sich die Kirche aus kleineren Regionen zurückziehen muss. Dabei geht es auch darum, kirchliche Räume neu zu denken: Wie können Kirchengebäude Orte gesellschaftlicher Begegnung und demokratischer Bildung bleiben? Projekte wie „[Dorfkirche mon amour](https://dorfkirchemonamour.de/)“ zeigen, welche Möglichkeiten jenseits klassischer Gemeindeangebote entstehen können. Auch ein Code of Conduct für den Umgang mit Rechtspopulismus kann Orientierung geben: Wie positionieren wir uns, wie gestalten wir Gespräche und wie nehmen kirchliche Bildungseinrichtungen ihre Verantwortung für eine demokratische Kultur wahr?
 
 ## Dezentral gemeinsam: Ein anderer Weg der Kooperation
 
