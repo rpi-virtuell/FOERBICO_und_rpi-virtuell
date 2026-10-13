@@ -26,6 +26,6 @@ steps:
       script:
         - ls -la MyLog
         - cat MyLog/*
-        - ls -la "$DOMAIN_FOLDER/""
-        - ls -la "$DOMAIN_FOLDER/Log/""
+        - ls -la "$DOMAIN_FOLDER/"
+        - ls -la "$DOMAIN_FOLDER/Log/"
         - touch "$DOMAIN_FOLDER/$TARGET_PATH/i-was-here"
