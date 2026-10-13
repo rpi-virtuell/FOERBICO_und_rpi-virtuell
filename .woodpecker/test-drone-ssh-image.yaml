@@ -21,10 +21,11 @@ steps:
       port:
         from_secret: ssh_port
       envs:
-        - domain_folder
-        - target_path
+        - DOMAIN_FOLDER
+        - TARGET_PATH
       script:
         - ls -la MyLog
         - cat MyLog/*
+        - ls -la $DOMAIN_FOLDER/
         - ls -la $DOMAIN_FOLDER/Log/
         - touch $DOMAIN_FOLDER/$TARGET_PATH/i-was-here
