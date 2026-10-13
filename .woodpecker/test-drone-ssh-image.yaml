@@ -24,8 +24,7 @@ steps:
         - DOMAIN_FOLDER
         - TARGET_PATH
       script:
-        - ls -la MyLog
-        - cat MyLog/*
-        - ls -la $DOMAIN_FOLDER/
-        - ls -la $DOMAIN_FOLDER/Log/
-        - touch $DOMAIN_FOLDER/$TARGET_PATH/i-was-here
+        - pwd
+        - ls -la
+        - echo "[$DOMAIN_FOLDER]" | sed 's/./& /g'
+        - echo "[$TARGET_PATH]" | sed 's/./& /g'
