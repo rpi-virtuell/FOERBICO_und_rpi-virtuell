@@ -1,88 +1,167 @@
-# 🖼️ OER und das vermeintliche Bildlizenz-Dilemma
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Draft
+type: LearningResource
+name: 'OER und das vermeintliche Bildlizenz-Dilemma – ein FAQ für die Praxis'
+description: >-
+  Sobald Bilder ins Spiel kommen, wird OER für viele kompliziert: Unsicherheit bei Lizenzen, Angst vor Abmahnungen, die Sorge, etwas falsch zu machen. Dieses FAQ beantwortet die Fragen, die uns aus der Praxis am häufigsten begegnen: Google-Bilder, eigene Fotos, KI-Bilder, Canva, die Schranke des § 60a UrhG, freie Bilddatenbanken und der richtige Nachweis. Dazu ein Ampelsystem für die Bildnutzung, das wir zur Diskussion stellen.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/bildlizenz-dilemma
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Jörg
+    familyName: Lohrer
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+datePublished: '2026-06-11'   # TODO: beim Veröffentlichen auf das Erscheinungsdatum setzen
+keywords:
+  - OER
+  - Bildlizenzen
+  - Creative Commons
+  - Urheberrecht
+  - KI-Kennzeichnung
+  - Bilddatenbanken
+  - Bildnachweis
+  - FOERBICO
 
-Die Erstellung von Open Educational Resources (OER) sollte eigentlich niedrigschwellig, kreativ und unkompliziert sein. Doch sobald Bilder ins Spiel kommen, wird es für viele kompliziert: Unsicherheit bei Lizenzen, Angst vor Abmahnungen und die Sorge, etwas falsch zu machen. Das Ergebnis ist oft paradox: Materialien werden gar nicht erst veröffentlicht oder nur stark eingeschränkt genutzt, obwohl OER eigentlich genau das Gegenteil ermöglichen soll.
+# staticSiteGenerator
+author:
+  - Gina Buchwald-Chassée
+  - Jörg Lohrer
+title: 'OER und das vermeintliche Bildlizenz-Dilemma'
+cover:
+  relative: true
+  image: TODO-titelbild.jpg
+  alt: 'TODO – Alt-Text des Titelbilds'
+  hiddenInSingle: false
+summary: >-
+  Bilder machen OER kompliziert – müssen sie aber nicht. Die Fragen aus der Praxis als FAQ: Was darf ich, was nicht, wo finde ich freie Bilder, wie weise ich richtig nach? Dazu ein Ampelsystem für die Bildnutzung zur Diskussion.
+url: bildlizenz-dilemma
+tags:
+  - OER
+  - Bildlizenzen
+  - Urheberrecht
+  - Creative Commons
+  - KI-Kennzeichnung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+# TODO: Titelbild anlegen (Vorschlag: eigenes Motiv mit ai: generated, Prompt dokumentieren) und Eintrag ergänzen.
+bilder: {}
+---
 
-## Die Bildlizenzproblematik ist nicht OER-spezifisch
+Die Erstellung von Open Educational Resources sollte niedrigschwellig, kreativ und unkompliziert sein. Doch sobald Bilder ins Spiel kommen, wird es für viele kompliziert: Unsicherheit bei Lizenzen, Angst vor Abmahnungen, die Sorge, etwas falsch zu machen. Das Ergebnis ist oft paradox: Materialien werden gar nicht erst veröffentlicht oder nur stark eingeschränkt genutzt, obwohl OER genau das Gegenteil ermöglichen soll.
 
-Ein zentraler Punkt, der häufig übersehen wird: Das Urheberrecht gilt immer, unabhängig davon, ob es ein OER-Material ist oder nicht!
+Die gute Nachricht vorweg: Das „Bildlizenz-Dilemma“ ist kein OER-Problem. Es ist ein Problem digitaler Mediennutzung überhaupt, und OER ist der Teil davon, der eine Lösung hat.
 
-Das bedeutet: Auch klassische Unterrichtsmaterialien ohne CC-Lizenz können urheberrechtlich problematisch sein.
-Auch „normale“ Blogbeiträge, Präsentationen oder Websites können Rechte verletzen, denn die Online-Verfügbarkeit bedeutet nicht automatisch Nutzungsrecht. Ein Bild aus einer Google-Suche oder von einer beliebigen Website zu übernehmen ist also nicht „neutraler“ oder „sicherer“, nur weil es kein OER ist, ganz im Gegenteil: Oft ist unklarer, was erlaubt ist und das Risiko der Verletzung von Bildrechten ist sogar größer.
+Dieses FAQ sammelt die Fragen, die uns in Workshops und Beratungen am häufigsten begegnen. Wer wissen will, wie wir in FOERBICO und edufeed den Lizenznachweis technisch *an das Bild selbst* hängen, maschinenlesbar und signiert, liest danach den Beitrag [„Ein Bild, das seine Lizenz kennt“](https://oer.community/bildlizenzen-maschinenlesbar/).
 
-⚠️ **Achtung**: 
+## Muss ich bei OER besonders auf Bildrechte achten?
 
-- Auch Coverbilder, Logos, Screenshots o.Ä. stehen unter Copyright und dürfen nicht einfach ohne schriftliche Genehmigung verwendet werden. 
-- Auch Marken- und Personenrechte müssen beachtet werden und erfordern ggf. zusätzliche Genehmigungen wie Fotofreigaben. Insbesondere, wenn Minderjährige abgebildet sind, braucht es die Zustimmung der Eltern! 
-- Selbst wenn ihr eigene Fotos verwendet, solltet ihr kritisch prüfen, was oder wer abgebildet ist. Sind Personen nicht erkennbar, dürft ihr das Bild auch ohne Freigabe verwenden! 
-- Auch KI-generierte Bilder sind nicht automatisch gemeinfrei und sollten ausgewiesen werden. Beachtet immer die Bedingungen der jeweiligen Anbieter!
-- Ausnahme: [Die 15%-Regel aus § 60a für Unterricht und Lehre](https://open-educational-resources.de/ausnahmen-vom-urheberrecht/). Das gilt auch für [Wissenschaft und Forschung](https://www.uni-bremen.de/urheberrecht/wissensplattform/6-sonderfall-wissenschaftliche-forschung). Das heißt ihr dürft z.B. wissenschaftliche Abbildungen verwenden, aber auch diese müssen korrekt ausgewiesen werden! Mehr dazu auch vom [Deutschen Bibliotheksverband](https://www.bibliotheksverband.de/sites/default/files/2024-08/Urheberrecht_Bildung_Wissenschaft_Kultur.pdf) sowie [irights.info](https://irights.info/artikel/cc-lizenz-und-gesetzliche-nutzungserlaubnisse/32561).  
+Nein, nicht *besonders*. Das Urheberrecht gilt immer, unabhängig davon, ob ein Material eine CC-Lizenz trägt oder nicht. Auch klassische Unterrichtsmaterialien, „normale“ Blogbeiträge, Präsentationen oder Websites können Rechte verletzen. Online-Verfügbarkeit bedeutet nicht Nutzungsrecht.
 
-💡 **Tipp**: Alternativen suchen und Bilder ggf. ersetzen, z.B. durch eigene Zeichnungen oder Bilder unter freier Lizenz verwenden oder wenn möglich Link zum Bild statt Bilddatei verwenden!
+Ein Bild aus der Google-Suche oder von einer beliebigen Website zu übernehmen ist also nicht „sicherer“, nur weil es kein OER ist, im Gegenteil: Dort ist meist unklarer, was erlaubt ist, und das Risiko ist größer. Der Unterschied bei OER ist nicht, dass mehr Regeln gelten, sondern dass die Regeln sichtbar sind.
 
-Mehr dazu 👉 https://oer.community/oer-und-oep/lernmodul/
+## Ich habe das Bild selbst fotografiert. Darf ich es verwenden?
 
-## OER als Chance: Rechtssicherheit durch klare Lizenzen
+Meistens ja, aber prüft kritisch, *was* oder *wer* abgebildet ist. Marken- und Personenrechte gelten unabhängig vom Urheberrecht. Sind Personen erkennbar, braucht es eine Fotofreigabe; sind Minderjährige abgebildet, die Zustimmung der Eltern. Sind Personen nicht erkennbar, dürft ihr das Bild auch ohne Freigabe verwenden.
 
-Hier liegt der eigentliche Vorteil von OER im Bildkontext: OER basiert auf klar definierten offenen Lizenzen, z.B. von [Creative Commons](https://creativecommons.org/).
+Auch Coverbilder, Logos und Screenshots stehen unter Copyright und dürfen nicht ohne schriftliche Genehmigung verwendet werden, selbst wenn ihr den Screenshot selbst gemacht habt.
 
-Wenn diese korrekt angewendet werden, entsteht ein hoher Grad an Rechtssicherheit:
+## Ich habe das Bild mit KI erzeugt. Ist es dann gemeinfrei?
 
-- Nutzung ist erlaubt
-- Bearbeitung ist erlaubt (je nach Lizenz)
-- Weitergabe ist erlaubt
-- Bedingungen sind transparent (z.B. Namensnennung)
+Nicht automatisch. Was mit einem KI-Bild erlaubt ist, hängt von den Bedingungen des jeweiligen Anbieters ab, und die unterscheiden sich. Ein KI-Bild, das auf Stock-Material aufsetzt (etwa aus der Canva-Bibliothek), darf nicht offen weitergegeben werden, auch wenn es durch einen KI-Filter gelaufen ist.
 
-Inzwischen gibt es auch viele **Bilddatenbanken** mit frei verfügbaren Bildern unter CC-Lizenz, z.B.:
+Was ihr in jedem Fall tun solltet: das Bild als KI-generiert ausweisen und nennen, wer geprompted hat. Das ist keine Formalie, sondern seit dem EU AI Act eine [Transparenzpflicht](https://artificialintelligenceact.eu/article/50/). Wie wir die KI-Kennzeichnung als eigenes Feld im Lizenznachweis führen, steht im [Technik-Beitrag](https://oer.community/bildlizenzen-maschinenlesbar/#was-das-für-autorinnen-bedeutet).
 
-- [Openverse](https://openverse.org/)
+## Canva, Pixabay, Unsplash – das ist doch alles kostenlos?
+
+Kostenlos ist nicht frei. Bilder aus der Canva-Bibliothek, von Unsplash, Pixabay & Co. stehen unter der jeweiligen Anbieter-Lizenz, und die erlaubt meist die Nutzung im eigenen Design, aber nicht die Weitergabe des Bildes an Dritte. Für OER, die ja weitergegeben werden sollen, ist das ein Problem. Gekaufte Bilder von iStock oder Getty Images sind ebenfalls nicht weiterverwendbar; sie müssen ausgewiesen werden und dürfen nicht unter CC gestellt werden. Ausführlich dazu: unser Beitrag [„Canva für OER? Eine Entscheidungshilfe“](https://oer.community/canva/).
+
+## Gibt es Ausnahmen für Unterricht und Lehre?
+
+Ja: die [15%-Regel aus § 60a UrhG](https://open-educational-resources.de/ausnahmen-vom-urheberrecht/) für Unterricht und Lehre, und Entsprechendes für [Wissenschaft und Forschung](https://www.uni-bremen.de/urheberrecht/wissensplattform/6-sonderfall-wissenschaftliche-forschung). Ihr dürft danach etwa wissenschaftliche Abbildungen verwenden, aber auch die müssen korrekt ausgewiesen werden. Und: Die Schranke gilt für den geschützten Raum von Unterricht und Lehre, nicht für die offene Veröffentlichung als OER. Mehr dazu beim [Deutschen Bibliotheksverband](https://www.bibliotheksverband.de/sites/default/files/2024-08/Urheberrecht_Bildung_Wissenschaft_Kultur.pdf) und bei [irights.info](https://irights.info/artikel/cc-lizenz-und-gesetzliche-nutzungserlaubnisse/32561).
+
+## Wo finde ich Bilder, die ich wirklich verwenden darf?
+
+Hier liegt der eigentliche Vorteil von OER: Offene Lizenzen wie die von [Creative Commons](https://creativecommons.org/) sind klar definiert. Werden sie korrekt angewendet, entsteht Rechtssicherheit: Nutzung erlaubt, Bearbeitung erlaubt (je nach Lizenz), Weitergabe erlaubt, Bedingungen transparent.
+
+Bilddatenbanken mit frei lizenzierten Bildern gibt es inzwischen viele:
+
+- [Openverse](https://openverse.org/) – Suche über viele Quellen hinweg, mit Lizenzfilter
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-- [Coco Material](https://cocomaterial.com/) 
-- [Nappy.co](https://nappy.co/)
-- [pxhere](https://pxhere.com/)
-- [Public Domain Vectors](https://publicdomainvectors.org/)
-- [Humaans](https://humaaans.com/)
-- [StockSnap.io](https://stocksnap.io/)
-- [Skitterphoto](https://skitterphoto.com)
-- [Openclipart](https://openclipart.org/)
+- [Coco Material](https://cocomaterial.com/) – handgezeichnete Illustrationen
+- [Nappy.co](https://nappy.co/) – Fotos, die Vielfalt abbilden
+- [pxhere](https://pxhere.com/), [StockSnap.io](https://stocksnap.io/), [Skitterphoto](https://skitterphoto.com) – Fotos
+- [Public Domain Vectors](https://publicdomainvectors.org/), [Openclipart](https://openclipart.org/) – Vektorgrafiken
+- [Humaaans](https://humaaans.com/) – Illustrationen von Menschen
 
-Es gibt auch einige Sammlungen mit offenen Bilddatenbanken, z.B. von [ZUM](https://apps.zum.de/quellen), [ZOERR](https://www.zoerr.de/edu-sharing/components/render/30d941b7-c7b8-4cf0-9941-b7c7b88cf06d) oder [OER.info](https://open-educational-resources.de/oer_materialien/wo-finde-ich-kostenlose-bilder-eine-sammlung-von-quellen-fuer-frei-lizensierte-fotos-und-abbildungen/).
+Gesammelte Übersichten führen [ZUM](https://apps.zum.de/quellen), [ZOERR](https://www.zoerr.de/edu-sharing/components/render/30d941b7-c7b8-4cf0-9941-b7c7b88cf06d) und [OERinfo](https://open-educational-resources.de/oer_materialien/wo-finde-ich-kostenlose-bilder-eine-sammlung-von-quellen-fuer-frei-lizensierte-fotos-und-abbildungen/). Und in den Bildersuchen der großen Suchmaschinen lässt sich über den Suchfilter nach Creative-Commons-Lizenzen filtern.
 
-💡 **Tipp**: Auch in Suchmaschinen kann man in der Bildersuche über den Suchfilter nach Creative Commons Lizenzen filtern!
+Wenn kein passendes freies Bild zu finden ist: eigene Zeichnung, eigenes Foto, oder ein Link zum Bild statt der Bilddatei.
 
-## Ampelsystem für Bildnutzung (Praxisbeispiel)
+## Wie weise ich ein Bild richtig nach?
 
-Ein Ampelsystem funktioniert sehr gut für Blogs oder Präsentationen, weil es komplexe Lizenzfragen schnell verständlich macht:
+Mit der [TULLU-Regel](https://open-educational-resources.de/oer-tullu-regel/): **T**itel, **U**rheber:in, **L**izenz, **L**ink zur Lizenz, **U**rsprungsort. Das ist der [Gold-Standard](https://open-educational-resources.de/gold-standard/) der OER-Community, und wer ihn befolgt, macht es richtig. Bei bearbeiteten Bildern kommt die Angabe der Änderung dazu. Auch automatisch erzeugte Vorschaubilder müssen ausgewiesen werden.
 
-🔴 **ROT – Finger weg:**
+Werkzeuge, die dabei helfen: der [Lizenzhinweisgenerator](https://lizenzhinweisgenerator.de/), der [CC-Stamper](https://ccstamper.edu-sharing.org/) und der [Bildmetadatengenerator](https://joerglohrer.github.io/bildmetagenerator/bildlizenzgenerator.html).
 
-- Bilder unter Copyright -> dürfen nur mit schriftlicher Genehmigung verwendet werden und müssen ausgewiesen werden
-- Screenshots von Websites, Social Media oder Artikeln -> auch diese stehen unter Copyright
-- Bilder ohne erkennbare Lizenz oder Quelle -> „kein Copyright-Hinweis = frei“ gilt leider nicht
+<!-- TODO (Gina): Inhalte aus dem ZOERR-Workshop zum Bildnachweis hier ergänzen? Stand im ersten Entwurf als Platzhalter. -->
 
-👉 Risiko: hohe Abmahngefahr, keine rechtliche Absicherung!
+Mehr zu alldem in unserem [Lernmodul zu OER und OEP](https://oer.community/oer-und-oep/lernmodul/).
 
-🟡 **GELB – eingeschränkt nutzbar:**
+## Und wie bleibt der Nachweis am Bild, wenn es kopiert wird?
 
-- Bilder mit unklarer oder restriktiver Lizenz, z.B. CC BY-NC (nicht-kommerziell → problematisch falls monetärer Kontext) oder CC BY-ND (keine Bearbeitung → ungeeignet für viele OER-Szenarien)
-- gekaufte Bilder von iStock, GettyImages u.v.m. -> sollte ausgewiesen werden, nicht weiterverwendbar
-- Bilder aus Canva-Library, von Bilddatenbanken wie Unsplash, Pixabay & Co. -> stehen meistens unter der Anbieter-Lizenz, diese muss entsprechend ausgewiesen werden. Mehr dazu auch in unserem [Blogbeitrag "Canva für OER? Eine Entscheidungshilfe für Bildungsakteure"](https://oer.community/canva/).
+Das ist die Frage, an der die TULLU-Regel an ihre Grenze kommt. Der Nachweis ist Text: Er steht in einer Bildunterschrift, in einem Impressum, in einer Fußnote. Sobald das Bild in eine Präsentation wandert oder auf einer anderen Website erscheint, ist der Nachweis weg, weil er nie *am* Bild hing, sondern daneben stand.
 
-👉 Lizenzbedingungen beachten, Weitergabe oder Anpassung ggf. nicht möglich!
+In FOERBICO und edufeed hängen wir den Nachweis deshalb an den Fingerabdruck der Bilddatei: als signierten, maschinenlesbaren Datensatz, den jeder Client findet, sobald er das Bild hat. Für Autor:innen auf oer.community heißt das: eine Handvoll Zeilen pro Bild, der Rest passiert automatisch. Wie das funktioniert, warum wir das „Platin“ nennen und wie es unter der Haube aussieht, erklärt der Beitrag [„Ein Bild, das seine Lizenz kennt“](https://oer.community/bildlizenzen-maschinenlesbar/).
 
-🟢 **GRÜN – OER-konform und sicher nutzbar**
+## Zur Diskussion: ein Ampelsystem für die Bildnutzung
 
-- CC BY / CC BY-SA / CC0 Lizenzen -> die vollständige Attribution sollte vorhanden sein (Urheber, Lizenz, Quelle, ggf. Änderungen)
+Lizenzfragen sind komplex, Entscheidungen im Alltag müssen schnell gehen. Ein Ampelsystem könnte beides zusammenbringen. Wir haben es noch nicht umgesetzt, und wir stellen es hier bewusst als Vorschlag zur Diskussion: als Denkhilfe für Autor:innen, und perspektivisch als Element im Community-Hub, das beim Hochladen eines Bildes sofort anzeigt, woran man ist.
 
-👉 Best Practice für OER und rechtssichere Nutzung
+🔴 **Rot – geht nicht**
 
-## Bildnachweis beachten
+- Bilder unter Copyright ohne schriftliche Genehmigung
+- Screenshots von Websites, Social Media oder Artikeln
+- Bilder ohne erkennbare Lizenz oder Quelle: „kein Copyright-Hinweis = frei“ gilt nicht
 
--> aus ZOERR-Workshop!
+Hohe Abmahngefahr, keine rechtliche Absicherung.
 
-⚠️ **Achtung:** Auch automatisch generierte Vorschaubilder müssen ausgewiesen werden!
+🟡 **Gelb – noch zulässig, aber eingeschränkt**
 
-💡 **Tipp**: Einige Tools wie der [Lizenzhinweisgenerator](https://lizenzhinweisgenerator.de/), der [CC-Stamper](https://ccstamper.edu-sharing.org/) oder der [Bildmetadatengenerator](https://joerglohrer.github.io/bildmetagenerator/bildlizenzgenerator.html) können euch beim Bildnachweis unterstützen!
+- Restriktive CC-Lizenzen: CC BY-NC (problematisch im kommerziellen Kontext) oder CC BY-ND (keine Bearbeitung, für viele OER-Szenarien ungeeignet)
+- Gekaufte Stock-Bilder (iStock, Getty): ausweisen, nicht weiterverwendbar
+- Anbieter-Lizenzen (Canva, Unsplash, Pixabay): nutzbar, aber nicht weitergabefähig
+
+Lizenzbedingungen prüfen; Weitergabe oder Anpassung sind oft nicht möglich.
+
+🟢 **Grün – Best Practice**
+
+- CC BY, CC BY-SA, CC0 mit vollständigem Nachweis (Urheber:in, Lizenz, Quelle, ggf. Änderungen)
+
+OER-konform, weitergabefähig, rechtssicher.
+
+Passt diese Einteilung zu eurer Praxis? Fehlt eine Kategorie? Wir freuen uns über Rückmeldungen, bevor daraus ein Werkzeug wird.
 
 ## Fazit
 
-Das „Bildlizenz-Dilemma“ ist weniger ein Problem von OER selbst, sondern ein allgemeines Problem digitaler Mediennutzung. OER ist nicht die Einschränkung von Kreativität durch Regeln, sondern die Befreiung von Unsicherheit durch Klarheit.
+Das „Bildlizenz-Dilemma“ ist weniger ein Problem von OER als ein allgemeines Problem digitaler Mediennutzung. OER ist nicht die Einschränkung von Kreativität durch Regeln, sondern die Befreiung von Unsicherheit durch Klarheit.
+
+Und wer die Klarheit nicht nur in die Bildunterschrift, sondern an das Bild selbst hängen will: [„Ein Bild, das seine Lizenz kennt“](https://oer.community/bildlizenzen-maschinenlesbar/).
