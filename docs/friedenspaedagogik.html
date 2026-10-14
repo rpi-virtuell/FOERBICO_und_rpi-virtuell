@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friedenspädagogik</title>
+<meta name="description" content="Mini-Client im Stil von evangelische-friedensarbeit.de: zeigt die Inhalte der edufeed-Community „Friedenspädagogik“ (Nostr, AMB-Lernressourcen) direkt von den Relays.">
+<link rel="preconnect" href="https://relay.edufeed.org">
+<link rel="preconnect" href="https://blossom.edufeed.org">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Fira+Sans:wght@700&display=swap">
+<style>
+  :root {
+    --red: #db0031; --red-dark: #b8002a; --text: #41403d; --muted: #77766f; --bg: #e8e8e8; --card: #ffffff;
+    --light: #f8f7f7; --line: #d5d5d0; --footer: #41403d; --footer-fg: #ffffff; --chip: #efefef; --chip-on: #41403d;
+    --wrap: 1100px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 "Open Sans", system-ui, sans-serif; }
+  a { color: var(--red); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 16px; }
+
+  /* Kopf */
+  .top { position: sticky; top: 0; z-index: 20; background: #fff; box-shadow: 0 1px 0 rgba(0,0,0,.08); }
+  .top .wrap { display: flex; align-items: stretch; justify-content: space-between; padding-right: 0; }
+  .brand { display: block; padding: 12px 0 10px; color: var(--text); line-height: 1; }
+  .brand:hover { text-decoration: none; }
+  .brand .over { display: block; font-weight: 300; font-size: .95rem; letter-spacing: .08em; text-transform: uppercase; color: var(--text); }
+  .brand .name { display: block; font-family: "Fira Sans", "Open Sans", sans-serif; font-weight: 700; font-size: 1.75rem; letter-spacing: -.01em; text-transform: uppercase; color: var(--red); margin-top: 2px; }
+  .menu-btn { border: 0; background: var(--red); color: #fff; width: 72px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; cursor: pointer; font: 600 .62rem/1 "Open Sans", sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+  .menu-btn .bars { width: 26px; display: block; }
+  .menu-btn .bars i { display: block; height: 3px; background: #fff; margin: 0 0 4px; }
+  .menu-btn:hover { background: var(--red-dark); }
+  .menu { display: none; background: #fff; border-top: 1px solid var(--line); }
+  .menu.open { display: block; }
+  .menu ul { list-style: none; margin: 0; padding: 10px 0; display: flex; flex-wrap: wrap; gap: 4px 28px; }
+  .menu a { color: var(--text); font-weight: 600; padding: 6px 0; display: inline-block; }
+  .menu a:hover { color: var(--red); text-decoration: none; }
+
+  /* Hero */
+  .hero { position: relative; }
+  .hero .pic { width: 100%; height: clamp(220px, 42vw, 440px); object-fit: cover; display: block; background: #cfcfcf; }
+  .hero .box { background: #fff; margin: -70px 16px 0; padding: 28px 32px 30px; position: relative; max-width: 760px; }
+  .hero h1 { font-size: 1.6rem; font-weight: 700; color: var(--red); margin: 0 0 8px; }
+  .hero p { margin: 0 0 6px; font-size: 1.05rem; }
+  .hero .loc { color: var(--muted); font-size: .9rem; }
+  @media (min-width: 820px) { .hero .box { margin-left: 80px; } }
+
+  /* Abschnitte */
+  section { padding: 44px 0 10px; }
+  section h2 { text-align: center; color: var(--red); font-size: 1.7rem; font-weight: 700; margin: 0 0 26px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; margin: -8px 0 18px; }
+  .controls input[type=search] { flex: 1 1 320px; max-width: 520px; padding: 10px 14px; border: 1px solid var(--line); background: #fff; font: inherit; color: var(--text); }
+  .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 0 0 22px; }
+  .chip { border: 1px solid var(--line); background: #fff; color: var(--text); padding: 4px 12px; font: 600 .8rem/1.4 "Open Sans", sans-serif; cursor: pointer; }
+  .chip small { color: var(--muted); font-weight: 400; margin-left: 4px; }
+  .chip.on { background: var(--chip-on); color: #fff; border-color: var(--chip-on); }
+  .chip.on small { color: #ddd; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+  .card { background: var(--card); padding: 22px 24px 20px; display: flex; flex-direction: column; gap: 10px; cursor: pointer; border-top: 4px solid var(--line); transition: box-shadow .12s; min-height: 200px; }
+  .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.12); }
+  .meta { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); display: flex; flex-wrap: wrap; gap: 0 6px; }
+  .meta span + span::before { content: "|"; margin-right: 6px; color: #bbb; }
+  .card h3 { margin: 0; font-size: 1.2rem; line-height: 1.3; font-weight: 700; color: var(--text); }
+  .card p { margin: 0; font-size: .92rem; color: var(--text); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .more { margin-top: auto; font-weight: 700; color: var(--red); font-size: .95rem; }
+  .btn { display: inline-block; background: var(--red); color: #fff; font-weight: 700; padding: 8px 24px; border-radius: 20px; border: 0; cursor: pointer; font: 700 .95rem/1.5 "Open Sans", sans-serif; }
+  .btn:hover { background: var(--red-dark); text-decoration: none; }
+  .btn.ghost { background: #fff; color: var(--text); border: 1px solid var(--line); }
+  .center { text-align: center; margin: 24px 0 0; }
+  .empty { text-align: center; color: var(--muted); padding: 30px 0; }
+
+  /* Termine */
+  table.termine { width: 100%; border-collapse: collapse; background: #fff; }
+  table.termine td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; font-size: .95rem; }
+  table.termine td:first-child { white-space: nowrap; font-weight: 600; }
+  table.termine td:nth-child(2) { color: var(--muted); white-space: nowrap; }
+
+  /* Zitatband */
+  .quote { margin: 48px 0 0; display: grid; grid-template-columns: 1.3fr 1fr; background: var(--red); color: #fff; }
+  .quote blockquote { margin: 0; padding: 40px 32px 36px 20px; font-size: 1.5rem; line-height: 1.35; font-weight: 400; }
+  .quote cite { display: block; font-style: normal; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; margin-top: 22px; }
+  .quote img { width: 100%; height: 100%; min-height: 220px; object-fit: cover; display: block; padding: 20px 20px 20px 0; }
+  @media (max-width: 720px) { .quote { grid-template-columns: 1fr; } .quote img { padding: 0 20px 20px; } }
+
+  /* Footer */
+  footer { background: var(--footer); color: var(--footer-fg); margin-top: 40px; padding: 28px 0 0; font-size: .85rem; }
+  footer a { color: var(--footer-fg); }
+  footer .brand .over, footer .brand .name { color: #fff; }
+  footer .brand .name { font-size: 1.3rem; }
+  footer .head { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; margin-bottom: 30px; }
+  footer .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px 30px; padding-bottom: 30px; }
+  footer h4 { margin: 0 0 8px; font-size: .95rem; }
+  footer ul { list-style: none; margin: 0; padding: 0; }
+  footer li { margin: 0 0 6px; }
+  footer li button { background: none; border: 0; color: #fff; padding: 0; cursor: pointer; font: inherit; text-align: left; }
+  footer li button:hover { text-decoration: underline; }
+  footer li small { color: #bbb; }
+  .bottom { background: var(--red); padding: 12px 0; }
+  .bottom .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; }
+  .bottom a { font-weight: 400; }
+  .status { color: #bbb; font-size: .78rem; display: flex; flex-wrap: wrap; gap: 12px; padding: 0 0 18px; }
+  .status .relay::before { content: "●"; margin-right: 4px; color: #999; }
+  .status .relay.ok::before { color: #6fcf7a; }
+  .status .relay.err::before { color: #ff9b6a; }
+
+  /* Detail */
+  dialog { border: 0; padding: 0; max-width: min(860px, 96vw); width: 100%; background: #fff; color: var(--text); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+  dialog::backdrop { background: rgba(0,0,0,.55); }
+  .detail { padding: 28px 32px 30px; max-height: 88vh; overflow: auto; position: relative; }
+  .detail .close { position: absolute; top: 10px; right: 14px; border: 0; background: transparent; font-size: 1.8rem; cursor: pointer; color: var(--text); line-height: 1; }
+  .detail h2 { text-align: left; font-size: 1.45rem; margin: 6px 36px 10px 0; }
+  .detail .desc { font-size: .97rem; margin: 14px 0 18px; }
+  .detail .desc p { margin: 0 0 10px; }
+  .detail dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; font-size: .9rem; margin: 0 0 20px; }
+  .detail dt { color: var(--muted); }
+  .detail dd { margin: 0; overflow-wrap: anywhere; }
+  .detail .row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .detail .tech { color: var(--muted); font-size: .78rem; margin-top: 18px; }
+  @media (max-width: 600px) { .detail { padding: 20px 16px; } .detail dl { grid-template-columns: 1fr; gap: 2px 0; } .detail dt { margin-top: 8px; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="over" id="brand-over">Community</span><span class="name" id="brand-name">Friedenspädagogik</span></a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu"><span class="bars"><i></i><i></i><i></i></span>Menü</button>
+  </div>
+  <nav class="menu" id="menu"><div class="wrap"><ul id="menu-list"></ul></div></nav>
+</header>
+
+<main id="top">
+  <div class="hero wrap">
+    <img class="pic" id="hero-pic" alt="" hidden>
+    <div class="box">
+      <h1 id="hero-title">Friedenspädagogik</h1>
+      <p id="hero-about">Lade Community …</p>
+      <p class="loc" id="hero-loc"></p>
+    </div>
+  </div>
+
+  <section id="materialien" class="wrap">
+    <h2>Materialien zur Friedenspädagogik</h2>
+    <div class="controls"><input id="q" type="search" placeholder="Suchen: Konfi, Frieden, Comic, Spiele …" autocomplete="off"></div>
+    <div class="chips" id="chips"></div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" hidden>Keine Materialien gefunden.</div>
+  </section>
+
+  <section id="artikel" class="wrap" hidden>
+    <h2>Artikel</h2>
+    <div class="grid" id="grid-artikel"></div>
+  </section>
+
+  <section id="termine" class="wrap" hidden>
+    <h2>Termine</h2>
+    <table class="termine"><tbody id="termine-body"></tbody></table>
+  </section>
+
+  <section id="forum" class="wrap" hidden>
+    <h2>Forum</h2>
+    <div class="grid" id="grid-forum"></div>
+  </section>
+
+  <div class="wrap">
+    <div class="quote">
+      <blockquote>„Suche Frieden und jage ihm nach.“<cite>Psalm 34,15 · Leitwort der Konfi-Einheit von Matthias Geiger</cite></blockquote>
+      <img id="quote-pic" alt="" hidden>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="head">
+      <a class="brand" href="#top"><span class="over">Community</span><span class="name" id="foot-name">Friedenspädagogik</span></a>
+      <div id="foot-info">
+        Community auf <a href="https://edufeed.org" target="_blank" rel="noopener">edufeed.org</a><br>
+        <a id="foot-link" href="#" target="_blank" rel="noopener">Community in edufeed öffnen</a><br>
+        <span id="foot-npub" style="color:#bbb;overflow-wrap:anywhere"></span>
+      </div>
+    </div>
+    <div class="cols">
+      <div><h4>Themen</h4><ul id="foot-themen"></ul></div>
+      <div><h4>Lernformate</h4><ul id="foot-formate"></ul></div>
+      <div><h4>Methoden</h4><ul id="foot-methoden"></ul></div>
+      <div><h4>Über diese Seite</h4><ul>
+        <li>Testseite (Dummy-Client) aus dem FOERBICO-Projekt</li>
+        <li>Gestaltung nach dem Vorbild von <a href="https://www.evangelische-friedensarbeit.de/" target="_blank" rel="noopener">evangelische-friedensarbeit.de</a></li>
+        <li>Inhalte: Nostr-Events (AMB-Lernressourcen kind 30142 u. a.), live von den edufeed-Relays</li>
+        <li>Parameter: <code>?community=&lt;npub|hex&gt;</code>, <code>?relays=wss://…,wss://…</code></li>
+      </ul></div>
+    </div>
+    <div class="status" id="status"></div>
+  </div>
+  <div class="bottom"><div class="wrap">
+    <span>FOERBICO · Testseite, keine offizielle Website</span>
+    <span><a href="https://edufeed.org" target="_blank" rel="noopener">edufeed</a> &nbsp;·&nbsp; <a href="https://oer.community" target="_blank" rel="noopener">oer.community</a></span>
+  </div></div>
+</footer>
+
+<dialog id="dlg"></dialog>
+
+<script>
+(() => {
+  // ---------- Konfiguration ----------
+  const DEFAULT_COMMUNITY = 'npub1vsnck0crdcjdczggrlp7ng7tn6fawpdauts2wdwetsnh8s7dkcqsumc7zj';
+  const DEFAULT_RELAYS = ['wss://relay.edufeed.org', 'wss://relay-rpi.edufeed.org'];
+  const CONTENT_KINDS = [30142, 30023, 31922, 31923, 31924, 1, 11, 30818, 1068, 39701];
+  const params = new URLSearchParams(location.search);
+
+  // ---------- bech32 / NIP-19 ----------
+  const B32 = 'qpzry9x8gf2tvdw0s3jn54khce6mua7l';
+  const polymod = (v) => { const G = [0x3b6a57b2, 0x26508e6d, 0x1ea119fa, 0x3d4233dd, 0x2a1462b3]; let c = 1; for (const x of v) { const b = c >> 25; c = ((c & 0x1ffffff) << 5) ^ x; for (let i = 0; i < 5; i++) if ((b >> i) & 1) c ^= G[i]; } return c; };
+  const hrpExpand = (hrp) => [...hrp].map(c => c.charCodeAt(0) >> 5).concat([0], [...hrp].map(c => c.charCodeAt(0) & 31));
+  const toWords = (bytes) => { const out = []; let acc = 0, bits = 0; for (const b of bytes) { acc = (acc << 8) | b; bits += 8; while (bits >= 5) { bits -= 5; out.push((acc >> bits) & 31); } } if (bits) out.push((acc << (5 - bits)) & 31); return out; };
+  const fromWords = (words) => { const out = []; let acc = 0, bits = 0; for (const w of words) { acc = (acc << 5) | w; bits += 5; while (bits >= 8) { bits -= 8; out.push((acc >> bits) & 255); } } return Uint8Array.from(out); };
+  function bech32Encode(hrp, bytes) {
+    const data = toWords(bytes);
+    const pm = polymod(hrpExpand(hrp).concat(data, [0, 0, 0, 0, 0, 0])) ^ 1;
+    const chk = []; for (let i = 0; i < 6; i++) chk.push((pm >> (5 * (5 - i))) & 31);
+    return hrp + '1' + data.concat(chk).map(d => B32[d]).join('');
+  }
+  function bech32Decode(str) {
+    const s = str.toLowerCase(); const pos = s.lastIndexOf('1');
+    const hrp = s.slice(0, pos); const words = [...s.slice(pos + 1)].map(c => B32.indexOf(c));
+    if (words.includes(-1) || polymod(hrpExpand(hrp).concat(words)) !== 1) throw new Error('bech32');
+    return { hrp, bytes: fromWords(words.slice(0, -6)) };
+  }
+  const hexToBytes = (h) => Uint8Array.from(h.match(/../g).map(b => parseInt(b, 16)));
+  const bytesToHex = (b) => [...b].map(x => x.toString(16).padStart(2, '0')).join('');
+  const npubEncode = (hex) => bech32Encode('npub', hexToBytes(hex));
+  const noteEncode = (hex) => bech32Encode('note', hexToBytes(hex));
+  function naddrEncode(kind, pubkey, d, relays = []) {
+    const enc = new TextEncoder(); const parts = [];
+    const tlv = (t, v) => { parts.push(t, v.length, ...v); };
+    tlv(0, enc.encode(d));
+    for (const r of relays) tlv(1, enc.encode(r));
+    tlv(2, hexToBytes(pubkey));
+    tlv(3, [(kind >>> 24) & 255, (kind >>> 16) & 255, (kind >>> 8) & 255, kind & 255]);
+    return bech32Encode('naddr', Uint8Array.from(parts));
+  }
+  function toHex(id) {
+    if (/^[0-9a-f]{64}$/i.test(id)) return id.toLowerCase();
+    try { const { hrp, bytes } = bech32Decode(id); if (hrp === 'npub') return bytesToHex(bytes); } catch {}
+    return null;
+  }
+
+  // ---------- Zustand ----------
+  const COMMUNITY = toHex(params.get('community') || DEFAULT_COMMUNITY) || toHex(DEFAULT_COMMUNITY);
+  const NPUB = npubEncode(COMMUNITY);
+  let RELAYS = (params.get('relays') || '').split(',').map(s => s.trim()).filter(Boolean);
+  if (!RELAYS.length) RELAYS = [...DEFAULT_RELAYS];
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const events = new Map();      // id -> event
+  const relayState = new Map();  // url -> {state, n}
+  let profile = {}, community = null, posts = [], items = [], activeThemes = new Set();
+
+  // ---------- Relay ----------
+  function query(url, filters, label) {
+    return new Promise((resolve) => {
+      const st = relayState.get(url) || { state: 'verbinde', n: 0 }; relayState.set(url, st); renderStatus();
+      let ws, timer, got = 0;
+      const finish = (state) => { clearTimeout(timer); st.state = state; renderStatus(); try { ws && ws.close(); } catch {} resolve(); };
+      try { ws = new WebSocket(url); } catch { return finish('fehler'); }
+      timer = setTimeout(() => finish('timeout'), 15000);
+      ws.onopen = () => { st.state = 'lädt'; ws.send(JSON.stringify(['REQ', label, ...filters])); };
+      ws.onerror = () => finish('fehler');
+      ws.onclose = () => { if (['verbinde', 'lädt'].includes(st.state)) finish('getrennt'); };
+      ws.onmessage = (m) => {
+        let msg; try { msg = JSON.parse(m.data); } catch { return; }
+        if (msg[0] === 'EVENT' && msg[1] === label) { const ev = msg[2]; if (!events.has(ev.id)) { events.set(ev.id, ev); got++; st.n++; } }
+        else if (msg[0] === 'EOSE') finish('ok');
+        else if (msg[0] === 'CLOSED') finish('abgelehnt');
+      };
+    });
+  }
+  const queryAll = (filters, label) => Promise.all(RELAYS.map(u => query(u, filters, label)));
+
+  // ---------- Modell ----------
+  const tag = (ev, k) => { const t = ev.tags.find(t => t[0] === k); return t ? t[1] : undefined; };
+  const tagsAll = (ev, k) => ev.tags.filter(t => t[0] === k).map(t => t[1]);
+  const addr = (ev) => `${ev.kind}:${ev.pubkey}:${tag(ev, 'd') || ''}`;
+  const isReplaceable = (k) => (k >= 30000 && k < 40000) || (k >= 10000 && k < 20000) || k === 0 || k === 3;
+
+  // Neuestes Event je Adresse (parametrisierte Replaceables), sonst je id
+  function latest(kinds, pubkey) {
+    const byKey = new Map();
+    for (const ev of events.values()) {
+      if (!kinds.includes(ev.kind)) continue;
+      if (pubkey && ev.pubkey !== pubkey) continue;
+      const key = isReplaceable(ev.kind) ? addr(ev) : ev.id;
+      const cur = byKey.get(key);
+      if (!cur || ev.created_at > cur.created_at) byKey.set(key, ev);
+    }
+    return [...byKey.values()];
+  }
+
+  const LICENSES = [
+    [/publicdomain\/zero/, 'CC0 1.0'], [/publicdomain\/mark/, 'Public Domain'],
+    [/licenses\/by-nc-sa\/([0-9.]+)/, 'CC BY-NC-SA $1'], [/licenses\/by-nc-nd\/([0-9.]+)/, 'CC BY-NC-ND $1'], [/licenses\/by-nc\/([0-9.]+)/, 'CC BY-NC $1'],
+    [/licenses\/by-nd\/([0-9.]+)/, 'CC BY-ND $1'], [/licenses\/by-sa\/([0-9.]+)/, 'CC BY-SA $1'], [/licenses\/by\/([0-9.]+)/, 'CC BY $1'],
+  ];
+  function licenseLabel(url) {
+    if (!url) return '';
+    for (const [re, label] of LICENSES) { const m = url.match(re); if (m) return label.replace('$1', m[1] || ''); }
+    try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; }
+  }
+  const FACETS = { zielgruppen: 'Zielgruppe', lernformat: 'Lernformat', zeitstruktur: 'Zeitstruktur', beteiligte: 'Beteiligte', themen: 'Themen', dimensionen: 'Dimensionen', methode: 'Methoden', materialaufwand: 'Materialaufwand', technikbedarf: 'Technikbedarf', lernorte: 'Lernorte', landeskirche: 'Landeskirche' };
+  const fmtDate = (ts) => new Date(ts * 1000).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+
+  function resourceItem(ev, postedAt) {
+    const facets = {};
+    for (const t of ev.tags) {
+      let m = t[0].match(/^ext:ekw:konfi:([a-z]+):(prefLabel:de|custom)$/);
+      if (m) { (facets[m[1]] ||= []).push(t[1]); continue; }
+    }
+    for (const k in facets) facets[k] = [...new Set(facets[k])];
+    const creators = tagsAll(ev, 'creator:name');
+    const d = tag(ev, 'd') || '';
+    const url = /^https?:\/\//.test(d) ? d : (tag(ev, 'url') || tagsAll(ev, 'r')[0] || '');
+    const it = {
+      ev, kind: ev.kind, d, url, posted: postedAt || ev.created_at,
+      title: tag(ev, 'name') || tag(ev, 'title') || '(ohne Titel)',
+      desc: tag(ev, 'description') || ev.content || '',
+      creators, affiliation: tag(ev, 'creator:affiliation:name') || '',
+      licenseUrl: tag(ev, 'license:id') || tag(ev, 'license') || '',
+      lang: tag(ev, 'inLanguage') || '', free: tag(ev, 'isAccessibleForFree'),
+      lrt: tagsAll(ev, 'learningResourceType:prefLabel:de'),
+      keywords: tagsAll(ev, 't'), bible: tagsAll(ev, 'ext:ekw:bibleReference'), links: tagsAll(ev, 'r'),
+      hue: tag(ev, 'cover_color'), facets, datePublished: tag(ev, 'datePublished') || '',
+    };
+    it.license = licenseLabel(it.licenseUrl);
+    it.hay = [it.title, it.desc, ...creators, it.affiliation, it.license, ...it.keywords, ...Object.values(facets).flat()].join(' ').toLowerCase();
+    return it;
+  }
+
+  function rebuild() {
+    const prof = latest([0], COMMUNITY)[0];
+    if (prof) { try { profile = JSON.parse(prof.content); } catch { profile = {}; } }
+    community = latest([10222], COMMUNITY)[0] || null;
+    // Beiträge der Community: direkt mit h-Tag oder über kind-16-Reposts
+    const postedAt = new Map(); // addr/id -> Zeitpunkt des Community-Posts
+    const direct = [];
+    for (const ev of events.values()) {
+      if (!tagsAll(ev, 'h').includes(COMMUNITY)) continue;
+      if (ev.kind === 16) {
+        for (const a of tagsAll(ev, 'a')) postedAt.set(a, Math.max(postedAt.get(a) || 0, ev.created_at));
+        for (const e of tagsAll(ev, 'e')) postedAt.set(e, Math.max(postedAt.get(e) || 0, ev.created_at));
+      } else if (CONTENT_KINDS.includes(ev.kind)) direct.push(ev);
+    }
+    const seen = new Set();
+    posts = [];
+    for (const ev of latest(CONTENT_KINDS)) {
+      const key = isReplaceable(ev.kind) ? addr(ev) : ev.id;
+      if (!(postedAt.has(key) || postedAt.has(ev.id) || direct.includes(ev))) continue;
+      if (seen.has(key)) continue; seen.add(key);
+      posts.push(resourceItem(ev, postedAt.get(key) || postedAt.get(ev.id)));
+    }
+    posts.sort((a, b) => b.posted - a.posted);
+    items = posts.filter(p => p.kind === 30142);
+    renderHero(); renderMenu(); renderChips(); renderGrid(); renderOthers(); renderFooter();
+  }
+
+  // ---------- Rendern ----------
+  function renderStatus() {
+    const parts = [];
+    for (const [url, st] of relayState) {
+      const cls = st.state === 'ok' ? 'ok' : (['fehler', 'timeout', 'getrennt', 'abgelehnt'].includes(st.state) ? 'err' : '');
+      parts.push(`<span class="relay ${cls}" title="${esc(url)}">${esc(url.replace('wss://', ''))} · ${st.state} · ${st.n}</span>`);
+    }
+    $('status').innerHTML = parts.join('') + `<span>${events.size} Events, ${posts.length} Beiträge</span>`;
+  }
+  function renderHero() {
+    const name = profile.name || profile.display_name || 'Community';
+    document.title = name;
+    $('brand-name').textContent = name; $('foot-name').textContent = name; $('hero-title').textContent = name;
+    $('hero-about').innerHTML = esc(profile.about || '').replace(/\n+/g, '<br>') || 'Keine Beschreibung hinterlegt.';
+    const loc = community && tag(community, 'location');
+    $('hero-loc').textContent = loc ? '📍 ' + loc : '';
+    const pic = profile.banner || profile.picture;
+    if (pic) { $('hero-pic').src = pic; $('hero-pic').hidden = false; $('quote-pic').src = profile.picture || pic; $('quote-pic').hidden = false; }
+    $('foot-link').href = `https://edufeed.org/c/${NPUB}`;
+    $('foot-npub').textContent = NPUB;
+  }
+  const SECTIONS = [['materialien', 'Materialien'], ['artikel', 'Artikel'], ['termine', 'Termine'], ['forum', 'Forum']];
+  function renderMenu() {
+    const li = SECTIONS.filter(([id]) => !$(id).hidden).map(([id, label]) => `<li><a href="#${id}">${label}</a></li>`);
+    li.push(`<li><a href="https://edufeed.org/c/${NPUB}" target="_blank" rel="noopener">In edufeed öffnen ↗</a></li>`);
+    $('menu-list').innerHTML = li.join('');
+  }
+  function themeCounts(list) {
+    const c = new Map();
+    for (const it of list) for (const t of (it.facets.themen || [])) c.set(t, (c.get(t) || 0) + 1);
+    return [...c.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'de'));
+  }
+  function filtered(ignoreThemes = false) {
+    const words = $('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    return items.filter(it => {
+      if (!ignoreThemes) for (const t of activeThemes) if (!(it.facets.themen || []).includes(t)) return false;
+      for (const w of words) if (!it.hay.includes(w)) return false;
+      return true;
+    });
+  }
+  function renderChips() {
+    const counts = themeCounts(filtered(true));
+    $('chips').innerHTML = counts.map(([t, n]) => `<button class="chip ${activeThemes.has(t) ? 'on' : ''}" data-theme="${esc(t)}">${esc(t)}<small>${n}</small></button>`).join('');
+  }
+  function cardHtml(it, i) {
+    const meta = [];
+    if (it.creators.length) meta.push(esc(it.creators.join(', ')));
+    meta.push(fmtDate(it.posted));
+    if (it.facets.lernformat) meta.push(esc(it.facets.lernformat.join(', ')));
+    const bar = it.hue ? `style="border-top-color:hsl(${+it.hue} 45% 55%)"` : '';
+    return `<article class="card" data-i="${i}" ${bar}>
+      <div class="meta">${meta.map(m => `<span>${m}</span>`).join('')}</div>
+      <h3>${esc(it.title)}</h3>
+      <p>${esc(it.desc.replace(/[_*]/g, ''))}</p>
+      <span class="more">mehr …</span>
+    </article>`;
+  }
+  function renderGrid() {
+    const list = filtered();
+    $('grid').innerHTML = list.map(it => cardHtml(it, posts.indexOf(it))).join('');
+    $('empty').hidden = list.length > 0;
+    renderStatus();
+  }
+  function renderOthers() {
+    const artikel = posts.filter(p => p.kind === 30023 || p.kind === 30818);
+    $('artikel').hidden = !artikel.length;
+    $('grid-artikel').innerHTML = artikel.map(it => cardHtml(it, posts.indexOf(it))).join('');
+    const termine = posts.filter(p => p.kind === 31922 || p.kind === 31923).sort((a, b) => (+tag(a.ev, 'start') || 0) - (+tag(b.ev, 'start') || 0));
+    $('termine').hidden = !termine.length;
+    $('termine-body').innerHTML = termine.map(it => {
+      const s = tag(it.ev, 'start'), e = tag(it.ev, 'end');
+      const f = (v) => !v ? '' : (/^\d{4}-\d{2}-\d{2}$/.test(v) ? v.split('-').reverse().join('.') : fmtDate(+v));
+      const when = f(s) + (e && f(e) !== f(s) ? ' – ' + f(e) : '');
+      return `<tr class="card-row" data-i="${posts.indexOf(it)}"><td>${esc(when)}</td><td>${esc(tag(it.ev, 'location') || '')}</td><td><a href="#" data-open="${posts.indexOf(it)}">${esc(it.title)}</a></td></tr>`;
+    }).join('');
+    const forum = posts.filter(p => [1, 11, 1068, 39701].includes(p.kind));
+    $('forum').hidden = !forum.length;
+    $('grid-forum').innerHTML = forum.map(it => cardHtml(it, posts.indexOf(it))).join('');
+  }
+  function renderFooter() {
+    const list = (facet, elId) => {
+      const c = new Map();
+      for (const it of items) for (const v of (it.facets[facet] || [])) c.set(v, (c.get(v) || 0) + 1);
+      const rows = [...c.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'de'));
+      $(elId).innerHTML = rows.map(([v, n]) => `<li><button data-search="${esc(v)}">${esc(v)} <small>(${n})</small></button></li>`).join('') || '<li><small>–</small></li>';
+    };
+    list('themen', 'foot-themen'); list('lernformat', 'foot-formate'); list('methode', 'foot-methoden');
+  }
+
+  // ---------- Detail ----------
+  function descHtml(s) {
+    return s.split(/\n{2,}/).map(p => '<p>' + esc(p).replace(/\n/g, '<br>').replace(/_([^_]+)_/g, '<em>$1</em>').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>') + '</p>').join('');
+  }
+  function openDetail(it) {
+    const ev = it.ev;
+    const rows = [];
+    const row = (k, v) => { if (v) rows.push(`<dt>${k}</dt><dd>${v}</dd>`); };
+    row('Urheber:in', esc(it.creators.join(', ')) + (it.affiliation ? ` <small>(${esc(it.affiliation)})</small>` : ''));
+    row('Lizenz', it.licenseUrl ? `<a href="${esc(it.licenseUrl)}" target="_blank" rel="noopener">${esc(it.license)}</a>` : '');
+    row('Materialart', esc(it.lrt.join(', ')));
+    for (const [k, label] of Object.entries(FACETS)) row(label, esc((it.facets[k] || []).join(', ')));
+    row('Bibelstellen', esc(it.bible.join('; ')));
+    row('Schlagworte', esc(it.keywords.join(', ')));
+    row('Sprache', esc(it.lang));
+    row('Veröffentlicht', esc(it.datePublished));
+    if (it.links.length) row('Weitere Links', it.links.map(l => `<a href="${esc(l)}" target="_blank" rel="noopener">${esc(l.replace(/^https?:\/\//, '').slice(0, 60))}</a>`).join('<br>'));
+    const naddr = isReplaceable(ev.kind) ? naddrEncode(ev.kind, ev.pubkey, tag(ev, 'd') || '', [RELAYS[0]]) : null;
+    const edufeed = naddr ? `https://edufeed.org/c/${NPUB}/r/${naddr}` : `https://edufeed.org/c/${NPUB}`;
+    const note = noteEncode(ev.id);
+    const kindLabel = { 30142: 'Lernressource (AMB)', 30023: 'Artikel', 31922: 'Termin', 31923: 'Termin', 30818: 'Wiki', 1: 'Beitrag', 11: 'Thread', 1068: 'Umfrage', 39701: 'Lesezeichen' }[ev.kind] || 'kind ' + ev.kind;
+    $('dlg').innerHTML = `<div class="detail">
+      <button class="close" aria-label="Schließen" data-close>×</button>
+      <div class="meta"><span>${esc(kindLabel)}</span><span>${fmtDate(it.posted)}</span>${it.license ? `<span>${esc(it.license)}</span>` : ''}</div>
+      <h2>${esc(it.title)}</h2>
+      <div class="desc">${descHtml(it.desc)}</div>
+      <dl>${rows.join('')}</dl>
+      <div class="row">
+        ${it.url ? `<a class="btn" href="${esc(it.url)}" target="_blank" rel="noopener">Material öffnen ↗</a>` : ''}
+        <a class="btn ghost" href="${esc(edufeed)}" target="_blank" rel="noopener">In edufeed ansehen</a>
+        <a class="btn ghost" href="https://njump.me/${note}" target="_blank" rel="noopener">Event</a>
+      </div>
+      <div class="tech">Nostr kind ${ev.kind} · ${new Date(ev.created_at * 1000).toLocaleString('de-DE')} · Autor ${esc(npubEncode(ev.pubkey).slice(0, 16))}… · Signatur hier nicht geprüft</div>
+    </div>`;
+    $('dlg').showModal();
+  }
+
+  // ---------- Interaktion ----------
+  $('menu-btn').addEventListener('click', () => { const open = $('menu').classList.toggle('open'); $('menu-btn').setAttribute('aria-expanded', open); });
+  let debounce;
+  $('q').addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(() => { renderChips(); renderGrid(); }, 120); });
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('#menu a')) $('menu').classList.remove('open');
+    const chip = e.target.closest('.chip[data-theme]');
+    if (chip) { const t = chip.dataset.theme; if (activeThemes.has(t)) activeThemes.delete(t); else activeThemes.add(t); renderChips(); renderGrid(); return; }
+    const fs = e.target.closest('[data-search]');
+    if (fs) { $('q').value = fs.dataset.search; activeThemes.clear(); renderChips(); renderGrid(); location.hash = '#materialien'; return; }
+    const open = e.target.closest('[data-open]');
+    if (open) { e.preventDefault(); openDetail(posts[+open.dataset.open]); return; }
+    const card = e.target.closest('.card[data-i]');
+    if (card) { openDetail(posts[+card.dataset.i]); return; }
+    if (e.target.closest('[data-close]') || e.target === $('dlg')) $('dlg').close();
+  });
+
+  // ---------- Start ----------
+  (async () => {
+    renderStatus();
+    await queryAll([{ authors: [COMMUNITY], kinds: [0, 10222] }], 'meta');
+    rebuild();
+    // Relays aus der Community-Definition ergänzen
+    if (community && !params.get('relays')) for (const r of tagsAll(community, 'r')) if (r.startsWith('wss://') && !RELAYS.includes(r)) RELAYS.push(r);
+    await queryAll([{ '#h': [COMMUNITY], kinds: [16, ...CONTENT_KINDS], limit: 500 }], 'posts');
+    // Reposts (kind 16) auf ihre Inhalte auflösen
+    const byKind = new Map(); const ids = new Set();
+    for (const ev of events.values()) {
+      if (ev.kind !== 16 || !tagsAll(ev, 'h').includes(COMMUNITY)) continue;
+      for (const a of tagsAll(ev, 'a')) { const [k, pk, ...rest] = a.split(':'); const d = rest.join(':'); const g = byKind.get(+k) || { authors: new Set(), ds: new Set() }; g.authors.add(pk); g.ds.add(d); byKind.set(+k, g); }
+      for (const id of tagsAll(ev, 'e')) ids.add(id);
+    }
+    const filters = [];
+    for (const [k, g] of byKind) filters.push({ kinds: [k], authors: [...g.authors], '#d': [...g.ds] });
+    if (ids.size) filters.push({ ids: [...ids] });
+    if (filters.length) await queryAll(filters, 'inhalte');
+    rebuild();
+  })();
+})();
+</script>
+</body>
+</html>
