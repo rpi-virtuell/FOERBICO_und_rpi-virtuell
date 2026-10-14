@@ -1,0 +1,62 @@
+steps:
+  - name: intro
+    image: alpine
+    commands:
+      - echo "here i am"
+      - ls -la
+      - pwd
+      - echo $(pwd) | sed 's/./& /g'
+      - echo MyTest > scp-testfile
+
+  - name: debug
+    image: alpine
+    environment:
+      HOST:
+        from_secret: ssh_host
+      PORT:
+        from_secret: ssh_port
+    commands:
+      - echo "[$PORT]" | sed 's/./& /g'
+      - nc -zv -w5 $HOST $PORT
+      - nc -zv -w5 $HOST 22
+
+  - name: copy_to_server
+    image: appleboy/drone-scp
+    settings:
+      host:
+        from_secret: ssh_host
+      username:
+        from_secret: ssh_user
+      key:
+        from_secret: ssh_key
+      port:
+        from_secret: ssh_port
+      target:
+        from_secret: target_full_path
+      source: scp-testfile
+
+  - name: test-drone-ssh # geht immer noch, oder geblockt?
+    image: appleboy/drone-ssh
+    environment:
+      DOMAIN_FOLDER:
+        from_secret: domain_folder
+      TARGET_PATH:
+        from_secret: target_path
+    settings:
+      host:
+        from_secret: ssh_host
+      username:
+        from_secret: ssh_user
+      key:
+        from_secret: ssh_key
+      port:
+        from_secret: ssh_port
+      envs:
+        - DOMAIN_FOLDER
+        - TARGET_PATH
+      script:
+        - ls -la MyLog
+        - cat MyLog/*
+        - ls -la "$DOMAIN_FOLDER/"
+        - ls -la "$DOMAIN_FOLDER/Log/"
+        - touch "$DOMAIN_FOLDER/$TARGET_PATH/i-was-here"
