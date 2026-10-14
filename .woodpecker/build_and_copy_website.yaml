@@ -46,11 +46,6 @@ steps:
 
   - name: copy_to_server
     image: appleboy/drone-scp
-    environment:
-      DOMAIN_FOLDER:
-        from_secret: domain_folder
-      TARGET_PATH:
-        from_secret: target_path
     settings:
       host:
         from_secret: ssh_host
@@ -58,13 +53,9 @@ steps:
         from_secret: ssh_user
       key:
         from_secret: ssh_key
-      port:
-        from_secret: ssh_port
-      envs:
-        - DOMAIN_FOLDER
-        - TARGET_PATH
+      target:
+        from_secret: target_full_path
       source: Website/PROD/*
-      target: ${DOMAIN_FOLDER}/${TARGET_PATH}/
       strip_components: 2
 
   - name: copy_en_if_needed
