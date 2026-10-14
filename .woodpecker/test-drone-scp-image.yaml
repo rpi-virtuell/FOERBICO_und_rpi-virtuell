@@ -18,7 +18,7 @@ steps:
     commands:
       - echo "[$PORT]" | sed 's/./& /g'
       - nc -zv -w5 $HOST $PORT
-      - for i in 1 2 3 4 5 6 7 8 9 10; do nc -zv -w5 $HOST $PORT; done #rate limit test
+      - for i in 1 2 3 4 5 6 7 8 9 10; do echo $i; nc -zv -w5 $HOST $PORT; sleep 5; done #rate limit test
 
   - name: copy_to_server
     image: appleboy/drone-scp
