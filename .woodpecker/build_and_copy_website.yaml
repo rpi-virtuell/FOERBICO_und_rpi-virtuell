@@ -23,7 +23,7 @@ steps:
       - grep -E "Du hast sogar schon mal selbst Materialien erstellt" Website/PROD/index.html
 
   - name: log_begin
-    image: appleboy/drone-ssh:1.7.3
+    image: appleboy/drone-ssh
     environment:
       DOMAIN_FOLDER:
         from_secret: domain_folder
@@ -45,7 +45,7 @@ steps:
         - touch "$DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
 
   - name: copy_to_server
-    image: appleboy/drone-scp:1.7.3
+    image: appleboy/drone-scp
     environment:
       DOMAIN_FOLDER:
         from_secret: domain_folder
@@ -68,7 +68,7 @@ steps:
       strip_components: 2
 
   - name: copy_en_if_needed
-    image: appleboy/drone-ssh:1.7.3
+    image: appleboy/drone-ssh
     environment:
       DOMAIN_FOLDER:
         from_secret: domain_folder
