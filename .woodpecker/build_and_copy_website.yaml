@@ -1,0 +1,95 @@
+steps:
+  - name: log_start_time
+    image: alpine
+    commands:
+      - date -I'seconds'
+
+  - name: build_by_hugo
+    image: alpine:3.24 # PaperMod (Stand 2026-05) braucht Hugo >= 0.146; Hugo-Version unten gepinnt
+    commands:
+      - date -I'seconds'
+      - cat /etc/alpine-release
+      # Version pinnen: alpine:3.24 fuehrt genau eine Hugo-Version. Ein Alpine-Update
+      # wechselt sie sonst unangekuendigt und kann den Build brechen (siehe #848).
+      - apk add --no-cache hugo=0.160.1-r2
+      - hugo version
+
+      - mkdir Website/PROD
+      - hugo -s Website -d PROD --logLevel error
+      
+      - ls -la Website/PROD/index.html
+      - if grep -E "Team vollständig" Website/PROD/index.html; then echo "Fehlerhafte Startseite! Artikel vorhanden..."; else echo "Startseite OK"; fi
+      - echo $?
+      - grep -E "Du hast sogar schon mal selbst Materialien erstellt" Website/PROD/index.html
+
+  - name: log_begin
+    image: appleboy/drone-ssh:1.7.3
+    environment:
+      DOMAIN_FOLDER:
+        from_secret: domain_folder
+      TARGET_PATH:
+        from_secret: target_path
+    settings:
+      host:
+        from_secret: ssh_host
+      username:
+        from_secret: ssh_user
+      key:
+        from_secret: ssh_key
+      port:
+        from_secret: ssh_port
+      envs:
+        - DOMAIN_FOLDER
+        - TARGET_PATH
+      script:
+        - touch "$DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
+
+  - name: copy_to_server
+    image: appleboy/drone-scp:1.7.3
+    environment:
+      DOMAIN_FOLDER:
+        from_secret: domain_folder
+      TARGET_PATH:
+        from_secret: target_path
+    settings:
+      host:
+        from_secret: ssh_host
+      username:
+        from_secret: ssh_user
+      key:
+        from_secret: ssh_key
+      port:
+        from_secret: ssh_port
+      envs:
+        - DOMAIN_FOLDER
+        - TARGET_PATH
+      source: Website/PROD/*
+      target: ${DOMAIN_FOLDER}/${TARGET_PATH}/
+      strip_components: 2
+
+  - name: copy_en_if_needed
+    image: appleboy/drone-ssh:1.7.3
+    environment:
+      DOMAIN_FOLDER:
+        from_secret: domain_folder
+      TARGET_PATH:
+        from_secret: target_path
+    settings:
+      host:
+        from_secret: ssh_host
+      username:
+        from_secret: ssh_user
+      key:
+        from_secret: ssh_key
+      port:
+        from_secret: ssh_port
+      envs:
+        - DOMAIN_FOLDER
+        - TARGET_PATH
+      script:
+        - if ! grep -E "<p>FOERBICO is a research project which " "$DOMAIN_FOLDER/$TARGET_PATH/en/index.html"; then cp "$DOMAIN_FOLDER/www_stable/en/index.html" "$DOMAIN_FOLDER/$TARGET_PATH/en/"; fi
+
+  - name: log_end_time
+    image: alpine
+    commands:
+      - date -I'seconds'
