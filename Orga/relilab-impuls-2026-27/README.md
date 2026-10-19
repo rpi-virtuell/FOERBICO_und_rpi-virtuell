@@ -64,6 +64,11 @@ Die Reihe wird gemeinsam geleitet; alle drei stehen als `contributor` mit Rolle
 Wer an einem Termin selbst referiert, steht dort nur als `performer` — beim
 Philemon-Termin also Günther, ohne zusaetzlichen Leitungseintrag.
 
+Seit 19.10.2026 tragen alle Events zusätzlich `participant`-Tags in der Form der
+edufeed-App (`["participant", "<Name> (<Haus>)", "", "speaker"|"organizer"]`), weil
+die App nur `p` und `participant` liest. Das Flattening bleibt daneben bestehen.
+**Die zehn Events müssen erneut publiziert werden** (gleicher `d`-Tag ersetzt).
+
 ## Offene Punkte
 
 - **Alt-Texte**: alle Events tragen `image:description: "TODO Alt-Text"`.
