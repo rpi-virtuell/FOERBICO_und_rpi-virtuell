@@ -18,7 +18,10 @@ steps:
       - cat /etc/alpine-release
       # Version pinnen: alpine:3.24 fuehrt genau eine Hugo-Version. Ein Alpine-Update
       # wechselt sie sonst unangekuendigt und kann den Build brechen (siehe #848).
-      - apk add --no-cache hugo=0.160.1-r2
+      # "~" statt "=": Alpine baut Pakete gelegentlich neu (r2 -> r3, Okt. 2026), ein
+      # exakter Pin auf die Revision bricht dann den Build. So bleibt Hugo 0.160.1 fest,
+      # die Paketrevision darf wechseln.
+      - apk add --no-cache hugo~0.160.1
       - hugo version
 
       - mkdir Website/PROD
