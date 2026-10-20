@@ -1,3 +1,10 @@
+when:
+  - branch: [main]
+    event: push
+    path:
+      include: ['Website/**']
+      on_empty: false
+
 steps:
   - name: log_start_time
     image: alpine
@@ -43,11 +50,14 @@ steps:
       - mkdir -p ~/.ssh
       - echo "$SSH_KEY" | tr -d '\r' > ~/.ssh/deployKey
       - chmod 600 ~/.ssh/deployKey
-      - ssh-keyscan -H -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
+      # Nur den RSA-Hostkey holen (der Server hat keinen anderen). Ohne -t oeffnet
+      # ssh-keyscan pro Schluesseltyp eine eigene Verbindung; die scheiternden
+      # Negotiations wurden serverseitig als Angriff gewertet und die CI-IP gesperrt (#871).
+      - ssh-keyscan -t rsa -p $SSH_PORT $SSH_HOST 2>/dev/null >> ~/.ssh/known_hosts
       - chmod 600 ~/.ssh/known_hosts
-      - ssh -vvv -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
-      - scp -r -i ~/.ssh/deployKey -P $SSH_PORT Website/PROD/* $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH/
-      - if ! grep -E "<p>FOERBICO is a research project which " Website/PROD/en/index.html; then ssh -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "cp $DOMAIN_FOLDER/www_stable/en/index.html $DOMAIN_FOLDER/$TARGET_PATH/en/"; fi
+      - ssh -4 -o BatchMode=yes -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "touch $DOMAIN_FOLDER/Log/time_begin_copy_$(date +'%Y-%m-%d_%T')"
+      - scp -4 -o BatchMode=yes -r -i ~/.ssh/deployKey -P $SSH_PORT Website/PROD/* $SSH_USER@$SSH_HOST:$DOMAIN_FOLDER/$TARGET_PATH/
+      - if ! grep -E "<p>FOERBICO is a research project which " Website/PROD/en/index.html; then ssh -4 -o BatchMode=yes -i ~/.ssh/deployKey -p $SSH_PORT $SSH_USER@$SSH_HOST "cp $DOMAIN_FOLDER/www_stable/en/index.html $DOMAIN_FOLDER/$TARGET_PATH/en/"; fi
 
   - name: log_end_time
     image: alpine
