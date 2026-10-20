@@ -28,7 +28,6 @@ keywords:
   - Open Educational Practices (OEP)
   - Vernetzung
   - Community
-
 # staticSiteGenerator
 author:
   - Gina Buchwald-Chassée
