@@ -45,6 +45,7 @@ tags:
   - Open Educational Practices (OEP)
   - Vernetzung
   - Community
+  - FOERBICO in Kontakt
 # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
