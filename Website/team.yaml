@@ -1,0 +1,62 @@
+# Das Team von oer.community als Nostr-Personenliste (NIP-51 kind:30000,
+# d = team) unter dem FOERBICO-Key — community-hub ADR-0042. Publiziert von
+# `deno task team` im mdparser/sync (Bunker muss freigeben). Hugo liest
+# diese Datei nicht; die Hugo-Seite unser-team bleibt unberührt.
+#
+# title       → Überschrift der Seite /team im Hub
+# description → Text der Seite, Markdown (Überschriften, Absätze, Links);
+#               Bilder werden nicht gezeigt. Die erste Zeile ist die
+#               Kurzfassung für Suchmaschinen.
+# mitglieder  → eine Karte je Person, in dieser Reihenfolge, aus dem
+#               eigenen kind:0 (Bild, Name, about, nip05, Website).
+#               name ist nur der Rückfall, wenn kein Profil zu finden ist.
+#
+# Wer keinen Nostr-Schlüssel hat (Viera, Manfred, Paula), steht im Text.
+title: Unser Team
+description: |
+  Das FOERBICO-Team an drei Standorten: Comenius-Institut Münster, Goethe-Universität Frankfurt und Friedrich-Alexander-Universität Erlangen-Nürnberg.
+
+  ## Comenius-Institut
+
+  Das Comenius-Institut, Evangelische Arbeitsstätte für Erziehungswissenschaft e.V., fördert Bildung und Erziehung aus evangelischer Verantwortung. Es versteht sich als Wissenschafts-, Kompetenz- und Forschungseinrichtung sowie als Impuls- und Dienstleistungszentrum im Blick auf grundlegende Fragen evangelischen Bildungshandelns.
+
+  Weitere Infos: [Comenius-Institut](https://comenius.de/)
+
+  ## Goethe-Universität Frankfurt
+
+  Die Professur für Religionspädagogik und Mediendidaktik an der Goethe-Universität Frankfurt widmet sich der Erforschung und Lehre der religiösen Bildung in Schulen und anderen Bildungseinrichtungen. Sie kombiniert dabei die traditionellen Ansätze der Religionspädagogik mit modernen Mediendidaktiken, um die Vermittlung religiöser Inhalte in einer digitalisierten Welt zu verbessern.
+
+  Weitere Infos: [Professur für Religionspädagogik und Mediendidaktik](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik) an der Goethe-Universität
+
+  **Prof. Dr. Viera Pirker** forscht und lehrt an der Professur für Religionspädagogik und Mediendidaktik in den Bereichen religiöse Bildung, interreligiöses Lernen sowie Medienbildung und -didaktik.
+
+  **Paula Gregorio Rodrigo** ist wissenschaftliche Mitarbeiterin an der Professur. Ihr Forschungsschwerpunkt liegt im Bereich der digitalen Medienbildung an Schulen; sie unterstützt FOERBICO bei der Vernetzung in der Wissenschaft und in der Planung der Abschlusstagung 2027. Kontakt: [gregoriorodrigo@em.uni-frankfurt.de](mailto:gregoriorodrigo@em.uni-frankfurt.de)
+
+  ## Friedrich-Alexander-Universität Erlangen-Nürnberg
+
+  Der Lehrstuhl für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU beschäftigt sich mit der Theorie und Praxis des evangelischen Religionsunterrichts sowie mit Fragen der religiösen Bildung. Ziel ist es, Studierende auf eine reflektierte und praxisnahe Tätigkeit im Religionsunterricht vorzubereiten und zur Weiterentwicklung dieses Bildungsbereichs beizutragen.
+
+  Weitere Infos: [Lehrstuhl für Religionspädagogik und Didaktik des evangelischen Religionsunterrichts](https://www.evrel.phil.fau.de/) an der FAU
+
+  **Prof. Dr. Manfred Pirner** ist Professor für Religionspädagogik und Didaktik des Evangelischen Religionsunterrichts an der FAU. Seine Forschungsschwerpunkte liegen in der religiösen Bildung, der religiösen Sozialisation und der interkulturellen und interreligiösen Bildung. Kontakt: [manfred.pirner@fau.de](mailto:manfred.pirner@fau.de)
+mitglieder:
+  # Comenius-Institut
+  - name: Jens
+    npub: npub17z39pld9w3z7w872zx0a6cte4s7ezhcy8w69jjzku7d8xv295q8s6dmu40
+  - name: Jörg
+    npub: npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9
+  - name: Gina
+    npub: npub1r0ecq67n7zhe79az477zg784e0ztqvmdkt0myzvya7lfm7aapdrszgddnn
+  - name: Ludger
+    npub: npub18s6lcj545vrtfjjp34nc6q7fzdm2wkw5q7qyxsmdzyy4a7j6yhyswd007z
+  # Goethe-Universität Frankfurt
+  - name: Laura
+    npub: npub17t7nr9r3czjxdgppu7rujvragfm0zp23v9lw25eeffl7e59kar9qcl5ul9
+  - name: Florian
+    npub: npub1v38032vs4y9a8u5dtctkeh0a2awptw3gja2dgf9am2ghfhq58mvsq5jgs5
+  # Friedrich-Alexander-Universität Erlangen-Nürnberg
+  - name: Phillip
+    npub: npub1gdq4fqhunzf5235n4mfezwk0m22s5phtfsrjg4afmaeepk6kltcsxp65dx
+  # Technik (edufeed, mdparser)
+  - name: Steffen
+    npub: npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma
