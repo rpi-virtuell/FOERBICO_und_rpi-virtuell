@@ -1,0 +1,14 @@
+{
+  "basis": "https://rpi-virtuell.github.io/FOERBICO_und_rpi-virtuell/",
+  "prototypen": [
+    {
+      "nummer": 5,
+      "datum": "2026-10-26",
+      "titel": "reli_hub-Prototyp 5",
+      "autor": "Jens Dechow",
+      "html": "relihub-prototyp_5.html",
+      "beschreibung": "relihub-prototyp_5.md",
+      "neu": "relilab-Termine aus einem NIP-52-Schnappschuss mit Monatsansicht, Filtern und ICS-Export; Community-Räume auch im relilab-Rahmen"
+    }
+  ]
+}
