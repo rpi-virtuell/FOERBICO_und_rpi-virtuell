@@ -19,11 +19,11 @@ gitworkshop: https://gitworkshop.dev/npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujz
 | `deno task threads --repo poutnik-test` | – | PR resolved (Jörg: erledigt), beide Issues mit richtigem Stand und Akteur |
 | Aufräumen: beide Issues schließen | poutnik / joerg | ok |
 
-Event-IDs und Rohausgaben: `.superpowers/sdd/2026-10-28-poutnik-issue-agent/probelauf-log.txt` (nicht im Repo).
+Event-IDs und Rohausgaben: `~/.config/poutnik/protokolle/probelauf-log-2026-10-28.txt` (nicht im Repo).
 
 Erkenntnisse:
 - `ngit issue list`/`pr list` zeigen nur offene Einträge und keine Zeitstempel; die Fäden-Abfrage liest deshalb direkt von den Relays.
 - nos.lol lehnt Schreibzugriffe von hier regelmäßig ab; für die Repo-Relays ohne Bedeutung.
 - Der Wrapper wertet einen `pr/`-Push nur dann als Erfolg, wenn ngit „proposal as PR event“/„Published N PR“ meldet; die Patch-Erkennung ist eng gefasst (`kind 1617`, „as patches“), damit Hex-IDs und Branch-Namen nicht anschlagen (Review I1). Sie läuft nach dem Push, kann also nichts verhindern, nur ehrlich melden („auf gitworkshop prüfen“).
 - Offen (Review I3): Ein Negativ-Probelauf mit ausgeschaltetem Handy (Flugmodus) für `deno task push --timeout 30` und `doctor` steht noch aus; `doctor` prüft Amber nicht, nur die ngit-Konten.
-- reli-hub, 28.10. ab 12:16: Jörgs `ngit repo accept` veröffentlicht; 15 s später neue Lead-Ankündigung von laoc42 nur mit laoc42 und `1bf3806b…` → Jörg nicht bestätigt, Push nach main abgewiesen („not a confirmed maintainer“). PR `pr/prototyp-5` bleibt offen, Merge-Commit 46ff367 lokal.
+- reli-hub, 28.10.: Jörgs `ngit repo accept` um 12:16 veröffentlicht; 15 s später neue Lead-Ankündigung ohne Jörg → Push nach main abgewiesen („not a confirmed maintainer“). Der erneute `ngit repo edit --add-maintainer` des Lead-Maintainers scheiterte zunächst an einem toten Schreib-Relay in seiner kind-10002-Liste (relay.mostr.pub leitet per HTTP 301 auf relay.ditto.pub um; ngit liest vor dem Edit alle Schreib-Relays und bricht sonst ab, keine Umgehung in 3.0.4). Nach Austausch des Relays (16:05) kam die Ankündigung mit Jörg durch (16:06); `ngit repo` zeigt seither gegenseitige Links, kein zweites `accept` nötig. Den PR `pr/prototyp-5` hatte der Lead-Maintainer um 16:01 selbst gemergt (d130782, Status „applied“); der lokale Merge-Commit 46ff367 war baumgleich und wurde verworfen. Lehre: vor einem Push nach main erst `git fetch`, der Wrapper meldet sonst nur „non-fast-forward“.

@@ -11,7 +11,7 @@ Spec: `docs/superpowers/specs/2026-10-26-poutnik-issue-agent-design.md`. Werkzeu
 
 - **Poutník** ist der Regelfall für alles, was Claude entwirft: Issues, Kommentare, PRs. Signer `poutnik` (Amber: Dauerfreigabe).
 - **Jörg** nur, wenn er ausdrücklich selbst sprechen will. Signer `joerg` (Amber: Einzelfreigabe am Handy, ein Tipp pro Event).
-- Repos: `edufeed-app` (Issues, Kommentare) und `reli-hub` (Issues, Kommentare, Code). Poutník ist nirgends Maintainer. Ob Jörg in reli-hub bestätigter Maintainer ist, zeigt `deno task doctor` (Ankündigung) bzw. `ngit repo` im Klon; Stand 28.10.2026: der Lead-Maintainer (laoc42) muss Jörg erneut eintragen (`ngit repo edit --add-maintainer <npub>`), danach `ngit --signer joerg repo accept -d`. Ohne Bestätigung wird ein Push nach `main` abgewiesen; der PR bleibt dann offen für das edufeed-Team.
+- Repos: `edufeed-app` (Issues, Kommentare) und `reli-hub` (Issues, Kommentare, Code). Poutník ist nirgends Maintainer. Ob Jörg in reli-hub bestätigter Maintainer ist, zeigt `deno task doctor` (Ankündigung) bzw. `ngit repo` im Klon; Seit 28.10.2026 ist Jörg dort bestätigter Co-Maintainer (gegenseitige Ankündigungen mit laoc42). Fällt das weg (Lead-Ankündigung ohne Jörg), wird ein Push nach `main` abgewiesen; dann muss der Lead-Maintainer ihn erneut eintragen (`ngit repo edit --add-maintainer <npub>`) und Jörg `ngit --signer joerg repo accept -d` ausführen. Der PR bleibt derweil offen für das edufeed-Team.
 - Forgejo (git.rpi-virtuell.de) wird nur gelesen. Issues und Kommentare dort entstehen wie bisher unter Jörgs Konto, nicht über Poutník.
 
 ## 2. Issue oder Kommentar veröffentlichen
@@ -59,7 +59,7 @@ cd tools/poutnik && deno task push pr/<slug> --as poutnik --cwd ~/repositories/r
 4. Merge nur nach Jörgs Ja. Jörg kann den PR vorher auf gitworkshop ansehen.
 
 ```bash
-cd ~/repositories/reli-hub && git checkout main && ngit --signer joerg pr merge <id>
+cd ~/repositories/reli-hub && git checkout main && git -c nostr.signer=joerg fetch origin && git merge --ff-only origin/main && ngit --signer joerg pr merge <id>
 cd tools/poutnik && deno task push main --as joerg --cwd ~/repositories/reli-hub      # Amber fragt am Handy (kind 30618)
 ```
 
