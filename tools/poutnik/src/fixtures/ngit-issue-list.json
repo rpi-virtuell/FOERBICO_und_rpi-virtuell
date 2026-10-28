@@ -1,0 +1,56 @@
+[
+  {
+    "author": "npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma",
+    "comment_count": 0,
+    "id": "nevent1qqsggukw30njk3lmyy0829atwd9km8ht5kwk626gcmyz852jsxhya9qpz3mhxue69uhhyetvv9ujumn8d96zuer9wc9uqsc0",
+    "labels": [
+      "av",
+      "feature"
+    ],
+    "status": "open",
+    "subject": "Add an option to also show scheduled calls in the global calendar"
+  },
+  {
+    "author": "npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma",
+    "comment_count": 0,
+    "id": "nevent1qqsxzmv44pfswc4364u0fnpmpaufqxjlv5kmj3gqcmun6guh7r589mqpz3mhxue69uhhyetvv9ujumn8d96zuer9wc59kze9",
+    "labels": [
+      "bug",
+      "av"
+    ],
+    "status": "open",
+    "subject": "User couldnt join with Firefox"
+  },
+  {
+    "author": "npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma",
+    "comment_count": 0,
+    "id": "nevent1qqs2klkmt24mz4jtu09ugul9fzkcqjkxem6gm9mz9smv8qzewnrgkkgpz3mhxue69uhhyetvv9ujumn8d96zuer9wc38vkth",
+    "labels": [
+      "feature",
+      "nip29",
+      "concord"
+    ],
+    "status": "open",
+    "subject": "Pin messages in channels"
+  },
+  {
+    "author": "npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma",
+    "comment_count": 0,
+    "id": "nevent1qqsgtjs9h9hey7w876mqr4dd7ehmz9xraggflhsyakpm7f039trfnpqpz3mhxue69uhhyetvv9ujumn8d96zuer9wc2yf5dj",
+    "labels": [
+      "feature",
+      "nip29",
+      "concord"
+    ],
+    "status": "open",
+    "subject": "Edit sent messages in channels"
+  },
+  {
+    "author": "npub1r30l8j4vmppvq8w23umcyvd3vct4zmfpfkn4c7h2h057rmlfcrmq9xt9ma",
+    "comment_count": 0,
+    "id": "nevent1qqs0qdvsazmc725cv2h8xrc26whha4fwm39faav3nk92sjyv7jkfznspz3mhxue69uhhyetvv9ujumn8d96zuer9wcxv0l5m",
+    "labels": [],
+    "status": "open",
+    "subject": "AV: view for anonymous users accessing call links"
+  }
+]
