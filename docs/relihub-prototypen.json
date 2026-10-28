@@ -11,5 +11,7 @@
       "neu": "relilab-Termine aus einem NIP-52-Schnappschuss mit Monatsansicht, Filtern und ICS-Export; Community-Räume auch im relilab-Rahmen"
     }
   ],
-  "relihub": "https://gitworkshop.dev/laoc.xyz/relay.ngit.dev/reli-hub"
+  "relihub": "https://gitworkshop.dev/laoc.xyz/relay.ngit.dev/reli-hub",
+  "aktuell": "https://rpi-virtuell.github.io/hub/",
+  "relihub_forgejo": "https://git.rpi-virtuell.de/Comenius-Institut/hub"
 }
