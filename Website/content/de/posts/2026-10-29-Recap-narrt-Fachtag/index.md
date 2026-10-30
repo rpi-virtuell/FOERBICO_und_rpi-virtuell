@@ -54,20 +54,22 @@ url: recap-narrt-fachtag
 tags:
   - Open Educational Resources (OER)
   - Open Educational Practices (OEP)
+  - Antisemitismuskritik
+  - FOERBICO in Kontakt
   - Vernetzung
-  - OER-Community
+  - Demokratiebildung
 # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
-  Screenshot-FOERBICO-Tagungsflyer.png:
-    alt: 'Orange-farbener Hintergrund mit blauer Aufschrift "Offen.Vernetzt.Zukunft. Open Education in (religionsbezogenen) Communitys".'
-    title: 'FOERBICO-Tagung "Offen. Vernetzt. Zukunft."'
-    sourceUrl: https://oer.community/foerbico-tagung-2027
-    author: FOERBICO
-    authorUrl: https://oer.community
-    licence: CC BY 4.0
-    licenceUrl: https://creativecommons.org/licenses/by/4.0/
-    keywords: ['grafik', 'schriftzug', 'offen vernetzt zukunft', 'orange', 'blau', 'tagung', 'open education', 'communitys', 'foerbico', 'ankündigung', 'graphic', 'lettering', 'open connected future', 'blue', 'conference', 'communities', 'announcement']
+  jonny-gios-SqjhKY9877M-unsplash.jpg:
+    alt: 'Weiße Puzzleteile auf braunem Marmortisch.'
+    title: 'Community-Puzzle'
+    sourceUrl: https://unsplash.com/de/fotos/weisse-puzzleteile-auf-braunem-marmortisch-SqjhKY9877M
+    author: Jonny Gios
+    authorUrl: https://unsplash.com/de/@supergios
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['grafik', 'puzzle', 'comic', 'community', 'Gemeinschaft', 'Rätsel']
 ---
 
 Die Fach-Community [narrt](https://narrt.de/) (Netzwerk antisemitismus- und rassismuskritische Religionspädagogik und Theologie) lud am 23.10.2026 zum digitalen Fachtag ein. Gina und Phillip aus dem FOERBICO-Team nahmen daran teil und trugen mit ihrem Vortrag -- **Gut gemeint, aber trotzdem problematisch: Unterrichtsmaterialien antisemitismus- und rassismuskritisch prüfen** -- zum Programm bei. Die Tagung beschäftigte sich mit Fragen rund um Dekolonialität, Rechtsextremismus und Rassismus, Antisemitismus- und Rassismuskritik sowie Antisemitismusprävention. Ziel des Fachtags war es, wissenschaftliche Arbeiten, Konzepte und Projekte vorzustellen, inhaltlich zu diskutieren und gemeinsam weiterzudenken.
@@ -89,9 +91,9 @@ Aus der Diskussion entstand schließlich die Idee, eine Art Beratungs- oder Prü
 
 Eine ausführlichere Zusammenfassung sowie die Präsentation zum Nachschauen & Weiterverwenden:
 
-- Zusammenfassung
-- PDF
-- PowerPoint
+- [Zusammenfassung](Zusammenfassung-FOERBICO-narrt-Fachtag.pdf)
+- [PDF](narrt-Fachtag-final.pdf)
+- [PowerPoint](narrt-Fachtag-final.pptx)
 
 Im letzten Vortrag wurden Ergebnisse aus der Interviewstudie von Dr. Linda Balzer  „Zwischen Wissen, Haltung und Handlung:  Antisemitismusprävention in der Lehramtsausbildung“ vorgestellt. Auf Grundlage einer Interviewstudie stellte sie Perspektiven von Lehramtsstudierenden, Lehrpersonen und jüdischen Menschen vor. Die Interviewaussagen machten deutlich, dass Wissen über jüdisches Leben teilweise erstaunlich begrenzt ist und von Vorstellungen geprägt sein kann, die mit der Realität wenig zu tun haben. Neben der Wissensebene rückte Balzer auch die Haltung gegenüber Antisemitismus in den Blick. Die vorgestellten Aussagen deuteten auf eine problematische Distanzierung hin, die sich sinngemäß in einer Haltung wie „Ich bin ja kein Jude, ist mir ja egal“ ausdrückt. Gerade für die Lehramtsausbildung ist das eine zentrale Herausforderung. Wissen allein führt nicht automatisch zu einer kritischen Haltung oder zu entschlossenem pädagogischem Handeln. Es braucht auch die Bereitschaft, sich mit jüdischen Perspektiven auseinanderzusetzen, eigene Vorstellungen zu hinterfragen und Antisemitismus als relevante Aufgabe des eigenen professionellen Handelns anzuerkennen.
 
