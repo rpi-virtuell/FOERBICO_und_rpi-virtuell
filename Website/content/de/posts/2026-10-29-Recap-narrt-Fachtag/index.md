@@ -29,7 +29,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: 
+image: jonny-gios-SqjhKY9877M-unsplash.jpg
 datePublished: '2026-10-29'
 keywords:
   - Open Educational Resources (OER)
@@ -45,7 +45,7 @@ author:
   - Phillip Angelina
 title: 'Von Teilnehmenden zu Teilgebenden? - Fachtage in Communities als Möglichkeit Expertisen auszutauschen'
 cover:
-  image: 
+  image: jonny-gios-SqjhKY9877M-unsplash.jpg
   relative: false
   hiddenInSingle: false
 summary: >-
