@@ -45,7 +45,7 @@ author:
   - Phillip Angelina
 title: 'Von Teilnehmenden zu Teilgebenden? - Fachtage in Communities als Möglichkeit Expertisen auszutauschen'
 cover:
-  image: jonny-gios-SqjhKY9877M-unsplash.jpg
+  image: https://oer.community/jonny-gios-SqjhKY9877M-unsplash.jpg
   relative: false
   hiddenInSingle: false
 summary: >-
