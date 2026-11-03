@@ -1,8 +1,9 @@
 # Gespräch zu relilab 03.11.2026
 
-Ich (Jörg) versuche hier den Konsens aus dem Gespräch abstrahiert zusammenzufassen, ohne Personenzuschreibungen, damit der Text auch in Hub-Entwicklung abgelegt werden könnte. 
+Ich (Jörg) versuche hier den Konsens aus dem Gespräch abstrahiert zusammenzufassen, ohne konkreten Bezug zu Personen, damit der Text auch in dem Repo zur Hub-Entwicklung abgelegt werden könnte. 
+
 ***tldr:***
-Wir haben uns heute verständigt, den Hub als das integrative Ganze mit OEP als Herzstück zu sehen. Das relilab ist darin der Experimentalraum mit klaren Kriterien, die institutionelle Fortbildungslogik bekommt ihren eigenen Platz über rpi-virtuell, und beide Marken treten hinter die Strukturen des Ökosystems (wie auch immer wir es noch definieren) zurück.
+Wir haben uns heute verständigt, den Hub als das integrative Ganze mit OEP als Herzstück zu sehen. Das relilab ist darin der Experimentalraum mit klaren Kriterien. Die institutionelle Fortbildungslogik bekommt ihren eigenen Platz über rpi-virtuell. Beide Marken treten hinter die Strukturen des Ökosystems (wie auch immer wir es noch definieren) zurück.
 
 ## Gemeinsame Punkte aus dem Gespräch zu relilab und Hub
 
@@ -16,16 +17,17 @@ Wir haben uns heute verständigt, den Hub als das integrative Ganze mit OEP als 
 ### 2. relilab ist nicht der Hub, sondern ein Teil davon
 
 - Der Hub ist das integrative Instrument. Er bildet Instanzen und Communities ab und bindet sie so zusammen, dass deren Eigenlogik bewahrt wird.
-- Das relilab ist innerhalb dieses Ökosystems der Experimentalraum mit Laborcharakter. Sein Beitrag ist zudem, in das Community-Geschehen hineinzuführen.
-- Das relilab kann dadurch entlastet werden von Erwartungen, die nicht zu seiner Grundidee des Ermöglichungsraums passen, z.B. von dem Anspruch ausschließlich zum Ausspielen klassischer Institutsfortbildungen genutzt zu werden.
+- Das relilab ist innerhalb dieses Ökosystems der Experimentalraum mit Laborcharakter. Ebenso soll er in das Community-Geschehen hineinführen.
+- Das relilab kann dadurch von Erwartungen entlastet werden, die nicht zu seiner Grundidee des Ermöglichungsraums passen, z.B. dem Anspruch ausschließlich zum Ausspielen klassischer Institutsfortbildungen genutzt zu werden.
 
 ### 3. Institutionelle Fortbildungslogik und Laborlogik des relilab bewusst unterscheiden, aber nicht hart trennen
 
-- Über rpi-virtuell als virtuelles Fortbildungsinstitut beziehungsweise Fortbildungskalender bekommt institutionelle Fortbildungslogik im Hub einen eigenen Platz für Formate mit den Kriterien: Anmeldung, klarer Verantwortung, Fachperson vermittelt an Praktikerinnen, Teilnahmebescheinigungen, territorial gebunden
+
+- Im Hub bekommt institutionelle Fortbildungslogik einen eigenen Platz - für Formate mit den Kriterien: Anmeldung, klarer Verantwortung, Fachperson vermittelt an Praktikerinnen, Teilnahmebescheinigungen, territorial gebunden. rpi-virtuell als virtuelles Fortbildungsinstitut bzw. -kalender bietet den Einstieg zu diesen Formaten.
 - In der Laborlogik des relilab finden sich Formate unter den Kriterien: heterarchisch, community-getrieben, experimentell, mit Unfertigem arbeiten, Erprobung und Rückmeldung zusammenführen.
 - Fließende Übergänge sind gewollt: Events aus dem relilab erscheinen auch allgemein unter Fortbildungen. Umgekehrt können Institutsangebote Laborcharakter haben. Die Steuerung läuft über Relayzuordnung und Taxonomien, nicht über harte Grenzen.
 - Praxisentwürfe und Unterrichtsversuche aus dem Labor sind nicht weniger wert als Produkte von Instituten und Verlagen. Das gemeinschaftliche Erarbeiten steht gleichrangig neben der Fortbildung. Qualitätskriterien und ihre Anwendung gilt es zu etablieren.
-- relilab ist ein Attraktor, der Institute in der komplementären Kooperation unterstützt. Es bringt Reichweite, eine jüngere Zielgruppe, Bodenhaftung durch Praxiserprobung und Anschluss an aktuelle digitale Entwicklungen.
+- relilab ist ein Attraktor, der Institute in der komplementären Kooperation unterstützt. Es bringt Reichweite, eine jüngere Zielgruppe, echte Relevanz durch Praxiserprobung und Anschluss an aktuelle digitale Entwicklungen.
 
 ### 4. Kriterien des relilab
 
@@ -43,21 +45,21 @@ Wir haben uns heute verständigt, den Hub als das integrative Ganze mit OEP als 
 
 ### 6. Die Marken treten zurück, die Strukturen bleiben
 
-- **rpi-virtuell** wird als Marke zurückgenommen und dient als Bindeglied für die Fortbildungslogik der ALPIKA-Institute.
+- **rpi-virtuell** wird als Marke zurückgenommen und dient als Bindeglied für die Fortbildungslogik der ALPIKA-Institute. (Kommentar Jens: rpi-virtuell könnte für die eher rezeptive Logik von Nutzenden stehen: unter rpi-virtuell bündeln sich Materialpool, Fortbildungskalender und News)
 - **relilab** wird als Marke zurückgenommen und dient als Bindeglied für Experimentalraum und Community-Aktivitäten.
-- **Gesteuerter Auflösungsprozess:** Das relilab als Labor läuft in der bisherigen Form ohne Netzwerksteuerung und Community-Management nicht weiter. Der Umbau wird deshalb bewusst konzeptionell gestaltet, nicht dem Zufall überlassen.
+- **Gesteuerter Auflösungsprozess:** Das relilab als Labor läuft in der bisherigen Form ohne Netzwerksteuerung und Community-Management nicht weiter. Der Umbau wird deshalb bewusst konzeptionell gestaltet und nicht dem Zufall überlassen.
 - Das Team bietet Strukturebenen an, initialisiert, begleitet und unterstützt. Ob sie vital werden, hängt von der Resonanzbereitschaft der Beteiligten ab und lässt sich nicht durch Personal kompensieren.
 
 ### 7. Der öffentliche Kommunikationsraum kommt zurück
 
 - Das relilab ist aus einem öffentlichen digitalen Raum entstanden (#relichat auf Twitter). Dieser Raum ist in Instagram, Newsletter, Chat-System und Webseite zersplittert.
-- Über das Nostr-Protokoll und die edufeed-Logik lässt sich wieder öffentliche, offene Kommunikation abbilden und initialisieren.
+- Über das Nostr-Protokoll und die edufeed-Logik lässt sich wieder öffentliche, offene Kommunikation abbilden und initialisieren. (Kommentar Jens: Offen ist die Frage der Brücken zu instagram und fediverse)
 - Dadurch entsteht die Möglichkeit eine "Trias" für relilab zu bilden: Materialien, Menschen, Mitmachen. Das relilab-Schaufenster bietet Inhalte, offene Veranstaltungen zum Mitmachen und öffentlich erschließbare Kommunikationszusammenhänge.
 - Der gemeinsame Datenraum macht sichtbar, was im Labor entsteht und was sich bei den Instituten bewegt. Das stärkt die Vermittlerrolle zwischen Praxis, Wissenschaft und Institutionen, die das relilab in seiner Brokerfunktion unterstützten kann.
 
 ### 8. Begriffe und Navigation sind noch am Anfang
 
-- Begriffe sind handlungsleitend. Sie müssen aus Anbieter-, Konzeptions- und Besucherperspektive gleichermaßen selbstverständlich sein und selbsterstschließbar sein, ohne Erklärung.
+- Begriffe sind handlungsleitend. Sie müssen aus Anbieter-, Konzeptions- und Besucherperspektive gleichermaßen selbstverständlich und selbsterstschließbar sein, ohne Erklärung.
 - Die Blume hat noch Überlappungen und Mehrdeutigkeiten: Wer „Finden" wählt, sucht vielleicht Menschen und landet bei „Kooperieren". Wer „Erstellen" wählt, will vielleicht einen Termin anlegen und findet das unter „Veröffentlichen".
 - Unsere Steuerungslogik gehört nicht unbedingt in die Nutzernavigation. Die Unterscheidung Labor versus Institutsfortbildung ist für Nutzende nicht intuitiv. Organigramm und Navigation sollten getrennt gedacht werden.
 - Die Fünfgliedrigkeit bleibt als Organisationsform brauchbar. Benennung, Farben und Bezüge sind offen.
@@ -72,6 +74,6 @@ Wir haben uns heute verständigt, den Hub als das integrative Ganze mit OEP als 
 ### Offene Punkte
 
 - Wie viel Community-Management künftig ins relilab investiert wird, ist nicht entschieden.
-- Die Relation relilab zu rpi-virtuell ist noch unklar.
+- Die Relation relilab zu rpi-virtuell ist noch unklar. (Jens: s.o. Kommentar)
 - Der Begriff Ökosystem braucht eine gemeinsame Definition.
 - Der Konsens muss ausformuliert und konturiert werden, bevor er in eine Navigation überführt wird. Dafür ist ein neuer Termin nötig.
