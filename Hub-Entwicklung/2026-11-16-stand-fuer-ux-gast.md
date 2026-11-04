@@ -59,6 +59,9 @@ Weitere Prüfungen:
 - [ ] Vor jedem Durchlauf localStorage und sessionStorage leeren (Entwicklerwerkzeuge › Anwendung › Speicher löschen), damit Modus, Leiste und Zwischenspeicher frisch starten.
 - [ ] Hover-Prüfung am Desktop: Nach einem Klick auf einen Kreis der großen Konsole bleibt die Erklärkarte stehen, wenn die Maus über einen anderen Kreis zur Karte fährt; nach Verlassen der Konsole reagiert das Überfahren wieder.
 - [ ] Eine Ansicht offline laden (z. B. relilab-Termine mit abgeschaltetem Netz): Die Stand-Zeile zeigt weiter „Stand vom …“ und springt nicht auf „live“.
+- [ ] Ein Material finden und seine Lizenz deuten: Im Materialpool eines öffnen; die Pille, der Satz dazu und die ausgegrauten Aktionen sagen, was man damit darf, ohne dass man nachfragen muss.
+- [ ] Die Spielregeln finden: Im Menü des Schaufensters zu „Spielregeln“, vier Kacheln, je „in Vorbereitung“ oder „Lesen“; verständlich, was schon da ist und was noch kommt.
+- [ ] Einen Beitrag im Schaufenster öffnen und eine Seite lesen (`#oercommunity/qualitaet`): Der Weg dorthin ist ohne Hilfe zu finden, der Text ist lesbar, der Rückweg ist klar.
 
 Ergebnis kommt nach `Hub-Entwicklung/2026-11-25-abnahme-navigation.md` (Befunde ohne Personennamen). Einwände werden Issue-Kommentar oder neues Issue, nicht Nacharbeit ohne Faden.
 
