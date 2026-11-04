@@ -33,7 +33,7 @@ des FOERBICO-Schlüssels.
 | FOERBICO (oer.community) | Schaufenster oer.community | `npub1tgftg8kptdrxxg0g3sm3hckuglv3j0uu3way4vylc5qyt0f44m0s3gun6e` | keine Community (nur Profil) | – | – | 103 Artikel und Seiten, 409 Bildlizenzen, 2 Listen (Hauptmenü, Fußzeile), 2 Materialien | nur Menü und Fußzeile |
 
 Folgerung für die Spec: In 4.6 und 5a steht „eigene Community-Schlüssel (werden angelegt)".
-Richtig ist: Die Schlüssel bestehen, anzulegen sind nur die Katalog-Listen. Für FOERBICO ist zu
+Richtig ist: Die Schlüssel bestehen und liegen beim Projektteam, anzulegen sind nur die Katalog-Listen. Für FOERBICO ist zu
 entscheiden, ob der Schaufenster-Schlüssel eine Community (`kind:10222`) bekommt oder ob der
 Katalog FOERBICO als reine Liste vom Profil-Schlüssel ausgeliefert wird (Spec 5a sieht Letzteres vor).
 
@@ -50,7 +50,7 @@ Alle mit Schlüssel und Community vorhanden; Kandidaten für Partnerkacheln und 
 | KPH Wien/NÖ, Zentrum Fortbildung Religion | `npub1vkn99j7kufchmgcly98lg9uexfste9epxe6jhgdt20wn4adzrvpqxhac4w` | 15.10.2026 | 22 | 22 (29.09.2026) | 18 (16 Materialien) | NIP-05 `fortbildung_religion@edufeed.org`; Österreich |
 | Pilgern in der Grundschule | `npub10zn9rxfqx0fyk96gw3m5y5zlxu8t2l3epr8f4avvtw4hxxmzlhpq8cmnme` | 03.09.2026 | 1 | 0 | 1 Material | Themen-Community |
 | Open Theology Hub | `npub1w5ah5an2k64yc34s0wgdk554xvcturruk0qg9prpaw02agrjhs9s0pj5jc` | 15.07.2026 | 9 | 1 (15.07.2026) | 0 | Lehrende und Forschende, OER und OEP in der Theologie |
-| RpiCommunity | `npub1gc2zfp85vqe57snsevxn4u9emsq7t4l283r2p83al0s0yzujaljq466thz` | 28.10.2025 | 1 | 0 | 0 | älterer Vorläufer von rpi-virtuell; ohne Profiltext, ohne Aktivität |
+| RpiCommunity | `npub1gc2zfp85vqe57snsevxn4u9emsq7t4l283r2p83al0s0yzujaljq466thz` | 28.10.2025 | 1 | 0 | 0 | Vorläufer von rpi-virtuell, wird stillgelegt (Entscheidung 04.11.2026); im Hub ausblenden |
 
 ## 4. Communities und Funktionsschlüssel des Ökosystems
 
@@ -75,18 +75,22 @@ Nicht religionsbezogen oder keine Community, aber für Ökosystem-Karte, Kalende
 | VocabulOER | NIP-05 `vocabuloer@edufeed.org` | Profil | – | Vokabulare (w3id); Anschluss an Metadatenprofil |
 | Poutník, Antiope | NIP-05 `poutnik@edufeed.org`, `antiope@edufeed.org` | Agentenprofile | – | Coding-Agenten, keine Communities |
 
-## 5. Offene Fragen an die Projektleitung
+## 5. Fragen an die Projektleitung und Antworten
 
-1. **Wer hält welchen Schlüssel?** Für rpi-virtuell, relilab, reliGlobal, ALPIKA Grundschule,
-   KuRU, Friedenspädagogik, Konfiarbeit EKD, RPI EKKW/EKHN und KPH Wien ist aus dem Relay nicht
-   ablesbar, ob der Schlüssel beim Comenius-Institut (Bunker), bei der Community selbst oder beim
-   edufeed-Entwickler liegt. Für die Katalog-Listen (Frist 21./23.12.2026) muss klar sein, wer signiert.
-2. **Materialpool:** Unter welchem Schlüssel liegen die Materialpool-Ressourcen (`kind:30142`)?
-   Auf `relay-rpi.edufeed.org` sind nur wenige Materialien sichtbar, die meisten vom Schlüssel
-   „Johan Amos Comenius" und vom joerglohrer-Schlüssel. Vermutlich liegt der Bestand auf
-   `amb-relay.edufeed.org`; dann braucht der Katalog rpi-virtuell einen Schlüssel, der dort schreibt.
-3. **RpiCommunity (28.10.2025) neben rpi-virtuell (15.09.2026):** Vorläufer stilllegen oder
-   Mitglied umziehen?
+Beantwortet am 04.11.2026 (Fragen 1 bis 3), die übrigen offen.
+
+1. **Wer hält welchen Schlüssel?** Antwort: Die Schlüssel für rpi-virtuell, relilab, reliGlobal,
+   ALPIKA Grundschule, Friedenspädagogik und Konfiarbeit EKD liegen beim Projektteam
+   (Comenius-Institut und edufeed); das Team kann mit allen signieren. Die Katalog-Listen
+   (Frist 21./23.12.2026) können damit intern angelegt werden. Offen bleibt die Haltung der Schlüssel
+   von KuRU, RPI EKKW/EKHN und KPH Wien.
+2. **Materialpool:** Antwort: Die Materialpool-Ressourcen (`kind:30142`) wurden zunächst importiert
+   und dann wieder gelöscht. Sie werden qualitätskriteriengeleitet und größtenteils von Hand neu
+   angelegt. Folge für den Katalog rpi-virtuell: Er kann nur so viele Einträge zeigen, wie bis zum
+   21.12.2026 neu angelegt sind; die Liste wächst mit der Redaktionsarbeit. Die wenigen Materialien
+   auf `relay-rpi.edufeed.org` (Schlüssel „Johan Amos Comenius" und joerglohrer) sind kein Bestand.
+3. **RpiCommunity (28.10.2025):** Antwort: Vorläufer von rpi-virtuell, wird stillgelegt. Im Hub
+   nicht anzeigen.
 4. **Profile nachrüsten:** News-Redaktion und BiK-Import haben kein Profil (`kind:0`). Ohne Profil
    erscheinen 4025 Beiträge und 5500 Termine im Hub ohne Absendernamen.
 5. **Weitere Partner mit eigenem Schlüssel:** rpp-katholisch, Konfessionskundliches Institut und
