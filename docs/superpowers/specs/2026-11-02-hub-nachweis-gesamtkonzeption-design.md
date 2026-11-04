@@ -29,8 +29,8 @@ Entscheidung aus dem Gespräch: **Echt, wo es geht.** Hinter den Hub-Elementen s
 
 **Nicht-Ziele**
 
-- FOERBICO baut kein eigenes WordPress-Plugin. Die WordPress-Zusagen (AP 4-4, M30, AP 9-5) sind durch die vier Plugins aus `git.edufeed.org/edufeed/wp-plugins-nostr` belegt (Stand 18.09.2026, Releases als Zips): `amb-nostr` zeigt AMB-Ressourcen mit Suche und Facettenfiltern, `longform-nostr` Artikel, `nostr-calendar` Termine, `nostr-publish` veröffentlicht WordPress-Beiträge als Nostr-Events; alle mit Block, Shortcode, `community`-Filter und Cache. Ein Eingabeformular als WordPress-Plugin folgt in der Woche ab dem 09.11.2026. Herkunft, sauber benannt: Die Plugins entstehen nicht in der Edufeed-Förderung und nicht im FOERBICO-Personalplan, sondern in der Anstellung des Entwicklers am Comenius-Institut; das Institut stellt sie dem Projekt als Open Source zur Verfügung. Der Hub zeigt sie als Einbettungsweg neben der Steuerkonsole. Im Abschlussbericht gelten sie als Beitrag des Comenius-Instituts aus Eigenmitteln, deren Einsatz, Anforderungen und Erprobung in den Communities (ALPIKA-Arbeitsgruppen, Institute) FOERBICO verantwortet und belegt.
-- Keine neue Relay- oder Server-Infrastruktur für den Launch. Der Hub liest von den edufeed-Relays (`relay-rpi.edufeed.org`, Kalender- und Communikey-Relay) und wird über GitHub Pages ausgeliefert (`docs/betrieb.md` im reli_hub-Repo).
+- Die WordPress-Plugins hat der edufeed-Entwickler im Rahmen seiner Anstellung am Comenius-Institut für FOERBICO gebaut (Eigenmittel des Instituts, nicht aus der Edufeed-Förderung, nicht aus dem FOERBICO-Personalplan; Stand 04.11.2026). Die WordPress-Zusagen (AP 4-4, M30, AP 9-5) sind durch die vier Plugins aus `git.edufeed.org/edufeed/wp-plugins-nostr` belegt (Stand 18.09.2026, Releases als Zips): `amb-nostr` zeigt AMB-Ressourcen mit Suche und Facettenfiltern, `longform-nostr` Artikel, `nostr-calendar` Termine, `nostr-publish` veröffentlicht WordPress-Beiträge als Nostr-Events; alle mit Block, Shortcode, `community`-Filter und Cache. Ein Eingabeformular als WordPress-Plugin folgt in der Woche ab dem 09.11.2026. Herkunft, sauber benannt: Die Plugins entstehen nicht in der Edufeed-Förderung und nicht im FOERBICO-Personalplan, sondern in der Anstellung des Entwicklers am Comenius-Institut; das Institut stellt sie dem Projekt als Open Source zur Verfügung. Der Hub zeigt sie als Einbettungsweg neben der Steuerkonsole. Im Abschlussbericht gelten sie als Beitrag des Comenius-Instituts aus Eigenmitteln, deren Einsatz, Anforderungen und Erprobung in den Communities (ALPIKA-Arbeitsgruppen, Institute) FOERBICO verantwortet und belegt.
+- Keine neue Relay-Infrastruktur für den Launch. Der Hub liest von den edufeed-Relays (`relay-rpi.edufeed.org`, Kalender- und Communikey-Relay) und wird seit 03.11.2026 unter https://hub.rpi-virtuell.net aus einem Caddy-Container ausgeliefert (`Dockerfile`, `app.yaml` und `docs/betrieb.md` im reli_hub-Repo); GitHub Pages ist abgelöst.
 - Keine Änderung an der edufeed-App in diesem Vorhaben.
 - Keine Begleitforschungs-Meilensteine (AP 11) im Hub. AP 11-4 erscheint nur über das, was der Hub ohnehin dokumentiert.
 
@@ -78,7 +78,7 @@ Routen sind Hash-Routen des Prototyps (`#…`). Neue Routen sind Vorschläge und
 |---|---|
 | **Zusage** | M34 (AP 3-3): Zentrale Ergebnisse (Standards zu Metadaten, Redaktionsabläufen, Prozessabläufen) sind über den Community-Hub öffentlich zugänglich und weiter nutzbar. AZ 3: Qualitätskriterien werden „in den Community-Hub integriert". |
 | **Funktion** | hub (Schaufenster FOERBICO) |
-| **Hub-Element** | Bereich „Spielregeln" `#oercommunity/spielregeln` mit vier Seiten: Qualitätskriterien (Handreichung, vier Dimensionen, Checklisten); Metadatenprofil religionsbezogen (AMB-Mapping, SKOS-Vokabular mit w3id-Permalinks); Redaktionsmodell (Entwürfe, Freigabe per NIP-32-Label, Bildnachweis-Konvention, Kalender-Konvention); Prozessabläufe (vom Beitrag im Git bis zum Relay, von der Webseite zum Termin). |
+| **Hub-Element** | Bereich „Spielregeln" `#oercommunity/spielregeln` mit vier Seiten: Qualitätskriterien (Handreichung, vier Dimensionen, Checklisten); Metadatenprofil religionsbezogen (AMB-Mapping, SKOS-Vokabulare auf nocabs.edufeed.org, nostr-konform mit AMB-Passung); Redaktionsmodell (Entwürfe, Freigabe per NIP-32-Label, Bildnachweis-Konvention, Kalender-Konvention); Prozessabläufe (vom Beitrag im Git bis zum Relay, von der Webseite zum Termin). |
 | **Echt** | Seiten als `kind:30023` vom FOERBICO-Schlüssel mit Seiten-Label, wie oer.community sie schon ausliefert (ADR-0027 im oer-community-Repo). Der Hub liest dieselben Events. |
 | **Belege** | oer.community/qualitaet (CC BY 4.0), #543 (SKOS-Vokabular), #535 (AMB-Standards), #840 (Bildnachweise), #843/#844 (Redaktionsmodell ADR-0021), Kalender-Guide bei edufeed, Blogbeiträge „Working Out Loud". |
 | **Lücke** | Im Hub gibt es den Bereich nicht; die Inhalte liegen verstreut auf oer.community, GitHub und in Issues. |
@@ -91,7 +91,7 @@ Routen sind Hash-Routen des Prototyps (`#…`). Neue Routen sind Vorschläge und
 | **Zusage** | M14 (AP 4-2): Eine Erweiterung OER-konformer Metadatenstandards steht bereit. AP 4-2: erweiterbare Schemata, Import/Export-Schnittstellen. |
 | **Funktion** | finden |
 | **Hub-Element** | Material-Detailansicht im Materialpool `#materialpool?d=…`: AMB-Felder (Fach, Bildungsstufe, Lernressourcentyp, Zielgruppe) mit Link auf das Vokabular, Lizenzpille, Bildnachweis, Rohdaten-Knopf (JSON-LD nach AMB, aus dem `kind:30142`). Der Lizenzstand bestimmt sichtbar, was geht: offen lizenziert = auf den Schreibtisch holen, in der Community weiterbearbeiten, in Sammlungen aufnehmen; geschützt = ansehen und verlinken. So wird die Hinführung zu OER im Hub erfahrbar, nicht nur erklärt. |
-| **Echt** | `kind:30142` vom amb-Relay, Vokabular-Links auf w3id/SkoHub, AMB-Rückausgabe über amb-nostr-converter. |
+| **Echt** | `kind:30142` vom amb-Relay, Vokabular-Links auf nocabs.edufeed.org, AMB-Rückausgabe über amb-nostr-converter. |
 | **Belege** | #543, #535, #846 (Abstimmung x-Tags, ai-Tag), #191/#30 (Bilddaten), amb-religionsbezogen (edufeed-org), Community-Call AMB-NIP 08.10.2025. |
 | **Lücke** | Der Prototyp zeigt einen Schnappschuss ohne Vokabular-Links und ohne Rohdaten. |
 | **Stufe** | A. |
@@ -127,7 +127,7 @@ Routen sind Hash-Routen des Prototyps (`#…`). Neue Routen sind Vorschläge und
 | **Zusage** | AP 4-6: Implementierung dezentraler, zielgruppenorientierter OER-Kataloge auf der gemeinsamen Datenbasis; plattformunabhängige Zusammenstellung, redaktionelle Aufbereitung, kontinuierliche Aktualisierung über den Hub. |
 | **Funktion** | finden, kooperieren |
 | **Hub-Element** | Katalog-Seite je Community `#community?c=…&zu=katalog`: kuratierte Sammlungen der Community (Redaktionskreis pflegt `kind:30004`), Stand und Aktualisierungsdatum sichtbar, derselbe Einbetten-Schnipsel wie in 4.5. Der Materialpool ist der Katalog der Community rpi-virtuell. |
-| **Echt** | Vier Kataloge beim Launch mit echten Listen: rpi-virtuell (Materialpool), FOERBICO (Beiträge und Seiten von oer.community), reliGlobal und relilab mit eigenen Community-Schlüsseln; ALPIKA-Grundschule oder weitere Communities, sobald sie einen Schlüssel haben. Communities ohne Einträge zeigen den Katalog als „noch leer" mit Einladung. |
+| **Echt** | Vier Kataloge beim Launch mit echten Listen: rpi-virtuell (Materialpool), FOERBICO (Beiträge und Seiten von oer.community), reliGlobal, relilab und ALPIKA Grundschule mit ihren bestehenden Community-Schlüsseln (Schlüssel beim Projektteam; Bestand und Aktivität in `Hub-Entwicklung/communities-schluessel.md`). Der Materialpool-Katalog wächst mit den von Hand neu angelegten Materialien; der Erstimport wurde verworfen (04.11.2026). |
 | **Belege** | Materialpool-Entwicklung (Svelte-Schaufenster, Formularentwicklung), #845 (Kuratierungslisten `kind:30004` für Menü und Fußzeile), Community-Struktur bei edufeed (Reposts mit `h`-Tag), reliGlobal- und KuRU-Anbindung. |
 | **Lücke** | Meilenstein AP 4-6 ist leer. Kein Katalog-Begriff im Hub. |
 | **Stufe** | A: vier echte Kataloge. B: Redaktionsoberfläche für Listen im Hub. |
@@ -175,7 +175,7 @@ Routen sind Hash-Routen des Prototyps (`#…`). Neue Routen sind Vorschläge und
 | **Zusage** | M34 (AP 9-5): Communities und Akteure erstellen eindeutige, standardisierte Profile, vernetzen sich darüber, verweisen auf eigene OEP/OER, verbinden das Profil mit sozialen Netzwerken wie Mastodon; json-ld, w3id. M36 (AP 2-4): Community-Management etabliert. |
 | **Funktion** | hub (Profil), kooperieren (Personen) |
 | **Hub-Element** | Personen-Ansicht `#kooperieren/personen` (heute „später"): Profile aus dem Netzwerk mit Rolle, Community-Zugehörigkeit, eigenen Veröffentlichungen, Folgen-Knopf. Profil-Ansicht `#profil` mit echtem Profil statt Kunstfigur; Personas als echte Nostr-Profile (Faden vom 02.11.). Mastodon-Verbindung über die Nostr-ActivityPub-Brücke (mostr) als Hinweis im Profil. |
-| **Echt** | `kind:0`, `kind:3`, Veröffentlichungen per Autor-Abfrage; Web-ID = npub, w3id für Vokabulare. |
+| **Echt** | `kind:0`, `kind:3`, Veröffentlichungen per Autor-Abfrage; Web-ID = npub; Vokabulare auf nocabs.edufeed.org (der w3id-Anlauf wurde verworfen). |
 | **Belege** | Faden „Personas als echte Nostr-Profile", Faden „Mehrwert", #26 (dezentrales ID-Verfahren), keycloak-nostr-plugin (Onboarding bestehender rpi-virtuell-Konten), Onboarding-Tool aus dem OE_Sprint, `nostr-publish` (wp-plugins-nostr). |
 | **Lücke** | Personen-Ansicht fehlt; Anmeldung ist ein Link. Der WordPress-Multisite-Profildienst wird nicht gebaut; an seine Stelle treten Nostr-Profile plus `nostr-publish`, das Beiträge einer WordPress-Seite automatisch mit dem Hub verbindet, genau die Zusage aus M34 (AP 9-5). |
 | **Stufe** | A: Personen-Ansicht mit den Profilen der hauptamtlichen Teams (CI, rpi-virtuell, Verbund), weitere Personen nach Einverständnis. B: Anmeldung per Signer (NIP-07/NIP-46). |
@@ -322,8 +322,8 @@ Inhalt und Code bleiben getrennt: Der Hub-Code rendert eine Gliederung aus `kind
 | Spielregeln-Seiten (4.2): Qualitätskriterien, Metadatenprofil, Redaktionsmodell, Prozessabläufe | vier `kind:30023`-Seiten mit Seiten-Label | FOERBICO-Schlüssel über die Sync-Pipeline (Markdown im FOERBICO-Repo, Signatur in der CI) | Claude entwirft aus den vorhandenen Texten (Handreichung, SKOS-Repo, ADR-0021, Konventionen), Jörg und die Redaktion lesen gegen | 30.11.2026 |
 | Erschließungs-Layer (5) | sechs `kind:30023`-Seiten, eine je Arbeitsziel | wie oben | Claude entwirft, Jörg liest gegen | Entwurf 09.11., final 23.12.2026, Stände im Januar nachgeführt |
 | Katalog FOERBICO (4.6) | `kind:30004`-Listen | FOERBICO-Schlüssel, Listen aus der Pipeline wie Menü und Fußzeile von oer.community | Claude legt an, Redaktion kuratiert | 21.12.2026 |
-| Katalog rpi-virtuell (4.6) | `kind:30004`-Listen | Community-Schlüssel rpi-virtuell (Communikey-Community mit Redaktionskreis `kind:30000`, besteht seit 09/2026) | Materialpool-Redaktion (rpi-virtuell-Team) | 21.12.2026 |
-| Kataloge reliGlobal und relilab, ggf. ALPIKA-Grundschule (4.6) | `kind:30004` | eigene Community-Schlüssel (werden angelegt) | Community mit Begleitung durch Community-Management und Redaktion | 23.12.2026 |
+| Katalog rpi-virtuell (4.6) | `kind:30004`-Listen | Community-Schlüssel rpi-virtuell (Communikey-Community mit Redaktionskreis `kind:30000`, besteht seit 09/2026) | Materialpool-Redaktion (rpi-virtuell-Team); Materialien werden nach dem verworfenen Erstimport qualitätskriteriengeleitet von Hand neu angelegt | 21.12.2026 |
+| Kataloge reliGlobal, relilab und ALPIKA Grundschule (4.6) | `kind:30004` | bestehende Community-Schlüssel (beim Projektteam, Stand 04.11.2026) | Community mit Begleitung durch Community-Management und Redaktion | 23.12.2026 |
 | Servicepoint, Werkzeugkasten, Good Practices (4.8) | Seiten und Listen | FOERBICO-Schlüssel | Claude entwirft, Jörg liest gegen | 15.01.2027 |
 | M26-Text „Was die Communities brauchten" (4.8) | Blogbeitrag | FOERBICO-Schlüssel | Claude entwirft aus den Beratungs-Issues beider Repos, ohne Personennamen; Jörg liest gegen | 15.01.2027 |
 | Termine ALPIKA und Institute (4.9) | `kind:31923` | bestehende Importe (BiK, KuRU, relilab); ALPIKA-Termine über den FOERBICO-Schlüssel, bis ALPIKA einen eigenen hat | Jörg sammelt, Claude trägt ein | laufend |
@@ -389,7 +389,7 @@ Jedes Issue verweist auf die betroffenen ADRs und schlägt vor, ob ein neues ADR
 
 | Wann | Was | Ergebnis |
 |---|---|---|
-| bis 09.11.2026 | Nachweis-Issues in Forgejo (Abschnitt 6), gitworkshop-Issues (Abschnitt 7), Ersatz-ADR für 0002, Entwurf des Erschließungs-Layers, Community-Schlüssel für reliGlobal und relilab anlegen | Buchführung und Hub-Backlog stehen, leere Meilensteine belegt, Arbeit verteilt |
+| bis 09.11.2026 | Nachweis-Issues in Forgejo (Abschnitt 6), gitworkshop-Issues (Abschnitt 7), Ersatz-ADR für 0002, Entwurf des Erschließungs-Layers, Community-Schlüssel für reliGlobal und relilab anlegen | Buchführung und Hub-Backlog stehen, leere Meilensteine belegt, Arbeit verteilt. **Erledigt am 04.11.2026:** Nachweis-Issues #879 bis #893 in Forgejo; 18 Hub-Issues und 6 Kommentare auf gitworkshop (Runde 4); ADR-0006 gemergt; Erschließungs-Entwurf `Hub-Entwicklung/erschliessung-entwurf/`; Schlüsselliste `Hub-Entwicklung/communities-schluessel.md` (die Schlüssel bestanden bereits, anzulegen sind nur die Katalog-Listen) |
 | bis 16.11.2026 | Navigation rund schleifen: die acht Runde-3-Issues (Konsole, Leiste, Startseite, mobil), rpi-virtuell als Instanz (17), Startseiten-Narrativ (18); parallel Querschnitt 13 (Live-Abfrage mit Rückfall) | Startseite, Konsole und Leiste konsistent; 17./18.11. Fachtagung Frankfurt, Team vor Ort |
 | bis 24.11.2026 | Zeilen 4.2, 4.3, 4.15 (Spielregeln, Material-Detail, Schaufenster live); Inhaltsstrang: Spielregeln-Seiten; 25.11. Stand an den UX-Gast und Folgetermin | Der Hub zeigt echte Inhalte |
 | bis 07.12.2026 | Zeilen 4.5, 4.6, 4.9, 4.10 (Sammlung, Kataloge, Kalender, Personen); Inhaltsstrang: Kataloglisten, Profile | Die leeren Meilensteine haben ihr Hub-Element |
@@ -398,7 +398,7 @@ Jedes Issue verweist auf die betroffenen ADRs und schlägt vor, ob ein neues ADR
 | 2./3.02.2027 | Launch auf der Fazit-Tagung | Hub-Launch (#779), Gallery Walk (#780) |
 | Feb.–Apr. 2027 | Stufe C, Svelte-Unterbau, Domain, Nachweis-Issues schließen den Kreis zum Abschlussbericht | Verstetigung |
 
-Jede Zeile wird einzeln als PR nach `main` gemergt und nach Forgejo gepusht; Pages liefert aus. Am 29.01.2027 wird der Stand getaggt und als eingefrorene Kopie abgelegt (Abschnitt 3).
+Jede Zeile wird einzeln als PR nach `main` gemergt und nach Forgejo gepusht; der Container unter hub.rpi-virtuell.net liefert aus. Am 29.01.2027 wird der Stand getaggt und als eingefrorene Kopie abgelegt (Abschnitt 3).
 
 Rückfallreihenfolge, wenn der 23.12. in Gefahr gerät: Zuerst fallen 4.17 (eigene Instanz), 4.1 (Karte) und 4.8 (Servicepoint) auf gekennzeichneten Nachbau zurück, dann 4.4 (Veröffentlichen bleibt Weiterleitung) und 4.10 (Personen als Liste ohne Folgen). Nicht verhandelbar sind 4.2, 4.3, 4.5, 4.6, 4.9 und 4.15, weil sie die leeren Meilensteine und M34 tragen.
 
@@ -434,7 +434,7 @@ Konsens aus der Hub-Erkundung mit UX-Außenblick vom 03.11.2026:
 Meine Festlegungen (Claude), die Jörg beim Lesen prüft:
 
 - Launch-Stack ist der HTML-Prototyp mit Live-Abfrage, nicht der Svelte-Unterbau (Abschnitt 3).
-- FOERBICO baut kein eigenes WordPress-Plugin; die vier Plugins aus wp-plugins-nostr belegen die WordPress-Zusagen, das Eingabeformular-Plugin kommt als Stufe A dazu (Abschnitt 2, 4.4, 4.5).
+- Die WordPress-Plugins sind FOERBICOs Plugins, gebaut vom edufeed-Entwickler in seiner Anstellung am Comenius-Institut (Eigenmittel); die vier Plugins aus wp-plugins-nostr belegen die WordPress-Zusagen, das Eingabeformular-Plugin kommt als Stufe A dazu (Abschnitt 2, 4.4, 4.5).
 - Der Erschließungs-Layer liest seine Inhalte als Nostr-Seiten vom FOERBICO-Schlüssel; der Hub-Code kennt keine Arbeitspakete (Abschnitt 5).
 - Vier echte Kataloge beim Launch (Abschnitt 4.6).
 - Nachweis-Issues nur im offenen Repo; das geschlossene bleibt Betrieb (Abschnitt 6).
