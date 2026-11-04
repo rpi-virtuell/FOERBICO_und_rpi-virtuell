@@ -127,10 +127,10 @@ Routen sind Hash-Routen des Prototyps (`#…`). Neue Routen sind Vorschläge und
 | **Zusage** | AP 4-6: Implementierung dezentraler, zielgruppenorientierter OER-Kataloge auf der gemeinsamen Datenbasis; plattformunabhängige Zusammenstellung, redaktionelle Aufbereitung, kontinuierliche Aktualisierung über den Hub. |
 | **Funktion** | finden, kooperieren |
 | **Hub-Element** | Katalog-Seite je Community `#community?c=…&zu=katalog`: kuratierte Sammlungen der Community (Redaktionskreis pflegt `kind:30004`), Stand und Aktualisierungsdatum sichtbar, derselbe Einbetten-Schnipsel wie in 4.5. Der Materialpool ist der Katalog der Community rpi-virtuell. |
-| **Echt** | Vier Kataloge beim Launch mit echten Listen: rpi-virtuell (Materialpool), FOERBICO (Beiträge und Seiten von oer.community), reliGlobal, relilab und ALPIKA Grundschule mit ihren bestehenden Community-Schlüsseln (Schlüssel beim Projektteam; Bestand und Aktivität in `Hub-Entwicklung/communities-schluessel.md`). Der Materialpool-Katalog wächst mit den von Hand neu angelegten Materialien; der Erstimport wurde verworfen (04.11.2026). |
+| **Echt** | Fünf Kataloge beim Launch mit echten Listen: rpi-virtuell (Materialpool), FOERBICO (Beiträge und Seiten von oer.community), reliGlobal, relilab und ALPIKA Grundschule mit ihren bestehenden Community-Schlüsseln (Schlüssel beim Projektteam; Bestand und Aktivität in `Hub-Entwicklung/communities-schluessel.md`). Der Materialpool-Katalog wächst mit den von Hand neu angelegten Materialien; der Erstimport wurde verworfen (04.11.2026). |
 | **Belege** | Materialpool-Entwicklung (Svelte-Schaufenster, Formularentwicklung), #845 (Kuratierungslisten `kind:30004` für Menü und Fußzeile), Community-Struktur bei edufeed (Reposts mit `h`-Tag), reliGlobal- und KuRU-Anbindung. |
 | **Lücke** | Meilenstein AP 4-6 ist leer. Kein Katalog-Begriff im Hub. |
-| **Stufe** | A: vier echte Kataloge. B: Redaktionsoberfläche für Listen im Hub. |
+| **Stufe** | A: fünf echte Kataloge. B: Redaktionsoberfläche für Listen im Hub. |
 
 ### 4.7 Weitere Communities eingebunden
 
@@ -165,7 +165,7 @@ Routen sind Hash-Routen des Prototyps (`#…`). Neue Routen sind Vorschläge und
 | **Hub-Element** | Fortbildungskalender über alle Quellen `#finden/fortbildungen` (heute „später" außerhalb des relilab-Kontexts). Zwei Logiken, bewusst unterschieden, nicht hart getrennt: die institutionelle Fortbildung über rpi-virtuell als virtuelles Fortbildungsinstitut (Anmeldung, klare Verantwortung, Fachperson vermittelt, Teilnahmebescheinigung, territorial gebunden) und die Laborlogik des relilab (offen ohne Anmeldung, kostenfrei, online, Impuls und Werkstatt, Unfertiges erlaubt, Ergebnisse unter freier Lizenz). Die Steuerung läuft über Relayzuordnung und Taxonomien (Felder für Anmeldung, Kosten, Präsenz/Online/Hybrid aus #696), nicht über getrennte Kalender; Laborformate erscheinen auch unter Fortbildungen. Die Instanz rpi-virtuell ist der Einstieg zu den Institutsformaten und zeigt unter „finden" die globale Sicht: alle Fortbildungen aller Institute. „Fortbildungen" bekommt in der Konsole denselben Platz wie auf der Startseite (Issue „dieselben Begriffe"). Administrative Bedürfnisse (Anmeldelisten, Bescheinigungen) werden in der Institutslogik bedient, nicht im Labor. Community-Seite ALPIKA mit sechsstufiger OER-Checkliste und den Institutsangeboten. |
 | **Echt** | `kind:31922/31923` vom Kalender-Relay, Kalender-Konvention von edufeed. |
 | **Belege** | #293 (ALPIKA-Leitendentagung 09/2025), #538/#505 (PTZ, Schuldekane), #692 (relilab-Termine nach edufeed), BiK-Import, KuRU-Anbindung, #696 (Kalender-Formate), #199 (Community-Kalender), Gesprächskonsens 03.11.2026 (Kriterien beider Logiken), `nostr-calendar` als Ausgabeweg für Institutsseiten. |
-| **Lücke** | Kein Kalender über alle Quellen im Hub; ALPIKA nicht als Community angelegt; die Taxonomie für die beiden Logiken ist noch nicht in der Kalender-Konvention. |
+| **Lücke** | Kein Kalender über alle Quellen im Hub; ALPIKA Grundschule hat seit 11.09.2026 Community und Schlüssel, aber noch keine Seite im Hub; die Taxonomie für die beiden Logiken ist noch nicht in der Kalender-Konvention. |
 | **Stufe** | A: Kalender live. B: ALPIKA-Community-Seite. |
 
 ### 4.10 Personen und Profile
@@ -411,7 +411,7 @@ Entschieden am 02.11.2026:
 - Fertig bis Weihnachten 2026, Januar nur Feinschliff.
 - Team: fünf Personen (Community-Management, technische Umsetzung, Öffentlichkeitsarbeit und Redaktion, Konzeption, edufeed-/relidesk-Entwickler) und die Coding-Agenten Poutník und antiope.
 - Die WordPress-Plugins aus wp-plugins-nostr sind Beleg, mit klarem Herkunftsvermerk: Beitrag des Comenius-Instituts aus Eigenmitteln (Anstellung des Entwicklers), nicht Edufeed, nicht FOERBICO-Personal; das Eingabeformular-Plugin folgt in der Woche ab dem 09.11.
-- Community-Schlüssel für reliGlobal und relilab, eventuell ALPIKA-Grundschule und weitere.
+- Community-Schlüssel für reliGlobal, relilab und ALPIKA Grundschule bestehen und liegen beim Projektteam (Stand 04.11.2026); ALPIKA Grundschule ist damit der fünfte Katalog.
 - Bedarfserhebung über gitworkshop, Tagungsrückmeldungen und Beobachtungen; Konsultation im Januar optional.
 - Echte Profile: zuerst die hauptamtlichen Teams, weitere werden gerade abgeklärt.
 - Der Nachweis ist ein eigenes Schaufenster mit eigener Navigation, separat für den Fördermittelgeber bereitgestellt (Erschließungs-Layer, Titel offen).
@@ -447,7 +447,7 @@ Meine Festlegungen (Claude), die Jörg beim Lesen prüft:
 Offen, nur Jörg kann entscheiden:
 
 - Der Titel des Erschließungs-Layers („Was wir versprochen haben" gefällt nicht). Vorschläge: „Antrag und Hub", „Zusagen", „Nachweis", „Vom Antrag zum Hub".
-- Ob ALPIKA-Grundschule und weitere Communities bis zum 23.12. einen Schlüssel bekommen oder erst im Januar.
+- Ob weitere Partner (rpp-katholisch, Konfessionskundliches Institut, relimentar) bis zum 23.12. einen Schlüssel bekommen oder als Partnerkachel ohne Schlüssel erscheinen (Fragen 4 bis 6 in `Hub-Entwicklung/communities-schluessel.md`).
 
 Offen im Team (aus dem Gespräch vom 03.11., nicht in dieser Konzeption zu entscheiden):
 

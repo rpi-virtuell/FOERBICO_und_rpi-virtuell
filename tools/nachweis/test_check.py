@@ -22,9 +22,19 @@ class Ordner(unittest.TestCase):
     def test_uebersicht_uebersprungen(self):
         import tempfile
         with tempfile.TemporaryDirectory() as d:
-            for name in ("00-uebersicht.md", "README.md", "01-a.md"):
+            for name in ("00-uebersicht.md", "README.md", "00-einleitung.md", "01-a.md"):
                 open(os.path.join(d, name), "w").write("TITEL: x\n\ny")
-            self.assertEqual([f for f, _ in check.entwuerfe(d)], ["01-a.md"])
+            # nur die Übersichtsdatei und README werden übersprungen; 00-einleitung ist eine Seite
+            self.assertEqual([f for f, _ in check.entwuerfe(d)], ["00-einleitung.md", "01-a.md"])
+
+    def test_schnappschuss_namen(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            open(os.path.join(d, "01-a.md"), "w").write("TITEL: x\nMEILENSTEIN: 1\nLABELS: Nachweis\n\nText #5")
+            snap = os.path.join(d, "snap.jsonl")
+            open(snap, "w").write('{"n": 5, "t": "Treffen mit Erika", "s": "open"}\n')
+            befunde = check.pruefe("forgejo", d, snap, namen=(("Erika",), ()))
+            self.assertTrue(any("snap.jsonl: name: Erika" in b for b in befunde), befunde)
 
 
 class Projektsprache(unittest.TestCase):

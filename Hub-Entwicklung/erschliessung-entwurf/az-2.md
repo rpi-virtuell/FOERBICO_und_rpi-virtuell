@@ -35,7 +35,7 @@ url: erschliessung/az-2
 ### Dezentrale Kataloge je Community (AP 4-6)
 
 **Zusage:** Implementierung dezentraler, zielgruppenorientierter OER-Kataloge auf der gemeinsamen Datenbasis; plattformunabhängige Zusammenstellung, redaktionelle Aufbereitung, kontinuierliche Aktualisierung über den Hub.
-**Im Hub:** die Katalog-Seite je Community mit kuratierten Sammlungen, Stand und Pflege; beim Launch vier echte Kataloge: rpi-virtuell, FOERBICO, reliGlobal, relilab (`#community?…&zu=katalog`, Stufe A).
+**Im Hub:** die Katalog-Seite je Community mit kuratierten Sammlungen, Stand und Pflege; beim Launch fünf echte Kataloge: rpi-virtuell, FOERBICO, reliGlobal, relilab, ALPIKA Grundschule (`#community?…&zu=katalog`, Stufe A).
 **Belege:** https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/issues/883; Materialpool als Katalog der Instanz rpi-virtuell, Kuratierungslisten auf oer.community.
 
 ### Kerndienste von rpi-virtuell im Hub (AP 9-2, M34)

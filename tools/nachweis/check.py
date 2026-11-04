@@ -82,23 +82,28 @@ def parse_entwurf(text: str) -> dict:
 
 
 def entwuerfe(ordner: str):
-    dateien = sorted(f for f in os.listdir(ordner) if f.endswith(".md") and not f.startswith("README") and not f.startswith("00-"))
+    # Übersprungen werden nur README* und die Übersichtsdatei 00-uebersicht.md; andere 00-Dateien (z. B. 00-einleitung) sind Seiten.
+    dateien = sorted(f for f in os.listdir(ordner) if f.endswith(".md") and not f.startswith("README") and f != "00-uebersicht.md")
     return [(f, open(os.path.join(ordner, f), encoding="utf-8").read()) for f in dateien]
 
 
-def pruefe(art: str, ordner: str, issues: str | None) -> list:
+def pruefe(art: str, ordner: str, issues: str | None, namen=None) -> list:
     befunde = []
     if art == "erschliessung" and not pfad_erlaubt(os.path.abspath(ordner)):
         return [f"{ordner}: pfad: Entwürfe dürfen nicht unter Website/content liegen"]
-    vornamen, erlaubt = lade_namen()
+    vornamen, erlaubt = namen if namen is not None else lade_namen()
     liste = entwuerfe(ordner)
     if not liste:
         return [f"{ordner}: leer: keine Entwürfe gefunden"]
     vorhandene = set()
     if issues:
-        for zeile in open(issues, encoding="utf-8"):
+        schnappschuss = open(issues, encoding="utf-8").read()
+        for zeile in schnappschuss.splitlines():
             if zeile.strip():
                 vorhandene.add(json.loads(zeile)["n"])
+        # Der Schnappschuss liegt im offenen Repo: auch er darf keine Vornamen tragen (z. B. in Titeln).
+        for n in find_namen(schnappschuss, vornamen, erlaubt):
+            befunde.append(f"{os.path.basename(issues)}: name: {n}")
     for datei, text in liste:
         for n in find_namen(text, vornamen, erlaubt):
             befunde.append(f"{datei}: name: {n}")
