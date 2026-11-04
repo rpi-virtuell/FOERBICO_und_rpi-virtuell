@@ -80,12 +80,12 @@ export async function runDoctor(d: DoctorDeps): Promise<Check[]> {
   // Signatur (Review I3); darum steht das ehrlich im Detail, und der Timeout fängt einen hängenden Aufruf ab.
   for (const alias of ['poutnik', 'joerg']) {
     if (!aliases.has(alias)) continue;
-    const r = await withTimeout(d.run(['ngit', '--signer', alias, 'account', 'whoami']), timeoutMs);
+    const r = await withTimeout(d.run(['ngit', '--signer', alias, 'account', 'whoami', '--offline']), timeoutMs);
     checks.push({
       name: `Signer ${alias} (ngit)`,
       ok: r !== 'timeout' && r.code === 0,
       detail: r === 'timeout'
-        ? `keine Antwort in ${sekunden(timeoutMs)} (Amber geöffnet? Handy online?)`
+        ? `keine Antwort in ${sekunden(timeoutMs)} (ngit hängt beim Auflösen des Kontos)`
         : r.code === 0
         ? 'Konto auflösbar; Amber selbst wird hier nicht geprüft, erst beim Signieren'
         : (r.stderr || r.stdout).trim().slice(0, 160),

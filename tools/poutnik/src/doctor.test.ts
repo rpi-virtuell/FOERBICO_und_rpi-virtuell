@@ -99,6 +99,16 @@ Deno.test('doctor: ohne Antwort von whoami heißt es „keine Antwort“, nicht 
   assert(!c.detail.includes('fehlt'), c.detail);
 });
 
+Deno.test('doctor: Signer-Check löst das Konto offline auf, Amber wird dabei nicht angesprochen', async () => {
+  const aufrufe: string[][] = [];
+  const basis = runner();
+  const run: Runner = (cmd, cwd, t) => { aufrufe.push(cmd); return basis(cmd, cwd, t); };
+  await runDoctor(deps({ run }));
+  const signer = aufrufe.filter((c) => c.includes('--signer'));
+  assertEquals(signer.length, 2, aufrufe.map((c) => c.join(' ')).join('\n'));
+  for (const c of signer) assert(c.includes('--offline'), c.join(' '));
+});
+
 Deno.test('doctor: fehlender Alias joerg wird benannt', async () => {
   const only = JSON.stringify({ accounts: [{ active: false, aliases: ['poutnik'], npub: 'npub1d2g2…' }] });
   const checks = await runDoctor(deps({ run: runner({ 'account whoami': { stdout: only } }) }));
