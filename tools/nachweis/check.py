@@ -82,7 +82,7 @@ def parse_entwurf(text: str) -> dict:
 
 
 def entwuerfe(ordner: str):
-    dateien = sorted(f for f in os.listdir(ordner) if f.endswith(".md") and not f.startswith("README"))
+    dateien = sorted(f for f in os.listdir(ordner) if f.endswith(".md") and not f.startswith("README") and not f.startswith("00-"))
     return [(f, open(os.path.join(ordner, f), encoding="utf-8").read()) for f in dateien]
 
 

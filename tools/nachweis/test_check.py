@@ -18,6 +18,15 @@ class Namen(unittest.TestCase):
         self.assertTrue(check.pfad_erlaubt("Hub-Entwicklung/erschliessung-entwurf/az-1.md"))
 
 
+class Ordner(unittest.TestCase):
+    def test_uebersicht_uebersprungen(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            for name in ("00-uebersicht.md", "README.md", "01-a.md"):
+                open(os.path.join(d, name), "w").write("TITEL: x\n\ny")
+            self.assertEqual([f for f, _ in check.entwuerfe(d)], ["01-a.md"])
+
+
 class Projektsprache(unittest.TestCase):
     def test_findet_ap_und_m(self):
         self.assertEqual(check.find_projektsprache("siehe AP 4-5 und M30"), ["AP 4", "M30"])
