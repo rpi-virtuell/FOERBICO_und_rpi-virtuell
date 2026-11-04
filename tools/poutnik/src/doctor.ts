@@ -43,12 +43,14 @@ export async function runDoctor(d: DoctorDeps): Promise<Check[]> {
   });
 
   // Konto-Aliase
-  const who = await withTimeout(d.run(['ngit', 'account', 'whoami', '--json']), timeoutMs);
+  // --offline: ohne den Schalter fragt ngit 3.0.4 erst Relays und Update-Server ab (45 s gemessen am 04.11.2026).
+  const who = await withTimeout(d.run(['ngit', 'account', 'whoami', '--json', '--offline']), timeoutMs);
   const aliases = new Map<string, string>();
   if (who !== 'timeout' && who.code === 0) {
     try {
       // ngit 3.0.4: accounts[].aliases ist eine Liste; `alias` als Einzelfeld nur zur Sicherheit.
-      const parsed = JSON.parse(who.stdout) as { accounts?: { alias?: string; aliases?: string[]; npub?: string }[] };
+      // Vor dem JSON kann eine Hinweiszeile stehen („ngit v3.0.5 is available …“), darum ab der ersten Klammer lesen.
+      const parsed = JSON.parse(who.stdout.slice(Math.max(0, who.stdout.indexOf('{')))) as { accounts?: { alias?: string; aliases?: string[]; npub?: string }[] };
       for (const a of parsed.accounts ?? []) {
         for (const alias of [...(a.aliases ?? []), ...(a.alias ? [a.alias] : [])]) aliases.set(alias, a.npub ?? '');
       }
@@ -58,7 +60,11 @@ export async function runDoctor(d: DoctorDeps): Promise<Check[]> {
   checks.push({
     name: 'Konten (ngit-Aliase)',
     ok: fehlend.length === 0,
-    detail: fehlend.length ? `fehlt: ${fehlend.join(', ')}` : [...aliases.entries()].map(([a, n]) => `${a} → ${n.slice(0, 12)}…`).join(', '),
+    detail: who === 'timeout'
+      ? `keine Antwort von \`ngit account whoami\` in ${sekunden(timeoutMs)}`
+      : fehlend.length
+      ? `fehlt: ${fehlend.join(', ')}`
+      : [...aliases.entries()].map(([a, n]) => `${a} → ${n.slice(0, 12)}…`).join(', '),
   });
   for (const [alias, npub] of aliases) {
     const soll = d.config.identities.find((i) => i.alias === alias)?.pubkey;

@@ -73,6 +73,32 @@ Deno.test('doctor: falsche ngit-Version schlägt fehl', async () => {
   assert(c.detail.includes('2.5.0'));
 });
 
+Deno.test('doctor: Hinweiszeile von ngit vor dem JSON (Update-Angebot) stört die Konten-Prüfung nicht', async () => {
+  const mitHinweis = 'ngit v3.0.5 is available; you have v3.0.4. Run `ngit update` for details\n' + whoamiOk;
+  const checks = await runDoctor(deps({ run: runner({ 'account whoami': { stdout: mitHinweis } }) }));
+  const c = byName(checks, 'Konten');
+  assertEquals(c.ok, true, c.detail);
+  assert(c.detail.includes('poutnik') && c.detail.includes('joerg'));
+});
+
+Deno.test('doctor: whoami läuft offline, damit kein Netz-Check die Prüfung verzögert', async () => {
+  const aufrufe: string[][] = [];
+  const basis = runner();
+  const run: Runner = (cmd, cwd, t) => { aufrufe.push(cmd); return basis(cmd, cwd, t); };
+  await runDoctor(deps({ run }));
+  const who = aufrufe.find((c) => c.includes('whoami'));
+  assert(who, 'whoami wurde nicht aufgerufen');
+  assert(who.includes('--offline'), who.join(' '));
+});
+
+Deno.test('doctor: ohne Antwort von whoami heißt es „keine Antwort“, nicht „fehlt“', async () => {
+  const checks = await runDoctor(deps({ run: runner({ 'account whoami': { hang: true } }), timeoutMs: 50 }));
+  const c = byName(checks, 'Konten');
+  assertEquals(c.ok, false);
+  assert(c.detail.includes('keine Antwort'), c.detail);
+  assert(!c.detail.includes('fehlt'), c.detail);
+});
+
 Deno.test('doctor: fehlender Alias joerg wird benannt', async () => {
   const only = JSON.stringify({ accounts: [{ active: false, aliases: ['poutnik'], npub: 'npub1d2g2…' }] });
   const checks = await runDoctor(deps({ run: runner({ 'account whoami': { stdout: only } }) }));
