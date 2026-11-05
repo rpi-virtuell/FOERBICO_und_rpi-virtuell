@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "none",
+  "lock": false,
+  "tasks": {
+    "dry-run": "deno run --allow-read=../../Hub-Entwicklung/kataloge veroeffentlichen.ts ../../Hub-Entwicklung/kataloge/personen-liste.json NSEC_FOERBICO --dry-run"
+  }
+}

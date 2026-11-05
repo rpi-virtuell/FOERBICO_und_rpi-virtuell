@@ -1,0 +1,71 @@
+[
+  {
+    "kind": 16,
+    "tags": [
+      [
+        "a",
+        "30142:65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02:https://phaidra.kphvie.ac.at/o:4190",
+        "wss://amb-relay.edufeed.org"
+      ],
+      [
+        "k",
+        "30142"
+      ],
+      [
+        "p",
+        "65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02"
+      ],
+      [
+        "h",
+        "7a09d40239cb1ecc4c16868a8cb84a55981ca8a72e282e74e7bf3a3939df7d5a"
+      ]
+    ],
+    "content": ""
+  },
+  {
+    "kind": 16,
+    "tags": [
+      [
+        "a",
+        "30142:65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02:https://phaidra.kphvie.ac.at/o:4202",
+        "wss://amb-relay.edufeed.org"
+      ],
+      [
+        "k",
+        "30142"
+      ],
+      [
+        "p",
+        "65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02"
+      ],
+      [
+        "h",
+        "7a09d40239cb1ecc4c16868a8cb84a55981ca8a72e282e74e7bf3a3939df7d5a"
+      ]
+    ],
+    "content": ""
+  },
+  {
+    "kind": 16,
+    "tags": [
+      [
+        "a",
+        "30142:776c7bfe528c041cd1114efb6d48100b2e49d4faf27e301fb3f83c64a28694f4:https://www.rpi-ekkw-ekhn.de/fileadmin/templates/rpi/normal/material/rpiimpulse/2026/Heft_1_26/Artikel/RPI_Impluse_1-2026_09_Gott_wirkt.pdf",
+        "wss://amb-relay.edufeed.org"
+      ],
+      [
+        "k",
+        "30142"
+      ],
+      [
+        "p",
+        "776c7bfe528c041cd1114efb6d48100b2e49d4faf27e301fb3f83c64a28694f4"
+      ],
+      [
+        "h",
+        "7a09d40239cb1ecc4c16868a8cb84a55981ca8a72e282e74e7bf3a3939df7d5a"
+      ]
+    ],
+    "content": ""
+  }
+]

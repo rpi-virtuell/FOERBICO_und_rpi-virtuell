@@ -1,0 +1,71 @@
+[
+  {
+    "kind": 16,
+    "tags": [
+      [
+        "a",
+        "30142:65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02:https://phaidra.kphvie.ac.at/o:4197",
+        "wss://amb-relay.edufeed.org"
+      ],
+      [
+        "k",
+        "30142"
+      ],
+      [
+        "p",
+        "65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02"
+      ],
+      [
+        "h",
+        "5757f422eeca80eb060582365156593aa9785af5f653eb614710913a2c4b42c8"
+      ]
+    ],
+    "content": ""
+  },
+  {
+    "kind": 16,
+    "tags": [
+      [
+        "a",
+        "30142:65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02:https://phaidra.kphvie.ac.at/o:4203",
+        "wss://amb-relay.edufeed.org"
+      ],
+      [
+        "k",
+        "30142"
+      ],
+      [
+        "p",
+        "65a652cbd6e2717da31f214ff417993260bc972136752ba1ab53dd3af5a21b02"
+      ],
+      [
+        "h",
+        "5757f422eeca80eb060582365156593aa9785af5f653eb614710913a2c4b42c8"
+      ]
+    ],
+    "content": ""
+  },
+  {
+    "kind": 16,
+    "tags": [
+      [
+        "a",
+        "30142:e8dd80cf88e107309cbbb995fae472574f795f34c8f843cf6fad94e6906201ad:kx5427um",
+        "wss://amb-relay.edufeed.org"
+      ],
+      [
+        "k",
+        "30142"
+      ],
+      [
+        "p",
+        "e8dd80cf88e107309cbbb995fae472574f795f34c8f843cf6fad94e6906201ad"
+      ],
+      [
+        "h",
+        "5757f422eeca80eb060582365156593aa9785af5f653eb614710913a2c4b42c8"
+      ]
+    ],
+    "content": ""
+  }
+]

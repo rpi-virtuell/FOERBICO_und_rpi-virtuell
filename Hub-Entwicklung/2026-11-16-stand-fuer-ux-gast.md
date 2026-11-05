@@ -21,10 +21,13 @@ die aktuelle Fassung liegt unter https://hub.rpi-virtuell.net. Was sich seit uns
 
 Dazu zwei Neuerungen: rpi-virtuell ist als eigene Instanz in der Leiste dabei (mit Fortbildungen und News, live von den Relays), und die Startseite trägt einen kurzen Text zum Selbstverständnis (Institute dahinter, Mitmachen als Einladung, Offenheit als Struktur).
 
-Drei Aufgaben zum Durchspielen, am liebsten einmal am Rechner und einmal auf dem Handy:
+Aufgaben zum Durchspielen, am liebsten einmal am Rechner und einmal auf dem Handy:
 1. Eine Person finden.
 2. Einer Community beitreten.
 3. Ein Material veröffentlichen.
+4. Eine Sammlung zusammenstellen und einbetten.
+5. Den Katalog einer Community finden.
+6. Eine Fortbildung nach Merkmal filtern.
 
 Mich interessiert vor allem, wo du zögerst, danebenklickst oder suchst. Rückmeldung bitte bis zum 25.11.2026, dann besprechen wir sie bei unserem Termin.
 
@@ -33,7 +36,7 @@ Jörg
 
 ## 2. Abnahme-Checkliste 25.11.2026
 
-Die drei Aufgaben jeweils auf dem Desktop und bei 375 px Breite spielen und eintragen. Vergleichswert vom 03.11.: Kreis plus Menüpunkt, also 2 Klicks je Bereich. Der Stand nach der Umsetzung (Simulation): Tutorialmodus 3, Direktmodus 2 Klicks je Bereich.
+Die Aufgaben jeweils auf dem Desktop und bei 375 px Breite spielen und eintragen. Vergleichswert vom 03.11.: Kreis plus Menüpunkt, also 2 Klicks je Bereich. Der Stand nach der Umsetzung (Simulation): Tutorialmodus 3, Direktmodus 2 Klicks je Bereich.
 
 | Aufgabe | Gerät | Tipps/Klicks vorher (03.11.) | Tipps/Klicks nachher (erwartet) | Tipps/Klicks nachher (gezählt) | Fehlgriffe | Befund |
 |---|---|---|---|---|---|---|
@@ -43,6 +46,12 @@ Die drei Aufgaben jeweils auf dem Desktop und bei 375 px Breite spielen und eint
 | Community beitreten | 375 px | 2 je Bereich | Tutorial 3, Direkt 2 | | | |
 | Material veröffentlichen | Desktop | 2 je Bereich | Tutorial 3, Direkt 2 | | | |
 | Material veröffentlichen | 375 px | 2 je Bereich | Tutorial 3, Direkt 2 | | | |
+| Sammlung zusammenstellen und einbetten | Desktop | – | | | | |
+| Sammlung zusammenstellen und einbetten | 375 px | – | | | | |
+| Katalog einer Community finden | Desktop | – | | | | |
+| Katalog einer Community finden | 375 px | – | | | | |
+| Fortbildung nach Merkmal filtern | Desktop | – | | | | |
+| Fortbildung nach Merkmal filtern | 375 px | – | | | | |
 
 Hinweis: Bei der Umsetzung ließ sich die Aufgabe „Person finden“ nicht bis zum Ziel durchspielen, weil der Personen-Knopf noch ein Platzhalter ist; das gehört in den Befund, nicht in die Fehlgriffe.
 

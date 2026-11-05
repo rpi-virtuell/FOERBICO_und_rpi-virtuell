@@ -3,6 +3,8 @@
 # d-Kennungen von Seiten (letztes Segment von commonMetadata.id). Der Hub
 # beschriftet mit dem Seitentitel; die Startseite (d = startseite) gehört nicht
 # ins Menü, das Logo verlinkt dorthin.
+# katalog: Kuratierungsliste des Schaufensters (d = katalog), Seiten zuerst, dann Beiträge;
+# der Hub liest sie unter #community?c=oercommunity&zu=katalog.
 navigation:
   - tagungen
   - oer-und-oep
@@ -11,3 +13,16 @@ navigation:
 fusszeile:
   - impressum
   - datenschutz
+katalog:
+  - qualitaet
+  - oer-und-oep
+  - tagungen
+  - offenheit-ist-kein-gegensatz-zu-qualität
+  - oer-visuelle-qualität
+  - metadaten-die-unsichtbare-infrastruktur-offener-bildung
+  - oer-remix
+  - lizenz-irrtum-oer
+  - oer-beratung-und-qualitätskriterien
+  - dezentrale-oer-infrastrukturen
+  - offen-und-leicht-zu-finden-oer-plattformen
+  - so-arbeiten-wir
