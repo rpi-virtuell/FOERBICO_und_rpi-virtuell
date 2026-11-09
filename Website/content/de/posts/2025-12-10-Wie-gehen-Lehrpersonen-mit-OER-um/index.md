@@ -54,6 +54,17 @@ tags:
   - Lizenzen
   - Religionspädagogik
   - Haltung
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+bilder:
+  we-are-open.jpg:
+    alt: 'Gelbes Schild mit der Aufschrift „we are OPEN", an einem Saugnapf hinter einer Glasscheibe hängend, im Hintergrund unscharf grüne Bäume.'
+    title: 'We are open'
+    sourceUrl: https://unsplash.com/de/fotos/ein-gelbes-schild-auf-dem-steht-dass-wir-offen-sind-hangt-an-einem-haken-XU84U7xhQ_4
+    author: Tim Mossholder
+    authorUrl: https://unsplash.com/de/@timmossholder
+    licence: Unsplash-Lizenz
+    licenceUrl: https://unsplash.com/de/lizenz
+    keywords: ['foto', 'schild', 'geöffnet', 'offenheit', 'symbolbild', 'photo', 'sign', 'open', 'openness', 'symbolic image']
 ---
 
 # *Open* ist eine Haltung: Wie Lehrkräfte mit OER umgehen  
