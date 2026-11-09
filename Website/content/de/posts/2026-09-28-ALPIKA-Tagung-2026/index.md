@@ -21,7 +21,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: https://oer.community/alpika-tagung-2026/IMG_3549.jpg
+image: https://blossom.edufeed.org/ca24490b5cd426234f626e14345146d712837f21fb86be00fb49a5dd10ee8179.jpg
 datePublished: '2026-09-28'
 keywords:
   - Kollaboration
@@ -33,7 +33,7 @@ author:
   - Gina Buchwald-Chassée
 title: 'ALPIKA-Leitendentagung - (Komplementäre) Kooperationen, aber wie?'
 cover:
-  image: IMG_3549.jpg
+  image: https://blossom.edufeed.org/ca24490b5cd426234f626e14345146d712837f21fb86be00fb49a5dd10ee8179.jpg
   relative: false
   hiddenInSingle: false
 summary: >-
@@ -51,7 +51,7 @@ bilder:
   IMG_3549.jpg:
     alt: 'Eingang des Gästehauses der Ev. Tagesstätte Hofgeismar, gelb-weißes Gebäude.'
     title: 'Evangelischen Tagungsstätte Hofgeismar'
-    sourceUrl: https://oer.community/alpika-tagung-2027
+    sourceUrl: https://oer.community/alpika-tagung-2026
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -59,7 +59,7 @@ bilder:
   IMG_3550.jpg:
     alt: 'Pavillon auf dem Gelände des Gästehauses der Ev. Tagesstätte Hofgeismar.'
     title: 'Pavillon - Evangelischen Tagungsstätte Hofgeismar'
-    sourceUrl: https://oer.community/alpika-tagung-2027
+    sourceUrl: https://oer.community/alpika-tagung-2026
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -67,7 +67,7 @@ bilder:
   IMG_3551.jpg:
     alt: 'Brunnenkirche auf dem Gelände des Gästehauses der Ev. Tagesstätte Hofgeismar.'
     title: 'Brunnenkirche Hofgeismar'
-    sourceUrl: https://oer.community/alpika-tagung-2027
+    sourceUrl: https://oer.community/alpika-tagung-2026
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -75,23 +75,23 @@ bilder:
   IMG_3552.jpg:
     alt: 'Schwanenteich auf dem Gelände des Gästehauses der Ev. Tagesstätte Hofgeismar.'
     title: 'Schwanenteich Hofgeismar'
-    sourceUrl: https://oer.community/alpika-tagung-2027
+    sourceUrl: https://oer.community/alpika-tagung-2026
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
   IMG_3554.jpg:
-    alt: 'Stellwand mit Ergebnissen der Kleingruppen Material und Veranstaltungen .'
-    title: 'Ergebnisse der Kleingruppen Material und Veranstaltungen'
-    sourceUrl: https://oer.community/alpika-tagung-2027
+    alt: 'Stellwand mit Ergebnissen der Kleingruppe Themen: Karten in den Spalten Strategisch, Technisch und Vereinbarungsebene, geordnet nach „Was wir wollen" (Plus), offenen Fragen (Fragezeichen) und „Das wollen wir nicht" (Minus).'
+    title: 'Ergebnisse der Kleingruppe Themen'
+    sourceUrl: https://oer.community/alpika-tagung-2026
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/
   IMG_3556.jpg:
-    alt: 'Stellwand mit Ergebnissen der Kleingruppe Themen zu "Das wollen wir" auf grüner Karte mit Plus-Symbol, "Das sind Herausforderungen" auf weißer Karte mit Fragezeichen-Symbol und "Das ist problematisch" auf roter Karte mit Minus-Symbol.'
-    title: 'Ergebnisse der Kleingruppe Themen'
-    sourceUrl: https://oer.community/alpika-tagung-2027
+    alt: 'Stellwand mit Ergebnissen der Kleingruppen Material und Veranstaltungen zu "Das wollen wir" auf grüner Karte mit Plus-Symbol, "Das sind Herausforderungen" auf weißer Karte mit Fragezeichen-Symbol und "Das ist problematisch" auf roter Karte mit Minus-Symbol.'
+    title: 'Ergebnisse der Kleingruppen Material und Veranstaltungen'
+    sourceUrl: https://oer.community/alpika-tagung-2026
     author: FOERBICO
     authorUrl: https://oer.community
     licence: CC BY 4.0
@@ -100,9 +100,12 @@ bilder:
 
 Was können wir gemeinsam entwickeln, ohne das aufzugeben, was uns regional und institutionell ausmacht? Diese Frage stand im Zentrum der diesjährigen ALPIKA-Leitendentagung Ende September in der Evangelischen Tagungsstätte Hofgeismar - ein schöner Ort, der zum Verweilen und Nachdenken einlud.
 
-![Pavillon](IMG_3550.jpg)
-![Brunnenkirche Hofgeismar](IMG_3551.jpg)
-![Schwanenteich Hofgeismar](IMG_3552.jpg)
+![Pavillon](https://blossom.edufeed.org/e1f17f0ec94218e5b0fd05b5bad737c4540aba3b6a3106adc3e4473bfbf1a646.jpg)
+[Pavillon - Evangelischen Tagungsstätte Hofgeismar](https://oer.community/alpika-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Brunnenkirche Hofgeismar](https://blossom.edufeed.org/e34fca4adf33f5a80c48cc8e1821c7c3ed8a1a141f589f24f2b5ced4a10155ae.jpg)
+[Brunnenkirche Hofgeismar](https://oer.community/alpika-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+![Schwanenteich Hofgeismar](https://blossom.edufeed.org/9325ed5a9665ac5a96125858c8550a5044eb05977930cec69e0f58eea00ce351.jpg)
+[Schwanenteich Hofgeismar](https://oer.community/alpika-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Die evangelischen Kirchen nehmen mit ihren religionspädagogischen und pädagogisch-theologischen Instituten und Zentren sowie den Ämtern für Religionsunterricht und Religionspädagogik ihre Bildungsverantwortung wahr. Seit 1969 sind diese Einrichtungen in der [Arbeitsgemeinschaft der Leiterinnen und Leiter der Pädagogischen Institute und Katechetischen Ämter (ALPIKA)](https://alpika.de/) miteinander verbunden. In verschiedenen Arbeitsgruppen und einem Geschäftsführenden Ausschuss bearbeitet das Netzwerk gesamtkirchliche Aufgaben im Bildungswesen.
 
@@ -156,7 +159,8 @@ In Kleingruppen wurde anschließend konkreter diskutiert: Wie könnte eine solch
 
 Bei Materialien wurde schnell deutlich, dass die Frage nach Kooperation auch eine Frage nach Rollen ist. Geht es um eine Dienstleistung, bei der ein Institut etwas für andere bereitstellt? Oder um eine komplementäre Kooperation, bei der mehrere Einrichtungen gemeinsam Verantwortung übernehmen? Eine besondere Herausforderung bleibt dabei die Redaktion und Qualitätssicherung. Wenn Materialien dezentral entstehen und veröffentlicht werden, braucht es transparente Verfahren, damit Qualität sichtbar und nachvollziehbar bleibt.
 
-![Kleingruppenergebnisse-Material-Veranstaltungen](IMG_3556.jpg)
+![Kleingruppenergebnisse-Material-Veranstaltungen](https://blossom.edufeed.org/700d43dad4dd6c9d18b768c317e9e07e6290a0c4ecba83bec9a25ada513eefaa.jpg)
+[Ergebnisse der Kleingruppen Material und Veranstaltungen](https://oer.community/alpika-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ### Veranstaltungen: Gemeinsam sichtbar werden
 
@@ -167,7 +171,8 @@ Im Idealfall könnten Veranstaltungen direkt in bestehende Kalendersysteme der N
 
 Besonders viel Potenzial wurde in einer thematisch vertiefenden und flexiblen Zusammenarbeit gesehen. Für konkrete Fragestellungen könnten sich zeitlich begrenzte Arbeitsgruppen aus drei oder vier Instituten zusammenfinden – je nachdem, wo Interesse und Expertise vorhanden sind. Bei Bedarf könnten auch Gäste aus der weiteren evangelischen Bildungslandschaft einbezogen werden. So entsteht Zusammenarbeit dort, wo sie gerade gebraucht wird, ohne dauerhaft neue Strukturen zu schaffen. Dabei soll auch die Perspektive kleinerer Institute mit ihren spezifischen Prägungen und Erfahrungen Raum finden. Offen bleibt, wie mit Themen umgegangen wird, für die sich zunächst keine Gruppe findet. Ebenso stellt sich die Frage nach einer geeigneten dezentralen technischen Infrastruktur. Ein nächster möglicher Schritt wäre daher ein Austausch der IT-Verantwortlichen der verschiedenen Institute. Qualitätssicherung und Datensicherheit müssen dabei von Anfang an mitgedacht werden.
 
-![Kleingruppenergebnisse-Themen](IMG_3554.jpg)
+![Kleingruppenergebnisse-Themen](https://blossom.edufeed.org/84a0941dc5016e6979de8a31b24df4b47430c6766e5e275f6146158d9ac61e4e.jpg)
+[Ergebnisse der Kleingruppe Themen](https://oer.community/alpika-tagung-2026), [FOERBICO](https://oer.community), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Strategische Entwicklung: Vernetztes Arbeiten als gemeinsamer Weg
 

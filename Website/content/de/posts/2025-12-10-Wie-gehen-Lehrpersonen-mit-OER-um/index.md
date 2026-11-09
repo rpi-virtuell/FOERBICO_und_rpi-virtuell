@@ -27,7 +27,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n02
   - https://w3id.org/kim/hochschulfaechersystematik/n03
-image: https://oer.community/open-ist-eine-haltung/we-are-open.jpg
+image: https://blossom.edufeed.org/3a72d506e4027672c1d04f7d9ac9e438e610262a3f1d0131a9ddba3648248e61.jpg
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -41,8 +41,8 @@ author:
   - Paula Gregorio Rodrigo
 title: "'Open ist eine Haltung: Wie Lehrkräfte mit OER umgehen'"
 cover:
-  relative: true
-  image: we-are-open.jpg
+  relative: false
+  image: https://blossom.edufeed.org/3a72d506e4027672c1d04f7d9ac9e438e610262a3f1d0131a9ddba3648248e61.jpg
   hiddenInSingle: true
 summary: OER verkörpern eine Vision von Offenheit, Kollaboration und Bildungsgerechtigkeit, stoßen in der Praxis jedoch häufig noch auf Widerstände. Lehrende suchen selten gezielt nach OER und teilen Materialien oft ohne rechtssichere Kennzeichnung. Wie lässt sich ein bildungskultureller Wandel vollziehen?
 url: open-ist-eine-haltung
