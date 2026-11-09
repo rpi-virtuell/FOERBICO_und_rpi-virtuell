@@ -29,7 +29,7 @@ about:
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
-image: jonny-gios-SqjhKY9877M-unsplash.jpg
+image: https://blossom.edufeed.org/90abdfa178fcd9026f3f6e99359908fdb10329ab45caa66f52d581da5b8db19c.jpg
 datePublished: '2026-10-29'
 keywords:
   - Open Educational Resources (OER)
@@ -45,7 +45,8 @@ author:
   - Phillip Angelina
 title: 'Von Teilnehmenden zu Teilgebenden? - Fachtage in Communities als Möglichkeit Expertisen auszutauschen'
 cover:
-  image: https://oer.community/jonny-gios-SqjhKY9877M-unsplash.jpg
+  image: https://blossom.edufeed.org/90abdfa178fcd9026f3f6e99359908fdb10329ab45caa66f52d581da5b8db19c.jpg
+  alt: 'Weiße Puzzleteile auf braunem Marmortisch, Foto von [Jonny Gios](https://unsplash.com/de/@supergios) auf [Unsplash](https://unsplash.com/de/fotos/weisse-puzzleteile-auf-braunem-marmortisch-SqjhKY9877M)'
   relative: false
   hiddenInSingle: false
 summary: >-
