@@ -1,0 +1,21 @@
+when:
+  - branch: main
+    event: push
+    path:
+      include: ['docs/**']
+      on_empty: false
+  - event: manual
+
+steps:
+  - name: deploy
+    image: appleboy/drone-ssh
+    settings:
+      host:
+        from_secret: deploy_host
+      username:
+        from_secret: deploy_user
+      key:
+        from_secret: deploy_key
+      script:
+        from_secret: deploy_script
+      debug: true
