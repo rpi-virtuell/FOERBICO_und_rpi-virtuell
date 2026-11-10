@@ -1,6 +1,9 @@
 when:
-  branch: main
-  event: push
+  - branch: main
+    event: push
+    path:
+      include: ['docs/**']
+      on_empty: false
 
 steps:
   - name: deploy
