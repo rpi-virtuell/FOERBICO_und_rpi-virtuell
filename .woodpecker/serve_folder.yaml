@@ -4,6 +4,7 @@ when:
     path:
       include: ['docs/**']
       on_empty: false
+  - event: manual
 
 steps:
   - name: deploy
@@ -17,3 +18,4 @@ steps:
         from_secret: deploy_key
       script:
         from_secret: deploy_script
+      debug: true
