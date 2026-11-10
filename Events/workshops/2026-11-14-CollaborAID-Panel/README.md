@@ -1,4 +1,4 @@
-# Making-of: „Vom Sender zum Netz“
+# Making-of: „Auf dem Weg zum Community-Hub“
 
 Ein neunminütiges Erklärvideo, gebaut aus einem Sprechtext, einer eigenen Stimmaufnahme und
 Animationen, die vollständig als Programmcode entstanden sind, ohne Bild- oder Videogenerator.
@@ -12,7 +12,7 @@ Der Ordner enthält alles, um das Video nachzubauen oder mit einem eigenen Thema
   Zusammenarbeit über Institutionsgrenzen hinweg lehrt
 - **Lizenz:** Video, Texte, Bilder und Code in diesem Ordner stehen unter
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
-  Namensnennung: *„Vom Sender zum Netz“, Jörg Lohrer / FOERBICO, Comenius-Institut, CC BY 4.0*
+  Namensnennung: *„Auf dem Weg zum Community-Hub – Zusammenarbeit ohne Weisung in der religionsbezogenen Bildung“, Jörg Lohrer / FOERBICO, Comenius-Institut, CC BY 4.0*
 
 ![Ein Standbild je Sinneinheit](making-of/kontaktbogen.jpg)
 

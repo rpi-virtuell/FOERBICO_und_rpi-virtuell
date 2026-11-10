@@ -17,8 +17,8 @@ from playwright.sync_api import sync_playwright
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from render import BUILD, HIER, server_starten  # noqa: E402
 
-TITEL = sys.argv[1] if len(sys.argv) > 1 else "Vom Sender zum Netz"
-UNTER = sys.argv[2] if len(sys.argv) > 2 else "Zusammenarbeit ohne Weisung in der religiösen Bildung"
+TITEL = sys.argv[1] if len(sys.argv) > 1 else "Auf dem Weg zum Community-Hub"
+UNTER = sys.argv[2] if len(sys.argv) > 2 else "Zusammenarbeit ohne Weisung in der religionsbezogenen Bildung"
 
 
 def main():

@@ -4,12 +4,12 @@ Video: <https://vimeo.com/1245397913>
 
 ## Title
 
-Vom Sender zum Netz – Zusammenarbeit ohne Weisung in der religiösen Bildung
+Auf dem Weg zum Community-Hub – Zusammenarbeit ohne Weisung in der religionsbezogenen Bildung
 
 ## Description
 
 ```text
-Wie arbeiten Menschen aus verschiedenen Institutionen zusammen, wenn niemand weisungsbefugt ist? Jörg Lohrer (Comenius-Institut) erzählt in neun Minuten, wie aus rpi-virtuell (seit 2002), dem #relichat (2017–2022), den relicamps und dem relilab der Entwurf eines gemeinsamen Community-Hubs für religionsbezogene Bildung entstanden ist – und was sich daraus über Offenheit, gemeinsame Standards und Vertrauen lernen lässt.
+Wie arbeiten Menschen aus verschiedenen Institutionen zusammen, wenn niemand weisungsbefugt ist? Jörg Lohrer (Comenius-Institut) erzählt in neun Minuten, wie aus rpi-virtuell (seit 2002), dem #relichat (2017–2022), den relicamps und dem relilab der Entwurf eines gemeinsamen Community-Hubs für religionsbezogene Bildung entstanden ist und was sich daraus über Offenheit, gemeinsame Standards und Vertrauen lernen lässt.
 
 Impuls für das Panel „Zusammenarbeit für bessere Bildung(smaterialien): Was wir von Bildungsnetzwerken lernen können“ bei der CollaborAID am 14. November 2026.
 
@@ -27,11 +27,11 @@ Kapitel
 Machart: Die Animationen sind vollständig als Programmcode entstanden, gebaut mit dem KI-Agenten Claude Code; Sprechtext und Stimme stammen vom Autor. Making-of und Anleitung zum Nachmachen mit eigenem Thema:
 https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Events/workshops/2026-11-14-CollaborAID-Panel
 
-„reli-hub“ ist ein Arbeitstitel.
+„reli-hub“ ist ein Arbeitstitel für den Community-Hub, den das Projekt FOERBICO entwickelt.
 
 Ein Beitrag aus dem Projekt FOERBICO – Förderung offener Bildungspraktiken in religionsbezogenen Communities durch die Entwicklung eines koordinierten OER-Ökosystems.
 
-Lizenz: CC BY 4.0 – „Vom Sender zum Netz“, Jörg Lohrer / FOERBICO, Comenius-Institut
+Lizenz: CC BY 4.0 – „Auf dem Weg zum Community-Hub – Zusammenarbeit ohne Weisung in der religionsbezogenen Bildung“, Jörg Lohrer / FOERBICO, Comenius-Institut
 https://creativecommons.org/licenses/by/4.0/deed.de
 ```
 
