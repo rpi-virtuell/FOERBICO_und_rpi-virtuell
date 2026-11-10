@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>reli-hub · Video-Vorschau</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<main>
+  <div id="buehne"><canvas id="leinwand" width="1920" height="1080"></canvas></div>
+  <div id="steuerung">
+    <button id="abspielen" title="Leertaste">▶</button>
+    <input id="zeit" type="range" min="0" max="1" step="0.01" value="0">
+    <span id="anzeige">0:00 / 0:00</span>
+    <label><input id="regie" type="checkbox" checked> Regie</label>
+    <label><input id="untertitel" type="checkbox"> Untertitel</label>
+  </div>
+  <ol id="einheiten"></ol>
+</main>
+<audio id="ton" preload="auto"></audio>
+<script type="module" src="player.js"></script>
+</body>
+</html>

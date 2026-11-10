@@ -1,0 +1,18 @@
+:root { --papier: #f4efe4; --tinte: #1f1d1a; --leise: #8a7f6a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #2b2925; color: #eee; font: 14px/1.4 system-ui, sans-serif; }
+main { max-width: 1280px; margin: 0 auto; padding: 16px; }
+#buehne { aspect-ratio: 16 / 9; background: var(--papier); }
+#leinwand { width: 100%; height: 100%; display: block; }
+#steuerung { display: flex; gap: 12px; align-items: center; padding: 10px 0; }
+#steuerung button { font-size: 18px; width: 44px; height: 32px; }
+#zeit { flex: 1; }
+#anzeige { font-variant-numeric: tabular-nums; min-width: 9em; text-align: right; }
+#einheiten { columns: 3; font-size: 12px; padding-left: 2.5em; }
+#einheiten li { cursor: pointer; padding: 1px 4px; break-inside: avoid; }
+#einheiten li.aktiv { background: #b5452b; color: #fff; }
+
+/* Render-Modus: nur die Leinwand, randlos */
+body.render main { max-width: none; padding: 0; }
+body.render #steuerung, body.render #einheiten { display: none; }
+body.render #buehne { width: 1920px; height: 1080px; }
