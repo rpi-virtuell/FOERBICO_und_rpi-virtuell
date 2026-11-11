@@ -6,6 +6,7 @@ Ausrichtung. Lange Sätze werden an Satzzeichen geteilt (höchstens zwei Zeilen 
 
 Ausgabe (im Ordner ../veroeffentlichung/):
   untertitel.de.vtt  – für Vimeo, YouTube, Moodle …
+  untertitel.de.srt  – dieselben Untertitel als SubRip, z. B. für Schnittprogramme
   kapitel.txt        – Zeitmarken je Szene, z. B. für die Videobeschreibung
 
 Aufruf: python3 tools/untertitel.py
@@ -78,6 +79,10 @@ def main():
     for k, (a, b, text) in enumerate(cues, 1):
         vtt += [str(k), f"{zeit(a)} --> {zeit(b)}", umbruch(text), ""]
     (ZIEL / "untertitel.de.vtt").write_text("\n".join(vtt), encoding="utf-8")
+    srt = []
+    for k, (a, b, text) in enumerate(cues, 1):
+        srt += [str(k), f"{zeit(a).replace('.', ',')} --> {zeit(b).replace('.', ',')}", umbruch(text), ""]
+    (ZIEL / "untertitel.de.srt").write_text("\n".join(srt), encoding="utf-8")
 
     kapitel = [f"{kurz(0 if sz['nr'] == 0 else sz['start'])} {sz['titel']}" for sz in tl["szenen"]]
     (ZIEL / "kapitel.txt").write_text("\n".join(kapitel) + "\n", encoding="utf-8")

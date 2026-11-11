@@ -1,0 +1,706 @@
+1
+00:00:00,970 --> 00:00:04,470
+Wie arbeiten Menschen aus
+verschiedenen Institutionen zusammen,
+
+2
+00:00:04,510 --> 00:00:06,400
+wenn niemand weisungsbefugt ist?
+
+3
+00:00:08,070 --> 00:00:10,860
+In der religiösen Bildung
+ist das der Normalfall.
+
+4
+00:00:11,370 --> 00:00:16,110
+Religionspädagogische Institute, Landeskirchen
+und Bistümer, Hochschulen, Schulen,
+
+5
+00:00:16,150 --> 00:00:17,120
+Ehrenamtliche.
+
+6
+00:00:17,170 --> 00:00:22,240
+Jede Stelle hat ihre eigene Leitung,
+ihr eigenes Budget, ihre eigene Logik.
+
+7
+00:00:23,670 --> 00:00:27,130
+Wie Medien gebaut sind, entscheidet
+darüber, wer etwas zu sagen hat.
+
+8
+00:00:27,170 --> 00:00:30,860
+Beim Rundfunk bestimmt einer im
+Sender, was ausgestrahlt wird.
+
+9
+00:00:30,990 --> 00:00:34,600
+Im Netz kann jeder senden und empfangen.
+
+10
+00:00:35,520 --> 00:00:38,210
+Diese Spannung zieht sich
+durch unsere ganze Geschichte.
+
+11
+00:00:38,400 --> 00:00:43,670
+Und sie erklärt, warum am Ende kein
+Organigramm steht, sondern ein Protokoll.
+
+12
+00:00:45,320 --> 00:00:47,380
+Am Anfang steht rpi-virtuell,
+
+13
+00:00:47,420 --> 00:00:52,400
+die religionspädagogische Plattform
+des Comenius-Instituts, gegründet 2002.
+
+14
+00:00:52,440 --> 00:00:57,280
+Ihr technischer Vorläufer
+reliweb.de ging schon 1999 in
+
+15
+00:00:57,320 --> 00:00:59,090
+Kurhessen-Waldeck an den Start.
+
+16
+00:00:59,320 --> 00:01:04,010
+Über fünfundzwanzig Jahre, das ist für
+ein digitales Portal etwas Besonderes.
+
+17
+00:01:04,060 --> 00:01:06,830
+Hier finden und teilen
+Lehrkräfte Material.
+
+18
+00:01:08,660 --> 00:01:11,760
+Seit 2011 setzen wir dort
+auf offene Lizenzen,
+
+19
+00:01:11,800 --> 00:01:15,130
+damit andere Material verändern
+und weiterentwickeln dürfen.
+
+20
+00:01:15,440 --> 00:01:20,310
+Damit gehörte rpi-virtuell zu den
+Pionieren der OER-Bewegung in Deutschland.
+
+21
+00:01:22,180 --> 00:01:25,410
+2013 haben wir fast
+fünfzehnhundert Nutzende befragt.
+
+22
+00:01:25,540 --> 00:01:27,490
+Die meisten kamen wegen des Materials.
+
+23
+00:01:27,740 --> 00:01:32,650
+Selbst etwas eingestellt hatten knapp
+dreißig Prozent, siebzig Prozent noch nie.
+
+24
+00:01:34,250 --> 00:01:35,200
+Warum nicht?
+
+25
+00:01:35,650 --> 00:01:40,100
+Fehlendes Knowhow, keine
+Zeit, keine Gelegenheit.
+
+26
+00:01:41,290 --> 00:01:42,090
+Erste Lektion:
+
+27
+00:01:42,130 --> 00:01:45,460
+Eine offene Plattform ist
+nötig, aber sie reicht nicht.
+
+28
+00:01:45,590 --> 00:01:47,200
+Sie ist gebaut wie ein Sender:
+
+29
+00:01:47,330 --> 00:01:49,720
+Einer stellt bereit, viele empfangen.
+
+30
+00:01:49,850 --> 00:01:51,820
+Zusammenarbeit entsteht so kaum.
+
+31
+00:01:55,310 --> 00:01:57,270
+Also sind wir rausgegangen.
+
+32
+00:01:57,310 --> 00:02:02,060
+Seit dem ersten OERcamp 2012
+waren wir mit rpi-virtuell dabei.
+
+33
+00:02:02,610 --> 00:02:06,890
+2013 startete mit Open-Reli ein offener
+Online-Kurs für Religionspädagogik,
+
+34
+00:02:06,930 --> 00:02:09,660
+gemeinsam mit einer
+Hochschule in Österreich.
+
+35
+00:02:11,400 --> 00:02:13,390
+2017 kam etwas ganz anderes:
+
+36
+00:02:13,440 --> 00:02:14,700
+der #relichat.
+
+37
+00:02:14,740 --> 00:02:17,570
+Karl Peböck aus Österreich
+hat ihn ins Leben gerufen,
+
+38
+00:02:17,720 --> 00:02:21,010
+und wir haben ihn gemeinsam koordiniert,
+mit Unterstützung von rpi-virtuell.
+
+39
+00:02:23,060 --> 00:02:26,620
+Der #relichat war kein
+Ort, sondern ein Termin:
+
+40
+00:02:26,660 --> 00:02:28,690
+jeden Mittwoch um 20 Uhr.
+
+41
+00:02:29,180 --> 00:02:31,600
+Religionslehrkräfte diskutierten
+auf Twitter Themen,
+
+42
+00:02:31,640 --> 00:02:33,510
+die sie sich selbst gewünscht hatten.
+
+43
+00:02:33,740 --> 00:02:38,630
+Über hundertfünfzig Mal, mit
+insgesamt einer halben Million Tweets.
+
+44
+00:02:39,620 --> 00:02:41,320
+Niemand musste sich anmelden.
+
+45
+00:02:41,360 --> 00:02:44,110
+Niemand hat im Namen einer
+Institution eingeladen.
+
+46
+00:02:44,220 --> 00:02:46,030
+Wer den Hashtag kannte, war dabei,
+
+47
+00:02:46,180 --> 00:02:49,770
+und jede und jeder war Sender
+und Empfänger zugleich.
+
+48
+00:02:50,860 --> 00:02:52,870
+Zweite Lektion:
+
+49
+00:02:52,960 --> 00:02:57,600
+Verbindlichkeit entsteht durch einen
+verlässlichen Rhythmus und einen öffentlichen
+
+50
+00:02:57,640 --> 00:02:59,850
+Raum, den alle betreten können.
+
+51
+00:03:03,240 --> 00:03:06,850
+Aus den Begegnungen im Netz
+wurden Begegnungen vor Ort.
+
+52
+00:03:07,280 --> 00:03:10,920
+2019 trafen sich in Saarbrücken
+rund vierzig Leute aus Deutschland,
+
+53
+00:03:10,960 --> 00:03:13,520
+Österreich und der Schweiz
+zum ersten relicamp.
+
+54
+00:03:13,560 --> 00:03:16,670
+Geplant hatten sie es auf
+Twitter, ehrenamtlich.
+
+55
+00:03:17,910 --> 00:03:20,760
+Ein relicamp ist ein Barcamp
+für religiöse Bildung:
+
+56
+00:03:20,830 --> 00:03:23,940
+Die Teilnehmenden schlagen die
+Sessions selbst vor und gestalten sie.
+
+57
+00:03:23,990 --> 00:03:29,850
+Es folgten Salzburg 2021 und Hildesheim
+2022, dazwischen Camps online.
+
+58
+00:03:29,890 --> 00:03:32,160
+Technischen Support gab
+es von rpi-virtuell.
+
+59
+00:03:34,960 --> 00:03:36,120
+Dritte Lektion:
+
+60
+00:03:36,160 --> 00:03:39,990
+Wer sich einmal gegenübergesessen
+hat, teilt danach leichter.
+
+61
+00:03:40,180 --> 00:03:42,550
+Vertrauen beginnt in der Begegnung.
+
+62
+00:03:42,740 --> 00:03:46,580
+Und mit Menschen, die man kennt, trifft
+man auch leichter die Vereinbarungen,
+
+63
+00:03:46,620 --> 00:03:47,870
+die es später tragen.
+
+64
+00:03:51,290 --> 00:03:53,500
+Dann kam 2020 die Pandemie.
+
+65
+00:03:53,590 --> 00:03:56,500
+Aus dem wöchentlichen
+#relichat wurde eine Community:
+
+66
+00:03:56,690 --> 00:03:57,160
+das relilab.
+
+67
+00:03:59,260 --> 00:04:04,910
+Es ist offen, kostenfrei,
+online und ohne Anmeldung.
+
+68
+00:04:05,000 --> 00:04:08,850
+Es bringt Menschen aus verschiedenen
+Bundesländern und Religionen zusammen.
+
+69
+00:04:10,450 --> 00:04:11,550
+Das Format:
+
+70
+00:04:11,590 --> 00:04:15,000
+ein kurzer Impuls, dann
+gemeinsames Weiterdenken.
+
+71
+00:04:15,270 --> 00:04:18,060
+Nicht eine Stunde Vortrag
+mit drei Fragen am Ende.
+
+72
+00:04:18,350 --> 00:04:23,440
+Unfertiges ist erwünscht, etwa
+eine halbfertige Unterrichtsidee.
+
+73
+00:04:23,850 --> 00:04:26,620
+Was dabei entsteht,
+wird kostenlos geteilt.
+
+74
+00:04:26,670 --> 00:04:29,480
+So können es auch alle
+nutzen, die nicht dabei waren.
+
+75
+00:04:31,200 --> 00:04:34,930
+In den Interviews unserer Begleitforschung
+fielen immer wieder zwei Sätze:
+
+76
+00:04:35,280 --> 00:04:37,540
+Am wichtigsten ist uns
+die Kultur des Teilens.
+
+77
+00:04:37,580 --> 00:04:38,680
+Und:
+
+78
+00:04:38,720 --> 00:04:41,250
+relilab ist das, was du daraus machst.
+
+79
+00:04:43,050 --> 00:04:45,520
+Und die Leute haben etwas daraus gemacht:
+
+80
+00:04:45,850 --> 00:04:51,060
+eigene Zweige wie relilabBRU, relilab
+Junior, reliGlobal und RELImentar.
+
+81
+00:04:53,450 --> 00:04:54,580
+Vierte Lektion:
+
+82
+00:04:54,730 --> 00:04:59,800
+Ein Netzwerk ohne Spitze trägt, wenn
+alle eingeladen sind, mitzugestalten.
+
+83
+00:05:02,870 --> 00:05:05,880
+Dann zerbrach der Raum,
+aus dem alles gekommen war.
+
+84
+00:05:06,610 --> 00:05:10,160
+2022 wurde Twitter übernommen,
+aus Twitter wurde X.
+
+85
+00:05:10,590 --> 00:05:12,490
+Damit endete der #relichat.
+
+86
+00:05:12,530 --> 00:05:15,480
+Und nach Hildesheim gab es
+auch kein relicamp mehr.
+
+87
+00:05:17,310 --> 00:05:20,090
+Die Community lebte
+weiter, aber verstreut:
+
+88
+00:05:20,130 --> 00:05:24,830
+auf Instagram, im Newsletter, in
+einem Chat, auf einer Webseite.
+
+89
+00:05:24,870 --> 00:05:27,150
+Jede Insel für sich.
+
+90
+00:05:27,190 --> 00:05:29,560
+Wer eine kannte, sah die anderen nicht.
+
+91
+00:05:31,310 --> 00:05:32,480
+Wir haben gemerkt:
+
+92
+00:05:32,650 --> 00:05:36,100
+Ohne Netzwerkpflege läuft ein
+Labor nicht einfach weiter.
+
+93
+00:05:36,310 --> 00:05:39,520
+Und Engagement lässt sich
+nicht durch Personal ersetzen.
+
+94
+00:05:41,020 --> 00:05:42,120
+Fünfte Lektion:
+
+95
+00:05:42,160 --> 00:05:45,660
+Wer seinen öffentlichen Raum auf
+der Plattform eines anderen baut,
+
+96
+00:05:45,700 --> 00:05:46,670
+kann ihn verlieren.
+
+97
+00:05:49,920 --> 00:05:52,650
+Deshalb bauen wir jetzt
+keine neue Plattform.
+
+98
+00:05:52,820 --> 00:05:55,890
+Wir bauen den reli-hub auf
+einem offenen Protokoll.
+
+99
+00:05:56,000 --> 00:05:57,170
+Es heißt Nostr.
+
+100
+00:05:58,890 --> 00:06:02,840
+Bei Nostr gehört die
+Infrastruktur nicht einem allein.
+
+101
+00:06:03,270 --> 00:06:04,090
+Jede Person,
+
+102
+00:06:04,130 --> 00:06:07,690
+jede Community und jedes Institut
+hat einen eigenen Schlüssel
+
+103
+00:06:07,730 --> 00:06:10,220
+und veröffentlicht unter eigenem Namen.
+
+104
+00:06:10,550 --> 00:06:14,720
+Wer einen Server verlässt, nimmt
+seine Identität und seine Inhalte mit.
+
+105
+00:06:15,630 --> 00:06:19,200
+Alle schreiben in einen
+gemeinsamen Datenraum.
+
+106
+00:06:19,530 --> 00:06:21,660
+Darauf schauen verschiedene Oberflächen:
+
+107
+00:06:21,950 --> 00:06:27,760
+Materialpool, Fortbildungskalender,
+relilab, die Seiten der Institute.
+
+108
+00:06:28,550 --> 00:06:30,660
+Partner können eigene beisteuern.
+
+109
+00:06:31,880 --> 00:06:34,750
+Was das zusammenhält, sind
+gemeinsame Standards:
+
+110
+00:06:35,120 --> 00:06:40,630
+einheitlich beschriebene Metadaten für
+Bildungsmaterialien, offene Lizenzen,
+
+111
+00:06:40,880 --> 00:06:41,690
+gemeinsame Vokabulare.
+
+112
+00:06:43,370 --> 00:06:45,790
+Die Marken treten dabei zurück.
+
+113
+00:06:45,830 --> 00:06:49,240
+rpi-virtuell bündelt, was
+die Institute anbieten:
+
+114
+00:06:49,330 --> 00:06:51,620
+Material, Fortbildungen, Nachrichten.
+
+115
+00:06:51,950 --> 00:06:55,880
+Das relilab ist der Raum, in dem
+Lehrkräfte selbst experimentieren.
+
+116
+00:06:56,190 --> 00:07:00,720
+Im reli-hub stehen beide nebeneinander,
+keines über dem anderen.
+
+117
+00:07:02,740 --> 00:07:03,630
+Sechste Lektion:
+
+118
+00:07:03,700 --> 00:07:07,830
+Wo niemand weisungsbefugt ist, übernehmen
+gemeinsame Standards diese Rolle.
+
+119
+00:07:08,460 --> 00:07:10,650
+Sie sagen nicht, was jemand tun muss.
+
+120
+00:07:10,860 --> 00:07:14,990
+Sie sorgen dafür, dass das, was
+jemand tut, anschlussfähig ist.
+
+121
+00:07:15,300 --> 00:07:18,360
+Protokoll und Vokabulare
+sind die Vereinbarungen,
+
+122
+00:07:18,400 --> 00:07:21,230
+die das Vertrauen aus den
+Begegnungen weitertragen.
+
+123
+00:07:24,260 --> 00:07:27,110
+Wenn alle senden können,
+kommt die nächste Frage.
+
+124
+00:07:27,180 --> 00:07:28,990
+Es geht nicht mehr darum,
+wer sprechen darf.
+
+125
+00:07:29,060 --> 00:07:30,520
+Es geht darum, wer gehört wird.
+
+126
+00:07:30,560 --> 00:07:33,030
+Und wer bestimmt, wie wir einander finden.
+
+127
+00:07:34,930 --> 00:07:38,620
+Im reli-hub bestimmt das kein
+Konzern und kein einzelnes Institut.
+
+128
+00:07:38,690 --> 00:07:41,290
+Jede Community zeigt, was
+mit ihr geteilt wurde,
+
+129
+00:07:41,330 --> 00:07:45,480
+und ein Redaktionskreis kann daraus
+eine Auswahl zusammenstellen.
+
+130
+00:07:45,990 --> 00:07:49,440
+Gefunden wird über Menschen,
+denen man vertraut.
+
+131
+00:07:50,070 --> 00:07:54,780
+Was oben steht, soll sich aus dem ergeben,
+was Menschen mit einem Material tun:
+
+132
+00:07:54,910 --> 00:07:59,950
+es in ihrer Community teilen, in eine
+Sammlung aufnehmen, weiterbearbeiten.
+
+133
+00:07:59,990 --> 00:08:02,960
+Diese Spuren sind öffentlich
+und nachvollziehbar.
+
+134
+00:08:03,150 --> 00:08:06,350
+So findet man den bewährten
+Klassiker genauso wie das Material,
+
+135
+00:08:06,390 --> 00:08:08,320
+an dem gerade gearbeitet wird.
+
+136
+00:08:11,430 --> 00:08:11,390
+Siebte Lektion:
+
+137
+00:08:11,430 --> 00:08:13,660
+Wer bestimmt, was
+gefunden wird, hat Macht.
+
+138
+00:08:13,930 --> 00:08:17,470
+Diese Macht soll bei den Menschen
+liegen, die mit dem Material arbeiten,
+
+139
+00:08:17,510 --> 00:08:19,210
+und sie soll offen liegen.
+
+140
+00:08:19,250 --> 00:08:23,500
+Nicht in einem Algorithmus, in
+den niemand hineinsehen kann.
+
+141
+00:08:26,580 --> 00:08:29,860
+Wenn ich auf diese
+fünfundzwanzig Jahre schaue,
+
+142
+00:08:29,900 --> 00:08:33,390
+dann tragen drei Dinge diese
+Art der Zusammenarbeit.
+
+143
+00:08:34,870 --> 00:08:35,800
+Offenheit:
+
+144
+00:08:35,890 --> 00:08:38,580
+Alle können einsteigen, ohne zu fragen.
+
+145
+00:08:39,690 --> 00:08:40,380
+Standards:
+
+146
+00:08:40,810 --> 00:08:44,540
+Was eine beiträgt, passt zu
+dem, was andere beitragen.
+
+147
+00:08:45,530 --> 00:08:46,300
+Vertrauen:
+
+148
+00:08:46,570 --> 00:08:51,940
+Es beginnt in der Begegnung, und gemeinsame
+Vereinbarungen tragen es weiter.
+
+149
+00:08:53,710 --> 00:08:55,630
+Und eine ehrliche Grenze:
+
+150
+00:08:55,670 --> 00:08:57,390
+Strukturen können wir anbieten.
+
+151
+00:08:57,430 --> 00:09:00,620
+Ob sie lebendig werden, entscheiden
+die Menschen, die sie nutzen.
+
+152
+00:09:02,320 --> 00:09:05,840
+Der reli-hub geht im
+Februar 2027 an den Start.
+
+153
+00:09:05,880 --> 00:09:08,970
+Ich bin gespannt, was daraus entsteht.
