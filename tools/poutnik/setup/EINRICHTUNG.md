@@ -70,3 +70,20 @@ FORGEJO_TOKEN_FILE=/Users/joerglohrer/.config/forgejo/token.txt
 `POUTNIK_BUNKER_URL` und `POUTNIK_CLIENT_SECRET_HEX` braucht nur das Setup-Skript `setup/profile.ts` (Profil ergänzen); ngit nutzt den Schlüsselbund.
 
 Abschließend: `cd tools/poutnik && deno task doctor` (ab Task 7) muss alle Checks grün zeigen.
+
+## f) Dritte Bunker-Verbindung für DMs (optional, seit 11.11.2026)
+
+Für private Nachrichten (`deno task dm`, NIP-17) braucht Poutník Rechte, die weder ngit noch das Profil-Setup haben. Darum eine eigene Verbindung, die sich einzeln widerrufen lässt:
+
+1. Amber → Konto **Poutník** → neue Bunker-Verbindung, Name z. B. „poutnik-dm“.
+2. Immer erlauben: Verbinden, Ping, Öffentlichen Schlüssel lesen, NIP-44 verschlüsseln, NIP-44 entschlüsseln, Event signieren (kind 13).
+3. In `~/.config/poutnik/env` eintragen (Link nicht in Dateien im Repo, nicht in den Chat):
+
+```
+POUTNIK_DM_BUNKER_URL=<bunker>
+POUTNIK_DM_CLIENT_SECRET_HEX=<einmalig: openssl rand -hex 32>
+```
+
+4. Probelauf: `cd tools/poutnik && deno task dm send <npub> --text "Probe"` (ohne `--send` wird nichts signiert) und `deno task dm inbox --since 1`.
+
+Die Verbindung aus b) für das Profil-Setup lehnt nip44 und kind 13 mit „no permission“ ab; sie ist für DMs nicht geeignet.

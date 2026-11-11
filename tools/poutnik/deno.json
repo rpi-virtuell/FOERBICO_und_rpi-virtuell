@@ -4,6 +4,7 @@
     "threads": "deno run -A main.ts threads",
     "push": "deno run -A main.ts push",
     "doctor": "deno run -A main.ts doctor",
+    "dm": "deno run -A main.ts dm",
     "test": "deno test --allow-read --allow-write --allow-env src/ setup/"
   }
 }
