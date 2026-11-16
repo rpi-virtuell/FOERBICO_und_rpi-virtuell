@@ -1,6 +1,6 @@
 # Nachweis-Hub: Nachweis-Issues je Hub-Meilenstein
 
-Entwürfe der Nachweis-Issues, mit denen der reli_hub als Realisierung der Antragszusagen belegt wird (Gesamtkonzeption `docs/superpowers/specs/2026-11-02-hub-nachweis-gesamtkonzeption-design.md`, Abschnitt 6). Je Hub-Meilenstein ein offenes Issue mit Label `Nachweis`: Zusage im Wortlaut des Antrags, Ort im Hub, Checkliste, Belege, Abweichungen, Verweise. Meilensteine bleiben offen; die Nachweis-Issues sind die Kapitel des Abschlussberichts.
+Entwürfe der Nachweis-Issues, mit denen der ReliHub als Realisierung der Antragszusagen belegt wird (Gesamtkonzeption `docs/superpowers/specs/2026-11-02-hub-nachweis-gesamtkonzeption-design.md`, Abschnitt 6). Je Hub-Meilenstein ein offenes Issue mit Label `Nachweis`: Zusage im Wortlaut des Antrags, Ort im Hub, Checkliste, Belege, Abweichungen, Verweise. Meilensteine bleiben offen; die Nachweis-Issues sind die Kapitel des Abschlussberichts.
 
 Format je Datei: Kopfzeilen `TITEL:`, `MEILENSTEIN: <Forgejo-ID>`, `LABELS: Nachweis, …`, Leerzeile, Text. Querverweise als `{{nachweis:<dateiname-ohne-md>}}`; `tools/nachweis/post.py` ersetzt sie nach dem Anlegen durch die Issue-URLs und trägt die Nummern in `ergebnis.json` ein.
 

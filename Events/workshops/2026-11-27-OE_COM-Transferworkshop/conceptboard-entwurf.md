@@ -13,7 +13,7 @@ Bitte im Team gegenlesen, vor allem die Teile, die TP 2 und TP 3 betreffen.
 Religionsbezogene OER-Communities (rpi-virtuell, relilab, reliGlobal, ALPIKA-Institute und weitere) sollten nicht mehr nebeneinander arbeiten, sondern als „Community of Communities“ ihre Materialien, Termine und Praktiken über einen gemeinsamen Community-Hub teilen.
 
 **Das ist tatsächlich entstanden.**
-Eine gemeinsame, offene Datenbasis auf dem Nostr-Protokoll mit AMB-Metadaten. Dazu Qualitätskriterien für religionspädagogische OER, WordPress-Plugins, mit denen Communities Materialien und Termine auf ihre eigene Seite holen, und der reli_hub als Prototyp, der im Februar 2027 startet.
+Eine gemeinsame, offene Datenbasis auf dem Nostr-Protokoll mit AMB-Metadaten. Dazu Qualitätskriterien für religionspädagogische OER, WordPress-Plugins, mit denen Communities Materialien und Termine auf ihre eigene Seite holen, und der ReliHub als Prototyp, der im Februar 2027 startet.
 
 **Das hat uns überrascht.**
 Offene Praktiken gibt es in den Communities längst, nur heißen sie dort nicht so. Und die größte Hürde ist nicht die Technik, sondern die Angst vor Rechtsfragen.
@@ -31,7 +31,7 @@ Wie bleibt eine Community-Infrastruktur nach Projektende lebendig? Wir zeigen, w
 - **Qualitätskriterien veröffentlicht:** Handreichung mit vier Dimensionen (rechtlich, technisch, pädagogisch-didaktisch, religionspädagogisch), als Dialoginstrument, nicht als Prüfkatalog. → https://oer.community/qualitaet (CC BY 4.0)
 - **Begleitforschung:** Literaturreview zu OER/OEP (19 Reviews, 2019–2025) und Interviewstudie mit Community-Verantwortlichen.
 - **Werkzeuge für Communities:** vier WordPress-Plugins (Materialien, Artikel, Termine anzeigen; Beiträge veröffentlichen), im Einsatz bei ALPIKA-Arbeitsgruppen; ein Eingabeformular folgt im November.
-- **reli_hub als Prototyp:** https://hub.rpi-virtuell.net – Communities, Materialpool, Termine, Spielregeln an einem Ort, live aus den Relays. Launch auf der Abschlusstagung.
+- **ReliHub als Prototyp:** https://hub.rpi-virtuell.net – Communities, Materialpool, Termine, Spielregeln an einem Ort, live aus den Relays. Launch auf der Abschlusstagung.
 - **Sichtbarkeit:** über 90 Beiträge auf oer.community seit 2024, Zwischenfazit-Tagung Februar 2026 in Nürnberg (Videoreihe „Mit OER zu einer Kultur des Teilens“ auf FAU.tv), HackathOERn 2026, OERcamp.
 
 ### Transferpotenzial – Was könnte für andere nützlich sein? (grüne Notizen)

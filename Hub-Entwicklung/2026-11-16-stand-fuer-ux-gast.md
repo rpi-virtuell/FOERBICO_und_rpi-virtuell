@@ -1,10 +1,10 @@
-# Stand der Navigation im reli_hub: Nachricht an den UX-Gast und Abnahme-Checkliste
+# Stand der Navigation im ReliHub: Nachricht an den UX-Gast und Abnahme-Checkliste
 
 Stand: Entwurf vom 16.11.2026, nichts davon ist gesendet oder veröffentlicht.
 
 ## 1. Nachricht (Entwurf, Jörg sendet)
 
-Betreff: reli_hub: die Rückmeldungen vom 03.11. sind eingearbeitet, magst du noch einmal durchspielen?
+Betreff: ReliHub: die Rückmeldungen vom 03.11. sind eingearbeitet, magst du noch einmal durchspielen?
 
 Hallo,
 
