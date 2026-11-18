@@ -18,6 +18,7 @@ creator:
       type: Organization
   - givenName: Paula
     familyName: Gregorio Rodrigo
+    id: nostr:npub10ggwwz3fmqsu5xqkwjw2sae824rn4qmu2c6sfmh4s80dtteceq8qefctz5
     type: Person
     affiliation:
       name: Johann Wolfgang Goethe-Universität Frankfurt
