@@ -10,13 +10,13 @@ Bitte im Team gegenlesen, vor allem die Teile, die TP 2 und TP 3 betreffen.
 ## Bereich 1: Pitch (1 Minute, ca. 140 Wörter gesprochen)
 
 **Das hatten wir uns vorgenommen.**
-Religionsbezogene OER-Communities (rpi-virtuell, relilab, reliGlobal, ALPIKA-Institute und weitere) sollten nicht mehr nebeneinander arbeiten, sondern als „Community of Communities“ ihre Materialien, Termine und Praktiken über einen gemeinsamen Community-Hub teilen.
+Religionsbezogene OER-Communities (rpi-virtuell, relilab, reliGlobal, ALPIKA-Institute und weitere) sollten nicht mehr nebeneinander arbeiten, sondern als „Community of Communities“ ihre Materialien, Termine und Praktiken über einen gemeinsamen Community-Hub teilen. >[Ergänzung aus TP3 - Fortbildungen der Commmunities beobachten und Didaktische Möglichkeiten entwickeln um diese zu verbessern]
 
 **Das ist tatsächlich entstanden.**
-Eine gemeinsame, offene Datenbasis auf dem Nostr-Protokoll mit AMB-Metadaten. Dazu Qualitätskriterien für religionspädagogische OER, WordPress-Plugins, mit denen Communities Materialien und Termine auf ihre eigene Seite holen, und der reli_hub als Prototyp, der im Februar 2027 startet.
+Eine gemeinsame, offene Datenbasis auf dem Nostr-Protokoll mit AMB-Metadaten. Dazu Qualitätskriterien für religionspädagogische OER, WordPress-Plugins, mit denen Communities Materialien und Termine auf ihre eigene Seite holen, und der reli_hub als Prototyp, der im Februar 2027 startet. >[Ergänzung aus TP3 - Ein Projekt gemeinsam mit dem theologisch systematischen Lexiokon SysLex. In diesem können Texte welche unter CC BY-NC-ND veröffentlicht wurden, für Lehrkräfte didaktisch, mit Hilfe eines Baukastensystems, aufbereitet werden.] 
 
 **Das hat uns überrascht.**
-Offene Praktiken gibt es in den Communities längst, nur heißen sie dort nicht so. Und die größte Hürde ist nicht die Technik, sondern die Angst vor Rechtsfragen.
+Offene Praktiken gibt es in den Communities längst, nur heißen sie dort nicht so. Und die größte Hürde ist nicht die Technik, sondern die Angst vor Rechtsfragen. >[Ergänzung aus TP3 - Das digitale Formate mit Lehrenden meist mit einem praxis-Tool oder einem Material mit Probierphasen gut funktionieren]
 
 **Darüber wollen wir gleich in unserer Breakout-Session sprechen.**
 Wie bleibt eine Community-Infrastruktur nach Projektende lebendig? Wir zeigen, warum wir auf ein Protokoll statt auf eine Plattform setzen, und klicken gerne gemeinsam durch den Hub-Prototypen.
@@ -33,6 +33,11 @@ Wie bleibt eine Community-Infrastruktur nach Projektende lebendig? Wir zeigen, w
 - **Werkzeuge für Communities:** vier WordPress-Plugins (Materialien, Artikel, Termine anzeigen; Beiträge veröffentlichen), im Einsatz bei ALPIKA-Arbeitsgruppen; ein Eingabeformular folgt im November.
 - **reli_hub als Prototyp:** https://hub.rpi-virtuell.net – Communities, Materialpool, Termine, Spielregeln an einem Ort, live aus den Relays. Launch auf der Abschlusstagung.
 - **Sichtbarkeit:** über 90 Beiträge auf oer.community seit 2024, Zwischenfazit-Tagung Februar 2026 in Nürnberg (Videoreihe „Mit OER zu einer Kultur des Teilens“ auf FAU.tv), HackathOERn 2026, OERcamp.
+  
+ >[Ergänzungen aus TP 3]
+- **Forschungsergebnisse:** Die Forschungsergebnisse befinden sich derzeit im Review-Prozess um diese innerhalb einer religionspädagogischen wissenschaftlichen Zeitschrift zu veröffentlichen.
+- **Vebreitung von OER innerhalb der Theologischen Wissenschaft**: Besuch auf wichtigen Netzwerktagungen mit dem Projekt sowie Zusammenarbeit mit den Herausgeber:innen des SysLex um die Verbindung von OER und wissenschaft zu stärken.
+- **SysLex-Projekt**: Zwei durchgeführte Fortbildungen, zwei Baukästen sind in der open Reviewphase und auch unter [LinkEINFÜGEN] zum runterladen veröffentlicht.
 
 ### Transferpotenzial – Was könnte für andere nützlich sein? (grüne Notizen)
 
@@ -42,10 +47,14 @@ Wie bleibt eine Community-Infrastruktur nach Projektende lebendig? Wir zeigen, w
 - **Metadaten:** AMB-konforme Erfassung mit eigenen Vokabularen; anschlussfähig an WLO, OERSI und andere Kataloge.
 - **„Working out loud“:** Redaktionsabläufe, Entscheidungen und Issues liegen offen. Andere Projekte können Abläufe und Vorlagen direkt übernehmen.
 - **Anknüpfungspunkte:** Projekte, die eigene Materialsammlungen pflegen und sie ohne neue Plattform in einen Verbund bringen wollen; Projekte zu Qualitätssicherung und KI-generierten Materialien.
+ >[Ergänzungen aus TP 3]
+- **Aus didaktischer Perspektive**: Es ist hilfreich, wenn OER mit einer didaktischen Idee gefüllt und remixbar sind. Ein Bezug zu einem Artikel oder einer konkreten Lerneinheit sowie einem Kompetenzbezug wird als Entlastung empfunden. Das Baukastenprinzip hat sich als handbare Lösung erwiesen.
+- **Vibe-Coding**: Das Vibe-Coding ermöglicht nicht Programmierer:innen kleine OER zu bauen ohne sich zu sehr in eine Programiersprache einzuarbeiten. Hier ist Potential Lehrkräfte zu gewinnen, sie müssen aber über die Rechte sowie die Datenschutzbestimmungen aufgeklärt werden.
+
 
 ### Herausforderungen & Learnings (rote Notizen)
 
-- **Rechtsunsicherheit ist die größte Hürde:** In der Interviewstudie war die Angst vor Lizenzfehlern und Abmahnungen der meistgenannte Punkt. Lizenzkurse allein helfen wenig; besser funktioniert der Einstieg über ein inhaltliches Thema.
+- **Rechtsunsicherheit ist die größte Hürde:** In der Interviewstudie war die Angst vor Lizenzfehlern und Abmahnungen der meistgenannte Punkt. Lizenzkurse allein helfen wenig; besser funktioniert der Einstieg über ein inhaltliches Thema. [> Ergänzung aus TP 3: Auch in KI-Fragen herrscht unsicherheit und viel Unkenntnis.]
 - **OEP gibt es schon, nur ohne Namen:** Communities teilen und arbeiten offen zusammen, ohne den Begriff zu kennen. Wir holen sie dort ab, statt Begriffe zu schulen.
 - **Ehrenamt und Institution arbeiten verschieden:** Ehrenamtlich getragene Communities brauchen andere Angebote als Communities mit angestellten Mitarbeitenden.
 - **Verteilte Systeme kosten Kraft:** Copy-and-paste zwischen Plattformen, viele Logins, Metasysteme sind Pflaster. Gemeinsame Standards sind mühsam, aber die eigentliche Lösung.
@@ -85,4 +94,5 @@ Rückfall, falls Relays oder Webex hängen: Screenshots auf der Kachel.
 ## Offen zu klären
 
 - Wer pitcht (eine Minute im Plenum) und wer moderiert den Breakout-Raum?
+  >[Phillip Hier: ich kann die eine Minute im Plenum machen]
 - Sind die Links auf hub.rpi-virtuell.net zum 27.11. vorzeigbar? (UX-Termin am 25.11. liegt zwei Tage davor.)
