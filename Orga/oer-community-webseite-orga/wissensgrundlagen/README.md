@@ -10,6 +10,7 @@ Dieses Verzeichnis enthält die **gemeinsamen Wissensgrundlagen** für die oer.c
 | `personen.yaml` | Verzeichnis bekannter Autor:innen und ihrer Affiliations (mit ORCID, ROR, Standardangaben für `creator`-Feld) | `comenius-yaml-mcp`, LLM-Helferlein, manuelle Redaktion |
 | `schlagworte.yaml` | Kanonische Schreibweisen aller Schlagworte (verhindert Synonyme und Tippfehler) | `comenius-yaml-mcp`, `content-lint` (Validierung), LLM-Helferlein |
 | `schlagwort-glossar.md` | Menschenlesbare Beschreibung der Schlagworte mit Definitionen und Verwendungshinweisen | Mensch, LLM-Prompts |
+| `tagungsbericht-skill.md` | Arbeitsanweisung (Skill) für Tagungsberichte auf oer.community: Material sichten, Aufbau, Anonymisierung, FOERBICO/edufeed-Perspektive, Linkprüfung, Freigabe-Mail. Verweist für das Frontmatter auf die Dateien in diesem Verzeichnis | LLM-Helferlein (als `SKILL.md`), manuelle Redaktion |
 
 ## Prinzip
 
