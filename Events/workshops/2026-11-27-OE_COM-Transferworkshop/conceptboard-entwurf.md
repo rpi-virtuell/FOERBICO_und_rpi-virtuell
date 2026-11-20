@@ -8,6 +8,7 @@ Bitte im Team gegenlesen, vor allem die Teile, die TP 2 und TP 3 betreffen.
 ---
 
 ## Bereich 1: Pitch (1 Minute, ca. 140 Wörter gesprochen)
+Ich habe im Conceptboard den Text rausgeworfen und nur Bilder eingefügt. Falls ihr dazu noch Ideen habt, gerne ergänzen und die anderen Sachen verschieben
 
 **Das hatten wir uns vorgenommen.**
 Religionsbezogene OER-Communities (rpi-virtuell, relilab, reliGlobal, ALPIKA-Institute und weitere) sollten nicht mehr nebeneinander arbeiten, sondern als „Community of Communities“ ihre Materialien, Termine und Praktiken über einen gemeinsamen Community-Hub teilen. >[Ergänzung aus TP3 - Fortbildungen der Commmunities beobachten und didaktische Möglichkeiten entwickeln um diese zu verbessern] 
