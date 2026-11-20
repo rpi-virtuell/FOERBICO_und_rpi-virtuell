@@ -10,7 +10,7 @@ Bitte im Team gegenlesen, vor allem die Teile, die TP 2 und TP 3 betreffen.
 ## Bereich 1: Pitch (1 Minute, ca. 140 Wörter gesprochen)
 
 **Das hatten wir uns vorgenommen.**
-Religionsbezogene OER-Communities (rpi-virtuell, relilab, reliGlobal, ALPIKA-Institute und weitere) sollten nicht mehr nebeneinander arbeiten, sondern als „Community of Communities“ ihre Materialien, Termine und Praktiken über einen gemeinsamen Community-Hub teilen. >[Ergänzung aus TP3 - Fortbildungen der Commmunities beobachten und Didaktische Möglichkeiten entwickeln um diese zu verbessern]
+Religionsbezogene OER-Communities (rpi-virtuell, relilab, reliGlobal, ALPIKA-Institute und weitere) sollten nicht mehr nebeneinander arbeiten, sondern als „Community of Communities“ ihre Materialien, Termine und Praktiken über einen gemeinsamen Community-Hub teilen. >[Ergänzung aus TP3 - Fortbildungen der Commmunities beobachten und didaktische Möglichkeiten entwickeln um diese zu verbessern] 
 
 **Das ist tatsächlich entstanden.**
 Eine gemeinsame, offene Datenbasis auf dem Nostr-Protokoll mit AMB-Metadaten. Dazu Qualitätskriterien für religionspädagogische OER, WordPress-Plugins, mit denen Communities Materialien und Termine auf ihre eigene Seite holen, und der ReliHub als Prototyp, der im Februar 2027 startet. >[Ergänzung aus TP3 - Ein Projekt gemeinsam mit dem theologisch systematischen Lexiokon SysLex. In diesem können Texte welche unter CC BY-NC-ND veröffentlicht wurden, für Lehrkräfte didaktisch, mit Hilfe eines Baukastensystems, aufbereitet werden.] 
@@ -35,9 +35,13 @@ Wie bleibt eine Community-Infrastruktur nach Projektende lebendig? Wir zeigen, w
 - **Sichtbarkeit:** über 90 Beiträge auf oer.community seit 2024, Zwischenfazit-Tagung Februar 2026 in Nürnberg (Videoreihe „Mit OER zu einer Kultur des Teilens“ auf FAU.tv), HackathOERn 2026, OERcamp.
   
  >[Ergänzungen aus TP 3]
-- **Forschungsergebnisse:** Die Forschungsergebnisse befinden sich derzeit im Review-Prozess um diese innerhalb einer religionspädagogischen wissenschaftlichen Zeitschrift zu veröffentlichen.
-- **Vebreitung von OER innerhalb der Theologischen Wissenschaft**: Besuch auf wichtigen Netzwerktagungen mit dem Projekt sowie Zusammenarbeit mit den Herausgeber:innen des SysLex um die Verbindung von OER und wissenschaft zu stärken.
+- **Forschungsergebnisse:** Die Forschungsergebnisse befinden sich derzeit im Review-Prozess um diese innerhalb einer religionspädagogischen wissenschaftlichen Zeitschrift zu veröffentlichen. 
+- **Verbreitung von OER innerhalb der Theologischen Wissenschaft**: Besuch auf wichtigen Netzwerktagungen mit dem Projekt sowie Zusammenarbeit mit den Herausgeber:innen des SysLex um die Verbindung von OER und wissenschaft zu stärken. [>Ergänzungen aus TP 2: Angebot und Durchführung von über 15 OER-Beratungen mit Lehrenden und Forschenden aus verschiedenen Hochschulen]
 - **SysLex-Projekt**: Zwei durchgeführte Fortbildungen, zwei Baukästen sind in der open Reviewphase und auch unter [LinkEINFÜGEN] zum runterladen veröffentlicht.
+  
+ >[Ergänzungen aus TP 2]
+-  **Veröffentlichungen:** Die Gestaltung eines Whitepapers zu Open Educational Resources (OER)in Religionspädagogik und Theologie
+-  **Planung:** Abschlusstagung 02.-03. Februar 2027 in Frankfurt am Main
 
 ### Transferpotenzial – Was könnte für andere nützlich sein? (grüne Notizen)
 
@@ -54,7 +58,7 @@ Wie bleibt eine Community-Infrastruktur nach Projektende lebendig? Wir zeigen, w
 
 ### Herausforderungen & Learnings (rote Notizen)
 
-- **Rechtsunsicherheit ist die größte Hürde:** In der Interviewstudie war die Angst vor Lizenzfehlern und Abmahnungen der meistgenannte Punkt. Lizenzkurse allein helfen wenig; besser funktioniert der Einstieg über ein inhaltliches Thema. [> Ergänzung aus TP 3: Auch in KI-Fragen herrscht unsicherheit und viel Unkenntnis.]
+- **Rechtsunsicherheit ist die größte Hürde:** In der Interviewstudie war die Angst vor Lizenzfehlern und Abmahnungen der meistgenannte Punkt. Lizenzkurse allein helfen wenig; besser funktioniert der Einstieg über ein inhaltliches Thema. [> Ergänzung aus TP 3: Auch in KI-Fragen herrscht Unsicherheit und viel Unkenntnis.]
 - **OEP gibt es schon, nur ohne Namen:** Communities teilen und arbeiten offen zusammen, ohne den Begriff zu kennen. Wir holen sie dort ab, statt Begriffe zu schulen.
 - **Ehrenamt und Institution arbeiten verschieden:** Ehrenamtlich getragene Communities brauchen andere Angebote als Communities mit angestellten Mitarbeitenden.
 - **Verteilte Systeme kosten Kraft:** Copy-and-paste zwischen Plattformen, viele Logins, Metasysteme sind Pflaster. Gemeinsame Standards sind mühsam, aber die eigentliche Lösung.
