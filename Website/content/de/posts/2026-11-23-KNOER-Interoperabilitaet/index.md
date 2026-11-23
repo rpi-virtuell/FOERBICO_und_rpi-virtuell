@@ -78,6 +78,7 @@ bilder:
     title: Wie und wo findet man OER?
     sourceUrl: https://oer.community/interoperabilitaet-bei-oer
     author: Peter Rempis
+    authorUrl: https://uni-tuebingen.de/einrichtungen/universitaetsbibliothek/ueber-uns/ansprechpartner/fachreferenten-hoeherer-dienst/rempis/
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
     keywords: ['grafik','schaubild','diagramm','oer','repositorien','suchmaschinen','öffentlichkeit','communities','graphic','diagram','repositories','search engines','public','findability']
@@ -86,7 +87,7 @@ bilder:
 *Bericht vom Workshop „Interoperabilität in der Bildungspraxis" mit Peter Rempis (ZOERR, Universität Tübingen) auf der [KNOER-Tagung 2026](https://kn-oer.de/veranstaltung/tagung-2026/), 17. November 2026, DIPF Frankfurt am Main*
 
 ![Schaubild „Wie und wo findet man OER?“: In einer großen Ellipse „Öffentlichkeit“ tauschen sich OER-Produzenten, OER-Konsumenten und OER-Communities aus. Pfeile verbinden die Öffentlichkeit mit drei Kästen darunter, die auch untereinander verbunden sind: allgemeine Suchmaschinen wie Google und Bing, OER-Repositorien wie ZOERR, twillo, ORCA, vcrp und vhb sowie Meta-Recherche-Systeme wie OERSI und BASE](wie-und-wo-findet-man-oer-rempis.png)
-[Wie und wo findet man OER?](https://oer.community/interoperabilitaet-bei-oer), Peter Rempis, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
+[Wie und wo findet man OER?](https://oer.community/interoperabilitaet-bei-oer), [Peter Rempis](https://uni-tuebingen.de/einrichtungen/universitaetsbibliothek/ueber-uns/ansprechpartner/fachreferenten-hoeherer-dienst/rempis/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
 
 Kaum ein Begriff fällt in Festreden und auf Tagungen zu offenen Bildungsmaterialien so oft wie „Interoperabilität". Auf der Jahrestagung des [Kooperationsnetzwerks OER-förderliche Infrastrukturen und -Dienste (KNOER)](https://kn-oer.de/) am [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/) stand sie unter dem Tagungsmotto „Digital Public Good unter Druck" gleich in einem der drei parallelen Vormittagsworkshops (11:30–13:00 Uhr) im Mittelpunkt: [„Interoperabilität in der Bildungspraxis: OER-Repositorien, Standards und Schnittstellen im Dialog mit OER-Nutzern, Autoren und Öffentlichkeit"](https://kn-oer.de/workshop-rempis/).
 
