@@ -1,4 +1,4 @@
-# Sprechtext: Wie der reli-hub entstanden ist
+# Sprechtext: Wie der ReliHub entstanden ist
 
 Impuls für das Panel „Zusammenarbeit für bessere Bildung(smaterialien): Was wir von
 Bildungsnetzwerken lernen können“, CollaborAID, 14.11.2026, 10:30–11:20 Uhr.
@@ -210,13 +210,13 @@ Wir haben gemerkt: Ohne Netzwerkpflege läuft ein Labor nicht einfach weiter. Un
 
 Fünfte Lektion: Wer seinen öffentlichen Raum auf der Plattform eines anderen baut, kann ihn verlieren.
 
-## Szene 6 · reli-hub: Protokoll statt Plattform
+## Szene 6 · ReliHub: Protokoll statt Plattform
 
 ### E29 · hub
 
 > bild: Die vier Inseln bleiben, wie sie sind. Unter ihnen zeichnet sich eine feine, durchgehende Linie: „Protokoll“.
 
-Deshalb bauen wir jetzt keine neue Plattform. Wir bauen den reli-hub auf einem offenen Protokoll. Es heißt Nostr.
+Deshalb bauen wir jetzt keine neue Plattform. Wir bauen den ReliHub auf einem offenen Protokoll. Es heißt Nostr.
 
 ### E30 · hub
 
@@ -240,7 +240,7 @@ Was das zusammenhält, sind gemeinsame Standards: einheitlich beschriebene Metad
 
 > bild: Die Wortmarken „rpi-virtuell“ und „relilab“ werden kleiner und treten zurück. Unter rpi-virtuell: Material, Fortbildungen, Nachrichten der Institute. Unter relilab: Lehrkräfte experimentieren. Beide stehen auf einer Linie. Das Netz darunter bleibt hell.
 
-Die Marken treten dabei zurück. rpi-virtuell bündelt, was die Institute anbieten: Material, Fortbildungen, Nachrichten. Das relilab ist der Raum, in dem Lehrkräfte selbst experimentieren. Im reli-hub stehen beide nebeneinander, keines über dem anderen.
+Die Marken treten dabei zurück. rpi-virtuell bündelt, was die Institute anbieten: Material, Fortbildungen, Nachrichten. Das relilab ist der Raum, in dem Lehrkräfte selbst experimentieren. Im ReliHub stehen beide nebeneinander, keines über dem anderen.
 
 ### E34 · lernsatz
 
@@ -260,7 +260,7 @@ Wenn alle senden können, kommt die nächste Frage. Es geht nicht mehr darum, we
 
 > bild: Der Trichter löst sich auf. Aus dem Netz heben sich kleine Kreise hervor: Communities. Jede holt einzelne Materialien zu sich, Linien verbinden die Kreise untereinander.
 
-Im reli-hub bestimmt das kein Konzern und kein einzelnes Institut. Jede Community zeigt, was mit ihr geteilt wurde, und ein Redaktionskreis kann daraus eine Auswahl zusammenstellen. Gefunden wird über Menschen, denen man vertraut.
+Im ReliHub bestimmt das kein Konzern und kein einzelnes Institut. Jede Community zeigt, was mit ihr geteilt wurde, und ein Redaktionskreis kann daraus eine Auswahl zusammenstellen. Gefunden wird über Menschen, denen man vertraut.
 
 ### E37 · gehoert
 
@@ -296,9 +296,9 @@ Und eine ehrliche Grenze: Strukturen können wir anbieten. Ob sie lebendig werde
 
 ### E42 · schluss
 
-> bild: „reli-hub“ und „Februar 2027“. Dann: „Danke.“
+> bild: „ReliHub“ und „Februar 2027“. Dann: „Danke.“
 
-Der reli-hub geht im Februar 2027 an den Start. Ich bin gespannt, was daraus entsteht.
+Der ReliHub geht im Februar 2027 an den Start. Ich bin gespannt, was daraus entsteht.
 
 ---
 

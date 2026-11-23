@@ -8,7 +8,7 @@ Der Ordner enthält alles, um das Video nachzubauen oder mit einem eigenen Thema
 - **Anlass:** Impuls im Panel „Zusammenarbeit für bessere Bildung(smaterialien): Was wir von
   Bildungsnetzwerken lernen können“, CollaborAID, 14.11.2026
 - **Inhalt:** Wie aus rpi-virtuell, dem #relichat, den relicamps und dem relilab der Entwurf
-  eines gemeinsamen Community-Hubs (Arbeitstitel „reli-hub“) entstanden ist, und was das über
+  eines gemeinsamen Community-Hubs, des ReliHub, entstanden ist, und was das über
   Zusammenarbeit über Institutionsgrenzen hinweg lehrt
 - **Lizenz:** Video, Texte, Bilder und Code in diesem Ordner stehen unter
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
@@ -61,7 +61,9 @@ alle Entscheidungen lagen beim Autor.
    Fehler, bevor jemand sie hören musste. Nach einer Rückmelderunde im Team kamen hinzu: eine
    mitlaufende Lektionsleiste, ruhigere Animationen, die Projektfarben, ein als Arbeitstitel
    markierter Name und genauere Aussagen zur Lizenzierung. Drei geänderte Absätze wurden
-   nachgesprochen und automatisch eingesetzt.
+   nachgesprochen und automatisch eingesetzt. Als der Name feststand, wurde aus dem
+   Arbeitstitel „reli-hub“ im Bild und in den Untertiteln „ReliHub“; weil Wörter beim Abgleich
+   normalisiert werden, blieben Tonspur und Zeitleiste dabei unverändert.
 8. **Veröffentlichen.** Aus der Zeitleiste entstehen Untertitel und Kapitelmarken, aus der
    Übersichtsszene das Vorschaubild.
 

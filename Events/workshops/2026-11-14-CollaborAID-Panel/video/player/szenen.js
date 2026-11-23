@@ -468,7 +468,7 @@ const E28 = mitMotiv((g, z) => {
   g.rechteck(900, 700, 120, 200, 6, aus(z.ab(1.5, 1)), { breite: 5, strich: [12, 10], alpha: q });
 });
 
-// ---------- Szene 6 · reli-hub: Protokoll statt Plattform ----------
+// ---------- Szene 6 · ReliHub: Protokoll statt Plattform ----------
 
 function E29(g, z) {
   const lp = z.abWort('Protokoll', 2.2, -0.4);
@@ -477,7 +477,7 @@ function E29(g, z) {
   g.text('Protokoll', 110, 552, { groesse: 30, alpha: lp, farbe: FARBEN.akzent });
   const n = z.abWort('Nostr', 1.2, -0.2);
   kasten(g, 'Nostr', 1720, 575, n, { groesse: 36, rahmen: FARBEN.akzent, farbe: FARBEN.akzent });
-  kasten(g, 'reli-hub  ·  Arbeitstitel', CX, 1010, z.abWort('reli-hub', 0.8), { groesse: 32 });
+  kasten(g, 'ReliHub', CX, 1010, z.abWort('ReliHub', 0.8), { groesse: 32 });
   INSELN.forEach((ins) => {
     const oben = ins.cy < 575;
     g.linie(ins.cx, oben ? ins.cy + 140 : ins.cy - 140, ins.cx, 575, sanft(n), { breite: 2.5, farbe: FARBEN.akzent, alpha: 0.8 });
@@ -659,7 +659,7 @@ function E38(g, z) {
 
 const SPUR = [
   ['Sendemast', 'Rundfunk'], ['Stern', 'rpi-virtuell · 2002'], ['Puls', '#relichat · 2017'], ['Gruppen', 'relicamps · 2019'],
-  ['Labor', 'relilab · 2020'], ['Inseln', 'verstreut · 2022'], ['Protokoll', 'Nostr'], ['Kreise', 'reli-hub · 2027'],
+  ['Labor', 'relilab · 2020'], ['Inseln', 'verstreut · 2022'], ['Protokoll', 'Nostr'], ['Kreise', 'ReliHub · 2027'],
 ];
 
 function E39(g, z) {
@@ -699,9 +699,8 @@ function E41(g, z) {
 function E42(g, z) {
   g.mit(0.25, () => kreise(g, z.t, { material: 1 }));
   g.rechteck(50, 50, W - 100, H - 100, 22, sanft(z.ab(0.2, 2.5)), { breite: 3, farbe: FARBEN.akzent, alpha: 0.8 });
-  g.schreiben('reli-hub', CX, 450, z.abWort('reli-hub', 1.4, -0.3), { groesse: 150, align: 'center' });
-  g.linie(CX - 120, 492, CX + 120, 492, sanft(z.abWort('reli-hub', 0.8, 0.9)), { breite: 6, farbe: FARBEN.orange });
-  g.text('Arbeitstitel', CX, 535, { groesse: 28, align: 'center', kursiv: true, farbe: FARBEN.leise, alpha: z.abWort('reli-hub', 0.8, 1.0) });
+  g.schreiben('ReliHub', CX, 450, z.abWort('ReliHub', 1.4, -0.3), { groesse: 150, align: 'center' });
+  g.linie(CX - 120, 492, CX + 120, 492, sanft(z.abWort('ReliHub', 0.8, 0.9)), { breite: 6, farbe: FARBEN.orange });
   kasten(g, 'Start: Februar 2027', CX, 640, z.abWort('Februar', 0.9), { groesse: 44, rahmen: FARBEN.akzent, farbe: FARBEN.akzent });
   g.schreiben('Danke.', CX, 820, z.abWort('entsteht', 1.4, 0.8), { groesse: 70, align: 'center', kursiv: true });
 }

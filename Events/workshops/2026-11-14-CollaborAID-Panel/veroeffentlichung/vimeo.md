@@ -20,14 +20,14 @@ Kapitel
 3:03 relicamps: die Begegnung
 3:51 relilab: das Labor
 5:02 Der Bruch: Inseln
-5:49 reli-hub: Protokoll statt Plattform
+5:49 ReliHub: Protokoll statt Plattform
 7:24 Wer gehört wird
 8:26 Was trägt
 
 Machart: Die Animationen sind vollständig als Programmcode entstanden, gebaut mit dem KI-Agenten Claude Code; Sprechtext und Stimme stammen vom Autor. Making-of und Anleitung zum Nachmachen mit eigenem Thema:
 https://git.rpi-virtuell.de/Comenius-Institut/FOERBICO_und_rpi-virtuell/src/branch/main/Events/workshops/2026-11-14-CollaborAID-Panel
 
-„reli-hub“ ist ein Arbeitstitel für den Community-Hub, den das Projekt FOERBICO entwickelt.
+Der ReliHub ist der Community-Hub, den das Projekt FOERBICO entwickelt. Er wird auf der FOERBICO-Abschlusstagung „Offen. Vernetzt. Zukunft“ am 2. und 3. Februar 2027 in Frankfurt vorgestellt: https://oer.community/tagungen/
 
 Ein Beitrag aus dem Projekt FOERBICO – Förderung offener Bildungspraktiken in religionsbezogenen Communities durch die Entwicklung eines koordinierten OER-Ökosystems.
 

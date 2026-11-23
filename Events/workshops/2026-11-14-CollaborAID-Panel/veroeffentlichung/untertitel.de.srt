@@ -449,7 +449,7 @@ keine neue Plattform.
 
 98
 00:05:52,820 --> 00:05:55,890
-Wir bauen den reli-hub auf
+Wir bauen den ReliHub auf
 einem offenen Protokoll.
 
 99
@@ -531,7 +531,7 @@ Lehrkräfte selbst experimentieren.
 
 116
 00:06:56,190 --> 00:07:00,720
-Im reli-hub stehen beide nebeneinander,
+Im ReliHub stehen beide nebeneinander,
 keines über dem anderen.
 
 117
@@ -582,7 +582,7 @@ Und wer bestimmt, wie wir einander finden.
 
 127
 00:07:34,930 --> 00:07:38,620
-Im reli-hub bestimmt das kein
+Im ReliHub bestimmt das kein
 Konzern und kein einzelnes Institut.
 
 128
@@ -698,7 +698,7 @@ die Menschen, die sie nutzen.
 
 152
 00:09:02,320 --> 00:09:05,840
-Der reli-hub geht im
+Der ReliHub geht im
 Februar 2027 an den Start.
 
 153
