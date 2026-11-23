@@ -24,7 +24,7 @@ inLanguage:
 about:
   - https://w3id.org/kim/hochschulfaechersystematik/n71
   - https://w3id.org/kim/hochschulfaechersystematik/n052
-image: https://oer.community/interoperabilitaet-bei-oer/interoperabilitaet-illustration.jpg
+image: https://oer.community/interoperabilitaet-bei-oer/wie-und-wo-findet-man-oer-rempis.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/text
   - https://w3id.org/kim/hcrt/web_page
@@ -51,8 +51,8 @@ author:
 title: 'Interoperabilität bei OER: Wo wir stehen und wo es hakt'
 cover:
   relative: true
-  image: interoperabilitaet-illustration.jpg
-  alt: 'Vier farbige Linien mit unterschiedlichen Markierungen (Kreise, Quadrate, Dreiecke, Rauten) laufen von links in einem Knotenpunkt zusammen und führen rechts als eine gemeinsame, vierfarbig gestreifte Spur weiter'
+  image: wie-und-wo-findet-man-oer-rempis.png
+  alt: 'Schaubild „Wie und wo findet man OER?“: In einer großen Ellipse „Öffentlichkeit“ tauschen sich OER-Produzenten, OER-Konsumenten und OER-Communities aus. Pfeile verbinden die Öffentlichkeit mit drei Kästen darunter, die auch untereinander verbunden sind: allgemeine Suchmaschinen wie Google und Bing, OER-Repositorien wie ZOERR, twillo, ORCA, vcrp und vhb sowie Meta-Recherche-Systeme wie OERSI und BASE'
   hiddenInSingle: true
 summary: >-
   Interoperabilität gehört zu den meistgenannten Begriffen, wenn es um offene Bildungsmaterialien geht. Im Workshop auf der KNOER-Tagung 2026 zog Peter Rempis vom Zentralen OER-Repositorium der Hochschulen in Baden-Württemberg (ZOERR) eine Bestandsaufnahme: zu Metadatenprofilen und Vokabularen, zu Paketformaten und Schnittstellen, zu Lizenzen und KI-gestützt erstelltem Material und zur Lücke bei offenen Autorenwerkzeugen. Der Bericht fasst Vortrag und Diskussion zusammen.
@@ -73,22 +73,20 @@ tags:
 # bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
 # Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
 bilder:
-  interoperabilitaet-illustration.jpg:
-    alt: 'Vier farbige Linien mit unterschiedlichen Markierungen (Kreise, Quadrate, Dreiecke, Rauten) laufen von links in einem Knotenpunkt zusammen und führen rechts als eine gemeinsame, vierfarbig gestreifte Spur weiter'
-    title: Viele Formate, eine gemeinsame Spur
+  wie-und-wo-findet-man-oer-rempis.png:
+    alt: 'Schaubild „Wie und wo findet man OER?“: In einer großen Ellipse „Öffentlichkeit“ tauschen sich OER-Produzenten, OER-Konsumenten und OER-Communities aus. Pfeile verbinden die Öffentlichkeit mit drei Kästen darunter, die auch untereinander verbunden sind: allgemeine Suchmaschinen wie Google und Bing, OER-Repositorien wie ZOERR, twillo, ORCA, vcrp und vhb sowie Meta-Recherche-Systeme wie OERSI und BASE'
+    title: Wie und wo findet man OER?
     sourceUrl: https://oer.community/interoperabilitaet-bei-oer
-    author: erstellt mit Claude (Anthropic)
-    authorUrl: https://claude.ai
-    licence: CC0
-    licenceUrl: https://creativecommons.org/publicdomain/zero/1.0/
-    ai: generated
-    keywords: ['illustration','grafik','interoperabilität','schnittstelle','knotenpunkt','linien','standards','vernetzung','graphic','interoperability','interface','hub','lines','network']
+    author: Peter Rempis
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
+    keywords: ['grafik','schaubild','diagramm','oer','repositorien','suchmaschinen','öffentlichkeit','communities','graphic','diagram','repositories','search engines','public','findability']
 ---
 
 *Bericht vom Workshop „Interoperabilität in der Bildungspraxis" mit Peter Rempis (ZOERR, Universität Tübingen) auf der [KNOER-Tagung 2026](https://kn-oer.de/veranstaltung/tagung-2026/), 17. November 2026, DIPF Frankfurt am Main*
 
-![Vier farbige Linien mit unterschiedlichen Markierungen (Kreise, Quadrate, Dreiecke, Rauten) laufen von links in einem Knotenpunkt zusammen und führen rechts als eine gemeinsame, vierfarbig gestreifte Spur weiter](interoperabilitaet-illustration.jpg)
-[Viele Formate, eine gemeinsame Spur](https://oer.community/interoperabilitaet-bei-oer), [erstellt mit Claude (Anthropic)](https://claude.ai), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), KI-generiert
+![Schaubild „Wie und wo findet man OER?“: In einer großen Ellipse „Öffentlichkeit“ tauschen sich OER-Produzenten, OER-Konsumenten und OER-Communities aus. Pfeile verbinden die Öffentlichkeit mit drei Kästen darunter, die auch untereinander verbunden sind: allgemeine Suchmaschinen wie Google und Bing, OER-Repositorien wie ZOERR, twillo, ORCA, vcrp und vhb sowie Meta-Recherche-Systeme wie OERSI und BASE](wie-und-wo-findet-man-oer-rempis.png)
+[Wie und wo findet man OER?](https://oer.community/interoperabilitaet-bei-oer), Peter Rempis, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
 
 Kaum ein Begriff fällt in Festreden und auf Tagungen zu offenen Bildungsmaterialien so oft wie „Interoperabilität". Auf der Jahrestagung des [Kooperationsnetzwerks OER-förderliche Infrastrukturen und -Dienste (KNOER)](https://kn-oer.de/) am [DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation](https://www.dipf.de/) stand sie unter dem Tagungsmotto „Digital Public Good unter Druck" gleich in einem der drei parallelen Vormittagsworkshops (11:30–13:00 Uhr) im Mittelpunkt: [„Interoperabilität in der Bildungspraxis: OER-Repositorien, Standards und Schnittstellen im Dialog mit OER-Nutzern, Autoren und Öffentlichkeit"](https://kn-oer.de/workshop-rempis/).
 
