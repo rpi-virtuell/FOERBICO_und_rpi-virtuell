@@ -124,4 +124,4 @@ Video, Sprechtext, Code und Making-of stehen unter [CC BY 4.0](https://creativec
 
 Der ReliHub geht im Februar 2027 an den Start. Vorgestellt wird er auf unserer Abschlusstagung **„Offen. Vernetzt. Zukunft – Open Education in (religionsbezogenen) Communities“** am 2. und 3. Februar 2027 an der Goethe-Universität Frankfurt. Die Tagung bringt OER-Communities und Akteur:innen aus Wissenschaft, Bildungspraxis, Kirche und Zivilgesellschaft zusammen.
 
-📅 Anmeldung bis 22. Januar 2027 unter [tinygu.de/foerbico2027]](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)
+📅 Anmeldung bis 22. Januar 2027 unter [tinygu.de/foerbico2027](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung)
