@@ -102,8 +102,6 @@ Das Video folgt einer Form, die sich verändert: der Form des Netzes, in dem Men
 - **Der Hub:** Statt einer neuen Plattform verbindet das offene Protokoll Nostr die Orte, an denen Communities und Institute ohnehin arbeiten. *Standards statt Weisung.*
 - **Wer gehört wird:** Was oben steht, ergibt sich aus dem, was Menschen mit einem Material tun, und diese Spuren sind öffentlich. *Menschen machen sichtbar, nicht Algorithmen.*
 
-Im Video trägt der Hub noch den Arbeitstitel „reli-hub“. Inzwischen steht der Name fest: **ReliHub**.
-
 ## Wie das Video entstanden ist
 
 Die Machart ist so offen wie das Thema. Jede Animation im Video ist Programmcode, geschrieben im Wechsel mit dem KI-Agenten Claude Code. Es gibt keinen Bild- oder Videogenerator, die Bilder sind gezeichnete Grafik, und die Stimme ist meine.
