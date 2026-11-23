@@ -11,7 +11,9 @@ id: https://oer.community/wer-traegt-was-alle-nutzen
 creator:
   - givenName: Jörg
     familyName: Lohrer
-    id: https://orcid.org/0000-0002-9282-0406
+    id: nostr:npub1f7jar3qnu269uyx5p0e4v24hqxjnxysxudvujza2ur5ehltvdeqsly2fx9
+    sameAs:
+      - https://orcid.org/0000-0002-9282-0406
     type: Person
     affiliation:
       name: Comenius-Institut
