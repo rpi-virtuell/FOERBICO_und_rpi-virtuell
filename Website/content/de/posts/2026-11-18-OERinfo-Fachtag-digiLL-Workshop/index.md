@@ -17,6 +17,14 @@ creator:
       name: Comenius-Institut
       id: https://ror.org/025e8aw85
       type: Organization
+  - givenName: Paula
+    familyName: Gregorio Rodrigo
+    id: nostr:npub10ggwwz3fmqsu5xqkwjw2sae824rn4qmu2c6sfmh4s80dtteceq8qefctz5
+    type: Person
+    affiliation:
+      name: Johann Wolfgang Goethe-Universität Frankfurt
+      id: https://ror.org/04cvxnb49
+      type: Organization
 inLanguage:
   - de
 image: TODO-Titelbild-fehlt
@@ -40,6 +48,7 @@ keywords:
 # staticSiteGenerator
 author:
   - Jörg Lohrer
+  - Paula Gregorio Rodrigo
 title: 'Lernende werden zu Lehrenden: OER erstellen in der Lehrer*innenbildung'
 cover:
   relative: false
