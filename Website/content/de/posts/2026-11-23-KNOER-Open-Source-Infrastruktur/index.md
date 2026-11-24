@@ -2,7 +2,6 @@
 # commonMetadata
 '@context': https://schema.org/
 creativeWorkStatus: Published
-type: LearningResource
 name: 'Wer trägt, was alle nutzen? Open-Source-Infrastruktur als Gemeinschaftsaufgabe'
 description: >-
   Fast alle deutschen Hochschulen organisieren ihre Lehre mit den Open-Source-Systemen Moodle, ILIAS oder Stud.IP. Für die Pflege des gemeinsamen Kerns ist aber niemand verbindlich zuständig. Im Workshop auf der KNOER-Tagung 2026 stellte Christian Friedrich vom Open Source Development Network (OSDN) vier Thesen zur Diskussion: zu Produktverantwortung, verbindlichen Beiträgen, Mitbestimmung der Geldgeber und zu den Folgen für OER-Infrastrukturen. Der Bericht fasst die Diskussion zusammen.
@@ -82,7 +81,7 @@ bilder:
 ![Blick entlang einer leeren Fußgängerbrücke, deren Dach aus Stahllamellen ein Streifenmuster aus Licht und Schatten auf den Gehweg wirft, an den Seiten weiße Pfosten und Geländer](pedestrian-bridge-unt-michael-barera.jpg)
 [Fußgängerbrücke auf dem Campus der University of North Texas](https://commons.wikimedia.org/wiki/File:University_of_North_Texas_September_2015_40_(pedestrian_bridge).jpg), [Michael Barera](https://commons.wikimedia.org/wiki/User:Michael_Barera), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), verkleinert
 
-Moodle, ILIAS und Stud.IP sind Open-Source-Software, und fast alle deutschen Hochschulen organisieren ihre Lehre mit einem dieser drei Lernmanagementsysteme. Die Hochschulen bezahlen für den Betrieb und für Erweiterungen, die sie selbst brauchen. Für die Pflege der Software, die allen gemeinsam zugutekommt, ist dagegen niemand verbindlich zuständig. Wie sich das ändern lässt, war Thema eines der drei parallelen Nachmittagsworkshops auf der Jahrestagung des Kooperationsnetzwerks OER-förderliche Infrastrukturen und -Dienste (KNOER): „Wer trägt, was alle nutzen? Offene Bildungsinfrastrukturen als gemeinsame Aufgabe“.
+Moodle, ILIAS und Stud.IP sind Open-Source-Software, und fast alle deutschen Hochschulen organisieren ihre Lehre mit einem dieser drei Lernmanagementsysteme. Die Hochschulen bezahlen für den Betrieb und für Erweiterungen, die sie selbst brauchen. Doch für die Pflege der Software, von der alle profitieren, gibt es keine verbindlich organisierte gemeinsame Zuständigkeit. Wie sich das ändern lässt, war Thema eines der drei parallelen Nachmittagsworkshops auf der Jahrestagung des Kooperationsnetzwerks OER-förderliche Infrastrukturen und -Dienste (KNOER): „Wer trägt, was alle nutzen? Offene Bildungsinfrastrukturen als gemeinsame Aufgabe“.
 
 Christian Friedrich, Sprecher des Open Source Development Network (OSDN), war per Zoom zugeschaltet, die Runde diskutierte vor Ort in Frankfurt. Dieser Bericht ordnet die wichtigsten Punkte nach den vier Thesen, die Friedrich zur Diskussion gestellt hat. Die Ergebnisse sollen in die Konferenz Open Source Multitudes einfließen, die das OSDN im März 2027 in Hannover ausrichtet.
 
@@ -90,7 +89,7 @@ Christian Friedrich, Sprecher des Open Source Development Network (OSDN), war pe
 
 Friedrich verwies auf eine Studie von Belz, Suleder und Mayer (2024). Sie hat die Lernmanagementsysteme an Hochschulen in Deutschland, Österreich und der Schweiz erfasst: 98 Prozent der gefundenen Installationen entfallen auf Moodle, ILIAS und Stud.IP. Dieselbe Studie zeigt, warum Pflege keine Nebensache ist. Im September 2023 wies rund ein Drittel der untersuchten Installationen mindestens eine bekannte Sicherheitslücke auf.
 
-Nach Friedrichs Darstellung nutzen fast alle Hochschulen diese Plattformen, oft mit Betrieb oder Support durch Dienstleister. Einige gäben Anpassungen und Erweiterungen für den eigenen Bedarf in Auftrag, einige arbeiteten in den Gremien der Projekte mit. In die Basispflege, also in Sicherheit, Architektur, Barrierefreiheit und Bedienbarkeit, investierten dagegen nur wenige. Keine einzelne Hochschule sei stark genug, diese Arbeit für die Software, von der ihr Lehrbetrieb abhängt, allein zu tragen.
+Nach Friedrichs Darstellung nutzen fast alle Hochschulen diese Plattformen, oft mit Betrieb oder Support durch Dienstleister. Einige lassen Anpassungen und Erweiterungen für den eigenen Bedarf entwickeln, einige arbeiteten in den Gremien der Projekte mit. In die Basispflege, also in Sicherheit, Architektur, Barrierefreiheit und Bedienbarkeit, investierten dagegen nur wenige. Keine einzelne Hochschule sei stark genug, diese Arbeit für die Software, von der ihr Lehrbetrieb abhängt, allein zu tragen.
 
 ## Das OSDN und die Frage nach 2028
 
@@ -149,7 +148,7 @@ Als ungelöst bezeichnete Friedrich die Frage der Umsatzsteuerpflicht bei Leistu
 
 Diese These fand in der Runde die deutlichste Zustimmung. Repositorien, Suchindizes und Portale für offene Bildungsmaterialien sind ebenfalls gemeinsam genutzte Software, und sie werden häufig aus befristeten Projektmitteln einzelner Länder bezahlt. Die Fragen nach verbindlichen Beiträgen, nach der Trägerschaft und nach länderübergreifender Finanzierung stellen sich dort in gleicher Weise. Bei mehreren OER-Landesportalen steht die Verstetigung an, wobei die Lage je nach Land unterschiedlich ist. Länderübergreifende Kooperationen sollen die Portale auf eine breitere Grundlage stellen. Die Bereitschaft dazu sei bei Lehrenden und Infrastruktureinrichtungen vorhanden, hieß es in der Diskussion. Offen sei die dauerhafte Finanzierung, zumal bei angespannten Haushalten.
 
-Hinzu kommt, was die These zuspitzt: Die Pflege hängt bei OER-Infrastrukturen oft an einzelnen Personen und fällt deshalb noch weniger auf. Dass der Suchindex OERSI zu den vom OSDN geförderten Systemen gehört, zeigt, wie eng beide Felder bereits verbunden sind.
+Hinzu kommt ein Problem, das bei OER-Infrastrukturen besonders deutlich wird: Ihre technische Pflege hängt häufig an einzelnen Personen und ist selten als dauerhafte institutionelle Aufgabe organisiert. Dadurch bleibt der Aufwand oft unsichtbar und die Frage nach einer verlässlichen Finanzierung stellt sich weniger deutlich. Der Diskurs macht damit deutlich: Ob Lernplattformen oder OER-Portale - technische Offenheit allein sichert noch keine dauerhafte Infrastruktur. Dafür braucht es verbindliche Finanzierung, tragfähige Organisationsstrukturen und eine Verständigung darüber, wie gemeinsame Verantwortung wahrgenommen werden kann.
 
 Die Diskussion wird vom 3. bis 5. März 2027 bei den Open Source Multitudes an der Leibniz Universität Hannover fortgesetzt.
 
