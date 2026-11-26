@@ -1,10 +1,104 @@
-# 3. MOERFI-Demotage in Berlin: Inspiration, Austausch und offene Bildungsnetzwerke
+---
+# commonMetadata
+'@context': https://schema.org/
+creativeWorkStatus: Published
+name: 'MOERFI-Demotage in Berlin: Inspiration, Austausch und offene Bildungsnetzwerke'
+description: >-
+  Der 3. MOERFI-Demotag in Berlin brachte Menschen aus Bildung, Wissenschaft und digitalen Communities zusammen, um innovative Ansätze für offene Bildungsinfrastrukturen zu entdecken und weiterzudenken. Im Mittelpunkt standen Edufeed, dezentrale Bildungsnetzwerke, offene Technologien und die Frage, wie digitale Lernräume Vernetzung, Teilhabe und selbstbestimmtes Lernen fördern können. Einblicke, Austausch und praktische Erfahrungen zeigten, wie gemeinschaftliche digitale Bildung gestaltet werden kann.
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+id: https://oer.community/moerfi-demotage-2026
+creator:
+  - givenName: Gina
+    familyName: Buchwald-Chassée
+    type: Person
+    affiliation:
+      name: Comenius-Institut
+      id: https://ror.org/025e8aw85
+      type: Organization
+  - givenName: Phillip
+    familyName: Angelina
+    id: https://orcid.org/0000-0002-6905-5523
+    type: Person
+    affiliation:
+      name: Friedrich-Alexander-Universität Erlangen-Nürnberg
+      id: https://ror.org/00f7hpc57
+      type: Organization
+inLanguage:
+  - de
+about:
+  - https://w3id.org/kim/hochschulfaechersystematik/n0
+image: https://oer.community/moerfi-demotage-2026/IMG_3602.jpeg
+learningResourceType:
+  - https://w3id.org/kim/hcrt/text
+  - https://w3id.org/kim/hcrt/web_page
+educationalLevel:
+  - https://w3id.org/kim/educationalLevel/level_A
+datePublished: '2026-11-26'
+keywords:
+  - Nostr
+  - Community
+  - Open Educational Resources (OER)
+  - Digitalisierung
+  - FOERBICO in Kontakt
+  - Event
+
+# staticSiteGenerator
+author:
+  - Gina Buchwald-Chassée
+  - Phillip Angelina
+title: 'MOERFI-Demotage in Berlin: Inspiration, Austausch und offene Bildungsnetzwerke'
+cover:
+  relative: true
+  image: IMG_3602.jpeg
+  alt: 'Blick entlang einer leeren Fußgängerbrücke, deren Dach aus Stahllamellen ein Streifenmuster aus Licht und Schatten auf den Gehweg wirft, an den Seiten weiße Pfosten und Geländer'
+  hiddenInSingle: true
+summary: >-
+  Der 3. MOERFI-Demotag in Berlin bot spannende Einblicke in offene Bildungsinfrastrukturen, dezentrale Bildungsnetzwerke und Edufeed. Im Mittelpunkt standen Vernetzung, Teilhabe und die gemeinsame Gestaltung digitaler Bildungsräume.
+url: moerfi-demotage-2026
+tags:
+  - Nostr
+  - Community
+  - Open Educational Resources (OER)
+  - Digitalisierung
+  - FOERBICO in Kontakt
+  - Event
+# bilder  (Konvention: bildattribution.md · Schlüssel = Dateiname oder Hash-URL)
+# Lizenz nach Footer von oer.community: CC BY FOERBICO, soweit nicht anders angegeben.
+bilder:
+  IMG_3602.jpeg:
+    alt: 'Markstand vom FOERBICO-Projekt beim Markt der Möglichkeiten der MOERFI-Demotage 2026 im smartvillage Berlin'
+    title: FOERBICO-Marktstand
+    sourceUrl: https://oer.community/moerfi-demotage-2026
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
+    keywords: ['markstand', 'FOERBICO', 'Stehtisch', 'MOERFI', 'Demotage', 'smartvillage', 'Berlin']
+  IMG_3603.jpeg:
+    alt: 'Markstand vom FOERBICO-Projekt beim Markt der Möglichkeiten der MOERFI-Demotage 2026 im smartvillage Berlin'
+    title: FOERBICO-Marktstand bei MOERFI-Demotagen 2026
+    sourceUrl: https://oer.community/moerfi-demotage-2026
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
+    keywords: ['markstand', 'FOERBICO', 'Stehtisch', 'MOERFI', 'Demotage', 'smartvillage', 'Berlin']
+  IMG_3605.jpeg:
+    alt: 'Poster Edufeed im Aufbruch beim Gallery Walk der MOERFI-Demotage 2026 im smartvillage Berlin'
+    title: Posterpräsentation Edufeed im Aufbruch beim Gallery Walk
+    sourceUrl: https://oer.community/moerfi-demotage-2026
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
+    keywords: ['Gallery Walk', 'Edufeed', 'Poster', 'MOERFI', 'Demotage', 'smartvillage', 'Berlin']
+---
 
 „Was inspiriert uns?“ Mit dieser Frage eröffnete Katja Stamm vom Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) den 3. MOERFI-Demotag im smartvillage Berlin. Eine Frage, die den Kern der Veranstaltung ziemlich gut trifft: Wie können wir Bildungsräume schaffen, die Lernende inspirieren, ihre Bedürfnisse ernst nehmen und zeitgemäßes Lernen ermöglichen?
 
-Schon zum dritten Mal fanden die MOERFI-Demotage statt. MOERFI steht für Demo-Tage und **M**apping von (**OER**-**f**örderlichen) Bildungs**i**nfrastrukturen. Ziel der Demotage ist es, Ideen und erste Ansätze vorzustellen und gemeinsam weiterzudenken.
+Schon zum dritten Mal fanden die MOERFI-Demotage statt. MOERFI steht für Demo-Tage und **M**apping von (**OER**-**f**örderlichen) Bildungs**i**nfrastrukturen. Ziel der Demotage ist es, Ideen und erste Ansätze vorzustellen und gemeinsam weiterzudenken. Dabei ging es nicht nur um technische Möglichkeiten, sondern auch um die Frage, wie digitale Bildungsräume Selbstbestimmung, Teilhabe und gemeinschaftliches Lernen ermöglichen können. Welche Rolle spielen dabei offene Bildungsressourcen und vernetzte Communities?
 
-Dabei ging es nicht nur um technische Möglichkeiten, sondern auch um die Frage, wie digitale Bildungsräume Selbstbestimmung, Teilhabe und gemeinschaftliches Lernen ermöglichen können. Welche Rolle spielen dabei offene Bildungsressourcen und vernetzte Communities?
+Die gesamte Dokumentation der MOERFI-Demotage findet ihr [hier](https://www.oer-strategie.de/vernetzen/moerfi/).
 
 ## Pre-Conference: Wie bleiben offene Bildungsansätze nachhaltig wirksam?
 
@@ -38,6 +132,8 @@ Die Diskussion machte deutlich, wie wichtig es ist, junge Menschen nicht nur als
 
 Beim Gallery Walk stand „Edufeed im Aufbruch“ im Mittelpunkt: Vorgestellt wurden Prototypen aus den Förderprogrammen OE_Sprints und OE_Space.
 
+![Edufeed-Poster](IMG_3605.jpeg)
+
 Die Idee hinter Edufeed: Digitale Bildungsangebote besser miteinander verbinden und einen offenen Raum für Lernen, Lehren und Zusammenarbeit schaffen. Denn bislang sind Bildungscommunities und Plattformen häufig fragmentiert. Materialien, Diskussionen, Projekte und Veranstaltungstermine verteilen sich auf unterschiedliche Orte und Systeme. Edufeed basiert auf NOPE (Nostr Open Protocol for Education) und ermöglicht eine dezentrale Infrastruktur für den plattformübergreifenden Austausch von Inhalten und Kommunikation, ohne an einen einzelnen Anbieter gebunden zu sein.
 
 Zwischen August 2025 und April 2026 wurden dazu verschiedene Prototypen entwickelt:
@@ -52,24 +148,19 @@ Zwischen August 2025 und April 2026 wurden dazu verschiedene Prototypen entwicke
 
 Die Prototypen sind offen lizenziert und können genutzt, angepasst und weiterentwickelt werden. Die entsprechenden Projekte sind auf [GitHub](https://github.com/edufeed-org ) zu finden.
 
-Mehr dazu: https://edufeed.org/ 
+Mehr dazu: [https://edufeed.org/](https://edufeed.org/) 
 
-Weiterführende Informationen: https://pad.edufeed.org/s/TS0LZ30MQW
+Weiterführende Informationen im [Pad](https://pad.edufeed.org/s/TS0LZ30MQW).
 
-Zum Poster: https://edufeed.org/naddr1qvzqqqr4hcpzqxxmdjh926ycqq2v7mgu5cszlsxtmwulykgm8yg3pge9vg2lqyeqqyw8wumn8ghj7ctdvgkhyetvv9ujuetyw4nx2ety9ehhyee0qy2hwumn8ghj7un9d3shjtnyv9kh2uewd9hj7qgswaehxw309ahx7um5wghx6mmd9uqqsemhd9hrjure0q505zjj
+Zum [Poster](https://edufeed.org/naddr1qvzqqqr4hcpzqxxmdjh926ycqq2v7mgu5cszlsxtmwulykgm8yg3pge9vg2lqyeqqyw8wumn8ghj7ctdvgkhyetvv9ujuetyw4nx2ety9ehhyee0qy2hwumn8ghj7un9d3shjtnyv9kh2uewd9hj7qgswaehxw309ahx7um5wghx6mmd9uqqsemhd9hrjure0q505zjj)
 
 Die vorgestellten Ansätze zeigen, dass offene Bildungsinfrastrukturen mehr sein können als eine technische Lösung für den Austausch von Materialien. Sie schaffen auch Voraussetzungen dafür, dass Menschen über Plattformgrenzen hinweg miteinander in Kontakt kommen, Wissen teilen und gemeinsam arbeiten können. Damit greifen sie eine zentrale Frage des Impulsvortrags von Isa Jahnke auf: Wie lassen sich digitale Lernumgebungen gestalten, die neben dem Zugang zu Inhalten auch soziale Interaktionen und gemeinschaftliche Lernprozesse ermöglichen?
 
 ## Markt der Möglichkeiten: Offene Ansätze zum Ausprobieren
 
-Auch auf dem Markt der Möglichkeiten gab es einiges zu entdecken. FOERBICO stellte ein interaktives, modulares Baukastensystem für die Unterrichtsplanung vor.
+Auch auf dem Markt der Möglichkeiten gab es einiges zu entdecken. FOERBICO stellte ein interaktives, modulares Baukastensystem für die Unterrichtsplanung vor. Im Mittelpunkt steht dabei die Verbindung von fachlicher Grundlage, Lehrplanbezug und konkreter Unterrichtspraxis: Ausgehend von einem Artikel entstehen ein Verlaufsplan und passende Arbeitsblätter, die anschließend auf die eigene Lerngruppe angepasst werden können. Demnächst werden weitere Termine für alle Interessierten zum Ausprobieren im [relilab](https://relilab.org/termine/) angeboten - herzliche Einladung dabei zu sein!
 
-
-
-Mit KI-NOPE wurde außerdem eine offene, KI-gestützte Bildungsinfrastruktur präsentiert, die auf dem offenen Nostr-Protokoll und dem Model Context Protocol (MCP) aufbaut.
-
-[Hier noch Steffens Ergänzung zu KI-NOPE einfügen.]
-
+![](IMG_3603.jpeg)
 
 ## Hands-on Edufeed – Offene Bildungsnetzwerke ausprobieren, nutzen und mitgestalten
 
@@ -89,7 +180,6 @@ An drei Thementischen konnten die Teilnehmenden verschiedene Funktionen ausprobi
 
 Die Präsentation zum Workshop gibt es [hier](https://pad.edufeed.org/VtV1WQEsTN-3HHRwiWN73Q).
 
-
 ## Fazit
 
 Der 3. MOERFI-Demotag hat viele spannende Ansätze, konkrete Prototypen und neue Perspektiven zusammengebracht. Besonders wertvoll war der Austausch darüber, wie offene Bildungsinfrastrukturen gestaltet werden können, damit sie Vernetzung, Zusammenarbeit und gemeinsames Lernen tatsächlich unterstützen.
@@ -98,6 +188,6 @@ Die Diskussionen haben gezeigt: Offene Bildungsressourcen, dezentrale Infrastruk
 
 Wie sich offene Bildungspraktiken und OER-Ökosysteme nachhaltig stärken lassen und welche Rolle dabei Communitys und Vernetzung spielen, möchten wir auch bei der FOERBICO-Abschlusstagung „Offen. Vernetzt. Zukunft. – Open Education in (religionsbezogenen) Communitys“ weiterdiskutieren. Die Tagung findet **am 2. und 3. Februar 2027** an der Goethe-Universität Frankfurt statt. Wir freuen uns darauf, die beim MOERFI-Demotag begonnenen Gespräche dort fortzuführen und gemeinsam Perspektiven für die Zukunft offener Bildung zu entwickeln.
 
-Weitere Informationen & Anmeldung unter https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung.
+Weitere Informationen & **Anmeldung bis 22.01.2027** findet ihr [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung).
 
 Vielen Dank an alle Beteiligten für die inspirierenden Impulse, die offenen Diskussionen und den gemeinsamen Blick auf die nächsten Schritte!
