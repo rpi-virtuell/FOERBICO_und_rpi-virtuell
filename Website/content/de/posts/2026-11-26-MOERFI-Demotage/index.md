@@ -158,7 +158,7 @@ Die vorgestellten Ansätze zeigen, dass offene Bildungsinfrastrukturen mehr sein
 
 ## Markt der Möglichkeiten: Offene Ansätze zum Ausprobieren
 
-Auch auf dem Markt der Möglichkeiten gab es einiges zu entdecken. FOERBICO stellte ein interaktives, modulares Baukastensystem für die Unterrichtsplanung vor. Im Mittelpunkt steht dabei die Verbindung von fachlicher Grundlage, Lehrplanbezug und konkreter Unterrichtspraxis: Ausgehend von einem Artikel entstehen ein Verlaufsplan und passende Arbeitsblätter, die anschließend auf die eigene Lerngruppe angepasst werden können. Demnächst werden weitere Termine für alle Interessierten zum Ausprobieren im [relilab](https://relilab.org/termine/) angeboten - herzliche Einladung dabei zu sein!
+Auch auf dem Markt der Möglichkeiten gab es einiges zu entdecken. FOERBICO stellte dabei ein interaktives, modulares Baukastensystem für die Unterrichtsplanung vor, entwickelt von Phillip Angelina (FAU Erlangen-Nürnberg) und Corinna Link (Comenius-Institut). Im Mittelpunkt steht dabei die Verbindung von fachlicher Grundlage, Lehrplanbezug und konkreter Unterrichtspraxis: Ausgehend von einem Artikel entstehen ein Verlaufsplan und passende Arbeitsblätter, die anschließend auf die eigene Lerngruppe angepasst werden können. Demnächst werden weitere Termine für alle Interessierten zum Ausprobieren im [relilab](https://relilab.org/termine/) angeboten - herzliche Einladung dabei zu sein!
 
 ![](IMG_3603.jpeg)
 
