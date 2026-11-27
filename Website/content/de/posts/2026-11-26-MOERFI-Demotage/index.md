@@ -92,6 +92,24 @@ bilder:
     licence: CC BY 4.0
     licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
     keywords: ['Gallery Walk', 'Edufeed', 'Poster', 'MOERFI', 'Demotage', 'smartvillage', 'Berlin']
+  attatchment.nMQrNZ.jpg:
+    alt: 'Markstand vom FOERBICO-Projekt beim Markt der Möglichkeiten der MOERFI-Demotage 2026 im smartvillage Berlin mit Vorstellung des Syslex-Baukastens als Online-Tool zur Unterrichtsplanung'
+    title: Vorstellung OER-Baukasten beim Markt der Möglichkeiten
+    sourceUrl: https://oer.community/moerfi-demotage-2026
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
+    keywords: ['markstand', 'FOERBICO', 'Stehtisch', 'MOERFI', 'Demotage', 'smartvillage', 'Berlin', 'OER-Baukasten', 'Unterrichtsplanung', 'Syslex']
+  attatchment.SS2mrW.jpg:
+    alt: 'Gina und Phillip vom FOERBICO-Team bei den MOERFI-Demotagen im smartvillage Berlin'
+    title: Gina und Phillip vom FOERBICO-Team
+    sourceUrl: https://oer.community/moerfi-demotage-2026
+    author: FOERBICO
+    authorUrl: https://oer.community/
+    licence: CC BY 4.0
+    licenceUrl: https://creativecommons.org/licenses/by/4.0/deed.de
+    keywords: ['FOERBICO', 'Team', 'Vernetzung', 'MOERFI', 'Demotage', 'smartvillage', 'Berlin']
 ---
 
 „Was inspiriert uns?“ Mit dieser Frage eröffnete Katja Stamm vom Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend (BMBFSFJ) den 3. MOERFI-Demotag im smartvillage Berlin. Eine Frage, die den Kern der Veranstaltung ziemlich gut trifft: Wie können wir Bildungsräume schaffen, die Lernende inspirieren, ihre Bedürfnisse ernst nehmen und zeitgemäßes Lernen ermöglichen?
@@ -160,6 +178,7 @@ Die vorgestellten Ansätze zeigen, dass offene Bildungsinfrastrukturen mehr sein
 
 Auch auf dem Markt der Möglichkeiten gab es einiges zu entdecken. FOERBICO stellte dabei ein interaktives, modulares Baukastensystem für die Unterrichtsplanung vor, entwickelt von Phillip Angelina (FAU Erlangen-Nürnberg) und Corinna Link (Comenius-Institut). Im Mittelpunkt steht dabei die Verbindung von fachlicher Grundlage, Lehrplanbezug und konkreter Unterrichtspraxis: Ausgehend von einem Artikel entstehen ein Verlaufsplan und passende Arbeitsblätter, die anschließend auf die eigene Lerngruppe angepasst werden können. Demnächst werden weitere Termine für alle Interessierten zum Ausprobieren im [relilab](https://relilab.org/termine/) angeboten - herzliche Einladung dabei zu sein!
 
+![](attatchment.nMQrNZ.jpg)
 ![](IMG_3603.jpeg)
 
 ## Hands-on Edufeed – Offene Bildungsnetzwerke ausprobieren, nutzen und mitgestalten
@@ -191,3 +210,5 @@ Wie sich offene Bildungspraktiken und OER-Ökosysteme nachhaltig stärken lassen
 Weitere Informationen & **Anmeldung bis 22.01.2027** findet ihr [hier](https://www.uni-frankfurt.de/de/fachbereich-7/professuren/mediendidaktik-und-religionspaedagogik/news/foerbico-abschlusstagung).
 
 Vielen Dank an alle Beteiligten für die inspirierenden Impulse, die offenen Diskussionen und den gemeinsamen Blick auf die nächsten Schritte!
+
+![](attatchment.SS2mrW.jpg)
